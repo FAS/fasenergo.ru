@@ -1,0 +1,24 @@
+---
+url:              /404.html
+title:            ={{ gettext('404 &mdash; page not found') }}
+breadcrumbTitle:  '404'
+contentTitle:     ={{ gettext('404 &mdash; page not found') }}
+navTitle:         '404'
+metaDesc:         ={{ gettext('404 &mdash; page not found') }}
+
+class:            p-404
+showContentTitle: false
+showBreadcrumb:   false
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+  <h1 class='h-text++ h-margin-bottom+'><b>404</b> — page not found</h1>
+
+  <p>Lost? Just use magic button below:</p>
+
+  <p class='h-margin-top+'><a class='o-btn g-link--back' href='{{ localeDir() }}/'>Home</a></p>
+
+{% endblock %}

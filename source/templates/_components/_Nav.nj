@@ -1,0 +1,34 @@
+{##
+ # Display nav block
+ #
+ # @param {string} class               = 'nav nav--spacing' Class of list
+ # @param {string} itemsClass          = ''                 Class of list items
+ # @param {string} anchorsClass        = ''                 Class of anchors inside list itmes
+ # @param {string} activeClass         = 'is-active'        Class of active list item
+ # @param {number} startDepth          = 1                  From which depth nav should start
+ #                                                          to print
+ # @param {number} maxDepth            = 999999             Max amount of subnavs to print
+ # @param {bool} showInnerOnlyOnActive = false              Print subnavs only when parent
+ #                                                          is active
+ #
+ # @return {string} Generated nav
+ #
+ # @example {{ components.Nav() }}
+ #}
+{% macro Nav(
+  class                 = 'nav nav--spacing',
+  itemsClass            = '',
+  anchorsClass          = '',
+  activeClass           = 'is-active',
+  startDepth            = 1,
+  maxDepth              = 999999,
+  showInnerOnlyOnActive = false
+) %}
+  <ul class='{{ class }}'>
+
+    {% macro Item(to, label, depth = 1) %}{% call components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{{ caller() }}{% endcall %}{% endmacro %}
+
+    {% call Item('/') %}{% endcall %}
+
+  </ul>
+{% endmacro %}

@@ -1,0 +1,93 @@
+// =======================================
+// ^SETTING.COLORS.DEFAULTS
+// =======================================
+
+$ekzo-colors: (
+  primary:       kotsu-theme-color(),
+  green-white:   #e0e3da,
+  ivory:         #fffff3,
+  outer-space:   #313840,
+  black-30:      rgba(#000, .3)
+);
+
+// Extend themes via `ekzo-extend-theme` mixin
+// @example
+//   @include ekzo-extend-themes(flat, ( brand: red ) );
+
+@include ekzo-extend-themes(base, (
+
+  // ---------------------------------------
+  // Background
+  // ---------------------------------------
+
+  bg:                    ekzo-color(outer-space),
+
+  // ---------------------------------------
+  // Text
+  // ---------------------------------------
+
+  text:                   ekzo-color(green-white),
+
+  // ---------------------------------------
+  // Links
+  // ---------------------------------------
+  // @param {string|false} False to disable, color value to enable
+
+  links:                  ekzo-color(primary),
+  links-hover:            ekzo-tint(ekzo-color(primary), 20),
+
+  // ---------------------------------------
+  // Headings
+  // ---------------------------------------
+  // @param {string|false} False to disable, color value to enable
+
+  headings:               false,
+  extra-headings:         false,
+
+  // ---------------------------------------
+  // Selection
+  // ---------------------------------------
+  // @param {string|false} False to disable, color value to enable
+
+  selection:              false,
+  selection-bg:           false,
+
+  // ---------------------------------------
+  // Code
+  // ---------------------------------------
+
+  code:                  ekzo-shade(ekzo-color(green-white), 10),
+  code-bg:               ekzo-color(black-30),
+
+  // ---------------------------------------
+  // Forms
+  // ---------------------------------------
+
+  forms:                  ekzo-color(green-white),
+  forms-placeholder:      ekzo-tint(ekzo-color(outer-space), 20),
+  forms-border:           rgba(ekzo-color(green-white), .3),
+  forms-bg:               ekzo-color(outer-space),
+
+  // ---------------------------------------
+  // Horizontal line
+  // ---------------------------------------
+
+  hr:                     ekzo-tint(ekzo-color(outer-space), 10),
+
+  // ---------------------------------------
+  // Buttons
+  // ---------------------------------------
+  // @param {string|false} False to disable, color value to enable
+
+  btn:                    ekzo-color(green-white),
+  btn-bg:                 ekzo-color(primary),
+
+  // ---------------------------------------
+  // Breadcrumb
+  // ---------------------------------------
+  // @param {string|false} False to disable, color value to enable
+
+  breadcrumb-links:      ekzo-color(green-white),
+  breadcrumb-delimiters: ekzo-tint(ekzo-color(green-white), 50),
+
+));

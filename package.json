@@ -1,0 +1,92 @@
+{
+  "name": "fasenergo",
+  "version": "0.1.0",
+  "description": "Fasenergo website",
+  "homepage": "https://fasenergo.ru",
+  "twitter": "@LotusTM",
+  "author": "LotusTM (https://github.com/LotusTM)",
+  "contributors": [
+    "Serj Lavrin (https://github.com/ArmorDarks)",
+    "Mr.Hyde <npm@2bad.me>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FAS/fasenergo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FAS/fasenergo/issues"
+  },
+  "dependencies": {
+    "autoprefixer": "6.5.1",
+    "gmsmith": "1.1.2",
+    "gray-matter": "2.1.0",
+    "grunt": "1.0.1",
+    "grunt-cache-bust": "1.4.1",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-htmlmin": "2.0.0",
+    "grunt-contrib-uglify": "2.0.0",
+    "grunt-csso": "2.0.1",
+    "grunt-nunjucks-2-html": "1.0.5",
+    "grunt-postcss": "0.8.0",
+    "grunt-responsive-images": "0.1.9",
+    "grunt-sass": "1.2.1",
+    "grunt-shell": "2.0.0",
+    "grunt-sitemap-xml": "0.2.1",
+    "grunt-size-report": "0.1.3",
+    "grunt-spritesmith": "6.3.1",
+    "grunt-tinypng": "0.6.1",
+    "grunt-uncss": "0.6.1",
+    "grunt-webfont": "1.6.0",
+    "jit-grunt": "0.10.0",
+    "jspm": "0.17.0-beta.28",
+    "lodash": "4.16.6",
+    "markdown-it": "8.0.1",
+    "moment": "2.15.1",
+    "node-gettext": "1.1.0",
+    "node-sass-utils": "1.1.2",
+    "numbro": "1.9.3",
+    "nunjucks-markdown": "2.0.0",
+    "smart-plurals": "1.1.0",
+    "sprintf-js": "1.0.3",
+    "time-grunt": "1.4.0",
+    "urlify": "0.3.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.1.0",
+    "grunt-browser-sync": "2.2.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-newer": "1.2.0",
+    "grunt-standard": "2.0.0",
+    "grunt-stylelint": "0.6.0",
+    "stylelint-config-standard": "14.0.0",
+    "stylelint-scss": "1.3.4"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "jspm": {
+    "name": "kotsu",
+    "main": "main.js",
+    "dependencies": {
+      "jquery": "npm:jquery@^3.1.0"
+    },
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.13"
+    },
+    "overrides": {
+      "npm:jquery@3.1.0": {
+        "format": "amd"
+      }
+    }
+  },
+  "scripts": {
+    "test": "grunt lint && grunt build && git status | grep -E 'working (tree|directory) clean' >/dev/null || (echo 'Build task should not generate or change files outside build folder'; exit 1)"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "jspm.config.js"
+    ]
+  }
+}

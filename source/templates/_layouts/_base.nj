@@ -1,0 +1,107 @@
+{# Global placeholders values #}
+{{ config('site.placeholders', {
+  company: site.name
+}) }}
+
+{# Default configs #}
+{{ config('page', { breadcrumb : page.props.breadcrumb }) }}
+{{ config('page', getPage(page.breadcrumb).props|template(site.placeholders)) }}
+{{ config('page', {
+  class            : '',
+  applyWrapper     : false,
+  showContentTitle : true,
+  showBreadcrumb   : true,
+  showSidebar      : false
+}) }}
+{{ config('page', page.props) }}
+
+{# Global macros #}
+{% set components = {} %}
+{% for component in expand('/', '_components/{,**/}_*.nj', 'isFile', path.source.templates) %}
+  {% import component as temp with context %}{% set macro = _.assign(components, temp) %}
+{% endfor %}
+
+<!doctype html>
+<html class='{{ page.class }} t-base no-js' lang='{{ page.locale }}' {{ 'dir=\'rtl\'' if page.rtl }}>
+
+<head>
+
+  <meta charset='utf-8'>
+
+  <!-- IE compatibility -->
+  <meta http-equiv='x-ua-compatible' content='ie=edge'>
+
+  <title>{{ page.title if page.title else site.name }}</title>
+
+  <!-- Description -->
+  <meta name='description' content='{{ page.metaDesc }}'>
+
+  <!-- Mobile devices -->
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <!-- Fonts -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&amp;subset=latin,cyrillic'>
+
+  <!-- CSS -->
+  <link rel='stylesheet' href='/{{ path.styles }}/{{ 'style.min.css' if env.production else 'style.prefixed.css' }}'>
+
+  <!-- Theme -->
+  <meta name='theme-color' content='{{ site.themeColor }}'>
+
+  <!-- Sitemap -->
+  <link rel='sitemap' type='application/xml' title='Sitemap' href='/sitemap.xml'>
+
+  {# <!-- RSS -->
+  <link rel='alternate' type='application/rss+xml' title='RSS' href='/rss.xml'> #}
+
+  <!-- Facebook Open Graph -->
+  <meta property='og:type'        content='website'>
+  <meta property='og:site_name'   content='{{ site.name }}'>
+  <meta property='og:locale'      content='{{ page.isoLocale }}'>
+  <meta property='og:url'         content='{{ site.homepage }}{{ localeDir() }}{{ page.url }}'>
+  <meta property='og:title'       content='{{ page.title if page.title else site.name }}'>
+  <meta property='og:description' content='{{ page.metaDesc if page.metaDesc else site.desc }}'>
+  <meta property='og:image'       content='{{ site.homepage }}/{{ path.images }}/facebook.png'>
+
+  <!-- Twitter Card -->
+  <meta name='twitter:card'        content='summary'>
+  <meta name='twitter:site'        content='{{ site.twitter }}'>
+  <meta name='twitter:creator'     content='{{ site.twitter }}'>
+  <meta name='twitter:url'         content='{{ site.homepage }}{{ localeDir() }}{{ page.url }}'>
+  <meta name='twitter:title'       content='{{ page.title if page.title else site.name }}'>
+  <meta name='twitter:description' content='{{ page.metaDesc if page.metaDesc else site.desc }}'>
+  <meta name='twitter:image'       content='{{ site.homepage }}/{{ path.images }}/twitter.png'>
+  <meta name='twitter:image:alt'   content='{{ page.title if page.title else site.name }}'>
+
+  <!-- Alternate urls -->
+  {% for locale in site.locales %}
+  <link rel='alternate' hreflang='{{ locale.locale }}' href='{{ site.homepage }}{{ localeDir(locale.locale) }}{{ page.url }}'>
+  {% if locale.defaultForLanguage %}
+  <link rel='alternate' hreflang='{{ locale.locale|langcode }}' href='{{ site.homepage }}{{ localeDir(locale.locale) }}{{ page.url }}'>
+  {% endif %}
+  {% endfor %}
+
+  <!-- Authors -->
+  <link rel='author' href='/humans.txt'>
+
+  {{ components.IE(version = 'lte IE 9') }}
+
+</head>
+
+<body class='o-container o-container--max'>
+
+  {{ components.OutdatedBrowser(version = 'lte IE 9') }}
+
+  {% block body %}{% endblock %}
+
+  <!-- Scripts -->
+  <!-- ======= -->
+
+  <script src='/{{ path.scripts }}/{{ 'main.min.js' if env.production else 'main.js' }}'></script>
+
+  {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
+  {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
+
+</body>
+
+</html>

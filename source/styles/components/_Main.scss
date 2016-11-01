@@ -1,0 +1,12 @@
+// stylelint-disable selector-no-type
+
+// =======================================
+// ^MAIN
+// =======================================
+
+.Main {
+
+  p:last-child,
+  ul:last-child { margin-bottom: 0; }
+
+}

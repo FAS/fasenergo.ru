@@ -1,0 +1,29 @@
+// =======================================
+// ^WRAPPER
+// =======================================
+
+.Wrapper {
+  padding-left:  ekzo-space(1);
+  padding-right: ekzo-space(1);
+}
+
+// ----
+// Base width of website
+
+.Wrapper--contain {
+  min-width: 320px;
+  max-width: 1280px;
+
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+// ----
+// Limit to ~80 characters per line
+
+.Wrapper--readable {
+  max-width: 34em;
+
+  margin-left:  auto;
+  margin-right: auto;
+}

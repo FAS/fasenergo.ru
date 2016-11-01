@@ -1,0 +1,20 @@
+---
+url:              /
+title:            ={{ gettext('Kotsu Web Starter Kit') }}
+breadcrumbTitle:  ={{ gettext('Home') }}
+contentTitle:     ={{ gettext('Home') }}
+navTitle:         ={{ gettext('Home') }}
+metaDesc:         ={{ gettext('Generated with %(company)s demo homepage') }}
+
+class:            p-index
+showContentTitle: false
+showBreadcrumb:   false
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+  Content
+
+{% endblock %}
