@@ -55,13 +55,13 @@
           {% endif %}
 
           {% if page.showContentTitle %}
-          <h1 class='Content-title h-margin-bottom0'>{{ page.contentTitle }}</h1>
+          <h1 class='Content-title h-margin-bottom+'>{{ page.contentTitle }}</h1>
           {% endif %}
 
         </header>
         {% endif %}
 
-        <div class='Content'>
+        <div class='Content s-white'>
           {% block main %}{% endblock %}
         </div>
 
