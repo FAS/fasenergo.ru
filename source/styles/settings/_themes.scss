@@ -35,6 +35,9 @@ $ekzo-colors: (
   links:                  ekzo-color(primary),
   links-hover:            ekzo-tint(ekzo-color(primary), 20),
 
+  s-white-links:                  ekzo-color(tertiary),
+  s-white-links-hover:            ekzo-color(primary),
+
   // ---------------------------------------
   // Headings
   // ---------------------------------------
@@ -43,13 +46,16 @@ $ekzo-colors: (
   headings:               false,
   extra-headings:         false,
 
+  s-white-headings-h1:    ekzo-color(secondary),
+  s-white-headings:       ekzo-color(tertiary),
+
   // ---------------------------------------
   // Selection
   // ---------------------------------------
   // @param {string|false} False to disable, color value to enable
 
-  selection:              false,
-  selection-bg:           false,
+  selection:              ekzo-color(white),
+  selection-bg:           ekzo-color(primary),
 
   // ---------------------------------------
   // Code
