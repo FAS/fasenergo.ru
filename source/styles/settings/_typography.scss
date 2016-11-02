@@ -12,7 +12,7 @@
 // Root font size
 // Used for rhythm calculations. Recommended to keep in pxs
 
-$ekzo-font-size: 14px;
+$ekzo-font-size: 16px;
 
 // ----
 // Font-size variations
@@ -21,15 +21,15 @@ $ekzo-font-sizes: (
 
   text: (
     '':   $ekzo-font-size, // = .h-text,  .h-font-size,   .h-line-height
-    '-':  12px,            // = .h-text-, .h-font-size-,  .h-line-height-
-    '--': 10px,            // = .h-text--,.h-font-size--, .h-line-height--
+    '-':  14px,            // = .h-text-, .h-font-size-,  .h-line-height-
+    '--': 12px,            // = .h-text--,.h-font-size--, .h-line-height--
   ),
 
   headings: (
-    h1: 36px, // = h1, .h-h1, .h-font-size--h1, .h-line-height--h1
+    h1: 48px, // = h1, .h-h1, .h-font-size--h1, .h-line-height--h1
     h2: 30px, // = h2, .h-h2, .h-font-size--h2, .h-line-height--h2
     h3: 24px, // = h3, .h-h3, .h-font-size--h3, .h-line-height--h3
-    h4: 21px, // = h4, .h-h4, .h-font-size--h4, .h-line-height--h4
+    h4: 22px, // = h4, .h-h4, .h-font-size--h4, .h-line-height--h4
     h5: 18px, // = h5, .h-h5, .h-font-size--h5, .h-line-height--h5
     h6: 16px, // = h6, .h-h6, .h-font-size--h6, .h-line-height--h6
   ),
