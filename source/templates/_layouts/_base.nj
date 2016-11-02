@@ -10,8 +10,7 @@
   class            : '',
   applyWrapper     : false,
   showContentTitle : true,
-  showBreadcrumb   : true,
-  showSidebar      : false
+  showBreadcrumb   : true
 }) }}
 {{ config('page', page.props) }}
 
