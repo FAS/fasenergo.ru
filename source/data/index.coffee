@@ -18,7 +18,7 @@ module.exports = (grunt) ->
     site:
       name: pkg.name
       desc: pkg.description
-      themeColor: '#a593e0'
+      themeColor: '#252f38'
       homepage: pkg.homepage
       twitter: pkg.twitter
       version: pkg.version

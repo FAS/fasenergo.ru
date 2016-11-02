@@ -3,11 +3,10 @@
 // =======================================
 
 $ekzo-colors: (
-  primary:       kotsu-theme-color(),
-  green-white:   #e0e3da,
-  ivory:         #fffff3,
-  outer-space:   #313840,
-  black-30:      rgba(#000, .3)
+  primary:       #ef4324,
+  secondary:     kotsu-theme-color(),
+  tertiary:      #4e5b69,
+  white:         #ffffff
 );
 
 // Extend themes via `ekzo-extend-theme` mixin
@@ -20,13 +19,13 @@ $ekzo-colors: (
   // Background
   // ---------------------------------------
 
-  bg:                    ekzo-color(outer-space),
+  bg:                    ekzo-color(secondary),
 
   // ---------------------------------------
   // Text
   // ---------------------------------------
 
-  text:                   ekzo-color(green-white),
+  text:                   ekzo-color(secondary),
 
   // ---------------------------------------
   // Links
@@ -56,38 +55,38 @@ $ekzo-colors: (
   // Code
   // ---------------------------------------
 
-  code:                  ekzo-shade(ekzo-color(green-white), 10),
-  code-bg:               ekzo-color(black-30),
+  code:                  ekzo-shade(ekzo-color(white), 10),
+  code-bg:               ekzo-color(secondary),
 
   // ---------------------------------------
   // Forms
   // ---------------------------------------
 
-  forms:                  ekzo-color(green-white),
-  forms-placeholder:      ekzo-tint(ekzo-color(outer-space), 20),
-  forms-border:           rgba(ekzo-color(green-white), .3),
-  forms-bg:               ekzo-color(outer-space),
+  forms:                  ekzo-color(secondary),
+  forms-placeholder:      ekzo-tint(ekzo-color(secondary), 20),
+  forms-border:           ekzo-color(tertiary),
+  forms-bg:               ekzo-color(white),
 
   // ---------------------------------------
   // Horizontal line
   // ---------------------------------------
 
-  hr:                     ekzo-tint(ekzo-color(outer-space), 10),
+  hr:                     rgba(ekzo-color(secondary), .2),
 
   // ---------------------------------------
   // Buttons
   // ---------------------------------------
   // @param {string|false} False to disable, color value to enable
 
-  btn:                    ekzo-color(green-white),
-  btn-bg:                 ekzo-color(primary),
+  btn:                    ekzo-color(tertiary),
+  btn-bg:                 ekzo-color(white),
 
   // ---------------------------------------
   // Breadcrumb
   // ---------------------------------------
   // @param {string|false} False to disable, color value to enable
 
-  breadcrumb-links:      ekzo-color(green-white),
-  breadcrumb-delimiters: ekzo-tint(ekzo-color(green-white), 50),
+  breadcrumb-links:      ekzo-color(tertiary),
+  breadcrumb-delimiters: rgba(ekzo-color(secondary), .2),
 
 ));
