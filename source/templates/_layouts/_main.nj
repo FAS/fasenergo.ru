@@ -1,92 +1,83 @@
 {% extends '_layouts/_base.nj' %}
 
 {% block body %}
+<div class='o-grid o-container__flex'>
 
+  <div class='o-grid__item h-1/5 h-padding'>
 
-  <!-- Site's header -->
-  <!-- ============= -->
+    <!-- Site's header -->
+    <!-- ============= -->
 
-  <header class='Header o-container__fixed h-margin-ends'>
-    <div class='Wrapper Wrapper--contain'>
-      <div class='o-grid h-flex-y--center h-childs-displace'>
+    <header class='Header h-margin-bottom'>
+      <a class='Logo h-h1' href='{{ localeDir() }}/'>{{ site.name }}</a>
+      <p>Производитель газовых генераторов №1 в России</p>
+    </header>
 
-        <div class='o-grid__item'>
-          <a class='Logo h-h1 h-text--underline0' href='{{ localeDir() }}/'>{{ site.name }}</a>
-        </div>
+    <!--noindex-->
+    <nav class='Nav h-margin-ends+'>
+      {{ components.Nav(
+        class        = 'o-nav o-nav--stacked',
+        itemsClass   = 'Nav__item',
+        anchorsClass = 'Nav__link h-text--underline0',
+        activeClass  = 'is-active'
+      ) }}
+    </nav>
+    <!--/noindex-->
 
-        <div class='o-grid__item h-flex+'>
-          <!--noindex-->
-          <nav class='Nav h-float--right'>
-            {{ components.Nav(
-              class        = 'o-nav h-childs-space-left',
-              itemsClass   = 'Nav__item',
-              anchorsClass = 'Nav__link h-text--underline0',
-              activeClass  = 'is-active'
-            ) }}
-          </nav>
-          <!--/noindex-->
-        </div>
+    <aside>
+      <p><a href='tel:'>(812) 318-75-75</a></p>
+      <p><a href=''>Заказать звонок</a></p>
+      <p><button>Где купить?</button></p>
+    </aside>
 
-      </div>
-    </div>{# /Wrapper #}
-  </header>{# /Header #}
+  </div>
 
+  <div class='o-grid__item h-4/5 h-bg-color--white o-container'>
 
-  <!-- Site's content -->
-  <!-- ============== -->
+    <!-- Site's content -->
+    <!-- ============== -->
 
-  <main class='Main o-container__flex o-container' role='main'>
-    <article class='o-container o-container__flex h-1/1 {{ 'Wrapper Wrapper--contain' if not page.applyWrapper }}'>
+    <main class='Main o-container__flex o-container' role='main'>
+      <article class='o-container o-container__flex h-padding+'>
 
-      {% if page.showBreadcrumb or page.showContentTitle %}
-      <header class='Content-header'>
+        {% if page.showBreadcrumb or page.showContentTitle %}
+        <header class='Content-header'>
 
-        {% if page.showBreadcrumb %}
-        {{ components.Breadcrumb(
-          class           = 'o-breadcrumb o-breadcrumb--rev h-text- h-flex-x--center',
-          itemsClass      = 'Nav__item o-breadcrumb__item',
-          anchorsClass    = 'Nav__link h-text--underline0',
-          rootItemClass   = 'h-font-weight--bolder',
-          rootAnchorClass = '',
-          displayLast     = false
-        ) }}
+          {% if page.showBreadcrumb %}
+          {{ components.Breadcrumb(
+            class           = 'o-breadcrumb o-breadcrumb--rev h-margin-bottom+',
+            itemsClass      = 'o-breadcrumb__item',
+            anchorsClass    = '',
+            rootItemClass   = '',
+            rootAnchorClass = '',
+            displayLast     = false
+          ) }}
+          {% endif %}
+
+          {% if page.showContentTitle %}
+          <h1 class='Content-title h-margin-bottom0'>{{ page.contentTitle }}</h1>
+          {% endif %}
+
+        </header>
         {% endif %}
 
-        {% if page.showContentTitle %}
-        <h1 class='Content-title h-align--center h-margin-bottom0'>{{ page.contentTitle }}</h1>
-        {% endif %}
-
-      </header>
-      {% endif %}
-
-      <div class='o-grid o-container__flex {{ 'h-childs-displace+' if page.showSidebar}}'>
-
-        <div class='Content o-grid__item {{ 'h-1/1' if not page.showSidebar else 'h-9/12' }} h-margin-top'>
+        <div class='Content'>
           {% block main %}{% endblock %}
-        </div>{# /grid__item #}
+        </div>
 
-        {% if page.showSidebar %}
-        <aside class='Sidebar o-grid__item h-3/12 h-margin-top'>
-          {% block sidebar %}{% endblock %}
-        </aside>{# /grid__item #}
-        {% endif %}
+      </article>
+    </main>
 
-      </div>{# /grid #}
+    <!-- Site's footer -->
+    <!-- ============= -->
 
-    </article>
-  </main>{# /Main #}
+    <!--/noindex-->
+    <footer class='Footer h-bg-color--tertiary o-container__fixed h-padding+'>
+      © 2014–{{ data.currentYear }}
+    </footer>
+    <!--/noindex-->
 
+  </div>
 
-  <!-- Site's footer -->
-  <!-- ============= -->
-
-  <!--/noindex-->
-  <footer class='Footer o-container__fixed h-padding-ends'>
-    <div class='Wrapper Wrapper--contain'>
-      © 2014–{{ data.currentYear }} {{ site.name }}  {{ site.version }}
-    </div>{# /Wrapper #}
-  </footer>{# /Footer #}
-  <!--/noindex-->
-
-
+</div>
 {% endblock %}
