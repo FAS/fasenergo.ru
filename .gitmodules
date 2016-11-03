@@ -3,4 +3,4 @@
   url = https://github.com/ArmorDarks/ekzo.git
 [submodule "craft/core"]
 	path = craft/core
-	url = ../../LotusTM/craft-core.git
+	url = https://github.com/LotusTM/craft-core.git
