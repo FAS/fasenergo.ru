@@ -1,3 +1,6 @@
 [submodule "source/styles/ekzo"]
   path = source/styles/ekzo
   url = https://github.com/ArmorDarks/ekzo.git
+[submodule "craft/core"]
+	path = craft/core
+	url = ../../LotusTM/craft-core.git
