@@ -1,0 +1,18 @@
+// stylelint-disable declaration-no-important, selector-max-compound-selectors, selector-no-type
+// @note We need `!important` here to properly redefine helpers in this layer
+
+// =======================================
+// ^Tertiary
+// =======================================
+
+.#{$ekzo-s-ns}tertiary {
+  @include ekzo-theme() { color: ekzo-theme(s-tertiary-text); }
+
+  a {
+    @include ekzo-theme() { color: ekzo-theme(s-tertiary-links); }
+
+    &:hover,
+    &:focus { @include ekzo-theme() { color: ekzo-theme(s-tertiary-links-hover) }; }
+  }
+
+}

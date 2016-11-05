@@ -6,7 +6,8 @@ $ekzo-colors: (
   primary:       #ef4324,
   secondary:     kotsu-theme-color(),
   tertiary:      #4e5b69,
-  white:         #ffffff
+  white:         #ffffff,
+  cascade:       #8db0ab
 );
 
 // Extend themes via `ekzo-extend-theme` mixin
@@ -27,6 +28,8 @@ $ekzo-colors: (
 
   text:                   ekzo-color(secondary),
 
+  s-tertiary-text:        ekzo-color(white),
+
   // ---------------------------------------
   // Links
   // ---------------------------------------
@@ -35,8 +38,11 @@ $ekzo-colors: (
   links:                  ekzo-color(primary),
   links-hover:            ekzo-tint(ekzo-color(primary), 20),
 
-  s-white-links:                  ekzo-color(tertiary),
-  s-white-links-hover:            ekzo-color(primary),
+  s-tertiary-links:       ekzo-color(cascade),
+  s-tertiary-links-hover: ekzo-color(primary),
+
+  s-white-links:          ekzo-color(tertiary),
+  s-white-links-hover:    ekzo-color(primary),
 
   // ---------------------------------------
   // Headings
