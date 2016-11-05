@@ -31,6 +31,7 @@ module.exports = (grunt) ->
       production: '<%= env.production %>'
     data:
       currentYear: new Date().getFullYear()
+      contacts: require('./contacts')
 
   return (locale) ->
 

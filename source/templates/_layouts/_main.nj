@@ -1,6 +1,14 @@
 {% extends '_layouts/_base.nj' %}
 
 {% block body %}
+
+{% set e = data.contacts.sale.phones.main %}
+{% set phone = '(' + e.city + ')&nbsp;' + e.tel[0] + '-' + e.tel[1] + '-' + e.tel[2] %}
+{% set phonePlain = e.city + e.tel[0] + e.tel[1] + e.tel[2] %}
+
+{% set e = data.contacts.sale.emails.main %}
+{% set email = e.value[0] + '@' + e.value[1] %}
+
 <div class='o-grid o-container__flex'>
 
   <div class='o-grid__item h-1/5 h-padding s-secondary'>
@@ -25,7 +33,7 @@
     <!--/noindex-->
 
     <aside>
-      <p><a href='tel:'>(812) 318-75-75</a></p>
+      <p><a href='tel:{{ phonePlain }}'>{{ phone }}</a></p>
       <p><a href=''>Заказать звонок</a></p>
       <p><button>Где купить?</button></p>
     </aside>
@@ -88,8 +96,8 @@
             <input type='search' placeholder='Что вас интересует?' class='h-1/1' />
           </form>
 
-          <p class='h-margin-bottom-- h-h5'><b><a href=''>(812) 318-75-75</a></b></p>
-          <p><a href=''>email</a></p>
+          <p class='h-margin-bottom-- h-h5'><b><a href='tel:{{ phonePlain }}'>{{ phone }}</a></b></p>
+          <p><a href='mailto:{{ email }}'>{{ email }}</a></p>
 
         </div>
 
