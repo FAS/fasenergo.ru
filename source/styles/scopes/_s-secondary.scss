@@ -2,20 +2,20 @@
 // @note We need `!important` here to properly redefine helpers in this layer
 
 // =======================================
-// ^Tertiary
+// ^Secondary
 // =======================================
 
-.#{$ekzo-s-ns}tertiary {
+.#{$ekzo-s-ns}secondary {
   @include ekzo-theme() {
-    color: ekzo-theme(s-tertiary-text);
-    background-color: ekzo-theme(s-tertiary-bg);
+    color: ekzo-theme(s-secondary-text);
+    background-color: ekzo-theme(s-secondary-bg);
   }
 
   a {
-    @include ekzo-theme() { color: ekzo-theme(s-tertiary-links); }
+    @include ekzo-theme() { color: ekzo-theme(s-secondary-links); }
 
     &:hover,
-    &:focus { @include ekzo-theme() { color: ekzo-theme(s-tertiary-links-hover) }; }
+    &:focus { @include ekzo-theme() { color: ekzo-theme(s-secondary-links-hover) }; }
   }
 
 }

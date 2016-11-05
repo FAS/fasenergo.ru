@@ -21,13 +21,15 @@ $ekzo-colors: (
   // ---------------------------------------
 
   bg:                    ekzo-color(secondary),
+  s-secondary-bg:        ekzo-color(secondary),
+  s-tertiary-bg:         ekzo-color(tertiary),
 
   // ---------------------------------------
   // Text
   // ---------------------------------------
 
   text:                   ekzo-color(secondary),
-
+  s-secondary-text:       ekzo-color(white),
   s-tertiary-text:        ekzo-color(white),
 
   // ---------------------------------------
@@ -38,7 +40,10 @@ $ekzo-colors: (
   links:                  ekzo-color(primary),
   links-hover:            ekzo-tint(ekzo-color(primary), 20),
 
-  s-tertiary-links:       ekzo-color(cascade),
+  s-secondary-links:       ekzo-color(cascade),
+  s-secondary-links-hover: ekzo-color(primary),
+
+  s-tertiary-links:       ekzo-color(white),
   s-tertiary-links-hover: ekzo-color(primary),
 
   s-white-links:          ekzo-color(tertiary),

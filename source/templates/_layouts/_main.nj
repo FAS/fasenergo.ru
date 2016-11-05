@@ -3,7 +3,7 @@
 {% block body %}
 <div class='o-grid o-container__flex'>
 
-  <div class='o-grid__item h-1/5 h-padding s-tertiary'>
+  <div class='o-grid__item h-1/5 h-padding s-secondary'>
 
     <!-- Site's header -->
     <!-- ============= -->
@@ -72,7 +72,7 @@
     <!-- ============= -->
 
     <!--/noindex-->
-    <footer class='Footer h-bg-color--tertiary o-container__fixed h-padding+'>
+    <footer class='Footer s-tertiary o-container__fixed h-padding+'>
       © 2014–{{ data.currentYear }}
     </footer>
     <!--/noindex-->
