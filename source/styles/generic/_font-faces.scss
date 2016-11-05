@@ -3,26 +3,50 @@
 // ^FONTS
 // =======================================
 
-// @include ekzo-font-face(
-//   $font:      'Myriad Pro Web',
-//   $version:   false,
-//   $file-name: MyriadPro-Regular,
-//   $weight:    normal,
-//   $style:     normal
-// );
+@include ekzo-font-face(
+  $font:      'WeblySleek UI',
+  $version:   false,
+  $file-name: WeblySleekUILight/WeblySleekUILight,
+  $weight:    200,
+  $style:     normal
+);
 
-// @include ekzo-font-face(
-//   $font:      'Myriad Pro Web',
-//   $version:   false,
-//   $file-name: MyriadPro-Semibold,
-//   $weight:    600,
-//   $style:     normal
-// );
+@include ekzo-font-face(
+  $font:      'WeblySleek UI',
+  $version:   false,
+  $file-name: WeblySleekUILightItalic/WeblySleekUILightItalic,
+  $weight:    200,
+  $style:     italic
+);
 
-// @include ekzo-font-face(
-//   $font:      'Myriad Pro Web',
-//   $version:   false,
-//   $file-name: MyriadPro-Bold,
-//   $weight:    bold,
-//   $style:     normal
-// );
+@include ekzo-font-face(
+  $font:      'WeblySleek UI',
+  $version:   false,
+  $file-name: WeblySleekUISemiLight/WeblySleekUISemiLight,
+  $weight:    300,
+  $style:     normal
+);
+
+@include ekzo-font-face(
+  $font:      'WeblySleek UI',
+  $version:   false,
+  $file-name: WeblySleekUISemiLightItalic/WeblySleekUISemiLightItalic,
+  $weight:    300,
+  $style:     italic
+);
+
+@include ekzo-font-face(
+  $font:      'WeblySleek UI',
+  $version:   false,
+  $file-name: WeblySleekUISemiBold/WeblySleekUISemiBold,
+  $weight:    600,
+  $style:     normal
+);
+
+@include ekzo-font-face(
+  $font:      'WeblySleek UI',
+  $version:   false,
+  $file-name: WeblySleekUISemiBoldItalic/WeblySleekUISemiBoldItalic,
+  $weight:    600,
+  $style:     italic
+);
