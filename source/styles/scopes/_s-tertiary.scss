@@ -12,7 +12,10 @@
   }
 
   a {
-    @include ekzo-theme() { color: ekzo-theme(s-tertiary-links); }
+    @include ekzo-theme() {
+      color: ekzo-theme(s-tertiary-links);
+      border-color: ekzo-theme(s-tertiary-links-border-color);
+    }
 
     &:hover,
     &:focus { @include ekzo-theme() { color: ekzo-theme(s-tertiary-links-hover) }; }

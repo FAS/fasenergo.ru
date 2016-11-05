@@ -39,12 +39,14 @@ $ekzo-colors: (
 
   links:                  ekzo-color(primary),
   links-hover:            ekzo-tint(ekzo-color(primary), 20),
+  links-border-color:     rgba(ekzo-color(secondary), .2),
 
   s-secondary-links:       ekzo-color(cascade),
   s-secondary-links-hover: ekzo-color(primary),
 
   s-tertiary-links:       ekzo-color(white),
   s-tertiary-links-hover: ekzo-color(primary),
+  s-tertiary-links-border-color: rgba(ekzo-color(white), .4),
 
   s-white-links:          ekzo-color(tertiary),
   s-white-links-hover:    ekzo-color(primary),

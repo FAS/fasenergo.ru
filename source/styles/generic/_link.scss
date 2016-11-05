@@ -5,4 +5,8 @@
 
 a,
 .#{$ekzo-g-ns}link,
-%#{$ekzo-g-ns}link {}
+%#{$ekzo-g-ns}link {
+    border-bottom-width: 1px;
+
+  @include ekzo-theme() { border-color: ekzo-theme(links-border-color); }
+}
