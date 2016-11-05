@@ -3,14 +3,14 @@
 {% block body %}
 <div class='o-grid o-container__flex'>
 
-  <div class='o-grid__item h-1/5 h-padding'>
+  <div class='o-grid__item h-1/5 h-padding s-tertiary'>
 
     <!-- Site's header -->
     <!-- ============= -->
 
     <header class='Header h-margin-bottom'>
       <a class='Logo h-h1' href='{{ localeDir() }}/'>{{ site.name }}</a>
-      <p>Производитель газовых генераторов №1 в России</p>
+      <p class='h-text- h-font-weight--light h-margin-top--'>Производитель газовых генераторов №1 в России</p>
     </header>
 
     <!--noindex-->
