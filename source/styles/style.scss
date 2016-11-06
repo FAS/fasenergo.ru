@@ -11,7 +11,7 @@
 @import 'ekzo/helpers/typography.font-stacks';
 
 @import './temp/styles/icons';
-@import './temp/styles/sprites.map';
+// @import './temp/styles/sprites.map';
 
 // ---------------------------------------
 // Tools: functions and mixins
@@ -69,25 +69,25 @@
 // Objects
 // ---------------------------------------
 
-@import 'ekzo/objects/arrow';
+// @import 'ekzo/objects/arrow';
 @import 'ekzo/objects/breadcrumb';
 @import 'ekzo/objects/btn';
-@import 'ekzo/objects/center-inner';
-@import 'ekzo/objects/clearfix';
+// @import 'ekzo/objects/center-inner';
+// @import 'ekzo/objects/clearfix';
 @import 'ekzo/objects/container';
-@import 'ekzo/objects/extra-help';
+// @import 'ekzo/objects/extra-help';
 @import 'ekzo/objects/grid';
-@import 'ekzo/objects/hide';
+// @import 'ekzo/objects/hide';
 @import 'ekzo/objects/icon';
-@import 'ekzo/objects/iconic-list';
+// @import 'ekzo/objects/iconic-list';
 @import 'ekzo/objects/media';
 @import 'ekzo/objects/nav';
-@import 'ekzo/objects/reline-border';
-@import 'ekzo/objects/reline';
-@import 'ekzo/objects/relink';
-@import 'ekzo/objects/show-grid';
-@import 'ekzo/objects/sprite';
-@import 'ekzo/objects/tooltip';
+// @import 'ekzo/objects/reline-border';
+// @import 'ekzo/objects/reline';
+// @import 'ekzo/objects/relink';
+// @import 'ekzo/objects/show-grid';
+// @import 'ekzo/objects/sprite';
+// @import 'ekzo/objects/tooltip';
 
 // ----
 // Components
@@ -104,7 +104,7 @@
 @import 'components/Nav';
 @import 'components/Outdated-browser';
 @import 'components/Sidebar';
-@import 'components/Sprites';
+// @import 'components/Sprites';
 @import 'components/Wrapper';
 
 // ----
@@ -122,10 +122,9 @@
 // ----
 // Helpers
 
-@import 'ekzo/helpers/animations';
 @import 'ekzo/helpers/border';
 @import 'ekzo/helpers/colors';
-@import 'ekzo/helpers/colors.ui';
+// @import 'ekzo/helpers/colors.ui';
 @import 'ekzo/helpers/display';
 @import 'ekzo/helpers/flex';
 @import 'ekzo/helpers/height';
