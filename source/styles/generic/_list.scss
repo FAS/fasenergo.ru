@@ -1,0 +1,56 @@
+// =======================================
+// ^List
+// =======================================
+
+ul,
+ol {
+  $list-padding: ekzo-space();
+  $list-bullets-padding: ekzo-space(.5);
+
+  list-style-type: none;
+  padding-left: $list-padding;
+
+  > li { text-indent: - $list-bullets-padding; }
+
+  > li:before {
+    display: inline-block;
+    content: '•';
+
+    width: $list-bullets-padding;
+
+    @include ekzo-theme() { color: ekzo-theme(list-bullet) }
+  }
+
+  > li + li { margin-top: ekzo-space(); }
+
+}
+
+ol {
+  counter-reset: ol-lists;
+
+
+  > li:before {
+    counter-increment: ol-lists;
+    content: counter(ol-lists);
+
+    font-weight: 600;
+  }
+
+}
+
+.#{$ekzo-g-ns}list0,
+%#{$ekzo-g-ns}list0 {
+  list-style: none;
+
+  margin-left:   0;
+  padding-left:  0;
+  margin-bottom: 0;
+
+  > li { text-indent: 0; }
+
+  > li:before {
+    content: '';
+    width: auto;
+  }
+
+}
