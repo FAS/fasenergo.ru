@@ -17,25 +17,10 @@
     margin-bottom: ekzo-space(2);
   }
 
-  h1 { @include ekzo-theme() { color: ekzo-theme(s-white-headings-h1) }; }
-
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 { @include ekzo-theme() { color: ekzo-theme(s-white-headings) }; }
-
   ul {
 
     > li + li { margin-top: ekzo-space(); }
 
-  }
-
-  a {
-    @include ekzo-theme() { color: ekzo-theme(s-white-links) };
-
-    &:hover,
-    &:focus { @include ekzo-theme() { color: ekzo-theme(s-white-links-hover) }; }
   }
 
 }

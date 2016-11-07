@@ -10,10 +10,6 @@ $ekzo-colors: (
   cascade:       #8db0ab
 );
 
-// Extend themes via `ekzo-extend-theme` mixin
-// @example
-//   @include ekzo-extend-themes(flat, ( brand: red ) );
-
 @include ekzo-extend-themes(base, (
 
   // ---------------------------------------
@@ -21,16 +17,12 @@ $ekzo-colors: (
   // ---------------------------------------
 
   bg:                    ekzo-color(secondary),
-  s-secondary-bg:        ekzo-color(secondary),
-  s-tertiary-bg:         ekzo-color(tertiary),
 
   // ---------------------------------------
   // Text
   // ---------------------------------------
 
   text:                   ekzo-color(secondary),
-  s-secondary-text:       ekzo-color(white),
-  s-tertiary-text:        ekzo-color(white),
 
   // ---------------------------------------
   // Links
@@ -41,16 +33,6 @@ $ekzo-colors: (
   links-hover:            ekzo-tint(ekzo-color(primary), 20),
   links-border-color:     rgba(ekzo-color(secondary), .2),
 
-  s-secondary-links:       ekzo-color(cascade),
-  s-secondary-links-hover: ekzo-color(primary),
-
-  s-tertiary-links:       ekzo-color(white),
-  s-tertiary-links-hover: ekzo-color(primary),
-  s-tertiary-links-border-color: rgba(ekzo-color(white), .4),
-
-  s-white-links:          ekzo-color(tertiary),
-  s-white-links-hover:    ekzo-color(primary),
-
   // ---------------------------------------
   // Headings
   // ---------------------------------------
@@ -58,9 +40,6 @@ $ekzo-colors: (
 
   headings:               false,
   extra-headings:         false,
-
-  s-white-headings-h1:    ekzo-color(secondary),
-  s-white-headings:       ekzo-color(tertiary),
 
   // ---------------------------------------
   // Selection
@@ -108,4 +87,33 @@ $ekzo-colors: (
   breadcrumb-links:      ekzo-color(tertiary),
   breadcrumb-delimiters: rgba(ekzo-color(secondary), .2),
 
-));
+))
+
+@include ekzo-extend-themes(white, (
+  bg:             ekzo-color(white),
+
+  links:          ekzo-color(tertiary),
+  links-hover:    ekzo-color(primary),
+
+  headings-h1:    ekzo-color(secondary),
+  headings:       ekzo-color(tertiary),
+))
+
+@include ekzo-extend-themes(secondary, (
+  bg:          ekzo-color(secondary),
+
+  text:        ekzo-color(white),
+
+  links:       ekzo-color(cascade),
+  links-hover: ekzo-color(primary),
+))
+
+@include ekzo-extend-themes(tertiary, (
+  bg:                 ekzo-color(tertiary),
+
+  text:               ekzo-color(white),
+
+  links:              ekzo-color(white),
+  links-hover:        ekzo-color(primary),
+  links-border-color: rgba(ekzo-color(white), .4),
+))
