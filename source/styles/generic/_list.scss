@@ -21,8 +21,6 @@ ol {
     @include ekzo-theme() { color: ekzo-theme(list-bullet) }
   }
 
-  > li + li { margin-top: ekzo-space(); }
-
 }
 
 ol {

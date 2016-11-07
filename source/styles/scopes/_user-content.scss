@@ -17,4 +17,11 @@
     margin-bottom: ekzo-space(2);
   }
 
+  ul,
+  ol {
+
+    > li + li { margin-top: ekzo-space(); }
+
+  }
+
 }
