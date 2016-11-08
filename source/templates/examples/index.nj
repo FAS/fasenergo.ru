@@ -14,6 +14,25 @@ applyUserContent:    false
 
 {% block main %}
 
+<h2 class='h-margin-bottom+'>Elements</h2>
+
+{% call components.Example(title = 'Список') -%}
+<ul>
+  <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
+  <li>Стоимость технического обслуживания в разы ниже аналогов импортного производства.</li>
+  <li>Устойчиво работают на пропан-бутановой смеси производства РФ.</li>
+</ul>
+{% endcall %}
+
+{% call components.Example(title = 'Нумерованный список') -%}
+<ol>
+  <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
+  <li>Стоимость технического обслуживания в разы ниже аналогов импортного производства.</li>
+  <li>Устойчиво работают на пропан-бутановой смеси производства РФ.</li>
+</ol>
+{% endcall %}
+
+<hr class='h-margin-ends+'>
 <h2 class='h-margin-bottom+'>Icons and sprites</h2>
 
 {% call components.Example(title = 'Generated icons and sprites examples') -%}
