@@ -12,11 +12,11 @@
  #}
 {% macro Example(title, classes, comment = false, full = false) %}
 
-  <div class='o-grid h-childs-displace h-childs-space-top {{ 'h-childs-space-top0@tablet' if not full }}'>
+  <article class='o-grid h-childs-displace h-childs-space-top {{ 'h-childs-space-top0@tablet' if not full }} h-margin-bottom+'>
 
-    <div class='o-grid__item h-1/1 {{ 'h-2/9@tablet' if not full }}'>
+    <div class='o-grid__item h-1/1 {{ 'h-margin-bottom@tablet' if not full }}'>
 
-      {{ title }}
+      <h3 class='h-margin-bottom0'>{{ title }}</h3>
 
       {% for class in classes %}
         <code class='h-text--nowrap'>{{ class }}</code>{{ ', '  if not loop.last }}
@@ -26,16 +26,14 @@
 
     </div>
 
-    <div class='o-grid__item h-1/1 {{ 'h-2/9@tablet' if not full }}'>
+    <div class='o-grid__item h-1/1 {{ 'h-5/9@tablet' if not full }}'>
       {{ caller()|render(isCaller = true) }}
     </div>
 
-    <div class='o-grid__item h-1/1 {{ 'h-5/9@tablet' if not full }}'>
+    <div class='o-grid__item h-1/1 {{ 'h-4/9@tablet' if not full }}'>
       <pre class='h-margin-bottom0'><code>{{ caller()|forceescape }}</code></pre>
     </div>
 
-  </div>
-
-  <hr class='h-margin-ends+'>
+  </article>
 
 {% endmacro %}
