@@ -16,7 +16,7 @@ $ekzo-colors: (
   // Background
   // ---------------------------------------
 
-  bg:                    ekzo-color(secondary),
+  bg:                    ekzo-color(white),
 
   // ---------------------------------------
   // Text
@@ -96,8 +96,6 @@ $ekzo-colors: (
 ))
 
 @include ekzo-extend-themes(white, (
-  bg:             ekzo-color(white),
-
   links:          ekzo-color(tertiary),
   links-hover:    ekzo-color(primary),
 
