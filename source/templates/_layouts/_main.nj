@@ -11,7 +11,7 @@
 
 <div class='o-grid o-container__flex'>
 
-  <div class='o-grid__item h-1/5 h-padding t-secondary'>
+  <div class='Sidebar o-grid__item h-padding t-secondary'>
 
     <!-- Site's header -->
     <!-- ============= -->
@@ -40,13 +40,13 @@
 
   </div>
 
-  <div class='o-grid__item h-4/5 t-white o-container'>
+  <div class='o-grid__item h-flex+1-0% t-white o-container'>
 
     <!-- Site's content -->
     <!-- ============== -->
 
-    <main class='Main o-container__flex o-container' role='main'>
-      <article class='o-container o-container__flex h-padding+'>
+    <main class='Main {{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper--main' if page.applyWrapperMain }} h-flex-y--center o-container__flex o-container h-padding-ends+' role='main'>
+      <article class='{{ 'Wrapper--contain' if page.applyWrapperContain }} h-1/1 o-container o-container__flex'>
 
         {% if page.showBreadcrumb or page.showContentTitle %}
         <header class='Content-header'>
@@ -69,7 +69,7 @@
         </header>
         {% endif %}
 
-        <div class='Content s-user-content'>
+        <div class='Content {{ 's-user-content' if page.applyUserContent }}'>
           {% block main %}{% endblock %}
         </div>
 

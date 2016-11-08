@@ -7,10 +7,13 @@
 {{ config('page', { breadcrumb : page.props.breadcrumb }) }}
 {{ config('page', getPage(page.breadcrumb).props|template(site.placeholders)) }}
 {{ config('page', {
-  class            : '',
-  applyWrapper     : false,
-  showContentTitle : true,
-  showBreadcrumb   : true
+  class               : '',
+  applyWrapper        : true,
+  applyWrapperMain    : true,
+  applyWrapperContain : true,
+  applyUserContent    : true,
+  showContentTitle    : true,
+  showBreadcrumb      : true
 }) }}
 {{ config('page', page.props) }}
 
