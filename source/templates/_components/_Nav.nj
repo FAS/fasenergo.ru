@@ -30,6 +30,7 @@
 
     {% call Item('/') %}{% endcall %}
     {% call Item('/about') %}{% endcall %}
+    {% call Item('/examples') %}{% endcall %}
 
   </ul>
 {% endmacro %}
