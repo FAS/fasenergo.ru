@@ -80,27 +80,29 @@
     <!-- ============= -->
 
     <!--/noindex-->
-    <footer class='Footer t-tertiary o-container__fixed h-padding+'>
-      <div class='o-grid'>
+    <footer class='Footer t-tertiary o-container__fixed'>
+      <div class='{{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper--main' if page.applyWrapperMain }} h-flex h-flex-x--center h-padding-ends+'>
+        <div class='o-grid {{ 'Wrapper--contain' if page.applyWrapperContain }} h-1/1'>
 
-        <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
-          <p>Вся представленная информация на данном сайте носит информационный характер, и ни при каких условиях не является публичной или иной офертой, определяемой положениями Гражданского кодекса РФ.</p>
-          <p>Все материалы, размещённые на сайте, защищены авторским правом.</p>
-          <p>© 2006 – {{ data.currentYear }} ООО «Фасэнергомаш»</p>
-          <p>Проектирование и дизайн сайта – <a href='#'>Тектоника</a></p>
+          <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
+            <p>Вся представленная информация на данном сайте носит информационный характер, и ни при каких условиях не является публичной или иной офертой, определяемой положениями Гражданского кодекса РФ.</p>
+            <p>Все материалы, размещённые на сайте, защищены авторским правом.</p>
+            <p>© 2006 – {{ data.currentYear }} ООО «Фасэнергомаш»</p>
+            <p>Проектирование и дизайн сайта – <a href='#'>Тектоника</a></p>
+          </div>
+
+          <div class='o-grid__item h-1/3 h-align--right'>
+
+            <form class='h-margin-bottom'>
+              <input type='search' placeholder='Что вас интересует?' class='h-1/1' />
+            </form>
+
+            <p class='h-margin-bottom-- h-h5'><b><a href='tel:{{ phonePlain }}'>{{ phone }}</a></b></p>
+            <p><a href='mailto:{{ email }}'>{{ email }}</a></p>
+
+          </div>
+
         </div>
-
-        <div class='o-grid__item h-1/3 h-align--right'>
-
-          <form class='h-margin-bottom'>
-            <input type='search' placeholder='Что вас интересует?' class='h-1/1' />
-          </form>
-
-          <p class='h-margin-bottom-- h-h5'><b><a href='tel:{{ phonePlain }}'>{{ phone }}</a></b></p>
-          <p><a href='mailto:{{ email }}'>{{ email }}</a></p>
-
-        </div>
-
       </div>
     </footer>
     <!--/noindex-->
