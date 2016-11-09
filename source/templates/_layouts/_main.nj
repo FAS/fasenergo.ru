@@ -40,7 +40,7 @@
 
   </div>
 
-  <div class='o-grid__item h-flex+1-0% t-white o-container'>
+  <div class='o-grid__item h-flex+1-0% t-white o-container h-min0'>
 
     <!-- Site's content -->
     <!-- ============== -->
