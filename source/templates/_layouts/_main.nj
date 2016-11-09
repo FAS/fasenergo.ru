@@ -11,8 +11,8 @@
 
 <div class='o-grid o-container__flex'>
 
-  <div class='Sidebar o-grid__item t-secondary'>
-    <div class='Sidebar h-fixed h-overflow-y--auto h-top h-bottom h-padding'>
+  <div class='Sidebar Wrapper--sidebar o-grid__item t-secondary'>
+    <div class='Wrapper--sidebar h-fixed h-overflow-y--auto h-top h-bottom h-padding'>
 
       <!-- Site's header -->
       <!-- ============= -->
