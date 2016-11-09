@@ -42,12 +42,12 @@
     </div>
   </div>
 
-  <div class='o-grid__item h-flex+1-0% t-white o-container h-min0'>
+  <div class='o-grid__item h-flex+1-0% o-container h-min0'>
 
     <!-- Site's content -->
     <!-- ============== -->
 
-    <main class='Main {{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper--main' if page.applyWrapperMain }} h-flex-y--center o-container__flex o-container h-padding-ends+' role='main'>
+    <main class='Main {{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper--main' if page.applyWrapperMain }} h-flex-y--center o-container__flex o-container t-white h-padding-ends+' role='main'>
       <article class='{{ 'Wrapper--contain' if page.applyWrapperContain }} h-1/1 o-container o-container__flex'>
 
         {% if page.showBreadcrumb or page.showContentTitle %}
