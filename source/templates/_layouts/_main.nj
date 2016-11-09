@@ -34,7 +34,7 @@
       <!--/noindex-->
 
       <aside>
-        <p><a href='tel:{{ phonePlain }}'>{{ phone }}</a></p>
+        <p><b><a href='tel:{{ phonePlain }}' class='h-h5 g-link--inherit'>{{ phone }}</a></b></p>
         <p><a href=''>Заказать звонок</a></p>
         <p><button>Где купить?</button></p>
       </aside>
@@ -99,7 +99,7 @@
               <input type='search' placeholder='Что вас интересует?' class='h-1/1' />
             </form>
 
-            <p class='h-margin-bottom-- h-h5'><b><a href='tel:{{ phonePlain }}'>{{ phone }}</a></b></p>
+            <p class='h-margin-bottom--'><b><a href='tel:{{ phonePlain }}' class='h-h5 g-link--inherit'>{{ phone }}</a></b></p>
             <p><a href='mailto:{{ email }}'>{{ email }}</a></p>
 
           </div>
