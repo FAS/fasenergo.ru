@@ -16,6 +16,13 @@ applyUserContent:    false
 
 <h2 class='h-margin-bottom+'>Elements</h2>
 
+{% call components.Example(title = 'Текст') -%}
+<p class='h-text+'>Лид-текст</p>
+<p>Обычный текст</p>
+<p class='h-text-'>Мини-текст</p>
+<p class='h-text--'>Микро-текст</p>
+{% endcall %}
+
 {% call components.Example(title = 'Заголовки') -%}
 <h1>Заголовок 1</h1>
 <h2>Заголовок 2</h2>
