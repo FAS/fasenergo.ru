@@ -16,6 +16,15 @@ applyUserContent:    false
 
 <h2 class='h-margin-bottom+'>Elements</h2>
 
+{% call components.Example(title = 'Заголовки') -%}
+<h1>Заголовок 1</h1>
+<h2>Заголовок 2</h2>
+<h3>Заголовок 3</h3>
+<h4>Заголовок 4</h4>
+<h5>Заголовок 5</h5>
+<h6>Заголовок 6</h6>
+{% endcall %}
+
 {% call components.Example(title = 'Список') -%}
 <ul>
   <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
