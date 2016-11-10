@@ -1,0 +1,47 @@
+{##
+ # Display set of images with caption
+ #
+ # @note Images of a different height will be normalized with `object-fit: cover`.
+ # It will size smaller images to fit size of larger ones, but it will crop some areas of image.
+ # Besides, in IE11- and Edge 14- images of smaller height instead of covering will be deformed,
+ # because lack of `object-fit: cover` support.
+ # Thus it's recommended to put images of at least similar height
+ #
+ # @param {Object[]} images          Array of src and optional alt of each image
+ # @param {string}   images[].src    Url to image
+ # @param {string}   [images[].alt]  Alt for image
+ # @param {string}   [caption]       Caption for whole set of images
+ # @param {string}   [width]         Which `max-width` should be set on main container
+ #
+ # @return {string} Figure
+ #
+ # @example
+ #   {{ components.Images(
+ #     images = [{
+ #       src: 'http://placehold.it/1350x700',
+ #       alt: 'Описание картинки'
+ #     },{
+ #       src: 'http://placehold.it/1350x450',
+ #       alt: 'Описание картинки'
+ #     },{
+ #       src: 'http://placehold.it/1350x450',
+ #       alt: 'Описание картинки'
+ #     }],
+ #     caption = 'Проект каскада газовых генераторов'
+ #   ) }}
+ #}
+{% macro Images(images, caption, width) %}
+<figure class='o-grid h-childs-displace-- h-margin-ends+' style='{{ 'max-width: ' + width if width }}'>
+
+  {% for image in images %}
+  <div class='h-1/3 h-margin-bottom--'>
+    <img class='h-1/1 h-height-1/1' src='{{ image.src }}' alt='{{ image.alt if image.alt }}' style='object-fit: cover'>
+  </div>
+  {% endfor %}
+
+  {% if caption %}
+  <figcaption class='h-1/1'><i>{{ caption }}</i></figcaption>
+  {% endif %}
+
+</figure>
+{% endmacro %}

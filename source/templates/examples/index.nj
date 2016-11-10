@@ -48,6 +48,22 @@ applyUserContent:    false
 ) }}{% endraw %}
 {% endcall %}
 
+{% call components.Example(title = 'Набор иллюстраций') -%}
+{% raw %}{{ components.Images(
+  images = [{
+    src: 'http://placehold.it/1350x700',
+    alt: 'Описание картинки'
+  },{
+    src: 'http://placehold.it/1350x450',
+    alt: 'Описание картинки'
+  },{
+    src: 'http://placehold.it/1350x450',
+    alt: 'Описание картинки'
+  }],
+  caption = 'Проект каскада газовых генераторов'
+) }}{% endraw %}
+{% endcall %}
+
 <hr class='h-margin-ends+'>
 <h2 class='h-margin-bottom+'>Icons and sprites</h2>
 
