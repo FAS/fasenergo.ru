@@ -20,7 +20,7 @@
   ul,
   ol {
 
-    > li + li { margin-top: ekzo-space(); }
+    > li + li { margin-top: ekzo-space(.5); }
 
   }
 
