@@ -1,0 +1,7 @@
+// stylelint-disable selector-no-type
+
+// =======================================
+// ^Headings
+// =======================================
+
+h1 { @include ekzo-theme() { color: ekzo-theme(headings-h1) } }
