@@ -1,0 +1,29 @@
+{##
+ # Display image with caption
+ #
+ # @param {string} src       Url to image
+ # @param {string} [caption] Caption for image
+ # @param {string} [alt]     Alt for image
+ # @param {string} [width]   Which `max-width` should be set on main container
+ #
+ # @return {string} Figure
+ #
+ # @example
+ #   {{ components.Image(
+ #     src = 'http://placehold.it/1350x550',
+ #     caption = 'Тестирование двигателей на производстве',
+ #     alt = 'Описание картинки',
+ #     width = '600px'
+ #   ) }}
+ #}
+{% macro Image(src, caption, alt, width) %}
+<figure class='h-margin-ends+' style='{{ 'max-width: ' + width if width }}'>
+
+  <img class='h-block h-margin-bottom--' src='{{ src }}' alt='{{ alt if alt }}'>
+
+  {% if caption %}
+  <figcaption><i>{{ caption }}</i></figcaption>
+  {% endif %}
+
+</figure>
+{% endmacro %}

@@ -39,6 +39,15 @@ applyUserContent:    false
 {% endcall %}{% endraw %}
 {% endcall %}
 
+{% call components.Example(title = 'Иллюстрация') -%}
+{% raw %}{{ components.Image(
+  src = 'http://placehold.it/1350x550',
+  caption = 'Тестирование двигателей на производстве',
+  alt = 'Описание картинки',
+  width = '600px'
+) }}{% endraw %}
+{% endcall %}
+
 <hr class='h-margin-ends+'>
 <h2 class='h-margin-bottom+'>Icons and sprites</h2>
 
