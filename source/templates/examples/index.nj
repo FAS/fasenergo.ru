@@ -1,9 +1,9 @@
 ---
-title:           ={{ gettext('Examples') }}
-breadcrumbTitle: ={{ gettext('Examples') }}
-contentTitle:    ={{ gettext('Examples') }}
-navTitle:        ={{ gettext('Examples') }}
-metaDesc:        ={{ gettext('%(company)s examples') }}
+title:           Примеры
+breadcrumbTitle: Примеры
+contentTitle:    Примеры
+navTitle:        Примеры
+metaDesc:        Примеры
 
 applyWrapperContain: false
 ---
@@ -12,7 +12,7 @@ applyWrapperContain: false
 
 {% block main %}
 
-<h2 class='h-margin-bottom+'>Elements</h2>
+<h2 class='h-margin-bottom+'>Элементы</h2>
 
 {% call components.Example(title = 'Текст') -%}
 <p class='h-text+'>Лид-текст</p>
@@ -28,6 +28,10 @@ applyWrapperContain: false
 <h4>Заголовок 4</h4>
 <h5>Заголовок 5</h5>
 <h6>Заголовок 6</h6>
+
+<h1 class='h-extra-h++'>Экстра-заголовок 1</h1>
+<h1 class='h-extra-h+'>Экстра-заголовок 2</h1>
+<h1 class='h-extra-h'>Экстра-заголовок 3</h1>
 {% endcall %}
 
 {% call components.Example(title = 'Список') -%}
@@ -103,36 +107,6 @@ applyWrapperContain: false
 
 
 <h2 class='h-margin-top++ h-margin-bottom+'>Typography helpers</h2>
-
-{% call components.Example(title = '', classes = ['.h-text*', '.h-h*', '.h-extra-h*']) -%}
-<div class='o-show-grid'>
-  <p class='h-text'>First line<br>Second line</p>
-  <p class='h-text-'>First line<br>Second line</p>
-  <p class='h-text--'>First line<br>Second line</p>
-
-  <p class='h-h1'>First line<br>Second line</p>
-  <p class='h-h2'>First line<br>Second line</p>
-  <p class='h-h3'>First line<br>Second line</p>
-  <p class='h-h4'>First line<br>Second line</p>
-  <p class='h-h5'>First line<br>Second line</p>
-  <p class='h-h6'>First line<br>Second line</p>
-
-  <p class='h-extra-h++'>First line<br>Second line</p>
-  <p class='h-extra-h+'>First line<br>Second line</p>
-  <p class='h-extra-h'>First line<br>Second line</p>
-
-  <p class='h-text--em--'>First line<br>Second line</p>
-  <p class='h-text--em-'>First line<br>Second line</p>
-  <p class='h-text--em+---'>First line<br>Second line</p>
-  <p class='h-text--em+--'>First line<br>Second line</p>
-  <p class='h-text--em+'>First line<br>Second line</p>
-  <p class='h-text--em++---'>First line<br>Second line</p>
-  <p class='h-text--em++--'>First line<br>Second line</p>
-  <p class='h-text--em++'>First line<br>Second line</p>
-  <p class='h-text--em+++'>First line<br>Second line</p>
-  <p class='h-text--em++++'>First line<br>Second line</p>
-</div>
-{% endcall %}
 
 {% call components.Example(title = '', classes = ['.h-text--tracked*']) -%}
 <p class='h-text--tracked--'>Headline</p>
