@@ -109,6 +109,15 @@ applyWrapperContain: false
 ) }}{% endraw %}
 {% endcall %}
 
+{% call components.Example(title = 'Разделитель') -%}
+<p>Текст.</p>
+
+<hr>
+
+<p>Текст.</p>
+{% endcall %}
+
+
 <h2 class='h-margin-bottom+'>Icons and sprites</h2>
 
 {% call components.Example(title = 'Generated icons and sprites examples') -%}
