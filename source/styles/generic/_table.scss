@@ -1,0 +1,21 @@
+// stylelint-disable selector-no-type
+
+// =======================================
+// ^Table
+// =======================================
+
+table { margin-bottom: ekzo-space(2); }
+
+  th, td {
+    border-width: 1px;
+    @include ekzo-theme() { border-color: ekzo-theme(table-border); }
+
+    padding: ekzo-space(.75);
+  }
+
+  th {
+    font-weight: inherit;
+    text-align: inherit;
+  }
+
+  td { @include ekzo-font-size('-') }
