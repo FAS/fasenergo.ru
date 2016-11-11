@@ -5,9 +5,7 @@ contentTitle:    ={{ gettext('Examples') }}
 navTitle:        ={{ gettext('Examples') }}
 metaDesc:        ={{ gettext('%(company)s examples') }}
 
-applyWrapperMain:    false
 applyWrapperContain: false
-applyUserContent:    false
 ---
 
 {% extends '_layouts/_main.nj' %}
