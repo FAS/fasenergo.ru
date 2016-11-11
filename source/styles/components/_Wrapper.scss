@@ -2,9 +2,16 @@
 // ^WRAPPER
 // =======================================
 
+$wrapper-padding: ekzo-space(2);
+
 .Wrapper {
-  padding-left:  ekzo-space(2);
-  padding-right: ekzo-space(2);
+  padding-left:  $wrapper-padding;
+  padding-right: $wrapper-padding;
+}
+
+.Wrapper--bleed {
+  margin-left:  - $wrapper-padding;
+  margin-right: - $wrapper-padding;
 }
 
 // ----
