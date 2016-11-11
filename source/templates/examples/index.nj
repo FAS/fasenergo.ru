@@ -78,7 +78,6 @@ applyWrapperContain: false
 ) }}{% endraw %}
 {% endcall %}
 
-<hr class='h-margin-ends+'>
 <h2 class='h-margin-bottom+'>Icons and sprites</h2>
 
 {% call components.Example(title = 'Generated icons and sprites examples') -%}
