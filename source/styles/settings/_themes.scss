@@ -89,6 +89,7 @@ $ekzo-colors: (
   // @param {string|false} False to disable, color value to enable
 
   btn:                    ekzo-color(tertiary),
+  btn-hover:              ekzo-color(primary),
   btn-bg:                 transparent,
   btn-border:             inherit,
 

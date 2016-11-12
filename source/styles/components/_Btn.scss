@@ -10,4 +10,9 @@
   border-radius: $primary-border-radius;
 
   text-align: center;
+
+  &:hover,
+  &:focus {
+    @include ekzo-theme() { color: ekzo-theme(btn-hover); }
+  }
 }
