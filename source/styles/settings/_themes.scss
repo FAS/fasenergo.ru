@@ -89,9 +89,9 @@ $ekzo-colors: (
   // @param {string|false} False to disable, color value to enable
 
   btn:                    ekzo-color(tertiary),
-  btn-hover:              ekzo-color(primary),
   btn-bg:                 transparent,
   btn-border:             currentColor,
+  btn-hover:              ekzo-color(primary),
 
   // ---------------------------------------
   // Breadcrumb
@@ -114,14 +114,23 @@ $ekzo-colors: (
 ))
 
 @include ekzo-extend-themes(secondary, (
-  bg:          ekzo-color(secondary),
+  bg:                  ekzo-color(secondary),
 
-  text:        ekzo-color(white),
+  text:                ekzo-color(white),
 
-  links:       ekzo-color(cascade),
-  links-hover: ekzo-color(primary),
+  links:               ekzo-color(cascade),
+  links-hover:         ekzo-color(primary),
 
-  btn:         ekzo-color(cascade),
+  btn:                 ekzo-color(cascade),
+  btn-hover:           ekzo-color(secondary),
+  btn-hover-bg:        ekzo-color(cascade),
+  btn-active-bg:       adjust-color(ekzo-color(cascade), $saturation: -5, $lightness: -14),
+
+  btn-solid:           ekzo-color(white),
+  btn-solid-bg:        ekzo-color(tertiary),
+  btn-solid-hover:     ekzo-color(white),
+  btn-solid-hover-bg:  adjust-color(ekzo-color(tertiary), $saturation: -8, $lightness: 11),
+  btn-solid-active-bg: adjust-color(ekzo-color(tertiary), $lightness: -2),
 ))
 
 @include ekzo-extend-themes(tertiary, (
