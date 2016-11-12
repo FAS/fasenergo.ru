@@ -34,6 +34,28 @@ applyWrapperContain: false
 <h1 class='h-extra-h'>Экстра-заголовок 3</h1>
 {% endcall %}
 
+{% call components.Example(title = 'Ссылки') -%}
+<a href='#'>Ссылка</a>
+{% endcall %}
+
+{% call components.Example(title = 'Кнопки') -%}
+<p>
+  <a class='Btn o-btn--' href='#'>Мини</a>
+  <a class='Btn o-btn-' href='#'>Маленькая</a>
+  <a class='Btn' href='#'>Стандартная</a>
+  <a class='Btn o-btn+' href='#'>Большая</a>
+  <a class='Btn o-btn++' href='#'>Экстра</a>
+</p>
+<p>
+  <a class='Btn o-btn--wide--' href='#'>Узкая</a>
+  <a class='Btn o-btn--wide' href='#'>Широкая</a>
+  <a class='Btn o-btn--wide++' href='#'>Экстра-широкая</a>
+</p>
+<p>
+  <a class='Btn o-btn--full' href='#'>Во всю длину</a>
+</p>
+{% endcall %}
+
 {% call components.Example(title = 'Список') -%}
 <ul>
   <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
@@ -183,86 +205,6 @@ applyWrapperContain: false
   Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
 </p>
-{% endcall %}
-
-
-<h2 class='h-margin-top++ h-margin-bottom+'>Buttons</h2>
-
-{% call components.Example(title = '', classes = ['.o-btn o-btn--inherit']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn--inherit' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn--inherit' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn o-btn--']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn--' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn--' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn o-btn-']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn-' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn-' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn o-btn+']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn+' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn+' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn o-btn++']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn++' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn++' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn o-btn--wide--']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn--wide--' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn--wide--' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn o-btn--wide']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn--wide' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn--wide' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn o-btn--wide++']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn--wide++' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn--wide++' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn o-btn--full']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><a class='o-btn o-btn--full' href='#'>Button label</a></p>
-  <p><a class='o-btn o-btn--full' href='#'>First line<br>Second line</a></p>
-</div>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.o-btn']) -%}
-<div class='o-show-grid h-padding-bottom'>
-  <p><button class='o-btn' disabled>Disabled button</button></p>
-  <p><a class='o-btn is-disabled' href='#'>Disabled a.button</a></p>
-</div>
 {% endcall %}
 
 {% endblock %}
