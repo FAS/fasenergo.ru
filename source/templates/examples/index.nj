@@ -40,6 +40,12 @@ applyWrapperContain: false
 
 {% call components.Example(title = 'Кнопки') -%}
 <p>
+  <a class='Btn' href='#'>Стандартная</a>
+  <a class='Btn Btn--solid' href='#'>Сплошная</a>
+  <button class='Btn' disabled>Стандартная отключенная</button>
+  <button class='Btn Btn--solid' disabled>Сплошная отключенная</button>
+</p>
+<p>
   <a class='Btn o-btn--' href='#'>Мини</a>
   <a class='Btn o-btn-' href='#'>Маленькая</a>
   <a class='Btn' href='#'>Стандартная</a>
