@@ -91,7 +91,7 @@ $ekzo-colors: (
   btn:                    ekzo-color(tertiary),
   btn-hover:              ekzo-color(primary),
   btn-bg:                 transparent,
-  btn-border:             inherit,
+  btn-border:             currentColor,
 
   // ---------------------------------------
   // Breadcrumb
