@@ -89,7 +89,8 @@ $ekzo-colors: (
   // @param {string|false} False to disable, color value to enable
 
   btn:                    ekzo-color(tertiary),
-  btn-bg:                 ekzo-color(white),
+  btn-bg:                 transparent,
+  btn-border:             inherit,
 
   // ---------------------------------------
   // Breadcrumb
@@ -107,6 +108,8 @@ $ekzo-colors: (
 
   headings-h1:    ekzo-color(secondary),
   headings:       ekzo-color(tertiary),
+
+  btn:            ekzo-color(tertiary),
 ))
 
 @include ekzo-extend-themes(secondary, (
@@ -116,6 +119,8 @@ $ekzo-colors: (
 
   links:       ekzo-color(cascade),
   links-hover: ekzo-color(primary),
+
+  btn:         ekzo-color(cascade),
 ))
 
 @include ekzo-extend-themes(tertiary, (

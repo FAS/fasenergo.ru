@@ -2,4 +2,12 @@
 // ^BUTTON
 // =======================================
 
-.Btn {}
+.Btn {
+  @extend .#{$ekzo-o-ns}btn;
+
+  border-width: 1px;
+  @include ekzo-theme() { border-color: ekzo-theme(btn-border); }
+  border-radius: $primary-border-radius;
+
+  text-align: center;
+}
