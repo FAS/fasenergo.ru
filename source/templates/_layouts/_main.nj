@@ -35,8 +35,8 @@
 
       <aside>
         <p><b><a href='tel:{{ phonePlain }}' class='h-text+ g-link--inherit'>{{ phone }}</a></b></p>
-        <p><a href=''>Заказать звонок</a></p>
-        <p><button>Где купить?</button></p>
+        <p class='h-margin-bottom--'><a class='Btn o-btn--full o-btn- h-text-' href='#'>Заказать звонок</a></p>
+        <p><button class='Btn o-btn--full o-btn- h-text-'>Где купить?</button></p>
       </aside>
 
     </div>
