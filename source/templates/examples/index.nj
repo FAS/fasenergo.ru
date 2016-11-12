@@ -11,6 +11,27 @@ applyWrapperContain: false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+<h2 class='h-margin-bottom+'>Палитра</h2>
+
+{% call components.Example() -%}
+<ul class='g-list0 h-childs-padding-- h-childs-margin0'>
+  <li class='h-bg-color--primary'>primary</li>
+  <li class='h-bg-color--secondary'>secondary</li>
+  <li class='h-bg-color--tertiary'>tertiary</li>
+  <li class='h-bg-color--cascade'>cascade</li>
+  <li class='h-bg-color--white'>white</li>
+</ul>
+
+<hr class='h-margin-ends h-bleed-sides+'>
+
+<ul class='g-list0 h-childs-padding-- h-childs-margin0'>
+  <li class='h-color--primary'>primary</li>
+  <li class='h-color--secondary'>secondary</li>
+  <li class='h-color--tertiary'>tertiary</li>
+  <li class='h-color--cascade'>cascade</li>
+  <li class='h-color--white'>white</li>
+</ul>
+{% endcall %}
 
 <h2 class='h-margin-bottom+'>Элементы</h2>
 
