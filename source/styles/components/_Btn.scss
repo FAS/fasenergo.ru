@@ -46,6 +46,7 @@
         border-color:     ekzo-theme(btn-border);
       }
     }
+
   }
 
 }
@@ -80,4 +81,19 @@
       border-color:     $bg;
     }
   }
+
+  &:disabled {
+    &:hover,
+    &:focus,
+    &:active {
+      @include ekzo-theme() {
+        color:            ekzo-theme(btn-solid);
+
+        $bg: ekzo-theme(btn-solid-bg);
+        background-color: $bg;
+        border-color:     $bg;
+      }
+    }
+  }
+
 }
