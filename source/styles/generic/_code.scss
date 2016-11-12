@@ -9,7 +9,7 @@ code {
   @include ekzo-theme() { color: ekzo-theme(code); }
   @include ekzo-theme() { background-color: ekzo-theme(code-bg); }
 
-  border-radius: 2px;
+  border-radius: $primary-border-radius;
 }
 
 code { padding: ekzo-em(ekzo-space(.25) / 2); }
