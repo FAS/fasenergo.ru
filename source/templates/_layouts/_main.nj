@@ -71,7 +71,7 @@
         </header>
         {% endif %}
 
-        <div class='Content {{ 's-user-content' if page.applyUserContent }}'>
+        <div class='Content {{ 's-preformat' if page.applyPreformat }}'>
           {% block main %}{% endblock %}
         </div>
 
