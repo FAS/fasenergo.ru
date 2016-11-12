@@ -29,4 +29,6 @@
     margin-bottom: ekzo-space(4) - ekzo-units($ekzo-hr-height, unit(ekzo-space()));
   }
 
+  img { border-radius: $primary-border-radius; }
+
 }
