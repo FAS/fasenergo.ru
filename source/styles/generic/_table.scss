@@ -4,9 +4,21 @@
 // ^Table
 // =======================================
 
-table { margin-bottom: ekzo-space(2); }
+table {
+  margin-bottom: ekzo-space(2);
 
-  th, td {
+  border-radius: $primary-border-radius;
+  // @note This is easiest way to set radius on border of table without
+  //       additional wrappers and collapsable cells, but it won't work
+  //       with background on cells without `overflow: hidden`
+  @include ekzo-theme() {
+    $color: ekzo-theme(table-border);
+    @if $color { box-shadow: 0 0 0 1px $color; }
+  }
+  border-style: hidden;
+}
+
+  tr, th, td {
     border-width: 1px;
     @include ekzo-theme() { border-color: ekzo-theme(table-border); }
 
