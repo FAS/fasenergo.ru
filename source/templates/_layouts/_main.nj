@@ -42,12 +42,12 @@
     </div>
   </div>
 
-  <div class='o-grid__item h-flex+1-0% o-panel h-min0'>
+  <div class='{{ 'Wrapper--main' if page.applyWrapperMain }} o-grid__item h-flex+1-0% o-panel h-min0'>
 
     <!-- Site's content -->
     <!-- ============== -->
 
-    <main class='Main {{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper--main' if page.applyWrapperMain }} h-flex-y--center o-panel o-panel__body t-white h-padding-ends+' role='main'>
+    <main class='Main {{ 'Wrapper' if page.applyWrapper }} h-flex-y--center o-panel o-panel__body t-white h-padding-ends+' role='main'>
       <article class='{{ 'Wrapper--contain' if page.applyWrapperContain }} h-1/1 o-panel o-panel__body'>
 
         {% if page.showBreadcrumb or page.showContentTitle %}
@@ -82,9 +82,9 @@
     <!-- ============= -->
 
     <!--/noindex-->
-    <footer class='Footer t-tertiary o-panel__footer'>
-      <div class='{{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper--main' if page.applyWrapperMain }} h-flex h-flex-x--center h-padding-ends+'>
-        <div class='o-grid {{ 'Wrapper--contain' if page.applyWrapperContain }} h-1/1'>
+    <footer class='Footer {{ 'Wrapper' if page.applyWrapper }} t-tertiary o-panel__footer h-flex h-flex-x--center h-padding-ends+'>
+      <div class='{{ 'Wrapper--contain' if page.applyWrapperContain }} h-1/1'>
+        <div class='o-grid h-childs-displace+'>
 
           <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
             <p>Вся представленная информация на данном сайте носит информационный характер, и ни при каких условиях не является публичной или иной офертой, определяемой положениями Гражданского кодекса РФ.</p>
