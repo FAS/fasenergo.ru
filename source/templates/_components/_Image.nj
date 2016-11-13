@@ -1,10 +1,11 @@
 {##
  # Display image with caption
  #
- # @param {string} src       Url to image
- # @param {string} [caption] Caption for image
- # @param {string} [alt]     Alt for image
- # @param {string} [width]   Which `max-width` should be set on main container
+ # @param {string}           src        Url to image
+ # @param {string}           [caption]  Caption for image
+ # @param {string}           [alt]      Alt for image
+ # @param {('left'|'right')} [position] Should image flot to left or right
+ # @param {string}           [width]    Which `max-width` should be set on main container
  #
  # @return {string} Figure
  #
@@ -16,8 +17,10 @@
  #     width = '600px'
  #   ) }}
  #}
-{% macro Image(src, caption, alt, width) %}
-<figure class='h-margin-ends+' style='{{ 'max-width: ' + width if width }}'>
+{% macro Image(src, caption, alt, position, width) %}
+{% set positionClass = 'g-image--left' if position == 'left' else ('g-image--right' if position == 'right') %}
+
+<figure class='{{ positionClass if positionClass else 'h-margin-ends+' }}' style='{{ 'max-width: ' + width if width }}'>
 
   <img class='h-block h-margin-bottom--' src='{{ src }}' alt='{{ alt if alt }}'>
 
