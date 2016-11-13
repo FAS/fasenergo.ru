@@ -29,8 +29,8 @@ $ekzo-colors: (
   // ---------------------------------------
   // @param {string|false} False to disable, color value to enable
 
-  links:                  ekzo-color(primary),
-  links-hover:            ekzo-tint(ekzo-color(primary), 20),
+  links:                  ekzo-color(tertiary),
+  links-hover:            ekzo-color(primary),
   links-border-color:     rgba(ekzo-color(secondary), .2),
 
   // ---------------------------------------
@@ -112,9 +112,6 @@ $ekzo-colors: (
 ))
 
 @include ekzo-extend-themes(white, (
-  links:          ekzo-color(tertiary),
-  links-hover:    ekzo-color(primary),
-
   headings-h1:    ekzo-color(secondary),
   headings:       ekzo-color(tertiary),
 
