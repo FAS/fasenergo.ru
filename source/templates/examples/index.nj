@@ -166,72 +166,14 @@ applyWrapperContain: false
 <p>Текст.</p>
 {% endcall %}
 
+{% call components.Example(title = 'Расположение иллюстраций') -%}
+<img class='g-image--left' src='http://placehold.it/250x150'>
 
-<h2 class='h-margin-bottom+'>Icons and sprites</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
-{% call components.Example(title = 'Generated icons and sprites examples') -%}
-<p>Webfont home icon: <i class='o-icon Icon--home icon--right'></i></p>
+<img class='g-image--right' src='http://placehold.it/250x150'>
 
-<p>1px sprite: <i class='o-sprite Sprite--test icon--right'></i></p>
-{% endcall %}
-
-
-<h2 class='h-margin-top++ h-margin-bottom+'>Data examples</h2>
-
-{% call components.Example(title = 'Inline data') -%}
-{% raw %}<p>Current year is {{ data.currentYear }}</p>
-
-<p>Images path is <code>{{ path.images }}</code></p>{% endraw %}
-{% endcall %}
-
-{% call components.Example(title = 'External data') -%}
-{% raw %}<h4 class='h-h5'>{{ data.example.title }}</h4>
-
-<p>{{ data.example.content }}</p>{% endraw %}
-{% endcall %}
-
-
-<h2 class='h-margin-top++ h-margin-bottom+'>Typography helpers</h2>
-
-{% call components.Example(title = '', classes = ['.h-text--tracked*']) -%}
-<p class='h-text--tracked--'>Headline</p>
-<p class='h-text--tracked+'><span class='h-text--tracked0'>Headline</span></p>
-<p class='h-text--tracked'>Headline</p>
-<p class='h-text--tracked+'>Headline</p>
-{% endcall %}
-
-
-<h2 class='h-margin-top++ h-margin-bottom+'>Color helpers</h2>
-
-{% call components.Example(title = '', classes = ['.h-color--*', '.h-color--*:h']) -%}
-<p class='h-color--ivory h-color--primary:h'>Hover me</p>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.h-bg-color--*', '.h-bg-color--*:h']) -%}
-<p class='h-bg-color--primary h-bg-color--outer-space:h h-padding--'>Hover me</p>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.h-border-color--*', '.h-border-color--*:h']) -%}
-<p class='h-border h-border-color--primary h-border-color--outer-space:h h-padding--'>Hover me</p>
-{% endcall %}
-
-
-<h2 class='h-margin-top++ h-margin-bottom+'>Images</h2>
-
-{% call components.Example(title = '', classes = ['.g-image--left']) -%}
-<p>
-  <img class='g-image--left' src='https://placekitten.com/100/100' alt='Testing image'>
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-</p>
-{% endcall %}
-
-{% call components.Example(title = '', classes = ['.g-image--right']) -%}
-<p>
-  <img class='g-image--right' src='https://placekitten.com/100/100' alt='Testing image'>
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 {% endcall %}
 
 {% endblock %}
