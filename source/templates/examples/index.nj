@@ -142,6 +142,25 @@ applyWrapperContain: false
 ) }}{% endraw %}
 {% endcall %}
 
+{% call components.Example(title = 'Расположение иллюстраций') -%}
+{% raw %}{{ components.Image(
+  src = 'http://placehold.it/250x150',
+  caption = 'Подпись картинки',
+  alt = 'Описание картинки',
+  position = 'left'
+) }}{% endraw %}
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+{% raw %}{{ components.Image(
+  src = 'http://placehold.it/250x150',
+  alt = 'Описание картинки',
+  position = 'right'
+) }}{% endraw %}
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+{% endcall %}
+
 {% call components.Example(title = 'Набор иллюстраций') -%}
 {% raw %}{{ components.Images(
   images = [{
@@ -164,16 +183,6 @@ applyWrapperContain: false
 <hr>
 
 <p>Текст.</p>
-{% endcall %}
-
-{% call components.Example(title = 'Расположение иллюстраций') -%}
-<img class='g-image--left' src='http://placehold.it/250x150'>
-
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-
-<img class='g-image--right' src='http://placehold.it/250x150'>
-
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 {% endcall %}
 
 {% endblock %}
