@@ -26,11 +26,15 @@
 ) %}
   <ul class='{{ class }}'>
 
-    {% macro Item(to, label, depth = 1) %}{% call components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{{ caller() }}{% endcall %}{% endmacro %}
+    {##
+     # @todo We have to pass values directly until will be fixed https://github.com/LotusTM/Kotsu/issues/120
+     #       Ref: https://github.com/FAS/fasenergo.ru/issues/2
+     #}
+    {# {% macro Item(to, label, depth = 1) %}{% call components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{{ caller() }}{% endcall %}{% endmacro %} #}
 
-    {% call Item('/') %}{% endcall %}
-    {% call Item('/about') %}{% endcall %}
-    {% call Item('/examples') %}{% endcall %}
+    {% call components.NavItem('/', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
+    {% call components.NavItem('/about', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
+    {% call components.NavItem('/examples', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
 
   </ul>
 {% endmacro %}
