@@ -185,4 +185,9 @@ applyWrapperContain: false
 <p>Текст.</p>
 {% endcall %}
 
+{% call components.Example(title = 'Иконография') -%}
+{% raw %}{{ components.Icon('phone', 'o-icon--left') }}
+{{ components.Icon('cart', 'o-icon--left') }}{% endraw %}
+{% endcall %}
+
 {% endblock %}
