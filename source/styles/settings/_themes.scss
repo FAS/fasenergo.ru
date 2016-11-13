@@ -30,8 +30,10 @@ $ekzo-colors: (
   // @param {string|false} False to disable, color value to enable
 
   links:                  ekzo-color(tertiary),
-  links-hover:            ekzo-color(primary),
-  links-border-color:     rgba(ekzo-color(secondary), .2),
+  links-border:           rgba(ekzo-color(tertiary), .25),
+  links-hover:            null,
+  links-hover-border:     null,
+  links-active-border:    currentColor,
 
   // ---------------------------------------
   // Headings
@@ -127,7 +129,9 @@ $ekzo-colors: (
   text:                ekzo-color(white),
 
   links:               ekzo-color(cascade),
-  links-hover:         ekzo-color(primary),
+  links-border:        transparent,
+  links-hover-border:  rgba(ekzo-color(cascade), .4),
+  links-active-border: currentColor,
 
   btn:                 ekzo-color(cascade),
   btn-hover:           ekzo-color(secondary),
@@ -147,6 +151,5 @@ $ekzo-colors: (
   text:               ekzo-color(white),
 
   links:              ekzo-color(white),
-  links-hover:        ekzo-color(primary),
-  links-border-color: rgba(ekzo-color(white), .4),
+  links-border:       rgba(ekzo-color(white), .25),
 ))

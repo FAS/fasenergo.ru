@@ -10,7 +10,15 @@
 
       &.is-active {
 
-        > a { @include ekzo-theme() { color: inherit; } }
+        > a {
+          color: ekzo-color(primary);
+
+          &:hover,
+          &:focus { border-color: rgba(ekzo-color(primary), .4); }
+
+          &:active { border-color: currentColor; }
+
+        }
 
       }
 
