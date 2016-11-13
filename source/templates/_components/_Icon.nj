@@ -1,0 +1,13 @@
+{##
+ # Display icon
+ #
+ # @param {string} name    Name of icon. Should match icon name from `/source/icons/` dir.
+ # @param {string} [class] Class for icon wrapper.
+ #
+ # @return {string} Icon in span
+ #
+ # @example {{ components.Icon('phone', 'o-icon--left') }}
+ #}
+{% macro Icon(name, class) %}
+<span class='o-icon Icon--{{ name }} {{ class }}'></span>
+{% endmacro %}
