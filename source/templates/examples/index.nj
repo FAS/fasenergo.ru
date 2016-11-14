@@ -189,6 +189,71 @@ applyWrapperContain: false
 <p>Текст.</p>
 {% endcall %}
 
+{% call components.Example(title = 'Форма') -%}
+<form class='o-grid h-childs-displace'>
+
+  <div class='o-grid__item h-1/2 h-childs-space-top'>
+
+    <h4 class='h-margin-ends0'>Стандартное поле</h4>
+
+    <div><input type='text' value='Lorem Ipsum'></div>
+    <div><input type='text' placeholder='Placeholder'></div>
+
+    <h5 class='h-margin-top+ h-margin-bottom0'>Обязательное поле</h5>
+    <div><input type='text' required></div>
+    <div><input type='text' value='Lorem Ipsum' required></div>
+    <div><input type='text' placeholder='Placeholder' required></div>
+
+    <h5 class='h-margin-top+ h-margin-bottom0'>Неверное поле</h5>
+    <div><input type='text' aria-invalid='true'></div>
+    <div><input type='text' value='Lorem Ipsum' aria-invalid='true'></div>
+    <div><input type='text' placeholder='Placeholder' aria-invalid='true'></div>
+
+    <h5 class='h-margin-top+ h-margin-bottom0'>Верное поле</h5>
+    <div><input class='is-valid' type='text'></div>
+    <div><input class='is-valid' type='text' value='Lorem Ipsum'></div>
+    <div><input class='is-valid' type='text' placeholder='Placeholder'></div>
+
+    <h4 class='h-margin-top+ h-margin-bottom0'>Textarea</h4>
+
+    <div><textarea cols='30' rows='5' placeholder='Placeholder'></textarea></div>
+    <div><textarea cols='30' rows='5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</textarea></div>
+
+    <h5 class='h-margin-top+ h-margin-bottom0'>Обязательная textarea</h5>
+    <div><textarea cols='30' rows='5' placeholder='Placeholder' required></textarea></div>
+    <div><textarea cols='30' rows='5' required>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</textarea></div>
+
+    <h5 class='h-margin-top+ h-margin-bottom0'>Неверная textarea</h5>
+    <div><textarea cols='30' rows='5' placeholder='Placeholder' aria-invalid='true'></textarea></div>
+    <div><textarea cols='30' rows='5' aria-invalid='true'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</textarea></div>
+
+    <h5 class='h-margin-top+ h-margin-bottom0'>Верная textarea</h5>
+    <div><textarea class='is-valid' cols='30' rows='5' placeholder='Placeholder'></textarea></div>
+    <div><textarea class='is-valid' cols='30' rows='5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</textarea></div>
+
+    <h4 class='h-margin-top+ h-margin-bottom0'>Другое</h4>
+
+    <div><input type='checkbox'> Чек-бокс</div>
+    <div><input type='radio'> Радио-бокс</div>
+
+    <h5 class='h-margin-top+ h-margin-bottom0'>Обязательное другое</h5>
+    <div><input type='checkbox' required> Чек-бокс</div>
+    <div><input type='radio' required> Радио-бокс</div>
+
+  </div>
+
+  <div class='o-grid__item h-1/2 h-childs-space-top'>
+    Disabled examples goes here
+  </div>
+
+  <div class='h-margin-top+'>
+    <button class='Btn Btn--solid'>Отправить</button>
+    <button class='Btn'>Отменить</button>
+  </div>
+
+</form>
+{% endcall %}
+
 
 <h2>Иконография</h2>
 
