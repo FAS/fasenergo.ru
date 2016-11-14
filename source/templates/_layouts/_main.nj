@@ -12,13 +12,13 @@
 <div class='o-grid o-panel__body'>
 
   <div class='Sidebar Wrapper--sidebar o-grid__item t-secondary'>
-    <div class='Wrapper--sidebar h-fixed h-overflow-y--auto h-top h-bottom h-padding'>
+    <div class='Wrapper--sidebar h-fixed h-overflow-y--auto h-top h-bottom h-padding h-padding-right+'>
 
       <!-- Site's header -->
       <!-- ============= -->
 
       <header class='Header h-margin-bottom'>
-        <a class='Logo h-border-bottom0' href='{{ localeDir() }}/'><img src='/{{ path.images }}/logo.svg' alt='Фасэнергомаш' style='max-width: 177px;' /></a>
+        <a class='Logo h-border-bottom0' href='{{ localeDir() }}/'><img src='/{{ path.images }}/logo.svg' alt='Фасэнергомаш' /></a>
         <p class='h-text- h-font-weight--light h-margin-top--'>Производитель газовых&nbsp;генераторов №1&nbsp;в&nbsp;России</p>
       </header>
 
