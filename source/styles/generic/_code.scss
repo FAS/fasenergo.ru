@@ -16,11 +16,7 @@ code { padding: ekzo-em(ekzo-space(.25) / 2); }
 
 pre {
   padding: ekzo-em(ekzo-space(.25));
-  overflow: hidden;
 
   code { @include ekzo-theme() { background-color: transparent; } }
-
-  &:hover,
-  &:focus { min-width: min-content; }
 
 }
