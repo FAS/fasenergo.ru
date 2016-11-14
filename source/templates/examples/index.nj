@@ -11,7 +11,8 @@ applyWrapperContain: false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-<h2 class='h-margin-bottom+'>Палитра</h2>
+
+<h2>Палитра</h2>
 
 {% call components.Example() -%}
 <ul class='g-list0 h-childs-padding-- h-childs-margin0'>
@@ -33,7 +34,7 @@ applyWrapperContain: false
 </ul>
 {% endcall %}
 
-<h2 class='h-margin-bottom+'>Элементы</h2>
+<h2>Типография</h2>
 
 {% call components.Example(title = 'Текст') -%}
 <p class='h-text+'>Лид-текст</p>
@@ -55,9 +56,28 @@ applyWrapperContain: false
 <h1 class='h-extra-h'>Экстра-заголовок 3</h1>
 {% endcall %}
 
-{% call components.Example(title = 'Ссылки') -%}
+{% call components.Example(title = 'Ссылка') -%}
 <a href='#'>Ссылка</a>
 {% endcall %}
+
+{% call components.Example(title = 'Список') -%}
+<ul>
+  <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
+  <li>Стоимость технического обслуживания в разы ниже аналогов импортного производства.</li>
+  <li>Устойчиво работают на пропан-бутановой смеси производства РФ.</li>
+</ul>
+{% endcall %}
+
+{% call components.Example(title = 'Нумерованный список') -%}
+<ol>
+  <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
+  <li>Стоимость технического обслуживания в разы ниже аналогов импортного производства.</li>
+  <li>Устойчиво работают на пропан-бутановой смеси производства РФ.</li>
+</ol>
+{% endcall %}
+
+
+<h2>Элементы</h2>
 
 {% call components.Example(title = 'Кнопки') -%}
 <p>
@@ -81,22 +101,6 @@ applyWrapperContain: false
 <p>
   <a class='Btn o-btn--full' href='#'>Во всю длину</a>
 </p>
-{% endcall %}
-
-{% call components.Example(title = 'Список') -%}
-<ul>
-  <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
-  <li>Стоимость технического обслуживания в разы ниже аналогов импортного производства.</li>
-  <li>Устойчиво работают на пропан-бутановой смеси производства РФ.</li>
-</ul>
-{% endcall %}
-
-{% call components.Example(title = 'Нумерованный список') -%}
-<ol>
-  <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
-  <li>Стоимость технического обслуживания в разы ниже аналогов импортного производства.</li>
-  <li>Устойчиво работают на пропан-бутановой смеси производства РФ.</li>
-</ol>
 {% endcall %}
 
 {% call components.Example(title = 'Таблица') -%}
@@ -185,7 +189,10 @@ applyWrapperContain: false
 <p>Текст.</p>
 {% endcall %}
 
-{% call components.Example(title = 'Иконография') -%}
+
+<h2>Иконография</h2>
+
+{% call components.Example() -%}
 {% raw %}{{ components.Icon('phone', 'o-icon--left') }}
 {{ components.Icon('cart', 'o-icon--left') }}{% endraw %}
 {% endcall %}
