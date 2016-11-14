@@ -134,6 +134,7 @@ $ekzo-colors: (
   links-active-border: currentColor,
 
   btn:                 ekzo-color(cascade),
+  btn-border:          currentColor,
   btn-hover:           ekzo-color(secondary),
   btn-hover-bg:        ekzo-color(cascade),
   btn-active-bg:       adjust-color(ekzo-color(cascade), $saturation: -5, $lightness: -14),
