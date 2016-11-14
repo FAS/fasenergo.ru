@@ -194,7 +194,9 @@ applyWrapperContain: false
 
 {% call components.Example() -%}
 {% raw %}{{ components.Icon('phone', 'o-icon--left') }}
-{{ components.Icon('cart', 'o-icon--left') }}{% endraw %}
+{{ components.Icon('cart', 'o-icon--left') }}
+{{ components.Icon('search', 'o-icon--left') }}
+{{ components.Icon('check', 'o-icon--left') }}{% endraw %}
 {% endcall %}
 
 {% endblock %}
