@@ -9,6 +9,7 @@ textarea,
 select {
   @include ekzo-theme() { border-color: ekzo-theme(forms-border); }
   border-width: 1px;
+  border-radius: $primary-border-radius;
 
   padding: ekzo-space(.5);
 }

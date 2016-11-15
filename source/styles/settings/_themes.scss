@@ -69,8 +69,8 @@ $ekzo-colors: (
   // ---------------------------------------
 
   forms:                  ekzo-color(secondary),
-  forms-placeholder:      ekzo-tint(ekzo-color(secondary), 20),
-  forms-border:           ekzo-color(tertiary),
+  forms-placeholder:      rgba(ekzo-color(secondary), .8),
+  forms-border:           rgba(ekzo-color(secondary), .25),
   forms-bg:               ekzo-color(white),
 
   // ---------------------------------------
