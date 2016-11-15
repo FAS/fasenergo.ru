@@ -3,8 +3,10 @@
 // ^FORMS
 // =======================================
 
+#{$ekzo-g-ns}input,
 input,
-#{$ekzo-g-ns}input {
+textarea,
+select {
   @include ekzo-theme() { border-color: ekzo-theme(forms-border); }
   border-width: 1px;
 
