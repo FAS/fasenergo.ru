@@ -1,0 +1,106 @@
+{##
+ # Display input with label, all necessary attributes, state classes and containers
+ #
+ # @param {string} name
+ # @param {string} label
+ # @param {string} [placeholder]
+ # @param {string} [type = 'text']
+ # @param {string} [value]
+ # @param {number} [cols]
+ # @param {number} [rows]
+ # @param {string} [class]
+ # @param {string} [labelClass]
+ # @param {string} [inputContainerClass]
+ # @param {string} [inputClass]
+ # @param {bool}   [displayLabel = true]
+ # @param {bool}   [disabled]
+ # @param {bool}   [required]
+ # @param {bool}   [touched]
+ # @param {bool}   [invalid]
+ # @param {string} [error]
+ #
+ # @return {string} html
+ #
+ # @example
+ #  {{ components.Field(name = 'field-name', label = 'label', disabled = true) }}
+ #  {% call components.Field(name = 'field-name', label = 'Label', type = 'textarea') -%}
+ #    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ #  {% endcall %}
+ #}
+ {% macro Field(
+   name,
+   label,
+   placeholder,
+   type = 'text',
+   value,
+   cols,
+   rows,
+   class,
+   labelClass,
+   inputContainerClass,
+   inputClass,
+   displayLabel = true,
+   disabled,
+   required,
+   touched,
+   invalid,
+   error
+ ) %}
+
+{% set fieldId = 'field-' + name + '-container' %}
+{% set inputId = 'field-' + name %}
+{% set errorId = 'field-' + name + '-error' %}
+{% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
+
+<div id='{{ fieldId }}' class='Field {{ class }}{{ stateClasses }}'>
+
+  {% if displayLabel %}
+  <label class='Field__label {{ labelClass }}' for='{{ inputId }}'>{{ label }}{{ ' *' if required}}</label>
+  {% endif %}
+
+  <div class='Field__input-container {{ inputContainerClass }}'>
+
+    {% if type == 'textarea' %}
+
+    <textarea
+      type='{{ type }}'
+      id='{{ inputId }}'
+      name='{{ name }}'
+      {{ 'value="' + value + '"' if value }}
+      {{ 'aria-label="' + label + '"' if not displayLabel }}
+      {{ 'placeholder="' + placeholder + '"' if placeholder }}
+      class='Field__input {{ inputClass }}{{ stateClasses }}'
+      {{ 'disabled' if disabled }}
+      {{ 'required' if required }}
+      {{ 'aria-invalid="true"' if touched and invalid }}
+      {{ 'aria-describedBy="' + errorId + '"' if error and touched and invalid }}
+      {{ 'cols="' + cols + '"' if cols }}
+      {{ 'rows="' + rows + '"' if rows }}
+    >{{ caller() if caller and not value else value }}</textarea>
+
+    {% else %}
+
+    <input
+      type='{{ type }}'
+      id='{{ inputId }}'
+      name='{{ name }}'
+      {{ 'value="' + value + '"' if value }}
+      {{ 'aria-label="' + label + '"' if not displayLabel }}
+      {{ 'placeholder="' + placeholder + '"' if placeholder }}
+      class='Field__input {{ inputClass }}{{ stateClasses }}'
+      {{ 'disabled' if disabled }}
+      {{ 'required' if required }}
+      {{ 'aria-invalid="true"' if touched and invalid }}
+      {{ 'aria-describedBy="' + errorId + '"' if error and touched and invalid }}
+    >
+
+    {% endif %}
+
+    {% if touched and error %}
+    <div id='{{ errorId }}' class='Field__error'><small>{{ error }}</small></div>
+    {% endif %}
+
+  </div>
+
+</div>
+{% endmacro %}
