@@ -190,60 +190,119 @@ applyWrapperContain: false
 {% endcall %}
 
 {% call components.Example(title = 'Форма') -%}
-<form class='o-grid h-childs-displace'>
+{% raw %}<form class='o-grid h-childs-displace'>
 
-  <div class='o-grid__item h-1/2 h-childs-space-top'>
+  <h4 class='o-grid__item h-1/1 h-margin-top0'>Input</h4>
 
-    <h4 class='h-margin-ends0'>Стандартное поле</h4>
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
 
-    <div><input type='text' value='Lorem Ipsum'></div>
-    <div><input type='text' placeholder='Placeholder'></div>
+    {{ components.Field(name = 'standard', label = 'Стандартное') }}
+    {{ components.Field(name = 'standard-w-value', label = 'Со значением', value = 'Lorem Ipsum') }}
+    {{ components.Field(name = 'standard-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder') }}
 
-    <h5 class='h-margin-top+ h-margin-bottom0'>Обязательное поле</h5>
-    <div><input type='text' required></div>
-    <div><input type='text' value='Lorem Ipsum' required></div>
-    <div><input type='text' placeholder='Placeholder' required></div>
-
-    <h5 class='h-margin-top+ h-margin-bottom0'>Неверное поле</h5>
-    <div><input type='text' aria-invalid='true'></div>
-    <div><input type='text' value='Lorem Ipsum' aria-invalid='true'></div>
-    <div><input type='text' placeholder='Placeholder' aria-invalid='true'></div>
-
-    <h5 class='h-margin-top+ h-margin-bottom0'>Верное поле</h5>
-    <div><input class='is-valid' type='text'></div>
-    <div><input class='is-valid' type='text' value='Lorem Ipsum'></div>
-    <div><input class='is-valid' type='text' placeholder='Placeholder'></div>
-
-    <h4 class='h-margin-top+ h-margin-bottom0'>Textarea</h4>
-
-    <div><textarea cols='30' rows='5' placeholder='Placeholder'></textarea></div>
-    <div><textarea cols='30' rows='5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</textarea></div>
-
-    <h5 class='h-margin-top+ h-margin-bottom0'>Обязательная textarea</h5>
-    <div><textarea cols='30' rows='5' placeholder='Placeholder' required></textarea></div>
-    <div><textarea cols='30' rows='5' required>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</textarea></div>
-
-    <h5 class='h-margin-top+ h-margin-bottom0'>Неверная textarea</h5>
-    <div><textarea cols='30' rows='5' placeholder='Placeholder' aria-invalid='true'></textarea></div>
-    <div><textarea cols='30' rows='5' aria-invalid='true'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</textarea></div>
-
-    <h5 class='h-margin-top+ h-margin-bottom0'>Верная textarea</h5>
-    <div><textarea class='is-valid' cols='30' rows='5' placeholder='Placeholder'></textarea></div>
-    <div><textarea class='is-valid' cols='30' rows='5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</textarea></div>
-
-    <h4 class='h-margin-top+ h-margin-bottom0'>Другое</h4>
-
-    <div><input type='checkbox'> Чек-бокс</div>
-    <div><input type='radio'> Радио-бокс</div>
-
-    <h5 class='h-margin-top+ h-margin-bottom0'>Обязательное другое</h5>
-    <div><input type='checkbox' required> Чек-бокс</div>
-    <div><input type='radio' required> Радио-бокс</div>
+    {{ components.Field(name = 'standard-req', label = 'Стандартное', required = true) }}
+    {{ components.Field(name = 'standard-req-w-value', label = 'Со значением', value = 'Lorem Ipsum', required = true) }}
+    {{ components.Field(name = 'standard-req-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true) }}
 
   </div>
 
-  <div class='o-grid__item h-1/2 h-childs-space-top'>
-    Disabled examples goes here
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ components.Field(name = 'standard-i', label = 'Стандартное', touched = true, invalid = true) }}
+    {{ components.Field(name = 'standard-i-w-value', label = 'Со значением', value = 'Lorem Ipsum', touched = true, invalid = true) }}
+    {{ components.Field(name = 'standard-i-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', touched = true, invalid = true) }}
+
+    {{ components.Field(name = 'standard-req-i', label = 'Стандартное', required = true, touched = true, invalid = true) }}
+    {{ components.Field(name = 'standard-req-i-w-value', label = 'Со значением', value = 'Lorem Ipsum', required = true, touched = true, invalid = true) }}
+    {{ components.Field(name = 'standard-req-i-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true, touched = true, invalid = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ components.Field(name = 'standard-v', label = 'Стандартное', touched = true) }}
+    {{ components.Field(name = 'standard-v-w-value', label = 'Со значением', value = 'Lorem Ipsum', touched = true) }}
+    {{ components.Field(name = 'standard-v-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', touched = true) }}
+
+    {{ components.Field(name = 'standard-req-v', label = 'Стандартное', required = true, touched = true) }}
+    {{ components.Field(name = 'standard-req-v-w-value', label = 'Со значением', value = 'Lorem Ipsum', required = true, touched = true) }}
+    {{ components.Field(name = 'standard-req-v-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true, touched = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ components.Field(name = 'standard-d', label = 'Стандартное', disabled = true) }}
+    {{ components.Field(name = 'standard-d-w-value', label = 'Со значением', value = 'Lorem Ipsum', disabled = true) }}
+    {{ components.Field(name = 'standard-d-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', disabled = true) }}
+
+    {{ components.Field(name = 'standard-req-d', label = 'Стандартное', required = true, disabled = true) }}
+    {{ components.Field(name = 'standard-req-d-w-value', label = 'Со значением', value = 'Lorem Ipsum', required = true, disabled = true) }}
+    {{ components.Field(name = 'standard-req-d-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true, disabled = true) }}
+
+  </div>
+
+  <h4 class='o-grid__item h-1/1'>Textarea</h4>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ components.Field(name = 'textarea', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5) }}
+    {% call components.Field(name = 'textarea-w-value', label = 'Со значением', type = 'textarea', cols = 20, rows = 5) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ components.Field(name = 'textarea-w-ph', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5) }}
+
+    {{ components.Field(name = 'textarea-req', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, required = true) }}
+    {% call components.Field(name = 'textarea-req-w-value', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, required = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ components.Field(name = 'textarea-req-w-ph', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, required = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+   {{ components.Field(name = 'textarea-i', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, touched = true, invalid = true) }}
+   {% call components.Field(name = 'textarea-i-w-value', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, touched = true, invalid = true) -%}
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+   {% endcall %}
+   {{ components.Field(name = 'textarea-i-w-ph', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, touched = true, invalid = true) }}
+   {{ components.Field(name = 'textarea-req-i', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, required = true, touched = true, invalid = true) }}
+   {% call components.Field(name = 'textarea-req-i-w-value', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, required = true, touched = true, invalid = true) -%}
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+   {% endcall %}
+   {{ components.Field(name = 'textarea-req-i-w-ph', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, required = true, touched = true, invalid = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ components.Field(name = 'textarea-v', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, touched = true) }}
+    {% call components.Field(name = 'textarea-v-w-value', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, touched = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ components.Field(name = 'textarea-v-w-ph', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, touched = true) }}
+    {{ components.Field(name = 'textarea-req-v', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, required = true, touched = true) }}
+    {% call components.Field(name = 'textarea-req-v-w-value', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, required = true, touched = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ components.Field(name = 'textarea-req-v-w-ph', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, required = true, touched = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ components.Field(name = 'textarea-d', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, disabled = true) }}
+    {% call components.Field(name = 'textarea-d-w-value', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, disabled = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ components.Field(name = 'textarea-d-w-ph', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, disabled = true) }}
+    {{ components.Field(name = 'textarea-req-d', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, required = true, disabled = true) }}
+    {% call components.Field(name = 'textarea-req-d-w-value', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, required = true, disabled = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ components.Field(name = 'textarea-req-d-w-ph', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, required = true, disabled = true) }}
+
   </div>
 
   <div class='h-margin-top+'>
@@ -251,7 +310,7 @@ applyWrapperContain: false
     <button class='Btn'>Отменить</button>
   </div>
 
-</form>
+</form>{% endraw %}
 {% endcall %}
 
 
