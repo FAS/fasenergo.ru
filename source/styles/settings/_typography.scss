@@ -61,7 +61,7 @@ $ekzo-font-sizes: (
 // ----
 // UI font sizes
 
-$ekzo-forms-font-size:              ekzo-font-size(h5, headings);
+$ekzo-forms-font-size:              $ekzo-font-size;
 $ekzo-forms-placeholder-font-size:  $ekzo-forms-font-size;
 
 $ekzo-code-font-size:               90%;
@@ -103,4 +103,4 @@ $ekzo-font-weight:                  300;
 $ekzo-headings-font-weight:         inherit;
 $ekzo-extra-headings-font-weight:   inherit;
 
-$ekzo-forms-placeholder-font-style: italic;
+$ekzo-forms-placeholder-font-style: inherit;
