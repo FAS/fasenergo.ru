@@ -55,7 +55,7 @@
 
           {% if page.showBreadcrumb %}
           {{ components.Breadcrumb(
-            class           = 'o-breadcrumb o-breadcrumb--rev h-margin-bottom+',
+            class           = 'o-breadcrumb o-breadcrumb--rev h-margin-bottom+--',
             itemsClass      = 'o-breadcrumb__item',
             anchorsClass    = '',
             rootItemClass   = '',
@@ -65,7 +65,7 @@
           {% endif %}
 
           {% if page.showContentTitle %}
-          <h1 class='Content-title h-margin-bottom+'>{{ page.contentTitle }}</h1>
+          <h1 class='Content-title h-margin-bottom+--'>{{ page.contentTitle }}</h1>
           {% endif %}
 
         </header>
