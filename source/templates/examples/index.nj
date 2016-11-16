@@ -78,6 +78,16 @@ applyWrapperContent: false
 {% endcall %}
 
 
+<h2>Иконография</h2>
+
+{% call components.Example() -%}
+{% raw %}{{ components.Icon('phone', 'o-icon--left') }}
+{{ components.Icon('cart', 'o-icon--left') }}
+{{ components.Icon('search', 'o-icon--left') }}
+{{ components.Icon('check', 'o-icon--left') }}{% endraw %}
+{% endcall %}
+
+
 <h2>Элементы</h2>
 
 {% call components.Example(title = 'Кнопки') -%}
@@ -312,16 +322,6 @@ applyWrapperContent: false
   </div>
 
 </form>{% endraw %}
-{% endcall %}
-
-
-<h2>Иконография</h2>
-
-{% call components.Example() -%}
-{% raw %}{{ components.Icon('phone', 'o-icon--left') }}
-{{ components.Icon('cart', 'o-icon--left') }}
-{{ components.Icon('search', 'o-icon--left') }}
-{{ components.Icon('check', 'o-icon--left') }}{% endraw %}
 {% endcall %}
 
 {% endblock %}
