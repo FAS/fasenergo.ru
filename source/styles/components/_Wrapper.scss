@@ -22,9 +22,13 @@ $wrapper-padding: ekzo-space(2);
 // ----
 // Base width of website
 
-.Wrapper--sidebar   { width: ekzo-em(249px); }
-.Wrapper--main      { @include ekzo-breakpoint(desk) { max-width: ekzo-em(1117px); } }
-.Wrapper--container { max-width: ekzo-em(1117px); }
+$total-width: 1366px;
+$sidebar-width: 249px;
+$main-width: $total-width - $sidebar-width;
+
+.Wrapper--sidebar   { width: ekzo-em($sidebar-width); }
+.Wrapper--main      { @include ekzo-breakpoint(desk) { max-width: ekzo-em($main-width); } }
+.Wrapper--container { max-width: ekzo-em($main-width); }
 .Wrapper--content   { max-width: ekzo-em(900px); }
 
 // ----
