@@ -47,9 +47,9 @@
    error
  ) %}
 
-{% set fieldId = 'field-' + name + '-container' %}
-{% set inputId = 'field-' + name %}
-{% set errorId = 'field-' + name + '-error' %}
+{% set fieldId = name + 'Field' + 'Container' %}
+{% set inputId = name + 'Field' %}
+{% set errorId = name + 'Field' + 'Error' %}
 {% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
 
 <div id='{{ fieldId }}' class='Field {{ class }}{{ stateClasses }}'>

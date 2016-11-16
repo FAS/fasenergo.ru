@@ -99,7 +99,7 @@
               <form class='h-margin-bottom'>
                 {{ components.Field(
                   inputClass = 'h-text- h-1/1',
-                  name = 'main-search',
+                  name = 'mainSearch',
                   label = 'Поиск',
                   displayLabel = false,
                   type = 'search',
