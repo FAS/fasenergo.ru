@@ -9,6 +9,7 @@
 {{ config('page', {
   class                 : '',
   applyWrapper          : true,
+  applyWrapperV         : true,
   applyWrapperMain      : true,
   applyWrapperContainer : true,
   applyWrapperContent   : true,

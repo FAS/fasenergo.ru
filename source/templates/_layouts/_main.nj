@@ -47,7 +47,7 @@
     <!-- Site's content -->
     <!-- ============== -->
 
-    <main class='Main {{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper--container' if page.applyWrapperContainer }} h-flex-y--center o-panel o-panel__body t-white h-padding-ends+' role='main'>
+    <main class='Main {{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper-v' if page.applyWrapperV }} {{ 'Wrapper--container' if page.applyWrapperContainer }} h-flex-y--center o-panel o-panel__body t-white' role='main'>
       <article class='{{ 'Wrapper--content' if page.applyWrapperContent }} h-1/1 o-panel o-panel__body'>
 
         {% if page.showBreadcrumb or page.showContentTitle %}

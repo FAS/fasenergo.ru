@@ -14,6 +14,11 @@ $wrapper-padding: ekzo-space(2);
   margin-right: - $wrapper-padding;
 }
 
+.Wrapper-v    {
+  padding-top:    $wrapper-padding * 0.75;
+  padding-bottom: $wrapper-padding * 2.5;
+}
+
 // ----
 // Base width of website
 
