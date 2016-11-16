@@ -18,7 +18,7 @@ $wrapper-padding: ekzo-space(2);
 // Base width of website
 
 .Wrapper--sidebar   { width: ekzo-em(249px); }
-.Wrapper--main      { max-width: ekzo-em(1117px); }
+.Wrapper--main      { @include ekzo-breakpoint(desk) { max-width: ekzo-em(1117px); } }
 .Wrapper--container { max-width: ekzo-em(1117px); }
 .Wrapper--content   { max-width: ekzo-em(900px); }
 
