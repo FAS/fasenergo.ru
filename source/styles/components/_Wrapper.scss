@@ -17,9 +17,10 @@ $wrapper-padding: ekzo-space(2);
 // ----
 // Base width of website
 
-.Wrapper--main    { max-width: ekzo-em(1117px); }
-.Wrapper--sidebar { width: ekzo-em(249px); }
-.Wrapper--contain { max-width: ekzo-em(900px); }
+.Wrapper--sidebar   { width: ekzo-em(249px); }
+.Wrapper--main      { max-width: ekzo-em(1117px); }
+.Wrapper--container { max-width: ekzo-em(1117px); }
+.Wrapper--content   { max-width: ekzo-em(900px); }
 
 // ----
 // Limit to ~80 characters per line

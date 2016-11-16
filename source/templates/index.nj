@@ -7,8 +7,6 @@ navTitle:         Главная
 metaDesc:         Главная
 
 class:            p-index
-showContentTitle: true
-showBreadcrumb:   true
 ---
 
 {% extends '_layouts/_main.nj' %}

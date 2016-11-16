@@ -5,7 +5,8 @@ contentTitle:    Примеры
 navTitle:        Примеры
 metaDesc:        Примеры
 
-applyWrapperContain: false
+applyWrapperMain:    false
+applyWrapperContent: false
 ---
 
 {% extends '_layouts/_main.nj' %}
