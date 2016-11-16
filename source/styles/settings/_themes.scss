@@ -153,4 +153,9 @@ $ekzo-colors: (
 
   links:              ekzo-color(white),
   links-border:       rgba(ekzo-color(white), .25),
+
+  forms:                  ekzo-color(white),
+  forms-placeholder:      rgba(ekzo-color(white), .8),
+  forms-border:           adjust-color(ekzo-color(tertiary), $saturation: -6, $lightness: 16),
+  forms-bg:               adjust-color(ekzo-color(tertiary), $saturation: -2, $lightness: -3),
 ))
