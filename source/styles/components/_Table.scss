@@ -1,10 +1,8 @@
-// stylelint-disable selector-no-type
-
 // =======================================
 // ^Table
 // =======================================
 
-table {
+.Table {
   margin-bottom: ekzo-space(2);
 
   border-radius: $primary-border-radius;
@@ -16,7 +14,6 @@ table {
     @if $color { box-shadow: 0 0 0 1px $color; }
   }
   border-style: hidden;
-}
 
   tr, th, td {
     border-width: 1px;
@@ -31,3 +28,5 @@ table {
   }
 
   td { @include ekzo-font-size('-') }
+
+}

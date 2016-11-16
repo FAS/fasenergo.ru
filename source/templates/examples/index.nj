@@ -115,7 +115,7 @@ applyWrapperContent: false
 {% endcall %}
 
 {% call components.Example(title = 'Таблица') -%}
-<table>
+<table class='Table'>
   <thead>
     <tr>
       <th>Газовый генератор</th>
