@@ -2,58 +2,142 @@
 // ^Field
 // =======================================
 
-.Field {}
+$field-padding: ekzo-space(.5);
+$small-field-padding: ekzo-space(.25);
 
-  .Field__input {
-    @include ekzo-theme() { border-color: ekzo-theme(forms-border); }
-    border-width: 1px;
-    border-radius: $primary-border-radius;
+$field-mark-width: ekzo-space();
 
-    padding-top:    ekzo-space(.5);
-    padding-bottom: ekzo-space(.5);
-    padding-left:   ekzo-space();
-    padding-right:  ekzo-space(.5);
+$field-group-btn-width: ekzo-space(1.75);
+$small-field-group-btn-width: ekzo-space(1.5);
+
+.Field {
+
+  &.is-disabled {
+
+    .Field__input { opacity: .7 }
+
+  }
+
+  &.is-invalid {
+
+    .Field__input {
+      @include ekzo-theme() {
+        color: ekzo-theme(forms-invalid);
+        border-color: ekzo-theme(forms-invalid-border);
+      }
+    }
+
+    .Field__error { display: block; }
+
+  }
+
+  &.is-valid {
+
+    .Field__input {
+      @include ekzo-theme() {
+        color: ekzo-theme(forms-valid);
+        border-color: ekzo-theme(forms-valid-border);
+      }
+
+      padding-right: $field-padding + $field-mark-width;
+    }
+
+    // Display check-mark
+    .Field__valid-mark { opacity: 1; }
+
+  }
+
+}
+
+  .Field__label {
+    display: block;
+    margin-bottom: ekzo-space(.5);
+  }
+
+  .Field__input-container { position: relative; }
+
+    // Cehck mark for `.is-valid` Field
+    .Field__valid-mark {
+      position: absolute;
+
+      right: $field-padding;
+      top:   $field-padding;
+
+      width: $field-mark-width;
+
+      opacity: 0;
+
+      @include ekzo-theme() { color: ekzo-theme(forms-valid); }
+      @include ekzo-font-size(22px);
+    }
+
+    .Field__input {
+      width: 100%;
+
+      @include ekzo-theme() { border-color: ekzo-theme(forms-border); }
+      border-width: 1px;
+      border-radius: $primary-border-radius;
+
+      padding-top:    $field-padding;
+      padding-bottom: $field-padding;
+      padding-left:   $field-padding * 2;
+      padding-right:  $field-padding;
+
+      &:focus { @include ekzo-theme() { border-color: ekzo-theme(forms-focus-border); }  }
+
+    }
+
+  .Field__error {
+    display: none;
+
+    @include ekzo-font-size('-');
+    @include ekzo-theme() { color: ekzo-theme(forms-invalid); }
+
+    margin-top: ekzo-space(.25);
   }
 
 .Field- {
+
   .Field__input {
     font-size: ekzo-font-size('-');
 
-    padding-top:    ekzo-space(.25);
-    padding-bottom: ekzo-space(.25);
-    padding-left:   ekzo-space(.5);
-    padding-right:  ekzo-space(.25);
+    padding-top:    $small-field-padding;
+    padding-bottom: $small-field-padding;
+    padding-left:   $small-field-padding * 2;
+    padding-right:  $small-field-padding;
   }
 
   ::placeholder { font-size: ekzo-font-size('-'); }
 
+  .Field__valid-mark { top: $small-field-padding; }
+
 }
 
 .Field-group {
-  $padding: ekzo-space(1.75);
-
   display: flex;
 
-  .Field__input { padding-right: $padding; }
+  .Field__input { padding-right: $field-group-btn-width; }
 
   .Field__button {
-    width: $padding;
+    cursor: pointer;
+
+    width: $field-group-btn-width;
+
     @include ekzo-theme() { color: ekzo-theme(forms-placeholder) }
     background-color: transparent;
 
-    margin-left: - $padding;
+    margin-left: - $field-group-btn-width;
   }
 
 }
 
 .Field-group- {
-  $padding: ekzo-space(1.5);
 
-  .Field__input { padding-right: $padding; }
+  .Field__input { padding-right: $small-field-group-btn-width; }
 
   .Field__button {
-    width: $padding;
-    margin-left: - $padding;
+    width: $small-field-group-btn-width;
+    margin-left: - $small-field-group-btn-width;
   }
 
 }

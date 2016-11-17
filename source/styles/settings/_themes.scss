@@ -7,7 +7,8 @@ $ekzo-colors: (
   secondary:     kotsu-theme-color(),
   tertiary:      #4e5b69,
   white:         #ffffff,
-  cascade:       #8db0ab
+  cascade:       #8db0ab,
+  warn:          #e44225,
 );
 
 @include ekzo-extend-themes(base, (
@@ -72,6 +73,13 @@ $ekzo-colors: (
   forms-placeholder:      rgba(ekzo-color(secondary), .8),
   forms-border:           rgba(ekzo-color(secondary), .25),
   forms-bg:               ekzo-color(white),
+  forms-focus-border:     rgba(ekzo-color(secondary), .55),
+
+  forms-valid:            ekzo-color(secondary),
+  forms-valid-border:     ekzo-color(tertiary),
+
+  forms-invalid:          ekzo-color(warn),
+  forms-invalid-border:   adjust-color(ekzo-color(warn), $lightness: 17),
 
   // ---------------------------------------
   // Table
