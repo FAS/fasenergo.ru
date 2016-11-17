@@ -96,11 +96,11 @@
 
     {% endif %}
 
-    {% if touched and error %}
-    <div id='{{ errorId }}' class='Field__error'><small>{{ error }}</small></div>
-    {% endif %}
-
   </div>
+
+  {% if touched and error %}
+  <div id='{{ errorId }}' class='Field__error'>{{ error }}</div>
+  {% endif %}
 
 </div>
 {% endmacro %}
