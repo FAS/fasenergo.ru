@@ -9,5 +9,5 @@
  # @example {{ components.Icon('phone', 'o-icon--left') }}
  #}
 {% macro Icon(name, class) %}
-<span class='o-icon Icon--{{ name }} {{ class }}'></span>
+<i class='o-icon Icon--{{ name }} {{ class }}'></i>
 {% endmacro %}
