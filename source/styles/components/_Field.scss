@@ -1,0 +1,59 @@
+// =======================================
+// ^Field
+// =======================================
+
+.Field {}
+
+  .Field__input {
+    @include ekzo-theme() { border-color: ekzo-theme(forms-border); }
+    border-width: 1px;
+    border-radius: $primary-border-radius;
+
+    padding-top:    ekzo-space(.5);
+    padding-bottom: ekzo-space(.5);
+    padding-left:   ekzo-space();
+    padding-right:  ekzo-space(.5);
+  }
+
+.Field- {
+  .Field__input {
+    font-size: ekzo-font-size('-');
+
+    padding-top:    ekzo-space(.25);
+    padding-bottom: ekzo-space(.25);
+    padding-left:   ekzo-space(.5);
+    padding-right:  ekzo-space(.25);
+  }
+
+  ::placeholder { font-size: ekzo-font-size('-'); }
+
+}
+
+.Field-group {
+  $padding: ekzo-space(1.75);
+
+  display: flex;
+
+  .Field__input { padding-right: $padding; }
+
+  .Field__button {
+    width: $padding;
+    @include ekzo-theme() { color: ekzo-theme(forms-placeholder) }
+    background-color: transparent;
+
+    margin-left: - $padding;
+  }
+
+}
+
+.Field-group- {
+  $padding: ekzo-space(1.5);
+
+  .Field__input { padding-right: $padding; }
+
+  .Field__button {
+    width: $padding;
+    margin-left: - $padding;
+  }
+
+}
