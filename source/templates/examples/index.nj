@@ -22,6 +22,7 @@ applyWrapperContent: false
   <li class='h-bg-color--tertiary'>tertiary</li>
   <li class='h-bg-color--cascade'>cascade</li>
   <li class='h-bg-color--white'>white</li>
+  <li class='h-bg-color--warn'>warn</li>
 </ul>
 
 <hr class='h-margin-ends h-bleed-sides+'>
@@ -32,6 +33,7 @@ applyWrapperContent: false
   <li class='h-color--tertiary'>tertiary</li>
   <li class='h-color--cascade'>cascade</li>
   <li class='h-color--white'>white</li>
+  <li class='h-color--warn'>warn</li>
 </ul>
 {% endcall %}
 
