@@ -69,7 +69,7 @@
       {{ 'value="' + value + '"' if value }}
       {{ 'aria-label="' + label + '"' if not displayLabel }}
       {{ 'placeholder="' + placeholder + '"' if placeholder }}
-      class='Field__input {{ inputClass }}{{ stateClasses }}'
+      class='Field__input {{ inputClass }}'
       {{ 'disabled' if disabled }}
       {{ 'required' if required }}
       {{ 'aria-invalid="true"' if touched and invalid }}
@@ -87,7 +87,7 @@
       {{ 'value="' + value + '"' if value }}
       {{ 'aria-label="' + label + '"' if not displayLabel }}
       {{ 'placeholder="' + placeholder + '"' if placeholder }}
-      class='Field__input {{ inputClass }}{{ stateClasses }}'
+      class='Field__input {{ inputClass }}'
       {{ 'disabled' if disabled }}
       {{ 'required' if required }}
       {{ 'aria-invalid="true"' if touched and invalid }}
