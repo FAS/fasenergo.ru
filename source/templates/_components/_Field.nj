@@ -96,6 +96,8 @@
 
     {% endif %}
 
+    <div class='Field__valid-mark'>{{ components.Icon('check') }}</div>
+
   </div>
 
   {% if touched and error %}
