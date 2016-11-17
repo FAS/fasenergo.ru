@@ -207,11 +207,13 @@ applyWrapperContent: false
 
   <div class='o-grid__item h-1/4 h-childs-space-top'>
 
-    {{ components.Field(name = 'standard', label = 'Стандартное') }}
+    {{ components.Field(class = 'Field-',  name = 'small-inl', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный') }}
+    {{ components.Field(name = 'standard-inl', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный') }}
+    {{ components.Field(name = 'standard', label = 'Стандарнтный') }}
     {{ components.Field(name = 'standard-w-value', label = 'Со значением', value = 'Lorem Ipsum') }}
     {{ components.Field(name = 'standard-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder') }}
 
-    {{ components.Field(name = 'standard-req', label = 'Стандартное', required = true) }}
+    {{ components.Field(name = 'standard-req', label = 'Стандарнтный', required = true) }}
     {{ components.Field(name = 'standard-req-w-value', label = 'Со значением', value = 'Lorem Ipsum', required = true) }}
     {{ components.Field(name = 'standard-req-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true) }}
 
@@ -219,19 +221,23 @@ applyWrapperContent: false
 
   <div class='o-grid__item h-1/4 h-childs-space-top'>
 
-    {{ components.Field(name = 'standard-i', label = 'Стандартное', touched = true, invalid = true) }}
+    {{ components.Field(class = 'Field-',  name = 'small-inl-i', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, invalid = true) }}
+    {{ components.Field(name = 'standard-inl-i', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, invalid = true) }}
+    {{ components.Field(name = 'standard-i', label = 'Стандарнтный', touched = true, invalid = true) }}
     {{ components.Field(name = 'standard-i-w-value', label = 'Со значением', value = 'Lorem Ipsum', touched = true, invalid = true) }}
     {{ components.Field(name = 'standard-i-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', touched = true, invalid = true) }}
 
     {{ components.Field(name = 'standard-req-i', label = 'Стандартное', required = true, touched = true, invalid = true) }}
     {{ components.Field(name = 'standard-req-i-w-value', label = 'Со значением', value = 'Lorem Ipsum', required = true, touched = true, invalid = true) }}
-    {{ components.Field(name = 'standard-req-i-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true, touched = true, invalid = true) }}
+    {{ components.Field(name = 'standard-req-i-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true, touched = true, invalid = true, error = 'Текст ошибки') }}
 
   </div>
 
   <div class='o-grid__item h-1/4 h-childs-space-top'>
 
-    {{ components.Field(name = 'standard-v', label = 'Стандартное', touched = true) }}
+    {{ components.Field(class = 'Field-',  name = 'small-inl-v', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true) }}
+    {{ components.Field(name = 'standard-inl-v', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true) }}
+    {{ components.Field(name = 'standard-v', label = 'Стандарнтный', touched = true) }}
     {{ components.Field(name = 'standard-v-w-value', label = 'Со значением', value = 'Lorem Ipsum', touched = true) }}
     {{ components.Field(name = 'standard-v-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', touched = true) }}
 
@@ -243,11 +249,13 @@ applyWrapperContent: false
 
   <div class='o-grid__item h-1/4 h-childs-space-top'>
 
-    {{ components.Field(name = 'standard-d', label = 'Стандартное', disabled = true) }}
+    {{ components.Field(class = 'Field-',  name = 'small-inl-d', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', disabled = true) }}
+    {{ components.Field(name = 'standard-inl-d', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', disabled = true) }}
+    {{ components.Field(name = 'standard-d', label = 'Стандарнтный', disabled = true) }}
     {{ components.Field(name = 'standard-d-w-value', label = 'Со значением', value = 'Lorem Ipsum', disabled = true) }}
     {{ components.Field(name = 'standard-d-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', disabled = true) }}
 
-    {{ components.Field(name = 'standard-req-d', label = 'Стандартное', required = true, disabled = true) }}
+    {{ components.Field(name = 'standard-req-d', label = 'Стандарнтный', required = true, disabled = true) }}
     {{ components.Field(name = 'standard-req-d-w-value', label = 'Со значением', value = 'Lorem Ipsum', required = true, disabled = true) }}
     {{ components.Field(name = 'standard-req-d-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true, disabled = true) }}
 
