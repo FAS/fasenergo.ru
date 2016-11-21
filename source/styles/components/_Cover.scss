@@ -5,7 +5,7 @@
 .Cover {
   // Prevent display of page cover images on smaller desktops
   @include ekzo-breakpoint(before-desk) { background-image: none !important; }
-  background-position:   right top;
+  background-position:   700px center;
   background-size:       cover;
   background-attachment: fixed;
   background-repeat:     no-repeat;
