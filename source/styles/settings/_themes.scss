@@ -122,6 +122,8 @@ $ekzo-colors: (
 ))
 
 @include ekzo-extend-themes(white, (
+  bg:             ekzo-color(white),
+
   headings-h1:    ekzo-color(secondary),
   headings:       ekzo-color(tertiary),
 
