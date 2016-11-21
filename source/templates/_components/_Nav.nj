@@ -34,6 +34,7 @@
 
     {% call components.NavItem('/', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
     {% call components.NavItem('/about', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
+    {% call components.NavItem('/contacts', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
     {% call components.NavItem('/examples', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
 
   </ul>

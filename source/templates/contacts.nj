@@ -1,0 +1,29 @@
+---
+title:            Контакты
+breadcrumbTitle:  Контакты
+contentTitle:     Контакты
+navTitle:         Контакты
+metaDesc:         Контакты
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+  {{ components.Contact(data.contacts.main, lead = true) }}
+
+  <h2>Отделы</h2>
+
+  {% for depName, dep in data.contacts.departaments %}
+  {{ components.Contact(dep) }}
+  {% endfor %}
+
+  <hr>
+
+  <h2>Представительства</h2>
+
+  {% for depName, dep in data.contacts.representatives %}
+  {{ components.Contact(dep) }}
+  {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,72 @@
+{##
+ # Display address section for specified data
+ #
+ # @param {object} data   Complex object with information about specific contact.
+ #                        See contacts data for example
+ # @param {bool}   [lead] Is current component leading. Affects some sizes
+ #                        and displayed elements
+ #}
+{% macro Contact(data, lead) %}
+<address class='h-text+ h-font-style--normal'>
+
+  {% if lead %}
+  <h2>{{ data.title }}</h2>
+  {% else %}
+  <h3>{{ data.title }}</h3>
+  {% endif %}
+
+  {% if data.desc %}
+  <p>{{ data.desc }}</p>
+  {% endif %}
+
+  {% for e in data.address %}
+  <p>
+    {{ '<strong>' if lead }}{{ e.index }}, {{ e.city }}, {{ e.street }}{{ '</strong>' if lead }}
+    {% if e.map %}<button class='g-link h-bg-color--transparent h-margin-left-- h-padding0'>На карте</button>{% endif %}
+  </p>
+  {% endfor %}
+
+  {% if data.phones %}
+  <p>
+    {% for e in data.phones %}
+    <strong><a class='g-link--inherit' href='te:{{ e.city + e.tel[0] + e.tel[1] + e.tel[2] }}'>{{ '(' + e.city + ')&nbsp;' + e.tel[0] + '-' + e.tel[1] + '-' + e.tel[2] }}</a></strong>{{ ',' if not loop.last }}
+    {% endfor %}
+  </p>
+  {% endif %}
+
+  {% if data.worktime %}
+  <p>
+    {% for e in data.worktime %}
+    {% if not e.nonWorking %}
+    {{ e.days[0] }} – {{ e.days[1] }}, {{ e.start[0] }}:{{ e.start[1] }} – {{ e.end[0] }}:{{ e.end[1] }}
+    {% endif %}
+    {% if not loop.last %}<br>{% endif %}
+    {% endfor %}
+  </p>
+  {% endif %}
+
+  {% if data.emails %}
+  <p>
+    {% for e in data.emails %}
+    {% set email = e.value[0] ~ '@' ~ e.value[1] %}
+    <a href='mailto:{{ email }}'>{{ email }}</a>{{ ',' if not loop.last }}
+    {% endfor %}
+  </p>
+  {% endif %}
+
+  {% if data.skypes %}
+  <p>
+    {% for e in data.skypes %}
+    <a class='g-link--inherit h-color--skype' href='skype:{{ e.value }}?call'>{{ components.Icon('skype', class = 'o-icon--left') }} <span>{{ e.value }}</span></a>{{ ',' if not loop.last }}
+    {% endfor %}
+  </p>
+  {% endif %}
+
+  {% if data.map %}
+  <div class='o-aspect-ratio o-aspect-ratio21:9 h-margin-top+ js-scroll-on-click'>
+    <iframe class='o-aspect-ratio__content js-scroll-on-click__target h-border0' src='{{ data.map }}'></iframe>
+  </div>
+  {% endif %}
+
+</address>
+{% endmacro %}
