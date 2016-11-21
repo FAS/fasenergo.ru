@@ -2,9 +2,15 @@
 // import 'babel-polyfill'
 
 import $ from 'jquery'
+import scrollOnClick from './plugins/scroll-on-click';
 
 $(() => {
   console.log('jQuery version is: ' + $().jquery)
 
   $('html').removeClass('no-js')
+
+  // Zoom target with scroll only on click
+  // Used primary for iframes
+  $('.js-scroll-on-click').scrollOnClick()
+
 })
