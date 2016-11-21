@@ -86,7 +86,8 @@ applyWrapperContent: false
 {% raw %}{{ components.Icon('phone', 'o-icon--left') }}
 {{ components.Icon('cart', 'o-icon--left') }}
 {{ components.Icon('search', 'o-icon--left') }}
-{{ components.Icon('check', 'o-icon--left') }}{% endraw %}
+{{ components.Icon('check', 'o-icon--left') }}
+{{ components.Icon('skype', 'o-icon--left') }}{% endraw %}
 {% endcall %}
 
 
