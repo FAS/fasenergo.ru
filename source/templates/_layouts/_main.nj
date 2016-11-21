@@ -42,7 +42,7 @@
     </div>
   </div>
 
-  <div class='{{ 'Wrapper--main' if page.applyWrapperMain }} o-grid__item h-flex+1-0% o-panel h-min0'>
+  <div class='{{ 'Wrapper--main' if page.applyWrapperMain and page.coverImage }} o-grid__item h-flex+1-0% o-panel h-min0'>
 
     <!-- Site's content -->
     <!-- ============== -->
