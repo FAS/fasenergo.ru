@@ -124,4 +124,10 @@
   </div>
 
 </div>
+
+{% if page.coverImage %}
+<div class='Cover' style='{{ 'background-image: url(/' + path.images + '/covers/' + page.coverImage + ')' }}'>
+</div>
+{% endif %}
+
 {% endblock %}

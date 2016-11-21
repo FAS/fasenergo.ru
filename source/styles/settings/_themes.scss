@@ -120,6 +120,12 @@ $ekzo-colors: (
   breadcrumb-links:      ekzo-color(tertiary),
   breadcrumb-delimiters: rgba(ekzo-color(secondary), .25),
 
+  // ---------------------------------------
+  // Cover
+  // ---------------------------------------
+
+  cover-overlay:         rgba(ekzo-color(secondary), .75),
+
 ))
 
 @include ekzo-extend-themes(white, (

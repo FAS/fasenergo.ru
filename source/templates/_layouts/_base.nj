@@ -27,11 +27,7 @@
 {% endfor %}
 
 <!doctype html>
-<html
-  class='{{ page.class }} {{ 'Cover' if page.coverImage }} t-base no-js'
-  style='{{ 'background-image: url(/' + path.images + '/covers/' + page.coverImage + ')' if page.coverImage }}'
-  lang='{{ page.locale }}' {{ 'dir=\'rtl\'' if page.rtl }}
->
+<html class='{{ page.class }} t-base no-js' lang='{{ page.locale }}' {{ 'dir=\'rtl\'' if page.rtl }}>
 
 <head>
 

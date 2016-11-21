@@ -3,10 +3,33 @@
 // =======================================
 
 .Cover {
+  z-index: ekzo-z-index(deepdive);
+
+  position: fixed;
+
+  height: 100%;
+  width: 100%;
+
+  // Fix IE11
+  top: 0;
+  bottom: 0;
+
   // Prevent display of page cover images on smaller desktops
   @include ekzo-breakpoint(before-desk) { background-image: none !important; }
   background-position:   700px center;
   background-size:       cover;
   background-attachment: fixed;
   background-repeat:     no-repeat;
+
+  &:after {
+    display: block;
+
+    content: '';
+
+    height: 100%;
+    width: 100%;
+
+    @include ekzo-theme() { background-color: ekzo-theme(cover-overlay); }
+  }
+
 }
