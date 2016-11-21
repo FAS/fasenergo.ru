@@ -9,6 +9,7 @@ $ekzo-colors: (
   white:         #ffffff,
   cascade:       #8db0ab,
   warn:          #e44225,
+  skype:         #29ace3
 );
 
 @include ekzo-extend-themes(base, (
