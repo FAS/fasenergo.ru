@@ -2,11 +2,11 @@
 
 {% block body %}
 
-{% set e = data.contacts.sale.phones.main %}
+{% set e = data.contacts.departaments.sales.phones[0] %}
 {% set phone = '(' + e.city + ')&nbsp;' + e.tel[0] + '-' + e.tel[1] + '-' + e.tel[2] %}
 {% set phonePlain = e.city + e.tel[0] + e.tel[1] + e.tel[2] %}
 
-{% set e = data.contacts.sale.emails.main %}
+{% set e = data.contacts.main.emails[0] %}
 {% set email = e.value[0] + '@' + e.value[1] %}
 
 <div class='o-grid o-panel__body'>
