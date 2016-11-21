@@ -7,6 +7,7 @@ navTitle:         Главная
 metaDesc:         Главная
 
 class:            p-index
+coverImage:       cover1.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

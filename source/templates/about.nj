@@ -6,6 +6,7 @@ navTitle:         О нас
 metaDesc:         О нас
 
 class:            ''
+coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}
