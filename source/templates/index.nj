@@ -25,11 +25,11 @@ showContentTitle:      false
 
     <h1>Ведущий российский производитель<br>газовых генераторов</h1>
 
-    <ul>
-      <p><span>10</span> лет на рынке</p>
-      <p><span>982</span> поставки</p>
-      <p><span>42%</span> доля на рынке</p>
-      <p><span>78</span> реализованных проектов</p>
+    <ul class='g-list0'>
+      <li><span>10</span> лет на рынке</li>
+      <li><span>982</span> поставки</li>
+      <li><span>42%</span> доля на рынке</li>
+      <li><span>78</span> реализованных проектов</li>
     </ul>
 
   </div>
