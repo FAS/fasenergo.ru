@@ -84,28 +84,50 @@ showContentTitle:      false
 
 <section>
 
-  <h2>Мы делаем</h2>
+  <div class='Wrapper'>
+    <div class='Wrapper--content h-margin-sides--auto'>
+      <h2>Мы делаем</h2>
+    </div>
+  </div>
 
-  <section>
+  <section class='Wrapper h-margin-bottom0' style='
+    background-image: url(/{{ path.images}}/covers/cover2.jpg);
+    background-size: 50% 100%;
+    background-position: right center;
+    background-repeat: no-repeat;
+  '>
+    <div class='Wrapper--content h-margin-sides--auto'>
+      <div class='h-1/2 h-padding-right+ h-padding-ends+'>
 
-    <h3>Проекты под ключ</h3>
+        <h3 class='h-margin-top0'>Проекты под ключ</h3>
 
-    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
-    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
+        <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
+        <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
 
-    <p><a href='#' class='Btn'>Подробнее о проектах и сервисах</a></p>
+        <p><a href='#' class='Btn'>Подробнее о проектах и сервисах</a></p>
 
+      </div>
+    </div>
   </section>
 
-  <section>
+  <section class='Wrapper' style='
+    background-image: url(/{{ path.images}}/covers/cover1.jpg);
+    background-size: 50.1% 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+  '>
+    <div class='Wrapper--content h-margin-sides--auto'>
+      <div class='h-1/2 h-padding-left+ h-padding-ends+ h-margin-left--auto'>
 
-    <h3>Отраслевые решения</h3>
+        <h3 class='h-margin-top0'>Отраслевые решения</h3>
 
-    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. </p>
-    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
+        <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. </p>
+        <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
 
-    <p><a href='#' class='Btn'>Подробнее про решения</a></p>
+        <p><a href='#' class='Btn'>Подробнее про решения</a></p>
 
+      </div>
+    </div>
   </section>
 
 </section>
