@@ -1,0 +1,90 @@
+// =======================================
+// ^Lead-block
+// =======================================
+
+.Lead-block {
+  background-image:    url('/#{kotsu-path(images)}/index-header-bg.png');
+  background-position: bottom left;
+  background-repeat:   no-repeat;
+
+  min-height: 625px;
+}
+
+  .Lead-block__items {
+    position: relative;
+
+    // Create context for `.Lead-block__value:after`'s `z-index: -1` to place it under text
+    z-index: ekzo-z-index(base);
+  }
+
+    .Lead-block__item { position: absolute; }
+
+    .Lead-block__item1 {
+      top: 5px;
+      left: 0;
+
+      .Lead-block__value:after {
+        width:  70px;
+        height: 70px;
+      }
+
+    }
+
+    .Lead-block__item2 {
+      top: 0;
+      left: 365px;
+
+      .Lead-block__value:after {
+        width:  80px;
+        height: 80px;
+      }
+
+    }
+
+    .Lead-block__item3 {
+      top: 155px;
+      left: 25px;
+
+      .Lead-block__value:after {
+        width:  110px;
+        height: 110px;
+      }
+
+    }
+
+    .Lead-block__item4 {
+      top: 120px;
+      left: 255px;
+
+      .Lead-block__value:after {
+        width:  95px;
+        height: 95px;
+      }
+
+    }
+
+      .Lead-block__value {
+        position: relative;
+
+        &:after {
+          position: absolute;
+          display: block;
+          content: '';
+
+          @include ekzo-theme($also-chain: false) {
+            background-color: ekzo-theme(lead-block-value-bg);
+            box-shadow: 0 0 35px 3px ekzo-theme(lead-block-value-bg-glow);
+          }
+
+          border-radius: 50%;
+
+          // Force it to appear under text
+          z-index: -1;
+
+          // Center
+          top:  55%; // Compensate empty upper font space
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+      }
