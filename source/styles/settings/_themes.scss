@@ -6,6 +6,7 @@ $ekzo-colors: (
   primary:       #ef4324,
   secondary:     kotsu-theme-color(),
   tertiary:      #4e5b69,
+  quaternary:    #1e272f,
   white:         #ffffff,
   cascade:       #8db0ab,
   warn:          #e44225,
@@ -175,4 +176,19 @@ $ekzo-colors: (
   forms-placeholder:      rgba(ekzo-color(white), .8),
   forms-border:           adjust-color(ekzo-color(tertiary), $saturation: -6, $lightness: 16),
   forms-bg:               adjust-color(ekzo-color(tertiary), $saturation: -2, $lightness: -3),
+))
+
+
+@include ekzo-extend-themes(quaternary, (
+  bg:                 ekzo-color(quaternary),
+
+  text:               ekzo-color(white),
+
+  btn:                 ekzo-color(cascade),
+  btn-hover:           ekzo-color(secondary),
+  btn-hover-bg:        ekzo-color(cascade),
+  btn-active-bg:       adjust-color(ekzo-color(cascade), $saturation: -5, $lightness: -14),
+
+  headings:           ekzo-color(white),
+  headings-h1:        ekzo-color(white),
 ))
