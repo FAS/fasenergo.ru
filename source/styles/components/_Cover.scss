@@ -22,9 +22,11 @@
   background-repeat:     no-repeat;
 
   &:after {
-    display: block;
+    @include ekzo-breakpoint(desk) {
+      display: block;
+      content: '';
+    }
 
-    content: '';
 
     height: 100%;
     width: 100%;
