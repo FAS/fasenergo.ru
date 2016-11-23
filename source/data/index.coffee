@@ -32,6 +32,7 @@ module.exports = (grunt) ->
     data:
       currentYear: new Date().getFullYear()
       contacts: require('./contacts')
+      posts: require('./posts')
 
   return (locale) ->
 
