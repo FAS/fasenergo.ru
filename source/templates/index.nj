@@ -93,23 +93,27 @@ showContentTitle:      false
 
   <section>
     {% call components.BleedMedia(image = '/' + path.images + '/covers/cover2.jpg', align = 'right') %}
+
       <h3 class='h-margin-top0'>Проекты под ключ</h3>
 
       <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
       <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
 
       <p><a href='#' class='Btn'>Подробнее о проектах и сервисах</a></p>
+
     {% endcall %}
   </section>
 
   <section>
     {% call components.BleedMedia(image = '/' + path.images + '/covers/cover1.jpg', align = 'left') %}
+
       <h3 class='h-margin-top0'>Отраслевые решения</h3>
 
       <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. </p>
       <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
 
       <p><a href='#' class='Btn'>Подробнее про решения</a></p>
+
     {% endcall %}
   </section>
 
@@ -136,24 +140,9 @@ showContentTitle:      false
 
     <h2>Новости</h2>
 
-    <article class='o-grid'>
-
-      <div class='o-grid__item h-1/3'><img src='' alt=''></div>
-
-      <div class='o-grid__item h-1/3'>
-
-        <header>
-          <h3><a href='#'>Мы прошли аттестацию по евростандарту</a></h3>
-          <time datetime="2008-02-14 20:00">19.05.2017</time>
-        </header>
-
-        <p>В этом году мы потратили очень много времени на подготовку и сдачу тестов — и не напрасно! Мы прошли аттестацию по евростандарту. Что это даёт и как получить — читайте в статье.</p>
-
-        <p><a href='#'>Читать</a></p>
-
-      </div>
-
-    </article>
+    {% for e in data.posts %}
+    {{ components.PostPreview(title = e.title, desc = e.desc, date = e.date, url = e.url, image = e.image) }}
+    {% endfor %}
 
     <p><a href='#' class='Btn'>Посмотреть все</a></p>
 
