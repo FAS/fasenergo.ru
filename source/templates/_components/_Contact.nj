@@ -19,13 +19,6 @@
   <p>{{ data.desc }}</p>
   {% endif %}
 
-  {% for e in data.address %}
-  <p>
-    {{ '<strong>' if lead }}{{ e.index }}, {{ e.city }}, {{ e.street }}{{ '</strong>' if lead }}
-    {% if e.map %}<button class='g-link h-bg-color--transparent h-margin-left-- h-padding0'>На карте</button>{% endif %}
-  </p>
-  {% endfor %}
-
   {% if data.phones %}
   <p>
     {% for e in data.phones %}
@@ -61,6 +54,13 @@
     {% endfor %}
   </p>
   {% endif %}
+
+  {% for e in data.address %}
+  <p>
+    {{ '<strong>' if lead }}{{ e.index }}, {{ e.city }}, {{ e.street }}{{ '</strong>' if lead }}
+    {% if e.map %}<button class='g-link h-bg-color--transparent h-margin-left-- h-padding0'>На карте</button>{% endif %}
+  </p>
+  {% endfor %}
 
   {% if data.map %}
   <div class='o-aspect-ratio o-aspect-ratio21:9 h-margin-top+ js-scroll-on-click'>
