@@ -91,45 +91,51 @@ showContentTitle:      false
     </div>
   </div>
 
-  <section class='Wrapper h-margin-bottom0' style='
-    background-image: url(/{{ path.images}}/covers/cover2.jpg);
-    background-size: 50% 100%;
-    background-position: right center;
-    background-repeat: no-repeat;
-  '>
-    <div class='Wrapper--content h-margin-sides--auto'>
-      <div class='h-1/2 h-padding-right+ h-padding-ends+'>
+  {% macro Item(align = 'right', image) %}
+    <section class='Wrapper h-margin-bottom0' style='
+      position: relative;
+    '>
 
-        <h3 class='h-margin-top0'>Проекты под ключ</h3>
+      <div style='
+        position: absolute;
+        {{ align }}: 0;
+        width: 50%;
+        height: 100%;
 
-        <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
-        <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
+        background-image: url(/{{ path.images}}/covers/{{ image }});
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      '></div>
 
-        <p><a href='#' class='Btn'>Подробнее о проектах и сервисах</a></p>
+      <div class='Wrapper--content h-margin-sides--auto'>
+        <div class='h-1/2 h-padding-{{ align }}+ h-padding-ends+ h-margin-{{ align }}--auto'>
 
+          {{ caller() }}
+
+        </div>
       </div>
-    </div>
-  </section>
 
-  <section class='Wrapper' style='
-    background-image: url(/{{ path.images}}/covers/cover1.jpg);
-    background-size: 50.1% 100%;
-    background-position: left center;
-    background-repeat: no-repeat;
-  '>
-    <div class='Wrapper--content h-margin-sides--auto'>
-      <div class='h-1/2 h-padding-left+ h-padding-ends+ h-margin-left--auto'>
+    </section>
+  {% endmacro %}
 
-        <h3 class='h-margin-top0'>Отраслевые решения</h3>
+  {% call Item(align = 'right', image = 'cover2.jpg') %}
+    <h3 class='h-margin-top0'>Проекты под ключ</h3>
 
-        <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. </p>
-        <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
+    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
+    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
 
-        <p><a href='#' class='Btn'>Подробнее про решения</a></p>
+    <p><a href='#' class='Btn'>Подробнее о проектах и сервисах</a></p>
+  {% endcall %}
 
-      </div>
-    </div>
-  </section>
+  {% call Item(align = 'left', image = 'cover1.jpg') %}
+    <h3 class='h-margin-top0'>Отраслевые решения</h3>
+
+    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. </p>
+    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
+
+    <p><a href='#' class='Btn'>Подробнее про решения</a></p>
+  {% endcall %}
 
 </section>
 
