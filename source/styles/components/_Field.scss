@@ -14,7 +14,7 @@ $small-field-group-btn-width: ekzo-space(1.5);
 
   &.is-disabled {
 
-    .Field__input { opacity: .7 }
+    .Field__input { opacity: .7; }
 
   }
 
@@ -76,7 +76,7 @@ $small-field-group-btn-width: ekzo-space(1.5);
 
       @include ekzo-theme() { border-color: ekzo-theme(forms-border); }
       border-width: 1px;
-      border-radius: $primary-border-radius;
+      border-radius: ekzo-border-radius('');
 
       padding-top:    $field-padding;
       padding-bottom: $field-padding;

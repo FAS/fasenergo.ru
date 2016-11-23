@@ -5,7 +5,7 @@
 .Table {
   margin-bottom: ekzo-space(2);
 
-  border-radius: $primary-border-radius;
+  border-radius: ekzo-border-radius('');
   // @note This is easiest way to set radius on border of table without
   //       additional wrappers and collapsable cells, but it won't work
   //       with background on cells without `overflow: hidden`
@@ -15,7 +15,9 @@
   }
   border-style: hidden;
 
-  tr, th, td {
+  tr,
+  th,
+  td {
     border-width: 1px;
     @include ekzo-theme() { border-color: ekzo-theme(table-border); }
 
@@ -27,6 +29,6 @@
     text-align: inherit;
   }
 
-  td { @include ekzo-font-size('-') }
+  td { @include ekzo-font-size('-'); }
 
 }

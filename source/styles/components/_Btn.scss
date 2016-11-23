@@ -7,7 +7,7 @@
 
   border-width: 1px;
   @include ekzo-theme() { border-color: ekzo-theme(btn-border); }
-  border-radius: $primary-border-radius;
+  border-radius: ekzo-border-radius('');
 
   text-align: center;
   cursor: pointer;

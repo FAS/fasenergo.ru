@@ -18,10 +18,14 @@ $ekzo-z-indexes: (
 );
 
 // ---------------------------------------
-// Border radius
+// Border radiuses
 // ---------------------------------------
 
-$primary-border-radius: 2px;
+$ekzo-border-radius: (
+  '': 2px,
+  // --circle: 50%,
+  0: 0,
+);
 
 // ---------------------------------------
 // Links styling
