@@ -91,51 +91,27 @@ showContentTitle:      false
     </div>
   </div>
 
-  {% macro Item(align = 'right', image) %}
-    <section class='Wrapper h-margin-bottom0' style='
-      position: relative;
-    '>
+  <section>
+    {% call components.BleedMedia(image = '/' + path.images + '/covers/cover2.jpg', align = 'right') %}
+      <h3 class='h-margin-top0'>Проекты под ключ</h3>
 
-      <div style='
-        position: absolute;
-        {{ align }}: 0;
-        width: 50%;
-        height: 100%;
+      <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
+      <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
 
-        background-image: url(/{{ path.images}}/covers/{{ image }});
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      '></div>
+      <p><a href='#' class='Btn'>Подробнее о проектах и сервисах</a></p>
+    {% endcall %}
+  </section>
 
-      <div class='Wrapper--content h-margin-sides--auto'>
-        <div class='h-1/2 h-padding-{{ align }}+ h-padding-ends+ h-margin-{{ align }}--auto'>
+  <section>
+    {% call components.BleedMedia(image = '/' + path.images + '/covers/cover1.jpg', align = 'left') %}
+      <h3 class='h-margin-top0'>Отраслевые решения</h3>
 
-          {{ caller() }}
+      <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. </p>
+      <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
 
-        </div>
-      </div>
-
-    </section>
-  {% endmacro %}
-
-  {% call Item(align = 'right', image = 'cover2.jpg') %}
-    <h3 class='h-margin-top0'>Проекты под ключ</h3>
-
-    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
-    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
-
-    <p><a href='#' class='Btn'>Подробнее о проектах и сервисах</a></p>
-  {% endcall %}
-
-  {% call Item(align = 'left', image = 'cover1.jpg') %}
-    <h3 class='h-margin-top0'>Отраслевые решения</h3>
-
-    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. </p>
-    <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
-
-    <p><a href='#' class='Btn'>Подробнее про решения</a></p>
-  {% endcall %}
+      <p><a href='#' class='Btn'>Подробнее про решения</a></p>
+    {% endcall %}
+  </section>
 
 </section>
 
