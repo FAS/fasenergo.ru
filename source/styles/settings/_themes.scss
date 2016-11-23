@@ -191,4 +191,7 @@ $ekzo-colors: (
 
   headings:           ekzo-color(white),
   headings-h1:        ekzo-color(white),
+
+  lead-block-value-bg:      ekzo-color(secondary),
+  lead-block-value-bg-glow: rgba(ekzo-color(white), .18),
 ))

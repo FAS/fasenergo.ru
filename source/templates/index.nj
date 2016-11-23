@@ -11,6 +11,7 @@ applyWrapper:          false
 applyWrapperV:         false
 applyWrapperContainer: false
 applyWrapperContent:   false
+applyPreformat:        false
 coverImage:            cover1.jpg
 showBreadcrumb:        false
 showContentTitle:      false
@@ -20,16 +21,16 @@ showContentTitle:      false
 
 {% block main %}
 
-<header class='Wrapper'>
+<header class='Lead-block Wrapper t-quaternary h-padding-top+'>
   <div class='Wrapper--content h-margin-sides--auto'>
 
     <h1>Ведущий российский производитель<br>газовых генераторов</h1>
 
-    <ul class='g-list0'>
-      <li><span>10</span> лет на рынке</li>
-      <li><span>982</span> поставки</li>
-      <li><span>42%</span> доля на рынке</li>
-      <li><span>78</span> реализованных проектов</li>
+    <ul class='g-list0 Lead-block__items'>
+      <li class='Lead-block__item Lead-block__item1 h-h3'><span class='Lead-block__value h-h1'>10</span> лет на рынке</li>
+      <li class='Lead-block__item Lead-block__item2 h-h3'><span class='Lead-block__value h-h1'>78</span> реализованных проектов</li>
+      <li class='Lead-block__item Lead-block__item3 h-h3'><span class='Lead-block__value h-h1'>982</span> поставки</li>
+      <li class='Lead-block__item Lead-block__item4 h-h3'><span class='Lead-block__value h-h1'>42<span class='h-h3'>&nbsp;%</span></span> доля на рынке</li>
     </ul>
 
   </div>
@@ -82,7 +83,7 @@ showContentTitle:      false
   </div>
 </section>
 
-<section>
+<section class='t-quaternary'>
 
   <div class='Wrapper'>
     <div class='Wrapper--content h-margin-sides--auto'>
