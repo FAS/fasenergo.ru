@@ -83,7 +83,7 @@
 
     <!--/noindex-->
     <footer class='Footer t-tertiary o-panel__footer'>
-      <div class='{{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper--container' if page.applyWrapperContainer }} h-flex h-flex-x--center h-padding-ends+'>
+      <div class='Wrapper Wrapper--container h-flex h-flex-x--center h-padding-ends+'>
         <div class='{{ 'Wrapper--content' if page.applyWrapperContent }} h-1/1'>
           <div class='o-grid h-childs-displace+'>
 
@@ -126,8 +126,7 @@
 </div>
 
 {% if page.coverImage %}
-<div class='Cover' style='{{ 'background-image: url(/' + path.images + '/covers/' + page.coverImage + ')' }}'>
-</div>
+<div class='Cover' style='{{ 'background-image: url(/' + path.images + '/covers/' + page.coverImage + ')' }}'></div>
 {% endif %}
 
 {% endblock %}
