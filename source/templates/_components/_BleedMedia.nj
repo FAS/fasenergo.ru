@@ -14,7 +14,7 @@
   <div class='h-absolute h-{{ align }} h-1/2 h-height-1/1 h-bg--cover h-bg--center h-bg--left h-bg--no-repeat' style='background-image: url({{ image }});'></div>
 
   <div class='Wrapper--content h-margin-sides--auto'>
-    <div class='h-1/2 h-padding-{{ align }}+ h-padding-ends+ h-margin-{{ align }}--auto'>
+    <div class='h-1/2 h-padding-{{ align }}++ h-padding-ends+ h-margin-{{ align }}--auto'>
 
       {{ caller() }}
 
