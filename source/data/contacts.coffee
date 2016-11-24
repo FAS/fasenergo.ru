@@ -14,7 +14,7 @@ module.exports = {
       { country: '7', city: '800', tel: [333, 79, 11], add: null, desc: null }
     ],
     emails: [
-      { value: ['info', 'fasenergo.ru'], desc: 'по запросам дилерства' }
+      { value: ['info', 'fasenergo.ru'], desc: null }
     ],
     map: null
   },
