@@ -73,7 +73,7 @@ module.exports = {
       skypes: [{ value: 'snn.fasenergo', desc: null }]
     },
 
-    export: {
+    dealers: {
       title: 'Дилерам',
       desc: 'Задать вопрос, узнать условия сотрудничества, получить типовой договор.',
       address: null,
