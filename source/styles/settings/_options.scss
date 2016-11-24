@@ -28,6 +28,7 @@ $ekzo-padding-helpers-variations: (
   '--': ekzo-space(.5),
   '':   ekzo-space(1),
   \+:   ekzo-space(2),
+  \+\+: ekzo-space(3),
   '0':  0
 );
 
