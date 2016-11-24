@@ -1,16 +1,17 @@
 {##
  # Display address section for specified data
  #
- # @param {object} data   Complex object with information about specific contact.
- #                        See contacts data for example
- # @param {bool}   [lead] Is current component leading. Affects some sizes
- #                        and displayed elements
+ # @param {object} data    Complex object with information about specific contact.
+ #                         See contacts data for example
+ # @param {bool}   [lead]  Is current component leading. Affects some sizes
+ #                         and displayed elements
+ # @param {string} [class] Class for main wrapper
  #}
-{% macro Contact(data, lead) %}
-<address class='h-text+ h-font-style--normal'>
+{% macro Contact(data, lead, class) %}
+<address class='h-text+ h-font-style--normal {{ class }}'>
 
   {% if lead %}
-  <h2>{{ data.title }}</h2>
+  <h2 class='h-margin-top'>{{ data.title }}</h2>
   {% else %}
   <h3>{{ data.title }}</h3>
   {% endif %}
@@ -22,7 +23,7 @@
   {% if data.phones %}
   <p>
     {% for e in data.phones %}
-    <strong><a class='g-link--inherit' href='te:{{ e.city + e.tel[0] + e.tel[1] + e.tel[2] }}'>{{ '(' + e.city + ')&nbsp;' + e.tel[0] + '-' + e.tel[1] + '-' + e.tel[2] }}</a></strong>{{ ',' if not loop.last }}
+    <strong><a class='g-link--inherit' href='te:{{ e.city + e.tel[0] + e.tel[1] + e.tel[2] }}'>{{ '(' + e.city + ')&nbsp;' + e.tel[0] + '-' + e.tel[1] + '-' + e.tel[2] }}</a></strong>{{ ' (доб. ' + e.add + ')' if e.add }}{{ ',' if not loop.last }}
     {% endfor %}
   </p>
   {% endif %}
@@ -56,10 +57,11 @@
   {% endif %}
 
   {% for e in data.address %}
-  <p>
-    {{ '<strong>' if lead }}{{ e.index }}, {{ e.city }}, {{ e.street }}{{ '</strong>' if lead }}
-    {% if e.map %}<button class='g-link h-bg-color--transparent h-margin-left-- h-padding0'>На карте</button>{% endif %}
-  </p>
+  <p><strong>{{ e.index }}, {{ e.city }}, {{ e.street }}</strong></p>
+
+  {% if e.map %}
+  <div class='h-margin-bottom'><button class='Btn'>На карте</button></div>
+  {% endif %}
   {% endfor %}
 
   {% if data.map %}
