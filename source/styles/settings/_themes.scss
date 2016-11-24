@@ -113,6 +113,12 @@ $ekzo-colors: (
   btn-solid-hover-bg:     adjust-color(ekzo-color(tertiary), $saturation: -5, $lightness: 9),
   btn-solid-active-bg:    adjust-color(ekzo-color(tertiary), $saturation: -3, $lightness: -7),
 
+  btn-primary:              ekzo-color(white),
+  btn-primary-bg:           adjust-color(ekzo-color(primary), $saturation: 0, $lightness: 7),
+  btn-primary-hover:        ekzo-color(white),
+  btn-primary-hover-bg:     adjust-color(ekzo-color(tertiary), $saturation: -5, $lightness: 9),
+  btn-primary-active-bg:    adjust-color(ekzo-color(tertiary), $saturation: -3, $lightness: -7),
+
   // ---------------------------------------
   // Breadcrumb
   // ---------------------------------------
@@ -139,6 +145,8 @@ $ekzo-colors: (
   btn-hover:      ekzo-color(white),
 
   btn-solid:      ekzo-color(white),
+
+  btn-primary:    ekzo-color(white),
 ))
 
 @include ekzo-extend-themes(secondary, (
