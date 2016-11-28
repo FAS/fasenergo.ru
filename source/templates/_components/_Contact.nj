@@ -59,16 +59,14 @@
   {% for e in data.address %}
   <p><strong>{{ e.index }}, {{ e.city }}, {{ e.street }}</strong></p>
 
-  {% if e.map %}
-  <div class='h-margin-bottom'><button class='Btn'>На карте</button></div>
-  {% endif %}
-  {% endfor %}
+  {% if e.yandexMapSrc %}
+  <p><button class='Btn'>На карте</button></p>
 
-  {% if data.map %}
-  <div class='o-aspect-ratio o-aspect-ratio21:9 h-margin-top+ js-scroll-on-click'>
-    <iframe class='o-aspect-ratio__content js-scroll-on-click__target h-border0' src='{{ data.map }}'></iframe>
+  <div class='h-margin-top+'>
+    <script async src='{{ e.yandexMapSrc }}'></script>
   </div>
   {% endif %}
+  {% endfor %}
 
 </address>
 {% endmacro %}

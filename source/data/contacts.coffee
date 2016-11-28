@@ -4,7 +4,7 @@ module.exports = {
     title: 'Центральный офис и производство',
     desc: null,
     address: [
-      { index: 194044, city: 'Санкт-Петербург', street: 'п. Лахта, ул. Красных партизан, д. 10 литер А', map: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7980.791353707298!2d30.15379!3d59.995213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61bce8d8cbac3f95!2z0KTQsNGB0Y3QvdC10YDQs9C-0LzQsNGI!5e0!3m2!1sen!2sua!4v1479760331367' }
+      { index: 194044, city: 'Санкт-Петербург', street: 'п. Лахта, ул. Красных партизан, д. 10 литер А', yandexMapSrc: 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=zz08rnmsLRzMg4-TBs3zRWGJbxgsTuuf&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp' }
     ],
     worktime: [
       { days: ['Пн' , 'Пт'], start: [9, '00'], end: [18, '00'] },
@@ -15,8 +15,7 @@ module.exports = {
     ],
     emails: [
       { value: ['info', 'fasenergo.ru'], desc: null }
-    ],
-    map: null
+    ]
   },
 
   departaments: {
@@ -93,7 +92,7 @@ module.exports = {
       title: 'ФАС-Москва',
       desc: null,
       address: [
-        { index: 117449, city: 'Москва', street: 'ул. Карьер, дом 2А, строение 2', map: '#' }
+        { index: 117449, city: 'Москва', street: 'ул. Карьер, дом 2А, строение 2', yandexMapSrc: null }
       ],
       worktime: null,
       phones: [{ country: '7', city: '985', tel: [46, 204, '04'], add: null, desc: null }],
@@ -105,7 +104,7 @@ module.exports = {
       title: 'ФАС-Екатеринбург',
       desc: null,
       address: [
-        { index: 620075, city: 'Екатеринбург', street: 'ул. Ленина д. 50 литер Д оф. 128', map: '#' }
+        { index: 620075, city: 'Екатеринбург', street: 'ул. Ленина д. 50 литер Д оф. 128', yandexMapSrc: null }
       ],
       worktime: null,
       phones: [{ country: '7', city: '912', tel: ['05', 204, '04'], add: null, desc: null }],
@@ -117,7 +116,7 @@ module.exports = {
       title: 'ФАС-Казань',
       desc: null,
       address: [
-        { index: 420034, city: 'Казань', street: 'ул. Проточная д.8 офис 309', map: '#' }
+        { index: 420034, city: 'Казань', street: 'ул. Проточная д.8 офис 309', yandexMapSrc: null }
       ],
       worktime: null,
       phones: [{ country: '7', city: '987', tel: [40, 204, '04'], add: null, desc: null }],
@@ -129,7 +128,7 @@ module.exports = {
       title: 'ФАС-Новосибирск',
       desc: null,
       address: [
-        { index: 630091, city: 'Новосибирск', street: 'ул. Фрунзе, дом 5, оф.631', map: '#' }
+        { index: 630091, city: 'Новосибирск', street: 'ул. Фрунзе, дом 5, оф.631', yandexMapSrc: null }
       ],
       worktime: null,
       phones: [
@@ -144,7 +143,7 @@ module.exports = {
       title: 'ФАС-Краснодар (ООО «КЭС-ГРУПП»)',
       desc: null,
       address: [
-        { index: 350018, city: 'Краснодар', street: 'ул. Сормовская, д.7', map: '#' }
+        { index: 350018, city: 'Краснодар', street: 'ул. Сормовская, д.7', yandexMapSrc: null }
       ],
       worktime: null,
       phones: [{ country: '7', city: '988', tel: [602, 47, 27], add: null, desc: null }],
