@@ -57,15 +57,19 @@
   {% endif %}
 
   {% for e in data.address %}
+
   <p><strong>{{ e.index }}, {{ e.city }}, {{ e.street }}</strong></p>
 
   {% if e.yandexMapSrc %}
   <p><button class='Btn'>На карте</button></p>
 
-  <div class='h-margin-top+'>
-    <script async src='{{ e.yandexMapSrc }}'></script>
-  </div>
+  <div class='h-margin-top+'><script async src='{{ e.yandexMapSrc }}'></script></div>
   {% endif %}
+
+  {% if e.images %}
+  {{ components.Images(e.images) }}
+  {% endif %}
+
   {% endfor %}
 
 </address>
