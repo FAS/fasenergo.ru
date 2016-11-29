@@ -79,8 +79,9 @@
           content: '';
 
           @include ekzo-theme($also-chain: false) {
+            $color: ekzo-theme(lead-block-value-bg-glow);
             background-color: ekzo-theme(lead-block-value-bg);
-            box-shadow: 0 0 35px 3px ekzo-theme(lead-block-value-bg-glow);
+            @if $color { box-shadow: 0 0 35px 3px $color; }
           }
 
           border-radius: 50%;

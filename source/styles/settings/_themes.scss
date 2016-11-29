@@ -133,6 +133,18 @@ $ekzo-colors: (
 
   cover-overlay:         rgba(ekzo-color(secondary), .75),
 
+  // ---------------------------------------
+  // Lead-block
+  // ---------------------------------------
+
+  lead-block-value-bg:      ekzo-color(secondary),
+  lead-block-value-bg-glow: rgba(ekzo-color(white), .3),
+
+  lead-block-generator-box:    ekzo-color(tertiary),
+  lead-block-generator-wire-1: #2561bb,
+  lead-block-generator-wire-2: #ea4324,
+  lead-block-generator-tube:   ekzo-color(tertiary),
+  lead-block-generator-went:   #caced1,
 ))
 
 @include ekzo-extend-themes(white, (
@@ -199,13 +211,4 @@ $ekzo-colors: (
 
   headings:           ekzo-color(white),
   headings-h1:        ekzo-color(white),
-
-  lead-block-value-bg:      ekzo-color(secondary),
-  lead-block-value-bg-glow: rgba(ekzo-color(white), .3),
-
-  lead-block-generator-box:    ekzo-color(tertiary),
-  lead-block-generator-wire-1: #2561bb,
-  lead-block-generator-wire-2: #ea4324,
-  lead-block-generator-tube:   ekzo-color(tertiary),
-  lead-block-generator-went:   #caced1,
 ))
