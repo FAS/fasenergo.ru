@@ -29,7 +29,7 @@ showContentTitle:          false
   <div class='{{ containerClass }} h-height-1/1'>
     <div class='h-relative {{ contentClass }} h-height-1/1'>
 
-      <h1>Ведущий российский производитель<br>газовых генераторов</h1>
+      <h1 class='h-extra-h1- h-extra-h1@pre-lap'>Ведущий российский производитель<br>газовых генераторов</h1>
 
       <ul class='g-list0 Lead-block__items'>
         <li class='Lead-block__item Lead-block__item1 h-h3'><span class='Lead-block__value h-h1'>10</span> лет на рынке</li>
@@ -52,34 +52,34 @@ showContentTitle:          false
 <section class='{{ containerClass }}'>
   <div class='{{ contentClass }} h-padding-ends++'>
 
-    <h2 class='h-padding-bottom h-margin-bottom+ h-color--secondary'>Газовые генераторы «ФАС»</h2>
+    <h2 class='h-extra-h2 h-padding-bottom h-margin-bottom+ h-color--secondary'>Газовые генераторы «ФАС»</h2>
 
     {% set gridClass = 'o-grid h-childs-displace+' %}
     {% set itemClass = 'o-grid__item h-1/2' %}
 
     <ul class='{{ gridClass }} g-list0 h-childs-margin-bottom+'>
       <li class='{{ itemClass }}'>
-        <h3>Под российские условия</h3>
+        <h3 class='h-h4 h-h3@pre-lap'>Под российские условия</h3>
         <p>Наши генераторы адаптированы под работу в любых погодных условиях. Не важно — холодный север или жаркий юг, минус или плюс 40.</p>
       </li>
       <li class='{{ itemClass }}'>
-        <h3>Надёжные</h3>
+        <h3 class='h-h4 h-h3@pre-lap'>Надёжные</h3>
         <p>Наши двигатели проходят многократные проверки и имеют самую большую гарантию на рынке в России: 3 000 моточасов. </p>
       </li>
       <li class='{{ itemClass }}'>
-        <h3>Для любых объектов</h3>
+        <h3 class='h-h4 h-h3@pre-lap'>Для любых объектов</h3>
         <p>Модельный ряд наших генераторов охватывает все типы объектов — от частного дома до больших заводов.</p>
       </li>
       <li class='{{ itemClass }}'>
-        <h3>Максимальная комплектация</h3>
+        <h3 class='h-h4 h-h3@pre-lap'>Максимальная комплектация</h3>
         <p>Генераторы снабжены всем необходимым: поставляются полностью готовыми к подключению, в кожухе и с нужными опциями.</p>
       </li>
       <li class='{{ itemClass }}'>
-        <h3>Простые в обслуживании</h3>
+        <h3 class='h-h4 h-h3@pre-lap'>Простые в обслуживании</h3>
         <p>Устройство двигателя отлично знакомо автомобилисту и, тем более, специалисту. А с эксплуатацией справится даже простой обыватель.</p>
       </li>
       <li class='{{ itemClass }}'>
-        <h3>Экологичные</h3>
+        <h3 class='h-h4 h-h3@pre-lap'>Экологичные</h3>
         <p>Наши генераторы производят минимальные выбросы в окружающую среду — не вредят природе и человеку.</p>
       </li>
     </ul>
@@ -100,14 +100,14 @@ showContentTitle:          false
 
   <div class='{{ containerClass }}'>
     <div class='{{ contentClass }}'>
-      <h2 class='h-padding-ends++ h-margin-ends0'>Мы делаем</h2>
+      <h2 class='h-extra-h2 h-padding-ends++ h-margin-ends0'>Мы делаем</h2>
     </div>
   </div>
 
   <section>
     {% call components.BleedMedia(image = '/' + path.images + '/covers/cover2.jpg', align = 'right') %}
 
-      <h3 class='h-h2 h-margin-top0'>Проекты под ключ</h3>
+      <h3 class='h-extra-h3 h-margin-top0'>Проекты под ключ</h3>
 
       <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
       <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
@@ -120,7 +120,7 @@ showContentTitle:          false
   <section>
     {% call components.BleedMedia(image = '/' + path.images + '/covers/cover1.jpg', align = 'left') %}
 
-      <h3 class='h-h2 h-margin-top0'>Отраслевые решения</h3>
+      <h3 class='h-extra-h3 h-margin-top0'>Отраслевые решения</h3>
 
       <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. </p>
       <p>Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками. Коротко рассказываем про отраслевые решения: несколько предложений текста со ссылками.</p>
@@ -135,7 +135,7 @@ showContentTitle:          false
 <section class='{{ containerClass }} h-padding-ends++'>
   <div class='{{ contentClass }} h-text+'>
 
-    <h2 class='h-margin-bottom+ h-color--secondary'>Вы – дилер?</h2>
+    <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>Вы – дилер?</h2>
 
     <p>Несколько абзацев текста для дилеров: рассказываем о том, как работаем с дилерами и что предлагаем. Несколько абзацев текста для дилеров: рассказываем о том, как работаем с дилерами и что предлагаем. </p>
     <p>Несколько абзацев текста для дилеров: рассказываем о том, как работаем с дилерами и что предлагаем. Несколько абзацев текста для дилеров: рассказываем о том, как работаем с дилерами и что предлагаем. </p>
@@ -151,7 +151,7 @@ showContentTitle:          false
 <section class='{{ containerClass }} h-padding-ends++'>
   <div class='{{ contentClass }}'>
 
-    <h2 class='h-margin-bottom++ h-color--secondary'>Новости</h2>
+    <h2 class='h-extra-h2 h-margin-bottom++ h-color--secondary'>Новости</h2>
 
     {% for e in data.posts %}
     {{ components.PostPreview(title = e.title, desc = e.desc, date = e.date, url = e.url, image = e.image) }}
@@ -166,7 +166,7 @@ showContentTitle:          false
   <div class='{{ containerClass }} Wrapper-v h-padding-top++'>
     <div class='{{ contentClass }}'>
 
-      <h2 class='h-margin-bottom+ h-color--secondary'>О газовых генераторах FAS</h2>
+      <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>О газовых генераторах FAS</h2>
 
       <p>Немецкая компания FAS – признанный мировой лидер по производству промышленного оборудования для сжиженных газов. Этот статус – результат многолетней планомерной работы по совершенствованию самих изделий и клиентского сервиса. На российском рынке компания с 1996 года.</p>
       <p>В 2010 году в Санкт-Петербурге начала работу компания Фасэнергомаш. Она входит в группу компаний FAS-Россия и производит газовые генераторы на базе российских двигателей ВАЗ-21083 и ММЗ. Продукция компании используется для энергоснабжения жилых домов, коттеджных поселков, складов, производственных помещений и поставляется не только в регионы РФ, но и в страны СНГ и ближнего зарубежья.</p>
