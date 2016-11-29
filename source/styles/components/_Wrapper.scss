@@ -15,7 +15,7 @@ $wrapper-padding: ekzo-space(2);
 }
 
 .Wrapper-v    {
-  padding-top:    $wrapper-padding * 0.75;
+  padding-top:    $wrapper-padding * .75;
   padding-bottom: $wrapper-padding * 2.5;
 }
 
@@ -26,10 +26,10 @@ $total-width: 1366px;
 $sidebar-width: 249px;
 $main-width: $total-width - $sidebar-width;
 
-.Wrapper--sidebar   { width: ekzo-em($sidebar-width); }
-.Wrapper--main      { @include ekzo-breakpoint(desk) { max-width: ekzo-em($main-width); } }
-.Wrapper--container { max-width: ekzo-em($main-width); }
-.Wrapper--content   { max-width: ekzo-em(900px); }
+.Wrapper--sidebar   { width: $sidebar-width; }
+.Wrapper--main      { @include ekzo-breakpoint(desk) { max-width: $main-width; } }
+.Wrapper--container { max-width: $main-width; }
+.Wrapper--content   { max-width: 900px; }
 
 // ----
 // Limit to ~80 characters per line
