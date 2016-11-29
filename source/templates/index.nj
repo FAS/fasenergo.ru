@@ -86,10 +86,10 @@ showContentTitle:          false
 
     <div class='{{ gridClass }} h-flex-y--center'>
       <div class='{{ itemClass }}'>
-        <a href='#' class='Btn Btn--primary o-btn--wide h-text+'>Подобрать генератор</a>
+        <a href='#' class='Btn Btn--primary o-btn--wide h-text++'>Подобрать генератор</a>
       </div>
       <div class='{{ itemClass }}'>
-        <a href='#' class='h-text+'>Больше о наших генераторах</a>
+        <a href='#' class='h-text++'>Больше о наших генераторах</a>
       </div>
     </div>
 
@@ -133,7 +133,7 @@ showContentTitle:          false
 </section>
 
 <section class='{{ containerClass }} h-padding-ends++'>
-  <div class='{{ contentClass }}'>
+  <div class='{{ contentClass }} h-text+'>
 
     <h2 class='h-margin-bottom+ h-color--secondary'>Вы – дилер?</h2>
 
@@ -141,7 +141,7 @@ showContentTitle:          false
     <p>Несколько абзацев текста для дилеров: рассказываем о том, как работаем с дилерами и что предлагаем. Несколько абзацев текста для дилеров: рассказываем о том, как работаем с дилерами и что предлагаем. </p>
     <p>Несколько абзацев текста для дилеров: рассказываем о том, как работаем с дилерами и что предлагаем.</p>
 
-    <p class='h-margin-top+'><a href='#' class='Btn h-text+'>Как мы работаем с дилерами</a></p>
+    <p class='h-margin-top+'><a href='#' class='Btn h-text++'>Как мы работаем с дилерами</a></p>
 
   </div>
 </section>

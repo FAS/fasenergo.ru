@@ -42,6 +42,7 @@ applyWrapperContent: false
 <h2>Типография</h2>
 
 {% call components.Example(title = 'Текст') -%}
+<p class='h-text++'>Крупный текст</p>
 <p class='h-text+'>Лид-текст</p>
 <p>Обычный текст</p>
 <p class='h-text-'>Мини-текст</p>

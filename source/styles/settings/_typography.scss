@@ -20,10 +20,11 @@ $ekzo-font-size: 16px;
 $ekzo-font-sizes: (
 
   text: (
-    \+:   18px,            // = .h-text+, .h-font-size+,  .h-line-height+
-    '':   $ekzo-font-size, // = .h-text,  .h-font-size,   .h-line-height
-    '-':  14px,            // = .h-text-, .h-font-size-,  .h-line-height-
-    '--': 12px,            // = .h-text--,.h-font-size--, .h-line-height--
+    \+\+: 20px,            // = .h-text++, .h-font-size++, .h-line-height++
+    \+:   18px,            // = .h-text+,  .h-font-size+,  .h-line-height+
+    '':   $ekzo-font-size, // = .h-text,   .h-font-size,   .h-line-height
+    '-':  14px,            // = .h-text-,  .h-font-size-,  .h-line-height-
+    '--': 12px,            // = .h-text--, .h-font-size--, .h-line-height--
   ),
 
   headings: (
