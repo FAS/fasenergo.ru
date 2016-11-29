@@ -3,15 +3,22 @@
 // =======================================
 
 .Lead-block {
+  position: relative;
+  overflow: hidden;
+
   background-image:    url('/#{kotsu-path(images)}/lead-block-bg.png');
   background-position: bottom left;
   background-repeat:   no-repeat;
 
-  min-height: 625px;
+  height: 625px;
 }
 
   .Lead-block__items {
-    position: relative;
+    position: absolute;
+
+    top: 200px;
+
+    width: 100%;
 
     // Create context for `.Lead-block__value:after`'s `z-index: -1` to place it under text
     z-index: ekzo-z-index(base);
@@ -42,7 +49,7 @@
     }
 
     .Lead-block__item3 {
-      top: 155px;
+      top: 170px;
       left: 25px;
 
       .Lead-block__value:after {
@@ -53,7 +60,7 @@
     }
 
     .Lead-block__item4 {
-      top: 120px;
+      top: 135px;
       left: 255px;
 
       .Lead-block__value:after {
@@ -88,3 +95,89 @@
         }
 
       }
+
+  $tube-width:            10px;
+  $tube-radius:           5px;
+  $tube-bleed:            100px;
+  $tube-container-height: 34px;
+  $tube-container-width:  65px;
+
+  .Lead-block__generator {
+    position: absolute;
+
+    bottom: 0;
+    right:  -($tube-container-width + 20px);
+    left:   0;
+
+    z-index: ekzo-z-index(base);
+  }
+
+    .Lead-block__box {
+      @include ekzo-theme() { background-color: ekzo-theme(lead-block-generator-box); }
+
+      padding: 6px;
+
+      margin-right:  1px;
+      margin-bottom: $tube-container-height - 9px;
+    }
+
+    .Lead-block__wires {
+      margin-bottom: $tube-container-height;
+
+      &:before,
+      &:after {
+        display: block;
+        content: '';
+
+        height: 2px;
+
+        margin-top:    3px;
+        margin-right: -$tube-bleed;
+      }
+
+      &:before { @include ekzo-theme($also-chain: false) { background-color: ekzo-theme(lead-block-generator-wire-1); } }
+      &:after  { @include ekzo-theme($also-chain: false) { background-color: ekzo-theme(lead-block-generator-wire-2); } }
+
+    }
+
+    .Lead-block__image {
+      height: 159px;
+      @include ekzo-breakpoint(desk) { height: 174px; }
+    }
+
+    .Lead-block__tube {
+      width: $tube-container-width;
+
+      z-index: -1;
+
+      text-align: right;
+
+      &:before {
+        position: relative;
+
+        right: 25px;
+        top:   5px;
+
+        content: 'IC';
+        @include ekzo-theme($also-chain: false) { color: ekzo-theme(lead-block-generator-went); }
+      }
+
+      &:after {
+        display: block;
+        content: '';
+
+        height: $tube-container-height + $tube-width;
+
+        margin-right:   $tube-width;
+        margin-left:   -$tube-bleed;
+        margin-bottom: -$tube-width;
+
+        border-top-right-radius: $tube-radius;
+
+        @include ekzo-theme($also-chain: false) {
+          $color: ekzo-theme(lead-block-generator-tube);
+          @if $color { box-shadow: 0 0 0 $tube-width ekzo-theme(lead-block-generator-tube); }
+        }
+      }
+
+    }

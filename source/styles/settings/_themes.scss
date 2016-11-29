@@ -202,4 +202,10 @@ $ekzo-colors: (
 
   lead-block-value-bg:      ekzo-color(secondary),
   lead-block-value-bg-glow: rgba(ekzo-color(white), .3),
+
+  lead-block-generator-box:    ekzo-color(tertiary),
+  lead-block-generator-wire-1: #2561bb,
+  lead-block-generator-wire-2: #ea4324,
+  lead-block-generator-tube:   ekzo-color(tertiary),
+  lead-block-generator-went:   #caced1,
 ))

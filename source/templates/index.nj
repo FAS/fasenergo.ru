@@ -25,8 +25,8 @@ showContentTitle:      false
 {% set contentClass = 'Wrapper--content h-margin-sides--auto' %}
 
 <header class='Lead-block t-quaternary h-padding-top+'>
-  <div class='{{ containerClass }}'>
-    <div class='{{ contentClass }}'>
+  <div class='{{ containerClass }} h-height-1/1'>
+    <div class='h-relative {{ contentClass }} h-height-1/1'>
 
       <h1>Ведущий российский производитель<br>газовых генераторов</h1>
 
@@ -36,6 +36,13 @@ showContentTitle:      false
         <li class='Lead-block__item Lead-block__item3 h-h3'><span class='Lead-block__value h-h1'>982</span> поставки</li>
         <li class='Lead-block__item Lead-block__item4 h-h3'><span class='Lead-block__value h-h1'>42<span class='h-h3'>&nbsp;%</span></span> доля на рынке</li>
       </ul>
+
+      <div class='Lead-block__generator h-flex h-flex-y--end'>
+        <div><div class='Lead-block__box'>IC</div></div>
+        <div class='Lead-block__wires h-flex+'></div>
+        <img class='Lead-block__image' src='{{ '/' + path.images + '/lead-block-generator.png' }}' alt=''>
+        <div class='Lead-block__tube'></div>
+      </div>
 
     </div>
   </div>
