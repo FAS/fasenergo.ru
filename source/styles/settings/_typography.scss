@@ -32,11 +32,15 @@ $ekzo-font-sizes: (
     h2: 30px, // = h2, .h-h2, .h-font-size--h2, .h-line-height--h2
     h3: 24px, // = h3, .h-h3, .h-font-size--h3, .h-line-height--h3
     h4: 22px, // = h4, .h-h4, .h-font-size--h4, .h-line-height--h4
-    h5: 18px, // = h5, .h-h5, .h-font-size--h5, .h-line-height--h5
-    h6: 16px, // = h6, .h-h6, .h-font-size--h6, .h-line-height--h6
+    h5: 20px, // = h5, .h-h5, .h-font-size--h5, .h-line-height--h5
+    h6: 18px, // = h6, .h-h6, .h-font-size--h6, .h-line-height--h6
   ),
 
   extra-headings: (
+    1:    46px,
+    '1-': 42px,
+    2:    40px,
+    3:    28px,
     \+\+: 96px, // = .h-extra-h\+\+, .h-font-size\+\+, .h-line-height\+\+
     \+:   72px, // = .h-extra-h\+,   .h-font-size\+,   .h-line-height\+
     '':   44px, // = .h-extra-h,     .h-font-size,     .h-line-height
