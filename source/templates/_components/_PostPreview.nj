@@ -13,7 +13,9 @@
 <article class='o-grid h-childs-displace+ h-margin-bottom+'>
 
   <div class='o-grid__item h-1/4'>
-    <div class='h-bg--cover h-bg--center h-height-1/1' style='background-image: url({{ image }});'></div>
+    <div class='o-aspect-ratio o-aspect-ratio4:3'>
+      <div class='o-aspect-ratio__content h-bg--cover h-bg--center h-height-1/1' style='background-image: url({{ image }});'></div>
+    </div>
   </div>
 
   <div class='o-grid__item h-3/4 h-padding-ends--'>
