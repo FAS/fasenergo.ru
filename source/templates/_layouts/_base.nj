@@ -7,16 +7,17 @@
 {{ config('page', { breadcrumb : page.props.breadcrumb }) }}
 {{ config('page', getPage(page.breadcrumb).props|template(site.placeholders)) }}
 {{ config('page', {
-  class                 : '',
-  coverImage            : false,
-  applyWrapper          : true,
-  applyWrapperV         : true,
-  applyWrapperMain      : true,
-  applyWrapperContainer : true,
-  applyWrapperContent   : true,
-  applyPreformat        : true,
-  showContentTitle      : true,
-  showBreadcrumb        : true
+  class                     : '',
+  coverImage                : false,
+  applyWrapper              : true,
+  applyWrapperV             : true,
+  applyWrapperMain          : true,
+  applyWrapperContainer     : true,
+  applyWrapperContent       : true,
+  forceFooterWrapperContent : false,
+  applyPreformat            : true,
+  showContentTitle          : true,
+  showBreadcrumb            : true
 }) }}
 {{ config('page', page.props) }}
 

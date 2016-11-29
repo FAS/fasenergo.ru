@@ -84,7 +84,7 @@
     <!--/noindex-->
     <footer class='Footer t-tertiary o-panel__footer'>
       <div class='Wrapper Wrapper--container h-flex h-flex-x--center h-padding-ends+'>
-        <div class='{{ 'Wrapper--content' if page.applyWrapperContent }} h-1/1'>
+        <div class='{{ 'Wrapper--content' if (page.applyWrapperContent or page.forceFooterWrapperContent) }} h-1/1'>
           <div class='o-grid h-childs-displace+'>
 
             <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
