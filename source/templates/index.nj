@@ -6,15 +6,16 @@ contentTitle:     Главная
 navTitle:         Главная
 metaDesc:         Главная
 
-class:                 p-index
-applyWrapper:          false
-applyWrapperV:         false
-applyWrapperContainer: false
-applyWrapperContent:   false
-applyPreformat:        false
-coverImage:            cover1.jpg
-showBreadcrumb:        false
-showContentTitle:      false
+class:                     p-index
+applyWrapper:              false
+applyWrapperV:             false
+applyWrapperContainer:     false
+applyWrapperContent:       false
+forceFooterWrapperContent: true
+applyPreformat:            false
+coverImage:                cover1.jpg
+showBreadcrumb:            false
+showContentTitle:          false
 ---
 
 {% extends '_layouts/_main.nj' %}
