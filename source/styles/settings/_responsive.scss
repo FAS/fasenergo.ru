@@ -23,7 +23,6 @@ $ekzo-breakpoints: (
   // tablet:     'screen and (min-width: #{$ekzo-bp-tablet})',
   // tablet-ls:  'screen and (min-width: #{$ekzo-bp-tablet-ls})',
   // lap:        'screen and (min-width: #{$ekzo-bp-lap})',
-  before-desk: 'screen and (max-width: #{$ekzo-bp-desk - 1px})',
   desk:        'screen and (min-width: #{$ekzo-bp-desk})',
 
   // ----

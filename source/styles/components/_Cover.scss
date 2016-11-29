@@ -3,6 +3,10 @@
 // =======================================
 
 .Cover {
+  // Prevent display of page cover images on smaller desktops
+  display: none;
+  @include ekzo-breakpoint(desk) { display: block; }
+
   z-index: ekzo-z-index(deepdive);
 
   position: fixed;
@@ -14,8 +18,6 @@
   top: 0;
   bottom: 0;
 
-  // Prevent display of page cover images on smaller desktops
-  @include ekzo-breakpoint(before-desk) { background-image: none !important; }
   background-position:   700px center;
   background-size:       cover;
   background-attachment: fixed;
