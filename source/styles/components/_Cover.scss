@@ -18,9 +18,10 @@
   top: 0;
   bottom: 0;
 
+  // @note Don't use `background-attachment: fixed;`, otherwise it will cause
+  //       jumping background during scrolling with mousewheel
   background-position:   700px center;
   background-size:       cover;
-  background-attachment: fixed;
   background-repeat:     no-repeat;
 
   &:after {
