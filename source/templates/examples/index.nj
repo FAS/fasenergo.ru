@@ -220,6 +220,7 @@ applyWrapperContent: false
 
     {{ components.Field(class = 'Field-',  name = 'small-inl', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный') }}
     {{ components.Field(name = 'standard-inl', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный') }}
+    {{ components.Field(name = 'standard-inl-req', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', required = true) }}
     {{ components.Field(name = 'standard', label = 'Стандарнтный') }}
     {{ components.Field(name = 'standard-w-value', label = 'Со значением', value = 'Lorem Ipsum') }}
     {{ components.Field(name = 'standard-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder') }}
@@ -234,6 +235,7 @@ applyWrapperContent: false
 
     {{ components.Field(class = 'Field-',  name = 'small-inl-i', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, invalid = true) }}
     {{ components.Field(name = 'standard-inl-i', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, invalid = true) }}
+    {{ components.Field(name = 'standard-inl-i-req', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, invalid = true, required = true) }}
     {{ components.Field(name = 'standard-i', label = 'Стандарнтный', touched = true, invalid = true) }}
     {{ components.Field(name = 'standard-i-w-value', label = 'Со значением', value = 'Lorem Ipsum', touched = true, invalid = true) }}
     {{ components.Field(name = 'standard-i-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', touched = true, invalid = true) }}
@@ -248,6 +250,7 @@ applyWrapperContent: false
 
     {{ components.Field(class = 'Field-',  name = 'small-inl-v', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true) }}
     {{ components.Field(name = 'standard-inl-v', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true) }}
+    {{ components.Field(name = 'standard-inl-v-req', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, required = true) }}
     {{ components.Field(name = 'standard-v', label = 'Стандарнтный', touched = true) }}
     {{ components.Field(name = 'standard-v-w-value', label = 'Со значением', value = 'Lorem Ipsum', touched = true) }}
     {{ components.Field(name = 'standard-v-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', touched = true) }}
@@ -262,6 +265,7 @@ applyWrapperContent: false
 
     {{ components.Field(class = 'Field-',  name = 'small-inl-d', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', disabled = true) }}
     {{ components.Field(name = 'standard-inl-d', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', disabled = true) }}
+    {{ components.Field(name = 'standard-inl-d-req', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', disabled = true, required = true) }}
     {{ components.Field(name = 'standard-d', label = 'Стандарнтный', disabled = true) }}
     {{ components.Field(name = 'standard-d-w-value', label = 'Со значением', value = 'Lorem Ipsum', disabled = true) }}
     {{ components.Field(name = 'standard-d-w-ph', label = 'С плейсхолдером', placeholder = 'Placeholder', disabled = true) }}

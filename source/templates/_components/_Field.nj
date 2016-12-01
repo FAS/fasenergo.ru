@@ -68,7 +68,7 @@
       name='{{ name }}'
       {{ 'value="' + value + '"' if value }}
       {{ 'aria-label="' + label + '"' if not displayLabel }}
-      {{ 'placeholder="' + placeholder + '"' if placeholder }}
+      {{ 'placeholder="' + placeholder + (' *' if required and not displayLabel) + '"' if placeholder }}
       class='Field__input {{ inputClass }}'
       {{ 'disabled' if disabled }}
       {{ 'required' if required }}
@@ -86,7 +86,7 @@
       name='{{ name }}'
       {{ 'value="' + value + '"' if value }}
       {{ 'aria-label="' + label + '"' if not displayLabel }}
-      {{ 'placeholder="' + placeholder + '"' if placeholder }}
+      {{ 'placeholder="' + placeholder + (' *' if required and not displayLabel) + '"' if placeholder }}
       class='Field__input {{ inputClass }}'
       {{ 'disabled' if disabled }}
       {{ 'required' if required }}
