@@ -55,7 +55,7 @@
 <div id='{{ fieldId }}' class='Field {{ class }}{{ stateClasses }}'>
 
   {% if displayLabel %}
-  <label class='Field__label {{ labelClass }}' for='{{ inputId }}'>{{ label }}{{ ' *' if required}}</label>
+  <label class='Field__label {{ labelClass }}' for='{{ inputId }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required}}</label>
   {% endif %}
 
   <div class='Field__input-container {{ inputContainerClass }}'>

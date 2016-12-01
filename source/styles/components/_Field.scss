@@ -56,6 +56,8 @@ $small-field-group-btn-width: ekzo-space(1.5);
 
   .Field__input-container { position: relative; }
 
+    .Field__required-mark { @include ekzo-theme() { color: ekzo-theme(forms-invalid); } }
+
     // Cehck mark for `.is-valid` Field
     .Field__valid-mark {
       position: absolute;
