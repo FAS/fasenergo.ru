@@ -104,7 +104,7 @@ module.exports = {
   representatives: {
 
     fasMoscow: {
-      title: 'ФАС-Москва',
+      title: 'Москва',
       desc: null,
       address: [
         { index: 117449, city: 'Москва', street: 'ул. Карьер, дом 2А, строение 2', yandexMapSrc: null, images: null }
@@ -116,7 +116,7 @@ module.exports = {
     },
 
     fasEkaterinburg: {
-      title: 'ФАС-Екатеринбург',
+      title: 'Екатеринбург',
       desc: null,
       address: [
         { index: 620075, city: 'Екатеринбург', street: 'ул. Ленина д. 50 литер Д оф. 128', yandexMapSrc: null, images: null }
@@ -128,7 +128,7 @@ module.exports = {
     },
 
     fasKazan: {
-      title: 'ФАС-Казань',
+      title: 'Казань',
       desc: null,
       address: [
         { index: 420034, city: 'Казань', street: 'ул. Проточная д.8 офис 309', yandexMapSrc: null, images: null }
@@ -140,7 +140,7 @@ module.exports = {
     },
 
     fasNovosibirsk: {
-      title: 'ФАС-Новосибирск',
+      title: 'Новосибирск',
       desc: null,
       address: [
         { index: 630091, city: 'Новосибирск', street: 'ул. Фрунзе, дом 5, оф.631', yandexMapSrc: null, images: null }
@@ -155,7 +155,7 @@ module.exports = {
     },
 
     fasKrasnodar: {
-      title: 'ФАС-Краснодар (ООО «КЭС-ГРУПП»)',
+      title: 'Краснодар',
       desc: null,
       address: [
         { index: 350018, city: 'Краснодар', street: 'ул. Сормовская, д.7', yandexMapSrc: null, images: null }
