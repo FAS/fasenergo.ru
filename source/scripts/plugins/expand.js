@@ -1,0 +1,60 @@
+// Displays target on `this` click and hides on another
+
+export default $.fn.expand = function (userOptions) {
+  const options = $.extend({
+    duration: 600,
+    easing: '',
+    activeClass: 'is-active',
+    expandingClass: 'is-expanding',
+    collapsingClass: 'is-collapsing',
+    expandedClass: 'is-expanded',
+    defaultTargetClass: '.js-expand__target'
+  }, userOptions)
+
+  const { duration, easing, activeClass, expandingClass, expandedClass, collapsingClass, defaultTargetClass } = options
+
+  return this.each((i, element) => {
+    const $this = $(element)
+    const targetQuery = $this.data('expand') || defaultTargetClass
+    const expandNext = $this.data('expand-next') || targetQuery === defaultTargetClass
+    const $targets = expandNext ? $this.nextAll(targetQuery) : $(targetQuery)
+
+    console.debug($targets)
+    console.debug(expandNext)
+
+    const isActive = () => $this.hasClass(activeClass)
+
+    const markActive = () => $this.addClass(activeClass)
+    const markInactive = () => $this.removeClass(activeClass)
+    const markExpandeding = (target) => target.addClass(expandingClass)
+    const markExpanded = (target) => target.removeClass(expandingClass) && target.addClass(expandedClass)
+    const markCollapsing = (target) => target.removeClass(expandedClass) && target.addClass(collapsingClass)
+    const markCollapsed = (target) => target.removeClass(collapsingClass)
+
+    const setBtnState = (target) => target.hasClass(expandingClass) || target.hasClass(expandedClass) ? markActive() : markInactive()
+    const setTargetStating = (target) => target.hasClass(expandedClass) ? markCollapsing(target) : markExpandeding(target)
+    const setTargetState = (target) => target.is(':visible') ? markExpanded(target) : markCollapsed(target)
+
+    const toggle = (target) => target.slideToggle({
+      duration,
+      easing,
+      start: () => setTargetStating(target) && setBtnState(target),
+      complete: () => setTargetState(target)
+    })
+    const hide = (target) => target.slideUp({
+      duration,
+      easing,
+      start: () => markCollapsing(target) && markInactive(),
+      complete: () => markCollapsed(target)
+    })
+
+    if (!isActive()) { $targets.each((i, e) => hide($(e))) }
+    if (isActive()) { $targets.each((i, e) => markExpanded($(e))) }
+
+    $this.click((event) => {
+      event.preventDefault()
+      $targets.each((i, e) => toggle($(e)))
+    })
+
+  })
+}

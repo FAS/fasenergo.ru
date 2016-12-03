@@ -3,6 +3,7 @@
 
 import $ from 'jquery'
 import scrollOnClick from './plugins/scroll-on-click';
+import './plugins/expand';
 
 $(() => {
   console.log('jQuery version is: ' + $().jquery)
@@ -12,5 +13,7 @@ $(() => {
   // Zoom target with scroll only on click
   // Used primary for iframes
   $('.js-scroll-on-click').scrollOnClick()
+
+  $('.js-expand').expand()
 
 })
