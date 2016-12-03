@@ -2,7 +2,7 @@
 // import 'babel-polyfill'
 
 import $ from 'jquery'
-import scrollOnClick from './plugins/scroll-on-click';
+import './plugins/scroll-on-click';
 import './plugins/expand';
 
 $(() => {
