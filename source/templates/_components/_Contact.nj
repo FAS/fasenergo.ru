@@ -1,78 +1,87 @@
 {##
  # Display address section for specified data
  #
- # @param {object} data    Complex object with information about specific contact.
- #                         See contacts data for example
- # @param {bool}   [lead]  Is current component leading. Affects some sizes
- #                         and displayed elements
- # @param {string} [class] Class for main wrapper
+ # @param {object} data          Complex object with information about specific contact.
+ # @param {string} [class]       Class for main wrapper
+ #                               See contacts data for example
+ # @param {bool}   [lead]        Is current component leading. Affects some sizes
+ #                               and displayed elements
+ # @param {bool}   [expandable]  Should it render expandable
  #}
-{% macro Contact(data, lead, class) %}
+{% macro Contact(data, class, lead, expandable) %}
 <address class='h-text+ h-font-style--normal {{ class }}'>
 
   {% if lead %}
   <h2 class='h-margin-top'>{{ data.title }}</h2>
   {% else %}
-  <h3>{{ data.title }}</h3>
-  {% endif %}
-
-  {% if data.desc %}
-  <p>{{ data.desc }}</p>
-  {% endif %}
-
-  {% if data.phones %}
-  <p>
-    {% for e in data.phones %}
-    <strong><a class='g-link--inherit' href='te:{{ e.city + e.tel[0] + e.tel[1] + e.tel[2] }}'>{{ '(' + e.city + ')&nbsp;' + e.tel[0] + '-' + e.tel[1] + '-' + e.tel[2] }}</a></strong>{{ ' (доб. ' + e.add + ')' if e.add }}{{ ',' if not loop.last }}
-    {% endfor %}
-  </p>
-  {% endif %}
-
-  {% if data.worktime %}
-  <p>
-    {% for e in data.worktime %}
-    {% if not e.nonWorking %}
-    {{ e.days[0] }} – {{ e.days[1] }}, {{ e.start[0] }}:{{ e.start[1] }} – {{ e.end[0] }}:{{ e.end[1] }}
+  {% if expandable %}
+    <button class='g-link h-padding0 h-bg-color--transparent js-expand h-margin-bottom'>
+      <h3 class='h-inline'>{{ data.title }}</h3>
+    </button>
+    {% else %}
+    <h3>{{ data.title }}</h3>
     {% endif %}
-    {% if not loop.last %}<br>{% endif %}
-    {% endfor %}
-  </p>
   {% endif %}
 
-  {% if data.emails %}
-  <p>
-    {% for e in data.emails %}
-    {% set email = e.value[0] ~ '@' ~ e.value[1] %}
-    <a href='mailto:{{ email }}'>{{ email }}</a>{{ ',' if not loop.last }}
-    {% endfor %}
-  </p>
-  {% endif %}
-
-  {% if data.skypes %}
-  <p>
-    {% for e in data.skypes %}
-    <a class='g-link--inherit h-color--skype' href='skype:{{ e.value }}?call'>{{ components.Icon('skype', class = 'o-icon--left') }} <span>{{ e.value }}</span></a>{{ ',' if not loop.last }}
-    {% endfor %}
-  </p>
-  {% endif %}
-
-  {% for e in data.address %}
-  <p><strong>{{ e.index }}, {{ e.city }}, {{ e.street }}</strong></p>
-
-  {% if e.yandexMapSrc %}
-  <button class='Btn js-expand'>На карте</button>
-
-  <div class='h-margin-top+ js-expand__target' style='display: none'>
-
-    <script async src='{{ e.yandexMapSrc }}'></script>
-
-    {% if e.images %}
-    {{ components.Images(e.images) }}
+  <div class='{{ 'js-expand__target h-childs-margin-bottom o-clearfix' if expandable }}' style='{{ 'display: none;' if expandable }}'>
+    {% if data.desc %}
+    <p>{{ data.desc }}</p>
     {% endif %}
 
+    {% if data.phones %}
+    <p>
+      {% for e in data.phones %}
+      <strong><a class='g-link--inherit' href='te:{{ e.city + e.tel[0] + e.tel[1] + e.tel[2] }}'>{{ '(' + e.city + ')&nbsp;' + e.tel[0] + '-' + e.tel[1] + '-' + e.tel[2] }}</a></strong>{{ ' (доб. ' + e.add + ')' if e.add }}{{ ',' if not loop.last }}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% if data.worktime %}
+    <p>
+      {% for e in data.worktime %}
+      {% if not e.nonWorking %}
+      {{ e.days[0] }} – {{ e.days[1] }}, {{ e.start[0] }}:{{ e.start[1] }} – {{ e.end[0] }}:{{ e.end[1] }}
+      {% endif %}
+      {% if not loop.last %}<br>{% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% if data.emails %}
+    <p>
+      {% for e in data.emails %}
+      {% set email = e.value[0] ~ '@' ~ e.value[1] %}
+      <a href='mailto:{{ email }}'>{{ email }}</a>{{ ',' if not loop.last }}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% if data.skypes %}
+    <p>
+      {% for e in data.skypes %}
+      <a class='g-link--inherit h-color--skype' href='skype:{{ e.value }}?call'>{{ components.Icon('skype', class = 'o-icon--left') }} <span>{{ e.value }}</span></a>{{ ',' if not loop.last }}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% for e in data.address %}
+    <p><strong>{{ e.index }}, {{ e.city }}, {{ e.street }}</strong></p>
+
+    {% if e.yandexMapSrc %}
+    <button class='Btn js-expand'>На карте</button>
+
+    <div class='h-margin-top+ js-expand__target' style='display: none'>
+
+      <script async src='{{ e.yandexMapSrc }}'></script>
+
+      {% if e.images %}
+      {{ components.Images(e.images) }}
+      {% endif %}
+
+    </div>
+    {% endif %}
+    {% endfor %}
   </div>
-  {% endif %}
-  {% endfor %}
 
 </address>
 {% endmacro %}

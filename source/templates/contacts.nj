@@ -25,7 +25,7 @@ metaDesc:         Контакты
   <h2>Представительства</h2>
 
   {% for depName, dep in data.contacts.representatives %}
-  {{ components.Contact(dep) }}
+  {{ components.Contact(dep, expandable = true) }}
   {% endfor %}
 
 {% endblock %}
