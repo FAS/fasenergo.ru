@@ -6,6 +6,8 @@
 a,
 .#{$ekzo-g-ns}link,
 %#{$ekzo-g-ns}link {
+  cursor: pointer;
+
   border-bottom-width: 1px;
   @include ekzo-theme() { border-color: ekzo-theme(links-border); }
 
