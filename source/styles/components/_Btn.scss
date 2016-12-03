@@ -23,7 +23,8 @@
     }
   }
 
-  &:active {
+  &:active,
+  &.is-active {
     @include ekzo-theme() {
       color: ekzo-theme(btn-hover);
 
