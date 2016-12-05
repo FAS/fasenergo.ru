@@ -9,18 +9,20 @@
  # @param {bool}   [expandable]  Should it render expandable
  #}
 {% macro Contact(data, class, lead, expandable) %}
-<address class='h-text+ h-font-style--normal {{ class }}'>
+<address class='h-text+ h-font-style--normal {{ class }} js-expand__scope'>
 
   {% if lead %}
   <h2 class='h-margin-top'>{{ data.title }}</h2>
   {% else %}
-  {% if expandable %}
-    <button class='g-link h-padding0 h-bg-color--transparent js-expand h-margin-bottom'>
-      <h3 class='h-inline'>{{ data.title }}</h3>
+  <h3>
+    {% if expandable %}
+    <button class='g-link h-padding0 h-bg-color--transparent js-expand' data-expand-scope='.js-expand__scope'>
+      {{ data.title }}
     </button>
     {% else %}
-    <h3>{{ data.title }}</h3>
+    {{ data.title }}
     {% endif %}
+  </h3>
   {% endif %}
 
   <div class='{{ 'js-expand__target h-childs-margin-bottom o-clearfix' if expandable }}' style='{{ 'display: none;' if expandable }}'>
@@ -68,9 +70,9 @@
     <p><strong>{{ e.index }}, {{ e.city }}, {{ e.street }}</strong></p>
 
     {% if e.yandexMapSrc %}
-    <button class='Btn js-expand'>На карте</button>
+    <button class='Btn js-expand' data-expand='.js-expand__map' data-expand-scope='.js-expand__scope'>На карте</button>
 
-    <div class='h-margin-top+ js-expand__target' style='display: none'>
+    <div class='h-margin-top+ js-expand__map' style='display: none'>
 
       <script async src='{{ e.yandexMapSrc }}'></script>
 
