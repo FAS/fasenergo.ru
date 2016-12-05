@@ -14,7 +14,7 @@
   {% if lead %}
   <h2 class='h-margin-top'>{{ data.title }}</h2>
   {% else %}
-  <h3>
+  <h3 class='{{ 'h-margin-top0' if expandable }}'>
     {% if expandable %}
     <button class='g-link h-padding0 h-bg-color--transparent js-expand' data-expand-scope='.js-expand__scope'>
       {{ data.title }}
