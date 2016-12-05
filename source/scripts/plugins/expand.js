@@ -8,19 +8,35 @@ export default $.fn.expand = function (userOptions) {
     expandingClass: 'is-expanding',
     collapsingClass: 'is-collapsing',
     expandedClass: 'is-expanded',
-    defaultTargetClass: '.js-expand__target'
+    defaultScopeQuery: '.js-expand__scope',
+    defaultTargetQuery: '.js-expand__target'
   }, userOptions)
 
-  const { duration, easing, activeClass, expandingClass, expandedClass, collapsingClass, defaultTargetClass } = options
+  const {
+    duration,
+    easing,
+    activeClass,
+    expandingClass,
+    expandedClass,
+    collapsingClass,
+    defaultScopeQuery,
+    defaultTargetQuery
+  } = options
 
   return this.each((i, element) => {
     const $this = $(element)
-    const targetQuery = $this.data('expand') || defaultTargetClass
-    const expandNext = $this.data('expand-next') || targetQuery === defaultTargetClass
-    const $targets = expandNext ? $this.nextAll(targetQuery) : $(targetQuery)
+    const targetQuery = $this.data('expand') || defaultTargetQuery
+    const expandScope = $this.data('expand-scope')
+    const expandScopeQuery = typeof expandScope === 'string' ? expandScope : defaultScopeQuery
 
-    console.debug($targets)
-    console.debug(expandNext)
+    let $targets
+    if (expandScope === 'next') {
+      $targets = $this.nextAll(targetQuery)
+    } else if (expandScope) {
+      $targets = $this.closest(expandScopeQuery).find(targetQuery)
+    } else {
+      $targets = $(targetQuery)
+    }
 
     const isActive = () => $this.hasClass(activeClass)
 
