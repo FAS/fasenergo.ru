@@ -5,8 +5,6 @@
 .Expand-link {
   @extend %#{$ekzo-g-ns}link;
 
-  position: relative;
-
   border-style: dotted;
   @include ekzo-theme() { border-color: ekzo-theme(expand-link-border); }
 
@@ -23,14 +21,12 @@
 }
 
   .Expand-link__icon {
-    position: absolute;
-
     @extend %#{$ekzo-h-ns}trans--all;
 
     opacity: 0;
     transform: rotate(180deg);
 
-    width: 1em;
+    width: 1.5em;
     height: 1em;
 
     margin-left: -1.5em;
