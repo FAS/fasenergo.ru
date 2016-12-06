@@ -8,8 +8,14 @@
  * If scoping enabled, with default settings set `js-expand__scope` on any parent, to define
  * scope, within which `js-expand` should search for targets to expand.
  *
+ * Note, that it's possible to control single target with few buttons, but
+ * current lib _will not_ propagate target changes to another button.
+ * So it's up to enduser to be accurate with scopes.
+ *
  * Individual expand behaviour can be altered by setting following attributes
  * on element, bearing `js-expand`:
+ *
+ * - class='is-active' — to make target expanded by default
  *
  * - data-expand='{{ your query }}':
  *   - `false` or unspecified - toggles targets, defined by `userOptions.defaultTargetQuery` query.
@@ -32,7 +38,18 @@
  * @param {string} [userOptions.defaultScopeQuery]  = '.js-expand__scope'  Default query of container defining scope
  * @param {string} [userOptions.defaultTargetQuery] = '.js-expand__target' Default query of container to be expanded
  *
- * @return {object}             this
+ * @return {object} `this`
+ *
+ * @example
+ *   <div>
+ *     <button class='js-expand' data-expand='.js-expand__target1'>Togle 1</button>
+ *     <p class='js-expand__target1'>Content 1</p>
+ *   </div>
+ *
+ *   <div class='js-expand__scope11'>
+ *     <button class='js-expand is-active' data-expand-scope='.js-expand__scope11'>Togle scope 11</button>
+ *     <p class='js-expand__target'>Togle 1</p>
+ *   </div>
  */
 export default $.fn.expand = function (userOptions) {
   const options = $.extend({
