@@ -214,7 +214,7 @@ applyWrapperContent: false
 
 {% call components.Example(title = 'Разворачиваемый блок') -%}
 {% raw %}<div class='js-expand__scope'>
-  <button class='Btn js-expand' data-expand-scope='.js-expand__scope'>Кнопка</button>
+  <button class='Btn js-expand' data-expand-scope='.js-expand__scope'>Нажми меня</button>
   <p class='js-expand__target' style='display: none'>Содержимое</p>
 </div>
 
@@ -222,7 +222,7 @@ applyWrapperContent: false
 
 <div class='js-expand__scope'>
   <button class='Expand-link js-expand' data-expand-scope='.js-expand__scope'>
-    {{ components.Icon('arrow-up', class = 'Expand-link__icon') }}Заголовок
+    {{ components.Icon('arrow-up', class = 'Expand-link__icon') }}Нажми меня
   </button>
   <p class='js-expand__target' style='display: none'>Содержимое</p>
 </div>{% endraw %}
