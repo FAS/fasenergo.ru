@@ -16,8 +16,8 @@
   {% else %}
   <h3 class='{{ 'h-h5 h-margin-top0' if expandable }}'>
     {% if expandable %}
-    <button class='g-link h-padding0 h-bg-color--transparent js-expand' data-expand-scope='.js-expand__scope'>
-      {{ data.title }}
+    <button class='Expand-link js-expand' data-expand-scope='.js-expand__scope'>
+      {{ components.Icon('arrow-up', class = 'Expand-link__icon') }}<span>{{ data.title }}</span>
     </button>
     {% else %}
     {{ data.title }}
