@@ -131,7 +131,7 @@ module.exports = {
       title: 'Казань',
       desc: null,
       address: [
-        { index: 420034, city: 'Казань', street: 'ул. Проточная д.8 офис 309', yandexMapSrc: null, images: null }
+        { index: 420034, city: 'Казань', street: 'ул. Проточная д.8 офис 309', yandexMapSrc: 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=9QqEJWrxIQdjjU28Tg4NSBIKQmcwgrkW&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp', images: null }
       ],
       worktime: null,
       phones: [{ country: '7', city: '987', tel: [40, 204, '04'], add: null, desc: null }],
