@@ -11,6 +11,10 @@ a,
   border-bottom-width: 1px;
   @include ekzo-theme() { border-color: ekzo-theme(links-border); }
 
+  // For cases when we need to make `<button>` appear like a link
+  background-color: transparent;
+  padding: 0;
+
   &:hover,
   &:focus { @include ekzo-theme() { border-color: ekzo-theme(links-hover-border); } }
 
