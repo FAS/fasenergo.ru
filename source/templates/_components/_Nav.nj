@@ -1,15 +1,13 @@
 {##
  # Display nav block
  #
- # @param {string} class               = 'nav nav--spacing' Class of list
- # @param {string} itemsClass          = ''                 Class of list items
- # @param {string} anchorsClass        = ''                 Class of anchors inside list itmes
- # @param {string} activeClass         = 'is-active'        Class of active list item
- # @param {number} startDepth          = 1                  From which depth nav should start
- #                                                          to print
- # @param {number} maxDepth            = 999999             Max amount of subnavs to print
- # @param {bool} showInnerOnlyOnActive = false              Print subnavs only when parent
- #                                                          is active
+ # @param {string} [class]                 = 'nav nav--spacing' Class of list
+ # @param {string} [itemsClass]            = ''                 Class of list items
+ # @param {string} [anchorsClass]          = ''                 Class of anchors inside list itmes
+ # @param {string} [activeClass]           = 'is-active'        Class of active list item
+ # @param {number} [startDepth]            = 1                  From which depth nav should start to print
+ # @param {number} [maxDepth]              = 999999             Max amount of subnavs to print
+ # @param {bool}   [showInnerOnlyOnActive] = false              Print subnavs only when parent is active
  #
  # @return {string} Generated nav
  #
@@ -26,16 +24,12 @@
 ) %}
   <ul class='{{ class }}'>
 
-    {##
-     # @todo We have to pass values directly until will be fixed https://github.com/LotusTM/Kotsu/issues/120
-     #       Ref: https://github.com/FAS/fasenergo.ru/issues/2
-     #}
-    {# {% macro Item(to, label, depth = 1) %}{% call components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{{ caller() }}{% endcall %}{% endmacro %} #}
+    {% macro Item(to, label, depth = 1) %}{% call components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{{ caller() }}{% endcall %}{% endmacro %}
 
-    {% call components.NavItem('/', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
-    {% call components.NavItem('/about', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
-    {% call components.NavItem('/contacts', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
-    {% call components.NavItem('/examples', label, depth = 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{% endcall %}
+    {% call Item('/') %}{% endcall %}
+    {% call Item('/about') %}{% endcall %}
+    {% call Item('/contacts') %}{% endcall %}
+    {% call Item('/examples') %}{% endcall %}
 
   </ul>
 {% endmacro %}

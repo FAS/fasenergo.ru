@@ -9,7 +9,7 @@
   $file-name: WeblySleekUILight/WeblySleekUILight,
   $weight:    200,
   $style:     normal
-);
+)
 
 @include ekzo-font-face(
   $font:      'WeblySleek UI',
@@ -17,7 +17,7 @@
   $file-name: WeblySleekUILightItalic/WeblySleekUILightItalic,
   $weight:    200,
   $style:     italic
-);
+)
 
 @include ekzo-font-face(
   $font:      'WeblySleek UI',
@@ -25,7 +25,7 @@
   $file-name: WeblySleekUISemiLight/WeblySleekUISemiLight,
   $weight:    300,
   $style:     normal
-);
+)
 
 @include ekzo-font-face(
   $font:      'WeblySleek UI',
@@ -33,7 +33,7 @@
   $file-name: WeblySleekUISemiLightItalic/WeblySleekUISemiLightItalic,
   $weight:    300,
   $style:     italic
-);
+)
 
 @include ekzo-font-face(
   $font:      'WeblySleek UI',
@@ -41,7 +41,7 @@
   $file-name: WeblySleekUISemiBold/WeblySleekUISemiBold,
   $weight:    600,
   $style:     normal
-);
+)
 
 @include ekzo-font-face(
   $font:      'WeblySleek UI',
@@ -49,4 +49,4 @@
   $file-name: WeblySleekUISemiBoldItalic/WeblySleekUISemiBoldItalic,
   $weight:    600,
   $style:     italic
-);
+)

@@ -2,6 +2,7 @@
 
 module.exports = (grunt) ->
   pkg = grunt.file.readJSON 'package.json'
+  sitename = grunt.config('env.sitename')
 
   baseLocale = grunt.config('i18n.baseLocale')
 
@@ -19,7 +20,7 @@ module.exports = (grunt) ->
       name: pkg.name
       desc: pkg.description
       themeColor: '#252f38'
-      homepage: pkg.homepage
+      homepage: if sitename then "https://#{sitename}" else pkg.homepage
       twitter: pkg.twitter
       version: pkg.version
       locales: '<%= i18n.locales %>'
@@ -29,6 +30,7 @@ module.exports = (grunt) ->
       yandexMetrikaId: false # 'XXXXXX'
     env:
       production: '<%= env.production %>'
+      staging: '<%= env.staging %>'
     data:
       currentYear: new Date().getFullYear()
       contacts: require('./contacts')

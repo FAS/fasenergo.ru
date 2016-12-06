@@ -123,6 +123,9 @@ rules:
   #       https://github.com/stylelint/stylelint/issues/871
   # no-browser-hacks: true
 
+  declaration-block-no-ignored-properties: true
+  media-feature-no-missing-punctuation: true
+  selector-no-empty: true
   font-family-name-quotes: always-where-required
   function-url-quotes: always
   selector-attribute-quotes: always
@@ -137,10 +140,6 @@ rules:
   selector-max-specificity: 0,3,0
   declaration-no-important: true
   value-list-max-empty-lines: 1
-  property-no-unknown:
-    - true
-    - ignoreProperties:
-      - font-display # @todo https://github.com/betit/known-css-properties/issues/4
   selector-no-id: true
   # @todo No way to qualifying by speicifc classes or attributes
   selector-no-qualifying-type: true
