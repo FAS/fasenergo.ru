@@ -4,3 +4,6 @@
 [submodule "craft/core"]
 	path = craft/core
 	url = https://github.com/LotusTM/craft-core.git
+[submodule "source/assets"]
+	path = source/assets
+	url = git@github.com:FAS/assets.fasenergo.ru.git
