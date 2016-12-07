@@ -2,8 +2,8 @@
 // import 'babel-polyfill'
 
 import $ from 'jquery'
-import './plugins/scroll-on-click';
-import './plugins/expand';
+import './plugins/scroll-on-click'
+import './plugins/expand'
 
 $(() => {
   console.log('jQuery version is: ' + $().jquery)
@@ -15,5 +15,4 @@ $(() => {
   $('.js-scroll-on-click').scrollOnClick()
 
   $('.js-expand').expand()
-
 })

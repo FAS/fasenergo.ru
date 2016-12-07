@@ -1,3 +1,5 @@
+/* eslint-env jquery */
+
 /**
  * Displays target on `this` click and hides on another.
  *
@@ -122,6 +124,5 @@ export default $.fn.expand = function (userOptions) {
       event.preventDefault()
       $targets.each((i, e) => toggle($(e)))
     })
-
   })
 }
