@@ -7,7 +7,7 @@ $ekzo-colors: (
   secondary:     kotsu-theme-color(),
   tertiary:      #4e5b69,
   quaternary:    #1e272f,
-  white:         #ffffff,
+  white:         #fff,
   cascade:       #8db0ab,
   warn:          #e44225,
   skype:         #29ace3
@@ -199,7 +199,6 @@ $ekzo-colors: (
   forms-border:           adjust-color(ekzo-color(tertiary), $saturation: -6, $lightness: 16),
   forms-bg:               adjust-color(ekzo-color(tertiary), $saturation: -2, $lightness: -3),
 ))
-
 
 @include ekzo-extend-themes(quaternary, (
   bg:                 ekzo-color(quaternary),

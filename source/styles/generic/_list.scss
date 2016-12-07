@@ -1,3 +1,5 @@
+// stylelint-disable selector-no-type, no-descending-specificity
+
 // =======================================
 // ^List
 // =======================================
@@ -18,14 +20,13 @@ ol {
 
     width: $list-bullets-padding;
 
-    @include ekzo-theme() { color: ekzo-theme(list-bullet) }
+    @include ekzo-theme() { color: ekzo-theme(list-bullet); }
   }
 
 }
 
 ol {
   counter-reset: ol-lists;
-
 
   > li:before {
     counter-increment: ol-lists;

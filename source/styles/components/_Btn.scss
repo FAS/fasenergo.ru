@@ -83,6 +83,7 @@
   }
 
   &:disabled {
+
     &:hover,
     &:focus,
     &:active {
@@ -94,6 +95,7 @@
         border-color:     $bg;
       }
     }
+
   }
 
 }
@@ -130,6 +132,7 @@
   }
 
   &:disabled {
+
     &:hover,
     &:focus,
     &:active {
@@ -141,6 +144,7 @@
         border-color:     $bg;
       }
     }
+
   }
 
 }

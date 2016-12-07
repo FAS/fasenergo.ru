@@ -4,4 +4,4 @@
 // ^Headings
 // =======================================
 
-h1 { @include ekzo-theme() { color: ekzo-theme(headings-h1) } }
+h1 { @include ekzo-theme() { color: ekzo-theme(headings-h1); } }

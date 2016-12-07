@@ -1,3 +1,5 @@
+// stylelint-disable no-descending-specificity
+
 // =======================================
 // ^Field
 // =======================================
@@ -85,7 +87,7 @@ $small-field-group-btn-width: ekzo-space(1.5);
       padding-left:   $field-padding * 2;
       padding-right:  $field-padding;
 
-      &:focus { @include ekzo-theme() { border-color: ekzo-theme(forms-focus-border); }  }
+      &:focus { @include ekzo-theme() { border-color: ekzo-theme(forms-focus-border); } }
 
     }
 
@@ -125,7 +127,7 @@ $small-field-group-btn-width: ekzo-space(1.5);
 
     width: $field-group-btn-width;
 
-    @include ekzo-theme() { color: ekzo-theme(forms-placeholder) }
+    @include ekzo-theme() { color: ekzo-theme(forms-placeholder); }
     background-color: transparent;
 
     margin-left: - $field-group-btn-width;
