@@ -10,8 +10,7 @@
 // $ekzo-bp-phone-ls:  600px;
 // $ekzo-bp-tablet:    720px;
 // $ekzo-bp-tablet-ls: 960px;
-$ekzo-bp-pre-lap:   1170px;
-// $ekzo-bp-lap:       1280px;
+$ekzo-bp-lap:       1280px;
 $ekzo-bp-desk:      1600px;
 
 $ekzo-breakpoints: (
@@ -23,8 +22,7 @@ $ekzo-breakpoints: (
   // phone-ls:   'screen and (min-width: #{$ekzo-bp-phone-ls})',
   // tablet:     'screen and (min-width: #{$ekzo-bp-tablet})',
   // tablet-ls:  'screen and (min-width: #{$ekzo-bp-tablet-ls})',
-  pre-lap:     'screen and (min-width: #{$ekzo-bp-pre-lap})',
-  // lap:        'screen and (min-width: #{$ekzo-bp-lap})',
+  lap:        'screen and (min-width: #{$ekzo-bp-lap})',
   desk:        'screen and (min-width: #{$ekzo-bp-desk})',
 
   // ----
@@ -58,7 +56,7 @@ $ekzo-responsive-positioning-helpers-breakpoints:  $ekzo-responsive-helpers-brea
 $ekzo-responsive-margin-helpers-breakpoints:       $ekzo-responsive-helpers-breakpoints;
 $ekzo-responsive-bleed-helpers-breakpoints:        $ekzo-responsive-helpers-breakpoints;
 $ekzo-responsive-padding-helpers-breakpoints:      $ekzo-responsive-helpers-breakpoints;
-$ekzo-responsive-typography-helpers-breakpoints:   ( pre-lap );
+$ekzo-responsive-typography-helpers-breakpoints:   ( lap );
 $ekzo-responsive-widths-helpers-breakpoints:       $ekzo-responsive-helpers-breakpoints;
 
 $ekzo-responsive-widths-helpers-fractions:         $ekzo-widths-helpers-fractions;

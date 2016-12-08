@@ -145,7 +145,7 @@
 
     .Lead-block__image {
       height: 159px;
-      @include ekzo-breakpoint(pre-lap) { height: 174px; }
+      @include ekzo-breakpoint(lap) { height: 174px; }
     }
 
     .Lead-block__tube {
