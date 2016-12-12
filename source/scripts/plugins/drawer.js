@@ -31,7 +31,7 @@ export default $.fn.drawer = function (userOptions) {
     const $otherNavs = $(navQuery).not($nav)
     const $bg = $(bgQuery)
     const $overlay = $(overlayQuery)
-    const $closer = $(closeQuery)
+    const $closer = $(`${closeQuery}, a, button`).not($all)
 
     const isActive = () => $this.hasClass(activeClass)
     const isAnyActive = () => $all.hasClass(activeClass)
@@ -49,9 +49,6 @@ export default $.fn.drawer = function (userOptions) {
       toggle(isActive())
     })
 
-    $closer.click((event) => {
-      event.preventDefault()
-      close()
-    })
+    $closer.click((event) => close())
   })
 }
