@@ -98,7 +98,8 @@ applyWrapperContent: false
 {{ components.Icon('vent', 'o-icon--left') }}
 {{ components.Icon('flash', 'o-icon--left') }}
 {{ components.Icon('skype', 'o-icon--left') }}
-{{ components.Icon('x', 'o-icon--left') }}{% endraw %}
+{{ components.Icon('x', 'o-icon--left') }}
+{{ components.Icon('dir-right', 'o-icon--left') }}{% endraw %}
 {% endcall %}
 
 

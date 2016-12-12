@@ -75,5 +75,12 @@
       <path d='M11.01 10.282l-.728.728L-.01.717l.728-.728zM.718 11.01l-.728-.728L10.282-.011l.728.728z'/>
     </svg>
 
+    {% elseif name == 'dir-right' %}
+
+    <canvas class='o-svg-icon__canvas' width='4' height='7'></canvas>
+    <svg  class='o-svg-icon__svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 7' fill='currentColor'>
+      <path id='dir-right.svg' d='M4.011 3.24l-.767.77L-.011.76l.767-.77zM.756 7.01l-.767-.77 3.255-3.25.767.77z'/>
+    </svg>
+
   {% endif %}
 </i>{% endmacro %}
