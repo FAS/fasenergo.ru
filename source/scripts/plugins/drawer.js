@@ -42,7 +42,7 @@ export default $.fn.drawer = function (userOptions) {
     const markCollapsed = () => isAnyActive() ? $nav.removeClass(expandedClass) : $nav.removeClass(expandedClass) && $bg.removeClass(expandedClass) && $overlay.removeClass(expandedClass)
 
     const toggle = (isActive) => isActive ? markInactive() && markCollapsed() : markActive() && markExpanded()
-    const close = () =>  markInactive() && markCollapsed()
+    const close = () => markInactive() && markCollapsed()
 
     $this.click((event) => {
       event.preventDefault()
