@@ -4,6 +4,10 @@
 
 $wrapper-padding: ekzo-space(2);
 
+$site-width: 1366px;
+$sidebar-width: 249px;
+$main-width: $site-width - $sidebar-width;
+
 .Wrapper {
   padding-left:  $wrapper-padding;
   padding-right: $wrapper-padding;
@@ -20,16 +24,13 @@ $wrapper-padding: ekzo-space(2);
 }
 
 // ----
-// Base width of website
+// Width of website
 
-$total-width: 1366px;
-$sidebar-width: 249px;
-$main-width: $total-width - $sidebar-width;
-
-.Wrapper--sidebar   { width: $sidebar-width; }
-.Wrapper--main      { @include ekzo-breakpoint(desk) { max-width: $main-width; } }
-.Wrapper--container { max-width: $main-width; }
-.Wrapper--content   { max-width: 900px; }
+.Wrapper--sidebar       { width: $sidebar-width; }
+.Wrapper--sidebar-shift { padding-left: $sidebar-width; }
+.Wrapper--main          { @include ekzo-breakpoint(desk) { max-width: $main-width; } }
+.Wrapper--container     { max-width: $main-width; }
+.Wrapper--content       { max-width: 900px; }
 
 // ----
 // Limit to ~80 characters per line

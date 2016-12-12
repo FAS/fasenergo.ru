@@ -91,7 +91,7 @@
 
 </head>
 
-<body class='o-panel o-panel--max'>
+<body class='Wrapper--sidebar-shift o-panel o-panel--max'>
 
   {{ components.OutdatedBrowser(version = 'lte IE 9') }}
 

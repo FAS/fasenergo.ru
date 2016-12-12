@@ -9,121 +9,113 @@
 {% set e = data.contacts.main.emails[0] %}
 {% set email = e.value[0] + '@' + e.value[1] %}
 
-<div class='o-grid o-panel__body'>
+<div class='Sidebar t-secondary Wrapper--sidebar h-fixed h-left h-overflow-y--auto h-top h-bottom h-padding h-padding-right+'>
 
-  <div class='Sidebar Wrapper--sidebar o-grid__item t-secondary'>
-    <div class='Wrapper--sidebar h-fixed h-overflow-y--auto h-top h-bottom h-padding h-padding-right+'>
+  <!-- Site's header -->
+  <!-- ============= -->
 
-      <!-- Site's header -->
-      <!-- ============= -->
+  <header class='Header h-margin-bottom'>
+    <a class='Logo h-border-bottom0' href='{{ localeDir() }}/'><img src='/{{ path.images }}/logo.svg' alt='Фасэнергомаш' /></a>
+    <p class='h-text- h-font-weight--light h-margin-top--'>Производитель газовых&nbsp;генераторов №1&nbsp;в&nbsp;России</p>
+  </header>
 
-      <header class='Header h-margin-bottom'>
-        <a class='Logo h-border-bottom0' href='{{ localeDir() }}/'><img src='/{{ path.images }}/logo.svg' alt='Фасэнергомаш' /></a>
-        <p class='h-text- h-font-weight--light h-margin-top--'>Производитель газовых&nbsp;генераторов №1&nbsp;в&nbsp;России</p>
-      </header>
+  <!--noindex-->
+  <nav class='Nav h-margin-ends+'>
+    {{ components.Nav(
+      class        = 'o-nav o-nav--stacked',
+      itemsClass   = 'Nav__item',
+      anchorsClass = 'Nav__link h-text--underline0',
+      activeClass  = 'is-active'
+    ) }}
+  </nav>
+  <!--/noindex-->
 
-      <!--noindex-->
-      <nav class='Nav h-margin-ends+'>
-        {{ components.Nav(
-          class        = 'o-nav o-nav--stacked',
-          itemsClass   = 'Nav__item',
-          anchorsClass = 'Nav__link h-text--underline0',
-          activeClass  = 'is-active'
-        ) }}
-      </nav>
-      <!--/noindex-->
-
-      <aside>
-        <p><b><a href='tel:{{ phonePlain }}' class='h-text+ g-link--inherit'>{{ phone }}</a></b></p>
-        <p class='h-margin-bottom--'><button class='Btn Btn--solid o-btn--full o-btn- h-text-'>{{ components.Icon('phone', 'o-icon--left') }}Заказать звонок</button></p>
-        <p><a href='#' class='Btn o-btn--full o-btn- h-text-'>{{ components.Icon('cart', 'o-icon--left') }}Где купить?</a></p>
-      </aside>
-
-    </div>
-  </div>
-
-  <div class='{{ 'Wrapper--main' if page.applyWrapperMain and page.coverImage }} o-grid__item h-flex+1-0% o-panel h-min0'>
-
-    <!-- Site's content -->
-    <!-- ============== -->
-
-    <main class='Main {{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper-v' if page.applyWrapperV }} {{ 'Wrapper--container' if page.applyWrapperContainer }} h-flex-y--center o-panel o-panel__body t-white' role='main'>
-      <article class='{{ 'Wrapper--content' if page.applyWrapperContent }} h-1/1 o-panel o-panel__body'>
-
-        {% if page.showBreadcrumb or page.showContentTitle %}
-        <header class='Content-header'>
-
-          {% if page.showBreadcrumb %}
-          {{ components.Breadcrumb(
-            class           = 'o-breadcrumb o-breadcrumb--rev h-margin-bottom+--',
-            itemsClass      = 'o-breadcrumb__item',
-            anchorsClass    = '',
-            rootItemClass   = '',
-            rootAnchorClass = '',
-            displayLast     = false
-          ) }}
-          {% endif %}
-
-          {% if page.showContentTitle %}
-          <h1 class='Content-title h-margin-bottom+--'>{{ page.contentTitle }}</h1>
-          {% endif %}
-
-        </header>
-        {% endif %}
-
-        <div class='Content {{ 's-preformat' if page.applyPreformat }}'>
-          {% block main %}{% endblock %}
-        </div>
-
-      </article>
-    </main>
-
-    <!-- Site's footer -->
-    <!-- ============= -->
-
-    <!--/noindex-->
-    <footer class='Footer t-tertiary o-panel__footer'>
-      <div class='Wrapper Wrapper--container h-flex h-flex-x--center h-padding-ends+'>
-        <div class='{{ 'Wrapper--content' if (page.applyWrapperContent or page.forceFooterWrapperContent) }} h-1/1'>
-          <div class='o-grid h-childs-displace+'>
-
-            <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
-              <p>Вся представленная информация на данном сайте носит информационный характер, и ни при каких условиях не является публичной или иной офертой, определяемой положениями Гражданского кодекса РФ.</p>
-              <p>Все материалы, размещённые на сайте, защищены авторским правом.</p>
-              <p>© 2006 – {{ data.currentYear }} ООО «Фасэнергомаш»</p>
-              <p>Проектирование и дизайн сайта – <a href='#'>Тектоника</a></p>
-            </div>
-
-            <div class='o-grid__item h-1/3 h-align--right'>
-
-              <form class='Field-group Field-group- h-margin-bottom h-margin-left--auto' style='max-width: 230px'>
-                {{ components.Field(
-                  class = 'Field- h-flex+',
-                  inputClass = 'h-1/1',
-                  name = 'mainSearch',
-                  label = 'Поиск',
-                  displayLabel = false,
-                  type = 'search',
-                  placeholder = 'Что вас интересует?',
-                  required = true
-                ) }}
-                <button class='Field__button'>{{ components.Icon('search') }}</button>
-              </form>
-
-              <p class='h-margin-bottom--'><b><a href='tel:{{ phonePlain }}' class='h-text+ g-link--inherit'>{{ phone }}</a></b></p>
-              <p><a href='mailto:{{ email }}'>{{ email }}</a></p>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!--/noindex-->
-
-  </div>
+  <aside>
+    <p><b><a href='tel:{{ phonePlain }}' class='h-text+ g-link--inherit'>{{ phone }}</a></b></p>
+    <p class='h-margin-bottom--'><button class='Btn Btn--solid o-btn--full o-btn- h-text-'>{{ components.Icon('phone', 'o-icon--left') }}Заказать звонок</button></p>
+    <p><a href='#' class='Btn o-btn--full o-btn- h-text-'>{{ components.Icon('cart', 'o-icon--left') }}Где купить?</a></p>
+  </aside>
 
 </div>
+
+<!-- Site's content -->
+<!-- ============== -->
+
+<main class='{{ 'Wrapper--main' if page.applyWrapperMain and page.coverImage }} o-panel__body o-panel' role='main'>
+  <div class='Main {{ 'Wrapper' if page.applyWrapper }} {{ 'Wrapper-v' if page.applyWrapperV }} {{ 'Wrapper--container' if page.applyWrapperContainer }} h-flex-y--center o-panel o-panel__body t-white'>
+    <article class='{{ 'Wrapper--content' if page.applyWrapperContent }} h-1/1 o-panel o-panel__body'>
+
+      {% if page.showBreadcrumb or page.showContentTitle %}
+      <header class='Content-header'>
+
+        {% if page.showBreadcrumb %}
+        {{ components.Breadcrumb(
+          class           = 'o-breadcrumb o-breadcrumb--rev h-margin-bottom+--',
+          itemsClass      = 'o-breadcrumb__item',
+          anchorsClass    = '',
+          rootItemClass   = '',
+          rootAnchorClass = '',
+          displayLast     = false
+        ) }}
+        {% endif %}
+
+        {% if page.showContentTitle %}
+        <h1 class='Content-title h-margin-bottom+--'>{{ page.contentTitle }}</h1>
+        {% endif %}
+
+      </header>
+      {% endif %}
+
+      <div class='Content {{ 's-preformat' if page.applyPreformat }}'>
+        {% block main %}{% endblock %}
+      </div>
+
+    </article>
+  </div>
+</main>
+
+<!-- Site's footer -->
+<!-- ============= -->
+
+<!--/noindex-->
+<footer class='Footer {{ 'Wrapper--main' if page.applyWrapperMain and page.coverImage }} t-tertiary o-panel__footer'>
+  <div class='Wrapper Wrapper--container h-flex h-flex-x--center h-padding-ends+'>
+    <div class='{{ 'Wrapper--content' if (page.applyWrapperContent or page.forceFooterWrapperContent) }} h-1/1'>
+      <div class='o-grid h-childs-displace+'>
+
+        <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
+          <p>Вся представленная информация на данном сайте носит информационный характер, и ни при каких условиях не является публичной или иной офертой, определяемой положениями Гражданского кодекса РФ.</p>
+          <p>Все материалы, размещённые на сайте, защищены авторским правом.</p>
+          <p>© 2006 – {{ data.currentYear }} ООО «Фасэнергомаш»</p>
+          <p>Проектирование и дизайн сайта – <a href='#'>Тектоника</a></p>
+        </div>
+
+        <div class='o-grid__item h-1/3 h-align--right'>
+
+          <form class='Field-group Field-group- h-margin-bottom h-margin-left--auto' style='max-width: 230px'>
+            {{ components.Field(
+              class = 'Field- h-flex+',
+              inputClass = 'h-1/1',
+              name = 'mainSearch',
+              label = 'Поиск',
+              displayLabel = false,
+              type = 'search',
+              placeholder = 'Что вас интересует?',
+              required = true
+            ) }}
+            <button class='Field__button'>{{ components.Icon('search') }}</button>
+          </form>
+
+          <p class='h-margin-bottom--'><b><a href='tel:{{ phonePlain }}' class='h-text+ g-link--inherit'>{{ phone }}</a></b></p>
+          <p><a href='mailto:{{ email }}'>{{ email }}</a></p>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<!--/noindex-->
 
 {% if page.coverImage %}
 <div class='Cover' style='{{ 'background-image: url(/' + path.images + '/covers/' + page.coverImage + ')' }}'></div>
