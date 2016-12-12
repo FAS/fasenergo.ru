@@ -147,6 +147,13 @@ $ekzo-colors: (
   lead-block-generator-wire-2: #ea4324,
   lead-block-generator-tube:   ekzo-color(tertiary),
   lead-block-generator-vent:   #caced1,
+
+  // ---------------------------------------
+  // Drawer
+  // ---------------------------------------
+
+  drawer-bg:      #24292f,
+  drawer-overlay: rgba(#252f38, .7),
 ))
 
 @include ekzo-extend-themes(white, (

@@ -1,0 +1,72 @@
+// =======================================
+// ^SIDEBAR
+// =======================================
+
+$transition: .3s ease-out;
+$padding: ekzo-space();
+
+.Drawer,
+.Drawer__overlay,
+.Drawer__bg {
+  position: fixed;
+  left: 0;
+
+  &.is-expanded { left: $sidebar-width; }
+
+}
+
+.Drawer,
+.Drawer__bg {
+  transition: left $transition;
+  width: $sidebar-width;
+}
+
+.Drawer__overlay,
+.Drawer__bg {
+  height: 100%;
+
+  top: 0;
+  bottom: 0;
+}
+
+.Drawer {
+  padding: $padding;
+
+  margin-top: -(ekzo-space(2) + $padding);
+  z-index: -1;
+}
+
+  .Drawer__close {
+    position: absolute;
+
+    top: $padding;
+    right: $padding;
+
+    cursor: pointer;
+
+    color: inherit;
+    background-color: transparent;
+  }
+
+  .Drawer__bg {
+    @include ekzo-theme() { background-color: ekzo-theme(drawer-bg); }
+    z-index: -2;
+  }
+
+  .Drawer__overlay {
+    width: 0;
+
+    @include ekzo-theme() { background-color: ekzo-theme(drawer-overlay); }
+
+    opacity: 0;
+    transition: opacity $transition;
+
+    z-index: -3;
+
+    &.is-expanded {
+      transition: opacity $transition;
+      width: 100%;
+      opacity: 1;
+    }
+
+  }

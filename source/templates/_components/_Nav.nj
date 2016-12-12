@@ -32,4 +32,7 @@
     {% call Item('/examples') %}{% endcall %}
 
   </ul>
+
+  <div class='Drawer__overlay js-drawer__overlay js-drawer__close'></div>
+  <div class='Drawer__bg js-drawer__bg'></div>
 {% endmacro %}

@@ -2,4 +2,7 @@
 // ^SIDEBAR
 // =======================================
 
-.Sidebar {}
+.Sidebar {
+  // Needed to position Sidenav above content, but under Sidebar
+  z-index: ekzo-z-index(nav);
+}

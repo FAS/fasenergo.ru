@@ -34,6 +34,7 @@
   {% set callerDepth = depth + 1 %}
   {% if (callerDepth <= maxDepth) and (itemIsActive if showInnerOnlyOnActive else true) %}
     {% set subnav = caller(callerDepth) if caller %}
+    {% set subnavNotEmpty = true if subnav.val %}
   {% endif %}
 
   {% if depth >= startDepth and itemProps.display != false %}
@@ -43,11 +44,18 @@
       {{ components.Link(
         to = to,
         label = label if label else itemProps.navTitle,
-        class = anchorClass,
+        class = anchorClass + ' js-drawer' if subnavNotEmpty,
         activeClass = activeClass
       )}}
 
-      {{ subnav }}
+      {% if subnavNotEmpty %}
+      <div class='Drawer js-drawer__nav h-text-'>
+        <ul class='o-nav o-nav--stacked'>
+          {{ subnav }}
+        </ul>
+        <button class='Drawer__close js-drawer__close'>{{ components.Icon('x') }}</button>
+      </div>
+      {% endif %}
 
     </li>
 

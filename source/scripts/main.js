@@ -4,6 +4,7 @@
 import $ from 'jquery'
 import './plugins/scroll-on-click'
 import './plugins/expand'
+import './plugins/drawer'
 
 $(() => {
   console.log('jQuery version is: ' + $().jquery)
@@ -15,4 +16,6 @@ $(() => {
   $('.js-scroll-on-click').scrollOnClick()
 
   $('.js-expand').expand()
+
+  $('.js-drawer').drawer()
 })
