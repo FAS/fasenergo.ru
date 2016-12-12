@@ -2,12 +2,6 @@
 // ^WRAPPER
 // =======================================
 
-$wrapper-padding: ekzo-space(2);
-
-$site-width: 1366px;
-$sidebar-width: 249px;
-$main-width: $site-width - $sidebar-width;
-
 .Wrapper {
   padding-left:  $wrapper-padding;
   padding-right: $wrapper-padding;
