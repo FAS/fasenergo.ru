@@ -95,6 +95,8 @@ applyWrapperContent: false
 {{ components.Icon('cart', 'o-icon--left') }}
 {{ components.Icon('search', 'o-icon--left') }}
 {{ components.Icon('check', 'o-icon--left') }}
+{{ components.Icon('vent', 'o-icon--left') }}
+{{ components.Icon('flash', 'o-icon--left') }}
 {{ components.Icon('skype', 'o-icon--left') }}{% endraw %}
 {% endcall %}
 
