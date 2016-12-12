@@ -155,16 +155,6 @@
 
       text-align: right;
 
-      &:before {
-        position: relative;
-
-        right: 25px;
-        top:   5px;
-
-        content: 'IC';
-        @include ekzo-theme($also-chain: false) { color: ekzo-theme(lead-block-generator-went); }
-      }
-
       &:after {
         display: block;
         content: '';
@@ -184,3 +174,12 @@
       }
 
     }
+
+      .Lead-block__vent {
+        position: relative;
+
+        right: 25px;
+        top:   7px;
+
+        @include ekzo-theme() { color: ekzo-theme(lead-block-generator-vent); }
+      }

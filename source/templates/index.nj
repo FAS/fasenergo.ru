@@ -39,10 +39,12 @@ showContentTitle:          false
       </ul>
 
       <div class='Lead-block__generator h-flex h-flex-y--end'>
-        <div><div class='Lead-block__box'>IC</div></div>
+        <div><div class='Lead-block__box'>{{ components.Icon('flash') }}</div></div>
         <div class='Lead-block__wires h-flex+'></div>
         <img class='Lead-block__image' src='{{ '/' + path.images + '/lead-block-generator.png' }}' alt=''>
-        <div class='Lead-block__tube'></div>
+        <div class='Lead-block__tube'>
+          <div class='Lead-block__vent'>{{ components.Icon('vent') }}</div>
+        </div>
       </div>
 
     </div>
