@@ -1,4 +1,4 @@
-// stylelint-disable selector-max-specificity
+// stylelint-disable selector-max-specificity, declaration-no-important, no-descending-specificity
 
 // =======================================
 // ^NAV
@@ -44,7 +44,7 @@
 
           }
 
-          &.drawer-is-active { opacity: .5 }
+          &.drawer-is-active { opacity: .5; }
 
         }
 
