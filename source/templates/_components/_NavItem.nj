@@ -41,12 +41,14 @@
 
     <li class='{{ class }} {{ activeClass if itemIsActive }}'>
 
-      {{ components.Link(
+      {% call components.Link(
         to = to,
-        label = label if label else itemProps.navTitle,
-        class = anchorClass + ' js-drawer' if subnavNotEmpty,
+        class = anchorClass + (' has-subnav js-drawer' if subnavNotEmpty),
         activeClass = activeClass
-      )}}
+      ) %}
+        {{ label if label else itemProps.navTitle }}
+        {{ components.Icon('dir-right', class = 'Nav__subnav-icon o-icon--right h-text--em-- h-top') if subnavNotEmpty }}
+      {% endcall %}
 
       {% if subnavNotEmpty %}
       <div class='Drawer js-drawer__nav h-text-'>

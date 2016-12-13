@@ -19,11 +19,35 @@
           &:focus { border-color: rgba(ekzo-color(primary), .4); }
 
           &:active { border-color: currentColor; }
-
         }
 
       }
 
     }
 
-      .Nav__link {}
+      .Nav__link {
+
+        &.has-subnav {
+
+          border-color: transparent !important;
+
+          &:hover {
+
+            > .Nav__subnav-icon { opacity: .5; }
+
+          }
+
+          &.drawer-is-active,
+          &:active {
+
+            > .Nav__subnav-icon { opacity: 1; }
+
+          }
+
+          &.drawer-is-active { opacity: .5 }
+
+        }
+
+      }
+
+        .Nav__subnav-icon { opacity: 0; }

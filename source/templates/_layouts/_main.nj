@@ -25,7 +25,7 @@
       {{ components.Nav(
         class        = 'o-nav o-nav--stacked',
         itemsClass   = 'Nav__item',
-        anchorsClass = 'Nav__link h-text--underline0',
+        anchorsClass = 'Nav__link',
         activeClass  = 'is-active'
       ) }}
     </nav>
