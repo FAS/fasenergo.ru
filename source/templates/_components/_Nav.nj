@@ -27,8 +27,18 @@
     {% macro Item(to, label, depth = 1) %}{% call components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{{ caller() }}{% endcall %}{% endmacro %}
 
     {% call Item('/') %}{% endcall %}
-    {% call Item('/about') %}{% endcall %}
-    {% call Item('/contacts') %}{% endcall %}
+    {% call Item('/about') %}
+      {% call Item('/about') %}{% endcall %}
+      {% call Item('/examples') %}{% endcall %}
+      {% call Item('/contacts') %}{% endcall %}
+      {% call Item('/') %}{% endcall %}
+    {% endcall %}
+    {% call Item('/contacts') %}
+      {% call Item('/contacts') %}{% endcall %}
+      {% call Item('/') %}{% endcall %}
+      {% call Item('/examples') %}{% endcall %}
+      {% call Item('/about') %}{% endcall %}
+    {% endcall %}
     {% call Item('/examples') %}{% endcall %}
 
   </ul>
