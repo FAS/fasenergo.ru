@@ -45,7 +45,7 @@
 
       {% call components.Link(
         to = to,
-        class = anchorClass + (' has-subnav' if subnavNotEmpty) + (' js-drawer' if enableDrawer),
+        class = anchorClass + (' has-subnav' if subnavNotEmpty) + (' js-drawer' if enableDrawer and subnavNotEmpty),
         activeClass = activeClass
       ) %}
         {{ label if label else itemProps.navTitle }}
