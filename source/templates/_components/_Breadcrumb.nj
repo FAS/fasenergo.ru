@@ -47,19 +47,30 @@
 
       {% if not loop.last %}
 
-        <li class='{{ itemsClass }}'>
+        {#
+         # @todo Note that for now EVERY breadcrumb item except first and very last one will become
+         #       expandable. This happens, because so far there is no way to check does
+         #       `components.Nav()` returns something or no, because it will return always something,
+         #       even when there is no items on active route.
+         #       This won't be actual when we move everything to Craft, though, since there will be no
+         #       need to declare Nav items in Kotsu-way.
+         #}
 
-          <a class='{{ anchorsClass }}' href='{{ localeDir() }}{{ url }}'>{{ title }}</a>
+        <li class='{{ itemsClass }} h-relative js-expand__scope'>
 
-          {{ components.Nav(
-            class        = 'o-nav o-nav--stacked',
-            itemsClass   = 'Nav__item',
-            anchorsClass = 'Nav__link',
-            activeClass  = 'is-active',
-            startDepth   = loop.index + 1,
-            maxDepth     = loop.index + 1,
-            showInnerOnlyOnActive = true
-          ) }}
+          <a class='{{ anchorsClass }} js-expand' data-expand-scope='.js-expand__scope' href='{{ localeDir() }}{{ url }}'>{{ title }}</a>
+
+          <div class='h-absolute js-expand__target' style='display: none'>
+            {{ components.Nav(
+              class        = 'o-nav o-nav--stacked',
+              itemsClass   = 'Nav__item',
+              anchorsClass = 'Nav__link',
+              activeClass  = 'is-active',
+              startDepth   = loop.index + 1,
+              maxDepth     = loop.index + 1,
+              showInnerOnlyOnActive = true
+            ) }}
+          </div>
 
         </li>
 
