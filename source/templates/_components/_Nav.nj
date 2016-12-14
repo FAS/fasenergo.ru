@@ -28,19 +28,19 @@
 
     {% macro Item(to, label) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth or 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
-    {% call Item('/') %}{% endcall %}
-    {% call Item('/about') %}
-      {% call Item('/about/us') %}{% endcall %}
-      {% call Item('/about/certificates') %}{% endcall %}
-      {% call Item('/about/view-manufactoring') %}{% endcall %}
+    {% call(depth) Item('/') %}{% endcall %}
+    {% call(depth) Item('/about') %}
+      {% call(depth) Item('/about/us', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/about/certificates', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/about/view-manufactoring', depth = depth) %}{% endcall %}
     {% endcall %}
-    {% call Item('/contacts') %}
-      {% call Item('/contacts') %}{% endcall %}
-      {% call Item('/') %}{% endcall %}
-      {% call Item('/examples') %}{% endcall %}
-      {% call Item('/about') %}{% endcall %}
+    {% call(depth) Item('/contacts') %}
+      {% call(depth) Item('/contacts', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/examples', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/about', depth = depth) %}{% endcall %}
     {% endcall %}
-    {% call Item('/examples') %}{% endcall %}
+    {% call(depth) Item('/examples') %}{% endcall %}
 
   </ul>
 
