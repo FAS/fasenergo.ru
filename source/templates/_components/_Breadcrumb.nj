@@ -48,7 +48,19 @@
       {% if not loop.last %}
 
         <li class='{{ itemsClass }}'>
+
           <a class='{{ anchorsClass }}' href='{{ localeDir() }}{{ url }}'>{{ title }}</a>
+
+          {{ components.Nav(
+            class        = 'o-nav o-nav--stacked',
+            itemsClass   = 'Nav__item',
+            anchorsClass = 'Nav__link',
+            activeClass  = 'is-active',
+            startDepth   = loop.index + 1,
+            maxDepth     = loop.index + 1,
+            showInnerOnlyOnActive = true
+          ) }}
+
         </li>
 
       {% elif displayLast %}
