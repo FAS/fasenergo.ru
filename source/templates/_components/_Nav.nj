@@ -28,10 +28,9 @@
 
     {% call Item('/') %}{% endcall %}
     {% call Item('/about') %}
-      {% call Item('/about') %}{% endcall %}
-      {% call Item('/examples') %}{% endcall %}
-      {% call Item('/contacts') %}{% endcall %}
-      {% call Item('/') %}{% endcall %}
+      {% call Item('/about/us') %}{% endcall %}
+      {% call Item('/about/certificates') %}{% endcall %}
+      {% call Item('/about/view-manufactoring') %}{% endcall %}
     {% endcall %}
     {% call Item('/contacts') %}
       {% call Item('/contacts') %}{% endcall %}
