@@ -52,8 +52,8 @@
     {% if data.emails %}
     <p>
       {% for e in data.emails %}
-      {% set e.email = e.value[0] ~ '@' ~ e.value[1] %}
-      <a href='mailto:{{ email }}'>{{ e.email }}</a>{{ ',' if not loop.last }}
+      {% set _email = e.value[0] ~ '@' ~ e.value[1] %}
+      <a href='mailto:{{ email }}'>{{ _email }}</a>{{ ',' if not loop.last }}
       {% endfor %}
     </p>
     {% endif %}
