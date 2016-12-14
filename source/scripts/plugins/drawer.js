@@ -67,6 +67,7 @@ export default $.fn.drawer = function (userOptions) {
     const $otherNavs = $(navQuery).not($nav)
     const $bg = $(bgQuery)
     const $overlay = $(overlayQuery)
+    // Note that any `<a>` or `<button>` element will also close drawer
     const $closer = $(`${closeQuery}, a, button`).not($all)
 
     const isActive = () => $this.hasClass(activeClass)
@@ -86,5 +87,7 @@ export default $.fn.drawer = function (userOptions) {
     })
 
     $closer.click((event) => close())
+    // Close on `Esc` button press
+    $this.keyup((event) => event.keyCode === 27 && close())
   })
 }
