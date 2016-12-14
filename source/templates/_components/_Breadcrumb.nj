@@ -58,9 +58,12 @@
 
         <li class='{{ itemsClass }} h-relative js-expand__scope'>
 
-          <a class='{{ anchorsClass }} js-expand' data-expand-scope='.js-expand__scope' href='{{ localeDir() }}{{ url }}'>{{ title }}</a>
+          <a class='{{ anchorsClass }} Expand-link-alt has-subnav js-expand' data-expand-scope='.js-expand__scope' href='{{ localeDir() }}{{ url }}'>
+            {{ title }}
+            {{ components.Icon('dir-right', class = 'Expand-link-alt__icon') }}
+          </a>
 
-          <div class='h-absolute js-expand__target' style='display: none'>
+          <div class='Dropdown js-expand__target' style='display: none'>
             {{ components.Nav(
               class        = 'o-nav o-nav--stacked',
               itemsClass   = 'Nav__item',
