@@ -14,6 +14,7 @@
 
         > a {
           color: ekzo-color(primary);
+          border-bottom-color: transparent;
 
           &:hover,
           &:focus { border-color: rgba(ekzo-color(primary), .4); }
