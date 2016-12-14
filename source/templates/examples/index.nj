@@ -241,6 +241,17 @@ applyWrapperContent: false
 </div>{% endraw %}
 {% endcall %}
 
+{% call components.Example(title = 'Выпадающее меню') -%}
+{% raw %}<div class='js-expand__scope'>
+  <button class='Expand-link-alt js-expand' data-expand-scope='.js-expand__scope'>
+    Нажми меня {{ components.Icon('dir-right', class = 'Expand-link-alt__icon') }}
+  </button>
+  <div class='Dropdown js-expand__target' style='display: none'>
+    <p>Содержимое</p>
+  </div>
+</div>{% endraw %}
+{% endcall %}
+
 {% call components.Example(title = 'Форма') -%}
 {% raw %}<form class='o-grid h-childs-displace'>
 

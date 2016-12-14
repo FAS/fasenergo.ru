@@ -1,0 +1,21 @@
+// =======================================
+// ^Dropdown
+// =======================================
+
+.Dropdown {
+  position: absolute;
+  z-index: ekzo-z-index(dropdown);
+
+  min-width: 235px;
+
+  @include ekzo-theme() {
+    background-color: ekzo-theme(dropdown-bg-color);
+    box-shadow: ekzo-theme(dropdown-box-shadow);
+  }
+
+  border-radius: ekzo-border-radius('');
+
+  margin-left: - ekzo-space();
+  margin-top: ekzo-space(.25);
+  padding: ekzo-space();
+}

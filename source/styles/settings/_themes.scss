@@ -154,6 +154,13 @@ $ekzo-colors: (
 
   drawer-bg:      #24292f,
   drawer-overlay: rgba(#252f38, .7),
+
+  // ---------------------------------------
+  // Dropdown
+  // ---------------------------------------
+
+  dropdown-bg-color:   ekzo-color(white),
+  dropdown-box-shadow: 0 5px 30px rgba(#252f38,.2),
 ))
 
 @include ekzo-extend-themes(white, (
