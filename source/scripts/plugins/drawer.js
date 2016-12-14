@@ -88,6 +88,6 @@ export default $.fn.drawer = function (userOptions) {
 
     $closer.click((event) => close())
     // Close on `Esc` button press
-    $this.keyup((event) => event.keyCode === 27 && close())
+    $(document).keyup((event) => event.keyCode === 27 && close())
   })
 }
