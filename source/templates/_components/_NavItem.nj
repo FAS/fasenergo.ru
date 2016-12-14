@@ -10,6 +10,7 @@
  # @param {number} [startDepth]            = 1           From which depth nav should start to print
  # @param {number} [maxDepth]              = 999999      Max amount of subnavs to print
  # @param {bool}   [showInnerOnlyOnActive] = false       Print subnavs only when parent is active
+ # @param {bool}   [enableDrawer]          = false       Enable if nav item has Sidebar drawer
  #
  # @return {string} Generated nav
  #
@@ -24,7 +25,8 @@
   activeClass           = 'is-active',
   startDepth            = 1,
   maxDepth              = 999999,
-  showInnerOnlyOnActive = false
+  showInnerOnlyOnActive = false,
+  enableDrawer          = false
 ) %}
 
   {% set itemIsActive = isActive(to) %}
@@ -43,7 +45,7 @@
 
       {% call components.Link(
         to = to,
-        class = anchorClass + (' has-subnav js-drawer' if subnavNotEmpty),
+        class = anchorClass + (' has-subnav' if subnavNotEmpty) + (' js-drawer' if enableDrawer),
         activeClass = activeClass
       ) %}
         {{ label if label else itemProps.navTitle }}
@@ -51,12 +53,14 @@
       {% endcall %}
 
       {% if subnavNotEmpty %}
-      <div class='Drawer js-drawer__nav h-text-'>
+      {% if enableDrawer %}<div class='Drawer js-drawer__nav h-text-'>{% endif %}
         <ul class='o-nav o-nav--stacked'>
           {{ subnav }}
         </ul>
+      {% if enableDrawer %}
         <button class='Drawer__close js-drawer__close'>{{ components.Icon('x') }}</button>
       </div>
+      {% endif %}
       {% endif %}
 
     </li>

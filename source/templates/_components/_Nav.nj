@@ -8,6 +8,7 @@
  # @param {number} [startDepth]            = 1                  From which depth nav should start to print
  # @param {number} [maxDepth]              = 999999             Max amount of subnavs to print
  # @param {bool}   [showInnerOnlyOnActive] = false              Print subnavs only when parent is active
+ # @param {bool}   [enableDrawer]          = false              Should this nav has Sidebar drawer
  #
  # @return {string} Generated nav
  #
@@ -20,11 +21,12 @@
   activeClass           = 'is-active',
   startDepth            = 1,
   maxDepth              = 999999,
-  showInnerOnlyOnActive = false
+  showInnerOnlyOnActive = false,
+  enableDrawer          = false
 ) %}
   <ul class='{{ class }}'>
 
-    {% macro Item(to, label) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth or 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
+    {% macro Item(to, label) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth or 1, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
     {% call Item('/') %}{% endcall %}
     {% call Item('/about') %}
@@ -42,6 +44,8 @@
 
   </ul>
 
+  {% if enableDrawer %}
   <div class='Drawer__overlay js-drawer__overlay js-drawer__close'></div>
   <div class='Drawer__bg js-drawer__bg'></div>
+  {% endif %}
 {% endmacro %}

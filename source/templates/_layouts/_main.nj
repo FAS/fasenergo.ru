@@ -26,7 +26,8 @@
         class        = 'o-nav o-nav--stacked',
         itemsClass   = 'Nav__item',
         anchorsClass = 'Nav__link',
-        activeClass  = 'is-active'
+        activeClass  = 'is-active',
+        enableDrawer = true
       ) }}
     </nav>
     <!--/noindex-->
