@@ -1,7 +1,43 @@
 /* eslint-env jquery */
 
-// Toggle display of inner menus of Sidebar
-
+/**
+ * Toggle display of inner menus of Sidebar
+ *
+ * To use, define as shown in example `js-*` classes on elements you want to control.
+ * This lib does does handle only states, while animations should be done with your own CSS.
+ *
+ * Note, that for simplicity currently script will search for '.js-drawer__nav' which is directly ahead
+ * of '.js-drawer' . If you need different discovery method, current code should be altered.
+ *
+ * @param {object} [userOptions]                                       Options overrides
+ * @param {string} [userOptions.activeClass]   = 'drawer-is-active'    Class for active controlling element
+ * @param {string} [userOptions.expandedClass] = 'is-expanded'         Class for fully expanded target
+ * @param {string} [userOptions.query]         = '.js-drawer'          Query of `this`
+ * @param {string} [userOptions.navQuery]      = '.js-drawer__nav'     Query of element with target nav items
+ * @param {string} [userOptions.bgQuery]       = '.js-drawer__bg'      Query of drawer bg
+ * @param {string} [userOptions.overlayQuery]  = '.js-drawer__overlay' Query of overlay
+ * @param {string} [userOptions.closeQuery]    = '.js-drawer__close'   Query of element which will close query
+ *
+ * @return {object} `this`
+ *
+ * @example
+ *   <div>
+ *     <ul>
+ *       <li>
+ *
+ *         <a href='js-drawer'>Nav item</a>
+ *
+ *         <ul class='js-drawer__nav'>
+ *           <li>Subnav item</li>
+ *         </ul>
+ *
+ *       </li>
+ *     </ul>
+ *
+ *     <div class='Drawer__overlay js-drawer__overlay js-drawer__close'></div>
+ *     <div class='Drawer__bg js-drawer__bg'></div>
+ *   </div>
+ */
 export default $.fn.drawer = function (userOptions) {
   const options = $.extend({
     activeClass: 'drawer-is-active',
