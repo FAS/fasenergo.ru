@@ -229,9 +229,17 @@ applyWrapperContent: false
     {{ components.Icon('arrow-up', class = 'Expand-link__icon') }}Нажми меня
   </button>
   <p class='js-expand__target' style='display: none'>Содержимое</p>
+</div>
+
+<hr class='h-bleed-sides+'>
+
+<div class='js-expand__scope'>
+  <button class='Expand-link-alt js-expand' data-expand-scope='.js-expand__scope'>
+    Нажми меня {{ components.Icon('dir-right', class = 'Expand-link-alt__icon') }}
+  </button>
+  <p class='js-expand__target' style='display: none'>Содержимое</p>
 </div>{% endraw %}
 {% endcall %}
-
 
 {% call components.Example(title = 'Форма') -%}
 {% raw %}<form class='o-grid h-childs-displace'>

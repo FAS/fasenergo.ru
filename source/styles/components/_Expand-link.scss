@@ -26,10 +26,37 @@
     @extend %#{$ekzo-h-ns}trans--all;
 
     opacity: 0;
-    transform: rotate(180deg);
+    transform: rotate(180deg); // rotate, because original icon faces bottom
 
     width: 1.5em;
     height: 1em;
 
     margin-left: -1.5em;
+  }
+
+// ---------------------------------------
+// Alt version
+// ---------------------------------------
+
+.Expand-link-alt {
+  @extend %#{$ekzo-g-ns}link;
+
+  &,
+  &:hover,
+  &:active { border-bottom-color: transparent; }
+
+  &.is-active .Expand-link-alt__icon { transform: rotate(-.25turn); }
+
+}
+
+  .Expand-link-alt__icon {
+    @extend %#{$ekzo-h-ns}trans--all;
+
+    top: 0; // override default Icon shift
+
+    padding-left: .5em;
+
+    transform: rotate(.25turn); // We're rotatin it, because in origin it's `dir-right`, facing right icon
+
+    font-size: .5em;
   }
