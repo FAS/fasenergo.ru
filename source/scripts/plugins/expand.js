@@ -55,7 +55,7 @@
  */
 export default $.fn.expand = function (userOptions) {
   const options = $.extend({
-    duration: 600,
+    duration: 300,
     easing: '',
     activeClass: 'is-active',
     expandingClass: 'is-expanding',
