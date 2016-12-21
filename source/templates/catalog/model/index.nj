@@ -10,6 +10,8 @@ metaDesc:        Модель
 
 {% block main %}
 
+<p>[Work in progress]</p>
+
 <a href='/catalog/model/product'>Product page</a>
 
 

@@ -10,6 +10,8 @@ metaDesc:        Каталог
 
 {% block main %}
 
+<p>[Work in progress]</p>
+
 <section id="content" class="page-categories wrapper">
 
   <h2>Газовые генераторы</h2>

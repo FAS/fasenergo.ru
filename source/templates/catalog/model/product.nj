@@ -10,6 +10,8 @@ metaDesc:        Продукт
 
 {% block main %}
 
+<p>[Work in progress]</p>
+
 <section id="content" class="page-product wrapper">
 
   <ul class="nav breadcrumb--rev">
