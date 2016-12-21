@@ -1,0 +1,164 @@
+.text-red {
+  color: #c02532;
+}
+.text-dark {
+  color: #3e4e5d;
+}
+.text-dim {
+  color: #d1d5db;
+}
+.text-gray {
+  color: #777;
+}
+.text-green {
+  color: #7aaa00;
+}
+.text-blue {
+  color: #1f79e2;
+}
+
+
+
+
+
+
+$discount-box-bg-color:   #7CAA00;
+$discount-box-arrow-size: 7px;
+
+.discount-box {
+  background-color: $discount-box-bg-color;
+  color: #F7FFE0;
+
+  padding: (ekzo-space(.5) / 4) (ekzo-space(.5) / 2);
+
+  border-radius: 3px;
+}
+
+.discount-box--pointing-top {
+
+  position: relative;
+
+  box-shadowbox-shadow: 0 .3em 1em rgba(#000, 0.3);
+
+  // Top arrow
+  &:before {
+    position: absolute;
+    content: '';
+
+    border-left: $discount-box-arrow-size solid transparent;
+    border-right: $discount-box-arrow-size solid transparent;
+    border-bottom: $discount-box-arrow-size solid $discount-box-bg-color;
+
+    top: -$discount-box-arrow-size;
+
+    margin-left: ekzo-space();
+  }
+
+}
+
+$discount-badge-animation-displace: ekzo-space();
+
+.discount-badge {
+  position: relative;
+
+  overflow: hidden;
+
+  &:hover .discount-badge__badge {
+    left: 0;
+  }
+
+}
+
+  // straight style
+
+  .discount-badge__badge {
+    @extend .discount-box;
+
+    display: block;
+
+    position: absolute;
+
+    width: 15%;
+
+    top:   ekzo-space(.5);
+    left:  -$discount-badge-animation-displace;
+
+    padding-left: $discount-badge-animation-displace;
+
+    @extend .h-trans--all;
+
+    border-radius: 0 3px 3px 0;
+
+    text-align: center;
+
+    .discount-badge__text {
+      display: block;
+
+      white-space: nowrap;
+    }
+
+    .discount-badge__subtext {
+      display: block;
+      @extend .h-text-;
+    }
+
+  }
+
+.discount-badge\+ {
+
+  .discount-badge__badge {
+
+    top:   ekzo-space();
+
+    width: 6%;
+
+    padding-top:    ekzo-space(.5);
+    padding-bottom: ekzo-space(.5);
+    padding-left:   ekzo-space(.5) + $discount-badge-animation-displace;
+    padding-right:  ekzo-space(.5);
+  }
+
+    .discount-badge__text {
+      @extend .h-h3;
+    }
+
+    .discount-badge__subtext { margin-top: ekzo-space(.5); line-height: 1; }
+
+}
+
+.box-tiny {
+  font-size: 12px;
+
+  border-radius: 3px;
+
+  padding: 8px;
+}
+
+.wrap-green {
+  background: #f7ffe0;
+  border: 1px solid #bfe35f;
+  color: #7caa00;
+}
+
+.wrap-orange {
+  background: #fff1e6;
+  border: 1px solid #f5e9c1;
+  color: #c14f00;
+}
+
+.wrap-red {
+  background: #ffe7e7;
+  border: 1px solid #ffd6d6;
+  color: #A74343;
+}
+
+.wrap-blue {
+  background: #e3f3f9;
+  border: 1px solid #c1e6f8;
+  color: #4c839b;
+
+  .dim {
+    color: #bddeea;
+  }
+
+}
