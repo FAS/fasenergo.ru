@@ -10,6 +10,604 @@ metaDesc:        Продукт
 
 {% block main %}
 
-Product page
+<section id="content" class="page-product wrapper">
+
+  <ul class="nav breadcrumb--rev">
+    <li class="breadcrumb__root"><a href=#>Главная</a></li>
+    <li><a href=#>Каталог продукции</a></li>
+    <li><a href=#>Газовые генераторы FAS</a></li>
+  </ul>
+  <div class="flag right">
+    <div class="content">
+      <h1 class="main-title text-upper inline">Газовый генератор <span class="text-red">FAS-10-OZP1</span> (10КВТ)</h1>
+    </div>
+    <div class="img">
+      <span class="product-code nowrap"><span class="text-green">код товара: </span>132-02-02</span>
+    </div>
+  </div>
+  <div class="product-view wrap-white padding"><!-- product-view -->
+    <div class="header flag"><!-- header block -->
+      <div class="photo content trisect text-center">
+        <a href="#photos"><img src="img/product-ozp3.jpg" width="280" alt="Газовая электрогенераторная установка Такая-то"></a>
+      </div>
+      <div class="benefits content trisect text-center">
+        <ul class="inline text-left">
+          <li class="text-red">
+            <i class="icon icon-gift-red-15px float-left"></i>
+            <span>Комплект автоматики (АВР)<br /> в подарок!</span>
+          </li>
+          <li>
+            <i class="icon icon-star-grey-15px float-left"></i>
+            <span>Гарантия 1 год <small><br />
+            (Моторесурс: 1000 моточасов)</small></span>
+          </li>
+          <li>
+            <a class="unline blue-bg return inline trans400" href="#delivery">
+              <i class="icon icon-delivery-grey-15px float-left"></i>
+              <span>Доставка по всей России</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="order content trisect text-center">
+        <div>
+
+          <!-- uncomment necessary block and comment-out unnecessary -->
+
+          <!-- available. with discount -->
+          <div class="product-price product-price-discount">
+            <div class="product-price-discount__old-price">196 000 руб.</div>
+            <div class="product-price-discount__content">
+              <div class="product-price-discount__discount">–20%</div>
+              <div class="js-price-value product-price-discount__new-price product-price__value text-green">150 000 руб.</div>
+            </div>
+          </div>
+
+          <!-- without discount -->
+          <!-- <div class="product-price">
+            цена: <span class="js-price-value text-green">190 000 руб.</span>
+          </div> -->
+
+          <p>
+            <i class="icon icon-check-green-round-11px"></i>
+            &nbsp;в наличии
+            <a class="compare-button dotted margin-half-left" href="#compare">
+              <i class="icon icon-compare-grey-14px"></i>
+              &nbsp;<span>cравнить</span>
+            </a>
+            <a class="compare-go compare-go--hidden unline" href="#compare-go"><span>Сравнение выбранных моделей</span> <small>(0)</small></a>
+          </p>
+
+          <a class="button blue unline inline text-upper trans400 bold" href="#order">
+            <i class="icon icon-order"></i>
+            <span>Сделать заказ</span>
+          </a>
+
+          <div class="question">или <a href="#question"><b>задать вопрос</b></a></div>
+          <!-- available end -->
+
+          <!-- order -->
+          <!-- <div class="product-price">
+            цена: <span class="js-price-value text-green">190 000 руб.</span>
+          </div>
+
+          <p>
+            <i class="icon icon-time-blue-round-11px"></i>
+            &nbsp;под заказ
+          </p>
+
+          <a class="button blue unline inline text-upper trans400 bold" href="#order">
+            <i class="icon icon-order"></i>
+            <span>Сделать заказ</span>
+          </a>
+
+          <div class="question">или <a href="#question"><b>задать вопрос</b></a></div> -->
+          <!-- order end -->
+
+          <!-- in archve -->
+          <!-- <p class="larger">
+            <i class="icon icon-cancel-red-round-11px"></i>
+            &nbsp;снят с производства
+          </p>
+
+            <div class="question margin-bottom"><a href="#question"><b>задать вопрос</b></a></div> -->
+          <!-- in archve end -->
+
+        </div>
+      </div>
+    </div><!-- header block end -->
+    <nav class="menu sep top clear">
+      <ul class="multi-list text-upper sep bottom">
+        <li><a href="#general">Описание</a></li>
+        <li><a href="#details">Технические характеристики</a></li>
+        <li><a href="#features">Особенности</a></li>
+        <li><a href="#photos">Фото</a></li>
+        <li><a href="#video">Видео</a></li>
+      </ul>
+    </nav>
+    <div id="general" class="general grid">
+      <div class="general__sidebar grid__item one-quarter">
+        <ul class="text-center">
+          <li class="power wrap-green round-5px"><b>10/11 кВт</b></li>
+          <li class="voltage wrap-blue round-5px"><b>220</b> V <span class="dim">|</span> <b>однофазовый</b></li>
+          <li class="engine wrap-blue round-5px">двигатель: <b>SUZUKI 465Q</b></li>
+          <li class="fuel wrap-blue round-5px">потребление: <b>~4 л/ч</b></li>
+        </ul>
+      </div>
+      <div class="general__content grid__item three-quarters">
+        <p>Однофазный газовый электрогенератор с жидкостным охлаждением, мощностью 10 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
+        <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+        <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка  от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+        <h2 class="title-equipment h5 margin-half-bottom">Комплектация</h2>
+        <ul class="square">
+          <li>Дизельный двигатель с жидкостным охлаждением.</li>
+          <li>Радиатор охлаждения для температуры воздуха не выше +50С</li>
+          <li>Стальную сварную раму с антивибрационными подушками</li>
+          <li>Электростартер, стартерную батарею, зарядный генератор</li>
+          <li>Одноопорный электрогенератор класса IP23</li>
+          <li>Систему экстренного останова ДГУ</li>
+          <li>Автоматические и механические регуляторы напряжения и частоты</li>
+          <li>Выходной защитный автомат с установленным порогом отключения по выходному току электрогенератора</li>
+          <li>Электрический пульт ручного запуска  с измерительными приборами</li>
+          <li>Антифриз</li>
+          <li>Гибкий переходник выхлопной системы, глушитель</li>
+          <li>Комплект эксплуатационной документации.</li>
+        </ul>
+      </div>
+    </div><!-- description block end -->
+    <div id="details" class="details clear">
+      <div class="sep center">
+        <h2 class="text-upper inline">Технические характеристики</h2>
+        <div class="switch inline">
+          <ul class="multi-list wrap-skyblue emboss-skyblue round-5px inline">
+            <li class="active"><a href="#">Основные</a></li>
+            <li><a href="#">Подробные</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid__item one-half">
+          <h3>Установка:</h3>
+          <table class="table-blue text-upper">
+            <tr>
+              <th>Мощность метан/суг</th>
+              <td>10/11 <span class="mini">кВт</span></td>
+            </tr>
+            <tr>
+              <th>Напряжение</th>
+              <td>220 <span class="mini">V</span></td>
+            </tr>
+            <tr>
+              <th>Количество фаз</th>
+              <td>Трехфазовый</td>
+            </tr>
+            <tr>
+              <th>Сила тока</th>
+              <td>46 <span class="mini">A</span></td>
+            </tr>
+            <tr>
+              <th>Шум</th>
+              <td>88 <span class="mini">Дб</span></td>
+            </tr>
+            <tr>
+              <th>Стартер</th>
+              <td>Электростартер</td>
+            </tr>
+            <tr>
+              <th>Тип покдлючения</th>
+              <td>Прямое\к резервуару</td>
+            </tr>
+            <tr>
+              <th>Время безостановочной работы</th>
+              <td>Круглосуточно</td>
+            </tr>
+            <tr>
+              <th>Исполнение</th>
+              <td>Закрытое</td>
+            </tr>
+          </table>
+          <h3>Габариты и масса:</h3>
+          <table class="table-blue text-upper">
+            <tr>
+              <th>Габариты</th>
+              <td>222х252х323 <span class="mini">мм</span></td>
+            </tr>
+            <tr>
+              <th>Масса</th>
+              <td>350 <span class="mini">кг</span></td>
+            </tr>
+          </table>
+        </div><!-- column1 end -->
+        <div class="grid__item one-half">
+          <h3>Двигатель:</h3>
+          <table class="table-blue text-upper">
+            <tr>
+              <th>Модель</th>
+              <td>SUZUKI 465Q</td>
+            </tr>
+            <tr>
+              <th>Тип охлаждения</th>
+              <td>Жидкостное</td>
+            </tr>
+            <tr>
+              <th>Расход топлива</th>
+              <td>88 <span class="mini">л/кВт*ч</span></td>
+            </tr>
+          </table>
+          <h3>Другое:</h3>
+          <table class="table-blue text-upper">
+            <tr>
+              <th>Блок управления</th>
+              <td>LCD-дисплей</td>
+            </tr>
+            <tr>
+              <th>Язык блока управления</th>
+              <td>Русский</td>
+            </tr>
+            <tr>
+              <th>Автомат ввода резерва</th>
+              <td>Есть <span class="mini">(подарок)</span></td>
+            </tr>
+            <tr>
+              <th>Время ввода резерва</th>
+              <td>7 <span class="mini">сек</span></td>
+            </tr>
+            <tr>
+              <th>Авто-контроль работы генератора</th>
+              <td>Есть</td>
+            </tr>
+            <tr>
+              <th>Работа каскадом</th>
+              <td>До 20 генераторов</td>
+            </tr>
+          </table>
+        </div><!-- column2 end -->
+      </div>
+      <ul class="other nav bold">
+        <li>
+          <a class="unline blue-bg inline" href="#pdf">
+            <i class="icon icon-pdf"></i>
+            <span>Скачать характеристики в PDF</span>
+          </a>
+        </li>
+        <li>
+          <a class="unline blue-bg inline" href="#cert">
+            <i class="icon icon-certificate"></i>
+            <span>Сертификаты соответствия</span>
+          </a>
+        </li>
+      </ul>
+    </div><!-- details block end -->
+    <div id="features" class="features"><!-- features block -->
+      <div class="sep center">
+        <h2 class="text-upper inline">Особенности</h2>
+      </div>
+      <div class="features-list grid grid--wider">
+        <div class="features-list__feature grid__item one-half">
+          <h3>Подходит для постоянной работы</h3>
+          <p>Применение технологии жидкостного охлаждения двигателя, а также высококачественных элементов позволяет использовать генераторную установку для постоянной работы <b>24 часа в сутки</b> без каких-либо ограничений</p>
+        </div>
+        <div class="features-list__feature grid__item one-half">
+          <h3>Молниеносное срабатывание</h3>
+          <p>Невероятно быстрое срабатывание - для автоматического ввода резерва генераторной установке фирмы FAS необходимо <b>всего 7 секунд</b>!</p>
+        </div>
+        <div class="features-list__feature grid__item one-half">
+          <h3>Работа на двух типах топлива</h3>
+          <p>Применение такой-то технологии позволяет работать установке с двумя видами топлива - <b>метаном и пропаном-бутаном</b>.</p>
+          <p>Данный подход позволяет использовать как прямое подключе, так и подключение к резервуару.</p>
+          <p>Несомненным достоинством <b>прямого подключения</b> является постоянная подача топлива, что позволяет не беспокоиться о поставках топлива и потреблять его по факту использования</p>
+        </div>
+        <div class="features-list__feature grid__item one-half">
+          <h3>Продуманная конструкция</h3>
+          <p>Наличие надежной рамы, а также всех необходимых технологических отверстий для крепления и основания позволяют без проблем монтировать установку на покрытие любого типа</p>
+          <p>Качественный защитный кожух позволяет минимизировать шум генератора <b>до 68 дб</b>, обеспечивает нормальную работу даже при сверхнизких и сверхвысоких температурах (<b>от -45 до +55</b>), а наличие открывающихся дверц облегчает регулярное обслуживание и обеспечивает легкий доступ к монтажным проводам.</p>
+        </div>
+        <div class="features-list__feature grid__item one-half">
+          <h3>Разработан с учетом российских условий</h3>
+          <p>Генераторные установки FAS разработаны с учетом особенностей и специфики российских условий:</p>
+          <h4>Работа с некачественным газом</h4>
+          <p>Применение таких-то технологий позволяет беспрепятственно использова генератор даже с некачественным газом, в то время как модели других производителей разработаны без учета таких особенностей, что приводит к частому заглохиванию двигателя</p>
+          <h4>Работа с низким давлением в магистрали</h4>
+          <p>Наши генераторы, в отличии от конкурентных моделей, которые работают минимум при 15 мБар, наши генераторы могут беспроблемно работать с давлением в магистрали <b>до 8 мбар</b>. Такое давление является характрным для зимних периодов.</p>
+          <h4>Работа в холод</h4>
+          <p>Наличие защитного кожуха и технологии работы с низким давлением позволяет использовать генератор при реконрдыхн температурах - <b>от -45 до 55 градусов</b>. Автоматическая подзарядка аккамуляторной батареи, а также подогрев масла и охлаждающей жидкости способствуют этому</p>
+        </div>
+        <div class="features-list__feature grid__item one-half">
+          <h3>Высокотехнологичность</h3>
+          <h4>Жидкостное охлаждение</h4>
+          <p>Применение жидкостного охлаждения позволяет длительное время использовать генератор, не опасаясь перегрева. В отличие от моделей с воздушным охлаждением, которые требуют остановки на час после некоторого времени работы, наши генераторы будут работать столько, сколько необходимо без перерывов.</p>
+          <h4>Автоматический контроль работы газового генератора</h4>
+          <p>Автоматически контролируются следующие параметры: уровень, температура и давление масла; уровень и температура охлаждающей жидкости (тосола, антифриза); частота колебаний и напряжение в электрической сети. Контроль над перечисленными параметрами защищает газовый генератор от возникновения внештатных ситуаций, что в свою очередь увеличивает срок бесперебойной эксплуатации оборудования.</p>
+          <h4>Электронное зажигание</h4>
+          <p>Обеспечивает мягкий, быстрый автоматический запуск генератора.</p>
+          <h4>Система поддержания работы</h4>
+          <p>Системы самотестирования, автоматической подзарядки аккамуляторной баттарееи от электросети, а также подогрев масла и охлаждающей жидкости позволяют обеспечить бесперебойную работу генератора в любых условиях</p>
+        </div>
+        <div class="features-list__feature grid__item one-half">
+          <h3>Блок управления</h3>
+          <p>Встроенный блок управления с <b>LCD-дисплеем на русском языке</b> и ведением жунрала событий позволяет комфортно управлять работой генераторной установки, а также выводит всю необходимоую информацию о заряде батареи и т.д., а также програмировать работу генератора по дня, месяца и времени.</p>
+          <p>Кроме того, имеется возможность установки удаленного блока управления (например, в доме), а также передача данных по каналу <b>GSM</b>, что позволит следить за работой генератора независимо от местанахождения</p>
+        </div>
+        <div class="features-list__feature grid__item one-half">
+          <h3>Технология каскада</h3>
+          <p>Уникальная <a href="#cascade">технология каскада генераторов</a> позволяет объединять в каскад до 20 генераторов одновременно, что позволят произовидть <b>до ~500 кВт</b> электроэнергии.</p>
+          <p>Данная технология позволяет эфективно масшатбировать систему энергообеспечения, а также расширять систему по мере необходимости, добавляя дополнительные генераторы.</p>
+          <a href="#cascade"><b>Подробнее о технологии каскада генераторов</b></a> »
+        </div>
+        <div class="features-list__feature grid__item one-half">
+          <h3>Экономичность</h3>
+          <p>Наши цены в среднем на 20% ниже, чем у конкурентов, при использовании аналогичного оборудования. Такая разница достигается благодаря работе с FAS Flugwasen напрямую,  а не через посредников</p>
+          <p>Кроме того, само по себе газовое топливо является куда более экономичным, нежели использование жидкостных видов топлива (бензина или дизеля). Согласно статистике, в среднем экономия достигает сколько-то там рублей на метр или как-то так.</p>
+        </div>
+        <div class="features-list__feature grid__item one-half">
+          <h3>Экологичность</h3>
+          <p>Сдается мне, тем кто дочитает досюда уже будет все равно, является ли генератором экологичным или же нет. Кроме того, похоже что генераторы таких размеров редко делают бензиновыми. Но, в общем, этот пункт может быть тоже, для заврешения картины.</p>
+        </div>
+      </div>
+    </div><!-- features block end -->
+
+    <div id="photos" class="product-photos clear">
+
+      <div class="sep center">
+        <h2 class="text-upper inline">Фото</h2>
+      </div>
+
+      <div class="photo-slider text-center">
+
+        <div class="photo-slider__main">
+          <a class="photo-slider__main__link" href="#">
+            <img class="photo-slider__main__image"
+              src="img/product-ozp3.jpg"
+              alt="18-ozp-1" >
+          </a>
+        </div>
+
+        <div class="photo-slider__thumbs">
+          <a class="photo-slider__thumbs__link photo-slider__thumbs__link--active" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-big.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+          <a class="photo-slider__thumbs__link" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-big.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+          <a class="photo-slider__thumbs__link" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-thumb3.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+          <a class="photo-slider__thumbs__link" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-ozp3.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+          <a class="photo-slider__thumbs__link" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-big.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+          <a class="photo-slider__thumbs__link" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-big.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+          <a class="photo-slider__thumbs__link" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-big.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+          <a class="photo-slider__thumbs__link" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-thumb3.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+          <a class="photo-slider__thumbs__link" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-ozp3.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+          <a class="photo-slider__thumbs__link" href="#">
+            <img class="photo-slider__thumbs__image"
+              src="img/product-big.jpg"
+              height="80"
+              alt="18-ozp-1">
+          </a>
+        </div>
+
+        <!-- <a href="#" class="bx-prev">
+          <i class="icon bx-arrow-icon"></i>
+        </a>
+
+        <a href="#" class="bx-next">
+          <i class="icon bx-arrow-icon"></i>
+        </a> -->
+
+      </div><!-- /photo-slider  -->
+
+    </div><!-- /product-photos -->
+
+    <div id="video" class="video clear"><!-- video block -->
+      <div class="sep center">
+        <h2 class="text-upper inline">Видео</h2>
+      </div>
+      <div class="video-block responsive-video text-center">
+        <iframe class="round-5px emboss-blue" src="http://www.youtube.com/embed/n2NCe1gYiko?rel=0" allowfullscreen></iframe>
+      </div>
+    </div><!-- video block end -->
+  </div><!-- product-view -->
+  <div id="other-products" class="sep top">
+    <div class="h3 main-title">
+      <span>Другие модели серии</span>
+      <b class="h1">OZP-1</b>
+    </div>
+    <div class="other-products-wrap">
+      <div class="product-item float-left"><!-- product start -->
+        <div class="image text-center">
+          <a href="#">
+            <img src="http://fasenergo.ru/products/images/_mid/web_FAS-10-OZP-1P.jpg" alt="" width="190">
+          </a>
+        </div>
+        <div class="main">
+          <div class="subtitle">
+            <span>Модель</span>
+          </div>
+          <div class="title">
+            <a href="http://fasenergo.ru/product/газовый-генератор-fas-10-ozp1-10кВт">FAS-10-OZP1</a>
+          </div>
+          <div class="features">
+            <table class="table-blue mini text-upper">
+              <tr>
+                <th>Охлаждение</th>
+                <td>Воздушное</td>
+              </tr>
+              <tr>
+                <th>Мощность</th>
+                <td>14000-18000 <span class="mini">кВт</span></td>
+              </tr>
+              <tr>
+                <th>Пр-ль двигателя</th>
+                <td>Китай</td>
+              </tr>
+            </table>
+          </div>
+          <div class="more">
+            <a href="#" class="blue-bg unline inline text-upper bold">
+              <i class="icon icon-arrow-right-blue"></i>
+              <span>Подробнее</span>
+            </a>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div><!-- product end -->
+      <div class="product-item float-left"><!-- product start -->
+        <div class="image text-center">
+          <a href="#">
+            <img src="http://fasenergo.ru/products/images/_mid/web_FAS-10-OZP-1P.jpg" alt="" width="190">
+          </a>
+        </div>
+        <div class="main">
+          <div class="subtitle">
+            <span>Модель</span>
+          </div>
+          <div class="title">
+            <a href="http://fasenergo.ru/product/газовый-генератор-fas-10-ozp1-10кВт">FAS-10-OZP1</a>
+          </div>
+          <div class="features">
+            <table class="table-blue mini text-upper">
+              <tr>
+                <th>Охлаждение</th>
+                <td>Воздушное</td>
+              </tr>
+              <tr>
+                <th>Мощность</th>
+                <td>14000-18000 <span class="mini">кВт</span></td>
+              </tr>
+              <tr>
+                <th>Пр-ль двигателя</th>
+                <td>Китай</td>
+              </tr>
+            </table>
+          </div>
+          <div class="more">
+            <a href="#" class="blue-bg unline inline text-upper bold">
+              <i class="icon icon-arrow-right-blue"></i>
+              <span>Подробнее</span>
+            </a>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div><!-- product end -->
+      <div class="product-item float-left"><!-- product start -->
+        <div class="image text-center">
+          <a href="#">
+            <img src="http://fasenergo.ru/products/images/_mid/web_FAS-10-OZP-1P.jpg" alt="" width="190">
+          </a>
+        </div>
+        <div class="main">
+          <div class="subtitle">
+            <span>Модель</span>
+          </div>
+          <div class="title">
+            <a href="http://fasenergo.ru/product/газовый-генератор-fas-10-ozp1-10кВт">FAS-10-OZP1</a>
+          </div>
+          <div class="features">
+            <table class="table-blue mini text-upper">
+              <tr>
+                <th>Охлаждение</th>
+                <td>Воздушное</td>
+              </tr>
+              <tr>
+                <th>Мощность</th>
+                <td>14000-18000 <span class="mini">кВт</span></td>
+              </tr>
+              <tr>
+                <th>Пр-ль двигателя</th>
+                <td>Китай</td>
+              </tr>
+            </table>
+          </div>
+          <div class="more">
+            <a href="#" class="blue-bg unline inline text-upper bold">
+              <i class="icon icon-arrow-right-blue"></i>
+              <span>Подробнее</span>
+            </a>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div><!-- product end -->
+      <div class="product-item float-left"><!-- product start -->
+        <div class="image text-center">
+          <a href="#">
+            <img src="http://fasenergo.ru/products/images/_mid/web_FAS-10-OZP-1P.jpg" alt="" width="190">
+          </a>
+        </div>
+        <div class="main">
+          <div class="subtitle">
+            <span>Модель</span>
+          </div>
+          <div class="title">
+            <a href="http://fasenergo.ru/product/газовый-генератор-fas-10-ozp1-10кВт">FAS-10-OZP1</a>
+          </div>
+          <div class="features">
+            <table class="table-blue mini text-upper">
+              <tr>
+                <th>Охлаждение</th>
+                <td>Воздушное</td>
+              </tr>
+              <tr>
+                <th>Мощность</th>
+                <td>14000-18000 <span class="mini">кВт</span></td>
+              </tr>
+              <tr>
+                <th>Пр-ль двигателя</th>
+                <td>Китай</td>
+              </tr>
+            </table>
+          </div>
+          <div class="more">
+            <a href="#" class="blue-bg unline inline text-upper bold">
+              <i class="icon icon-arrow-right-blue"></i>
+              <span>Подробнее</span>
+            </a>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div><!-- product end -->
+      <div class="clear"></div>
+    </div><!-- other product wrap -->
+  </div><!-- other products -->
+
+</section><!-- content end -->
 
 {% endblock %}

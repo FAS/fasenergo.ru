@@ -10,8 +10,542 @@ metaDesc:        Модель
 
 {% block main %}
 
-Model page
-
 <a href='/catalog/model/product'>Product page</a>
+
+
+<section id="content" class="page-catalog generators wrapper">
+
+  <h1 class="main-title text-upper">Газовые генераторы <span class="text-red">FAS</span></h1>
+  <div class="flag right top margin-twice-bottom">
+    <div class="content">
+      <p>Газовые генераторы <b>FAS</b> оснащены системой жидкостного охлаждения двигателя, что позволяет использовать их как для аварийного, так и для постоянного электроснабжения. Вся линейка газовых генераторов рассчитана для использования двухтопливной системы (в качестве топлива может быть использован пропан-бутан и метан). Это обеспечивает большую независимость пользователя от внешних условий.</p>
+      <a class="download-catalog blue-bg unline inline bold margin-left" href="#pdf">
+        <i class="icon icon-pdf"></i>
+        <span>Скачать каталог продукции в PDF</span>
+      </a>
+      <a class="compare-go btn blue-bg unline margin-half-left" href="#compare">
+        <i class="icon icon-compare-grey-14px"></i>
+        &nbsp;<span><b>Сравнение выбранных моделей</b></span>
+        <small>(0)</small>
+      </a>
+    </div>
+    <div class="img">
+      <a class="catalog-video text-center trans400" href="#">
+        <img class="trans400" src="img/catalog-video.png" width="175" height="98" alt="Ознакомительный ролик" />
+        <span class="unline blue-bg inline text-upper bold">
+          <i class="icon icon-arrow-right-blue"></i>
+          <span>Ознакомительный ролик</span>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div class="catalog-wrap no-filter">
+    <div class="catalog-filter float-left">
+      <div class="table-header text-upper text-center">Подбор генератора</div>
+      <h3 class="filter-title">двигатель:</h3>
+      <ul class="float-left">
+        <li>
+          <a class="blue-bg text-upper unline" href="#">
+            <span class="filter">ВАЗ</span>
+          </a>
+        </li>
+        <li>
+          <a class="blue-bg text-upper unline" href="#">
+            <span class="filter">Suzuki</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="second float-left">
+        <li>
+          <a class="blue-bg text-upper unline" href="#">
+            <span class="filter">Toyota</span>
+          </a>
+        </li>
+        <li>
+          <a class="blue-bg text-upper unline" href="#">
+            <span class="filter">Kubota</span>
+          </a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <h3 class="filter-title">мощность:</h3>
+      <ul class="float-left">
+        <li>
+          <a class="blue-bg unline" href="#">
+            <span class="filter">9/10кВт</span>
+          </a>
+        </li>
+        <li>
+          <a class="blue-bg unline" href="#">
+            <span class="filter">14/15кВт</span>
+          </a>
+        </li>
+        <li>
+          <a class="active blue-bg unline" href="#">
+            <span class="filter">14/15кВт</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="second float-left">
+        <li>
+          <a class="blue-bg unline" href="#">
+            <span class="filter">18/19кВт</span>
+          </a>
+        </li>
+        <li>
+          <a class="blue-bg unline" href="#">
+            <span class="filter">20/21кВт</span>
+          </a>
+        </li>
+        <li>
+          <a class="blue-bg unline" href="#">
+            <span class="filter">33/35кВт</span>
+          </a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <h3 class="filter-title">фаза:</h3>
+      <ul>
+        <li>
+          <a class="blue-bg unline text-upper" href="#">
+            <span class="filter">однофазовый</span>
+          </a>
+        </li>
+        <li>
+          <a class="blue-bg unline text-upper" href="#">
+            <span class="filter">трехфазовый</span>
+          </a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <div class="link-reset sep bottom text-center">
+        <a class="blue-bg unline" href="#">
+          <span class="filter">сбросить фильтры</span>
+        </a>
+      </div>
+      <div class="questions text-center">
+        <p><a class="text-upper blue-bg" href="#">Есть вопросы?</a></p>
+        <p><a class="text-upper blue-bg" href="#">Хотите сделать заказ?</a></p>
+      </div>
+    </div>
+    <div class="catalog-view">
+      <table class="catalog-table">
+        <tr>
+          <th class="table-header table-header--compare" scope="col">
+            <i class="icon icon-compare-grey-10px"></i>
+          </th>
+          <th class="table-header table-sorting table-sorting--desc" scope="col">
+            Код
+          </th>
+          <th class="table-header table-sorting table-sorting--asc" scope="col">
+            Фото
+          </th>
+          <th class="table-header table-sorting" scope="col">
+            Модель
+          </th>
+          <th class="table-header table-sorting" scope="col">
+            Мощность
+            (<span class="tooltip--top" data-tooltip="Пропан-бутан / Метан">?</span>)
+          </th>
+          <th class="table-header table-sorting" scope="col">
+            Напряжение
+          </th>
+          <th class="table-header table-sorting" scope="col">
+            Двигатель
+          </th>
+          <th class="table-header table-sorting" scope="col">
+            Цена
+          </th>
+          <th class="table-header" scope="col">
+            <div class="view-switch">
+              вид:<a href="#" class="icon icon-switch-table active" title="таблица"></a><a href="#" class="icon icon-switch-tiles" title="плитка"></a>
+            </div>
+          </th>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-ozp3.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-ozp3.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-orange">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price js-price-value">
+            196 000 руб.
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-green">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price js-price-value">
+            196 000 руб.
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-green">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price js-price-value">
+            196 000 руб.
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-green">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price catalog-item-discount js-price-value">
+            <div class="catalog-item-discount__discount">–20%</div>
+            <div class="catalog-item-discount__prices">
+              <div class="catalog-item-discount__old-price">196 000 руб.</div>
+              <div class="catalog-item-discount__new-price">156 000 руб.</div>
+            </div>
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-green">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price catalog-item-discount js-price-value">
+            <div class="catalog-item-discount__discount">–20%</div>
+            <div class="catalog-item-discount__prices">
+              <div class="catalog-item-discount__old-price">196 000 руб.</div>
+              <div class="catalog-item-discount__new-price">156 000 руб.</div>
+            </div>
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-green">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price catalog-item-discount js-price-value">
+            <div class="catalog-item-discount__discount">–20%</div>
+            <div class="catalog-item-discount__prices">
+              <div class="catalog-item-discount__old-price">196 000 руб.</div>
+              <div class="catalog-item-discount__new-price">156 000 руб.</div>
+            </div>
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-red">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price catalog-item-discount js-price-value">
+            <div class="catalog-item-discount__discount">–20%</div>
+            <div class="catalog-item-discount__prices">
+              <div class="catalog-item-discount__old-price">196 000 руб.</div>
+              <div class="catalog-item-discount__new-price">156 000 руб.</div>
+            </div>
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-red">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price js-price-value">
+            196 000 руб.
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-red">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price js-price-value">
+            196 000 руб.
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-red">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price js-price-value">
+            196 000 руб.
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+        <tr class="catalog-item">
+          <td class="catalog-item__compare">
+            <input class="compare-checkbox"
+                type="checkbox"
+                name="catalog-compare-model"
+                value="None" />
+          </td>
+          <td class="catalog-item__code">
+            fas125
+          </td>
+          <td class="catalog-item__photo">
+            <a class="zoomer" href="#"><img src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" /></a>
+            <img class="zoomer__image" src="img/product-fas-15-ozp3k.jpg" width="54" alt="Генератор" />
+          </td>
+          <td class="catalog-item__model">
+            <a class="blue-bg text-upper bold" href="#">FAS-15-OZP3/V</a>
+          </td>
+          <td class="catalog-item__power">
+            <span class="box-tiny wrap-red">10/11 кВт</span>
+          </td>
+          <td class="catalog-item__voltage">
+            220 V
+          </td>
+          <td class="catalog-item__engine">
+            Suzuki 465Q
+          </td>
+          <td class="catalog-item__price js-price-value">
+            196 000 руб.
+          </td>
+          <td class="catalog-item__more">
+            <a class="blue-bg text-upper bold" href="#">подробнее</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+</section>
 
 {% endblock %}
