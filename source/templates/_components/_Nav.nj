@@ -29,6 +29,9 @@
     {% macro Item(to, label, depth = 1) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
     {% call(depth) Item('/') %}{% endcall %}
+    {% call(depth) Item('/catalog') %}
+      {% call(depth) Item('/catalog/model', depth = depth) %}{% endcall %}
+    {% endcall %}
     {% call(depth) Item('/about') %}
       {% call(depth) Item('/about/us', depth = depth) %}{% endcall %}
       {% call(depth) Item('/about/certificates', depth = depth) %}{% endcall %}

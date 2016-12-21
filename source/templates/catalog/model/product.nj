@@ -1,0 +1,15 @@
+---
+title:           Продукт
+breadcrumbTitle: Продукт
+contentTitle:    Продукт
+navTitle:        Продукт
+metaDesc:        Продукт
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+Product page
+
+{% endblock %}

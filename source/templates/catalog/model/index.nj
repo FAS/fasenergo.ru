@@ -1,0 +1,17 @@
+---
+title:           Модель
+breadcrumbTitle: Модель
+contentTitle:    Модель
+navTitle:        Модель
+metaDesc:        Модель
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+Model page
+
+<a href='/catalog/model/product'>Product page</a>
+
+{% endblock %}

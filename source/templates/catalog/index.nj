@@ -1,0 +1,15 @@
+---
+title:           Каталог
+breadcrumbTitle: Каталог
+contentTitle:    Каталог
+navTitle:        Каталог
+metaDesc:        Каталог
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+Catalog page
+
+{% endblock %}
