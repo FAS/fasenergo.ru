@@ -12,49 +12,47 @@ metaDesc:        Продукт
 
 <p>[Work in progress]</p>
 
-<section id="content" class="page-product wrapper">
+<section class="page-product">
 
-  <div class="flag right">
+  <div class="o-media o-media--rev h-flex-y--center right">
 
-    <div class="content">
-      <h1 class="main-title text-upper inline">Газовый генератор <span class="text-red">FAS-10-OZP1</span> (10КВТ)</h1>
+    <div class="o-media__body">
+      <h1 class="h-text--caps h-inline-block">Газовый генератор <span class="text-red">FAS-10-OZP1</span> (10КВТ)</h1>
     </div>
 
-    <div class="img">
-      <span class="product-code nowrap"><span class="text-green">код товара: </span>132-02-02</span>
+    <div class="o-media__aside">
+      <span class="text-green">код товара: </span>132-02-02
     </div>
 
   </div>
 
-  <div class="product-view wrap-white padding"><!-- product-view -->
+  <div class="h-padding"><!-- product-view -->
 
-    <div class="header flag"><!-- header block -->
+    <div class="header o-media h-flex-y--center"><!-- header block -->
 
-      <div class="photo content trisect text-center">
+      <div class="photo content h-1/3 h-align--center">
         <a href="#photos"><img src="img/product-ozp3.jpg" width="280" alt="Газовая электрогенераторная установка Такая-то"></a>
       </div>
 
-      <div class="benefits content trisect text-center">
-        <ul class="inline text-left">
+      <div class="benefits content h-1/3 h-align--center">
+        <ul class="h-inline-block h-align--left g-list0">
           <li class="text-red">
-            <i class="icon icon-gift-red-15px float-left"></i>
+            <i class="icon icon-gift-red-15px h-float--left">ICO</i>
             <span>Комплект автоматики (АВР)<br /> в подарок!</span>
           </li>
           <li>
-            <i class="icon icon-star-grey-15px float-left"></i>
+            <i class="icon icon-star-grey-15px h-float--left">ICO</i>
             <span>Гарантия 1 год <small><br />
             (Моторесурс: 1000 моточасов)</small></span>
           </li>
           <li>
-            <a class="unline blue-bg return inline trans400" href="#delivery">
-              <i class="icon icon-delivery-grey-15px float-left"></i>
-              <span>Доставка по всей России</span>
-            </a>
+            <i class="icon icon-delivery-grey-15px h-float--left">ICO</i>
+            <a href="#delivery">Доставка по всей России</a>
           </li>
         </ul>
       </div>
 
-      <div class="order content trisect text-center">
+      <div class="order content h-1/3 h-align--center">
         <div>
 
           <!-- uncomment necessary block and comment-out unnecessary -->
@@ -74,21 +72,14 @@ metaDesc:        Продукт
           </div> -->
 
           <p>
-            <i class="icon icon-check-green-round-11px"></i>
-            &nbsp;в наличии
-            <a class="compare-button dotted margin-half-left" href="#compare">
-              <i class="icon icon-compare-grey-14px"></i>
-              &nbsp;<span>cравнить</span>
-            </a>
-            <a class="compare-go compare-go--hidden unline" href="#compare-go"><span>Сравнение выбранных моделей</span> <small>(0)</small></a>
+            <i class="icon icon-check-green-round-11px">ICO</i>&nbsp;в наличии
           </p>
 
-          <a class="button blue unline inline text-upper trans400 bold" href="#order">
-            <i class="icon icon-order"></i>
-            <span>Сделать заказ</span>
+          <a class="Btn Btn--primary h-text--caps h-font-weight--bold" href="#order">
+            <i class="icon icon-order">ICO</i> Сделать заказ
           </a>
 
-          <div class="question">или <a href="#question"><b>задать вопрос</b></a></div>
+          <div class="question">или <a href="#question">задать вопрос</a></div>
           <!-- available end -->
 
           <!-- order -->
@@ -97,25 +88,25 @@ metaDesc:        Продукт
           </div>
 
           <p>
-            <i class="icon icon-time-blue-round-11px"></i>
+            <i class="icon icon-time-blue-round-11px">ICO</i>
             &nbsp;под заказ
           </p>
 
-          <a class="button blue unline inline text-upper trans400 bold" href="#order">
-            <i class="icon icon-order"></i>
+          <a class="Btn Btn--primary h-text--caps h-font-weight--bold" href="#order">
+            <i class="icon icon-order">ICO</i>
             <span>Сделать заказ</span>
           </a>
 
-          <div class="question">или <a href="#question"><b>задать вопрос</b></a></div> -->
+          <div class="question">или <a href="#question">задать вопрос</a></div> -->
           <!-- order end -->
 
           <!-- in archve -->
-          <!-- <p class="larger">
-            <i class="icon icon-cancel-red-round-11px"></i>
+          <!-- <p class="h-text+">
+            <i class="icon icon-cancel-red-round-11px">ICO</i>
             &nbsp;снят с производства
           </p>
 
-            <div class="question margin-bottom"><a href="#question"><b>задать вопрос</b></a></div> -->
+            <div class="question h-margin-bottom"><a href="#question">задать вопрос</a></div> -->
           <!-- in archve end -->
 
         </div>
@@ -123,8 +114,8 @@ metaDesc:        Продукт
 
     </div><!-- header block end -->
 
-    <nav class="menu sep top clear">
-      <ul class="multi-list text-upper sep bottom">
+    <nav class="menu o-clearfix">
+      <ul class="o-nav h-childs-margin-top0 h-text--caps">
         <li><a href="#general">Описание</a></li>
         <li><a href="#details">Технические характеристики</a></li>
         <li><a href="#features">Особенности</a></li>
@@ -133,22 +124,22 @@ metaDesc:        Продукт
       </ul>
     </nav>
 
-    <div id="general" class="general grid">
+    <div id="general" class="general o-grid h-childs-displace+">
 
-      <div class="general__sidebar grid__item one-quarter">
-        <ul class="text-center">
-          <li class="power wrap-green round-5px"><b>10/11 кВт</b></li>
-          <li class="voltage wrap-blue round-5px"><b>220</b> V <span class="dim">|</span> <b>однофазовый</b></li>
-          <li class="engine wrap-blue round-5px">двигатель: <b>SUZUKI 465Q</b></li>
-          <li class="fuel wrap-blue round-5px">потребление: <b>~4 л/ч</b></li>
+      <div class="general__sidebar o-grid__item h-1/4">
+        <ul class="h-align--center g-list0 h-text-">
+          <li class="wrap-green h-border-r">мощность:<br><b class='power'>10/11 кВт</b></li>
+          <li class="voltage wrap-blue h-border-r"><b>220</b> V <span class="dim">|</span> <b>однофазовый</b></li>
+          <li class="engine wrap-blue h-border-r">двигатель: <b>SUZUKI 465Q</b></li>
+          <li class="fuel wrap-blue h-border-r">потребление: <b>~4 л/ч</b></li>
         </ul>
       </div>
 
-      <div class="general__content grid__item three-quarters">
+      <div class="general__content o-grid__item h-3/4">
         <p>Однофазный газовый электрогенератор с жидкостным охлаждением, мощностью 10 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
         <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
         <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка  от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
-        <h2 class="title-equipment h5 margin-half-bottom">Комплектация</h2>
+        <h2 class="title-equipment h-h5 h-margin-ends"><b>Комплектация</b></h2>
         <ul class="square">
           <li>Дизельный двигатель с жидкостным охлаждением.</li>
           <li>Радиатор охлаждения для температуры воздуха не выше +50С</li>
@@ -167,22 +158,20 @@ metaDesc:        Продукт
 
     </div><!-- description block end -->
 
-    <div id="details" class="details clear">
+    <div id="details" class="details o-clearfix">
 
-      <div class="sep center">
-        <h2 class="text-upper inline">Технические характеристики</h2>
-        <div class="switch inline">
-          <ul class="multi-list wrap-skyblue emboss-skyblue round-5px inline">
-            <li class="active"><a href="#">Основные</a></li>
-            <li><a href="#">Подробные</a></li>
-          </ul>
-        </div>
+      <h2 class="h-text--caps h-inline-block">Технические характеристики</h2>
+      <div class="switch h-inline-block">
+        <ul class="wrap-skyblue emboss-skyblue h-border-r h-inline-block">
+          <li class="active"><a href="#">Основные</a></li>
+          <li><a href="#">Подробные</a></li>
+        </ul>
       </div>
 
-      <div class="grid">
-        <div class="grid__item one-half">
+      <div class="o-grid">
+        <div class="o-grid__item h-1/2">
           <h3>Установка:</h3>
-          <table class="table-blue text-upper">
+          <table class="table-blue h-text--caps">
             <tr>
               <th>Мощность метан/суг</th>
               <td>10/11 <span class="mini">кВт</span></td>
@@ -221,7 +210,7 @@ metaDesc:        Продукт
             </tr>
           </table>
           <h3>Габариты и масса:</h3>
-          <table class="table-blue text-upper">
+          <table class="table-blue h-text--caps">
             <tr>
               <th>Габариты</th>
               <td>222х252х323 <span class="mini">мм</span></td>
@@ -232,9 +221,9 @@ metaDesc:        Продукт
             </tr>
           </table>
         </div><!-- column1 end -->
-        <div class="grid__item one-half">
+        <div class="o-grid__item h-1/2">
           <h3>Двигатель:</h3>
-          <table class="table-blue text-upper">
+          <table class="table-blue h-text--caps">
             <tr>
               <th>Модель</th>
               <td>SUZUKI 465Q</td>
@@ -249,7 +238,7 @@ metaDesc:        Продукт
             </tr>
           </table>
           <h3>Другое:</h3>
-          <table class="table-blue text-upper">
+          <table class="table-blue h-text--caps">
             <tr>
               <th>Блок управления</th>
               <td>LCD-дисплей</td>
@@ -278,16 +267,16 @@ metaDesc:        Продукт
         </div><!-- column2 end -->
       </div>
 
-      <ul class="other nav bold">
+      <ul class="other nav h-font-weight--bold">
         <li>
-          <a class="unline blue-bg inline" href="#pdf">
-            <i class="icon icon-pdf"></i>
+          <a class="unline blue-bg h-inline-block" href="#pdf">
+            <i class="icon icon-pdf">ICO</i>
             <span>Скачать характеристики в PDF</span>
           </a>
         </li>
         <li>
-          <a class="unline blue-bg inline" href="#cert">
-            <i class="icon icon-certificate"></i>
+          <a class="unline blue-bg h-inline-block" href="#cert">
+            <i class="icon icon-certificate">ICO</i>
             <span>Сертификаты соответствия</span>
           </a>
         </li>
@@ -295,13 +284,13 @@ metaDesc:        Продукт
 
     </div><!-- details block end -->
 
-    <div id="photos" class="product-photos clear">
+    <div id="photos" class="product-photos o-clearfix">
 
       <div class="sep center">
-        <h2 class="text-upper inline">Фото</h2>
+        <h2 class="h-text--caps h-inline-block">Фото</h2>
       </div>
 
-      <div class="photo-slider text-center">
+      <div class="photo-slider h-align--center">
 
         <div class="photo-slider__main">
           <a class="photo-slider__main__link" href="#">
@@ -375,23 +364,23 @@ metaDesc:        Продукт
         </div>
 
         <!-- <a href="#" class="bx-prev">
-          <i class="icon bx-arrow-icon"></i>
+          <i class="icon bx-arrow-icon">ICO</i>
         </a>
 
         <a href="#" class="bx-next">
-          <i class="icon bx-arrow-icon"></i>
+          <i class="icon bx-arrow-icon">ICO</i>
         </a> -->
 
       </div><!-- /photo-slider  -->
 
     </div><!-- /product-photos -->
 
-    <div id="video" class="video clear"><!-- video block -->
+    <div id="video" class="video o-clearfix"><!-- video block -->
       <div class="sep center">
-        <h2 class="text-upper inline">Видео</h2>
+        <h2 class="h-text--caps h-inline-block">Видео</h2>
       </div>
-      <div class="video-block responsive-video text-center">
-        <iframe class="round-5px emboss-blue" src="http://www.youtube.com/embed/n2NCe1gYiko?rel=0" allowfullscreen></iframe>
+      <div class="video-block responsive-video h-align--center">
+        <iframe class="h-border-r emboss-blue" src="http://www.youtube.com/embed/n2NCe1gYiko?rel=0" allowfullscreen></iframe>
       </div>
     </div><!-- video block end -->
 
@@ -399,15 +388,15 @@ metaDesc:        Продукт
 
   <div id="other-products" class="sep top">
 
-    <div class="h3 main-title">
+    <div class="h3">
       <span>Другие модели серии</span>
       <b class="h1">OZP-1</b>
     </div>
 
     <div class="other-products-wrap">
 
-      <div class="product-item float-left"><!-- product start -->
-        <div class="image text-center">
+      <div class="product-item h-float--left"><!-- product start -->
+        <div class="image h-align--center">
           <a href="#">
             <img src="http://fasenergo.ru/products/images/_mid/web_FAS-10-OZP-1P.jpg" alt="" width="190">
           </a>
@@ -420,7 +409,7 @@ metaDesc:        Продукт
             <a href="http://fasenergo.ru/product/газовый-генератор-fas-10-ozp1-10кВт">FAS-10-OZP1</a>
           </div>
           <div class="features">
-            <table class="table-blue mini text-upper">
+            <table class="table-blue mini h-text--caps">
               <tr>
                 <th>Охлаждение</th>
                 <td>Воздушное</td>
@@ -436,17 +425,17 @@ metaDesc:        Продукт
             </table>
           </div>
           <div class="more">
-            <a href="#" class="blue-bg unline inline text-upper bold">
-              <i class="icon icon-arrow-right-blue"></i>
+            <a href="#" class="blue-bg unline h-inline-block h-text--caps h-font-weight--bold">
+              <i class="icon icon-arrow-right-blue">ICO</i>
               <span>Подробнее</span>
             </a>
           </div>
         </div>
-        <div class="clear"></div>
+        <div class="o-clearfix"></div>
       </div><!-- product end -->
 
-      <div class="product-item float-left"><!-- product start -->
-        <div class="image text-center">
+      <div class="product-item h-float--left"><!-- product start -->
+        <div class="image h-align--center">
           <a href="#">
             <img src="http://fasenergo.ru/products/images/_mid/web_FAS-10-OZP-1P.jpg" alt="" width="190">
           </a>
@@ -459,7 +448,7 @@ metaDesc:        Продукт
             <a href="http://fasenergo.ru/product/газовый-генератор-fas-10-ozp1-10кВт">FAS-10-OZP1</a>
           </div>
           <div class="features">
-            <table class="table-blue mini text-upper">
+            <table class="table-blue mini h-text--caps">
               <tr>
                 <th>Охлаждение</th>
                 <td>Воздушное</td>
@@ -475,17 +464,17 @@ metaDesc:        Продукт
             </table>
           </div>
           <div class="more">
-            <a href="#" class="blue-bg unline inline text-upper bold">
-              <i class="icon icon-arrow-right-blue"></i>
+            <a href="#" class="blue-bg unline h-inline-block h-text--caps h-font-weight--bold">
+              <i class="icon icon-arrow-right-blue">ICO</i>
               <span>Подробнее</span>
             </a>
           </div>
         </div>
-        <div class="clear"></div>
+        <div class="o-clearfix"></div>
       </div><!-- product end -->
 
-      <div class="product-item float-left"><!-- product start -->
-        <div class="image text-center">
+      <div class="product-item h-float--left"><!-- product start -->
+        <div class="image h-align--center">
           <a href="#">
             <img src="http://fasenergo.ru/products/images/_mid/web_FAS-10-OZP-1P.jpg" alt="" width="190">
           </a>
@@ -498,7 +487,7 @@ metaDesc:        Продукт
             <a href="http://fasenergo.ru/product/газовый-генератор-fas-10-ozp1-10кВт">FAS-10-OZP1</a>
           </div>
           <div class="features">
-            <table class="table-blue mini text-upper">
+            <table class="table-blue mini h-text--caps">
               <tr>
                 <th>Охлаждение</th>
                 <td>Воздушное</td>
@@ -514,17 +503,17 @@ metaDesc:        Продукт
             </table>
           </div>
           <div class="more">
-            <a href="#" class="blue-bg unline inline text-upper bold">
-              <i class="icon icon-arrow-right-blue"></i>
+            <a href="#" class="blue-bg unline h-inline-block h-text--caps h-font-weight--bold">
+              <i class="icon icon-arrow-right-blue">ICO</i>
               <span>Подробнее</span>
             </a>
           </div>
         </div>
-        <div class="clear"></div>
+        <div class="o-clearfix"></div>
       </div><!-- product end -->
 
-      <div class="product-item float-left"><!-- product start -->
-        <div class="image text-center">
+      <div class="product-item h-float--left"><!-- product start -->
+        <div class="image h-align--center">
           <a href="#">
             <img src="http://fasenergo.ru/products/images/_mid/web_FAS-10-OZP-1P.jpg" alt="" width="190">
           </a>
@@ -537,7 +526,7 @@ metaDesc:        Продукт
             <a href="http://fasenergo.ru/product/газовый-генератор-fas-10-ozp1-10кВт">FAS-10-OZP1</a>
           </div>
           <div class="features">
-            <table class="table-blue mini text-upper">
+            <table class="table-blue mini h-text--caps">
               <tr>
                 <th>Охлаждение</th>
                 <td>Воздушное</td>
@@ -553,16 +542,16 @@ metaDesc:        Продукт
             </table>
           </div>
           <div class="more">
-            <a href="#" class="blue-bg unline inline text-upper bold">
-              <i class="icon icon-arrow-right-blue"></i>
+            <a href="#" class="blue-bg unline h-inline-block h-text--caps h-font-weight--bold">
+              <i class="icon icon-arrow-right-blue">ICO</i>
               <span>Подробнее</span>
             </a>
           </div>
         </div>
-        <div class="clear"></div>
+        <div class="o-clearfix"></div>
       </div><!-- product end -->
 
-      <div class="clear"></div>
+      <div class="o-clearfix"></div>
 
     </div><!-- other product wrap -->
 

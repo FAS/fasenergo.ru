@@ -15,7 +15,7 @@ metaDesc:        Модель
 <a href='/catalog/model/product'>Product page</a>
 
 
-<section id="content" class="page-catalog generators wrapper">
+<section class="page-catalog generators">
 
   <div class="flag right top margin-twice-bottom">
 
