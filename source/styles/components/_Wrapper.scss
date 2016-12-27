@@ -20,6 +20,7 @@
 // ----
 // Width of website
 
+.Wrapper--site          { min-width: $site-min-width; }
 .Wrapper--sidebar       { width: $sidebar-width; }
 .Wrapper--sidebar-shift { padding-left: $sidebar-width; }
 .Wrapper--main          { @include ekzo-breakpoint(desk) { max-width: $main-width; } }
