@@ -21,8 +21,8 @@
   <div class='o-grid__item h-3/4'>
 
     <header class='h-margin-bottom'>
-      <h3 class='h-h5 h-inline'><a href='{{ url }}'>{{ title }}</a></h3>
-      <time class='h-text+ h-margin-left--' datetime="{{ date }}"> {{ moment(date).format('DD.MM.YYYY') }}</time>
+      <h3 class='h-h5 h-inline h-margin-right--'><a href='{{ url }}'>{{ title }}</a></h3>
+      <time class='h-text+' datetime="{{ date }}"> {{ moment(date).format('DD.MM.YYYY') }}</time>
     </header>
 
     <p>{{ desc }}</p>
