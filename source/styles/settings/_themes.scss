@@ -54,7 +54,7 @@ $ekzo-colors: (
   // @param {string|false} False to disable, color value to enable
 
   selection:              ekzo-color(white),
-  selection-bg:           ekzo-color(primary),
+  selection-bg:           adjust-color(ekzo-color(primary), $saturation: 0, $lightness: 7),
 
   // ---------------------------------------
   // List
