@@ -25,11 +25,12 @@ $ekzo-bleed-helpers-variations: (
 );
 
 $ekzo-padding-helpers-variations: (
-  '--': ekzo-space(.5),
-  '':   ekzo-space(1),
-  \+:   ekzo-space(2),
-  \+\+: ekzo-space(3),
-  '0':  0
+  '--':   ekzo-space(.5),
+  '':     ekzo-space(1),
+  \+:     ekzo-space(2),
+  \+\+--: ekzo-space(2.5),
+  \+\+:   ekzo-space(3),
+  '0':    0
 );
 
 $ekzo-widths-helpers-fractions: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
