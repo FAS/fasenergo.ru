@@ -17,5 +17,5 @@ deployment:
       - scp deploy.sh root@$SERVER_IP:~/deploy.sh
       - ssh root@$SERVER_IP chmod +x deploy.sh
       # install docker-compose
-      - curl -L https://git.io/vMmg1 | sudo sh
+      - ssh root@$SERVER_IP curl -L https://git.io/vMmg1 | sudo sh
       - ssh root@$SERVER_IP ./deploy.sh $CIRCLE_PROJECT_REPONAME $CIRCLE_SHA1
