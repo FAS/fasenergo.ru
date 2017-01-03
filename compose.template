@@ -1,6 +1,7 @@
 version: '2.1'
 services:
   nginx:
+    build: .
     image: lotustm/nginx:alpine
     ports:
       - "80:80"
