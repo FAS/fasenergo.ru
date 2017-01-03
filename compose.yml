@@ -1,0 +1,19 @@
+version: '2.1'
+  services:
+    nginx:
+      image: lotustm/nginx:alpine
+      ports:
+        - "80:80"
+      links:
+        - php
+      volumes:
+        - ./build:/var/domains/$SITENAME/www
+        - ./logs:/var/log/nginx
+    php:
+      image: php:fpm
+      ports:
+        - "9000:9000"
+    mysql:
+      image: mariadb
+      environment:
+        MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
