@@ -12,7 +12,8 @@ deployment:
     commands:
       - ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
       - cat dockerfile.template | envsubst > dockerfile
-      - tar cvzf app.tgz dockerfile build/
+      - cat compose.template | envsubst > docker-compose.yml
+      - tar cvzf app.tgz dockerfile docker-compose.yml build/
       - scp app.tgz root@$SERVER_IP:~/$CIRCLE_PROJECT_REPONAME.tgz
       - scp deploy.sh root@$SERVER_IP:~/deploy.sh
       - ssh root@$SERVER_IP chmod +x deploy.sh
