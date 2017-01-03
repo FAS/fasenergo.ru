@@ -13,7 +13,7 @@ Description=Docker Compose managed application
 After=docker.service
 Requires=docker.service
 [Service]
-Restart=always
+#Restart=always
 TimeoutStartSec=5s
 WorkingDirectory=/root/$PROJECT_NAME
 ExecStartPre=-/opt/bin/docker-compose down
