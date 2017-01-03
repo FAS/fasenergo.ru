@@ -2,27 +2,23 @@
 set -e
 
 PROJECT_NAME=$1
-PROJECT_VERSION=$2
 
 rm -rf $PROJECT_NAME
 mkdir $PROJECT_NAME
 tar xvzf $PROJECT_NAME.tgz --directory $PROJECT_NAME
 
-DOCKER_IMAGE_NAME=$(echo "$PROJECT_NAME" | tr '[:upper:]' '[:lower:]')
-
-docker build --pull=true -t "$DOCKER_IMAGE_NAME:$PROJECT_VERSION" $PROJECT_NAME
-
 sudo tee /etc/systemd/system/$PROJECT_NAME.service << EOF
 [Unit]
-Description=Nginx based application
+Description=Docker Compose managed application
 After=docker.service
 Requires=docker.service
 [Service]
 Restart=always
 TimeoutStartSec=5s
-ExecStartPre=-/usr/bin/docker kill $PROJECT_NAME
-ExecStartPre=-/usr/bin/docker rm $PROJECT_NAME
-ExecStart=/usr/bin/docker run --name $PROJECT_NAME -p 80:80 $DOCKER_IMAGE_NAME:$PROJECT_VERSION
+WorkingDirectory=/root/$PROJECT_NAME
+ExecStartPre=-/opt/bin/docker-compose down
+ExecStart=/opt/bin/docker-compose up -d
+ExecStop=/opt/bin/docker-compose stop
 [Install]
 WantedBy=multi-user.target
 EOF
