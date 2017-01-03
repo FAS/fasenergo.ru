@@ -13,11 +13,11 @@ Description=Docker Compose managed application
 After=docker.service
 Requires=docker.service
 [Service]
+Type=notify
 #Restart=always
-TimeoutStartSec=5s
 WorkingDirectory=/root/$PROJECT_NAME
 ExecStartPre=-/opt/bin/docker-compose down
-ExecStart=/opt/bin/docker-compose up -d
+ExecStart=/opt/bin/docker-compose up --build
 ExecStop=/opt/bin/docker-compose stop
 [Install]
 WantedBy=multi-user.target
