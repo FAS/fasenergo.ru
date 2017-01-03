@@ -17,5 +17,12 @@ deployment:
       - scp deploy.sh root@$SERVER_IP:~/deploy.sh
       - ssh root@$SERVER_IP chmod +x deploy.sh
       # install docker-compose
-      - ssh root@$SERVER_IP curl -L https://git.io/vMmg1 | sudo sh
+      - ssh root@$SERVER_IP << EOF
+          mkdir -p /opt/bin
+          curl -L `curl -s https://api.github.com/repos/docker/compose/releases/latest \
+          | jq -r '.assets[].browser_download_url \
+          | select(contains("Linux") and contains("x86_64"))'` \
+          > /opt/bin/docker-compose
+          chmod +x /opt/bin/docker-compose
+        EOF
       - ssh root@$SERVER_IP ./deploy.sh $CIRCLE_PROJECT_REPONAME $CIRCLE_SHA1
