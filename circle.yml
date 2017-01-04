@@ -20,4 +20,4 @@ deployment:
       - ssh root@$SERVER_IP "rm -rf $PROJECT_NAME && mkdir $PROJECT_NAME && tar xvzf $PROJECT_NAME.tgz --directory $PROJECT_NAME"
       # install docker-compose
       - ssh root@$SERVER_IP "curl -L https://git.io/vMmg1 | sudo sh"
-      - ssh root@$SERVER_IP "/opt/bin/docker-compose up -f $PROJECT_NAME/docker-compose.yml -d --build"
+      - ssh root@$SERVER_IP "/opt/bin/docker-compose up -f ~/$PROJECT_NAME/docker-compose.yml -d --build"
