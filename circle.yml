@@ -1,6 +1,8 @@
 machine:
   node:
     version: 7
+  environment:
+    PROJECT_NAME: $CIRCLE_PROJECT_REPONAME
 
 checkout:
   post:
@@ -14,9 +16,8 @@ deployment:
       - cat dockerfile.template | envsubst > dockerfile
       - cat compose.template | envsubst > docker-compose.yml
       - tar cvzf app.tgz dockerfile docker-compose.yml build/
-      - scp app.tgz root@$SERVER_IP:~/$CIRCLE_PROJECT_REPONAME.tgz
-      - scp deploy.sh root@$SERVER_IP:~/deploy.sh
-      - ssh root@$SERVER_IP chmod +x deploy.sh
+      - scp app.tgz root@$SERVER_IP:~/$PROJECT_NAME.tgz
+      - ssh root@$SERVER_IP "rm -rf $PROJECT_NAME | mkdir $PROJECT_NAME | tar xvzf $PROJECT_NAME.tgz --directory $PROJECT_NAME"
       # install docker-compose
       - ssh root@$SERVER_IP "curl -L https://git.io/vMmg1 | sudo sh"
-      - ssh root@$SERVER_IP ./deploy.sh $CIRCLE_PROJECT_REPONAME $CIRCLE_SHA1
+      - ssh root@$SERVER_IP "/opt/bin/docker-compose up -f $PROJECT_NAME/docker-compose.yml -d --build"
