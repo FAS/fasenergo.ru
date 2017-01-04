@@ -13,11 +13,9 @@ Description=Docker Compose managed application
 After=docker.service
 Requires=docker.service
 [Service]
-Type=notify
-#Restart=always
 WorkingDirectory=/root/$PROJECT_NAME
 ExecStartPre=-/opt/bin/docker-compose down
-ExecStart=/opt/bin/docker-compose up --build
+ExecStart=/opt/bin/docker-compose up -d --build
 ExecStop=/opt/bin/docker-compose stop
 [Install]
 WantedBy=multi-user.target
