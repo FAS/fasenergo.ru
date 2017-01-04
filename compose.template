@@ -14,6 +14,8 @@ services:
     image: php:fpm-alpine
     ports:
       - "9000:9000"
+    links:
+      - mysql
   mysql:
     image: mariadb
     ports:
