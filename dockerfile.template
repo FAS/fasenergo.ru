@@ -3,3 +3,4 @@ FROM lotustm/nginx:alpine
 ENV SITENAME $SITENAME
 
 RUN sed -i "s/example.com/$SITENAME/g" /etc/nginx/sites-enabled/default.conf
+ADD docker/nginx /etc/nginx
