@@ -14,6 +14,7 @@ deployment:
     commands:
       - ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
       - cat docker/nginx/dockerfile.template | envsubst > docker/nginx/dockerfile
+      - cat docker/php/dockerfile.template | envsubst > docker/php/dockerfile
       - cat docker/compose.template | envsubst > docker/docker-compose.yml
       - cd docker && tar cvzf ../app.tgz .
       - scp app.tgz root@$SERVER_IP:~/$PROJECT_NAME.tgz
