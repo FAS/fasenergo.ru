@@ -4,3 +4,5 @@ ENV SITENAME $SITENAME
 
 ADD ./craft/core /var/domains/$SITENAME/craft
 ADD ./craft/public /var/domains/$SITENAME/www
+
+RUN chown -R www-data /var/domains
