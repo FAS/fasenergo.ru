@@ -1,0 +1,6 @@
+FROM php:fpm-alpine
+
+ENV SITENAME $SITENAME
+
+ADD ./craft/core /var/domains/$SITENAME/craft
+ADD ./craft/public /var/domains/$SITENAME/www
