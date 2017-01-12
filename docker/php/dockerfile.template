@@ -2,7 +2,8 @@ FROM php:fpm-alpine
 
 ENV SITENAME $SITENAME
 
-ADD ./craft/core /var/domains/$SITENAME/craft
-ADD ./craft/public /var/domains/$SITENAME/www
+COPY ./craft/core /var/domains/$SITENAME/craft
+COPY ./craft/public /var/domains/$SITENAME/www
+COPY ./usr /usr
 
 RUN chown -R www-data /var/domains
