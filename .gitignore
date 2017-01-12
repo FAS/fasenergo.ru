@@ -31,7 +31,7 @@ node_modules
 npm-debug.log
 
 ## Build folder
-build
+docker/nginx/build
 
 ## JSPM
 jspm_packages
