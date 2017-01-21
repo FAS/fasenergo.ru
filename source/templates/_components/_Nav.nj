@@ -35,7 +35,13 @@
 
     {#
      # Secondary items. Have smaller font-size
-     # --------------------------------------- #}
+     # ---------------------------------------
+     # @todo This have to be changed when transfered to Craft CMS.
+     #       Kotsu for now doesn't have good way to support multiple
+     #       lists in Nav component. Additional Nav component for
+     #       secondary items isn't an options, since for now Nav is the
+     #       only source of navigational items for subnav of Breadcrumb. Sadly.
+     #}
 
     {% set secondaryClass = anchorsClass + ' h-text-' %}
 
