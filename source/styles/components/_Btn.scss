@@ -12,6 +12,12 @@
   text-align: center;
   cursor: pointer;
 
+  &:focus {
+    // Remove browsers' focus styling. Focused state
+    // will be displayed based on custom styles below
+    outline: 0;
+  }
+
   &:hover,
   &:focus {
     @include ekzo-theme() {
