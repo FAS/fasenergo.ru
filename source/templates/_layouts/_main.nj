@@ -102,6 +102,7 @@
               name = 'mainSearch',
               label = 'Поиск',
               displayLabel = false,
+              displayRequiredMark = false,
               type = 'search',
               placeholder = 'Что вас интересует?',
               required = true
