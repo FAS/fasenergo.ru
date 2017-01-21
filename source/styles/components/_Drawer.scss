@@ -48,9 +48,9 @@ $padding: ekzo-space();
     background-color: transparent;
 
     &:hover,
-    &:focus { opacity: .7 }
+    &:focus { opacity: .7; }
 
-    &:active { opacity: .9 }
+    &:active { opacity: .9; }
 
   }
 
