@@ -46,6 +46,12 @@ $padding: ekzo-space();
 
     color: inherit;
     background-color: transparent;
+
+    &:hover,
+    &:focus { opacity: .7 }
+
+    &:active { opacity: .9 }
+
   }
 
   .Drawer__bg {
