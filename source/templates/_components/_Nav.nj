@@ -26,24 +26,31 @@
 ) %}
   <ul class='{{ class }}'>
 
-    {% macro Item(to, label, depth = 1) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorsClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
+    {% macro Item(to, label, depth = 1, anchorClass = anchorsClass) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
     {% call(depth) Item('/') %}{% endcall %}
     {% call(depth) Item('/catalog') %}
       {% call(depth) Item('/catalog/model', depth = depth) %}{% endcall %}
     {% endcall %}
-    {% call(depth) Item('/about') %}
+
+    {#
+     # Secondary items. Have smaller font-size
+     # --------------------------------------- #}
+
+    {% set secondaryClass = anchorsClass + ' h-text-' %}
+
+    {% call(depth) Item('/about', anchorClass = secondaryClass) %}
       {% call(depth) Item('/about/us', depth = depth) %}{% endcall %}
       {% call(depth) Item('/about/certificates', depth = depth) %}{% endcall %}
       {% call(depth) Item('/about/view-manufactoring', depth = depth) %}{% endcall %}
     {% endcall %}
-    {% call(depth) Item('/contacts') %}
+    {% call(depth) Item('/contacts', anchorClass = secondaryClass) %}
       {% call(depth) Item('/contacts', depth = depth) %}{% endcall %}
       {% call(depth) Item('/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/examples', depth = depth) %}{% endcall %}
       {% call(depth) Item('/about', depth = depth) %}{% endcall %}
     {% endcall %}
-    {% call(depth) Item('/examples') %}{% endcall %}
+    {% call(depth) Item('/examples', anchorClass = secondaryClass) %}{% endcall %}
 
   </ul>
 
