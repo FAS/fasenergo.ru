@@ -80,6 +80,7 @@ export default $.fn.expand = function (userOptions) {
     const $this = $(element)
     const targetQuery = $this.data('expand') || defaultTargetQuery
     const expandScope = $this.data('expand-scope')
+    const shouldOutsideClickClose = $this.data('expand-close-on-outside-click')
     const expandScopeQuery = typeof expandScope === 'string' ? expandScope : defaultScopeQuery
 
     let $targets
@@ -117,12 +118,30 @@ export default $.fn.expand = function (userOptions) {
       complete: () => markCollapsed(target)
     })
 
-    if (!isActive()) { $targets.each((i, e) => hide($(e))) }
-    if (isActive()) { $targets.each((i, e) => markExpanded($(e))) }
+    const showTargets = () => $targets.each((i, e) => markExpanded($(e)))
+    const hideTargets = () => $targets.each((i, e) => hide($(e)))
+    const toggleTargets = () => $targets.each((i, e) => toggle($(e)))
+
+    if (!isActive()) { hideTargets() }
+    if (isActive()) { showTargets() }
 
     $this.click((event) => {
       event.preventDefault()
-      $targets.each((i, e) => toggle($(e)))
+      toggleTargets()
     })
+
+    if (shouldOutsideClickClose) {
+      $(document).keyup((event) => event.keyCode === 27 && hideTargets())
+      // If click occurs outside of $targets or $this, then we should close menu
+      $(document).click((event) => {
+        const $eventTarget = $(event.target)
+
+        // If $eventTarget doesnt have $targets or $this as parent, then we can now that click
+        // occured outside of them
+        if (!$eventTarget.closest($targets).length && !$eventTarget.closest($this).length) {
+          hideTargets()
+        }
+      })
+    }
   })
 }

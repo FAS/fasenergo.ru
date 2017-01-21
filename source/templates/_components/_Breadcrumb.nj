@@ -58,7 +58,7 @@
 
         <li class='{{ itemsClass }} h-relative js-expand__scope'>
 
-          <a class='{{ anchorsClass }} Expand-link-alt has-subnav js-expand' data-expand-scope='.js-expand__scope' href='{{ localeDir() }}{{ url }}'>
+          <a class='{{ anchorsClass }} Expand-link-alt has-subnav js-expand' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true' href='{{ localeDir() }}{{ url }}'>
             {{ title }}
             {{ components.Icon('dir-right', class = 'Expand-link-alt__icon') }}
           </a>
