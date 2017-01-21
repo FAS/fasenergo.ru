@@ -13,6 +13,7 @@
  # @param {string} [inputContainerClass]
  # @param {string} [inputClass]
  # @param {bool}   [displayLabel = true]
+ # @param {bool}   [displayRequiredMark = true] Should * be displayed
  # @param {bool}   [disabled]
  # @param {bool}   [required]
  # @param {bool}   [touched]
@@ -40,6 +41,7 @@
    inputContainerClass,
    inputClass,
    displayLabel = true,
+   displayRequiredMark = true,
    disabled,
    required,
    touched,
@@ -55,7 +57,7 @@
 <div id='{{ fieldId }}' class='Field {{ class }}{{ stateClasses }}'>
 
   {% if displayLabel %}
-  <label class='Field__label {{ labelClass }}' for='{{ inputId }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required}}</label>
+  <label class='Field__label {{ labelClass }}' for='{{ inputId }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</label>
   {% endif %}
 
   <div class='Field__input-container {{ inputContainerClass }}'>
@@ -68,7 +70,7 @@
       name='{{ name }}'
       {{ 'value="' + value + '"' if value }}
       {{ 'aria-label="' + label + '"' if not displayLabel }}
-      {{ 'placeholder="' + placeholder + (' *' if required and not displayLabel) + '"' if placeholder }}
+      {{ 'placeholder="' + placeholder + (' *' if required and displayRequiredMark and not displayLabel) + '"' if placeholder }}
       class='Field__input {{ inputClass }}'
       {{ 'disabled' if disabled }}
       {{ 'required' if required }}
@@ -86,7 +88,7 @@
       name='{{ name }}'
       {{ 'value="' + value + '"' if value }}
       {{ 'aria-label="' + label + '"' if not displayLabel }}
-      {{ 'placeholder="' + placeholder + (' *' if required and not displayLabel) + '"' if placeholder }}
+      {{ 'placeholder="' + placeholder + (' *' if required and displayRequiredMark and not displayLabel) + '"' if placeholder }}
       class='Field__input {{ inputClass }}'
       {{ 'disabled' if disabled }}
       {{ 'required' if required }}
