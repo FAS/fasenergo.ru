@@ -31,4 +31,16 @@
 
   img { border-radius: ekzo-border-radius(''); }
 
+  > p,
+  > blockquote,
+  > ul,
+  > ol,
+  > dl,
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > h6 { @extend .Wrapper--content-text; }
+
 }

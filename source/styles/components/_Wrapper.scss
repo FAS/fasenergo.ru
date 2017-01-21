@@ -26,6 +26,7 @@
 .Wrapper--main          { @include ekzo-breakpoint(desk) { max-width: $main-width; } }
 .Wrapper--container     { max-width: $main-width; }
 .Wrapper--content       { max-width: 900px; }
+.Wrapper--content-text  { max-width: 816px; }
 
 // ----
 // Limit to ~80 characters per line
