@@ -145,3 +145,14 @@ $small-field-group-btn-width: ekzo-space(1.5);
   }
 
 }
+
+// Remove `x` button from search fields
+// stylelint-disable property-no-vendor-prefix
+[type='search'] {
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration { -webkit-appearance: none; }
+
+}
