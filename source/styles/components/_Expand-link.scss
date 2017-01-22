@@ -43,7 +43,7 @@
 
   &,
   &:hover,
-  &:active { border-bottom-color: transparent; }
+  &:active { @include ekzo-theme() { border-bottom-color: transparent; } }
 
   &.is-active .Expand-link-alt__icon { transform: rotate(-.25turn); }
 
