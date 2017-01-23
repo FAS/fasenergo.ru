@@ -16,7 +16,7 @@
     <!-- ============= -->
 
     <header class='Header h-margin-bottom'>
-      <a class='Logo h-border-bottom0' href='{{ localeDir() }}/'><img src='/{{ path.images }}/logo.svg' alt='Фасэнергомаш' /></a>
+      <a class='Logo h-border-bottom0' href='{{ localeDir() }}/'><img src='/{{ path.images }}/logo.svg' alt='Фасэнергомаш' class='h-align--middle'></a>
       <p class='h-text- h-font-weight--light h-margin-top--'>Производитель газовых&nbsp;генераторов №1&nbsp;в&nbsp;России</p>
     </header>
 
