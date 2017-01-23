@@ -45,6 +45,12 @@
   &:hover,
   &:active { @include ekzo-theme() { border-bottom-color: transparent; } }
 
+  &:hover,
+  &:focus { opacity: .7; }
+
+  &:active,
+  &.is-active { opacity: .9; }
+
   &.is-active .Expand-link-alt__icon { transform: rotate(-.25turn); }
 
 }
