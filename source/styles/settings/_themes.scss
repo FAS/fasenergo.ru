@@ -30,7 +30,6 @@ $ekzo-colors: (
   // ---------------------------------------
   // Links
   // ---------------------------------------
-  // @param {string|false} False to disable, color value to enable
 
   links:                  ekzo-color(tertiary),
   links-border:           rgba(ekzo-color(tertiary), .25),
@@ -43,15 +42,13 @@ $ekzo-colors: (
   // ---------------------------------------
   // Headings
   // ---------------------------------------
-  // @param {string|false} False to disable, color value to enable
 
-  headings:               false,
-  extra-headings:         false,
+  headings:               null,
+  extra-headings:         null,
 
   // ---------------------------------------
   // Selection
   // ---------------------------------------
-  // @param {string|false} False to disable, color value to enable
 
   selection:              ekzo-color(white),
   selection-bg:           adjust-color(ekzo-color(primary), $saturation: 0, $lightness: 7),
@@ -100,7 +97,6 @@ $ekzo-colors: (
   // ---------------------------------------
   // Buttons
   // ---------------------------------------
-  // @param {string|false} False to disable, color value to enable
 
   btn:                    ekzo-color(tertiary),
   btn-bg:                 transparent,
@@ -124,7 +120,6 @@ $ekzo-colors: (
   // ---------------------------------------
   // Breadcrumb
   // ---------------------------------------
-  // @param {string|false} False to disable, color value to enable
 
   breadcrumb-links:      ekzo-color(tertiary),
   breadcrumb-delimiters: rgba(ekzo-color(secondary), .25),
