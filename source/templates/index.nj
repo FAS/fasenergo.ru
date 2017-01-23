@@ -29,7 +29,7 @@ showContentTitle:          false
   <div class='{{ containerClass }} h-height-1/1'>
     <div class='h-relative {{ contentClass }} h-height-1/1'>
 
-      <h1 class='h-extra-h1- h-line-height1.3 h-extra-h1@lap'>Ведущий российский производитель<br>газовых генераторов</h1>
+      <h1 class='h-font-size--extra-h1- h-line-height1.3 h-font-size--extra-h1@lap'>Ведущий российский производитель<br>газовых генераторов</h1>
 
       <ul class='g-list0 Lead-block__items'>
         <li class='Lead-block__item Lead-block__item1 h-h3'><span class='Lead-block__value h-h1'>10</span> лет на рынке</li>
