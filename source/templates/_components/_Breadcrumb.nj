@@ -65,7 +65,7 @@
 
           <div class='Dropdown js-expand__target' style='display: none'>
             {{ components.Nav(
-              class        = 'o-nav o-nav--stacked',
+              class        = 'o-nav o-nav--stacked h-childs-space-top---',
               itemsClass   = 'Nav__item',
               anchorsClass = 'Nav__link',
               activeClass  = 'is-active',
