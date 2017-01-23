@@ -87,15 +87,15 @@ applyWrapperContent: false
 <h2>Иконография</h2>
 
 {% call components.Example() -%}
-{% raw %}{{ components.Icon('phone', 'o-icon--left') }}
-{{ components.Icon('cart', 'o-icon--left') }}
-{{ components.Icon('search', 'o-icon--left') }}
-{{ components.Icon('check', 'o-icon--left') }}
-{{ components.Icon('vent', 'o-icon--left') }}
-{{ components.Icon('flash', 'o-icon--left') }}
-{{ components.Icon('skype', 'o-icon--left') }}
-{{ components.Icon('x', 'o-icon--left') }}
-{{ components.Icon('dir-right', 'o-icon--left') }}{% endraw %}
+{% raw %}{{ components.Icon('phone', 'Icon--left') }}
+{{ components.Icon('cart', 'Icon--left') }}
+{{ components.Icon('search', 'Icon--left') }}
+{{ components.Icon('check', 'Icon--left') }}
+{{ components.Icon('vent', 'Icon--left') }}
+{{ components.Icon('flash', 'Icon--left') }}
+{{ components.Icon('skype', 'Icon--left') }}
+{{ components.Icon('x', 'Icon--left') }}
+{{ components.Icon('dir-right', 'Icon--left') }}{% endraw %}
 {% endcall %}
 
 
@@ -109,11 +109,11 @@ applyWrapperContent: false
   <button class='Btn Btn--solid' disabled>Сплошная отключенная</button>
 </p>
 <p>
-  <a class='Btn o-btn-' href='#'>Маленькая</a>
+  <a class='Btn Btn-' href='#'>Маленькая</a>
   <a class='Btn' href='#'>Стандартная</a>
 </p>
 <p>
-  <a class='Btn o-btn--wide' href='#'>Широкая</a>
+  <a class='Btn Btn--wide' href='#'>Широкая</a>
 </p>
 <p>
   <a class='Btn o-btn--full' href='#'>Во всю длину</a>

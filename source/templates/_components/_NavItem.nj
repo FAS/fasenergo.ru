@@ -49,7 +49,7 @@
         activeClass = activeClass
       ) %}
         {{ label if label else itemProps.navTitle }}
-        {{ components.Icon('dir-right', class = 'Nav__subnav-icon o-icon--right h-text--em-- h-top') if subnavNotEmpty }}
+        {{ components.Icon('dir-right', class = 'Nav__subnav-icon Icon--right h-text--em-- h-top') if subnavNotEmpty }}
       {% endcall %}
 
       {% if subnavNotEmpty %}

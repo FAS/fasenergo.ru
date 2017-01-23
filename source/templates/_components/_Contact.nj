@@ -61,7 +61,7 @@
     {% if data.skypes %}
     <p>
       {% for e in data.skypes %}
-      <a class='g-link--inherit h-color--skype' href='skype:{{ e.value }}?call'>{{ components.Icon('skype', class = 'o-icon--left') }} <span>{{ e.value }}</span></a>{{ ',' if not loop.last }}
+      <a class='g-link--inherit h-color--skype' href='skype:{{ e.value }}?call'>{{ components.Icon('skype', class = 'Icon--left') }} <span>{{ e.value }}</span></a>{{ ',' if not loop.last }}
       {% endfor %}
     </p>
     {% endif %}
