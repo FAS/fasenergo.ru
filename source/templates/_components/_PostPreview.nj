@@ -27,7 +27,7 @@
 
     <p>{{ desc }}</p>
 
-    <p><a href='{{ url }}'>Читать</a></p>
+    <p class='h-bleed-top--'><a href='{{ url }}'>Читать</a></p>
 
   </div>
 

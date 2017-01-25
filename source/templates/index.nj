@@ -24,6 +24,8 @@ showContentTitle:          false
 
 {% set containerClass = 'Wrapper Wrapper--container' %}
 {% set contentClass = 'Wrapper--content h-margin-sides--auto' %}
+{% set sectionTopWrapper = 'h-padding-top++--' %}
+{% set sectionBottomWrapper = 'h-padding-bottom++' %}
 
 <header class='Lead-block t-quaternary h-padding-top+'>
   <div class='{{ containerClass }} h-height-1/1'>
@@ -52,14 +54,14 @@ showContentTitle:          false
 </header>
 
 <section class='{{ containerClass }}'>
-  <div class='{{ contentClass }} h-padding-ends++'>
+  <div class='{{ contentClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
 
-    <h2 class='h-extra-h2 h-padding-bottom h-margin-bottom+ h-color--secondary'>Газовые генераторы «ФАС»</h2>
+    <h2 class='h-extra-h2 h-padding-bottom-- h-margin-bottom+ h-color--secondary'>Газовые генераторы «ФАС»</h2>
 
-    {% set gridClass = 'o-grid h-childs-displace+' %}
+    {% set gridClass = 'o-grid h-childs-displace+++' %}
     {% set itemClass = 'o-grid__item h-1/2' %}
 
-    <ul class='{{ gridClass }} g-list0 h-childs-margin-bottom+'>
+    <ul class='{{ gridClass }} g-list0 h-childs-margin-bottom+--'>
       <li class='{{ itemClass }}'>
         <h3 class='h-h4 h-h3@lap'>Под российские условия</h3>
         <p>Наши генераторы адаптированы под работу в любых погодных условиях. Не важно — холодный север или жаркий юг, минус или плюс 40.</p>
@@ -86,7 +88,7 @@ showContentTitle:          false
       </li>
     </ul>
 
-    <div class='{{ gridClass }} h-flex-y--center'>
+    <div class='{{ gridClass }} h-margin-top-- h-flex-y--center'>
       <div class='{{ itemClass }}'>
         <a href='#' class='Btn Btn--primary Btn--wide h-text++'>Подобрать генератор</a>
       </div>
@@ -98,11 +100,11 @@ showContentTitle:          false
   </div>
 </section>
 
-<section class='t-quaternary'>
+<section class='t-quaternary h-padding-top++--'>
 
   <div class='{{ containerClass }}'>
     <div class='{{ contentClass }}'>
-      <h2 class='h-extra-h2 h-padding-top++ h-padding-bottom+ h-margin-ends0'>Мы делаем</h2>
+      <h2 class='h-extra-h2 h-margin-bottom+--'>Мы делаем</h2>
     </div>
   </div>
 
@@ -134,7 +136,7 @@ showContentTitle:          false
 
 </section>
 
-<section class='{{ containerClass }} h-padding-ends++'>
+<section class='{{ containerClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
   <div class='{{ contentClass }} h-text+'>
     <div class='Wrapper--content-text'>
 
@@ -151,7 +153,7 @@ showContentTitle:          false
 
 <div class='{{ containerClass }}'><div class='{{ contentClass }}'><hr class='h-margin0'></div></div>
 
-<section class='{{ containerClass }} h-padding-ends++'>
+<section class='{{ containerClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
   <div class='{{ contentClass }}'>
 
     <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>Новости</h2>
@@ -166,7 +168,7 @@ showContentTitle:          false
 </section>
 
 <section style='background-color: #f5f5f5;'>
-  <div class='{{ containerClass }} Wrapper-v h-padding-top++'>
+  <div class='{{ containerClass }} Wrapper-v {{ sectionTopWrapper }}'>
     <div class='{{ contentClass }}'>
 
       <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>О газовых генераторах FAS</h2>
