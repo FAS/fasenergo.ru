@@ -90,7 +90,7 @@ showContentTitle:          false
 
     <div class='{{ gridClass }} h-margin-top-- h-flex-y--center'>
       <div class='{{ itemClass }}'>
-        <a href='#' class='Btn Btn--primary Btn--wide h-text++'>Подобрать генератор</a>
+        <a href='#' class='Btn Btn--primary Btn+ Btn--wide h-text++'>Подобрать генератор</a>
       </div>
       <div class='{{ itemClass }}'>
         <a href='#' class='h-text++'>Больше о наших генераторах</a>
