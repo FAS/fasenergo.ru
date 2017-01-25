@@ -109,8 +109,10 @@
     position: absolute;
 
     bottom: 0;
-    right:  -($tube-container-width + 20px);
+    right:  -70px;
     left:   0;
+
+    @include ekzo-breakpoint(lap) { right: -40px; }
 
     z-index: ekzo-z-index(base);
   }
