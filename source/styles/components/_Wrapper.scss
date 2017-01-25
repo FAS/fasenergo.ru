@@ -3,18 +3,18 @@
 // =======================================
 
 .Wrapper {
-  padding-left:  $wrapper-padding;
-  padding-right: $wrapper-padding;
+  padding-left:  $wrapper-padding-left;
+  padding-right: $wrapper-padding-right;
 }
 
 .Wrapper--bleed {
-  margin-left:  - $wrapper-padding;
-  margin-right: - $wrapper-padding;
+  margin-left:  - $wrapper-padding-left;
+  margin-right: - $wrapper-padding-right;
 }
 
 .Wrapper-v    {
-  padding-top:    $wrapper-padding * .75;
-  padding-bottom: $wrapper-padding * 2.5;
+  padding-top:    $wrapper-padding-top;
+  padding-bottom: $wrapper-padding-bottom;
 }
 
 // ----

@@ -2,7 +2,10 @@
 // ^SETTING.RESPONSIVE.DEFAULTS
 // =======================================
 
-$wrapper-padding: ekzo-space(2);
+$wrapper-padding-left: ekzo-space(2);
+$wrapper-padding-right: ekzo-space(2);
+$wrapper-padding-top: ekzo-space(1.5);
+$wrapper-padding-bottom: ekzo-space(5);
 
 $site-min-width: 960px;
 $site-width: 1366px;
