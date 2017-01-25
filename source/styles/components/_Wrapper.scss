@@ -5,11 +5,15 @@
 .Wrapper {
   padding-left:  $wrapper-padding-left;
   padding-right: $wrapper-padding-right;
+
+  @include ekzo-breakpoint(lap) { padding-left:  $wrapper-padding-left-lap; }
 }
 
 .Wrapper--bleed {
-  margin-left:  - $wrapper-padding-left;
-  margin-right: - $wrapper-padding-right;
+  margin-left:  -$wrapper-padding-left;
+  margin-right: -$wrapper-padding-right;
+
+  @include ekzo-breakpoint(lap) { margin-left:  -$wrapper-padding-left-lap; }
 }
 
 .Wrapper-v    {
