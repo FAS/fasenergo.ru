@@ -111,6 +111,7 @@ applyWrapperContent: false
 <p>
   <a class='Btn Btn-' href='#'>Маленькая</a>
   <a class='Btn' href='#'>Стандартная</a>
+  <a class='Btn Btn+' href='#'>Большая</a>
 </p>
 <p>
   <a class='Btn Btn--wide' href='#'>Широкая</a>

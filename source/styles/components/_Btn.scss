@@ -173,19 +173,19 @@
     padding-left:   .8em;
   }
 
-  // .Btn\+#{$postfix} {
-  //   padding-top:    ekzo-em(ekzo-space(1) * .84);
-  //   padding-bottom: ekzo-em(ekzo-space(1) * .84);
-  //   padding-right:  1.5em;
-  //   padding-left:   1.5em;
-  // }
+  .Btn\+#{$postfix} {
+    padding-top:    ekzo-em(ekzo-space(1) * .84);
+    padding-bottom: ekzo-em(ekzo-space(1) * .84);
+    padding-right:  1.5em;
+    padding-left:   1.5em;
+  }
 
   // ----
   // Wide version of button
 
   .Btn--wide#{$postfix} {
-    padding-right: 2em;
-    padding-left:  2em;
+    padding-right: 3em;
+    padding-left:  3em;
   }
 
 }
