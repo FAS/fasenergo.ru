@@ -1,0 +1,31 @@
+---
+title:            Кредит и лизинг
+breadcrumbTitle:  Кредит и лизинг
+contentTitle:     Кредит и лизинг
+navTitle:         Кредит и лизинг
+metaDesc:         Кредит и лизинг
+
+coverImage:       cover2.jpg
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% set pageE = data.contacts.departaments.sales %}
+{% set pageEPhone1 = pageE.phones[0] %}
+{% set pageEPhone2 = pageE.phones[1] %}
+
+{% set pagePhone1 = '+' + pageEPhone1.country + ' (' + pageEPhone1.city + ')&nbsp;' + pageEPhone1.tel[0] + '-' + pageEPhone1.tel[1] + '-' + pageEPhone1.tel[2] + ' доб. ' + pageEPhone1.add %}
+{% set pagePhone2 = '+' + pageEPhone2.country + ' (' + pageEPhone2.city + ')&nbsp;' + pageEPhone2.tel[0] + '-' + pageEPhone2.tel[1] + '-' + pageEPhone2.tel[2] %}
+
+{% set pageEmail = pageE.emails[0].value[0] + '@' + pageE.emails[0].value[1] %}
+
+{% set pageSkype = pageE.skypes[0].value %}
+
+<h2>Кредит</h2>
+<p>Российские покупатели могут приобрести в кредит любые генераторы из нашего каталога; на услуги и запчасти кредит не выдаётся. Программа обслуживается Альфа-банком.</p>
+<p>Для крупных поставок зарубеж мы предлагаем экспортный кредит в партнёрстве с Российским Экспортным Центром. Условия зависят от суммы кредита, страны регистрации и кредитного рейтинга компании-покупателя.<br>
+<strong>Важно:</strong> на наши генераторы распространяются льготы на экспорт российской продукции.</p>
+
+<p>Точные условия кредитования можно узнать в отделе продаж: {{ pagePhone1 }}, {{ pagePhone2 }}, <a href='mailto:{{ pageEmail }}'>{{ pageEmail }}</a>.</p>
+{% endblock %}

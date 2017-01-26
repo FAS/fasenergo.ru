@@ -1,0 +1,28 @@
+---
+title:            Поставка запчастей
+breadcrumbTitle:  Поставка запчастей
+contentTitle:     Поставка запчастей
+navTitle:         Поставка запчастей
+metaDesc:         Поставка запчастей
+
+coverImage:       cover2.jpg
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% set pageE = data.contacts.departaments.support %}
+{% set pageEPhone1 = pageE.phones[0] %}
+{% set pageEPhone2 = pageE.phones[1] %}
+
+{% set pagePhone1 = '+' + pageEPhone1.country + ' (' + pageEPhone1.city + ')&nbsp;' + pageEPhone1.tel[0] + '-' + pageEPhone1.tel[1] + '-' + pageEPhone1.tel[2] + ' доб. ' + pageEPhone1.add %}
+{% set pagePhone2 = '+' + pageEPhone2.country + ' (' + pageEPhone2.city + ')&nbsp;' + pageEPhone2.tel[0] + '-' + pageEPhone2.tel[1] + '-' + pageEPhone2.tel[2] %}
+
+{% set pageEmail = pageE.emails[0].value[0] + '@' + pageE.emails[0].value[1] %}
+
+{% set pageSkype = pageE.skypes[0].value %}
+
+<p>Для заказа запчастей обращайтесь в сервисный отдел: {{ pagePhone1 }}, {{ pagePhone2 }}, <a href='mailto:{{ pageEmail }}'>{{ pageEmail }}</a>. Пока что они хранятся только на складе в Санкт-Петербурге.</p>
+<p>Если будете писать письмо, пожалуйста, не забудьте указать модель генератора и список необходимых запчастей.</p>
+<p>Доставка осуществляется через Pony Express, EMS или другую удобную вам компанию.</p>
+{% endblock %}
