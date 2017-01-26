@@ -46,7 +46,7 @@
     {% set secondaryClass = anchorsClass + ' h-text-' %}
 
     {% call(depth) Item('/about', anchorClass = secondaryClass) %}
-      {% call(depth) Item('/about/us', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/about/company', depth = depth) %}{% endcall %}
       {% call(depth) Item('/about/certificates', depth = depth) %}{% endcall %}
       {% call(depth) Item('/about/view-manufactoring', depth = depth) %}{% endcall %}
     {% endcall %}
