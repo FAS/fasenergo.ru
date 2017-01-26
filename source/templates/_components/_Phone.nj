@@ -1,0 +1,17 @@
+{##
+ # Display phone number from contacts data
+ #
+ # @note KEEP WHOLE MACRO INLINED, otherwise newlines might appear in rendered component
+ #       which will lead to undesired spaces, even with trimming
+ #
+ # @param {pbject} data                 Complex object with phone data. See source/data/contacts.coffee
+ # @param {bool}   [showCountry = true] Should + with country code be shown
+ # @param {bool}   [plain]              Should number be displayed in plain format
+ #
+ # @return {string} Phone number
+ #
+ # @example {{ components.Phone(data.contacts.departaments.sales.phones[0]) }}
+ #}
+{%- macro Phone(data, showCountry = true, plain) -%}
+{% if plain %}{{ ('+' + data.country if showCountry) + data.city + data.tel[0] + data.tel[1] + data.tel[2] }}{% else %}{{ '+' + data.country + '&nbsp;' if showCountry }}({{ data.city }})&nbsp;{{ data.tel[0] }}-{{ data.tel[1] }}-{{ data.tel[2] }}{{ ' доб. ' + data.add if data.add }}{% endif %}
+{%- endmacro -%}

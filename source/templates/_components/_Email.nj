@@ -1,0 +1,13 @@
+{##
+ # Display email number from contacts data
+ #
+ # @param {pbject} data Complex object with email data. See source/data/contacts.coffee
+ #
+ # @return {string} Email with anchor
+ #
+ # @example {{ components.Email(data.contacts.departaments.sales.emails[0]) }}
+ #}
+{%- macro Email(data) -%}
+{% set macroEmail = data.value[0] + '@' + data.value[1] %}
+<a href='mailto:{{ macroEmail }}'>{{ macroEmail }}</a>
+{%- endmacro -%}
