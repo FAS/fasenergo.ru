@@ -2,13 +2,14 @@
  # Display skype from contacts data
  #
  # @param {pbject} data       Complex object with email data. See source/data/contacts.coffee
+ # @param {string} [class]    CSS classes of anchor
  # @param {bool}   [showIcon] Should skype icon be shown in front
  #
- # @return {string} Skype with anchor
+ # @return {string} Skype inside anchor
  #
  # @example {{ components.Skype(data.contacts.departaments.sales.skypes[0]) }}
  #}
-{%- macro Skype(data, showIcon) -%}
+{%- macro Skype(data, class, showIcon) -%}
 {% set macroSkype = data.value %}
-<a class='g-link--inherit' href='skype:{{ macroSkype }}?call'>{{ components.Icon('skype', class = 'Icon--left') if showIcon }} <span>{{ macroSkype }}</span></a>
+<a class='{{ class }} g-link--inherit' href='skype:{{ macroSkype }}?call'>{{ components.Icon('skype', class = 'Icon--left') if showIcon }} <span>{{ macroSkype }}</span></a>
 {%- endmacro -%}
