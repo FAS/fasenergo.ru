@@ -1,0 +1,35 @@
+---
+title:            Сервис
+breadcrumbTitle:  Сервис
+contentTitle:     Сервис
+navTitle:         Сервис
+metaDesc:         Сервис
+
+coverImage:       cover2.jpg
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% set pageE = data.contacts.departaments.sales %}
+{% set pageEPhone1 = pageE.phones[0] %}
+{% set pageEPhone2 = pageE.phones[1] %}
+
+{% set pagePhone1 = '+' + pageEPhone1.country + '(' + pageEPhone1.city + ')&nbsp;' + pageEPhone1.tel[0] + '-' + pageEPhone1.tel[1] + '-' + pageEPhone1.tel[2] + ' доб. ' + pageEPhone1.add %}
+{% set pagePhone2 = '+' + pageEPhone2.country + '(' + pageEPhone2.city + ')&nbsp;' + pageEPhone2.tel[0] + '-' + pageEPhone2.tel[1] + '-' + pageEPhone2.tel[2] %}
+
+{% set pageEmail = pageE.emails[0].value[0] + '@' + pageE.emails[0].value[1] %}
+
+{% set pageSkype = pageE.skypes[0].value %}
+
+<p>Краткая характеристика нашего сервиса: всё необходимое. Это включает проектирование, технико-экономическое обоснование и согласования, доставку, монтаж, пуско-наладку, обслуживание и ремонт.</p>
+
+<p>Если вас заинтересует какая-то услуга, пожалуйста, обратитесь к дилеру, у которого вы купили оборудование, к <a href=''>любому дилеру в вашем регионе</a> или в наш отдел продаж: {{ pagePhone1 }} или {{ pagePhone2 }}, <a href='mailto:{{ pageEmail }}'>{{ pageEmail }}</a>, skype: {{ pageSkype }}.</p>
+
+<ul>
+  {% for slug, service in getPage(page.breadcrumb) %}
+  <li><a href='/{{ service.props.url }}'>{{ service.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
