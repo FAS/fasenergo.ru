@@ -33,7 +33,7 @@
     {% if data.phones %}
     <p>
       {% for e in data.phones %}
-      <strong><a class='g-link--inherit' href='te:{{ e.city + e.tel[0] + e.tel[1] + e.tel[2] }}'>{{ '(' + e.city + ')&nbsp;' + e.tel[0] + '-' + e.tel[1] + '-' + e.tel[2] }}</a></strong>{{ ' (доб. ' + e.add + ')' if e.add }}{{ ',' if not loop.last }}
+      <strong>{{ components.Phone(e, showCountry = false, addClass = 'h-font-weight--lighter') }}</strong>{{ ',' if not loop.last }}
       {% endfor %}
     </p>
     {% endif %}
@@ -52,8 +52,7 @@
     {% if data.emails %}
     <p>
       {% for e in data.emails %}
-      {% set _email = e.value[0] ~ '@' ~ e.value[1] %}
-      <a href='mailto:{{ email }}'>{{ _email }}</a>{{ ',' if not loop.last }}
+      {{ components.Email(e) }}{{ ',' if not loop.last }}
       {% endfor %}
     </p>
     {% endif %}
@@ -61,7 +60,7 @@
     {% if data.skypes %}
     <p>
       {% for e in data.skypes %}
-      <a class='g-link--inherit h-color--skype' href='skype:{{ e.value }}?call'>{{ components.Icon('skype', class = 'Icon--left') }} <span>{{ e.value }}</span></a>{{ ',' if not loop.last }}
+      {{ components.Skype(e, class = 'h-color--skype',showIcon = true) }}{{ ',' if not loop.last }}
       {% endfor %}
     </p>
     {% endif %}

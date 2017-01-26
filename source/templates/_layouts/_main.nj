@@ -2,12 +2,10 @@
 
 {% block body %}
 
-{% set e = data.contacts.departaments.sales.phones[0] %}
-{% set phone = '(' + e.city + ')&nbsp;' + e.tel[0] + '-' + e.tel[1] + '-' + e.tel[2] %}
-{% set phonePlain = e.city + e.tel[0] + e.tel[1] + e.tel[2] %}
+{% set e = data.contacts.departaments.sales %}
 
-{% set e = data.contacts.main.emails[0] %}
-{% set email = e.value[0] + '@' + e.value[1] %}
+{% set phone = components.Phone(e.phones[0], showCountry = false, showAdd = false) %}
+{% set email =  components.Email(data.contacts.main.emails[0]) %}
 
 <div class='Sidebar Wrapper--sidebar h-fixed h-left h-top h-bottom '>
 
@@ -33,7 +31,7 @@
     <!--/noindex-->
 
     <aside>
-      <p><b><a href='tel:{{ phonePlain }}' class='h-text+ g-link--inherit'>{{ phone }}</a></b></p>
+      <p><b class='h-text+'>{{ phone }}</b></p>
       <p class='h-margin-bottom--'><button class='Btn Btn--solid o-btn--full Btn- h-text-'>{{ components.Icon('phone', 'Icon--left') }}Заказать звонок</button></p>
       <p><a href='#' class='Btn o-btn--full Btn- h-text-'>{{ components.Icon('cart', 'Icon--left') }}Где купить?</a></p>
     </aside>
@@ -110,8 +108,8 @@
             <button class='Field__button'>{{ components.Icon('search') }}</button>
           </form>
 
-          <p class='h-margin-bottom--'><b><a href='tel:{{ phonePlain }}' class='h-text+ g-link--inherit'>{{ phone }}</a></b></p>
-          <p><a href='mailto:{{ email }}'>{{ email }}</a></p>
+          <p class='h-margin-bottom--'><b class='h-text+'>{{ phone }}</b></p>
+          <p>{{ email }}</p>
 
         </div>
 
