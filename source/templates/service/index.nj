@@ -15,8 +15,8 @@ coverImage:       cover2.jpg
 {% set pageEPhone1 = pageE.phones[0] %}
 {% set pageEPhone2 = pageE.phones[1] %}
 
-{% set pagePhone1 = '+' + pageEPhone1.country + '(' + pageEPhone1.city + ')&nbsp;' + pageEPhone1.tel[0] + '-' + pageEPhone1.tel[1] + '-' + pageEPhone1.tel[2] + ' доб. ' + pageEPhone1.add %}
-{% set pagePhone2 = '+' + pageEPhone2.country + '(' + pageEPhone2.city + ')&nbsp;' + pageEPhone2.tel[0] + '-' + pageEPhone2.tel[1] + '-' + pageEPhone2.tel[2] %}
+{% set pagePhone1 = '+' + pageEPhone1.country + ' (' + pageEPhone1.city + ')&nbsp;' + pageEPhone1.tel[0] + '-' + pageEPhone1.tel[1] + '-' + pageEPhone1.tel[2] + ' доб. ' + pageEPhone1.add %}
+{% set pagePhone2 = '+' + pageEPhone2.country + ' (' + pageEPhone2.city + ')&nbsp;' + pageEPhone2.tel[0] + '-' + pageEPhone2.tel[1] + '-' + pageEPhone2.tel[2] %}
 
 {% set pageEmail = pageE.emails[0].value[0] + '@' + pageE.emails[0].value[1] %}
 
@@ -28,7 +28,7 @@ coverImage:       cover2.jpg
 
 <ul>
   {% for slug, service in getPage(page.breadcrumb) %}
-  <li><a href='/{{ service.props.url }}'>{{ service.props.navTitle }}</a></li>
+  <li><a href='{{ service.props.url }}'>{{ service.props.navTitle }}</a></li>
   {% endfor %}
 </ul>
 
