@@ -51,12 +51,7 @@
       {% call(depth) Item('/about/certificates', depth = depth) %}{% endcall %}
       {% call(depth) Item('/about/view-manufactoring', depth = depth) %}{% endcall %}
     {% endcall %}
-    {% call(depth) Item('/contacts', anchorClass = secondaryClass) %}
-      {% call(depth) Item('/contacts', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/examples', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/about', depth = depth) %}{% endcall %}
-    {% endcall %}
+    {% call(depth) Item('/contacts', anchorClass = secondaryClass) %}{% endcall %}
     {% call(depth) Item('/examples', anchorClass = secondaryClass) %}{% endcall %}
 
   </ul>
