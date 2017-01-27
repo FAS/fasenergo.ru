@@ -1,9 +1,9 @@
 ---
-title:           Каталог
-breadcrumbTitle: Каталог
-contentTitle:    Каталог
-navTitle:        Каталог
-metaDesc:        Каталог
+title:           Продукция
+breadcrumbTitle: Продукция
+contentTitle:    Продукция
+navTitle:        Продукция
+metaDesc:        Продукция
 ---
 
 {% extends '_layouts/_main.nj' %}

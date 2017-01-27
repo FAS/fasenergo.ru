@@ -29,10 +29,10 @@
     {% macro Item(to, label, depth = 1, anchorClass = anchorsClass) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
     {% call(depth) Item('/') %}{% endcall %}
-    {% call(depth) Item('/сервис') %}{% endcall %}
-    {% call(depth) Item('/catalog') %}
-      {% call(depth) Item('/catalog/model', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция') %}
+      {% call(depth) Item('/продукция/model', depth = depth) %}{% endcall %}
     {% endcall %}
+    {% call(depth) Item('/сервис') %}{% endcall %}
     {% call(depth) Item('/дилерам') %}{% endcall %}
 
     {#
