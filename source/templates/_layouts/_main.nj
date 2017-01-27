@@ -23,7 +23,7 @@
       {{ components.Nav(
         class        = 'o-nav o-nav--stacked h-childs-space-top---',
         itemsClass   = 'Nav__item',
-        anchorsClass = 'Nav__link',
+        anchorsClass = 'Nav__link h-inline',
         activeClass  = 'is-active',
         enableDrawer = true
       ) }}

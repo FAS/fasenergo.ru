@@ -74,7 +74,7 @@
             <ul class='o-nav o-nav--stacked h-childs-space-top---'>
               {% for slug, item in crumbPages %}
               <li class='Nav__item {{ 'is-active' if isActive(item.props.url) }}'>
-                <a class='Nav__link' href='{{ item.props.url }}'>{{ item.props.navTitle }}</a>
+                <a class='Nav__link h-inline' href='{{ item.props.url }}'>{{ item.props.navTitle }}</a>
               </li>
               {% endfor %}
             </ul>
