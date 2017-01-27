@@ -29,7 +29,7 @@
     {% macro Item(to, label, depth = 1, anchorClass = anchorsClass) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorClass, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
     {% call(depth) Item('/') %}{% endcall %}
-    {% call(depth) Item('/service') %}{% endcall %}
+    {% call(depth) Item('/сервис') %}{% endcall %}
     {% call(depth) Item('/catalog') %}
       {% call(depth) Item('/catalog/model', depth = depth) %}{% endcall %}
     {% endcall %}
@@ -46,12 +46,12 @@
 
     {% set secondaryClass = anchorsClass + ' h-text-' %}
 
-    {% call(depth) Item('/about', anchorClass = secondaryClass) %}
-      {% call(depth) Item('/about/company', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/about/certificates', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/about/view-manufactoring', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/о-нас', anchorClass = secondaryClass) %}
+      {% call(depth) Item('/о-нас/о-компании', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/о-нас/certificates', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/о-нас/view-manufactoring', depth = depth) %}{% endcall %}
     {% endcall %}
-    {% call(depth) Item('/contacts', anchorClass = secondaryClass) %}{% endcall %}
+    {% call(depth) Item('/контакты', anchorClass = secondaryClass) %}{% endcall %}
     {% call(depth) Item('/examples', anchorClass = secondaryClass) %}{% endcall %}
 
   </ul>
