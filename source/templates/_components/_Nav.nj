@@ -36,7 +36,14 @@
       {% call(depth) Item('/продукция/гарантия', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/результаты-испытаний', depth = depth) %}{% endcall %}
     {% endcall %}
-    {% call(depth) Item('/сервис') %}{% endcall %}
+    {% call(depth) Item('/сервис') %}
+      {% call(depth) Item('/сервис/доставка', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/кредит-и-лизинг', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/обслуживание-и-ремонт', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/поставка-запчастей', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/проектирование-и-экономическое-обоснование', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/установка', depth = depth) %}{% endcall %}
+    {% endcall %}
     {% call(depth) Item('/отраслевые-решения') %}{% endcall %}
     {% call(depth) Item('/проекты-под-ключ') %}{% endcall %}
     {% call(depth) Item('/дилерам') %}{% endcall %}
