@@ -33,6 +33,7 @@
     {% call(depth) Item('/catalog') %}
       {% call(depth) Item('/catalog/model', depth = depth) %}{% endcall %}
     {% endcall %}
+    {% call(depth) Item('/дилерам') %}{% endcall %}
 
     {#
      # Secondary items. Have smaller font-size
