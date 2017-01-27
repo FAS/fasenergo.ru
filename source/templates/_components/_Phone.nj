@@ -15,5 +15,5 @@
 {%- macro Phone(data, class, addClass, showCountry = true, showAdd = true, plain) -%}
 {% set plainPhone = '+' + data.country + data.city + data.tel[0] + data.tel[1] + data.tel[2] %}
 
-<a href='tel:{{ plainPhone }}' class='{{ class }} g-link--inherit'>{{ '+' + data.country + '&nbsp;' if showCountry }}({{ data.city }})&nbsp;{{ data.tel[0] }}-{{ data.tel[1] }}-{{ data.tel[2] }}<span class='{{ addClass }}'>{{ ' доб. ' + data.add if data.add and showAdd }}</span></a>
+<a href='tel:{{ plainPhone }}' class='{{ class }} g-link--inherit h-text--nowrap'>{{ '+' + data.country + '&nbsp;' if showCountry }}({{ data.city }})&nbsp;{{ data.tel[0] }}-{{ data.tel[1] }}-{{ data.tel[2] }}<span class='{{ addClass }}'>{{ '&nbsp;доб.&nbsp;' + data.add if data.add and showAdd }}</span></a>
 {%- endmacro -%}
