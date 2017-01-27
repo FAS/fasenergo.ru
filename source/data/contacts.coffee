@@ -107,7 +107,13 @@ module.exports = {
       title: 'Екатеринбург',
       desc: null,
       address: [
-        { index: 620075, city: 'Екатеринбург', street: 'ул. Ленина д. 50 литер Д, оф. 128', yandexMapSrc: null, images: null }
+        {
+          index: 620075,
+          city: 'Екатеринбург',
+          street: 'ул. Ленина д. 50 литер Д, оф. 128',
+          yandexMapSrc: null,
+          images: null
+        }
       ],
       worktime: null,
       phones: [{ country: '7', city: '912', tel: ['05', 204, '04'], add: null, desc: null }],
@@ -129,7 +135,13 @@ module.exports = {
       title: 'Новосибирск',
       desc: null,
       address: [
-        { index: 630091, city: 'Новосибирск', street: 'ул. Фрунзе, дом 5, оф. 631', yandexMapSrc: null, images: null }
+        {
+          index: 630091,
+          city: 'Новосибирск',
+          street: 'ул. Фрунзе, дом 5, оф. 631',
+          yandexMapSrc: 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=oGM3dpdHiRxUzrBQ6Jfi4iR3hb8P8KIe&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp',
+          images: null
+        }
       ],
       worktime: null,
       phones: [
@@ -144,7 +156,13 @@ module.exports = {
       title: 'Краснодар',
       desc: null,
       address: [
-        { index: 350018, city: 'Краснодар', street: 'ул. Сормовская, д. 7', yandexMapSrc: null, images: null }
+        {
+          index: 350018,
+          city: 'Краснодар',
+          street: 'ул. Сормовская, д. 7',
+          yandexMapSrc: 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=BEORC6wevBhsncqMHHW5lWScm8flkDng&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp',
+          images: null
+        }
       ],
       worktime: null,
       phones: [{ country: '7', city: '988', tel: [602, 47, 27], add: null, desc: null }],
