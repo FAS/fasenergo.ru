@@ -31,6 +31,7 @@
     {# {% call(depth) Item('/') %}{% endcall %} #}
     {% call(depth) Item('/продукция') %}
       {% call(depth) Item('/продукция/model', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/продукция/гарантия', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/сервис') %}{% endcall %}
     {% call(depth) Item('/дилерам') %}{% endcall %}
