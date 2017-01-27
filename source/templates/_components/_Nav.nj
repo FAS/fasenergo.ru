@@ -52,7 +52,9 @@
       {% call(depth) Item('/о-нас/view-manufactoring', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/контакты', anchorClass = secondaryClass) %}{% endcall %}
+    {% if env.staging or not env.production %}
     {% call(depth) Item('/styleguide', anchorClass = secondaryClass) %}{% endcall %}
+    {% endif %}
 
   </ul>
 
