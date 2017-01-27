@@ -33,7 +33,7 @@
     {% if data.phones %}
     <p>
       {% for e in data.phones %}
-      <strong>{{ components.Phone(e, showCountry = false, addClass = 'h-font-weight--lighter') }}</strong>{{ ',' if not loop.last }}
+      <strong>{{ components.Phone(e, addClass = 'h-font-weight--lighter') }}</strong>{{ ',' if not loop.last }}
       {% endfor %}
     </p>
     {% endif %}
