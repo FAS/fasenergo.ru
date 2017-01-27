@@ -3,5 +3,6 @@
 # Allow crawling of all content
 User-agent: *
 Disallow: {{ '/' if env.staging }}
+Disallow: /styleguide/
 
 Sitemap: {{ site.homepage }}/sitemap.xml
