@@ -12,7 +12,9 @@ coverImage:       cover2.jpg
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-
-  { Заплаточная страница :( }
-
+<ul>
+  {% for slug, item in getPage(page.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
 {% endblock %}
