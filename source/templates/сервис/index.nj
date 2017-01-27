@@ -25,10 +25,20 @@ coverImage:       cover2.jpg
 
 <p>Если вас заинтересует какая-то услуга, пожалуйста, обратитесь к дилеру, у которого вы купили оборудование, к <a href=''>любому дилеру в вашем регионе</a> или в наш отдел продаж: {{ pagePhone1 }} или {{ pagePhone2 }}, {{ pageEmail }}, skype: {{ pageSkype }}.</p>
 
-<ul>
-  {% for slug, service in getPage(page.breadcrumb) %}
-  <li><a href='{{ service.props.url }}'>{{ service.props.navTitle }}</a></li>
-  {% endfor %}
-</ul>
-
+<div>
+  <ul class='o-grid g-list0 h-childs-displace+ h-childs-margin-top+-- h-margin-top+'>
+    {% for slug, service in getPage(page.breadcrumb) %}
+    <li class='o-grid__item h-1/2'>
+      <div class='o-media o-media+'>
+        <div class='o-media__aside h-text--em++ h-opacity--20'>{{ components.Icon(service.props.icon, class = 'o-svg-icon--fixed') }}</div>
+        <div class='o-media__content'>
+          <h3 class='h-h4 h-h3@lap h-margin-top0 h-margin-bottom'><a class='h-border-bottom0' href='{{ service.props.url }}'>{{ service.props.navTitle }}</a></h3>
+          <p>{{ service.props.shortDesc }}</p>
+          <p class='h-bleed-top--'><a href='{{ service.props.url }}'>Подробнее</a></p>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 {% endblock %}
