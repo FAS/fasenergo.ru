@@ -39,6 +39,7 @@
       {% call(depth) Item('/продукция/результаты-испытаний', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/сервис') %}
+      {% call(depth) Item('/сервис', depth = depth, onlyActiveOnIndex = true) %}{% endcall %}
       {% call(depth) Item('/сервис/доставка', depth = depth) %}{% endcall %}
       {% call(depth) Item('/сервис/кредит-и-лизинг', depth = depth) %}{% endcall %}
       {% call(depth) Item('/сервис/обслуживание-и-ремонт', depth = depth) %}{% endcall %}
