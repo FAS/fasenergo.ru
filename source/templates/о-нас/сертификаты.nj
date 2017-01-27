@@ -1,0 +1,15 @@
+---
+title:            Сертификаты
+breadcrumbTitle:  Сертификаты
+contentTitle:     Сертификаты
+navTitle:         Сертификаты
+metaDesc:         Сертификаты
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+{ Страница Сертификаты }
+
+{% endblock %}
