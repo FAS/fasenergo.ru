@@ -54,7 +54,7 @@
 
       {% if subnavNotEmpty %}
       {% if enableDrawer %}<div class='Drawer js-drawer__nav h-text-'>{% endif %}
-        <ul class='o-nav o-nav--stacked'>
+        <ul class='o-nav o-nav--stacked h-childs-space-top---'>
           {{ subnav }}
         </ul>
       {% if enableDrawer %}
