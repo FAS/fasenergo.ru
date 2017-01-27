@@ -31,10 +31,13 @@
     {# {% call(depth) Item('/') %}{% endcall %} #}
     {% call(depth) Item('/продукция') %}
       {% call(depth) Item('/продукция/model', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/продукция/главное-о-наших-генераторах', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/продукция/сертификаты-на-оборудование', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/гарантия', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/результаты-испытаний', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/сервис') %}{% endcall %}
+    {% call(depth) Item('/отраслевые-решения') %}{% endcall %}
     {% call(depth) Item('/проекты-под-ключ') %}{% endcall %}
     {% call(depth) Item('/дилерам') %}{% endcall %}
 

@@ -1,0 +1,15 @@
+---
+title:            Отраслевые решения
+breadcrumbTitle:  Отраслевые решения
+contentTitle:     Отраслевые решения
+navTitle:         Отраслевые решения
+metaDesc:         Отраслевые решения
+
+coverImage:       cover2.jpg
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{ Страница Отраслевые решения }
+{% endblock %}

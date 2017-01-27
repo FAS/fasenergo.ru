@@ -1,0 +1,15 @@
+---
+title:            Сертификаты на оборудование
+breadcrumbTitle:  Сертификаты на оборудование
+contentTitle:     Сертификаты на оборудование
+navTitle:         Сертификаты на оборудование
+metaDesc:         Сертификаты на оборудование
+
+coverImage:       cover2.jpg
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{ Страница Сертификаты на оборудование }
+{% endblock %}
