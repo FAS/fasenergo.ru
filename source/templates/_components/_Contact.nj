@@ -26,35 +26,41 @@
   {% endif %}
 
   <div class='{{ 'js-expand__target h-childs-margin-top h-childs-margin-bottom0 o-clearfix' if expandable }}' style='{{ 'display: none;' if expandable }}'>
+    {# Lists emails inline #}
+    {% macro emails() %}
+      {% for e in data.emails %}
+      {{ components.Email(e) }}{{ ',' if not loop.last }}
+      {% endfor %}
+    {% endmacro %}
+
     {% if data.desc %}
     <p>{{ data.desc }}</p>
-    {% endif %}
-
-    {% if data.phones %}
-    <p>
-      {% for e in data.phones %}
-      <strong>{{ components.Phone(e, addClass = 'h-font-weight--lighter') }}</strong>{{ ',' if not loop.last }}
-      {% endfor %}
-    </p>
     {% endif %}
 
     {% if data.worktime %}
     <p>
       {% for e in data.worktime %}
       {% if not e.nonWorking %}
-      {{ e.days[0] }} – {{ e.days[1] }}, {{ e.start[0] }}:{{ e.start[1] }} – {{ e.end[0] }}:{{ e.end[1] }}
+      Работаем в {{ e.days[0] }}–{{ e.days[1] }} с {{ e.start[0] }}:{{ e.start[1] }} до {{ e.end[0] }}:{{ e.end[1] }}.
       {% endif %}
-      {% if not loop.last %}<br>{% endif %}
+      {% if e.nonWorking %}
+      {{ e.daysFull[0]|capitalize }} и {{ e.daysFull[1] }} — выходные.
+      {% endif %}
       {% endfor %}
     </p>
     {% endif %}
 
-    {% if data.emails %}
+    {% if data.phones %}
     <p>
-      {% for e in data.emails %}
-      {{ components.Email(e) }}{{ ',' if not loop.last }}
-      {% endfor %}
+      {% for e in data.phones %}
+      <strong>{{ components.Phone(e, addClass = 'h-font-weight--lighter') }}</strong>{{ ',' if not loop.last }}
+      {%- endfor -%}{{ ', ' + emails() if lead }}
     </p>
+    {% endif %}
+
+    {# We do not display emails here, since for lead block we display it right after the phones #}
+    {% if not lead and data.emails %}
+    <p>{{ emails() }}</p>
     {% endif %}
 
     {% if data.skypes %}
