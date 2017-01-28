@@ -31,7 +31,7 @@ coverImage:       cover2.jpg
       <div class='o-media o-media+'>
         <div class='o-media__aside h-text--em++ h-opacity--20'>{{ components.Icon(service.props.icon, class = 'o-svg-icon--fixed') }}</div>
         <div class='o-media__content'>
-          <h3 class='h-h4 h-h3@lap h-margin-top0 h-margin-bottom'><a class='h-border-bottom0' href='{{ service.props.url }}'>{{ service.props.navTitle }}</a></h3>
+          <h3 class='h-h4 h-h3@lap h-margin-top0 h-margin-bottom'><a href='{{ service.props.url }}'>{{ service.props.navTitle }}</a></h3>
           <p>{{ service.props.shortDesc }}</p>
           <p class='h-bleed-top--'><a href='{{ service.props.url }}'>Подробнее</a></p>
         </div>
