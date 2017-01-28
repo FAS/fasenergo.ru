@@ -26,7 +26,7 @@ module.exports = {
       { days: ['Сб' , 'Вс'], nonWorking: true }
     ],
     phones: [
-      { country: '8', city: '812', tel: [318, 75, 75], add: null, desc: null }
+      { country: '7', city: '812', tel: [318, 75, 75], add: null, desc: null }
     ],
     emails: [
       { value: ['info', 'fasenergo.ru'], desc: null }
