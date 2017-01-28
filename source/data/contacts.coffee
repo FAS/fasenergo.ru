@@ -22,8 +22,8 @@ module.exports = {
       }
     ],
     worktime: [
-      { days: ['Пн' , 'Пт'], start: [9, '00'], end: [18, '00'] },
-      { days: ['Сб' , 'Вс'], nonWorking: true }
+      { days: ['Пн' , 'Пт'], daysFull: ['понедельник' , 'пятница'], start: [9, '00'], end: [18, '00'] },
+      { days: ['Сб' , 'Вс'], daysFull: ['суббота' , 'воскресенье'], nonWorking: true }
     ],
     phones: [
       { country: '7', city: '812', tel: [318, 75, 75], add: null, desc: null }
