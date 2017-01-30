@@ -112,7 +112,7 @@ $discount-badge-animation-displace: ekzo-space();
 
     top:   ekzo-space();
 
-    width: 6%;
+    max-width: 120px;
 
     padding-top:    ekzo-space(.5);
     padding-bottom: ekzo-space(.5);
@@ -121,7 +121,7 @@ $discount-badge-animation-displace: ekzo-space();
   }
 
     .discount-badge__text {
-      @extend .h-h3;
+      @include ekzo-font-size(24px);
     }
 
     .discount-badge__subtext { margin-top: ekzo-space(.5); line-height: 1; }

@@ -1,0 +1,37 @@
+// stylelint-disable
+
+/**
+ * Active-box
+ *
+ * Makes nice hoverable block
+ * based on .islan--styled
+ */
+
+$base-box-hover-bg-color: #f6faff;
+$base-box-hover-border-bottom-color: #b0ccee;
+$base-link-bg-color:  #EAF7FD;
+
+.active-box {
+  border-radius: 10px;
+
+  padding: ekzo-space();
+
+  text-decoration: none;
+
+  // position: relative;
+
+  border-bottom: 4px solid transparent;
+
+  @extend .h-trans--all;
+
+  &:focus,
+  &:hover {
+    border-bottom: 4px solid $base-box-hover-border-bottom-color;
+    background: $base-box-hover-bg-color;
+  }
+  &:active {
+    top: 5px;
+    border-bottom: 4px solid transparent;
+  }
+
+}

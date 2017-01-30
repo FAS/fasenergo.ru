@@ -9,153 +9,33 @@ metaDesc:        Каталог
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+<h2>Газовые генераторы</h2>
 
-<p>[Work in progress]</p>
+{% for item in range(0, 4) %}
+<a href='/продукция/каталог/модель' class='active-box o-media discount-badge discount-badge+ h-margin-bottom+--'>
 
-<section class="page-categories">
+{#   <span class='discount-badge__badge'>
+    <span class='discount-badge__text'>–20%</span>
+    <span class='discount-badge__subtext'>до 23<br>февраля<br>2015</span>
+  </span> #}
 
-  <h2>Газовые генераторы</h2>
+  <span class='o-media__aside'>
+    <img class='h-border-r' src='/{{ path.images}}/equipment/FAS-OZP-V__1__front--right--closed.jpg' width='190' alt='Газовые генераторы FAS'>
+  </span>
 
-  <ul class="grid grid--wide">
+  <span class='o-media__content'>
 
-    <li class="grid__item one-half">
+    <h2 class='h3 h-margin-top0 h-margin-bottom0'>Газовые генераторы <span class='text-red'>ФАС</span> с двигателями ВАЗ</h2>
 
-      <a href="#" class="catalog-category media">
-        <span class="img">
-          <img class="round-10px" src="img/product-fas-15-ozp3k.jpg" width="190" alt="Газовые генераторы FAS">
-        </span>
-        <span class="content">
-          <h2 class="title">FAS</h2>
-          <p class="subtitle">от 10кВт до 39кВт</p>
-          <span class="text">
-            <ul class="square"><li>Жидкостная система охлаждения</li>
-            <li>Автонмное электроснабжение</li></ul>
-          </span>
-          <span class="unline blue-bg inline text-upper bold">
-            <i class="icon icon-arrow-right-blue"></i>
-            <span>Посмотреть модели</span>
-          </span>
-        </span>
-      </a>
+    <span class='h-block h-text- text-green h-margin-bottom'>от 10кВт до 39кВт</span>
 
-    </li>
+    <span class='h-block h-margin-bottom'>Газовые генераторы <b>ФАС</b> оснащены системой жидкостного охлаждения двигателя, что позволяет использовать их как для аварийного, так и для постоянного электроснабжения. Вся линейка газовых генераторов рассчитана для использования двухтопливной системы (в качестве топлива может быть использован пропан-бутан и метан). Это обеспечивает большую независимость пользователя от внешних условий.</span>
 
-    <li class="grid__item one-half">
+    <span class='g-link'>Посмотреть модели</span>
 
-      <a href="#" class="catalog-category media">
-        <span class="img">
-          <img class="round-10px" src="img/product-fas-15-ozp3k.jpg" width="190" alt="Газовые генераторы FAS">
-        </span>
-        <span class="content">
-          <h2 class="title">Kohler</h2>
-          <p class="subtitle">от 10кВт до 39кВт</p>
-          <span class="text">
+  </span>
 
-          </span>
-          <span class="unline blue-bg inline text-upper bold">
-            <i class="icon icon-arrow-right-blue"></i>
-            <span>Посмотреть модели</span>
-          </span>
-        </span>
-      </a>
-
-    </li>
-
-    <li class="grid__item one-half">
-
-      <a href="#" class="catalog-category media">
-        <span class="img">
-          <img class="round-10px" src="img/product-fas-15-ozp3k.jpg" width="190" alt="Газовые генераторы FAS">
-        </span>
-        <span class="content">
-          <h2 class="title">SDMO</h2>
-          <p class="subtitle">от 10кВт до 39кВт</p>
-          <span class="text">
-
-          </span>
-          <span class="unline blue-bg inline text-upper bold">
-            <i class="icon icon-arrow-right-blue"></i>
-            <span>Посмотреть модели</span>
-          </span>
-        </span>
-      </a>
-
-    </li>
-
-  </ul>
-
-  <h2>Дизельные генераторы</h2>
-
-  <ul class="grid grid--wide">
-
-    <li class="grid__item one-half">
-
-      <a href="#" class="catalog-category media">
-        <span class="img">
-          <img class="round-10px" src="img/product-fas-15-ozp3k.jpg" width="190" alt="Газовые генераторы FAS">
-        </span>
-        <span class="content">
-          <h2 class="title">Kohler</h2>
-          <p class="subtitle">от 10кВт до 39кВт</p>
-          <span class="text">
-
-          </span>
-          <span class="unline blue-bg inline text-upper bold">
-            <i class="icon icon-arrow-right-blue"></i>
-            <span>Посмотреть модели</span>
-          </span>
-        </span>
-      </a>
-
-    </li>
-
-    <li class="grid__item one-half">
-
-      <a href="#" class="catalog-category media">
-        <span class="img">
-          <img class="round-10px" src="img/product-fas-15-ozp3k.jpg" width="190" alt="Газовые генераторы FAS">
-        </span>
-        <span class="content">
-          <h2 class="title">SDMO</h2>
-          <p class="subtitle">от 10кВт до 39кВт</p>
-          <span class="text">
-
-          </span>
-          <span class="unline blue-bg inline text-upper bold">
-            <i class="icon icon-arrow-right-blue"></i>
-            <span>Посмотреть модели</span>
-          </span>
-        </span>
-      </a>
-
-    </li>
-
-  </ul>
-
-  <h2>Альтернаторы</h2>
-
-  <a href="#" class="catalog-category media discount-badge discount-badge+">
-    <span class="discount-badge__badge">
-      <span class="discount-badge__text">–20%</span>
-      <span class="discount-badge__subtext">до 23<br>февраля<br>2015</span>
-    </span>
-    <span class="img">
-      <img class="round-10px" src="img/product-alternator.jpg" width="190" alt="Газовые генераторы FAS">
-    </span>
-    <span class="content">
-      <h2 class="title">Mecc Alte</h2>
-      <p class="subtitle">от 10кВт до 39кВт</p>
-      <span class="text">
-        <p>Газовые генераторы <b>FAS</b> оснащены системой жидкостного охлаждения двигателя, что позволяет использовать их как для аварийного, так и для постоянного электроснабжения.</p>
-        <p>Вся линейка газовых генераторов рассчитана для использования двухтопливной системы (в качестве топлива может быть использован пропан-бутан и метан). Это обеспечивает большую независимость пользователя от внешних условий.</p>
-      </span>
-      <span class="unline blue-bg inline text-upper bold">
-        <i class="icon icon-arrow-right-blue"></i>
-        <span>Посмотреть модели</span>
-      </span>
-    </span>
-  </a>
-
-</section>
+</a>
+{% endfor %}
 
 {% endblock %}
