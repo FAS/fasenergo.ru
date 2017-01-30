@@ -33,7 +33,7 @@
     {# {% call(depth) Item('/') %}{% endcall %} #}
     {% call(depth) Item('/продукция') %}
       {% call(depth) Item('/продукция/каталог', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/главное-о-наших-генераторах', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/продукция/преимущества-наших-генераторов', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/сертификаты-на-оборудование', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/гарантия', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/результаты-испытаний', depth = depth) %}{% endcall %}
