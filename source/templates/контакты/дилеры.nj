@@ -72,20 +72,6 @@ metaDesc:         Дилеры
   </article>
 
   <article class='o-grid__item h-1/2'>
-    <h2>Казахстан, г. Алматы</h2>
-    <ul>
-      <li>ТОО "КазГерм-Сервис"</li>
-    </ul>
-  </article>
-
-  <article class='o-grid__item h-1/2'>
-    <h2>Казахстан, г. Караганда</h2>
-    <ul>
-      <li>ТОО "ТеплоГазСтрой"</li>
-    </ul>
-  </article>
-
-  <article class='o-grid__item h-1/2'>
     <h2>Кемерово</h2>
     <ul>
       <li>ООО "РегионЖилСтрой"</li>
@@ -185,6 +171,26 @@ metaDesc:         Дилеры
     <h2>Ярославль</h2>
     <ul>
       <li>ООО «Голубое топливо»</li>
+    </ul>
+  </article>
+
+</div>
+
+<hr>
+
+<div class='o-grid h-childs-displace++'>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Казахстан, г. Алматы</h2>
+    <ul>
+      <li>ТОО "КазГерм-Сервис"</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Казахстан, г. Караганда</h2>
+    <ul>
+      <li>ТОО "ТеплоГазСтрой"</li>
     </ul>
   </article>
 
