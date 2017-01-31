@@ -9,33 +9,50 @@ metaDesc:        Каталог
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-<h2>Газовые генераторы</h2>
+
+{% macro Card(title, image, url, discount, discountDate) %}
+<article href='{{ url }}' class='o-media discount-badge discount-badge+ h-margin-bottom++'>
+
+  {% if discount %}
+  <span class='discount-badge__badge'>
+    <span class='discount-badge__text'>–{{ discount }}%</span>
+    {% if discountDate %}
+    <span class='discount-badge__subtext'>{{ discountDate }}</span>
+    {% endif %}
+  </span>
+  {% endif %}
+
+  <div class='o-media__aside'>
+    <a class='h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ image }}' width='190' alt='{{ title }}'></a>
+  </div>
+
+  <div class='o-media__content'>
+
+    <h3 class='h-h2 h-margin-top0 h-margin-bottom0'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h3>
+
+    <p class='h-text- text-green'>от 10кВт до 39кВт</p>
+
+    {{ caller() }}
+
+    <a href='{{ url }}' class='Btn'>Посмотреть модели</a>
+
+  </div>
+
+</article>
+{% endmacro %}
+
+<h2 class='h-margin-bottom+'>Газовые генераторы</h2>
 
 {% for item in range(0, 4) %}
-<a href='/продукция/каталог/модель' class='active-box o-media discount-badge discount-badge+ h-margin-bottom+--'>
 
-{#   <span class='discount-badge__badge'>
-    <span class='discount-badge__text'>–20%</span>
-    <span class='discount-badge__subtext'>до 23<br>февраля<br>2015</span>
-  </span> #}
+  {% call Card(
+    title = 'Газовые генераторы <span class="text-red">ФАС</span> с двигателями ВАЗ',
+    url = '/продукция/каталог/модель',
+    image = '/' + path.images + '/equipment/FAS-OZP-V__1__front--right--closed.jpg'
+  ) %}
+    <p>Газовые генераторы <b>ФАС</b> оснащены системой жидкостного охлаждения двигателя, что позволяет использовать их как для аварийного, так и для постоянного электроснабжения. Вся линейка газовых генераторов рассчитана для использования двухтопливной системы (в качестве топлива может быть использован пропан-бутан и метан). Это обеспечивает большую независимость пользователя от внешних условий.</p>
+  {% endcall %}
 
-  <span class='o-media__aside'>
-    <img class='h-border-r' src='/{{ path.images}}/equipment/FAS-OZP-V__1__front--right--closed.jpg' width='190' alt='Газовые генераторы FAS'>
-  </span>
-
-  <span class='o-media__content'>
-
-    <h2 class='h3 h-margin-top0 h-margin-bottom0'>Газовые генераторы <span class='text-red'>ФАС</span> с двигателями ВАЗ</h2>
-
-    <span class='h-block h-text- text-green h-margin-bottom'>от 10кВт до 39кВт</span>
-
-    <span class='h-block h-margin-bottom'>Газовые генераторы <b>ФАС</b> оснащены системой жидкостного охлаждения двигателя, что позволяет использовать их как для аварийного, так и для постоянного электроснабжения. Вся линейка газовых генераторов рассчитана для использования двухтопливной системы (в качестве топлива может быть использован пропан-бутан и метан). Это обеспечивает большую независимость пользователя от внешних условий.</span>
-
-    <span class='g-link'>Посмотреть модели</span>
-
-  </span>
-
-</a>
 {% endfor %}
 
 {% endblock %}
