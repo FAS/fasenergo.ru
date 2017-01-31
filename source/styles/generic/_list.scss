@@ -4,6 +4,9 @@
 // ^List
 // =======================================
 
+p + ul,
+p + ol { margin-top: - ekzo-space(.5); }
+
 ul,
 ol {
   $list-padding: ekzo-space();
