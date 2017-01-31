@@ -34,6 +34,7 @@ module.exports = (grunt) ->
 
       source:
         root: 'source'
+        docs: '<%= path.source.root %>/assets/docs'
         data: '<%= path.source.root %>/data'
         fonts: '<%= path.source.root %>/assets/fonts'
         icons: '<%= path.source.root %>/assets/icons'
@@ -53,6 +54,7 @@ module.exports = (grunt) ->
       build:
         root: 'docker/nginx/build'
         assets: '<%= path.build.root %>/assets'
+        docs: '<%= path.build.assets %>/docs'
         fonts: '<%= path.build.assets %>/fonts'
         images: '<%= path.build.assets %>/images'
         scripts: '<%= path.build.assets %>/scripts'
