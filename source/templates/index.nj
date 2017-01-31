@@ -62,7 +62,7 @@ showContentTitle:          false
 
     <ul class='{{ gridClass }} g-list0 h-childs-margin-bottom+--'>
       <li class='{{ itemClass }}'>
-        <h3 class='h-h4 h-h3@lap'>Адаптированы к российским условиям</h3>
+        <h3 class='h-h4 h-h3@lap'>Для российских условий</h3>
         <p>Не боятся влаги, снегопада и экстремальных температур от -50С°до +40С°. Программирование режимов и автоматическое включение при пропадании сети за 10 сек.</p>
       </li>
       <li class='{{ itemClass }}'>
