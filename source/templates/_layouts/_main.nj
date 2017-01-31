@@ -33,7 +33,7 @@
     <aside>
       <p><b class='h-text+'>{{ phone }}</b></p>
       <p class='h-margin-bottom--'><button class='Btn Btn--solid o-btn--full Btn- h-text-'>{{ components.Icon('phone', 'Icon--left') }}Заказать звонок</button></p>
-      <p><a href='#' class='Btn o-btn--full Btn- h-text-'>{{ components.Icon('cart', 'Icon--left') }}Где купить?</a></p>
+      <p><a href='/контакты/дилеры' class='Btn o-btn--full Btn- h-text-'>{{ components.Icon('cart', 'Icon--left') }}Где купить?</a></p>
     </aside>
   </div>
 
