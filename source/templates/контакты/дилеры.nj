@@ -12,6 +12,19 @@ metaDesc:         Дилеры
 <div class='o-grid h-childs-displace++'>
 
   <article class='o-grid__item h-1/2'>
+    <h2>Санкт-Петербург</h2>
+    <ul>
+      <li><strong>ООО "Фасэнергомаш"<br><span class='h-text-'>Производство газовых генераторов</span></strong></li>
+      <li>OOO "ГАЗКОМ"</li>
+      <li>ООО "Газовоз-М"</li>
+      <li>ООО "Компания Группа Юг"</li>
+      <li>ООО "Артпром"</li>
+      <li>Группа компаний "Атис"</li>
+      <li>ООО «Техногазстрой»</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
     <h2>Москва</h2>
     <ul>
       <li>ООО "ПромГазСтрой"<br><span class='h-text-'>Системы автономного газо- и электро- снабжения</span></li>
@@ -26,19 +39,6 @@ metaDesc:         Дилеры
       <li>ООО "ЮТА-АвтоГаз"</li>
       <li>ООО "НПФ РНТех"</li>
       <li>ООО "Базис груп"</li>
-    </ul>
-  </article>
-
-  <article class='o-grid__item h-1/2'>
-    <h2>Санкт-Петербург</h2>
-    <ul>
-      <li><strong>ООО "Фасэнергомаш"<br><span class='h-text-'>Производство газовых генераторов</span></strong></li>
-      <li>OOO "ГАЗКОМ"</li>
-      <li>ООО "Газовоз-М"</li>
-      <li>ООО "Компания Группа Юг"</li>
-      <li>ООО "Артпром"</li>
-      <li>Группа компаний "Атис"</li>
-      <li>ООО «Техногазстрой»</li>
     </ul>
   </article>
 
