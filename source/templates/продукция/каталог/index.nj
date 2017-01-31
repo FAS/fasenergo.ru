@@ -11,7 +11,7 @@ metaDesc:        Газовые генераторы ФАС
 {% block main %}
 
 {% macro Card(title, image, power, url, discount, discountDate) %}
-<article href='{{ url }}' class='o-media o-media+ discount-badge discount-badge+ h-margin-bottom++'>
+<article href='{{ url }}' class='o-media o-media+ discount-badge discount-badge+ h-margin-bottom+++'>
 
   {% if discount %}
   <span class='discount-badge__badge'>
