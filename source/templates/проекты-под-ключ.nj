@@ -4,8 +4,6 @@ breadcrumbTitle:  Проекты «под ключ»
 contentTitle:     Проекты «под ключ»
 navTitle:         Проекты «под ключ»
 metaDesc:         Проекты «под ключ»
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

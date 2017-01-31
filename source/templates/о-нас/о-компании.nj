@@ -4,8 +4,6 @@ breadcrumbTitle:  О компании
 contentTitle:     О компании
 navTitle:         О компании
 metaDesc:         О компании
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

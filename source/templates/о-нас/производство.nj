@@ -4,8 +4,6 @@ breadcrumbTitle:  Производство
 contentTitle:     Производство
 navTitle:         Производство
 metaDesc:         Производство
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

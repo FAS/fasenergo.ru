@@ -6,8 +6,6 @@ navTitle:         Обслуживание и ремонт
 metaDesc:         Обслуживание и ремонт
 icon:             vent
 shortDesc:        Ipsum dolor sit amet, necessitatibus, incidunt eligendi sequi facere dolorem iure possimus, dolor incidunt eligendi sequi.
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

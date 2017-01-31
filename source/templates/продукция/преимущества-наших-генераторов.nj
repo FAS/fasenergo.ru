@@ -4,8 +4,6 @@ breadcrumbTitle:  Преимущества наших генераторов
 contentTitle:     Преимущества наших генераторов
 navTitle:         Преимущества наших генераторов
 metaDesc:         Преимущества наших генераторов
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

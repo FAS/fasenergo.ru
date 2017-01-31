@@ -4,8 +4,6 @@ breadcrumbTitle:  Результаты испытаний
 contentTitle:     Результаты испытаний
 navTitle:         Результаты испытаний
 metaDesc:         Результаты испытаний
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

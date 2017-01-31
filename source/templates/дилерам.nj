@@ -4,8 +4,6 @@ breadcrumbTitle:  Дилерам
 contentTitle:     Дилерам
 navTitle:         Дилерам
 metaDesc:         Дилерам
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

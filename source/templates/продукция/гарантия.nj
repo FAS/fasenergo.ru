@@ -4,8 +4,6 @@ breadcrumbTitle:  Гарантия
 contentTitle:     Гарантия
 navTitle:         Гарантия
 metaDesc:         Гарантия
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -6,8 +6,6 @@ navTitle:         Установка
 metaDesc:         Установка
 icon:             skype
 shortDesc:        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste pariatur beatae eligendi temporibus tenetur rem deserunt ut, quidem.
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

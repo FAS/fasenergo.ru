@@ -6,8 +6,6 @@ navTitle:         Кредит
 metaDesc:         Кредит
 icon:             cart
 shortDesc:        Ipsum dolor sit amet, consectetur atque necessitatibus, facere dolorem iure possimus, dolor incidunt eligendi sequi.
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}

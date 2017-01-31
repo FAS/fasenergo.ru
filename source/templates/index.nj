@@ -13,7 +13,6 @@ applyWrapperContainer:     false
 applyWrapperContent:       false
 forceFooterWrapperContent: true
 applyPreformat:            false
-coverImage:                cover1.jpg
 showBreadcrumb:            false
 showContentTitle:          false
 ---
@@ -109,7 +108,7 @@ showContentTitle:          false
   </div>
 
   <section>
-    {% call components.BleedMedia(image = '/' + path.images + '/covers/cover2.jpg', align = 'right') %}
+    {% call components.BleedMedia(image = '/' + path.images + '/covers/schemes.jpg', align = 'right') %}
 
       <h3 class='h-extra-h3 h-margin-top0'>Проекты под ключ</h3>
 
@@ -122,7 +121,7 @@ showContentTitle:          false
   </section>
 
   <section>
-    {% call components.BleedMedia(image = '/' + path.images + '/covers/cover1.jpg', align = 'left') %}
+    {% call components.BleedMedia(image = '/' + path.images + '/covers/port.jpg', align = 'left') %}
 
       <h3 class='h-extra-h3 h-margin-top0'>Отраслевые решения</h3>
 

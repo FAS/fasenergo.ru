@@ -4,8 +4,6 @@ breadcrumbTitle:  Сервис
 contentTitle:     Сервис
 navTitle:         Сервис
 metaDesc:         Сервис
-
-coverImage:       cover2.jpg
 ---
 
 {% extends '_layouts/_main.nj' %}
