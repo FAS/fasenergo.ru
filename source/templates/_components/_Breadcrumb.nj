@@ -47,8 +47,10 @@
       {% set url          = crumbProps.url %}
 
       {% set hasSubpages = false %}
+      {% set count = 0 %}
       {% for slug, item in crumbPages %}
-        {% set hasSubpages = true if item else false %}
+        {% set count = count + 1 %}
+        {% set hasSubpages = true if item and count > 1 else false %}
       {% endfor %}
 
       {% if not loop.last %}
