@@ -1,9 +1,9 @@
 ---
-title:           Каталог
+title:           Газовые генераторы ФАС
 breadcrumbTitle: Каталог
-contentTitle:    Каталог
+contentTitle:    Газовые генераторы ФАС
 navTitle:        Каталог
-metaDesc:        Каталог
+metaDesc:        Газовые генераторы ФАС
 ---
 
 {% extends '_layouts/_main.nj' %}
