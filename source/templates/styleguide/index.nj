@@ -95,7 +95,8 @@ applyWrapperContent: false
 {{ components.Icon('flash', 'Icon--left') }}
 {{ components.Icon('skype', 'Icon--left') }}
 {{ components.Icon('x', 'Icon--left') }}
-{{ components.Icon('dir-right', 'Icon--left') }}{% endraw %}
+{{ components.Icon('dir-right', 'Icon--left') }}
+{{ components.Icon('pdf', 'Icon--left') }}{% endraw %}
 {% endcall %}
 
 
