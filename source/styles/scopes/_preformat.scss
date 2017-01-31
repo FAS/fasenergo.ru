@@ -8,14 +8,20 @@
 .#{$ekzo-s-ns}preformat {
 
   h1,
-  h2,
+  h2 {
+    margin-top: ekzo-space(3);
+    margin-bottom: ekzo-space(1.5);
+  }
+
   h3,
   h4,
   h5,
   h6 {
-    margin-top: ekzo-space(3);
+    margin-top: ekzo-space(2.5);
     margin-bottom: ekzo-space(2);
   }
+
+
 
   ul,
   ol {
