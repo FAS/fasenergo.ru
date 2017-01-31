@@ -4,12 +4,47 @@ breadcrumbTitle:  Сертификаты
 contentTitle:     Сертификаты
 navTitle:         Сертификаты
 metaDesc:         Сертификаты
+
+applyWrapperMain:    false
+applyWrapperContent: false
 ---
 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+<div class='o-grid o-grid+ h-margin-bottom'>
 
-{ Страница Сертификаты }
+  <div class='o-grid__item h-1/2'>
+    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__01__01.jpg' alt='Сертификат'>
+  </div>
 
+  <div class='o-grid__item h-1/2'>
+    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__01__02.jpg' alt='Сертификат'>
+  </div>
+
+  <div class='o-grid__item h-1/2'>
+    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__01--en__01.jpg' alt='Сертификат'>
+  </div>
+
+  <div class='o-grid__item h-1/2'>
+    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__01--en__02.jpg' alt='Сертификат'>
+  </div>
+
+  <div class='o-grid__item h-1/2'>
+    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__02.jpg' alt='Сертификат'>
+  </div>
+
+  <div class='o-grid__item h-1/2'>
+    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__02--en.jpg' alt='Сертификат'>
+  </div>
+
+  <div class='o-grid__item h-1/2'>
+    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-license__01.jpg' alt='Сертификат'>
+  </div>
+
+  <div class='o-grid__item h-1/2'>
+    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-license__01--en.jpg' alt='Сертификат'>
+  </div>
+
+</div>
 {% endblock %}
