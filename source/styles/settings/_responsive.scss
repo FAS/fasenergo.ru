@@ -57,7 +57,7 @@ $ekzo-responsive-helpers-breakpoints: (
   // desk
 );
 
-$ekzo-responsive-buttons-breakpoints:              $ekzo-responsive-helpers-breakpoints;
+$ekzo-responsive-buttons-breakpoints:              ( lap );
 $ekzo-responsive-hide-breakpoints:                 $ekzo-responsive-helpers-breakpoints;
 
 $ekzo-responsive-display-helpers-breakpoints:      $ekzo-responsive-helpers-breakpoints;
