@@ -88,7 +88,7 @@ module.exports = (grunt) ->
           rtl: false
           defaultForLanguage: true
           numberFormat: '0,0.[00]'
-          currencyFormat: '0,0.00 $'
+          currencyFormat: '0,0.[00] $'
       ]
       baseLocale: 'ru-RU'
 
