@@ -70,7 +70,7 @@ metaDesc:        Модель
       <th>Модель</th>
       <th>
         Мощность
-        (<span class='o-tooltip--top g-link' data-tooltip='Пропан-бутан / Метан'>?</span>)
+        (<span class='o-tooltip--top g-link h-cursor--help' data-tooltip='Пропан-бутан / Метан'>?</span>)
       </th>
       <th>Напряжение</th>
       <th>Двигатель</th>
