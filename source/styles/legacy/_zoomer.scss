@@ -1,0 +1,26 @@
+// stylelint-disable
+
+.zoomer {
+
+      &:hover + .zoomer__image {
+        transform: scale(10) translate(27px, 0);
+
+        // box-shadow: 0 0 3px 0 #999;
+        border-radius: ekzo-border-radius('');
+
+        z-index: 99;
+
+        opacity: 1;
+      }
+
+    }
+
+    .zoomer__image {
+      position: absolute;
+
+      opacity: 0;
+
+      transform: scale(1);
+
+      transition: all .4s ease;
+    }
