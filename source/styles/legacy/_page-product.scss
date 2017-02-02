@@ -4,290 +4,45 @@
 		$PAGE-PRODUCT
 \*------------------------------------*/
 
-.page-product {
+.page-product-menu {
 
-	h2 {
-		background: #fff;
+  li + li:before {
+    display: inline-block;
+    content: '/';
 
-		vertical-align: middle;
+    opacity: .5;
 
-		padding: 0 ekzo-space() 0 0;
-		margin-bottom: 0;
-	}
+    @extend .h-text-;
 
-	.header {
-		margin: ekzo-space(.5) 0 ekzo-space(2) 0;
-	}
-		.header img {
-			margin: ekzo-space(.5) 0 0;
-		}
-			.benefits li + li {
-				margin: ekzo-space() 0 0;
-			}
-			.benefits li a {
-				color: ekzo-ui-color('text');
-			}
-			.benefits li > span,
-			.benefits li a > span {
-				display: block;
-				margin: 0 0 0 26px; // pushins strings after icons
-			}
-		.order > div {
-			width: 261px;
+    padding: 0 ekzo-space(.5);
+  }
 
-			margin: 0 auto;
-		}
-			.product-price {
-				margin: 0 0 ekzo-space(.5) 0;
-			}
-				.product-price__value {
-					@include ekzo-font-size(h3, headings);
-					font-weight: normal;
-				}
+  a {
+    border-bottom-color: transparent;
 
-				.product-price-discount { display: inline-block; }
+    &:hover,
+    &:focus { border-bottom-color: inherit; }
 
-					.product-price-discount__old-price {
-						text-decoration: line-through;
-						@extend .h-text-;
-
-						text-align: right;
-
-						opacity: .7;
-					}
-
-					.product-price-discount__content {}
-
-						.product-price-discount__discount {
-							@extend .discount-box;
-
-							display: inline-block;
-
-							vertical-align: middle;
-							text-align: right;
-
-							margin-right: ekzo-space(.5) / 2;
-						}
-
-						.product-price-discount__new-price {
-							display: inline-block;
-
-							vertical-align: middle;
-							text-align: right;
-						}
-
-
-
-			.order .question {
-				margin: ekzo-space(.5) 0 0 0;
-			}
-			.order .button {
-				padding: 0 25px;
-				line-height: ekzo-space() * 2.5;
-			}
-
-	// have to be edited later \/
-
-	.menu ul {
-		overflow: auto;
-	}
-		.menu li:first-child {
-			margin-left: ekzo-space(.5);
-		}
-		.menu li + li:before {
-      display: inline-block;
-			content: "/";
-
-			opacity: .5;
-
-			@extend .h-text-;
-
-			padding: 0 ekzo-space(.5);
-		}
-		.menu li a {
-			display: inline-block;
-
-
-			@extend .h-text-;
-			font-weight: 700;
-
-			padding: ekzo-space(.5) 0;
-		}
-
-	// have to be edited later /\
-
-	.general {
-		margin-top: ekzo-space() * 1.5;
-		margin-bottom: ekzo-space() * 3;
-	}
-		.general__sidebar li {
-			margin-bottom: ekzo-space();
-			padding: ekzo-space(.5);
-		}
-			.general__sidebar .dim {
-				margin: 0 ekzo-space(.5) / 2;
-			}
-			.general__sidebar .power {
-				@include ekzo-font-size(h2, headings);
-
-				margin: 0 0 ekzo-space(.5) * 1.5;
-				padding: ekzo-space(.5) 0;
-			}
-		.general__content {
-			@extend .h-text\+
-		}
-
-	.details {
-		margin: 0 0 ekzo-space() * 3 0;
-	}
-
-		// have to be edited later \/
-
-		.details .switch {
-			background: #fff;
-			padding: 0 ekzo-space() 0 0;
-		}
-			.details .switch ul {
-				vertical-align: middle;
-
-				text-transform: uppercase;
-
-				padding: ekzo-space(.5) / 2 ekzo-space(.5);
-			}
-				.details .switch li + li:before {
-					content: "/";
-
-					opacity: .5;
-
-					@extend .h-text-;
-
-					padding: 0 ekzo-space(.5);
-				}
-				.details .switch li a {
-					font-weight: 700;
-
-					@extend .h-text-;
-				}
-				.details .switch li.active a {
-					color: ekzo-ui-color('text');
-					text-decoration: none;
-
-					cursor: arrow;
-				}
-
-		// have to be edited later /\
-
-	.details h3 {
-
-
-		font-weight: 700;
-
-		@extend .h-text-;
-
-		margin: ekzo-space() * 1.5 ekzo-space() * 3 ekzo-space();
-	}
-	.details table {
-		@extend .h-7\/8;
-
-		margin: 0 auto;
-	}
-	.details .other li {
-		margin: ekzo-space(2) 0 0 ekzo-space() * 3;
-	}
-
-	.features-list {
-		margin-top: ekzo-space(2);
-	}
-
-		.features-list__feature {
-			margin-bottom: ekzo-space() * 3;
-
-			h3 {
-				@extend .text-green;
-				@extend .h-h5;
-				text-transform: uppercase;
-			}
-
-			h4 {
-
-				@extend .h-h6;
-
-				margin: 0 0 ekzo-space(.5) / 2 0;
-			}
-
-		}
-
-
-	.product-photos {}
-
-		.photo-slider {
-			margin: ekzo-space(2) 0 0;
-
-			img { border-radius: 15px; }
-
-		}
-
-		.photo-slider__main {}
-
-			.photo-slider__main__link {}
-
-				.photo-slider__main__image {
-					// @todo Disabled, since we're enforcing static height on images
-					//       In case gallery controls (left and right arrow) will be enabled
-					//       this rule should be uncommented or refactored, otherwise
-					//       there won't be paddings for controls
-					// max-width: 60%; // to make image fluid
-				}
-
-		.photo-slider__thumbs {}
-
-			$photo-slider__thumbs__image-border: 3px;
-
-			.photo-slider__thumbs__link {
-
-				display: inline-block;
-
-				opacity: .5;
-				@extend .h-trans--all;
-
-				margin: ekzo-space(2) ekzo-space(.5) 0;
-
-			}
-
-				.photo-slider__thumbs__image {
-					border: $photo-slider__thumbs__image-border solid transparent;
-
-					@extend .h-trans--all;
-				}
-
-			.photo-slider__thumbs__link--active,
-			.photo-slider__thumbs__link:hover {
-				opacity: 1!important;
-			}
-
-			.photo-slider__thumbs__link--active .photo-slider__thumbs__image {
-				border: $photo-slider__thumbs__image-border solid #58a4d8;
-			}
-
-
-	.video {
-		margin-top: ekzo-space() * 3;
-	}
-		.video-block {
-			margin: ekzo-space(2) ekzo-space() * 3 0; // we can't use width on responsive iframes, so we're forcing proportions by margin on it's parrent
-		}
-		.video-block iframe {
-			border-top: 0;
-			border-left: 0;
-			border-right: 0;
-
-			padding: 0 10px 5px;
-		}
+  }
 
 }
 
+.photo-slider__thumbs__link {
+	display: inline-block;
 
-#other-products {
-	margin-top: ekzo-space() * 3;
-	padding-top: ekzo-space(2);
+	opacity: .5;
+	@extend .h-trans--all\+;
+
+  border-width: 3px;
+  border-color: transparent;
+  border-radius: ekzo-border-radius('');
+
+	margin: ekzo-space(2) ekzo-space(.5) 0;
+
+  &.is-active,
+  &:hover,
+  &:focus { opacity: 1; }
+
+  &.is-active { border-color: #58a4d8; }
+
 }
