@@ -30,7 +30,7 @@ $(() => {
    *         relaying on href content.
    *         This code should be swapped with better slider whenever possible
    */
-  $('#js-photos-block__thumbs').on('click', 'a', function changeMainPhoto(e) {
+  $('#js-photos-block__thumbs').on('click', 'a', function (e) {
     e.preventDefault()
 
     const $this = $(this)
