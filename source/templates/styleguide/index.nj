@@ -149,6 +149,13 @@ applyWrapperContent: false
 </table>
 {% endcall %}
 
+{% call components.Example(title = 'Рамка') -%}
+<div class='Box h-padding'>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptas fugiat voluptates labore, excepturi, ullam, cum exercitationem nobis, dignissimos laudantium natus.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, labore!</p>
+</div>
+{% endcall %}
+
 {% call components.Example(title = 'Цитата') -%}
 {% raw %}{% call components.Blockquote() %}
   <p>Содержимое цитаты, в том числе с <b>любыми</b> <i>html</i> тэгами.</p>

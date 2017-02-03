@@ -1,0 +1,9 @@
+// =======================================
+// ^Box
+// =======================================
+
+.Box {
+  border-radius: ekzo-border-radius('');
+  @include ekzo-theme() { border-color: ekzo-theme(box-border); }
+  border-width: 1px;
+}

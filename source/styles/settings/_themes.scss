@@ -156,6 +156,13 @@ $ekzo-colors: (
 
   dropdown-bg-color:   ekzo-color(white),
   dropdown-box-shadow: 0 5px 30px rgba(#252f38,.2),
+
+  // ---------------------------------------
+  // Box
+  // ---------------------------------------
+
+  box-border: ekzo-tint(ekzo-color(secondary), 88),
+
 ))
 
 @include ekzo-extend-themes(white, (
