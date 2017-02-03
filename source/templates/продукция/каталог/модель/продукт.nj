@@ -20,15 +20,15 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
   <div class='o-grid__item benefits h-1/3 h-align--center'>
     <ul class='h-inline-block h-align--left g-list0 h-text-'>
       <li class='text-red'>
-        {{ components.Icon('search', class = 'Icon--fixed h-float--left') }}
+        {{ components.Icon('gift', class = 'Icon--fixed h-float--left') }}
         <span class='h-block h-margin-left+--'>Комплект автоматики (АВР)<br> в подарок!</span>
       </li>
       <li>
-        {{ components.Icon('search', class = 'Icon--fixed h-float--left') }}
+        {{ components.Icon('star', class = 'Icon--fixed h-float--left') }}
         <span class='h-block h-margin-left+--'>Гарантия 1 год <small><br> (Моторесурс: 1000 моточасов)</small></span>
       </li>
       <li>
-        {{ components.Icon('search', class = 'Icon--fixed h-float--left') }}
+        {{ components.Icon('delivery', class = 'Icon--fixed h-float--left') }}
         <span class='h-block h-margin-left+--'><a href='/сервис/доставка'>Доставка по всей России</a></span>
       </li>
     </ul>
@@ -37,6 +37,7 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
   <div class='o-grid__item h-1/3 h-align--center'>
     <div class='h-margin-sides--auto' style='max-width: 261px'>
 
+      {% if available != 'archived' %}
       {% if discount %}
       <div class='h-margin-bottom-- h-inline-block'>
         <del class='h-block h-text- h-align--right h-opacity--70'>196 000 руб.</del>
@@ -50,18 +51,26 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
         цена: <span class='h-h2 text-green'>190 000 руб.</span>
       </p>
       {% endif %}
-
-      {% if available == 'archived' %}
-      <p class='h-text+ h-marg1in-bottom--'>{{ components.Icon('search') }}&nbsp;снят с производства</p>
-      {% elif available %}
-      <p class='h-text- h-margin1-bottom--'>{{ components.Icon('search') }}&nbsp;в наличии</p>
-      {% else %}
-      <p class='h-text- h-mar1gin-bottom--'>{{ components.Icon('search') }}&nbsp;под заказ</p>
       {% endif %}
 
-      <a class='Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='#order'>Сделать заказ</a>
+      {% if available == 'archived' %}
+      <p class='h-text+ h-marg1in-bottom-- h-text--nowrap'>
+        {{ components.Icon('x-o', class = 'text-red h-text h-align--middle Icon--left') }}<span class='h-align--middle'>снят с производства</span>
+      </p>
+      {% elif available %}
+      <p class='h-text- h-margin1-bottom-- h-text--nowrap'>
+        {{ components.Icon('check-o', class = 'text-green h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>в наличии</span>
+      </p>
+      {% else %}
+      <p class='h-text- h-mar1gin-bottom-- h-text--nowrap'>
+        {{ components.Icon('clock', class = 'text-blue h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>под заказ</span>
+      </p>
+      {% endif %}
 
+      {% if available != 'archived' %}
+      <a class='Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='#order'>Сделать заказ</a>
       <p class='h-margin-top-- h-margin-bottom0'>или <a href='#question'>задать вопрос</a></p>
+      {% endif %}
 
     </div>
   </div>
