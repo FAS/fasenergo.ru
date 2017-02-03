@@ -34,7 +34,7 @@ $(() => {
     e.preventDefault()
 
     const $this = $(this)
-    const photoUrl = $this.data('big-image')
+    const photoUrl = this.href
     const $photoMain = $('#js-photos-block__main')
     const $photoThumbs = $('#js-photos-block__thumbs')
 

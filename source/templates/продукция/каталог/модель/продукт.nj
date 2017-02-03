@@ -251,7 +251,7 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
 
     <div id='js-photos-block__thumbs'>
       {% for item in range(0, 10) %}
-      <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' data-big-image='{{ '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png' }}'>
+      <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='{{ '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png' }}'>
         <img class='h-align--middle' src='{{ '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png' }}' height='80' alt='18-ozp-1'>
       </a>
       {% endfor %}
