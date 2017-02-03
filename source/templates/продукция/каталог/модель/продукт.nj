@@ -19,16 +19,16 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
 
   <div class='o-grid__item benefits h-1/3 h-align--center'>
     <ul class='h-inline-block h-align--left g-list0 h-text-'>
-      <li class='text-red'>
-        {{ components.Icon('gift', class = 'Icon--fixed h-float--left') }}
+      {# <li class='text-red'>
+        <span class='h-float--left'>{{ components.Icon('gift') }}</span>
         <span class='h-block h-margin-left+--'>Комплект автоматики (АВР)<br> в подарок!</span>
-      </li>
+      </li> #}
       <li>
-        {{ components.Icon('star', class = 'Icon--fixed h-float--left') }}
+        <span class='h-float--left'>{{ components.Icon('star') }}</span>
         <span class='h-block h-margin-left+--'>Гарантия 1 год <small><br> (Моторесурс: 1000 моточасов)</small></span>
       </li>
       <li>
-        {{ components.Icon('delivery', class = 'Icon--fixed h-float--left') }}
+        <span class='h-float--left'>{{ components.Icon('delivery') }}</span>
         <span class='h-block h-margin-left+--'><a href='/сервис/доставка'>Доставка по всей России</a></span>
       </li>
     </ul>
