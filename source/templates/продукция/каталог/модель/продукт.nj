@@ -29,7 +29,7 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
       </li>
       <li>
         {{ components.Icon('search', class = 'Icon--fixed h-float--left') }}
-        <span class='h-block h-margin-left+--'><a href='#delivery'>Доставка по всей России</a></span>
+        <span class='h-block h-margin-left+--'><a href='/сервис/доставка'>Доставка по всей России</a></span>
       </li>
     </ul>
   </div>
@@ -51,10 +51,10 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
       </p>
       {% endif %}
 
-      {% if state == 'available' %}
-      <p class='h-text- h-margin1-bottom--'>{{ components.Icon('search') }}&nbsp;в наличии</p>
-      {% elif state == 'archived' %}
+      {% if available == 'archived' %}
       <p class='h-text+ h-marg1in-bottom--'>{{ components.Icon('search') }}&nbsp;снят с производства</p>
+      {% elif available %}
+      <p class='h-text- h-margin1-bottom--'>{{ components.Icon('search') }}&nbsp;в наличии</p>
       {% else %}
       <p class='h-text- h-mar1gin-bottom--'>{{ components.Icon('search') }}&nbsp;под заказ</p>
       {% endif %}
@@ -69,25 +69,23 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
 </header>
 
 <nav class='Box h-padding-- h-margin-bottom'>
-  <ul class='page-product-menu o-nav h-childs-margin-top0 h-text--caps'>
-    <li><a class='h-text-' href='#general'>Описание</a></li>
-    <li><a class='h-text-' href='#details'>Технические характеристики</a></li>
-    <li><a class='h-text-' href='#features'>Особенности</a></li>
-    <li><a class='h-text-' href='#photos'>Фото</a></li>
-    <li><a class='h-text-' href='#video'>Видео</a></li>
+  <ul class='page-product-menu o-nav h-childs-margin-top0 h-text--caps h-text-'>
+    <li><a href='#general'>Описание</a></li>
+    <li><a href='#details'>Технические характеристики</a></li>
+    <li><a href='#photos'>Фото</a></li>
+    <li><a href='#video'>Видео</a></li>
   </ul>
 </nav>
 
 <section id='general' class='o-grid h-childs-displace+'>
 
-  <div class='o-grid__item h-1/4'>
-    <ul class='h-align--center g-list0 h-text-'>
-      <li class='h-padding-- wrap-green h-border-r'>мощность:<br><b class='h-font-size--h2 h-line-height--h2'>10/11 кВт</b></li>
-      <li class='h-padding-- wrap-blue h-border-r'><b>220</b> V&nbsp;&nbsp;<span class='dim'>|</span>&nbsp;&nbsp;<b>однофазовый</b></li>
-      <li class='h-padding-- wrap-blue h-border-r'>двигатель: <strong>SUZUKI 465Q</strong></li>
-      <li class='h-padding-- wrap-blue h-border-r'>потребление: <b>~4 л/ч</b></li>
-    </ul>
-  </div>
+  <ul class='o-grid__item h-1/4 h-align--center g-list0 h-text- h-childs-padding--'>
+    <li class='wrap-green h-border-r'>мощность:<br> <b class='h-font-size--h2 h-line-height--h2'>10/11 кВт</b></li>
+    <li class='wrap-blue h-border-r'><b>220</b> V&nbsp;&nbsp;<span class='dim'>|</span>&nbsp;&nbsp;<b>однофазный</b></li>
+    <li class='wrap-blue h-border-r'>двигатель: <b>SUZUKI 465Q</b></li>
+    <li class='wrap-blue h-border-r'>потребление (метан):<br> <b>0.43 м³/ч * 1 кВт</b></li>
+    <li class='wrap-blue h-border-r'>потребление (СУГ):<br> <b>0.370 кг/ч * 1 кВт</b></li>
+  </ul>
 
   <div class='o-grid__item h-3/4'>
     <p>Однофазный газовый электрогенератор с жидкостным охлаждением, мощностью 10 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
@@ -125,11 +123,11 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
       <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
         <tr>
           <th class='h-text--'>Мощность метан/суг</th>
-          <td>10/11 <span class='mini'>кВт</span></td>
+          <td>10/11 <span class='h-text--'>кВт</span></td>
         </tr>
         <tr>
           <th class='h-text--'>Напряжение</th>
-          <td>220 <span class='mini'>V</span></td>
+          <td>220 <span class='h-text--'>V</span></td>
         </tr>
         <tr>
           <th class='h-text--'>Количество фаз</th>
@@ -137,11 +135,11 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
         </tr>
         <tr>
           <th class='h-text--'>Сила тока</th>
-          <td>46 <span class='mini'>A</span></td>
+          <td>46 <span class='h-text--'>A</span></td>
         </tr>
         <tr>
           <th class='h-text--'>Шум</th>
-          <td>88 <span class='mini'>Дб</span></td>
+          <td>88 <span class='h-text--'>Дб</span></td>
         </tr>
         <tr>
           <th class='h-text--'>Стартер</th>
@@ -166,11 +164,11 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
       <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
         <tr>
           <th class='h-text--'>Габариты</th>
-          <td>222х252х323 <span class='mini'>мм</span></td>
+          <td>222х252х323 <span class='h-text--'>мм</span></td>
         </tr>
         <tr>
           <th class='h-text--'>Масса</th>
-          <td>350 <span class='mini'>кг</span></td>
+          <td>350 <span class='h-text--'>кг</span></td>
         </tr>
       </table>
 
@@ -191,7 +189,7 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
         </tr>
         <tr>
           <th class='h-text--'>Расход топлива</th>
-          <td>88 <span class='mini'>л/кВт*ч</span></td>
+          <td>88 <span class='h-text--'>л/кВт*ч</span></td>
         </tr>
       </table>
 
@@ -208,11 +206,11 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
         </tr>
         <tr>
           <th class='h-text--'>Автомат ввода резерва</th>
-          <td>Есть <span class='mini'>(подарок)</span></td>
+          <td>Есть <span class='h-text--'>(подарок)</span></td>
         </tr>
         <tr>
           <th class='h-text--'>Время ввода резерва</th>
-          <td>7 <span class='mini'>сек</span></td>
+          <td>7 <span class='h-text--'>сек</span></td>
         </tr>
         <tr>
           <th class='h-text--'>Авто-контроль работы генератора</th>
@@ -282,11 +280,7 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
         </tr>
         <tr>
           <th class='h-text--'>Мощность</th>
-          <td>14000-18000 <span class='mini'>кВт</span></td>
-        </tr>
-        <tr>
-          <th class='h-text--'>Пр-ль двигателя</th>
-          <td>Китай</td>
+          <td>9,5/10 <span class='h-text--'>кВт</span></td>
         </tr>
       </table>
 
