@@ -29,7 +29,7 @@
 
   </header>
 
-  <div class='h-border h-border-bottom0 h-border-r h-border-r-bottom-left0 h-border-r-bottom-right0 h-padding+ h-margin-top o-clearfix' style='border-color: rgba(37, 47, 56, 0.15)'>
+  <div class='Box h-border-bottom0 h-border-r-bottom-left0 h-border-r-bottom-right0 h-padding+ h-margin-top o-clearfix'>
     {{ caller()|render(isCaller = true) }}
   </div>
 
