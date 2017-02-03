@@ -68,8 +68,8 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
 
 </header>
 
-<nav class='page-product-menu Table h-padding-- h-margin-bottom'>
-  <ul class='o-nav h-childs-margin-top0 h-text--caps'>
+<nav class='Box h-padding-- h-margin-bottom'>
+  <ul class='page-product-menu o-nav h-childs-margin-top0 h-text--caps'>
     <li><a class='h-text-' href='#general'>Описание</a></li>
     <li><a class='h-text-' href='#details'>Технические характеристики</a></li>
     <li><a class='h-text-' href='#features'>Особенности</a></li>
