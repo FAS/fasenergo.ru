@@ -29,7 +29,8 @@ SystemJS.config({
     "npm:*.json"
   ],
   map: {
-    "jquery": "npm:jquery@3.1.0"
+    "jquery": "npm:jquery@3.1.0",
+    "jump.js": "npm:jump.js@1.0.2"
   },
   packages: {}
 });
