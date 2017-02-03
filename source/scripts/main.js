@@ -21,4 +21,26 @@ $(() => {
   $('.js-expand').expand()
 
   $('.js-drawer').drawer()
+
+  /**
+   * Switcher of photos on Product page
+   *
+   * @legacy This is old code from old Fasenergo. This is not how you should write new code!
+   *         It has been slightly altered to extract data from `data-big-image` instead of
+   *         relaying on href content.
+   *         This code should be swapped with better slider whenever possible
+   */
+  $('#js-photos-block__thumbs').on('click', 'a', function changeMainPhoto(e) {
+    e.preventDefault()
+
+    const $this = $(this)
+    const photoUrl = $this.data('big-image')
+    const $photoMain = $('#js-photos-block__main')
+    const $photoThumbs = $('#js-photos-block__thumbs')
+
+    $photoMain.find('a').attr('href', photoUrl)
+    $photoMain.find('img').attr('src', photoUrl)
+    $photoThumbs.find('a.is-active').removeClass('is-active')
+    $this.addClass('is-active')
+  })
 })

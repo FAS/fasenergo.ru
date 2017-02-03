@@ -243,13 +243,19 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
 
   <div class='h-align--center'>
 
-    <a class='h-block h-border-bottom0' href='#'><img src='{{ '/' + path.images + '/covers/port.jpg' }}' alt='18-ozp-1' ></a>
+    <div id='js-photos-block__main'>
+      <a class='h-block h-border-bottom0' style='height: 600px' href='#'>
+        <img class='h-height-1/1' style='object-fit: cover' src='{{ '/' + path.images + '/covers/port.jpg' }}' alt='18-ozp-1'>
+      </a>
+    </div>
 
-    {% for item in range(0, 10) %}
-    <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='#'>
-      <img class='h-align--middle' src='{{ '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png' }}' height='80' alt='18-ozp-1'>
-    </a>
-    {% endfor %}
+    <div id='js-photos-block__thumbs'>
+      {% for item in range(0, 10) %}
+      <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' data-big-image='{{ '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png' }}'>
+        <img class='h-align--middle' src='{{ '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png' }}' height='80' alt='18-ozp-1'>
+      </a>
+      {% endfor %}
+    </div>
 
   </div>
 
