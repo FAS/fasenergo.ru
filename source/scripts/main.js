@@ -5,11 +5,14 @@ import $ from 'jquery'
 import './plugins/scroll-on-click'
 import './plugins/expand'
 import './plugins/drawer'
+import jump from './plugins/jump'
 
 $(() => {
   console.log('jQuery version is: ' + $().jquery)
 
   $('html').removeClass('no-js')
+
+  jump()
 
   // Zoom target with scroll only on click
   // Used primary for iframes
