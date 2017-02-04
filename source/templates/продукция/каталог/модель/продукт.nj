@@ -86,17 +86,39 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
   </ul>
 </nav>
 
-<section id='general' class='o-grid h-childs-displace+'>
+<section id='general' class='o-grid h-childs-displace'>
 
-  <ul class='o-grid__item h-1/4 h-align--center g-list0 h-text- h-childs-padding--'>
-    <li class='wrap-green h-border-r'>мощность:<br> <b class='h-font-size--h2 h-line-height--h2'>10/11 кВт</b></li>
-    <li class='wrap-blue h-border-r'><b>220</b> V&nbsp;&nbsp;<span class='dim'>|</span>&nbsp;&nbsp;<b>однофазный</b></li>
-    <li class='wrap-blue h-border-r'>двигатель: <b>SUZUKI 465Q</b></li>
-    <li class='wrap-blue h-border-r'>потребление (метан):<br> <b>0.43 м³/ч * 1 кВт</b></li>
-    <li class='wrap-blue h-border-r'>потребление (СУГ):<br> <b>0.370 кг/ч * 1 кВт</b></li>
-  </ul>
+  <aside class='o-grid__item h-1/1 h-1/4@lap h-align--center h-text-'>
+    <ul class='g-list0 o-nav o-nav--pack h-flex-rows--start h-childs-displace-- h-childs-displace0@lap  h-margin-bottom h-childs-margin-top-- h-bleed-top--'>
+      <li>
+        <div class='wrap-green h-border-r h-padding-- h-flex h-flex-y--center h-flex-x--center h-height-1/1'>
+          <p>мощность:<br> <b class='h-font-size--h2 h-line-height--h2'>10/11 кВт</b></p>
+        </div>
+      </li>
+      <li>
+        <div class='wrap-blue h-border-r h-padding-- h-flex h-flex-y--center h-flex-x--center h-height-1/1'>
+          <p><b>220</b> V&nbsp;&nbsp;<span class='dim'>|</span>&nbsp;&nbsp;<b>однофазный</b></p>
+        </div>
+      </li>
+      <li>
+        <div class='wrap-blue h-border-r h-padding-- h-flex h-flex-y--center h-flex-x--center h-height-1/1'>
+          <p>двигатель: <b>SUZUKI 465Q</b></p>
+        </div>
+      </li>
+      <li>
+        <div class='wrap-blue h-border-r h-padding-- h-flex h-flex-y--center h-flex-x--center h-height-1/1'>
+          <p>потребление (метан):<br> <b>0.43 м³/ч * 1 кВт</b></p>
+        </div>
+      </li>
+      <li>
+        <div class='wrap-blue h-border-r h-padding-- h-flex h-flex-y--center h-flex-x--center h-height-1/1'>
+          <p>потребление (СУГ):<br> <b>0.370 кг/ч * 1 кВт</b></p>
+        </div>
+      </li>
+    </ul>
+  </aside>
 
-  <div class='o-grid__item h-3/4'>
+  <div class='o-grid__item h-1/1 h-3/4@lap'>
     <p>Однофазный газовый электрогенератор с жидкостным охлаждением, мощностью 10 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
     <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
     <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка  от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
