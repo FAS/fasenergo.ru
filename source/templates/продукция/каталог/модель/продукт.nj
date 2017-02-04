@@ -13,64 +13,70 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
 
 <header class='o-grid h-childs-displace h-flex-y--center h-margin-bottom'>
 
-  <div class='o-grid__item h-1/3 h-align--center'>
+  <div class='o-grid__item h-5/9 h-1/3@lap h-align--center'>
     <a class='h-border-bottom0 js-smooth-jump' href='#photos'>
-      <img src='{{ '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png' }}' alt='Газовая электрогенераторная установка Такая-то'>
+      <img src='http://fasenergo.ru/products/generators/fas/photos/turbo/_p720px/FAS-32-3-VT__front-left_white_800px_comperssed.png' alt='Газовая электрогенераторная установка Такая-то'>
     </a>
   </div>
 
-  <div class='o-grid__item benefits h-1/3 h-align--center'>
-    <ul class='h-inline-block h-align--left g-list0 h-text-'>
-      {# <li class='text-red'>
-        <span class='h-float--left'>{{ components.Icon('gift') }}</span>
-        <span class='h-block h-margin-left+--'>Комплект автоматики (АВР)<br> в подарок!</span>
-      </li> #}
-      <li>
-        <span class='h-float--left'>{{ components.Icon('star') }}</span>
-        <span class='h-block h-margin-left+--'>Гарантия 1 год <small><br> (Моторесурс: 1000 моточасов)</small></span>
-      </li>
-      <li>
-        <span class='h-float--left'>{{ components.Icon('delivery') }}</span>
-        <span class='h-block h-margin-left+--'><a href='/сервис/доставка'>Доставка по всей России</a></span>
-      </li>
-    </ul>
-  </div>
+  <div class='o-grid__item h-4/9 h-2/3@lap'>
+    <div class='o-grid h-flex-y--center h-childs-displace'>
 
-  <div class='o-grid__item h-1/3 h-align--center'>
-    <div class='h-margin-sides--auto' style='max-width: 261px'>
+      <div class='o-grid__item h-1/1 h-1/2@lap h-order--last h-order--first@lap h-align--center h-margin-top+ h-margin-top0@lap'>
+        <ul class='h-inline-block h-align--left g-list0 h-text-'>
+          {# <li class='text-red'>
+            <span class='h-float--left'>{{ components.Icon('gift') }}</span>
+            <span class='h-block h-margin-left+--'>Комплект автоматики (АВР)<br> в подарок!</span>
+          </li> #}
+          <li>
+            <span class='h-float--left'>{{ components.Icon('star') }}</span>
+            <span class='h-block h-margin-left+--'>Гарантия 1 год <small><br> (Моторесурс: 1000 моточасов)</small></span>
+          </li>
+          <li>
+            <span class='h-float--left'>{{ components.Icon('delivery') }}</span>
+            <span class='h-block h-margin-left+--'><a href='/сервис/доставка'>Доставка по всей России</a></span>
+          </li>
+        </ul>
+      </div>
 
-      {% if available != 'archived' %}
-      {% if discount %}
-      <div class='h-margin-bottom-- h-inline-block'>
-        <del class='h-block h-text- h-align--right h-opacity--70 h-text--nowrap'>196 000 руб.</del>
-        <div>
-          <div class='discount-box h-inline-block h-align--middle h-align--right h-margin-right-- h-text--nowrap'>–20%</div>
-          <div class='h-h2 h-inline-block h-align--middle h-align--right text-green h-text--nowrap'>150 000 руб.</div>
+      <div class='o-grid__item h-1/1 h-1/2@lap h-align--center'>
+        <div class='h-margin-sides--auto' style='max-width: 261px'>
+
+          {% if available != 'archived' %}
+          {% if discount %}
+          <div class='h-margin-bottom-- h-inline-block'>
+            <del class='h-block h-text- h-align--right h-opacity--70 h-text--nowrap'>196 000 руб.</del>
+            <div>
+              <div class='discount-box h-inline-block h-align--middle h-align--right h-margin-right-- h-text--nowrap'>–20%</div>
+              <div class='h-h2 h-inline-block h-align--middle h-align--right text-green h-text--nowrap'>150 000 руб.</div>
+            </div>
+          </div>
+          {% else %}
+          <p class='h-margin-bottom-- h-h1 text-green h-text--nowrap'>190 000 руб.</p>
+          {% endif %}
+          {% endif %}
+
+          {% if available == 'archived' %}
+          <p class='h-text+ h-marg1in-bottom-- h-text--nowrap'>
+            {{ components.Icon('x-o', class = 'text-red h-text h-align--middle Icon--left') }}<span class='h-align--middle'>снят с производства</span>
+          </p>
+          {% elif available %}
+          <p class='h-text- h-margin1-bottom-- h-text--nowrap'>
+            {{ components.Icon('check-o', class = 'text-green h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>в наличии</span>
+          </p>
+          {% else %}
+          <p class='h-text- h-mar1gin-bottom-- h-text--nowrap'>
+            {{ components.Icon('clock', class = 'text-blue h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>под заказ</span>
+          </p>
+          {% endif %}
+
+          {% if available != 'archived' %}
+          <a class='Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='/контакты'>Сделать заказ</a>
+          <p class='h-margin-top-- h-margin-bottom0'>или <a href='/контакты'>задать вопрос</a></p>
+          {% endif %}
+
         </div>
       </div>
-      {% else %}
-      <p class='h-margin-bottom-- h-h1 text-green h-text--nowrap'>190 000 руб.</p>
-      {% endif %}
-      {% endif %}
-
-      {% if available == 'archived' %}
-      <p class='h-text+ h-marg1in-bottom-- h-text--nowrap'>
-        {{ components.Icon('x-o', class = 'text-red h-text h-align--middle Icon--left') }}<span class='h-align--middle'>снят с производства</span>
-      </p>
-      {% elif available %}
-      <p class='h-text- h-margin1-bottom-- h-text--nowrap'>
-        {{ components.Icon('check-o', class = 'text-green h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>в наличии</span>
-      </p>
-      {% else %}
-      <p class='h-text- h-mar1gin-bottom-- h-text--nowrap'>
-        {{ components.Icon('clock', class = 'text-blue h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>под заказ</span>
-      </p>
-      {% endif %}
-
-      {% if available != 'archived' %}
-      <a class='Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='/контакты'>Сделать заказ</a>
-      <p class='h-margin-top-- h-margin-bottom0'>или <a href='/контакты'>задать вопрос</a></p>
-      {% endif %}
 
     </div>
   </div>
@@ -273,7 +279,7 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
 
     <div id='js-photos-block__thumbs'>
       {% for item in range(0, 10) %}
-      <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='{{ '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png' }}'>
+      <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='http://fasenergo.ru/products/generators/fas/photos/turbo/_p720px/FAS-32-3-VT__front-left_white_800px_comperssed.png'>
         <img class='h-align--middle' src='{{ '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png' }}' height='80' alt='18-ozp-1'>
       </a>
       {% endfor %}
