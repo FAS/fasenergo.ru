@@ -49,9 +49,7 @@ metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
         </div>
       </div>
       {% else %}
-      <p class='h-margin-bottom--'>
-        цена: <span class='h-h2 text-green h-text--nowrap'>190 000 руб.</span>
-      </p>
+      <p class='h-margin-bottom-- h-h1 text-green h-text--nowrap'>190 000 руб.</p>
       {% endif %}
       {% endif %}
 
