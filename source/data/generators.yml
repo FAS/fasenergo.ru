@@ -56,9 +56,7 @@
       lpg: 0.36 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine:
-    brand: LONCIN
-    model: G390F
+  engine: loncin-g390f
   enclosure:
     type: soundproof
     material: null
@@ -134,9 +132,7 @@
       lpg: 0.36 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine:
-    brand: LONCIN
-    model: G390F
+  engine: loncin-g390f
   enclosure:
     type: soundproof
     material: null
@@ -212,9 +208,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine:
-    brand: LONCIN
-    model: LC2V78F-1
+  engine: loncin-lc2v78f-1
   enclosure:
     type: soundproof
     material: null
@@ -290,9 +284,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine:
-    brand: LONCIN
-    model: LC2V78F-1
+  engine: loncin-lc2v78f-1
   enclosure:
     type: soundproof
     material: null
@@ -368,9 +360,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine:
-    brand: LONCIN
-    model: LC2V78F-1
+  engine: loncin-lc2v78f-1
   enclosure:
     type: soundproof
     material: null
@@ -473,9 +463,7 @@
       lpg: 0.370 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21067
+  engine: ваз-21067
   enclosure:
     type: soundproof
     material: null
@@ -578,9 +566,7 @@
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21067
+  engine: ваз-21067
   enclosure:
     type: soundproof
     material: null
@@ -683,9 +669,7 @@
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21213
+  engine: ваз-21213
   enclosure:
     type: soundproof
     material: null
@@ -789,9 +773,7 @@
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21213
+  engine: ваз-21213
   enclosure:
     type: soundproof
     material: null
@@ -886,9 +868,7 @@ fas-15-ozp1-ваз-15квт:
       lpg: null
     operatingSpeed: 1600
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21083
+  engine: ваз-21083
   enclosure:
     type: soundproof
     material: null
@@ -984,9 +964,7 @@ fas-15-ozp3-ваз-15квт:
       lpg: null
     operatingSpeed: 1600
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21083
+  engine: ваз-21083
   enclosure:
     type: soundproof
     material: null
@@ -1082,9 +1060,7 @@ fas-15-ozp3-ваз-15квт:
       lpg: null
     operatingSpeed: 2600
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21083
+  engine: ваз-21083
   enclosure:
     type: soundproof
     material: null
@@ -1180,9 +1156,7 @@ fas-15-ozp3-ваз-15квт:
       lpg: null
     operatingSpeed: 2600
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21083
+  engine: ваз-21083
   enclosure:
     type: soundproof
     material: null
@@ -1278,9 +1252,7 @@ fas-21-ozp1-ваз-21квт:
       lpg: null
     operatingSpeed: 2600
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21213
+  engine: ваз-21213
   enclosure:
     type: soundproof
     material: null
@@ -1376,9 +1348,7 @@ fas-21-ozp3-ваз-21квт:
       lpg: null
     operatingSpeed: 2600
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21083
+  engine: ваз-21083
   enclosure:
     type: soundproof
     material: null
@@ -1474,9 +1444,7 @@ fas-21-ozp3-ваз-21квт:
       lpg: null
     operatingSpeed: 2800
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21083
+  engine: ваз-21083
   enclosure:
     type: soundproof
     material: null
@@ -1578,9 +1546,7 @@ fas-21-ozp3-ваз-21квт:
       lpg: null
     operatingSpeed: 3000
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21213
+  engine: ваз-21213
   enclosure:
     type: soundproof
     material: null
@@ -1682,9 +1648,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 3000
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21213
+  engine: ваз-21213
   enclosure:
     type: soundproof
     material: null
@@ -1796,9 +1760,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 3000
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21213
+  engine: ваз-21213
   enclosure:
     type: soundproof
     material: null
@@ -1899,9 +1861,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ММЗ
-    model: Д-246
+  engine: ммз-д-246
   enclosure:
     type: soundproof
     material: null
@@ -2003,9 +1963,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ММЗ
-    model: Д-246
+  engine: ммз-д-246
   enclosure:
     type: soundproof
     material: null
@@ -2091,9 +2049,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ЯМЗ
-    model: 238
+  engine: ямз-238
   enclosure:
     type: open
     material: null
@@ -2179,9 +2135,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ЯМЗ
-    model: 238
+  engine: ямз-238
   enclosure:
     type: open
     material: null
@@ -2267,9 +2221,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ЯМЗ
-    model: 7514
+  engine: ямз-7514
   enclosure:
     type: open
     material: null
@@ -2351,9 +2303,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ММЗ
-    model: Д-246
+  engine: ммз-д-246
   enclosure:
     type: soundproof
     material: null
@@ -2450,9 +2400,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21067
+  engine: ваз-21067
   enclosure:
     type: soundproof
     material: null
@@ -2549,9 +2497,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21067
+  engine: ваз-21067
   enclosure:
     type: soundproof
     material: null
@@ -2648,9 +2594,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21067
+  engine: ваз-21067
   enclosure:
     type: soundproof
     material: null
@@ -2747,9 +2691,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine:
-    brand: ВАЗ
-    model: 21067
+  engine: ваз-21067
   enclosure:
     type: soundproof
     material: null
@@ -2848,9 +2790,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     operatingSpeed: null
     cooling: null
-  engine:
-    brand: KUBOTA
-    model: DF972
+  engine: kubota-df972
   enclosure:
     type: soundproof
     material: null
@@ -2925,9 +2865,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     operatingSpeed: null
     cooling: null
-  engine:
-    brand: KOHLER
-    model: CH740
+  engine: kohler-ch740
   enclosure:
     type: soundproof
     material: null
@@ -3002,9 +2940,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     operatingSpeed: null
     cooling: null
-  engine:
-    brand: KOHLER
-    model: CH1000
+  engine: kohler-ch1000
   enclosure:
     type: soundproof
     material: null
@@ -3121,9 +3057,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     operatingSpeed: null
     cooling: null
-  engine:
-    brand: GENERAC
-    model: GT-530
+  engine: generac-gt-530
   enclosure:
     type: soundproof
     material: null
@@ -3240,9 +3174,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     operatingSpeed: null
     cooling: null
-  engine:
-    brand: GENERAC
-    model: GT-530
+  engine: generac-gt-530
   enclosure:
     type: soundproof
     material: null
@@ -3359,9 +3291,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     operatingSpeed: null
     cooling: null
-  engine:
-    brand: GENERAC
-    model: GT-990
+  engine: generac-gt-990
   enclosure:
     type: soundproof
     material: null
