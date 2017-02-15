@@ -1,4 +1,5 @@
 { merge } = require('lodash')
+{ join } = require('path')
 
 module.exports = (grunt) ->
   pkg = grunt.file.readJSON 'package.json'
@@ -36,6 +37,8 @@ module.exports = (grunt) ->
       currentYear: new Date().getFullYear()
       contacts: require('./contacts')
       posts: require('./posts')
+      generators: grunt.file.readYAML join(grunt.config('path.source.data'), 'generators.yml')
+      engines: grunt.file.readYAML join(grunt.config('path.source.data'), 'engines.yml')
 
   return (locale) ->
 
