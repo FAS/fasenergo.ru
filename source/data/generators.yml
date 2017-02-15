@@ -1,0 +1,3381 @@
+---
+газовый-генератор-фас-5-1в-5-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-5/1В</span> (5 кВт)
+    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 5 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-5/1В
+  title: Газовый генератор <span class="text-red">ФАС-5/1В</span> (5 кВт)
+  _legacyPrice: 130 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовые генераторы ФАС-5/1В предназначены для аварийного электроснабжения.<br>
+    Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 5 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.<br>
+    Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).<br>
+    Серия “B” производится на базе двигателей Loncin G390F, объемом 390сс.<br>
+    Все электрогенераторные установки, производимые нашей компанией комплектуются автоматикой и системой автоматического ввода резерва.<br>
+    Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/no-photo.gif
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 5
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 27,3
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0.4 м³/ч * 1 кВт
+      lpg: 0.36 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engine:
+    brand: LONCIN
+    model: G390F
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    _legacySize: 1058х705х620
+    height: null
+    width: null
+    depth: null
+    weight: 90
+
+
+
+газовый-генератор-фас-6-1в-6-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-6/1В</span> (6 кВт)
+    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 6 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-6/1В
+  title: Газовый генератор <span class="text-red">ФАС-6/1В</span> (6 кВт)
+  _legacyPrice: 140 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовые генераторы ФАС-6/1В предназначены для аварийного электроснабжения.<br>
+    Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 6 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.<br>
+    Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).<br>
+    Серия “B” производится на базе двигателей Loncin G390F, объемом 390сс.<br>
+    Все электрогенераторные установки, производимые нашей компанией комплектуются автоматикой и системой автоматического ввода резерва.<br>
+    Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/no-photo.gif
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 6
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 34
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0.4 м³/ч * 1 кВт
+      lpg: 0.36 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engine:
+    brand: LONCIN
+    model: G390F
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    _legacySize: 1058х705х620
+    height: null
+    width: null
+    depth: null
+    weight: 90
+
+
+
+газовый-генератор-фас-7-1в-7-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-7/1В</span> (7 кВт)
+    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 7 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-7/1В
+  title: Газовый генератор <span class="text-red">ФАС-7/1В</span> (7 кВт)
+  _legacyPrice: 160 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовые генераторы ФАС-7/1В предназначены для аварийного электроснабжения.<br>
+    Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 7 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.<br>
+    Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).<br>
+    Серия “B” производится на базе двигателей Loncin LC2V78FD-1, объемом 678сс.<br>
+    Все электрогенераторные установки, производимые нашей компанией комплектуются автоматикой и системой автоматического ввода резерва.<br>
+    Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/no-photo.gif
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 7
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 36,3
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0.42 м³/ч * 1 кВт
+      lpg: 0.38 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engine:
+    brand: LONCIN
+    model: LC2V78F-1
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    _legacySize: 1058х705х620
+    height: null
+    width: null
+    depth: null
+    weight: 125
+
+
+
+газовый-генератор-фас-8-1в-8-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-8/1В</span> (8 кВт)
+    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 8 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-8/1В
+  title: Газовый генератор <span class="text-red">ФАС-8/1В</span> (8 кВт)
+  _legacyPrice: 180 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовые генераторы ФАС-8/1В предназначены для аварийного электроснабжения.<br>
+    Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 8 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.<br>
+    Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).<br>
+    Серия “B” производится на базе двигателей Loncin LC2V78FD-1, объемом 678сс.<br>
+    Все электрогенераторные установки, производимые нашей компанией комплектуются автоматикой и системой автоматического ввода резерва.<br>
+    Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/no-photo.gif
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 8
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 41,8
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0.42 м³/ч * 1 кВт
+      lpg: 0.38 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engine:
+    brand: LONCIN
+    model: LC2V78F-1
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    _legacySize: 1058х705х620
+    height: null
+    width: null
+    depth: null
+    weight: 125
+
+
+
+газовый-генератор-фас-10-1в-10-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-10/1В</span> (10 кВт)
+    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 10 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-10/1В
+  title: Газовый генератор <span class="text-red">ФАС-10/1В</span> (10 кВт)
+  _legacyPrice: 220 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовые генераторы ФАС-10/1В предназначены для аварийного электроснабжения.<br>
+    Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 10 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.<br>
+    Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).<br>
+    Серия “B” производится на базе двигателей Loncin LC2V78FD-1, объемом 678сс.<br>
+    Все электрогенераторные установки, производимые нашей компанией комплектуются автоматикой и системой автоматического ввода резерва.<br>
+    Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/no-photo.gif
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 10
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 50
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0.42 м³/ч * 1 кВт
+      lpg: 0.38 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engine:
+    brand: LONCIN
+    model: LC2V78F-1
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    _legacySize: 1058х705х620
+    height: null
+    width: null
+    depth: null
+    weight: 125
+
+
+
+газовый-генератор-фас-вп-8-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-8-1/ВП</span> (8 кВт)
+    description: Однофазный газовый генератор с автозапуском ФАС-8-1/ВП мощностью 8 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21067.
+  type: Газовые генераторы
+  article: 490801
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-8-1/ВП
+  title: Газовый генератор <span class="text-red">ФАС-8-1/ВП</span> (8 кВт)
+  _legacyPrice: 260 000 руб.
+  price: null
+  discount: 20
+  _oldPrice: 320 000 руб.
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый электрогенератор с жидкостным охлаждением, мощностью 8 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/6IMG_5154_copy_1024__1_.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/7IMG_5193_copy_1024.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/b3xEWJyrfJI.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/FvBltkw4NbE.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Gno_Q4_2Ezo.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/M_FyzE2Uh6U.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/mq6AMRWQ2OU.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/NmU2FLxUgYE.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Nuc7fRLnhrA.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/p7XKRNdyIxo.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/VF-IiQB8Gfk.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/WdyJF_aIvhw.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 8/8
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 34,8
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0.43 м³/ч * 1 кВт
+      lpg: 0.370 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21067
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    _legacySize: 1320х780х965
+    height: null
+    width: null
+    depth: null
+    weight: 400
+
+
+
+газовый-генератор-фас-вп-10-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-10-1/ВП</span> (10 кВт)
+    description: Газовый электрогенератор с жидкостным охлаждением на 10 кВт, однофазный. На базе двигателя ВАЗ 21067. Во всепогодном, шумопоглощающем кожухе. С автоматическим вводом резерва.
+  type: Газовые генераторы
+  article: 491001
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-10-1/ВП
+  title: Газовый генератор <span class="text-red">ФАС-10-1/ВП</span> (10 кВт)
+  _legacyPrice: 275 000 руб.
+  price: null
+  discount: 20
+  _oldPrice: 335 000 руб.
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый электрогенератор с жидкостным охлаждением, мощностью 10 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/6IMG_5154_copy_1024__1_.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/7IMG_5193_copy_1024.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/b3xEWJyrfJI.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/FvBltkw4NbE.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Gno_Q4_2Ezo.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/M_FyzE2Uh6U.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/mq6AMRWQ2OU.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/NmU2FLxUgYE.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Nuc7fRLnhrA.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/p7XKRNdyIxo.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/VF-IiQB8Gfk.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/WdyJF_aIvhw.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 9,5/10
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 43,5
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21067
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    _legacySize: 1320х780х965
+    height: null
+    width: null
+    depth: null
+    weight: 400
+
+
+
+газовый-генератор-фас-вп-13-квт-1:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-13-1/ВП</span> (13 кВт)
+    description: Однофазный газовый генератор с автозапуском ФАС-13-1/ВП мощностью 13 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21067.
+  type: Газовые генераторы
+  article: 491301
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-13-1/ВП
+  title: Газовый генератор <span class="text-red">ФАС-13-1/ВП</span> (13 кВт)
+  _legacyPrice: 310 000 руб.
+  price: null
+  discount: 20
+  _oldPrice: 390 000 руб.
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый электрогенератор с жидкостным охлаждением, мощностью 13 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/6IMG_5154_copy_1024__1_.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/7IMG_5193_copy_1024.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/b3xEWJyrfJI.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/FvBltkw4NbE.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Gno_Q4_2Ezo.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/M_FyzE2Uh6U.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/mq6AMRWQ2OU.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/NmU2FLxUgYE.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Nuc7fRLnhrA.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/p7XKRNdyIxo.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/VF-IiQB8Gfk.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/WdyJF_aIvhw.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 11,5/13
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 52,2
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21213
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    _legacySize: 1320х780х965
+    height: null
+    width: null
+    depth: null
+    weight: 400
+
+
+
+газовый-генератор-фас-вп-13-квт-3:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-13-3/ВП</span> (13 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-13-3/ВР мощностью 13 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21067.
+  type: Газовые генераторы
+  article: 491303
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-13-3/ВП
+  title: Газовый генератор <span class="text-red">ФАС-13-3/ВП</span> (13 кВт)
+  _legacyPrice: 320 000 руб.
+  price: null
+  discount: 20
+  _oldPrice: 410 000 руб.
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый электрогенератор с жидкостным охлаждением, мощностью 13 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/6IMG_5154_copy_1024__1_.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/7IMG_5193_copy_1024.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/b3xEWJyrfJI.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/FvBltkw4NbE.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Gno_Q4_2Ezo.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/M_FyzE2Uh6U.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/mq6AMRWQ2OU.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/NmU2FLxUgYE.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Nuc7fRLnhrA.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/p7XKRNdyIxo.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/VF-IiQB8Gfk.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/WdyJF_aIvhw.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 12/13
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 19,7
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21213
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    _legacySize: 1320х780х965
+    height: null
+    width: null
+    depth: null
+    weight: 400
+
+
+
+fas-15-ozp1-ваз-15квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-15-1/ВР</span> (15 кВт)
+    description: Однофазный газовый генератор с автозапуском ФАС-15-1/ВР мощностью 15 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ.
+  type: Газовые генераторы
+  article: 481501
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-15-1/ВР
+  title: Газовый генератор <span class="text-red">ФАС-15-1/ВР</span> (15 кВт)
+  _legacyPrice: 350 000 руб.
+  price: null
+  discount: 15
+  _oldPrice: 410 000 руб.
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый генератор ФАС-15-1/ВР на базе двигателя ВАЗ 21083 с жидкостным охлаждением. Номинальная мощность - 15 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +55С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -55С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 14,5/15
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 64
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1600
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21083
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1300×820×990
+    height: null
+    width: null
+    depth: null
+    weight: 470
+
+
+
+fas-15-ozp3-ваз-15квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-15-3/ВР</span> (15 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-15-3/ВР мощностью 15 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ.
+  type: Газовые генераторы
+  article: 481503
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-15-3/ВР
+  title: Газовый генератор <span class="text-red">ФАС-15-3/ВР</span> (15 кВт)
+  _legacyPrice: 370 000 руб.
+  price: null
+  discount: 10
+  _oldPrice: 420 000 руб.
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-15-3/ВР на базе двигателя ВАЗ 21083 с жидкостным охлаждением. Номинальная мощность - 15 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 14,5/15
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 21
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1600
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21083
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1300×820×990
+    height: null
+    width: null
+    depth: null
+    weight: 470
+
+
+
+газовый-генератор-фас-17-ozp1-v-17-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-18-1/ВР</span> (18 кВт)
+    description: Однофазный газовый генератор с автозапуском ФАС-18-1/ВР мощностью 18 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ.
+  type: Газовые генераторы
+  article: 481801
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-18-1/ВР
+  title: Газовый генератор <span class="text-red">ФАС-18-1/ВР</span> (18 кВт)
+  _legacyPrice: 450 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый генератор ФАС-18-1/ВР на базе двигателя ВАЗ 21083 с жидкостным охлаждением. Номинальная мощность - 18 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 17/18
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 82
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 2600
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21083
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1700×830×1000
+    height: null
+    width: null
+    depth: null
+    weight: 530
+
+
+
+газовый-генератор-фас-17-ozp3-v-17-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-18-3/ВР</span> (18 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-18-3/ВР мощностью 18 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ.
+  type: Газовые генераторы
+  article: 481803
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-18-3/ВР
+  title: Газовый генератор <span class="text-red">ФАС-18-3/ВР</span> (18 кВт)
+  _legacyPrice: 460 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-18-3/ВР на базе двигателя ВАЗ 21083 с жидкостным охлаждением. Номинальная мощность - 18 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 17/18
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 22
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 2600
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21083
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1300×820×990
+    height: null
+    width: null
+    depth: null
+    weight: 470
+
+
+
+fas-21-ozp1-ваз-21квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-21-1/ВП</span> (21 кВт)
+    description: Однофазный газовый генератор с автозапуском ФАС-21-1/ВР мощностью 21 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21213.
+  type: Газовые генераторы
+  article: 492101
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-21-1/ВП
+  title: Газовый генератор <span class="text-red">ФАС-21-1/ВП</span> (21 кВт)
+  _legacyPrice: 550 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый генератор ФАС-21-1/ВП на базе двигателя ВАЗ 21213 с жидкостным охлаждением. Номинальная мощность - 21 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 20/21
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 100
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 2600
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21213
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1700×830×1000
+    height: null
+    width: null
+    depth: null
+    weight: 530
+
+
+
+fas-21-ozp3-ваз-21квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-21-3/ВР</span> (21 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-21-3/ВР мощностью 21 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21213.
+  type: Газовые генераторы
+  article: 482103
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-21-3/ВР
+  title: Газовый генератор <span class="text-red">ФАС-21-3/ВР</span> (21 кВт)
+  _legacyPrice: 550 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-21-3/ВР на базе двигателя ВАЗ 21083 с жидкостным охлаждением. Номинальная мощность - 21 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 20/21
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 30
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 2600
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21083
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1300×820×990
+    height: null
+    width: null
+    depth: null
+    weight: 520
+
+
+
+газовый-генератор-фас-25-ozp3-v-25-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-24-3/ВР</span> (24 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-24-3/ВР мощностью 24 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21230.
+  type: Газовые генераторы
+  article: 482403
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-24-3/ВР
+  title: Газовый генератор <span class="text-red">ФАС-24-3/ВР</span> (24 кВт)
+  _legacyPrice: 570 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-24-3/ВР на базе двигателя ВАЗ 21083 с жидкостным охлаждением. Номинальная мощность - 24 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +55С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -55С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 23/24
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 36
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 2800
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21083
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1700×830×1000
+    height: null
+    width: null
+    depth: null
+    weight: 520
+
+
+
+газовый-генератор-фас-28-ozp3-v-28-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-28-3/ВП</span> (28 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-28-3/ВР мощностью 28 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21213.
+  type: Газовые генераторы
+  article: 492803
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-28-3/ВП
+  title: Газовый генератор <span class="text-red">ФАС-28-3/ВП</span> (28 кВт)
+  _legacyPrice: 610 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-28-3/ВП на базе двигателя ВАЗ 21213 с жидкостным охлаждением. Номинальная мощность - 28 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel-w-shield.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed--panel-w-shield.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-right.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left-top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left-top--powerplant.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel--zoom.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--connection-terminals--electrical-equipment_and-power.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left-top--electrical-equipment.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left--electrical-equipment.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 26/28
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 40
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 3000
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21213
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1720×870×1010
+    height: null
+    width: null
+    depth: null
+    weight: 530
+
+
+
+fas-32-ozp3-ваз-32квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-32-3/ВП</span> (32 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-32-3/ВР мощностью 32 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе от производителя по выгодной цене. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21213. В шумопог
+  type: Газовые генераторы
+  article: 493203
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-32-3/ВП
+  title: Газовый генератор <span class="text-red">ФАС-32-3/ВП</span> (32 кВт)
+  _legacyPrice: 650 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-32-3/ВП на базе двигателя ВАЗ 21213 с жидкостным охлаждением. Номинальная мощность - 32 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel-w-shield.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed--panel-w-shield.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-right.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left-top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel--zoom.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--connection-terminals--electrical-equipment_and-power.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left-top--electrical-equipment.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left--electrical-equipment.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left-top--powerplant.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 30/32
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 49
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 3000
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21213
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1720×870×1010
+    height: null
+    width: null
+    depth: null
+    weight: 530
+
+
+
+установка-фас-60-3-кв-60-квт:
+  meta:
+    title: Установка <span class="text-red">ФАС-60-3/ВК</span> (60 кВт)
+    description: Газопоршневая установка ФАС-60-3/ВК мощностью 60 кВт, сконструированная на базе двух синхронизированных газовых генераторов ФАС-32-3/ВС мощностью 32 кВт. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21213.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-60-3/ВК
+  title: Установка <span class="text-red">ФАС-60-3/ВК</span> (60 кВт)
+  _legacyPrice: 1 250 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Установка ФАС-60-3/ВК предназначена для постоянного/резервного режима работы на природном газе (метане) или сжиженном газе (СУГ).</p>
+    <h2>Принцип работы системы</h2>
+    <p>Установка ФАС-60-3/ВК обеспечивает:</p>
+    <ul>
+    <li>необходимую мощностью до 60 кВт электрической энергии;</li>
+    <li>оптимальный (сниженный) расход топлива при неполной загрузке; С</li>
+    <li>низкий уровень шума во время работы.</li>
+    </ul>
+    <p>В зависимости от технического задания Заказчика система может быть различно настроена, благодаря широкому диапазону регулировок. При стандартных настройках схема работы выглядит следующим образом:</p>
+    <ul>
+    <li>после перевода станций в автоматический режим каждая заводится для самопроверки;</li>
+    <li>в течении 60 секунд происходит синхронизация и подключение в общую сеть;</li>
+    <li>в зависимости от нагрузки обе станции продолжают работать или одна из них переходит в режим ожидания;</li>
+    <li>если осталась работать одна станция, то вторая подключится при превышении предустановленного значения;</li>
+    <li>при уменьшении потребляемой мощности произойдет отключение одной из станций;</li>
+    <li>при переводе станций в режим «СТОП», обе перейдут в режим охлаждения и остановятся в течении 60 секунд;</li>
+    </ul>
+    <p>Такая схема каскадной работы позволяет значительно уменьшить расход топлива всей системы по сравнению с одно или двух модульным оборудованием.</p>
+    <p>Система автоматики снабжена слежением за равномерной наработкой часов каждого электрогенератора и меняет основные генераторы с ведомыми местами при распределении нагрузки. Это позволяет осуществить равномерную наработку каждой станции для увеличения срока службы всего оборудования. Так же это дает возможность увеличить срок меж сервисного обслуживания, а в момент его проведения выполнить работы на максимальном количестве генераторов.</p>
+    <h2>Дополнительные функции: Режим резервирования</h2>
+    <p>Распределительный щит возможно укомплектовать функцией автоматического ввода резерва (АВР). В этом случае ФАС-60/КМ переходит в режим резервирование объекта. </p>
+    <ul>
+    <li>при пропадании одной или нескольких фаз основной сети, а также при низком или высоком напряжении (180-250 В) произойдет запуск станций;</li>
+    <li>система активизируется и выдаст необходимое количество электроэнергии по схеме, указанной выше;</li>
+    <li>после появлении основной сети обе станции перейдут в режим охлаждения, остановятся и перейдут в режим ожидания;</li>
+    </ul>
+    <h2>Преимущества использования установок каскадного исполнения</h2>
+    <p>При неравномерном потреблении электроэнергии целесообразно применение генераторных установок в каскадном исполнении. Данная функция достигнута за счет установки с синхронизацией нескольких генераторов. </p>
+    <p>Основные преимущества по сравнению с моно- и двух генераторными блоками: '</p>'
+    <ul>
+    <li>Увеличенный общий ресурс; </li>
+    <li>Увеличенная резервная мощность;</li>
+    <li>Сниженный расход топлива за счет каскадного исполнения;</li>
+    <li>Удобство обслуживания без отключения установки;</li>
+    <li>Большая надежность системы;</li>
+    <li>Различные варианты настроек работы.</li>
+    </ul>
+    <p> <br>
+    </p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/AVR-----front-left--closed-_1_cut.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый генератор ФАС-32-3/ВС – 2шт.</li>
+    <li>Кожух шумопоглощающий – 2шт./li>
+    <li>Щит распределения нагрузки – 1шт. </li>
+  specs:
+    power:
+      _legacy: 60
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 91
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 3000
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21213
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 2×(1720×870×1010)
+    height: null
+    width: null
+    depth: null
+    weight: 1060
+
+
+
+газовый-генератор-фас-40-3-м-40-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-40-3/М</span> (40 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-40-3/М мощностью 40 кВт. Надежная газовая электростанция ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе для использования в загородных домах, на стройплощадках и других объектах в качестве основного резервного источника питания. На базе двигателя ММЗ Д-243.
+  type: Газовые генераторы
+  article: 494003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-40-3/М
+  title: Газовый генератор <span class="text-red">ФАС-40-3/М</span> (40 кВт)
+  _legacyPrice: 1 140 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-40-3/М на базе двигателя ММЗ Д-243 с жидкостным охлаждением. Номинальная мощность - 40 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--02.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--01.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--03.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--panel.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--zoom.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back-left-top--coolant-heater--1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back-right--WHAT-IS-IT.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--closed--door--panel.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--engine-oil-drain.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--regulator.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-left--gas-input--regulator--throttle.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--alternator-sign.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--vent.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 40/40
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 68,2
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ММЗ
+    model: Д-246
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 2210х1200х1200
+    height: null
+    width: null
+    depth: null
+    weight: 1000
+
+
+
+газовый-генератор-фас-55-ozp3-m-55-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-50-3/М</span> (50 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-50-3/М мощностью 50 кВт. Надежная газовая электростанция ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе для использования в загородных домах, на стройплощадках и других объектах в качестве основного резервного источника питания. На базе двигателя ММЗ Д-243.
+  type: Газовые генераторы
+  article: 495003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-50-3/М
+  title: Газовый генератор <span class="text-red">ФАС-50-3/М</span> (50 кВт)
+  _legacyPrice: 1 240 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-50-3/М на базе двигателя ММЗ Д-243 с жидкостным охлаждением. Номинальная мощность - 50 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--01.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--03.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--panel.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--zoom.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back-left-top--coolant-heater--1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back-right--WHAT-IS-IT.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--02.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--closed--door--panel.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--engine-oil-drain.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--regulator.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-left--gas-input--regulator--throttle.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--alternator-sign.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--vent.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 50/50
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 83,3
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ММЗ
+    model: Д-246
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 2210х1200х1200
+    height: null
+    width: null
+    depth: null
+    weight: 1000
+
+
+
+газопоршневая-станция-фас-100-3-р-100-квт:
+  meta:
+    title: Газопоршневая станция <span class="text-red">ФАС-100-3/Р</span> (100 кВт)
+    description: Надежная газопоршневая станция ФАС мощностью 100 кВт
+  type: Газовые генераторы
+  article: 4910003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-100-3/Р
+  title: Газопоршневая станция <span class="text-red">ФАС-100-3/Р</span> (100 кВт)
+  _legacyPrice: 2 300 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газопоршневые электростанция ФАС-100-3/Р (мощностью 100 кВт) выпускается на базе V-образных 8-цилиндровых двигателей ЯМЗ производства Ярославского моторного завода (ОАО «Автодизель», Россия). </p>
+    <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР. </p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7957_half.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Одноопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГПУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+  specs:
+    power:
+      _legacy: 100
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 180
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0,32 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ЯМЗ
+    model: 238
+  enclosure:
+    type: open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    _legacySize: 2900 ×1420 ×1650 (на раме)
+    height: null
+    width: null
+    depth: null
+    weight: 2500 (на раме)
+
+
+
+газопоршневая-станция-фас-150-3-р-150квт:
+  meta:
+    title: Газопоршневая станция <span class="text-red">ФАС-150-3/Р</span> (150 кВт)
+    description: Надежная газопоршневая станция ФАС мощностью 150 кВт
+  type: Газовые генераторы
+  article: 4915003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-150-3/Р
+  title: Газопоршневая станция <span class="text-red">ФАС-150-3/Р</span> (150 кВт)
+  _legacyPrice: 2 600 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газопоршневые электростанция ФАС-150-3/Р (мощностью 150 кВт) выпускается на базе V-образных 8-цилиндровых двигателей ЯМЗ производства Ярославского моторного завода (ОАО «Автодизель», Россия). </p>
+    <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР. </p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7957_half.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Одноопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГПУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+  specs:
+    power:
+      _legacy: 150
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 270
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0,32 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ЯМЗ
+    model: 238
+  enclosure:
+    type: open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    _legacySize: 2900 ×1420 ×1650 (на раме)
+    height: null
+    width: null
+    depth: null
+    weight: 2500 (на раме)
+
+
+
+газопоршневая-станция-фас-200-3-р-200-квт:
+  meta:
+    title: Газопоршневая станция <span class="text-red">ФАС-200-3/Р</span> (200 кВт)
+    description: Надежная газопоршневая станция ФАС мощностью 200 кВт
+  type: Газовые генераторы
+  article: 4920003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-200-3/Р
+  title: Газопоршневая станция <span class="text-red">ФАС-200-3/Р</span> (200 кВт)
+  _legacyPrice: 3 300 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газопоршневые электростанция ФАС-200-3/Р (мощностью 200 кВт) выпускается на базе V-образных 8-цилиндровых двигателей ЯМЗ производства Ярославского моторного завода (ОАО «Автодизель», Россия). </p>
+    <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР. </p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7957_half.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Одноопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГПУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+  specs:
+    power:
+      _legacy: 200
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 360
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0,32 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ЯМЗ
+    model: 7514
+  enclosure:
+    type: open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    _legacySize: 2900 ×1420 ×1650 (на раме)
+    height: null
+    width: null
+    depth: null
+    weight: 2500 (на раме)
+
+
+
+когенерационная-установка-фас-50-70м:
+  meta:
+    title: Когенерационная установка <span class="text-red">ФАС-50/70М</span>
+    description: Когенерационная газопоршневая установка ФАС-50/70М электрической мощностью 50 кВт и тепловой мощностью 70 кВт. Надежная газовая электростанция ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе для использования в загородных домах, на стройплощадках и других объектах в качестве основного резервного источника питания. На базе двигателя ММЗ Д-243.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-50/70М
+  title: Когенерационная установка <span class="text-red">ФАС-50/70М</span>
+  _legacyPrice: 2 390 000
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p><strong>ФАС-50/70М</strong> – когенерационная установка для одновременной выработки электрической и тепловой энергии для жилых, производственных и коммерческих объектов. Установка представляет собой газопоршневую электростанцию <a href="/catalog/газовые-генераторы/mmz/газовый-генератор-фас-55-ozp3-m-55-квт">ФАС-50-3/М</a> оборудованную модулем утилизации тепла <a href="/l/тепловой-модуль-фас-тм100">ФАС-ТМ100</a>.</p>
+    <p>Комбинированная выработка электрической и тепловой энергии или когенерация, одна из наиболее эффективных энергосберегающих технологий. Тепловая энергия получается за счёт утилизации тепла выхлопных газов двигателя внутреннего сгорания и охлаждающей жидкости газопоршневой станции.</p>
+    <p>У современных когенерационных установок на базе газопоршневых двигателей коэффициент использования теплоты сгорания топлива доходит до 85-90%. Экономия топлива при выработке энергии может достигать 40% по сравнению с раздельным производством того же количества электроэнергии (электростанция) и тепловой энергии (водогрейная котельная).</p>
+    <p>Когенерационная установка позволяет экономить на подключении к электро и теплосетям, так же обеспечивает энергетическую независимость от сбоев в электроснабжении и аварий в системах теплоснабжения.</p>
+    <p>При эксплуатации ФАС-50/70М на 50 кВт электрической мощности потребитель получает 70 кВт тепловой мощности для нагрева воды и технологических нужд.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_113183264_x_2448_cr.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_112523264_x_2448.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_112633264_x_2448.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_1142193264_x_2448.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_1140172448_x_3264.jpg
+  videos: null
+  docs:
+    - http://fasenergo.ru/products/generators/fas/documents/FAS-TM100.pdf
+  tags: null
+  equipment: >
+    <li>Газопоршневая установка <a href="/catalog/газовые-генераторы/mmz/газовый-генератор-фас-55-ozp3-m-55-квт">ФАС-50-3/М</a></li>
+    <li>Тепловой модуль <a href="/l/тепловой-модуль-фас-тм100">ФАС-ТМ100</a></li>
+  specs:
+    power:
+      _legacy: 50/50
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 83,3
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ММЗ
+    model: Д-246
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 2510×1205×2345
+    height: null
+    width: null
+    depth: null
+    weight: 1706
+
+
+
+газовый-генератор-фас-8-1-вт-турбо-8-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-8-1/ВТ ТУРБО</span> (8 кВт)
+    description: Однофазный газовый генератор с автозапуском ФАС-8-1/ВТ мощностью 8 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе ТУРБО от производителя. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21067.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-8-1/ВТ
+  title: Газовый генератор <span class="text-red">ФАС-8-1/ВТ ТУРБО</span> (8 кВт)
+  _legacyPrice: 440 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый генератор ФАС-8-1/ВП на базе двигателя ВАЗ 21067 с жидкостным охлаждением. Номинальная мощность - 8 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-top--open.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left_white_800px_comperssed.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-right.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-top--open.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 8/8
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 34,8
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21067
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    _legacySize: 1550х900х1050
+    height: null
+    width: null
+    depth: null
+    weight: 372
+
+
+
+газовый-генератор-фас-10-1-вт-турбо-10-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-10-1/ВТ ТУРБО</span> (10 кВт)
+    description: Однофазный газовый генератор с автозапуском ФАС-10-1/ВТ мощностью 10 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе ТУРБО от производителя. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21067.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-10-1/ВТ
+  title: Газовый генератор <span class="text-red">ФАС-10-1/ВТ ТУРБО</span> (10 кВт)
+  _legacyPrice: 460 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый генератор ФАС-10-1/ВП на базе двигателя ВАЗ 21067 с жидкостным охлаждением. Номинальная мощность - 10 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-top--open.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left_white_800px_comperssed.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-right.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-top--open.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 9,5/10
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 43,5
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21067
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    _legacySize: 1550х900х1050
+    height: null
+    width: null
+    depth: null
+    weight: 377
+
+
+
+газовый-генератор-фас-13-1-вт-турбо-13-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-13-1/ВТ ТУРБО</span> (13 кВт)
+    description: Однофазный газовый генератор с автозапуском ФАС-13-1/ВТ мощностью 13 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе ТУРБО от производителя. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21067.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-13-1/ВТ
+  title: Газовый генератор <span class="text-red">ФАС-13-1/ВТ ТУРБО</span> (13 кВт)
+  _legacyPrice: 510 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый генератор ФАС-13-1/ВП на базе двигателя ВАЗ 21067 с жидкостным охлаждением. Номинальная мощность - 13 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-top--open.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left_white_800px_comperssed.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-right.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-top--open.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 11,5/13
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 52,2
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21067
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    _legacySize: 1550х900х1050
+    height: null
+    width: null
+    depth: null
+    weight: 385
+
+
+
+газовый-генератор-фас-13-3-вт-турбо-13-квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-13-3/ВТ ТУРБО</span> (13 кВт)
+    description: Трёхфазный газовый генератор с автозапуском ФАС-13-3/ВТ мощностью 13 кВт. Газовый генератор ФАС с жидкостным охлаждением во всепогодном шумозащитном кожухе ТУРБО от производителя. Подробные характеристики, возможна доставка в любую точку России и СНГ. На базе двигателя ВАЗ 21067.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-13-3/ВТ
+  title: Газовый генератор <span class="text-red">ФАС-13-3/ВТ ТУРБО</span> (13 кВт)
+  _legacyPrice: 525 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-13-3/ВП ТУРБО на базе двигателя ВАЗ 21213 с жидкостным охлаждением. Номинальная мощность - 13 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-top--open.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left_white_800px_comperssed.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-right.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-top--open.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__left.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 12/13
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 19,7
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engine:
+    brand: ВАЗ
+    model: 21067
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    _legacySize: 1550х900х1050
+    height: null
+    width: null
+    depth: null
+    weight: 389
+
+
+
+fas-15-ozp3-kubota-15квт:
+  meta:
+    title: Газовый генератор <span class="text-red">ФАС-15-OZP3/K</span> (15 кВт)
+    description: Газовый генератор с жидкостным охлаждением на 15 кВт, трехфазный. На базе двигателя Kubota. В шумопоглощающем кожухе. С автоматическим вводом резерва.
+  type: Газовые генераторы
+  article: 48102001
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-15-OZP3/K
+  title: Газовый генератор <span class="text-red">ФАС-15-OZP3/K</span> (15 кВт)
+  _legacyPrice: 470 000 руб.
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-15-OZP3/K на базе двигателя Kubota DF972 с жидкостным охлаждением. Номинальная мощность - 15 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__1__front--right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__10__right.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__11__front--panel.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__12__inter-control--front--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__13__engine--front--left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__2__back--right--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__3__left--closed.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__4__back--left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__5__front--right--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__6__left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__7__left--top.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__8__top--left.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__9__right--top.jpg
+  videos: null
+  docs: null
+  tags: null
+  equipment: >
+    <li>Газовый двигатель с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +55С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -55С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Двухопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГГУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Электрический пульт ручного запуска с измерительными приборами</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+    <li>Масло Shell SAE 5W-40</li>
+    <li>Антифриз</li>
+  specs:
+    power:
+      _legacy: 14/15
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 21
+      lpg: null
+      ng: null
+    voltage: 380
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: null
+    cooling: null
+  engine:
+    brand: KUBOTA
+    model: DF972
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    _legacySize: 1250×720×935
+    height: null
+    width: null
+    depth: null
+    weight: 345
+
+
+
+14resa-11квт:
+  meta:
+    title: Газовый генератор SDMO Kohler 14RESA (11 кВт)
+    description: null
+  type: Газовые генераторы
+  article: 93974
+  manufacturer:
+    brand: SDMO
+    country: null
+  series: null
+  model: 14RESA
+  title: Газовый генератор SDMO Kohler 14RESA (11 кВт)
+  _legacyPrice: 4 490 €
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy:
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовый генератор SDMO в шумоизолирующем кожухе с запуском от электростартера. Оснащён газовым двигателем KOHLER воздушного охлаждения. Работает на природном и сжиженном углеводородном газе.</p>
+    <p>Бытовые генераторные установки в линейке Residential Power, помимо своих профессиональных характеристик, являются компактными и бесшумными, что делает их подходящими для эксплуатации дома. Просты в использовании и могут непрерывно работать вне помещения. При перебое электропитания запуск происходит автоматически, что позволяет продолжать повседневную жизнь в нормальном режиме: холодильники и морозильники продолжат работать, отопление и система сигнализации будут по-прежнему функционировать.</p>
+    <p>Бытовые генераторные установки отличаются низким уровнем шума и малым объемом выброса, безопасны для окружающей среды.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-front.JPG
+    - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-back.JPG
+    - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-open.JPG
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 10/11
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 50/58
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: null
+    cooling: null
+  engine:
+    brand: KOHLER
+    model: CH740
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 65
+    _legacySize: 1216×655×733
+    height: null
+    width: null
+    depth: null
+    weight: 190
+
+
+
+20resa-15квт:
+  meta:
+    title: Газовый генератор SDMO Kohler 20RESA (15 кВт)
+    description:
+  type: Газовые генераторы
+  article: 93975
+  manufacturer:
+    brand: SDMO
+    country: null
+  series: null
+  model: 20RESA
+  title: Газовый генератор SDMO Kohler 20RESA (15 кВт)
+  _legacyPrice: 4 890 €
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy:
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовый генератор SDMO в шумоизолирующем кожухе с запуском от электростартера. Оснащён газовым двигателем KOHLER воздушного охлаждения. Работает на природном и сжиженном углеводородном газе.</p>
+    <p>Бытовые генераторные установки в линейке Residential Power, помимо своих профессиональных характеристик, являются компактными и бесшумными, что делает их подходящими для эксплуатации дома. Просты в использовании и могут непрерывно работать вне помещения. При перебое электропитания запуск происходит автоматически, что позволяет продолжать повседневную жизнь в нормальном режиме: холодильники и морозильники продолжат работать, отопление и система сигнализации будут по-прежнему функционировать.</p>
+    <p>Бытовые генераторные установки отличаются низким уровнем шума и малым объемом выброса, безопасны для окружающей среды.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-front.JPG
+    - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-back.JPG
+    - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-open.JPG
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 14/15
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 75/83
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: null
+    cooling: null
+  engine:
+    brand: KOHLER
+    model: CH1000
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 65
+    _legacySize: 1216×655×733
+    height: null
+    width: null
+    depth: null
+    weight: 242
+
+
+
+5914:
+  meta:
+    title: Газовый генератор Generac 5914
+    description:
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Generac
+    country: null
+  series: null
+  model: 5914
+  title: Газовый генератор Generac 5914
+  _legacyPrice: 3 750 €
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy:
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовые генераторы Generac 5914 предназначены для бытового использования – прежде всего, для электроснабжения загородных домов, дач, коттеджей. Это компактные, надежные и неприхотливые агрегаты, которые не требуют особых условий для монтажа и эксплуатации. Устанавливать их можно прямо на улице – всепогодный корпус защищает генератор от загрязнений и влаги и позволяет использовать его круглый год. Для запуска генератора в зимних условиях предусмотрены специальные комплекты подогрева.</p>
+    <p>Мощность этих генераторов - до 8 кВт при работе на природном газе. При использовании сжиженного газа номинальная мощность генераторов возрастает примерно на 10 процентов.</p>
+    <p>Газовые генераторы Generac обеспечивают качественное и бесперебойное электроснабжение без существенных перепадов мощности, поэтому с ними можно использовать любые, даже самые чувствительные электроприборы. При этом они могут достаточно долго работать без перерыва, что позволяет использовать их не только в аварийных случаях, но и в качестве основного источника энергии.</p>
+  features: >
+    <div class="features-list__feature grid__item one-half">
+    <h3>Высокий моторесурс</h3>
+    <p>Знаменитый фирменный двигатель Generac OHVI способен проработать до 8000 моточасов.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Длительная непрерывная работа</h3>
+    <p>Рекордные показатели среди генераторов с воздушным охлаждением – 20 часов непрерывной работы.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Прочный всепогодный кожух</h3>
+    <p>Стальной корпус изготовлен по технологии RhinoCoat™ со слоями тепло- и шумопоглощающих материалов обеспечивает надежную защиту механизма и возможность его эксплуатации в любое время года.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Низкий уровень шума</h3>
+    <p>Уровень шума – в пределах 65 дБ на расстоянии 7м при стандартной нагрузке. Это один из самых низких показателей среди воздушных генераторов схожей мощности.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Адаптирован к морозам до -25С</h3>
+    <p>Предусмотрена возможность подогрева картера и зарядки пусковой аккумуляторной батареи от сети.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Стабильность работы</h3>
+    <p>Минимальные перепады мощности и напряжения на протяжении всего цикла работы благодаря технологии True Power™.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>2 вида топлива</h3>
+    <p>Может работать как на природном газе, так и на сжиженном, с проведением регулировки.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Электронное управление</h3>
+    <p>Цифровая ЖК-панель управления Nexus с удобным интерфейсом и автоматическими электронными регуляторами напряжения, частоты оборотов двигателя генератора и других параметров.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Автоматизированные системы безопасности</h3>
+    <p>Защита от перегрузок. Автоматическая остановка при превышении скорости вращения двигателя, превышении рабочей температуры генератора, при низком уровне масла.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Режим самодиагностики</h3>
+    <p>Позволяет в автоматическом режиме запускать регулярное самостоятельное тестирование всех рабочих систем Quiet-Test™.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Экономичность</h3>
+    <p>Эксклюзивная конструкция двигателей OHVI позволяет добиваться максимально эффективного использования топлива. Кроме того, для этих двигателей характерно экономное потребление масла (замена требуется через 200 часов работы).</p>
+    </div>
+  photos:
+    - url: http://fasenergo.ru/products/generators/generac/photos/generac-product-guardian-series-8kw-front-model-6245.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 8
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 33,3
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: null
+    cooling: null
+  engine:
+    brand: GENERAC
+    model: GT-530
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 63
+    _legacySize: 1218x638x732
+    height: null
+    width: null
+    depth: null
+    weight: 175
+
+
+
+5915:
+  meta:
+    title: Газовый генератор Generac 5915
+    description:
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Generac
+    country: null
+  series: null
+  model: 5915
+  title: Газовый генератор Generac 5915
+  _legacyPrice: 4 175 €
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy:
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовые генераторы Generac 5915 предназначены для бытового использования – прежде всего, для электроснабжения загородных домов, дач, коттеджей. Это компактные, надежные и неприхотливые агрегаты, которые не требуют особых условий для монтажа и эксплуатации. Устанавливать их можно прямо на улице – всепогодный корпус защищает генератор от загрязнений и влаги и позволяет использовать его круглый год. Для запуска генератора в зимних условиях предусмотрены специальные комплекты подогрева.</p>
+    <p>Мощность этих генераторов - до 10 кВт при работе на природном газе. При использовании сжиженного газа номинальная мощность генераторов возрастает примерно на 10 процентов.</p>
+    <p>Газовые генераторы Generac обеспечивают качественное и бесперебойное электроснабжение без существенных перепадов мощности, поэтому с ними можно использовать любые, даже самые чувствительные электроприборы. При этом они могут достаточно долго работать без перерыва, что позволяет использовать их не только в аварийных случаях, но и в качестве основного источника энергии.</p>
+  features: >
+    <div class="features-list__feature grid__item one-half">
+    <h3>Высокий моторесурс</h3>
+    <p>Знаменитый фирменный двигатель Generac OHVI способен проработать до 8000 моточасов.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Длительная непрерывная работа</h3>
+    <p>Рекордные показатели среди генераторов с воздушным охлаждением – 20 часов непрерывной работы.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Прочный всепогодный кожух</h3>
+    <p>Стальной корпус изготовлен по технологии RhinoCoat™ со слоями тепло- и шумопоглощающих материалов обеспечивает надежную защиту механизма и возможность его эксплуатации в любое время года.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Низкий уровень шума</h3>
+    <p>Уровень шума – в пределах 65 дБ на расстоянии 7м при стандартной нагрузке. Это один из самых низких показателей среди воздушных генераторов схожей мощности.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Адаптирован к морозам до -25С</h3>
+    <p>Предусмотрена возможность подогрева картера и зарядки пусковой аккумуляторной батареи от сети.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Стабильность работы</h3>
+    <p>Минимальные перепады мощности и напряжения на протяжении всего цикла работы благодаря технологии True Power™.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>2 вида топлива</h3>
+    <p>Может работать как на природном газе, так и на сжиженном, с проведением регулировки.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Электронное управление</h3>
+    <p>Цифровая ЖК-панель управления Nexus с удобным интерфейсом и автоматическими электронными регуляторами напряжения, частоты оборотов двигателя генератора и других параметров.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Автоматизированные системы безопасности</h3>
+    <p>Защита от перегрузок. Автоматическая остановка при превышении скорости вращения двигателя, превышении рабочей температуры генератора, при низком уровне масла.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Режим самодиагностики</h3>
+    <p>Позволяет в автоматическом режиме запускать регулярное самостоятельное тестирование всех рабочих систем Quiet-Test™.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Экономичность</h3>
+    <p>Эксклюзивная конструкция двигателей OHVI позволяет добиваться максимально эффективного использования топлива. Кроме того, для этих двигателей характерно экономное потребление масла (замена требуется через 200 часов работы).</p>
+    </div>
+  photos:
+    - url: http://fasenergo.ru/products/generators/generac/photos/generac-product-guardian-series-11kw-front-model-6439.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 10
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 45,5
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: null
+    cooling: null
+  engine:
+    brand: GENERAC
+    model: GT-530
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 63
+    _legacySize: 1218x638x732
+    height: null
+    width: null
+    depth: null
+    weight: 193
+
+
+
+5916:
+  meta:
+    title: Газовый генератор Generac 5916
+    description:
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Generac
+    country: null
+  series: null
+  model: 5916
+  title: Газовый генератор Generac 5916
+  _legacyPrice: 5 225 €
+  price: null
+  discount: null
+  _oldPrice: null
+  availability: available
+  warranty:
+    _legacy:
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газовые генераторы Generac 5916 предназначены для бытового использования – прежде всего, для электроснабжения загородных домов, дач, коттеджей. Это компактные, надежные и неприхотливые агрегаты, которые не требуют особых условий для монтажа и эксплуатации. Устанавливать их можно прямо на улице – всепогодный корпус защищает генератор от загрязнений и влаги и позволяет использовать его круглый год. Для запуска генератора в зимних условиях предусмотрены специальные комплекты подогрева.</p>
+    <p>Мощность этих генераторов - до 13 кВт при работе на природном газе. При использовании сжиженного газа номинальная мощность генераторов возрастает примерно на 10 процентов.</p>
+    <p>Газовые генераторы Generac обеспечивают качественное и бесперебойное электроснабжение без существенных перепадов мощности, поэтому с ними можно использовать любые, даже самые чувствительные электроприборы. При этом они могут достаточно долго работать без перерыва, что позволяет использовать их не только в аварийных случаях, но и в качестве основного источника энергии.</p>
+  features: >
+    <div class="features-list__feature grid__item one-half">
+    <h3>Высокий моторесурс</h3>
+    <p>Знаменитый фирменный двигатель Generac OHVI способен проработать до 8000 моточасов.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Длительная непрерывная работа</h3>
+    <p>Рекордные показатели среди генераторов с воздушным охлаждением – 20 часов непрерывной работы.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Прочный всепогодный кожух</h3>
+    <p>Стальной корпус изготовлен по технологии RhinoCoat™ со слоями тепло- и шумопоглощающих материалов обеспечивает надежную защиту механизма и возможность его эксплуатации в любое время года.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Низкий уровень шума</h3>
+    <p>Уровень шума – в пределах 65 дБ на расстоянии 7м при стандартной нагрузке. Это один из самых низких показателей среди воздушных генераторов схожей мощности.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Адаптирован к морозам до -25С</h3>
+    <p>Предусмотрена возможность подогрева картера и зарядки пусковой аккумуляторной батареи от сети.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Стабильность работы</h3>
+    <p>Минимальные перепады мощности и напряжения на протяжении всего цикла работы благодаря технологии True Power™.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>2 вида топлива</h3>
+    <p>Может работать как на природном газе, так и на сжиженном, с проведением регулировки.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Электронное управление</h3>
+    <p>Цифровая ЖК-панель управления Nexus с удобным интерфейсом и автоматическими электронными регуляторами напряжения, частоты оборотов двигателя генератора и других параметров.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Автоматизированные системы безопасности</h3>
+    <p>Защита от перегрузок. Автоматическая остановка при превышении скорости вращения двигателя, превышении рабочей температуры генератора, при низком уровне масла.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Режим самодиагностики</h3>
+    <p>Позволяет в автоматическом режиме запускать регулярное самостоятельное тестирование всех рабочих систем Quiet-Test™.</p>
+    </div>
+    <div class="features-list__feature grid__item one-half">
+    <h3>Экономичность</h3>
+    <p>Эксклюзивная конструкция двигателей OHVI позволяет добиваться максимально эффективного использования топлива. Кроме того, для этих двигателей характерно экономное потребление масла (замена требуется через 200 часов работы).</p>
+    </div>
+  photos:
+    - url: http://fasenergo.ru/products/generators/generac/photos/generac-product-guardian-series-14kw-front-model-6247.png
+  videos: null
+  docs: null
+  tags: null
+  equipment: null
+  specs:
+    power:
+      _legacy: 13
+      lpg:
+        max: null
+      ng:
+        max: null
+    current:
+      _legacy: 59
+      lpg: null
+      ng: null
+    voltage: 220
+    frequency: 50
+    phases: null
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: null
+    cooling: null
+  engine:
+    brand: GENERAC
+    model: GT-990
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 63
+    _legacySize: 1218x638x732
+    height: null
+    width: null
+    depth: null
+    weight: 201
+
+
