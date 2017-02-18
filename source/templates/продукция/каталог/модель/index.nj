@@ -36,37 +36,6 @@ metaDesc:        Модель
 
 </header>
 
-
-{% macro Item(url, article, image, model, power, voltage, engine, price, discount, originalPrice) %}
-  <tr>
-    <td class='h-text--nowrap h-padding--'><span class='h-text--'>{{ article }}</span></td>
-    <td class='h-text--nowrap'>
-      <a class='zoomer h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ image }}' width='54' alt='{{ model }}' /></a>
-      <img class='zoomer__image h-border-r' src='{{ image }}' width='54' alt='{{ model }}' />
-    </td>
-    <td class='h-text--nowrap'><a href='{{ url }}'>{{ model }}</a></td>
-    <td class='h-text--nowrap'>
-      <span class='box-tiny wrap-orange'>
-        {% for p in power %}{{ p|number() }}{{ '/' if not loop.last }}{% endfor %} кВт
-      </span>
-    </td>
-    <td class='h-text--nowrap'>{{ voltage }} V</td>
-    <td class='h-text--nowrap'>{{ engine }}</td>
-    <td class='h-text--nowrap h-align--right'>
-      {% if discount %}
-      <div class='discount-box h-inline-block h-align--middle h-margin-right-- h-text-'>–{{ discount }}%</div>
-      <div class='h-inline-block h-align--middle h-align--right'>
-        <del class='h-opacity--70 h-text--'>{{ originalPrice|currency() }}</del>
-        <div>{{ price|currency() }}</div>
-      </div>
-      {% else %}
-      {{ price|currency() }}
-      {% endif %}
-    </td>
-    <td><a class='Btn Btn- h-text-' href='{{ url }}'>Подробнее</a></td>
-  </tr>
-{% endmacro %}
-
 <table class='Table'>
 
   <theader>
@@ -86,6 +55,37 @@ metaDesc:        Модель
   </theader>
 
   <tbody class='h-align--center'>
+
+    {% macro Item(url, article, image, model, power, voltage, engine, price, discount, originalPrice) %}
+      <tr>
+        <td class='h-text--nowrap h-padding--'><span class='h-text--'>{{ article }}</span></td>
+        <td class='h-text--nowrap'>
+          <a class='zoomer h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ image }}' width='54' alt='{{ model }}' /></a>
+          <img class='zoomer__image h-border-r' src='{{ image }}' width='54' alt='{{ model }}' />
+        </td>
+        <td class='h-text--nowrap'><a href='{{ url }}'>{{ model }}</a></td>
+        <td class='h-text--nowrap'>
+          <span class='box-tiny wrap-orange'>
+            {% for p in power %}{{ p|number() }}{{ '/' if not loop.last }}{% endfor %} кВт
+          </span>
+        </td>
+        <td class='h-text--nowrap'>{{ voltage }} V</td>
+        <td class='h-text--nowrap'>{{ engine }}</td>
+        <td class='h-text--nowrap h-align--right'>
+          {% if discount %}
+          <div class='discount-box h-inline-block h-align--middle h-margin-right-- h-text-'>–{{ discount }}%</div>
+          <div class='h-inline-block h-align--middle h-align--right'>
+            <del class='h-opacity--70 h-text--'>{{ originalPrice|currency() }}</del>
+            <div>{{ price|currency() }}</div>
+          </div>
+          {% else %}
+          {{ price|currency() }}
+          {% endif %}
+        </td>
+        <td><a class='Btn Btn- h-text-' href='{{ url }}'>Подробнее</a></td>
+      </tr>
+    {% endmacro %}
+
     {% for g in gens %}
     {{ Item(
       url = '/продукция/каталог/' + g.slug,
@@ -100,6 +100,7 @@ metaDesc:        Модель
       originalPrice = getGeneratorOriginalPrice(g)
     ) }}
     {% endfor %}
+
   </tbody>
 
 </table>
