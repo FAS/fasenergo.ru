@@ -444,10 +444,11 @@
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 8/8
       ng:
+        _legacy: 8
         max: null
       lpg:
+        _legacy: 8
         max: null
     current:
       _legacy: 34,8
@@ -547,10 +548,11 @@
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 9,5/10
       ng:
+        _legacy: 9.5
         max: null
       lpg:
+        _legacy: 10
         max: null
     current:
       _legacy: 43,5
@@ -650,10 +652,11 @@
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 11,5/13
       ng:
+        _legacy: 11.5
         max: null
       lpg:
+        _legacy: 13
         max: null
     current:
       _legacy: 52,2
@@ -754,10 +757,11 @@
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 12/13
       ng:
+        _legacy: 12
         max: null
       lpg:
+        _legacy: 13
         max: null
     current:
       _legacy: 19,7
@@ -849,10 +853,11 @@ fas-15-ozp1-ваз-15квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 14,5/15
       ng:
+        _legacy: 14.5
         max: null
       lpg:
+        _legacy: 15
         max: null
     current:
       _legacy: 64
@@ -945,10 +950,11 @@ fas-15-ozp3-ваз-15квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 14,5/15
       ng:
+        _legacy: 14.5
         max: null
       lpg:
+        _legacy: 15
         max: null
     current:
       _legacy: 21
@@ -1041,10 +1047,11 @@ fas-15-ozp3-ваз-15квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 17/18
       ng:
+        _legacy: 17
         max: null
       lpg:
+        _legacy: 18
         max: null
     current:
       _legacy: 82
@@ -1137,10 +1144,11 @@ fas-15-ozp3-ваз-15квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 17/18
       ng:
+        _legacy: 17
         max: null
       lpg:
+        _legacy: 18
         max: null
     current:
       _legacy: 22
@@ -1233,10 +1241,11 @@ fas-21-ozp1-ваз-21квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 20/21
       ng:
+        _legacy: 20
         max: null
       lpg:
+        _legacy: 21
         max: null
     current:
       _legacy: 100
@@ -1329,10 +1338,11 @@ fas-21-ozp3-ваз-21квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 20/21
       ng:
+        _legacy: 20
         max: null
       lpg:
+        _legacy: 21
         max: null
     current:
       _legacy: 30
@@ -1425,10 +1435,11 @@ fas-21-ozp3-ваз-21квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 23/24
       ng:
+        _legacy: 23
         max: null
       lpg:
+        _legacy: 24
         max: null
     current:
       _legacy: 36
@@ -1527,10 +1538,11 @@ fas-21-ozp3-ваз-21квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 26/28
       ng:
+        _legacy: 26
         max: null
       lpg:
+        _legacy: 28
         max: null
     current:
       _legacy: 40
@@ -1629,10 +1641,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 30/32
       ng:
+        _legacy: 30
         max: null
       lpg:
+        _legacy: 32
         max: null
     current:
       _legacy: 49
@@ -1842,10 +1855,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 40/40
       ng:
+        _legacy: 40
         max: null
       lpg:
+        _legacy: 40
         max: null
     current:
       _legacy: 68,2
@@ -1944,10 +1958,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 50/50
       ng:
+        _legacy: 50
         max: null
       lpg:
+        _legacy: 50
         max: null
     current:
       _legacy: 83,3
@@ -2284,10 +2299,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Тепловой модуль <a href="/l/тепловой-модуль-фас-тм100">ФАС-ТМ100</a></li>
   specs:
     power:
-      _legacy: 50/50
       ng:
+        _legacy: 50
         max: null
       lpg:
+        _legacy: 50
         max: null
     current:
       _legacy: 83,3
@@ -2381,10 +2397,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 8/8
       ng:
+        _legacy: 8
         max: null
       lpg:
+        _legacy: 8
         max: null
     current:
       _legacy: 34,8
@@ -2478,10 +2495,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 9,5/10
       ng:
+        _legacy: 9.5
         max: null
       lpg:
+        _legacy: 10
         max: null
     current:
       _legacy: 43,5
@@ -2575,10 +2593,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 11,5/13
       ng:
+        _legacy: 11.5
         max: null
       lpg:
+        _legacy: 13
         max: null
     current:
       _legacy: 52,2
@@ -2672,10 +2691,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 12/13
       ng:
+        _legacy: 12
         max: null
       lpg:
+        _legacy: 13
         max: null
     current:
       _legacy: 19,7
@@ -2771,10 +2791,11 @@ fas-15-ozp3-kubota-15квт:
     <li>Антифриз</li>
   specs:
     power:
-      _legacy: 14/15
       ng:
+        _legacy: 14
         max: null
       lpg:
+        _legacy: 15
         max: null
     current:
       _legacy: 21
@@ -2846,10 +2867,11 @@ fas-15-ozp3-kubota-15квт:
   equipment: null
   specs:
     power:
-      _legacy: 10/11
       ng:
+        _legacy: 10
         max: null
       lpg:
+        _legacy: 11
         max: null
     current:
       _legacy: 50/58
@@ -2921,10 +2943,11 @@ fas-15-ozp3-kubota-15квт:
   equipment: null
   specs:
     power:
-      _legacy: 14/15
       ng:
+        _legacy: 14
         max: null
       lpg:
+        _legacy: 15
         max: null
     current:
       _legacy: 75/83
