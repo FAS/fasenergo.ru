@@ -6,6 +6,7 @@ i18nTools           = require('../modules/i18n-tools')
 nunjucksExtensions  = require('../modules/nunjucks-extensions')
 
 module.exports = (grunt) ->
+  selectors = require(join('../', grunt.config('path.source.data'), 'selectors'))
 
   ###
   Nunjucks to HTML
@@ -92,6 +93,8 @@ module.exports = (grunt) ->
           ###
           env.addFilter 'langcode', (locale = currentLocale) ->
             getLangcode(locale)
+
+          selectors.nunjucksExtensions(env)
 
         preprocessData: (data) ->
           pagepath     = humanReadableUrl(@src[0].replace(options.files.cwd, ''), options.humanReadableUrls.exclude)
