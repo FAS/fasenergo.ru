@@ -9,6 +9,10 @@ metaDesc:        Модель
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% set gens = selectGenerators(data) %}
+{% set gens = filterWithBrands(gens, ['Фасэнергомаш']) %}
+{% set gens = sortGeneratorsByPower(gens) %}
+
 <header class='o-media o-media+ o-media--rev h-margin-bottom+'>
 
   <div class='o-media__content'>
@@ -33,7 +37,7 @@ metaDesc:        Модель
 </header>
 
 
-{% macro Item(url, article, image, model, power, voltage, engine, price, discount) %}
+{% macro Item(url, article, image, model, power, voltage, engine, price, discount, originalPrice) %}
   <tr>
     <td class='h-text--nowrap h-padding--'><span class='h-text--'>{{ article }}</span></td>
     <td class='h-text--nowrap'>
@@ -42,7 +46,9 @@ metaDesc:        Модель
     </td>
     <td class='h-text--nowrap'><a href='{{ url }}'>{{ model }}</a></td>
     <td class='h-text--nowrap'>
-      <span class='box-tiny wrap-orange'>{{ power[0] }}/{{ power[1] }} кВт</span>
+      <span class='box-tiny wrap-orange'>
+        {% for p in power %}{{ p|number() }}{{ '/' if not loop.last }}{% endfor %} кВт
+      </span>
     </td>
     <td class='h-text--nowrap'>{{ voltage }} V</td>
     <td class='h-text--nowrap'>{{ engine }}</td>
@@ -50,8 +56,8 @@ metaDesc:        Модель
       {% if discount %}
       <div class='discount-box h-inline-block h-align--middle h-margin-right-- h-text-'>–{{ discount }}%</div>
       <div class='h-inline-block h-align--middle h-align--right'>
-        <del class='h-opacity--70 h-text--'>{{ price|currency() }}</del>
-        <div>{{ (price - price * (discount / 100))|currency() }}</div>
+        <del class='h-opacity--70 h-text--'>{{ originalPrice|currency() }}</del>
+        <div>{{ price|currency() }}</div>
       </div>
       {% else %}
       {{ price|currency() }}
@@ -80,87 +86,20 @@ metaDesc:        Модель
   </theader>
 
   <tbody class='h-align--center'>
+    {% for g in gens %}
     {{ Item(
-      url = '/продукция/каталог/модель/продукт',
-      article = 490801,
-      image = '/' + path.images + '/equipment/-------back-left_1.png',
-      model = 'ФАС-8-1/ВП',
-      power = [10, 11],
-      voltage = '220',
-      engine = 'Suzuki 465Q',
-      price = '156000'
+      url = '/продукция/каталог/' + g.slug,
+      article = g.article,
+      image = getGeneratorMainPhoto(g).url,
+      model = g.model,
+      power = getGeneratorMaxPowers(g),
+      voltage = g.specs.voltage,
+      engine = getEngineTitle(selectEngine(data, g.engine)),
+      price = getGeneratorCurrentPrice(g),
+      discount = g.discount,
+      originalPrice = getGeneratorOriginalPrice(g)
     ) }}
-    {{ Item(
-      url = '/продукция/каталог/модель/продукт',
-      article = 490801,
-      image = '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png',
-      model = 'ФАС-8-1/ВП',
-      power = [10, 11],
-      voltage = '220',
-      engine = 'Suzuki 465Q',
-      price = '156000'
-    ) }}
-    {{ Item(
-      url = '/продукция/каталог/модель/продукт',
-      article = 490801,
-      image = '/' + path.images + '/equipment/-------back-left_1.png',
-      model = 'ФАС-8-1/ВП',
-      power = [10, 11],
-      voltage = '220',
-      engine = 'Suzuki 465Q',
-      price = '156000',
-      discount = 20
-    ) }}
-    {{ Item(
-      url = '/продукция/каталог/модель/продукт',
-      article = 490801,
-      image = '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png',
-      model = 'ФАС-8-1/ВП',
-      power = [10, 11],
-      voltage = '220',
-      engine = 'Suzuki 465Q',
-      price = '156000'
-    ) }}
-    {{ Item(
-      url = '/продукция/каталог/модель/продукт',
-      article = 490801,
-      image = '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png',
-      model = 'ФАС-8-1/ВП',
-      power = [10, 11],
-      voltage = '220',
-      engine = 'Suzuki 465Q',
-      price = '156000'
-    ) }}
-    {{ Item(
-      url = '/продукция/каталог/модель/продукт',
-      article = 490801,
-      image = '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png',
-      model = 'ФАС-8-1/ВП',
-      power = [10, 11],
-      voltage = '220',
-      engine = 'Suzuki 465Q',
-      price = '156000'
-    ) }}
-    {{ Item(
-      url = '/продукция/каталог/модель/продукт',
-      article = 490801,
-      image = '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png',
-      model = 'ФАС-8-1/ВП',
-      power = [10, 11],
-      voltage = '220',
-      engine = 'Suzuki 465Q',
-      price = '156000'
-    ) }}
-    {{ Item(
-      url = '/продукция/каталог/модель/продукт',
-      article = 490801,
-      image = '/' + path.images + '/equipment/FAS-32-3-VT__front-left_white_800px_comperssed.png',
-      model = 'ФАС-8-1/ВП',
-      power = [10, 11],
-      voltage = '220',
-      engine = 'Suzuki 465Q',
-      price = '156000'
-    ) }}
+    {% endfor %}
   </tbody>
 
 </table>
