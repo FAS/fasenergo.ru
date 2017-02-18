@@ -14,7 +14,7 @@
   _legacyPrice: 130 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
@@ -90,7 +90,7 @@
   _legacyPrice: 140 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
@@ -166,7 +166,7 @@
   _legacyPrice: 160 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
@@ -242,7 +242,7 @@
   _legacyPrice: 180 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
@@ -318,7 +318,7 @@
   _legacyPrice: 220 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
@@ -394,7 +394,7 @@
   _legacyPrice: 260 000 руб.
   price: null
   discount: 20
-  _oldPrice: 320 000 руб.
+  _legacyOldPrice: 320 000 руб.
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
@@ -497,7 +497,7 @@
   _legacyPrice: 275 000 руб.
   price: null
   discount: 20
-  _oldPrice: 335 000 руб.
+  _legacyOldPrice: 335 000 руб.
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
@@ -600,7 +600,7 @@
   _legacyPrice: 310 000 руб.
   price: null
   discount: 20
-  _oldPrice: 390 000 руб.
+  _legacyOldPrice: 390 000 руб.
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
@@ -703,7 +703,7 @@
   _legacyPrice: 320 000 руб.
   price: null
   discount: 20
-  _oldPrice: 410 000 руб.
+  _legacyOldPrice: 410 000 руб.
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
@@ -807,7 +807,7 @@ fas-15-ozp1-ваз-15квт:
   _legacyPrice: 350 000 руб.
   price: null
   discount: 15
-  _oldPrice: 410 000 руб.
+  _legacyOldPrice: 410 000 руб.
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -902,7 +902,7 @@ fas-15-ozp3-ваз-15квт:
   _legacyPrice: 370 000 руб.
   price: null
   discount: 10
-  _oldPrice: 420 000 руб.
+  _legacyOldPrice: 420 000 руб.
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -998,7 +998,7 @@ fas-15-ozp3-ваз-15квт:
   _legacyPrice: 450 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1094,7 +1094,7 @@ fas-15-ozp3-ваз-15квт:
   _legacyPrice: 460 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1190,7 +1190,7 @@ fas-21-ozp1-ваз-21квт:
   _legacyPrice: 550 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
@@ -1286,7 +1286,7 @@ fas-21-ozp3-ваз-21квт:
   _legacyPrice: 550 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1382,7 +1382,7 @@ fas-21-ozp3-ваз-21квт:
   _legacyPrice: 570 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1478,7 +1478,7 @@ fas-21-ozp3-ваз-21квт:
   _legacyPrice: 610 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
@@ -1580,7 +1580,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 650 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
@@ -1682,7 +1682,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 1 250 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
@@ -1794,7 +1794,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 1 140 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1895,7 +1895,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 1 240 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1997,7 +1997,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 2 300 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2083,7 +2083,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 2 600 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2169,7 +2169,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 3 300 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2255,7 +2255,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 2 390 000
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -2337,7 +2337,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 440 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -2434,7 +2434,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 460 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -2531,7 +2531,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 510 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -2628,7 +2628,7 @@ fas-32-ozp3-ваз-32квт:
   _legacyPrice: 525 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -2725,7 +2725,7 @@ fas-15-ozp3-kubota-15квт:
   _legacyPrice: 470 000 руб.
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -2824,7 +2824,7 @@ fas-15-ozp3-kubota-15квт:
   _legacyPrice: 4 490 €
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy:
@@ -2899,7 +2899,7 @@ fas-15-ozp3-kubota-15квт:
   _legacyPrice: 4 890 €
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy:
@@ -2974,7 +2974,7 @@ fas-15-ozp3-kubota-15квт:
   _legacyPrice: 3 750 €
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy:
@@ -3091,7 +3091,7 @@ fas-15-ozp3-kubota-15квт:
   _legacyPrice: 4 175 €
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy:
@@ -3208,7 +3208,7 @@ fas-15-ozp3-kubota-15квт:
   _legacyPrice: 5 225 €
   price: null
   discount: null
-  _oldPrice: null
+  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy:
