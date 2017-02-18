@@ -1,5 +1,6 @@
 ---
 loncin-g390f:
+  slug: loncin-g390f
   type: null
   model: G390F
   manufacturer:
@@ -25,6 +26,7 @@ loncin-g390f:
     lpg: null
 
 loncin-lc2v78f-1:
+  slug: loncin-lc2v78f-1
   type: null
   model: LC2V78F-1
   manufacturer:
@@ -50,6 +52,7 @@ loncin-lc2v78f-1:
     lpg: null
 
 ваз-21067:
+  slug: ваз-21067
   type: null
   model: 21067
   manufacturer:
@@ -75,6 +78,7 @@ loncin-lc2v78f-1:
     lpg: null
 
 ваз-21213:
+  slug: ваз-21213
   type: null
   model: 21213
   manufacturer:
@@ -100,6 +104,7 @@ loncin-lc2v78f-1:
     lpg: null
 
 ваз-21083:
+  slug: ваз-21083
   type: null
   model: 21083
   manufacturer:
@@ -125,6 +130,7 @@ loncin-lc2v78f-1:
     lpg: null
 
 ммз-д-246:
+  slug: ммз-д-246
   type: null
   model: Д-246
   manufacturer:
@@ -150,6 +156,7 @@ loncin-lc2v78f-1:
     lpg: null
 
 ямз-238:
+  slug: ямз-238
   type: null
   model: 238
   manufacturer:
@@ -175,6 +182,7 @@ loncin-lc2v78f-1:
     lpg: null
 
 ямз-7514:
+  slug: ямз-7514
   type: null
   model: 7514
   manufacturer:
@@ -200,6 +208,7 @@ loncin-lc2v78f-1:
     lpg: null
 
 kubota-df972:
+  slug: kubota-df972
   type: null
   model: DF972
   manufacturer:
@@ -225,6 +234,7 @@ kubota-df972:
     lpg: null
 
 kohler-ch740:
+  slug: kohler-ch740
   type: null
   model: CH740
   manufacturer:
@@ -250,6 +260,7 @@ kohler-ch740:
     lpg: null
 
 kohler-ch1000:
+  slug: kohler-ch1000
   type: null
   model: CH1000
   manufacturer:
@@ -275,6 +286,7 @@ kohler-ch1000:
     lpg: null
 
 generac-gt-530:
+  slug: generac-gt-530
   type: null
   model: GT-530
   manufacturer:
@@ -300,6 +312,7 @@ generac-gt-530:
     lpg: null
 
 generac-gt-990:
+  slug: generac-gt-990
   type: null
   model: GT-990
   manufacturer:
