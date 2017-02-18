@@ -38,14 +38,14 @@
   specs:
     power:
       _legacy: 5
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 27,3
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -114,14 +114,14 @@
   specs:
     power:
       _legacy: 6
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 34
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -190,14 +190,14 @@
   specs:
     power:
       _legacy: 7
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 36,3
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -266,14 +266,14 @@
   specs:
     power:
       _legacy: 8
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 41,8
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -342,14 +342,14 @@
   specs:
     power:
       _legacy: 10
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 50
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -445,14 +445,14 @@
   specs:
     power:
       _legacy: 8/8
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 34,8
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -548,14 +548,14 @@
   specs:
     power:
       _legacy: 9,5/10
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 43,5
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -651,14 +651,14 @@
   specs:
     power:
       _legacy: 11,5/13
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 52,2
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -755,14 +755,14 @@
   specs:
     power:
       _legacy: 12/13
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 19,7
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -850,14 +850,14 @@ fas-15-ozp1-ваз-15квт:
   specs:
     power:
       _legacy: 14,5/15
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 64
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -946,14 +946,14 @@ fas-15-ozp3-ваз-15квт:
   specs:
     power:
       _legacy: 14,5/15
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 21
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -1042,14 +1042,14 @@ fas-15-ozp3-ваз-15квт:
   specs:
     power:
       _legacy: 17/18
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 82
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -1138,14 +1138,14 @@ fas-15-ozp3-ваз-15квт:
   specs:
     power:
       _legacy: 17/18
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 22
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -1234,14 +1234,14 @@ fas-21-ozp1-ваз-21квт:
   specs:
     power:
       _legacy: 20/21
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 100
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -1330,14 +1330,14 @@ fas-21-ozp3-ваз-21квт:
   specs:
     power:
       _legacy: 20/21
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 30
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -1426,14 +1426,14 @@ fas-21-ozp3-ваз-21квт:
   specs:
     power:
       _legacy: 23/24
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 36
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -1528,14 +1528,14 @@ fas-21-ozp3-ваз-21квт:
   specs:
     power:
       _legacy: 26/28
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 40
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -1630,14 +1630,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 30/32
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 49
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -1742,14 +1742,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 60
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 91
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -1843,14 +1843,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 40/40
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 68,2
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -1945,14 +1945,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 50/50
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 83,3
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -2031,14 +2031,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 100
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 180
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -2117,14 +2117,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 150
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 270
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -2203,14 +2203,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 200
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 360
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -2285,14 +2285,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 50/50
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 83,3
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -2382,14 +2382,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 8/8
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 34,8
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -2479,14 +2479,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 9,5/10
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 43,5
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -2576,14 +2576,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 11,5/13
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 52,2
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -2673,14 +2673,14 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       _legacy: 12/13
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 19,7
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -2772,14 +2772,14 @@ fas-15-ozp3-kubota-15квт:
   specs:
     power:
       _legacy: 14/15
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 21
-      lpg: null
       ng: null
+      lpg: null
     voltage: 380
     frequency: 50
     phases: null
@@ -2847,14 +2847,14 @@ fas-15-ozp3-kubota-15квт:
   specs:
     power:
       _legacy: 10/11
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 50/58
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -2922,14 +2922,14 @@ fas-15-ozp3-kubota-15квт:
   specs:
     power:
       _legacy: 14/15
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 75/83
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -3039,14 +3039,14 @@ fas-15-ozp3-kubota-15квт:
   specs:
     power:
       _legacy: 8
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 33,3
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -3156,14 +3156,14 @@ fas-15-ozp3-kubota-15квт:
   specs:
     power:
       _legacy: 10
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 45,5
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null
@@ -3273,14 +3273,14 @@ fas-15-ozp3-kubota-15квт:
   specs:
     power:
       _legacy: 13
-      lpg:
-        max: null
       ng:
+        max: null
+      lpg:
         max: null
     current:
       _legacy: 59
-      lpg: null
       ng: null
+      lpg: null
     voltage: 220
     frequency: 50
     phases: null

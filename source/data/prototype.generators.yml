@@ -27,14 +27,14 @@ tags: array(tag)|false
 specs:
   # мощность
   power:
-    lpg:
-      max:
     ng:
+      max:
+    lpg:
       max:
   # сила тока
   current:
-    lpg:
     ng:
+    lpg:
   # напряжение (необходимое напряжение в сети)
   voltage: number
   # частота
