@@ -31,6 +31,7 @@
   features: null
   photos:
     - url: http://fasenergo.ru/products/no-photo.gif
+      main: true
   videos: null
   docs: null
   tags: null
@@ -107,6 +108,7 @@
   features: null
   photos:
     - url: http://fasenergo.ru/products/no-photo.gif
+      main: true
   videos: null
   docs: null
   tags: null
@@ -183,6 +185,7 @@
   features: null
   photos:
     - url: http://fasenergo.ru/products/no-photo.gif
+      main: true
   videos: null
   docs: null
   tags: null
@@ -259,6 +262,7 @@
   features: null
   photos:
     - url: http://fasenergo.ru/products/no-photo.gif
+      main: true
   videos: null
   docs: null
   tags: null
@@ -335,6 +339,7 @@
   features: null
   photos:
     - url: http://fasenergo.ru/products/no-photo.gif
+      main: true
   videos: null
   docs: null
   tags: null
@@ -408,6 +413,7 @@
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
@@ -512,6 +518,7 @@
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
@@ -616,6 +623,7 @@
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
@@ -720,6 +728,7 @@
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
@@ -824,6 +833,7 @@ fas-15-ozp1-ваз-15квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
@@ -920,6 +930,7 @@ fas-15-ozp3-ваз-15квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
@@ -1017,6 +1028,7 @@ fas-15-ozp3-ваз-15квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
@@ -1114,6 +1126,7 @@ fas-15-ozp3-ваз-15квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
@@ -1211,6 +1224,7 @@ fas-21-ozp1-ваз-21квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
@@ -1308,6 +1322,7 @@ fas-21-ozp3-ваз-21квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
@@ -1405,6 +1420,7 @@ fas-21-ozp3-ваз-21квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
@@ -1502,6 +1518,7 @@ fas-21-ozp3-ваз-21квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel-w-shield.jpg
@@ -1605,6 +1622,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel-w-shield.jpg
@@ -1745,6 +1763,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/AVR-----front-left--closed-_1_cut.png
+      main: true
   videos: null
   docs: null
   tags: null
@@ -1820,6 +1839,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--02.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--01.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--03.jpg
@@ -1922,6 +1942,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--01.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--03.jpg
@@ -2025,6 +2046,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7957_half.png
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
   videos: null
@@ -2111,6 +2133,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7957_half.png
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
   videos: null
@@ -2197,6 +2220,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7957_half.png
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
   videos: null
@@ -2286,6 +2310,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_113183264_x_2448_cr.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_112523264_x_2448.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_112633264_x_2448.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_1142193264_x_2448.jpg
@@ -2366,6 +2391,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
@@ -2464,6 +2490,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
@@ -2562,6 +2589,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
@@ -2660,6 +2688,7 @@ fas-32-ozp3-ваз-32квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
@@ -2758,6 +2787,7 @@ fas-15-ozp3-kubota-15квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__1__front--right--closed.jpg
+      main: true
     - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__10__right.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__11__front--panel.jpg
     - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__12__inter-control--front--top.jpg
@@ -2859,6 +2889,7 @@ fas-15-ozp3-kubota-15квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-front.JPG
+      main: true
     - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-back.JPG
     - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-open.JPG
   videos: null
@@ -2935,6 +2966,7 @@ fas-15-ozp3-kubota-15квт:
   features: null
   photos:
     - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-front.JPG
+      main: true
     - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-back.JPG
     - url: http://fasenergo.ru/products/generators/sdmo/photos/SDMO-RESI-open.JPG
   videos: null
@@ -3055,6 +3087,7 @@ fas-15-ozp3-kubota-15квт:
     </div>
   photos:
     - url: http://fasenergo.ru/products/generators/generac/photos/generac-product-guardian-series-8kw-front-model-6245.png
+      main: true
   videos: null
   docs: null
   tags: null
@@ -3172,6 +3205,7 @@ fas-15-ozp3-kubota-15квт:
     </div>
   photos:
     - url: http://fasenergo.ru/products/generators/generac/photos/generac-product-guardian-series-11kw-front-model-6439.png
+      main: true
   videos: null
   docs: null
   tags: null
@@ -3289,6 +3323,7 @@ fas-15-ozp3-kubota-15квт:
     </div>
   photos:
     - url: http://fasenergo.ru/products/generators/generac/photos/generac-product-guardian-series-14kw-front-model-6247.png
+      main: true
   videos: null
   docs: null
   tags: null
