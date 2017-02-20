@@ -94,7 +94,7 @@ metaDesc:        Газовые генераторы ФАС
 {% endcall %}
 
 {% call Card(
-  title = 'Газовые генераторы <span class="text-red">ФАС</span> когенерационные установки',
+  title = 'Когенерационные установки <span class="text-red">ФАС</span>',
   url = '/продукция/каталог/когенационные-установки',
   image = '/' + path.images + '/equipment/IMG_113183264_x_2448_cr.jpg'
 ) %}
