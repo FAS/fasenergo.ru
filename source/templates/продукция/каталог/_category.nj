@@ -1,16 +1,9 @@
----
-title:           Модель
-breadcrumbTitle: Модель
-contentTitle:    Модель
-navTitle:        Модель
-metaDesc:        Модель
----
-
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set gens = selectGenerators(data) %}
-{% set gens = filterWithBrands(gens, ['Фасэнергомаш']) %}
+{% if not gens %}
+  {{ warn('No generators entries provided to required `gens` variable') }}
+{% endif %}
 {% set gens = sortGeneratorsByPower(gens) %}
 
 <header class='o-media o-media+ o-media--rev h-margin-bottom+'>

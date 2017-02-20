@@ -1,14 +1,10 @@
----
-title:           Газовый генератор FAS-10-OZP1 (10КВТ)
-breadcrumbTitle: Продукт
-contentTitle:    Газовый генератор <span class='text-red'>FAS-10-OZP1</span> (10КВТ)
-navTitle:        Продукт
-metaDesc:        Газовый генератор FAS-10-OZP1 (10КВТ)
----
-
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% if not gen %}
+  {{ warn('No generator entriy provided to required `gen` variable') }}
+{% endif %}
+
 <p class='h-bleed-top+ h-padding-top-- h-text- h-margin-bottom+--'><span class='text-green'>код товара:</span> 490801</p>
 
 <header class='o-grid h-childs-displace h-flex-y--center h-margin-bottom'>
