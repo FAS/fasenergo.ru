@@ -44,8 +44,17 @@ getGeneratorOriginalPrice = (entry) -> entry._legacyOldPrice or getGeneratorPric
 
 sortGeneratorsByPower = (entries) -> entries.sort (a, b) => getGeneratorHighestPower(a) - getGeneratorHighestPower(b)
 
-filterWithBrands = (entries, brands) -> entries.filter (e) => brands.includes(e.manufacturer.brand)
-filterWithTags = (entries, tags) -> entries.filter (e) => tags.some (t) => e.tags and e.tags.includes(t)
+filterWithBrands = (entries, brands) ->
+  if brands.length == 0
+    return entries
+
+  return entries.filter (e) => brands.includes(e.manufacturer.brand)
+
+filterWithTags = (entries, tags) ->
+  if tags.length == 0
+    return entries
+
+  return entries.filter (e) => tags.some (t) => e.tags and e.tags.includes(t)
 
 ######################
 # Engines selectors
