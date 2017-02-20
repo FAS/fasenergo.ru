@@ -35,7 +35,8 @@
       main: true
   videos: null
   docs: null
-  tags: null
+  tags:
+    - loncin-honda
   equipment: null
   specs:
     power:
@@ -113,7 +114,8 @@
       main: true
   videos: null
   docs: null
-  tags: null
+  tags:
+    - loncin-honda
   equipment: null
   specs:
     power:
@@ -191,7 +193,8 @@
       main: true
   videos: null
   docs: null
-  tags: null
+  tags:
+    - loncin-honda
   equipment: null
   specs:
     power:
@@ -269,7 +272,8 @@
       main: true
   videos: null
   docs: null
-  tags: null
+  tags:
+    - loncin-honda
   equipment: null
   specs:
     power:
@@ -347,7 +351,8 @@
       main: true
   videos: null
   docs: null
-  tags: null
+  tags:
+    - loncin-honda
   equipment: null
   specs:
     power:
