@@ -1,8 +1,13 @@
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% if not gens %}
-  {{ warn('No generators entries provided to required `gens` variable') }}
+{% set gens = selectGenerators(data) %}
+{% if page.props.generatorsBrands %}
+  {% set gens = filterWithBrands(gens, page.props.generatorsBrands) %}
+{% endif %}
+{% if page.props.generatorsTags %}
+  {{ log(page.props.generatorsTags.length) }}
+  {% set gens = filterWithTags(gens, page.props.generatorsTags) %}
 {% endif %}
 {% set gens = sortGeneratorsByPower(gens) %}
 
@@ -10,9 +15,7 @@
 
   <div class='o-media__content'>
 
-    <p>Производятся компанией ФасЭнергоМаш (Санкт-Петербург), входящей в холдинг FAS-Россия. Сочетание немецких и российских разработок, оптимально подходящее именно для российского рынка.</p>
-    <p>Генераторы производятся на базе двигателей российского производства ВАЗ 21067, ВАЗ 21083, ВАЗ 21230 и ВАЗ 21231. Отечественные двигатели надежны, доступны по цене, просты и дешевы в обслуживании и ремонте.</p>
-    <p>Все газогенераторы FAS оснащены системой жидкостного охлаждения двигателя, что позволяет использовать их как для аварийного, так и для постоянного электроснабжения. Система многоступенчатого контроля работы двигателя и альтернатора обеспечивает бесперебойность системы в российских условиях, при нестабильном качестве газа, перепадах давления в газопроводах, экстремальных температурах. При этом вся линейка газовых генераторов FAS рассчитана на использования двухтопливной системы (в качестве топлива может использоваться пропан-бутан и метан). Это обеспечивает ещё большую независимость пользователя от внешних условий.</p>
+    {% block desc %}{% endblock %}
 
     <p><a class='h-border-bottom0' href='http://fasenergo.ru/products/04-2015_FEM-Catalog_Inner.indd.pdf' target='_blank'>{{ components.Icon('pdf', class='h-text++ h-align--middle h-top h-margin-right--')}}<span class='g-link h-align--middle'>Скачать Каталог продукции ФЭМ 2015</span></a></p>
 
@@ -81,7 +84,7 @@
 
     {% for g in gens %}
     {{ Item(
-      url = '/продукция/каталог/' + g.slug,
+      url = '/продукция/каталог/' + page.props.slug + '/' + g.slug,
       article = g.article,
       image = getGeneratorMainPhoto(g).url,
       model = g.model,
