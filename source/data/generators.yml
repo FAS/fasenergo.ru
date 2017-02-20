@@ -36,7 +36,7 @@
   videos: null
   docs: null
   tags:
-    - loncin-honda
+    - двигатель-loncin-honda
   equipment: null
   specs:
     power:
@@ -115,7 +115,7 @@
   videos: null
   docs: null
   tags:
-    - loncin-honda
+    - двигатель-loncin-honda
   equipment: null
   specs:
     power:
@@ -194,7 +194,7 @@
   videos: null
   docs: null
   tags:
-    - loncin-honda
+    - двигатель-loncin-honda
   equipment: null
   specs:
     power:
@@ -273,7 +273,7 @@
   videos: null
   docs: null
   tags:
-    - loncin-honda
+    - двигатель-loncin-honda
   equipment: null
   specs:
     power:
@@ -352,7 +352,7 @@
   videos: null
   docs: null
   tags:
-    - loncin-honda
+    - двигатель-loncin-honda
   equipment: null
   specs:
     power:
@@ -443,7 +443,8 @@
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -549,7 +550,8 @@
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -655,7 +657,8 @@
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -761,7 +764,8 @@
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -859,7 +863,8 @@ fas-15-ozp1-ваз-15квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +55С</li>
@@ -958,7 +963,8 @@ fas-15-ozp3-ваз-15квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -1057,7 +1063,8 @@ fas-15-ozp3-ваз-15квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -1156,7 +1163,8 @@ fas-15-ozp3-ваз-15квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -1255,7 +1263,8 @@ fas-21-ozp1-ваз-21квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -1354,7 +1363,8 @@ fas-21-ozp3-ваз-21квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -1453,7 +1463,8 @@ fas-21-ozp3-ваз-21квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +55С</li>
@@ -1558,7 +1569,8 @@ fas-21-ozp3-ваз-21квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left--electrical-equipment.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -1663,7 +1675,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left-top--powerplant.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -1790,7 +1803,8 @@ fas-32-ozp3-ваз-32квт:
       main: true
   videos: null
   docs: null
-  tags: null
+  tags:
+    - серия-вп-вр-вк
   equipment: >
     <li>Газовый генератор ФАС-32-3/ВС – 2шт.</li>
     <li>Кожух шумопоглощающий – 2шт./li>
@@ -1881,7 +1895,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--vent.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - двигатель-ммз
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -1986,7 +2001,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--vent.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - двигатель-ммз
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -2078,7 +2094,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
   videos: null
   docs: null
-  tags: null
+  tags:
+    - двигатель-ямз
   equipment: >
     <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -2166,7 +2183,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
   videos: null
   docs: null
-  tags: null
+  tags:
+    - двигатель-ямз
   equipment: >
     <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -2254,7 +2272,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
   videos: null
   docs: null
-  tags: null
+  tags:
+    - двигатель-ямз
   equipment: >
     <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -2348,7 +2367,8 @@ fas-32-ozp3-ваз-32квт:
   videos: null
   docs:
     - http://fasenergo.ru/products/generators/fas/documents/FAS-TM100.pdf
-  tags: null
+  tags:
+    - когенерационная-установка
   equipment: >
     <li>Газопоршневая установка <a href='/catalog/газовые-генераторы/mmz/фас-55-ozp3-m-55-квт'>ФАС-50-3/М</a></li>
     <li>Тепловой модуль <a href='/l/тепловой-модуль-фас-тм100'>ФАС-ТМ100</a></li>
@@ -2435,7 +2455,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
   videos: null
   docs: null
-  tags: null
+  tags:
+    - корпус-турбо
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -2535,7 +2556,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
   videos: null
   docs: null
-  tags: null
+  tags:
+    - корпус-турбо
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -2635,7 +2657,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
   videos: null
   docs: null
-  tags: null
+  tags:
+    - корпус-турбо
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -2735,7 +2758,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
   videos: null
   docs: null
-  tags: null
+  tags:
+    - корпус-турбо
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
@@ -2837,7 +2861,8 @@ fas-15-ozp3-kubota-15квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__9__right--top.jpg
   videos: null
   docs: null
-  tags: null
+  tags:
+    - двигатель-kubota
   equipment: >
     <li>Газовый двигатель с жидкостным охлаждением</li>
     <li>Радиатор охлаждения для работы в условиях температуры воздуха до +55С</li>
