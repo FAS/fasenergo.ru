@@ -81,7 +81,7 @@
     {{ Item(
       url = page.props.url + '/' + g.slug,
       article = g.article,
-      image = getGeneratorMainPhoto(g).url,
+      image = getGeneratorMainPhoto(g).url or '/' + path.images + '/' + 'no-photo.gif',
       model = g.model,
       power = getGeneratorMaxPowers(g),
       voltage = g.specs.voltage,

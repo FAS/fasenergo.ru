@@ -31,7 +31,7 @@
 
   <div class='o-grid__item h-5/9 h-1/3@lap h-align--center'>
     <a class='h-border-bottom0 js-smooth-jump' href='#photos'>
-      <img src='{{ getGeneratorMainPhoto(gen).url }}' alt='{{ gen.title|striptags }}'>
+      <img src='{{ getGeneratorMainPhoto(gen).url or '/' + path.images + '/' + 'no-photo.gif' }}' alt='{{ gen.title|striptags }}'>
     </a>
   </div>
 
@@ -286,7 +286,7 @@
 
       <a class='h-block h-border-bottom0 h-align--center' href='{{ gUrl }}'>
         {# @todo Add back `'/' + path.images + '/' +`  when real photos will be added #}
-        <img src='{{ getGeneratorMainPhoto(g).url }}' alt='{{ g.title|striptags }}' width='190'>
+        <img src='{{ getGeneratorMainPhoto(g).url or '/' + path.images + '/' + 'no-photo.gif' }}' alt='{{ g.title|striptags }}' width='190'>
       </a>
 
       <p><a class='h-h5' href='http://fasenergo.ru/product/газовый-генератор-fas-10-ozp1-10кВт'>{{ g.model }}</a></p>
