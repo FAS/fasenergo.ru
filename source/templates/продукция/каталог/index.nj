@@ -28,7 +28,7 @@ metaDesc:        Газовые генераторы ФАС
 
   <div class='o-media__content'>
 
-    <h3 class='h-margin-top0 h-margin-bottom'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h3>
+    <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h2>
 
     {% if power.from or power.to %}
     <p class='h-text- text-green h-bleed-top--'>{{ power.from == power.to and power.from or 'от ' + power.from + ' до ' + power.to }}{{ power.units }}</p>
@@ -64,7 +64,7 @@ metaDesc:        Газовые генераторы ФАС
 {% endcall %}
 {% endmacro %}
 
-<h2 class='h-margin-bottom+'>Газовые генераторы</h2>
+{# <h2 class='h-margin-bottom+'>Газовые генераторы</h2> #}
 
 {% for e in [
   'продукция.каталог.фас-с-двигателями-loncin-honda',
@@ -78,8 +78,8 @@ metaDesc:        Газовые генераторы ФАС
 {{ GeneratorsCategoryCard(e) }}
 {% endfor %}
 
-<h2 class='h-margin-bottom+'>Газопоршневые станции</h2>
+{# <h2 class='h-margin-bottom+'>Газопоршневые станции</h2>
 
-{{ GeneratorsCategoryCard('продукция.каталог.контейнерные-газовые-электростанции-фасэнергомаш') }}
+{{ GeneratorsCategoryCard('продукция.каталог.контейнерные-газовые-электростанции-фасэнергомаш') }} #}
 
 {% endblock %}
