@@ -264,18 +264,19 @@
 
 <hr>
 
+{% set parentBreadcrumb = _.dropRight(page.breadcrumb) %}
+{% set parentProps = getPage(parentBreadcrumb).props %}
+
+{% set gens = selectGenerators(data) %}
+{% set gens = filterWithBrands(gens, parentProps.generatorsBrands) %}
+{% set gens = filterWithTags(gens, parentProps.generatorsTags) %}
+{% set randomGens = _.sampleSize(gens, 6) %}
+{% set randomGens = sortGeneratorsByPower(randomGens) %}
+
+{% if randomGens.length > 0 %}
 <aside>
 
   <h2>Другие модели серии</h2>
-
-  {% set parentBreadcrumb = _.dropRight(page.breadcrumb) %}
-  {% set parentProps = getPage(parentBreadcrumb).props %}
-
-  {% set gens = selectGenerators(data) %}
-  {% set gens = filterWithBrands(gens, parentProps.generatorsBrands) %}
-  {% set gens = filterWithTags(gens, parentProps.generatorsTags) %}
-  {% set randomGens = _.sampleSize(gens, 6) %}
-  {% set randomGens = sortGeneratorsByPower(randomGens) %}
 
   <div class='o-grid h-childs-displace+'>
 
@@ -306,4 +307,5 @@
   </div>
 
 </aside>
+{% endif %}
 {% endblock %}
