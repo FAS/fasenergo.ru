@@ -10,6 +10,11 @@ breadcrumbTitle:  Газовые генераторы ФАС с двигател
 contentTitle:     Газовые генераторы <span class='text-red'>ФАС</span> с двигателем Kubota (Япония)
 navTitle:         Газовые генераторы ФАС с двигателем Kubota (Япония)
 metaDesc:         Газовые генераторы ФАС с двигателем Kubota (Япония)
+
+image:            /equipment/FAS-OZP-K__1__front--right--closed.jpg
+
+shortDesc: |
+  <p>Генераторы производятся на базе японских двигателей Kubоta. Японские двигатели традиционно славятся своим качеством и эффективностью.</p>
 ---
 
 {% extends '../_category.nj' %}
