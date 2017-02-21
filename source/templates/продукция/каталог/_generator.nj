@@ -136,7 +136,7 @@
       {% endif %}
 
       {% for fuel, fuelConsumption in specs.fuel %}
-      {% if fuel %}
+      {% if fuelConsumption %}
       <li><div class='wrap-blue {{ class }}'><p>потребление ({{ FuelTypeToWord(fuel) }}):<br> <b>{{ fuelConsumption }}</b></p></div></li>
       {% endif %}
       {% endfor %}
