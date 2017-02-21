@@ -44,6 +44,15 @@ getGeneratorCurrentPrice = (entry) ->
 
 getGeneratorOriginalPrice = (entry) -> entry._legacyOldPrice or getGeneratorPrice(entry)
 
+getGeneratorSize = (entry) ->
+  { _legacySize, depth, width, height } = entry.enclosure
+
+  if _legacySize
+    return _legacySize
+
+  return depth and width and height and "#{depth}x#{width}x#{height}"
+
+
 generatorIsDiscontinued = (entry) -> entry.availability == 'discontinued'
 generatorIsAvailable = (entry) -> entry.availability == 'available'
 
@@ -86,6 +95,7 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'getGeneratorPrice', getGeneratorPrice
   env.addGlobal 'getGeneratorCurrentPrice', getGeneratorCurrentPrice
   env.addGlobal 'getGeneratorOriginalPrice', getGeneratorOriginalPrice
+  env.addGlobal 'getGeneratorSize', getGeneratorSize
   env.addGlobal 'generatorIsDiscontinued', generatorIsDiscontinued
   env.addGlobal 'generatorIsAvailable', generatorIsAvailable
   env.addGlobal 'sortGeneratorsByPower', sortGeneratorsByPower
@@ -108,6 +118,7 @@ module.exports = {
   getGeneratorPrice
   getGeneratorCurrentPrice
   getGeneratorOriginalPrice
+  getGeneratorSize
   generatorIsDiscontinued
   generatorIsAvailable
   sortGeneratorsByPower
