@@ -232,6 +232,7 @@
       </a>
     </div>
 
+    {% if gen.photos.length > 1 %}
     <div id='js-photos-block__thumbs'>
       {% for photo in gen.photos %}
       <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='{{ photo.url }}'>
@@ -240,6 +241,7 @@
       </a>
       {% endfor %}
     </div>
+    {% endif %}
 
   </div>
 
