@@ -24,7 +24,7 @@
 {% set size = getGeneratorSize(gen) %}
 
 {% if gen.article %}
-<p class='h-bleed-top+ h-padding-top-- h-text- h-margin-bottom+--'><span class='text-green'>код товара:</span> gen.article</p>
+<p class='h-bleed-top+ h-padding-top-- h-text- h-margin-bottom+--'><span class='text-green'>код товара: </span>{{ gen.article }}</p>
 {% endif %}
 
 <header class='o-grid h-childs-displace h-flex-y--center h-margin-bottom'>
