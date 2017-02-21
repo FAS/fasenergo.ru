@@ -44,6 +44,9 @@ getGeneratorCurrentPrice = (entry) ->
 
 getGeneratorOriginalPrice = (entry) -> entry._legacyOldPrice or getGeneratorPrice(entry)
 
+generatorIsDiscontinued = (entry) -> entry.availability == 'discontinued'
+generatorIsAvailable = (entry) -> entry.availability == 'available'
+
 sortGeneratorsByPower = (entries) -> entries.sort (a, b) => getGeneratorHighestPower(a) - getGeneratorHighestPower(b)
 
 filterWithBrands = (entries, brands) ->
@@ -83,6 +86,8 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'getGeneratorPrice', getGeneratorPrice
   env.addGlobal 'getGeneratorCurrentPrice', getGeneratorCurrentPrice
   env.addGlobal 'getGeneratorOriginalPrice', getGeneratorOriginalPrice
+  env.addGlobal 'generatorIsDiscontinued', generatorIsDiscontinued
+  env.addGlobal 'generatorIsAvailable', generatorIsAvailable
   env.addGlobal 'sortGeneratorsByPower', sortGeneratorsByPower
   env.addGlobal 'filterWithBrands', filterWithBrands
   env.addGlobal 'filterWithTags', filterWithTags
@@ -103,6 +108,8 @@ module.exports = {
   getGeneratorPrice
   getGeneratorCurrentPrice
   getGeneratorOriginalPrice
+  generatorIsDiscontinued
+  generatorIsAvailable
   sortGeneratorsByPower
   filterWithBrands
   filterWithTags
