@@ -18,7 +18,7 @@ warranty:
 desc: string|array|false
 features: array(title, desc)|false
 photos: array(url, alt, main)|false
-videos: array(url, alt)|false
+videos: array(youtubeIframeSrc)|false
 docs: array(url, name, desc)|false
 tags: array(tag)|false
 
@@ -115,7 +115,7 @@ alternator:
 
 enclosure:
   # тип
-  type: корпус|открытый|контейнер...
+  type: корпус|открытый|контейнер... (current:: open|soundproof)
   # материал
   material: сталь|нержавеющая сталь|...|false
   # покрытие
