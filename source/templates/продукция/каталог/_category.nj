@@ -2,12 +2,8 @@
 
 {% block main %}
 {% set gens = selectGenerators(data) %}
-{% if page.props.generatorsBrands %}
-  {% set gens = filterWithBrands(gens, page.props.generatorsBrands) %}
-{% endif %}
-{% if page.props.generatorsTags %}
-  {% set gens = filterWithTags(gens, page.props.generatorsTags) %}
-{% endif %}
+{% set gens = filterWithBrands(gens, page.props.generatorsBrands) %}
+{% set gens = filterWithTags(gens, page.props.generatorsTags) %}
 {% set gens = sortGeneratorsByPower(gens) %}
 
 <header class='o-media o-media+ o-media--rev h-margin-bottom+'>
