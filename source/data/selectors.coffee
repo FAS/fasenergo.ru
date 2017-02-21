@@ -28,6 +28,8 @@ getLeastPowerfulGenerator = (entries) -> entries.reduce ((cur, pre) => if getGen
 
 getGeneratorMainPhoto = (entry) -> entry.photos and entry.photos.filter((p) => p.main == true)[0]
 
+getGeneratorsWithHighestDiscount = (entries) -> entries.reduce ((cur, pre) => if cur.discount > pre.discount then cur else pre), { discount: -Infinity }
+
 getGeneratorPrice = (entry) -> entry._legacyPrice or entry.price
 getGeneratorCurrentPrice = (entry) ->
   price = getGeneratorPrice(entry)
@@ -77,6 +79,7 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'getMostPowerfulGenerator', getMostPowerfulGenerator
   env.addGlobal 'getLeastPowerfulGenerator', getLeastPowerfulGenerator
   env.addGlobal 'getGeneratorMainPhoto', getGeneratorMainPhoto
+  env.addGlobal 'getGeneratorsWithHighestDiscount', getGeneratorsWithHighestDiscount
   env.addGlobal 'getGeneratorPrice', getGeneratorPrice
   env.addGlobal 'getGeneratorCurrentPrice', getGeneratorCurrentPrice
   env.addGlobal 'getGeneratorOriginalPrice', getGeneratorOriginalPrice
@@ -96,6 +99,7 @@ module.exports = {
   getMostPowerfulGenerator
   getLeastPowerfulGenerator
   getGeneratorMainPhoto
+  getGeneratorsWithHighestDiscount
   getGeneratorPrice
   getGeneratorCurrentPrice
   getGeneratorOriginalPrice
