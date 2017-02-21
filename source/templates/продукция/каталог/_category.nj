@@ -6,7 +6,6 @@
   {% set gens = filterWithBrands(gens, page.props.generatorsBrands) %}
 {% endif %}
 {% if page.props.generatorsTags %}
-  {{ log(page.props.generatorsTags.length) }}
   {% set gens = filterWithTags(gens, page.props.generatorsTags) %}
 {% endif %}
 {% set gens = sortGeneratorsByPower(gens) %}
@@ -84,7 +83,7 @@
 
     {% for g in gens %}
     {{ Item(
-      url = '/продукция/каталог/' + page.props.slug + '/' + g.slug,
+      url = page.props.url + '/' + g.slug,
       article = g.article,
       image = getGeneratorMainPhoto(g).url,
       model = g.model,
