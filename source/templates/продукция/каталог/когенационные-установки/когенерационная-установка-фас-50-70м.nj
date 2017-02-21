@@ -1,0 +1,11 @@
+---
+generatorId:     когенерационная-установка-фас-50-70м
+
+title:           "{{ selectGenerator(data, 'когенерационная-установка-фас-50-70м').meta.title }}"
+breadcrumbTitle: "{{ selectGenerator(data, 'когенерационная-установка-фас-50-70м').title }}"
+contentTitle:    "{{ selectGenerator(data, 'когенерационная-установка-фас-50-70м').title }}"
+navTitle:        "{{ selectGenerator(data, 'когенерационная-установка-фас-50-70м').title }}"
+metaDesc:        "{{ selectGenerator(data, 'когенерационная-установка-фас-50-70м').meta.desc }}"
+---
+
+{% extends '../_generator.nj' %}
