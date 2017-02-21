@@ -262,7 +262,9 @@
 </section>
 {% endif %}
 
-<hr>
+{##################################
+ # Other generators in this series
+ ##################################}
 
 {% set parentBreadcrumb = _.dropRight(page.breadcrumb) %}
 {% set parentProps = getPage(parentBreadcrumb).props %}
@@ -270,10 +272,14 @@
 {% set gens = selectGenerators(data) %}
 {% set gens = filterWithBrands(gens, parentProps.generatorsBrands) %}
 {% set gens = filterWithTags(gens, parentProps.generatorsTags) %}
+{% set gens = filterOutWithId(gens, page.props.generatorId) %}
 {% set randomGens = _.sampleSize(gens, 6) %}
 {% set randomGens = sortGeneratorsByPower(randomGens) %}
 
 {% if randomGens.length > 0 %}
+
+<hr>
+
 <aside>
 
   <h2>Другие модели серии</h2>
