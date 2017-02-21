@@ -82,7 +82,7 @@
     }
   },
   "scripts": {
-    "test": "grunt lint"
+    "test": "grunt lint && grunt build && git status | grep -E 'working (tree|directory) clean' >/dev/null || (echo 'Build task should not generate or change files outside build folder'; exit 1)"
   },
   "standard": {
     "parser": "babel-eslint",
