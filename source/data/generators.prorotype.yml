@@ -24,8 +24,6 @@
   docs: array(url, name, desc)|false
   tags: array(tag)|false
 
-  -----------------------------------------
-
   specs:
     # мощность
     power:
@@ -53,38 +51,9 @@
     operatingSpeed:
     cooling:
 
-  -----------------------------------------
-
-    starter: Электростартер|Ручной
-    nonstopOperatingTime: Круглосуточно
-
-
-    electronics:
-      controlBlock: LCD-дисплей
-      controlBlockLanguage: Русский
-      automaticTransferSwitch: true
-      automaticTransferSwitchTime: 30 сек
-      autocontrolOfGeneratorsWork: true
-      cascade: До 10 генераторов
-
-  -----------------------------------------
-
   equipment: array|false
 
   engine: string
-
-  -----------------------------------------
-
-  alternator:
-    type:
-    model:
-    manufacturer:
-      brand:
-      country:
-    insulation:
-    protection: IP64|IP52|...|false
-
-  -----------------------------------------
 
   enclosure:
     # тип
@@ -113,12 +82,3 @@
     depth: number
     # вес всего изделия
     weight: number
-
-  -----------------------------------------
-
-  controls:
-    type:
-    model:
-    manufacturer:
-      brand:
-      country:
