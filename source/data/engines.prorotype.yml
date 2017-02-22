@@ -1,0 +1,30 @@
+engine:
+  type:
+  model:
+  manufacturer:
+    brand:
+    country:
+  # 8.2kW@3600rpm
+  power:
+    hp: number
+    value: number
+    rpm: number
+  # 25.1N.m@2500rpm
+  torque:
+    value:
+    rpm:
+  # расположение клапанов
+  valvetrain: OHV|SOHC|DOHC
+  # количество цилиндров
+  cylinders:
+  # количество тактов
+  strokes:
+  # объем двигателя, куб.см
+  displacement:
+  compressionRatio:
+  operatingSpeed:
+  cooling: air|liquid
+  oilCapacity:
+  fuel:
+    ng: 0.4 м3/ч * 1 кВт
+    lpg: 0.350 кг/ч * 1 кВт
