@@ -1,9 +1,10 @@
-engine:
-  type:
-  model:
+{{ id }}:
+  slug: string
+  type: string
+  model: string|number|false
   manufacturer:
-    brand:
-    country:
+    brand: string
+    country: string
   # 8.2kW@3600rpm
   power:
     hp: number
@@ -16,15 +17,16 @@ engine:
   # расположение клапанов
   valvetrain: OHV|SOHC|DOHC
   # количество цилиндров
-  cylinders:
+  cylinders: number
   # количество тактов
-  strokes:
+  strokes: number
   # объем двигателя, куб.см
-  displacement:
-  compressionRatio:
-  operatingSpeed:
+  displacement: number
+  compressionRatio: number
+  operatingSpeed: number
   cooling: air|liquid
-  oilCapacity:
+  oilCapacity: number
+  # типы топлива и расход
   fuel:
     ng: 0.4 м3/ч * 1 кВт
     lpg: 0.350 кг/ч * 1 кВт
