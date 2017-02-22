@@ -102,7 +102,7 @@
 
 </header>
 
-<nav class='Box h-padding-- h-margin-bottom'>
+<nav class='Box h-padding-- h-margin-bottom+--'>
   <ul class='page-product-menu o-nav h-childs-margin-top0 h-text--caps h-text-'>
     {% if gen.desc or gen.equipment %}<li><a class='js-smooth-jump' href='#general'>Описание</a></li>{% endif %}
     {% if specs or enclosure %}<li><a class='js-smooth-jump' href='#details'>Технические характеристики</a></li>{% endif %}
@@ -111,7 +111,7 @@
   </ul>
 </nav>
 
-<div id='general' class='o-grid h-childs-displace'>
+<div id='general' class='o-grid h-childs-displace+--'>
 
   <aside class='o-grid__item h-1/1 {{ 'h-1/4@lap' if gen.desc or gen.equipment }} h-align--center h-text-'>
     <ul class='g-list0 o-nav o-nav--pack h-flex-rows--start h-childs-displace-- {{ 'h-childs-displace0@lap' if gen.desc or gen.equipment }} h-margin-bottom h-childs-margin-top-- h-bleed-top--'>
