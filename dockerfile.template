@@ -3,6 +3,5 @@ FROM lotustm/nginx:alpine
 ENV SITENAME $SITENAME
 
 COPY ./build /var/domains/$SITENAME/www
-COPY ./etc /etc
 
 RUN sed -i "s/example.com/$SITENAME/g" /etc/nginx/sites-enabled/default.conf
