@@ -50,7 +50,7 @@ module.exports = (grunt) ->
         styles: '<%= path.temp.root %>/styles'
 
       build:
-        root: 'docker/nginx/build'
+        root: 'build'
         assets: '<%= path.build.root %>/assets'
         docs: '<%= path.build.assets %>/docs'
         fonts: '<%= path.build.assets %>/fonts'

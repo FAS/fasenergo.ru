@@ -1,9 +1,0 @@
-FROM php:fpm-alpine
-
-ENV SITENAME $SITENAME
-
-COPY ./craft/core /var/domains/$SITENAME/craft
-COPY ./craft/public /var/domains/$SITENAME/www
-COPY ./usr /usr
-
-RUN chown -R www-data /var/domains

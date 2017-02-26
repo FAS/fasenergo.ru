@@ -1,8 +1,6 @@
 machine:
   node:
     version: 7
-  environment:
-    PROJECT_NAME: $CIRCLE_PROJECT_REPONAME
 
 checkout:
   post:
@@ -13,12 +11,9 @@ deployment:
     branch: master
     commands:
       - ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
-      - cat docker/nginx/dockerfile.template | envsubst > docker/nginx/dockerfile
-      - cat docker/php/dockerfile.template | envsubst > docker/php/dockerfile
-      - cat docker/compose.template | envsubst > docker/docker-compose.yml
-      - cd docker && tar cvzf ../app.tgz .
-      - scp app.tgz root@$SERVER_IP:~/$PROJECT_NAME.tgz
-      - ssh root@$SERVER_IP "rm -rf $PROJECT_NAME && mkdir $PROJECT_NAME && tar xvzf $PROJECT_NAME.tgz --directory $PROJECT_NAME"
-      # install docker-compose
-      - ssh root@$SERVER_IP "curl -L https://git.io/vMmg1 | sudo sh"
-      - ssh root@$SERVER_IP "/opt/bin/docker-compose -f ~/$PROJECT_NAME/docker-compose.yml up -d --build"
+      - cat dockerfile.template | envsubst > dockerfile
+      - tar cvzf app.tgz dockerfile build/
+      - scp app.tgz core@$SERVER_IP:~/$CIRCLE_PROJECT_REPONAME.tgz
+      - scp deploy.sh core@$SERVER_IP:~/deploy.sh
+      - ssh core@$SERVER_IP chmod +x deploy.sh
+      - ssh core@$SERVER_IP ./deploy.sh $CIRCLE_PROJECT_REPONAME $CIRCLE_SHA1
