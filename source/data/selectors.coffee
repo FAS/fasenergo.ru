@@ -79,6 +79,7 @@ filterOutWithId = (entries, id) -> entries.filter (e) => e.slug != id
 selectEngine = (data, id) -> data.engines[id]
 
 getEngineTitle = (entry) -> "#{entry.manufacturer.brand} #{entry.model}"
+getEngineCompressionRatio = (entry) -> "#{entry.compressionRatio.max}:#{entry.compressionRatio.min}"
 
 ######################
 # Nunjucks extensions
@@ -107,6 +108,7 @@ nunjucksExtensions = (env) ->
 
   env.addGlobal 'selectEngine', selectEngine
   env.addGlobal 'getEngineTitle', getEngineTitle
+  env.addGlobal 'getEngineCompressionRatio', getEngineCompressionRatio
 
 module.exports = {
   selectGenerator
@@ -131,6 +133,7 @@ module.exports = {
 
   selectEngine
   getEngineTitle
+  getEngineCompressionRatio
 
   nunjucksExtensions
 }

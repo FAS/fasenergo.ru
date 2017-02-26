@@ -17,7 +17,9 @@ loncin-g390f:
   cylinders: null
   strokes: 4
   displacement: 389
-  compressionRatio: 8.1:1
+  compressionRatio:
+    max: 8.1
+    min: 1
   operatingSpeed: 3600
   cooling: Воздушное
   oilCapacity: null
@@ -43,7 +45,9 @@ loncin-lc2v78f-1:
   cylinders: null
   strokes: 4
   displacement: 678
-  compressionRatio: 8.5∶1
+  compressionRatio:
+    max: 8.5
+    min: 1
   operatingSpeed: 3600
   cooling: Воздушное
   oilCapacity: null
@@ -69,7 +73,9 @@ loncin-lc2v78f-1:
   cylinders: null
   strokes: null
   displacement: null
-  compressionRatio: null
+  compressionRatio:
+    max: null
+    min: null
   operatingSpeed: null
   cooling: Жидкостное
   oilCapacity: null
@@ -95,7 +101,9 @@ loncin-lc2v78f-1:
   cylinders: null
   strokes: 4
   displacement: 1690
-  compressionRatio: 9,3:1
+  compressionRatio:
+    max: 9.3
+    min: 1
   operatingSpeed: 1600
   cooling: Жидкостное
   oilCapacity: null
@@ -121,7 +129,9 @@ loncin-lc2v78f-1:
   cylinders: null
   strokes: 4
   displacement: 1500
-  compressionRatio: 9,9:1
+  compressionRatio:
+    max: 9.9
+    min: 1
   operatingSpeed: 1600
   cooling: Жидкостное
   oilCapacity: null
@@ -147,7 +157,9 @@ loncin-lc2v78f-1:
   cylinders: null
   strokes: null
   displacement: null
-  compressionRatio: null
+  compressionRatio:
+    max: null
+    min: null
   operatingSpeed: null
   cooling: Жидкостное
   oilCapacity: null
@@ -173,7 +185,9 @@ loncin-lc2v78f-1:
   cylinders: null
   strokes: null
   displacement: null
-  compressionRatio: null
+  compressionRatio:
+    max: null
+    min: null
   operatingSpeed: null
   cooling: Жидкостное
   oilCapacity: null
@@ -199,7 +213,9 @@ loncin-lc2v78f-1:
   cylinders: null
   strokes: null
   displacement: null
-  compressionRatio: null
+  compressionRatio:
+    max: null
+    min: null
   operatingSpeed: null
   cooling: Жидкостное
   oilCapacity: null
@@ -225,7 +241,9 @@ kubota-df972:
   cylinders: null
   strokes: 4
   displacement: 962
-  compressionRatio: 8,8:1
+  compressionRatio:
+    max: 8.8
+    min: 1
   operatingSpeed: 3000
   cooling: Жидкостное
   oilCapacity: null
@@ -251,7 +269,9 @@ kohler-ch740:
   cylinders: null
   strokes: 4
   displacement: 725
-  compressionRatio: 9,0:1
+  compressionRatio:
+    max: 9.0
+    min: 1
   operatingSpeed: 3600
   cooling: Воздушное
   oilCapacity: null
@@ -277,7 +297,9 @@ kohler-ch1000:
   cylinders: null
   strokes: 4
   displacement: 999
-  compressionRatio: 8,8:1
+  compressionRatio:
+    max: 8.8
+    min: 1
   operatingSpeed: 3600
   cooling: Воздушное
   oilCapacity: null
@@ -303,7 +325,9 @@ generac-gt-530:
   cylinders: null
   strokes: null
   displacement: null
-  compressionRatio: null
+  compressionRatio:
+    max: null
+    min: null
   operatingSpeed: null
   cooling: Жидкостное
   oilCapacity: null
@@ -329,7 +353,9 @@ generac-gt-990:
   cylinders: null
   strokes: null
   displacement: null
-  compressionRatio: null
+  compressionRatio:
+    max: null
+    min: null
   operatingSpeed: null
   cooling: Жидкостное
   oilCapacity: null
