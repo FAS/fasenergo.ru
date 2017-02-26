@@ -4,7 +4,7 @@
  # @param {string} [class]                 = 'nav nav--spacing' Class of list
  # @param {string} [itemsClass]            = ''                 Class of list items
  # @param {string} [anchorsClass]          = ''                 Class of anchors inside list itmes
- # @param {bool}   [onlyActiveOnIndex]     = false              Set item to be active only in case current link's
+ # @param {bool}   [onlyActiveOnIndex]     = false              Set items to be active only in case current route matches link's route
  # @param {string} [activeClass]           = 'is-active'        Class of active list item
  # @param {number} [startDepth]            = 1                  From which depth nav should start to print
  # @param {number} [maxDepth]              = 999999             Max amount of subnavs to print

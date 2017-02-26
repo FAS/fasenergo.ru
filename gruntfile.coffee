@@ -1,10 +1,8 @@
-{ map, includes } = require('lodash')
+Gettext = require('./modules/gettext')
 
 module.exports = (grunt) ->
   'use strict'
 
-  Gettext = require('./modules/gettext')(grunt)
-  require('./modules/grunt-gray-matter')(grunt)
   # Track execution time
   require('time-grunt') grunt
   # Load grunt tasks automatically
@@ -18,7 +16,7 @@ module.exports = (grunt) ->
     # Specify environment variables
     env:
       sitename: process.env.SITENAME
-      production: process.env.PRODUCTION or includes(grunt.cli.tasks, 'build')
+      production: process.env.PRODUCTION or grunt.cli.tasks.includes('build')
       staging: process.env.STAGING or grunt.option('staging')
       tinypng:
         api:
@@ -81,24 +79,18 @@ module.exports = (grunt) ->
           compiled: '<%= path.build.sprites %>/sprite.png'
           hash: '<%= path.build.sprites %>/hash.json'
 
-    i18n:
-      locales: [
-          locale: 'ru-RU'
-          url: 'ru'
-          rtl: false
-          defaultForLanguage: true
-          numberFormat: '0,0.[00]'
-          currencyFormat: '0,0.[00] $'
-      ]
-      baseLocale: 'ru-RU'
-
-  localesNames = map(grunt.config('i18n.locales'), 'locale')
+    locales:
+      'ru-RU':
+        locale: 'ru-RU'
+        url: 'ru'
+        rtl: false
+        defaultForLanguage: true
+        numberFormat: '0,0.[00]'
+        currencyFormat: '0,0.00 $'
+    baseLocale: 'ru-RU'
 
   grunt.config.merge
-    i18n:
-      gettext: new Gettext({ locales: localesNames, cwd: grunt.config('path.source.locales'), src: '{,**/}*.{po,mo}' })
-      localesNames: localesNames
-
+    gettext: new Gettext({ cwd: grunt.config('path.source.locales') })
     data: require('./' + grunt.config('path.source.data'))(grunt)
 
   grunt.loadTasks grunt.config('path.tasks.root')
@@ -115,7 +107,6 @@ module.exports = (grunt) ->
     'webfont'
     'sass'
     'postcss:autoprefix'
-    'shell:jspm_install'
     'shell:jspm_build'
     'responsive_images:thumbnails'
     'browserSync'
@@ -149,14 +140,6 @@ module.exports = (grunt) ->
   ]
 
   ###
-  A task for linting
-  ###
-  grunt.registerTask 'lint', [
-    'stylelint:lint'
-    'standard:lint'
-  ]
-
-  ###
   A task for a static server with a watch
   ###
   grunt.registerTask 'serve', [
@@ -164,4 +147,4 @@ module.exports = (grunt) ->
     'watch'
   ]
 
-  return
+  return grunt

@@ -1,17 +1,24 @@
-_            = require('lodash')
-md           = require('markdown-it')()
-markdown     = require('nunjucks-markdown')
-crumble      = require('./crumble')
-render       = require('./nunjucks-render')
-printf       = require('./printf')
-urlify       = require('./urlify')
-numbro       = require('numbro')
-moment       = require('moment')
-smartPlurals = require('smart-plurals')
-{ join }     = require('path')
-{ escape }   = require('nunjucks/src/lib')
+_                         = require('lodash')
+md                        = require('markdown-it')()
+markdown                  = require('nunjucks-markdown')
+crumble                   = require('./crumble')
+render                    = require('./nunjucks-render')
+sprintf                   = require('./sprintf')
+urlify                    = require('./urlify')
+numbro                    = require('numbro')
+moment                    = require('moment')
+smartPlurals              = require('smart-plurals')
+{ join }                  = require('path')
+urljoin                   = require('url-join')
+{ escape }                = require('nunjucks/src/lib')
+{ file: { expand }, log } = require('grunt')
 
-module.exports = (env, grunt, currentLocale, numberFormat, currencyFormat) ->
+module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
+  numbro.setCulture(currentLocale)
+  numbro.defaultFormat(numberFormat)
+  numbro.defaultCurrencyFormat(currencyFormat)
+
+  moment.locale(currentLocale)
 
   # ==========
   # Extensions
@@ -37,16 +44,14 @@ module.exports = (env, grunt, currentLocale, numberFormat, currencyFormat) ->
    * @param {*} input Anything we want to log to console
    * @return {string} Logs to Grunt console
   ###
-  env.addGlobal 'log', (input...) ->
-    console.log(input...)
+  env.addGlobal 'log', (input...) -> console.log(input...)
 
   ###*
    * Log specified to Grunt's console as warning message
    * @param {*} input Anything we want to log to console
    * @return {string} Logs to Grunt console
   ###
-  env.addGlobal 'warn', (input...) ->
-    grunt.log.error(input..., '[' + @ctx.page.url + ']')
+  env.addGlobal 'warn', (input...) -> log.error(input..., '[' + @ctx.page.url + ']')
 
   ###*
    * Get list of files or directories inside specified directory
@@ -59,8 +64,7 @@ module.exports = (env, grunt, currentLocale, numberFormat, currencyFormat) ->
   env.addGlobal 'expand', (path = '', pattern = '**/*', filter = 'isFile', cwd = @ctx.path.build.templates) ->
     files = []
 
-    grunt.file.expand({ cwd: join(cwd, path), filter: filter }, pattern).forEach (file) ->
-      files.push(file)
+    expand({ cwd: join(cwd, path), filter: filter }, pattern).forEach (file) -> files.push(file)
 
     return files
 
@@ -107,11 +111,11 @@ module.exports = (env, grunt, currentLocale, numberFormat, currencyFormat) ->
     result = _.get(data, path)
 
     if result
-      result = if forceRender then render(env, renderContext, result, false, grunt.log.error, logUndefined,  @ctx.page.url) else result
+      result = if forceRender then render(env, renderContext, result, false, log.error, logUndefined,  @ctx.page.url) else result
       Object.defineProperty result, 'props', enumerable: false
       return result
     else
-      grunt.log.error('[getPage] can\'t find requested `' + path + '` inside specified object', '[' + @ctx.page.url + ']')
+      log.error('[getPage] can\'t find requested `' + path + '` inside specified object', '[' + @ctx.page.url + ']')
 
   ###*
    * Explodes string into array breadcrumb. See `crumble` helper for details
@@ -142,15 +146,29 @@ module.exports = (env, grunt, currentLocale, numberFormat, currencyFormat) ->
     return isActive
 
   ###*
-   * Expose `moment.js` to Nunjucks' for parsing, validation, manipulation, and displaying dates
-   * @tutorial http://momentjs.com/docs/
-   * @note Will set locale to `currentLocale` before running. To override use `_d(...).locale('de').format(...)`
+   * Expose `moment.js` to Nunjucks' for parsing, validation, manipulation and displaying dates
+   * @docs http://momentjs.com/docs/
    * @param {*} param... Any parameters, which should be passed to `moment.js`
    * @return {moment} `moment.js` expression for further use
   ###
-  env.addGlobal 'moment', (params...) ->
-    moment.locale(currentLocale)
-    moment(params...)
+  env.addGlobal 'moment', moment
+
+  ###*
+   * Expose `numbro.js` to Nunjucks' for formatting numbers and currencies
+   * @docs http://numbrojs.com/format.html
+   * @note Change locale on the go with `numbro(...).setCulture('de-DE')`
+   * @param {*} param... Any parameters, which should be passed to `numbro.js`
+   * @return {numbro} `numbro.js` expression for further use
+  ###
+  env.addGlobal 'numbro', numbro
+
+  ###*
+   * Expose `url-join` to Nunjucks' for joining urls
+   * @docs https://github.com/jfromaniello/url-join
+   * @param {*} param... Url fragments, which should be joined
+   * @return {string} Joined url
+  ###
+  env.addGlobal 'urljoin', urljoin
 
   # =======
   # Filters
@@ -184,12 +202,12 @@ module.exports = (env, grunt, currentLocale, numberFormat, currencyFormat) ->
    * @todo Related issue https://github.com/mozilla/nunjucks/issues/783
   ###
   env.addFilter 'render', (input, isCaller = false, logUndefined = false) ->
-    render(env, @getVariables(), input, isCaller, grunt.log.error, logUndefined, @ctx.page.url)
+    render(env, @getVariables(), input, isCaller, log.error, logUndefined, @ctx.page.url)
 
   ###*
-   * Replace placeholders with provided values. Refer to `printf` module for docs
+   * Replace placeholders with provided values. Refer to `sprintf` module for docs
   ###
-  env.addFilter 'template', printf
+  env.addFilter 'template', sprintf
 
   ###*
    * Pluralize string based on count. For situations, where full i18n is too much
@@ -200,31 +218,6 @@ module.exports = (env, grunt, currentLocale, numberFormat, currencyFormat) ->
   ###
   env.addFilter 'plural', (count, forms, locale = currentLocale) ->
     smartPlurals.Plurals.getRule(locale)(count, forms)
-
-  ###*
-   * Format number based on given pattern
-   * @todo There are few issues with current lib:
-   *       * https://github.com/foretagsplatsen/numbro/issues/111
-   *       * https://github.com/foretagsplatsen/numbro/issues/112
-   * @param {number} value                  Number which should be formatted
-   * @param {string} format = numberFormat  Pattern as per http://numbrojs.com/format.html
-   * @param {string} locale = currentLocale Locale name as per https://github.com/foretagsplatsen/numbro/tree/master/languages
-   * @return {string} Formatted number
-  ###
-  env.addFilter 'number', (value, format = numberFormat, locale = currentLocale) ->
-    numbro.setLanguage(locale)
-    numbro(value).format(format)
-
-  ###*
-   * Convert number into currency based on given locale or pattern
-   * @param {number} value                  Number which should be converted
-   * @param {string} format= currencyFormat Pattern as per http://numbrojs.com/format.html
-   * @param {string} locale = currentLocale Locale name as per https://github.com/foretagsplatsen/numbro/tree/master/languages
-   * @return {string} Number with currency symbol in proper position
-  ###
-  env.addFilter 'currency', (value, format = currencyFormat, locale = currentLocale) ->
-    numbro.setLanguage(locale)
-    numbro(value).formatCurrency(format)
 
   ###*
    * Transform string into usable in urls form
@@ -243,7 +236,7 @@ module.exports = (env, grunt, currentLocale, numberFormat, currencyFormat) ->
   ###
   env.addFilter 'spread', (input, delimiter = ' ') ->
     if typeof input != 'object'
-      grunt.log.error('[spread] input should be object, but `' + typeof input + '` has been specified', '[' + @ctx.page.url + ']')
+      log.error('[spread] input should be object, but `' + typeof input + '` has been specified', '[' + @ctx.page.url + ']')
       return
 
     spreaded = ' '

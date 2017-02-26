@@ -57,7 +57,7 @@
         <td class='h-text--nowrap'><a href='{{ url }}'>{{ model }}</a></td>
         <td class='h-text--nowrap'>
           <span class='box-tiny wrap-orange'>
-            {% for p in power %}{{ p|number() }}{{ '/' if not loop.last }}{% endfor %} кВт
+            {% for p in power %}{{ numbro(p).format() }}{{ '/' if not loop.last }}{% endfor %} кВт
           </span>
         </td>
         <td class='h-text--nowrap'>{{ voltage }} V</td>
@@ -66,11 +66,11 @@
           {% if discount %}
           <div class='discount-box h-inline-block h-align--middle h-margin-right-- h-text-'>–{{ discount }}%</div>
           <div class='h-inline-block h-align--middle h-align--right'>
-            <del class='h-opacity--70 h-text--'>{{ originalPrice|currency() }}</del>
-            <div>{{ price|currency() }}</div>
+            <del class='h-opacity--70 h-text--'>{{ numbro(originalPrice).formatCurrency() }}</del>
+            <div>{{ numbro(price).formatCurrency() }}</div>
           </div>
           {% else %}
-          {{ price|currency() }}
+          {{ numbro(price).formatCurrency() }}
           {% endif %}
         </td>
         <td><a class='Btn Btn- h-text-' href='{{ url }}'>Подробнее</a></td>

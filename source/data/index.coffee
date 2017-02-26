@@ -5,8 +5,6 @@ module.exports = (grunt) ->
   pkg = grunt.file.readJSON 'package.json'
   sitename = grunt.config('env.sitename')
 
-  baseLocale = grunt.config('i18n.baseLocale')
-
   data =
     path:
       # Remove `build/` part from path
@@ -25,9 +23,8 @@ module.exports = (grunt) ->
       homepage: if sitename then "https://#{sitename}" else pkg.homepage
       twitter: pkg.twitter
       version: pkg.version
-      locales: '<%= i18n.locales %>'
-      localesNames: '<%= i18n.localesNames %>'
-      baseLocale: '<%= i18n.baseLocale %>'
+      locales: grunt.config('locales')
+      baseLocale: grunt.config('baseLocale')
       googleAnalyticsId: false # 'UA-XXXXX-X'
       yandexMetrikaId: false # 'XXXXXX'
     env:

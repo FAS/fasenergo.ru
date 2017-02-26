@@ -27,11 +27,11 @@ module.exports = () ->
           ###
           'kotsu-path($query)': (query) =>
             query = query.getValue()
-            baseLocale = @config('i18n.baseLocale')
+            baseLocale = @config('baseLocale')
             data = @config.process(@config('data')(baseLocale))
             return castToSass(get(data.path, query))
           'kotsu-theme-color()': () =>
-            baseLocale = @config('i18n.baseLocale')
+            baseLocale = @config('baseLocale')
             data = @config.process(@config('data')(baseLocale))
             color = get(data, 'site.themeColor')
 
@@ -137,20 +137,6 @@ module.exports = () ->
             '!{,**/}*.min.css'
           ]
         ]
-
-  ###
-  Stylelint
-  https://github.com/wikimedia/grunt-stylelint
-  Lint CSS files with stylelint
-  ###
-
-  @config 'stylelint',
-    lint:
-      files: [
-        expand: true
-        cwd: '<%= path.source.styles %>'
-        src: '{,**/}*.scss'
-      ]
 
   ###
   Watch
