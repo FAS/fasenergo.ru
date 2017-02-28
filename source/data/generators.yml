@@ -2356,7 +2356,8 @@ fas-32-ozp3-ваз-32квт:
     - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_1140172448_x_3264.jpg
   videos: null
   docs:
-    - http://fasenergo.ru/products/generators/fas/documents/FAS-TM100.pdf
+    - title: Схема FAS-TM100
+      url: http://fasenergo.ru/products/generators/fas/documents/FAS-TM100.pdf
   tags:
     - когенерационная-установка
   equipment: >
@@ -3063,7 +3064,7 @@ fas-15-ozp3-kubota-15квт:
 
 
 5914:
-  slug: 5914
+  slug: '5914'
   meta:
     title: Газовый генератор Generac 5914
     description:
@@ -3182,7 +3183,7 @@ fas-15-ozp3-kubota-15квт:
 
 
 5915:
-  slug: 5915
+  slug: '5915'
   meta:
     title: Газовый генератор Generac 5915
     description:
@@ -3301,7 +3302,7 @@ fas-15-ozp3-kubota-15квт:
 
 
 5916:
-  slug: 5916
+  slug: '5916'
   meta:
     title: Газовый генератор Generac 5916
     description:
