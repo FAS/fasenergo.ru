@@ -37,8 +37,11 @@ const refinements = {
    * @return {bool}
    */
   equalKeysAndSlugs: (target, name) => t.refinement(target, (obj) => {
-    for (let k of obj) {
-      if (k !== obj[k].slug) {
+    for (let k in obj) {
+      const id = obj[k].slug
+
+      if (k !== id) {
+        console.error(`[tcomb] ivalid value ${id}<${typeof id}> supplied to \`../slug\`: expected ${k}<${typeof k}>`)
         return false
       }
     }
