@@ -6,6 +6,11 @@ checkout:
   post:
     - git submodule update --init --recursive
 
+test:
+  override:
+    - npm test:
+        timeout: 1200
+
 deployment:
   production:
     branch: master
