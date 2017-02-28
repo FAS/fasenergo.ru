@@ -21,7 +21,7 @@ loncin-g390f:
     max: 8.1
     min: 1
   operatingSpeed: 3600
-  cooling: Воздушное
+  cooling: air
   oilCapacity: null
   fuel:
     ng: null
@@ -49,7 +49,7 @@ loncin-lc2v78f-1:
     max: 8.5
     min: 1
   operatingSpeed: 3600
-  cooling: Воздушное
+  cooling: air
   oilCapacity: null
   fuel:
     ng: null
@@ -77,7 +77,7 @@ loncin-lc2v78f-1:
     max: null
     min: null
   operatingSpeed: null
-  cooling: Жидкостное
+  cooling: liquid
   oilCapacity: null
   fuel:
     ng: null
@@ -105,7 +105,7 @@ loncin-lc2v78f-1:
     max: 9.3
     min: 1
   operatingSpeed: 1600
-  cooling: Жидкостное
+  cooling: liquid
   oilCapacity: null
   fuel:
     ng: null
@@ -133,7 +133,7 @@ loncin-lc2v78f-1:
     max: 9.9
     min: 1
   operatingSpeed: 1600
-  cooling: Жидкостное
+  cooling: liquid
   oilCapacity: null
   fuel:
     ng: null
@@ -161,7 +161,7 @@ loncin-lc2v78f-1:
     max: null
     min: null
   operatingSpeed: null
-  cooling: Жидкостное
+  cooling: liquid
   oilCapacity: null
   fuel:
     ng: null
@@ -189,7 +189,7 @@ loncin-lc2v78f-1:
     max: null
     min: null
   operatingSpeed: null
-  cooling: Жидкостное
+  cooling: liquid
   oilCapacity: null
   fuel:
     ng: null
@@ -217,7 +217,7 @@ loncin-lc2v78f-1:
     max: null
     min: null
   operatingSpeed: null
-  cooling: Жидкостное
+  cooling: liquid
   oilCapacity: null
   fuel:
     ng: null
@@ -245,7 +245,7 @@ kubota-df972:
     max: 8.8
     min: 1
   operatingSpeed: 3000
-  cooling: Жидкостное
+  cooling: liquid
   oilCapacity: null
   fuel:
     ng: null
@@ -273,7 +273,7 @@ kohler-ch740:
     max: 9.0
     min: 1
   operatingSpeed: 3600
-  cooling: Воздушное
+  cooling: air
   oilCapacity: null
   fuel:
     ng: null
@@ -301,7 +301,7 @@ kohler-ch1000:
     max: 8.8
     min: 1
   operatingSpeed: 3600
-  cooling: Воздушное
+  cooling: air
   oilCapacity: null
   fuel:
     ng: null
@@ -329,7 +329,7 @@ generac-gt-530:
     max: null
     min: null
   operatingSpeed: null
-  cooling: Жидкостное
+  cooling: liquid
   oilCapacity: null
   fuel:
     ng: null
@@ -357,7 +357,7 @@ generac-gt-990:
     max: null
     min: null
   operatingSpeed: null
-  cooling: Жидкостное
+  cooling: liquid
   oilCapacity: null
   fuel:
     ng: null
