@@ -91,7 +91,7 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
     # глубина всего изделия
     depth: t.maybe t.Number
     # вес всего изделия
-    weight: t.maybe t.Number
+    weight: t.maybe t.union [t.Number, t.String] # @todo t.String allowed only because some gens had `"2500 (на раме)"` value
 }, { name: 'Generator', strict: true }), 'Generators'
 
 module.exports = equalKeysAndSlugs(Generators, 'Generators')
