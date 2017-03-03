@@ -2906,6 +2906,149 @@ fas-15-ozp3-kubota-15квт:
     weight: 345
 
 
+фас-35-3-3п-35квт:
+  slug: фас-35-3-3п-35квт
+  meta:
+    title: Газовый генератор ФАС-35-3/ЗП (35 кВт)
+    description: Трехфазный газовый электрогенератор с жидкостным охлаждением, мощностью 35 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-35-3/ЗП
+  title: Газовый генератор <span class='text-red'>ФАС-35-3/ЗП</span> (35 кВт)
+  _legacyPrice: null
+  price: null
+  discount: null
+  _legacyOldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый электрогенератор с жидкостным охлаждением, мощностью 35 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+  features: null
+  photos: null
+  videos: null
+  docs: null
+  tags:
+    - двигатель-змз-409
+  equipment: null
+  specs:
+    power:
+      ng:
+        max: 33
+      lpg:
+        max: 35
+    current:
+      _legacy: null
+      ng: null
+      lpg: null
+    voltage: 380
+    frequency: null
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 2500
+    cooling: liquid
+  engine: змз-409
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: null
+    _legacySize: 1800×980×1153
+    height: null
+    width: null
+    depth: null
+    weight: 834
+
+
+фас-40-3-3п-40квт:
+  slug: фас-40-3-3п-40квт
+  meta:
+    title: Газовый генератор ФАС-40-3/ЗП (40 кВт)
+    description: Трехфазный газовый электрогенератор с жидкостным охлаждением, мощностью 40 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-40-3/ЗП
+  title: Газовый генератор <span class='text-red'>ФАС-40-3/ЗП</span> (40 кВт)
+  _legacyPrice: null
+  price: null
+  discount: null
+  _legacyOldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый электрогенератор с жидкостным охлаждением, мощностью 40 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+  features: null
+  photos: null
+  videos: null
+  docs: null
+  tags:
+    - двигатель-змз-409
+  equipment: null
+  specs:
+    power:
+      ng:
+        max: 38
+      lpg:
+        max: 40
+    current:
+      _legacy: null
+      ng: null
+      lpg: null
+    voltage: 380
+    frequency: null
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 2900
+    cooling: liquid
+  engine: змз-409
+  enclosure:
+    type: soundproof
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: null
+    _legacySize: 1800×980×1153
+    height: null
+    width: null
+    depth: null
+    weight: 834
+
 
 14resa-11квт:
   slug: 14resa-11квт
