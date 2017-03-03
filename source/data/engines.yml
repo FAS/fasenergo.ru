@@ -223,6 +223,34 @@ loncin-lc2v78f-1:
     ng: null
     lpg: null
 
+змз-409:
+  slug: змз-409
+  type: null
+  model: 409
+  manufacturer:
+    brand: ЗМЗ
+    country: null
+  power:
+    hp: null
+    value: null
+    rpm: null
+  torque:
+    value: null
+    rpm: null
+  valvetrain: null
+  cylinders: null
+  strokes: null
+  displacement: null
+  compressionRatio:
+    max: null
+    min: null
+  operatingSpeed: null
+  cooling: liquid
+  oilCapacity: null
+  fuel:
+    ng: null
+    lpg: null
+
 kubota-df972:
   slug: kubota-df972
   type: null
