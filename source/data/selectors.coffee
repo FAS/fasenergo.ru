@@ -12,7 +12,9 @@ getGeneratorHighestPower = (entry, type) =>
   if power._legacy
     return power._legacy
 
-  return Math.max power.lpg._legacy, power.ng._legacy
+  powers = [power.lpg._legacy, power.ng._legacy, power.ng.max, power.lpg.max].filter (e) => typeof e == 'number'
+
+  return Math.max powers...
 
 getGeneratorMaxPowers = (entry) ->
   powers = entry.specs.power
