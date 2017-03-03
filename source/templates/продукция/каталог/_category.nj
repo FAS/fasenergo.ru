@@ -63,6 +63,7 @@
         <td class='h-text--nowrap'>{{ voltage }} V</td>
         <td class='h-text--nowrap'>{{ engine }}</td>
         <td class='h-text--nowrap h-align--right'>
+          {% if price %}
           {% if discount %}
           <div class='discount-box h-inline-block h-align--middle h-margin-right-- h-text-'>–{{ discount }}%</div>
           <div class='h-inline-block h-align--middle h-align--right'>
@@ -71,6 +72,7 @@
           </div>
           {% else %}
           {{ numbro(price).formatCurrency() }}
+          {% endif %}
           {% endif %}
         </td>
         <td><a class='Btn Btn- h-text-' href='{{ url }}'>Подробнее</a></td>
