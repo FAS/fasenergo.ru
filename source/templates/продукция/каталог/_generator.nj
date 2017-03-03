@@ -9,7 +9,7 @@
 {% macro FuelTypeToWord(fuel) %}{{ fuel == 'ng' and 'метан' or fuel == 'lpg' and 'СУГ' or warn('[FuelTypeToWord] unknown fuel type: `' + fuel + '`') }}{% endmacro %}
 {% macro EnclosureTypeToWord(enclosure) %}{{ enclosure == 'open' and 'открытое' or enclosure == 'soundproof' and 'закрытое с шумопоглощением' or warn('[EnclosureTypeToWord] unknown enclosure type: `' + enclosure + '`') }}{% endmacro %}
 {% macro PowersList(powers) %}{% for p in powers %}{{ numbro(p).format() }}{{ '/' if not loop.last }}{% endfor %}{% endmacro %}
-{% macro CoolingToWord(coolingType) %}{{ coolingType == 'air' and 'воздушное' or coolingType == 'liquid' and 'жидкостное' }}{% endmacro %}
+{% macro CoolingToWord(coolingType) %}{{ coolingType == 'air' and 'воздушное' or coolingType == 'liquid' and 'жидкостное' or warn('[CoolingToWord] unknown cooling type: `' + phases + '`') }}{% endmacro %}
 
 {% set specs = gen.specs %}
 {% set enclosure = gen.enclosure %}
