@@ -8,8 +8,7 @@ checkout:
 
 test:
   post:
-    - npm run build:
-        timeout: 1500
+    - npm run build
 
 deployment:
   production:
