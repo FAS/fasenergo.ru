@@ -93,7 +93,8 @@
 
         <div class='o-grid__item h-1/3 h-align--right'>
 
-          <form class='Field-group Field-group- h-margin-bottom h-margin-left--auto' style='max-width: 230px'>
+          {# @todo Disabled due to https://trello.com/c/vUXuThbW/92-- #}
+          {# <form class='Field-group Field-group- h-margin-bottom h-margin-left--auto' style='max-width: 230px'>
             {{ components.Field(
               class = 'Field- h-flex+',
               inputClass = 'h-1/1',
@@ -106,7 +107,7 @@
               required = true
             ) }}
             <button class='Field__button'>{{ components.Icon('search') }}</button>
-          </form>
+          </form> #}
 
           <p class='h-margin-bottom--'><b class='h-text+'>{{ phone }}</b></p>
           <p>{{ email }}</p>
