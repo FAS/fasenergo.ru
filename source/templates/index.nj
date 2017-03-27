@@ -168,12 +168,7 @@ showContentTitle:          false
 
     <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>Новости</h2>
 
-    {% set posts = _.orderBy(getPage('новости')|template(site.placeholders), 'props.date', 'desc') %}
-    {% set posts = _.take(posts, 2) %}
-
-    {% for p in posts %}
-    {{ components.PostPreview(title = p.props.contentTitle, desc = p.props.desc, date = p.props.date, url = p.props.url, image = p.props.image) }}
-    {% endfor %}
+    {{ components.Posts(posts, limit = 2) }}
 
     <p><a href='/новости' class='Btn'>Посмотреть все</a></p>
 
