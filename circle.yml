@@ -8,8 +8,8 @@ checkout:
 
 test:
   override:
-    - npm test:
-        timeout: 1200
+    - npm run build:
+        timeout: 1500
   post:
     - npm run build
 
