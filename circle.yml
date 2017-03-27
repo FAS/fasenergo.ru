@@ -10,6 +10,8 @@ test:
   override:
     - npm test:
         timeout: 1200
+  post:
+    - npm run build
 
 deployment:
   production:
