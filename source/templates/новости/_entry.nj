@@ -8,4 +8,21 @@
 
 {% block post %}{% endblock %}
 
+<hr>
+
+<aside>
+
+  <h2>Другие новости</h2>
+
+  {% set posts = _.orderBy(getPage('новости')|template(site.placeholders), 'props.date', 'desc') %}
+  {# Filter out current post #}
+  {% set posts = _.reject(posts, { props: { url: page.url } }) %}
+  {% set posts = _.take(posts, 2) %}
+
+  {% for p in posts %}
+  {{ components.PostPreview(title = p.props.contentTitle, desc = p.props.desc, date = p.props.date, url = p.props.url, image = p.props.image) }}
+  {% endfor %}
+
+</aside>
+
 {% endblock %}
