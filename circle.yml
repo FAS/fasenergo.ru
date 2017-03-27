@@ -7,11 +7,9 @@ checkout:
     - git submodule update --init --recursive
 
 test:
-  override:
+  post:
     - npm run build:
         timeout: 1500
-  post:
-    - npm run build
 
 deployment:
   production:
