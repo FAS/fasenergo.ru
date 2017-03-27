@@ -70,7 +70,11 @@ module.exports = () ->
         # In production we have to name this file as final stylesheet would be named,
         # because due to production mode this is what will be stated in HTML pages
         # and for what will look `uncss` task
-        ext: if @config('env.production') then '.min.css' else '.prefixed.css'
+
+        # @todo Revert to this value when https://github.com/giakki/uncss/pull/280 will be merged
+        #       and `uncss` task will be enabled again
+        # ext: if @config('env.production') then '.min.css' else '.prefixed.css'
+        ext: '.prefixed.css'
       ]
 
   ###
@@ -79,28 +83,29 @@ module.exports = () ->
   Remove unused CSS
   ###
 
-  @config 'uncss',
-    build:
-      options:
-        htmlroot: '<%= path.build.root %>'
-        ignore: [
-          # Classes inside IE conditional blocks have to be ignored explicitly
-          # See https://github.com/giakki/uncss/issues/112
-          '.Outdated-browser'
-          '.Outdated-browser__link'
+  # @todo Enable when https://github.com/giakki/uncss/pull/280 will be merged
+  # @config 'uncss',
+  #   build:
+  #     options:
+  #       htmlroot: '<%= path.build.root %>'
+  #       ignore: [
+  #         # Classes inside IE conditional blocks have to be ignored explicitly
+  #         # See https://github.com/giakki/uncss/issues/112
+  #         '.Outdated-browser'
+  #         '.Outdated-browser__link'
 
-          # This class usually not occurs in original templates, but you might want
-          # to use it occasionally on production
-          '.o-show-grid'
+  #         # This class usually not occurs in original templates, but you might want
+  #         # to use it occasionally on production
+  #         '.o-show-grid'
 
-          # Ignore state-related classes, like `is-active` and `menu-entry--is-active`
-          /[-\.#](is|has|not)-/
-        ]
-        ignoreSheets : [/fonts.googleapis/]
-      files: [
-        src: '<%= path.build.root %>/{,**/}*.html'
-        dest: '<%= file.build.style.tidy %>'
-      ]
+  #         # Ignore state-related classes, like `is-active` and `menu-entry--is-active`
+  #         /[-\.#](is|has|not)-/
+  #       ]
+  #       ignoreSheets : [/fonts.googleapis/]
+  #     files: [
+  #       src: '<%= path.build.root %>/{,**/}*.html'
+  #       dest: '<%= file.build.style.tidy %>'
+  #     ]
 
   ###
   CSSO
@@ -115,7 +120,10 @@ module.exports = () ->
       files: [
         expand: true
         cwd: '<%= path.build.styles %>'
-        src: '{,**/}*.tidy.css'
+        # @todo Revert to this value when https://github.com/giakki/uncss/pull/280 will be merged
+        #       and `uncss` task will be enabled again
+        # src: '{,**/}*.tidy.css'
+        src: '{,**/}*.prefixed.css'
         dest: '<%= path.build.styles %>'
         ext: '.min.css'
       ]

@@ -125,7 +125,8 @@ module.exports = (grunt) ->
     'webfont'
     'sass'
     'postcss:autoprefix'
-    'uncss'
+    # @todo Enable when https://github.com/giakki/uncss/pull/280 will be merged
+    # 'uncss'
     'csso'
     'shell'
     'uglify'
