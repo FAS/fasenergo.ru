@@ -1,0 +1,17 @@
+---
+title:            Новости
+breadcrumbTitle:  Новости
+contentTitle:     Новости
+navTitle:         Новости
+metaDesc:         Новости
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% set posts = _.orderBy(getPage(page.breadcrumb)|template(site.placeholders), 'props.date', 'desc') %}
+
+{% for p in posts %}
+{{ components.PostPreview(title = p.props.contentTitle, desc = p.props.desc, date = p.props.date, url = p.props.url, image = p.props.image) }}
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+<footer class='h-opacity--60 h-bleed-top h-margin-bottom+'>
+  {{ moment(page.date).format('DD.MM.YYYY') }}
+</footer>
+
+{% block post %}{% endblock %}
+
+{% endblock %}

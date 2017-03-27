@@ -33,7 +33,6 @@ module.exports = (grunt) ->
     data:
       currentYear: new Date().getFullYear()
       contacts: require('./contacts')
-      posts: require('./posts')
       generators: grunt.file.readYAML join(grunt.config('path.source.data'), 'generators.yml')
       engines: grunt.file.readYAML join(grunt.config('path.source.data'), 'engines.yml')
 
