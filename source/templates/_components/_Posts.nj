@@ -1,17 +1,12 @@
 {##
- # Display news post preview
+ # Display news post preview based on content of '/новости' directory
  #
- # @param {Object}  posts             Object of posts
- # @param {string}  posts.props.desc  Short description of news
- # @param {string}  posts.props.date  Valid ISO date
- # @param {string}  posts.props.url   Url to news page
- # @param {string}  posts.props.image Post image url
  # @param {number}  [limit]           Max posts to display
  # @param {boolean} [displayCurrent]  Should current post (if any) be displayed
  #
  # @return {string} News posts
  #}
-{% macro Posts(posts, limit, displayCurrent = true) %}
+{% macro Posts(limit, displayCurrent = true) %}
 {% set posts = _.orderBy(getPage('новости')|template(site.placeholders), 'props.date', 'desc') %}
 
 {% if not displayCurrent %}

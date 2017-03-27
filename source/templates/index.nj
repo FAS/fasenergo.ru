@@ -168,7 +168,7 @@ showContentTitle:          false
 
     <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>Новости</h2>
 
-    {{ components.Posts(posts, limit = 2) }}
+    {{ components.Posts(limit = 2) }}
 
     <p><a href='/новости' class='Btn'>Посмотреть все</a></p>
 

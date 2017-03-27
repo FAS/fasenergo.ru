@@ -14,7 +14,7 @@
 
   <h2>Другие новости</h2>
 
-  {{ components.Posts(posts, limit = 2, displayCurrent = false) }}
+  {{ components.Posts(limit = 2, displayCurrent = false) }}
 
 </aside>
 
