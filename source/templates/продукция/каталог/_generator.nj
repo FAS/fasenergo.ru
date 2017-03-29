@@ -5,12 +5,6 @@
 {% set gen = selectGenerator(data, page.props.generatorId) %}
 {% if not gen %}{{ warn('Not found generator with specified id `' + page.props.generatorId + '` in `generatorId` of page Matter data') }}{% endif %}
 
-{% macro PhasesToWord(phases) %}{{ phases == 1 and 'однофазовый' or phases == 3 and 'трехфазный' or warn('[PhasesToWord] unknown number of phases: `' + phases + '`') }}{% endmacro %}
-{% macro FuelTypeToWord(fuel) %}{{ fuel == 'ng' and 'метан' or fuel == 'lpg' and 'СУГ' or warn('[FuelTypeToWord] unknown fuel type: `' + fuel + '`') }}{% endmacro %}
-{% macro EnclosureTypeToWord(enclosure) %}{{ enclosure == 'open' and 'открытое' or enclosure == 'soundproof' and 'закрытое с шумопоглощением' or warn('[EnclosureTypeToWord] unknown enclosure type: `' + enclosure + '`') }}{% endmacro %}
-{% macro PowersList(powers) %}{% for p in powers %}{{ numbro(p).format() }}{{ '/' if not loop.last }}{% endfor %}{% endmacro %}
-{% macro CoolingToWord(coolingType) %}{{ coolingType == 'air' and 'воздушное' or coolingType == 'liquid' and 'жидкостное' or warn('[CoolingToWord] unknown cooling type: `' + phases + '`') }}{% endmacro %}
-
 {% set specs = gen.specs %}
 {% set enclosure = gen.enclosure %}
 
@@ -18,8 +12,8 @@
 {% set isDiscontinued = generatorIsDiscontinued(gen) %}
 {% set isAvailable = generatorIsAvailable(gen) %}
 {% set powers = getGeneratorMaxPowers(gen) %}
-{% set powersList = PowersList(powers) %}
-{% set phasesWord = specs.phases and PhasesToWord(specs.phases) %}
+{% set powersList = components.PowersList(powers) %}
+{% set phasesWord = specs.phases and components.PhasesToWord(specs.phases) %}
 {% set engine = selectEngine(data, gen.engine) %}
 {% set engineTitle = getEngineTitle(engine) %}
 {% set size = getGeneratorSize(gen) %}
@@ -144,7 +138,7 @@
 
       {% for fuel, fuelConsumption in specs.fuel %}
       {% if fuelConsumption %}
-      <li><div class='wrap-blue {{ class }}'><p>потребление ({{ FuelTypeToWord(fuel) }}):<br> <b>{{ fuelConsumption }}</b></p></div></li>
+      <li><div class='wrap-blue {{ class }}'><p>потребление ({{ components.FuelTypeToWord(fuel) }}):<br> <b>{{ fuelConsumption }}</b></p></div></li>
       {% endif %}
       {% endfor %}
     </ul>
@@ -185,7 +179,7 @@
         <tr><th class='h-text--'>Стартер</th><td>Электростартер</td></tr>
         <tr><th class='h-text--'>Тип покдлючения</th><td>Прямое\к резервуару</td></tr>
         <tr><th class='h-text--'>Время безостановочной работы</th><td>Круглосуточно</td></tr>
-        {% if enclosure.type %}<tr><th class='h-text--'>Исполнение</th><td>{{ EnclosureTypeToWord(enclosure.type)|capitalize }}</td></tr>{% endif %}
+        {% if enclosure.type %}<tr><th class='h-text--'>Исполнение</th><td>{{ components.EnclosureTypeToWord(enclosure.type)|capitalize }}</td></tr>{% endif %}
       </table>
 
       <h3 class='h-h5'>Габариты и масса:</h3>
@@ -203,7 +197,7 @@
 
       <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
         {% if engine %}<tr><th class='h-text--'>Модель</th><td>{{ engineTitle }}</td></tr>{% endif %}
-        {% if engine.cooling %}<tr><th class='h-text--'>Тип охлаждения</th><td>{{ CoolingToWord(engine.cooling)|capitalize }}</td></tr>{% endif %}
+        {% if engine.cooling %}<tr><th class='h-text--'>Тип охлаждения</th><td>{{ components.CoolingToWord(engine.cooling)|capitalize }}</td></tr>{% endif %}
         {% if specs.operatingSpeed %}<tr><th class='h-text--'>Рабочие обороты</th><td>{{ specs.operatingSpeed }}</td></tr>{% endif %}
       </table>
 
