@@ -5,25 +5,25 @@
  # @param {string} [image] = '/' + path.images + '/no-photo.png'
  #                                Preview image for card
  # @param {object} [power]        Power of inner products
- # @param {object} [power.from]   Min power of inner products
- # @param {object} [power.to]     Max power of inner products
- # @param {object} [power.units]  Units for power
+ # @param {number} [power.from]   Min power of inner products
+ # @param {number} [power.to]     Max power of inner products
+ # @param {string} [power.units]  Units for power
  # @param {string} url            Url to category
  # @param {number} [discount]     Discount for inner products, from 0 to 100
- # @param {string} [discountDate] Discount end ISO date for inner products
+ # @param {date}   [discountDate] Discount end ISO date for inner products
  #
  # @return {string} HTML
  #
  # @example
-     {% call components.CategoryCard(
-       title = 'Test series',
-       url = '/catalog/test',
-       image = '/' + path.images + '/test.png',
-       power = { from: 10, to: 20, units: ' кВт' },
-       discount = 15
-     ) %}
-       <p>Test description</p>
-     {% endcall %}
+ #   {% call components.CategoryCard(
+ #     title = 'Test series',
+ #     url = '/catalog/test',
+ #     image = '/' + path.images + '/test.png',
+ #     power = { from: 10, to: 20, units: ' кВт' },
+ #     discount = 15
+ #   ) %}
+ #     <p>Test description</p>
+ #   {% endcall %}
  #}
 {% macro CategoryCard(
   title,
