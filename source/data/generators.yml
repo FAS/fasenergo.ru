@@ -2878,7 +2878,17 @@ fas-15-ozp3-kubota-15квт:
     <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
     <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
   features: null
-  photos: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0007-2.jpg
+      main: true
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0000.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0001.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0002.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0003-1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0004-1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0005-1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0006-1.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0008-1.jpg
   videos: null
   docs: null
   tags:
@@ -2950,7 +2960,17 @@ fas-15-ozp3-kubota-15квт:
     <p>Двухтопливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
     <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
   features: null
-  photos: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0007.jpg
+      main: true
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0000.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0001.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0002.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0003.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0004.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0005.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0006.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0008.jpg
   videos: null
   docs: null
   tags:
