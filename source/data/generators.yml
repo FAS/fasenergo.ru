@@ -30,7 +30,14 @@
     <p>Электрогенераторные установки с воздушной системой охлаждения могут комплектоваться автоматикой и системой автоматического ввода резерва (опция).</p>
     <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
   features: null
-  photos: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0000.jpg
+      main: true
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0001.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0002.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0003.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0004.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0005.jpg
   videos: null
   docs: null
   tags:
@@ -107,7 +114,14 @@
     <p>Электрогенераторные установки с воздушной системой охлаждения могут комплектоваться автоматикой и системой автоматического ввода резерва (опция).</p>
     <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
   features: null
-  photos: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0000.jpg
+      main: true
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0001.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0002.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0003.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0004.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0005.jpg
   videos: null
   docs: null
   tags:
@@ -183,7 +197,11 @@
     <p>Электрогенераторные установки с воздушной системой охлаждения могут комплектоваться автоматикой и системой автоматического ввода резерва (опция).</p>
     <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
   features: null
-  photos: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/8-1V/8-1V-1-a.jpg
+      main: true
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/8-1V/8-1V-2-a.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/8-1V/8-1V-3-a.jpg
   videos: null
   docs: null
   tags:
@@ -260,7 +278,11 @@
     <p>Электрогенераторные установки с воздушной системой охлаждения могут комплектоваться автоматикой и системой автоматического ввода резерва (опция).</p>
     <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
   features: null
-  photos: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/10-1V/10-1V-1-a.jpg
+      main: true
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/10-1V/10-1V-2-a.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/10-1V/10-1V-3-a.jpg
   videos: null
   docs: null
   tags:
