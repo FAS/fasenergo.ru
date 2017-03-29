@@ -1,0 +1,58 @@
+{##
+ # Display catalog category card
+ #
+ # @param {string} title          Card title
+ # @param {string} [image]        Preview image for card
+ # @param {object} [power]        Power of inner products
+ # @param {object} [power.from]   Min power of inner products
+ # @param {object} [power.to]     Max power of inner products
+ # @param {object} [power.units]  Units for power
+ # @param {string} url            Url to category
+ # @param {number} [discount]     Discount for inner products, from 0 to 100
+ # @param {string} [discountDate] Discount end ISO date for inner products
+ #
+ # @return {string} HTML
+ #
+ # @example
+     {% call components.CategoryCard(
+       title = 'Test series',
+       url = '/catalog/test',
+       image = '/' + path.images + '/' + 'test.png',
+       power = { from: 10, to: 20, units: ' кВт' },
+       discount = 15
+     ) %}
+       <p>Test description</p>
+     {% endcall %}
+ #}
+{% macro CategoryCard(title, image, power, url, discount, discountDate) %}
+<article href='{{ url }}' class='o-media o-media+ discount-badge discount-badge+ h-margin-bottom+++'>
+
+  {% if discount %}
+  <span class='discount-badge__badge'>
+    <span class='discount-badge__text'>–{{ discount }}%</span>
+    {% if discountDate %}
+    <span class='discount-badge__subtext'>{{ discountDate }}</span>
+    {% endif %}
+  </span>
+  {% endif %}
+
+  <div class='o-media__aside'>
+    <a class='h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ image }}' width='190' alt='{{ title|striptags }}'></a>
+  </div>
+
+  <div class='o-media__content'>
+
+    <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h2>
+
+    {% if power.from or power.to %}
+    <p class='h-text- text-green h-bleed-top--'>{{ power.from == power.to and power.from or 'от ' + power.from + ' до ' + power.to }}{{ power.units }}</p>
+    {% endif %}
+
+    {{ caller() }}
+
+    <a href='{{ url }}' class='Btn'>Посмотреть модели</a>
+
+  </div>
+
+</article>
+{% endmacro %}
