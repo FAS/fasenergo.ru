@@ -1,5 +1,5 @@
 {##
- # Display products list as table rows
+ # Display product card as a table row
  #
  # @param {string}        url             Url to product
  # @param {string|number} [article]       Product article
