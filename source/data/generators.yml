@@ -2869,7 +2869,7 @@ fas-15-ozp3-kubota-15квт:
   _legacyOldPrice: null
   availability: available
   warranty:
-    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15 000 моточасов)</small> </span>'
     delivery: null
     installation: null
     serviceLife: null
@@ -2941,7 +2941,7 @@ fas-15-ozp3-kubota-15квт:
   _legacyOldPrice: null
   availability: available
   warranty:
-    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15 000 моточасов)</small> </span>'
     delivery: null
     installation: null
     serviceLife: null
