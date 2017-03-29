@@ -56,7 +56,7 @@
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -140,7 +140,7 @@
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -220,7 +220,7 @@
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -301,7 +301,7 @@
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -408,7 +408,7 @@
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -515,7 +515,7 @@
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -622,7 +622,7 @@
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -730,7 +730,7 @@
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -829,7 +829,7 @@ fas-15-ozp1-ваз-15квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -929,7 +929,7 @@ fas-15-ozp3-ваз-15квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -1029,7 +1029,7 @@ fas-15-ozp3-ваз-15квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -1129,7 +1129,7 @@ fas-15-ozp3-ваз-15квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -1229,7 +1229,7 @@ fas-21-ozp1-ваз-21квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -1329,7 +1329,7 @@ fas-21-ozp3-ваз-21квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -1429,7 +1429,7 @@ fas-21-ozp3-ваз-21квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -1535,7 +1535,7 @@ fas-21-ozp3-ваз-21квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -1641,7 +1641,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -1756,7 +1756,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -1861,7 +1861,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -1967,7 +1967,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -2056,7 +2056,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -2145,7 +2145,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -2234,7 +2234,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -2321,7 +2321,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -2421,7 +2421,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -2521,7 +2521,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -2621,7 +2621,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -2721,7 +2721,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -2824,7 +2824,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     voltage: 380
     frequency: 50
-    phases: null
+    phases: 3
     phi: null
     circuitBreaker: null
     fuel:
@@ -3065,7 +3065,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -3143,7 +3143,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -3262,7 +3262,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -3381,7 +3381,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
@@ -3500,7 +3500,7 @@ fas-15-ozp3-kubota-15квт:
       lpg: null
     voltage: 220
     frequency: 50
-    phases: null
+    phases: 1
     phi: null
     circuitBreaker: null
     fuel:
