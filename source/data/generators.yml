@@ -2200,10 +2200,16 @@ fas-32-ozp3-ваз-32квт:
     <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР. </p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7957_half.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0000.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0001.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0002.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0003.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0004.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0005.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/YAMZ_Cont_Close.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/YAMZ_Cont_open.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/YAMZ_Cont_slice.jpg
   videos: null
   docs: null
   tags:
