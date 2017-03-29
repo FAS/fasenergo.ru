@@ -41,7 +41,6 @@
  #
  #   </table>
  #}
-
 {% macro ProductRow(
   url,
   article,
