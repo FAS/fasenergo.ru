@@ -2242,7 +2242,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ямз-7514
+  engine: ямз-240м
   enclosure:
     type: open
     material: null
@@ -2253,11 +2253,11 @@ fas-32-ozp3-ваз-32квт:
     lock: null
     removablePanels: null
     noise: 90
-    _legacySize: 2900 ×1420 ×1650 (на раме)
+    _legacySize: 3800×1200×2190 (на раме)
     height: null
     width: null
     depth: null
-    weight: 2500
+    weight: 3400
 
 
 
