@@ -2267,6 +2267,195 @@ fas-32-ozp3-ваз-32квт:
 
 
 
+газопоршневая-станция-фас-250-3-р-250-квт:
+  slug: газопоршневая-станция-фас-250-3-р-250-квт
+  meta:
+    title: Газопоршневая станция ФАС-250-3/Р (250 кВт)
+    description: Надежная газопоршневая станция ФАС мощностью 250 кВт
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-250-3/Р
+  title: Газопоршневая станция <span class='text-red'>ФАС-250-3/Р</span> (250 кВт)
+  _legacyPrice: 3 900 000 руб.
+  price: null
+  discount: null
+  _legacyOldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газопоршневые электростанция ФАС-250-3/Р (мощностью 250 кВт) выпускается на базе V-образных 8-цилиндровых двигателей ЯМЗ производства Ярославского моторного завода (ОАО «Автодизель», Россия).</p>
+    <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0000.jpg
+      main: true
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0001.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0002.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0003.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0004.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0005.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/YAMZ_Cont_2_Close.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/YAMZ_Cont_open.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/YAMZ_Cont_slice.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-ямз
+  equipment: >
+    <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Одноопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГПУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+  specs:
+    power:
+      _legacy: 250
+      ng:
+        max: null
+      lpg:
+        max: null
+    current:
+      _legacy: 452
+      ng: null
+      lpg: null
+    voltage: 380
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0,3 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engine: ямз-240нм
+  enclosure:
+    type: open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    _legacySize: 4260×1210×2190 (на раме)
+    height: null
+    width: null
+    depth: null
+    weight: 3500
+
+
+
+газопоршневая-станция-фас-315-3-р-315-квт:
+  slug: газопоршневая-станция-фас-315-3-р-315-квт
+  meta:
+    title: Газопоршневая станция ФАС-315-3/Р (315 кВт)
+    description: Надежная газопоршневая станция ФАС мощностью 315 кВт
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-315-3/Р
+  title: Газопоршневая станция <span class='text-red'>ФАС-315-3/Р</span> (315 кВт)
+  _legacyPrice: 5 300 000 руб.
+  price: null
+  discount: null
+  _legacyOldPrice: null
+  availability: available
+  warranty:
+    _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
+    delivery: null
+    installation: null
+    serviceLife: null
+  desc: |
+    <p>Газопоршневые электростанция ФАС-315-3/Р (мощностью 315 кВт) выпускается на базе V-образных 8-цилиндровых двигателей ЯМЗ производства Ярославского моторного завода (ОАО «Автодизель», Россия).</p>
+    <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР.</p>
+  features: null
+  photos:
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0000.jpg
+      main: true
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0001.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0002.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0003.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0004.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0005.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/YAMZ_Cont_Close.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/YAMZ_Cont_open.jpg
+    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/YAMZ_Cont_slice.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-ямз
+  equipment: >
+    <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
+    <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+    <li>Блок автоматического ввода резерва (АВР)</li>
+    <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+    <li>Стальную сварную раму с антивибрационными подушками</li>
+    <li>Электростартер, стартерную батарею, блок зарядки аккумулятора</li>
+    <li>Одноопорный электрогенератор класса IP23</li>
+    <li>Система экстренной остановки ГПУ</li>
+    <li>Автоматический регулятор напряжения и частоты</li>
+    <li>Контроллер нештатной работы генераторной установки</li>
+    <li>Комплект эксплуатационной документации</li>
+    <li>Гарантийный талон</li>
+  specs:
+    power:
+      _legacy: 315
+      ng:
+        max: null
+      lpg:
+        max: null
+    current:
+      _legacy: 570
+      ng: null
+      lpg: null
+    voltage: 380
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    fuel:
+      ng: 0,3 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engine: ямз-8503
+  enclosure:
+    type: open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    _legacySize: 4260×1360×2380 (на раме)
+    height: null
+    width: null
+    depth: null
+    weight: 4500
+
+
 когенерационная-установка-фас-50-70м:
   slug: когенерационная-установка-фас-50-70м
   meta:
