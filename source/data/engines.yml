@@ -223,6 +223,62 @@ loncin-lc2v78f-1:
     ng: null
     lpg: null
 
+ямз-240м:
+  slug: ямз-240м
+  type: null
+  model: ЯМЗ-240M
+  manufacturer:
+    brand: ЯМЗ
+    country: null
+  power:
+    hp: null
+    value: null
+    rpm: null
+  torque:
+    value: null
+    rpm: null
+  valvetrain: null
+  cylinders: null
+  strokes: null
+  displacement: null
+  compressionRatio:
+    max: null
+    min: null
+  operatingSpeed: null
+  cooling: liquid
+  oilCapacity: null
+  fuel:
+    ng: null
+    lpg: null
+
+ямз-240нм:
+  slug: ямз-240нм
+  type: null
+  model: ЯМЗ-240НМ
+  manufacturer:
+    brand: ЯМЗ
+    country: null
+  power:
+    hp: null
+    value: null
+    rpm: null
+  torque:
+    value: null
+    rpm: null
+  valvetrain: null
+  cylinders: null
+  strokes: null
+  displacement: null
+  compressionRatio:
+    max: null
+    min: null
+  operatingSpeed: null
+  cooling: liquid
+  oilCapacity: null
+  fuel:
+    ng: null
+    lpg: null
+
 змз-409:
   slug: змз-409
   type: null
