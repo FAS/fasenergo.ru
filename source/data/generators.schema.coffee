@@ -40,6 +40,8 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
         max: t.maybe t.Number
       lpg: t.struct
         max: t.maybe t.Number
+    # темпловая мощность, для когенерационных установок
+    _thermalPower: t.maybe t.Number
     # сила тока
     current: t.struct
       ng: t.maybe t.Number
