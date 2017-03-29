@@ -51,7 +51,7 @@
     {{ components.ProductRow(
       url = page.props.url + '/' + g.slug,
       article = g.article,
-      image = getGeneratorMainPhoto(g).url or '/' + path.images + '/' + 'no-photo.png',
+      image = getGeneratorMainPhoto(g).url,
       model = g.model,
       power = getGeneratorMaxPowers(g),
       voltage = g.specs.voltage,

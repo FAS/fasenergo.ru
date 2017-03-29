@@ -1,9 +1,10 @@
 {##
- # Display catalog category card
+ # Display products list as table rows
  #
  # @param {string}        url             Url to product
  # @param {string|number} [article]       Product article
- # @param {string}        image           Product image
+ # @param {string}        [image] = '/' + path.images + '/no-photo.png'
+ #                                        Product image
  # @param {string}        model           Product model name
  # @param {array}         [power]         List of product powers (ng, lpg)
  # @param {number}        [voltage]       Product voltage
@@ -44,7 +45,7 @@
 {% macro ProductRow(
   url,
   article,
-  image,
+  image = '/' + path.images + '/no-photo.png',
   model,
   power,
   voltage,
