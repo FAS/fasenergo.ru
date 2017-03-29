@@ -6,7 +6,7 @@
  # @param {string}        [image] = '/' + path.images + '/no-photo.png'
  #                                        Product image
  # @param {string}        model           Product model name
- # @param {array}         [power]         List of product powers (ng, lpg)
+ # @param {array}         [powers]        List of product powers (ng, lpg)
  # @param {number}        [voltage]       Product voltage
  # @param {string}        [engine]        Product engine nae
  # @param {number}        [price]         Product price
@@ -29,7 +29,7 @@
  #         article = 123,
  #         image = '/' + path.images + '/' + 'test.png',
  #         model = 'TEST',
- #         power = [10, 12],
+ #         powers = [10, 12],
  #         voltage = 15,
  #         engine = 'TEST-ENGINE 2000',
  #         price = 500,
@@ -46,7 +46,7 @@
   article,
   image = '/' + path.images + '/no-photo.png',
   model,
-  power,
+  powers,
   voltage,
   engine,
   price,
@@ -62,7 +62,7 @@
   <td class='h-text--nowrap'><a href='{{ url }}'>{{ model }}</a></td>
   <td class='h-text--nowrap'>
     <span class='box-tiny wrap-orange'>
-      {% for p in power %}{{ numbro(p).format() }}{{ '/' if not loop.last }}{% endfor %} кВт
+      {% for p in powers %}{{ numbro(p).format() }}{{ '/' if not loop.last }}{% endfor %} кВт
     </span>
   </td>
   <td class='h-text--nowrap'>{{ voltage }} V</td>

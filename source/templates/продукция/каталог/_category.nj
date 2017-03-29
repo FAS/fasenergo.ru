@@ -53,7 +53,7 @@
       article = g.article,
       image = getGeneratorMainPhoto(g).url,
       model = g.model,
-      power = getGeneratorMaxPowers(g),
+      powers = getGeneratorMaxPowers(g),
       voltage = g.specs.voltage,
       engine = getEngineTitle(selectEngine(data, g.engine)),
       price = getGeneratorCurrentPrice(g),

@@ -298,7 +298,7 @@
       url = parentProps.url + '/' + g.slug,
       image = getGeneratorMainPhoto(g).url,
       model = g.model,
-      power = getGeneratorMaxPowers(g),
+      powers = getGeneratorMaxPowers(g),
       engineCooling = selectEngine(data, g.engine).cooling
     ) }}
     {% endfor %}
