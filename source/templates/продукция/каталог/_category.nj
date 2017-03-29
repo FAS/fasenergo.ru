@@ -47,40 +47,8 @@
 
   <tbody class='h-align--center'>
 
-    {% macro Item(url, article, image, model, power, voltage, engine, price, discount, originalPrice) %}
-      <tr>
-        <td class='h-text--nowrap h-padding--'><span class='h-text--'>{{ article }}</span></td>
-        <td class='h-text--nowrap'>
-          <a class='zoomer h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ image }}' width='54' alt='{{ model }}' /></a>
-          <img class='zoomer__image h-border-r' src='{{ image }}' width='54' alt='{{ model }}' />
-        </td>
-        <td class='h-text--nowrap'><a href='{{ url }}'>{{ model }}</a></td>
-        <td class='h-text--nowrap'>
-          <span class='box-tiny wrap-orange'>
-            {% for p in power %}{{ numbro(p).format() }}{{ '/' if not loop.last }}{% endfor %} кВт
-          </span>
-        </td>
-        <td class='h-text--nowrap'>{{ voltage }} V</td>
-        <td class='h-text--nowrap'>{{ engine }}</td>
-        <td class='h-text--nowrap h-align--right'>
-          {% if price %}
-          {% if discount %}
-          <div class='discount-box h-inline-block h-align--middle h-margin-right-- h-text-'>–{{ discount }}%</div>
-          <div class='h-inline-block h-align--middle h-align--right'>
-            <del class='h-opacity--70 h-text--'>{{ numbro(originalPrice).formatCurrency() }}</del>
-            <div>{{ numbro(price).formatCurrency() }}</div>
-          </div>
-          {% else %}
-          {{ numbro(price).formatCurrency() }}
-          {% endif %}
-          {% endif %}
-        </td>
-        <td><a class='Btn Btn- h-text-' href='{{ url }}'>Подробнее</a></td>
-      </tr>
-    {% endmacro %}
-
     {% for g in gens %}
-    {{ Item(
+    {{ components.ProductRow(
       url = page.props.url + '/' + g.slug,
       article = g.article,
       image = getGeneratorMainPhoto(g).url or '/' + path.images + '/' + 'no-photo.png',
