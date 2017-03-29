@@ -2,7 +2,8 @@
  # Display catalog category card
  #
  # @param {string} title          Card title
- # @param {string} [image]        Preview image for card
+ # @param {string} [image] = '/' + path.images + '/no-photo.png'
+ #                                Preview image for card
  # @param {object} [power]        Power of inner products
  # @param {object} [power.from]   Min power of inner products
  # @param {object} [power.to]     Max power of inner products
@@ -17,14 +18,21 @@
      {% call components.CategoryCard(
        title = 'Test series',
        url = '/catalog/test',
-       image = '/' + path.images + '/' + 'test.png',
+       image = '/' + path.images + '/test.png',
        power = { from: 10, to: 20, units: ' кВт' },
        discount = 15
      ) %}
        <p>Test description</p>
      {% endcall %}
  #}
-{% macro CategoryCard(title, image, power, url, discount, discountDate) %}
+{% macro CategoryCard(
+  title,
+  image = '/' + path.images + '/no-photo.png',
+  power,
+  url,
+  discount,
+  discountDate
+) %}
 <article href='{{ url }}' class='o-media o-media+ discount-badge discount-badge+ h-margin-bottom+++'>
 
   {% if discount %}
