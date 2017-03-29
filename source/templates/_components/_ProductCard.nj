@@ -1,0 +1,58 @@
+{##
+ # Display product card
+ # For now it displays very limited set of data, be ware
+ #
+ # @param {string} url             Url to product
+ # @param {string} [image] = '/' + path.images + '/no-photo.png'
+ #                                 Product image
+ # @param {string} model           Product model name
+ # @param {array}  [power]         List of product powers (ng, lpg)
+ # @param {string} [engineCooling] Engine cooling type
+ #
+ # @return {string} HTML
+ #
+ # @example
+ #   {% for g in randomGens %}
+ #   {{ components.ProductCard(
+ #     url = '/test',
+ #     image = '/test.png',
+ #     model = 'Best 2000',
+ #     power = [10, 12],
+ #     engineCooling = 'liquid'
+ #   ) }}
+ #   {% endfor %}
+ #}
+{% macro ProductCard(
+  url,
+  image = '/' + path.images + '/no-photo.png',
+  model,
+  power,
+  engineCooling
+) %}
+<article class='o-grid__item h-1/3 h-margin-bottom+'>
+
+  <a class='h-block h-border-bottom0 h-align--center' href='{{ url }}'>
+    <img src='{{ image }}' alt='{{ model }}' width='190'>
+  </a>
+
+  <p><a class='h-h5' href='{{ url }}'>{{ model }}</a></p>
+
+  <table class='Table h-table--fixed h-cells-padding-- h-margin-bottom'>
+    {% if engineCooling %}
+      <tr>
+        <th class='h-text--'>Охлаждение</th>
+        <td>{{ engineCooling }}</td>
+      </tr>
+    {% endif %}
+    {% if power %}
+      <tr>
+        <th class='h-text--'>Мощность</th>
+        <td>{% for p in power %}{{ numbro(p).format() }}{{ '/' if not loop.last }}{% endfor %} <span class='h-text--'>кВт</span></td>
+      </tr>
+    {% endif %}
+  </table>
+
+  <a href='{{ url }}' class='Btn Btn-'>Подробнее</a>
+
+</article>
+{% endmacro %}
