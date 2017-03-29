@@ -41,13 +41,13 @@
     {% if engineCooling %}
       <tr>
         <th class='h-text--'>Охлаждение</th>
-        <td>{{ engineCooling }}</td>
+        <td>{{ components.CoolingToWord(engineCooling)|capitalize }}</td>
       </tr>
     {% endif %}
     {% if powers %}
       <tr>
         <th class='h-text--'>Мощность</th>
-        <td>{% for p in powers %}{{ numbro(p).format() }}{{ '/' if not loop.last }}{% endfor %} <span class='h-text--'>кВт</span></td>
+        <td>{{ components.PowersList(powers) }} <span class='h-text--'>кВт</span></td>
       </tr>
     {% endif %}
   </table>
