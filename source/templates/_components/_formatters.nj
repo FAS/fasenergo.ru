@@ -1,9 +1,45 @@
-{% macro PhasesToWord(phases) %}{{ phases == 1 and 'однофазовый' or phases == 3 and 'трехфазный' or warn('[PhasesToWord] unknown number of phases: `' + phases + '`') }}{% endmacro %}
+{%- macro PhasesToWord(phases) -%}
+  {%- if phases == 1 -%}
+    {{ 'однофазовый' }}
+  {%- elseif phases == 3 -%}
+    {{ 'трехфазный' }}
+  {% else %}
+    {{ warn('[PhasesToWord] unknown number of phases: `' + phases + '`') }}
+  {% endif %}
+{%- endmacro -%}
 
-{% macro FuelTypeToWord(fuel) %}{{ fuel == 'ng' and 'метан' or fuel == 'lpg' and 'СУГ' or warn('[FuelTypeToWord] unknown fuel type: `' + fuel + '`') }}{% endmacro %}
+{%- macro FuelTypeToWord(fuel) -%}
+  {%- if fuel == 'ng' -%}
+    {{ 'метан' }}
+  {%- elseif fuel == 'lpg' -%}
+    {{ 'СУГ' }}
+  {% else %}
+    {{ warn('[FuelTypeToWord] unknown fuel type: `' + fuel + '`') }}
+  {% endif %}
+{%- endmacro -%}
 
-{% macro EnclosureTypeToWord(enclosure) %}{{ enclosure == 'open' and 'открытое' or enclosure == 'soundproof' and 'закрытое с шумопоглощением' or warn('[EnclosureTypeToWord] unknown enclosure type: `' + enclosure + '`') }}{% endmacro %}
+{%- macro EnclosureTypeToWord(enclosure) -%}
+  {%- if enclosure == 'open' -%}
+    {{ 'открытое' }}
+  {%- elseif enclosure == 'soundproof' -%}
+    {{ 'закрытое с шумопоглощением' }}
+  {% else %}
+    {{ warn('[EnclosureTypeToWord] unknown enclosure type: `' + enclosure + '`') }}
+  {% endif %}
+{%- endmacro -%}
 
-{% macro PowersList(powers) %}{% for p in powers %}{{ numbro(p).format() }}{{ '/' if not loop.last }}{% endfor %}{% endmacro %}
+{%- macro CoolingToWord(coolingType) -%}
+  {%- if coolingType == 'air' -%}
+    {{ 'воздушное' }}
+  {%- elseif coolingType == 'liquid' -%}
+    {{ 'жидкостное' }}
+  {% else %}
+    {{ warn('[CoolingToWord] unknown cooling type: `' + phases + '`') }}
+  {% endif %}
+{%- endmacro -%}
 
-{% macro CoolingToWord(coolingType) %}{{ coolingType == 'air' and 'воздушное' or coolingType == 'liquid' and 'жидкостное' or warn('[CoolingToWord] unknown cooling type: `' + phases + '`') }}{% endmacro %}
+{%- macro PowersList(powers) -%}
+  {%- for p in powers -%}
+    {{ numbro(p).format() }}{{ '/' if not loop.last }}
+  {%- endfor -%}
+{%- endmacro -%}
