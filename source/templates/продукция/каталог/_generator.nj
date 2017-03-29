@@ -124,6 +124,12 @@
       </li>
       {% endif %}
 
+      {% if specs._thermalPower %}
+      <li class='{{ 'h-1/1@lap' if gen.desc or gen.equipment }}'>
+        <div class='wrap-red {{ class }}'><p>тепловая мощность:<br> <b class='h-font-size--h2 h-line-height--h2'>{{ specs._thermalPower }} кВт</b></p></div>
+      </li>
+      {% endif %}
+
       {% if specs.voltage or specs.phases %}
       <li>
         <div class='wrap-blue {{ class }}'>
