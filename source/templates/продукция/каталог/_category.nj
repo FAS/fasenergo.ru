@@ -16,14 +16,15 @@
 
   </div>
 
-  <aside class='o-media__aside'>
+  {# @todo Disabled, becuase no category right now has relevant video #}
+  {# <aside class='o-media__aside'>
 
     <a class='h-align--center h-border-bottom0' href='https://www.youtube.com/watch?v=n2NCe1gYiko' target='_blank'>
       <img class='h-border-r' src='http://fasenergo.ru/img/catalog-video.png' width='175' height='98' alt='Ознакомительный ролик'>
       <span class='h-block h-text-'><span class='g-link'>Ознакомительный ролик</span></span>
     </a>
 
-  </aside>
+  </aside> #}
 
 </header>
 
