@@ -2510,6 +2510,7 @@ fas-32-ozp3-ваз-32квт:
       lpg:
         _legacy: 50
         max: null
+    _thermalPower: 70
     current:
       _legacy: 83,3
       ng: null
