@@ -1,5 +1,9 @@
 t = require('tcomb')
+{ file: { readYAML } } = require('grunt')
+
 { refinements: { False, equalKeysAndSlugs } } = require('../../tests/utils/tcomb')
+
+enginesData = readYAML(__dirname + '/engines.yml')
 
 Generators = t.dict t.union([t.String, t.Number]), t.struct({
   slug: t.union [t.String, t.Number]
@@ -65,7 +69,7 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
 
   equipment: t.maybe t.union [t.String, t.list(t.String), False]
 
-  engine: t.maybe t.String
+  engine: t.maybe t.enums.of(Object.keys(enginesData))
 
   enclosure: t.struct
     # тип
