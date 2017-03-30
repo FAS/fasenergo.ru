@@ -225,6 +225,7 @@ $ekzo-colors: (
   links-border:        rgba(ekzo-color(white), .4),
 
   btn:                 ekzo-color(cascade),
+  btn-border:          currentColor,
   btn-hover:           ekzo-color(secondary),
   btn-hover-bg:        ekzo-color(cascade),
   btn-active-bg:       adjust-color(ekzo-color(cascade), $saturation: -5, $lightness: -14),
