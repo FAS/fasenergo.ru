@@ -6,7 +6,12 @@
  # @param {string}           image             Side cover image
  # @param {('left'|'right')} [align] = 'right' To which side align content
  #
- # @return {string} Aligned specific media object
+ # @return {string} HTML with aligned specific media object
+ # @example
+ #   {% call components.BleedMedia(image = '/' + path.images + '/test.jpg', align = 'right') %}
+ #     <h3>Heading</h3>
+ #     <p>Content</p>
+ #   {% endcall %}
  #}
 {% macro BleedMedia(image, align = 'right') %}
 <div class='Wrapper Wrapper--container h-relative'>
