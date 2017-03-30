@@ -56,7 +56,7 @@ showContentTitle:          false
           <div class='Shade__block t-secondary h-border-r h-padding h-height-1/1'>
             <h2 class='h-h3'>Производство газовых станций </h2>
             <p>Промышленные газовые станции, генераторы для частного жилья и малого/среднего бизнеса, синхронизированные и когенерационные установки.</p>
-            <p><a href='#' class='Btn Btn--primary Btn--wide-'>Каталог оборудования</a></p>
+            <p><a href='/продукция/каталог' class='Btn Btn--primary Btn--wide-'>Каталог оборудования</a></p>
           </div>
         </article>
 
@@ -64,7 +64,7 @@ showContentTitle:          false
           <div class='Shade__block t-secondary h-border-r h-padding h-height-1/1'>
             <h2 class='h-h3'>Профессиональные решения</h2>
             <p>Конструктивные и технологические решения для разных отраслей, объектов и условий использования.</p>
-            <p><a href='#' class='Btn Btn--solid Btn--wide-'>Подробнее о решениях</a></p>
+            <p><a href='/решения' class='Btn Btn--solid Btn--wide-'>Подробнее о решениях</a></p>
           </div>
         </article>
 
