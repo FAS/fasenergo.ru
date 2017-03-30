@@ -35,7 +35,7 @@ showContentTitle:          false
 
       <h1 class='Shade__title h-h2 h-margin-bottom+--'>Ведущий российский производитель газовых генераторов</h1>
 
-      <ul class='Shade__text o-grid h-flex-x--between h-3/4 g-list0 h-padding-bottom++--'>
+      <ul class='Shade__text o-grid h-flex-x--between h-3/4@lap g-list0 h-padding-bottom++--'>
         <li class='o-grid__item h-flex'>
           <span class='h-h2 h-line-height1.3 h-padding-right--'>14</span>
           <span class='h-text+ h-margin-top--'>собственных<br> разработок</span>
