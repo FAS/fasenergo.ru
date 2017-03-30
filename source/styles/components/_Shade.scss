@@ -22,3 +22,11 @@
   }
 
 }
+
+  .Shade__title { text-shadow: 0 0 15px rgba(0, 0, 0, .56); }
+  .Shade__text { text-shadow: 0 0 6px rgba(0, 0, 0, .8); }
+
+  .Shade__block {
+    box-shadow: 0 0 10px rgba(255, 255, 255, .1);
+    border: solid 1px rgba(255, 255, 255 , .18);
+  }

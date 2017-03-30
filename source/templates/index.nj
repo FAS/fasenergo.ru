@@ -33,9 +33,9 @@ showContentTitle:          false
   <div class='{{ containerClass }}'>
     <div class='{{ contentClass }}'>
 
-      <h1 class='h-h2 h-margin-bottom+--'>Ведущий российский производитель газовых генераторов</h1>
+      <h1 class='Shade__title h-h2 h-margin-bottom+--'>Ведущий российский производитель газовых генераторов</h1>
 
-      <ul class='o-grid h-flex-x--between h-3/4 g-list0 h-padding-bottom++--'>
+      <ul class='Shade__text o-grid h-flex-x--between h-3/4 g-list0 h-padding-bottom++--'>
         <li class='o-grid__item h-flex'>
           <span class='h-h2 h-line-height1.3 h-padding-right--'>14</span>
           <span class='h-text+ h-margin-top--'>собственных<br> разработок</span>
@@ -53,7 +53,7 @@ showContentTitle:          false
       <div class='o-grid h-childs-displace+ h-margin-top++ h-padding-bottom++'>
 
         <article class='o-grid__item h-1/2'>
-          <div class='t-secondary h-border-r h-padding h-height-1/1'>
+          <div class='Shade__block t-secondary h-border-r h-padding h-height-1/1'>
             <h2 class='h-h3'>Производство газовых станций </h2>
             <p>Промышленные газовые станции, генераторы для частного жилья и малого/среднего бизнеса, синхронизированные и когенерационные установки.</p>
             <p><a href='#' class='Btn Btn--primary Btn--wide-'>Каталог оборудования</a></p>
@@ -61,7 +61,7 @@ showContentTitle:          false
         </article>
 
         <article class='o-grid__item h-1/2'>
-          <div class='t-secondary h-border-r h-padding h-height-1/1'>
+          <div class='Shade__block t-secondary h-border-r h-padding h-height-1/1'>
             <h2 class='h-h3'>Профессиональные решения</h2>
             <p>Конструктивные и технологические решения для разных отраслей, объектов и условий использования.</p>
             <p><a href='#' class='Btn Btn--solid Btn--wide-'>Подробнее о решениях</a></p>
