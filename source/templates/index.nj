@@ -27,7 +27,7 @@ showContentTitle:          false
 {% set sectionBottomWrapper = 'h-padding-bottom++' %}
 
 <header
-  class='t-quaternary h-padding-top+ h-bg--cover h-bg--center'
+  class='Shade t-quaternary h-padding-top+ h-bg--cover h-bg--center'
   style='background-image: url(/{{ path.images + '/hero.jpg' }})'
 >
   <div class='{{ containerClass }}'>
