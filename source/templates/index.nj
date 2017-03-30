@@ -52,10 +52,49 @@ showContentTitle:          false
   </div>
 </header>
 
+<section class='{{ containerClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
+  <div class='{{ contentClass }} h-text+'>
+    <div class='Wrapper--content-text'>
+
+      <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>Дилерам</h2>
+
+      <p>Дилер получает возможность продавать наше оборудование и оказывать сопутствующие услуги.</p>
+
+      <p>Почему работать с нами выгодно:</p>
+
+      <ul class='h-childs-space-top--'>
+        <li>не надо заранее выкупать и хранить оборудование и запчасти;</li>
+        <li>региональный склад за наш счёт для активных дилеров;</li>
+        <li>быстрая поставка за 3-5 дней в любую точку европейской части России;</li>
+        <li>нет жёстких требований к объёму продаж;</li>
+        <li>бесплатное обучение;</li>
+        <li>защита контракта от демпинга.</li>
+      </ul>
+
+      <p class='h-margin-top+'><a href='/дилерам' class='Btn h-text++'>Как мы работаем с дилерами</a></p>
+
+    </div>
+  </div>
+</section>
+
+<div class='{{ containerClass }}'><div class='{{ contentClass }}'><hr class='h-margin0'></div></div>
+
+<section class='{{ containerClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
+  <div class='{{ contentClass }}'>
+
+    <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>Новости</h2>
+
+    {{ components.Posts(limit = 2) }}
+
+    <p><a href='/новости' class='Btn'>Посмотреть все</a></p>
+
+  </div>
+</section>
+
 <section class='{{ containerClass }}'>
   <div class='{{ contentClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
 
-    <h2 class='h-extra-h2 h-padding-bottom-- h-margin-bottom+ h-color--secondary'>Преимущества наших генераторов</h2>
+    <h2 class='h-extra-h2 h-padding-bottom-- h-margin-bottom+ h-color--secondary'>Главное о наших генераторах</h2>
 
     {% set gridClass = 'o-grid h-childs-displace+++' %}
     {% set itemClass = 'o-grid__item h-1/2' %}
@@ -95,45 +134,6 @@ showContentTitle:          false
         <a href='/продукция/преимущества-наших-генераторов' class='h-text++'>Больше о наших генераторах</a>
       </div>
     </div>
-
-  </div>
-</section>
-
-<section class='{{ containerClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
-  <div class='{{ contentClass }} h-text+'>
-    <div class='Wrapper--content-text'>
-
-      <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>Дилерам</h2>
-
-      <p>Дилер получает возможность продавать наше оборудование и оказывать сопутствующие услуги.</p>
-
-      <p>Почему работать с нами выгодно:</p>
-
-      <ul class='h-childs-space-top--'>
-        <li>не надо заранее выкупать и хранить оборудование и запчасти;</li>
-        <li>региональный склад за наш счёт для активных дилеров;</li>
-        <li>быстрая поставка за 3-5 дней в любую точку европейской части России;</li>
-        <li>нет жёстких требований к объёму продаж;</li>
-        <li>бесплатное обучение;</li>
-        <li>защита контракта от демпинга.</li>
-      </ul>
-
-      <p class='h-margin-top+'><a href='/дилерам' class='Btn h-text++'>Как мы работаем с дилерами</a></p>
-
-    </div>
-  </div>
-</section>
-
-<div class='{{ containerClass }}'><div class='{{ contentClass }}'><hr class='h-margin0'></div></div>
-
-<section class='{{ containerClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
-  <div class='{{ contentClass }}'>
-
-    <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>Новости</h2>
-
-    {{ components.Posts(limit = 2) }}
-
-    <p><a href='/новости' class='Btn'>Посмотреть все</a></p>
 
   </div>
 </section>
