@@ -195,6 +195,8 @@ $ekzo-colors: (
   btn-hover-bg:        ekzo-color(cascade),
   btn-active-bg:       adjust-color(ekzo-color(cascade), $saturation: -5, $lightness: -14),
 
+  btn-primary-bg:      adjust-color(ekzo-color(primary), $saturation: 0, $lightness: 7),
+
   btn-solid:           ekzo-color(white),
   btn-solid-bg:        ekzo-color(tertiary),
   btn-solid-hover:     ekzo-color(white),
