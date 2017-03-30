@@ -12,7 +12,7 @@
 
 <aside>
 
-  <h2>Другие новости</h2>
+  <h2>Свежие новости</h2>
 
   {{ components.Posts(limit = 2, displayCurrent = false) }}
 
