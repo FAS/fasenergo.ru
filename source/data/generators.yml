@@ -2438,7 +2438,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ямз-8503
+  engine: ямз-8503-10
   enclosure:
     type: open
     material: null

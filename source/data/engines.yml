@@ -279,10 +279,10 @@ loncin-lc2v78f-1:
     ng: null
     lpg: null
 
-ямз-8503:
-  slug: ямз-8503
+ямз-8503-10:
+  slug: ямз-8503-10
   type: null
-  model: 8503
+  model: 8503.10
   manufacturer:
     brand: ЯМЗ
     country: null
