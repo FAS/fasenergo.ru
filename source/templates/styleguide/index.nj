@@ -120,6 +120,7 @@ applyWrapperContent: false
 </p>
 <p>
   <a class='Btn Btn--wide' href='#'>Широкая</a>
+  <a class='Btn Btn--wide-' href='#'>Менее широкая</a>
 </p>
 <p>
   <a class='Btn o-btn--full' href='#'>Во всю длину</a>
