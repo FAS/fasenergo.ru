@@ -99,43 +99,6 @@ showContentTitle:          false
   </div>
 </section>
 
-<section class='t-quaternary h-padding-top++--'>
-
-  <div class='{{ containerClass }}'>
-    <div class='{{ contentClass }}'>
-      <h2 class='h-extra-h2 h-margin-bottom+--'>Мы делаем</h2>
-    </div>
-  </div>
-
-  <section>
-    {% call components.BleedMedia(image = '/' + path.images + '/covers/schemes.jpg', align = 'right') %}
-
-      <h3 class='h-extra-h3 h-margin-top0'>Проекты под ключ</h3>
-
-      <p>Проектом «под ключ» мы называем полное оборудование объекта: проектирование и технико-экономическое обоснование, установку генераторов и смежного оборудования, строительные работы и запуск в эксплуатацию.</p>
-      <p>У газового оборудования есть особенности, которые нужно понимать. Например, как заглубить резервуар для сжиженного газа, оборудовать помещение для генератора, подвести нужные коммуникации.</p>
-      <p>Для реализации таких проектов у нас есть и опыт, и <a href='/{{ path.docs }}/Разрешительные-документы-Фасэнергомаш.pdf' target='_blank'>разрешительные документы</a> на строительные, технологические и пусконаладочные работы.</p>
-
-      <p class='h-margin-top+--'><a href='/проекты-под-ключ' class='Btn'>Подробнее о проектах</a></p>
-
-    {% endcall %}
-  </section>
-
-  <section>
-    {% call components.BleedMedia(image = '/' + path.images + '/covers/port.jpg', align = 'left') %}
-
-      <h3 class='h-extra-h3 h-margin-top0'>Отраслевые решения</h3>
-
-      <p>Отраслевым решением мы называем специальную разработку с участием генераторов, которая решает проблемы в определённой отрасли.</p>
-      <p>Уже сейчас у нас есть разработки и оборудование для промышленности, нефтегазового и энергетического комплекса, городского/муниципального, сельского и лесного хозяйств, а также экологические решения.</p>
-
-      <p class='h-margin-top+--'><a href='/отраслевые-решения' class='Btn'>Подробнее про решения</a></p>
-
-    {% endcall %}
-  </section>
-
-</section>
-
 <section class='{{ containerClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
   <div class='{{ contentClass }} h-text+'>
     <div class='Wrapper--content-text'>
