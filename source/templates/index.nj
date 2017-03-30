@@ -59,7 +59,7 @@ showContentTitle:          false
 
     {{ components.Posts(limit = 2) }}
 
-    <p><a href='/новости' class='Btn'>Посмотреть все</a></p>
+    <p class='h-align--center'><a href='/новости' class='Btn'>Посмотреть все</a></p>
 
   </div>
 </section>
