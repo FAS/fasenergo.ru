@@ -33,7 +33,7 @@ showContentTitle:          false
   <div class='{{ containerClass }}'>
     <div class='{{ contentClass }}'>
 
-      <h1 class='Shade__title h-h2 h-margin-bottom+--'>Ведущий российский производитель газовых генераторов</h1>
+      <h1 class='Shade__title h-h2 h-margin-bottom+--'>Ведущий российский производитель газовых&nbsp;генераторов</h1>
 
       <ul class='Shade__text o-grid h-flex-x--between h-3/4@lap g-list0 h-padding-bottom++--'>
         <li class='o-grid__item h-flex'>
