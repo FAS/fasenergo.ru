@@ -36,9 +36,7 @@ $ekzo-font-sizes: (
     h6: 18px, // = h6, .h-h6, .h-font-size--h6, .h-line-height--h6
   ),
 
-  extra-headings: (
-    3:    28px, // = .h-extra-h3, .h-font-size3, .h-line-height3
-  ),
+  extra-headings: (), // = .h-extra-h3, .h-font-size3, .h-line-height3
 
   ems: (
     '--':     .5em,

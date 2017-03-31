@@ -56,8 +56,6 @@ applyWrapperContent: false
 <h4>Заголовок 4</h4>
 <h5>Заголовок 5</h5>
 <h6>Заголовок 6</h6>
-
-<h1 class='h-extra-h3'>Экстра-заголовок 3</h1>
 {% endcall %}
 
 {% call components.Example(title = 'Ссылка') -%}
