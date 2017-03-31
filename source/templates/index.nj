@@ -52,21 +52,37 @@ showContentTitle:          false
 
       <div class='o-grid h-childs-displace+ h-margin-top++ h-padding-bottom++'>
 
+        {% macro Item(title, url, buttonLabel, buttonClass) %}
         <article class='o-grid__item h-1/2'>
-          <div class='Shade__block t-secondary h-border-r h-padding h-height-1/1'>
-            <h2 class='h-h3'>Производство газовых станций </h2>
-            <p>Промышленные газовые станции, генераторы для частного жилья и малого/среднего бизнеса, синхронизированные и когенерационные установки.</p>
-            <p><a href='/продукция/каталог' class='Btn Btn--primary Btn--wide-'>Каталог оборудования</a></p>
+          <div class='Shade__block o-panel o-panel--max t-secondary h-border-r h-padding'>
+            <div class='o-panel__body'>
+              <h2 class='h-h3'>{{ title }}</h2>
+              {{ caller() }}
+            </div>
+            <div class='o-panel__footer h-margin-top'>
+              <a href='{{ url }}' class='Btn {{ buttonClass }} Btn--wide-'>{{ buttonLabel }}</a>
+            </div>
           </div>
         </article>
+        {% endmacro %}
 
-        <article class='o-grid__item h-1/2'>
-          <div class='Shade__block t-secondary h-border-r h-padding h-height-1/1'>
-            <h2 class='h-h3'>Профессиональные решения</h2>
-            <p>Конструктивные и технологические решения для разных отраслей, объектов и условий использования.</p>
-            <p><a href='/решения' class='Btn Btn--solid Btn--wide-'>Подробнее о решениях</a></p>
-          </div>
-        </article>
+        {% call Item(
+          title = 'Производство газовых станций',
+          url = '/продукция/каталог',
+          buttonLabel = 'Каталог оборудования',
+          buttonClass = 'Btn--primary'
+        ) %}
+          <p>Промышленные газовые станции, генераторы для частного жилья и малого/среднего бизнеса, синхронизированные и когенерационные установки.</p>
+        {% endcall %}
+
+        {% call Item(
+          title = 'Профессиональные решения',
+          url = '/решения',
+          buttonLabel = 'Подробнее о решениях',
+          buttonClass = 'Btn--solid'
+        ) %}
+          <p>Конструктивные и технологические решения для разных отраслей, объектов и условий использования.</p>
+        {% endcall %}
 
       </div>
 
