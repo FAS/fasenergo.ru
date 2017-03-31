@@ -77,7 +77,7 @@ showContentTitle:          false
 <section class='{{ containerClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
   <div class='{{ contentClass }}'>
 
-    <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>Новости</h2>
+    <h2 class='h-margin-bottom+ h-color--secondary'>Новости</h2>
 
     {{ components.Posts(limit = 2) }}
 
@@ -91,7 +91,7 @@ showContentTitle:          false
     <div class='{{ contentClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }} h-text+'>
       <div class='Wrapper--content-text'>
 
-        <h2 class='h-extra-h2 h-margin-bottom+'>Дилерам</h2>
+        <h2 class='h-margin-bottom+'>Дилерам</h2>
 
         <p>Дилер получает возможность продавать наше оборудование и оказывать сопутствующие услуги.</p>
 
@@ -116,7 +116,7 @@ showContentTitle:          false
 <section class='{{ containerClass }} {{ sectionTopWrapper }} {{ sectionBottomWrapper }}'>
   <div class='{{ contentClass }}'>
 
-    <h2 class='h-extra-h2 h-padding-bottom-- h-margin-bottom+ h-color--secondary'>Главное о наших генераторах</h2>
+    <h2 class='h-padding-bottom-- h-margin-bottom+ h-color--secondary'>Главное о наших генераторах</h2>
 
     {% set gridClass = 'o-grid h-childs-displace+++' %}
     {% set itemClass = 'o-grid__item h-1/2' %}
@@ -166,7 +166,7 @@ showContentTitle:          false
   <div class='{{ containerClass }} Wrapper-v {{ sectionTopWrapper }}'>
     <div class='{{ contentClass }}'>
 
-      <h2 class='h-extra-h2 h-margin-bottom+ h-color--secondary'>О газовых генераторах FAS</h2>
+      <h2 class='h-margin-bottom+ h-color--secondary'>О газовых генераторах FAS</h2>
 
       <p>Немецкая компания FAS – признанный мировой лидер по производству промышленного оборудования для сжиженных газов. Этот статус – результат многолетней планомерной работы по совершенствованию самих изделий и клиентского сервиса. На российском рынке компания с 1996 года.</p>
       <p>В 2010 году в Санкт-Петербурге начала работу компания Фасэнергомаш. Она входит в группу компаний FAS-Россия и производит газовые генераторы на базе российских двигателей ВАЗ-21083 и ММЗ. Продукция компании используется для энергоснабжения жилых домов, коттеджных поселков, складов, производственных помещений и поставляется не только в регионы РФ, но и в страны СНГ и ближнего зарубежья.</p>
