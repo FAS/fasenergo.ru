@@ -57,7 +57,6 @@ applyWrapperContent: false
 <h5>Заголовок 5</h5>
 <h6>Заголовок 6</h6>
 
-<h1 class='h-extra-h2'>Экстра-заголовок 2</h1>
 <h1 class='h-extra-h3'>Экстра-заголовок 3</h1>
 {% endcall %}
 
