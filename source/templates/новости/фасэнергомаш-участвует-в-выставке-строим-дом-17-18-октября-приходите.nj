@@ -12,8 +12,8 @@ image:            null
 {% extends './_entry.nj' %}
 
 {% block post %}
-<div class="text-center"><img src="/products/blog_stuff/__400500.jpg" alt="Выставка строим дом 2015, 17-18 октября"></div>
-<div class="margin-twice-ends">
+<div class='text-center'><img src='/products/blog_stuff/__400500.jpg' alt='Выставка строим дом 2015, 17-18 октября'></div>
+<div class='margin-twice-ends'>
 <p>Приглашаем посетить наш стенд на осенней выставке «Строим Дом» 17-18 октября в Ленэкспо!</p>
 
 <p>Стенд № А27</p>
@@ -28,10 +28,10 @@ image:            null
 <p>Наш стенд легко найти используя карту.</p>
 
 </div>
-<div class="text-center">
-  <div class="grid__item margin-bottom middle one-half">
-    <a href="/products/blog_stuff/lenexpo_plan_faslocation_A27.jpg" class="fancybox">
-    <img src="/products/blog_stuff/lenexpo_plan_faslocation_A27.jpg" alt="Карта выставки, расположение ФАСЭНЕРГОМАШ, А27">
+<div class='text-center'>
+  <div class='grid__item margin-bottom middle one-half'>
+    <a href='/products/blog_stuff/lenexpo_plan_faslocation_A27.jpg' class='fancybox'>
+    <img src='/products/blog_stuff/lenexpo_plan_faslocation_A27.jpg' alt='Карта выставки, расположение ФАСЭНЕРГОМАШ, А27'>
     </a>
   </div>
 </div>

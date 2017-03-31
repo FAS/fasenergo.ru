@@ -13,36 +13,36 @@ image:            null
 
 {% block post %}
 <p>13 и 14 февраля 2016 компания «ФАСЭНЕРГОМАШ» приняла участие в выставке жилищный проект, на которой были представлены предложения от ведущих участников рынка недвижимости в Санкт-Петербурге и Ленинградской области.</p>
-<a href="/products/blog_stuff/project_february_2016/Image00001__1_.jpg" class="fancybox">
- <img class="img-center round-10px" width="600" alt="Специалисты компании ФАСЭНЕРГОМАШ на жилищном проекте 2016" src="/products/blog_stuff/project_february_2016/Image00001__1_.jpg">
+<a href='/products/blog_stuff/project_february_2016/Image00001__1_.jpg' class='fancybox'>
+ <img class='img-center round-10px' width='600' alt='Специалисты компании ФАСЭНЕРГОМАШ на жилищном проекте 2016' src='/products/blog_stuff/project_february_2016/Image00001__1_.jpg'>
 </a>
 
-<p>На нашем стенде были выставлены два генератора: <a href="/catalog/газовые-генераторы/fas/газовый-генератор-фас-вп-13-квт-3" target="_blank">тихий газовый генератор мощностью 13 киловатт</a> и <a href="/catalog/газовые-генераторы/фас-в-корпусе-турбо" target="_blank">генератор в корпусе турбо</a> мощностью 32 киловатта. Генератор можно было запустить и увидеть как работает двигатель. </p>
+<p>На нашем стенде были выставлены два генератора: <a href='/catalog/газовые-генераторы/fas/газовый-генератор-фас-вп-13-квт-3' target='_blank'>тихий газовый генератор мощностью 13 киловатт</a> и <a href='/catalog/газовые-генераторы/фас-в-корпусе-турбо' target='_blank'>генератор в корпусе турбо</a> мощностью 32 киловатта. Генератор можно было запустить и увидеть как работает двигатель. </p>
 
-<a href="/products/blog_stuff/project_february_2016/Image00003__1_.jpg" class="fancybox">
- <img class="img-center round-10px" width="600" alt="генератор ФАС в корпусе турбо" src="/products/blog_stuff/project_february_2016/Image00003__1_.jpg">
+<a href='/products/blog_stuff/project_february_2016/Image00003__1_.jpg' class='fancybox'>
+ <img class='img-center round-10px' width='600' alt='генератор ФАС в корпусе турбо' src='/products/blog_stuff/project_february_2016/Image00003__1_.jpg'>
 </a>
 
 
 <p>Наше оборудование было интересно в первую очередь сегменту загородной недвижимости, тем у кого есть своя дача или дом. Хотя к стенду подходили самые разные люди: кому-то были нужны генераторы мощностью побольше для коттеджеых поселков на резерв, кому-то был интересны технические детали (жидкостное ли охлаждение? сколько времени до ТО? гарантийные обязательства?). </p>
 
-<a href="/products/blog_stuff/project_february_2016/Image00007__1_.jpg" class="fancybox">
- <img class="img-left round-10px" width="360" alt="демонстрация газовых генераторов ФАС на выставке жилищный проект 2016" src="/products/blog_stuff/project_february_2016/Image00007__1_.jpg">
+<a href='/products/blog_stuff/project_february_2016/Image00007__1_.jpg' class='fancybox'>
+ <img class='img-left round-10px' width='360' alt='демонстрация газовых генераторов ФАС на выставке жилищный проект 2016' src='/products/blog_stuff/project_february_2016/Image00007__1_.jpg'>
 </a>
 
-<a href="/products/blog_stuff/project_february_2016/Image00008__1_.jpg" class="fancybox">
- <img class="img-right round-10px" width="360" alt="демонстрация электрогенераторов ФАС на газовом топливе в корпусе турбо" src="/products/blog_stuff/project_february_2016/Image00008__1_.jpg">
+<a href='/products/blog_stuff/project_february_2016/Image00008__1_.jpg' class='fancybox'>
+ <img class='img-right round-10px' width='360' alt='демонстрация электрогенераторов ФАС на газовом топливе в корпусе турбо' src='/products/blog_stuff/project_february_2016/Image00008__1_.jpg'>
 </a>
 
 <p>Мы постарались развернуто ответить всем. В частности, приходилось рассказывать о том, что всё наше оборудование производится в России и вся поддержка и сервис находятся в Санкт-Петербурге.</p>
 
-<a href="/products/blog_stuff/project_february_2016/Image00005__1_.jpg" class="fancybox">
- <img class="img-center round-10px" width="600" alt="двигатель газового генератора ФАС 13 кВт" src="/products/blog_stuff/project_february_2016/Image00006__1_.jpg">
+<a href='/products/blog_stuff/project_february_2016/Image00005__1_.jpg' class='fancybox'>
+ <img class='img-center round-10px' width='600' alt='двигатель газового генератора ФАС 13 кВт' src='/products/blog_stuff/project_february_2016/Image00006__1_.jpg'>
 </a>
 
 
-<p>Если у Вас остались вопросы свяжитесь с нами по телефону <a href="tel:+7 (812) 318-75-75" class="dotted" title="Позвонить нам">
-<span id="js-ya-phone">+7 (812) 318-75-75</span>
+<p>Если у Вас остались вопросы свяжитесь с нами по телефону <a href='tel:+7 (812) 318-75-75' class='dotted' title='Позвонить нам'>
+<span id='js-ya-phone'>+7 (812) 318-75-75</span>
 </a> </br>
-или напишите нам <a href="mailto:sale@fasenergo.ru">sale@fasenergo.ru</a></p>
+или напишите нам <a href='mailto:sale@fasenergo.ru'>sale@fasenergo.ru</a></p>
 {% endblock %}
