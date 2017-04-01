@@ -15,8 +15,8 @@ showBreadcrumb:   false
 
 {% block main %}
 
-  <h1 class='h-text++ h-margin-bottom+'><b>404</b> — страница не найдена</h1>
+<h1 class='h-text++ h-margin-bottom+'><b>404</b> — страница не найдена</h1>
 
-  <p class='h-margin-top+'><a class='Btn g-link--back' href='{{ localeDir() }}/'>Домой</a></p>
+<p class='h-margin-top+'><a class='Btn' href='{{ localeDir() }}/'>На главную</a></p>
 
 {% endblock %}
