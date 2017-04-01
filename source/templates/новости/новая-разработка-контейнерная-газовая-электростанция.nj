@@ -18,9 +18,10 @@ image:            null
 
 <p>Наши контейнерные электростанции предназначены для работы в различных условиях, при температурах от -50 до +50°С.</p>
 
-<a href='/products/generators/fas/photos/container/-------back-left.png' class='fancybox'>
- <img class='img-center round-10px' width='700' alt='контейнерная газовая электростанция 20 футов' src='/products/generators/fas/photos/container/-------back-left.png'>
-</a>
+{{ components.Image(
+  src = '/products/generators/fas/photos/container/-------back-left.png',
+  alt = 'контейнерная газовая электростанция 20 футов'
+) }}
 
 <p>Инженеры компании спроектировали систему таким образом, что бы она была применима для широкого круга задач от коттеджного поселка, супермаркета, больницы или отеля до промышленных предприятий.</p>
 
