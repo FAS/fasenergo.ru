@@ -45,9 +45,5 @@ image:            null
   alt = 'двигатель газового генератора ФАС 13 кВт'
 ) }}
 
-<p>
-  Если у Вас остались вопросы свяжитесь с нами по телефону
-  <a href='tel:+7 (812) 318-75-75' title='Позвонить нам'>+7 (812) 318-75-75</a> </br>
-  или напишите нам <a href='mailto:sale@fasenergo.ru'>sale@fasenergo.ru</a>
-</p>
+<p>Если у Вас остались вопросы свяжитесь с нами по телефону {{ components.Phone(data.contacts.departaments.sales.phones[0]) }} или напишите нам {{ components.Email(data.contacts.departaments.sales.emails[0]) }}.</p>
 {% endblock %}
