@@ -42,15 +42,15 @@
       {% call(depth) Item('/сервис/установка', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/проекты-под-ключ') %}{% endcall %}
-    {% call(depth) Item('/отраслевые-решения') %}
-      {% call(depth) Item('/отраслевые-решения/нефтегазовый-комплекс', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/отраслевые-решения/энергетический-комплекс', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/отраслевые-решения/городское-и-муниципальное-хозяйство', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/отраслевые-решения/сельское-хозяйство', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/отраслевые-решения/промышленность', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/отраслевые-решения/автомобилестроение', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/отраслевые-решения/лесной-комплекс', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/отраслевые-решения/экологические-программы', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения') %}
+      {% call(depth) Item('/решения/нефтегазовый-комплекс', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/энергетический-комплекс', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/городское-и-муниципальное-хозяйство', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/сельское-хозяйство', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/промышленность', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/автомобилестроение', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/лесной-комплекс', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/экологические-программы', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/дилерам') %}{% endcall %}
 

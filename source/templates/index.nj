@@ -77,7 +77,7 @@ showContentTitle:          false
 
         {% call Item(
           title = 'Профессиональные решения',
-          url = '/отраслевые-решения',
+          url = '/решения',
           buttonLabel = 'Подробнее о решениях',
           buttonClass = 'Btn--solid'
         ) %}
