@@ -32,16 +32,6 @@
 
     {# {% call(depth) Item('/') %}{% endcall %} #}
     {% call(depth) Item('/каталог') %}{% endcall %}
-    {% call(depth) Item('/сервис') %}
-      {% call(depth) Item('/сервис', depth = depth, onlyActiveOnIndex = true) %}{% endcall %}
-      {% call(depth) Item('/сервис/доставка', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/сервис/кредит', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/сервис/обслуживание-и-ремонт', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/сервис/поставка-запчастей', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/сервис/проектирование-и-экономическое-обоснование', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/сервис/установка', depth = depth) %}{% endcall %}
-    {% endcall %}
-    {% call(depth) Item('/проекты-под-ключ') %}{% endcall %}
     {% call(depth) Item('/решения') %}
       {% call(depth) Item('/решения/нефтегазовый-комплекс', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/энергетический-комплекс', depth = depth) %}{% endcall %}
@@ -52,6 +42,16 @@
       {% call(depth) Item('/решения/лесной-комплекс', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/экологические-программы', depth = depth) %}{% endcall %}
     {% endcall %}
+    {% call(depth) Item('/сервис') %}
+      {% call(depth) Item('/сервис', depth = depth, onlyActiveOnIndex = true) %}{% endcall %}
+      {% call(depth) Item('/сервис/доставка', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/кредит', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/обслуживание-и-ремонт', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/поставка-запчастей', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/проектирование-и-экономическое-обоснование', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/сервис/установка', depth = depth) %}{% endcall %}
+    {% endcall %}
+    {% call(depth) Item('/проекты-под-ключ') %}{% endcall %}
     {% call(depth) Item('/дилерам') %}{% endcall %}
 
     {#
