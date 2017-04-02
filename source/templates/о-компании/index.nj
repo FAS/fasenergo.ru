@@ -1,9 +1,9 @@
 ---
-title:            О нас
-breadcrumbTitle:  О нас
-contentTitle:     О нас
-navTitle:         О нас
-metaDesc:         О нас
+title:            О компании
+breadcrumbTitle:  О компании
+contentTitle:     О компании
+navTitle:         О компании
+metaDesc:         О компании
 ---
 
 {% extends '_layouts/_main.nj' %}

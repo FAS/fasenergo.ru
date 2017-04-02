@@ -97,7 +97,7 @@ showContentTitle:          false
 
     {{ components.Posts(limit = 2) }}
 
-    <p><a href='/новости' class='Btn'>Посмотреть все</a></p>
+    <p><a href='/о-компании/новости' class='Btn'>Посмотреть все</a></p>
 
   </div>
 </section>

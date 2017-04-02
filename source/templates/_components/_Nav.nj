@@ -66,10 +66,10 @@
 
     {% set secondaryClass = anchorsClass + ' h-text-' %}
 
-    {% call(depth) Item('/о-нас', anchorClass = secondaryClass) %}
-      {% call(depth) Item('/о-нас/о-компании', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/о-нас/производство', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/о-нас/сертификаты', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/о-компании', anchorClass = secondaryClass) %}
+      {% call(depth) Item('/о-компании/компания', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/о-компании/производство', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/о-компании/сертификаты', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/контакты', anchorClass = secondaryClass) %}{% endcall %}
     {% if env.staging or not env.production %}
