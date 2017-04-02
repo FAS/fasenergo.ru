@@ -75,6 +75,7 @@
       {% call(depth) Item('/о-компании/новости', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/контакты', anchorClass = secondaryClass) %}{% endcall %}
+    {% call(depth) Item('/преимущества-и-особенности-газовых-генераторов', anchorClass = secondaryClass) %}{% endcall %}
     {% if env.staging or not env.production %}
     {% call(depth) Item('/styleguide', anchorClass = secondaryClass) %}{% endcall %}
     {% endif %}
