@@ -48,7 +48,7 @@
           {% endif %}
           <li>
             <span class='h-float--left'>{{ components.Icon('delivery') }}</span>
-            <span class='h-block h-margin-left+--'><a href='/сервис/доставка'>Доставка по всей России</a></span>
+            <span class='h-block h-margin-left+--'><a href='/услуги/доставка'>Доставка по всей России</a></span>
           </li>
         </ul>
       </div>
