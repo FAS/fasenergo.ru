@@ -1,9 +1,9 @@
 ---
-title:            Сервис
-breadcrumbTitle:  Сервис
-contentTitle:     Сервис
-navTitle:         Сервис
-metaDesc:         Сервис
+title:            Услуги
+breadcrumbTitle:  Услуги
+contentTitle:     Услуги
+navTitle:         Услуги
+metaDesc:         Услуги
 ---
 
 {% extends '_layouts/_main.nj' %}
