@@ -33,6 +33,7 @@
     {# {% call(depth) Item('/') %}{% endcall %} #}
     {% call(depth) Item('/каталог') %}{% endcall %}
     {% call(depth) Item('/решения') %}
+      {% call(depth) Item('/решения/проекты-под-ключ') %}{% endcall %}
       {% call(depth) Item('/решения/нефтегазовый-комплекс', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/энергетический-комплекс', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/городское-и-муниципальное-хозяйство', depth = depth) %}{% endcall %}
@@ -51,7 +52,6 @@
       {% call(depth) Item('/сервис/проектирование-и-экономическое-обоснование', depth = depth) %}{% endcall %}
       {% call(depth) Item('/сервис/установка', depth = depth) %}{% endcall %}
     {% endcall %}
-    {% call(depth) Item('/проекты-под-ключ') %}{% endcall %}
     {% call(depth) Item('/дилерам') %}{% endcall %}
 
     {#
