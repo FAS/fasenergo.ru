@@ -1,0 +1,13 @@
+---
+title:            Видеоматериалы
+breadcrumbTitle:  Видеоматериалы
+contentTitle:     Видеоматериалы
+navTitle:         Видеоматериалы
+metaDesc:         Видеоматериалы
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{ @todo Нет контента }
+{% endblock %}

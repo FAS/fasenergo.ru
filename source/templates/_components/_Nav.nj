@@ -70,6 +70,9 @@
       {% call(depth) Item('/о-компании/компания', depth = depth) %}{% endcall %}
       {% call(depth) Item('/о-компании/производство', depth = depth) %}{% endcall %}
       {% call(depth) Item('/о-компании/сертификаты', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/о-компании/партнеры', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/о-компании/видеоматериалы', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/о-компании/новости', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/контакты', anchorClass = secondaryClass) %}{% endcall %}
     {% if env.staging or not env.production %}

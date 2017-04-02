@@ -1,0 +1,13 @@
+---
+title:            Партнеры
+breadcrumbTitle:  Партнеры
+contentTitle:     Партнеры
+navTitle:         Партнеры
+metaDesc:         Партнеры
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{ @todo Нет контента }
+{% endblock %}
