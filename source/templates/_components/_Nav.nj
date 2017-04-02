@@ -31,13 +31,7 @@
     {% macro Item(to, label, depth = 1, anchorClass = anchorsClass, onlyActiveOnIndex = onlyActiveOnIndex) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorClass, onlyActiveOnIndex = onlyActiveOnIndex, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
     {# {% call(depth) Item('/') %}{% endcall %} #}
-    {% call(depth) Item('/продукция') %}
-      {% call(depth) Item('/продукция/каталог', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/преимущества-наших-генераторов', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/сертификаты-на-оборудование', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/гарантия', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/результаты-испытаний', depth = depth) %}{% endcall %}
-    {% endcall %}
+    {% call(depth) Item('/каталог') %}{% endcall %}
     {% call(depth) Item('/сервис') %}
       {% call(depth) Item('/сервис', depth = depth, onlyActiveOnIndex = true) %}{% endcall %}
       {% call(depth) Item('/сервис/доставка', depth = depth) %}{% endcall %}
