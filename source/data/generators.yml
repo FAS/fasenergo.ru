@@ -31,13 +31,13 @@
     <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0000.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--front.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0001.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0002.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0003.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0004.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/5-1V/-0005.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--front-right.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--front-left.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--left.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--back-left.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--back-right.jpg
   videos: null
   docs: null
   tags:
@@ -115,13 +115,13 @@
     <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0000.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--front.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0001.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0002.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0003.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0004.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/6-1V/-0005.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--front-right.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--front-left.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--left.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--back-left.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--back-right.jpg
   videos: null
   docs: null
   tags:
@@ -198,10 +198,10 @@
     <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/8-1V/8-1V-1-a.jpg
+    - url: generators/ФАС-8-1В/Газовый-генератор-ФАС-8-1В--front.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/8-1V/8-1V-2-a.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/8-1V/8-1V-3-a.jpg
+    - url: generators/ФАС-8-1В/Газовый-генератор-ФАС-8-1В--front-left.jpg
+    - url: generators/ФАС-8-1В/Газовый-генератор-ФАС-8-1В--front-right.jpg
   videos: null
   docs: null
   tags:
@@ -279,10 +279,10 @@
     <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/10-1V/10-1V-1-a.jpg
+    - url: generators/ФАС-10-1В/Газовый-генератор-ФАС-10-1В--front.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/10-1V/10-1V-2-a.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/loncin/10-1V/10-1V-3-a.jpg
+    - url: generators/ФАС-10-1В/Газовый-генератор-ФАС-10-1В--front-left.jpg
+    - url: generators/ФАС-10-1В/Газовый-генератор-ФАС-10-1В--front-right.jpg
   videos: null
   docs: null
   tags:
@@ -357,24 +357,24 @@
     <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--01.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/6IMG_5154_copy_1024__1_.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/7IMG_5193_copy_1024.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/b3xEWJyrfJI.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/FvBltkw4NbE.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Gno_Q4_2Ezo.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/M_FyzE2Uh6U.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/mq6AMRWQ2OU.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/NmU2FLxUgYE.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Nuc7fRLnhrA.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/p7XKRNdyIxo.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/VF-IiQB8Gfk.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/WdyJF_aIvhw.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front--closed--panel.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--gas-input.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--02.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--02.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--01.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--oil-filter-n-drain.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--batcher--lpg-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back-top--closed--throttle-actuator--2.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-top--closed--coolant-heater.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--coolant-temperature-sensor.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front-left--closed--inter.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--zoom.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--metan-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--throttle-actuator--1.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--lpg-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--back--closed--gas-line.jpg
   videos: null
   docs: null
   tags:
@@ -464,24 +464,24 @@
     <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--01.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/6IMG_5154_copy_1024__1_.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/7IMG_5193_copy_1024.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/b3xEWJyrfJI.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/FvBltkw4NbE.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Gno_Q4_2Ezo.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/M_FyzE2Uh6U.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/mq6AMRWQ2OU.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/NmU2FLxUgYE.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Nuc7fRLnhrA.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/p7XKRNdyIxo.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/VF-IiQB8Gfk.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/WdyJF_aIvhw.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front--closed--panel.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--gas-input.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--02.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--02.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--01.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--oil-filter-n-drain.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--batcher--lpg-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back-top--closed--throttle-actuator--2.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-top--closed--coolant-heater.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--coolant-temperature-sensor.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front-left--closed--inter.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--zoom.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--metan-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--throttle-actuator--1.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--lpg-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--back--closed--gas-line.jpg
   videos: null
   docs: null
   tags:
@@ -571,24 +571,24 @@
     <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--01.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/6IMG_5154_copy_1024__1_.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/7IMG_5193_copy_1024.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/b3xEWJyrfJI.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/FvBltkw4NbE.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Gno_Q4_2Ezo.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/M_FyzE2Uh6U.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/mq6AMRWQ2OU.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/NmU2FLxUgYE.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Nuc7fRLnhrA.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/p7XKRNdyIxo.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/VF-IiQB8Gfk.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/WdyJF_aIvhw.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front--closed--panel.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--gas-input.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--02.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--02.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--01.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--oil-filter-n-drain.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--batcher--lpg-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back-top--closed--throttle-actuator--2.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-top--closed--coolant-heater.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--coolant-temperature-sensor.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front-left--closed--inter.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--zoom.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--metan-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--throttle-actuator--1.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--lpg-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--back--closed--gas-line.jpg
   videos: null
   docs: null
   tags:
@@ -678,24 +678,24 @@
     <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/2IMG_5140_copy_correct.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--01.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/3h6AWBQ128TY.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/4ZwLwZVqArJ8.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/5IMG_5148_copy1024__1_.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/6IMG_5154_copy_1024__1_.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/7IMG_5193_copy_1024.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/b3xEWJyrfJI.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/FvBltkw4NbE.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Gno_Q4_2Ezo.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/M_FyzE2Uh6U.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/mq6AMRWQ2OU.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/NmU2FLxUgYE.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/Nuc7fRLnhrA.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/p7XKRNdyIxo.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/VF-IiQB8Gfk.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/WdyJF_aIvhw.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/small/XqHvWwOm4MA.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front--closed--panel.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--gas-input.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--02.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--02.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--01.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--oil-filter-n-drain.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--batcher--lpg-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back-top--closed--throttle-actuator--2.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-top--closed--coolant-heater.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--coolant-temperature-sensor.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front-left--closed--inter.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--zoom.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--metan-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--throttle-actuator--1.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--lpg-setting.jpg
+    - url: generators/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--back--closed--gas-line.jpg
   videos: null
   docs: null
   tags:
@@ -785,16 +785,20 @@ fas-15-ozp1-ваз-15квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--01--front-right--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--02--back-left--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--03--right-top--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--04--back-left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--05--front-right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--06--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--07--left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--08--top-left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--09--right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--11--front--panel--01.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--12--electrical-equipment--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--13--electrical-equipment--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--14--electrical-equipment--right.jpg
   videos: null
   docs: null
   tags:
@@ -884,17 +888,20 @@ fas-15-ozp3-ваз-15квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--01--front-right--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--02--back-left--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--03--right-top--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--04--back-left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--05--front-right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--06--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--07--left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--08--top-left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--09--right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--11--front--panel--01.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--12--electrical-equipment--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--13--electrical-equipment--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--14--electrical-equipment--right.jpg
   videos: null
   docs: null
   tags:
@@ -984,17 +991,20 @@ fas-15-ozp3-ваз-15квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--01--front-right--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--02--back-left--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--03--right-top--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--04--back-left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--05--front-right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--06--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--07--left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--08--top-left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--09--right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--11--front--panel--01.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--12--electrical-equipment--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--13--electrical-equipment--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--14--electrical-equipment--right.jpg
   videos: null
   docs: null
   tags:
@@ -1084,17 +1094,20 @@ fas-15-ozp3-ваз-15квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--01--front-right--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--02--back-left--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--03--right-top--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--04--back-left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--05--front-right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--06--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--07--left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--08--top-left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--09--right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--11--front--panel--01.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--12--electrical-equipment--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--13--electrical-equipment--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--14--electrical-equipment--right.jpg
   videos: null
   docs: null
   tags:
@@ -1184,17 +1197,23 @@ fas-21-ozp1-ваз-21квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front-left--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front--closed--panel-w-shield.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front-left.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--right.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front-right.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left-top.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left-top--powerplant.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front--closed--panel--zoom.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left--connection-terminals--electrical-equipment and-power.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left-top--electrical-equipment.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left--electrical-equipment.jpg
   videos: null
   docs: null
   tags:
@@ -1284,17 +1303,20 @@ fas-21-ozp3-ваз-21квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--01--front-right--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--02--back-left--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--03--right-top--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--04--back-left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--05--front-right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--06--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--07--left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--08--top-left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--09--right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--11--front--panel--01.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--12--electrical-equipment--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--13--electrical-equipment--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--14--electrical-equipment--right.jpg
   videos: null
   docs: null
   tags:
@@ -1384,17 +1406,20 @@ fas-21-ozp3-ваз-21квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__1__front--right--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--01--front-right--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__11__front--panel--1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__2__back--left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__3__right--top--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__4__back--left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__5__front--right--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__6__left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__7__left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__8__top--left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-OZP-V__9__right--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--02--back-left--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--03--right-top--closed.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--04--back-left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--05--front-right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--06--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--07--left-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--08--top-left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--09--right-top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--11--front--panel--01.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--12--electrical-equipment--left.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--13--electrical-equipment--top.jpg
+    - url: generators/ФАС-ВР/Газовый-генератор-ФАС-ВР--14--electrical-equipment--right.jpg
   videos: null
   docs: null
   tags:
@@ -1484,23 +1509,23 @@ fas-21-ozp3-ваз-21квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front-left--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel-w-shield.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed--panel-w-shield.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-right.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left-top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left-top--powerplant.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel--zoom.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--connection-terminals--electrical-equipment_and-power.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left-top--electrical-equipment.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left--electrical-equipment.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front--closed--panel-w-shield.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front-left.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--right.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front-right.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left-top.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left-top--powerplant.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front--closed--panel--zoom.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left--connection-terminals--electrical-equipment and-power.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left-top--electrical-equipment.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left--electrical-equipment.jpg
   videos: null
   docs: null
   tags:
@@ -1590,23 +1615,23 @@ fas-32-ozp3-ваз-32квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front-left--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel-w-shield.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left--closed--panel-w-shield.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-right.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left-top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front-left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----front--closed--panel--zoom.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left--connection-terminals--electrical-equipment_and-power.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----back-left-top--electrical-equipment.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left--electrical-equipment.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/FAS-VP/-----left-top--powerplant.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front--closed--panel-w-shield.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left--closed.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front-left.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--right.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front-right.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left-top.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left-top--powerplant.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--front--closed--panel--zoom.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left--connection-terminals--electrical-equipment and-power.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--back-left-top--electrical-equipment.jpg
+    - url: generators/ФАС-ВП/Газовый-генератор-ФАС-ВП--left--electrical-equipment.jpg
   videos: null
   docs: null
   tags:
@@ -1733,7 +1758,7 @@ fas-32-ozp3-ваз-32квт:
     </p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/vaz/AVR-----front-left--closed-_1_cut.png
+    - url: generators/ФАС-60-3-ВК/Газовый-генератор-ФАС-60-3-ВК--front-left.jpg
       main: true
   videos: null
   docs: null
@@ -1811,22 +1836,24 @@ fas-32-ozp3-ваз-32квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--02.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--01.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--03.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--panel.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--zoom.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back-left-top--coolant-heater--1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back-right--WHAT-IS-IT.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--closed--door--panel.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--engine-oil-drain.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--regulator.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-left--gas-input--regulator--throttle.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--alternator-sign.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--vent.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed--doors--01.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed--doors--03.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed--zoom.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front--closed--door--panel.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed--panel.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front--02.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--left.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--right.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--back.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--back-left-top--coolant-heater--1.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--back-right--coolant-heater--4.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front--engine-oil-drain.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front-left--gas-input--regulator--throttle.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front--regulator.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front-right--vent.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front-right--alternator-sign--02.jpg
   videos: null
   docs: null
   tags:
@@ -1916,23 +1943,24 @@ fas-32-ozp3-ваз-32квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--01.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--doors--03.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--panel.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----01--front-right--closed--zoom.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back-left-top--coolant-heater--1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----back-right--WHAT-IS-IT.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--02.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--closed--door--panel.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--engine-oil-drain.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front--regulator.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-left--gas-input--regulator--throttle.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--alternator-sign.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/mmz/-----front-right--vent.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed--doors--01.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed--doors--03.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed--zoom.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front--closed--door--panel.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--01--front-right--closed--panel.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front--02.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--left.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--right.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--back.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--back-left-top--coolant-heater--1.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--back-right--coolant-heater--4.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front--engine-oil-drain.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front-left--gas-input--regulator--throttle.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front--regulator.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front-right--vent.jpg
+    - url: generators/ФАС-М/Газовый-генератор-ФАС-МП--front-right--alternator-sign--02.jpg
   videos: null
   docs: null
   tags:
@@ -2022,10 +2050,10 @@ fas-32-ozp3-ваз-32квт:
     <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР. </p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7957_half.png
+    - url: generators/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--front-right.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
+    - url: generators/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--front-left.jpg
+    - url: generators/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--back-left.jpg
   videos: null
   docs: null
   tags:
@@ -2111,10 +2139,10 @@ fas-32-ozp3-ваз-32квт:
     <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР. </p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7957_half.png
+    - url: generators/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--front-right.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7937_half.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/IMG_7953_half.png
+    - url: generators/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--front-left.jpg
+    - url: generators/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--back-left.jpg
   videos: null
   docs: null
   tags:
@@ -2200,16 +2228,16 @@ fas-32-ozp3-ваз-32квт:
     <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР. </p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0000.jpg
+    - url: generators/ФАС-200-3-Р/200/Газовый-генератор-ФАС-200-3-Р--front.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0001.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0002.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0003.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0004.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/240M2-A-0005.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/YAMZ_Cont_Close.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/YAMZ_Cont_open.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/200/YAMZ_Cont_slice.jpg
+    - url: generators/ФАС-200-3-Р/200/Газовый-генератор-ФАС-200-3-Р--front-right.jpg
+    - url: generators/ФАС-200-3-Р/200/Газовый-генератор-ФАС-200-3-Р--back-right.jpg
+    - url: generators/ФАС-200-3-Р/200/Газовый-генератор-ФАС-200-3-Р--back.jpg
+    - url: generators/ФАС-200-3-Р/200/Газовый-генератор-ФАС-200-3-Р--back-left.jpg
+    - url: generators/ФАС-200-3-Р/200/Газовый-генератор-ФАС-200-3-Р--front-left.jpg
+    - url: generators/ФАС-200-3-Р/200/Газовый-генератор-ФАС-200-3-Р--front--container.jpg
+    - url: generators/ФАС-200-3-Р/200/Газовый-генератор-ФАС-200-3-Р--front--container--open-1.jpg
+    - url: generators/ФАС-200-3-Р/200/Газовый-генератор-ФАС-200-3-Р--front--container--open-2.jpg
   videos: null
   docs: null
   tags:
@@ -2295,16 +2323,16 @@ fas-32-ozp3-ваз-32квт:
     <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0000.jpg
+    - url: generators/ФАС-250-3-Р/200/Газовый-генератор-ФАС-250-3-Р--front.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0001.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0002.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0003.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0004.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/240HM2-A-0005.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/YAMZ_Cont_2_Close.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/YAMZ_Cont_open.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/250/YAMZ_Cont_slice.jpg
+    - url: generators/ФАС-250-3-Р/200/Газовый-генератор-ФАС-250-3-Р--front-right.jpg
+    - url: generators/ФАС-250-3-Р/200/Газовый-генератор-ФАС-250-3-Р--back-right.jpg
+    - url: generators/ФАС-250-3-Р/200/Газовый-генератор-ФАС-250-3-Р--back.jpg
+    - url: generators/ФАС-250-3-Р/200/Газовый-генератор-ФАС-250-3-Р--back-left.jpg
+    - url: generators/ФАС-250-3-Р/200/Газовый-генератор-ФАС-250-3-Р--front-left.jpg
+    - url: generators/ФАС-250-3-Р/200/Газовый-генератор-ФАС-250-3-Р--front--container.jpg
+    - url: generators/ФАС-250-3-Р/200/Газовый-генератор-ФАС-250-3-Р--front--container--open-1.jpg
+    - url: generators/ФАС-250-3-Р/200/Газовый-генератор-ФАС-250-3-Р--front--container--open-2.jpg
   videos: null
   docs: null
   tags:
@@ -2390,16 +2418,16 @@ fas-32-ozp3-ваз-32квт:
     <p>Установка укомплектована системой подогрева двигателя, АКБ (2×12 В 190 А•ч), подзарядным устройством и АВР.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0000.jpg
+    - url: generators/ФАС-315-3-Р/200/Газовый-генератор-ФАС-315-3-Р--front.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0001.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0002.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0003.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0004.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/840310-A-0005.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/YAMZ_Cont_Close.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/YAMZ_Cont_open.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/JAMZ/315/YAMZ_Cont_slice.jpg
+    - url: generators/ФАС-315-3-Р/200/Газовый-генератор-ФАС-315-3-Р--front-right.jpg
+    - url: generators/ФАС-315-3-Р/200/Газовый-генератор-ФАС-315-3-Р--back-right.jpg
+    - url: generators/ФАС-315-3-Р/200/Газовый-генератор-ФАС-315-3-Р--back.jpg
+    - url: generators/ФАС-315-3-Р/200/Газовый-генератор-ФАС-315-3-Р--back-left.jpg
+    - url: generators/ФАС-315-3-Р/200/Газовый-генератор-ФАС-315-3-Р--front-left.jpg
+    - url: generators/ФАС-315-3-Р/200/Газовый-генератор-ФАС-315-3-Р--front--container.jpg
+    - url: generators/ФАС-315-3-Р/200/Газовый-генератор-ФАС-315-3-Р--front--container--open-1.jpg
+    - url: generators/ФАС-315-3-Р/200/Газовый-генератор-ФАС-315-3-Р--front--container--open-2.jpg
   videos: null
   docs: null
   tags:
@@ -2487,12 +2515,12 @@ fas-32-ozp3-ваз-32квт:
     <p>При эксплуатации ФАС-50/70М на 50 кВт электрической мощности потребитель получает 70 кВт тепловой мощности для нагрева воды и технологических нужд.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_113183264_x_2448_cr.jpg
+    - url: generators/ФАС-50-70М/Газовый-генератор-ФАС-50-70М--1.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_112523264_x_2448.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_112633264_x_2448.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_1142193264_x_2448.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/comodul/IMG_1140172448_x_3264.jpg
+    - url: generators/ФАС-50-70М/Газовый-генератор-ФАС-50-70М--2.jpg
+    - url: generators/ФАС-50-70М/Газовый-генератор-ФАС-50-70М--3.jpg
+    - url: generators/ФАС-50-70М/Газовый-генератор-ФАС-50-70М--4.jpg
+    - url: generators/ФАС-50-70М/Газовый-генератор-ФАС-50-70М--5.jpg
   videos: null
   docs:
     - title: Схема FAS-TM100
@@ -2572,17 +2600,17 @@ fas-32-ozp3-ваз-32квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-top--open.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-right.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-top--open.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--back-top.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front-right--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
   videos: null
   docs: null
   tags:
@@ -2672,17 +2700,17 @@ fas-32-ozp3-ваз-32квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-top--open.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-right.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-top--open.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--back-top.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front-right--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
   videos: null
   docs: null
   tags:
@@ -2772,17 +2800,17 @@ fas-32-ozp3-ваз-32квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-top--open.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-right.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-top--open.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--back-top.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front-right--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
   videos: null
   docs: null
   tags:
@@ -2872,17 +2900,17 @@ fas-32-ozp3-ваз-32квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front.png
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-right.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__back-top--open.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-right.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__front-top--open.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__left.png
-    - url: http://fasenergo.ru/products/generators/fas/photos/turbo/FAS-32-3-VT__right.png
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--back-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--back-top.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front-left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-15-1-ВПТ--front-right--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
+    - url: generators/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
   videos: null
   docs: null
   tags:
@@ -2972,20 +3000,20 @@ fas-15-ozp3-kubota-15квт:
     <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__1__front--right--closed.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--01--front-right--closed.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__10__right.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__11__front--panel.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__12__inter-control--front--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__13__engine--front--left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__2__back--right--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__3__left--closed.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__4__back--left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__5__front--right--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__6__left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__7__left--top.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__8__top--left.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/kubota/FAS-OZP-K__9__right--top.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--02--back-right--closed.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--03--left--closed.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--04--back-left-top.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--05--front-right-top.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--06--left.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--07--left-top.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--08--top-left.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--09--right-top.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--10--right.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--11--front--panel.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--12--electrical-equipment--front-top.jpg
+    - url: generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--13--engine--front-left.jpg
   videos: null
   docs: null
   tags:
@@ -3075,16 +3103,16 @@ fas-15-ozp3-kubota-15квт:
     <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0007-2.jpg
+    - url: generators/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-right.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0000.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0001.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0002.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0003-1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0004-1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0005-1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0006-1.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/35-3-3P/a-0008-1.jpg
+    - url: generators/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-top--hood.jpg
+    - url: generators/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-left-top--hood.jpg
+    - url: generators/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--back-top--open.jpg
+    - url: generators/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--back-left-top--open.jpg
+    - url: generators/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--back-right-top--open.jpg
+    - url: generators/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-right-top--open.jpg
+    - url: generators/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-left-top--open.jpg
+    - url: generators/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-top--open.jpg
   videos: null
   docs: null
   tags:
@@ -3157,16 +3185,16 @@ fas-15-ozp3-kubota-15квт:
     <p>Электрогенератор может работать в качестве основного или резервного источника электричества без ограничений по продолжительности работы в течение года и непрерывности сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
   features: null
   photos:
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0007.jpg
+    - url: generators/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-right.jpg
       main: true
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0000.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0001.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0002.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0003.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0004.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0005.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0006.jpg
-    - url: http://fasenergo.ru/products/generators/fas/photos/zmz/40-3-3P/a-0008.jpg
+    - url: generators/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-top--hood.jpg
+    - url: generators/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-left-top--hood.jpg
+    - url: generators/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--back-top--open.jpg
+    - url: generators/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--back-left-top--open.jpg
+    - url: generators/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--back-right-top--open.jpg
+    - url: generators/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-right-top--open.jpg
+    - url: generators/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-left-top--open.jpg
+    - url: generators/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-top--open.jpg
   videos: null
   docs: null
   tags:
