@@ -26,7 +26,7 @@
 
   <div class='o-grid__item h-5/9 h-1/3@lap h-align--center'>
     <a class='h-border-bottom0 js-smooth-jump' href='#photos'>
-      <img src='{{ getGeneratorMainPhoto(gen).url or '/' + path.images + '/' + 'no-photo.png' }}' alt='{{ gen.title|striptags }}'>
+      <img src='/{{ path.images }}/{{ getGeneratorMainPhoto(gen).url or 'no-photo.png' }}' alt='{{ gen.title|striptags }}'>
     </a>
   </div>
 
@@ -227,18 +227,18 @@
   <div class='h-align--center'>
 
     <div id='js-photos-block__main'>
-      <a class='h-block h-border-bottom0' style='height: 600px' href='{{ gen.photos[0].url }}'>
-        {# @todo Add back `'/' + path.images + '/' +`  when real photos will be added #}
-        <img class='h-height-1/1' style='object-fit: cover' src='{{ gen.photos[0].url }}' alt='{{ gen.photos[0].alt or gen.title|striptags }}'>
+      {% set photoUrl = '/' + path.images + '/' + gen.photos[0].url %}
+      <a class='h-block h-border-bottom0' style='height: 600px' href='{{ photoUrl }}'>
+        <img class='h-height-1/1' style='object-fit: cover' src='{{ photoUrl }}' alt='{{ gen.photos[0].alt or gen.title|striptags }}'>
       </a>
     </div>
 
     {% if gen.photos.length > 1 %}
     <div id='js-photos-block__thumbs'>
       {% for photo in gen.photos %}
-      <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='{{ photo.url }}'>
-        {# @todo Add back `'/' + path.images + '/' +`  when real photos will be added #}
-        <img class='h-align--middle' src='{{ photo.url }}' height='80' alt='{{ photo.alt or gen.title|striptags }}'>
+      {% set photoUrl = '/' + path.images + '/' + photo.url %}
+      <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}'>
+        <img class='h-align--middle' src='{{ photoUrl }}' height='80' alt='{{ photo.alt or gen.title|striptags }}'>
       </a>
       {% endfor %}
     </div>
@@ -287,10 +287,9 @@
   <div class='o-grid h-childs-displace+'>
 
     {% for g in randomGens %}
-    {# @todo Add back `'/' + path.images + '/' +`  when real photos will be added #}
     {{ components.ProductCard(
       url = parentProps.url + '/' + g.slug,
-      image = getGeneratorMainPhoto(g).url,
+      image = '/' + path.images + '/' + getGeneratorMainPhoto(g).url,
       model = g.model,
       powers = getGeneratorMaxPowers(g),
       engineCooling = selectEngine(data, g.engine).cooling
