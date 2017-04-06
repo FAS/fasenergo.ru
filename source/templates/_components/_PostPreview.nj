@@ -10,24 +10,26 @@
  # @return {string} News post preview
  #}
 {% macro PostPreview(title, desc, date, url, image) %}
-<article class='o-media o-media+ h-margin-bottom+'>
+<article class='h-margin-bottom+'>
 
-  {% if image %}
-  <div class='o-media__aside' style='width: 190px'>
-    <div class='o-aspect-ratio o-aspect-ratio4:3'>
-      <div class='o-aspect-ratio__content h-bg--cover h-bg--center h-height-1/1' style='background-image: url({{ image }});'></div>
+  <header class='h-margin-bottom'>
+    <h3 class='h-h5 h-inline h-margin-right--'><a href='{{ url }}'>{{ title }}</a></h3>
+    <time datetime="{{ date }}"> {{ moment(date).format('DD.MM.YYYY') }}</time>
+  </header>
+
+  <div class='o-media o-media+'>
+
+    {% if image %}
+    <div class='o-media__aside' style='width: 190px'>
+      <div class='o-aspect-ratio o-aspect-ratio4:3'>
+        <div class='o-aspect-ratio__content h-bg--cover h-bg--center h-height-1/1' style='background-image: url({{ image }});'></div>
+      </div>
     </div>
-  </div>
-  {% endif %}
+    {% endif %}
 
-  <div class='o-media__content'>
-
-    <header class='h-margin-bottom'>
-      <h3 class='h-h5 h-inline h-margin-right--'><a href='{{ url }}'>{{ title }}</a></h3>
-      <time datetime="{{ date }}"> {{ moment(date).format('DD.MM.YYYY') }}</time>
-    </header>
-
-    <p>{{ desc }} <a href='{{ url }}' aria-label='Читать новость' title='Читать новость'><span aria-hidden='true'>&rarr;</span></a></p>
+    <div class='o-media__content'>
+      <p>{{ desc }} <a href='{{ url }}' aria-label='Читать новость' title='Читать новость'><span aria-hidden='true'>&rarr;</span></a></p>
+    </div>
 
   </div>
 
