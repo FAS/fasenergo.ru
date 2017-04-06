@@ -247,87 +247,6 @@
 
 
 
-фас-10-1в-10-квт:
-  slug: фас-10-1в-10-квт
-  meta:
-    title: Газовый генератор ФАС-10/1В (10 кВт)
-    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 10 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
-  type: Газовые генераторы
-  article: null
-  manufacturer:
-    brand: Фасэнергомаш
-    country: РФ
-  series: null
-  model: ФАС-10/1В
-  title: Газовый генератор <span class='text-red'>ФАС-10/1В</span> (10 кВт)
-  _legacyPrice: 220 000 руб.
-  price: null
-  discount: null
-  _legacyOldPrice: null
-  availability: available
-  warranty:
-    _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
-    delivery: null
-    installation: null
-    serviceLife: null
-  desc: |
-    <p>Газовые генераторы ФАС-10/1В предназначены для аварийного электроснабжения.</p>
-    <p>Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 10 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.</p>
-    <p>Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
-    <p>Серия “B” производится на базе двигателей Loncin LC2V78FD-1, объемом 678сс. Возможно создание генератора с двигателем Honda (под заказ).</p>
-    <p>Электрогенераторные установки с воздушной системой охлаждения могут комплектоваться автоматикой и системой автоматического ввода резерва (опция).</p>
-    <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
-  features: null
-  photos:
-    - url: generators/ФАС-10-1В/Газовый-генератор-ФАС-10-1В--front.jpg
-      main: true
-    - url: generators/ФАС-10-1В/Газовый-генератор-ФАС-10-1В--front-left.jpg
-    - url: generators/ФАС-10-1В/Газовый-генератор-ФАС-10-1В--front-right.jpg
-  videos: null
-  docs: null
-  tags:
-    - двигатель-loncin-honda
-  equipment: null
-  specs:
-    power:
-      _legacy: 10
-      ng:
-        max: null
-      lpg:
-        max: null
-    current:
-      _legacy: 50
-      ng: null
-      lpg: null
-    voltage: 220
-    frequency: 50
-    phases: 1
-    phi: null
-    circuitBreaker: null
-    fuel:
-      ng: 0.42 м³/ч * 1 кВт
-      lpg: 0.38 кг/ч * 1 кВт
-    operatingSpeed: 3000
-    cooling: null
-  engine: loncin-lc2v78f-1
-  enclosure:
-    type: soundproof
-    material: null
-    coating: null
-    thermalInsulation: null
-    protection: null
-    ventilation: null
-    lock: null
-    removablePanels: null
-    noise: 70
-    _legacySize: 1058х705х620
-    height: null
-    width: null
-    depth: null
-    weight: 125
-
-
-
 фас-вп-8-квт:
   slug: фас-вп-8-квт
   meta:
@@ -3748,5 +3667,3 @@ fas-15-ozp3-kubota-15квт:
     width: null
     depth: null
     weight: 201
-
-
