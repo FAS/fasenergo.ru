@@ -1,13 +1,15 @@
 {##
  # Display news post preview based on content of '/о-компании/новости' directory
  #
+ # @param {string}  [path] = ['о-компании', 'новости']
+ #                                    Path to section from which should be taken posts
  # @param {number}  [limit]           Max posts to display
  # @param {boolean} [displayCurrent]  Should current post (if any) be displayed
  #
  # @return {string} News posts
  #}
-{% macro Posts(limit, displayCurrent = true) %}
-{% set posts = _.orderBy(getPage(['о-компании', 'новости'])|template(site.placeholders), 'props.date', 'desc') %}
+{% macro Posts(path = ['о-компании', 'новости'], limit, displayCurrent = true) %}
+{% set posts = _.orderBy(getPage(path)|template(site.placeholders), 'props.date', 'desc') %}
 
 {% if not displayCurrent %}
   {% set posts = _.reject(posts, { props: { url: page.url } }) %}
