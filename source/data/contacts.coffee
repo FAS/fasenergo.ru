@@ -9,16 +9,17 @@ module.exports = {
         city: 'Санкт-Петербург',
         street: 'п. Лахта, ул. Красных партизан, д. 10 литер А',
         yandexMapSrc: 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=zz08rnmsLRzMg4-TBs3zRWGJbxgsTuuf&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp',
-        images: [{
-          src: 'http://placehold.it/1350x700',
-          alt: 'Описание картинки'
-        },{
-          src: 'http://placehold.it/1350x450',
-          alt: 'Описание картинки'
-        },{
-          src: 'http://placehold.it/1350x450',
-          alt: 'Описание картинки'
-        }]
+        # @todo Enable when will be real photos
+        # images: [{
+        #   src: 'http://placehold.it/1350x700',
+        #   alt: 'Описание картинки'
+        # },{
+        #   src: 'http://placehold.it/1350x450',
+        #   alt: 'Описание картинки'
+        # },{
+        #   src: 'http://placehold.it/1350x450',
+        #   alt: 'Описание картинки'
+        # }]
       }
     ],
     worktime: [
