@@ -27,7 +27,10 @@ metaDesc:         Услуги
     {% for slug, service in getPage(page.breadcrumb) %}
     <li class='o-grid__item h-1/2'>
       <div class='o-media o-media+'>
+        {# @todo Icons disabled on production because of https://trello.com/c/2WulTBD4/78-- #}
+        {% if env.staging or not env.production %}
         <div class='o-media__aside h-text--em++ h-opacity--20'>{{ components.Icon(service.props.icon, class = 'o-svg-icon--fixed') }}</div>
+        {% endif %}
         <div class='o-media__content'>
           <h3 class='h-h4 h-h3@lap h-margin-top0 h-margin-bottom'><a href='{{ service.props.url }}'>{{ service.props.navTitle }}</a></h3>
           <p>{{ service.props.shortDesc }}</p>
