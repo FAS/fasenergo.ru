@@ -32,8 +32,10 @@
 
     <aside>
       <p><b class='h-text+'>{{ phone }}</b></p>
-      {# @todo Disabled because there is no such functionality yet, see https://trello.com/c/Wq9Wi6qa/48-crm #}
-      {# <p class='h-margin-bottom--'><button class='Btn Btn--solid o-btn--full Btn- h-text-'>{{ components.Icon('phone', 'Icon--left') }}Заказать звонок</button></p> #}
+      {# @todo Disabled on production because there is no such functionality yet, see https://trello.com/c/Wq9Wi6qa/48-crm #}
+      {% if env.staging or not env.production %}
+      <p class='h-margin-bottom--'><button class='Btn Btn--solid o-btn--full Btn- h-text-'>{{ components.Icon('phone', 'Icon--left') }}Заказать звонок</button></p>
+      {% endif %}
       <p><a href='/контакты/дилеры' class='Btn o-btn--full Btn- h-text-'>{{ components.Icon('cart', 'Icon--left') }}Где купить?</a></p>
     </aside>
   </div>
