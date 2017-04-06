@@ -1,5 +1,4 @@
 # www.robotstxt.org/
-Host: {{ site.homepage }}
 
 # Allow crawling of all content
 User-agent: *
@@ -9,4 +8,5 @@ Clean-param: yclid
 Clean-param: _openstat
 Clean-param: utm_source&utm_medium&utm_campaign
 
+Host: {{ site.homepage }}
 Sitemap: {{ site.homepage }}/sitemap.xml
