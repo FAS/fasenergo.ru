@@ -31,7 +31,16 @@
     {% macro Item(to, label, depth = 1, anchorClass = anchorsClass, onlyActiveOnIndex = onlyActiveOnIndex) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorClass, onlyActiveOnIndex = onlyActiveOnIndex, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
     {# {% call(depth) Item('/') %}{% endcall %} #}
-    {% call(depth) Item('/каталог') %}{% endcall %}
+    {% call(depth) Item('/продукция') %}
+      {% call(depth) Item('/продукция/каталог') %}{% endcall %}
+      {% call(depth) Item('/продукция/преимущества-наших-генераторов', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/продукция/гарантия', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/продукция/результаты-испытаний', depth = depth) %}{% endcall %}
+      {# @todo Enable for production when this section will be ready #}
+      {% if env.staging or not env.production %}
+      {% call(depth) Item('/продукция/сертификаты-на-оборудование', depth = depth) %}{% endcall %}
+      {% endif %}
+    {% endcall %}
     {% call(depth) Item('/решения') %}
       {% call(depth) Item('/решения/проекты-под-ключ') %}{% endcall %}
       {% call(depth) Item('/решения/нефтегазовый-комплекс', depth = depth) %}{% endcall %}
