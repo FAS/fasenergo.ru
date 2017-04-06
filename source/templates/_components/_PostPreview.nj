@@ -12,11 +12,13 @@
 {% macro PostPreview(title, desc, date, url, image) %}
 <article class='o-media o-media+ h-margin-bottom+'>
 
+  {% if image %}
   <div class='o-media__aside' style='width: 190px'>
     <div class='o-aspect-ratio o-aspect-ratio4:3'>
       <div class='o-aspect-ratio__content h-bg--cover h-bg--center h-height-1/1' style='background-image: url({{ image }});'></div>
     </div>
   </div>
+  {% endif %}
 
   <div class='o-media__content'>
 
