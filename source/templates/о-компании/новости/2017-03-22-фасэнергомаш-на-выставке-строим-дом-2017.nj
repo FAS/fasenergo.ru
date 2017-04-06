@@ -26,7 +26,7 @@ image:            /{{ path.images }}/news/2017-03-22-фасэнергомаш-н
   25-26 марта 2017 года, Ленэкспо, 7 павильон<br>
   Большой пр В.О, 103, время работы с 11:00 до 18:00<br>
   <strong>Бесплатные автобусы от м. Приморская.</strong><br>
-  <a href='http://exposfera.spb.ru/' target='_blank'>exposfera.spb.ru</a><br>
+  <a href='http://exposfera.spb.ru/' target='_blank' rel='nofollow'>exposfera.spb.ru</a><br>
   (812) 600-92-92
 </p>
 {% endblock %}
