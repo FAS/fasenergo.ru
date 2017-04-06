@@ -1,0 +1,13 @@
+---
+title:            Статьи
+breadcrumbTitle:  Статьи
+contentTitle:     Статьи
+navTitle:         Статьи
+metaDesc:         Статьи
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{{ components.Posts(path = 'статьи') }}
+{% endblock %}
