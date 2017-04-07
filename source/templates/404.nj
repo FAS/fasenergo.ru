@@ -17,6 +17,16 @@ showBreadcrumb:   false
 
 <h1 class='h-text++ h-margin-bottom+'><b>404</b> — страница не найдена</h1>
 
+{# @todo This is due to https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/11248884/
+ #       See also https://trello.com/c/j2Tjd8ex/129-url-edge
+ #}
+<aside class='wrap-orange h-padding++'>
+  <h2 class='h-margin-top0 h-color--inherit'>Проблема с Microsoft Edge!</h2>
+  <p>Если вы являетесь пользователем Microsoft Edge и видите эту страницу при переходе на любую страницу, <strong><a class='h-color--inherit h-border-color--current' href='http://outdatedbrowser.com/ru' target='_blank' rel='nofollow'>воспользуйтесь другим браузером!</a></strong></p>
+  <p>В Microsoft Edge версии ниже 15145 наблюдаются проблемы при работе с кириллическими ссылками.</p>
+  <p>Приносим извинения за временные неудобства.</p>
+</aside>
+
 <p class='h-margin-top+'><a class='Btn' href='{{ localeDir() }}/'>На главную</a></p>
 
 {% endblock %}
