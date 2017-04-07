@@ -26,7 +26,7 @@ module.exports = (grunt) ->
       locales: grunt.config('locales')
       baseLocale: grunt.config('baseLocale')
       googleAnalyticsId: false # 'UA-XXXXX-X'
-      yandexMetrikaId: false # 'XXXXXX'
+      yandexMetrikaId: 20139793
     env:
       production: '<%= env.production %>'
       staging: '<%= env.staging %>'
