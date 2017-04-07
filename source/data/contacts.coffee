@@ -27,6 +27,7 @@ module.exports = {
       { days: ['Сб' , 'Вс'], daysFull: ['суббота' , 'воскресенье'], nonWorking: true }
     ],
     phones: [
+      { country: '8', city: '800', tel: [333, 79, 11], add: null, desc: null },
       { country: '7', city: '812', tel: [318, 75, 75], add: null, desc: null }
     ],
     emails: [
