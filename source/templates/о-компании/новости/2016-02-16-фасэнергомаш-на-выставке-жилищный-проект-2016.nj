@@ -45,5 +45,5 @@ image:            /{{ path.images }}/news/2016-02-16-фасэнергомаш-н
   alt = 'двигатель газового генератора ФАС 13 кВт'
 ) }}
 
-<p>Если у Вас остались вопросы свяжитесь с нами по телефону {{ components.Phone(data.contacts.departaments.sales.phones[0]) }} или напишите нам {{ components.Email(data.contacts.departaments.sales.emails[0]) }}.</p>
+<p>Если у Вас остались вопросы свяжитесь с нами по телефону {{ components.Phone(data.contacts.departments.sales.phones[0]) }} или напишите нам {{ components.Email(data.contacts.departments.sales.emails[0]) }}.</p>
 {% endblock %}

@@ -35,7 +35,7 @@ module.exports = {
     ]
   },
 
-  departaments: {
+  departments: {
 
     sales: {
       title: 'Отдел продаж',

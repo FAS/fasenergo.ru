@@ -9,7 +9,7 @@ metaDesc:         Производство
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set pagePhone = components.Phone(data.contacts.departaments.sales.phones[0]) %}
+{% set pagePhone = components.Phone(data.contacts.departments.sales.phones[0]) %}
 
 <h2>Структура производственного комплекса</h2>
 

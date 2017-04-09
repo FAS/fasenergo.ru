@@ -10,7 +10,7 @@
  #
  # @return {string} Phone number inside anchor
  #
- # @example {{ components.Phone(data.contacts.departaments.sales.phones[0]) }}
+ # @example {{ components.Phone(data.contacts.departments.sales.phones[0]) }}
  #}
 {%- macro Phone(data, class, addClass, showCountry = true, showAdd = true, plain) -%}
 {% set plainPhone = '+' + data.country + data.city + data.tel[0] + data.tel[1] + data.tel[2] %}

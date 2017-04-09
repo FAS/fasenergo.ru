@@ -7,7 +7,7 @@
  #
  # @return {string} Skype inside anchor
  #
- # @example {{ components.Skype(data.contacts.departaments.sales.skypes[0]) }}
+ # @example {{ components.Skype(data.contacts.departments.sales.skypes[0]) }}
  #}
 {%- macro Skype(data, class, showIcon) -%}
 {% set macroSkype = data.value %}

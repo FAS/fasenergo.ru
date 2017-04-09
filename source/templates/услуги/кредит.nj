@@ -11,7 +11,7 @@ shortDesc:        Ipsum dolor sit amet, consectetur atque necessitatibus, facere
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set pageE = data.contacts.departaments.sales %}
+{% set pageE = data.contacts.departments.sales %}
 
 {% set pagePhone1 = components.Phone(pageE.phones[0]) %}
 {% set pagePhone2 = components.Phone(pageE.phones[1]) %}

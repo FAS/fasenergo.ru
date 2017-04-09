@@ -6,7 +6,7 @@
  #
  # @return {string} Email inside anchor
  #
- # @example {{ components.Email(data.contacts.departaments.sales.emails[0]) }}
+ # @example {{ components.Email(data.contacts.departments.sales.emails[0]) }}
  #}
 {%- macro Email(data) -%}
 {% set macroEmail = data.value[0] + '@' + data.value[1] %}
