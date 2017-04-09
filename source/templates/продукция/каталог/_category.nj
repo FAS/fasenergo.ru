@@ -13,7 +13,7 @@
     {% block desc %}{% endblock %}
 
     {# @todo Disabled, becuase no actual catalog available right now, https://trello.com/c/2AJSHgYk/120-2015 #}
-    {# <p><a class='h-border-bottom0' href='http://fasenergo.ru/products/04-2015_FEM-Catalog_Inner.indd.pdf' target='_blank'>{{ components.Icon('pdf', class='h-text++ h-align--middle h-top h-margin-right--')}}<span class='g-link h-align--middle'>Скачать Каталог продукции «Фасэнергомаш» 2015</span></a></p> #}
+    {# <p><a class='h-border-bottom0' href='/{{ path.docs }}/news/2015-08-28-обновленный-каталог-с-новой-линейкой-продукции/04-2015_FEM-Catalog_Inner.indd.pdf' target='_blank'>{{ components.Icon('pdf', class='h-text++ h-align--middle h-top h-margin-right--')}}<span class='g-link h-align--middle'>Скачать Каталог продукции «Фасэнергомаш» 2015</span></a></p> #}
 
   </div>
 
