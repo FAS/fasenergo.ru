@@ -18,8 +18,6 @@ shortDesc:        Lorem ipsum dolor sit amet, incidunt eligendi sequi facere dol
 
 {% set pageEmail = components.Email(pageE.emails[0]) %}
 
-{% set pageSkype = components.Skype(pageE.skypes[0]) %}
-
 <p>Для заказа запчастей обращайтесь в сервисный отдел: {{ pagePhone1 }}, {{ pagePhone2 }}, {{ pageEmail }}. Пока что они хранятся только на складе в Санкт-Петербурге.</p>
 <p>Если будете писать письмо, пожалуйста, не забудьте указать модель генератора и список необходимых запчастей.</p>
 <p>Доставка осуществляется через Pony Express, EMS или другую удобную вам компанию.</p>
