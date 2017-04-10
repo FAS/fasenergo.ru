@@ -12,6 +12,11 @@ image:            /{{ path.images }}/news/2016-02-16-фасэнергомаш-н
 {% extends './_entry.nj' %}
 
 {% block post %}
+{% set pageE = data.contacts.departments.sales %}
+
+{% set pagePhone = components.Phone(pageE.phones[0]) %}
+{% set pageEmail = components.Email(pageE.emails[0]) %}
+
 <p>13 и 14 февраля 2016 компания «Фасэнергомаш» приняла участие в выставке «Жилищный проект», на которой были представлены предложения от ведущих участников рынка недвижимости в Санкт-Петербурге и Ленинградской области.</p>
 
 {{ components.Image(
@@ -45,5 +50,5 @@ image:            /{{ path.images }}/news/2016-02-16-фасэнергомаш-н
   alt = 'двигатель газового генератора ФАС 13 кВт'
 ) }}
 
-<p>Если у Вас остались вопросы свяжитесь с нами по телефону {{ components.Phone(data.contacts.departments.sales.phones[0]) }} или напишите нам {{ components.Email(data.contacts.departments.sales.emails[0]) }}.</p>
+<p>Если у Вас остались вопросы свяжитесь с нами по телефону {{ pagePhone }} или напишите нам {{ pageEmail }}.</p>
 {% endblock %}
