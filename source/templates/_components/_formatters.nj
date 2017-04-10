@@ -1,4 +1,57 @@
 {##
+ # Display email number from contacts data
+ #
+ # @param {pbject} data Complex object with email data. See source/data/contacts.coffee
+ # @param {string} [class] CSS class for anchor
+ #
+ # @return {string} Email inside anchor
+ #
+ # @example {{ components.Email(data.contacts.departments.sales.emails[0]) }}
+ #}
+{%- macro Email(data) -%}
+  {% set macroEmail = data.value[0] + '@' + data.value[1] %}
+
+  <a class='{{ class }}' href='mailto:{{ macroEmail }}'>{{ macroEmail }}</a>
+{%- endmacro -%}
+
+{##
+ # Display skype from contacts data
+ #
+ # @param {pbject} data       Complex object with email data. See source/data/contacts.coffee
+ # @param {string} [class]    CSS classes of anchor
+ # @param {bool}   [showIcon] Should skype icon be shown in front
+ #
+ # @return {string} Skype inside anchor
+ #
+ # @example {{ components.Skype(data.contacts.departments.sales.skypes[0]) }}
+ #}
+{%- macro Skype(data, class, showIcon) -%}
+  {% set macroSkype = data.value %}
+
+  <a class='{{ class }} g-link--inherit' href='skype:{{ macroSkype }}?call'>{{ components.Icon('skype', class = 'Icon--left') if showIcon }} <span>{{ macroSkype }}</span></a>
+{%- endmacro -%}
+
+{##
+ # Display phone number from contacts data
+ #
+ # @param {pbject} data                 Complex object with phone data. See source/data/contacts.coffee
+ # @param {string} [class]              CSS class for anchor
+ # @param {string} [addClass]           CSS class for span with 'доб. ' part
+ # @param {bool}   [showCountry = true] Should + with country code be shown
+ # @param {bool}   [showAdd = true]     Should 'доб. ' part be shown (if add info exists)
+ # @param {bool}   [plain]              Should number be displayed in plain format
+ #
+ # @return {string} Phone number inside anchor
+ #
+ # @example {{ components.Phone(data.contacts.departments.sales.phones[0]) }}
+ #}
+{%- macro Phone(data, class, addClass, showCountry = true, showAdd = true, plain) -%}
+  {% set plainPhone = '+' + data.country + data.city + data.tel[0] + data.tel[1] + data.tel[2] %}
+
+  <a href='tel:{{ plainPhone }}' class='{{ class }} g-link--inherit h-text--nowrap'>{{ '+' + data.country + '&nbsp;' if showCountry }}({{ data.city }})&nbsp;{{ data.tel[0] }}-{{ data.tel[1] }}-{{ data.tel[2] }}<span class='{{ addClass }}'>{{ '&nbsp;доб.&nbsp;' + data.add if data.add and showAdd }}</span></a>
+{%- endmacro -%}
+
+{##
  # Output amount phases as a word
  # @param {number} phases Amount of phases
  # @return {string} Phases in a word
