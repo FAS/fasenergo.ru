@@ -2,10 +2,10 @@
 
 {% block body %}
 
-{% set e = data.contacts.departments.sales %}
+{% set e = data.contacts.main %}
 
 {% set phone = components.Phone(e.phones[0], showCountry = false, showAdd = false) %}
-{% set email =  components.Email(data.contacts.main.emails[0]) %}
+{% set email =  components.Email(e.emails[0]) %}
 
 <div class='Sidebar Wrapper--sidebar h-fixed h-left h-top h-bottom '>
 

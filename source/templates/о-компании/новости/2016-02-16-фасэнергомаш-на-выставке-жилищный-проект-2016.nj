@@ -12,7 +12,7 @@ image:            /{{ path.images }}/news/2016-02-16-фасэнергомаш-н
 {% extends './_entry.nj' %}
 
 {% block post %}
-{% set pageE = data.contacts.departments.sales %}
+{% set pageE = data.contacts.main %}
 
 {% set pagePhone = components.Phone(pageE.phones[0]) %}
 {% set pageEmail = components.Email(pageE.emails[0]) %}
