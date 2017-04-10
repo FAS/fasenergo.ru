@@ -12,10 +12,7 @@ metaDesc:         Дилерам
 {% set pageE = data.contacts.departments.dealers %}
 
 {% set pagePhone1 = components.Phone(pageE.phones[0]) %}
-{% set pagePhone2 = components.Phone(pageE.phones[1]) %}
-
 {% set pageEmail = components.Email(pageE.emails[0]) %}
-
 {% set pageSkype = components.Skype(pageE.skypes[0]) %}
 
 <p>Дилер ФАС получает возможность продавать наше оборудование и оказывать сопутствующие услуги — монтаж и шеф-монтаж, пуско-наладка, обслуживание и ремонт.</p>
