@@ -26,13 +26,6 @@
   {% endif %}
 
   <div class='{{ 'js-expand__target h-childs-margin-top h-childs-margin-bottom0 o-clearfix' if expandable }}' style='{{ 'display: none;' if expandable }}'>
-    {# Lists emails inline #}
-    {% macro emails() %}
-      {% for e in data.emails %}
-      {{ components.Email(e) }}{{ ',' if not loop.last }}
-      {% endfor %}
-    {% endmacro %}
-
     {% if data.desc %}
     <p>{{ data.desc }}</p>
     {% endif %}
@@ -54,13 +47,16 @@
     <p>
       {% for e in data.phones %}
       <strong>{{ components.Phone(e, addClass = 'h-font-weight--lighter') }}</strong>{{ ',' if not loop.last }}
-      {%- endfor -%}{{ ', ' + emails() if lead }}
+      {%- endfor -%}
     </p>
     {% endif %}
 
-    {# We do not display emails here, since for lead block we display it right after the phones #}
-    {% if not lead and data.emails %}
-    <p>{{ emails() }}</p>
+    {% if data.emails %}
+    <p>
+      {% for e in data.emails %}
+      {{ components.Email(e) }}{{ ',' if not loop.last }}
+      {% endfor %}
+    </p>
     {% endif %}
 
     {% if data.skypes %}
