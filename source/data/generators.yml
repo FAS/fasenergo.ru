@@ -260,7 +260,7 @@
   series: null
   model: ФАС-8-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-8-1/ВП</span> (8 кВт)
-  _legacyPrice: 320 000 руб.
+  _legacyPrice: 370 000 руб.
   price: null
   discount: null
   _legacyOldPrice: null
@@ -367,7 +367,7 @@
   series: null
   model: ФАС-10-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-1/ВП</span> (10 кВт)
-  _legacyPrice: 335 000 руб.
+  _legacyPrice: 375 000 руб.
   price: null
   discount: null
   _legacyOldPrice: null
@@ -689,7 +689,7 @@ fas-15-ozp1-ваз-15квт:
   series: null
   model: ФАС-15-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-1/ВР</span> (15 кВт)
-  _legacyPrice: 410 000 руб.
+  _legacyPrice: 430 000 руб.
   price: null
   discount: null
   _legacyOldPrice: null
@@ -792,7 +792,7 @@ fas-15-ozp3-ваз-15квт:
   series: null
   model: ФАС-15-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-3/ВР</span> (15 кВт)
-  _legacyPrice: 420 000 руб.
+  _legacyPrice: 440 000 руб.
   price: null
   discount: null
   _legacyOldPrice: null
