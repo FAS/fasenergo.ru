@@ -57,7 +57,7 @@ module.exports = {
       worktime: null,
       phones: [
         { country: '7', city: '812', tel: [318, 75, 75], add: 333, desc: null },
-        { country: '7', city: '981', tel: [11, 204, 4], add: 333, desc: null }
+        { country: '7', city: '981', tel: [11, 204, '04'], desc: null }
       ],
       emails: [{ value: ['support', 'fasenergo.ru'], desc: null }],
       skypes: [{ value: 'myhemg', desc: null }]
