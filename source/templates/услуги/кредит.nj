@@ -5,7 +5,7 @@ contentTitle:     Кредит
 navTitle:         Кредит
 metaDesc:         Кредит
 icon:             cart
-shortDesc:        Ipsum dolor sit amet, consectetur atque necessitatibus, facere dolorem iure possimus, dolor incidunt eligendi sequi.
+shortDesc:        Кредит на оборудование из каталога для российских покупателей и на экспорт.
 ---
 
 {% extends '_layouts/_main.nj' %}

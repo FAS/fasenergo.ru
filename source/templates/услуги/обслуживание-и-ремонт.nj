@@ -5,7 +5,7 @@ contentTitle:     Обслуживание и ремонт
 navTitle:         Обслуживание и ремонт
 metaDesc:         Обслуживание и ремонт
 icon:             vent
-shortDesc:        Ipsum dolor sit amet, necessitatibus, incidunt eligendi sequi facere dolorem iure possimus, dolor incidunt eligendi sequi.
+shortDesc:        Бесплатное гарантийное обслуживание, консультации, ремонт и поставка запчастей.
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -1,11 +1,11 @@
 ---
-title:            Установка
-breadcrumbTitle:  Установка
-contentTitle:     Установка
-navTitle:         Установка
-metaDesc:         Установка
+title:            Установка, строительные и пуско-наладочные работы
+breadcrumbTitle:  Установка и запуск
+contentTitle:     Установка, строительные и пуско-наладочные работы
+navTitle:         Установка и запуск
+metaDesc:         Установка, строительные и пуско-наладочные работы
 icon:             skype
-shortDesc:        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste pariatur beatae eligendi temporibus tenetur rem deserunt ut, quidem.
+shortDesc:        Установка «под ключ» или шеф-монтаж, пуско-наладочные и строительные работы.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -23,5 +23,5 @@ shortDesc:        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
 </ol>
 
 <p>Цена и срок зависят от сложности работ. </p>
-<p>Цена складывается из: работы специалистов, стоимости материалов, аренды специального оборудования для монтажа и настройки, удаленного управления с компьютера и мобильного телефона (если требуется).</p>
+<p>Цена складывается из: работы специалистов, стоимости материалов, аренды специального оборудования для монтажа и настройки.</p>
 {% endblock %}

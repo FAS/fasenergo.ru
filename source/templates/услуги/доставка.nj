@@ -5,7 +5,7 @@ contentTitle:     Доставка
 navTitle:         Доставка
 metaDesc:         Доставка
 icon:             flash
-shortDesc:        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae atque necessitatibus, facere dolorem iure possimus, dolor incidunt eligendi sequi.
+shortDesc:        Доставка с завода по всей России до объекта или распределительного пункта транспортной компании.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -14,7 +14,7 @@ shortDesc:        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accu
 <p>Для розничных покупателей действуют следующие условия:</p>
 
 <ol>
-  <li>Бесплатно — до объекта по Санкт-Петербургу и Ленинградской области или до распределительного пункта транспортной компании в других регионах России;</li>
+  <li>Бесплатно — до объекта по Санкт-Петербургу и Ленинградской области или до распределительного пункта транспортной компании в других регионах России.</li>
   <li>Платно — до объекта в регионах России, кроме СПб и ЛО.</li>
 </ol>
 
