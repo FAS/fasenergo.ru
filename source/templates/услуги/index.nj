@@ -32,11 +32,8 @@ metaDesc:         Главное о наших услугах
         {% endif %}
         <div class='o-media__content'>
           <h3 class='h-h4 h-h3@lap h-margin-top0 h-margin-bottom'><a href='{{ service.props.url }}'>{{ service.props.navTitle }}</a></h3>
-          {# @todo Disabled in production because there is no texts https://trello.com/c/QePppToW/85-- #}
-          {% if env.staging or not env.production %}
           <p>{{ service.props.shortDesc }}</p>
           <p class='h-bleed-top--'><a href='{{ service.props.url }}'>Подробнее</a></p>
-          {% endif %}
         </div>
       </div>
     </li>
