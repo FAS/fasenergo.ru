@@ -59,6 +59,19 @@
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: 0.4 м³/ч * 1 кВт
       lpg: 0.36 кг/ч * 1 кВт
@@ -144,6 +157,19 @@
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: 0.4 м³/ч * 1 кВт
       lpg: 0.36 кг/ч * 1 кВт
@@ -225,6 +251,19 @@
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: 0.42 м³/ч * 1 кВт
       lpg: 0.38 кг/ч * 1 кВт
@@ -333,6 +372,19 @@
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: 0.43 м³/ч * 1 кВт
       lpg: 0.370 кг/ч * 1 кВт
@@ -441,6 +493,19 @@
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -549,6 +614,19 @@
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -658,6 +736,19 @@
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -762,6 +853,19 @@ fas-15-ozp1-ваз-15квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -866,6 +970,19 @@ fas-15-ozp3-ваз-15квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -970,6 +1087,19 @@ fas-15-ozp3-ваз-15квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -1074,6 +1204,19 @@ fas-15-ozp3-ваз-15квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -1181,6 +1324,19 @@ fas-21-ozp1-ваз-21квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -1285,6 +1441,19 @@ fas-21-ozp3-ваз-21квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -1389,6 +1558,19 @@ fas-21-ozp3-ваз-21квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -1496,6 +1678,19 @@ fas-21-ozp3-ваз-21квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -1603,6 +1798,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -1719,6 +1927,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -1821,6 +2042,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -1923,6 +2157,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -2013,6 +2260,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: 0,32 м³/ч * 1 кВт
       lpg: 0,3 кг/ч * 1 кВт
@@ -2103,6 +2363,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: 0,32 м³/ч * 1 кВт
       lpg: 0,3 кг/ч * 1 кВт
@@ -2199,6 +2472,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: 0,32 м³/ч * 1 кВт
       lpg: 0,3 кг/ч * 1 кВт
@@ -2295,6 +2581,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: 0,3 м³/ч * 1 кВт
       lpg: 0,3 кг/ч * 1 кВт
@@ -2391,6 +2690,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: 0,3 м³/ч * 1 кВт
       lpg: 0,3 кг/ч * 1 кВт
@@ -2484,6 +2796,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -2585,6 +2910,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -2686,6 +3024,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -2787,6 +3138,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -2888,6 +3252,19 @@ fas-32-ozp3-ваз-32квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -2992,6 +3369,19 @@ fas-15-ozp3-kubota-15квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -3075,6 +3465,19 @@ fas-15-ozp3-kubota-15квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -3158,6 +3561,19 @@ fas-15-ozp3-kubota-15квт:
     phases: 3
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -3236,6 +3652,19 @@ fas-15-ozp3-kubota-15квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -3315,6 +3744,19 @@ fas-15-ozp3-kubota-15квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -3435,6 +3877,19 @@ fas-15-ozp3-kubota-15квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -3555,6 +4010,19 @@ fas-15-ozp3-kubota-15квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
@@ -3675,6 +4143,19 @@ fas-15-ozp3-kubota-15квт:
     phases: 1
     phi: null
     circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
     fuel:
       ng: null
       lpg: null
