@@ -38,11 +38,16 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
   tags: t.maybe t.union [t.list(t.String), False]
 
   specs: t.struct
-    # мощность
+    # мощность, kW
+    # @todo: найти формулу для перевода кВт в кВА
     power: t.struct
       ng: t.struct
+        # рекомендуемая мощность
+        nominal: t.maybe t.Number
+        # предельная мощность
         max: t.maybe t.Number
       lpg: t.struct
+        nominal: t.maybe t.Number
         max: t.maybe t.Number
     # темпловая мощность, для когенерационных установок
     _thermalPower: t.maybe t.Number
