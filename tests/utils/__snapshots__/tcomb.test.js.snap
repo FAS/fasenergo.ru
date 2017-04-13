@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tcomb refinement False should error on everything except \`false\` 1`] = `"[tcomb] Invalid value true supplied to false"`;
+
+exports[`Tcomb refinement False should error on everything except \`false\` 2`] = `"[tcomb] Invalid value \\"string\\" supplied to false"`;
+
+exports[`Tcomb refinement False should error on everything except \`false\` 3`] = `"[tcomb] Invalid value -1 supplied to false"`;
+
+exports[`Tcomb refinement False should error on everything except \`false\` 4`] = `"[tcomb] Invalid value 1 supplied to false"`;
+
+exports[`Tcomb refinement False should error on everything except \`false\` 5`] = `"[tcomb] Invalid value -1.555 supplied to false"`;
+
+exports[`Tcomb refinement False should error on everything except \`false\` 6`] = `"[tcomb] Invalid value 1.555 supplied to false"`;
+
+exports[`Tcomb refinement False should error on everything except \`false\` 7`] = `"[tcomb] Invalid value 0 supplied to false"`;
+
+exports[`Tcomb refinement False should error on everything except \`false\` 8`] = `"[tcomb] Invalid value null supplied to false"`;
+
+exports[`Tcomb refinement False should error on everything except \`false\` 9`] = `"[tcomb] Invalid value undefined supplied to false"`;
+
+exports[`Tcomb refinement Float should error on everything except float number 1`] = `"[tcomb] Invalid value false supplied to float number"`;
+
+exports[`Tcomb refinement Float should error on everything except float number 2`] = `"[tcomb] Invalid value true supplied to float number"`;
+
+exports[`Tcomb refinement Float should error on everything except float number 3`] = `"[tcomb] Invalid value \\"string\\" supplied to float number"`;
