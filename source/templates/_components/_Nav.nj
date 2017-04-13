@@ -57,7 +57,6 @@
       {% call(depth) Item('/услуги/доставка', depth = depth) %}{% endcall %}
       {% call(depth) Item('/услуги/кредит', depth = depth) %}{% endcall %}
       {% call(depth) Item('/услуги/обслуживание-и-ремонт', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/услуги/поставка-запчастей', depth = depth) %}{% endcall %}
       {% call(depth) Item('/услуги/проектирование-и-обоснование', depth = depth) %}{% endcall %}
       {% call(depth) Item('/услуги/установка-и-запуск', depth = depth) %}{% endcall %}
     {% endcall %}
