@@ -69,8 +69,7 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: [318, 75, 75], add: 513, desc: null },
-        { country: '7', city: '911', tel: [743, 40, 61], add: null, desc: null }
+        { country: '7', city: '812', tel: [318, 75, 75], add: 513, desc: null }
       ],
       emails: [{ value: ['vde', 'fasenergo.ru'], desc: null }],
       skypes: [{ value: 'vde.fasenergo', desc: null }]
@@ -94,8 +93,7 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: [318, 75, 75], add: 512, desc: null },
-        { country: '7', city: '921', tel: [868, 38, 49], add: null, desc: null }
+        { country: '7', city: '812', tel: [318, 75, 75], add: 512, desc: null }
       ],
       emails: [{ value: ['snn', 'fasenergo.ru'], desc: null }],
       skypes: [{ value: 'snn.fasenergo', desc: null }]
@@ -136,22 +134,13 @@ module.exports = {
     fasNovosibirsk: {
       title: 'Новосибирск',
       desc: null,
-      address: [
-        {
-          index: 630091,
-          city: 'Новосибирск',
-          street: 'ул. Фрунзе, дом 5, оф. 631',
-          yandexMapSrc: 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=oGM3dpdHiRxUzrBQ6Jfi4iR3hb8P8KIe&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp',
-          images: null
-        }
-      ],
+      address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '913', tel: [93, 204, '04'], add: null, desc: null },
-        { country: '7', city: '383', tel: [36, 36, '047'], add: null, desc: null }
+        { country: '7', city: '913', tel: [93, 204, '04'], add: null, desc: null }
       ],
-      emails: [{ value: ['dpv', 'fasenergo.ru'], desc: null }],
-      skypes: [{ value: 'dpv.fasenergo', desc: null }]
+      emails: [{ value: ['vaa', 'fasenergo.ru'], desc: null }],
+      skypes: [{ value: 'vaa.fasenergo', desc: null }]
     },
 
     fasKrasnodar: {
