@@ -54,7 +54,7 @@ showContentTitle:          false
 
         {% macro Item(title, url, buttonLabel, buttonClass) %}
         <article class='o-grid__item h-1/2'>
-          <div class='Shade__block o-panel o-panel--max t-secondary h-border-r h-padding'>
+          <div class='Shade__block o-panel o-panel--max t-secondary h-border-r h-padding+--'>
             <div class='o-panel__body'>
               <h2 class='h-h3'>{{ title }}</h2>
               {{ caller() }}
