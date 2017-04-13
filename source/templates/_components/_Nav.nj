@@ -42,7 +42,6 @@
       {% endif %}
     {% endcall %}
     {% call(depth) Item('/решения') %}
-      {% call(depth) Item('/решения/проекты-под-ключ') %}{% endcall %}
       {% call(depth) Item('/решения/нефтегазовый-комплекс', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/энергетический-комплекс', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/городское-и-муниципальное-хозяйство', depth = depth) %}{% endcall %}
@@ -58,6 +57,7 @@
       {% call(depth) Item('/услуги/кредит', depth = depth) %}{% endcall %}
       {% call(depth) Item('/услуги/обслуживание-и-ремонт', depth = depth) %}{% endcall %}
       {% call(depth) Item('/услуги/проектирование-и-обоснование', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/услуги/проекты-под-ключ') %}{% endcall %}
       {% call(depth) Item('/услуги/установка-и-запуск', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/дилерам') %}{% endcall %}
