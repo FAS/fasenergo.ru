@@ -4,6 +4,8 @@ breadcrumbTitle:  Проекты «под ключ»
 contentTitle:     Проекты «под ключ»
 navTitle:         Проекты «под ключ»
 metaDesc:         Проекты «под ключ»
+icon:             search
+shortDesc:        Полное оборудование объекта: проектирование, установка, строительные работы, проверка и запуск.
 ---
 
 {% extends '_layouts/_main.nj' %}
