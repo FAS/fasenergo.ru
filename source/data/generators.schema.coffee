@@ -51,19 +51,20 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
         max: t.maybe t.Number
     # темпловая мощность, для когенерационных установок
     _thermalPower: t.maybe t.Number
-    # сила тока
+    # сила тока, A
     current: t.struct
       ng: t.maybe t.Number
       lpg: t.maybe t.Number
-    # напряжение (необходимое напряжение в сети)
+    # напряжение, V
+    # @todo: нужно уточнить о сложных моментах вроде 220/230 V
     voltage: t.maybe t.Number
-    # частота
+    # частота, Hz
     frequency: t.maybe t.Number
     # количество фаз
     phases: t.maybe t.Number
     # коэфициент мощности
     phi: t.maybe t.union [t.Number, Float]
-    # защитный автомат, А
+    # защитный автомат, A
     circuitBreaker: t.maybe t.Number
     fuel: t.struct
       # `0.4 м3/ч * 1 кВт`
