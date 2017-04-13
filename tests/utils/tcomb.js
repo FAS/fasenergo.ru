@@ -32,7 +32,7 @@ const refinements = {
   // Check is type exactly `false` or no
   False: t.refinement(t.Boolean, (b) => b === false, 'false'),
   // Check string against float regex
-  Float: t.refinement(t.Number, (s) => FLOAT.test(s), 'false'),
+  Float: t.refinement(t.Number, (s) => FLOAT.test(s), 'float number'),
 
   /**
    * Check does target's keys are same as its `slug`s
