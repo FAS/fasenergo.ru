@@ -27,11 +27,11 @@ module.exports = {
       { days: ['Сб' , 'Вс'], daysFull: ['суббота' , 'воскресенье'], nonWorking: true }
     ],
     phones: [
-      { country: '7', city: '800', tel: ['333', '79', '11'], add: null, desc: null, noParentheses: true },
-      { country: '7', city: '812', tel: ['318', '75', '75'], add: null, desc: null }
+      { country: '7', city: '800', tel: ['333', '79', '11'], add: null, noParentheses: true },
+      { country: '7', city: '812', tel: ['318', '75', '75'], add: null }
     ],
     emails: [
-      { value: ['info', 'fasenergo.ru'], desc: null }
+      { value: ['info', 'fasenergo.ru'] }
     ]
   },
 
@@ -43,11 +43,11 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: null, desc: null },
-        { country: '7', city: '911', tel: ['77', '204', '04'], add: null, desc: null, noParentheses: true }
+        { country: '7', city: '812', tel: ['318', '75', '75'], add: null },
+        { country: '7', city: '911', tel: ['77', '204', '04'], add: null, noParentheses: true }
       ],
-      emails: [{ value: ['vaa', 'fasenergo.ru'], desc: null }],
-      skypes: [{ value: 'vaa.fasenergo', desc: null }]
+      emails: [{ value: ['vaa', 'fasenergo.ru'] }],
+      skypes: [{ value: 'vaa.fasenergo' }]
     },
 
     support: {
@@ -56,11 +56,11 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: '333', desc: null },
-        { country: '7', city: '981', tel: ['11', '204', '04'], desc: null, noParentheses: true }
+        { country: '7', city: '812', tel: ['318', '75', '75'], add: '333' },
+        { country: '7', city: '981', tel: ['11', '204', '04'], noParentheses: true }
       ],
-      emails: [{ value: ['support', 'fasenergo.ru'], desc: null }],
-      skypes: [{ value: 'myhemg', desc: null }]
+      emails: [{ value: ['support', 'fasenergo.ru'] }],
+      skypes: [{ value: 'myhemg' }]
     }
 
     industrial: {
@@ -69,10 +69,10 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: '513', desc: null }
+        { country: '7', city: '812', tel: ['318', '75', '75'], add: '513' }
       ],
-      emails: [{ value: ['vde', 'fasenergo.ru'], desc: null }],
-      skypes: [{ value: 'vde.fasenergo', desc: null }]
+      emails: [{ value: ['vde', 'fasenergo.ru'] }],
+      skypes: [{ value: 'vde.fasenergo' }]
     },
 
     dealers: {
@@ -81,10 +81,10 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: '510', desc: null }
+        { country: '7', city: '812', tel: ['318', '75', '75'], add: '510' }
       ],
-      emails: [{ value: ['dealer', 'fasenergo.ru'], desc: null }],
-      skypes: [{ value: 'dealer.fasenergo', desc: null }]
+      emails: [{ value: ['dealer', 'fasenergo.ru'] }],
+      skypes: [{ value: 'dealer.fasenergo' }]
     }
 
     export: {
@@ -93,10 +93,10 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: '512', desc: null }
+        { country: '7', city: '812', tel: ['318', '75', '75'], add: '512' }
       ],
-      emails: [{ value: ['snn', 'fasenergo.ru'], desc: null }],
-      skypes: [{ value: 'snn.fasenergo', desc: null }]
+      emails: [{ value: ['snn', 'fasenergo.ru'] }],
+      skypes: [{ value: 'snn.fasenergo' }]
     }
 
   }
@@ -116,9 +116,9 @@ module.exports = {
         }
       ],
       worktime: null,
-      phones: [{ country: '7', city: '912', tel: ['05', '204', '04'], add: null, desc: null, noParentheses: true }],
-      emails: [{ value: ['dya', 'fasenergo.ru'], desc: null }],
-      skypes: [{ value: 'live:dya_132', desc: null }]
+      phones: [{ country: '7', city: '912', tel: ['05', '204', '04'], add: null, noParentheses: true }],
+      emails: [{ value: ['dya', 'fasenergo.ru'] }],
+      skypes: [{ value: 'live:dya_132' }]
     },
 
     fasKazan: {
@@ -126,9 +126,9 @@ module.exports = {
       desc: null,
       address: null,
       worktime: null,
-      phones: [{ country: '7', city: '987', tel: ['40', '204', '04'], add: null, desc: null, noParentheses: true }],
-      emails: [{ value: ['mtn', 'fasenergo.ru'], desc: null }],
-      skypes: [{ value: 'mtn@fasenergo', desc: null }]
+      phones: [{ country: '7', city: '987', tel: ['40', '204', '04'], add: null, noParentheses: true }],
+      emails: [{ value: ['mtn', 'fasenergo.ru'] }],
+      skypes: [{ value: 'mtn@fasenergo' }]
     },
 
     fasNovosibirsk: {
@@ -137,10 +137,10 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '913', tel: ['93', '204', '04'], add: null, desc: null, noParentheses: true }
+        { country: '7', city: '913', tel: ['93', '204', '04'], add: null, noParentheses: true }
       ],
-      emails: [{ value: ['vaa', 'fasenergo.ru'], desc: null }],
-      skypes: [{ value: 'vaa.fasenergo', desc: null }]
+      emails: [{ value: ['vaa', 'fasenergo.ru'] }],
+      skypes: [{ value: 'vaa.fasenergo' }]
     },
 
     fasKrasnodar: {
@@ -156,9 +156,9 @@ module.exports = {
         }
       ],
       worktime: null,
-      phones: [{ country: '7', city: '988', tel: ['602', '47', '27'], add: null, desc: null }],
-      emails: [{ value: ['gpu', 'kes-group.com'], desc: null }],
-      skypes: [{ value: 'dunkovs', desc: null }]
+      phones: [{ country: '7', city: '988', tel: ['602', '47', '27'], add: null }],
+      emails: [{ value: ['gpu', 'kes-group.com'] }],
+      skypes: [{ value: 'dunkovs' }]
     }
 
   }
