@@ -1,7 +1,7 @@
 t = require('tcomb')
 { file: { readYAML } } = require('grunt')
 
-{ refinements: { False, equalKeysAndSlugs } } = require('../../tests/utils/tcomb')
+{ refinements: { False, Float, equalKeysAndSlugs } } = require('../../tests/utils/tcomb')
 
 enginesData = readYAML(__dirname + '/engines.yml')
 
@@ -57,7 +57,7 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
     # количество фаз
     phases: t.maybe t.Number
     # коэфициент мощности
-    phi: t.maybe t.Number
+    phi: t.maybe t.union [t.Number, Float]
     # защитный автомат, А
     circuitBreaker: t.maybe t.Number
     fuel: t.struct
