@@ -47,12 +47,12 @@ getGeneratorCurrentPrice = (entry) ->
 getGeneratorOriginalPrice = (entry) -> entry._legacyOldPrice or getGeneratorPrice(entry)
 
 getGeneratorSize = (entry) ->
-  { _legacySize, depth, width, height } = entry.enclosure
+  { _legacySize, size: { length, width, height } } = entry.enclosure
 
   if _legacySize
     return _legacySize
 
-  return depth and width and height and "#{depth}x#{width}x#{height}"
+  return length and width and height and "#{length}x#{width}x#{height}"
 
 
 generatorIsDiscontinued = (entry) -> entry.availability == 'discontinued'
