@@ -66,7 +66,7 @@
     cooling: null
   engine: loncin-g390f
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -151,7 +151,7 @@
     cooling: null
   engine: loncin-g390f
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -232,7 +232,7 @@
     cooling: null
   engine: loncin-lc2v78f-1
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -340,7 +340,7 @@
     cooling: null
   engine: ваз-21067
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -448,7 +448,7 @@
     cooling: null
   engine: ваз-21067
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -556,7 +556,7 @@
     cooling: null
   engine: ваз-21213
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -665,7 +665,7 @@
     cooling: null
   engine: ваз-21213
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -769,7 +769,7 @@ fas-15-ozp1-ваз-15квт:
     cooling: null
   engine: ваз-21083
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -873,7 +873,7 @@ fas-15-ozp3-ваз-15квт:
     cooling: null
   engine: ваз-21083
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -977,7 +977,7 @@ fas-15-ozp3-ваз-15квт:
     cooling: null
   engine: ваз-21083
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -1081,7 +1081,7 @@ fas-15-ozp3-ваз-15квт:
     cooling: null
   engine: ваз-21083
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -1188,7 +1188,7 @@ fas-21-ozp1-ваз-21квт:
     cooling: null
   engine: ваз-21213
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -1292,7 +1292,7 @@ fas-21-ozp3-ваз-21квт:
     cooling: null
   engine: ваз-21083
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -1396,7 +1396,7 @@ fas-21-ozp3-ваз-21квт:
     cooling: null
   engine: ваз-21083
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -1503,7 +1503,7 @@ fas-21-ozp3-ваз-21квт:
     cooling: null
   engine: ваз-21213
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -1610,7 +1610,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ваз-21213
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -1726,7 +1726,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ваз-21213
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -1828,7 +1828,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ммз-д-246
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -1930,7 +1930,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ммз-д-246
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2020,7 +2020,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ямз-238
   enclosure:
-    type: open
+    type: открытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2110,7 +2110,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ямз-238
   enclosure:
-    type: open
+    type: открытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2206,7 +2206,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ямз-240м
   enclosure:
-    type: open
+    type: открытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2302,7 +2302,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ямз-240нм
   enclosure:
-    type: open
+    type: открытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2398,7 +2398,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ямз-8503-10
   enclosure:
-    type: open
+    type: открытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2491,7 +2491,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ммз-д-246
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2592,7 +2592,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ваз-21067
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2693,7 +2693,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ваз-21067
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2794,7 +2794,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ваз-21067
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2895,7 +2895,7 @@ fas-32-ozp3-ваз-32квт:
     cooling: null
   engine: ваз-21067
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -2999,7 +2999,7 @@ fas-15-ozp3-kubota-15квт:
     cooling: null
   engine: kubota-df972
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -3082,7 +3082,7 @@ fas-15-ozp3-kubota-15квт:
     cooling: liquid
   engine: змз-409
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -3165,7 +3165,7 @@ fas-15-ozp3-kubota-15квт:
     cooling: liquid
   engine: змз-409
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -3243,7 +3243,7 @@ fas-15-ozp3-kubota-15квт:
     cooling: null
   engine: kohler-ch740
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -3322,7 +3322,7 @@ fas-15-ozp3-kubota-15квт:
     cooling: null
   engine: kohler-ch1000
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -3442,7 +3442,7 @@ fas-15-ozp3-kubota-15квт:
     cooling: null
   engine: generac-gt-530
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -3562,7 +3562,7 @@ fas-15-ozp3-kubota-15квт:
     cooling: null
   engine: generac-gt-530
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
@@ -3682,7 +3682,7 @@ fas-15-ozp3-kubota-15квт:
     cooling: null
   engine: generac-gt-990
   enclosure:
-    type: soundproof
+    type: закрытое
     material: null
     coating: null
     thermalInsulation: null
