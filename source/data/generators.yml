@@ -76,9 +76,10 @@
     removablePanels: null
     noise: 70
     _legacySize: 1058х705х620
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 90
 
 
@@ -160,9 +161,10 @@
     removablePanels: null
     noise: 70
     _legacySize: 1058х705х620
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 90
 
 
@@ -240,9 +242,10 @@
     removablePanels: null
     noise: 70
     _legacySize: 1058х705х620
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 125
 
 
@@ -347,9 +350,10 @@
     removablePanels: null
     noise: 57
     _legacySize: 1320х780х965
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 400
 
 
@@ -454,9 +458,10 @@
     removablePanels: null
     noise: 57
     _legacySize: 1320х780х965
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 400
 
 
@@ -561,9 +566,10 @@
     removablePanels: null
     noise: 57
     _legacySize: 1320х780х965
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 400
 
 
@@ -669,9 +675,10 @@
     removablePanels: null
     noise: 57
     _legacySize: 1320х780х965
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 400
 
 
@@ -772,9 +779,10 @@ fas-15-ozp1-ваз-15квт:
     removablePanels: null
     noise: 68
     _legacySize: 1300×820×990
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 470
 
 
@@ -875,9 +883,10 @@ fas-15-ozp3-ваз-15квт:
     removablePanels: null
     noise: 68
     _legacySize: 1300×820×990
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 470
 
 
@@ -978,9 +987,10 @@ fas-15-ozp3-ваз-15квт:
     removablePanels: null
     noise: 68
     _legacySize: 1700×830×1000
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 530
 
 
@@ -1081,9 +1091,10 @@ fas-15-ozp3-ваз-15квт:
     removablePanels: null
     noise: 68
     _legacySize: 1300×820×990
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 470
 
 
@@ -1187,9 +1198,10 @@ fas-21-ozp1-ваз-21квт:
     removablePanels: null
     noise: 68
     _legacySize: 1700×830×1000
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 530
 
 
@@ -1290,9 +1302,10 @@ fas-21-ozp3-ваз-21квт:
     removablePanels: null
     noise: 68
     _legacySize: 1300×820×990
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 520
 
 
@@ -1393,9 +1406,10 @@ fas-21-ozp3-ваз-21квт:
     removablePanels: null
     noise: 68
     _legacySize: 1700×830×1000
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 520
 
 
@@ -1499,9 +1513,10 @@ fas-21-ozp3-ваз-21квт:
     removablePanels: null
     noise: 68
     _legacySize: 1720×870×1010
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 530
 
 
@@ -1605,9 +1620,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 68
     _legacySize: 1720×870×1010
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 530
 
 
@@ -1720,9 +1736,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 68
     _legacySize: 2×(1720×870×1010)
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 1060
 
 
@@ -1821,9 +1838,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 68
     _legacySize: 2210х1200х1200
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 1000
 
 
@@ -1922,9 +1940,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 68
     _legacySize: 2210х1200х1200
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 1000
 
 
@@ -2011,9 +2030,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 90
     _legacySize: 2900 ×1420 ×1650 (на раме)
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 2500
 
 
@@ -2100,9 +2120,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 90
     _legacySize: 2900 ×1420 ×1650 (на раме)
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 2500
 
 
@@ -2195,9 +2216,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 90
     _legacySize: 3800×1200×2190 (на раме)
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 3400
 
 
@@ -2290,9 +2312,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 90
     _legacySize: 4260×1210×2190 (на раме)
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 3500
 
 
@@ -2385,9 +2408,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 90
     _legacySize: 4260×1360×2380 (на раме)
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 4500
 
 
@@ -2477,9 +2501,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 68
     _legacySize: 2510×1205×2345
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 1706
 
 
@@ -2577,9 +2602,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 57
     _legacySize: 1550х900х1050
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 372
 
 
@@ -2677,9 +2703,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 57
     _legacySize: 1550х900х1050
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 377
 
 
@@ -2777,9 +2804,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 57
     _legacySize: 1550х900х1050
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 385
 
 
@@ -2877,9 +2905,10 @@ fas-32-ozp3-ваз-32квт:
     removablePanels: null
     noise: 57
     _legacySize: 1550х900х1050
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 389
 
 
@@ -2980,9 +3009,10 @@ fas-15-ozp3-kubota-15квт:
     removablePanels: null
     noise: 68
     _legacySize: 1250×720×935
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 345
 
 
@@ -3062,9 +3092,10 @@ fas-15-ozp3-kubota-15квт:
     removablePanels: null
     noise: null
     _legacySize: 1800×980×1153
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 834
 
 
@@ -3144,9 +3175,10 @@ fas-15-ozp3-kubota-15квт:
     removablePanels: null
     noise: null
     _legacySize: 1800×980×1153
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 834
 
 
@@ -3221,9 +3253,10 @@ fas-15-ozp3-kubota-15квт:
     removablePanels: null
     noise: 65
     _legacySize: 1216×655×733
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 190
 
 
@@ -3299,9 +3332,10 @@ fas-15-ozp3-kubota-15квт:
     removablePanels: null
     noise: 65
     _legacySize: 1216×655×733
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 242
 
 
@@ -3418,9 +3452,10 @@ fas-15-ozp3-kubota-15квт:
     removablePanels: null
     noise: 63
     _legacySize: 1218x638x732
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 175
 
 
@@ -3537,9 +3572,10 @@ fas-15-ozp3-kubota-15квт:
     removablePanels: null
     noise: 63
     _legacySize: 1218x638x732
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 193
 
 
@@ -3656,7 +3692,8 @@ fas-15-ozp3-kubota-15квт:
     removablePanels: null
     noise: 63
     _legacySize: 1218x638x732
-    height: null
-    width: null
-    depth: null
+    size:
+      length: null
+      width: null
+      height: null
     weight: 201

@@ -109,12 +109,14 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
     removablePanels: t.maybe t.Boolean
     # уровень шума
     noise: t.maybe t.Number
-    # высота всего изделия
-    height: t.maybe t.Number
-    # ширина всего изделия
-    width: t.maybe t.Number
-    # глубина всего изделия
-    depth: t.maybe t.Number
+    # габариты (ДxШxВ), мм
+    size: t.struct
+      # длина всего изделия
+      length: t.maybe t.Number
+      # ширина всего изделия
+      width: t.maybe t.Number
+      # высота всего изделия
+      height: t.maybe t.Number
     # вес всего изделия
     weight: t.maybe t.Number
 }, { name: 'Generator', strict: true }), 'Generators'
