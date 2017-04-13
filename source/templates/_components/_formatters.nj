@@ -85,22 +85,6 @@
 {%- endmacro -%}
 
 {##
- # Output enclosure type as a word
- # @param {string} enclosure Enclosure type id
- # @return {string} Enclosure type in a word
- # @example {{ components.EnclosureTypeToWord('open') }} -> 'открытое'
- #}
-{%- macro EnclosureTypeToWord(enclosure) -%}
-  {%- if enclosure == 'open' -%}
-    {{ 'открытое' }}
-  {%- elseif enclosure == 'soundproof' -%}
-    {{ 'закрытое с шумопоглощением' }}
-  {% else %}
-    {{ warn('[EnclosureTypeToWord] unknown enclosure type: `' + enclosure + '`') }}
-  {% endif %}
-{%- endmacro -%}
-
-{##
  # Output engine cooling type as a word
  # @param {string} coolingType Engine cooling type id
  # @return {string} Enclosure type in a word
