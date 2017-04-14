@@ -68,7 +68,7 @@ showContentTitle:          false
 
         {% call Item(
           title = 'Производство газовых станций',
-          url = '/продукция/каталог',
+          url = '/продукция/каталог/',
           buttonLabel = 'Каталог оборудования',
           buttonClass = 'Btn--primary'
         ) %}
@@ -77,7 +77,7 @@ showContentTitle:          false
 
         {% call Item(
           title = 'Профессиональные решения',
-          url = '/решения',
+          url = '/решения/',
           buttonLabel = 'Подробнее о решениях',
           buttonClass = 'Btn--solid'
         ) %}
@@ -97,7 +97,7 @@ showContentTitle:          false
 
     {{ components.Posts(limit = 2) }}
 
-    <p><a href='/о-компании/новости' class='Btn'>Посмотреть все</a></p>
+    <p><a href='/о-компании/новости/' class='Btn'>Посмотреть все</a></p>
 
   </div>
 </section>
@@ -122,7 +122,7 @@ showContentTitle:          false
           <li>защита контракта от демпинга.</li>
         </ul>
 
-        <p class='h-margin-top+'><a href='/дилерам' class='Btn h-text++'>Как мы работаем с дилерами</a></p>
+        <p class='h-margin-top+'><a href='/дилерам/' class='Btn h-text++'>Как мы работаем с дилерами</a></p>
 
       </div>
     </div>
@@ -166,10 +166,10 @@ showContentTitle:          false
 
     <div class='{{ gridClass }} h-margin-top-- h-flex-y--center'>
       <div class='{{ itemClass }}'>
-        <a href='/продукция/каталог' class='Btn Btn--primary Btn+ Btn--wide@lap h-text++'>Подобрать генератор</a>
+        <a href='/продукция/каталог/' class='Btn Btn--primary Btn+ Btn--wide@lap h-text++'>Подобрать генератор</a>
       </div>
       <div class='{{ itemClass }}'>
-        <a href='/продукция/преимущества-наших-генераторов' class='h-text++'>Больше о наших генераторах</a>
+        <a href='/продукция/преимущества-наших-генераторов/' class='h-text++'>Больше о наших генераторах</a>
       </div>
     </div>
 

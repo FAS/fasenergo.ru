@@ -48,7 +48,7 @@
           {% endif %}
           <li>
             <span class='h-float--left'>{{ components.Icon('delivery') }}</span>
-            <span class='h-block h-margin-left+--'><a href='/услуги/доставка'>Доставка по всей России</a></span>
+            <span class='h-block h-margin-left+--'><a href='/услуги/доставка/'>Доставка по всей России</a></span>
           </li>
         </ul>
       </div>
@@ -85,8 +85,8 @@
           {% endif %}
 
           {% if not isDiscontinued %}
-          <a class='Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='/контакты'>Сделать заказ</a>
-          <p class='h-margin-top-- h-margin-bottom0'>или <a href='/контакты'>задать вопрос</a></p>
+          <a class='Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='/контакты/'>Сделать заказ</a>
+          <p class='h-margin-top-- h-margin-bottom0'>или <a href='/контакты/'>задать вопрос</a></p>
           {% endif %}
 
         </div>
