@@ -1,7 +1,5 @@
 import t from 'tcomb-validation'
 
-const FLOAT = /^(?:[-+])?(?:[0-9]+)?(?:\.[0-9]*)?(?:[eE][+-]?(?:[0-9]+))?$/
-
 /**
  * Throw formatted list of tcomb errors
  * @param  {array} errors Array of tcomb errors
@@ -31,8 +29,6 @@ const validate = (data, schema) => {
 const refinements = {
   // Check is type exactly `false` or no
   False: t.refinement(t.Boolean, (b) => b === false, 'false'),
-  // Check string against float regex
-  Float: t.refinement(t.Number, (s) => FLOAT.test(s), 'float number'),
 
   /**
    * Check does target's keys are same as its `slug`s

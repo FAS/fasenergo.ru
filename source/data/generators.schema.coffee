@@ -1,7 +1,7 @@
 t = require('tcomb')
 { file: { readYAML } } = require('grunt')
 
-{ refinements: { False, Float, equalKeysAndSlugs } } = require('../../tests/utils/tcomb')
+{ refinements: { False, equalKeysAndSlugs } } = require('../../tests/utils/tcomb')
 
 enginesData = readYAML(__dirname + '/engines.yml')
 
@@ -63,22 +63,22 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
     # количество фаз
     phases: t.maybe t.Number
     # коэфициент мощности
-    phi: t.maybe t.union [t.Number, Float]
+    phi: t.maybe t.Number
     # защитный автомат, A
     circuitBreaker: t.maybe t.Number
     consumption: t.struct
       ng: t.struct
-        idling: t.maybe t.union [t.Number, Float]
-        quarter: t.maybe t.union [t.Number, Float]
-        half: t.maybe t.union [t.Number, Float]
-        nominal: t.maybe t.union [t.Number, Float]
-        max: t.maybe t.union [t.Number, Float]
+        idling: t.maybe t.Number
+        quarter: t.maybe t.Number
+        half: t.maybe t.Number
+        nominal: t.maybe t.Number
+        max: t.maybe t.Number
       lpg: t.struct
-        idling: t.maybe t.union [t.Number, Float]
-        quarter: t.maybe t.union [t.Number, Float]
-        half: t.maybe t.union [t.Number, Float]
-        nominal: t.maybe t.union [t.Number, Float]
-        max: t.maybe t.union [t.Number, Float]
+        idling: t.maybe t.Number
+        quarter: t.maybe t.Number
+        half: t.maybe t.Number
+        nominal: t.maybe t.Number
+        max: t.maybe t.Number
     fuel: t.struct
       # `0.4 м3/ч * 1 кВт`
       ng: t.maybe t.String
