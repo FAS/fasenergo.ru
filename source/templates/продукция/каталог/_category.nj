@@ -50,8 +50,12 @@
   <tbody class='h-align--center'>
 
     {% for g in gens %}
+    {# @todo `'/' + ` was removed from section before `g.slug` because we now always adding trailing slash to main url
+     #       However we have to account for situation when someone will forget to add trailing slash.
+     #       Also, `url-joiner()` might fix that issue.
+     #}
     {{ components.ProductRow(
-      url = page.props.url + '/' + g.slug,
+      url = page.props.url + g.slug + '/',
       article = g.article,
       image = '/' + path.images + '/' + getGeneratorMainPhoto(g).url,
       model = g.model,
