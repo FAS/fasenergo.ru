@@ -40,7 +40,7 @@ metaDesc:         Результаты испытаний
 <p>Успешные испытания позволили адаптировать наши станции к работе на пиролизных газах, получаемых после пиролиза отходов полиэтилена, резины, отработанных машинных масел, а также на синтез-газе плазменных установок утилизации твёрдых бытовых отходов.</p>
 
 <div class='o-aspect-ratio o-aspect-ratio16:9 h-margin-bottom'>
-  <iframe class='o-aspect-ratio__content' src="https://www.youtube.com/embed/4rJLzYVnycM" frameborder="0" allowfullscreen></iframe>
+  <iframe class='o-aspect-ratio__content' src='https://www.youtube.com/embed/4rJLzYVnycM' frameborder='0' allowfullscreen></iframe>
 </div>
 
 <h2>Испытание генераторов на двигателях с воздушным охлаждением</h2>
