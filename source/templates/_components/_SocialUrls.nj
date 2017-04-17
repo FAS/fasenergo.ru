@@ -15,16 +15,16 @@
 {% macro SocialUrls(asIcons = true, class, itemsClass, anchorsClass, iconsClass) %}
 <ul class='{{ class }} {{ 'g-list0 h-inline-block h-align--middle' if asIcons }}'>
 
-  {% macro Item(name, iconName, asIcon = asIcons, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
+  {% macro Item(name, iconName, url, asIcon = asIcons, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
     <li class='{{ itemClass }} {{ 'Icon--right h-inline-block' if asIcons }}'>
-      <a class='{{ anchorClass }} h-border-bottom0' href='{{ data.socialUrls.vk }}' target='_blank'>
+      <a class='{{ anchorClass }} h-border-bottom0' href='{{ url }}' target='_blank'>
         {{ components.Icon(iconName, class = iconClass) if asIcon else name }}
       </a>
     </li>
   {% endmacro %}
 
-  {{ Item('Вконтакте', 'vk') }}
-  {{ Item('Facebook', 'facebook') }}
+  {{ Item('Вконтакте', 'vk', data.socialUrls.vk) }}
+  {{ Item('Facebook', 'facebook', data.socialUrls.facebook) }}
 
 </ul>
 {% endmacro %}
