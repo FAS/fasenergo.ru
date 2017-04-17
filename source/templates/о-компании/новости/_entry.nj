@@ -3,7 +3,7 @@
 {% block main %}
 
 <footer class='h-opacity--60 h-bleed-top h-margin-bottom+'>
-  {{ moment(page.date).format('DD.MM.YYYY') }}
+  <time datetime='{{ page.date }}'>{{ moment(page.date).format('DD.MM.YYYY') }}</time>
 </footer>
 
 {% block post %}{% endblock %}
