@@ -115,6 +115,8 @@
           <p class='h-margin-bottom--'><b class='h-text+'>{{ phone }}</b></p>
           <p>{{ email }}</p>
 
+          <p>{{ components.SocialUrls() }}</p>
+
         </div>
 
       </div>
