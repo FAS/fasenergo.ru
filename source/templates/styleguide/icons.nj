@@ -29,7 +29,12 @@ applyWrapperContent: false
 {{ components.Icon('delivery', 'Icon--left') }}
 {{ components.Icon('gift', 'Icon--left') }}
 {{ components.Icon('star', 'Icon--left') }}
-{{ components.Icon('x-o', 'Icon--left') }}{% endraw %}
+{{ components.Icon('x-o', 'Icon--left') }}
+{{ components.Icon('linkedin', 'Icon--left') }}
+{{ components.Icon('twitter', 'Icon--left') }}
+{{ components.Icon('vk', 'Icon--left') }}
+{{ components.Icon('facebook', 'Icon--left') }}
+{{ components.Icon('google-plus', 'Icon--left') }}{% endraw %}
 {% endcall %}
 
 {% endblock %}
