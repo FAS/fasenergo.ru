@@ -91,7 +91,13 @@
     {% call(depth) Item('/преимущества-и-особенности-газовых-генераторов/', anchorClass = secondaryClass) %}{% endcall %}
     {% endif %}
     {% if env.staging or not env.production %}
-    {% call(depth) Item('/styleguide/', anchorClass = secondaryClass) %}{% endcall %}
+    {% call(depth) Item('/styleguide/', anchorClass = secondaryClass) %}
+      {% call(depth) Item('/styleguide/pallete/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/styleguide/typography/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/styleguide/elements/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/styleguide/icons/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/styleguide/components/', depth = depth) %}{% endcall %}
+    {% endcall %}
     {% endif %}
 
   </ul>

@@ -1,0 +1,35 @@
+---
+title:           Icons
+breadcrumbTitle: Icons
+contentTitle:    Icons
+navTitle:        Icons
+metaDesc:        Icons
+
+applyWrapperMain:    false
+applyWrapperContent: false
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+{% call components.Example() -%}
+{% raw %}{{ components.Icon('phone', 'Icon--left') }}
+{{ components.Icon('cart', 'Icon--left') }}
+{{ components.Icon('search', 'Icon--left') }}
+{{ components.Icon('check', 'Icon--left') }}
+{{ components.Icon('vent', 'Icon--left') }}
+{{ components.Icon('flash', 'Icon--left') }}
+{{ components.Icon('skype', 'Icon--left') }}
+{{ components.Icon('x', 'Icon--left') }}
+{{ components.Icon('dir-right', 'Icon--left') }}
+{{ components.Icon('pdf', 'Icon--left') }}
+{{ components.Icon('check-o', 'Icon--left') }}
+{{ components.Icon('clock', 'Icon--left') }}
+{{ components.Icon('delivery', 'Icon--left') }}
+{{ components.Icon('gift', 'Icon--left') }}
+{{ components.Icon('star', 'Icon--left') }}
+{{ components.Icon('x-o', 'Icon--left') }}{% endraw %}
+{% endcall %}
+
+{% endblock %}
