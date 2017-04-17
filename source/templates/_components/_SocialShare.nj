@@ -1,0 +1,34 @@
+{##
+ # Displays social sharing buttons
+ #
+ # @param {string} [class]          Class for main wrapper
+ # @param {string} [itemsClass]     Class for each item
+ # @param {string} [anchorsClass]   Class for each anchor
+ # @param {string} [iconsClass]     Class for icons
+ #
+ # @return {string} Locale-specific list of share urls in form of `<ul>`
+ #
+ # @example
+ #  {{ components.SocialShare() }}
+ #}
+{% macro SocialShare(class, itemsClass, anchorsClass, iconsClass) %}
+<ul class='{{ class }} {{ 'g-list0 h-inline-block h-align--middle' }}'>
+
+  {% macro Item(tooltip, iconName, url, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
+    <li class='{{ itemClass }} {{ 'Icon--right h-inline-block' }}'>
+      <a class='{{ anchorClass }} h-border-bottom0 o-tooltip o-tooltip--top' href='{{ url }}' data-tooltip='{{ tooltip }}' target='_blank'>
+        {{ components.Icon(iconName, class = iconClass) }}
+      </a>
+    </li>
+  {% endmacro %}
+
+  {% set pageFullUrl = site.homepage + page.url %}
+
+  {{ Item('Поделиться Вконтакте', 'vk', 'http://vk.com/share.php?url=' + pageFullUrl) }}
+  {{ Item('Поделиться в Facebook', 'facebook', 'https://www.facebook.com/sharer.php?u=' + pageFullUrl) }}
+  {{ Item('Поделиться в Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + pageFullUrl + '&text=' + page.contentTitle + '&via=' + _.trimStart(site.twitter, '@') + '&hashtags=fasenergo') }}
+  {{ Item('Поделиться в Google+', 'google-plus', 'https://plus.google.com/share?url=' + pageFullUrl) }}
+  {{ Item('Поделиться в LinkedIn', 'linkedin', 'https://www.linkedin.com/shareArticle?url=' + pageFullUrl + '&title=' + page.contentTitle) }}
+
+</ul>
+{% endmacro %}

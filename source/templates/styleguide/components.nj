@@ -138,6 +138,10 @@ applyWrapperContent: false
 {{ components.SocialUrls(asIcons = false) }}{% endraw %}
 {% endcall %}
 
+{% call components.Example(title = 'Социальный шеринг') -%}
+{% raw %}{{ components.SocialShare() }}{% endraw %}
+{% endcall %}
+
 {% call components.Example(title = 'Форма') -%}
 {% raw %}<form class='o-grid h-childs-displace'>
 
