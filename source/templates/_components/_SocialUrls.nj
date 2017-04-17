@@ -7,10 +7,9 @@
  # @param {string} [anchorsClass]   Class for each anchor
  # @param {string} [iconsClass]     Class for icons
  #
- # @return {string} Locale-specific list of urls in form of `<ul>`
+ # @return {string} List of urls in form of `<ul>`
  #
- # @example
- #  {{ components.SocialUrls(asIcons = true) }}
+ # @example {{ components.SocialUrls(asIcons = true) }}
  #}
 {% macro SocialUrls(asIcons = true, class, itemsClass, anchorsClass, iconsClass) %}
 <ul class='{{ class }} {{ 'g-list0 h-inline-block h-align--middle' if asIcons }}'>
