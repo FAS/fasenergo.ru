@@ -16,8 +16,15 @@
 
   {% macro Item(name, iconName, url, asIcon = asIcons, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
     <li class='{{ itemClass }} {{ 'Icon--right h-inline-block' if asIcons }}'>
-      <a class='{{ anchorClass }} h-border-bottom0' href='{{ url }}' target='_blank'>
-        {{ components.Icon(iconName, class = iconClass) if asIcon else name }}
+      <a href='{{ url }}'
+        class='{{ anchorClass }} h-border-bottom0'
+        aria-label='{{ name }}'
+        target='_blank'>
+        {% if asIcon %}
+        <span aria-hidden='true'>{{ components.Icon(iconName, class = iconClass) }}</span>
+        {% else %}
+        {{ name }}
+        {% endif %}
       </a>
     </li>
   {% endmacro %}
