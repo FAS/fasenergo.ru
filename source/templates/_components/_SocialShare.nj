@@ -12,7 +12,7 @@
  #  {{ components.SocialShare() }}
  #}
 {% macro SocialShare(class, itemsClass, anchorsClass, iconsClass) %}
-<ul class='{{ class }} {{ 'g-list0 h-inline-block h-align--middle' }}'>
+<ul class='{{ class }} {{ 'g-list0 h-inline-block' }}'>
 
   {% macro Item(tooltip, iconName, url, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
     <li class='{{ itemClass }} {{ 'Icon--right h-inline-block' }}'>
