@@ -13,7 +13,7 @@
  #   {% endcall %}
  #}
 {% macro Example(title, classes, comment = false) %}
-{% set titleId = title|urlify() %}
+{% set titleId = title|urlify() if title %}
 
 <article class='h-margin-bottom+'>
 
