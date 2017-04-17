@@ -1,0 +1,30 @@
+{##
+ # Displays list of social urls, optionally as inline icons
+ #
+ # @param {bool}   [asIcons] = true Should display links as icons
+ # @param {string} [class]          Class for main wrapper
+ # @param {string} [itemsClass]     Class for each item
+ # @param {string} [anchorsClass]   Class for each anchor
+ # @param {string} [iconsClass]     Class for icons
+ #
+ # @return {string} Locale-specific list of urls in form of `<ul>`
+ #
+ # @example
+ #  {{ components.SocialUrls(asIcons = true) }}
+ #}
+{% macro SocialUrls(asIcons = true, class, itemsClass, anchorsClass, iconsClass) %}
+<ul class='{{ class }} {{ 'g-list0 h-inline-block h-align--middle' if asIcons }}'>
+
+  {% macro Item(name, iconName, asIcon = asIcons, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
+    <li class='{{ itemClass }} {{ 'Icon--right h-inline-block' if asIcons }}'>
+      <a class='{{ anchorClass }} h-border-bottom0' href='{{ data.socialUrls.vk }}' target='_blank'>
+        {{ components.Icon(iconName, class = iconClass) if asIcon else name }}
+      </a>
+    </li>
+  {% endmacro %}
+
+  {{ Item('Вконтакте', 'vk') }}
+  {{ Item('Facebook', 'facebook') }}
+
+</ul>
+{% endmacro %}
