@@ -35,6 +35,7 @@ module.exports = (grunt) ->
       contacts: require('./contacts')
       generators: grunt.file.readYAML join(grunt.config('path.source.data'), 'generators.yml')
       engines: grunt.file.readYAML join(grunt.config('path.source.data'), 'engines.yml')
+      socialUrls: grunt.file.readYAML join(grunt.config('path.source.data'), 'social-urls.yml')
 
   return (locale) ->
 
