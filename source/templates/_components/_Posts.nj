@@ -3,21 +3,21 @@
  #
  # @param {string}  [path] = ['о-компании', 'новости']
  #                                    Path to section from which should be taken posts
- # @param {number}  [limit]           Max posts to display
- # @param {boolean} [displayCurrent]  Should current post (if any) be displayed
+ # @param {number}  [limit]           Mmax posts to display
+ # @param {boolean} [displayCurrent] = true
+ #                                    If current page is a post, should it be displayed
+ # @param {boolean} [displayActivePromos] = true
+ #                                    Should current active promos be displayed
  #
  # @return {string} News posts
+ #
+ # @example {{ components.Posts(limit = 2, displayActivePromos = false) }}
  #}
-{% macro Posts(path = ['о-компании', 'новости'], limit, displayCurrent = true) %}
-{% set posts = _.orderBy(getPage(path)|template(site.placeholders), 'props.date', 'desc') %}
-
-{% if not displayCurrent %}
-  {% set posts = _.reject(posts, { props: { url: page.url } }) %}
-{% endif %}
-
-{% if limit %}
-  {% set posts = _.take(posts, limit) %}
-{% endif %}
+{% macro Posts(path = ['о-компании', 'новости'], limit, displayCurrent = true, displayActivePromos = true) %}
+{% set posts = sortPostsByDate(getPage(path)|template(site.placeholders)) %}
+{% set posts = not displayCurrent and rejectCurrentPosts(posts, page) or posts %}
+{% set posts = not displayActivePromos and rejectActivePromos(posts) or posts %}
+{% set posts = limit and _.take(posts, limit) or posts %}
 
 {% for p in posts %}
 {{ components.PostPreview(title = p.props.contentTitle, desc = p.props.desc, date = p.props.date, url = p.props.url, image = p.props.image) }}
