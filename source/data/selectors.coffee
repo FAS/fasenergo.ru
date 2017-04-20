@@ -1,3 +1,6 @@
+moment = require('moment')
+{ orderBy } = require('lodash')
+
 ######################
 # Generators selectors
 ######################
@@ -84,6 +87,20 @@ getEngineTitle = (entry) -> "#{entry.manufacturer.brand} #{entry.model}"
 getEngineCompressionRatio = (entry) -> "#{entry.compressionRatio.max}:#{entry.compressionRatio.min}"
 
 ######################
+# Posts and promos selectors
+######################
+
+sortPostsByDate = (entries) => orderBy(entries, 'props.date', 'desc')
+# Reject post, which displayed on current page
+rejectCurrentPosts = (entries, pageCtx) => entries.filter (e) => e.props.url != pageCtx.url
+
+selectPromos = (data) => Object.keys(data).map((id) => data[id]).filter (e) => e.props.promo
+filterActivePromos = (entries) => entries.filter (e) => moment().isBefore(e.props.promoEndDate)
+rejectActivePromos = (entries) => entries.filter (e) =>
+  { promo, promoEndDate } = e.props
+  return not promo or not promoEndDate or not moment().isBefore(promoEndDate)
+
+######################
 # Nunjucks extensions
 ######################
 
@@ -112,6 +129,12 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'getEngineTitle', getEngineTitle
   env.addGlobal 'getEngineCompressionRatio', getEngineCompressionRatio
 
+  env.addGlobal 'sortPostsByDate', sortPostsByDate
+  env.addGlobal 'rejectCurrentPosts', rejectCurrentPosts
+  env.addGlobal 'selectPromos', selectPromos
+  env.addGlobal 'filterActivePromos', filterActivePromos
+  env.addGlobal 'rejectActivePromos', rejectActivePromos
+
 module.exports = {
   selectGenerator
   selectGeneratorsIds
@@ -136,6 +159,12 @@ module.exports = {
   selectEngine
   getEngineTitle
   getEngineCompressionRatio
+
+  sortPostsByDate
+  rejectCurrentPosts
+  selectPromos
+  filterActivePromos
+  rejectActivePromos
 
   nunjucksExtensions
 }
