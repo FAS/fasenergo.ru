@@ -2,10 +2,10 @@
 
 {% block body %}
 
-{% set e = data.contacts.main %}
+{% set pageE = data.contacts.main %}
 
-{% set phone = components.Phone(e.phones[0], showAdd = false) %}
-{% set email =  components.Email(e.emails[0]) %}
+{% set pagePhone = components.Phone(pageE.phones[0], showAdd = false) %}
+{% set pageEmail = components.Email(pageE.emails[0]) %}
 
 <div class='Sidebar Wrapper--sidebar h-fixed h-left h-top h-bottom '>
 
@@ -31,7 +31,7 @@
     <!--/noindex-->
 
     <aside>
-      <p><b class='h-text+'>{{ phone }}</b></p>
+      <p><b class='h-text+'>{{ pagePhone }}</b></p>
       {# @todo Disabled on production because there is no such functionality yet, see https://trello.com/c/Wq9Wi6qa/48-crm #}
       {% if env.staging or not env.production %}
       <p class='h-margin-bottom--'><button class='Btn Btn--solid o-btn--full Btn- h-text-'>{{ components.Icon('phone', 'Icon--left') }}Заказать звонок</button></p>
@@ -112,8 +112,8 @@
             <button class='Field__button'>{{ components.Icon('search') }}</button>
           </form> #}
 
-          <p class='h-margin-bottom--'><b class='h-text+'>{{ phone }}</b></p>
-          <p>{{ email }}</p>
+          <p class='h-margin-bottom--'><b class='h-text+'>{{ pagePhone }}</b></p>
+          <p>{{ pageEmail }}</p>
 
           <p>{{ components.SocialUrls() }}</p>
 
