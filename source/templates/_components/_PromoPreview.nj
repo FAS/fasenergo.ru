@@ -1,0 +1,32 @@
+{##
+ # Display news post preview
+ #
+ # @param {string} title Headline
+ # @param {string} desc  Short description of news
+ # @param {string} date  Valid ISO date
+ # @param {string} url   Url to news page
+ # @param {string} image Post image url
+ #
+ # @return {string} News post preview
+ #}
+{% macro PromoPreview(title, desc, date, url, image) %}
+<article class='Box h-margin-bottom+'>
+
+  <div class='o-media o-media0 h-flex-y--stretch'>
+
+    {% if image %}
+    <div class='o-media__aside' style='width: 336px; min-height: 262px;'>
+      <div class='h-1/1 h-height-1/1 h-bg--cover h-bg--center h-height-1/1' style='background-image: url({{ image }});'></div>
+    </div>
+    {% endif %}
+
+    <div class='o-media__content h-padding+'>
+      <h3 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}' class='h-border-bottom0'>{{ title }}</a></h3>
+      <p>{{ desc }}</p>
+      <p><a href='{{ url }}' class='Btn Btn--primary'>Подробнее об акции</a></p>
+    </div>
+
+  </div>
+
+</article>
+{% endmacro %}
