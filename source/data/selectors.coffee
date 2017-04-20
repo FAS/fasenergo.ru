@@ -94,11 +94,11 @@ sortPostsByDate = (entries) => orderBy(entries, 'props.date', 'desc')
 # Reject post, which displayed on current page
 rejectCurrentPosts = (entries, pageCtx) => entries.filter (e) => e.props.url != pageCtx.url
 
-selectPromos = (data) => Object.keys(data).map((id) => data[id]).filter (e) => e.props.promo
+selectPromos = (data) => Object.keys(data).map((id) => data[id]).filter (e) => e.props.tags and e.props.tags.includes('promo')
 filterActivePromos = (entries) => entries.filter (e) => moment().isBefore(e.props.promoEndDate)
 rejectActivePromos = (entries) => entries.filter (e) =>
-  { promo, promoEndDate } = e.props
-  return not promo or not promoEndDate or not moment().isBefore(promoEndDate)
+  { tags, promoEndDate } = e.props
+  return not tags or not tags.includes('promo') or not promoEndDate or not moment().isBefore(promoEndDate)
 
 ######################
 # Nunjucks extensions
