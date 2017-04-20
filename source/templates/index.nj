@@ -95,7 +95,8 @@ showContentTitle:          false
 
     <h2 class='h-margin-bottom+ h-color--secondary'>Новости</h2>
 
-    {{ components.Posts(limit = 2) }}
+    {{ components.Promos() }}
+    {{ components.Posts(limit = 2, displayActivePromos = false) }}
 
     <p><a href='/о-компании/новости/' class='Btn'>Посмотреть все</a></p>
 
