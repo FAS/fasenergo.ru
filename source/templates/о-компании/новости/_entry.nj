@@ -8,7 +8,7 @@
 
 {% block post %}{% endblock %}
 
-<footer class='Box h-inline-block h-padding-- h-text-'>
+<footer class='Box h-inline-block h-padding--'>
   Поделиться в {{ components.SocialShare(class = 'h-text--em- h-childs-space-top0') }}
 </footer>
 
