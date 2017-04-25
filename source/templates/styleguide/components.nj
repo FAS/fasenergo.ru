@@ -142,6 +142,46 @@ applyWrapperContent: false
 {% raw %}{{ components.SocialShare() }}{% endraw %}
 {% endcall %}
 
+{% call components.Example(title = 'Превью новости') -%}
+{% raw %}{{ components.PostPreview(
+  title = 'Очень очень длинный и странный заголовок новости написан здесь',
+  desc = 'Описание новости',
+  date = '2017-04-25T11:00:00',
+  url = '#'
+) }}
+{{ components.PostPreview(
+  title = 'Очень очень длинный и странный заголовок новости написан здесь',
+  desc = 'Описание новости',
+  date = '2017-04-25T11:00:00',
+  url = '#',
+  image = 'http://placehold.it/1350x550'
+) }}{% endraw %}
+{% endcall %}
+
+{% call components.Example(title = 'Превью акции') -%}
+{% raw %}{{ components.PromoPreview(
+  title = 'Очень очень длинный и странный заголовок акции написан здесь',
+  desc = 'Описание акции',
+  date = '2017-04-25T11:00:00',
+  url = '#'
+) }}
+{{ components.PromoPreview(
+  title = 'Очень очень длинный и странный заголовок акции написан здесь',
+  desc = 'Описание акции',
+  date = '2017-04-25T11:00:00',
+  url = '#',
+  image = 'http://placehold.it/1350x550'
+) }}{% endraw %}
+{% endcall %}
+
+{% call components.Example(title = 'Новости') -%}
+{% raw %}{{ components.Posts() }}{% endraw %}
+{% endcall %}
+
+{% call components.Example(title = 'Акции') -%}
+{% raw %}{{ components.Promos() }}{% endraw %}
+{% endcall %}
+
 {% call components.Example(title = 'Форма') -%}
 {% raw %}<form class='o-grid h-childs-displace'>
 
