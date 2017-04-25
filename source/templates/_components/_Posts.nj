@@ -20,6 +20,13 @@
 {% set posts = limit and _.take(posts, limit) or posts %}
 
 {% for p in posts %}
-{{ components.PostPreview(title = p.props.contentTitle, desc = p.props.desc, date = p.props.date, url = p.props.url, image = p.props.image) }}
+{{ components.PostPreview(
+  title = p.props.contentTitle,
+  desc = p.props.desc,
+  date = p.props.date,
+  url = p.props.url,
+  image = p.props.image,
+  imageCover = p.props.imageCover if p.props.imageCover == false else true
+) }}
 {% endfor %}
 {% endmacro %}
