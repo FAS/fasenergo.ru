@@ -12,6 +12,32 @@ applyWrapperContent: false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% macro Document(title, url) %}
+<article class='h-margin-bottom+'>
+  <h2 class='h-h6 h-margin-top0 h-margin-bottom'>
+    <a href='{{ url }}' target='_blank'>{{ title }}</a>
+    {{ components.Icon('pdf') }}
+  </h2>
+  {{ caller() }}
+</article>
+{% endmacro %}
+
+{% call Document(title = 'Сертификат CE', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат CE.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Сертификат ISO', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат ISO.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Сертификат Соответствия ГазПромСерт', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат Соответствия ГазПромСерт.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Сертификат соответствия ГОСТ', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат соответствия ГОСТ.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
+
 <div class='o-grid o-grid+ h-margin-bottom'>
 
   <div class='o-grid__item h-1/2'>
