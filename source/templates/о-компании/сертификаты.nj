@@ -30,7 +30,7 @@ applyWrapperContent: false
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат Соответствия ГазПромСерт', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат Соответствия ГазПромСерт.pdf') %}
+{% call Document(title = 'Сертификат соответствия ГазПромСерт', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат соответствия ГазПромСерт.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
