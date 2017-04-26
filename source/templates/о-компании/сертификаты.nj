@@ -15,8 +15,8 @@ applyWrapperContent: false
 {% macro Document(title, url) %}
 <article class='h-margin-bottom+'>
   <h2 class='h-h6 h-margin-top0 h-margin-bottom'>
-    <a href='{{ url }}' target='_blank'>{{ title }}</a>
     {{ components.Icon('pdf') }}
+    <a href='{{ url }}' target='_blank'>{{ title }}</a>
   </h2>
   {{ caller() }}
 </article>
