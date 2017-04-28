@@ -14,19 +14,6 @@ showBreadcrumb:   false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-
 <h1 class='h-text++ h-margin-bottom+'><b>404</b> — страница не найдена</h1>
-
-{# @todo This is due to https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/11248884/
- #       See also https://trello.com/c/j2Tjd8ex/129-url-edge
- #}
-<aside class='wrap-orange h-padding++'>
-  <h2 class='h-margin-top0 h-color--inherit'>Проблема с Microsoft Edge!</h2>
-  <p>Если вы используете Microsoft Edge и видите эту ошибку при переходе на любую страницу сайта, <strong><a class='h-color--inherit h-border-color--current' href='http://outdatedbrowser.com/ru/' target='_blank' rel='nofollow'>воспользуйтесь другим браузером!</a></strong></p>
-  <p>Или обновите Microsoft Edge до последней версии.</p>
-  <p>Приносим извинения за временные неудобства.</p>
-</aside>
-
 <p class='h-margin-top+'><a class='Btn' href='{{ localeDir() }}/'>На главную</a></p>
-
 {% endblock %}
