@@ -2,6 +2,7 @@
  # Displays social sharing buttons
  #
  # @param {string} [class]          Class for main wrapper
+ # @param {string} [listClass]      Class for list of icons
  # @param {string} [itemsClass]     Class for each item
  # @param {string} [anchorsClass]   Class for each anchor
  # @param {string} [iconsClass]     Class for icons
@@ -11,28 +12,34 @@
  # @example
  #  {{ components.SocialShare() }}
  #}
-{% macro SocialShare(class, itemsClass, anchorsClass, iconsClass) %}
-<ul class='{{ class }} {{ 'g-list0 h-inline-block' }}'>
+{% macro SocialShare(class, listClass, itemsClass, anchorsClass, iconsClass) %}
+<footer class='{{ class }} Box h-padding-- h-inline-block h-text+'>
 
-  {% macro Item(tooltip, iconName, url, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
-    <li class='{{ itemClass }} {{ 'Icon--right h-inline-block' }}'>
-      <a href='{{ url }}'
-        class='{{ anchorClass }} h-border-bottom0 o-tooltip o-tooltip--top'
-        data-tooltip='{{ tooltip }}'
-        aria-label='{{ tooltip }}'
-        target='_blank'>
-        <span aria-hidden='true'>{{ components.Icon(iconName, class = iconClass) }}</span>
-      </a>
-    </li>
-  {% endmacro %}
+  Поделиться в
 
-  {% set pageFullUrl = site.homepage + page.url %}
+  <ul class='{{ listClass }} g-list0 h-inline-block h-childs-space-top0 h-text--em-'>
 
-  {{ Item('Поделиться Вконтакте', 'vk', 'http://vk.com/share.php?url=' + pageFullUrl) }}
-  {{ Item('Поделиться в Facebook', 'facebook', 'https://www.facebook.com/sharer.php?u=' + pageFullUrl) }}
-  {{ Item('Поделиться в Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + pageFullUrl + '&text=' + page.contentTitle + '&via=' + _.trimStart(site.twitter, '@') + '&hashtags=fasenergo') }}
-  {{ Item('Поделиться в Google+', 'google-plus', 'https://plus.google.com/share?url=' + pageFullUrl) }}
-  {{ Item('Поделиться в LinkedIn', 'linkedin', 'https://www.linkedin.com/shareArticle?url=' + pageFullUrl + '&title=' + page.contentTitle) }}
+    {% macro Item(tooltip, iconName, url, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
+      <li class='{{ itemClass }} Icon--right h-inline-block'>
+        <a href='{{ url }}'
+          class='{{ anchorClass }} h-border-bottom0 o-tooltip o-tooltip--top'
+          data-tooltip='{{ tooltip }}'
+          aria-label='{{ tooltip }}'
+          target='_blank'>
+          <span aria-hidden='true'>{{ components.Icon(iconName, class = iconClass) }}</span>
+        </a>
+      </li>
+    {% endmacro %}
 
-</ul>
+    {% set pageFullUrl = site.homepage + page.url %}
+
+    {{ Item('Поделиться Вконтакте', 'vk', 'http://vk.com/share.php?url=' + pageFullUrl) }}
+    {{ Item('Поделиться в Facebook', 'facebook', 'https://www.facebook.com/sharer.php?u=' + pageFullUrl) }}
+    {{ Item('Поделиться в Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + pageFullUrl + '&text=' + page.contentTitle + '&via=' + _.trimStart(site.twitter, '@') + '&hashtags=fasenergo') }}
+    {{ Item('Поделиться в Google+', 'google-plus', 'https://plus.google.com/share?url=' + pageFullUrl) }}
+    {{ Item('Поделиться в LinkedIn', 'linkedin', 'https://www.linkedin.com/shareArticle?url=' + pageFullUrl + '&title=' + page.contentTitle) }}
+
+  </ul>
+
+</footer>
 {% endmacro %}
