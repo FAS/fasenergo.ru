@@ -1,0 +1,65 @@
+---
+title:           Каталог генераторов «Фасэнергомаш»
+breadcrumbTitle: Каталог
+contentTitle:    Каталог генераторов «Фасэнергомаш»
+navTitle:        Каталог
+metaDesc:        Каталог генераторов «Фасэнергомаш»
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% set generatorss = selectGenerators(data) %}
+{% set generatorss = filterWithBrands(generatorss, 'Фасэнергомаш') %}
+{% set generatorss = sortGeneratorsByPower(generatorss) %}
+
+<p>Здесь вы можете подобрать генератор, получить информацию о каждой модели — фотографии, все технические характеристики, документы и сертификаты, — отправить заявку или задать вопрос.</p>
+
+<aside class='h-margin-top+'>
+  {{ components.PromoPreview(
+    title = 'Скидка 30% на генераторы с двигателем Kubota',
+    desc = 'Описание акции',
+    date = '2017-04-25T11:00:00',
+    url = '#',
+    image = 'http://placehold.it/1350x550'
+  ) }}
+</aside>
+
+<hr>
+
+{% for g in generatorss %}
+{% set url = page.props.url + g.slug + '/' %}
+{% set photoUrl = '/' + path.images + '/' + getGeneratorMainPhoto(g).url or '/' + path.images + '/no-photo.png' %}
+{% set engine = selectEngine(data, g.engine) %}
+{% set phases = g.specs.phases %}
+{% set warrantyServiceLife = 15000 %}
+{% set warrantyDelivery = 18 %}
+{% set price = getGeneratorCurrentPrice(g) %}
+
+<article class='o-grid h-childs-displace+ h-margin-top+'>
+
+  <div class='o-grid__item h-1/4'>
+    <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photoUrl }}' alt='{{ g.title|striptags }}'></a>
+  </div>
+
+  <div class='o-grid__item h-2/4'>
+    <h2 class='h-h2 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ g.model }}</a></h2>
+    <p class='h-margin-bottom0'>Мощность: {{ components.PowersList(getGeneratorMaxPowers(g)) }} кВт</p>
+    <p class='h-margin-bottom0'>{{ components.CoolingToWord(engine.cooling)|capitalize }}</p>
+    <p>Двигатель: {{ getEngineTitle(engine) }}</p>
+  </div>
+
+  <div class='o-grid__item h-1/4'>
+    {% if price %}
+    {# @todo Temporary fix for numbro issue with lack of space before RUB #}
+    <p class='h-h3 h-margin-bottom0'>{{ _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб', ' руб') }}</p>
+    {% endif %}
+    <p>{{ phases }} {{ phases|plural(['фаза', 'фазы', 'фаз']) }}</p>
+    <p class='h-margin-bottom0 h-text-'>Ресурс: {{ numbro(warrantyServiceLife).format() }} моточасов</p>
+    <p class='h-text-'>Гарантия: {{ warrantyDelivery }} {{ warrantyDelivery|plural(['месяц', 'месяца', 'месяцев']) }}</p>
+  </div>
+
+</article>
+{% endfor %}
+
+{% endblock %}

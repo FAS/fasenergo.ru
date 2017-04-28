@@ -6,6 +6,8 @@ Sitemap: {{ site.homepage }}/sitemap.xml
 User-agent: *
 Disallow: {{ '/' if env.staging }}
 Disallow: /styleguide/
+# @todo Disallow WIP section
+Disallow: /каталог-new/
 # Yandex specific directives
 Clean-param: yclid
 Clean-param: frommarket
