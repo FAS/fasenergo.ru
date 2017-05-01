@@ -2,16 +2,17 @@
  # Display _active_ promos preview based on content of '/о-компании/новости' directory
  #
  # @param {string}  [path] = ['о-компании', 'новости']
- #                                    Path to section from which should be taken promos
- # @param {number}  [limit]           Max promos to display
+ #                                                  Path to section from which should be taken promos
+ # @param {number}  [limit]                         Max promos to display
+ # @param {boolean} [displayInactivePromos=false]   Should inactive promos be displayed
  #
  # @return {string} Active promos previews
  #
  # @example {{ components.Promos() }}
  #}
-{% macro Promos(path = ['о-компании', 'новости'], limit) %}
+{% macro Promos(path = ['о-компании', 'новости'], limit, displayInactivePromos = false) %}
 {% set promos = selectPromos(getPage(path)|template(site.placeholders)) %}
-{% set promos = filterActivePromos(promos) %}
+{% set promos = not displayInactivePromos and filterActivePromos(promos) or promos %}
 {% set promos = sortPostsByDate(promos) %}
 {% set promos = limit and _.take(promos, limit) or promos %}
 

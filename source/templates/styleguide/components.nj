@@ -179,7 +179,7 @@ applyWrapperContent: false
 {% endcall %}
 
 {% call components.Example(title = 'Акции') -%}
-{% raw %}{{ components.Promos() }}{% endraw %}
+{% raw %}{{ components.Promos(displayInactivePromos = true) }}{% endraw %}
 {% endcall %}
 
 {% call components.Example(title = 'Форма') -%}
