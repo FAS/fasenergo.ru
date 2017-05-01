@@ -12,42 +12,40 @@ selectGenerators = (data) -> selectGeneratorsIds(data).map (id) => selectGenerat
 getGeneratorHighestPower = (entry, type) =>
   power = entry.specs.power
 
-  if power._legacy
-    return power._legacy
-
-  powers = [power.lpg._legacy, power.ng._legacy, power.ng.max, power.lpg.max].filter (e) => typeof e == 'number'
+  powers = [power.ng.max, power.lpg.max].filter (e) => typeof e == 'number'
 
   return Math.max powers...
 
 getGeneratorMaxPowers = (entry) ->
   powers = entry.specs.power
 
-  if powers._legacy
-    return [powers._legacy]
+  return Object.keys(powers).map (id) => powers[id].max
 
-  powersIds = Object.keys(powers).filter (id) => id != '_legacy'
-  return powersIds.map (id) => powers[id]._legacy or powers[id].max
-
-getMostPowerfulGenerator = (entries) -> entries.reduce ((acc, cur) => if getGeneratorHighestPower(acc) > getGeneratorHighestPower(cur) then acc else cur), { specs: { power: { _legacy: -Infinity } } }
-getLeastPowerfulGenerator = (entries) -> entries.reduce ((cur, pre) => if getGeneratorHighestPower(cur) < getGeneratorHighestPower(pre) then cur else pre), { specs: { power: { _legacy: Infinity } } }
+getMostPowerfulGenerator = (entries) -> entries.reduce ((acc, cur) =>
+  if getGeneratorHighestPower(acc) > getGeneratorHighestPower(cur) then acc else cur),
+  { specs: { power: { lpg: { max: -Infinity }, ng: { max: -Infinity } } } }
+getLeastPowerfulGenerator = (entries) -> entries.reduce ((cur, pre) =>
+  if getGeneratorHighestPower(cur) < getGeneratorHighestPower(pre) then cur else pre),
+  { specs: { power: { lpg: { max: Infinity }, ng: { max: Infinity } } } }
 
 getGeneratorMainPhoto = (entry) -> entry.photos and entry.photos.filter((p) => p.main == true)[0]
 
-getGeneratorsWithHighestDiscount = (entries) -> entries.reduce ((cur, pre) => if cur.discount > pre.discount then cur else pre), { discount: -Infinity }
+getGeneratorsWithHighestDiscount = (entries) -> entries.reduce ((cur, pre) =>
+  if cur.discount > pre.discount then cur else pre),
+  { discount: -Infinity }
 
-getGeneratorPrice = (entry) -> entry._legacyPrice or entry.price
 getGeneratorCurrentPrice = (entry) ->
-  price = getGeneratorPrice(entry)
+  price = entry.price
   discount = entry.discount
 
-  if entry._legacyOldPrice
+  if entry.priceBeforeDiscount
     return price
   if discount
     return (price - price * (discount / 100))
 
   return price
 
-getGeneratorOriginalPrice = (entry) -> entry._legacyOldPrice or getGeneratorPrice(entry)
+getGeneratorOriginalPrice = (entry) -> entry.priceBeforeDiscount or entry.price
 
 getGeneratorSize = (entry) ->
   { _legacySize, size: { length, width, height } } = entry.enclosure
@@ -114,7 +112,6 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'getLeastPowerfulGenerator', getLeastPowerfulGenerator
   env.addGlobal 'getGeneratorMainPhoto', getGeneratorMainPhoto
   env.addGlobal 'getGeneratorsWithHighestDiscount', getGeneratorsWithHighestDiscount
-  env.addGlobal 'getGeneratorPrice', getGeneratorPrice
   env.addGlobal 'getGeneratorCurrentPrice', getGeneratorCurrentPrice
   env.addGlobal 'getGeneratorOriginalPrice', getGeneratorOriginalPrice
   env.addGlobal 'getGeneratorSize', getGeneratorSize
@@ -145,7 +142,6 @@ module.exports = {
   getLeastPowerfulGenerator
   getGeneratorMainPhoto
   getGeneratorsWithHighestDiscount
-  getGeneratorPrice
   getGeneratorCurrentPrice
   getGeneratorOriginalPrice
   getGeneratorSize
