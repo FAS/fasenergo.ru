@@ -8,7 +8,7 @@
 {% set specs = gen.specs %}
 {% set enclosure = gen.enclosure %}
 
-{% set currentPrice = getGeneratorCurrentPrice(gen) %}
+{% set currentPrice = numbro(getGeneratorCurrentPrice(gen)).formatCurrency() %}
 {% set isDiscontinued = generatorIsDiscontinued(gen) %}
 {% set isAvailable = generatorIsAvailable(gen) %}
 {% set powers = getGeneratorMaxPowers(gen) %}
@@ -59,7 +59,7 @@
           {% if not isDiscontinued %}
           {% if gen.discount %}
           <div class='h-margin-bottom-- h-inline-block'>
-            <del class='h-block h-text- h-align--right h-opacity--70 h-text--nowrap'>{{ getGeneratorOriginalPrice(gen) }}</del>
+            <del class='h-block h-text- h-align--right h-opacity--70 h-text--nowrap'>{{ numbro(getGeneratorOriginalPrice(gen)).formatCurrency() }}</del>
             <div>
               <div class='discount-box h-inline-block h-align--middle h-align--right h-margin-right-- h-text--nowrap'>–{{ gen.discount }}%</div>
               <div class='h-h2 h-inline-block h-align--middle h-align--right text-green h-text--nowrap'>{{ currentPrice }}</div>
