@@ -358,7 +358,7 @@
   specs:
     power:
       ng:
-        _legacy: 8
+        _legacy: 7.8
         max: null
       lpg:
         _legacy: 8
@@ -1255,7 +1255,7 @@ fas-21-ozp1-ваз-21квт:
   series: null
   model: ФАС-21-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВП</span> (21 кВт)
-  _legacyPrice: 550 000 руб.
+  _legacyPrice: 560 000 руб.
   price: null
   discount: null
   _legacyOldPrice: null
@@ -1780,7 +1780,7 @@ fas-21-ozp3-ваз-21квт:
   specs:
     power:
       ng:
-        _legacy: 26
+        _legacy: 27
         max: null
       lpg:
         _legacy: 28
@@ -1812,7 +1812,7 @@ fas-21-ozp3-ваз-21квт:
       lpg: null
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-21213
+  engine: ваз-21067
   enclosure:
     type: закрытое
     material: null
@@ -2176,7 +2176,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine: ммз-д-246
+  engine: ммз-д-246-4
   enclosure:
     type: закрытое
     material: null
@@ -2291,7 +2291,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine: ммз-д-246
+  engine: ммз-д-246-4
   enclosure:
     type: закрытое
     material: null
@@ -2362,10 +2362,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Гарантийный талон</li>
   specs:
     power:
-      _legacy: 100
       ng:
+        _legacy: 100
         max: null
       lpg:
+        _legacy: 100
         max: null
     current:
       _legacy: 180
@@ -2465,10 +2466,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Гарантийный талон</li>
   specs:
     power:
-      _legacy: 150
       ng:
+        _legacy: 150
         max: null
       lpg:
+        _legacy: 150
         max: null
     current:
       _legacy: 270
@@ -2574,10 +2576,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Гарантийный талон</li>
   specs:
     power:
-      _legacy: 200
       ng:
+        _legacy: 200
         max: null
       lpg:
+        _legacy: 200
         max: null
     current:
       _legacy: 360
@@ -2632,7 +2635,7 @@ fas-32-ozp3-ваз-32квт:
     title: Газопоршневая станция ФАС-250-3/Р (250 кВт)
     description: Надежная газопоршневая станция ФАС мощностью 250 кВт
   type: Газовые генераторы
-  article: null
+  article: 4920003
   manufacturer:
     brand: Фасэнергомаш
     country: РФ
@@ -2683,10 +2686,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Гарантийный талон</li>
   specs:
     power:
-      _legacy: 250
       ng:
+        _legacy: 250
         max: null
       lpg:
+        _legacy: 250
         max: null
     current:
       _legacy: 452
@@ -2741,7 +2745,7 @@ fas-32-ozp3-ваз-32квт:
     title: Газопоршневая станция ФАС-315-3/Р (315 кВт)
     description: Надежная газопоршневая станция ФАС мощностью 315 кВт
   type: Газовые генераторы
-  article: null
+  article: 4920003
   manufacturer:
     brand: Фасэнергомаш
     country: РФ
@@ -2792,10 +2796,11 @@ fas-32-ozp3-ваз-32квт:
     <li>Гарантийный талон</li>
   specs:
     power:
-      _legacy: 315
       ng:
+        _legacy: 315
         max: null
       lpg:
+        _legacy: 315
         max: null
     current:
       _legacy: 570
@@ -2930,7 +2935,7 @@ fas-32-ozp3-ваз-32квт:
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine: ммз-д-246
+  engine: ммз-д-246-4
   enclosure:
     type: закрытое
     material: null
@@ -3528,14 +3533,14 @@ fas-15-ozp3-kubota-15квт:
     title: Газовый генератор ФАС-35-3/ЗР (35 кВт)
     description: Трехфазный газовый электрогенератор с жидкостным охлаждением, мощностью 35 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.
   type: Газовые генераторы
-  article: null
+  article: 483503
   manufacturer:
     brand: Фасэнергомаш
     country: РФ
   series: null
   model: ФАС-35-3/ЗР
   title: Газовый генератор <span class='text-red'>ФАС-35-3/ЗР</span> (35 кВт)
-  _legacyPrice: null
+  _legacyPrice: 800 000 руб.
   price: null
   discount: null
   _legacyOldPrice: null
@@ -3569,7 +3574,7 @@ fas-15-ozp3-kubota-15квт:
   specs:
     power:
       ng:
-        max: 33
+        max: 34
       lpg:
         max: 35
     current:
@@ -3624,14 +3629,14 @@ fas-15-ozp3-kubota-15квт:
     title: Газовый генератор ФАС-40-3/ЗР (40 кВт)
     description: Трехфазный газовый электрогенератор с жидкостным охлаждением, мощностью 40 кВт, в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения электросети.
   type: Газовые генераторы
-  article: null
+  article: 484003
   manufacturer:
     brand: Фасэнергомаш
     country: РФ
   series: null
   model: ФАС-40-3/ЗР
   title: Газовый генератор <span class='text-red'>ФАС-40-3/ЗР</span> (40 кВт)
-  _legacyPrice: null
+  _legacyPrice: 850 000 руб.
   price: null
   discount: null
   _legacyOldPrice: null
@@ -3665,7 +3670,7 @@ fas-15-ozp3-kubota-15квт:
   specs:
     power:
       ng:
-        max: 38
+        max: 39
       lpg:
         max: 40
     current:
