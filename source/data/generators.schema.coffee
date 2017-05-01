@@ -19,9 +19,8 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
   model: t.maybe t.union [t.String, t.Number, False]
   # patttern for outputing name of the paricular model with `sprintf()`, like "%(brand)s %(series)s %(model)s"
   title: t.String
-  _legacyPrice: t.maybe t.String
-  _legacyOldPrice: t.maybe t.String
   price: t.maybe t.Number
+  priceBeforeDiscount: t.maybe t.Number
   discount: t.maybe t.Number
   availability: t.enums.of ['available', 'preorder', 'discontinued']
   warranty: t.struct

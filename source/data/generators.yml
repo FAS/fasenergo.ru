@@ -12,10 +12,9 @@
   series: null
   model: ФАС-5/1В
   title: Газовый генератор <span class='text-red'>ФАС-5/1В</span> (5 кВт)
-  _legacyPrice: 130 000 руб.
-  price: null
+  price: 130000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
@@ -45,11 +44,10 @@
   equipment: null
   specs:
     power:
-      _legacy: 5
       ng:
-        max: null
+        max: 5
       lpg:
-        max: null
+        max: 5
     current:
       _legacy: 27,3
       ng: null
@@ -110,10 +108,9 @@
   series: null
   model: ФАС-6/1В
   title: Газовый генератор <span class='text-red'>ФАС-6/1В</span> (6 кВт)
-  _legacyPrice: 140 000 руб.
-  price: null
+  price: 140000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
@@ -143,11 +140,10 @@
   equipment: null
   specs:
     power:
-      _legacy: 6
       ng:
-        max: null
+        max: 6
       lpg:
-        max: null
+        max: 6
     current:
       _legacy: 34
       ng: null
@@ -207,10 +203,9 @@
   series: null
   model: ФАС-8/1В
   title: Газовый генератор <span class='text-red'>ФАС-8/1В</span> (8 кВт)
-  _legacyPrice: 180 000 руб.
-  price: null
+  price: 180000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 18 месяца<br/> <small>(Моторесурс: 500 моточасов)</small> </span>'
@@ -237,11 +232,10 @@
   equipment: null
   specs:
     power:
-      _legacy: 8
       ng:
-        max: null
+        max: 8
       lpg:
-        max: null
+        max: 8
     current:
       _legacy: 41,8
       ng: null
@@ -302,10 +296,9 @@
   series: null
   model: ФАС-8-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-8-1/ВП</span> (8 кВт)
-  _legacyPrice: 370 000 руб.
-  price: null
+  price: 370000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
@@ -358,11 +351,9 @@
   specs:
     power:
       ng:
-        _legacy: 7.8
-        max: null
+        max: 7.8
       lpg:
-        _legacy: 8
-        max: null
+        max: 8
     current:
       _legacy: 34,8
       ng: null
@@ -423,10 +414,9 @@
   series: null
   model: ФАС-10-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-1/ВП</span> (10 кВт)
-  _legacyPrice: 375 000 руб.
-  price: null
+  price: 375000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
@@ -479,11 +469,9 @@
   specs:
     power:
       ng:
-        _legacy: 9.5
-        max: null
+        max: 9.5
       lpg:
-        _legacy: 10
-        max: null
+        max: 10
     current:
       _legacy: 43,5
       ng: null
@@ -544,10 +532,9 @@
   series: null
   model: ФАС-13-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-1/ВП</span> (13 кВт)
-  _legacyPrice: 390 000 руб.
-  price: null
+  price: 390000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
@@ -600,11 +587,9 @@
   specs:
     power:
       ng:
-        _legacy: 11.5
-        max: null
+        max: 11.5
       lpg:
-        _legacy: 13
-        max: null
+        max: 13
     current:
       _legacy: 52,2
       ng: null
@@ -665,10 +650,9 @@
   series: null
   model: ФАС-13-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВП</span> (13 кВт)
-  _legacyPrice: 410 000 руб.
-  price: null
+  price: 410000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 18.000 моточасов)</small> </span>'
@@ -722,11 +706,9 @@
   specs:
     power:
       ng:
-        _legacy: 12
-        max: null
+        max: 12
       lpg:
-        _legacy: 13
-        max: null
+        max: 13
     current:
       _legacy: 19,7
       ng: null
@@ -787,10 +769,9 @@ fas-15-ozp1-ваз-15квт:
   series: null
   model: ФАС-15-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-1/ВР</span> (15 кВт)
-  _legacyPrice: 430 000 руб.
-  price: null
+  price: 430000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -839,11 +820,9 @@ fas-15-ozp1-ваз-15квт:
   specs:
     power:
       ng:
-        _legacy: 14.5
-        max: null
+        max: 14.5
       lpg:
-        _legacy: 15
-        max: null
+        max: 15
     current:
       _legacy: 64
       ng: null
@@ -904,10 +883,9 @@ fas-15-ozp3-ваз-15квт:
   series: null
   model: ФАС-15-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-3/ВР</span> (15 кВт)
-  _legacyPrice: 440 000 руб.
-  price: null
+  price: 440000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -956,11 +934,9 @@ fas-15-ozp3-ваз-15квт:
   specs:
     power:
       ng:
-        _legacy: 14.5
-        max: null
+        max: 14.5
       lpg:
-        _legacy: 15
-        max: null
+        max: 15
     current:
       _legacy: 21
       ng: null
@@ -1021,10 +997,9 @@ fas-15-ozp3-ваз-15квт:
   series: null
   model: ФАС-18-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-1/ВР</span> (18 кВт)
-  _legacyPrice: 450 000 руб.
-  price: null
+  price: 450000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1073,11 +1048,9 @@ fas-15-ozp3-ваз-15квт:
   specs:
     power:
       ng:
-        _legacy: 17
-        max: null
+        max: 17
       lpg:
-        _legacy: 18
-        max: null
+        max: 18
     current:
       _legacy: 82
       ng: null
@@ -1138,10 +1111,9 @@ fas-15-ozp3-ваз-15квт:
   series: null
   model: ФАС-18-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-3/ВР</span> (18 кВт)
-  _legacyPrice: 460 000 руб.
-  price: null
+  price: 460000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1190,11 +1162,9 @@ fas-15-ozp3-ваз-15квт:
   specs:
     power:
       ng:
-        _legacy: 17
-        max: null
+        max: 17
       lpg:
-        _legacy: 18
-        max: null
+        max: 18
     current:
       _legacy: 22
       ng: null
@@ -1255,10 +1225,9 @@ fas-21-ozp1-ваз-21квт:
   series: null
   model: ФАС-21-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВП</span> (21 кВт)
-  _legacyPrice: 560 000 руб.
-  price: null
+  price: 560000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
@@ -1310,11 +1279,9 @@ fas-21-ozp1-ваз-21квт:
   specs:
     power:
       ng:
-        _legacy: 20
-        max: null
+        max: 20
       lpg:
-        _legacy: 21
-        max: null
+        max: 21
     current:
       _legacy: 100
       ng: null
@@ -1375,10 +1342,9 @@ fas-21-ozp1-ваз-21квт:
   series: null
   model: ФАС-21-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВР</span> (21 кВт)
-  _legacyPrice: 550 000 руб.
-  price: null
+  price: 550000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1427,11 +1393,9 @@ fas-21-ozp1-ваз-21квт:
   specs:
     power:
       ng:
-        _legacy: 20
-        max: null
+        max: 20
       lpg:
-        _legacy: 21
-        max: null
+        max: 21
     current:
       _legacy: 30
       ng: null
@@ -1491,10 +1455,9 @@ fas-21-ozp3-ваз-21квт:
   series: null
   model: ФАС-21-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-3/ВР</span> (21 кВт)
-  _legacyPrice: 550 000 руб.
-  price: null
+  price: 550000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1543,11 +1506,9 @@ fas-21-ozp3-ваз-21квт:
   specs:
     power:
       ng:
-        _legacy: 20
-        max: null
+        max: 20
       lpg:
-        _legacy: 21
-        max: null
+        max: 21
     current:
       _legacy: 30
       ng: null
@@ -1608,10 +1569,9 @@ fas-21-ozp3-ваз-21квт:
   series: null
   model: ФАС-24-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВР</span> (24 кВт)
-  _legacyPrice: 570 000 руб.
-  price: null
+  price: 570000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -1660,11 +1620,9 @@ fas-21-ozp3-ваз-21квт:
   specs:
     power:
       ng:
-        _legacy: 23
-        max: null
+        max: 23
       lpg:
-        _legacy: 24
-        max: null
+        max: 24
     current:
       _legacy: 36
       ng: null
@@ -1725,10 +1683,9 @@ fas-21-ozp3-ваз-21квт:
   series: null
   model: ФАС-28-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВП</span> (28 кВт)
-  _legacyPrice: 610 000 руб.
-  price: null
+  price: 610000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
@@ -1780,11 +1737,9 @@ fas-21-ozp3-ваз-21квт:
   specs:
     power:
       ng:
-        _legacy: 27
-        max: null
+        max: 27
       lpg:
-        _legacy: 28
-        max: null
+        max: 28
     current:
       _legacy: 40
       ng: null
@@ -1845,10 +1800,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-32-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-32-3/ВП</span> (32 кВт)
-  _legacyPrice: 650 000 руб.
-  price: null
+  price: 650000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
@@ -1900,11 +1854,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 30
-        max: null
+        max: 30
       lpg:
-        _legacy: 32
-        max: null
+        max: 32
     current:
       _legacy: 49
       ng: null
@@ -1965,10 +1917,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-60-3/ВК
   title: Установка <span class='text-red'>ФАС-60-3/ВК</span> (60 кВт)
-  _legacyPrice: 1 360 000 руб.
-  price: null
+  price: 1360000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 12.000 моточасов)</small> </span>'
@@ -2029,11 +1980,10 @@ fas-32-ozp3-ваз-32квт:
     <li>Щит распределения нагрузки – 1шт. </li>
   specs:
     power:
-      _legacy: 60
       ng:
-        max: null
+        max: 60
       lpg:
-        max: null
+        max: 60
     current:
       _legacy: 91
       ng: null
@@ -2094,10 +2044,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-40-3/М
   title: Газовый генератор <span class='text-red'>ФАС-40-3/М</span> (40 кВт)
-  _legacyPrice: 1 140 000 руб.
-  price: null
+  price: 1140000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2144,11 +2093,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 40
-        max: null
+        max: 40
       lpg:
-        _legacy: 40
-        max: null
+        max: 40
     current:
       _legacy: 68,2
       ng: null
@@ -2209,10 +2156,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-50-3/М
   title: Газовый генератор <span class='text-red'>ФАС-50-3/М</span> (50 кВт)
-  _legacyPrice: 1 240 000 руб.
-  price: null
+  price: 1240000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2259,11 +2205,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 50
-        max: null
+        max: 50
       lpg:
-        _legacy: 50
-        max: null
+        max: 50
     current:
       _legacy: 83,3
       ng: null
@@ -2324,10 +2268,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-100-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-100-3/Р</span> (100 кВт)
-  _legacyPrice: 2 300 000 руб.
-  price: null
+  price: 2300000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2363,11 +2306,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 100
-        max: null
+        max: 100
       lpg:
-        _legacy: 100
-        max: null
+        max: 100
     current:
       _legacy: 180
       ng: null
@@ -2428,10 +2369,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-150-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-150-3/Р</span> (150 кВт)
-  _legacyPrice: 2 600 000 руб.
-  price: null
+  price: 2600000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2467,11 +2407,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 150
-        max: null
+        max: 150
       lpg:
-        _legacy: 150
-        max: null
+        max: 150
     current:
       _legacy: 270
       ng: null
@@ -2532,10 +2470,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-200-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-200-3/Р</span> (200 кВт)
-  _legacyPrice: 3 300 000 руб.
-  price: null
+  price: 3300000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2577,11 +2514,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 200
-        max: null
+        max: 200
       lpg:
-        _legacy: 200
-        max: null
+        max: 200
     current:
       _legacy: 360
       ng: null
@@ -2642,10 +2577,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-250-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-250-3/Р</span> (250 кВт)
-  _legacyPrice: 3 900 000 руб.
-  price: null
+  price: 3900000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2687,11 +2621,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 250
-        max: null
+        max: 250
       lpg:
-        _legacy: 250
-        max: null
+        max: 250
     current:
       _legacy: 452
       ng: null
@@ -2752,10 +2684,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-315-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-315-3/Р</span> (315 кВт)
-  _legacyPrice: 5 300 000 руб.
-  price: null
+  price: 5300000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15.000 моточасов)</small> </span>'
@@ -2797,11 +2728,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 315
-        max: null
+        max: 315
       lpg:
-        _legacy: 315
-        max: null
+        max: 315
     current:
       _legacy: 570
       ng: null
@@ -2861,10 +2790,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-50/70М
   title: Когенерационная установка <span class='text-red'>ФАС-50/70М</span>
-  _legacyPrice: 2 390 000
-  price: null
+  price: 2390000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -2902,11 +2830,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 50
-        max: null
+        max: 50
       lpg:
-        _legacy: 50
-        max: null
+        max: 50
     _thermalPower: 70
     current:
       _legacy: 83,3
@@ -2968,10 +2894,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-8-1/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-8-1/ВТ ТУРБО</span> (8 кВт)
-  _legacyPrice: 440 000 руб.
-  price: null
+  price: 440000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -3017,11 +2942,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 8
-        max: null
+        max: 8
       lpg:
-        _legacy: 8
-        max: null
+        max: 8
     current:
       _legacy: 34,8
       ng: null
@@ -3082,10 +3005,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-10-1/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-10-1/ВТ ТУРБО</span> (10 кВт)
-  _legacyPrice: 460 000 руб.
-  price: null
+  price: 460000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -3131,11 +3053,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 9.5
-        max: null
+        max: 9.5
       lpg:
-        _legacy: 10
-        max: null
+        max: 10
     current:
       _legacy: 43,5
       ng: null
@@ -3196,10 +3116,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-13-1/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-13-1/ВТ ТУРБО</span> (13 кВт)
-  _legacyPrice: 510 000 руб.
-  price: null
+  price: 510000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -3245,11 +3164,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 11.5
-        max: null
+        max: 11.5
       lpg:
-        _legacy: 13
-        max: null
+        max: 13
     current:
       _legacy: 52,2
       ng: null
@@ -3310,10 +3227,9 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-13-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВТ ТУРБО</span> (13 кВт)
-  _legacyPrice: 525 000 руб.
-  price: null
+  price: 525000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -3359,11 +3275,9 @@ fas-32-ozp3-ваз-32квт:
   specs:
     power:
       ng:
-        _legacy: 12
-        max: null
+        max: 12
       lpg:
-        _legacy: 13
-        max: null
+        max: 13
     current:
       _legacy: 19,7
       ng: null
@@ -3424,10 +3338,9 @@ fas-15-ozp3-kubota-15квт:
   series: null
   model: ФАС-15-OZP3/K
   title: Газовый генератор <span class='text-red'>ФАС-15-OZP3/K</span> (15 кВт)
-  _legacyPrice: 470 000 руб.
-  price: null
+  price: 470000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 30.000 моточасов)</small> </span>'
@@ -3476,11 +3389,9 @@ fas-15-ozp3-kubota-15квт:
   specs:
     power:
       ng:
-        _legacy: 14
-        max: null
+        max: 14
       lpg:
-        _legacy: 15
-        max: null
+        max: 15
     current:
       _legacy: 21
       ng: null
@@ -3540,10 +3451,9 @@ fas-15-ozp3-kubota-15квт:
   series: null
   model: ФАС-35-3/ЗР
   title: Газовый генератор <span class='text-red'>ФАС-35-3/ЗР</span> (35 кВт)
-  _legacyPrice: 800 000 руб.
-  price: null
+  price: 800000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15 000 моточасов)</small> </span>'
@@ -3636,10 +3546,9 @@ fas-15-ozp3-kubota-15квт:
   series: null
   model: ФАС-40-3/ЗР
   title: Газовый генератор <span class='text-red'>ФАС-40-3/ЗР</span> (40 кВт)
-  _legacyPrice: 850 000 руб.
-  price: null
+  price: 850000
+  priceBeforeDiscount: null
   discount: null
-  _legacyOldPrice: null
   availability: available
   warranty:
     _legacy: '<span> Гарантия 24 месяца<br/> <small>(Моторесурс: 15 000 моточасов)</small> </span>'
