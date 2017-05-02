@@ -13,7 +13,8 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 {% set generatorss = filterWithBrands(generatorss, 'Фасэнергомаш') %}
 {% set generatorss = sortGeneratorsByPower(generatorss) %}
 
-<p>Здесь вы можете подобрать генератор, получить информацию о каждой модели — фотографии, все технические характеристики, документы и сертификаты, — отправить заявку или задать вопрос.</p>
+<p>В каталоге вы можете подобрать генератор, получить полную иформацию о каждой модели — фотографии, все технические характеристики, документы и сертификаты, — отправить заявку или задать вопрос.</p>
+<p>Все наши модели комплектуются <a href='#'>системой автоматического ввода (АВР)</a> и собираются в <a href='#'>синхронизированные комплексы</a> до 30 генераторов повышенной мощности и надежности.</p>
 
 <aside class='h-margin-top+'>
   {{ components.PromoPreview(
@@ -25,15 +26,184 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   ) }}
 </aside>
 
-<hr>
+<aside>
+
+  {# @todo Remove style in favor of helper #}
+  <p class='h-align--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p>
+
+  <section class='Box h-padding-sides+-- h-padding-ends'>
+    <table class='h-cells-padding-- h-margin-bottom0'>
+
+      {% macro Checkbox(
+        id,
+        value,
+        label,
+        name,
+        class,
+        labelClass,
+        inputClass,
+        displayRequiredMark = true,
+        disabled,
+        required,
+        touched,
+        invalid
+      ) %}
+      {% set name = name or id %}
+      {% set fieldId = id + 'Container' %}
+      {% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
+
+      <div id='{{ fieldId }}' class='h-text--nowrap {{ class }}{{ stateClasses }}'>
+        <input
+          type='checkbox'
+          id='{{ id }}'
+          name='{{ name }}'
+          value='{{ value }}'
+          class='{{ inputClass }}'
+          {{ 'disabled' if disabled }}
+          {{ 'required' if required }}
+          {{ 'aria-invalid="true"' if touched and invalid }}
+        >
+        &nbsp;
+        <label class='{{ labelClass }}' for='{{ id }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</label>
+      </div>
+      {% endmacro %}
+
+      <tr>
+        <th class='h-align--left h-text-' scope='row'><b>Цена:</b></th>
+        <td class='h-text- h-text--nowrap'>
+          от
+          {{ components.Field(
+            id = 'filterPriceFrom',
+            class = 'Field- h-inline-block h-margin-sides--',
+            label = 'Цена от',
+            displayLabel = false,
+            placeholder = 'от 500 000'
+          ) }}
+          до
+          {{ components.Field(
+            id = 'filterPriceTo',
+            class = 'Field- h-inline-block h-margin-sides--',
+            label = 'Цена до',
+            displayLabel = false,
+            placeholder = 'до 5 200 000'
+          ) }}
+          руб.
+        </td>
+        <td class='h-text-'>Зависит, прежде всего, от мощности и двигателя</td>
+      </tr>
+
+      <tr>
+        <th class='h-align--left h-text-' scope='row'><b>Двигатель:</b></th>
+        <td class='h-text- h-childs-margin-right+'>
+          {{ Checkbox(
+            id = 'filterEngineLoncin',
+            name = 'filterEngine',
+            value = 'LONCIN',
+            class = 'h-inline-block',
+            label = 'LONCIN'
+          ) }}
+          {{ Checkbox(
+            id = 'filterEngineVaz',
+            name = 'filterEngine',
+            value = 'ВАЗ',
+            class = 'h-inline-block',
+            label = 'ВАЗ'
+          ) }}
+          {{ Checkbox(
+            id = 'filterEngineMmz',
+            name = 'filterEngine',
+            value = 'ММЗ',
+            class = 'h-inline-block',
+            label = 'ММЗ'
+          ) }}
+          {{ Checkbox(
+            id = 'filterEngineZmz',
+            name = 'filterEngine',
+            value = 'ЗМЗ',
+            class = 'h-inline-block',
+            label = 'ЗМЗ'
+          ) }}
+          {{ Checkbox(
+            id = 'filterEngineJmz',
+            name = 'filterEngine',
+            value = 'ЯМЗ',
+            class = 'h-inline-block',
+            label = 'ЯМЗ'
+          ) }}
+        </td>
+        <td class='h-text-'><a href='#' style='border-style: dashed'>Какие двигатели у нас есть и на что это влияет?</a></td>
+      </tr>
+
+      <tr>
+        <th class='h-align--left h-text-' scope='row'><b>Режим работы:</b></th>
+        <td class='h-text- h-childs-margin-right+'>
+          {{ Checkbox(
+            id = 'filterModeMain',
+            name = 'filterMode',
+            value = 'Основной',
+            class = 'h-inline-block',
+            label = 'Основной (круглосуточно)'
+          ) }}
+          {{ Checkbox(
+            id = 'filterModeStandby',
+            name = 'filterMode',
+            value = 'Резервный',
+            class = 'h-inline-block',
+            label = 'Резервный (до 12 часов непрерывной работы)'
+          ) }}
+        </td>
+        <td class='h-text-'></td>
+      </tr>
+
+      <tr>
+        <th class='h-align--left h-text-' scope='row'><b>Уровень шума:</b></th>
+        <td class='h-text- h-childs-margin-right+'>
+          {{ Checkbox(
+            id = 'filterNoiseLow',
+            name = 'filterNoise',
+            value = 'Малошумный',
+            class = 'h-inline-block',
+            label = 'Малошумный (до X дБ)'
+          ) }}
+        </td>
+        <td class='h-text-'><a href='#' style='border-style: dashed'>Как выбрать уровень шума?</a></td>
+      </tr>
+
+      <tr>
+        <th class='h-align--left h-text-' scope='row'><b>Фазы/Напряжение:</b></th>
+        <td class='h-text- h-childs-margin-right+'>
+          {{ Checkbox(
+            id = 'filterPhases1',
+            name = 'filterPhases',
+            value = '1',
+            class = 'h-inline-block',
+            label = 'Одна/220 V'
+          ) }}
+          {{ Checkbox(
+            id = 'filterPhases3',
+            name = 'filterPhases',
+            value = '3',
+            class = 'h-inline-block',
+            label = 'Три/380 V'
+          ) }}
+        </td>
+        <td class='h-text-'></td>
+      </tr>
+
+    </table>
+  </section>
+
+</aside>
+
+{# <hr> #}
 
 {% for g in generatorss %}
 {% set url = page.props.url + g.slug + '/' %}
 {% set photoUrl = '/' + path.images + '/' + getGeneratorMainPhoto(g).url or '/' + path.images + '/no-photo.png' %}
 {% set engine = selectEngine(data, g.engine) %}
 {% set phases = g.specs.phases %}
-{% set warrantyServiceLife = 15000 %}
-{% set warrantyDelivery = 18 %}
+{% set warrantyFromInstallation = g.warranty.installation  %}
+{% set warrantyServiceLife = g.warranty.serviceLife %}
 {% set price = getGeneratorCurrentPrice(g) %}
 
 <article class='o-grid h-childs-displace+ h-margin-top+'>
@@ -43,23 +213,158 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   </div>
 
   <div class='o-grid__item h-2/4'>
-    <h2 class='h-h2 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ g.model }}</a></h2>
-    <p class='h-margin-bottom0'>Мощность: {{ components.PowersList(getGeneratorMaxPowers(g)) }} кВт</p>
-    <p class='h-margin-bottom0'>{{ components.CoolingToWord(engine.cooling)|capitalize }}</p>
-    <p>Двигатель: {{ getEngineTitle(engine) }}</p>
+    <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ g.model }}</a></h2>
+    <p>
+      Мощность: {{ getGeneratorHighestPower(g) }} кВт<br>
+      Охлаждение: {{ components.CoolingToWord(engine.cooling) }}<br>
+      Двигатель: {{ getEngineTitle(engine) }}
+    </p>
   </div>
 
   <div class='o-grid__item h-1/4'>
+
     {% if price %}
-    {# @todo Temporary fix for numbro issue with lack of space before RUB #}
-    <p class='h-h3 h-margin-bottom0'>{{ _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб', ' руб') }}</p>
+    <p>
+      {# @todo Temporary fix for numbro issue with lack of space before RUB #}
+      <span class='h-h3'>{{ _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб', ' руб') }}</span><br>
+      {{ phases }} {{ phases|plural(['фаза', 'фазы', 'фаз']) }}
+    </p>
     {% endif %}
-    <p>{{ phases }} {{ phases|plural(['фаза', 'фазы', 'фаз']) }}</p>
-    <p class='h-margin-bottom0 h-text-'>Ресурс: {{ numbro(warrantyServiceLife).format() }} моточасов</p>
-    <p class='h-text-'>Гарантия: {{ warrantyDelivery }} {{ warrantyDelivery|plural(['месяц', 'месяца', 'месяцев']) }}</p>
+
+    <p><a href='#' style='border-style: dashed'>Что входит в цену</a></p>
+
+    {% if warrantyFromInstallation or warrantyServiceLife %}
+    <p class='h-text-'>
+      Ресурс: {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}<br>
+      Гарантия: {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }}
+    </p>
+    {% endif %}
+
   </div>
 
 </article>
 {% endfor %}
+
+<hr>
+
+<aside>
+
+  <h2>
+    Нет подходящего генератора?<br>
+    Закажите индивидуальное решение
+  </h2>
+  <p>Мы можем собрать генератор по вашим техническим требованиям: с другим двигателем, мощностью, ...</p>
+  <p>Напишите нам. Приедем на объект, сделаем расчеты и предложение.</p>
+
+  <form class='h-childs-space-top'>
+    {{ components.Field(
+      id = 'contactName',
+      name = 'name',
+      label = 'Имя',
+      displayLabel = false,
+      placeholder = 'Как вас зовут?',
+      required = true
+    ) }}
+    {{ components.Field(
+      id = 'contactPhoneOrEmail',
+      name = 'phoneOrEmail',
+      label = 'Телефон или электронная почта',
+      displayLabel = false,
+      placeholder = 'Телефон или электронная почта',
+      required = true
+    ) }}
+    {{ components.Field(
+      id = 'contactMessage',
+      name = 'message',
+      type = 'textarea',
+      label = 'Сообщение',
+      displayLabel = false,
+      placeholder = 'Сообщение'
+    ) }}
+    <button class='Btn Btn--primary Btn--wide'>Отправить</button>
+  </form>
+
+</aside>
+
+<hr>
+
+<aside>
+
+  {% macro CatalogAsideItem(title, image, urlLabel, url) %}
+  <section class='o-media o-media+'>
+
+    <div class='o-media__aside h-1/3'>
+      <img src='{{ image }}' alt='{{ title }}' >
+    </div>
+
+    <div class='o-media__body'>
+      <h2 class='h-margin-top0'>{{ title }}</h2>
+      {{ caller() }}
+      <p><a href='{{ url }}'>{{ urlLabel }}</a></p>
+    </div>
+
+  </section>
+  {% endmacro %}
+
+  {% call CatalogAsideItem(
+    title = 'Каскадная сборка (синхронизация)',
+    image = 'http://placehold.it/1350x550',
+    urlLabel = 'Подробнее о каскадной сборке',
+    url = '#'
+  ) %}
+    <p>Краткое описание решения с картинкой и переходом на подробное описание.</p>
+  {% endcall %}
+
+  <hr>
+
+  {% call CatalogAsideItem(
+    title = 'Когенерация: энергия и тепло',
+    image = 'http://placehold.it/1350x550',
+    urlLabel = 'Подробнее о когенерации',
+    url = '#'
+  ) %}
+    <p>Краткое описание решения с картинкой и переходом на подробное описание.</p>
+  {% endcall %}
+
+  <hr>
+
+  {% call CatalogAsideItem(
+    title = 'Контейнеры для генераторов',
+    image = 'http://placehold.it/1350x550',
+    urlLabel = 'Подробнее о контейнерах',
+    url = '#'
+  ) %}
+    <p>Краткое описание решения с картинкой и переходом на подробное описание.</p>
+  {% endcall %}
+
+</aside>
+
+<hr>
+
+<aside>
+
+  <h2>Полезная информация о нашей продукции</h2>
+
+  <div class='o-grid h-childs-displace++ h-text++'>
+    <div class='o-grid__item h-1/2'>
+      <ul class='g-list0 o-iconic-list h-childs-space-top+--'>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Преимущества наших генераторов</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Результаты испытаний нашей продукции</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Главное о газовых генераторах:<br> преимущества,&nbsp;особенности, сравнение&nbsp;с&nbsp;дизельными и бензиновыми</a></li>
+      </ul>
+    </div>
+    <div class='o-grid__item h-1/2'>
+      <ul class='g-list0 o-iconic-list h-childs-space-top+--'>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Где купить</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Как выбрать генератор?</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Услуги</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Решения</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Гарантия</a></li>
+      </ul>
+    </div>
+  </div>
+
+</aside>
 
 {% endblock %}
