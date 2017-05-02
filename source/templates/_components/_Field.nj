@@ -1,8 +1,9 @@
 {##
  # Display input with label, all necessary attributes, state classes and containers
  #
- # @param {string} name
+ # @param {string} id
  # @param {string} label
+ # @param {string} [name]
  # @param {string} [placeholder]
  # @param {string} [type = 'text']
  # @param {string} [value]
@@ -23,14 +24,15 @@
  # @return {string} html
  #
  # @example
- #  {{ components.Field(name = 'field-name', label = 'label', disabled = true) }}
+ #  {{ components.Field(id = 'fieldName', label = 'label', disabled = true) }}
  #  {% call components.Field(name = 'field-name', label = 'Label', type = 'textarea') -%}
  #    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
  #  {% endcall %}
  #}
  {% macro Field(
-   name,
+   id,
    label,
+   name,
    placeholder,
    type = 'text',
    value,
@@ -49,15 +51,15 @@
    error
  ) %}
 
-{% set fieldId = name + 'Container' %}
-{% set inputId = name %}
-{% set errorId = name + 'Error' %}
+{% set name = name or id %}
+{% set fieldId = id + 'Container' %}
+{% set errorId = id + 'Error' %}
 {% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
 
 <div id='{{ fieldId }}' class='Field {{ class }}{{ stateClasses }}'>
 
   {% if displayLabel %}
-  <label class='Field__label {{ labelClass }}' for='{{ inputId }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</label>
+  <label class='Field__label {{ labelClass }}' for='{{ id }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</label>
   {% endif %}
 
   <div class='Field__input-container {{ inputContainerClass }}'>
@@ -66,7 +68,7 @@
 
     <textarea
       type='{{ type }}'
-      id='{{ inputId }}'
+      id='{{ id }}'
       name='{{ name }}'
       {{ 'value="' + value + '"' if value }}
       {{ 'aria-label="' + label + '"' if not displayLabel }}
@@ -84,7 +86,7 @@
 
     <input
       type='{{ type }}'
-      id='{{ inputId }}'
+      id='{{ id }}'
       name='{{ name }}'
       {{ 'value="' + value + '"' if value }}
       {{ 'aria-label="' + label + '"' if not displayLabel }}

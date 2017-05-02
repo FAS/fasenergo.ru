@@ -101,7 +101,8 @@
             {{ components.Field(
               class = 'Field- h-flex+',
               inputClass = 'h-1/1',
-              name = 'mainSearch',
+              id = 'mainSearch',
+              name = 'search',
               label = 'Поиск',
               displayLabel = false,
               displayRequiredMark = false,
