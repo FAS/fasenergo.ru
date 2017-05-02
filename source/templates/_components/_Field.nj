@@ -1,25 +1,31 @@
 {##
  # Display input with label, all necessary attributes, state classes and containers
  #
- # @param {string} id
- # @param {string} label
- # @param {string} [name]
- # @param {string} [placeholder]
- # @param {string} [type = 'text']
- # @param {string} [value]
- # @param {number} [cols]
- # @param {number} [rows]
- # @param {string} [class]
- # @param {string} [labelClass]
- # @param {string} [inputContainerClass]
- # @param {string} [inputClass]
- # @param {bool}   [displayLabel = true]
- # @param {bool}   [displayRequiredMark = true] Should * be displayed
- # @param {bool}   [disabled]
- # @param {bool}   [required]
- # @param {bool}   [touched]
- # @param {bool}   [invalid]
- # @param {string} [error]
+ # @param {string}  id            Unique Input id. camelCase preferred.
+ #                                1. Used to link label to input
+ #                                2. Can be used by JS to access input directly (that's why camelCase preferred)
+ # @param {string}  label         Label of input. For a11y
+ # @param {string}  [name=id]     Input name. Can be non-unique. camelCase preferred.
+ #                                If omitted, `id` will be used instead.
+ #                                1. Used as value name during submitting (that's why camelCase preferred, for JS)
+ #                                2. Can be used to select inputs by name via JS
+ #                                3. If there are few non-unique names, values will be grouped under same name
+ # @param {string}  [placeholder]
+ # @param {string}  [type='text']
+ # @param {string}  [value]       Predefined value of Input. Do not confuse with `placeholder`
+ # @param {number}  [cols]
+ # @param {number}  [rows]
+ # @param {string}  [class]
+ # @param {string}  [labelClass]
+ # @param {string}  [inputContainerClass]
+ # @param {string}  [inputClass]
+ # @param {boolean} [displayLabel=true]
+ # @param {boolean} [displayRequiredMark=true] Should * be displayed
+ # @param {boolean} [disabled]
+ # @param {boolean} [required]
+ # @param {boolean} [touched]
+ # @param {boolean} [invalid]
+ # @param {string}  [error]
  #
  # @return {string} html
  #
