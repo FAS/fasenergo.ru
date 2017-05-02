@@ -8,6 +8,8 @@
 {% set specs = gen.specs %}
 {% set enclosure = gen.enclosure %}
 
+{% set warrantyFromInstallation = gen.warranty.installation  %}
+{% set warrantyServiceLife = gen.warranty.serviceLife %}
 {% set currentPrice = numbro(getGeneratorCurrentPrice(gen)).formatCurrency() %}
 {% set isDiscontinued = generatorIsDiscontinued(gen) %}
 {% set isAvailable = generatorIsAvailable(gen) %}
@@ -39,11 +41,13 @@
             <span class='h-float--left'>{{ components.Icon('gift') }}</span>
             <span class='h-block h-margin-left+--'>Комплект автоматики (АВР)<br> в подарок!</span>
           </li> #}
-          {% if gen.warranty._legacy %}
+          {% if warrantyFromInstallation or warrantyServiceLife %}
           <li>
             <span class='h-float--left'>{{ components.Icon('star') }}</span>
-            {# <span class='h-block h-margin-left+--'>Гарантия 1 год <small><br> (Моторесурс: 1000 моточасов)</small></span> #}
-            <span class='h-block h-margin-left+--'>{{ gen.warranty._legacy }}</span>
+            <span class='h-block h-margin-left+--'>
+              Гарантия {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }}<br>
+              <small>Моторесурс: {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}</small>
+            </span>
           </li>
           {% endif %}
           <li>
