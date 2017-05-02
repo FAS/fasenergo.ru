@@ -68,127 +68,143 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       </div>
       {% endmacro %}
 
+      {% macro FilterRow(title, filterTdClass, tip, tipContent) %}
       <tr>
-        <th class='h-align--left h-text-' scope='row'><b>Цена:</b></th>
-        <td class='h-text- h-text--nowrap'>
-          от
-          {{ components.Field(
-            id = 'filterPriceFrom',
-            class = 'Field- h-inline-block h-margin-sides--',
-            label = 'Цена от',
-            displayLabel = false,
-            placeholder = 'от 500 000'
-          ) }}
-          до
-          {{ components.Field(
-            id = 'filterPriceTo',
-            class = 'Field- h-inline-block h-margin-sides--',
-            label = 'Цена до',
-            displayLabel = false,
-            placeholder = 'до 5 200 000'
-          ) }}
-          руб.
+        <th class='h-align--left h-text-' scope='row' style='min-width: 160px'><b>{{ title }}:</b></th>
+        <td class='h-text- {{ filterTdClass }}'>{{ caller() }}</td>
+        <td class='h-text-'>
+          {% if tip and tipContent %}
+          <a href='#' style='border-style: dashed'>{{ tip }}</a>
+          {% elseif tip %}
+          {{ tip }}
+          {% endif %}
         </td>
-        <td class='h-text-'>Зависит, прежде всего, от мощности и двигателя</td>
       </tr>
+      {% endmacro %}
 
-      <tr>
-        <th class='h-align--left h-text-' scope='row'><b>Двигатель:</b></th>
-        <td class='h-text- h-childs-margin-right+'>
-          {{ Checkbox(
-            id = 'filterEngineLoncin',
-            name = 'filterEngine',
-            value = 'LONCIN',
-            class = 'h-inline-block',
-            label = 'LONCIN'
-          ) }}
-          {{ Checkbox(
-            id = 'filterEngineVaz',
-            name = 'filterEngine',
-            value = 'ВАЗ',
-            class = 'h-inline-block',
-            label = 'ВАЗ'
-          ) }}
-          {{ Checkbox(
-            id = 'filterEngineMmz',
-            name = 'filterEngine',
-            value = 'ММЗ',
-            class = 'h-inline-block',
-            label = 'ММЗ'
-          ) }}
-          {{ Checkbox(
-            id = 'filterEngineZmz',
-            name = 'filterEngine',
-            value = 'ЗМЗ',
-            class = 'h-inline-block',
-            label = 'ЗМЗ'
-          ) }}
-          {{ Checkbox(
-            id = 'filterEngineJmz',
-            name = 'filterEngine',
-            value = 'ЯМЗ',
-            class = 'h-inline-block',
-            label = 'ЯМЗ'
-          ) }}
-        </td>
-        <td class='h-text-'><a href='#' style='border-style: dashed'>Какие двигатели у нас есть и на что это влияет?</a></td>
-      </tr>
+      {% call FilterRow(
+        title = 'Цена',
+        filterTdClass = 'h-text--nowrap',
+        tip = 'Зависит, прежде всего, от мощности и двигателя'
+      ) %}
+        от
+        {{ components.Field(
+          id = 'filterPriceFrom',
+          label = 'Цена от',
+          displayLabel = false,
+          placeholder = 'от 500 000',
+          class = 'Field- h-inline-block h-margin-sides--',
+          style = 'max-width: 110px'
+        ) }}
+        до
+        {{ components.Field(
+          id = 'filterPriceTo',
+          label = 'Цена до',
+          displayLabel = false,
+          placeholder = 'до 5 200 000',
+          class = 'Field- h-inline-block h-margin-sides--',
+          style = 'max-width: 110px'
+        ) }}
+        руб.
+      {% endcall %}
 
-      <tr>
-        <th class='h-align--left h-text-' scope='row'><b>Режим работы:</b></th>
-        <td class='h-text- h-childs-margin-right+'>
-          {{ Checkbox(
-            id = 'filterModeMain',
-            name = 'filterMode',
-            value = 'Основной',
-            class = 'h-inline-block',
-            label = 'Основной (круглосуточно)'
-          ) }}
-          {{ Checkbox(
-            id = 'filterModeStandby',
-            name = 'filterMode',
-            value = 'Резервный',
-            class = 'h-inline-block',
-            label = 'Резервный (до 12 часов непрерывной работы)'
-          ) }}
-        </td>
-        <td class='h-text-'></td>
-      </tr>
+      {% call FilterRow(
+        title = 'Двигатель',
+        filterTdClass = 'h-childs-margin-right+',
+        tip = 'Какие двигатели у нас есть и на что это влияет?',
+        tipContent = '#'
+      ) %}
+        {{ Checkbox(
+          id = 'filterEngineLoncin',
+          name = 'filterEngine',
+          value = 'LONCIN',
+          class = 'h-inline-block',
+          label = 'LONCIN'
+        ) }}
+        {{ Checkbox(
+          id = 'filterEngineVaz',
+          name = 'filterEngine',
+          value = 'ВАЗ',
+          class = 'h-inline-block',
+          label = 'ВАЗ'
+        ) }}
+        {{ Checkbox(
+          id = 'filterEngineMmz',
+          name = 'filterEngine',
+          value = 'ММЗ',
+          class = 'h-inline-block',
+          label = 'ММЗ'
+        ) }}
+        {{ Checkbox(
+          id = 'filterEngineZmz',
+          name = 'filterEngine',
+          value = 'ЗМЗ',
+          class = 'h-inline-block',
+          label = 'ЗМЗ'
+        ) }}
+        {{ Checkbox(
+          id = 'filterEngineJmz',
+          name = 'filterEngine',
+          value = 'ЯМЗ',
+          class = 'h-inline-block',
+          label = 'ЯМЗ'
+        ) }}
+      {% endcall %}
 
-      <tr>
-        <th class='h-align--left h-text-' scope='row'><b>Уровень шума:</b></th>
-        <td class='h-text- h-childs-margin-right+'>
-          {{ Checkbox(
-            id = 'filterNoiseLow',
-            name = 'filterNoise',
-            value = 'Малошумный',
-            class = 'h-inline-block',
-            label = 'Малошумный (до X дБ)'
-          ) }}
-        </td>
-        <td class='h-text-'><a href='#' style='border-style: dashed'>Как выбрать уровень шума?</a></td>
-      </tr>
+      {% call FilterRow(
+        title = 'Режим работы',
+        filterTdClass = 'h-childs-margin-right+'
+      ) %}
+        {{ Checkbox(
+          id = 'filterModeMain',
+          name = 'filterMode',
+          value = 'Основной',
+          class = 'h-inline-block',
+          label = 'Основной (круглосуточно)'
+        ) }}
+        {{ Checkbox(
+          id = 'filterModeStandby',
+          name = 'filterMode',
+          value = 'Резервный',
+          class = 'h-inline-block',
+          label = 'Резервный (до 12 часов непрерывной работы)'
+        ) }}
+      {% endcall %}
 
-      <tr>
-        <th class='h-align--left h-text-' scope='row'><b>Фазы/Напряжение:</b></th>
-        <td class='h-text- h-childs-margin-right+'>
-          {{ Checkbox(
-            id = 'filterPhases1',
-            name = 'filterPhases',
-            value = '1',
-            class = 'h-inline-block',
-            label = 'Одна/220 V'
-          ) }}
-          {{ Checkbox(
-            id = 'filterPhases3',
-            name = 'filterPhases',
-            value = '3',
-            class = 'h-inline-block',
-            label = 'Три/380 V'
-          ) }}
-        </td>
-        <td class='h-text-'></td>
-      </tr>
+      {% call FilterRow(
+        title = 'Уровень шума',
+        filterTdClass = 'h-childs-margin-right+',
+        tip = 'Как выбрать уровень шума?',
+        tipContent = '#'
+      ) %}
+        {{ Checkbox(
+          id = 'filterNoiseLow',
+          name = 'filterNoise',
+          value = 'Малошумный',
+          class = 'h-inline-block',
+          label = 'Малошумный (до X дБ)'
+        ) }}
+      {% endcall %}
+
+      {% call FilterRow(
+        title = 'Фазы/Напряжение',
+        filterTdClass = 'h-childs-margin-right+'
+      ) %}
+        {{ Checkbox(
+          id = 'filterPhases1',
+          name = 'filterPhases',
+          value = '1',
+          class = 'h-inline-block',
+          label = 'Одна/220 V'
+        ) }}
+        {{ Checkbox(
+          id = 'filterPhases3',
+          name = 'filterPhases',
+          value = '3',
+          class = 'h-inline-block',
+          label = 'Три/380 V'
+        ) }}
+      {% endcall %}
 
     </table>
   </section>
@@ -256,14 +272,15 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   <p>Мы можем собрать генератор по вашим техническим требованиям: с другим двигателем, мощностью, ...</p>
   <p>Напишите нам. Приедем на объект, сделаем расчеты и предложение.</p>
 
-  <form class='h-childs-space-top'>
+  <form class='h-margin-top+ h-childs-space-top Wrapper--readable h-margin-left0'>
     {{ components.Field(
       id = 'contactName',
       name = 'name',
       label = 'Имя',
       displayLabel = false,
       placeholder = 'Как вас зовут?',
-      required = true
+      required = true,
+      style = 'max-width: 300px'
     ) }}
     {{ components.Field(
       id = 'contactPhoneOrEmail',
@@ -271,7 +288,8 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       label = 'Телефон или электронная почта',
       displayLabel = false,
       placeholder = 'Телефон или электронная почта',
-      required = true
+      required = true,
+      style = 'max-width: 300px'
     ) }}
     {{ components.Field(
       id = 'contactMessage',
@@ -345,13 +363,16 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
   <h2>Полезная информация о нашей продукции</h2>
 
-  <div class='o-grid h-childs-displace++ h-text++'>
+  <div class='o-grid h-childs-displace++ h-text+'>
     <div class='o-grid__item h-1/2'>
       <ul class='g-list0 o-iconic-list h-childs-space-top+--'>
         <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li>
         <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Преимущества наших генераторов</a></li>
         <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Результаты испытаний нашей продукции</a></li>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Главное о газовых генераторах:<br> преимущества,&nbsp;особенности, сравнение&nbsp;с&nbsp;дизельными и бензиновыми</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}
+          <p class='h-margin-bottom--'><a href='#'>Главное о газовых генераторах</a></p>
+          <p class='h-text-'>Преимущества,&nbsp;особенности, сравнение&nbsp;с&nbsp;дизельными и бензиновыми</p>
+        </li>
       </ul>
     </div>
     <div class='o-grid__item h-1/2'>
