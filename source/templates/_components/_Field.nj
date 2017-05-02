@@ -16,6 +16,7 @@
  # @param {number}  [cols]
  # @param {number}  [rows]
  # @param {string}  [class]
+ # @param {string}  [style]
  # @param {string}  [labelClass]
  # @param {string}  [inputContainerClass]
  # @param {string}  [inputClass]
@@ -45,6 +46,7 @@
    cols,
    rows,
    class,
+   style,
    labelClass,
    inputContainerClass,
    inputClass,
@@ -62,7 +64,7 @@
 {% set errorId = id + 'Error' %}
 {% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
 
-<div id='{{ fieldId }}' class='Field {{ class }}{{ stateClasses }}'>
+<div id='{{ fieldId }}' class='Field {{ class }}{{ stateClasses }}' style='{{ style }}'>
 
   {% if displayLabel %}
   <label class='Field__label {{ labelClass }}' for='{{ id }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</label>
