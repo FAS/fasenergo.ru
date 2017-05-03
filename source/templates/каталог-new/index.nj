@@ -52,7 +52,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       {% set fieldId = id + 'Container' %}
       {% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
 
-      <div id='{{ fieldId }}' class='h-text--nowrap {{ class }}{{ stateClasses }}'>
+      <label id='{{ fieldId }}' for='{{ id }}' class='{{ class }}{{ stateClasses }}'>
         <input
           type='checkbox'
           id='{{ id }}'
@@ -64,8 +64,8 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           {{ 'aria-invalid="true"' if touched and invalid }}
         >
         &nbsp;
-        <label class='{{ labelClass }}' for='{{ id }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</label>
-      </div>
+        <span class='{{ labelClass }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</span>
+      </label>
       {% endmacro %}
 
       {% macro FilterRow(title, filterTdClass, tip, tipContent) %}
