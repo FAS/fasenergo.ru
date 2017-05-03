@@ -30,7 +30,8 @@ SystemJS.config({
   ],
   map: {
     "jquery": "npm:jquery@3.1.0",
-    "jump.js": "npm:jump.js@1.0.2"
+    "jump.js": "npm:jump.js@1.0.2",
+    "lodash": "npm:lodash@4.17.4"
   },
   packages: {}
 });
