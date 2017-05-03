@@ -5,6 +5,7 @@ import $ from 'jquery'
 import './plugins/scroll-on-click'
 import './plugins/expand'
 import './plugins/drawer'
+import './plugins/catalogFilter'
 import jump from './plugins/jump'
 
 $(() => {
