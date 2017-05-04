@@ -267,8 +267,8 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
       {% if warrantyFromInstallation or warrantyServiceLife %}
       <p class='h-text-'>
-        Ресурс: {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}<br>
-        Гарантия: {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }}
+        Гарантия: {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }},<br>
+        {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}
       </p>
       {% endif %}
 
