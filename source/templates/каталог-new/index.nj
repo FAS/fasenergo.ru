@@ -26,12 +26,12 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   ) }}
 </aside>
 
-<aside>
+<form id='js-catalog-filters'>
 
   {# @todo Remove style in favor of helper #}
   <p class='h-align--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p>
 
-  <section id='js-catalog-filters' class='Box h-padding-sides+-- h-padding-ends'>
+  <section class='Box h-padding-sides+-- h-padding-ends'>
     <table class='h-cells-padding-- h-margin-bottom0'>
 
       {% macro Checkbox(
@@ -39,14 +39,17 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         value,
         label,
         name,
+        type = 'checkbox',
         class,
         labelClass,
         inputClass,
         displayRequiredMark = true,
+        checked,
         disabled,
         required,
         touched,
-        invalid
+        invalid,
+        attrs
       ) %}
       {% set name = name or id %}
       {% set fieldId = id + 'Container' %}
@@ -54,14 +57,16 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
       <label id='{{ fieldId }}' for='{{ id }}' class='{{ class }}{{ stateClasses }}'>
         <input
-          type='checkbox'
+          type='{{ type }}'
           id='{{ id }}'
           name='{{ name }}'
           value='{{ value }}'
           class='{{ inputClass }}'
+          {{ 'checked' if checked }}
           {{ 'disabled' if disabled }}
           {{ 'required' if required }}
           {{ 'aria-invalid="true"' if touched and invalid }}
+          {{ attrs|spread() }}
         >
         &nbsp;
         <span class='{{ labelClass }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</span>
@@ -213,7 +218,48 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     </table>
   </section>
 
-</aside>
+  <section>
+    Сортировать:
+    {{ Checkbox(
+      type = 'radio',
+      id = 'sortByPower',
+      name = 'sort',
+      value = 'byPower',
+      class = 'h-inline-block',
+      label = 'по возрастающей мощности',
+      attrs = { 'data-order': 'asc' },
+      checked = true
+    ) }}
+    {{ Checkbox(
+      type = 'radio',
+      id = 'sortByPowerDesc',
+      name = 'sort',
+      value = 'byPower',
+      class = 'h-inline-block',
+      label = 'по убывающей мощности',
+      attrs = { 'data-order': 'desc' }
+    ) }}
+    {{ Checkbox(
+      type = 'radio',
+      id = 'sortByPrice',
+      name = 'sort',
+      value = 'byPrice',
+      class = 'h-inline-block',
+      label = 'по возрастающей цене',
+      attrs = { 'data-order': 'asc' }
+    ) }}
+    {{ Checkbox(
+      type = 'radio',
+      id = 'sortByPriceDesc',
+      name = 'sort',
+      value = 'byPrice',
+      class = 'h-inline-block',
+      label = 'по убывающей цене',
+      attrs = { 'data-order': 'desc' }
+    ) }}
+  </section>
+
+</form>
 
 {# <hr> #}
 
@@ -238,7 +284,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     phases: phases
   } %}
 
-  <article class='js-catalog-item o-grid h-childs-displace+ h-margin-top+' data-item-data='{{ gData|dump }}'>
+  <article class='js-catalog-product o-grid h-childs-displace+ h-margin-top+' data-product='{{ gData|dump }}'>
 
     <div class='o-grid__item h-1/4'>
       <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photoUrl }}' alt='{{ g.title|striptags }}'></a>

@@ -3,9 +3,10 @@ import { filter, includes, replaceChildren } from '../helpers'
 
 const $filtersContainer = document.getElementById('js-catalog-filters')
 const $filters = $filtersContainer.querySelectorAll('input')
-const $itemsContainer = document.getElementById('js-catalog')
-const $items = $itemsContainer.querySelectorAll('.js-catalog-item')
+const $productsContainer = document.getElementById('js-catalog')
+const $products = $productsContainer.querySelectorAll('.js-catalog-product')
 const isFilter = ($el) => includes($filters, $el)
+const getItemData = ($el) => JSON.parse($el.getAttribute('data-product'))
 
 const getFilterState = () => {
   const state = Object.keys($filters).reduce((state, key) => {
@@ -13,27 +14,52 @@ const getFilterState = () => {
     const name = $filter.name
     const value = isNaN(+$filter.value) ? $filter.value : +$filter.value
 
-    // Assume everything not checkbox is text or number
-    if ($filter.type !== 'checkbox') {
-      state[name] = value
-    // Everything else is a checkbox, so we have to ensure that it's checked
-    } else if ($filter.checked) {
-      if (!Array.isArray(state[name])) {
-        state[name] = []
+    if ($filter.type === 'radio') {
+      if ($filter.checked) {
+        // Format state differently if it's sort radio
+        if ($filter.getAttribute('data-order')) {
+          state[name] = {
+            value,
+            order: $filter.getAttribute('data-order')
+          }
+          return state
+        }
+        state[name] = value
       }
-      state[name].push(value)
+      return state
+    } else if ($filter.type === 'checkbox') {
+      if ($filter.checked) {
+        if (!Array.isArray(state[name])) {
+          state[name] = []
+        }
+        state[name].push(value)
+      }
+      return state
     }
+
+    // Assume everything else is just text input
+    state[name] = value
 
     return state
   }, {})
 
+  console.log(state)
+
   return state
 }
 
-const filterItems = () => {
+const updateProducts = ($items) => {
+  const $filtered = filterItems($items)
+  const $sorted = sortItems($filtered)
+
+  replaceChildren($productsContainer, $sorted)
+}
+
+const filterItems = ($items) => {
   const state = getFilterState()
-  const $filteredItems = filter($items, ($item) => {
-    const item = JSON.parse($item.getAttribute('data-item-data'))
+
+  return filter($items, ($item) => {
+    const item = getItemData($item)
 
     if (state.priceFrom && item.price < state.priceFrom) { return }
     if (state.priceTo && item.price > state.priceTo) { return }
@@ -44,14 +70,26 @@ const filterItems = () => {
 
     return true
   })
+}
 
-  replaceChildren($itemsContainer, $filteredItems)
+const sortItems = ($items) => {
+  const state = getFilterState()
+
+  return [...$items].sort(($a, $b) => {
+    const a = getItemData($a)
+    const b = getItemData($b)
+
+    if (state.sort && state.sort.value === 'byPrice' && state.sort.order === 'desc') { return b.price - a.price }
+    if (state.sort && state.sort.value === 'byPrice' && state.sort.order === 'asc') { return a.price - b.price }
+    if (state.sort && state.sort.value === 'byPower' && state.sort.order === 'desc') { return b.power - a.power }
+    if (state.sort && state.sort.value === 'byPower' && state.sort.order === 'asc') { return a.power - b.power }
+  })
 }
 
 if ($filtersContainer) {
   $filtersContainer.addEventListener('click', (e) => {
-    // Ensure that we clicked into filter's input
-    isFilter(e.target) && filterItems()
+    // Ensure that we clicked into filter or sorter's input
+    isFilter(e.target) && updateProducts($products)
   })
-  $filtersContainer.addEventListener('input', debounce(filterItems, 700))
+  $filtersContainer.addEventListener('input', debounce(() => updateProducts($products), 700))
 }
