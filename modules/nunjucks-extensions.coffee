@@ -99,23 +99,38 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
     else return ctxValue
 
   ###*
-   * Get properties of page and its childs from specified object.
-   * @param {array}  path                            Path to page inside `data`
-   * @param {bool}   forceRender   = true            Force rendering of output via Nunjucks
-   * @param {object} renderContext = @getVariables() Context with which should be made forced rendering
-   * @param {bool}   logUndefined  = false           Log or no undefined values
-   * @param {object} data = @ctx.site.__matter__     Object with properties of page and its childs
+   * Get properties of page and its childs from site Matter data
+   * @param {string|string[]}  path                    Path to page inside site Matter data.
+   *                                                   Array of crumbs, dot-notation string or url.
+   * @param {boolean}          [forceRender = true]    Render output with Nunjucks
+   * @param {boolean}          [cached = true]         Use cached rendered version if available
+   * @param {object}           [ctx = @getVariables()] Nunjucks context for forced rendering
    * @return {object} Properties of the page, including its sub pages
+   * @example
+   *   getPage('blog.post')
+   *   getPage('blog/post')
+   *   getPage(['blog', 'post'])
   ###
-  env.addGlobal 'getPage', (path, forceRender = true, renderContext = @getVariables(), logUndefined = false, data = @ctx.site.__matter__) ->
-    result = _.get(data, path)
+  env.addGlobal 'getPage', (path, forceRender = true, cached = true, ctx = @getVariables()) ->
+    path = path.includes('/') and crumble(path) or path
+    data = @ctx.site.__matter__
+    cachedData = () => @ctx.site.__matterCache__
+    setDataCache = (value) => @ctx.site.__matterCache__ = value
+    renderData = (tmpl) => render(env, ctx, tmpl)
 
-    if result
-      result = if forceRender then render(env, renderContext, result, false, log.error, logUndefined,  @ctx.page.url) else result
-      Object.defineProperty result, 'props', enumerable: false
-      return result
-    else
-      log.error('[getPage] can\'t find requested `' + path + '` inside specified object', '[' + @ctx.page.url + ']')
+    # Render whole Matter data and store it as cache after first `forceRender` request
+    if not cachedData() and forceRender
+      setDataCache(renderData(data))
+
+    page = _.get(forceRender and cached and cachedData() or data, path)
+
+    if not page
+      log.error("[getPage] can not find `#{path}` inside site Matter data [#{@ctx.page.props.url}]")
+      return
+
+    page = Object.assign({}, forceRender and (cached and page or renderData(page)) or page)
+    Object.defineProperty page, 'props', enumerable: false
+    return page
 
   ###*
    * Explodes string into array breadcrumb. See `crumble` helper for details
@@ -201,8 +216,8 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
    * Force rendering of input via Nunjucks. Refer to `nunjucks-render` module for docs
    * @todo Related issue https://github.com/mozilla/nunjucks/issues/783
   ###
-  env.addFilter 'render', (input, isCaller = false, logUndefined = false) ->
-    render(env, @getVariables(), input, isCaller, log.error, logUndefined, @ctx.page.url)
+  env.addFilter 'render', (input, isCaller = false) ->
+    render(env, @getVariables(), input, isCaller)
 
   ###*
    * Replace placeholders with provided values. Refer to `sprintf` module for docs
