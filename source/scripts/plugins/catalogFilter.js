@@ -1,9 +1,11 @@
 import debounce from 'lodash/debounce'
-import { filter, replaceChildren } from '../helpers'
+import { filter, includes, replaceChildren } from '../helpers'
 
-const $filters = document.querySelectorAll('.js-catalog-filter')
+const $filtersContainer = document.getElementById('js-catalog-filters')
+const $filters = $filtersContainer.querySelectorAll('input')
 const $itemsContainer = document.getElementById('js-catalog')
-const $items = document.querySelectorAll('[data-catalog-filter-item]')
+const $items = $itemsContainer.querySelectorAll('.js-catalog-item')
+const isFilter = ($el) => includes($filters, $el)
 
 const getFilterState = () => {
   const state = Object.keys($filters).reduce((state, key) => {
@@ -25,21 +27,20 @@ const getFilterState = () => {
     return state
   }, {})
 
-  // console.log(state)
   return state
 }
 
 const filterItems = () => {
   const state = getFilterState()
   const $filteredItems = filter($items, ($item) => {
-    const itemData = JSON.parse($item.getAttribute('data-catalog-filter-item'))
+    const item = JSON.parse($item.getAttribute('data-item-data'))
 
-    if (state.filterPriceFrom && itemData.price < state.filterPriceFrom) { return }
-    if (state.filterPriceTo && itemData.price > state.filterPriceTo) { return }
-    if (state.filterEngine && !state.filterEngine.includes(itemData.engineBrand)) { return }
-    if (state.filterMode && !state.filterMode.includes(itemData.mode)) { return }
-    if (state.filterNoise && state.filterNoise.some((n) => itemData.noise > n)) { return }
-    if (state.filterPhases && !state.filterPhases.includes(itemData.phases)) { return }
+    if (state.filterPriceFrom && item.price < state.filterPriceFrom) { return }
+    if (state.filterPriceTo && item.price > state.filterPriceTo) { return }
+    if (state.filterEngine && !state.filterEngine.includes(item.engineBrand)) { return }
+    if (state.filterMode && !state.filterMode.includes(item.mode)) { return }
+    if (state.filterNoise && state.filterNoise.some((n) => item.noise > n)) { return }
+    if (state.filterPhases && !state.filterPhases.includes(item.phases)) { return }
 
     return true
   })
@@ -47,6 +48,10 @@ const filterItems = () => {
   replaceChildren($itemsContainer, $filteredItems)
 }
 
-// This is wrong, but just for the sake of testing
-document.addEventListener('click', (e) => filterItems())
-document.addEventListener('input', debounce(filterItems, 700))
+if ($filtersContainer) {
+  $filtersContainer.addEventListener('click', (e) => {
+    // Ensure that we clicked into filter's input
+    isFilter(e.target) && filterItems()
+  })
+  $filtersContainer.addEventListener('input', debounce(filterItems, 700))
+}

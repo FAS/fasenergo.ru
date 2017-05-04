@@ -31,7 +31,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   {# @todo Remove style in favor of helper #}
   <p class='h-align--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p>
 
-  <section class='Box h-padding-sides+-- h-padding-ends'>
+  <section id='js-catalog-filters' class='Box h-padding-sides+-- h-padding-ends'>
     <table class='h-cells-padding-- h-margin-bottom0'>
 
       {% macro Checkbox(
@@ -95,7 +95,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           displayLabel = false,
           placeholder = 'от 500 000',
           class = 'Field- h-inline-block h-margin-sides--',
-          inputClass = 'js-catalog-filter',
           style = 'max-width: 120px'
         ) }}
         до
@@ -106,7 +105,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           displayLabel = false,
           placeholder = 'до 5 200 000',
           class = 'Field- h-inline-block h-margin-sides--',
-          inputClass = 'js-catalog-filter',
           style = 'max-width: 120px'
         ) }}
         руб.
@@ -123,7 +121,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterEngine',
           value = 'LONCIN',
           class = 'h-float--left h-1/3',
-          inputClass = 'js-catalog-filter',
           label = 'LONCIN'
         ) }}
         {{ Checkbox(
@@ -131,7 +128,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterEngine',
           value = 'ВАЗ',
           class = 'h-float--left h-1/3',
-          inputClass = 'js-catalog-filter',
           label = 'ВАЗ'
         ) }}
         {{ Checkbox(
@@ -139,7 +135,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterEngine',
           value = 'ММЗ',
           class = 'h-float--left h-1/3',
-          inputClass = 'js-catalog-filter',
           label = 'ММЗ'
         ) }}
         {{ Checkbox(
@@ -147,7 +142,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterEngine',
           value = 'ЗМЗ',
           class = 'h-float--left h-1/3',
-          inputClass = 'js-catalog-filter',
           label = 'ЗМЗ'
         ) }}
         {{ Checkbox(
@@ -155,7 +149,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterEngine',
           value = 'ЯМЗ',
           class = 'h-float--left h-1/3',
-          inputClass = 'js-catalog-filter',
           label = 'ЯМЗ'
         ) }}
       {% endcall %}
@@ -169,7 +162,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterMode',
           value = 'основной',
           class = 'h-inline-block',
-          inputClass = 'js-catalog-filter',
           label = 'Основной (круглосуточно)'
         ) }}
         {{ Checkbox(
@@ -177,7 +169,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterMode',
           value = 'резервный',
           class = 'h-inline-block',
-          inputClass = 'js-catalog-filter',
           label = 'Резервный (до 12 часов непрерывной работы)'
         ) }}
       {% endcall %}
@@ -193,7 +184,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterNoise',
           value = 60,
           class = 'h-inline-block',
-          inputClass = 'js-catalog-filter',
           label = 'Малошумный (до (60) дБ)'
         ) }}
       {% endcall %}
@@ -207,7 +197,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterPhases',
           value = '1',
           class = 'h-inline-block',
-          inputClass = 'js-catalog-filter',
           label = 'Одна/220 V'
         ) }}
         {{ Checkbox(
@@ -215,7 +204,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'filterPhases',
           value = '3',
           class = 'h-inline-block',
-          inputClass = 'js-catalog-filter',
           label = 'Три/380 V'
         ) }}
       {% endcall %}
@@ -248,7 +236,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     phases: phases
   } %}
 
-  <article class='o-grid h-childs-displace+ h-margin-top+' data-catalog-filter-item='{{ gData|dump }}'>
+  <article class='js-catalog-item o-grid h-childs-displace+ h-margin-top+' data-item-data='{{ gData|dump }}'>
 
     <div class='o-grid__item h-1/4'>
       <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photoUrl }}' alt='{{ g.title|striptags }}'></a>
