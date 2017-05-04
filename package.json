@@ -42,7 +42,7 @@
     "grunt-uncss": "0.6.1",
     "grunt-webfont": "1.6.0",
     "jit-grunt": "0.10.0",
-    "jspm": "0.17.0-beta.28",
+    "jspm": "0.17.0-beta.41",
     "lodash": "4.17.4",
     "markdown-it": "8.3.0",
     "moment": "2.17.1",
@@ -61,7 +61,9 @@
     "babel-jest": "19.0.0",
     "babel-polyfill": "6.23.0",
     "babel-preset-latest": "6.22.0",
+    "chokidar-socket-emitter": "0.6.0",
     "jest": "19.0.2",
+    "npm-run-all": "4.0.2",
     "standard": "8.6.0",
     "stylelint": "7.9.0",
     "stylelint-config-standard": "16.0.0",
@@ -75,15 +77,22 @@
     "name": "kotsu",
     "main": "main.js",
     "dependencies": {
+      "babel-polyfill": "npm:babel-polyfill@^6.23.0",
       "jquery": "npm:jquery@^3.1.0",
       "jump.js": "npm:jump.js@^1.0.2",
       "lodash": "npm:lodash@^4.17.4"
     },
     "devDependencies": {
-      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.13"
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.21",
+      "systemjs-hot-reloader": "npm:systemjs-hot-reloader@^1.1.0"
+    },
+    "peerDependencies": {
+      "fs": "npm:jspm-nodelibs-fs@^0.2.0",
+      "path": "npm:jspm-nodelibs-path@^0.2.0",
+      "process": "npm:jspm-nodelibs-process@^0.2.0"
     },
     "overrides": {
-      "npm:jquery@3.1.0": {
+      "npm:jquery@3.2.1": {
         "format": "amd"
       },
       "npm:lodash@4.17.4": {
@@ -96,6 +105,11 @@
   },
   "scripts": {
     "postinstall": "jspm config registries.github.auth $GITHUB_API_KEY && jspm install",
+    "start": "npm-run-all --parallel grunt js:chokidar",
+    "serve": "npm-run-all --parallel grunt:serve js:chokidar",
+    "grunt": "grunt",
+    "grunt:serve": "grunt serve",
+    "js:chokidar": "cd ./source/scripts && chokidar-socket-emitter",
     "lint": "standard && stylelint **/*.{css,scss,sass}",
     "test": "npm run lint && jest",
     "test:watch": "jest --watch",

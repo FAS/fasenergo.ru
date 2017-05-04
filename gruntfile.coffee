@@ -107,7 +107,6 @@ module.exports = (grunt) ->
     'webfont'
     'sass'
     'postcss:autoprefix'
-    'shell:jspm_build'
     'responsive_images:thumbnails'
     'browserSync'
     'watch'
@@ -128,7 +127,7 @@ module.exports = (grunt) ->
     # @todo Enable when https://github.com/giakki/uncss/pull/280 will be merged
     # 'uncss'
     'csso'
-    'shell'
+    'shell:jspm_build'
     'uglify'
     'htmlmin'
     'responsive_images:thumbnails'
