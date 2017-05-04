@@ -26,12 +26,12 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   ) }}
 </aside>
 
-<form id='js-catalog-filters'>
+<aside id='js-catalog-filters'>
 
   {# @todo Remove style in favor of helper #}
   <p class='h-align--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p>
 
-  <section class='Box h-padding-sides+-- h-padding-ends'>
+  <form class='Box h-padding-sides+-- h-padding-ends'>
     <table class='h-cells-padding-- h-margin-bottom0'>
 
       {% macro Checkbox(
@@ -250,9 +250,14 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       {% endcall %}
 
     </table>
-  </section>
 
-  <section class='h-margin-top+ h-text- h-childs-space-left--'>
+    <hr class='h-margin-ends'>
+
+    <button type='reset' class='h-margin-left-- g-link h-border-bottom0 h-text-'>{{ components.Icon('x', class = 'Icon--left h-text--em-') }} <span class='g-link'>Очистить все фильтры</span></button>
+
+  </form>
+
+  <form class='h-margin-top+ h-text- h-childs-space-left--'>
     <span>Сортировать:</span>
     {{ Checkbox(
       type = 'radio',
@@ -299,9 +304,9 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       label = 'по убывающей цене',
       attrs = { 'data-order': 'desc' }
     ) }}
-  </section>
+  </form>
 
-</form>
+</aside>
 
 {# <hr> #}
 

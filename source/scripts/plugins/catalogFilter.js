@@ -92,4 +92,7 @@ if ($filtersContainer) {
     isFilter(e.target) && updateProducts()
   })
   $filtersContainer.addEventListener('input', debounce(updateProducts, 700))
+  // @todo Delaying here just to wait while DOM will update before grabbing new filters state
+  //       Clearly, wrong way to handle it, should be improved
+  $filtersContainer.addEventListener('reset', debounce(updateProducts, 100))
 }
