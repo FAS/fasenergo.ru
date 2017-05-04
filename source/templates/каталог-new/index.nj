@@ -87,6 +87,36 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       {% endmacro %}
 
       {% call FilterRow(
+        title = 'Мощность',
+        filterTdClass = 'h-text--nowrap',
+        tip = 'Зависит, прежде всего, от мощности и двигателя'
+      ) %}
+        от
+        {{ components.Field(
+          type = 'number',
+          id = 'filterPowerFrom',
+          name = 'powerFrom',
+          label = 'Мощность от',
+          displayLabel = false,
+          placeholder = 'от 5',
+          class = 'Field- h-inline-block h-margin-sides--',
+          style = 'max-width: 120px'
+        ) }}
+        до
+        {{ components.Field(
+          type = 'number',
+          id = 'filterPowerTo',
+          name = 'powerTo',
+          label = 'Мощность до',
+          displayLabel = false,
+          placeholder = 'до 315',
+          class = 'Field- h-inline-block h-margin-sides--',
+          style = 'max-width: 120px'
+        ) }}
+        кВт
+      {% endcall %}
+
+      {% call FilterRow(
         title = 'Цена',
         filterTdClass = 'h-text--nowrap',
         tip = 'Зависит, прежде всего, от мощности и двигателя'

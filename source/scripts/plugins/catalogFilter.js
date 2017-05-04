@@ -58,6 +58,8 @@ const filterItems = ($items, state) => {
   return [...$items].filter(($item) => {
     const item = getItemData($item)
 
+    if (state.powerFrom && item.power < state.powerFrom) { return }
+    if (state.powerTo && item.power > state.powerTo) { return }
     if (state.priceFrom && item.price < state.priceFrom) { return }
     if (state.priceTo && item.price > state.priceTo) { return }
     if (state.engineBrand && !state.engineBrand.includes(item.engineBrand)) { return }
