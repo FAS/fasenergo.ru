@@ -76,7 +76,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       <tr>
         <th class='h-align--left h-text-' scope='row' style='min-width: 160px'><b>{{ title }}:</b></th>
         <td class='h-text- {{ filterTdClass }}'>{{ caller() }}</td>
-        <td class='h-text-'>
+        <td class='h-text-' style='max-width: 250px'>
           {% if tip and tipContent %}
           <a href='#' style='border-style: dashed'>{{ tip }}</a>
           {% elseif tip %}
