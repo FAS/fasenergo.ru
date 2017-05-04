@@ -1,0 +1,19 @@
+// stylelint-disable no-descending-specificity
+
+// =======================================
+// ^Sort
+// =======================================
+
+.Sort { cursor: pointer; }
+
+  .Sort__input {
+    display: none;
+
+    &:checked ~ .Sort__label {
+      @extend %g-link;
+      @extend %g-link:hover;
+    }
+
+  }
+
+  .Sort__label { border-style: dashed; }

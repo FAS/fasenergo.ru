@@ -68,7 +68,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           {{ 'aria-invalid="true"' if touched and invalid }}
           {{ attrs|spread() }}
         >
-        &nbsp;
         <span class='{{ labelClass }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</span>
       </label>
       {% endmacro %}
@@ -128,6 +127,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'engineBrand',
           value = 'LONCIN',
           class = 'h-float--left h-1/3',
+          inputClass = 'h-margin-right---',
           label = 'LONCIN'
         ) }}
         {{ Checkbox(
@@ -135,6 +135,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'engineBrand',
           value = 'ВАЗ',
           class = 'h-float--left h-1/3',
+          inputClass = 'h-margin-right---',
           label = 'ВАЗ'
         ) }}
         {{ Checkbox(
@@ -142,6 +143,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'engineBrand',
           value = 'ММЗ',
           class = 'h-float--left h-1/3',
+          inputClass = 'h-margin-right---',
           label = 'ММЗ'
         ) }}
         {{ Checkbox(
@@ -149,6 +151,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'engineBrand',
           value = 'ЗМЗ',
           class = 'h-float--left h-1/3',
+          inputClass = 'h-margin-right---',
           label = 'ЗМЗ'
         ) }}
         {{ Checkbox(
@@ -156,6 +159,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'engineBrand',
           value = 'ЯМЗ',
           class = 'h-float--left h-1/3',
+          inputClass = 'h-margin-right---',
           label = 'ЯМЗ'
         ) }}
       {% endcall %}
@@ -168,14 +172,14 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           id = 'filterModeMain',
           name = 'mode',
           value = 'основной',
-          class = 'h-inline-block',
+          inputClass = 'h-margin-right---',
           label = 'Основной (круглосуточно)'
-        ) }}
+        ) }}<br>
         {{ Checkbox(
           id = 'filterModeStandby',
           name = 'mode',
           value = 'резервный',
-          class = 'h-inline-block',
+          inputClass = 'h-margin-right---',
           label = 'Резервный (до 12 часов непрерывной работы)'
         ) }}
       {% endcall %}
@@ -190,7 +194,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           id = 'filterNoiseLow',
           name = 'noise',
           value = 60,
-          class = 'h-inline-block',
+          inputClass = 'h-margin-right---',
           label = 'Малошумный (до (60) дБ)'
         ) }}
       {% endcall %}
@@ -203,14 +207,14 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           id = 'filterPhases1',
           name = 'phases',
           value = '1',
-          class = 'h-inline-block',
+          inputClass = 'h-margin-right---',
           label = 'Одна/220 V'
         ) }}
         {{ Checkbox(
           id = 'filterPhases3',
           name = 'phases',
           value = '3',
-          class = 'h-inline-block',
+          inputClass = 'h-margin-right---',
           label = 'Три/380 V'
         ) }}
       {% endcall %}
@@ -218,14 +222,16 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     </table>
   </section>
 
-  <section>
-    Сортировать:
+  <section class='h-margin-top+ h-text- h-childs-space-left--'>
+    <span>Сортировать:</span>
     {{ Checkbox(
       type = 'radio',
       id = 'sortByPower',
       name = 'sort',
       value = 'byPower',
-      class = 'h-inline-block',
+      class = 'Sort',
+      inputClass = 'Sort__input',
+      labelClass = 'Sort__label',
       label = 'по возрастающей мощности',
       attrs = { 'data-order': 'asc' },
       checked = true
@@ -235,7 +241,9 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       id = 'sortByPowerDesc',
       name = 'sort',
       value = 'byPower',
-      class = 'h-inline-block',
+      class = 'Sort',
+      inputClass = 'Sort__input',
+      labelClass = 'Sort__label',
       label = 'по убывающей мощности',
       attrs = { 'data-order': 'desc' }
     ) }}
@@ -244,7 +252,9 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       id = 'sortByPrice',
       name = 'sort',
       value = 'byPrice',
-      class = 'h-inline-block',
+      class = 'Sort',
+      inputClass = 'Sort__input',
+      labelClass = 'Sort__label',
       label = 'по возрастающей цене',
       attrs = { 'data-order': 'asc' }
     ) }}
@@ -253,7 +263,9 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       id = 'sortByPriceDesc',
       name = 'sort',
       value = 'byPrice',
-      class = 'h-inline-block',
+      class = 'Sort',
+      inputClass = 'Sort__input',
+      labelClass = 'Sort__label',
       label = 'по убывающей цене',
       attrs = { 'data-order': 'desc' }
     ) }}
