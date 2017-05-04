@@ -87,6 +87,9 @@ const sortItems = ($items) => {
 }
 
 if ($filtersContainer) {
+  // Init sorting
+  updateProducts($products)
+
   $filtersContainer.addEventListener('click', (e) => {
     // Ensure that we clicked into filter or sorter's input
     isFilter(e.target) && updateProducts($products)
