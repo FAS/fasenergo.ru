@@ -1,11 +1,11 @@
 import debounce from 'lodash/debounce'
-import { filter, includes, replaceChildren } from '../helpers'
+import { replaceChildren } from '../helpers'
 
 const $filtersContainer = document.getElementById('js-catalog-filters')
 const $filters = $filtersContainer.querySelectorAll('input')
 const $productsContainer = document.getElementById('js-catalog')
 const $products = $productsContainer.querySelectorAll('.js-catalog-product')
-const isFilter = ($el) => includes($filters, $el)
+const isFilter = ($el) => [...$filters].includes($el)
 const getItemData = ($el) => JSON.parse($el.getAttribute('data-product'))
 
 const getFilterState = () => {
@@ -13,28 +13,28 @@ const getFilterState = () => {
     const $filter = $filters[key]
     const name = $filter.name
     const value = isNaN(+$filter.value) ? $filter.value : +$filter.value
+    const order = $filter.getAttribute('data-order')
 
-    if ($filter.type === 'radio') {
-      if ($filter.checked) {
-        // Format state differently if it's sort radio
-        if ($filter.getAttribute('data-order')) {
-          state[name] = {
-            value,
-            order: $filter.getAttribute('data-order')
+    switch ($filter.type) {
+      case 'radio':
+        if ($filter.checked) {
+          // Format state differently if it's sort radio
+          if (order) {
+            state[name] = { value, order }
+            return state
           }
-          return state
+          state[name] = value
         }
-        state[name] = value
-      }
-      return state
-    } else if ($filter.type === 'checkbox') {
-      if ($filter.checked) {
-        if (!Array.isArray(state[name])) {
-          state[name] = []
+        return state
+
+      case 'checkbox':
+        if ($filter.checked) {
+          if (!Array.isArray(state[name])) {
+            state[name] = []
+          }
+          state[name].push(value)
         }
-        state[name].push(value)
-      }
-      return state
+        return state
     }
 
     // Assume everything else is just text input
@@ -43,22 +43,19 @@ const getFilterState = () => {
     return state
   }, {})
 
-  console.log(state)
-
   return state
 }
 
-const updateProducts = ($items) => {
-  const $filtered = filterItems($items)
-  const $sorted = sortItems($filtered)
+const updateProducts = () => {
+  const state = getFilterState()
+  const $filtered = filterItems($products, state)
+  const $sorted = sortItems($filtered, state)
 
   replaceChildren($productsContainer, $sorted)
 }
 
-const filterItems = ($items) => {
-  const state = getFilterState()
-
-  return filter($items, ($item) => {
+const filterItems = ($items, state) => {
+  return [...$items].filter(($item) => {
     const item = getItemData($item)
 
     if (state.priceFrom && item.price < state.priceFrom) { return }
@@ -72,9 +69,7 @@ const filterItems = ($items) => {
   })
 }
 
-const sortItems = ($items) => {
-  const state = getFilterState()
-
+const sortItems = ($items, state) => {
   return [...$items].sort(($a, $b) => {
     const a = getItemData($a)
     const b = getItemData($b)
@@ -92,7 +87,7 @@ if ($filtersContainer) {
 
   $filtersContainer.addEventListener('click', (e) => {
     // Ensure that we clicked into filter or sorter's input
-    isFilter(e.target) && updateProducts($products)
+    isFilter(e.target) && updateProducts()
   })
-  $filtersContainer.addEventListener('input', debounce(() => updateProducts($products), 700))
+  $filtersContainer.addEventListener('input', debounce(updateProducts, 700))
 }
