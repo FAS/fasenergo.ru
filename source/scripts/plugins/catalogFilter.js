@@ -35,12 +35,12 @@ const filterItems = () => {
   const $filteredItems = filter($items, ($item) => {
     const item = JSON.parse($item.getAttribute('data-item-data'))
 
-    if (state.filterPriceFrom && item.price < state.filterPriceFrom) { return }
-    if (state.filterPriceTo && item.price > state.filterPriceTo) { return }
-    if (state.filterEngine && !state.filterEngine.includes(item.engineBrand)) { return }
-    if (state.filterMode && !state.filterMode.includes(item.mode)) { return }
-    if (state.filterNoise && state.filterNoise.some((n) => item.noise > n)) { return }
-    if (state.filterPhases && !state.filterPhases.includes(item.phases)) { return }
+    if (state.priceFrom && item.price < state.priceFrom) { return }
+    if (state.priceTo && item.price > state.priceTo) { return }
+    if (state.engineBrand && !state.engineBrand.includes(item.engineBrand)) { return }
+    if (state.mode && !state.mode.includes(item.mode)) { return }
+    if (state.noise && state.noise.some((n) => item.noise > n)) { return }
+    if (state.phases && !state.phases.includes(item.phases)) { return }
 
     return true
   })

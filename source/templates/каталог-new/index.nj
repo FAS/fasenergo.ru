@@ -91,6 +91,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         {{ components.Field(
           type = 'number',
           id = 'filterPriceFrom',
+          name = 'priceFrom',
           label = 'Цена от',
           displayLabel = false,
           placeholder = 'от 500 000',
@@ -101,6 +102,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         {{ components.Field(
           type = 'number',
           id = 'filterPriceTo',
+          name = 'priceTo',
           label = 'Цена до',
           displayLabel = false,
           placeholder = 'до 5 200 000',
@@ -117,36 +119,36 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         tipContent = '#'
       ) %}
         {{ Checkbox(
-          id = 'filterEngineLoncin',
-          name = 'filterEngine',
+          id = 'filterEngineBrandLoncin',
+          name = 'engineBrand',
           value = 'LONCIN',
           class = 'h-float--left h-1/3',
           label = 'LONCIN'
         ) }}
         {{ Checkbox(
-          id = 'filterEngineVaz',
-          name = 'filterEngine',
+          id = 'filterEngineBrandVaz',
+          name = 'engineBrand',
           value = 'ВАЗ',
           class = 'h-float--left h-1/3',
           label = 'ВАЗ'
         ) }}
         {{ Checkbox(
-          id = 'filterEngineMmz',
-          name = 'filterEngine',
+          id = 'filterEngineBrandMmz',
+          name = 'engineBrand',
           value = 'ММЗ',
           class = 'h-float--left h-1/3',
           label = 'ММЗ'
         ) }}
         {{ Checkbox(
-          id = 'filterEngineZmz',
-          name = 'filterEngine',
+          id = 'filterEngineBrandZmz',
+          name = 'engineBrand',
           value = 'ЗМЗ',
           class = 'h-float--left h-1/3',
           label = 'ЗМЗ'
         ) }}
         {{ Checkbox(
-          id = 'filterEngineJmz',
-          name = 'filterEngine',
+          id = 'filterEngineBrandJmz',
+          name = 'engineBrand',
           value = 'ЯМЗ',
           class = 'h-float--left h-1/3',
           label = 'ЯМЗ'
@@ -159,14 +161,14 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       ) %}
         {{ Checkbox(
           id = 'filterModeMain',
-          name = 'filterMode',
+          name = 'mode',
           value = 'основной',
           class = 'h-inline-block',
           label = 'Основной (круглосуточно)'
         ) }}
         {{ Checkbox(
           id = 'filterModeStandby',
-          name = 'filterMode',
+          name = 'mode',
           value = 'резервный',
           class = 'h-inline-block',
           label = 'Резервный (до 12 часов непрерывной работы)'
@@ -181,7 +183,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       ) %}
         {{ Checkbox(
           id = 'filterNoiseLow',
-          name = 'filterNoise',
+          name = 'noise',
           value = 60,
           class = 'h-inline-block',
           label = 'Малошумный (до (60) дБ)'
@@ -194,14 +196,14 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       ) %}
         {{ Checkbox(
           id = 'filterPhases1',
-          name = 'filterPhases',
+          name = 'phases',
           value = '1',
           class = 'h-inline-block',
           label = 'Одна/220 V'
         ) }}
         {{ Checkbox(
           id = 'filterPhases3',
-          name = 'filterPhases',
+          name = 'phases',
           value = '3',
           class = 'h-inline-block',
           label = 'Три/380 V'
