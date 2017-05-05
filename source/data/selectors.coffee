@@ -93,6 +93,14 @@ filterOutWithId = (entries, id) -> entries.filter (e) => e.slug != id
 ######################
 
 selectEngine = (data, id) -> data.engines[id]
+selectEnginesIds = (data) -> Object.keys(data.engines)
+selectEngines = (data) -> selectEnginesIds(data).map (id) => selectEngine(data, id)
+
+selectEnginesBrands = (data) -> selectEngines(data).reduce (brands, engine) =>
+  brand = engine.manufacturer.brand
+  if not brands.includes(brand) then brands.push(brand)
+  return brands
+, []
 
 getEngineTitle = (entry) -> "#{entry.manufacturer.brand} #{entry.model}"
 getEngineCompressionRatio = (entry) -> "#{entry.compressionRatio.max}:#{entry.compressionRatio.min}"
@@ -140,6 +148,9 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'filterOutWithId', filterOutWithId
 
   env.addGlobal 'selectEngine', selectEngine
+  env.addGlobal 'selectEnginesIds', selectEnginesIds
+  env.addGlobal 'selectEngines', selectEngines
+  env.addGlobal 'selectEnginesBrands', selectEnginesBrands
   env.addGlobal 'getEngineTitle', getEngineTitle
   env.addGlobal 'getEngineCompressionRatio', getEngineCompressionRatio
 
@@ -174,6 +185,9 @@ module.exports = {
   filterOutWithId
 
   selectEngine
+  selectEnginesIds
+  selectEngines
+  selectEnginesBrands
   getEngineTitle
   getEngineCompressionRatio
 
