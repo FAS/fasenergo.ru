@@ -334,31 +334,3 @@ loncin-lc2v78f-1:
   fuel:
     ng: null
     lpg: null
-
-kubota-df972:
-  slug: kubota-df972
-  type: null
-  model: DF972
-  manufacturer:
-    brand: KUBOTA
-    country: null
-  power:
-    hp: null
-    value: null
-    rpm: null
-  torque:
-    value: null
-    rpm: null
-  valvetrain: null
-  cylinders: null
-  strokes: 4
-  displacement: 962
-  compressionRatio:
-    max: 8.8
-    min: 1
-  operatingSpeed: 3000
-  cooling: liquid
-  oilCapacity: null
-  fuel:
-    ng: null
-    lpg: null
