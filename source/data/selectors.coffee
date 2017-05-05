@@ -9,6 +9,12 @@ selectGenerator = (data, id) -> data.generators[id]
 selectGeneratorsIds = (data) -> Object.keys(data.generators)
 selectGenerators = (data) -> selectGeneratorsIds(data).map (id) => selectGenerator(data, id)
 
+selectGeneratorsMaxPower = (data) -> getGeneratorHighestPower(getMostPowerfulGenerator(selectGenerators(data)))
+selectGeneratorsMinPower = (data) -> getGeneratorHighestPower(getLeastPowerfulGenerator(selectGenerators(data)))
+
+selectGeneratorsMaxPrice = (data) -> getMostExpensiveGenerator(selectGenerators(data)).price
+selectGeneratorsMinPrice = (data) -> getLeastExpensiveGenerator(selectGenerators(data)).price
+
 getGeneratorHighestPower = (entry, type) =>
   power = entry.specs.power
 
@@ -46,6 +52,13 @@ getGeneratorCurrentPrice = (entry) ->
   return price
 
 getGeneratorOriginalPrice = (entry) -> entry.priceBeforeDiscount or entry.price
+
+getMostExpensiveGenerator = (entries) -> entries.reduce ((acc, cur) =>
+  if getGeneratorCurrentPrice(acc) > getGeneratorCurrentPrice(cur) then acc else cur),
+  { price: -Infinity }
+getLeastExpensiveGenerator = (entries) -> entries.reduce ((cur, pre) =>
+  if getGeneratorCurrentPrice(cur) < getGeneratorCurrentPrice(pre) then cur else pre),
+  { price: Infinity }
 
 getGeneratorSize = (entry) ->
   { _legacySize, size: { length, width, height } } = entry.enclosure
@@ -106,6 +119,10 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'selectGenerator', selectGenerator
   env.addGlobal 'selectGeneratorsIds', selectGeneratorsIds
   env.addGlobal 'selectGenerators', selectGenerators
+  env.addGlobal 'selectGeneratorsMaxPower', selectGeneratorsMaxPower
+  env.addGlobal 'selectGeneratorsMinPower', selectGeneratorsMinPower
+  env.addGlobal 'selectGeneratorsMaxPrice', selectGeneratorsMaxPrice
+  env.addGlobal 'selectGeneratorsMinPrice', selectGeneratorsMinPrice
   env.addGlobal 'getGeneratorHighestPower', getGeneratorHighestPower
   env.addGlobal 'getGeneratorMaxPowers', getGeneratorMaxPowers
   env.addGlobal 'getMostPowerfulGenerator', getMostPowerfulGenerator
@@ -136,6 +153,10 @@ module.exports = {
   selectGenerator
   selectGeneratorsIds
   selectGenerators
+  selectGeneratorsMaxPower
+  selectGeneratorsMinPower
+  selectGeneratorsMaxPrice
+  selectGeneratorsMinPrice
   getGeneratorHighestPower
   getGeneratorMaxPowers
   getMostPowerfulGenerator
