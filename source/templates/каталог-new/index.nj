@@ -29,7 +29,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 <aside id='js-catalog-filters'>
 
   {# @todo Remove style in favor of helper #}
-  <p class='h-align--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p>
+  {# <p class='h-align--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p> #}
 
   <form class='Box h-padding-sides+-- h-padding-ends'>
     <table class='h-cells-padding-- h-margin-bottom0'>
@@ -42,11 +42,11 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         <td class='h-text- h-align--top {{ filterTdClass }}'>
           <div class='{{ 'h-childs-displace h-childs-displace+@lap' if spaceChilds }}'>
             {{ caller() }}
-            {% if tip and tipContent %}
+            {# {% if tip and tipContent %}
             <p class='h-text- h-margin-top--'><i><a href='#' style='border-style: dashed'>{{ tip }}</a></i></p>
             {% elseif tip %}
             <p class='h-text- h-margin-top--'><i>{{ tip }}</i></p>
-            {% endif %}
+            {% endif %} #}
           </div>
         </td>
       </tr>
