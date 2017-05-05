@@ -1,0 +1,77 @@
+{##
+ # Display fully-packed checkbox or radiobox
+ #
+ # @param {string}              id            Unique Input id. camelCase preferred.
+ # @param {string}              label         Label of input. For a11y
+ # @param {string}              value         Predefined value checkbox
+ # @param {string}              [name=id]     Input name. Can be non-unique. camelCase preferred.
+ # @param {'checkbox'|'radio'}  [type='checkbox']
+ # @param {string}              [class]
+ # @param {string}              [labelClass]
+ # @param {string}              [inputClass]
+ # @param {string}              [icon,]
+ # @param {string}              [iconClass]
+ # @param {boolean}             [displayRequiredMark=true] Should * be displayed
+ # @param {boolean}             [checked]
+ # @param {boolean}             [disabled]
+ # @param {boolean}             [required]
+ # @param {boolean}             [touched]
+ # @param {boolean}             [invalid]
+ # @param {object}              [attrs]
+ #
+ # @return {string} html
+ #
+ # @example
+ #   {{ components.Checkbox(
+ #     id = 'filterEngineBrandLoncin',
+ #     name = 'engineBrand',
+ #     value = 'LONCIN',
+ #     class = 'h-float--left h-1/3',
+ #     inputClass = 'h-margin-right---',
+ #     label = 'LONCIN'
+ #   ) }}
+ #}
+{% macro Checkbox(
+  id,
+  label,
+  value,
+  name,
+  type = 'checkbox',
+  class,
+  labelClass,
+  inputClass,
+  icon,
+  iconClass,
+  displayRequiredMark = true,
+  checked,
+  disabled,
+  required,
+  touched,
+  invalid,
+  attrs
+) %}
+{% set name = name or id %}
+{% set fieldId = id + 'Container' %}
+{% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
+
+<label id='{{ fieldId }}' for='{{ id }}' class='{{ class }}{{ stateClasses }}'>
+
+  <input
+    type='{{ type }}'
+    id='{{ id }}'
+    name='{{ name }}'
+    value='{{ value }}'
+    class='{{ inputClass }}'
+    {{ 'checked' if checked }}
+    {{ 'disabled' if disabled }}
+    {{ 'required' if required }}
+    {{ 'aria-invalid="true"' if touched and invalid }}
+    {{ attrs|spread() if attrs }}
+  >
+
+  <span class='{{ labelClass }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</span>
+
+  {% if icon %}{{ components.Icon(icon, class = iconClass) }}{% endif %}
+
+</label>
+{% endmacro %}

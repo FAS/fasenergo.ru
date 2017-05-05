@@ -1,0 +1,46 @@
+{##
+ # Display prepared sorter element
+ #
+ # @param {string}  id            Unique Input id. camelCase preferred.
+ # @param {string}  label         Label of input. For a11y
+ # @param {string}  value         Predefined value checkbox
+ # @param {string}  [name=id]     Input name. Can be non-unique. camelCase preferred.
+ # @param {string}  [class]
+ # @param {string}  [labelClass]
+ # @param {string}  [inputClass]
+ # @param {string}  [iconClass]
+ # @param {boolean} [checked]
+ #
+ # @return {string} html
+ #
+ # @example
+ #   {{ components.Sorter(
+ #     id = 'sortByPower',
+ #     name = 'sort',
+ #     value = 'byPower',
+ #     label = 'по мощности',
+ #     checked = true
+ #   ) }}
+ #   {{ components.Sorter(
+ #     id = 'sortByPrice',
+ #     name = 'sort',
+ #     value = 'byPrice',
+ #     label = 'по цене'
+ #   ) }}
+ #}
+{% macro Sorter(id, label, value, name, class, labelClass, inputClass, iconClass, checked) %}
+{{ components.Checkbox(
+  type = 'radio',
+  id = id,
+  name = name,
+  value = value,
+  class = 'Sorter ' + class,
+  inputClass = 'Sorter__input ' + inputClass,
+  labelClass = 'Sorter__label ' + labelClass,
+  icon = 'dir-right',
+  iconClass = 'Sorter__icon ' + iconClass,
+  label = label,
+  attrs = { 'data-order': 'asc' },
+  checked = checked
+) }}
+{% endmacro %}

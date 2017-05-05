@@ -182,6 +182,46 @@ applyWrapperContent: false
 {% raw %}{{ components.Promos(displayInactivePromos = true) }}{% endraw %}
 {% endcall %}
 
+{% call components.Example(title = 'Чекбоксы') -%}
+{% raw %}<div class='h-childs-space-left--'>
+  {{ components.Checkbox(
+    id = 'filterEngineBrandLoncin',
+    name = 'engineBrand',
+    value = 'LONCIN',
+    inputClass = 'h-margin-right---',
+    label = 'LONCIN',
+    checked = true
+  ) }}
+  {{ components.Checkbox(
+    id = 'filterEngineBrandZMZ',
+    name = 'engineBrand',
+    value = 'ЗМЗ',
+    inputClass = 'h-margin-right---',
+    label = 'ЗМЗ'
+  ) }}
+</div>{% endraw %}
+{% endcall %}
+
+{% call components.Example(title = 'Сортеры') -%}
+{% raw %}{# Note that order switch won't work without JavaScript #}
+
+<div class='h-childs-space-left--'>
+  {{ components.Sorter(
+    id = 'sortByPower',
+    name = 'sort',
+    value = 'byPower',
+    label = 'по мощности',
+    checked = true
+  ) }}
+  {{ components.Sorter(
+    id = 'sortByPrice',
+    name = 'sort',
+    value = 'byPrice',
+    label = 'по цене'
+  ) }}
+</div>{% endraw %}
+{% endcall %}
+
 {% call components.Example(title = 'Форма') -%}
 {% raw %}<form class='o-grid h-childs-displace'>
 

@@ -34,68 +34,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   <form class='Box h-padding-sides+-- h-padding-ends'>
     <table class='h-cells-padding-- h-margin-bottom0'>
 
-      {% macro Checkbox(
-        id,
-        value,
-        label,
-        name,
-        type = 'checkbox',
-        class,
-        labelClass,
-        inputClass,
-        icon,
-        iconClass,
-        displayRequiredMark = true,
-        checked,
-        disabled,
-        required,
-        touched,
-        invalid,
-        attrs
-      ) %}
-      {% set name = name or id %}
-      {% set fieldId = id + 'Container' %}
-      {% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
-
-      <label id='{{ fieldId }}' for='{{ id }}' class='{{ class }}{{ stateClasses }}'>
-
-        <input
-          type='{{ type }}'
-          id='{{ id }}'
-          name='{{ name }}'
-          value='{{ value }}'
-          class='{{ inputClass }}'
-          {{ 'checked' if checked }}
-          {{ 'disabled' if disabled }}
-          {{ 'required' if required }}
-          {{ 'aria-invalid="true"' if touched and invalid }}
-          {{ attrs|spread() if attrs }}
-        >
-
-        <span class='{{ labelClass }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</span>
-
-        {% if icon %}{{ components.Icon(icon, class = iconClass) }}{% endif %}
-
-      </label>
-      {% endmacro %}
-
-      {% macro Sorter(id, value, label, name, class, labelClass, inputClass, iconClass, checked) %}
-      {{ Checkbox(
-        type = 'radio',
-        id = id,
-        name = name,
-        value = value,
-        class = 'Sorter ' + class,
-        inputClass = 'Sorter__input ' + inputClass,
-        labelClass = 'Sorter__label ' + labelClass,
-        icon = 'dir-right',
-        iconClass = 'Sorter__icon ' + iconClass,
-        label = label,
-        attrs = { 'data-order': 'asc' },
-        checked = checked
-      ) }}
-      {% endmacro %}
-
       {% macro FilterRow(title, filterTdClass, tip, tipContent) %}
       <tr>
         <th class='h-align--left h-text-' scope='row' style='min-width: 160px'><b>{{ title }}:</b></th>
@@ -176,7 +114,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         tip = 'Какие двигатели у нас есть и на что это влияет?',
         tipContent = '#'
       ) %}
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterEngineBrandLoncin',
           name = 'engineBrand',
           value = 'LONCIN',
@@ -184,7 +122,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           inputClass = 'h-margin-right---',
           label = 'LONCIN'
         ) }}
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterEngineBrandVaz',
           name = 'engineBrand',
           value = 'ВАЗ',
@@ -192,7 +130,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           inputClass = 'h-margin-right---',
           label = 'ВАЗ'
         ) }}
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterEngineBrandMmz',
           name = 'engineBrand',
           value = 'ММЗ',
@@ -200,7 +138,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           inputClass = 'h-margin-right---',
           label = 'ММЗ'
         ) }}
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterEngineBrandZmz',
           name = 'engineBrand',
           value = 'ЗМЗ',
@@ -208,7 +146,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           inputClass = 'h-margin-right---',
           label = 'ЗМЗ'
         ) }}
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterEngineBrandJmz',
           name = 'engineBrand',
           value = 'ЯМЗ',
@@ -222,14 +160,14 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         title = 'Режим работы',
         filterTdClass = 'h-childs-margin-right+'
       ) %}
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterModeMain',
           name = 'mode',
           value = 'основной',
           inputClass = 'h-margin-right---',
           label = 'Основной (круглосуточно)'
         ) }}<br>
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterModeStandby',
           name = 'mode',
           value = 'резервный',
@@ -244,7 +182,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         tip = 'Как выбрать уровень шума?',
         tipContent = '#'
       ) %}
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterNoiseLow',
           name = 'noise',
           value = 60,
@@ -257,14 +195,14 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         title = 'Фазы/Напряжение',
         filterTdClass = 'h-childs-margin-right+'
       ) %}
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterPhases1',
           name = 'phases',
           value = '1',
           inputClass = 'h-margin-right---',
           label = 'Одна/220 V'
         ) }}
-        {{ Checkbox(
+        {{ components.Checkbox(
           id = 'filterPhases3',
           name = 'phases',
           value = '3',
@@ -283,15 +221,14 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
   <form class='h-margin-top+ h-text- h-childs-space-left--'>
     <span>Сортировать:</span>
-    {{ Sorter(
+    {{ components.Sorter(
       id = 'sortByPower',
       name = 'sort',
       value = 'byPower',
-      class = 'Sort',
       label = 'по мощности',
       checked = true
     ) }}
-    {{ Sorter(
+    {{ components.Sorter(
       id = 'sortByPrice',
       name = 'sort',
       value = 'byPrice',
