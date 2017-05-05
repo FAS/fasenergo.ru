@@ -63,7 +63,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'powerFrom',
           label = 'Мощность от',
           displayLabel = false,
-          placeholder = 'от 5',
+          placeholder = 'от ' + numbro(selectGeneratorsMinPower(data)).format(),
           class = 'Field- h-inline-block h-margin-sides--',
           style = 'max-width: 120px'
         ) }}
@@ -74,7 +74,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'powerTo',
           label = 'Мощность до',
           displayLabel = false,
-          placeholder = 'до 315',
+          placeholder = 'до ' + numbro(selectGeneratorsMaxPower(data)).format(),
           class = 'Field- h-inline-block h-margin-sides--',
           style = 'max-width: 120px'
         ) }}
@@ -93,7 +93,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'priceFrom',
           label = 'Цена от',
           displayLabel = false,
-          placeholder = 'от 500 000',
+          placeholder = 'от ' + numbro(selectGeneratorsMinPrice(data)).format(),
           class = 'Field- h-inline-block h-margin-sides--',
           style = 'max-width: 120px'
         ) }}
@@ -104,7 +104,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           name = 'priceTo',
           label = 'Цена до',
           displayLabel = false,
-          placeholder = 'до 5 200 000',
+          placeholder = 'до ' + numbro(selectGeneratorsMaxPrice(data)).format(),
           class = 'Field- h-inline-block h-margin-sides--',
           style = 'max-width: 120px'
         ) }}
