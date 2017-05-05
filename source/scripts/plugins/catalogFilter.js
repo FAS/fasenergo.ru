@@ -1,11 +1,14 @@
 import debounce from 'lodash/debounce'
-import { replaceChildren } from '../helpers'
+import { forEach, replaceChildren } from '../helpers'
 
 const $filtersContainer = document.getElementById('js-catalog-filters')
-const $filters = $filtersContainer.querySelectorAll('input')
+const $filters = $filtersContainer && $filtersContainer.querySelectorAll('input')
 const $productsContainer = document.getElementById('js-catalog')
-const $products = $productsContainer.querySelectorAll('.js-catalog-product')
+const $products = $productsContainer && $productsContainer.querySelectorAll('.js-catalog-product')
 const isFilter = ($el) => [...$filters].includes($el)
+const isSorter = ($el) => $el.matches('[data-order]')
+const getSortOrder = ($el) => $el.getAttribute('data-order')
+const setSortOrder = ($el, order) => $el.setAttribute('data-order', order)
 const getItemData = ($el) => JSON.parse($el.getAttribute('data-product'))
 
 const getFilterState = () => {
@@ -13,13 +16,12 @@ const getFilterState = () => {
     const $filter = $filters[key]
     const name = $filter.name
     const value = isNaN(+$filter.value) ? $filter.value : +$filter.value
-    const order = $filter.getAttribute('data-order')
 
     switch ($filter.type) {
       case 'radio':
         if ($filter.checked) {
           // Write sort order
-          if (order) { state.sortOrder = order }
+          isSorter($filter) && (state.sortOrder = getSortOrder($filter))
           state[name] = value
         }
         return state
@@ -87,8 +89,19 @@ if ($filtersContainer) {
   updateProducts($products)
 
   $filtersContainer.addEventListener('click', (e) => {
+    const $this = e.target
+    const $uncheckedInputs = $filtersContainer.querySelectorAll('input:not(:checked)')
+
+    // Reset order of unchecked sorters
+    forEach($uncheckedInputs, ($input) => isSorter($input) && setSortOrder($input, ''))
+
     // Ensure that we clicked into filter or sorter's input
-    isFilter(e.target) && updateProducts()
+    if (isFilter($this)) {
+      // If item has order, we're dealing with sorter and should toggle order on clicks
+      isSorter($this) && getSortOrder($this) === 'asc' ? setSortOrder($this, 'desc') : setSortOrder($this, 'asc')
+
+      updateProducts()
+    }
   })
   $filtersContainer.addEventListener('input', debounce(updateProducts, 700))
   // @todo Delaying here just to wait while DOM will update before grabbing new filters state

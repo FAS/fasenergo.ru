@@ -1,4 +1,4 @@
-// stylelint-disable no-descending-specificity
+// stylelint-disable no-descending-specificity, selector-max-specificity, scss/operator-no-unspaced
 
 // =======================================
 // ^Sort
@@ -14,6 +14,32 @@
       @extend %g-link:hover;
     }
 
+    &[data-order='asc']:checked ~ .Sort__icon,
+    &[data-order='desc']:checked ~ .Sort__icon {
+      display: inline-block;
+    }
+
+    &[data-order='asc']:checked ~ .Sort__icon {
+    }
+
+    &[data-order='desc']:checked ~ .Sort__icon {
+      transform: rotate(-.25turn);
+    }
+
   }
 
   .Sort__label { border-style: dashed; }
+
+  .Sort__icon {
+    @extend %#{$ekzo-h-ns}trans--all\+;
+
+    display: none;
+
+    top: 0; // override default Icon shift
+
+    padding-left: .5em;
+
+    transform: rotate(.25turn); // We're rotatin it, because in origin it's `dir-right`, facing right icon
+
+    font-size: .6em;
+  }

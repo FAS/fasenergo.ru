@@ -43,6 +43,8 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         class,
         labelClass,
         inputClass,
+        icon,
+        iconClass,
         displayRequiredMark = true,
         checked,
         disabled,
@@ -56,6 +58,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       {% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
 
       <label id='{{ fieldId }}' for='{{ id }}' class='{{ class }}{{ stateClasses }}'>
+
         <input
           type='{{ type }}'
           id='{{ id }}'
@@ -68,7 +71,11 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           {{ 'aria-invalid="true"' if touched and invalid }}
           {{ attrs|spread() }}
         >
+
         <span class='{{ labelClass }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</span>
+
+        {% if icon %}{{ components.Icon(icon, class = iconClass) }}{% endif %}
+
       </label>
       {% endmacro %}
 
@@ -267,20 +274,11 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       class = 'Sort',
       inputClass = 'Sort__input',
       labelClass = 'Sort__label',
-      label = 'по возрастающей мощности',
+      icon = 'dir-right',
+      iconClass = 'Sort__icon',
+      label = 'по мощности',
       attrs = { 'data-order': 'asc' },
       checked = true
-    ) }}
-    {{ Checkbox(
-      type = 'radio',
-      id = 'sortByPowerDesc',
-      name = 'sort',
-      value = 'byPower',
-      class = 'Sort',
-      inputClass = 'Sort__input',
-      labelClass = 'Sort__label',
-      label = 'по убывающей мощности',
-      attrs = { 'data-order': 'desc' }
     ) }}
     {{ Checkbox(
       type = 'radio',
@@ -290,19 +288,10 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       class = 'Sort',
       inputClass = 'Sort__input',
       labelClass = 'Sort__label',
-      label = 'по возрастающей цене',
+      icon = 'dir-right',
+      iconClass = 'Sort__icon',
+      label = 'по цене',
       attrs = { 'data-order': 'asc' }
-    ) }}
-    {{ Checkbox(
-      type = 'radio',
-      id = 'sortByPriceDesc',
-      name = 'sort',
-      value = 'byPrice',
-      class = 'Sort',
-      inputClass = 'Sort__input',
-      labelClass = 'Sort__label',
-      label = 'по убывающей цене',
-      attrs = { 'data-order': 'desc' }
     ) }}
   </form>
 
