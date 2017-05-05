@@ -18,11 +18,8 @@ const getFilterState = () => {
     switch ($filter.type) {
       case 'radio':
         if ($filter.checked) {
-          // Format state differently if it's sort radio
-          if (order) {
-            state[name] = { value, order }
-            return state
-          }
+          // Write sort order
+          if (order) { state.sortOrder = order }
           state[name] = value
         }
         return state
@@ -42,6 +39,8 @@ const getFilterState = () => {
 
     return state
   }, {})
+
+  console.log(state)
 
   return state
 }
@@ -76,10 +75,10 @@ const sortItems = ($items, state) => {
     const a = getItemData($a)
     const b = getItemData($b)
 
-    if (state.sort && state.sort.value === 'byPrice' && state.sort.order === 'desc') { return b.price - a.price }
-    if (state.sort && state.sort.value === 'byPrice' && state.sort.order === 'asc') { return a.price - b.price }
-    if (state.sort && state.sort.value === 'byPower' && state.sort.order === 'desc') { return b.power - a.power }
-    if (state.sort && state.sort.value === 'byPower' && state.sort.order === 'asc') { return a.power - b.power }
+    if (state.sort && state.sort === 'byPrice' && state.sortOrder === 'desc') { return b.price - a.price }
+    if (state.sort && state.sort === 'byPrice' && state.sortOrder === 'asc') { return a.price - b.price }
+    if (state.sort && state.sort === 'byPower' && state.sortOrder === 'desc') { return b.power - a.power }
+    if (state.sort && state.sort === 'byPower' && state.sortOrder === 'asc') { return a.power - b.power }
   })
 }
 
