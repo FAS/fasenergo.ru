@@ -242,7 +242,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     <div class='o-grid__item h-2/4'>
       <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ g.model }}</a></h2>
       <p>
-        Мощность: {{ maxPower }} кВт<br>
+        Мощность: <strong>{{ maxPower }} кВт</strong><br>
         Охлаждение: {{ components.CoolingToWord(engineCooling) }}<br>
         Двигатель: {{ getEngineTitle(engine) }}
       </p>
