@@ -36,19 +36,18 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
       {% macro FilterRow(title, filterTdClass, spaceChilds, tip, tipContent) %}
       <tr>
-        <th class='h-align--left h-text-' scope='row' style='min-width: 160px'><b>{{ title }}:</b></th>
-        {# Disallow this td be less then width of longest form #}
-        <td class='h-text- {{ filterTdClass }}' style='min-width: 370px;'>
+        <th class='h-align--left h-text- h-font-weight--normal h-align--top' scope='row' style='min-width: 160px; max-width: 160px;'>
+          <p><b>{{ title }}:</b></p>
+        </th>
+        <td class='h-text- h-align--top {{ filterTdClass }}'>
           <div class='{{ 'h-childs-displace h-childs-displace+@lap' if spaceChilds }}'>
             {{ caller() }}
+            {% if tip and tipContent %}
+            <p class='h-text- h-margin-top--'><i><a href='#' style='border-style: dashed'>{{ tip }}</a></i></p>
+            {% elseif tip %}
+            <p class='h-text- h-margin-top--'><i>{{ tip }}</i></p>
+            {% endif %}
           </div>
-        </td>
-        <td class='h-text-'>
-          {% if tip and tipContent %}
-          <a href='#' style='border-style: dashed'>{{ tip }}</a>
-          {% elseif tip %}
-          {{ tip }}
-          {% endif %}
         </td>
       </tr>
       {% endmacro %}
@@ -122,7 +121,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           id = 'filterEngineBrandLoncin',
           name = 'engineBrand',
           value = 'LONCIN',
-          class = 'h-float--left h-1/3',
+          class = 'h-inline-block',
           inputClass = 'h-margin-right---',
           label = 'LONCIN'
         ) }}
@@ -130,7 +129,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           id = 'filterEngineBrandVaz',
           name = 'engineBrand',
           value = 'ВАЗ',
-          class = 'h-float--left h-1/3',
+          class = 'h-inline-block',
           inputClass = 'h-margin-right---',
           label = 'ВАЗ'
         ) }}
@@ -138,7 +137,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           id = 'filterEngineBrandMmz',
           name = 'engineBrand',
           value = 'ММЗ',
-          class = 'h-float--left h-1/3',
+          class = 'h-inline-block',
           inputClass = 'h-margin-right---',
           label = 'ММЗ'
         ) }}
@@ -146,7 +145,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           id = 'filterEngineBrandZmz',
           name = 'engineBrand',
           value = 'ЗМЗ',
-          class = 'h-float--left h-1/3',
+          class = 'h-inline-block',
           inputClass = 'h-margin-right---',
           label = 'ЗМЗ'
         ) }}
@@ -154,7 +153,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           id = 'filterEngineBrandJmz',
           name = 'engineBrand',
           value = 'ЯМЗ',
-          class = 'h-float--left h-1/3',
+          class = 'h-inline-block',
           inputClass = 'h-margin-right---',
           label = 'ЯМЗ'
         ) }}
