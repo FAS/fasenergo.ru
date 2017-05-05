@@ -84,7 +84,7 @@ const sortItems = ($items, state) => {
   })
 }
 
-if ($filtersContainer) {
+if ($filtersContainer && $productsContainer) {
   // Init sorting
   updateProducts($products)
 
@@ -92,6 +92,7 @@ if ($filtersContainer) {
     const $this = e.target
     const $uncheckedInputs = $filtersContainer.querySelectorAll('input:not(:checked)')
 
+    // @todo Sorters visual behavior should be deattached from $filtersContainer
     // Reset order of unchecked sorters
     forEach($uncheckedInputs, ($input) => isSorter($input) && setSortOrder($input, ''))
 
