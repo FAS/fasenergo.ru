@@ -34,11 +34,16 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   <form class='Box h-padding-sides+-- h-padding-ends'>
     <table class='h-cells-padding-- h-margin-bottom0'>
 
-      {% macro FilterRow(title, filterTdClass, tip, tipContent) %}
+      {% macro FilterRow(title, filterTdClass, spaceChilds, tip, tipContent) %}
       <tr>
         <th class='h-align--left h-text-' scope='row' style='min-width: 160px'><b>{{ title }}:</b></th>
-        <td class='h-text- {{ filterTdClass }}'>{{ caller() }}</td>
-        <td class='h-text-' style='max-width: 250px'>
+        {# Disallow this td be less then width of longest form #}
+        <td class='h-text- {{ filterTdClass }}' style='min-width: 370px;'>
+          <div class='{{ 'h-childs-displace h-childs-displace+@lap' if spaceChilds }}'>
+            {{ caller() }}
+          </div>
+        </td>
+        <td class='h-text-'>
           {% if tip and tipContent %}
           <a href='#' style='border-style: dashed'>{{ tip }}</a>
           {% elseif tip %}
@@ -109,7 +114,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
       {% call FilterRow(
         title = 'Двигатель',
-        filterTdClass = '',
+        spaceChilds = true,
         tip = 'Какие двигатели у нас есть и на что это влияет?',
         tipContent = '#'
       ) %}
@@ -157,7 +162,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
       {% call FilterRow(
         title = 'Режим работы',
-        filterTdClass = 'h-childs-margin-right+'
+        spaceChilds = true
       ) %}
         {{ components.Checkbox(
           id = 'filterModeMain',
@@ -179,7 +184,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
       {% call FilterRow(
         title = 'Уровень шума',
-        filterTdClass = 'h-childs-margin-right+',
+        spaceChilds = true,
         tip = 'Как выбрать уровень шума?',
         tipContent = '#'
       ) %}
@@ -195,7 +200,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
       {% call FilterRow(
         title = 'Фазы/Напряжение',
-        filterTdClass = 'h-childs-margin-right+'
+        spaceChilds = true
       ) %}
         {{ components.Checkbox(
           id = 'filterPhases1',
