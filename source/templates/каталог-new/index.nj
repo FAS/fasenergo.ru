@@ -13,6 +13,8 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 {% set generatorss = filterWithBrands(generatorss, 'Фасэнергомаш') %}
 {% set generatorss = sortGeneratorsByPower(generatorss) %}
 
+{% set enginesBrands = selectEnginesBrands(data) %}
+
 <p>В каталоге вы можете подобрать генератор, получить полную иформацию о каждой модели — фотографии, все технические характеристики, документы и сертификаты, — отправить заявку или задать вопрос.</p>
 <p>Все наши модели комплектуются <a href='#'>системой автоматического ввода (АВР)</a> и собираются в <a href='#'>синхронизированные комплексы</a> до 30 генераторов повышенной мощности и надежности.</p>
 
@@ -117,46 +119,16 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         tip = 'Какие двигатели у нас есть и на что это влияет?',
         tipContent = '#'
       ) %}
+        {% for brand in enginesBrands %}
         {{ components.Checkbox(
-          id = 'filterEngineBrandLoncin',
+          id = 'filterEngineBrand' + brand|urlify({ toLower: false }),
           name = 'engineBrand',
-          value = 'LONCIN',
+          value = brand,
           class = 'h-inline-block',
           inputClass = 'h-margin-right---',
-          label = 'LONCIN'
+          label = brand
         ) }}
-        {{ components.Checkbox(
-          id = 'filterEngineBrandVaz',
-          name = 'engineBrand',
-          value = 'ВАЗ',
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = 'ВАЗ'
-        ) }}
-        {{ components.Checkbox(
-          id = 'filterEngineBrandMmz',
-          name = 'engineBrand',
-          value = 'ММЗ',
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = 'ММЗ'
-        ) }}
-        {{ components.Checkbox(
-          id = 'filterEngineBrandZmz',
-          name = 'engineBrand',
-          value = 'ЗМЗ',
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = 'ЗМЗ'
-        ) }}
-        {{ components.Checkbox(
-          id = 'filterEngineBrandJmz',
-          name = 'engineBrand',
-          value = 'ЯМЗ',
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = 'ЯМЗ'
-        ) }}
+        {% endfor %}
       {% endcall %}
 
       {% call FilterRow(
