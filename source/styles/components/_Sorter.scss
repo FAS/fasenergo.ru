@@ -1,36 +1,36 @@
 // stylelint-disable no-descending-specificity, selector-max-specificity, scss/operator-no-unspaced
 
 // =======================================
-// ^Sort
+// ^Sorter
 // =======================================
 
-.Sort { cursor: pointer; }
+.Sorter { cursor: pointer; }
 
-  .Sort__input {
+  .Sorter__input {
     display: none;
 
-    &:checked ~ .Sort__label {
+    &:checked ~ .Sorter__label {
       @extend %g-link;
       @extend %g-link:hover;
     }
 
-    &[data-order='asc']:checked ~ .Sort__icon,
-    &[data-order='desc']:checked ~ .Sort__icon {
+    &[data-order='asc']:checked ~ .Sorter__icon,
+    &[data-order='desc']:checked ~ .Sorter__icon {
       display: inline-block;
     }
 
-    &[data-order='asc']:checked ~ .Sort__icon {
+    &[data-order='asc']:checked ~ .Sorter__icon {
     }
 
-    &[data-order='desc']:checked ~ .Sort__icon {
+    &[data-order='desc']:checked ~ .Sorter__icon {
       transform: rotate(-.25turn);
     }
 
   }
 
-  .Sort__label { border-style: dashed; }
+  .Sorter__label { border-style: dashed; }
 
-  .Sort__icon {
+  .Sorter__icon {
     @extend %#{$ekzo-h-ns}trans--all\+;
 
     display: none;

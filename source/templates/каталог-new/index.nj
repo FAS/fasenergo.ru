@@ -69,7 +69,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           {{ 'disabled' if disabled }}
           {{ 'required' if required }}
           {{ 'aria-invalid="true"' if touched and invalid }}
-          {{ attrs|spread() }}
+          {{ attrs|spread() if attrs }}
         >
 
         <span class='{{ labelClass }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</span>
@@ -77,6 +77,23 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         {% if icon %}{{ components.Icon(icon, class = iconClass) }}{% endif %}
 
       </label>
+      {% endmacro %}
+
+      {% macro Sorter(id, value, label, name, class, labelClass, inputClass, iconClass, checked) %}
+      {{ Checkbox(
+        type = 'radio',
+        id = id,
+        name = name,
+        value = value,
+        class = 'Sorter ' + class,
+        inputClass = 'Sorter__input ' + inputClass,
+        labelClass = 'Sorter__label ' + labelClass,
+        icon = 'dir-right',
+        iconClass = 'Sorter__icon ' + iconClass,
+        label = label,
+        attrs = { 'data-order': 'asc' },
+        checked = checked
+      ) }}
       {% endmacro %}
 
       {% macro FilterRow(title, filterTdClass, tip, tipContent) %}
@@ -266,32 +283,19 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
   <form class='h-margin-top+ h-text- h-childs-space-left--'>
     <span>Сортировать:</span>
-    {{ Checkbox(
-      type = 'radio',
+    {{ Sorter(
       id = 'sortByPower',
       name = 'sort',
       value = 'byPower',
       class = 'Sort',
-      inputClass = 'Sort__input',
-      labelClass = 'Sort__label',
-      icon = 'dir-right',
-      iconClass = 'Sort__icon',
       label = 'по мощности',
-      attrs = { 'data-order': 'asc' },
       checked = true
     ) }}
-    {{ Checkbox(
-      type = 'radio',
+    {{ Sorter(
       id = 'sortByPrice',
       name = 'sort',
       value = 'byPrice',
-      class = 'Sort',
-      inputClass = 'Sort__input',
-      labelClass = 'Sort__label',
-      icon = 'dir-right',
-      iconClass = 'Sort__icon',
-      label = 'по цене',
-      attrs = { 'data-order': 'asc' }
+      label = 'по цене'
     ) }}
   </form>
 
