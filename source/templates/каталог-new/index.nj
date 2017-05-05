@@ -52,7 +52,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         title = 'Мощность',
         filterTdClass = 'h-text--nowrap'
       ) %}
-        от
         {{ components.Field(
           type = 'number',
           id = 'filterPowerFrom',
@@ -60,10 +59,10 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           label = 'Мощность от',
           displayLabel = false,
           placeholder = 'от ' + numbro(selectGeneratorsMinPower(data)).format(),
-          class = 'Field- h-inline-block h-margin-sides--',
+          class = 'Field- h-inline-block h-margin-right--',
           style = 'max-width: 120px'
         ) }}
-        до
+        –
         {{ components.Field(
           type = 'number',
           id = 'filterPowerTo',
@@ -82,7 +81,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         filterTdClass = 'h-text--nowrap',
         tip = 'Зависит, прежде всего, от мощности и двигателя'
       ) %}
-        от
         {{ components.Field(
           type = 'number',
           id = 'filterPriceFrom',
@@ -90,10 +88,10 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           label = 'Цена от',
           displayLabel = false,
           placeholder = 'от ' + numbro(selectGeneratorsMinPrice(data)).format(),
-          class = 'Field- h-inline-block h-margin-sides--',
+          class = 'Field- h-inline-block h-margin-right--',
           style = 'max-width: 120px'
         ) }}
-        до
+        –
         {{ components.Field(
           type = 'number',
           id = 'filterPriceTo',
