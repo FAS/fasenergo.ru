@@ -243,6 +243,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ g.model }}</a></h2>
       <p>
         Мощность: <strong>{{ maxPower }} кВт</strong><br>
+        Фазы: {{ phases }}<br>
         Охлаждение: {{ components.CoolingToWord(engineCooling) }}<br>
         Двигатель: {{ getEngineTitle(engine) }}
       </p>
@@ -251,14 +252,22 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     <div class='o-grid__item h-1/4'>
 
       {% if price %}
-      <p>
-        {# @todo Temporary fix for numbro issue with lack of space before RUB #}
-        <span class='h-h3'>{{ _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб', ' руб') }}</span><br>
-        {{ phases }} {{ phases|plural(['фаза', 'фазы', 'фаз']) }}
-      </p>
+      {# @todo Temporary fix for numbro issue with lack of space before RUB #}
+      <p class='h-h3'>{{ _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб', ' руб') }}</p>
       {% endif %}
 
-      <p><a href='#' style='border-style: dashed'>Что входит в цену</a></p>
+      {% if g.equipment %}
+      <div class='h-relative js-expand__scope h-margin-bottom h-text- h-opacity50'>
+        <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+          <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+        </button>
+        <ul
+          class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text- h-childs-space-top0'
+          style='display: none; min-width: 400px; right: 0;'>
+          {{ g.equipment }}
+        </ul>
+      </div>
+      {% endif %}
 
       {% if warrantyFromInstallation or warrantyServiceLife %}
       <p class='h-text-'>
