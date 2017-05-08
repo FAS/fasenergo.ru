@@ -6,14 +6,22 @@
 export const forEach = ($elements, fn) => Array.prototype.forEach.call($elements, fn)
 
 /**
- * Append batch of nodes to the end of parent with sinlge DOM redraw
+ * Collect Elements into single fragment.
+ * Result can be used for various operations without causing additional reflows
+ * @param  {NodeList|Element[]} $elements Elements to be collected into single fragment
+ * @return {DocumentFragment} Collected into fragment elements
+ */
+export const fragment = ($elements) => {
+  const $fragment = document.createDocumentFragment()
+
+  forEach($elements, ($e) => $fragment.appendChild($e))
+
+  return $fragment
+}
+
+/**
+ * Append batch of Elements to the end of parent with single page reflow
  * @param  {Element}            $parent   Parent to which should be appended children
  * @param  {NodeList|Element[]} $children Children to be appended
  */
-export const appendChildren = ($parent, $children) => {
-  const $fragment = document.createDocumentFragment()
-
-  forEach($children, ($child) => $fragment.appendChild($child))
-
-  $parent.appendChild($fragment)
-}
+export const appendChildren = ($parent, $children) => $parent.appendChild(fragment($children))
