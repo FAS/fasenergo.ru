@@ -284,6 +284,10 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   {% endfor %}
 </div>
 
+<button id='js-catalog-show-all-btn' class='Btn o-btn--full Btn+ Btn--wide Btn--primary h-text++ h-margin-top h-align--center'>
+  Показать ещё (<span id='js-catalog-show-all-btn__items'></span>)
+</button>
+
 <aside>
 
   <h2>

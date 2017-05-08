@@ -1,15 +1,28 @@
 import debounce from 'lodash/debounce'
 import { forEach, prependChildren } from '../helpers'
 
+const PRODUCTS_PER_PAGE = 5
+
 const $filtersContainer = document.getElementById('js-catalog-filters')
 const $filters = $filtersContainer && $filtersContainer.querySelectorAll('input')
 const $productsContainer = document.getElementById('js-catalog')
 const $products = $productsContainer && $productsContainer.querySelectorAll('.js-catalog-product')
+const $showAllBtn = document.getElementById('js-catalog-show-all-btn')
+const $showAllBtnItems = document.getElementById('js-catalog-show-all-btn__items')
+
 const isFilter = ($el) => [...$filters].includes($el)
 const isSorter = ($el) => $el.matches('[data-order]')
 const getSortOrder = ($el) => $el.getAttribute('data-order')
 const setSortOrder = ($el, order) => $el.setAttribute('data-order', order)
 const getItemData = ($el) => JSON.parse($el.getAttribute('data-product'))
+const showItem = ($el) => {
+  $el.style.display = ''
+  $el.classList.remove('is-hidden')
+}
+const hideItem = ($el) => {
+  $el.style.display = 'none'
+  $el.classList.add('is-hidden')
+}
 
 const getFilterState = () => {
   const state = Object.keys($filters).reduce((state, key) => {
@@ -42,24 +55,29 @@ const getFilterState = () => {
     return state
   }, {})
 
-  console.log(state)
-
   return state
 }
 
-const updateProducts = () => {
+const updateProducts = (limit = PRODUCTS_PER_PAGE) => {
   const state = getFilterState()
   const $filtered = filterItems($products, state)
   const $sorted = sortItems($filtered, state)
+  const $limited = limit && limitItems($sorted, limit) || $sorted
 
   // Hide everything that was exluded by filter
   Array.from($products).forEach(($product) =>
-    $sorted.includes($product) ? ($product.style.display = '') : ($product.style.display = 'none')
+    $limited.includes($product) ? showItem($product) : hideItem($product)
   )
+
+  // Show "Show more" button whenever needed
+  $showAllBtnItems.innerHTML = $sorted.length - $limited.length
+  $sorted.length > $limited.length ? showItem($showAllBtn) : hideItem($showAllBtn)
 
   // Rearrenge elements by appending sorted to the end of container
   prependChildren($productsContainer, $sorted)
 }
+
+const limitItems = ($items, limit) => [...$items].slice(0, limit)
 
 const filterItems = ($items, state) => [...$items].filter(($item) => {
   const item = getItemData($item)
@@ -88,7 +106,7 @@ const sortItems = ($items, state) => [...$items].sort(($a, $b) => {
 
 if ($filtersContainer && $productsContainer) {
   // Init sorting
-  updateProducts($products)
+  updateProducts()
 
   $filtersContainer.addEventListener('click', (e) => {
     const $target = e.target
@@ -110,4 +128,7 @@ if ($filtersContainer && $productsContainer) {
   // @todo Delaying here just to wait while DOM will update before grabbing new filters state
   //       Clearly, wrong way to handle it, should be improved
   $filtersContainer.addEventListener('reset', debounce(updateProducts, 100))
+
+  // Show current filtered products without limits
+  $showAllBtn && $showAllBtn.addEventListener('click', (e) => updateProducts(false))
 }
