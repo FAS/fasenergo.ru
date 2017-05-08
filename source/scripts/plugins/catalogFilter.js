@@ -1,5 +1,5 @@
 import debounce from 'lodash/debounce'
-import { forEach, appendChildren } from '../helpers'
+import { forEach, prependChildren } from '../helpers'
 
 const $filtersContainer = document.getElementById('js-catalog-filters')
 const $filters = $filtersContainer && $filtersContainer.querySelectorAll('input')
@@ -58,7 +58,7 @@ const updateProducts = () => {
   )
 
   // Rearrenge elements by appending sorted to the end of container
-  appendChildren($productsContainer, $sorted)
+  prependChildren($productsContainer, $sorted)
 }
 
 const filterItems = ($items, state) => {

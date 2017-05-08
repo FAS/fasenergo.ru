@@ -20,6 +20,13 @@ export const fragment = ($elements) => {
 }
 
 /**
+ * Prepend batch of Elements to the beginning of parent with single page reflow
+ * @param  {Element}            $parent   Parent to which should be appended children
+ * @param  {NodeList|Element[]} $children Children to be appended
+ */
+export const prependChildren = ($parent, $children) => $parent.insertBefore(fragment($children), $parent.firstChild)
+
+/**
  * Append batch of Elements to the end of parent with single page reflow
  * @param  {Element}            $parent   Parent to which should be appended children
  * @param  {NodeList|Element[]} $children Children to be appended
