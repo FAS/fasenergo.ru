@@ -1,5 +1,5 @@
 import debounce from 'lodash/debounce'
-import { forEach, replaceChildren } from '../helpers'
+import { forEach, appendChildren } from '../helpers'
 
 const $filtersContainer = document.getElementById('js-catalog-filters')
 const $filters = $filtersContainer && $filtersContainer.querySelectorAll('input')
@@ -52,7 +52,13 @@ const updateProducts = () => {
   const $filtered = filterItems($products, state)
   const $sorted = sortItems($filtered, state)
 
-  replaceChildren($productsContainer, $sorted)
+  // Hide everything that was exluded by filter
+  Array.from($products).forEach(($product) =>
+    $sorted.includes($product) ? ($product.style.display = '') : ($product.style.display = 'none')
+  )
+
+  // Rearrenge elements by appending sorted to the end of container
+  appendChildren($productsContainer, $sorted)
 }
 
 const filterItems = ($items, state) => {

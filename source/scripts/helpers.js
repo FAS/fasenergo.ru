@@ -1,12 +1,20 @@
-export const forEach = ($items, fn) => Array.prototype.forEach.call($items, fn)
+/**
+ * Execute function for each Element
+ * @param  {NodeList|Element[]} $elements List of Elements to iterate
+ * @param  {Function}           fn        Function to execute
+ */
+export const forEach = ($elements, fn) => Array.prototype.forEach.call($elements, fn)
 
-// Replace inner content of parent node with new children
-export const replaceChildren = ($parent, $children) => {
+/**
+ * Append batch of nodes to the end of parent with sinlge DOM redraw
+ * @param  {Element}            $parent   Parent to which should be appended children
+ * @param  {NodeList|Element[]} $children Children to be appended
+ */
+export const appendChildren = ($parent, $children) => {
   const $fragment = document.createDocumentFragment()
 
   forEach($children, ($child) => $fragment.appendChild($child))
 
-  $parent.innerHTML = ''
   $parent.appendChild($fragment)
 }
 
