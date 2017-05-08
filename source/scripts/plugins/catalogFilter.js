@@ -95,7 +95,7 @@ if ($filtersContainer && $productsContainer) {
   updateProducts($products)
 
   $filtersContainer.addEventListener('click', (e) => {
-    const $this = e.target
+    const $target = e.target
     const $uncheckedInputs = $filtersContainer.querySelectorAll('input:not(:checked)')
 
     // @todo Sorters visual behavior should be deattached from $filtersContainer
@@ -103,9 +103,9 @@ if ($filtersContainer && $productsContainer) {
     forEach($uncheckedInputs, ($input) => isSorter($input) && setSortOrder($input, ''))
 
     // Ensure that we clicked into filter or sorter's input
-    if (isFilter($this)) {
+    if (isFilter($target)) {
       // If item has order, we're dealing with sorter and should toggle order on clicks
-      isSorter($this) && getSortOrder($this) === 'asc' ? setSortOrder($this, 'desc') : setSortOrder($this, 'asc')
+      isSorter($target) && getSortOrder($target) === 'asc' ? setSortOrder($target, 'desc') : setSortOrder($target, 'asc')
 
       updateProducts()
     }
