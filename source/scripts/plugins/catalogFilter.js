@@ -61,34 +61,30 @@ const updateProducts = () => {
   prependChildren($productsContainer, $sorted)
 }
 
-const filterItems = ($items, state) => {
-  return [...$items].filter(($item) => {
-    const item = getItemData($item)
+const filterItems = ($items, state) => [...$items].filter(($item) => {
+  const item = getItemData($item)
 
-    if (state.powerFrom && item.power < state.powerFrom) { return }
-    if (state.powerTo && item.power > state.powerTo) { return }
-    if (state.priceFrom && item.price < state.priceFrom) { return }
-    if (state.priceTo && item.price > state.priceTo) { return }
-    if (state.engineBrand && !state.engineBrand.includes(item.engineBrand)) { return }
-    if (state.mode && !state.mode.includes(item.mode)) { return }
-    if (state.noise && state.noise.some((n) => item.noise > n)) { return }
-    if (state.phases && !state.phases.includes(item.phases)) { return }
+  if (state.powerFrom && item.power < state.powerFrom) { return }
+  if (state.powerTo && item.power > state.powerTo) { return }
+  if (state.priceFrom && item.price < state.priceFrom) { return }
+  if (state.priceTo && item.price > state.priceTo) { return }
+  if (state.engineBrand && !state.engineBrand.includes(item.engineBrand)) { return }
+  if (state.mode && !state.mode.includes(item.mode)) { return }
+  if (state.noise && state.noise.some((n) => item.noise > n)) { return }
+  if (state.phases && !state.phases.includes(item.phases)) { return }
 
-    return true
-  })
-}
+  return true
+})
 
-const sortItems = ($items, state) => {
-  return [...$items].sort(($a, $b) => {
-    const a = getItemData($a)
-    const b = getItemData($b)
+const sortItems = ($items, state) => [...$items].sort(($a, $b) => {
+  const a = getItemData($a)
+  const b = getItemData($b)
 
-    if (state.sort && state.sort === 'byPrice' && state.sortOrder === 'desc') { return b.price - a.price }
-    if (state.sort && state.sort === 'byPrice' && state.sortOrder === 'asc') { return a.price - b.price }
-    if (state.sort && state.sort === 'byPower' && state.sortOrder === 'desc') { return b.power - a.power }
-    if (state.sort && state.sort === 'byPower' && state.sortOrder === 'asc') { return a.power - b.power }
-  })
-}
+  if (state.sort && state.sort === 'byPrice' && state.sortOrder === 'desc') { return b.price - a.price }
+  if (state.sort && state.sort === 'byPrice' && state.sortOrder === 'asc') { return a.price - b.price }
+  if (state.sort && state.sort === 'byPower' && state.sortOrder === 'desc') { return b.power - a.power }
+  if (state.sort && state.sort === 'byPower' && state.sortOrder === 'asc') { return a.power - b.power }
+})
 
 if ($filtersContainer && $productsContainer) {
   // Init sorting
