@@ -1,4 +1,5 @@
 import 'babel-polyfill'
+import './polyfill'
 
 import $ from 'jquery'
 import './plugins/scroll-on-click'
