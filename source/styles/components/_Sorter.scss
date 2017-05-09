@@ -17,7 +17,7 @@
     }
 
     &[data-order='desc']:checked ~ .Sorter__icon {
-      transform: rotate(-.25turn);
+      transform: rotate(.25turn);
     }
 
   }
@@ -36,7 +36,7 @@
 
     padding-left: .5em;
 
-    transform: rotate(.25turn); // We're rotatin it, because in origin it's `dir-right`, facing right icon
+    transform: rotate(-.25turn); // We're rotatin it, because in origin it's `dir-right`, facing right icon
 
     font-size: .6em;
   }
