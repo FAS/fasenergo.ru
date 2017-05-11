@@ -110,7 +110,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           class = 'Field- h-inline-block h-margin-sides--',
           style = 'max-width: 120px'
         ) }}
-        руб.
+        рублей
       {% endcall %}
 
       {% call FilterRow(
@@ -262,7 +262,9 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
         {% if price %}
         {# @todo Temporary fix for numbro issue with lack of space before RUB #}
-        <p class='h-h3'>{{ _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб', ' руб') }}</p>
+        <p class='h-h3'>{{
+          _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей']))
+        }}</p>
         {% endif %}
 
         {% if g.equipment %}
