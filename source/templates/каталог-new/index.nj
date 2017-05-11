@@ -32,10 +32,44 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
 <aside id='js-catalog-filters'>
 
-  {# @todo Remove style in favor of helper #}
-  {# <p class='h-align--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p> #}
+  <div class='o-clearfix h-margin-bottom'>
 
-  <form class='Box h-padding-sides+-- h-padding-ends'>
+    <form class='h-float--left'>
+      {{ components.Checkbox(
+        type = 'radio',
+        id = 'presetPopular',
+        name = 'preset',
+        value = 'popular',
+        label = 'Популярные',
+        inputClass = 'js-catalog-preset',
+        checked = true
+      ) }}
+      {{ components.Checkbox(
+        type = 'radio',
+        id = 'presetPower710',
+        name = 'preset',
+        value = 'powerFromTo',
+        inputClass = 'js-catalog-preset',
+        attrs = { 'data-preset': [7, 10]|dump },
+        label = '7-10 кВт'
+      ) }}
+      {{ components.Checkbox(
+        type = 'radio',
+        id = 'presetPower1020',
+        name = 'preset',
+        value = 'powerFromTo',
+        inputClass = 'js-catalog-preset',
+        attrs = { 'data-preset': [10, 20]|dump },
+        label = '10-20 кВт'
+      ) }}
+    </form>
+
+    {# @todo Remove style in favor of helper #}
+    <p class='h-float--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p>
+
+  </div>
+
+  <form id='js-catalog-filters-form' class='Box h-padding-sides+-- h-padding-ends'>
     <table class='h-cells-padding-- h-margin-bottom0'>
 
       {% macro FilterRow(title, filterTdClass, spaceChilds, tip, tipContent) %}

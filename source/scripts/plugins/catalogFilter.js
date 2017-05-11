@@ -5,6 +5,7 @@ const PRODUCTS_PER_PAGE = 10
 
 const $filtersContainer = document.getElementById('js-catalog-filters')
 const $filters = $filtersContainer && $filtersContainer.querySelectorAll('input')
+const $filtersForm = document.getElementById('js-catalog-filters-form')
 const $productsContainer = document.getElementById('js-catalog')
 const $products = $productsContainer && $productsContainer.querySelectorAll('.js-catalog-product')
 const $showAllBtn = document.getElementById('js-catalog-show-all-btn')
@@ -12,6 +13,8 @@ const $showAllBtnItems = document.getElementById('js-catalog-show-all-btn__items
 
 const isFilter = ($el) => [...$filters].includes($el)
 const isSorter = ($el) => $el.matches('[data-order]')
+const isPreset = ($el) => $el.matches('.js-catalog-preset')
+const getPresetData = ($el) => JSON.parse($el.getAttribute('data-preset'))
 const getSortOrder = ($el) => $el.getAttribute('data-order')
 const setSortOrder = ($el, order) => $el.setAttribute('data-order', order)
 const getItemData = ($el) => JSON.parse($el.getAttribute('data-product'))
@@ -25,7 +28,7 @@ const hideItem = ($el) => {
 }
 
 const getFilterState = () => {
-  const state = Object.keys($filters).reduce((state, key) => {
+  return Object.keys($filters).reduce((state, key) => {
     const $filter = $filters[key]
     const name = $filter.name
     const value = isNaN(+$filter.value) ? $filter.value : +$filter.value
@@ -35,6 +38,7 @@ const getFilterState = () => {
         if ($filter.checked) {
           // Write sort order
           isSorter($filter) && (state.sortOrder = getSortOrder($filter))
+          isPreset($filter) && (state.presetData = getPresetData($filter))
           state[name] = value
         }
         return state
@@ -54,12 +58,11 @@ const getFilterState = () => {
 
     return state
   }, {})
-
-  return state
 }
 
-const updateProducts = (limit = PRODUCTS_PER_PAGE) => {
-  const state = getFilterState()
+const updateProducts = (state, limit = PRODUCTS_PER_PAGE) => {
+  console.log(state)
+
   const $filtered = filterItems($products, state)
   const $sorted = sortItems($filtered, state)
   const $limited = limit && limitItems($sorted, limit) || $sorted
@@ -77,11 +80,22 @@ const updateProducts = (limit = PRODUCTS_PER_PAGE) => {
   prependChildren($productsContainer, $sorted)
 }
 
+const presetState = (state) => {
+  const { preset, presetData } = state
+
+  return Object.assign({}, state, {
+    popular: preset === 'popular',
+    powerFrom: preset === 'powerFromTo' && presetData && presetData[0],
+    powerTo: preset === 'powerFromTo' && presetData && presetData[1]
+  })
+}
+
 const limitItems = ($items, limit) => [...$items].slice(0, limit)
 
 const filterItems = ($items, state) => [...$items].filter(($item) => {
   const item = getItemData($item)
 
+  if (state.popular && item.price > 200000) { return }
   if (state.powerFrom && item.power < state.powerFrom) { return }
   if (state.powerTo && item.power > state.powerTo) { return }
   if (state.priceFrom && item.price < state.priceFrom) { return }
@@ -105,30 +119,53 @@ const sortItems = ($items, state) => [...$items].sort(($a, $b) => {
 })
 
 if ($filtersContainer && $productsContainer) {
+  let $lastPreset = [...$filters].filter(($f) => isPreset($f) && $f.matches(':checked')).shift()
+  let isPresetActive
+  let $lastSorter = [...$filters].filter(($f) => isSorter($f) && $f.matches(':checked')).shift()
+
   // Init sorting
-  updateProducts()
+  updateProducts(getFilterState())
 
   $filtersContainer.addEventListener('click', (e) => {
     const $target = e.target
-    const $uncheckedInputs = $filtersContainer.querySelectorAll('input:not(:checked)')
+    let presetedState
 
-    // @todo Sorters visual behavior should be deattached from $filtersContainer
-    // Reset order of unchecked sorters
-    forEach($uncheckedInputs, ($input) => isSorter($input) && setSortOrder($input, ''))
-
-    // Ensure that we clicked into filter or sorter's input
+    // Ensure that we clicked into preset, filter or sorter's input
     if (isFilter($target)) {
-      // If item has order, we're dealing with sorter and should toggle order on clicks
-      isSorter($target) && getSortOrder($target) === 'asc' ? setSortOrder($target, 'desc') : setSortOrder($target, 'asc')
+      if (isPreset($target)) {
+        $lastPreset === $target
+          ? (isPresetActive = !isPresetActive) && ($target.checked = false)
+          : (isPresetActive = false)
 
-      updateProducts()
+        $lastPreset = $target
+
+        presetedState = presetState(getFilterState())
+        let { presetData } = presetedState
+
+        $target.value === 'popular' && $filtersForm.reset()
+
+        $target.value === 'powerFromTo' && forEach($filters, ($f) => {
+          if ($f.name === 'powerFrom') { $f.value = presetData && presetData[0] || '' }
+          if ($f.name === 'powerTo') { $f.value = presetData && presetData[1] || '' }
+        })
+      }
+
+      if (isSorter($target)) {
+        $lastSorter === $target
+          ? getSortOrder($target) === 'asc' ? setSortOrder($target, 'desc') : setSortOrder($target, 'asc')
+          : setSortOrder($target, 'asc')
+
+        $lastSorter = $target
+      }
+
+      updateProducts(presetedState || getFilterState())
     }
   })
-  $filtersContainer.addEventListener('input', debounce(() => updateProducts(), 700))
+  $filtersContainer.addEventListener('input', debounce(() => updateProducts(getFilterState()), 700))
   // @todo Delaying here just to wait while DOM will update before grabbing new filters state
   //       Clearly, wrong way to handle it, should be improved
-  $filtersContainer.addEventListener('reset', debounce(() => updateProducts(), 100))
+  $filtersContainer.addEventListener('reset', debounce(() => updateProducts(getFilterState()), 100))
 
   // Show current filtered products without limits
-  $showAllBtn && $showAllBtn.addEventListener('click', (e) => updateProducts(false))
+  $showAllBtn && $showAllBtn.addEventListener('click', (e) => updateProducts(getFilterState(), false))
 }
