@@ -15,6 +15,12 @@ selectGeneratorsMinPower = (data) -> getGeneratorHighestPower(getLeastPowerfulGe
 selectGeneratorsMaxPrice = (data) -> getMostExpensiveGenerator(selectGenerators(data)).price
 selectGeneratorsMinPrice = (data) -> getLeastExpensiveGenerator(selectGenerators(data)).price
 
+selectGeneratorsMaxServiceLife = (data) ->
+  selectGenerators(data).map((g) => g.warranty.serviceLife).reduce((a, b) => if a > b then a else b)
+
+selectGeneratorsMinServiceLife = (data) ->
+  selectGenerators(data).map((g) => g.warranty.serviceLife).reduce((a, b) => if a < b then a else b)
+
 getGeneratorHighestPower = (entry, type) =>
   power = entry.specs.power
 
@@ -131,6 +137,8 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'selectGeneratorsMinPower', selectGeneratorsMinPower
   env.addGlobal 'selectGeneratorsMaxPrice', selectGeneratorsMaxPrice
   env.addGlobal 'selectGeneratorsMinPrice', selectGeneratorsMinPrice
+  env.addGlobal 'selectGeneratorsMaxServiceLife', selectGeneratorsMaxServiceLife
+  env.addGlobal 'selectGeneratorsMinServiceLife', selectGeneratorsMinServiceLife
   env.addGlobal 'getGeneratorHighestPower', getGeneratorHighestPower
   env.addGlobal 'getGeneratorMaxPowers', getGeneratorMaxPowers
   env.addGlobal 'getMostPowerfulGenerator', getMostPowerfulGenerator
@@ -168,6 +176,8 @@ module.exports = {
   selectGeneratorsMinPower
   selectGeneratorsMaxPrice
   selectGeneratorsMinPrice
+  selectGeneratorsMaxServiceLife
+  selectGeneratorsMinServiceLife
   getGeneratorHighestPower
   getGeneratorMaxPowers
   getMostPowerfulGenerator
