@@ -1,7 +1,7 @@
 import debounce from 'lodash/debounce'
 import { forEach, prependChildren } from '../helpers'
 
-const PRODUCTS_PER_PAGE = 5
+const PRODUCTS_PER_PAGE = 10
 
 const $filtersContainer = document.getElementById('js-catalog-filters')
 const $filters = $filtersContainer && $filtersContainer.querySelectorAll('input')
