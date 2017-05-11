@@ -244,11 +244,11 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   <article class='js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides' data-product='{{ gData|dump }}'>
     <div class=' o-grid h-childs-displace+'>
 
-      <div class='o-grid__item h-1/4'>
+      <div class='o-grid__item h-2/7'>
         <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photoUrl }}' alt='{{ g.title|striptags }}'></a>
       </div>
 
-      <div class='o-grid__item h-2/4'>
+      <div class='o-grid__item h-3/7'>
         <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ g.model }}</a></h2>
         <p>
           Мощность: <strong>{{ maxPower }} кВт</strong><br>
@@ -258,7 +258,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         </p>
       </div>
 
-      <div class='o-grid__item h-1/4'>
+      <div class='o-grid__item h-2/7'>
 
         {% if price %}
         {# @todo Temporary fix for numbro issue with lack of space before RUB #}
