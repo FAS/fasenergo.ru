@@ -262,7 +262,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
         {% if price %}
         {# @todo Temporary fix for numbro issue with lack of space before RUB #}
-        <p class='h-h3'>{{
+        <p class='h-h5'>{{
           _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей']))
         }}</p>
         {% endif %}
