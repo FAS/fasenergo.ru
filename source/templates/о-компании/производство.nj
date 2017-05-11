@@ -20,13 +20,13 @@ metaDesc:         Производство
 {% if env.staging or not env.production %}
 {{ components.Images(
   images = [{
-      src: 'http://placehold.it/1350x700',
+      src: 'https://placehold.it/1350x700',
       alt: 'Описание картинки'
     },{
-      src: 'http://placehold.it/1350x450',
+      src: 'https://placehold.it/1350x450',
       alt: 'Описание картинки'
     },{
-      src: 'http://placehold.it/1350x450',
+      src: 'https://placehold.it/1350x450',
       alt: 'Описание картинки'
     }]
 ) }}
@@ -38,10 +38,10 @@ metaDesc:         Производство
 {% if env.staging or not env.production %}
 {{ components.Images(
   images = [{
-      src: 'http://placehold.it/1350x700',
+      src: 'https://placehold.it/1350x700',
       alt: 'Описание картинки'
     },{
-      src: 'http://placehold.it/1350x450',
+      src: 'https://placehold.it/1350x450',
       alt: 'Описание картинки'
     }]
 ) }}

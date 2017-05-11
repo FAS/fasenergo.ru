@@ -11,7 +11,7 @@
  #
  # @example
  #   {{ components.Image(
- #     src = 'http://placehold.it/1350x550',
+ #     src = 'https://placehold.it/1350x550',
  #     caption = 'Тестирование двигателей на производстве',
  #     alt = 'Описание картинки',
  #     width = '600px'

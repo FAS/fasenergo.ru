@@ -33,7 +33,7 @@
 
     {% set pageFullUrl = site.homepage + page.url %}
 
-    {{ Item('Поделиться Вконтакте', 'vk', 'http://vk.com/share.php?url=' + pageFullUrl) }}
+    {{ Item('Поделиться Вконтакте', 'vk', 'https://vk.com/share.php?url=' + pageFullUrl) }}
     {{ Item('Поделиться в Facebook', 'facebook', 'https://www.facebook.com/sharer.php?u=' + pageFullUrl) }}
     {{ Item('Поделиться в Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + pageFullUrl + '&text=' + page.contentTitle + '&via=' + _.trimStart(site.twitter, '@') + '&hashtags=fasenergo') }}
     {{ Item('Поделиться в Google+', 'google-plus', 'https://plus.google.com/share?url=' + pageFullUrl) }}

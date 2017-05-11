@@ -54,7 +54,7 @@ applyWrapperContent: false
 
 {% call components.Example(title = 'Иллюстрация') -%}
 {% raw %}{{ components.Image(
-  src = 'http://placehold.it/1350x550',
+  src = 'https://placehold.it/1350x550',
   caption = 'Тестирование двигателей на производстве',
   alt = 'Описание картинки',
   width = '600px'
@@ -63,7 +63,7 @@ applyWrapperContent: false
 
 {% call components.Example(title = 'Расположение иллюстраций') -%}
 {% raw %}{{ components.Image(
-  src = 'http://placehold.it/250x150',
+  src = 'https://placehold.it/250x150',
   caption = 'Подпись картинки',
   alt = 'Описание картинки',
   position = 'left'
@@ -72,7 +72,7 @@ applyWrapperContent: false
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
 {% raw %}{{ components.Image(
-  src = 'http://placehold.it/250x150',
+  src = 'https://placehold.it/250x150',
   alt = 'Описание картинки',
   position = 'right'
 ) }}{% endraw %}
@@ -83,13 +83,13 @@ applyWrapperContent: false
 {% call components.Example(title = 'Набор иллюстраций') -%}
 {% raw %}{{ components.Images(
   images = [{
-    src: 'http://placehold.it/1350x700',
+    src: 'https://placehold.it/1350x700',
     alt: 'Описание картинки'
   },{
-    src: 'http://placehold.it/1350x450',
+    src: 'https://placehold.it/1350x450',
     alt: 'Описание картинки'
   },{
-    src: 'http://placehold.it/1350x450',
+    src: 'https://placehold.it/1350x450',
     alt: 'Описание картинки'
   }],
   caption = 'Проект каскада газовых генераторов'
@@ -154,7 +154,7 @@ applyWrapperContent: false
   desc = 'Описание новости',
   date = '2017-04-25T11:00:00',
   url = '#',
-  image = 'http://placehold.it/1350x550'
+  image = 'https://placehold.it/1350x550'
 ) }}{% endraw %}
 {% endcall %}
 
@@ -170,7 +170,7 @@ applyWrapperContent: false
   desc = 'Описание акции',
   date = '2017-04-25T11:00:00',
   url = '#',
-  image = 'http://placehold.it/1350x550'
+  image = 'https://placehold.it/1350x550'
 ) }}{% endraw %}
 {% endcall %}
 
