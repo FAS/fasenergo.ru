@@ -91,9 +91,9 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
 
   enclosure: t.struct
     # исполнение
-    type: t.maybe t.enums.of ['закрытое', 'открытое', 'контейнерное', 'закрытое в металическом корпусе', 'закрытое в пластиковом корпусе']
+    type: t.maybe t.enums.of ['закрытое', 'открытое']
     # материал
-    material: t.maybe t.enums.of ['сталь', 'нержавеющая сталь']
+    material: t.maybe t.enums.of ['пластик', 'метал']
     # покрытие
     coating: t.maybe t.union [t.String, False]
     # теплоизоляция

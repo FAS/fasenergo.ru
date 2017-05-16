@@ -73,8 +73,8 @@
     cooling: null
   engine: loncin-g390f
   enclosure:
-    type: закрытое в пластиковом корпусе
-    material: null
+    type: закрытое
+    material: пластик
     coating: null
     thermalInsulation: null
     protection: null
@@ -167,8 +167,8 @@
     cooling: null
   engine: loncin-g390f
   enclosure:
-    type: закрытое в металическом корпусе
-    material: null
+    type: закрытое
+    material: метал
     coating: null
     thermalInsulation: null
     protection: null
@@ -258,8 +258,8 @@
     cooling: null
   engine: loncin-g390f
   enclosure:
-    type: закрытое в пластиковом корпусе
-    material: null
+    type: закрытое
+    material: пластик
     coating: null
     thermalInsulation: null
     protection: null
@@ -352,8 +352,8 @@
     cooling: null
   engine: loncin-g390f
   enclosure:
-    type: закрытое в металическом корпусе
-    material: null
+    type: закрытое
+    material: метал
     coating: null
     thermalInsulation: null
     protection: null
@@ -443,8 +443,8 @@
     cooling: null
   engine: loncin-lc2v78f-1
   enclosure:
-    type: закрытое в пластиковом корпусе
-    material: null
+    type: закрытое
+    material: пластик
     coating: null
     thermalInsulation: null
     protection: null
@@ -537,8 +537,8 @@
     cooling: null
   engine: loncin-lc2v78f-1
   enclosure:
-    type: закрытое в металическом корпусе
-    material: null
+    type: закрытое
+    material: метал
     coating: null
     thermalInsulation: null
     protection: null
@@ -628,8 +628,8 @@
     cooling: null
   engine: loncin-lc2v78f-1
   enclosure:
-    type: закрытое в пластиковом корпусе
-    material: null
+    type: закрытое
+    material: пластик
     coating: null
     thermalInsulation: null
     protection: null
@@ -722,8 +722,8 @@
     cooling: null
   engine: loncin-lc2v78f-1
   enclosure:
-    type: закрытое в металическом корпусе
-    material: null
+    type: закрытое
+    material: метал
     coating: null
     thermalInsulation: null
     protection: null
