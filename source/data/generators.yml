@@ -1,4 +1,98 @@
 ---
+фас-5-11в-5-квт:
+  slug: фас-5-11в-5-квт
+  meta:
+    title: Газовый генератор ФАС-5/11В (5 кВт)
+    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 5 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: 430511
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-5/11В
+  title: Газовый генератор <span class='text-red'>ФАС-5/11В</span> (5 кВт)
+  price: 126000
+  priceBeforeDiscount: null
+  discount: null
+  availability: available
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: 500
+  desc: |
+    <p>Газовые генераторы ФАС-5/11В предназначены для аварийного электроснабжения.</p>
+    <p>Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 5 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Серия “B” производится на базе двигателей Loncin G390F, объемом 390сс.</p>
+    <p>Электрогенераторные установки с воздушной системой охлаждения могут комплектоваться автоматикой и системой автоматического ввода резерва (опция).</p>
+    <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
+  features: null
+  photos:
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--front.jpg
+      main: true
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--front-right.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--front-left.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--left.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--back-left.jpg
+    - url: generators/ФАС-5-1В/Газовый-генератор-ФАС-5-1В--back-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment: null
+  specs:
+    power:
+      ng:
+        max: 5
+      lpg:
+        max: 5
+    current:
+      _legacy: 27,3
+      ng: null
+      lpg: null
+    voltage: 220
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0.4 м³/ч * 1 кВт
+      lpg: 0.36 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engine: loncin-g390f
+  enclosure:
+    type: закрытое в пластиковом корпусе
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    _legacySize: 1058х705х620
+    size:
+      length: null
+      width: null
+      height: null
+    weight: 90
+
+
 фас-5-1в-5-квт:
   slug: фас-5-1в-5-квт
   meta:
@@ -76,7 +170,101 @@
     cooling: null
   engine: loncin-g390f
   enclosure:
-    type: закрытое
+    type: закрытое в металическом корпусе
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    _legacySize: 1058х705х620
+    size:
+      length: null
+      width: null
+      height: null
+    weight: 90
+
+
+фас-6-11в-6-квт:
+  slug: фас-6-11в-6-квт
+  meta:
+    title: Газовый генератор ФАС-6/11В (6 кВт)
+    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 6 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: 430611
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-6/11В
+  title: Газовый генератор <span class='text-red'>ФАС-6/11В</span> (6 кВт)
+  price: 163000
+  priceBeforeDiscount: null
+  discount: null
+  availability: available
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: 500
+  desc: |
+    <p>Газовые генераторы ФАС-6/11В предназначены для аварийного электроснабжения.</p>
+    <p>Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 6 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Серия “B” производится на базе двигателей Loncin G390F, объемом 390сс.</p>
+    <p>Электрогенераторные установки с воздушной системой охлаждения могут комплектоваться автоматикой и системой автоматического ввода резерва (опция).</p>
+    <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
+  features: null
+  photos:
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--front.jpg
+      main: true
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--front-right.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--front-left.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--left.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--back-left.jpg
+    - url: generators/ФАС-6-1В/Газовый-генератор-ФАС-6-1В--back-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment: null
+  specs:
+    power:
+      ng:
+        max: 6
+      lpg:
+        max: 6
+    current:
+      _legacy: 34
+      ng: null
+      lpg: null
+    voltage: 220
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0.4 м³/ч * 1 кВт
+      lpg: 0.36 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engine: loncin-g390f
+  enclosure:
+    type: закрытое в пластковом корпусе
     material: null
     coating: null
     thermalInsulation: null
@@ -170,7 +358,7 @@
     cooling: null
   engine: loncin-g390f
   enclosure:
-    type: закрытое
+    type: закрытое в металическом корпусе
     material: null
     coating: null
     thermalInsulation: null
@@ -185,6 +373,97 @@
       width: null
       height: null
     weight: 90
+
+
+фас-8-11в-8-квт:
+  slug: фас-8-11в-8-квт
+  meta:
+    title: Газовый генератор ФАС-8/11В (8 кВт)
+    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 8 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: 430811
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-8/11В
+  title: Газовый генератор <span class='text-red'>ФАС-8/11В</span> (8 кВт)
+  price: 208000
+  priceBeforeDiscount: null
+  discount: null
+  availability: available
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: 500
+  desc: |
+    <p>Газовые генераторы ФАС-8/11В предназначены для аварийного электроснабжения.</p>
+    <p>Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 8 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Серия “B” производится на базе двигателей Loncin LC2V78FD-1, объемом 678сс.</p>
+    <p>Электрогенераторные установки с воздушной системой охлаждения могут комплектоваться автоматикой и системой автоматического ввода резерва (опция).</p>
+    <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
+  features: null
+  photos:
+    - url: generators/ФАС-8-1В/Газовый-генератор-ФАС-8-1В--front.jpg
+      main: true
+    - url: generators/ФАС-8-1В/Газовый-генератор-ФАС-8-1В--front-left.jpg
+    - url: generators/ФАС-8-1В/Газовый-генератор-ФАС-8-1В--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment: null
+  specs:
+    power:
+      ng:
+        max: 8
+      lpg:
+        max: 8
+    current:
+      _legacy: 41,8
+      ng: null
+      lpg: null
+    voltage: 220
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0.42 м³/ч * 1 кВт
+      lpg: 0.38 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engine: loncin-lc2v78f-1
+  enclosure:
+    type: закрытое в пластиковом корпусе
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    _legacySize: 1058х705х620
+    size:
+      length: null
+      width: null
+      height: null
+    weight: 125
 
 
 фас-8-1в-8-квт:
@@ -261,7 +540,98 @@
     cooling: null
   engine: loncin-lc2v78f-1
   enclosure:
-    type: закрытое
+    type: закрытое в металическом корпусе
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    _legacySize: 1058х705х620
+    size:
+      length: null
+      width: null
+      height: null
+    weight: 125
+
+
+фас-10-11в-10-квт:
+  slug: фас-10-11в-10-квт
+  meta:
+    title: Газовый генератор ФАС-10/11В (10 кВт)
+    description: Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 10 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.
+  type: Газовые генераторы
+  article: 431011
+  manufacturer:
+    brand: Фасэнергомаш
+    country: РФ
+  series: null
+  model: ФАС-10/11В
+  title: Газовый генератор <span class='text-red'>ФАС-10/11В</span> (10 кВт)
+  price: 257000
+  priceBeforeDiscount: null
+  discount: null
+  availability: available
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: 500
+  desc: |
+    <p>Газовые генераторы ФАС-10/11В предназначены для аварийного электроснабжения.</p>
+    <p>Однофазный газовый электрогенератор с воздушным охлаждением, мощностью 10 кВт, изготавливаются как в закрытом шумопоглощающем корпусе, так и без корпуса на раме, с возможностью автоматического запуска в случае отключения электросети.</p>
+    <p>Двух топливная система позволяет использовать в качестве топлива сжиженный (пропан-бутан) или природный газ (метан).</p>
+    <p>Серия “B” производится на базе двигателей Loncin LC2V78FD-1, объемом 678сс.</p>
+    <p>Электрогенераторные установки с воздушной системой охлаждения могут комплектоваться автоматикой и системой автоматического ввода резерва (опция).</p>
+    <p>Гарантия на воздушные электрогенераторные установки производимые нашей компанией составляет с момента отгрузки 18 месяцев, с момента эксплуатации один год, либо 500 моточасов.</p>
+  features: null
+  photos:
+    - url: generators/ФАС-8-1В/Газовый-генератор-ФАС-8-1В--front.jpg
+      main: true
+    - url: generators/ФАС-8-1В/Газовый-генератор-ФАС-8-1В--front-left.jpg
+    - url: generators/ФАС-8-1В/Газовый-генератор-ФАС-8-1В--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment: null
+  specs:
+    power:
+      ng:
+        max: 10
+      lpg:
+        max: 10
+    current:
+      _legacy: 41,8
+      ng: null
+      lpg: null
+    voltage: 220
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0.42 м³/ч * 1 кВт
+      lpg: 0.38 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engine: loncin-lc2v78f-1
+  enclosure:
+    type: закрытое в пластиковом корпусе
     material: null
     coating: null
     thermalInsulation: null
@@ -320,9 +690,9 @@
   specs:
     power:
       ng:
-        max: 8
+        max: 10
       lpg:
-        max: 8
+        max: 10
     current:
       _legacy: 41,8
       ng: null
@@ -352,7 +722,7 @@
     cooling: null
   engine: loncin-lc2v78f-1
   enclosure:
-    type: закрытое
+    type: закрытое в металическом корпусе
     material: null
     coating: null
     thermalInsulation: null
