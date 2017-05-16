@@ -184,6 +184,7 @@
         <tr><th class='h-text--'>Тип покдлючения</th><td>Прямое\к резервуару</td></tr>
         <tr><th class='h-text--'>Время безостановочной работы</th><td>Круглосуточно</td></tr>
         {% if enclosure.type %}<tr><th class='h-text--'>Исполнение</th><td>{{ enclosure.type|capitalize }}</td></tr>{% endif %}
+        {% if enclosure.material %}<tr><th class='h-text--'>Материал исполнения</th><td>{{ enclosure.material|capitalize }}</td></tr>{% endif %}
       </table>
 
       <h3 class='h-h5'>Габариты и масса:</h3>
