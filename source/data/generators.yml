@@ -258,7 +258,7 @@
     cooling: null
   engine: loncin-g390f
   enclosure:
-    type: закрытое в пластковом корпусе
+    type: закрытое в пластиковом корпусе
     material: null
     coating: null
     thermalInsulation: null
