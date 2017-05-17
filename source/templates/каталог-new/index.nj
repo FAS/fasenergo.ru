@@ -465,7 +465,8 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     </div>
     <div class='o-grid__item h-1/2'>
       <ul class='{# g-list0 o-iconic-list #} h-childs-space-top+--'>
-        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/контакты/дилеры/'>Где купить</a></li>
+        {# @todo Put back `href='/контакты/дилеры/'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
+        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/контакты/'>Где купить</a></li>
         {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Как выбрать генератор?</a></li> #}
         <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='услуги/'>Услуги</a></li>
         <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/решения/'>Решения</a></li>

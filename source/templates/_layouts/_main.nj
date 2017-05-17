@@ -36,7 +36,8 @@
       {% if env.staging or not env.production %}
       <p class='h-margin-bottom--'><button class='Btn Btn--solid o-btn--full Btn- h-text-'>{{ components.Icon('phone', 'Icon--left') }}Заказать звонок</button></p>
       {% endif %}
-      <p><a href='/контакты/дилеры/' class='Btn o-btn--full Btn- h-text-'>{{ components.Icon('cart', 'Icon--left') }}Где купить?</a></p>
+      {# @todo Put back `href='/контакты/дилеры/'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
+      <p><a href='/контакты/' class='Btn o-btn--full Btn- h-text-'>{{ components.Icon('cart', 'Icon--left') }}Где купить?</a></p>
     </aside>
   </div>
 
