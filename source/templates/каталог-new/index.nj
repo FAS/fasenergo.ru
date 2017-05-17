@@ -431,22 +431,22 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   <div class='o-grid h-childs-displace++ h-text+'>
     <div class='o-grid__item h-1/2'>
       <ul class='g-list0 o-iconic-list h-childs-space-top+--'>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Преимущества наших генераторов</a></li>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Результаты испытаний нашей продукции</a></li>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}
+        {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li> #}
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='/продукция/преимущества-наших-генераторов/'>Преимущества наших генераторов</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='/результаты-испытаний/'>Результаты испытаний нашей продукции</a></li>
+        {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}
           <p class='h-margin-bottom--'><a href='#'>Главное о газовых генераторах</a></p>
           <p class='h-text-'>Преимущества,&nbsp;особенности, сравнение&nbsp;с&nbsp;дизельными и бензиновыми</p>
-        </li>
+        </li> #}
       </ul>
     </div>
     <div class='o-grid__item h-1/2'>
       <ul class='g-list0 o-iconic-list h-childs-space-top+--'>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Где купить</a></li>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Как выбрать генератор?</a></li>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Услуги</a></li>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Решения</a></li>
-        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Гарантия</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='/контакты/дилеры/'>Где купить</a></li>
+        {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Как выбрать генератор?</a></li> #}
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='услуги/'>Услуги</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='/решения/'>Решения</a></li>
+        <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='/продукция/гарантия/'>Гарантия</a></li>
       </ul>
     </div>
   </div>
