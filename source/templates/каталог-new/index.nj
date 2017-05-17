@@ -58,7 +58,8 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     </form>
 
     {# @todo Remove style in favor of helper #}
-    <p class='h-float--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p>
+    {# @todo Enable when content will be available #}
+    {# <p class='h-float--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p> #}
 
   </div>
 
