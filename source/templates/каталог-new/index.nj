@@ -94,7 +94,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         кВт
       </div>
 
-      <div class='o-gird__item h-1/4 h-1/3@lap h-text- h-text@lap'>
+      <div class='o-grid__item h-1/4 h-1/3@lap h-text- h-text@lap'>
         <button class='js-expand h-float--right h-bg-color--transparent h-padding0' data-expand='#js-expand-filters'>
           <span class='g-link' style='border-style: dashed' >Подобрать по характеристикам</span>
         </button>
