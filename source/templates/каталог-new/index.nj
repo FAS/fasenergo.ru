@@ -63,167 +63,173 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
   </div>
 
-  <form id='js-catalog-filters-form' class='Box h-padding-sides+-- h-padding-ends'>
-    <table class='h-cells-padding-- h-margin-bottom0'>
+  <form id='js-catalog-filters-form'>
 
-      {% macro FilterRow(title, filterTdClass, spaceChilds, tip, tipContent) %}
-      <tr>
-        <th class='h-align--left h-text- h-font-weight--normal h-align--top' scope='row' style='min-width: 160px; max-width: 160px;'>
-          <p><b>{{ title }}:</b></p>
-        </th>
-        <td class='h-align--top {{ filterTdClass }}'>
-          <div class='{{ 'h-childs-displace h-childs-displace+@lap' if spaceChilds }}'>
-            {{ caller() }}
-            {# {% if tip and tipContent %}
-            <p class='h-text- h-margin-top--'><i><a href='#' style='border-style: dashed'>{{ tip }}</a></i></p>
-            {% elseif tip %}
-            <p class='h-text- h-margin-top--'><i>{{ tip }}</i></p>
-            {% endif %} #}
-          </div>
-        </td>
-      </tr>
-      {% endmacro %}
+    <div class='h-margin-bottom'>
+      <b class='h-text- h-margin-right'>Мощность:</b>
+      {{ components.Field(
+        type = 'number',
+        id = 'filterPowerFrom',
+        name = 'powerFrom',
+        label = 'Мощность от',
+        displayLabel = false,
+        placeholder = 'от ' + numbro(selectGeneratorsMinPower(data)).format(),
+        class = 'Field- h-inline-block h-margin-right--',
+        style = 'max-width: 120px'
+      ) }}
+      –
+      {{ components.Field(
+        type = 'number',
+        id = 'filterPowerTo',
+        name = 'powerTo',
+        label = 'Мощность до',
+        displayLabel = false,
+        placeholder = 'до ' + numbro(selectGeneratorsMaxPower(data)).format(),
+        class = 'Field- h-inline-block h-margin-sides--',
+        style = 'max-width: 120px'
+      ) }}
+      кВт
+    </div>
 
-      {% call FilterRow(
-        title = 'Мощность',
-        filterTdClass = 'h-text--nowrap'
-      ) %}
-        {{ components.Field(
-          type = 'number',
-          id = 'filterPowerFrom',
-          name = 'powerFrom',
-          label = 'Мощность от',
-          displayLabel = false,
-          placeholder = 'от ' + numbro(selectGeneratorsMinPower(data)).format(),
-          class = 'Field- h-inline-block h-margin-right--',
-          style = 'max-width: 120px'
-        ) }}
-        –
-        {{ components.Field(
-          type = 'number',
-          id = 'filterPowerTo',
-          name = 'powerTo',
-          label = 'Мощность до',
-          displayLabel = false,
-          placeholder = 'до ' + numbro(selectGeneratorsMaxPower(data)).format(),
-          class = 'Field- h-inline-block h-margin-sides--',
-          style = 'max-width: 120px'
-        ) }}
-        кВт
-      {% endcall %}
+    <div class='Box h-padding-sides+-- h-padding-ends'>
 
-      {% call FilterRow(
-        title = 'Цена',
-        filterTdClass = 'h-text--nowrap',
-        tip = 'Зависит, прежде всего, от мощности и двигателя'
-      ) %}
-        {{ components.Field(
-          type = 'number',
-          id = 'filterPriceFrom',
-          name = 'priceFrom',
-          label = 'Цена от',
-          displayLabel = false,
-          placeholder = 'от ' + numbro(selectGeneratorsMinPrice(data)).format(),
-          class = 'Field- h-inline-block h-margin-right--',
-          style = 'max-width: 120px'
-        ) }}
-        –
-        {{ components.Field(
-          type = 'number',
-          id = 'filterPriceTo',
-          name = 'priceTo',
-          label = 'Цена до',
-          displayLabel = false,
-          placeholder = 'до ' + numbro(selectGeneratorsMaxPrice(data)).format(),
-          class = 'Field- h-inline-block h-margin-sides--',
-          style = 'max-width: 120px'
-        ) }}
-        рублей
-      {% endcall %}
+      <table class='h-cells-padding-- h-margin-bottom0'>
 
-      {% call FilterRow(
-        title = 'Двигатель',
-        spaceChilds = true,
-        tip = 'Какие двигатели у нас есть и на что это влияет?',
-        tipContent = '#'
-      ) %}
-        {% for brand in enginesBrands %}
-        {{ components.Checkbox(
-          id = 'filterEngineBrand' + brand|urlify({ toLower: false }),
-          name = 'engineBrand',
-          value = brand,
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = brand
-        ) }}
-        {% endfor %}
-      {% endcall %}
+        {% macro FilterRow(title, filterTdClass, spaceChilds, tip, tipContent) %}
+        <tr>
+          <th class='h-align--left h-text- h-font-weight--normal h-align--top' scope='row' style='min-width: 160px; max-width: 160px;'>
+            <p><b>{{ title }}:</b></p>
+          </th>
+          <td class='h-align--top {{ filterTdClass }}'>
+            <div class='{{ 'h-childs-displace h-childs-displace+@lap' if spaceChilds }}'>
+              {{ caller() }}
+              {# {% if tip and tipContent %}
+              <p class='h-text- h-margin-top--'><i><a href='#' style='border-style: dashed'>{{ tip }}</a></i></p>
+              {% elseif tip %}
+              <p class='h-text- h-margin-top--'><i>{{ tip }}</i></p>
+              {% endif %} #}
+            </div>
+          </td>
+        </tr>
+        {% endmacro %}
 
-      {% call FilterRow(
-        title = 'Режим работы',
-        spaceChilds = true
-      ) %}
-        {{ components.Checkbox(
-          id = 'filterModeMain',
-          name = 'mode',
-          value = 'основной',
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = 'Основной (круглосуточно)'
-        ) }}
-        {{ components.Checkbox(
-          id = 'filterModeStandby',
-          name = 'mode',
-          value = 'резервный',
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = 'Резервный (на несколько часов)'
-        ) }}
-      {% endcall %}
+        {% call FilterRow(
+          title = 'Цена',
+          filterTdClass = 'h-text--nowrap',
+          tip = 'Зависит, прежде всего, от мощности и двигателя'
+        ) %}
+          {{ components.Field(
+            type = 'number',
+            id = 'filterPriceFrom',
+            name = 'priceFrom',
+            label = 'Цена от',
+            displayLabel = false,
+            placeholder = 'от ' + numbro(selectGeneratorsMinPrice(data)).format(),
+            class = 'Field- h-inline-block h-margin-right--',
+            style = 'max-width: 120px'
+          ) }}
+          –
+          {{ components.Field(
+            type = 'number',
+            id = 'filterPriceTo',
+            name = 'priceTo',
+            label = 'Цена до',
+            displayLabel = false,
+            placeholder = 'до ' + numbro(selectGeneratorsMaxPrice(data)).format(),
+            class = 'Field- h-inline-block h-margin-sides--',
+            style = 'max-width: 120px'
+          ) }}
+          рублей
+        {% endcall %}
 
-      {% call FilterRow(
-        title = 'Уровень шума',
-        spaceChilds = true,
-        tip = 'Как выбрать уровень шума?',
-        tipContent = '#'
-      ) %}
-        {{ components.Checkbox(
-          id = 'filterNoiseLow',
-          name = 'noise',
-          value = 60,
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = 'Малошумный (до (60) дБ)'
-        ) }}
-      {% endcall %}
+        {% call FilterRow(
+          title = 'Двигатель',
+          spaceChilds = true,
+          tip = 'Какие двигатели у нас есть и на что это влияет?',
+          tipContent = '#'
+        ) %}
+          {% for brand in enginesBrands %}
+          {{ components.Checkbox(
+            id = 'filterEngineBrand' + brand|urlify({ toLower: false }),
+            name = 'engineBrand',
+            value = brand,
+            class = 'h-inline-block',
+            inputClass = 'h-margin-right---',
+            label = brand
+          ) }}
+          {% endfor %}
+        {% endcall %}
 
-      {% call FilterRow(
-        title = 'Фазы/Напряжение',
-        spaceChilds = true
-      ) %}
-        {{ components.Checkbox(
-          id = 'filterPhases1',
-          name = 'phases',
-          value = '1',
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = 'Одна/220 V'
-        ) }}
-        {{ components.Checkbox(
-          id = 'filterPhases3',
-          name = 'phases',
-          value = '3',
-          class = 'h-inline-block',
-          inputClass = 'h-margin-right---',
-          label = 'Три/380 V'
-        ) }}
-      {% endcall %}
+        {% call FilterRow(
+          title = 'Режим работы',
+          spaceChilds = true
+        ) %}
+          {{ components.Checkbox(
+            id = 'filterModeMain',
+            name = 'mode',
+            value = 'основной',
+            class = 'h-inline-block',
+            inputClass = 'h-margin-right---',
+            label = 'Основной (круглосуточно)'
+          ) }}
+          {{ components.Checkbox(
+            id = 'filterModeStandby',
+            name = 'mode',
+            value = 'резервный',
+            class = 'h-inline-block',
+            inputClass = 'h-margin-right---',
+            label = 'Резервный (на несколько часов)'
+          ) }}
+        {% endcall %}
 
-    </table>
+        {% call FilterRow(
+          title = 'Уровень шума',
+          spaceChilds = true,
+          tip = 'Как выбрать уровень шума?',
+          tipContent = '#'
+        ) %}
+          {{ components.Checkbox(
+            id = 'filterNoiseLow',
+            name = 'noise',
+            value = 60,
+            class = 'h-inline-block',
+            inputClass = 'h-margin-right---',
+            label = 'Малошумный (до (60) дБ)'
+          ) }}
+        {% endcall %}
 
-    <hr class='h-margin-ends'>
+        {% call FilterRow(
+          title = 'Фазы/Напряжение',
+          spaceChilds = true
+        ) %}
+          {{ components.Checkbox(
+            id = 'filterPhases1',
+            name = 'phases',
+            value = '1',
+            class = 'h-inline-block',
+            inputClass = 'h-margin-right---',
+            label = 'Одна/220 V'
+          ) }}
+          {{ components.Checkbox(
+            id = 'filterPhases3',
+            name = 'phases',
+            value = '3',
+            class = 'h-inline-block',
+            inputClass = 'h-margin-right---',
+            label = 'Три/380 V'
+          ) }}
+        {% endcall %}
 
-    <button type='reset' class='h-margin-left-- g-link h-border-bottom0 h-text-'>{{ components.Icon('x', class = 'Icon--left h-text--em-') }} <span class='g-link'>Очистить все фильтры</span></button>
+      </table>
+
+      <hr class='h-margin-ends'>
+
+      <button type='reset' class='h-margin-left-- g-link h-border-bottom0 h-text-'>
+        {{ components.Icon('x', class = 'Icon--left h-text--em-') }}
+        <span class='g-link'>Очистить все фильтры</span>
+      </button>
+
+    </div>
 
   </form>
 
