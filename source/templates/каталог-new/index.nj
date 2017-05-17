@@ -68,7 +68,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
     <div class='o-grid h-childs-displace h-flex-y--center h-padding-sides-- h-margin-bottom--'>
 
-      <div class='o-gird__item h-3/4 h-2/3@lap'>
+      <div class='o-grid__item h-3/4 h-2/3@lap'>
         <b class='h-text- h-margin-right--'>Мощность:</b>
         {{ components.Field(
           type = 'number',
