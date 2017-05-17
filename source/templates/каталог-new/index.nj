@@ -66,7 +66,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
   <form id='js-catalog-filters-form'>
 
-    <div class='o-clearfix h-padding-sides--'>
+    <div class='o-clearfix h-padding-sides-- h-margin-bottom--'>
 
       <div class='h-float--left'>
         <b class='h-text- h-margin-right--'>Мощность:</b>
@@ -100,8 +100,8 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
     </div>
 
-    <div id='js-expand-filters' style='display: none'>
-      <div class='Box h-padding-sides+-- h-padding-ends h-margin-top-- h-margin-bottom'>
+    <div id='js-expand-filters' style='display: none' class='Box Dropdown h-relative h-padding0 h-margin0'>
+      <div class='h-padding-sides+-- h-padding-ends'>
 
         <table class='h-cells-padding-- h-margin-bottom0'>
 
