@@ -334,7 +334,10 @@ metaDesc:        Каталог генераторов «Фасэнергома�
   <p>Мы можем собрать генератор по вашим техническим требованиям: с другим двигателем, мощностью, ...</p>
   <p>Напишите нам. Приедем на объект, сделаем расчеты и предложение.</p>
 
-  <form class='h-margin-top+ h-childs-space-top Wrapper--readable h-margin-left0'>
+  <a href='/контакты' class='Btn Btn+ Btn--wide+'>Связаться с нами</a>
+
+  {# @todo Enable when Bitrix integration will be ready #}
+  {# <form class='h-margin-top+ h-childs-space-top Wrapper--readable h-margin-left0'>
     {{ components.Field(
       id = 'contactName',
       name = 'name',
@@ -362,7 +365,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       placeholder = 'Сообщение'
     ) }}
     <button class='Btn Btn--primary Btn--wide'>Отправить</button>
-  </form>
+  </form> #}
 
 </aside>
 
