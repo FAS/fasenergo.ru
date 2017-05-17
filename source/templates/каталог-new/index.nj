@@ -25,9 +25,10 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
 <aside id='js-catalog-filters'>
 
-  <div class='o-clearfix h-margin-bottom'>
+  {# <div class='o-clearfix h-margin-bottom'> #}
 
-    <form class='h-float--left'>
+    {# @todo Enable, when they will be ready #}
+    {# <form class='h-float--left'>
       {{ components.Checkbox(
         type = 'radio',
         id = 'presetPopular',
@@ -55,13 +56,13 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         attrs = { 'data-preset': [10, 20]|dump },
         label = '10-20 кВт'
       ) }}
-    </form>
+    </form> #}
 
     {# @todo Remove style in favor of helper #}
     {# @todo Enable when content will be available #}
     {# <p class='h-float--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p> #}
 
-  </div>
+  {# </div> #}
 
   <form id='js-catalog-filters-form'>
 
