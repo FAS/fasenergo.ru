@@ -436,6 +436,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li> #}
         <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/преимущества-наших-генераторов/'>Преимущества наших генераторов</a></li>
         <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/результаты-испытаний/'>Результаты испытаний нашей продукции</a></li>
+        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/гарантия/'>Гарантия</a></li>
         {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}
           <p class='h-margin-bottom--'><a href='#'>Главное о газовых генераторах</a></p>
           <p class='h-text-'>Преимущества,&nbsp;особенности, сравнение&nbsp;с&nbsp;дизельными и бензиновыми</p>
@@ -448,7 +449,6 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Как выбрать генератор?</a></li> #}
         <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='услуги/'>Услуги</a></li>
         <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/решения/'>Решения</a></li>
-        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/гарантия/'>Гарантия</a></li>
       </ul>
     </div>
   </div>
