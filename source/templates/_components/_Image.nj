@@ -1,11 +1,12 @@
 {##
- # Display image with caption
+ # Display image with caption. Note, that image has limit at max 80% of viewport hight.
  #
  # @param {string}           src        Url to image
  # @param {string}           [caption]  Caption for image
  # @param {string}           [alt]      Alt for image
  # @param {('left'|'right')} [position] Should image flot to left or right
  # @param {string}           [width]    Which `max-width` should be set on main container
+ # @param {boolean}          [center]   Center or no image
  #
  # @return {string} Figure
  #
@@ -14,15 +15,18 @@
  #     src = 'https://placehold.it/1350x550',
  #     caption = 'Тестирование двигателей на производстве',
  #     alt = 'Описание картинки',
- #     width = '600px'
+ #     width = '600px',
+ #     center = true
  #   ) }}
  #}
-{% macro Image(src, caption, alt, position, width) %}
+{% macro Image(src, caption, alt, position, width, center) %}
 {% set positionClass = 'g-image--left' if position == 'left' else ('g-image--right' if position == 'right') %}
 
 <figure class='{{ positionClass if positionClass else 'h-margin-ends+' }}' style='{{ 'max-width: ' + width if width }}'>
 
-  <img class='h-block h-margin-bottom--' src='{{ src }}' alt='{{ alt if alt }}'>
+  <div class='{{ 'h-align--center' if center }}'>
+    <img class='h-margin-bottom--' src='{{ src }}' alt='{{ alt if alt }}' style='max-height: 80vh;'>
+  </div>
 
   {% if caption %}
   <figcaption><i>{{ caption }}</i></figcaption>
