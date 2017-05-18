@@ -24,8 +24,8 @@
 <section class='o-media o-media+ {{ class }}'>
 
   {% if image %}
-  <div class='o-media__aside h-1/3'>
-    <img src='{{ image }}' alt='{{ title }}' >
+  <div class='o-media__aside h-1/3 h-align--center'>
+    <img src='{{ image }}' alt='{{ title }}' style='max-height: 300px;'>
   </div>
   {% endif %}
 
