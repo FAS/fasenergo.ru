@@ -50,6 +50,14 @@
       {% call(depth) Item('/решения/автомобилестроение/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/лесной-комплекс/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/экологические-программы/', depth = depth) %}{% endcall %}
+
+      {# @todo Move color to styles if it's ok #}
+      <li class='h-h6 h-margin-top h-margin-bottom--' style='color: #4e5b69;'>Технические решения</li>
+
+      {% call(depth) Item('/решения/каскадное-соединение', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/когенерационная-установка', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/контейнер', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/авр', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/услуги/') %}
       {% call(depth) Item('/услуги', depth = depth, onlyActiveOnIndex = true) %}{% endcall %}
