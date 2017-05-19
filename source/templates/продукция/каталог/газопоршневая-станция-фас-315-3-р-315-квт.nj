@@ -1,0 +1,11 @@
+---
+generatorId:     газопоршневая-станция-фас-315-3-р-315-квт
+
+title:           "{{ selectGenerator(data, 'газопоршневая-станция-фас-315-3-р-315-квт').meta.title }}"
+breadcrumbTitle: "{{ selectGenerator(data, 'газопоршневая-станция-фас-315-3-р-315-квт').title }}"
+contentTitle:    "{{ selectGenerator(data, 'газопоршневая-станция-фас-315-3-р-315-квт').title }}"
+navTitle:        "{{ selectGenerator(data, 'газопоршневая-станция-фас-315-3-р-315-квт').title }}"
+metaDesc:        "{{ selectGenerator(data, 'газопоршневая-станция-фас-315-3-р-315-квт').meta.desc }}"
+---
+
+{% extends './_generator.nj' %}
