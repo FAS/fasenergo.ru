@@ -42,22 +42,22 @@
       {% endif %}
     {% endcall %}
     {% call(depth) Item('/решения/') %}
-      {% call(depth) Item('/решения/нефтегазовый-комплекс/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/энергетический-комплекс/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/городское-и-муниципальное-хозяйство/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/сельское-хозяйство/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/промышленность/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/автомобилестроение/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/лесной-комплекс/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/экологические-программы/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/отраслевые/нефтегазовый-комплекс/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/отраслевые/энергетический-комплекс/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/отраслевые/городское-и-муниципальное-хозяйство/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/отраслевые/сельское-хозяйство/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/отраслевые/промышленность/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/отраслевые/автомобилестроение/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/отраслевые/лесной-комплекс/', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/отраслевые/экологические-программы/', depth = depth) %}{% endcall %}
 
       {# @todo Move color to styles if it's ok #}
       <li class='h-h6 h-margin-top h-margin-bottom--' style='color: #4e5b69;'>Технические решения</li>
 
-      {% call(depth) Item('/решения/каскадное-соединение', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/когенерационная-установка', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/контейнер', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/авр', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/технические/каскадное-соединение', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/технические/когенерационная-установка', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/технические/контейнер', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/технические/авр', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/услуги/') %}
       {% call(depth) Item('/услуги', depth = depth, onlyActiveOnIndex = true) %}{% endcall %}
