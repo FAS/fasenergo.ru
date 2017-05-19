@@ -1,52 +1,467 @@
 ---
-title:           Газовые генераторы ФАС
+title:           Каталог генераторов «Фасэнергомаш»
 breadcrumbTitle: Каталог
-contentTitle:    Газовые генераторы ФАС
+contentTitle:    Каталог генераторов «Фасэнергомаш»
 navTitle:        Каталог
-metaDesc:        Газовые генераторы ФАС
+metaDesc:        Каталог генераторов «Фасэнергомаш»
 ---
 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% set generatorss = selectGenerators(data) %}
+{% set generatorss = filterWithBrands(generatorss, 'Фасэнергомаш') %}
+{% set generatorss = sortGeneratorsByPower(generatorss) %}
 
-{% macro GeneratorsCategoryCard(categoryPagePath) %}
-  {% set e = getPage(categoryPagePath).props %}
-  {% set gens = selectGenerators(data) %}
-  {% set eGens = filterWithBrands(gens, e.generatorsBrands) %}
-  {% set eGens = filterWithTags(eGens, e.generatorsTags) %}
+{% set enginesBrands = selectEnginesBrands(data) %}
 
-  {% call components.CategoryCard(
-    title = e.contentTitle,
-    url = e.url,
-    image = '/' + path.images + '/' + e.image,
-    power = {
-      from: getGeneratorHighestPower(getLeastPowerfulGenerator(eGens)),
-      to: getGeneratorHighestPower(getMostPowerfulGenerator(eGens)),
-      units: ' кВт'
-    },
-    discount = getGeneratorsWithHighestDiscount(eGens).discount
+{# @todo Emable anchors when relevant pages will be ready #}
+<p>В каталоге вы можете подобрать генератор, получить полную информацию о каждой модели — фотографии, технические характеристики, документацию, расходные материалы — отправить заявку или задать вопрос.</p>
+<p>Наши модели комплектуются {# <a href='#'> #}системой автоматического ввода (АВР){# </a> #} и собираются в {# <a href='#'> #}синхронизированные комплексы{# </a> #} до 30 генераторов повышенной мощности и надёжности.</p>
+
+<aside class='h-margin-top+'>
+  {{ components.Promos() }}
+</aside>
+
+<aside id='js-catalog-filters'>
+
+  {# <div class='o-clearfix h-margin-bottom'> #}
+
+    {# @todo Enable, when they will be ready #}
+    {# <form class='h-float--left'>
+      {{ components.Checkbox(
+        type = 'radio',
+        id = 'presetPopular',
+        name = 'preset',
+        value = 'popular',
+        label = 'Популярные',
+        inputClass = 'js-catalog-preset',
+        checked = true
+      ) }}
+      {{ components.Checkbox(
+        type = 'radio',
+        id = 'presetPower710',
+        name = 'preset',
+        value = 'powerFromTo',
+        inputClass = 'js-catalog-preset',
+        attrs = { 'data-preset': [7, 10]|dump },
+        label = '7-10 кВт'
+      ) }}
+      {{ components.Checkbox(
+        type = 'radio',
+        id = 'presetPower1020',
+        name = 'preset',
+        value = 'powerFromTo',
+        inputClass = 'js-catalog-preset',
+        attrs = { 'data-preset': [10, 20]|dump },
+        label = '10-20 кВт'
+      ) }}
+    </form> #}
+
+    {# @todo Remove style in favor of helper #}
+    {# @todo Enable when content will be available #}
+    {# <p class='h-float--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p> #}
+
+  {# </div> #}
+
+  <form id='js-catalog-filters-form'>
+
+    <div class='o-grid h-childs-displace h-flex-y--center h-padding-sides-- h-margin-bottom--'>
+
+      <div class='o-grid__item h-3/4 h-2/3@lap'>
+        <b class='h-text- h-margin-right--'>Мощность:</b>
+        {{ components.Field(
+          type = 'number',
+          id = 'filterPowerFrom',
+          name = 'powerFrom',
+          label = 'Мощность от',
+          displayLabel = false,
+          placeholder = 'от ' + numbro(selectGeneratorsMinPower(data)).format(),
+          class = 'Field- h-inline-block h-margin-right--',
+          style = 'max-width: 120px'
+        ) }}
+        –
+        {{ components.Field(
+          type = 'number',
+          id = 'filterPowerTo',
+          name = 'powerTo',
+          label = 'Мощность до',
+          displayLabel = false,
+          placeholder = 'до ' + numbro(selectGeneratorsMaxPower(data)).format(),
+          class = 'Field- h-inline-block h-margin-sides--',
+          style = 'max-width: 120px'
+        ) }}
+        кВт
+      </div>
+
+      <div class='o-grid__item h-1/4 h-1/3@lap h-text- h-text@lap'>
+        <button class='js-expand h-float--right h-bg-color--transparent h-padding0' data-expand='#js-expand-filters'>
+          <span class='g-link' style='border-style: dashed' >Подобрать по характеристикам</span>
+        </button>
+      </div>
+
+    </div>
+
+    <div id='js-expand-filters' style='display: none' class='Box Dropdown h-relative h-padding0 h-margin0'>
+      <div class='h-padding-sides+-- h-padding-ends'>
+
+        <table class='h-cells-padding-- h-margin-bottom0'>
+
+          {% macro FilterRow(title, filterTdClass, spaceChilds, tip, tipContent) %}
+          <tr>
+            <th class='h-align--left h-text- h-font-weight--normal h-align--top' scope='row' style='min-width: 160px; max-width: 160px;'>
+              <p><b>{{ title }}:</b></p>
+            </th>
+            <td class='h-align--top {{ filterTdClass }}'>
+              <div class='{{ 'h-childs-displace h-childs-displace+@lap' if spaceChilds }}'>
+                {{ caller() }}
+                {# {% if tip and tipContent %}
+                <p class='h-text- h-margin-top--'><i><a href='#' style='border-style: dashed'>{{ tip }}</a></i></p>
+                {% elseif tip %}
+                <p class='h-text- h-margin-top--'><i>{{ tip }}</i></p>
+                {% endif %} #}
+              </div>
+            </td>
+          </tr>
+          {% endmacro %}
+
+          {% call FilterRow(
+            title = 'Цена',
+            filterTdClass = 'h-text--nowrap',
+            tip = 'Зависит, прежде всего, от мощности и двигателя'
+          ) %}
+            {{ components.Field(
+              type = 'number',
+              id = 'filterPriceFrom',
+              name = 'priceFrom',
+              label = 'Цена от',
+              displayLabel = false,
+              placeholder = 'от ' + numbro(selectGeneratorsMinPrice(data)).format(),
+              class = 'Field- h-inline-block h-margin-right--',
+              style = 'max-width: 120px'
+            ) }}
+            –
+            {{ components.Field(
+              type = 'number',
+              id = 'filterPriceTo',
+              name = 'priceTo',
+              label = 'Цена до',
+              displayLabel = false,
+              placeholder = 'до ' + numbro(selectGeneratorsMaxPrice(data)).format(),
+              class = 'Field- h-inline-block h-margin-sides--',
+              style = 'max-width: 120px'
+            ) }}
+            рублей
+          {% endcall %}
+
+          {% call FilterRow(
+            title = 'Двигатель',
+            spaceChilds = true,
+            tip = 'Какие двигатели у нас есть и на что это влияет?',
+            tipContent = '#'
+          ) %}
+            {% for brand in enginesBrands %}
+            {{ components.Checkbox(
+              id = 'filterEngineBrand' + brand|urlify({ toLower: false }),
+              name = 'engineBrand',
+              value = brand,
+              class = 'h-inline-block',
+              inputClass = 'h-margin-right---',
+              label = brand
+            ) }}
+            {% endfor %}
+          {% endcall %}
+
+          {% call FilterRow(
+            title = 'Режим работы',
+            spaceChilds = true
+          ) %}
+            {{ components.Checkbox(
+              id = 'filterModeMain',
+              name = 'mode',
+              value = 'основной',
+              class = 'h-inline-block',
+              inputClass = 'h-margin-right---',
+              label = 'Основной (круглосуточно)'
+            ) }}
+            {{ components.Checkbox(
+              id = 'filterModeStandby',
+              name = 'mode',
+              value = 'резервный',
+              class = 'h-inline-block',
+              inputClass = 'h-margin-right---',
+              label = 'Резервный (на несколько часов)'
+            ) }}
+          {% endcall %}
+
+          {% call FilterRow(
+            title = 'Уровень шума',
+            spaceChilds = true,
+            tip = 'Как выбрать уровень шума?',
+            tipContent = '#'
+          ) %}
+            {{ components.Checkbox(
+              id = 'filterNoiseLow',
+              name = 'noise',
+              value = 60,
+              class = 'h-inline-block',
+              inputClass = 'h-margin-right---',
+              label = 'Малошумный (до (60) дБ)'
+            ) }}
+          {% endcall %}
+
+          {% call FilterRow(
+            title = 'Фазы/Напряжение',
+            spaceChilds = true
+          ) %}
+            {{ components.Checkbox(
+              id = 'filterPhases1',
+              name = 'phases',
+              value = '1',
+              class = 'h-inline-block',
+              inputClass = 'h-margin-right---',
+              label = 'Одна/220 V'
+            ) }}
+            {{ components.Checkbox(
+              id = 'filterPhases3',
+              name = 'phases',
+              value = '3',
+              class = 'h-inline-block',
+              inputClass = 'h-margin-right---',
+              label = 'Три/380 V'
+            ) }}
+          {% endcall %}
+
+        </table>
+
+        <hr class='h-margin-ends'>
+
+        <button type='reset' class='h-margin-left-- g-link h-border-bottom0 h-text-'>
+          {{ components.Icon('x', class = 'Icon--left h-text--em-') }}
+          <span class='g-link'>Очистить все фильтры</span>
+        </button>
+
+      </div>
+    </div>
+
+  </form>
+
+  <form class='h-margin-top+-- h-margin-bottom-- h-margin-sides-- h-text- h-childs-space-left--'>
+    <span>Сортировать:</span>
+    {{ components.Sorter(
+      id = 'sortByPower',
+      name = 'sort',
+      value = 'byPower',
+      label = 'по мощности',
+      checked = true
+    ) }}
+    {{ components.Sorter(
+      id = 'sortByPrice',
+      name = 'sort',
+      value = 'byPrice',
+      label = 'по цене'
+    ) }}
+  </form>
+
+</aside>
+
+{# <hr> #}
+
+<div id='js-catalog' class='Box'>
+  {% for g in generatorss %}
+  {% set url = page.props.url + g.slug + '/' %}
+  {% set photoUrl = '/' + path.images + '/' + getGeneratorMainPhoto(g).url or '/' + path.images + '/no-photo.png' %}
+  {% set maxPower = getGeneratorHighestPower(g) %}
+  {% set engine = selectEngine(data, g.engine) %}
+  {% set engineCooling = engine.cooling %}
+  {% set phases = g.specs.phases %}
+  {% set warrantyFromInstallation = g.warranty.installation  %}
+  {% set warrantyServiceLife = g.warranty.serviceLife %}
+  {% set price = getGeneratorCurrentPrice(g) %}
+
+  {% set gData = {
+    power: maxPower,
+    price: price,
+    engineBrand: engine.manufacturer.brand,
+    mode: engineCooling == 'air' and 'резервный' or 'основной',
+    noise: g.enclosure.noise,
+    phases: phases
+  } %}
+
+  <article class='js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides' data-product='{{ gData|dump }}'>
+    <div class=' o-grid h-childs-displace+'>
+
+      <div class='o-grid__item h-2/7'>
+        <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photoUrl }}' alt='{{ g.title|striptags }}'></a>
+      </div>
+
+      <div class='o-grid__item h-3/7'>
+        <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ g.model }}</a></h2>
+        <p>
+          Мощность: <strong>{{ maxPower }} кВт</strong><br>
+          Фазы: {{ phases }}<br>
+          Охлаждение: {{ components.CoolingToWord(engineCooling) }}<br>
+          Двигатель: {{ getEngineTitle(engine) }}
+        </p>
+      </div>
+
+      <div class='o-grid__item h-2/7'>
+
+        {% if price %}
+        {# @todo Temporary fix for numbro issue with lack of space before RUB #}
+        <p class='h-h5'>{{
+          _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей']))
+        }}</p>
+        {% endif %}
+
+        {% if g.equipment %}
+        <div class='h-relative js-expand__scope h-margin-bottom h-text- h-opacity50'>
+          <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+            <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+          </button>
+          <ul
+            class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text- h-childs-space-top0'
+            style='display: none; min-width: 400px; right: 0;'>
+            {{ g.equipment }}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if warrantyFromInstallation or warrantyServiceLife %}
+        <p class='h-text-'>
+          Гарантия: {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }},<br>
+          {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}
+        </p>
+        {% endif %}
+
+      </div>
+
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<button id='js-catalog-show-all-btn' class='Btn o-btn--full Btn+ Btn--wide Btn--primary h-text++ h-margin-top h-align--center'>
+  Показать ещё (<span id='js-catalog-show-all-btn__items'></span>)
+</button>
+
+<aside>
+
+  <h2>
+    Нет подходящего генератора?<br>
+    Закажите индивидуальное решение
+  </h2>
+  <p>Мы можем собрать генератор по вашим техническим требованиям: с нужным двигателем, нужным оборудованием и нужной мощности.</p>
+  <p>Свяжитесь с нами. Приедем на объект, сделаем расчеты и предложение.</p>
+
+  <a href='/контакты' class='Btn Btn+ Btn--wide+'>Связаться с нами</a>
+
+  {# @todo Enable when Bitrix integration will be ready #}
+  {# <form class='h-margin-top+ h-childs-space-top Wrapper--readable h-margin-left0'>
+    {{ components.Field(
+      id = 'contactName',
+      name = 'name',
+      label = 'Имя',
+      displayLabel = false,
+      placeholder = 'Как вас зовут?',
+      required = true,
+      style = 'max-width: 300px'
+    ) }}
+    {{ components.Field(
+      id = 'contactPhoneOrEmail',
+      name = 'phoneOrEmail',
+      label = 'Телефон или электронная почта',
+      displayLabel = false,
+      placeholder = 'Телефон или электронная почта',
+      required = true,
+      style = 'max-width: 300px'
+    ) }}
+    {{ components.Field(
+      id = 'contactMessage',
+      name = 'message',
+      type = 'textarea',
+      label = 'Сообщение',
+      displayLabel = false,
+      placeholder = 'Сообщение'
+    ) }}
+    <button class='Btn Btn--primary Btn--wide'>Отправить</button>
+  </form> #}
+
+</aside>
+
+<hr>
+
+<aside>
+
+  {% call components.SolutionPreview(
+    title = 'Каскадная установка (синхронизация генераторов)',
+    linkLabel = 'Подробнее о каскадной сборке',
+    url = '/решения/технические/каскадное-соединение',
+    image = '/' + path.images + '/solutions/каскадное-соединение/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right--inter.jpg'
   ) %}
-    {{ e.shortDesc|safe }}
+    <p>Система из параллельно работающих генераторов, позволяющая эффективно распределять нагрузку и расходовать моторесурс двигателя, отключать часть генераторов для обслуживания или ремонта без прекращения подачи электроэнергии. </p>
+    <p>Отличное решение, если потребление энергии на объекте существенно меняется в течение дня, недели или даже сезона, или если вам нужна большая мощность по разумной цене. </p>
   {% endcall %}
-{% endmacro %}
 
-{# <h2 class='h-margin-bottom+'>Газовые генераторы</h2> #}
+  <hr>
 
-{% for e in [
-  'продукция.каталог.фас-с-двигателями-loncin',
-  'продукция.каталог.fas',
-  'продукция.каталог.фас-с-двигателями-змз',
-  'продукция.каталог.mmz',
-  'продукция.каталог.фас-с-двигателями-ямз',
-  'продукция.каталог.когенационные-установки',
-  'продукция.каталог.фас-в-корпусе-турбо'
-] %}
-{{ GeneratorsCategoryCard(e) }}
-{% endfor %}
+  {% call components.SolutionPreview(
+    title = 'Когенерационная установка для генераторов',
+    linkLabel = 'Подробнее о когенерации',
+    url = '/решения/технические/когенерационная-установка',
+    image = '/' + path.images + '/solutions/когенерационная-установка/Газовая-когенерационная-установка-ФАС-50-70М--front.jpg'
+  ) %}
+    <p>Когенерационная установка берёт тепло от работы генератора, которое иначе выбрасывается в воздух, и превращает его в горячую воду. </p>
+    <p>Нагретая вода идёт в систему отопления, горячего водоснабжения или используется в тригенерации, в результате чего суммарный КПД генератора увеличивается на 36-40%.</p>
+  {% endcall %}
 
-{# <h2 class='h-margin-bottom+'>Газопоршневые станции</h2>
+  <hr>
 
-{{ GeneratorsCategoryCard('продукция.каталог.контейнерные-газовые-электростанции-фасэнергомаш') }} #}
+  {% call components.SolutionPreview(
+    title = 'Контейнеры для генераторов',
+    linkLabel = 'Подробнее о контейнерах',
+    url = '/решения/технические/контейнеры-для-генераторов',
+    image = '/' + path.images + '/solutions/контейнер/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right.jpg'
+  ) %}
+    <p>Иногда генераторам приходится работать в сложных условиях — жару +40°С или такой же мороз, ливень или песчаную бурю. Это плохо для корпуса и механизмов. К тому же его нужно регулярно обслуживать.</p>
+    <p>Наше решение — специальный контейнер, оснащённый вентиляцией, сигнализацией, освещением и другими системами. Правильная температура и влажность, никаких вредных воздействий.</p>
+    <p>Контейнер дешевле, чем подсобное помещение или здание с такими же коммуникациями. К тому же его можно перевозить с места на место.</p>
+  {% endcall %}
+
+</aside>
+
+<hr>
+
+<aside>
+
+  <h2>Полезная информация о нашей продукции</h2>
+
+  <div class='o-grid h-childs-displace++ h-text+'>
+    {# @todo Enable Icons when they will be available #}
+    {# @todo Enable links, when pages for them will be available #}
+    <div class='o-grid__item h-1/2'>
+      <ul class='{# g-list0 o-iconic-list #} h-childs-space-top+--'>
+        {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li> #}
+        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/преимущества-наших-генераторов/'>Преимущества наших генераторов</a></li>
+        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/результаты-испытаний/'>Результаты испытаний нашей продукции</a></li>
+        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/гарантия/'>Гарантия</a></li>
+        {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}
+          <p class='h-margin-bottom--'><a href='#'>Главное о газовых генераторах</a></p>
+          <p class='h-text-'>Преимущества,&nbsp;особенности, сравнение&nbsp;с&nbsp;дизельными и бензиновыми</p>
+        </li> #}
+      </ul>
+    </div>
+    <div class='o-grid__item h-1/2'>
+      <ul class='{# g-list0 o-iconic-list #} h-childs-space-top+--'>
+        {# @todo Put back `href='/контакты/дилеры/'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
+        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/контакты/'>Где купить</a></li>
+        {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Как выбрать генератор?</a></li> #}
+        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='услуги/'>Услуги</a></li>
+        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/решения/'>Решения</a></li>
+      </ul>
+    </div>
+  </div>
+
+</aside>
 
 {% endblock %}
