@@ -1,0 +1,17 @@
+---
+title:            Отраслевые решения
+breadcrumbTitle:  Отраслевые решения
+contentTitle:     Отраслевые решения
+navTitle:         Отраслевые решения
+metaDesc:         Отраслевые решения
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<ul>
+  {% for slug, item in getPage(page.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
