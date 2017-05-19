@@ -272,13 +272,10 @@
  # Other generators in this series
  ##################################}
 
-{% set parentBreadcrumb = _.dropRight(page.breadcrumb) %}
-{% set parentProps = getPage(parentBreadcrumb).props %}
-
 {% set gens = selectGenerators(data) %}
-{% set gens = filterWithBrands(gens, parentProps.generatorsBrands) %}
-{% set gens = filterWithTags(gens, parentProps.generatorsTags) %}
-{% set gens = filterOutWithId(gens, page.props.generatorId) %}
+{% set gens = filterWithBrands(gens, gen.manufacturer.brand) %}
+{% set gens = filterWithTags(gens, gen.tags) %}
+{% set gens = filterOutWithId(gens, gen.slug) %}
 {% set randomGens = _.sampleSize(gens, 6) %}
 {% set randomGens = sortGeneratorsByPower(randomGens) %}
 
@@ -297,7 +294,7 @@
      #       Also, `url-joiner()` might fix that issue.
      #}
     {{ components.ProductCard(
-      url = parentProps.url + g.slug + '/',
+      url = '/продукция/каталог/' + g.slug + '/',
       image = '/' + path.images + '/' + getGeneratorMainPhoto(g).url,
       model = g.model,
       powers = getGeneratorMaxPowers(g),
