@@ -122,8 +122,7 @@ export default $.fn.expand = function (userOptions) {
     const hideTargets = () => $targets.each((i, e) => hide($(e)))
     const toggleTargets = () => $targets.each((i, e) => toggle($(e)))
 
-    if (!isActive()) { hideTargets() }
-    if (isActive()) { showTargets() }
+    isActive() ? showTargets() : hideTargets()
 
     $this.click((event) => {
       event.preventDefault()
