@@ -752,7 +752,7 @@
   series: null
   model: ФАС-8-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-8-1/ВП</span> (8 кВт)
-  price: 370000
+  price: 360000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -869,7 +869,7 @@
   series: null
   model: ФАС-10-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-1/ВП</span> (10 кВт)
-  price: 375000
+  price: 385000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -986,7 +986,7 @@
   series: null
   model: ФАС-13-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-1/ВП</span> (13 кВт)
-  price: 390000
+  price: 400000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -1103,7 +1103,7 @@
   series: null
   model: ФАС-13-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВП</span> (13 кВт)
-  price: 410000
+  price: 400000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -1221,7 +1221,7 @@ fas-15-ozp1-ваз-15квт:
   series: null
   model: ФАС-15-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-1/ВР</span> (15 кВт)
-  price: 430000
+  price: 460000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -1334,7 +1334,7 @@ fas-15-ozp3-ваз-15квт:
   series: null
   model: ФАС-15-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-3/ВР</span> (15 кВт)
-  price: 440000
+  price: 460000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -1447,7 +1447,7 @@ fas-15-ozp3-ваз-15квт:
   series: null
   model: ФАС-18-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-1/ВР</span> (18 кВт)
-  price: 450000
+  price: 500000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -1560,7 +1560,7 @@ fas-15-ozp3-ваз-15квт:
   series: null
   model: ФАС-18-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-3/ВР</span> (18 кВт)
-  price: 460000
+  price: 500000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -1789,7 +1789,7 @@ fas-21-ozp1-ваз-21квт:
   series: null
   model: ФАС-21-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВР</span> (21 кВт)
-  price: 550000
+  price: 510000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -1901,7 +1901,7 @@ fas-21-ozp3-ваз-21квт:
   series: null
   model: ФАС-21-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-3/ВР</span> (21 кВт)
-  price: 550000
+  price: 510000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -2014,7 +2014,7 @@ fas-21-ozp3-ваз-21квт:
   series: null
   model: ФАС-24-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВР</span> (24 кВт)
-  price: 570000
+  price: 550000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -2127,7 +2127,7 @@ fas-21-ozp3-ваз-21квт:
   series: null
   model: ФАС-28-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВП</span> (28 кВт)
-  price: 610000
+  price: 580000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -2243,7 +2243,7 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-32-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-32-3/ВП</span> (32 кВт)
-  price: 650000
+  price: 600000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -2485,7 +2485,7 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-40-3/М
   title: Газовый генератор <span class='text-red'>ФАС-40-3/М</span> (40 кВт)
-  price: 1140000
+  price: 1240000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -2596,7 +2596,7 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-50-3/М
   title: Газовый генератор <span class='text-red'>ФАС-50-3/М</span> (50 кВт)
-  price: 1240000
+  price: 1290000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -2707,7 +2707,7 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-100-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-100-3/Р</span> (100 кВт)
-  price: 2300000
+  price: 2100000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -2807,7 +2807,7 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-150-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-150-3/Р</span> (150 кВт)
-  price: 2600000
+  price: 2300000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -2907,7 +2907,7 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-200-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-200-3/Р</span> (200 кВт)
-  price: 3300000
+  price: 3900000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -3013,7 +3013,7 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-250-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-250-3/Р</span> (250 кВт)
-  price: 3900000
+  price: 4000000
   priceBeforeDiscount: null
   discount: null
   availability: available
@@ -3119,7 +3119,7 @@ fas-32-ozp3-ваз-32квт:
   series: null
   model: ФАС-315-3/Р
   title: Газопоршневая станция <span class='text-red'>ФАС-315-3/Р</span> (315 кВт)
-  price: 5300000
+  price: 6200000
   priceBeforeDiscount: null
   discount: null
   availability: available
