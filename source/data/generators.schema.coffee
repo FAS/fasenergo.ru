@@ -85,7 +85,11 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
     operatingSpeed: t.maybe t.Number
     cooling: t.maybe t.enums.of ['air', 'liquid']
 
-  equipment: t.maybe t.union [t.String, t.list(t.String), False]
+  equipment: t.struct
+    # Включен ли АВР
+    ATS: t.maybe t.Boolean
+    # Общий список включенного оборудования
+    list: t.maybe t.union [t.String, t.list(t.String), False]
 
   engine: t.maybe t.enums.of(Object.keys(enginesData))
 
