@@ -19,6 +19,7 @@
 {% set engine = selectEngine(data, gen.engine) %}
 {% set engineTitle = getEngineTitle(engine) %}
 {% set size = getGeneratorSize(gen) %}
+{% set equipmentList = gen.equipment.list %}
 
 {% if gen.article %}
 <p class='h-bleed-top+ h-padding-top-- h-text- h-margin-bottom+--'><span class='text-green'>код товара: </span>{{ gen.article }}</p>
@@ -103,7 +104,7 @@
 
 <nav class='Box h-padding-- h-margin-bottom+--'>
   <ul class='page-product-menu o-nav h-childs-margin-top0 h-text--caps h-text-'>
-    {% if gen.desc or gen.equipment %}<li><a class='js-smooth-jump' href='#general'>Описание</a></li>{% endif %}
+    {% if gen.desc or equipmentList %}<li><a class='js-smooth-jump' href='#general'>Описание</a></li>{% endif %}
     {% if specs or enclosure %}<li><a class='js-smooth-jump' href='#details'>Технические характеристики</a></li>{% endif %}
     {% if gen.photos %}<li><a class='js-smooth-jump' href='#photos'>Фото</a></li>{% endif %}
     {% if gen.videos %}<li><a class='js-smooth-jump' href='#video'>Видео</a></li>{% endif %}
@@ -112,18 +113,18 @@
 
 <div id='general' class='o-grid h-childs-displace+--'>
 
-  <aside class='o-grid__item h-1/1 {{ 'h-1/4@lap' if gen.desc or gen.equipment }} h-align--center h-text-'>
-    <ul class='g-list0 o-nav o-nav--pack h-flex-rows--start h-childs-displace-- {{ 'h-childs-displace0@lap' if gen.desc or gen.equipment }} h-margin-bottom h-childs-margin-top-- h-bleed-top--'>
+  <aside class='o-grid__item h-1/1 {{ 'h-1/4@lap' if gen.desc or equipmentList }} h-align--center h-text-'>
+    <ul class='g-list0 o-nav o-nav--pack h-flex-rows--start h-childs-displace-- {{ 'h-childs-displace0@lap' if gen.desc or equipmentList }} h-margin-bottom h-childs-margin-top-- h-bleed-top--'>
       {% set class = 'h-border-r h-padding-- h-flex h-flex-y--center h-flex-x--center h-height-1/1' %}
 
       {% if powers %}
-      <li class='{{ 'h-1/1@lap' if gen.desc or gen.equipment }}'>
+      <li class='{{ 'h-1/1@lap' if gen.desc or equipmentList }}'>
         <div class='wrap-green {{ class }}'><p>мощность:<br> <b class='h-font-size--h2 h-line-height--h2'>{{ powersList }} кВт</b></p></div>
       </li>
       {% endif %}
 
       {% if specs._thermalPower %}
-      <li class='{{ 'h-1/1@lap' if gen.desc or gen.equipment }}'>
+      <li class='{{ 'h-1/1@lap' if gen.desc or equipmentList }}'>
         <div class='wrap-red {{ class }}'><p>тепловая мощность:<br> <b class='h-font-size--h2 h-line-height--h2'>{{ specs._thermalPower }} кВт</b></p></div>
       </li>
       {% endif %}
@@ -148,14 +149,14 @@
     </ul>
   </aside>
 
-  {% if gen.desc or gen.equipment %}
+  {% if gen.desc or equipmentList %}
   <section class='o-grid__item h-1/1 h-3/4@lap'>
 
     {{ gen.desc|safe }}
 
-    {% if gen.equipment %}
+    {% if equipmentList %}
     <h2 class='h-h5 h-margin-ends'><b>Комплектация</b></h2>
-    <ul>{{ gen.equipment|safe }}</ul>
+    <ul>{{ equipmentList|safe }}</ul>
     {% endif %}
 
   </section>

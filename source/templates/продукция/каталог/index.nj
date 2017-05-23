@@ -314,7 +314,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         }}</p>
         {% endif %}
 
-        {% if g.equipment %}
+        {% if g.equipment.list %}
         <div class='h-relative js-expand__scope h-margin-bottom h-text- h-opacity50'>
           <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
             <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
@@ -322,7 +322,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
           <ul
             class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text- h-childs-space-top0'
             style='display: none; min-width: 400px; right: 0;'>
-            {{ g.equipment }}
+            {{ g.equipment.list }}
           </ul>
         </div>
         {% endif %}
