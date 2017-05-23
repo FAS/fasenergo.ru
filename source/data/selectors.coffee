@@ -7,7 +7,10 @@ moment = require('moment')
 
 selectGenerator = (data, id) -> data.generators[id]
 selectGeneratorsIds = (data) -> Object.keys(data.generators)
-selectGenerators = (data) -> selectGeneratorsIds(data).map (id) => selectGenerator(data, id)
+selectGenerators = (data, discontinued) ->
+  generators = selectGeneratorsIds(data).map (id) => selectGenerator(data, id)
+  generators = if discontinued then generators else rejectDiscontinued(generators)
+  return generators
 
 selectGeneratorsMaxPower = (data) -> getGeneratorHighestPower(getMostPowerfulGenerator(selectGenerators(data)))
 selectGeneratorsMinPower = (data) -> getGeneratorHighestPower(getLeastPowerfulGenerator(selectGenerators(data)))
@@ -80,6 +83,8 @@ generatorIsAvailable = (entry) -> entry.availability == 'available'
 
 sortGeneratorsByPower = (entries) -> entries.sort (a, b) => getGeneratorHighestPower(a) - getGeneratorHighestPower(b)
 
+rejectDiscontinued = (entries) -> entries.filter((g) => g.availability != 'discontinued')
+
 filterWithBrands = (entries, brands) ->
   if brands.length == 0
     return entries
@@ -151,6 +156,7 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'generatorIsDiscontinued', generatorIsDiscontinued
   env.addGlobal 'generatorIsAvailable', generatorIsAvailable
   env.addGlobal 'sortGeneratorsByPower', sortGeneratorsByPower
+  env.addGlobal 'rejectDiscontinued', rejectDiscontinued
   env.addGlobal 'filterWithBrands', filterWithBrands
   env.addGlobal 'filterWithTags', filterWithTags
   env.addGlobal 'filterOutWithId', filterOutWithId
@@ -190,6 +196,7 @@ module.exports = {
   generatorIsDiscontinued
   generatorIsAvailable
   sortGeneratorsByPower
+  rejectDiscontinued
   filterWithBrands
   filterWithTags
   filterOutWithId
