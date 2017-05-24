@@ -1,0 +1,15 @@
+{##
+ # Display PDF button
+ #
+ # @param {string} label   Button label
+ # @param {string} url     Button url
+ # @param {string} [class] Class for main wrapper
+ #
+ # @return {string} HTML
+ #}
+{% macro PDFButton(label, url, class) %}
+<a class='Btn h-text++ {{ class }}' href='{{ url }}' target='_blank'>
+  {{ components.Icon('pdf', 'h-margin-right-- h-align--middle h-top h-text--em+--') }}
+  <span class='h-text h-align--middle'>{{ label }}</span>
+</a>
+{% endmacro %}
