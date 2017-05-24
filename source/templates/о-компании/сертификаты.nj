@@ -54,39 +54,28 @@ applyWrapperContent: false
   {# @todo Add description #}
 {% endcall %}
 
-<div class='o-grid o-grid+ h-margin-bottom'>
+{% call Document(title = 'Сертификат соответствия ISO', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат соответствия ISO.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
 
-  <div class='o-grid__item h-1/2'>
-    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__01__01.jpg' alt='Сертификат'>
-  </div>
+{% call Document(title = 'Certificate of conformity ISO', url = '/' + path.docs + '/certs/Fasenergomash - Certificate of conformity ISO.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
 
-  <div class='o-grid__item h-1/2'>
-    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__01__02.jpg' alt='Сертификат'>
-  </div>
+{% call Document(title = 'Сертификат соответствия аудитора', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат соответствия аудитора.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
 
-  <div class='o-grid__item h-1/2'>
-    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__01--en__01.jpg' alt='Сертификат'>
-  </div>
+{% call Document(title = 'Auditors certificate of conformity', url = '/' + path.docs + '/certs/Fasenergomash - Auditors certificate of conformity.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
 
-  <div class='o-grid__item h-1/2'>
-    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__01--en__02.jpg' alt='Сертификат'>
-  </div>
+{% call Document(title = 'Разрешение на использование знака соответствия', url = '/' + path.docs + '/certs/Фасэнергомаш - Разрешение на использование знака соответствия.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
 
-  <div class='o-grid__item h-1/2'>
-    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__02.jpg' alt='Сертификат'>
-  </div>
+{% call Document(title = 'License to use the certification system conformity mark', url = '/' + path.docs + '/certs/Fasenergomash - License to use the certification system conformity mark.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
 
-  <div class='o-grid__item h-1/2'>
-    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-cert__02--en.jpg' alt='Сертификат'>
-  </div>
-
-  <div class='o-grid__item h-1/2'>
-    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-license__01.jpg' alt='Сертификат'>
-  </div>
-
-  <div class='o-grid__item h-1/2'>
-    <img class='round-10px' src='/{{ path.images }}/docs/FASenergo-license__01--en.jpg' alt='Сертификат'>
-  </div>
-
-</div>
 {% endblock %}
