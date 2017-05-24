@@ -54,6 +54,10 @@ applyWrapperContent: false
   {# @todo Add description #}
 {% endcall %}
 
+{% call Document(title = 'Приложение к СРО', url = '/' + path.docs + '/certs/Фасэнергомаш - Приложение к СРО.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
+
 {% call Document(title = 'Сертификат соответствия ISO', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат соответствия ISO.pdf') %}
   {# @todo Add description #}
 {% endcall %}
