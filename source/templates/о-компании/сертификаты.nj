@@ -38,6 +38,22 @@ applyWrapperContent: false
   {# @todo Add description #}
 {% endcall %}
 
+{% call Document(title = 'Декларация о соответствии ТР ТС', url = '/' + path.docs + '/certs/Фасэнергомаш - Декларация о соответствии ТР ТС.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Отказное письмо по сертификату ТР ТС', url = '/' + path.docs + '/certs/Фасэнергомаш - Отказное письмо по сертификату ТР ТС.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Сертификат подлинности газовых двигателей MAN', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат подлинности газовых двигателей MAN.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'СРО', url = '/' + path.docs + '/certs/Фасэнергомаш - СРО.pdf') %}
+  {# @todo Add description #}
+{% endcall %}
+
 <div class='o-grid o-grid+ h-margin-bottom'>
 
   <div class='o-grid__item h-1/2'>
