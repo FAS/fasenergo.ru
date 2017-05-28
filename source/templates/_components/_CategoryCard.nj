@@ -4,13 +4,16 @@
  # @param {string} title          Card title
  # @param {string} [image] = '/' + path.images + '/no-photo.png'
  #                                Preview image for card
+ # @param {string} url            Url to category
+ # @param {'small'|null} [size]   Size of a block
  # @param {object} [power]        Power of inner products
  # @param {number} [power.from]   Min power of inner products
  # @param {number} [power.to]     Max power of inner products
  # @param {string} [power.units]  Units for power
- # @param {string} url            Url to category
  # @param {number} [discount]     Discount for inner products, from 0 to 100
  # @param {date}   [discountDate] Discount end ISO date for inner products
+ # @param {string} [class]        Class of main wrapper
+ # @param {number} [hLevel = 2]   Heading level of block
  #
  # @return {string} HTML
  #
@@ -28,12 +31,24 @@
 {% macro CategoryCard(
   title,
   image = '/' + path.images + '/no-photo.png',
-  power,
   url,
+  power,
+  size,
   discount,
-  discountDate
+  discountDate,
+  class,
+  hLevel = 2
 ) %}
-<article href='{{ url }}' class='o-media o-media+ discount-badge discount-badge+ h-margin-bottom+++'>
+
+{% set desc = caller() %}
+
+{% macro MacroPower() %}
+{% if power.from or power.to %}
+<p class='h-text- text-green h-margin-top--'>{{ power.from == power.to and power.from or 'от ' + power.from + ' до ' + power.to }}{{ power.units }}</p>
+{% endif %}
+{% endmacro %}
+
+<article href='{{ url }}' class='{{ class }} {{ 'o-media o-media+' if size != 'small' }} discount-badge discount-badge+ h-margin-bottom'>
 
   {% if discount %}
   <span class='discount-badge__badge'>
@@ -44,23 +59,40 @@
   </span>
   {% endif %}
 
+  {% if size == 'small' %}
+
+  <a class='h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ image }}' alt='{{ title|striptags }}'></a>
+
+  <h{{ hLevel }} class='h-text+ h-margin-top-- h-margin-bottom0'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h{{ hLevel }}>
+
+  {{ MacroPower() }}
+
+  {% if desc != '' %}
+  <div class='h-margin-top'>{{ desc }}</div>
+  {% endif %}
+
+  {% else %}
+
   <div class='o-media__aside'>
     <a class='h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ image }}' width='190' alt='{{ title|striptags }}'></a>
   </div>
 
   <div class='o-media__content'>
 
-    <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h2>
+    <h{{ hLevel }} class='h-margin-top0 h-margin-bottom0'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h{{ hLevel }}>
 
-    {% if power.from or power.to %}
-    <p class='h-text- text-green h-bleed-top--'>{{ power.from == power.to and power.from or 'от ' + power.from + ' до ' + power.to }}{{ power.units }}</p>
+    {{ MacroPower() }}
+
+    {% if desc != '' %}
+    <div class='h-margin-top'>{{ desc }}</div>
     {% endif %}
 
-    {{ caller() }}
-
-    <a href='{{ url }}' class='Btn'>Посмотреть модели</a>
+    <a href='{{ url }}' class='Btn h-margin-top'>Посмотреть модели</a>
 
   </div>
 
+  {% endif %}
+
 </article>
+
 {% endmacro %}
