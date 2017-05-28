@@ -1,0 +1,626 @@
+---
+title:           Продукция
+breadcrumbTitle: Продукция
+contentTitle:    Продукция
+navTitle:        Продукция
+metaDesc:        Продукция
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% call components.CategoryCard(
+  title = 'Газовые генераторы Фасэнергомаш',
+  hLevel = 2,
+  url = '#',
+  class = 'h-margin-top+'
+) %}{% endcall %}
+
+<hr>
+
+<h2><a href='#' class='g-link--inherit h-border-bottom0'>Испарительное оборудование</a></h2>
+
+{% call components.CategoryCard(
+  title = 'Испарители электрического подогрева',
+  hLevel = 3,
+  url = '#'
+) %}{% endcall %}
+
+<h3>Испарительные установки с электроподогревом</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'В огнеупорном пластиковом корпусе',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'В шкафном исполнении',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'На раме',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Погружного и кольцевого исполнения',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Испарительные установки жидкостного подогрева</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'В шкафном исполнении',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'В контейнерном исполнении',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'В кольцевом исполнении',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'С саморазогревом за счет использования котла',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<h2><a href='#' class='g-link--inherit h-border-bottom0'>Испарительно-смесительное оборудование</a></h2>
+
+{% call components.CategoryCard(
+  title = 'Смесительные установки',
+  hLevel = 3,
+  url = '#'
+) %}{% endcall %}
+
+<h3>Испарительно-смесительные установки электрического подогрева</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'В шкафном исполнении',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'В контейнерном исполнении',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Испарительно-смесительные установки жидкостного подогрева</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'В шкафном исполнении',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'В контейнерном исполнении',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<h2><a href='#' class='g-link--inherit h-border-bottom0'>Насосно-компрессорное оборудование</a></h2>
+
+<h3>Комлексы</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Насосный комплекс для слива СУГ из железнодорожных цистерн или автомобилей-газовозов',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Компрессорная установка для перекачки СУГ',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Насосная установка для перекачки СУГ',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Насосно-компрессорное отделение (НКО)',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Компрессоры и компрессорные агрегаты</h3>
+
+<h4>Для СУГ</h4>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Компрессорный агрегат ФЭМ 491 (60 м³/час, электродвигатель 10 кВт)',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Компрессорный агрегат ФЭМ 691 (100 м³/час, электродвигатель 17 кВт)',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Компрессорный агрегат ФЭМ 891 (180 м³/час, электродвигатель 30 кВт)',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h4>Для водорода</h4>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 691 (1710 Nm³/час)',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 491 (715 Nm³/час)',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 891 (300 Nm³/час)',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h4>Для метана и попутного газа</h4>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Поршневой компрессорный агрегат ФЭМ 491 (60 м³/час, электродвигатель 10 кВт)',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Компрессорный агрегат ФЭМ 691 для метана',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h4>Для пропилена</h4>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 891 (100 Nm³/час)',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Поршневой компрессорный агрегат ФЭМ 891 (294 Nm³/час)',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h4>Для CO2</h4>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Компрессорный агрегат для CO2 ФЭМ 491',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h4>Для этилена</h4>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Компрессорный агрегат для перекачки этилена ФЭМ 891',
+    hLevel = 5,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Насосы и насосные агрегаты</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Насосно-счетная установка в шкафном исполнении',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Насосно-счётная установка стационарного исполнения',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Счётная установка мобильного исполнения для автомобилей-газовозов',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Адсорбирующее оборудование</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Адсорбционные азотные установки',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Адсорбционные азотные станции',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Другое</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Самовсасывающие установки',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Установки разделения воздуха',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Осушка углеводородных газов',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<h2><a href='#' class='g-link--inherit h-border-bottom0'>Автономные системы газоснабжения</a></h2>
+
+{% call components.CategoryCard(
+  title = 'Заводы по производству СПГ',
+  hLevel = 3,
+  url = '#'
+) %}{% endcall %}
+{% call components.CategoryCard(
+  title = 'Регазификационные комплексы',
+  hLevel = 3,
+  url = '#'
+) %}{% endcall %}
+{% call components.CategoryCard(
+  title = 'Криогенные резервуары для хранения СПГ',
+  hLevel = 3,
+  url = '#'
+) %}{% endcall %}
+
+<hr>
+
+<h2><a href='#' class='g-link--inherit h-border-bottom0'>Контрольно-регуляторное оборудование</a></h2>
+
+<h3>Регуляторы давления</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Регуляторы RegO',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Регуляторы GOK',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Регуляторы ФЭМ',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Контрольно-регуляторные пункты</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Регуляторная группа ФЭМ ',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Регуляторная группа ФЭМ ',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Регуляторная группа ФЭМ ',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Регуляторная группа ФЭМ ',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Регуляторная группа ФЭМ ',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<h2><a href='#' class='g-link--inherit h-border-bottom0'>Топливораздаточное оборудование</a></h2>
+
+{% call components.CategoryCard(
+  title = 'Автогазозаправочные станции для работы с подземными емкостями',
+  hLevel = 3,
+  url = '#'
+) %}{% endcall %}
+
+<h3>Топловораздаточные колонки</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Электронная заправочная колонка ФЭМ 1LG',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Электронная заправочная колонка ФЭМ 2LG',
+    hLevel = 4,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<h2><a href='#' class='g-link--inherit h-border-bottom0'>Контрольно-распределительные пункты</a></h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Контрольно-распределительный пункт ФЭМ KRP',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Контрольно-распределительный пункт ФЭМ KRP/N',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Контрольно-распределительный пункт ФЭМ KRP/V',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Контрольно-распределительный пункт ФЭМ KRP/S',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Контрольно-распределительный пункт ФЭМ KRP/N/S',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<h2><a href='#' class='g-link--inherit h-border-bottom0'>Фильтры и запорно-предохранительная арматура, электромагнитные задвижки</a></h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call components.CategoryCard(
+    title = 'Контрольные окошки',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Запорно-предохранительная арматура',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Фильтры',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Шаровой запорный клапан (межфланцевый)',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Байпасный клапан',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Обратные и скоростные клапаны',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Шаровой резьбовой клапан',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Предохранительный стравливающий клапан',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Предохранительный сбросной клапан',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Обратный клапан для самовсасывающей установки',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Изоляционные фланцы с искроотводом',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Отсекатели',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call components.CategoryCard(
+    title = 'Массовый расходомер',
+    hLevel = 3,
+    url = '#',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+{% endblock %}
