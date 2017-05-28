@@ -44,7 +44,15 @@
     {% call(depth) Item('/решения/') %}
 
       {# @todo Move color to styles if it's ok #}
-      <li class='h-h6 h-margin-bottom--' style='color: #4e5b69;'>Отраслевые решения</li>
+      <li class='h-h6 h-margin-bottom--' style='color: #4e5b69;'>Технические решения</li>
+
+      {% call(depth) Item('/решения/технические/каскадное-соединение', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/технические/когенерационная-установка', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/технические/контейнеры-для-генераторов', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/технические/авр', depth = depth) %}{% endcall %}
+
+      {# @todo Move color to styles if it's ok #}
+      <li class='h-h6 h-margin-top h-margin-bottom--' style='color: #4e5b69;'>Отраслевые решения</li>
 
       {% call(depth) Item('/решения/отраслевые/нефтегазовый-комплекс/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/отраслевые/энергетический-комплекс/', depth = depth) %}{% endcall %}
@@ -54,14 +62,6 @@
       {% call(depth) Item('/решения/отраслевые/автомобилестроение/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/отраслевые/лесной-комплекс/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/отраслевые/экологические-программы/', depth = depth) %}{% endcall %}
-
-      {# @todo Move color to styles if it's ok #}
-      <li class='h-h6 h-margin-top h-margin-bottom--' style='color: #4e5b69;'>Технические решения</li>
-
-      {% call(depth) Item('/решения/технические/каскадное-соединение', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/технические/когенерационная-установка', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/технические/контейнеры-для-генераторов', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/технические/авр', depth = depth) %}{% endcall %}
 
     {% endcall %}
     {% call(depth) Item('/услуги/') %}
