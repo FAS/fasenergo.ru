@@ -12,6 +12,7 @@ metaDesc:        Продукция «Фасэнергомаш»
 {% call components.CategoryCard(
   title = 'Газовые генераторы «Фасэнергомаш»',
   hLevel = 2,
+  image = '/' + path.images + '/production/газовые-генераторы.png',
   url = '#',
   class = 'h-margin-top+'
 ) %}{% endcall %}
@@ -23,15 +24,17 @@ metaDesc:        Продукция «Фасэнергомаш»
 {% call components.CategoryCard(
   title = 'Испарители электрического подогрева',
   hLevel = 3,
+  image = '/' + path.images + '/production/испарительное-оборудование/испарители-электрического-подогрева.jpg',
   url = '#'
 ) %}{% endcall %}
 
-<h3>Испарительные установки с электроподогревом</h3>
+<h3>Испарительные установки электрического подогрева</h3>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
     title = 'В огнеупорном пластиковом корпусе',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительное-оборудование/электрического-подогрева/в-огнеупорном-пластиковом-корпусе.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -39,6 +42,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'В шкафном исполнении',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительное-оборудование/электрического-подогрева/в-шкафном-исполнении.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -46,6 +50,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'На раме',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительное-оборудование/электрического-подогрева/на-раме.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -53,6 +58,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Погружного и кольцевого исполнения',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительное-оборудование/электрического-подогрева/погружного-и-кольцевого-исполнения.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -65,6 +71,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'В шкафном исполнении',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительное-оборудование/жидкостного-подогрева/в-шкафном-исполнении.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -72,6 +79,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'В контейнерном исполнении',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительное-оборудование/жидкостного-подогрева/в-контейнерном-исполнении.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -79,6 +87,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'В кольцевом исполнении',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительное-оборудование/жидкостного-подогрева/в-кольцевом-исполнении.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -86,6 +95,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'С саморазогревом за счет использования котла',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительное-оборудование/жидкостного-подогрева/с-саморазогревом-за-счет-использования-котла.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -99,6 +109,7 @@ metaDesc:        Продукция «Фасэнергомаш»
 {% call components.CategoryCard(
   title = 'Смесительные установки',
   hLevel = 3,
+  image = '/' + path.images + '/production/испарительно-смесительное-оборудование/смесительные-установки.png',
   url = '#'
 ) %}{% endcall %}
 
@@ -108,6 +119,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'В шкафном исполнении',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительно-смесительное-оборудование/электрического-подогрева/в-шкафном-исполнении.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -115,6 +127,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'В контейнерном исполнении',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительно-смесительное-оборудование/электрического-подогрева/в-контейнерном-исполнении.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -127,6 +140,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'В шкафном исполнении',
     hLevel = 4,
+    image = '/' + path.images + '/production/испарительно-смесительное-оборудование/жидкостного-подогрева/в-шкафном-исполнении.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -150,6 +164,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Насосный комплекс для слива СУГ из железнодорожных цистерн или автомобилей-газовозов',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/комлексы/насосный-комплекс-для-слива-суг-из-железнодорожных-цистерн-или-автомобилей-газовозов.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -157,13 +172,15 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Компрессорная установка для перекачки СУГ',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/комлексы/компрессорная-установка-для-перекачки-суг.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Насосная установка для перекачки СУГ',
+    title = 'Блочный технологический комплекс насосно-счетной установки',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/комлексы/блочный-технологический-комплекс-насосно-счетной-установки.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -171,6 +188,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Насосно-компрессорное отделение (НКО)',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/комлексы/насосно-компрессорное-отделение.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -185,6 +203,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Компрессорный агрегат ФЭМ 491 <span class="h-block h-padding-top-- h-text-">60 м³/час, 10 кВт</span>',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-491.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -192,6 +211,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Компрессорный агрегат ФЭМ 691 <span class="h-block h-padding-top-- h-text-">100 м³/час, 17 кВт</span>',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-691.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -199,6 +219,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Компрессорный агрегат ФЭМ 891 <span class="h-block h-padding-top-- h-text-">180 м³/час, 30 кВт</span>',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-891.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -211,6 +232,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 691 <span class="h-block h-padding-top-- h-text-">1710 Nm³/час</span>',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-691.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -218,6 +240,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 491 <span class="h-block h-padding-top-- h-text-">715 Nm³/час</span>',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-491.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -225,6 +248,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 891 <span class="h-block h-padding-top-- h-text-">300 Nm³/час</span>',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-891.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -237,6 +261,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Поршневой компрессорный агрегат ФЭМ 491 <span class="h-block h-padding-top-- h-text-">60 м³/час, 10 кВт</span>',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-491.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -244,6 +269,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Компрессорный агрегат ФЭМ 691 для метана',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-691.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -256,6 +282,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 891 <span class="h-block h-padding-top-- h-text-">100 Nm³/час</span>',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-891.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -263,6 +290,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Поршневой компрессорный агрегат ФЭМ 891 <span class="h-block h-padding-top-- h-text-">294 Nm³/час</span>',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-891.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -275,6 +303,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Компрессорный агрегат для CO2 ФЭМ 491',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-491.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -287,6 +316,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Компрессорный агрегат для перекачки этилена ФЭМ 891',
     hLevel = 5,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/компрессор-фэм-891.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -299,6 +329,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Насосно-счетная установка в шкафном исполнении',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосно-счетная-установка-в-шкафном-исполнении.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -306,6 +337,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Насосно-счётная установка стационарного исполнения',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосно-счётная-установка-стационарного-исполнения.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -313,6 +345,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Счётная установка мобильного исполнения для автомобилей-газовозов',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/счетная-установка-мобильного-исполнения-для-автомобилей-газовозов.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -325,6 +358,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Адсорбционные азотные установки',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/адсорбирующее-оборудование/адсорбционные-азотные-установки.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -332,6 +366,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Адсорбционные азотные станции',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/адсорбирующее-оборудование/адсорбционные-азотные-станции.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -344,6 +379,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Самовсасывающие установки',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/другое/самовсасывающие-установки.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -351,6 +387,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Установки разделения воздуха',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/другое/установки-разделения-воздуха.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -358,6 +395,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Осушка углеводородных газов',
     hLevel = 4,
+    image = '/' + path.images + '/production/насосно-компрессорное-оборудование/другое/осушка-углеводородных-газов.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -381,6 +419,7 @@ metaDesc:        Продукция «Фасэнергомаш»
 {% call components.CategoryCard(
   title = 'Криогенные резервуары для хранения СПГ',
   hLevel = 3,
+  image = '/' + path.images + '/production/автономные-системы-газоснабжения/криогенные-резервуары-для-хранения-спг.png',
   url = '#'
 ) %}{% endcall %}
 
@@ -394,6 +433,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'RegO',
     hLevel = 4,
+    image = '/' + path.images + '/production/контрольно-регуляторное-оборудование/регуляторы-давления/регуляторы-rego.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -401,6 +441,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'GOK',
     hLevel = 4,
+    image = '/' + path.images + '/production/контрольно-регуляторное-оборудование/регуляторы-давления/регуляторы-gok.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -408,6 +449,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'ФЭМ',
     hLevel = 4,
+    image = '/' + path.images + '/production/контрольно-регуляторное-оборудование/регуляторы-давления/регуляторы-фєм.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -420,6 +462,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Регуляторная группа ФЭМ ',
     hLevel = 4,
+    image = '/' + path.images + '/production/контрольно-регуляторное-оборудование/контрольно-регуляторные-пункты/контрольно-регуляторная-группа-фэм-1.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -427,6 +470,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Регуляторная группа ФЭМ ',
     hLevel = 4,
+    image = '/' + path.images + '/production/контрольно-регуляторное-оборудование/контрольно-регуляторные-пункты/контрольно-регуляторная-группа-фэм-2.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -434,6 +478,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Регуляторная группа ФЭМ ',
     hLevel = 4,
+    image = '/' + path.images + '/production/контрольно-регуляторное-оборудование/контрольно-регуляторные-пункты/контрольно-регуляторная-группа-фэм-2.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -441,6 +486,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Регуляторная группа ФЭМ ',
     hLevel = 4,
+    image = '/' + path.images + '/production/контрольно-регуляторное-оборудование/контрольно-регуляторные-пункты/контрольно-регуляторная-группа-фэм-2.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -448,6 +494,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Регуляторная группа ФЭМ ',
     hLevel = 4,
+    image = '/' + path.images + '/production/контрольно-регуляторное-оборудование/контрольно-регуляторные-пункты/контрольно-регуляторная-группа-фэм-2.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -461,15 +508,17 @@ metaDesc:        Продукция «Фасэнергомаш»
 {% call components.CategoryCard(
   title = 'Автогазозаправочные станции для работы с подземными емкостями',
   hLevel = 3,
+  image = '/' + path.images + '/production/топливораздаточное-оборудование/автогазозаправочные-станции-для-работы-с-подземными-емкостями.png',
   url = '#'
 ) %}{% endcall %}
 
-<h3>Электроенные топловораздаточные колонки</h3>
+<h3>Электронные топливораздаточные колонки</h3>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
     title = 'ФЭМ 1LG',
     hLevel = 4,
+    image = '/' + path.images + '/production/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/ФЭМ-1LG.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -477,6 +526,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'ФЭМ 2LG',
     hLevel = 4,
+    image = '/' + path.images + '/production/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/ФЭМ-2LG.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -491,6 +541,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'ФЭМ KRP',
     hLevel = 3,
+    image = '/' + path.images + '/production/контрольно-распределительные-пункты.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -498,6 +549,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'ФЭМ KRP/N',
     hLevel = 3,
+    image = '/' + path.images + '/production/контрольно-распределительные-пункты.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -505,6 +557,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'ФЭМ KRP/V',
     hLevel = 3,
+    image = '/' + path.images + '/production/контрольно-распределительные-пункты.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -512,6 +565,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'ФЭМ KRP/S',
     hLevel = 3,
+    image = '/' + path.images + '/production/контрольно-распределительные-пункты.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -519,6 +573,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'ФЭМ KRP/N/S',
     hLevel = 3,
+    image = '/' + path.images + '/production/контрольно-распределительные-пункты.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -533,6 +588,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Контрольные окошки',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/контрольные-окошки.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -540,6 +596,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Запорно-предохранительная арматура',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/запорно-предохранительная-арматура.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -547,6 +604,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Фильтры',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/фильтры.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -554,6 +612,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Шаровой запорный клапан (межфланцевый)',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/шаровой-запорный-клапан-межфланцевый.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -561,6 +620,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Байпасный клапан',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/байпасный-клапан.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -568,6 +628,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Обратные и скоростные клапаны',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/обратные-и-скоростные-клапаны.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -575,6 +636,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Шаровой резьбовой клапан',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/шаровой-резьбовой-клапан.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -582,6 +644,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Предохранительный стравливающий клапан',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/предохранительный-стравливающий-клапан.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -589,6 +652,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Предохранительный сбросной клапан',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/предохранительный-сбросной-клапан.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -596,6 +660,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Обратный клапан для самовсасывающей установки',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/обратный-клапан-для-самовсасывающей-установки.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -603,6 +668,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Изоляционные фланцы с искроотводом',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/изоляционные-фланцы-с-искроотводом.jpg',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -610,6 +676,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Отсекатели',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/отсекатели.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -617,6 +684,7 @@ metaDesc:        Продукция «Фасэнергомаш»
   {% call components.CategoryCard(
     title = 'Массовый расходомер',
     hLevel = 3,
+    image = '/' + path.images + '/production/фильтры-арматура-задвижки/массовый-расходомер.png',
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
