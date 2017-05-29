@@ -183,21 +183,21 @@ metaDesc:        Продукция
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
-    title = 'Компрессорный агрегат ФЭМ 491 (60 м³/час, электродвигатель 10 кВт)',
+    title = 'Компрессорный агрегат ФЭМ 491 <span class="h-block h-padding-top-- h-text-">60 м³/час, 10 кВт</span>',
     hLevel = 5,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Компрессорный агрегат ФЭМ 691 (100 м³/час, электродвигатель 17 кВт)',
+    title = 'Компрессорный агрегат ФЭМ 691 <span class="h-block h-padding-top-- h-text-">100 м³/час, 17 кВт</span>',
     hLevel = 5,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Компрессорный агрегат ФЭМ 891 (180 м³/час, электродвигатель 30 кВт)',
+    title = 'Компрессорный агрегат ФЭМ 891 <span class="h-block h-padding-top-- h-text-">180 м³/час, 30 кВт</span>',
     hLevel = 5,
     url = '#',
     class = 'o-grid__item h-1/4',
@@ -209,21 +209,21 @@ metaDesc:        Продукция
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
-    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 691 (1710 Nm³/час)',
+    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 691 <span class="h-block h-padding-top-- h-text-">1710 Nm³/час</span>',
     hLevel = 5,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 491 (715 Nm³/час)',
+    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 491 <span class="h-block h-padding-top-- h-text-">715 Nm³/час</span>',
     hLevel = 5,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 891 (300 Nm³/час)',
+    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 891 <span class="h-block h-padding-top-- h-text-">300 Nm³/час</span>',
     hLevel = 5,
     url = '#',
     class = 'o-grid__item h-1/4',
@@ -235,7 +235,7 @@ metaDesc:        Продукция
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
-    title = 'Поршневой компрессорный агрегат ФЭМ 491 (60 м³/час, электродвигатель 10 кВт)',
+    title = 'Поршневой компрессорный агрегат ФЭМ 491 <span class="h-block h-padding-top-- h-text-">60 м³/час, 10 кВт</span>',
     hLevel = 5,
     url = '#',
     class = 'o-grid__item h-1/4',
@@ -254,14 +254,14 @@ metaDesc:        Продукция
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
-    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 891 (100 Nm³/час)',
+    title = 'Поршневой компрессорный агрегат сухого хода ФЭМ 891 <span class="h-block h-padding-top-- h-text-">100 Nm³/час</span>',
     hLevel = 5,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Поршневой компрессорный агрегат ФЭМ 891 (294 Nm³/час)',
+    title = 'Поршневой компрессорный агрегат ФЭМ 891 <span class="h-block h-padding-top-- h-text-">294 Nm³/час</span>',
     hLevel = 5,
     url = '#',
     class = 'o-grid__item h-1/4',
