@@ -464,7 +464,7 @@ metaDesc:        Продукция
   url = '#'
 ) %}{% endcall %}
 
-<h3>Топловораздаточные колонки</h3>
+<h3>Топливораздаточные колонки</h3>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
