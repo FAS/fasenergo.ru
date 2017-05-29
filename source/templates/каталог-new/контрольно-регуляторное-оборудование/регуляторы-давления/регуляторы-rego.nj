@@ -1,0 +1,14 @@
+---
+title:           Регуляторы давления RegO
+breadcrumbTitle: Регуляторы давления RegO
+contentTitle:    Регуляторы давления RegO
+navTitle:        Регуляторы давления RegO
+metaDesc:        Регуляторы давления RegO
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<p><i>Раздел в разработке</i></p>
+{% endblock %}

@@ -1,0 +1,14 @@
+---
+title:           Фильтры «Фасэнергомаш»
+breadcrumbTitle: Фильтры
+contentTitle:    Фильтры «Фасэнергомаш»
+navTitle:        Фильтры
+metaDesc:        Фильтры «Фасэнергомаш»
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<p><i>Раздел в разработке</i></p>
+{% endblock %}

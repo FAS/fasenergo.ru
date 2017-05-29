@@ -1,0 +1,14 @@
+---
+title:           Регуляторы давления
+breadcrumbTitle: Регуляторы давления
+contentTitle:    Регуляторы давления
+navTitle:        Регуляторы давления
+metaDesc:        Регуляторы давления
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<p><i>Раздел в разработке</i></p>
+{% endblock %}

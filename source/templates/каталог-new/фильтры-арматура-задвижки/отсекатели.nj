@@ -1,0 +1,14 @@
+---
+title:           Отсекатели «Фасэнергомаш»
+breadcrumbTitle: Отсекатели
+contentTitle:    Отсекатели «Фасэнергомаш»
+navTitle:        Отсекатели
+metaDesc:        Отсекатели «Фасэнергомаш»
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<p><i>Раздел в разработке</i></p>
+{% endblock %}
