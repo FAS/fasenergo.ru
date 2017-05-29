@@ -392,21 +392,21 @@ metaDesc:        Продукция
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
-    title = 'Регуляторы RegO',
+    title = 'RegO',
     hLevel = 4,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Регуляторы GOK',
+    title = 'GOK',
     hLevel = 4,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Регуляторы ФЭМ',
+    title = 'ФЭМ',
     hLevel = 4,
     url = '#',
     class = 'o-grid__item h-1/4',
@@ -464,18 +464,18 @@ metaDesc:        Продукция
   url = '#'
 ) %}{% endcall %}
 
-<h3>Топливораздаточные колонки</h3>
+<h3>Электроенные топловораздаточные колонки</h3>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
-    title = 'Электронная заправочная колонка ФЭМ 1LG',
+    title = 'ФЭМ 1LG',
     hLevel = 4,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Электронная заправочная колонка ФЭМ 2LG',
+    title = 'ФЭМ 2LG',
     hLevel = 4,
     url = '#',
     class = 'o-grid__item h-1/4',
@@ -489,35 +489,35 @@ metaDesc:        Продукция
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call components.CategoryCard(
-    title = 'Контрольно-распределительный пункт ФЭМ KRP',
+    title = 'ФЭМ KRP',
     hLevel = 3,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Контрольно-распределительный пункт ФЭМ KRP/N',
+    title = 'ФЭМ KRP/N',
     hLevel = 3,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Контрольно-распределительный пункт ФЭМ KRP/V',
+    title = 'ФЭМ KRP/V',
     hLevel = 3,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Контрольно-распределительный пункт ФЭМ KRP/S',
+    title = 'ФЭМ KRP/S',
     hLevel = 3,
     url = '#',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call components.CategoryCard(
-    title = 'Контрольно-распределительный пункт ФЭМ KRP/N/S',
+    title = 'ФЭМ KRP/N/S',
     hLevel = 3,
     url = '#',
     class = 'o-grid__item h-1/4',
