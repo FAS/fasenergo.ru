@@ -1,16 +1,16 @@
 ---
-title:           Продукция
+title:           Продукция «Фасэнергомаш»
 breadcrumbTitle: Продукция
-contentTitle:    Продукция
+contentTitle:    Продукция «Фасэнергомаш»
 navTitle:        Продукция
-metaDesc:        Продукция
+metaDesc:        Продукция «Фасэнергомаш»
 ---
 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
 {% call components.CategoryCard(
-  title = 'Газовые генераторы Фасэнергомаш',
+  title = 'Газовые генераторы «Фасэнергомаш»',
   hLevel = 2,
   url = '#',
   class = 'h-margin-top+'
