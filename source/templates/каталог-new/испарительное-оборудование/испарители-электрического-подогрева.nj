@@ -9,6 +9,222 @@ metaDesc:        Испарители электрического подогр�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{# @todo Нет контента #}
-<p><i>Раздел в разработке</i></p>
+
+<header property='offers' typeof='Offer' class='o-grid h-childs-displace h-flex-y--center h-margin-bottom'>
+  <meta property='priceCurrency' content='RUB' />
+
+  <div class='o-grid__item h-5/9 h-1/3@lap h-align--center'>
+    <a class='h-border-bottom0 js-smooth-jump' href='#photos'>
+      <img src='/{{ path.images }}/{{ mainPhoto or '/generators/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--front.jpg' }}' alt='{{ gen.title|striptags }}'>
+    </a>
+  </div>
+
+  <div class='o-grid__item h-4/9 h-2/3@lap'>
+    <div class='o-grid h-flex-y--center h-childs-displace'>
+
+      <div class='o-grid__item h-1/1 h-1/2@lap h-order--last h-order--first@lap h-align--center h-margin-top+ h-margin-top0@lap'>
+        <ul class='h-inline-block h-align--left g-list0 h-text-'>
+          <li>
+            <span class='h-float--left'>{{ components.Icon('star') }}</span>
+            <span class='h-block h-margin-left+--'>
+              Гарантия {{ numbro(5).format() }} {{ 5|plural(['лет', 'лет', 'лет']) }}
+            </span>
+          </li>
+          <li>
+            <span class='h-float--left'>{{ components.Icon('delivery') }}</span>
+            <span class='h-block h-margin-left+--'><a href='/услуги/доставка/'>Доставка по всей России</a></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class='o-grid__item h-1/1 h-1/2@lap h-align--center'>
+        <div class='h-margin-sides--auto' style='max-width: 261px'>
+
+          {% if not isDiscontinued %}
+          <meta property='price' content='{{ currentPrice }}'>
+          {% if gen.discount %}
+          <div class='h-margin-bottom-- h-inline-block'>
+            <del class='h-block h-text- h-align--right h-opacity--70 h-text--nowrap'>{{ numbro(getGeneratorOriginalPrice(gen)).formatCurrency() }}</del>
+            <div>
+              <div class='discount-box h-inline-block h-align--middle h-align--right h-margin-right-- h-text--nowrap'>–{{ gen.discount }}%</div>
+              <div class='h-h2 h-inline-block h-align--middle h-align--right text-green h-text--nowrap'>{{ currentPriceFormatted }}</div>
+            </div>
+          </div>
+          {% else %}
+          <p class='h-margin-bottom-- h-h1 text-green h-text--nowrap'>{{ currentPriceFormatted }}</p>
+          {% endif %}
+          {% endif %}
+
+          {% if isDiscontinued %}
+          <p class='h-text+ h-marg1in-bottom-- h-text--nowrap'>
+            <link property='availability' href='http://schema.org/Discontinued'/>
+            {{ components.Icon('x-o', class = 'text-red h-text h-align--middle Icon--left') }}<span class='h-align--middle'>снят с производства</span>
+          </p>
+          {% elif isAvailable %}
+          <p class='h-text- h-margin1-bottom-- h-text--nowrap'>
+            <link property='availability' href='http://schema.org/InStock'/>
+            {{ components.Icon('check-o', class = 'text-green h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>в наличии</span>
+          </p>
+          {% else %}
+          <p class='h-text- h-mar1gin-bottom-- h-text--nowrap'>
+            <link property='availability' href='http://schema.org/PreOrder'/>
+            {{ components.Icon('clock', class = 'text-blue h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>под заказ</span>
+          </p>
+          {% endif %}
+
+          {% if not isDiscontinued %}
+          <a property='url' class='Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='/контакты/'>Сделать заказ</a>
+          <p class='h-margin-top-- h-margin-bottom0'>или <a href='/контакты/'>задать вопрос</a></p>
+          {% endif %}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</header>
+
+<nav class='Box h-padding-- h-margin-bottom+--'>
+  <ul class='page-product-menu o-nav h-childs-margin-top0 h-text--caps h-text-'>
+    <li><a class='js-smooth-jump' href='#general'>Описание</a></li>
+    <li><a class='js-smooth-jump' href='#products'>Продукция</a></li>
+    <li><a class='js-smooth-jump' href='#photos'>Фото</a></li>
+  </ul>
+</nav>
+
+<p>Электрические испарители российской компании Фасэнергомаш типа&nbsp;«SE» – испарители для пропана, бутана и их смесей («S») непрямого электрического подогрева («E»). Число, следующее в наименовании за аббревиатурой серии, означает номер модели по каталогу ФЭМ.</p>
+<p>Электрические испарители и испарительные установки ФЭМ&nbsp;«SE» предназначены для обеспечения потребителей паровой фазой сжиженного углеводородного газа (СУГ) и включают модели производительностью от 10 до 2&nbsp;000&nbsp;кг/час с функцией автоматической регулировки подачи газа в зависимости от потребления. Данная функция позволяет существенно снизить расход электроэнергии на испарение.</p>
+<p>Испарительные установки ФЭМ&nbsp;«SE» отличаются простотой в эксплуатации и высокой надежностью. Компанией Фасэнергомаш были подробно изучены свойства сжиженных углеводородных газов, выявлены особенности использования испарительных установок в различных климатических зонах, собраны данные о недостатках и типичных неисправностях приборов других производителей, после чего она спроектировала и изготовила свой испаритель – простой и надежный.</p>
+
+<p>Несмотря на то, что Фасэнергомаш&nbsp;– развивающаяся молодая компания, она объединила под одной крышей опытных специалистов, производящих и эксплуатирующих испарительные установки во всем мире. Это позволило интегрировать более чем двадцатилетний опыт, на основании которого было максимально снижено влияние человеческого фактора, обеспечен автоматический, не требующий ручных настроек, режим, отработана эксплуатация во взрывоопасных Ex-зонах категорий 0–2, а также решен целый ряд технических проблем, среди которых:</p>
+
+<ul>
+  <li>Залипание электромагнитных клапанов;</li>
+  <li>Попадание смол или серы в фильтр регуляторных групп;</li>
+  <li>Деформация мембран регуляторных групп и ПЗК;</li>
+  <li>Замерзание регуляторных групп;</li>
+  <li>Замерзание влаги в фильтре перед испарителем;</li>
+  <li>Выход из строя плат управления из-за скачков напряжения;</li>
+  <li>Прогорание нагревательных элементов и термозапорных клапанов.</li>
+</ul>
+
+<p>Все вышеуказанное позволило создать надежные, простые в эксплуатации и недорогие испарители и испарительные установки высочайшего качества, при котором мы даем гарантию на три года или 25&nbsp;000 часов эксплуатации.</p>
+<p>Кроме стандартных моделей мы готовы изготовить испаритель или испарительную установку требуемой производительности с любым набором функций контроля и передачи информации по индивидуальному заказу.</p>
+
+<h2>Продукция</h2>
+
+<ul>
+  <li>Непрямой электрический подогрев.</li>
+  <li>Автоматический контроль производительности для систем автономного и резервного газоснабжения.</li>
+  <li>Все установки комплектно собраны и проверены давлением.</li>
+</ul>
+
+<table class='Table'>
+  <thead>
+    <tr>
+      <th class='h-text-'>Наименование</th>
+      <th class='h-text-'>Производительность</th>
+      <th class='h-text-'>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 10 SE</td>
+      <td class='h-align--right'>10 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 15 SE</td>
+      <td class='h-align--right'>15 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 25 SE</td>
+      <td class='h-align--right'>25 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 40 SE</td>
+      <td class='h-align--right'>40 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 60 SE</td>
+      <td class='h-align--right'>60 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 80 SE</td>
+      <td class='h-align--right'>80 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 100 SE</td>
+      <td class='h-align--right'>100 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 120 SE</td>
+      <td class='h-align--right'>120 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 160 SE</td>
+      <td class='h-align--right'>160 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 240 SE</td>
+      <td class='h-align--right'>240 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+    <tr>
+      <td>Испаритель&nbsp;ФЭМ 300 SE</td>
+      <td class='h-align--right'>300 кг/ч</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<section id="photos" class="o-clearfix h-margin-bottom+">
+
+    <h2>Фото</h2>
+
+    <div class="h-align--center">
+
+      <div id="js-photos-block__main">
+
+        <a class="h-block h-border-bottom0" style="height: 600px" href="/assets/images/generators/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--front.jpg">
+          <img class="h-height-1/1" style="object-fit: cover" src="/assets/images/generators/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--front.jpg" alt="Газовый генератор ФАС-5/1ЛП (5 кВт)">
+        </a>
+      </div>
+
+
+      <div id="js-photos-block__thumbs">
+
+
+        <a class="photo-slider__thumbs__link is-active" href="/assets/images/generators/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--front.jpg">
+          <img class="h-align--middle" src="/assets/images/generators/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--front.jpg" height="80" alt="Газовый генератор ФАС-5/1ЛП (5 кВт)">
+        </a>
+
+
+        <a class="photo-slider__thumbs__link " href="/assets/images/generators/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--front-left.jpg">
+          <img class="h-align--middle" src="/assets/images/generators/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--front-left.jpg" height="80" alt="Газовый генератор ФАС-5/1ЛП (5 кВт)">
+        </a>
+
+
+        <a class="photo-slider__thumbs__link " href="/assets/images/generators/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--front-right.jpg">
+          <img class="h-align--middle" src="/assets/images/generators/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--front-right.jpg" height="80" alt="Газовый генератор ФАС-5/1ЛП (5 кВт)">
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+<p><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i>
+</p>
 {% endblock %}
