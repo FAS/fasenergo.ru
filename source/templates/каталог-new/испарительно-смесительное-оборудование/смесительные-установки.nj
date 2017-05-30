@@ -10,5 +10,58 @@ metaDesc:        Смесительные установки
 
 {% block main %}
 {# @todo Нет контента #}
-<p><i>Раздел в разработке</i></p>
+
+<p>Смесительные установки предназначены для производства смеси СУГ с воздухом для доведения колорийности газа до требуемой величины.</p>
+
+{% set pageEqLow = [
+  { title: 'Смесительная установка ФЭМ 300 SU/ND', performance: '300 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 600 SU/ND', performance: '600 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 1200 SU/N', performance: '1200 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 2400 SU/N', performance: '2400 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 4800 SU/N', performance: '4800 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 9600 SU/N', performance: '9600 м³/ч' }
+] %}
+{% set pageEqHigh = [
+  { title: 'Смесительная установка ФЭМ 300 SU/VD', performance: '300 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 600 SU/VD', performance: '600 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 1200 SU/VD', performance: '1200 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 2400 SU/VD', performance: '2400 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 4800 SU/VD', performance: '4800 м³/ч' },
+  { title: 'Смесительная установка ФЭМ 9600 SU/VD', performance: '9600 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Низкого давления</th>
+    </tr>
+    {% for e in pageEqLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Высокого давления</th>
+    </tr>
+    {% for e in pageEqLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
 {% endblock %}

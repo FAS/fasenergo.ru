@@ -10,5 +10,51 @@ metaDesc:        Испарительно-смесительные устано�
 
 {% block main %}
 {# @todo Нет контента #}
-<p><i>Раздел в разработке</i></p>
+<ul>
+  <li>Непрямой электрический подогрев.</li>
+</ul>
+
+{% set pageEqLow = [
+  { title: 'Испарительно-смесительная установка ФЭМ 1200 ISU/SE/ND/K', performance: '1200 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФЭМ 2400 ISU/SE/ND/K', performance: '2400 м³/ч' }
+] %}
+{% set pageEqHigh = [
+  { title: 'Испарительно-смесительная установка ФЭМ 1200 ISU/SE/VD/K', performance: '1200 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФЭМ 2400 ISU/SE/VD/K', performance: '2400 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Низкого давления</th>
+    </tr>
+    {% for e in pageEqLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Высокого давления</th>
+    </tr>
+    {% for e in pageEqLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
 {% endblock %}
