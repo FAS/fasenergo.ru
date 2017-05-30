@@ -10,7 +10,7 @@ metaDesc:        Продукция «Фасэнергомаш»
 
 {% block main %}
 {% call components.CategoryCard(
-  title = 'Газовые генераторы «Фасэнергомаш»',
+  title = 'Газовые генераторы',
   hLevel = 2,
   image = '/' + path.images + '/production/газовые-генераторы.png',
   url = '/продукция/газовые-генераторы/',
