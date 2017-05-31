@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
+<meta name="format-detection" content="telephone=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="320">
+<title>Фасэнергомаш — Производитель газовых генераторов</title>
+<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/font.css'>
+<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/global.css'>
+<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/style.css'>
+<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/adaptive.css'>
+</head>
+
+<body>
+<div id="wrapper">
+	<header id="header">
+    				<div class="menu btn11 abs on_mobile">
+                    	<div class="icon-left"></div>
+                        <div class="icon-right"></div>
+                    </div>
+    	<div class="topmenu abs w100">
+    		<div class="inner">
+            	<nav>
+                	<ul class="rL w100 tb alCenter scroll">
+                    	<li><a href="https://fasenergo.ru/продукция/каталог/" target="_blank"><span>Каталог</span></a></li>                    
+                        <li><a href="https://fasenergo.ru/контакты/" target="_blank"><span>Где купить?</span></a></li>                    
+                        <li><a href="https://fasenergo.ru/продукция/преимущества-наших-генераторов/" target="_blank"><span>Преимущества</span></a></li>                    
+                        <li><a class="b24-web-form-popup-btn-10"><span>Оформление предзаказа</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div><!--end topmenu-->
+        <div class="head_main rL hid">
+        	<div class="inner">
+            	<div class="logo fleft rL contain"></div>
+                <div class="slogan fleft rL box">
+                	<div class="rL w100 h100 tb">
+                    	<div class="tbc vM rL w100 h100">
+                        	Российский Производитель Газовых генераторов
+                        </div>
+                    </div>
+                </div>
+                <div class="right_block fright alRight rL">
+                	<div class="contact">
+                        <p>Бесплатно по России</p>
+                        <a href="tel:+78003337911">(800) 333-79-11</a>
+                    </div>
+                    <div class="button inb vT alCenter cp">Заказать звонок</div>
+                </div>
+            	<div class="clear"></div>
+            </div>
+        </div>
+    </header>
+    <section class="product__block cover" style="background-image:url(images/bg_top.jpg);">
+    	<div class="inner">
+        	<aside class="left_block fleft rL" id="gen1">
+            	<div class="sl_item active">
+                    <h2>Газовый генератор в стальном корпусе Фас-5/1ЛП</h2>
+                    <ul>
+                        <li>Компактный</li>
+                        <li>Уникальный дизайн</li>
+                        <li>Экономичный</li>
+                        <li>Двухтопливная система пропан-бутан/метан</li>
+                        <li>Система автоматического запуска (опционально)</li>
+                        <li>Система подогрева (опционально)</li>
+                    </ul>
+                    <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
+                    <div class="price_block">
+                        <div class="current_price fleft rL">
+                            <span class="price">126 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="old_price fleft rL">
+                            <span class="price">144 900</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>				
+                </div><!--end sl_item-->
+                
+                <div class="sl_item">
+                    <h2>Газовый генератор в стальном корпусе ФАС-6/1ЛМ</h2>
+                    <ul>
+                        <li>Компактный</li>
+                        <li>Уникальный дизайн</li>
+                        <li>Экономичный</li>
+                        <li>Двухтопливная система пропан-бутан/метан</li>
+                        <li>Система автоматического запуска (опционально)</li>
+                        <li>Система подогрева (опционально)</li>
+                    </ul>
+                    <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
+                    <div class="price_block">
+                        <div class="current_price fleft rL">
+                            <span class="price">163 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="old_price fleft rL">
+                            <span class="price">187 450</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>				
+                </div><!--end sl_item-->
+                
+                <div class="sl_item">
+                    <h2>Газовый генератор в стальном корпусе Фас-8/1ЛП</h2>
+                    <ul>
+                        <li>Компактный</li>
+                        <li>Уникальный дизайн</li>
+                        <li>Экономичный</li>
+                        <li>Двухтопливная система пропан-бутан/метан</li>
+                        <li>Система автоматического запуска (опционально)</li>
+                        <li>Система подогрева (опционально)</li>
+                    </ul>
+                    <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
+                    <div class="price_block">
+                        <div class="current_price fleft rL">
+                            <span class="price">208 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="old_price fleft rL">
+                            <span class="price">239 200</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>				
+                </div><!--end sl_item-->
+                
+                <div class="sl_item">
+                    <h2>Газовый генератор в стальном корпусе Фас-10/1ЛП</h2>
+                    <ul>
+                        <li>Компактный</li>
+                        <li>Уникальный дизайн</li>
+                        <li>Экономичный</li>
+                        <li>Двухтопливная система пропан-бутан/метан</li>
+                        <li>Система автоматического запуска (опционально)</li>
+                        <li>Система подогрева (опционально)</li>
+                    </ul>
+                    <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
+                    <div class="price_block">
+                        <div class="current_price fleft rL">
+                            <span class="price">257 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="old_price fleft rL">
+                            <span class="price">295 550</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>				
+                </div><!--end sl_item-->
+                
+            </aside>
+            <aside class="slider_block fright rL">
+            	<div class="sticker abs box zt200 alCenter">
+                	<span class="db">Скидка за предзаказ</span>
+                    <span class="percent inb vT">15</span>
+                    <span class="perc inb vT">%</span>
+                </div>
+                <div class="tov_slider rL hid">
+                	<div>
+                    	<div class="rL w100 h100 tb">
+                        	<div class="rL w100 h100 alCenter tbc vM">
+                            	<img src="images/big1/ste-lend-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    	<div class="rL w100 h100 tb">
+                        	<div class="rL w100 h100 alCenter tbc vM">
+                            	<img src="images/big1/ste-lend-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    	<div class="rL w100 h100 tb">
+                        	<div class="rL w100 h100 alCenter tbc vM">
+                            	<img src="images/big1/ste-lend-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    	<div class="rL w100 h100 tb">
+                        	<div class="rL w100 h100 alCenter tbc vM">
+                            	<img src="images/big1/ste-lend-4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    	<div class="rL w100 h100 tb">
+                        	<div class="rL w100 h100 alCenter tbc vM">
+                            	<img src="images/big1/ste-lend-5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    	<div class="rL w100 h100 tb">
+                        	<div class="rL w100 h100 alCenter tbc vM">
+                            	<img src="images/big1/ste-lend-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        	<div class="clear"></div>
+        </div>
+    </section>
+    
+    <section class="product__mini">
+    	<h3>В Стальном корпусе</h3>
+        <div class="inner hid">
+        	<div class="sl_row rL hid">
+            	<div class="slider_mini rL hid" id="mini1">
+                
+                	<div class="slide active">
+                    	<div class="image_block rL hid">
+                            <div class="sticker abs zt200 box alCenter">
+                                <span class="num inb vT rL">5</span>
+                                <span class="kvt inb vT rL">кВт</span>
+                            </div>
+                            <div class="rL w100 h100 tb">
+                                <div class="rL h100 w100 tbc vM alCenter">
+                                    <img src="images/mini_slider1/1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_block rL">
+                        	<span>126 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                    	<div class="image_block rL hid">
+                            <div class="sticker abs zt200 box alCenter">
+                                <span class="num inb vT rL">6</span>
+                                <span class="kvt inb vT rL">кВт</span>
+                            </div>
+                            <div class="rL w100 h100 tb">
+                                <div class="rL h100 w100 tbc vM alCenter">
+                                    <img src="images/mini_slider1/1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_block rL">
+                        	<span>163 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                    	<div class="image_block rL hid">
+                            <div class="sticker abs zt200 box alCenter">
+                                <span class="num inb vT rL">8</span>
+                                <span class="kvt inb vT rL">кВт</span>
+                            </div>
+                            <div class="rL w100 h100 tb">
+                                <div class="rL h100 w100 tbc vM alCenter">
+                                    <img src="images/mini_slider1/1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_block rL">
+                        	<span>208 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                    	<div class="image_block rL hid">
+                            <div class="sticker big abs zt200 box alCenter">
+                                <span class="num inb vT rL">10</span>
+                                <span class="kvt inb vT rL">кВт</span>
+                            </div>
+                            <div class="rL w100 h100 tb">
+                                <div class="rL h100 w100 tbc vM alCenter">
+                                    <img src="images/mini_slider1/1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_block rL">
+                        	<span>257 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="product__block cover" style="background-image:url(img/subheader_2.jpg)">
+    	<div class="inner">
+        	<aside class="left_block fleft rL" id="gen2">
+            	<div class="sl_item active">
+                    <h2>Газовый генератор в пластиковом корпусе Фас-5/1ЛМ</h2>
+                    <ul>
+                        <li>Долговечный</li>
+                        <li>Повышенное шумопоглощение</li>
+                        <li>Отсутствие коррозии</li>
+                        <li>Двухтопливная система пропан-бутан/метан</li>
+                        <li>Система автоматического запуска (опционально)</li>
+                        <li>Система подогрева (опционально)</li>
+                    </ul>
+                    <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
+                    <div class="price_block">
+                        <div class="current_price fleft rL">
+                            <span class="price">116 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="old_price fleft rL">
+                            <span class="price">133 400</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
+                </div><!--end sl_item-->
+                <div class="sl_item">
+                    <h2>Газовый генератор в пластиковом корпусе Фас-6/1ЛМ</h2>
+                    <ul>
+                        <li>Долговечный</li>
+                        <li>Повышенное шумопоглощение</li>
+                        <li>Отсутствие коррозии</li>
+                        <li>Двухтопливная система пропан-бутан/метан</li>
+                        <li>Система автоматического запуска (опционально)</li>
+                        <li>Система подогрева (опционально)</li>
+                    </ul>
+                    <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
+                    <div class="price_block">
+                        <div class="current_price fleft rL">
+                            <span class="price">147 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="old_price fleft rL">
+                            <span class="price">169 050</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
+                </div><!--end sl_item-->
+                <div class="sl_item">
+                    <h2>Газовый генератор в пластиковом корпусе Фас-8/1ЛМ</h2>
+                    <ul>
+                        <li>Долговечный</li>
+                        <li>Повышенное шумопоглощение</li>
+                        <li>Отсутствие коррозии</li>
+                        <li>Двухтопливная система пропан-бутан/метан</li>
+                        <li>Система автоматического запуска (опционально)</li>
+                        <li>Система подогрева (опционально)</li>
+                    </ul>
+                    <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
+                    <div class="price_block">
+                        <div class="current_price fleft rL">
+                            <span class="price">180 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="old_price fleft rL">
+                            <span class="price">207 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
+                </div><!--end sl_item-->
+                <div class="sl_item">
+                    <h2>Газовый генератор в пластиковом корпусе ФАС-10/1ЛП</h2>
+                    <ul>
+                        <li>Долговечный</li>
+                        <li>Повышенное шумопоглощение</li>
+                        <li>Отсутствие коррозии</li>
+                        <li>Двухтопливная система пропан-бутан/метан</li>
+                        <li>Система автоматического запуска (опционально)</li>
+                        <li>Система подогрева (опционально)</li>
+                    </ul>
+                    <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
+                    <div class="price_block">
+                        <div class="current_price fleft rL">
+                            <span class="price">229 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="old_price fleft rL">
+                            <span class="price">263 350</span>
+                            <span class="rubl">a</span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
+                </div><!--end sl_item-->
+            </aside>
+            <aside class="slider_block fright rL">
+            	<div class="sticker abs box zt200 alCenter">
+                	<span class="db">Скидка за предзаказ</span>
+                    <span class="percent inb vT">15</span>
+                    <span class="perc inb vT">%</span>
+                </div>
+                <div class="tov_slider rL hid">
+                	<div>
+                    	<div class="rL w100 h100 tb">
+                        	<div class="rL w100 h100 alCenter tbc vM">
+                            	<img src="images/big2/ste-lend-7.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    	<div class="rL w100 h100 tb">
+                        	<div class="rL w100 h100 alCenter tbc vM">
+                            	<img src="images/big2/ste-lend-8.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    	<div class="rL w100 h100 tb">
+                        	<div class="rL w100 h100 alCenter tbc vM">
+                            	<img src="images/big2/ste-lend-9.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        	<div class="clear"></div>
+        </div>
+    </section>
+    
+    <section class="product__mini">
+    	<h3>В пластиковом корпусе</h3>
+        <div class="inner hid">
+        	<div class="sl_row rL hid">
+            	<div class="slider_mini rL hid" id="mini2">
+                
+                	<div class="slide active">
+                    	<div class="image_block rL hid">
+                            <div class="sticker abs zt200 box alCenter">
+                                <span class="num inb vT rL">5</span>
+                                <span class="kvt inb vT rL">кВт</span>
+                            </div>
+                            <div class="rL w100 h100 tb">
+                                <div class="rL h100 w100 tbc vM alCenter">
+                                    <img src="images/mini_slider1/2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_block rL">
+                        	<span>116 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                    	<div class="image_block rL hid">
+                            <div class="sticker abs zt200 box alCenter">
+                                <span class="num inb vT rL">6</span>
+                                <span class="kvt inb vT rL">кВт</span>
+                            </div>
+                            <div class="rL w100 h100 tb">
+                                <div class="rL h100 w100 tbc vM alCenter">
+                                    <img src="images/mini_slider1/2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_block rL">
+                        	<span>147 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                    	<div class="image_block rL hid">
+                            <div class="sticker abs zt200 box alCenter">
+                                <span class="num inb vT rL">8</span>
+                                <span class="kvt inb vT rL">кВт</span>
+                            </div>
+                            <div class="rL w100 h100 tb">
+                                <div class="rL h100 w100 tbc vM alCenter">
+                                    <img src="images/mini_slider1/2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price_block rL">
+                        	<span>180 000</span>
+                            <span class="rubl">a</span>
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                    	<div class="image_block rL hid">
+                            <div class="sticker big abs zt200 box alCenter">
+                                <span class="num inb vT rL">10</span>
+                                <span class="kvt inb vT rL">кВт</span>
+                            </div>
+                            <div class="rL w100 h100 tb">
+                                <div class="rL h100 w100 tbc vM alCenter">
+                                    <img src="images/mini_slider1/2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                         <div class="price_block rL">
+                         	<span>229 000</span>
+                            <span class="rubl">a</span>
+                         </div>
+                    </div>
+                 
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="why__us cover box">
+    	<div class="inner">
+        	<h3>Почему генераторы «ФАС»?</h3>
+            <div class="text rL m0a">
+            	Газовые электрогенераторы «ФАС» с воздушным охлаждением —<i class="on_dekstop"></i>
+это лучшее ценовое предложение на рынке газовых генераторов
+            </div>
+            <div class="rL hid">
+            	<div class="row rL hid">
+                	<div class="item fleft rL box w33-3">
+                    	<div>
+                        	<img src="images/why_us/1.png" alt="" class="rL db m0a">
+                            <p>компактность</p>
+                        </div>
+                    </div><!--end item-->
+                    <div class="item fleft rL box w33-3">
+                    	<div>
+                        	<img src="images/why_us/2.png" alt="" class="rL db m0a">
+                            <p>малая материалоемкость оборудования</p>
+                        </div>
+                    </div><!--end item-->
+                    <div class="item fleft rL box w33-3">
+                    	<div>
+                        	<img src="images/why_us/3.png" alt="" class="rL db m0a">
+                            <p>низкая стоимость</p>
+                        </div>
+                    </div><!--end item-->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contacts">
+    	<div class="inner">
+        	<aside class="fleft">
+            	<h3>Закажите сейчас через интернет</h3>
+                <p>Просто нажмите кнопку "Купить" рядом с понравившейся моделью и отправьте заявку. Наш менеджер свяжется<i class="db"></i>
+с Вами в течении 10 минут и уточнит детали заказа</p>
+				<div class="cont_items">
+                	<div class="item rL hid">
+                    	<div class="image_block fleft rL">
+                        	<img src="images/contacts/1.png" alt="">
+                        </div>
+                        <div class="text_block rL hid">
+                        	<em>Доставка</em>
+                            <p>Доставка с завода по всей России до объекта или распределительного пункта транспортной компании</p>
+                        </div>
+                    </div><!--end item-->
+                    <div class="item rL hid">
+                    	<div class="image_block fleft rL">
+                        	<img src="images/contacts/2.png" alt="">
+                        </div>
+                        <div class="text_block rL hid">
+                        	<em>кредит</em>
+                            <p>Кредит на оборудование из каталога для российских покупателей
+<i class="db"></i>и на экспорт</p>
+                        </div>
+                    </div><!--end item-->
+                    <div class="item rL hid">
+                    	<div class="image_block fleft rL">
+                        	<img src="images/contacts/3.png" alt="">
+                        </div>
+                        <div class="text_block rL hid">
+                        	<em>Обслуживание и ремонт</em>
+                            <p>Бесплатное гарантийное обслуживание, консультации, ремонт
+<i class="db"></i>и поставка запчастей</p>
+                        </div>
+                    </div><!--end item-->
+                    <div class="item rL hid">
+                    	<div class="image_block fleft rL">
+                        	<img src="images/contacts/4.png" alt="">
+                        </div>
+                        <div class="text_block rL hid">
+                        	<em>Установка и запуск</em>
+                            <p>Установка "под ключ" или шеф-монтаж, пуско-наладочные
+<i class="db"></i>и строительные работы</p>
+                        </div>
+                    </div><!--end item-->
+                </div><!--end conta_items-->
+            </aside>
+            <aside class="fright">
+            	<h3>Посетите нашу выставку-продажу</h3>
+                <div class="adress rL hid">
+                	<div class="image_block fleft rL">
+                    	<img src="images/house.jpg" alt="" class="rL w100 db">
+                    </div>
+                    <div class="text_block rL hid">
+                    	<p>Работаем в будни с 9:00 до 18:00 194044, Санкт-Петербург, п. Лахта, <i class="db"></i> ул. Красных партизан, д. 10 литер А</p>
+                    </div>
+                </div>
+                <div class="map_block rL hid">
+                	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad2ff4a462886ef9b0e6af874ac0d2b927f993be421b25cb2fc8db71efd9a9cb2&amp;width=100%25&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </aside>
+        	<div class="clear"></div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+    	<div class="inner">
+        	<div class="logo fleft rL contain"></div>
+            	<div class="cont_block fleft alRight rL">
+                	<div class="contact fleft rL">
+                        <p>Бесплатно по России</p>
+                        <a href="tel:+78003337911">(800) 333-79-11</a>
+                    </div>
+                    <div class="button fright rL alCenter cp">Заказать звонок</div>
+                </div>
+                <nav>
+                	<ul class="scroll">
+                    	<li><a href="https://fasenergo.ru/продукция/каталог/" target="_blank"><span>Каталог</span></a></li>                    
+                        <li><a href="https://fasenergo.ru/контакты/" target="_blank"><span>Где купить?</span></a></li>                    
+                        <li><a href="https://fasenergo.ru/продукция/преимущества-наших-генераторов/" target="_blank"><span>Преимущества</span></a></li>                    
+                        <li><a class="b24-web-form-popup-btn-10"><span>Оформление предзаказа</span></a></li>
+                    </ul>
+                </nav>
+            <div class="clear"></div>
+        </div>
+    </footer>
+    
+    
+<div class="g-hidden">
+    	<div class="b-modal" id="call_modal">
+    		<div class="b-modal_close arcticmodal-close"></div>
+
+        <form id="form1" action="php/form1.php" method="post" class="ajax_form ajax-form af_example form-horizontal form-height ajax-content" autocomplete="off">
+
+            
+            <div class="inb call_me mb20 up">Заказать звонок</div>
+            
+
+            <div class="control-group">
+                <div class="controls">
+                    <span class="error_name"></span>
+                    <input required="required" type="text" id="af_name" name="name" value="" class="poln  " placeholder="Имя">
+                </div>
+            </div>
+
+           
+
+            <div class="control-group">
+                <div class="controls">
+                    <span class="error_email"></span>
+                    <input required="required" type="text" class="numbox" id="af_phone" name="number" value="" placeholder="Телефон">
+                </div>
+            </div>
+
+
+           
+
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" class="btn btn-primary" name="call-submit">Отправить заявку</button>
+                    <input autocomplete="off" type="hidden" name="call-control" class="call-control" value="0">
+                </div>
+            </div>
+           
+        </form>
+</div></div>
+
+<div class="g-hidden">
+    	<div class="b-modal" id="call_modal2">
+    		<div class="b-modal_close arcticmodal-close"></div>
+
+        <form id="form2" action="php/form2.php" method="post" class="ajax_form ajax-form af_example form-horizontal form-height ajax-content" autocomplete="off">
+
+            
+            <div class="inb call_me mb20 up">Оформление предзаказа</div>
+            
+
+            <div class="control-group">
+                <div class="controls">
+                    <span class="error_name"></span>
+                    <input required="required" type="text" id="af_name" name="name" value="" class="poln  " placeholder="Имя">
+                </div>
+            </div>
+
+           
+
+            <div class="control-group">
+                <div class="controls">
+                    <span class="error_email"></span>
+                    <input required="required" type="text" class="" id="af_phone" name="number" value="" placeholder="Телефон/E - Mail">
+                </div>
+            </div>
+
+
+           
+
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" class="btn btn-primary" name="call-submit">Отправить заявку</button>
+                    <input autocomplete="off" type="hidden" name="call-control" class="call-control" value="0">
+                </div>
+            </div>
+           
+        </form>
+</div></div>
+
+<div class="g-hidden">
+    	<div class="b-modal alCenter ajax_form af_example" id="spasibo">
+    		<div class="b-modal_close arcticmodal-close"></div>
+            <div class="inb call_me" style="max-width:100%; font-weight:700;">Ваше сообщение отправлено!</div>
+            <div class="inb call_me" style="max-width:100%; font-size:18px;">Мы свяжемся с вами в ближайшее время.</div>
+     </div></div>
+    
+</div><!--end wrapper-->
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/jquery.arcticmodal.js"></script>
+<script type="text/javascript" src="js/mask.js"></script>
+<script type="text/javascript" src="js/validate.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+{{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
+{{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
+</body>
+</html>
