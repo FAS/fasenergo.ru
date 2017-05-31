@@ -1,0 +1,73 @@
+---
+title:           Испарительно-смесительные установки в шкафном исполнении
+breadcrumbTitle: Испарительно-смесительные установки в шкафном исполнении
+contentTitle:    Испарительно-смесительные установки в шкафном исполнении
+navTitle:        Испарительно-смесительные установки в шкафном исполнении
+metaDesc:        Испарительно-смесительные установки в шкафном исполнении
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+<h2>Непрямой электрический подогрев</h2>
+
+{% set pageEqElLow = [
+  { title: 'Испарительно-смесительная установка ФЭМ 300 ISU/SE/ND/SH', performance: '300 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФЭМ 600 ISU/SE/ND/SH', performance: '600 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Низкого давления</th>
+    </tr>
+    {% for e in pageEqElLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Непрямой жидкостный подогрев</h2>
+
+{% set pageEqLiqLow = [
+  { title: 'Испарительно-смесительная установка ФЭМ 300 ISU/ZH/ND/SH', performance: '300 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФЭМ 600 ISU/ZH/ND/SH', performance: '600 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Низкого давления</th>
+    </tr>
+    {% for e in pageEqLiqLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
