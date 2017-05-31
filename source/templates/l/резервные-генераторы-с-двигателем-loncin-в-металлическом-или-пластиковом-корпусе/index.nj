@@ -1,3 +1,8 @@
+{% set components = {} %}
+{% for component in expand('/', '_components/{,**/}_*.nj', 'isFile', path.source.templates) %}
+  {% import component as temp with context %}{% set macro = _.assign(components, temp) %}
+{% endfor %}
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
 <head>
@@ -7,10 +12,10 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="MobileOptimized" content="320">
 <title>Фасэнергомаш — Производитель газовых генераторов</title>
-<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/font.css'>
-<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/global.css'>
-<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/style.css'>
-<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/adaptive.css'>
+<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/font.{{ 'min.css' if env.production else 'prefixed.css' }}'>
+<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/global.{{ 'min.css' if env.production else 'prefixed.css' }}'>
+<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/style.{{ 'min.css' if env.production else 'prefixed.css' }}'>
+<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/adaptive.{{ 'min.css' if env.production else 'prefixed.css' }}'>
 </head>
 
 <body>
@@ -24,9 +29,9 @@
     		<div class="inner">
             	<nav>
                 	<ul class="rL w100 tb alCenter scroll">
-                    	<li><a href="https://fasenergo.ru/продукция/каталог/" target="_blank"><span>Каталог</span></a></li>                    
-                        <li><a href="https://fasenergo.ru/контакты/" target="_blank"><span>Где купить?</span></a></li>                    
-                        <li><a href="https://fasenergo.ru/продукция/преимущества-наших-генераторов/" target="_blank"><span>Преимущества</span></a></li>                    
+                    	<li><a href="https://fasenergo.ru/продукция/каталог/" target="_blank"><span>Каталог</span></a></li>
+                        <li><a href="https://fasenergo.ru/контакты/" target="_blank"><span>Где купить?</span></a></li>
+                        <li><a href="https://fasenergo.ru/продукция/преимущества-наших-генераторов/" target="_blank"><span>Преимущества</span></a></li>
                         <li><a class="b24-web-form-popup-btn-10"><span>Оформление предзаказа</span></a></li>
                     </ul>
                 </nav>
@@ -35,13 +40,6 @@
         <div class="head_main rL hid">
         	<div class="inner">
             	<div class="logo fleft rL contain"></div>
-                <div class="slogan fleft rL box">
-                	<div class="rL w100 h100 tb">
-                    	<div class="tbc vM rL w100 h100">
-                        	Российский Производитель Газовых генераторов
-                        </div>
-                    </div>
-                </div>
                 <div class="right_block fright alRight rL">
                 	<div class="contact">
                         <p>Бесплатно по России</p>
@@ -53,7 +51,7 @@
             </div>
         </div>
     </header>
-    <section class="product__block cover" style="background-image:url(images/bg_top.jpg);">
+    <section class="product__block cover" style="background-image:url(/assets/images/landings/loncin-promo/bg_top.jpg);">
     	<div class="inner">
         	<aside class="left_block fleft rL" id="gen1">
             	<div class="sl_item active">
@@ -78,9 +76,9 @@
                         </div>
                         <div class="clear"></div>
                     </div>
-                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>				
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
                 </div><!--end sl_item-->
-                
+
                 <div class="sl_item">
                     <h2>Газовый генератор в стальном корпусе ФАС-6/1ЛМ</h2>
                     <ul>
@@ -103,9 +101,9 @@
                         </div>
                         <div class="clear"></div>
                     </div>
-                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>				
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
                 </div><!--end sl_item-->
-                
+
                 <div class="sl_item">
                     <h2>Газовый генератор в стальном корпусе Фас-8/1ЛП</h2>
                     <ul>
@@ -128,9 +126,9 @@
                         </div>
                         <div class="clear"></div>
                     </div>
-                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>				
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
                 </div><!--end sl_item-->
-                
+
                 <div class="sl_item">
                     <h2>Газовый генератор в стальном корпусе Фас-10/1ЛП</h2>
                     <ul>
@@ -153,9 +151,9 @@
                         </div>
                         <div class="clear"></div>
                     </div>
-                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>				
+                    <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
                 </div><!--end sl_item-->
-                
+
             </aside>
             <aside class="slider_block fright rL">
             	<div class="sticker abs box zt200 alCenter">
@@ -167,42 +165,42 @@
                 	<div>
                     	<div class="rL w100 h100 tb">
                         	<div class="rL w100 h100 alCenter tbc vM">
-                            	<img src="images/big1/ste-lend-1.jpg" alt="">
+                            	<img src="/assets/images/landings/loncin-promo/big1/ste-lend-1.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div>
                     	<div class="rL w100 h100 tb">
                         	<div class="rL w100 h100 alCenter tbc vM">
-                            	<img src="images/big1/ste-lend-2.jpg" alt="">
+                            	<img src="/assets/images/landings/loncin-promo/big1/ste-lend-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div>
                     	<div class="rL w100 h100 tb">
                         	<div class="rL w100 h100 alCenter tbc vM">
-                            	<img src="images/big1/ste-lend-3.jpg" alt="">
+                            	<img src="/assets/images/landings/loncin-promo/big1/ste-lend-3.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div>
                     	<div class="rL w100 h100 tb">
                         	<div class="rL w100 h100 alCenter tbc vM">
-                            	<img src="images/big1/ste-lend-4.jpg" alt="">
+                            	<img src="/assets/images/landings/loncin-promo/big1/ste-lend-4.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div>
                     	<div class="rL w100 h100 tb">
                         	<div class="rL w100 h100 alCenter tbc vM">
-                            	<img src="images/big1/ste-lend-5.jpg" alt="">
+                            	<img src="/assets/images/landings/loncin-promo/big1/ste-lend-5.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div>
                     	<div class="rL w100 h100 tb">
                         	<div class="rL w100 h100 alCenter tbc vM">
-                            	<img src="images/big1/ste-lend-6.jpg" alt="">
+                            	<img src="/assets/images/landings/loncin-promo/big1/ste-lend-6.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -211,13 +209,13 @@
         	<div class="clear"></div>
         </div>
     </section>
-    
+
     <section class="product__mini">
     	<h3>В Стальном корпусе</h3>
         <div class="inner hid">
         	<div class="sl_row rL hid">
             	<div class="slider_mini rL hid" id="mini1">
-                
+
                 	<div class="slide active">
                     	<div class="image_block rL hid">
                             <div class="sticker abs zt200 box alCenter">
@@ -226,7 +224,7 @@
                             </div>
                             <div class="rL w100 h100 tb">
                                 <div class="rL h100 w100 tbc vM alCenter">
-                                    <img src="images/mini_slider1/1.jpg" alt="">
+                                    <img src="/assets/images/landings/loncin-promo/mini_slider1/1.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -235,7 +233,7 @@
                             <span class="rubl">a</span>
                         </div>
                     </div>
-                    
+
                     <div class="slide">
                     	<div class="image_block rL hid">
                             <div class="sticker abs zt200 box alCenter">
@@ -244,7 +242,7 @@
                             </div>
                             <div class="rL w100 h100 tb">
                                 <div class="rL h100 w100 tbc vM alCenter">
-                                    <img src="images/mini_slider1/1.jpg" alt="">
+                                    <img src="/assets/images/landings/loncin-promo/mini_slider1/1.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -253,7 +251,7 @@
                             <span class="rubl">a</span>
                         </div>
                     </div>
-                    
+
                     <div class="slide">
                     	<div class="image_block rL hid">
                             <div class="sticker abs zt200 box alCenter">
@@ -262,7 +260,7 @@
                             </div>
                             <div class="rL w100 h100 tb">
                                 <div class="rL h100 w100 tbc vM alCenter">
-                                    <img src="images/mini_slider1/1.jpg" alt="">
+                                    <img src="/assets/images/landings/loncin-promo/mini_slider1/1.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -271,7 +269,7 @@
                             <span class="rubl">a</span>
                         </div>
                     </div>
-                    
+
                     <div class="slide">
                     	<div class="image_block rL hid">
                             <div class="sticker big abs zt200 box alCenter">
@@ -280,7 +278,7 @@
                             </div>
                             <div class="rL w100 h100 tb">
                                 <div class="rL h100 w100 tbc vM alCenter">
-                                    <img src="images/mini_slider1/1.jpg" alt="">
+                                    <img src="/assets/images/landings/loncin-promo/mini_slider1/1.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -289,15 +287,15 @@
                             <span class="rubl">a</span>
                         </div>
                     </div>
-                    
-                    
-                    
+
+
+
                 </div>
             </div>
         </div>
     </section>
-    
-    <section class="product__block cover" style="background-image:url(img/subheader_2.jpg)">
+
+    <section class="product__block cover" style="background-image:url(/assets/images/landings/loncin-promo/other/subheader_2.jpg)">
     	<div class="inner">
         	<aside class="left_block fleft rL" id="gen2">
             	<div class="sl_item active">
@@ -407,21 +405,21 @@
                 	<div>
                     	<div class="rL w100 h100 tb">
                         	<div class="rL w100 h100 alCenter tbc vM">
-                            	<img src="images/big2/ste-lend-7.jpg" alt="">
+                            	<img src="/assets/images/landings/loncin-promo/big2/ste-lend-7.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div>
                     	<div class="rL w100 h100 tb">
                         	<div class="rL w100 h100 alCenter tbc vM">
-                            	<img src="images/big2/ste-lend-8.jpg" alt="">
+                            	<img src="/assets/images/landings/loncin-promo/big2/ste-lend-8.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div>
                     	<div class="rL w100 h100 tb">
                         	<div class="rL w100 h100 alCenter tbc vM">
-                            	<img src="images/big2/ste-lend-9.jpg" alt="">
+                            	<img src="/assets/images/landings/loncin-promo/big2/ste-lend-9.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -430,13 +428,13 @@
         	<div class="clear"></div>
         </div>
     </section>
-    
+
     <section class="product__mini">
     	<h3>В пластиковом корпусе</h3>
         <div class="inner hid">
         	<div class="sl_row rL hid">
             	<div class="slider_mini rL hid" id="mini2">
-                
+
                 	<div class="slide active">
                     	<div class="image_block rL hid">
                             <div class="sticker abs zt200 box alCenter">
@@ -445,7 +443,7 @@
                             </div>
                             <div class="rL w100 h100 tb">
                                 <div class="rL h100 w100 tbc vM alCenter">
-                                    <img src="images/mini_slider1/2.jpg" alt="">
+                                    <img src="/assets/images/landings/loncin-promo/mini_slider1/2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -454,7 +452,7 @@
                             <span class="rubl">a</span>
                         </div>
                     </div>
-                    
+
                     <div class="slide">
                     	<div class="image_block rL hid">
                             <div class="sticker abs zt200 box alCenter">
@@ -463,7 +461,7 @@
                             </div>
                             <div class="rL w100 h100 tb">
                                 <div class="rL h100 w100 tbc vM alCenter">
-                                    <img src="images/mini_slider1/2.jpg" alt="">
+                                    <img src="/assets/images/landings/loncin-promo/mini_slider1/2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -472,7 +470,7 @@
                             <span class="rubl">a</span>
                         </div>
                     </div>
-                    
+
                     <div class="slide">
                     	<div class="image_block rL hid">
                             <div class="sticker abs zt200 box alCenter">
@@ -481,7 +479,7 @@
                             </div>
                             <div class="rL w100 h100 tb">
                                 <div class="rL h100 w100 tbc vM alCenter">
-                                    <img src="images/mini_slider1/2.jpg" alt="">
+                                    <img src="/assets/images/landings/loncin-promo/mini_slider1/2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -490,7 +488,7 @@
                             <span class="rubl">a</span>
                         </div>
                     </div>
-                    
+
                     <div class="slide">
                     	<div class="image_block rL hid">
                             <div class="sticker big abs zt200 box alCenter">
@@ -499,7 +497,7 @@
                             </div>
                             <div class="rL w100 h100 tb">
                                 <div class="rL h100 w100 tbc vM alCenter">
-                                    <img src="images/mini_slider1/2.jpg" alt="">
+                                    <img src="/assets/images/landings/loncin-promo/mini_slider1/2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -508,13 +506,13 @@
                             <span class="rubl">a</span>
                          </div>
                     </div>
-                 
-                    
+
+
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section class="why__us cover box">
     	<div class="inner">
         	<h3>Почему генераторы «ФАС»?</h3>
@@ -526,19 +524,19 @@
             	<div class="row rL hid">
                 	<div class="item fleft rL box w33-3">
                     	<div>
-                        	<img src="images/why_us/1.png" alt="" class="rL db m0a">
+                        	<img src="/assets/images/landings/loncin-promo/why_us/1.png" alt="" class="rL db m0a">
                             <p>компактность</p>
                         </div>
                     </div><!--end item-->
                     <div class="item fleft rL box w33-3">
                     	<div>
-                        	<img src="images/why_us/2.png" alt="" class="rL db m0a">
+                        	<img src="/assets/images/landings/loncin-promo/why_us/2.png" alt="" class="rL db m0a">
                             <p>малая материалоемкость оборудования</p>
                         </div>
                     </div><!--end item-->
                     <div class="item fleft rL box w33-3">
                     	<div>
-                        	<img src="images/why_us/3.png" alt="" class="rL db m0a">
+                        	<img src="/assets/images/landings/loncin-promo/why_us/3.png" alt="" class="rL db m0a">
                             <p>низкая стоимость</p>
                         </div>
                     </div><!--end item-->
@@ -546,7 +544,7 @@
             </div>
         </div>
     </section>
-    
+
     <section class="contacts">
     	<div class="inner">
         	<aside class="fleft">
@@ -556,7 +554,7 @@
 				<div class="cont_items">
                 	<div class="item rL hid">
                     	<div class="image_block fleft rL">
-                        	<img src="images/contacts/1.png" alt="">
+                        	<img src="/assets/images/landings/loncin-promo/contacts/1.png" alt="">
                         </div>
                         <div class="text_block rL hid">
                         	<em>Доставка</em>
@@ -565,7 +563,7 @@
                     </div><!--end item-->
                     <div class="item rL hid">
                     	<div class="image_block fleft rL">
-                        	<img src="images/contacts/2.png" alt="">
+                        	<img src="/assets/images/landings/loncin-promo/contacts/2.png" alt="">
                         </div>
                         <div class="text_block rL hid">
                         	<em>кредит</em>
@@ -575,7 +573,7 @@
                     </div><!--end item-->
                     <div class="item rL hid">
                     	<div class="image_block fleft rL">
-                        	<img src="images/contacts/3.png" alt="">
+                        	<img src="/assets/images/landings/loncin-promo/contacts/3.png" alt="">
                         </div>
                         <div class="text_block rL hid">
                         	<em>Обслуживание и ремонт</em>
@@ -585,7 +583,7 @@
                     </div><!--end item-->
                     <div class="item rL hid">
                     	<div class="image_block fleft rL">
-                        	<img src="images/contacts/4.png" alt="">
+                        	<img src="/assets/images/landings/loncin-promo/contacts/4.png" alt="">
                         </div>
                         <div class="text_block rL hid">
                         	<em>Установка и запуск</em>
@@ -599,7 +597,7 @@
             	<h3>Посетите нашу выставку-продажу</h3>
                 <div class="adress rL hid">
                 	<div class="image_block fleft rL">
-                    	<img src="images/house.jpg" alt="" class="rL w100 db">
+                    	<img src="/assets/images/landings/loncin-promo/house.jpg" alt="" class="rL w100 db">
                     </div>
                     <div class="text_block rL hid">
                     	<p>Работаем в будни с 9:00 до 18:00 194044, Санкт-Петербург, п. Лахта, <i class="db"></i> ул. Красных партизан, д. 10 литер А</p>
@@ -612,7 +610,7 @@
         	<div class="clear"></div>
         </div>
     </section>
-    
+
     <footer id="footer">
     	<div class="inner">
         	<div class="logo fleft rL contain"></div>
@@ -625,26 +623,26 @@
                 </div>
                 <nav>
                 	<ul class="scroll">
-                    	<li><a href="https://fasenergo.ru/продукция/каталог/" target="_blank"><span>Каталог</span></a></li>                    
-                        <li><a href="https://fasenergo.ru/контакты/" target="_blank"><span>Где купить?</span></a></li>                    
-                        <li><a href="https://fasenergo.ru/продукция/преимущества-наших-генераторов/" target="_blank"><span>Преимущества</span></a></li>                    
+                    	<li><a href="https://fasenergo.ru/продукция/каталог/" target="_blank"><span>Каталог</span></a></li>
+                        <li><a href="https://fasenergo.ru/контакты/" target="_blank"><span>Где купить?</span></a></li>
+                        <li><a href="https://fasenergo.ru/продукция/преимущества-наших-генераторов/" target="_blank"><span>Преимущества</span></a></li>
                         <li><a class="b24-web-form-popup-btn-10"><span>Оформление предзаказа</span></a></li>
                     </ul>
                 </nav>
             <div class="clear"></div>
         </div>
     </footer>
-    
-    
+
+
 <div class="g-hidden">
     	<div class="b-modal" id="call_modal">
     		<div class="b-modal_close arcticmodal-close"></div>
 
         <form id="form1" action="php/form1.php" method="post" class="ajax_form ajax-form af_example form-horizontal form-height ajax-content" autocomplete="off">
 
-            
+
             <div class="inb call_me mb20 up">Заказать звонок</div>
-            
+
 
             <div class="control-group">
                 <div class="controls">
@@ -653,7 +651,7 @@
                 </div>
             </div>
 
-           
+
 
             <div class="control-group">
                 <div class="controls">
@@ -663,7 +661,7 @@
             </div>
 
 
-           
+
 
             <div class="control-group">
                 <div class="controls">
@@ -671,7 +669,7 @@
                     <input autocomplete="off" type="hidden" name="call-control" class="call-control" value="0">
                 </div>
             </div>
-           
+
         </form>
 </div></div>
 
@@ -681,9 +679,9 @@
 
         <form id="form2" action="php/form2.php" method="post" class="ajax_form ajax-form af_example form-horizontal form-height ajax-content" autocomplete="off">
 
-            
+
             <div class="inb call_me mb20 up">Оформление предзаказа</div>
-            
+
 
             <div class="control-group">
                 <div class="controls">
@@ -692,7 +690,7 @@
                 </div>
             </div>
 
-           
+
 
             <div class="control-group">
                 <div class="controls">
@@ -702,7 +700,7 @@
             </div>
 
 
-           
+
 
             <div class="control-group">
                 <div class="controls">
@@ -710,7 +708,7 @@
                     <input autocomplete="off" type="hidden" name="call-control" class="call-control" value="0">
                 </div>
             </div>
-           
+
         </form>
 </div></div>
 
@@ -720,15 +718,15 @@
             <div class="inb call_me" style="max-width:100%; font-weight:700;">Ваше сообщение отправлено!</div>
             <div class="inb call_me" style="max-width:100%; font-size:18px;">Мы свяжемся с вами в ближайшее время.</div>
      </div></div>
-    
+
 </div><!--end wrapper-->
-<script type="text/javascript" src="js/html5.js"></script>
-<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
-<script type="text/javascript" src="js/owl.carousel.js"></script>
-<script type="text/javascript" src="js/jquery.arcticmodal.js"></script>
-<script type="text/javascript" src="js/mask.js"></script>
-<script type="text/javascript" src="js/validate.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/html5.js"></script>
+<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/owl.carousel.js"></script>
+<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/jquery.arcticmodal.js"></script>
+<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/mask.js"></script>
+<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/validate.js"></script>
+<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/script.js"></script>
 {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
 {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
 </body>
