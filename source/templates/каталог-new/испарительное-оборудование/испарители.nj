@@ -120,7 +120,7 @@ metaDesc:        Испарители
 </ul>
 
 <table class='Table h-cells-padding-ends--'>
-  <thead class='h-text-'>
+  <thead class='h-text- h-align--center'>
     <tr>
       <th>Наименование</th>
       <th>Производительность</th>
