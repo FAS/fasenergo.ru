@@ -8,7 +8,7 @@
 #header .topmenu li:hover a:before{background:#292c37;}
 #header .topmenu li:hover a:after{content:''; width:100%; height:4px; left:0; bottom:0; position:absolute; display:block; background:#ee2b25;}
 #header .topmenu nav{position:relative; padding:0 30px;}
-#header .logo{background-image:url(../img/logo.svg); width:300px; height:80px; margin-right:30px; margin-top:5px;}
+#header .logo{background-image:url(/assets/images/landings/loncin-promo/other/logo.svg); width:300px; height:80px; margin-right:30px; margin-top:5px;}
 #header .slogan{height:80px; border-left:2px solid #d9dadb; padding-left:30px; width:230px; font-size:17px; line-height:22px; font-weight:700; color:#626262; margin-top:5px;}
 #header .right_block{}
 #header .right_block p{font-weight:400; color:#222;}
@@ -31,7 +31,7 @@
 .product__block .left_block .price_block .old_price:before{width:100%; height:2px; content:''; position:absolute; display:block; left:0; top:50%; margin-top:1px; background:#fff;}
 .product__block .left_block .buy_button{width:300px; height:76px; line-height:76px; color:#ee2b25; background:#fff; text-transform:uppercase; font-size:36px; font-weight:700; margin-top:30px;}
 .product__block .slider_block{width:570px; height:550px; background:#fff;}
-.product__block .slider_block .sticker{background:url(../img/product_sticker_big.png) no-repeat; width:104px; height:121px; right:60px; top:-10px; padding:15px; font-size:12px; line-height:18px; color:#fff; text-transform:uppercase; font-weight:700;}
+.product__block .slider_block .sticker{background:url(/assets/images/landings/loncin-promo/other/product_sticker_big.png) no-repeat; width:104px; height:121px; right:60px; top:-10px; padding:15px; font-size:12px; line-height:18px; color:#fff; text-transform:uppercase; font-weight:700;}
 .product__block .slider_block .sticker .percent{font-size:42px; line-height:42px; font-weight:700;}
 .product__block .slider_block .sticker .perc{font-size:18px;}
 .product__block .slider_block .sticker .db{margin-bottom:8px;}
@@ -41,7 +41,7 @@
 .product__block .slider_block .owl-dots .owl-dot{position:relative; display:inline-block; vertical-align:top; cursor:pointer; width:10px; height:10px; box-sizing:border-box; border-radius:50%; border:1px solid #999; background:#999; margin:0 5px;}
 .product__block .slider_block .owl-dots .owl-dot.active{background:#fff;}
 .product__block .slider_block .owl-prev, 
-.product__block .slider_block .owl-next{background:url(../img/slider_arrow.png) no-repeat; width:18px; height:30px; position:absolute; z-index:700; cursor:pointer; top:50%; margin-top:-15px; left:20px;}
+.product__block .slider_block .owl-next{background:url(/assets/images/landings/loncin-promo/other/slider_arrow.png) no-repeat; width:18px; height:30px; position:absolute; z-index:700; cursor:pointer; top:50%; margin-top:-15px; left:20px;}
 .product__block .slider_block .owl-next{left:auto; right:20px; transform:rotate(180deg);}
 
 /*product__mini*/
@@ -50,12 +50,12 @@
 .product__mini .sl_row{margin-right:-30px;}
 .product__mini .owl-item{box-sizing:border-box; padding-right:30px;}
 .product__mini .owl-item > div{position:relative; cursor:pointer;}
-.product__mini .sticker{background:url(../img/mini_sticker.png) no-repeat; width:58px; height:53px; right:30px; top:0; padding-top:10px; color:#fff; font-size:11px; line-height:13px; font-weight:700;}
-.product__mini .sticker.big{background-image:url(../img/mini_stickerBig.png); width:77px;}
+.product__mini .sticker{background:url(/assets/images/landings/loncin-promo/other/mini_sticker.png) no-repeat; width:58px; height:53px; right:30px; top:0; padding-top:10px; color:#fff; font-size:11px; line-height:13px; font-weight:700;}
+.product__mini .sticker.big{background-image:url(/assets/images/landings/loncin-promo/other/mini_stickerBig.png); width:77px;}
 .product__mini .sticker .num{font-size:30px; line-height:30px; font-weight:900;}
 .product__mini .sticker .kvt{margin-top:13px; margin-left:2px;}
 .product__mini .owl-prev,
-.product__mini .owl-next{background:url(../img/mini_slider_arrow.png) no-repeat; width:26px; height:40px; position:absolute; cursor:pointer; z-index:10; left:0; top:50%; margin-top:-42px;}
+.product__mini .owl-next{background:url(/assets/images/landings/loncin-promo/other/mini_slider_arrow.png) no-repeat; width:26px; height:40px; position:absolute; cursor:pointer; z-index:10; left:0; top:50%; margin-top:-42px;}
 .product__mini .owl-next{right:30px; left:auto; transform:rotate(180deg);}
 .product__mini .slide{position:relative; border-radius:2px; overflow:hidden;}
 .product__mini .slide img{border-radius:2px; display:block;}
@@ -63,7 +63,7 @@
 .product__mini .slide .price_block{padding-top:15px; text-align:center; font-size:22px; line-height:24px; color:#000;}
 
 /*why__us*/
-.why__us{background-image:url(../images/bg_bot.jpg); min-height:614px; height:auto; padding:80px 0 100px 0;}
+.why__us{background-image:url(/assets/images/landings/loncin-promo/bg_bot.jpg); min-height:614px; height:auto; padding:80px 0 100px 0;}
 .why__us h3{font-size:30px; line-height:32px; color:#fff; font-weight:700; position:relative; text-align:center; text-transform:uppercase; margin-bottom:34px;}
 .why__us .text{font-size:24px; line-height:36px; color:#fff; font-weight:400; margin-bottom:80px; max-width:770px;}
 .why__us .row{}
@@ -87,7 +87,7 @@
 
 /*footer*/
 #footer{position:relative; box-sizing:border-box; background:#292c37; height:170px; padding:35px 0 40px 0;}
-#footer .logo{background-image:url(../img/logo_white.svg); width:240px; height:65px; margin-top:20px; margin-right:150px;}
+#footer .logo{background-image:url(/assets/images/landings/loncin-promo/other/logo_white.svg); width:240px; height:65px; margin-top:20px; margin-right:150px;}
 #footer .cont_block{ width:410px; margin-top:25px;}
 #footer .cont_block p{font-weight:400; color:#fff;}
 #footer .cont_block a{font-weight:900; color:#fff; position:relative; display:block; font-size:26px; line-height:26px; text-decoration:none; margin:7px 0 10px 0;}
