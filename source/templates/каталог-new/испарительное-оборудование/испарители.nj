@@ -36,6 +36,20 @@ metaDesc:        Испарители
   <li>Все установки комплектно собраны и проверены давлением.</li>
 </ul>
 
+{% set pageEqEl = [
+  { title: 'Испаритель&nbsp;ФЭМ 10 SE', performance: '10 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 15 SE', performance: '15 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 25 SE', performance: '25 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 40 SE', performance: '40 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 60 SE', performance: '60 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 80 SE', performance: '80 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 100 SE', performance: '100 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 120 SE', performance: '120 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 160 SE', performance: '160 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 240 SE', performance: '240 кг/ч' },
+  { title: 'Испаритель&nbsp;ФЭМ 300 SE', performance: '300 кг/ч' }
+] %}
+
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -45,61 +59,14 @@ metaDesc:        Испарители
     </tr>
   </thead>
   <tbody>
+    {% for e in pageEqEl %}
     <tr>
-      <td>Испаритель&nbsp;ФЭМ 10 SE</td>
-      <td class='h-align--right'>10 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
     </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 15 SE</td>
-      <td class='h-align--right'>15 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 25 SE</td>
-      <td class='h-align--right'>25 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 40 SE</td>
-      <td class='h-align--right'>40 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 60 SE</td>
-      <td class='h-align--right'>60 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 80 SE</td>
-      <td class='h-align--right'>80 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 100 SE</td>
-      <td class='h-align--right'>100 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 120 SE</td>
-      <td class='h-align--right'>120 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 160 SE</td>
-      <td class='h-align--right'>160 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 240 SE</td>
-      <td class='h-align--right'>240 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
-    <tr>
-      <td>Испаритель&nbsp;ФЭМ 300 SE</td>
-      <td class='h-align--right'>300 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a></td>
-    </tr>
+    {% endfor %}
   </tbody>
 </table>
 

@@ -17,6 +17,25 @@ metaDesc:        Испарительные установки в огнеупо
   <li>Все установки комплектно собраны и проверены давлением.</li>
 </ul>
 
+{% set pageEqEl = [
+  { title: 'Испарительная установка&nbsp;ФЭМ 25&nbsp;SE/P', performance: '25 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 35&nbsp;SE/P', performance: '35 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 40&nbsp;SE/P', performance: '40 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 60&nbsp;SE/P', performance: '60 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 80&nbsp;SE/P', performance: '80 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 100&nbsp;SE/P', performance: '100 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 120&nbsp;SE/P', performance: '120 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 160&nbsp;SE/P', performance: '160 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 240&nbsp;SE/P', performance: '240 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 300&nbsp;SE/P', performance: '300 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 400&nbsp;SE/P', performance: '400 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 500&nbsp;SE/P', performance: '500 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 600&nbsp;SE/P', performance: '600 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 720&nbsp;SE/P', performance: '720 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 850&nbsp;SE/P', performance: '840 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 960&nbsp;SE/P', performance: '940 кг/ч' }
+] %}
+
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -26,102 +45,14 @@ metaDesc:        Испарительные установки в огнеупо
     </tr>
   </thead>
   <tbody>
+    {% for e in pageEqEl %}
     <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 25&nbsp;SE/P</td>
-      <td class='h-align--right'>25 кг/ч</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
       <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
       </td>
     </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 35&nbsp;SE/P</td>
-      <td class='h-align--right'>35 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 40&nbsp;SE/P</td>
-      <td class='h-align--right'>40 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 60&nbsp;SE/P</td>
-      <td class='h-align--right'>60 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 80&nbsp;SE/P</td>
-      <td class='h-align--right'>80 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 100&nbsp;SE/P</td>
-      <td class='h-align--right'>100 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 120&nbsp;SE/P</td>
-      <td class='h-align--right'>120 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 160&nbsp;SE/P</td>
-      <td class='h-align--right'>160 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 240&nbsp;SE/P</td>
-      <td class='h-align--right'>240 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 300&nbsp;SE/P</td>
-      <td class='h-align--right'>300 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 400&nbsp;SE/P</td>
-      <td class='h-align--right'>400 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 500&nbsp;SE/P</td>
-      <td class='h-align--right'>500 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 600&nbsp;SE/P</td>
-      <td class='h-align--right'>600 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 720&nbsp;SE/P</td>
-      <td class='h-align--right'>720 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 850&nbsp;SE/P</td>
-      <td class='h-align--right'>840 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 960&nbsp;SE/P</td>
-      <td class='h-align--right'>940 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
+    {% endfor %}
   </tbody>
 </table>
 

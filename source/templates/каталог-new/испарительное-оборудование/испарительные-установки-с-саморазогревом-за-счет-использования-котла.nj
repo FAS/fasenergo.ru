@@ -23,6 +23,13 @@ metaDesc:        Испарительные установки с самораз
   <li>Функция саморазогрева за счет использования котла.</li>
 </ul>
 
+{% set pageEqLiq = [
+  { title: 'Испарительная установка&nbsp;ФЭМ 250&nbsp;ZH/A/K', performance: '250 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 500&nbsp;ZH/A/K', performance: '500 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 800&nbsp;ZH/A/K', performance: '800 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 2500&nbsp;ZH/A/K', performance: '2500 кг/ч' }
+] %}
+
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -32,30 +39,14 @@ metaDesc:        Испарительные установки с самораз
     </tr>
   </thead>
   <tbody>
+    {% for e in pageEqLiq %}
     <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 250&nbsp;ZH/A/K</td>
-      <td class='h-align--right'>250 кг/ч</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
       <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
       </td>
     </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 500&nbsp;ZH/A/K</td>
-      <td class='h-align--right'>500 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 800&nbsp;ZH/A/K</td>
-      <td class='h-align--right'>800 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка&nbsp;ФЭМ 2500&nbsp;ZH/A/K</td>
-      <td class='h-align--right'>2500 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
+    {% endfor %}
   </tbody>
 </table>
 

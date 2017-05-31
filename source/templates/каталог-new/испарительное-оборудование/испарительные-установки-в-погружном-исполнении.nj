@@ -17,6 +17,12 @@ metaDesc:        Испарительные установки в погружн
   <li>Все установки комплектно собраны и проверены давлением.</li>
 </ul>
 
+{% set pageEqEl = [
+  { title: 'Испарительная установка ФЭМ&nbsp;40&nbsp;SE/PG', performance: '40 кг/ч' },
+  { title: 'Испарительная установка ФЭМ&nbsp;80&nbsp;SE/PG', performance: '80 кг/ч' },
+  { title: 'Испарительная установка ФЭМ&nbsp;100&nbsp;SE/PG', performance: '100 кг/ч' }
+] %}
+
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -26,24 +32,14 @@ metaDesc:        Испарительные установки в погружн
     </tr>
   </thead>
   <tbody>
+    {% for e in pageEqEl %}
     <tr>
-      <td>Испарительная установка ФЭМ&nbsp;40&nbsp;SE/PG</td>
-      <td class='h-align--right'>40 кг/ч</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
       <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
       </td>
     </tr>
-    <tr>
-      <td>Испарительная установка ФЭМ&nbsp;80&nbsp;SE/PG</td>
-      <td class='h-align--right'>80 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Испарительная установка ФЭМ&nbsp;100&nbsp;SE/PG</td>
-      <td class='h-align--right'>100 кг/ч</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
-      </td>
-    </tr>
+    {% endfor %}
   </tbody>
 </table>
 
