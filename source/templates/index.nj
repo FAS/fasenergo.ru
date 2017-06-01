@@ -68,7 +68,7 @@ showContentTitle:          false
 
         {% call Item(
           title = 'Производство газовых станций',
-          url = '/продукция/каталог/',
+          url = '/продукция/газовые-генераторы/',
           buttonLabel = 'Каталог оборудования',
           buttonClass = 'Btn--primary'
         ) %}
@@ -167,7 +167,7 @@ showContentTitle:          false
 
     <div class='{{ pageAboutGensGridClass }} h-margin-top-- h-flex-y--center'>
       <div class='{{ pageAboutGensItemClass }}'>
-        <a href='/продукция/каталог/' class='Btn Btn--primary Btn+ Btn--wide@lap h-text++'>Подобрать генератор</a>
+        <a href='/продукция/газовые-генераторы/' class='Btn Btn--primary Btn+ Btn--wide@lap h-text++'>Подобрать генератор</a>
       </div>
       <div class='{{ pageAboutGensItemClass }}'>
         <a href='/продукция/преимущества-наших-генераторов/' class='h-text++'>Больше о наших генераторах</a>

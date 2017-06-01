@@ -295,7 +295,7 @@
      #       Also, `url-joiner()` might fix that issue.
      #}
     {{ components.ProductCard(
-      url = '/продукция/каталог/' + g.slug + '/',
+      url = '/продукция/газовые-генераторы/' + g.slug + '/',
       image = '/' + path.images + '/' + getGeneratorMainPhoto(g).url,
       model = g.model,
       powers = getGeneratorMaxPowers(g),
