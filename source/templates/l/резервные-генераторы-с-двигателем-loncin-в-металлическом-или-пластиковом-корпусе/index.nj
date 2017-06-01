@@ -3,8 +3,8 @@
   {% import component as temp with context %}{% set macro = _.assign(components, temp) %}
 {% endfor %}
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<!doctype html>
+<html lang='ru'>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
@@ -577,7 +577,7 @@
                     </div>
                 </div>
                 <div class="map_block rL hid">
-                	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad2ff4a462886ef9b0e6af874ac0d2b927f993be421b25cb2fc8db71efd9a9cb2&amp;width=100%25&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
+                	<script charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad2ff4a462886ef9b0e6af874ac0d2b927f993be421b25cb2fc8db71efd9a9cb2&amp;width=100%25&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
                 </div>
             </aside>
         	<div class="clear"></div>
@@ -605,101 +605,15 @@
         </div>
     </footer>
 
-
-<div class="g-hidden">
-    	<div class="b-modal" id="call_modal">
-    		<div class="b-modal_close arcticmodal-close"></div>
-
-        <form id="form1" action="php/form1.php" method="post" class="ajax_form ajax-form af_example form-horizontal form-height ajax-content" autocomplete="off">
-
-
-            <div class="inb call_me mb20 up">Заказать звонок</div>
-
-
-            <div class="control-group">
-                <div class="controls">
-                    <span class="error_name"></span>
-                    <input required="required" type="text" id="af_name" name="name" value="" class="poln  " placeholder="Имя">
-                </div>
-            </div>
-
-
-
-            <div class="control-group">
-                <div class="controls">
-                    <span class="error_email"></span>
-                    <input required="required" type="text" class="numbox" id="af_phone" name="number" value="" placeholder="Телефон">
-                </div>
-            </div>
-
-
-
-
-            <div class="control-group">
-                <div class="controls">
-                    <button type="submit" class="btn btn-primary" name="call-submit">Отправить заявку</button>
-                    <input autocomplete="off" type="hidden" name="call-control" class="call-control" value="0">
-                </div>
-            </div>
-
-        </form>
-</div></div>
-
-<div class="g-hidden">
-    	<div class="b-modal" id="call_modal2">
-    		<div class="b-modal_close arcticmodal-close"></div>
-
-        <form id="form2" action="php/form2.php" method="post" class="ajax_form ajax-form af_example form-horizontal form-height ajax-content" autocomplete="off">
-
-
-            <div class="inb call_me mb20 up">Оформление предзаказа</div>
-
-
-            <div class="control-group">
-                <div class="controls">
-                    <span class="error_name"></span>
-                    <input required="required" type="text" id="af_name" name="name" value="" class="poln  " placeholder="Имя">
-                </div>
-            </div>
-
-
-
-            <div class="control-group">
-                <div class="controls">
-                    <span class="error_email"></span>
-                    <input required="required" type="text" class="" id="af_phone" name="number" value="" placeholder="Телефон/E - Mail">
-                </div>
-            </div>
-
-
-
-
-            <div class="control-group">
-                <div class="controls">
-                    <button type="submit" class="btn btn-primary" name="call-submit">Отправить заявку</button>
-                    <input autocomplete="off" type="hidden" name="call-control" class="call-control" value="0">
-                </div>
-            </div>
-
-        </form>
-</div></div>
-
-<div class="g-hidden">
-    	<div class="b-modal alCenter ajax_form af_example" id="spasibo">
-    		<div class="b-modal_close arcticmodal-close"></div>
-            <div class="inb call_me" style="max-width:100%; font-weight:700;">Ваше сообщение отправлено!</div>
-            <div class="inb call_me" style="max-width:100%; font-size:18px;">Мы свяжемся с вами в ближайшее время.</div>
-     </div></div>
-
 </div><!--end wrapper-->
-<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/html5.js"></script>
-<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/jquery-1.11.1.js"></script>
-<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/owl.carousel.js"></script>
-<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/script.js"></script>
+<script src='/assets/scripts/landings/loncin-promo/html5.js'></script>
+<script src='/assets/scripts/landings/loncin-promo/jquery-1.11.1.js'></script>
+<script src='/assets/scripts/landings/loncin-promo/owl.carousel.js'></script>
+<script src='/assets/scripts/landings/loncin-promo/script.js'></script>
 {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
 {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
 
-<script id="bx24_form_button" data-skip-moving="true">
+<script id='bx24_form_button' data-skip-moving='true'>
         (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
                 (w[b].forms=w[b].forms||[]).push(arguments[0])};
                 if(w[b]['forms']) return;
@@ -710,9 +624,9 @@
         b24form({"id":"10","lang":"ru","sec":"fk85mz","type":"button","click":""});
 </script>
 
-<script type="text/javascript" src="//widget.mango-office.ru/js/c-t-w.min.js"></script>
+<script src='//widget.mango-office.ru/js/c-t-w.min.js'></script>
 <div class="m-call-tracking-widget" data-settings='{"id":9089}'></div>
-<script type="application/javascript">
+<script>
     !function(t,e){for(var i=document.getElementsByClassName(t),n=0;n<i.length;n++){var r=i[n];if("true"!=r.getAttribute("init")){var a=new MCTWidget({host:e,elem:r});a.initWidget(),r.setAttribute("init","true")}}}("m-call-tracking-widget", window.location.protocol + "//widget.mango-office.ru");
 </script>
 </body>
