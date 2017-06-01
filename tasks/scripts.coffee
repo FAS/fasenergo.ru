@@ -1,6 +1,22 @@
 module.exports = () ->
 
   ###
+  Copy
+  https://github.com/gruntjs/grunt-contrib-copy
+  Copy files and folders
+  ###
+
+  @config.merge
+    copy:
+      scripts:
+        files: [
+          expand: true
+          cwd: 'source/assets/scripts/'
+          src: ['**']
+          dest: '<%= path.build.scripts %>/'
+        ]
+
+  ###
   Shell
   https://github.com/sindresorhus/grunt-shell
   Run shell commands
