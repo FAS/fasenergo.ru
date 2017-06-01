@@ -68,7 +68,7 @@ showContentTitle:          false
 
         {% call Item(
           title = 'Производство газовых станций',
-          url = '/продукция/газовые-генераторы/',
+          url = '/продукция/',
           buttonLabel = 'Каталог оборудования',
           buttonClass = 'Btn--primary'
         ) %}
