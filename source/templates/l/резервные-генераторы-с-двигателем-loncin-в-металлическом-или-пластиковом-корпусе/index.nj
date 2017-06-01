@@ -134,9 +134,8 @@
             </aside>
             <aside class="slider_block fright rL">
             	<div class="sticker abs box zt200 alCenter">
-                	<span class="db">Скидка за предзаказ</span>
-                    <span class="percent inb vT">15</span>
-                    <span class="perc inb vT">%</span>
+                	<span class="db">розница предзаказ</span>
+                    <span class="percent inb vT">-15%</span>
                 </div>
                 <div class="tov_slider rL hid">
                 	<div>
@@ -350,9 +349,8 @@
             </aside>
             <aside class="slider_block fright rL">
             	<div class="sticker abs box zt200 alCenter">
-                	<span class="db">Скидка за предзаказ</span>
-                    <span class="percent inb vT">15</span>
-                    <span class="perc inb vT">%</span>
+                	<span class="db">розница предзаказ</span>
+                    <span class="percent inb vT">-15%</span>
                 </div>
                 <div class="tov_slider rL hid">
                 	<div>
