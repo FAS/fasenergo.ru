@@ -248,27 +248,7 @@
 
     <h2>Фото</h2>
 
-    <div class='h-align--center'>
-
-      <div id='js-photos-block__main'>
-        {% set photoUrl = '/' + path.images + '/' + gen.photos[0].url %}
-        <a class='h-block h-border-bottom0' style='height: 600px' href='{{ photoUrl }}'>
-          <img class='h-height-1/1' style='object-fit: cover' src='{{ photoUrl }}' alt='{{ gen.photos[0].alt or gen.title|striptags }}'>
-        </a>
-      </div>
-
-      {% if gen.photos.length > 1 %}
-      <div id='js-photos-block__thumbs'>
-        {% for photo in gen.photos %}
-        {% set photoUrl = '/' + path.images + '/' + photo.url %}
-        <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}'>
-          <img class='h-align--middle' src='{{ photoUrl }}' height='80' alt='{{ photo.alt or gen.title|striptags }}'>
-        </a>
-        {% endfor %}
-      </div>
-      {% endif %}
-
-    </div>
+    {{ components.PhotosPreview(gen.photos, gen.title|striptags) }}
 
   </section>
   {% endif %}
