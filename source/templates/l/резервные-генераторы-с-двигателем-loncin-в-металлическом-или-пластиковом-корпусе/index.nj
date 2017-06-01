@@ -578,10 +578,10 @@
 
   </div><!--end wrapper-->
 
-  <script src='/{{ path.scripts }}/landings/loncin-promo/html5.min.js'></script>
-  <script src='/{{ path.scripts }}/landings/loncin-promo/jquery.min.js'></script>
-  <script src='/{{ path.scripts }}/landings/loncin-promo/owl.min.js'></script>
-  <script src='/{{ path.scripts }}/landings/loncin-promo/script.min.js'></script>
+  <script src='/{{ path.scripts }}/landings/loncin-promo/html5.{{ 'min.js' if env.production else 'js' }}'></script>
+  <script src='/{{ path.scripts }}/landings/loncin-promo/jquery.{{ 'min.js' if env.production else 'js' }}'></script>
+  <script src='/{{ path.scripts }}/landings/loncin-promo/owl.{{ 'min.js' if env.production else 'js' }}'></script>
+  <script src='/{{ path.scripts }}/landings/loncin-promo/script.{{ 'min.js' if env.production else 'js' }}'></script>
   {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
   {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
 
