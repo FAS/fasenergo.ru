@@ -52,7 +52,7 @@
       </div>
     </header>
 
-    <section class="product__block cover" style="background-image:url(/assets/images/landings/loncin-promo/bg_top.jpg);">
+    <section class="product__block cover" style="background-image:url(/{{ path.images }}/landings/loncin-promo/bg_top.jpg);">
       <div class="inner">
         <aside class="left_block fleft rL" id="gen1">
           <div class="sl_item active">
@@ -146,42 +146,42 @@
             <div>
               <div class="rL w100 h100 tb">
                 <div class="rL w100 h100 alCenter tbc vM">
-                  <img src="/assets/images/landings/loncin-promo/big1/ste-lend-1.jpg" alt="">
+                  <img src="/{{ path.images }}/landings/loncin-promo/big1/ste-lend-1.jpg" alt="">
                 </div>
               </div>
             </div>
             <div>
               <div class="rL w100 h100 tb">
                 <div class="rL w100 h100 alCenter tbc vM">
-                  <img src="/assets/images/landings/loncin-promo/big1/ste-lend-2.jpg" alt="">
+                  <img src="/{{ path.images }}/landings/loncin-promo/big1/ste-lend-2.jpg" alt="">
                 </div>
               </div>
             </div>
             <div>
               <div class="rL w100 h100 tb">
                 <div class="rL w100 h100 alCenter tbc vM">
-                  <img src="/assets/images/landings/loncin-promo/big1/ste-lend-3.jpg" alt="">
+                  <img src="/{{ path.images }}/landings/loncin-promo/big1/ste-lend-3.jpg" alt="">
                 </div>
               </div>
             </div>
             <div>
               <div class="rL w100 h100 tb">
                 <div class="rL w100 h100 alCenter tbc vM">
-                  <img src="/assets/images/landings/loncin-promo/big1/ste-lend-4.jpg" alt="">
+                  <img src="/{{ path.images }}/landings/loncin-promo/big1/ste-lend-4.jpg" alt="">
                 </div>
               </div>
             </div>
             <div>
               <div class="rL w100 h100 tb">
                 <div class="rL w100 h100 alCenter tbc vM">
-                  <img src="/assets/images/landings/loncin-promo/big1/ste-lend-5.jpg" alt="">
+                  <img src="/{{ path.images }}/landings/loncin-promo/big1/ste-lend-5.jpg" alt="">
                 </div>
               </div>
             </div>
             <div>
               <div class="rL w100 h100 tb">
                 <div class="rL w100 h100 alCenter tbc vM">
-                  <img src="/assets/images/landings/loncin-promo/big1/ste-lend-6.jpg" alt="">
+                  <img src="/{{ path.images }}/landings/loncin-promo/big1/ste-lend-6.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -205,7 +205,7 @@
                 </div>
                 <div class="rL w100 h100 tb">
                   <div class="rL h100 w100 tbc vM alCenter">
-                    <img src="/assets/images/landings/loncin-promo/mini_slider1/1.jpg" alt="">
+                    <img src="/{{ path.images }}/landings/loncin-promo/mini_slider1/1.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -222,7 +222,7 @@
                 </div>
                 <div class="rL w100 h100 tb">
                   <div class="rL h100 w100 tbc vM alCenter">
-                    <img src="/assets/images/landings/loncin-promo/mini_slider1/1.jpg" alt="">
+                    <img src="/{{ path.images }}/landings/loncin-promo/mini_slider1/1.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -239,7 +239,7 @@
                 </div>
                 <div class="rL w100 h100 tb">
                   <div class="rL h100 w100 tbc vM alCenter">
-                    <img src="/assets/images/landings/loncin-promo/mini_slider1/1.jpg" alt="">
+                    <img src="/{{ path.images }}/landings/loncin-promo/mini_slider1/1.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -256,7 +256,7 @@
                 </div>
                 <div class="rL w100 h100 tb">
                   <div class="rL h100 w100 tbc vM alCenter">
-                    <img src="/assets/images/landings/loncin-promo/mini_slider1/1.jpg" alt="">
+                    <img src="/{{ path.images }}/landings/loncin-promo/mini_slider1/1.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -270,7 +270,7 @@
       </div>
     </section>
 
-    <section class="product__block cover" style="background-image:url(/assets/images/landings/loncin-promo/other/subheader_2.jpg)">
+    <section class="product__block cover" style="background-image:url(/{{ path.images }}/landings/loncin-promo/other/subheader_2.jpg)">
       <div class="inner">
         <aside class="left_block fleft rL" id="gen2">
           <div class="sl_item active">
@@ -359,21 +359,21 @@
             <div>
               <div class="rL w100 h100 tb">
                 <div class="rL w100 h100 alCenter tbc vM">
-                  <img src="/assets/images/landings/loncin-promo/big2/ste-lend-7.jpg" alt="">
+                  <img src="/{{ path.images }}/landings/loncin-promo/big2/ste-lend-7.jpg" alt="">
                 </div>
               </div>
             </div>
             <div>
               <div class="rL w100 h100 tb">
                 <div class="rL w100 h100 alCenter tbc vM">
-                  <img src="/assets/images/landings/loncin-promo/big2/ste-lend-8.jpg" alt="">
+                  <img src="/{{ path.images }}/landings/loncin-promo/big2/ste-lend-8.jpg" alt="">
                 </div>
               </div>
             </div>
             <div>
               <div class="rL w100 h100 tb">
                 <div class="rL w100 h100 alCenter tbc vM">
-                  <img src="/assets/images/landings/loncin-promo/big2/ste-lend-9.jpg" alt="">
+                  <img src="/{{ path.images }}/landings/loncin-promo/big2/ste-lend-9.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -397,7 +397,7 @@
                 </div>
                 <div class="rL w100 h100 tb">
                   <div class="rL h100 w100 tbc vM alCenter">
-                    <img src="/assets/images/landings/loncin-promo/mini_slider1/2.jpg" alt="">
+                    <img src="/{{ path.images }}/landings/loncin-promo/mini_slider1/2.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -414,7 +414,7 @@
                 </div>
                 <div class="rL w100 h100 tb">
                   <div class="rL h100 w100 tbc vM alCenter">
-                    <img src="/assets/images/landings/loncin-promo/mini_slider1/2.jpg" alt="">
+                    <img src="/{{ path.images }}/landings/loncin-promo/mini_slider1/2.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -431,7 +431,7 @@
                 </div>
                 <div class="rL w100 h100 tb">
                   <div class="rL h100 w100 tbc vM alCenter">
-                    <img src="/assets/images/landings/loncin-promo/mini_slider1/2.jpg" alt="">
+                    <img src="/{{ path.images }}/landings/loncin-promo/mini_slider1/2.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -448,7 +448,7 @@
                 </div>
                 <div class="rL w100 h100 tb">
                   <div class="rL h100 w100 tbc vM alCenter">
-                    <img src="/assets/images/landings/loncin-promo/mini_slider1/2.jpg" alt="">
+                    <img src="/{{ path.images }}/landings/loncin-promo/mini_slider1/2.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -473,19 +473,19 @@
           <div class="row rL hid">
             <div class="item fleft rL box w33-3">
               <div>
-                <img src="/assets/images/landings/loncin-promo/why_us/1.png" alt="" class="rL db m0a">
+                <img src="/{{ path.images }}/landings/loncin-promo/why_us/1.png" alt="" class="rL db m0a">
                 <p>компактность</p>
               </div>
             </div><!--end item-->
             <div class="item fleft rL box w33-3">
               <div>
-                <img src="/assets/images/landings/loncin-promo/why_us/2.png" alt="" class="rL db m0a">
+                <img src="/{{ path.images }}/landings/loncin-promo/why_us/2.png" alt="" class="rL db m0a">
                 <p>малая материалоемкость оборудования</p>
               </div>
             </div><!--end item-->
             <div class="item fleft rL box w33-3">
               <div>
-                <img src="/assets/images/landings/loncin-promo/why_us/3.png" alt="" class="rL db m0a">
+                <img src="/{{ path.images }}/landings/loncin-promo/why_us/3.png" alt="" class="rL db m0a">
                 <p>низкая стоимость</p>
               </div>
             </div><!--end item-->
@@ -505,7 +505,7 @@
           <div class="cont_items">
             <div class="item rL hid">
               <div class="image_block fleft rL">
-                <img src="/assets/images/landings/loncin-promo/contacts/1.png" alt="">
+                <img src="/{{ path.images }}/landings/loncin-promo/contacts/1.png" alt="">
               </div>
               <div class="text_block rL hid">
                 <em>Доставка</em>
@@ -514,7 +514,7 @@
             </div><!--end item-->
             <div class="item rL hid">
               <div class="image_block fleft rL">
-                <img src="/assets/images/landings/loncin-promo/contacts/2.png" alt="">
+                <img src="/{{ path.images }}/landings/loncin-promo/contacts/2.png" alt="">
               </div>
               <div class="text_block rL hid">
                 <em>кредит</em>
@@ -523,7 +523,7 @@
             </div><!--end item-->
             <div class="item rL hid">
               <div class="image_block fleft rL">
-                <img src="/assets/images/landings/loncin-promo/contacts/3.png" alt="">
+                <img src="/{{ path.images }}/landings/loncin-promo/contacts/3.png" alt="">
               </div>
               <div class="text_block rL hid">
                 <em>Обслуживание и ремонт</em>
@@ -532,7 +532,7 @@
             </div><!--end item-->
             <div class="item rL hid">
               <div class="image_block fleft rL">
-                <img src="/assets/images/landings/loncin-promo/contacts/4.png" alt="">
+                <img src="/{{ path.images }}/landings/loncin-promo/contacts/4.png" alt="">
               </div>
               <div class="text_block rL hid">
                 <em>Установка и запуск</em>
@@ -545,7 +545,7 @@
           <h3>Посетите нашу выставку-продажу</h3>
           <div class="adress rL hid">
             <div class="image_block fleft rL">
-              <img src="/assets/images/landings/loncin-promo/house.jpg" alt="" class="rL w100 db">
+              <img src="/{{ path.images }}/landings/loncin-promo/house.jpg" alt="" class="rL w100 db">
             </div>
             <div class="text_block rL hid">
               <p>Работаем в будни с 9:00 до 18:00 194044, Санкт-Петербург, п. Лахта, <i class="db"></i> ул. Красных партизан, д. 10 литер А</p>
@@ -582,10 +582,10 @@
 
   </div><!--end wrapper-->
 
-  <script src='/assets/scripts/landings/loncin-promo/html5.min.js'></script>
-  <script src='/assets/scripts/landings/loncin-promo/jquery.min.js'></script>
-  <script src='/assets/scripts/landings/loncin-promo/owl.min.js'></script>
-  <script src='/assets/scripts/landings/loncin-promo/script.min.js'></script>
+  <script src='/{{ path.scripts }}/landings/loncin-promo/html5.min.js'></script>
+  <script src='/{{ path.scripts }}/landings/loncin-promo/jquery.min.js'></script>
+  <script src='/{{ path.scripts }}/landings/loncin-promo/owl.min.js'></script>
+  <script src='/{{ path.scripts }}/landings/loncin-promo/script.min.js'></script>
   {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
   {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
 
