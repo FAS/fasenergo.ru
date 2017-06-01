@@ -73,7 +73,7 @@ metaDesc:        Испарительные установки в шкафном
     <tr>
       <td>{{ e.title }}</td>
       <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}
@@ -109,7 +109,7 @@ metaDesc:        Испарительные установки в шкафном
     <tr>
       <td>{{ e.title }}</td>
       <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}
