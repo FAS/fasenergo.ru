@@ -11,11 +11,11 @@ metaDesc:        Испарительные установки в кольцев
 {% block main %}
 
 {% set pageEqLiqPhotos = [
-  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--1--front-top.png' },
-  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--2--front-right-top.png' },
-  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--3--back-right-top.png' },
-  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--4--back-left-top.png' },
-  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--5--top-front.png' }
+  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--1--front-top.jpg' },
+  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--2--front-right-top.jpg' },
+  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--3--back-right-top.jpg' },
+  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--4--back-left-top.jpg' },
+  { url: '/equipment/испарительное-оборудование/ZH-RN/Испарительная-установка-Фасэнергомаш-ZH-RN--5--top-front.jpg' }
 ] %}
 
 {{ components.PhotosPreview(pageEqLiqPhotos, 'Испарительная установка Фасэнергомаш ZH/RN') }}
