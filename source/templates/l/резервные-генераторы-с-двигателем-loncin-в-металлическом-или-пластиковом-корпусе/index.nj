@@ -8,11 +8,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
-<meta name="format-detection" content="telephone=no">
 <meta name="HandheldFriendly" content="true">
 <meta name="MobileOptimized" content="320">
 <title>Фасэнергомаш — Производитель газовых генераторов</title>
-<link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/font.{{ 'min.css' if env.production else 'prefixed.css' }}'>
 <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/global.{{ 'min.css' if env.production else 'prefixed.css' }}'>
 <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/style.{{ 'min.css' if env.production else 'prefixed.css' }}'>
 <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/adaptive.{{ 'min.css' if env.production else 'prefixed.css' }}'>
@@ -66,12 +64,10 @@
                     <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">126 000</span>
-                            <span class="rubl">a</span>
+                            <span class="price">126 000</span>₽
                         </div>
                         <div class="old_price fleft rL">
-                            <span class="price">144 900</span>
-                            <span class="rubl">a</span>
+                            <span class="price">144 900</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -91,12 +87,10 @@
                     <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">163 000</span>
-                            <span class="rubl">a</span>
+                            <span class="price">163 000</span>₽
                         </div>
                         <div class="old_price fleft rL">
-                            <span class="price">187 450</span>
-                            <span class="rubl">a</span>
+                            <span class="price">187 450</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -116,12 +110,10 @@
                     <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">208 000</span>
-                            <span class="rubl">a</span>
+                            <span class="price">208 000</span>₽
                         </div>
                         <div class="old_price fleft rL">
-                            <span class="price">239 200</span>
-                            <span class="rubl">a</span>
+                            <span class="price">239 200</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -141,12 +133,10 @@
                     <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">257 000</span>
-                            <span class="rubl">a</span>
+                            <span class="price">257 000</span>₽
                         </div>
                         <div class="old_price fleft rL">
-                            <span class="price">295 550</span>
-                            <span class="rubl">a</span>
+                            <span class="price">295 550</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -228,8 +218,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>126 000</span>
-                            <span class="rubl">a</span>
+                        	<span>126 000</span>₽
                         </div>
                     </div>
 
@@ -246,8 +235,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>163 000</span>
-                            <span class="rubl">a</span>
+                        	<span>163 000</span>₽
                         </div>
                     </div>
 
@@ -264,8 +252,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>208 000</span>
-                            <span class="rubl">a</span>
+                        	<span>208 000</span>₽
                         </div>
                     </div>
 
@@ -282,8 +269,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>257 000</span>
-                            <span class="rubl">a</span>
+                        	<span>257 000</span>₽
                         </div>
                     </div>
 
@@ -310,12 +296,10 @@
                     <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">116 000</span>
-                            <span class="rubl">a</span>
+                            <span class="price">116 000</span>₽
                         </div>
                         <div class="old_price fleft rL">
-                            <span class="price">133 400</span>
-                            <span class="rubl">a</span>
+                            <span class="price">133 400</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -334,12 +318,10 @@
                     <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">147 000</span>
-                            <span class="rubl">a</span>
+                            <span class="price">147 000</span>₽
                         </div>
                         <div class="old_price fleft rL">
-                            <span class="price">169 050</span>
-                            <span class="rubl">a</span>
+                            <span class="price">169 050</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -358,12 +340,10 @@
                     <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">180 000</span>
-                            <span class="rubl">a</span>
+                            <span class="price">180 000</span>₽
                         </div>
                         <div class="old_price fleft rL">
-                            <span class="price">207 000</span>
-                            <span class="rubl">a</span>
+                            <span class="price">207 000</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -382,12 +362,10 @@
                     <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">229 000</span>
-                            <span class="rubl">a</span>
+                            <span class="price">229 000</span>₽
                         </div>
                         <div class="old_price fleft rL">
-                            <span class="price">263 350</span>
-                            <span class="rubl">a</span>
+                            <span class="price">263 350</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -447,8 +425,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>116 000</span>
-                            <span class="rubl">a</span>
+                        	<span>116 000</span>₽
                         </div>
                     </div>
 
@@ -465,8 +442,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>147 000</span>
-                            <span class="rubl">a</span>
+                        	<span>147 000</span>₽
                         </div>
                     </div>
 
@@ -483,8 +459,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>180 000</span>
-                            <span class="rubl">a</span>
+                        	<span>180 000</span>₽
                         </div>
                     </div>
 
@@ -501,8 +476,7 @@
                             </div>
                         </div>
                          <div class="price_block rL">
-                         	<span>229 000</span>
-                            <span class="rubl">a</span>
+                         	<span>229 000</span>₽
                          </div>
                     </div>
 
