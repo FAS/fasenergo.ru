@@ -30,25 +30,25 @@
 
     {% macro Item(to, label, depth = 1, anchorClass = anchorsClass, onlyActiveOnIndex = onlyActiveOnIndex) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorClass, onlyActiveOnIndex = onlyActiveOnIndex, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
-    {# {% call(depth) Item('/') %}{% endcall %} #}
     {% call(depth) Item('/продукция/') %}
+      {% call(depth) Item('/продукция/', depth = depth, onlyActiveOnIndex = true, anchorClass = 'h-h6 h-margin-bottom-- h-color--inherit') %}{% endcall %}
+
       {# @todo Update when new equipment will be added #}
       {% if env.staging or not env.production %}
-      {% call(depth) Item('/каталог-new/', depth = depth, onlyActiveOnIndex = true, anchorClass = 'h-h6 h-margin-bottom-- h-color--inherit') %}{% endcall %}
-      {% call(depth) Item('/продукция/газовые-генераторы/', 'Газовые генераторы', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/каталог-new/испарительное-оборудование', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/каталог-new/испарительно-смесительное-оборудование', depth = depth) %}{% endcall %}
       {% call(depth) Item('/каталог-new/насосно-компрессорное-оборудование', depth = depth) %}{% endcall %}
       {% call(depth) Item('/каталог-new/автономные-системы-газоснабжения', depth = depth) %}{% endcall %}
       {% call(depth) Item('/каталог-new/контрольно-регуляторное-оборудование', depth = depth) %}{% endcall %}
       {% call(depth) Item('/каталог-new/топливораздаточное-оборудование', depth = depth) %}{% endcall %}
       {% call(depth) Item('/каталог-new/контрольно-распределительные-пункты', depth = depth) %}{% endcall %}
       {% call(depth) Item('/каталог-new/фильтры-арматура-задвижки', depth = depth) %}{% endcall %}
-
-      <li class='h-margin-top h-margin-bottom--'>Другое (будет удалено)</li>
       {% endif %}
 
       {% call(depth) Item('/продукция/газовые-генераторы/') %}{% endcall %}
+      {% call(depth) Item('/продукция/испарительное-оборудование', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/продукция/испарительно-смесительное-оборудование', depth = depth) %}{% endcall %}
+
+      <li class='h-margin-top h-margin-bottom--'>Другое</li>
+
       {% call(depth) Item('/продукция/преимущества-наших-генераторов/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/гарантия/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/результаты-испытаний/', depth = depth) %}{% endcall %}
