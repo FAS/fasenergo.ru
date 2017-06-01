@@ -29,7 +29,6 @@
                 	<ul class="rL w100 tb alCenter scroll">
                     	<li><a href="https://fasenergo.ru/продукция/каталог/" target="_blank"><span>Каталог</span></a></li>
                         <li><a href="https://fasenergo.ru/контакты/" target="_blank"><span>Где купить?</span></a></li>
-                        <li><a href="https://fasenergo.ru/продукция/преимущества-наших-генераторов/" target="_blank"><span>Преимущества</span></a></li>
                         <li><a class="b24-web-form-popup-btn-10"><span>Оформление предзаказа</span></a></li>
                     </ul>
                 </nav>
@@ -64,10 +63,7 @@
                     <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">126 000</span>₽
-                        </div>
-                        <div class="old_price fleft rL">
-                            <span class="price">144 900</span>₽
+                            <span class="price">116 000</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -87,10 +83,7 @@
                     <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">163 000</span>₽
-                        </div>
-                        <div class="old_price fleft rL">
-                            <span class="price">187 450</span>₽
+                            <span class="price">147 000</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -110,10 +103,7 @@
                     <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">208 000</span>₽
-                        </div>
-                        <div class="old_price fleft rL">
-                            <span class="price">239 200</span>₽
+                            <span class="price">180 000</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -133,10 +123,7 @@
                     <p>Межсервисный интервал 100 моточасов <i class="db"></i>Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">257 000</span>₽
-                        </div>
-                        <div class="old_price fleft rL">
-                            <span class="price">295 550</span>₽
+                            <span class="price">229 000</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -218,7 +205,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>126 000</span>₽
+                        	<span>116 000</span>₽
                         </div>
                     </div>
 
@@ -235,7 +222,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>163 000</span>₽
+                        	<span>147 000</span>₽
                         </div>
                     </div>
 
@@ -252,7 +239,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>208 000</span>₽
+                        	<span>180 000</span>₽
                         </div>
                     </div>
 
@@ -269,7 +256,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>257 000</span>₽
+                        	<span>229 000</span>₽
                         </div>
                     </div>
 
@@ -284,7 +271,7 @@
     	<div class="inner">
         	<aside class="left_block fleft rL" id="gen2">
             	<div class="sl_item active">
-                    <h2>Газовый генератор в пластиковом корпусе Фас-5/1ЛМ</h2>
+                    <h2>Газовый генератор в пластиковом корпусе Фас-5/1ЛП</h2>
                     <ul>
                         <li>Долговечный</li>
                         <li>Повышенное шумопоглощение</li>
@@ -296,17 +283,14 @@
                     <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">116 000</span>₽
-                        </div>
-                        <div class="old_price fleft rL">
-                            <span class="price">133 400</span>₽
+                            <span class="price">126 000</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
                     <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
                 </div><!--end sl_item-->
                 <div class="sl_item">
-                    <h2>Газовый генератор в пластиковом корпусе Фас-6/1ЛМ</h2>
+                    <h2>Газовый генератор в пластиковом корпусе Фас-6/1ЛП</h2>
                     <ul>
                         <li>Долговечный</li>
                         <li>Повышенное шумопоглощение</li>
@@ -318,17 +302,14 @@
                     <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">147 000</span>₽
-                        </div>
-                        <div class="old_price fleft rL">
-                            <span class="price">169 050</span>₽
+                            <span class="price">163 000</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
                     <a class="buy_button button db rL cp alCenter b24-web-form-popup-btn-10">Купить</a>
                 </div><!--end sl_item-->
                 <div class="sl_item">
-                    <h2>Газовый генератор в пластиковом корпусе Фас-8/1ЛМ</h2>
+                    <h2>Газовый генератор в пластиковом корпусе Фас-8/1ЛП</h2>
                     <ul>
                         <li>Долговечный</li>
                         <li>Повышенное шумопоглощение</li>
@@ -340,10 +321,7 @@
                     <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">180 000</span>₽
-                        </div>
-                        <div class="old_price fleft rL">
-                            <span class="price">207 000</span>₽
+                            <span class="price">208 000</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -362,10 +340,7 @@
                     <p>Межсервисный интервал 100 моточасов<i class="db"></i> Гарантия 2 года или 500 моточасов</p>
                     <div class="price_block">
                         <div class="current_price fleft rL">
-                            <span class="price">229 000</span>₽
-                        </div>
-                        <div class="old_price fleft rL">
-                            <span class="price">263 350</span>₽
+                            <span class="price">257 000</span>₽
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -425,7 +400,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>116 000</span>₽
+                        	<span>126 000</span>₽
                         </div>
                     </div>
 
@@ -442,7 +417,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>147 000</span>₽
+                        	<span>163 000</span>₽
                         </div>
                     </div>
 
@@ -459,7 +434,7 @@
                             </div>
                         </div>
                         <div class="price_block rL">
-                        	<span>180 000</span>₽
+                        	<span>208 000</span>₽
                         </div>
                     </div>
 
@@ -476,7 +451,7 @@
                             </div>
                         </div>
                          <div class="price_block rL">
-                         	<span>229 000</span>₽
+                         	<span>257 000</span>₽
                          </div>
                     </div>
 
@@ -609,7 +584,7 @@
 <script src='/assets/scripts/landings/loncin-promo/html5.min.js'></script>
 <script src='/assets/scripts/landings/loncin-promo/jquery.min.js'></script>
 <script src='/assets/scripts/landings/loncin-promo/owl.min.js'></script>
-<script src='/assets/scripts/landings/loncin-promo/script.min.js'></script>
+<script src='/assets/scripts/landings/loncin-promo/script.minj.sc'></script>
 {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
 {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
 
