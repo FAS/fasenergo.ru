@@ -12,9 +12,7 @@
   <meta name="HandheldFriendly" content="true">
   <meta name="MobileOptimized" content="320">
   <title>Резервные газовые генераторы от 5 кВт</title>
-  <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/global.{{ 'min.css' if env.production else 'prefixed.css' }}'>
-  <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/style.{{ 'min.css' if env.production else 'prefixed.css' }}'>
-  <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/adaptive.{{ 'min.css' if env.production else 'prefixed.css' }}'>
+  <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo.{{ 'min.css' if env.production else 'prefixed.css' }}'>
 </head>
 
 <body>
