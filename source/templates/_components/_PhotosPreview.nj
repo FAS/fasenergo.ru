@@ -21,7 +21,7 @@
     {% set photoUrl = imagesPath + '/' + photos[0].url %}
 
     <a class='h-block h-border-bottom0' style='height: 600px' href='{{ photoUrl }}'>
-      <img class='h-height-1/1' style='object-fit: cover' src='{{ photoUrl }}' alt='{{ photos[0].alt or alt }}'>
+      <img class='h-height-1/1' style='object-fit: contain' src='{{ photoUrl }}' alt='{{ photos[0].alt or alt }}'>
     </a>
   </div>
 
