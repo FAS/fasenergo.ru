@@ -1,22 +1,6 @@
 module.exports = () ->
 
   ###
-  Copy
-  https://github.com/gruntjs/grunt-contrib-copy
-  Copy files and folders
-  ###
-
-  @config.merge
-    copy:
-      scripts:
-        files: [
-          expand: true
-          cwd: 'source/assets/scripts/'
-          src: ['**']
-          dest: '<%= path.build.scripts %>/'
-        ]
-
-  ###
   Shell
   https://github.com/sindresorhus/grunt-shell
   Run shell commands
@@ -25,6 +9,8 @@ module.exports = () ->
   @config 'shell',
     jspm_build:
       command: 'jspm build <%= file.source.script %> <%= file.build.script.compiled %> --minify'
+    jspm_build_loncin_promo:
+      command: 'jspm build <%= path.source.scripts %>/landings/loncin-promo.js <%= path.build.scripts %>/landings/loncin-promo.js --minify'
 
   ###
   Uglify

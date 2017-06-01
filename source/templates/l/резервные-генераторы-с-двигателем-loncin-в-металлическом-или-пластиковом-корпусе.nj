@@ -578,10 +578,20 @@
 
   </div><!--end wrapper-->
 
-  <script src='/{{ path.scripts }}/landings/loncin-promo/html5.{{ 'min.js' if env.production else 'js' }}'></script>
-  <script src='/{{ path.scripts }}/landings/loncin-promo/jquery.{{ 'min.js' if env.production else 'js' }}'></script>
-  <script src='/{{ path.scripts }}/landings/loncin-promo/owl.{{ 'min.js' if env.production else 'js' }}'></script>
-  <script src='/{{ path.scripts }}/landings/loncin-promo/script.{{ 'min.js' if env.production else 'js' }}'></script>
+  {% if env.production %}
+  <script src='/{{ path.scripts }}/landings/loncin-promo.min.js'></script>
+  {% else %}
+  <script src="/jspm_packages/system.js"></script>
+  <script src="/jspm.config.js"></script>
+
+  <script>
+    SystemJS.import('systemjs-hot-reloader').then((connect) => {
+      connect()
+      SystemJS.import('landings/loncin-promo.js')
+    })
+  </script>
+  {% endif %}
+
   {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
   {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
 
