@@ -61,7 +61,7 @@
 
   {% if size == 'small' %}
 
-  <a class='h-block h-border-bottom0' href='{{ url }}' style='min-height: 136px'><img class='h-block h-border-r' src='{{ image }}' style='max-height: 136px' alt='{{ title|striptags }}'></a>
+  <a class='h-block h-flex h-flex-y--center h-border-bottom0' href='{{ url }}' style='min-height: 136px'><img class='h-block h-border-r' src='{{ image }}' style='max-height: 136px' alt='{{ title|striptags }}'></a>
 
   <h{{ hLevel }} class='h-text+ h-margin-top-- h-margin-bottom0'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h{{ hLevel }}>
 
