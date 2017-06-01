@@ -15,9 +15,9 @@
  #   {{ components.PhotosPreview(gen.photos, gen.title|striptags) }}
  #}
 {% macro PhotosPreview(photos, alt, imagesPath = '/' + path.images, class) %}
-<div class='{{ class }} h-align--center'>
+<div class='js-photos-block {{ class }} h-align--center'>
 
-  <div id='js-photos-block__main'>
+  <div class='js-photos-block__main'>
     {% set photoUrl = imagesPath + '/' + photos[0].url %}
 
     <a class='h-block h-border-bottom0' style='height: 600px' href='{{ photoUrl }}'>
@@ -26,7 +26,7 @@
   </div>
 
   {% if photos.length > 1 %}
-  <div id='js-photos-block__thumbs'>
+  <div class='js-photos-block__thumbs'>
     {% for photo in photos %}
     {% set photoUrl = imagesPath + '/' + photo.url %}
 

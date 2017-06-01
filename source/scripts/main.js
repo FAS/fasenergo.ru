@@ -31,13 +31,14 @@ $(() => {
    *         relaying on href content.
    *         This code should be swapped with better slider whenever possible
    */
-  $('#js-photos-block__thumbs').on('click', 'a', function (e) {
+  $('.js-photos-block__thumbs').on('click', 'a', function (e) {
     e.preventDefault()
 
     const $this = $(this)
     const photoUrl = this.href
-    const $photoMain = $('#js-photos-block__main')
-    const $photoThumbs = $('#js-photos-block__thumbs')
+    const $scope = $this.closest('.js-photos-block')
+    const $photoMain = $scope.find('.js-photos-block__main')
+    const $photoThumbs = $scope.find('.js-photos-block__thumbs')
 
     $photoMain.find('a').attr('href', photoUrl)
     $photoMain.find('img').attr('src', photoUrl)
