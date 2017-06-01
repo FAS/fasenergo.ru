@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
 <meta name="HandheldFriendly" content="true">
 <meta name="MobileOptimized" content="320">
-<title>Фасэнергомаш — Производитель газовых генераторов</title>
+<title>Резервные газовые генераторы от 5 кВт</title>
 <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/global.{{ 'min.css' if env.production else 'prefixed.css' }}'>
 <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/style.{{ 'min.css' if env.production else 'prefixed.css' }}'>
 <link rel='stylesheet' href='/{{ path.styles }}/landings/loncin-promo/adaptive.{{ 'min.css' if env.production else 'prefixed.css' }}'>
@@ -52,7 +52,7 @@
     	<div class="inner">
         	<aside class="left_block fleft rL" id="gen1">
             	<div class="sl_item active">
-                    <h2>Газовый генератор в стальном корпусе Фас-5/1ЛП</h2>
+                    <h2>Газовый генератор в стальном корпусе Фас-5/1ЛМ</h2>
                     <ul>
                         <li>Компактный</li>
                         <li>Уникальный дизайн</li>
@@ -98,7 +98,7 @@
                 </div><!--end sl_item-->
 
                 <div class="sl_item">
-                    <h2>Газовый генератор в стальном корпусе Фас-8/1ЛП</h2>
+                    <h2>Газовый генератор в стальном корпусе Фас-8/1ЛМ</h2>
                     <ul>
                         <li>Компактный</li>
                         <li>Уникальный дизайн</li>
@@ -121,7 +121,7 @@
                 </div><!--end sl_item-->
 
                 <div class="sl_item">
-                    <h2>Газовый генератор в стальном корпусе Фас-10/1ЛП</h2>
+                    <h2>Газовый генератор в стальном корпусе Фас-10/1ЛМ</h2>
                     <ul>
                         <li>Компактный</li>
                         <li>Уникальный дизайн</li>
@@ -695,11 +695,19 @@
 <script type="text/javascript" src="/assets/scripts/landings/loncin-promo/html5.js"></script>
 <script type="text/javascript" src="/assets/scripts/landings/loncin-promo/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="/assets/scripts/landings/loncin-promo/owl.carousel.js"></script>
-<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/jquery.arcticmodal.js"></script>
-<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/mask.js"></script>
-<script type="text/javascript" src="/assets/scripts/landings/loncin-promo/validate.js"></script>
 <script type="text/javascript" src="/assets/scripts/landings/loncin-promo/script.js"></script>
 {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
 {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
+
+<script id="bx24_form_button" data-skip-moving="true">
+        (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+                (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                if(w[b]['forms']) return;
+                s=d.createElement('script');r=1*new Date();s.async=1;s.src=u+'?'+r;
+                h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://gastech.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
+
+        b24form({"id":"10","lang":"ru","sec":"fk85mz","type":"button","click":""});
+</script>
 </body>
 </html>
