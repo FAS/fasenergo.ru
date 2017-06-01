@@ -10,7 +10,7 @@ module.exports = () ->
     jspm_build:
       command: 'jspm build <%= file.source.script %> <%= file.build.script.compiled %> --minify'
     jspm_build_loncin_promo:
-      command: 'jspm build <%= path.source.scripts %>/landings/loncin-promo.js <%= path.build.scripts %>/landings/loncin-promo.js --minify'
+      command: 'jspm build <%= path.source.scripts %>/landings/loncin-promo.js <%= path.build.scripts %>/landings/loncin-promo.min.js --minify'
 
   ###
   Uglify
