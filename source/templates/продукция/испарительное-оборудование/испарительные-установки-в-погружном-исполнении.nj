@@ -1,0 +1,58 @@
+---
+title:           Испарительные установки в погружном исполнении
+breadcrumbTitle: Испарительные установки в погружном исполнении
+contentTitle:    Испарительные установки в погружном исполнении
+navTitle:        Испарительные установки в погружном исполнении
+metaDesc:        Испарительные установки в погружном исполнении
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+{% set pageEqElPhotos = [
+  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--1--front-top.jpg' },
+  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--2--front-right-top.jpg' },
+  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--3--back-left-top.jpg' },
+  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--4--back-top.jpg' },
+  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--5--back-right-top.jpg' }
+] %}
+
+{{ components.PhotosPreview(pageEqElPhotos, 'Испарительная установка Фасэнергомаш SE/PG') }}
+
+<h2>Непрямой электрический подогрев</h2>
+
+<ul>
+  <li>Автоматический контроль производительности для систем автономного и резервного газоснабжения.</li>
+  <li>Все установки комплектно собраны и проверены давлением.</li>
+</ul>
+
+{% set pageEqEl = [
+  { title: 'Испарительная установка ФЭМ&nbsp;40&nbsp;SE/PG', performance: '40 кг/ч' },
+  { title: 'Испарительная установка ФЭМ&nbsp;80&nbsp;SE/PG', performance: '80 кг/ч' },
+  { title: 'Испарительная установка ФЭМ&nbsp;100&nbsp;SE/PG', performance: '100 кг/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i>
+</p>
+{% endblock %}

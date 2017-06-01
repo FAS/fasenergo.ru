@@ -1,0 +1,93 @@
+---
+title:           Испарительно-смесительные установки в шкафном исполнении
+breadcrumbTitle: Испарительно-смесительные установки в шкафном исполнении
+contentTitle:    Испарительно-смесительные установки в шкафном исполнении
+navTitle:        Испарительно-смесительные установки в шкафном исполнении
+metaDesc:        Испарительно-смесительные установки в шкафном исполнении
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+{% set pageEqElPhotos = [
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-SE-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-SE-ND-SH--1--front.jpg' },
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-SE-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-SE-ND-SH--2--front-left.jpg' },
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-SE-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-SE-ND-SH--3--left.jpg' },
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-SE-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-SE-ND-SH--4--right.jpg' },
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-SE-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-SE-ND-SH--5--front-right.jpg' }
+] %}
+
+{% set pageEqLiqPhotos = [
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-ZH-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-ZH-ND-SH--1--front.jpg' },
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-ZH-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-ZH-ND-SH--2--front-left.jpg' },
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-ZH-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-ZH-ND-SH--3--left.jpg' },
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-ZH-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-ZH-ND-SH--4--right.jpg' },
+  { url: '/equipment/испарительно-смесительное-оборудование/ISU-ZH-ND-SH/Испартельно-смесительная-установка-Фасэнергомаш-ISU-ZH-ND-SH--5--front-right.jpg' }
+] %}
+
+<h2>Непрямой электрический подогрев</h2>
+
+{{ components.PhotosPreview(pageEqElPhotos, 'Испарительно-смесительная Фасэнергомаш ISU/SE/ND/SH', class = 'h-margin-bottom+') }}
+
+{% set pageEqElLow = [
+  { title: 'Испарительно-смесительная установка ФЭМ 300 ISU/SE/ND/SH', performance: '300 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФЭМ 600 ISU/SE/ND/SH', performance: '600 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Низкого давления</th>
+    </tr>
+    {% for e in pageEqElLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Непрямой жидкостный подогрев</h2>
+
+{{ components.PhotosPreview(pageEqLiqPhotos, 'Испарительно-смесительная Фасэнергомаш ISU/ZH/ND/SH', class = 'h-margin-bottom+') }}
+
+{% set pageEqLiqLow = [
+  { title: 'Испарительно-смесительная установка ФЭМ 300 ISU/ZH/ND/SH', performance: '300 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФЭМ 600 ISU/ZH/ND/SH', performance: '600 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Низкого давления</th>
+    </tr>
+    {% for e in pageEqLiqLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

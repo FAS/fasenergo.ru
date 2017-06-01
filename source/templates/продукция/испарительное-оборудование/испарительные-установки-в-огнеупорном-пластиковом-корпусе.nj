@@ -1,0 +1,72 @@
+---
+title:           Испарительные установки в огнеупорном пластиковом корпусе
+breadcrumbTitle: Испарительные установки в огнеупорном пластиковом корпусе
+contentTitle:    Испарительные установки в огнеупорном пластиковом корпусе
+navTitle:        Испарительные установки в огнеупорном пластиковом корпусе
+metaDesc:        Испарительные установки в огнеупорном пластиковом корпусе
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+{% set pageEqElPhotos = [
+  { url: '/equipment/испарительное-оборудование/SE-P/Испарительная-установка-Фасэнергомаш-SE-P--1--front.jpg' },
+  { url: '/equipment/испарительное-оборудование/SE-P/Испарительная-установка-Фасэнергомаш-SE-P--2--front-left.jpg' },
+  { url: '/equipment/испарительное-оборудование/SE-P/Испарительная-установка-Фасэнергомаш-SE-P--3--left.jpg' },
+  { url: '/equipment/испарительное-оборудование/SE-P/Испарительная-установка-Фасэнергомаш-SE-P--4--back.jpg' },
+  { url: '/equipment/испарительное-оборудование/SE-P/Испарительная-установка-Фасэнергомаш-SE-P--5--right.jpg' },
+  { url: '/equipment/испарительное-оборудование/SE-P/Испарительная-установка-Фасэнергомаш-SE-P--6--front--open.jpg' }
+] %}
+
+{{ components.PhotosPreview(pageEqElPhotos, 'Испарительная установка Фасэнергомаш SE/P') }}
+
+<h2>Непрямой электрический подогрев</h2>
+
+<ul>
+  <li>Автоматический контроль производительности для систем автономного и резервного газоснабжения.</li>
+  <li>Все установки комплектно собраны и проверены давлением.</li>
+</ul>
+
+{% set pageEqEl = [
+  { title: 'Испарительная установка&nbsp;ФЭМ 25&nbsp;SE/P', performance: '25 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 35&nbsp;SE/P', performance: '35 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 40&nbsp;SE/P', performance: '40 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 60&nbsp;SE/P', performance: '60 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 80&nbsp;SE/P', performance: '80 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 100&nbsp;SE/P', performance: '100 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 120&nbsp;SE/P', performance: '120 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 160&nbsp;SE/P', performance: '160 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 240&nbsp;SE/P', performance: '240 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 300&nbsp;SE/P', performance: '300 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 400&nbsp;SE/P', performance: '400 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 500&nbsp;SE/P', performance: '500 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 600&nbsp;SE/P', performance: '600 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 720&nbsp;SE/P', performance: '720 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 850&nbsp;SE/P', performance: '840 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФЭМ 960&nbsp;SE/P', performance: '940 кг/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><a class="Btn" href="#order">Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i>
+</p>
+{% endblock %}
