@@ -129,12 +129,12 @@ module.exports = (grunt) ->
     'csso'
     'shell:jspm_build'
     'uglify'
-    'htmlmin'
     'responsive_images:thumbnails'
     'tinypng'
     'clean:styles'
     'clean:scripts'
     'cacheBust'
+    'htmlmin'
     'sitemap_xml'
     'size_report'
   ]
