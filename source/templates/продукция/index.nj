@@ -1,17 +1,38 @@
 ---
-title:           Продукция
+title:           Продукция «Фасэнергомаш»
 breadcrumbTitle: Продукция
-contentTitle:    Продукция
+contentTitle:    Продукция «Фасэнергомаш»
 navTitle:        Продукция
-metaDesc:        Продукция
+metaDesc:        Продукция «Фасэнергомаш»
 ---
 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-<ul>
-  {% for slug, item in getPage(page.breadcrumb) %}
-  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
-  {% endfor %}
-</ul>
+{% call components.CategoryCard(
+  title = 'Газовые генераторы',
+  hLevel = 2,
+  image = '/' + path.images + '/categories/газовые-генераторы.jpg',
+  url = '/продукция/газовые-генераторы/',
+  class = 'h-margin-top+'
+) %}{% endcall %}
+
+<hr>
+
+{% call components.CategoryCard(
+  title = 'Испарительное оборудование',
+  hLevel = 2,
+  image = '/' + path.images + '/categories/испарительное-оборудование.jpg',
+  url = '/каталог-new/испарительное-оборудование/'
+) %}{% endcall %}
+
+<hr>
+
+{% call components.CategoryCard(
+  title = 'Испарительно-смесительное оборудование',
+  hLevel = 2,
+  image = '/' + path.images + '/categories/испарительно-смесительное-оборудование.jpg',
+  url = '/каталог-new/испарительно-смесительное-оборудование/'
+) %}{% endcall %}
+
 {% endblock %}
