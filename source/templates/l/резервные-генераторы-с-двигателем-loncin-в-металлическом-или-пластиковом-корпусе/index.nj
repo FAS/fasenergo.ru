@@ -584,7 +584,7 @@
 <script src='/assets/scripts/landings/loncin-promo/html5.min.js'></script>
 <script src='/assets/scripts/landings/loncin-promo/jquery.min.js'></script>
 <script src='/assets/scripts/landings/loncin-promo/owl.min.js'></script>
-<script src='/assets/scripts/landings/loncin-promo/script.minj.js'></script>
+<script src='/assets/scripts/landings/loncin-promo/script.min.js'></script>
 {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
 {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
 
