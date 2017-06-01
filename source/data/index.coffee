@@ -25,7 +25,7 @@ module.exports = (grunt) ->
       version: pkg.version
       locales: grunt.config('locales')
       baseLocale: grunt.config('baseLocale')
-      googleAnalyticsId: 'UA-74501640-2'
+      googleAnalyticsId: 'UA-35704990-1'
       yandexMetrikaId: 20139793
     env:
       production: '<%= env.production %>'
