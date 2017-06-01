@@ -128,6 +128,7 @@ module.exports = (grunt) ->
     # 'uncss'
     'csso'
     'shell:jspm_build'
+    'shell:jspm_build_loncin_promo'
     'uglify'
     'responsive_images:thumbnails'
     'tinypng'
