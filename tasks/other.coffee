@@ -25,7 +25,7 @@ module.exports = () ->
       build:
         options:
           algorithm: 'md5'
-          deleteOriginals: false
+          deleteOriginals: true
           baseDir: '<%= path.build.root %>'
           assets: ['{,**/}*.{css,js}']
         files: [
