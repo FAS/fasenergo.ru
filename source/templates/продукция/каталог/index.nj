@@ -9,9 +9,9 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set generatorss = selectGenerators(data) %}
-{% set generatorss = filterWithBrands(generatorss, 'Фасэнергомаш') %}
-{% set generatorss = sortGeneratorsByPower(generatorss) %}
+{% set generators = selectGenerators(data) %}
+{% set generators = filterWithBrands(generators, 'Фасэнергомаш') %}
+{% set generators = sortGeneratorsByPower(generators) %}
 
 {% set enginesBrands = selectEnginesBrands(data) %}
 
@@ -268,7 +268,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 {# <hr> #}
 
 <div id='js-catalog' class='Box'>
-  {% for g in generatorss %}
+  {% for g in generators %}
   {% set url = page.props.url + g.slug + '/' %}
   {% set photoUrl = '/' + path.images + '/' + getGeneratorMainPhoto(g).url or '/' + path.images + '/no-photo.png' %}
   {% set maxPower = getGeneratorHighestPower(g) %}
