@@ -1,0 +1,13 @@
+---
+title:            VK verification
+breadcrumbTitle:  VK verification
+contentTitle:     VK verification
+navTitle:         VK verification
+metaDesc:         VK verification
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+Привет, Юнона
+{% endblock %}
