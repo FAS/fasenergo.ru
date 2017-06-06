@@ -393,50 +393,12 @@ metaDesc:        Продукция «Фасэнергомаш»
 
 <hr>
 
-<h2><a href='/каталог-new/контрольно-распределительные-пункты/' class='g-link--inherit h-border-bottom0'>Контрольно-распределительные пункты</a></h2>
-
-<div class='o-grid h-childs-displace h-bleed-bottom'>
-  {% call components.CategoryCard(
-    title = 'ФЭМ KRP',
-    hLevel = 3,
-    image = '/' + path.images + '/categories/контрольно-распределительные-пункты.jpg',
-    url = '/каталог-new/контрольно-распределительные-пункты/фэм-krp/',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-  {% call components.CategoryCard(
-    title = 'ФЭМ KRP/N',
-    hLevel = 3,
-    image = '/' + path.images + '/categories/контрольно-распределительные-пункты.jpg',
-    url = '/каталог-new/контрольно-распределительные-пункты/фэм-krp-n/',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-  {% call components.CategoryCard(
-    title = 'ФЭМ KRP/V',
-    hLevel = 3,
-    image = '/' + path.images + '/categories/контрольно-распределительные-пункты.jpg',
-    url = '/каталог-new/контрольно-распределительные-пункты/фэм-krp-v/',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-  {% call components.CategoryCard(
-    title = 'ФЭМ KRP/S',
-    hLevel = 3,
-    image = '/' + path.images + '/categories/контрольно-распределительные-пункты.jpg',
-    url = '/каталог-new/контрольно-распределительные-пункты/фэм-krp-s/',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-  {% call components.CategoryCard(
-    title = 'ФЭМ KRP/N/S',
-    hLevel = 3,
-    image = '/' + path.images + '/categories/контрольно-распределительные-пункты.jpg',
-    url = '/каталог-new/контрольно-распределительные-пункты/фэм-krp-n-s/',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-</div>
+{% call components.CategoryCard(
+  title = 'Контрольно-распределительные пункты',
+  hLevel = 2,
+  image = '/' + path.images + '/categories/контрольно-распределительные-пункты.jpg',
+  url = '/каталог-new/контрольно-распределительные-пункты/'
+) %}{% endcall %}
 
 <hr>
 
