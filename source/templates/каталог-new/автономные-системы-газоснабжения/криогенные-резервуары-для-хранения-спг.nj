@@ -59,8 +59,9 @@ metaDesc:        Криогенные резервуары для хранени
 
 <h2>Расчетные параметры (СПГ)</h2>
 
-<table class='Table'>
-  <thead>
+{# @todo Should it be table? #}
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text-'>
     <tr>
       <th>Норма проектирования</th>
       <th>Рабочее давление</th>
