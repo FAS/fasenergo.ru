@@ -9,8 +9,137 @@ metaDesc:        Регуляторы давления RegO
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{# @todo Нет контента #}
-<p><i>Раздел в разработке</i></p>
+{% set pageEq = [
+  {
+    title: 'Регулятор&nbsp;RegO&nbsp;1588 ML',
+    performance: '160 кг/ч',
+    pressure: 'Рвх.&nbsp;25 бар<br>Рвых.&nbsp;2,5 бар',
+    connection: 'Вход POL&nbsp;<br>Выход IG G&nbsp;¾"',
+    weight: '1,3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;1586 ML',
+    performance: '160 кг/ч',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;0,4-3,5 бар',
+    connection: '¾" NPT',
+    weight: '1,4&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;1588 MH',
+    performance: '160 кг/ч',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;0,4-3,5 бар',
+    connection: '1" NPT',
+    weight: '1,3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;RegO1584 ML</a>',
+    performance: '80 кг/ч',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;0,4-3,5 бар',
+    connection: '½" NPT',
+    weight: '0,9&nbsp;кг'
+  }, {
+    title: 'Регулятор RegO&nbsp;1584 MH',
+    performance: '80 кг/ч',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;0,4-8,5 бар',
+    connection: '½" NPT',
+    weight: '0,9&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;RegO 597FC',
+    performance: '&nbsp;77 кг/ч&nbsp;',
+    pressure: 'Рвых.&nbsp;номинальное&nbsp;<br>0,7-6,9 бар&nbsp;',
+    connection: 'Вход ¼" NPT<br>Выход&nbsp;¼" NPT&nbsp;',
+    weight: null
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;AA1586 ML',
+    performance: '70 м³/ч&nbsp;NH<sub>3</sub>',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;0,4-3,5 бар',
+    connection: '¾" NPT',
+    weight: '1,4&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;RegO LV5503H820',
+    performance: 'до 50 кг/ч',
+    pressure: 'Рвых.&nbsp;от 28<br>до 70 мбар',
+    connection: 'Вход&nbsp;¾ NPT IG&nbsp;<br>Выход 1" NPT IG',
+    weight: null
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;AA1584 ML',
+    performance: '45 м³/ч&nbsp;NH<sub>3</sub>',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;0,4-3,5 бар',
+    connection: '½" NPT',
+    weight: '0,7 кг<strong>&nbsp;</strong>'
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;LV5503B4-H20',
+    performance: '34 кг/ч',
+    pressure: 'Рвых. 50 мбар',
+    connection: 'Вход ½" NPT&nbsp;IG<br>Выход&nbsp;¾" NPT IG',
+    weight: null
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;LV5503B6-H20',
+    performance: '34 кг/ч',
+    pressure: 'Рвых. 90 мбар',
+    connection: 'Вход&nbsp;¾" NPT&nbsp;IG<br>Выход&nbsp;¾" NPT&nbsp;IG&nbsp;&nbsp;',
+    weight: null
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;AA1582 ML',
+    performance: '22 м³/ч&nbsp;NH<sub>3</sub>',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;0,4-3,5 бар',
+    connection: '¼" NPT',
+    weight: '0,7 кг<strong>&nbsp;</strong>'
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;AA1582 MW',
+    performance: '20 м³/ч&nbsp;NH<sub>3</sub>',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;0,2-1,7 бар',
+    connection: '¼" NPT',
+    weight: '0,7&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;LV4403 B46',
+    performance: '20 кг/ч',
+    pressure: 'Рвх.&nbsp;до 2,5 бар<br>Рвых.&nbsp;50 мбар',
+    connection: 'Вход&nbsp;½" NPT<br>Выход&nbsp;¾" NPT',
+    weight: '1,3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;LV4403 B4',
+    performance: '12 кг/ч',
+    pressure: 'Рвх.&nbsp;до 2,5 бар<br>Рвых.&nbsp;50 мбар',
+    connection: 'Вход&nbsp;½" NPT<br>Выход&nbsp;½" NPT',
+    weight: '1,3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;RegO LV404B4',
+    performance: '11 кг/ч',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;25-50 мбар',
+    connection: 'Вход ¼" NPT<br>Выход ½" NPT',
+    weight: '1,6&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;RegO&nbsp;LV404B46',
+    performance: '11 кг/ч',
+    pressure: 'Рвх.&nbsp;до 16 бар<br>Рвых.&nbsp;25-50 мбар',
+    connection: 'Вход ¼" NPT<br>Выход&nbsp;¾" NPT',
+    weight: '1,6&nbsp;кг'
+  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>Давление</th>
+      <th>Соединение</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.pressure }}</td>
+      <td>{{ e.connection }}</td>
+      <td class='h-align--right'>{{ e.weight }}</td>
+      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 <p><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}
