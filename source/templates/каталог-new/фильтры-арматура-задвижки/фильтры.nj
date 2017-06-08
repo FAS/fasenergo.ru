@@ -1,9 +1,9 @@
 ---
-title:           Фильтры «Фасэнергомаш»
+title:           Фильтры
 breadcrumbTitle: Фильтры
-contentTitle:    Фильтры «Фасэнергомаш»
+contentTitle:    Фильтры
 navTitle:        Фильтры
-metaDesc:        Фильтры «Фасэнергомаш»
+metaDesc:        Фильтры
 ---
 
 {% extends '_layouts/_main.nj' %}

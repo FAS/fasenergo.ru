@@ -1,9 +1,9 @@
 ---
-title:           Отсекатели «Фасэнергомаш»
+title:           Отсекатели
 breadcrumbTitle: Отсекатели
-contentTitle:    Отсекатели «Фасэнергомаш»
+contentTitle:    Отсекатели
 navTitle:        Отсекатели
-metaDesc:        Отсекатели «Фасэнергомаш»
+metaDesc:        Отсекатели
 ---
 
 {% extends '_layouts/_main.nj' %}
