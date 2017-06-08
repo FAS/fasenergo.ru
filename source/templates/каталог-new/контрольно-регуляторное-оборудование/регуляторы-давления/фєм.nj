@@ -9,8 +9,135 @@ metaDesc:        Регуляторы давления «Фасэнергома�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{# @todo Нет контента #}
-<p><i>Раздел в разработке</i></p>
+{% set pageEq = [
+  {
+    title: 'Регулятор ФЭМ A10 BP',
+    performance: 'до 250&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 16-110 мбар',
+    connection: 'Вход 1“G<br> Выход 1“G',
+    height: '100&nbsp;мм',
+    width: '230&nbsp;мм',
+    weight: '3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A10 MP',
+    performance: 'до 350&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 95-450 мбар',
+    connection: 'Вход 1“G<br> Выход 1“G',
+    height: '100&nbsp;мм',
+    width: '230&nbsp;мм',
+    weight: '3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A10 АP',
+    performance: 'до 800&nbsp;кг/ч',
+    pressure: 'Рвх. 16 бар<br> Рвых. 290-2150 мбар',
+    connection: 'Вход 1“G<br> Выход 1“G',
+    height: '100&nbsp;мм',
+    width: '230&nbsp;мм',
+    weight: '3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A20 BP',
+    performance: 'до 450&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 16-110 мбар',
+    connection: 'Вход 1“<br> Выход 1 ½“G',
+    height: '130&nbsp;мм',
+    width: '230&nbsp;мм',
+    weight: '3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A20 MP',
+    performance: 'до 800&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 95-450 мбар',
+    connection: 'Вход 1“<br> Выход 1 ½“G',
+    height: '130&nbsp;мм',
+    width: '230&nbsp;мм',
+    weight: '3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A20 АP',
+    performance: 'до 1200&nbsp;кг/ч',
+    pressure: 'Рвх. 16 бар<br> Рвых. 290-2150 мбар',
+    connection: 'Вход 1“<br> Выход 1 ½“G',
+    height: '130&nbsp;мм',
+    width: '230&nbsp;мм',
+    weight: '3&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A30 BP',
+    performance: 'до 500&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 16-110 мбар',
+    connection: 'Вход ДУ25<br> Выход ДУ40/ДУ50',
+    height: '180&nbsp;мм',
+    width: '256&nbsp;мм',
+    weight: '6&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A30 MP',
+    performance: 'до 900&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 95-450 мбар',
+    connection: 'Вход ДУ25<br> Выход ДУ40/ДУ50',
+    height: '180&nbsp;мм',
+    width: '256&nbsp;мм',
+    weight: '6&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A30 АP',
+    performance: 'до 1800&nbsp;кг/ч',
+    pressure: 'Рвх. 16 бар<br> Рвых. 290-2150 мбар',
+    connection: 'Вход ДУ25<br> Выход ДУ40/ДУ50',
+    height: '180&nbsp;мм',
+    width: '256&nbsp;мм',
+    weight: '6&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A50 BP',
+    performance: 'до 1400&nbsp;кг/ч',
+    pressure: 'Рвх. 5 бар<br> Рвых. 16-120 мбар',
+    connection: 'Вход ДУ50<br> Выход ДУ50',
+    height: '254&nbsp;мм',
+    width: '432&nbsp;мм',
+    weight: '19&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A50 MP',
+    performance: 'до 1900&nbsp;кг/ч',
+    pressure: 'Рвх. 5 бар<br> Рвых. 110-320 мбар',
+    connection: 'Вход ДУ50<br> Выход ДУ50',
+    height: '254&nbsp;мм',
+    width: '432&nbsp;мм',
+    weight: '19&nbsp;кг'
+  }, {
+    title: 'Регулятор&nbsp;ФЭМ A50 АP',
+    performance: 'до 3900&nbsp;кг/ч',
+    pressure: 'Рвх. 16 бар<br> Рвых. 310-4000 мбар',
+    connection: 'Вход ДУ50<br> Выход ДУ50',
+    height: '254&nbsp;мм',
+    width: '432&nbsp;мм',
+    weight: '19&nbsp;кг'
+  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>Давление</th>
+      <th>Соединение</th>
+      <th>Длина</th>
+      <th>Высота</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.pressure }}</td>
+      <td>{{ e.connection }}</td>
+      <td class='h-align--right'>{{ e.width }}</td>
+      <td class='h-align--right'>{{ e.height }}</td>
+      <td class='h-align--right'>{{ e.weight }}</td>
+      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 <p><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}
