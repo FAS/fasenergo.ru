@@ -10,9 +10,21 @@ metaDesc:        Автономные системы газоснабжения 
 
 {% block main %}
 {# @todo Нет контента #}
-<ul>
-  {% for slug, item in getPage(page.breadcrumb) %}
-  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
-  {% endfor %}
-</ul>
+
+{% call components.CategoryCard(
+  title = 'Заводы по производству СПГ',
+  hLevel = 2,
+  url = '/каталог-new/автономные-системы-газоснабжения/заводы-по-производству-спг/'
+) %}{% endcall %}
+{% call components.CategoryCard(
+  title = 'Регазификационные комплексы',
+  hLevel = 2,
+  url = '/каталог-new/автономные-системы-газоснабжения/регазификационные-комлексы/'
+) %}{% endcall %}
+{% call components.CategoryCard(
+  title = 'Криогенные резервуары для хранения СПГ',
+  hLevel = 2,
+  image = '/' + path.images + '/categories/автономные-системы-газоснабжения/криогенные-резервуары-для-хранения-спг.jpg',
+  url = '/каталог-new/автономные-системы-газоснабжения/криогенные-резервуары-для-хранения-спг/'
+) %}{% endcall %}
 {% endblock %}
