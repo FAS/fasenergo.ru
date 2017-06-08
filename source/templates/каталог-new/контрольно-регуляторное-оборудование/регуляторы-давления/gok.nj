@@ -9,8 +9,113 @@ metaDesc:        Регуляторы давления GOK
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{# @todo Нет контента #}
-<p><i>Раздел в разработке</i></p>
+{% set pageEq = [
+  {
+    title: 'Регулятор среднего<br>давления',
+    performance: '100&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;25 бар<br> Рвых.&nbsp;2,5 бар',
+    connection: 'Вход POL&nbsp;<br> Выход IG G&nbsp;¾"',
+    weight: null
+  }, {
+    title: 'Регулятор, <br>низкое давления,<br>для внутренних<br>установок ‘f',
+    performance: 'До 1 бар -&nbsp;100&nbsp;кг/ч&nbsp;<br> До 2,5 бар - 85&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;0,5-2,5 бар<br> Рвых.&nbsp;50 мбар',
+    connection: 'Вход&nbsp;IG G1<br> Выход&nbsp;IG G1',
+    weight: null
+  }, {
+    title: 'Регулятор,<br>среднее давление<br>(1. ступень),<br>с DIN-DVGW-допуском',
+    performance: 'до 60&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;до 25 бар<br> Рвых.&nbsp;0,7-2 бар',
+    connection: 'Вход&nbsp;G&nbsp;½"&nbsp;IG<br> Выход G ¾"&nbsp;IG',
+    weight: '3,3&nbsp;кг'
+  }, {
+    title: 'Регулятор давления<br>PN 4, низкое давление<br>(2. ступень)',
+    performance: '60&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;0,5-2,5 бар<br> Рвых.&nbsp;50 мбар',
+    connection: 'Вход&nbsp;G&nbsp;¾"&nbsp;IG<br> Выход&nbsp;G&nbsp;¾"&nbsp;IG',
+    weight: '2,4&nbsp;кг'
+  }, {
+    title: 'Регулятор среднего<br>давления',
+    performance: '60&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;до 25 бар<br> Рвых.&nbsp;0,7-2,0 бар,&nbsp;<br> установлен на 0,8 бар',
+    connection: '-',
+    weight: null
+  }, {
+    title: 'Комплект регуляторов<br>тип GOK',
+    performance: '20-60&nbsp;кг/ч',
+    pressure: '1. ступень:<br> Рвых. 1,5 бар;&nbsp;<br> 2. ступень:<br> Рвх.&nbsp;до 1,5 бар<br> Рвых. 50&nbsp;мбар',
+    connection: '1. ступень:&nbsp;<br> POL x G ¾ I<br> 2. ступень:&nbsp;<br> G 1 I x G 1 I',
+    weight: null
+  }, {
+    title: 'Регулятор давления<br>PN 2,5, низкое давление<br>(2. ступень)',
+    performance: '24&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;0,5-2,5 бар<br> Рвых.&nbsp;50 мбар',
+    connection: 'Вход&nbsp;G&nbsp;¾"&nbsp;IG<br> Выход&nbsp;G&nbsp;¾"&nbsp;IG',
+    weight: '2&nbsp;кг'
+  }, {
+    title: 'Регулятор давления,<br>2-х ступенчатый,<br>комбинированный',
+    performance: 'до 24&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;до 25 бар<br> Рвых.&nbsp;50 мбар',
+    connection: 'Вход POL<br> Выход G 1" &nbsp;IG',
+    weight: null
+  }, {
+    title: 'Регулятор,<br>среднее давление<br>(1. ступень),<br>с DIN-DVGW-допуском',
+    performance: 'до&nbsp;24&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;до 25 бар<br> Рвых.&nbsp;2 бар',
+    connection: 'Вход POL<br> Выход G&nbsp;½"&nbsp;IG',
+    weight: '3,1&nbsp;кг'
+  }, {
+    title: 'Регулятор,<br>среднее давление<br>(1. ступень),<br>с DIN-DVGW-допуском',
+    performance: 'до&nbsp;24&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;до 25 бар<br> Рвых.&nbsp;0,7 бар',
+    connection: 'Вход POL<br> Выход G&nbsp;½"&nbsp;IG',
+    weight: '2,6&nbsp;кг'
+  }, {
+    title: 'Регулятор давления<br>PN 2,5, низкое давление&nbsp;<br>(2. ступень)',
+    performance: '12&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;0,5-2,5 бар<br> Рвых.&nbsp;50 мбар',
+    connection: 'Вход&nbsp;G ½"&nbsp;IG<br> Выход&nbsp;G&nbsp;½"&nbsp;IG',
+    weight: '1,7&nbsp;кг'
+  }, {
+    title: 'Регулятор,&nbsp;<br>с DIN-DVGW-допуском<br>и с дополнительной<br> проверкой<br>"Е" против&nbsp;обледенения',
+    performance: 'до 12&nbsp;кг/ч',
+    pressure: 'Рвх. 25 бар<br> Рвых.&nbsp;50 мбар',
+    connection: 'Вход POL<br> Выход G ½" IG',
+    weight: '2,9&nbsp;кг'
+  }, {
+    title: 'Регулятор среднего давления',
+    performance: '10&nbsp;кг/ч',
+    pressure: 'Рвх.&nbsp;0,7 бар<br> Макс. допустимое<br> давление 25 бар',
+    connection: 'Вход&nbsp;POL<br> с накидной гайкой&nbsp;<br> Выход<br> &nbsp;POL x 1/2" G IG',
+    weight: '1,25&nbsp;кг'
+  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>Давление</th>
+      <th>Соединение</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.pressure }}</td>
+      <td>{{ e.connection }}</td>
+      <td class='h-align--right'>{{ e.weight }}</td>
+      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 <p><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}
