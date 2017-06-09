@@ -33,6 +33,18 @@ module.exports = () ->
             '<%= path.build.root %>/{,**/}*.{html,css,js}'
           ]
         ]
+      images:
+        options:
+          algorithm: 'md5'
+          deleteOriginals: true
+          queryString: true
+          baseDir: '<%= path.build.root %>'
+          assets: ['{,**/}*.{jpg,jpeg,gif,png,svg}']
+        files: [
+          src: [
+            '<%= path.build.root %>/{,**/}*.{html,css,js}'
+          ]
+        ]
 
   ###
   Clean
