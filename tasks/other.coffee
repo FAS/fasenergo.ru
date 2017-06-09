@@ -38,7 +38,7 @@ module.exports = () ->
           algorithm: 'md5'
           deleteOriginals: true
           queryString: true
-          baseDir: '<%= path.build.assets %>'
+          baseDir: '<%= path.build.root %>'
           assets: ['{,**/}*.{jpg,jpeg,gif,png,svg}']
         files: [
           src: [
