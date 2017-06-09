@@ -24,7 +24,6 @@ module.exports = () ->
     cacheBust:
       build:
         options:
-          algorithm: 'md5'
           deleteOriginals: true
           baseDir: '<%= path.build.root %>'
           assets: ['{,**/}*.{css,js}']
@@ -35,8 +34,6 @@ module.exports = () ->
         ]
       images:
         options:
-          algorithm: 'md5'
-          deleteOriginals: true
           queryString: true
           baseDir: '<%= path.build.root %>'
           assets: ['{,**/}*.{jpg,jpeg,gif,png,svg}']
