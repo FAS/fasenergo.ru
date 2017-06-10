@@ -10,21 +10,25 @@ p + ol { margin-top: - ekzo-space(.5); }
 ul,
 ol {
   $list-padding: ekzo-space();
-  $list-bullets-padding: ekzo-space(.5);
 
   list-style-type: none;
-  padding-left: $list-padding;
+  padding-left: 0;
 
-  > li { text-indent: - $list-bullets-padding; }
+  > li { margin-left: $list-padding; }
 
   > li:before {
-    display: inline-block;
-    content: '•';
+    position: absolute;
 
-    width: $list-bullets-padding;
+    margin-left: - $list-padding;
 
     @include ekzo-theme() { color: ekzo-theme(list-bullet); }
   }
+
+}
+
+ul {
+
+  > li:before { content: '•'; }
 
 }
 
@@ -44,11 +48,17 @@ ol {
 %#{$ekzo-g-ns}list0 {
   list-style: none;
 
-  margin-left:   0;
-  padding-left:  0;
   margin-bottom: 0;
 
-  > li { text-indent: 0; }
-  > li:before { display: none; }
+  > li { margin-left: 0; }
+
+  > li:before {
+    content: none;
+    position: inherit;
+
+    margin-left: 0;
+
+    font-weight: inherit;
+  }
 
 }
