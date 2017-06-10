@@ -1,0 +1,29 @@
+{##
+ # Displays link which opens on click dropdown with some content
+ #
+ # @param {string} label   Button label
+ # @param {string} [class] Class for main wrapper
+ #
+ # @return {string} HTML
+ #
+ # @example
+ #   {% call components.DropShower(label = 'Комплектация') %}
+ #     <ul class='h-childs-space-top0'>
+ #       {% for e in list %}<li>{{ e }}</li>{% endfor %}
+ #     </ul>
+ #   {% endcall %}
+ #}
+{% macro DropShower(label, class) %}
+<div class='{{ class }} h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >{{ label }}</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    {{ caller() }}
+  </div>
+
+</div>
+{% endmacro %}

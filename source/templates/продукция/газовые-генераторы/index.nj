@@ -315,16 +315,11 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         {% endif %}
 
         {% if g.equipment.list %}
-        <div class='h-relative js-expand__scope h-margin-bottom h-text- h-opacity50'>
-          <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
-            <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
-          </button>
-          <ul
-            class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text- h-childs-space-top0'
-            style='display: none; min-width: 400px; right: 0;'>
+        {% call components.DropShower(label = 'Что входит в цену', class = 'h-margin-bottom h-text- h-opacity50') %}
+          <ul class='h-childs-space-top0'>
             {{ g.equipment.list }}
           </ul>
-        </div>
+        {% endcall %}
         {% endif %}
 
         {% if warrantyFromInstallation or warrantyServiceLife %}
