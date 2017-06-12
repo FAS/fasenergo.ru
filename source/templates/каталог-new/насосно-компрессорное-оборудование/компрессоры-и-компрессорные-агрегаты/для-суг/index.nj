@@ -1,0 +1,18 @@
+---
+title:           Компрессоры и компрессорные агрегаты для СУГ
+breadcrumbTitle: Для СУГ
+contentTitle:    Компрессоры и компрессорные агрегаты для СУГ
+navTitle:        Компрессоры и компрессорные агрегаты для СУГ
+metaDesc:        Компрессоры и компрессорные агрегаты для СУГ
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(page.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

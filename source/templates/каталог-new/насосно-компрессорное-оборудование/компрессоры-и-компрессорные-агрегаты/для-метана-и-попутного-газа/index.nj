@@ -1,0 +1,18 @@
+---
+title:           Компрессоры и компрессорные агрегаты для метана и попутного газа
+breadcrumbTitle: Для метана и попутного газа
+contentTitle:    Компрессоры и компрессорные агрегаты для метана и попутного газа
+navTitle:        Компрессоры и компрессорные агрегаты для метана и попутного газа
+metaDesc:        Компрессоры и компрессорные агрегаты для метана и попутного газа
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(page.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
