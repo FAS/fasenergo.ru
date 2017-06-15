@@ -38,3 +38,8 @@ jspm_packages
 
 ## Temporary folder
 temp
+
+## bat files
+_start.bat
+_install.bat
+_install-full.bat
