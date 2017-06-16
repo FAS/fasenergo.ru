@@ -18,6 +18,8 @@ metaDesc:        Регуляторы давления GOK
   { url: '/equipment/контрольно-регуляторное-оборудование/регуляторы-GOK/Регулятор-давления-GOK-PN-25.jpg' }
 ] %}
 
+{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+
 {% set pageEq = [
   {
     title: 'Регулятор среднего<br>давления',
