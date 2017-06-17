@@ -15,7 +15,7 @@ metaDesc:        Контрольные окошки
   { url: '/equipment/фильтры-арматура-задвижки/контрольные-окошки/Контрольное-окошко.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ components.PhotosPreview(pageEqPhotos, 'Контрольное окошко') }}
 
 {% set pageEq = [
   { title: 'Контрольное окошко ДУ 15, PN 40, с фланцевым соединением DIN 2635, корпус из стального литья GS-C 25 с двумя противо- лежащими стеклами DIN 7080, длина 130мм, - аттестат приемки DIN 50049-3.1 B. CE-маркировка DGRL 97/23/EG' },

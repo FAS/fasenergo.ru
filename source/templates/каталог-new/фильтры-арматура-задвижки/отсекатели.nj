@@ -16,7 +16,7 @@ metaDesc:        Отсекатели
   { url: '/equipment/фильтры-арматура-задвижки/отсекатели/Отсекатель.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ components.PhotosPreview(pageEqPhotos, 'Отсекатель') }}
 
 <h2>Отсекатель PN 25</h2>
 

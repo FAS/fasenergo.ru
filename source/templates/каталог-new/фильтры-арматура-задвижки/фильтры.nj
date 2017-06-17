@@ -15,7 +15,7 @@ metaDesc:        Фильтры
   { url: '/equipment/фильтры-арматура-задвижки/фильтры/Фильтр.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ components.PhotosPreview(pageEqPhotos, 'Фильтр') }}
 
 {% set pageEq = [
   { title: 'Фильтр-грязеуловитель, ДУ 15, PN 40. Корпус из стального литья GS-C 25, длина 130 мм, с фланцами DIN 2635, размер ячейки фильтра элемента 0,6 мм, сетка фильтра элемента из нерж. стали, с аттестатом 3.1 B согласно EN 10 204 (50.049-3.1B). Запросить ТКП' },

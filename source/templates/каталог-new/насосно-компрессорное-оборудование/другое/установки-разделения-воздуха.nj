@@ -32,7 +32,7 @@ metaDesc:        Установки разделения воздуха
   { url: '/equipment/насосно-компрессорное-оборудование/Установка-разделения-воздуха/Установка-разделения-воздуха-Фасэнергомаш--front-left.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle, class = 'h-margin-bottom+') }}
+{{ components.PhotosPreview(pageEqPhotos, 'Установка разделения воздуха Фасэнергомаш', class = 'h-margin-bottom+') }}
 
 <p><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

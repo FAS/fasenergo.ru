@@ -21,7 +21,7 @@ metaDesc:        Регуляторы давления RegO
   { url: '/equipment/контрольно-регуляторное-оборудование/регуляторы-RegO/Регулятор-давления-RegO-LV5503H820.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ components.PhotosPreview(pageEqPhotos, 'Регулятор давления RegO') }}
 
 {% set pageEq = [
   {

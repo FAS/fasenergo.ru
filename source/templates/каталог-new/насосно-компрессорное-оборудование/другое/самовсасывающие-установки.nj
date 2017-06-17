@@ -15,7 +15,7 @@ metaDesc:        Самовсасывающие установки
   { url: '/equipment/насосно-компрессорное-оборудование/Самовсасывающая-установка/Самовсасывающая-установка-Фасэнергомаш--front-right.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ components.PhotosPreview(pageEqPhotos, 'Самовсасывающая установка Фасэнергомаш') }}
 
 <h2>Подключение</h2>
 
