@@ -9,84 +9,87 @@ metaDesc:        Продукция «Фасэнергомаш»
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% call components.CategoryCard(
-  title = 'Газовые генераторы',
-  hLevel = 2,
-  image = '/' + path.images + '/categories/газовые-генераторы.jpg',
-  url = '/продукция/газовые-генераторы/',
-  class = 'h-margin-top+'
-) %}{% endcall %}
+<div class='h-margin-top+'>
 
-<hr>
+  {% call components.CategoryCard(
+    title = 'Газовые генераторы',
+    hLevel = 2,
+    image = '/' + path.images + '/categories/газовые-генераторы.jpg',
+    url = '/продукция/газовые-генераторы/',
+    class = 'h-margin-top+'
+  ) %}{% endcall %}
 
-{% call components.CategoryCard(
-  title = 'Испарительное оборудование',
-  hLevel = 2,
-  image = '/' + path.images + '/categories/испарительное-оборудование.jpg',
-  url = '/каталог-new/испарительное-оборудование/'
-) %}{% endcall %}
+  <hr>
 
-<hr>
+  {% call components.CategoryCard(
+    title = 'Испарительное оборудование',
+    hLevel = 2,
+    image = '/' + path.images + '/categories/испарительное-оборудование.jpg',
+    url = '/каталог-new/испарительное-оборудование/'
+  ) %}{% endcall %}
 
-{% call components.CategoryCard(
-  title = 'Испарительно-смесительное оборудование',
-  hLevel = 2,
-  image = '/' + path.images + '/categories/испарительно-смесительное-оборудование.jpg',
-  url = '/каталог-new/испарительно-смесительное-оборудование/'
-) %}{% endcall %}
+  <hr>
 
-<hr>
+  {% call components.CategoryCard(
+    title = 'Испарительно-смесительное оборудование',
+    hLevel = 2,
+    image = '/' + path.images + '/categories/испарительно-смесительное-оборудование.jpg',
+    url = '/каталог-new/испарительно-смесительное-оборудование/'
+  ) %}{% endcall %}
 
-{% call components.CategoryCard(
-  title = 'Насосно-компрессорное оборудование',
-  hLevel = 2,
-  image = '/' + path.images + '/categories/насосно-компрессорное-оборудование.jpg',
-  url = '/каталог-new/насосно-компрессорное-оборудование/'
-) %}{% endcall %}
+  <hr>
 
-<hr>
+  {% call components.CategoryCard(
+    title = 'Насосно-компрессорное оборудование',
+    hLevel = 2,
+    image = '/' + path.images + '/categories/насосно-компрессорное-оборудование.jpg',
+    url = '/каталог-new/насосно-компрессорное-оборудование/'
+  ) %}{% endcall %}
 
-{% call components.CategoryCard(
-  title = 'Автономные системы газоснабжения',
-  hLevel = 2,
-  image = '/' + path.images + '/categories/автономные-системы-газоснабжения.jpg',
-  url = '/каталог-new/автономные-системы-газоснабжения/'
-) %}{% endcall %}
+  <hr>
 
-<hr>
+  {% call components.CategoryCard(
+    title = 'Автономные системы газоснабжения',
+    hLevel = 2,
+    image = '/' + path.images + '/categories/автономные-системы-газоснабжения.jpg',
+    url = '/каталог-new/автономные-системы-газоснабжения/'
+  ) %}{% endcall %}
 
-{% call components.CategoryCard(
-  title = 'Контрольно-регуляторное оборудование',
-  hLevel = 2,
-  image = '/' + path.images + '/categories/контрольно-регуляторное-оборудование.jpg',
-  url = '/каталог-new/контрольно-регуляторное-оборудование/'
-) %}{% endcall %}
+  <hr>
 
-<hr>
+  {% call components.CategoryCard(
+    title = 'Контрольно-регуляторное оборудование',
+    hLevel = 2,
+    image = '/' + path.images + '/categories/контрольно-регуляторное-оборудование.jpg',
+    url = '/каталог-new/контрольно-регуляторное-оборудование/'
+  ) %}{% endcall %}
 
-{% call components.CategoryCard(
-  title = 'Топливораздаточное оборудование',
-  hLevel = 2,
-  image = '/' + path.images + '/categories/топливораздаточное-оборудование.jpg',
-  url = '/каталог-new/топливораздаточное-оборудование/'
-) %}{% endcall %}
+  <hr>
 
-<hr>
+  {% call components.CategoryCard(
+    title = 'Топливораздаточное оборудование',
+    hLevel = 2,
+    image = '/' + path.images + '/categories/топливораздаточное-оборудование.jpg',
+    url = '/каталог-new/топливораздаточное-оборудование/'
+  ) %}{% endcall %}
 
-{% call components.CategoryCard(
-  title = 'Контрольно-распределительные пункты',
-  hLevel = 2,
-  image = '/' + path.images + '/categories/контрольно-распределительные-пункты.jpg',
-  url = '/каталог-new/контрольно-распределительные-пункты/'
-) %}{% endcall %}
+  <hr>
 
-<hr>
+  {% call components.CategoryCard(
+    title = 'Контрольно-распределительные пункты',
+    hLevel = 2,
+    image = '/' + path.images + '/categories/контрольно-распределительные-пункты.jpg',
+    url = '/каталог-new/контрольно-распределительные-пункты/'
+  ) %}{% endcall %}
 
-{% call components.CategoryCard(
-  title = 'Фильтры и запорно-предохранительная арматура, электромагнитные задвижки',
-  hLevel = 2,
-  image = '/' + path.images + '/categories/фильтры-арматура-задвижки.jpg',
-  url = '/каталог-new/фильтры-арматура-задвижки/'
-) %}{% endcall %}
+  <hr>
 
+  {% call components.CategoryCard(
+    title = 'Фильтры и запорно-предохранительная арматура, электромагнитные задвижки',
+    hLevel = 2,
+    image = '/' + path.images + '/categories/фильтры-арматура-задвижки.jpg',
+    url = '/каталог-new/фильтры-арматура-задвижки/'
+  ) %}{% endcall %}
+
+</div>
 {% endblock %}
