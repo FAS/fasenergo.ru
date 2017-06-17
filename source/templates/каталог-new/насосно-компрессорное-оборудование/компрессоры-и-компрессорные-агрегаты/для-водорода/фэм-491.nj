@@ -18,7 +18,7 @@ metaDesc:        Поршневой компрессорный агрегат Ф
 </ul>
 
 {% set pageEqPhotos = [
-  { url: '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФЭМ-491/Компрессорный-агрегат-ФЭМ-491--front-right-top.png' }
+  { url: '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФЭМ-491/Компрессорный-агрегат-ФЭМ-491--front-right-top.jpg' }
 ] %}
 
 {{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
