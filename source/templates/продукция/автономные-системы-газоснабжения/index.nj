@@ -10,8 +10,7 @@ metaDesc:        Автономные системы газоснабжения 
 
 {% block main %}
 {# @todo It's unclear so far, are those should be products or no #}
-{% if env.staging or not env.production %}
-{% call components.CategoryCard(
+{# {% call components.CategoryCard(
   title = 'Заводы по производству СПГ',
   hLevel = 2,
   url = '/продукция/автономные-системы-газоснабжения/заводы-по-производству-спг/'
@@ -20,8 +19,7 @@ metaDesc:        Автономные системы газоснабжения 
   title = 'Регазификационные комплексы',
   hLevel = 2,
   url = '/продукция/автономные-системы-газоснабжения/регазификационные-комлексы/'
-) %}{% endcall %}
-{% endif %}
+) %}{% endcall %} #}
 
 {% call components.CategoryCard(
   title = 'Криогенные резервуары для хранения СПГ',
