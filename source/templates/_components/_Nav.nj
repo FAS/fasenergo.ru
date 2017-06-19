@@ -28,10 +28,10 @@
 ) %}
   <ul class='{{ class }}'>
 
-    {% macro Item(to, label, depth = 1, anchorClass = anchorsClass, onlyActiveOnIndex = onlyActiveOnIndex) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = itemsClass, anchorClass = anchorClass, onlyActiveOnIndex = onlyActiveOnIndex, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
+    {% macro Item(to, label, depth = 1, class = itemsClass, anchorClass = anchorsClass, onlyActiveOnIndex = onlyActiveOnIndex) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = class, anchorClass = anchorClass, onlyActiveOnIndex = onlyActiveOnIndex, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
 
     {% call(depth) Item('/продукция/') %}
-      {% call(depth) Item('/продукция/', depth = depth, onlyActiveOnIndex = true, anchorClass = 'h-h6 h-margin-bottom-- h-color--inherit') %}{% endcall %}
+      {% call(depth) Item('/продукция/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
       {% call(depth) Item('/продукция/газовые-генераторы/') %}{% endcall %}
       {% call(depth) Item('/продукция/испарительное-оборудование', depth = depth) %}{% endcall %}
@@ -43,7 +43,7 @@
       {% call(depth) Item('/продукция/контрольно-распределительные-пункты', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/фильтры-арматура-задвижки', depth = depth) %}{% endcall %}
 
-      <li class='h-margin-top h-margin-bottom--'>Другое</li>
+      <li class='Nav__item Nav__item--h2'>Другое</li>
 
       {% call(depth) Item('/продукция/преимущества-наших-генераторов/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/гарантия/', depth = depth) %}{% endcall %}
@@ -54,16 +54,16 @@
       {% endif %} #}
     {% endcall %}
     {% call(depth) Item('/решения/') %}
-      {% call(depth) Item('/решения/', depth = depth, onlyActiveOnIndex = true, anchorClass = 'h-h6 h-margin-bottom-- h-color--inherit') %}{% endcall %}
+      {% call(depth) Item('/решения/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
-      <li class='h-margin-top h-margin-bottom--'>Технические решения</li>
+      <li class='Nav__item Nav__item--h2'>Технические решения</li>
 
       {% call(depth) Item('/решения/технические/каскадное-соединение', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/технические/когенерационная-установка', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/технические/контейнеры-для-генераторов', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/технические/авр', depth = depth) %}{% endcall %}
 
-      <li class='h-margin-top h-margin-bottom--'>Отраслевые решения</li>
+      <li class='Nav__item Nav__item--h2'>Отраслевые решения</li>
 
       {% call(depth) Item('/решения/отраслевые/нефтегазовый-комплекс/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/отраслевые/энергетический-комплекс/', depth = depth) %}{% endcall %}
@@ -75,7 +75,7 @@
       {% call(depth) Item('/решения/отраслевые/экологические-программы/', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/услуги/') %}
-      {% call(depth) Item('/услуги/', depth = depth, onlyActiveOnIndex = true, anchorClass = 'h-h6 h-margin-bottom-- h-color--inherit') %}{% endcall %}
+      {% call(depth) Item('/услуги/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
       {% call(depth) Item('/услуги/доставка/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/услуги/кредит/', depth = depth) %}{% endcall %}
@@ -99,7 +99,7 @@
     {% set secondaryClass = anchorsClass + ' h-text-' %}
 
     {% call(depth) Item('/о-компании/', anchorClass = secondaryClass) %}
-      {% call(depth) Item('/о-компании/', depth = depth, onlyActiveOnIndex = true, anchorClass = 'h-h6 h-margin-bottom-- h-color--inherit') %}{% endcall %}
+      {% call(depth) Item('/о-компании/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
       {% call(depth) Item('/о-компании/фасэнергомаш/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/о-компании/производство/', depth = depth) %}{% endcall %}
@@ -118,7 +118,7 @@
     {% endif %} #}
     {% if env.staging or not env.production %}
     {% call(depth) Item('/styleguide/', anchorClass = secondaryClass) %}
-      {% call(depth) Item('/styleguide/', depth = depth, onlyActiveOnIndex = true, anchorClass = 'h-h6 h-margin-bottom-- h-color--inherit') %}{% endcall %}
+      {% call(depth) Item('/styleguide/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
       {% call(depth) Item('/styleguide/pallete/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/styleguide/typography/', depth = depth) %}{% endcall %}
