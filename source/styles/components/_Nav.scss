@@ -9,22 +9,55 @@
   .Nav__list {}
 
     .Nav__item {
+      display: block;
 
       &.is-active {
 
         > a {
-          color: ekzo-color(primary);
-          border-bottom-color: transparent;
+          @include ekzo-theme() {
 
-          &:hover,
-          &:focus { border-color: rgba(ekzo-color(primary), .4); }
+            color: ekzo-theme(nav-item-active);
+            border-bottom-color: transparent;
 
-          &:active { border-color: currentColor; }
+            &:hover,
+            &:focus { border-color: ekzo-theme(nav-item-hover-border); }
+
+            &:active { border-color: currentColor; }
+
+          }
         }
 
       }
 
+      + .Nav__item { margin-top: ekzo-space(.25); }
+
+      + .Nav__item--h1,
+      + .Nav__item--h2,
+      + .Nav__item--h3 { margin-top: ekzo-space(); }
+
     }
+
+    .Nav__item--h1,
+    .Nav__item--h2,
+    .Nav__item--h3 {
+      margin-bottom: ekzo-space(.5);
+
+      &,
+      > a {
+        @include ekzo-theme() {
+          color: ekzo-theme(nav-item-h);
+
+          &:hover,
+          &:focus { border-color: ekzo-theme(nav-item-h-hover-border); }
+
+        }
+      }
+
+    }
+
+    .Nav__item--h1 { @include ekzo-font-size(h6, headings); }
+    .Nav__item--h2 { @include ekzo-font-size('-'); }
+    .Nav__item--h3 { @include ekzo-font-size('--'); }
 
       .Nav__link {
 

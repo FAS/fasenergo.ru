@@ -163,6 +163,14 @@ $ekzo-colors: (
 
   box-border: ekzo-tint(ekzo-color(secondary), 88),
 
+  // ---------------------------------------
+  // Nav
+  // ---------------------------------------
+
+  nav-item-active: ekzo-color(primary),
+  nav-item-hover-border: rgba(ekzo-color(primary), .4),
+  nav-item-h: ekzo-color(white),
+  nav-item-h-hover-border: rgba(ekzo-color(white), .4),
 ))
 
 @include ekzo-extend-themes(white, (
