@@ -48,9 +48,9 @@
       {% call(depth) Item('/продукция/гарантия/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/продукция/результаты-испытаний/', depth = depth) %}{% endcall %}
       {# @todo Enable for production when this section will be ready #}
-      {% if env.staging or not env.production %}
+      {# {% if env.staging or not env.production %}
       {% call(depth) Item('/продукция/сертификаты-на-оборудование/', depth = depth) %}{% endcall %}
-      {% endif %}
+      {% endif %} #}
     {% endcall %}
     {% call(depth) Item('/решения/') %}
 
@@ -103,17 +103,17 @@
       {% call(depth) Item('/о-компании/производство/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/о-компании/сертификаты/', depth = depth) %}{% endcall %}
       {# @todo Enable for production when this section will be ready #}
-      {% if env.staging or not env.production %}
+      {# {% if env.staging or not env.production %}
       {% call(depth) Item('/о-компании/партнеры/', depth = depth) %}{% endcall %}
       {% call(depth) Item('/о-компании/видеоматериалы/', depth = depth) %}{% endcall %}
-      {% endif %}
+      {% endif %} #}
       {% call(depth) Item('/о-компании/новости/', depth = depth) %}{% endcall %}
     {% endcall %}
     {% call(depth) Item('/контакты/', anchorClass = secondaryClass) %}{% endcall %}
     {# @todo Enable for production when this section will be ready #}
-    {% if env.staging or not env.production %}
+    {# {% if env.staging or not env.production %}
     {% call(depth) Item('/преимущества-и-особенности-газовых-генераторов/', anchorClass = secondaryClass) %}{% endcall %}
-    {% endif %}
+    {% endif %} #}
     {% if env.staging or not env.production %}
     {% call(depth) Item('/styleguide/', anchorClass = secondaryClass) %}
       {% call(depth) Item('/styleguide/pallete/', depth = depth) %}{% endcall %}
