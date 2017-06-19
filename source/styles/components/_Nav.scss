@@ -11,22 +11,18 @@
     .Nav__item {
       display: block;
 
-      &.is-active {
+      &.is-active > a {
+        @include ekzo-theme() {
 
-        > a {
-          @include ekzo-theme() {
+          color: ekzo-theme(nav-item-active);
+          border-bottom-color: transparent;
 
-            color: ekzo-theme(nav-item-active);
-            border-bottom-color: transparent;
+          &:hover,
+          &:focus { border-color: ekzo-theme(nav-item-hover-border); }
 
-            &:hover,
-            &:focus { border-color: ekzo-theme(nav-item-hover-border); }
+          &:active { border-color: currentColor; }
 
-            &:active { border-color: currentColor; }
-
-          }
         }
-
       }
 
       + .Nav__item { margin-top: ekzo-space(.25); }
