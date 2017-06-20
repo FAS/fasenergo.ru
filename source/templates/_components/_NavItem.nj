@@ -56,12 +56,14 @@
       {% endcall %}
 
       {% if subnavNotEmpty %}
-      {% if enableDrawer %}<div class='Drawer js-drawer__nav h-text-'>{% endif %}
+      {% if enableDrawer %}
+      <div class='Drawer js-drawer__nav h-text-'>
+        <button class='Drawer__close js-drawer__close' aria-label='Закрыть меню'>{{ components.Icon('x') }}</button>
+      {% endif %}
         <ul class='o-nav o-nav--stacked'>
           {{ subnav }}
         </ul>
       {% if enableDrawer %}
-        <button class='Drawer__close js-drawer__close' aria-label='Закрыть меню'>{{ components.Icon('x') }}</button>
       </div>
       {% endif %}
       {% endif %}
