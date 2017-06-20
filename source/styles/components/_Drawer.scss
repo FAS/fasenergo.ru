@@ -2,6 +2,13 @@
 // ^SIDEBAR
 // =======================================
 
+// @note @todo This is kinda "magick" number and potentially should be avoided in future
+//             It defines how Drawer should be offsetted from top to match position of main Nav.
+//             It should be always equal to `offsetTop` of `.Nav` element in main sidebar
+//             If anything in Sidebar will be changed or removed (for instance, intro text) and will result
+//             in main Nav displacement, this value has to be adjusted to match main Nav new position
+$main-nav-offset: 200px;
+
 $transition: .3s ease-out;
 $padding: ekzo-space();
 
@@ -10,6 +17,10 @@ $padding: ekzo-space();
 .Drawer__bg {
   position: fixed;
   left: 0;
+  top: 0;
+  bottom: 0;
+
+  height: 100%;
 
   &.is-expanded { left: $sidebar-width; }
 
@@ -21,18 +32,14 @@ $padding: ekzo-space();
   width: $sidebar-width;
 }
 
-.Drawer__overlay,
-.Drawer__bg {
-  height: 100%;
-
-  top: 0;
-  bottom: 0;
-}
-
 .Drawer {
-  padding: $padding;
+  padding-top: $main-nav-offset;
+  padding-left: $padding;
+  padding-right: $padding;
+  padding-bottom: $padding;
 
-  margin-top: -(ekzo-space() + $padding);
+  overflow: auto;
+
   z-index: -1;
 }
 
