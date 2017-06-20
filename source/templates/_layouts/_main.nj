@@ -32,10 +32,7 @@
 
     <aside>
       <p><b class='h-text+'>{{ mainLayoutPhone }}</b></p>
-      {# @todo Disabled on production because there is no such functionality yet, see https://trello.com/c/Wq9Wi6qa/48-crm #}
-      {% if env.staging or not env.production %}
-      <p class='h-margin-bottom--'><button class='Btn Btn--solid o-btn--full Btn- h-text-'>{{ components.Icon('phone', 'Icon--left') }}Заказать звонок</button></p>
-      {% endif %}
+      {{ components.Callback() }}
       {# @todo Put back `href='/контакты/дилеры/'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
       <p><a href='/контакты/' class='Btn o-btn--full Btn- h-text-'>{{ components.Icon('cart', 'Icon--left') }}Где купить?</a></p>
     </aside>
