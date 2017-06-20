@@ -22,13 +22,19 @@ $padding: ekzo-space();
 
   height: 100%;
 
-  &.is-expanded { left: $sidebar-width; }
+  // Make non-expanded Drawer menu inaccessible. Prevents tabing out from Nav root link into the void.
+  visibility: hidden;
+
+  &.is-expanded {
+    left: $sidebar-width;
+    visibility: visible;
+  }
 
 }
 
 .Drawer,
 .Drawer__bg {
-  transition: left $transition;
+  transition: left $transition, visibility $transition;
   width: $sidebar-width;
 }
 
