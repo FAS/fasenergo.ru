@@ -61,7 +61,7 @@
           {{ subnav }}
         </ul>
       {% if enableDrawer %}
-        <button class='Drawer__close js-drawer__close'>{{ components.Icon('x') }}</button>
+        <button class='Drawer__close js-drawer__close' aria-label='Закрыть меню'>{{ components.Icon('x') }}</button>
       </div>
       {% endif %}
       {% endif %}
