@@ -60,7 +60,7 @@
       <div class='Drawer js-drawer__nav h-text-'>
         <button class='Drawer__close js-drawer__close' aria-label='Закрыть меню'>{{ components.Icon('x') }}</button>
       {% endif %}
-        <ul class='o-nav o-nav--stacked'>
+        <ul class='{{ 'Drawer__content' if enableDrawer }} o-nav o-nav--stacked'>
           {{ subnav }}
         </ul>
       {% if enableDrawer %}

@@ -42,12 +42,15 @@ $padding: ekzo-space();
   padding-top: $main-nav-offset;
   padding-left: $padding;
   padding-right: $padding;
-  padding-bottom: $padding;
 
   overflow: auto;
 
   z-index: -1;
 }
+
+  // This is slightly undesired additional class, but it is the only way
+  // to make content in overflowed container ('.Drawer') properly bounce off from bottom edge in FF, Edge and IE
+  .Drawer__content { margin-bottom: $padding * 1.5; }
 
   .Drawer__close {
     position: absolute;
