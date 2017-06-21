@@ -60,7 +60,7 @@
  #}
 {%- macro PhasesToWord(phases) -%}
   {%- if phases == 1 -%}
-    {{ 'однофазовый' }}
+    {{ 'однофазный' }}
   {%- elseif phases == 3 -%}
     {{ 'трехфазный' }}
   {% else %}
