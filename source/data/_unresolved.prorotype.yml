@@ -10,18 +10,9 @@
 
   specs:
 
-    # ...
+    starter: электростартер
+    operation: standby|prime|continous
 
-    starter: Электростартер|Ручной
-    nonstopOperatingTime: Круглосуточно
-
-    electronics:
-      controlBlock: LCD-дисплей
-      controlBlockLanguage: Русский
-      automaticTransferSwitch: true
-      automaticTransferSwitchTime: 30 сек
-      autocontrolOfGeneratorsWork: true
-      cascade: До 10 генераторов
 
   alternator:
     type:
@@ -32,9 +23,16 @@
     insulation:
     protection: IP64|IP52|...|false
 
-  controls:
+  controller:
     type:
     model:
     manufacturer:
       brand:
       country:
+    specs:
+      controlBlock: LCD-дисплей
+      controlBlockLanguage: Русский
+      automaticTransferSwitch: true
+      automaticTransferSwitchTime: 30 сек
+      autocontrolOfGeneratorsWork: true
+      sync: true|false
