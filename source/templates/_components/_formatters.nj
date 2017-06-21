@@ -56,7 +56,7 @@
  # Output amount phases as a word
  # @param {number} phases Amount of phases
  # @return {string} Phases in a word
- # @example {{ components.PhasesToWord(1) }} -> 'однофазовый'
+ # @example {{ components.PhasesToWord(1) }} -> 'однофазный'
  #}
 {%- macro PhasesToWord(phases) -%}
   {%- if phases == 1 -%}
