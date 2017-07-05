@@ -60,7 +60,7 @@ metaDesc:        Смесительные установки
     <tr class='h-text- h-font-weight--bold h-align--center'>
       <th colspan='3'>Высокого давления</th>
     </tr>
-    {% for e in pageEqLow %}
+    {% for e in pageEqHigh %}
     <tr>
       <td>{{ e.title }}</td>
       <td class='h-align--right'>{{ e.performance }}</td>
