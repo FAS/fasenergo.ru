@@ -469,19 +469,19 @@
           <div class="row rL hid">
             <div class="item fleft rL box w33-3">
               <div>
-                <img src="/{{ path.images }}/landings/loncin-promo/why_us/1.png" alt="Компактность" class="rL db m0a">
+                <img src="/{{ path.images }}/landings/loncin-promo/why_us/1.png" alt="" class="rL db m0a">
                 <p>компактность</p>
               </div>
             </div><!--end item-->
             <div class="item fleft rL box w33-3">
               <div>
-                <img src="/{{ path.images }}/landings/loncin-promo/why_us/2.png" alt="Малая материалоемкость оборудования" class="rL db m0a">
+                <img src="/{{ path.images }}/landings/loncin-promo/why_us/2.png" alt="" class="rL db m0a">
                 <p>малая материалоемкость оборудования</p>
               </div>
             </div><!--end item-->
             <div class="item fleft rL box w33-3">
               <div>
-                <img src="/{{ path.images }}/landings/loncin-promo/why_us/3.png" alt="Низкая стоимость" class="rL db m0a">
+                <img src="/{{ path.images }}/landings/loncin-promo/why_us/3.png" alt="" class="rL db m0a">
                 <p>низкая стоимость</p>
               </div>
             </div><!--end item-->
@@ -501,7 +501,7 @@
           <div class="cont_items">
             <div class="item rL hid">
               <div class="image_block fleft rL">
-                <img src="/{{ path.images }}/landings/loncin-promo/contacts/1.png" alt="Доставка">
+                <img src="/{{ path.images }}/landings/loncin-promo/contacts/1.png" alt="">
               </div>
               <div class="text_block rL hid">
                 <em>Доставка</em>
@@ -510,7 +510,7 @@
             </div><!--end item-->
             <div class="item rL hid">
               <div class="image_block fleft rL">
-                <img src="/{{ path.images }}/landings/loncin-promo/contacts/2.png" alt="Кредит">
+                <img src="/{{ path.images }}/landings/loncin-promo/contacts/2.png" alt="">
               </div>
               <div class="text_block rL hid">
                 <em>кредит</em>
@@ -519,7 +519,7 @@
             </div><!--end item-->
             <div class="item rL hid">
               <div class="image_block fleft rL">
-                <img src="/{{ path.images }}/landings/loncin-promo/contacts/3.png" alt="Обслуживание и ремонт">
+                <img src="/{{ path.images }}/landings/loncin-promo/contacts/3.png" alt="">
               </div>
               <div class="text_block rL hid">
                 <em>Обслуживание и ремонт</em>
@@ -528,7 +528,7 @@
             </div><!--end item-->
             <div class="item rL hid">
               <div class="image_block fleft rL">
-                <img src="/{{ path.images }}/landings/loncin-promo/contacts/4.png" alt="Установка и запуск">
+                <img src="/{{ path.images }}/landings/loncin-promo/contacts/4.png" alt="">
               </div>
               <div class="text_block rL hid">
                 <em>Установка и запуск</em>
