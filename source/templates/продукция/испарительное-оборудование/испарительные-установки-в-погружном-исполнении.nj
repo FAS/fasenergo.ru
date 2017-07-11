@@ -11,11 +11,11 @@ metaDesc:        Испарительные установки в погружн
 {% block main %}
 
 {% set pageEqElPhotos = [
-  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--1--front-top.jpg' },
-  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--2--front-right-top.jpg' },
-  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--3--back-left-top.jpg' },
-  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--4--back-top.jpg' },
-  { url: '/equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--5--back-right-top.jpg' }
+  { url: 'equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--1--front-top.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--2--front-right-top.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--3--back-left-top.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--4--back-top.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--5--back-right-top.jpg' }
 ] %}
 
 {{ components.PhotosPreview(pageEqElPhotos, 'Испарительная установка Фасэнергомаш SE/PG') }}

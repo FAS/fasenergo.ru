@@ -11,7 +11,7 @@ metaDesc:        Испарительные установки в контейн
 {% block main %}
 
 {% set pageEqLiqPhotos = [
-  { url: '/equipment/испарительное-оборудование/ZH-K/Испарительная-установка-Фасэнергомаш-ZH-K--1--front.jpg' }
+  { url: 'equipment/испарительное-оборудование/ZH-K/Испарительная-установка-Фасэнергомаш-ZH-K--1--front.jpg' }
 ] %}
 
 {{ components.PhotosPreview(pageEqLiqPhotos, 'Испарительная установка Фасэнергомаш ZH/K') }}

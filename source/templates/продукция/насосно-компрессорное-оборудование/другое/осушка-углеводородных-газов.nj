@@ -24,7 +24,7 @@ metaDesc:        Осушка углеводородных газов
 </ul>
 
 {% set pageEqPhotos = [
-  { url: '/equipment/насосно-компрессорное-оборудование/Осушка-углеводородных-газов/Осушка-углеводородных-газов-Фасэнергомаш--front-left.jpg' }
+  { url: 'equipment/насосно-компрессорное-оборудование/Осушка-углеводородных-газов/Осушка-углеводородных-газов-Фасэнергомаш--front-left.jpg' }
 ] %}
 
 {{ components.PhotosPreview(pageEqPhotos, page.contentTitle, class = 'h-margin-bottom+') }}
