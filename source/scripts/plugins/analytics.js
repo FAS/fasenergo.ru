@@ -25,7 +25,7 @@ document.addEventListener('click', (e) => {
   const $target = e.target
 
   const forEachTarget = ($elements, cb) => Array.from($elements).forEach(($element) => {
-    if ($target === $element) { cb() }
+    if ($element.contains($target)) { cb() }
   })
 
   forEachTarget($orderBtns, () => reachGoal('click-order'))
