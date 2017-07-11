@@ -57,7 +57,7 @@ metaDesc:        Смесительные установки
     <tr>
       <td>{{ e.title }}</td>
       <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
+      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты/#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}
@@ -68,7 +68,7 @@ metaDesc:        Смесительные установки
     <tr>
       <td>{{ e.title }}</td>
       <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
+      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты/#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}

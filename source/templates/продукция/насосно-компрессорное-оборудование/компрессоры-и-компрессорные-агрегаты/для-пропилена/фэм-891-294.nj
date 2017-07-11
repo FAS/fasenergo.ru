@@ -46,7 +46,7 @@ metaDesc:        Поршневой компрессорный агрегат Ф
   <li>Скомпенсированная горизонтальная вибрация вследствие горизонтального расположения поршней движущихся в противофазе.</li>
 </ul>
 
-<p class='h-align--center h-margin-ends++'><a class='Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты/#order'>Запросить ТКП</a></p>
+<p class='h-align--center h-margin-ends++'><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты/#order'>Запросить ТКП</a></p>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

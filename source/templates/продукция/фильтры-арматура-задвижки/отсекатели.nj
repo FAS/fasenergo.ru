@@ -52,7 +52,7 @@ metaDesc:        Отсекатели
       <td>{{ e.volume }}&nbsp;I</td>
       <td>{{ e.size }}&nbsp;A</td>
       <td>{{ e.weight }}&nbsp;кг</td>
-      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
+      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты/#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}

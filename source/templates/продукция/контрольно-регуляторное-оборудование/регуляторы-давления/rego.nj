@@ -148,7 +148,7 @@ metaDesc:        Регуляторы давления RegO
       <td class='h-align--right'>{{ e.pressure }}</td>
       <td>{{ e.connection }}</td>
       <td class='h-align--right'>{{ e.weight }}</td>
-      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
+      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты/#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}

@@ -58,7 +58,7 @@ metaDesc:        Криогенные резервуары для хранени
       <td class='h-align--right'>{{ e.length }} мм</td>
       <td class='h-align--right'>{{ e.width }} мм</td>
       <td class='h-align--right'>{{ e.height }} мм</td>
-      <td class='h-align--center'><a class='Btn' href='/контакты/#order'>Запросить ТКП</a>
+      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты/#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}
