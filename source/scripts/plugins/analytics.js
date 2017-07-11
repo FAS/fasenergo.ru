@@ -9,7 +9,7 @@ const reachGoal = (goalId) => {
   try {
     window[`yaCounter${YA_COUNTER_ID}`].reachGoal(goalId)
   } catch (e) {
-    console.log(e)
+    console.error(e)
   }
 }
 
