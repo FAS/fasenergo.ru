@@ -119,9 +119,6 @@
   </script>
   {% endif %}
 
-  {# @todo Note that right now it will load script even on pages, which do not use callback #}
-  {{ components.CallbackScript() }}
-
   {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
   {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
 

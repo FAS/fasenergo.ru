@@ -3,6 +3,7 @@ import './polyfill'
 
 import $ from 'jquery'
 import './plugins/analytics'
+import './plugins/mangoCallback'
 import './plugins/scroll-on-click'
 import './plugins/expand'
 import './plugins/drawer'
