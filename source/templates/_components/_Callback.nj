@@ -1,5 +1,6 @@
 {##
  # Display Order callback button with it's MangoOffice modal
+ # Don't forget to call `CallbackScript()` in the end of page!
  #
  # @return {string} html
  #
@@ -24,7 +25,15 @@
     Заказать звонок
   </button>
 </div>
+{% endmacro %}
 
+{##
+ # Inject MangoOffice modal script.
+ # Place in the end of page.
+ # @return {string} html
+ # @example {{ components.Callback() }}
+ #}
+{% macro CallbackScript() %}
 {##
  # @todo This code is highly unoptimized and loads around 1mb assets on page load. Should be improved. Responsible shall be punished.
  # @source MangoOffice admin panel
