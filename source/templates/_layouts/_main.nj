@@ -32,7 +32,7 @@
 
     <aside>
       <p><b class='h-text+'>{{ mainLayoutPhone }}</b></p>
-      {{ components.Callback() }}
+      {# {{ components.Callback() }} #}
       {# @todo Put back `href='/контакты/дилеры/'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
       <p><a href='/контакты/' class='js-metrica-where-to-buy Btn o-btn--full Btn- h-text-'>{{ components.Icon('cart', 'Icon--left') }}Где купить?</a></p>
     </aside>

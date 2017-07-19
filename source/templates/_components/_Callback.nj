@@ -25,11 +25,6 @@
   </button>
 </div>
 
-<script>
-  console.log('before callback', window.$)
-  var current$ = window.$
-</script>
-
 {##
  # @todo This code is highly unoptimized and loads around 1mb assets on page load. Should be improved. Responsible shall be punished.
  # @source MangoOffice admin panel
@@ -81,13 +76,5 @@
       document.documentElement.appendChild(t)
     })
   }("mango-callback");
-</script>
-
-<script>
-  console.log('after callback', window.$)
-
-  window.$ = current$
-
-  console.log('after reassigment', window.$)
 </script>
 {% endmacro %}
