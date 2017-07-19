@@ -55,10 +55,10 @@ loncin-lc2v78f-1:
     ng: null
     lpg: null
 
-ваз-21067:
-  slug: ваз-21067
+ваз-2106:
+  slug: ваз-2106
   type: null
-  model: 21067
+  model: 2106
   manufacturer:
     brand: ВАЗ
     country: null

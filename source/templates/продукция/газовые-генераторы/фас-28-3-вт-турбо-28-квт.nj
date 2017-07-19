@@ -1,0 +1,11 @@
+---
+generatorId:     фас-28-3-вт-турбо-28-квт
+
+title:           "{{ selectGenerator(data, 'фас-28-3-вт-турбо-28-квт').meta.title }}"
+breadcrumbTitle: "{{ selectGenerator(data, 'фас-28-3-вт-турбо-28-квт').title }}"
+contentTitle:    "{{ selectGenerator(data, 'фас-28-3-вт-турбо-28-квт').title }}"
+navTitle:        "{{ selectGenerator(data, 'фас-28-3-вт-турбо-28-квт').title }}"
+metaDesc:        "{{ selectGenerator(data, 'фас-28-3-вт-турбо-28-квт').meta.desc }}"
+---
+
+{% extends './_generator.nj' %}
