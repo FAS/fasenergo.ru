@@ -1,11 +1,4 @@
 /**
- * Execute function for each Element
- * @param  {NodeList|Element[]} $elements List of Elements to iterate
- * @param  {Function}           fn        Function to execute
- */
-export const forEach = ($elements, fn) => Array.prototype.forEach.call($elements, fn)
-
-/**
  * Collect Elements into single fragment.
  * Result can be used for various operations without causing additional reflows
  * @param  {NodeList|Element[]} $elements Elements to be collected into single fragment
@@ -14,7 +7,7 @@ export const forEach = ($elements, fn) => Array.prototype.forEach.call($elements
 export const fragment = ($elements) => {
   const $fragment = document.createDocumentFragment()
 
-  forEach($elements, ($e) => $fragment.appendChild($e))
+  $elements.forEach(($e) => $fragment.appendChild($e))
 
   return $fragment
 }

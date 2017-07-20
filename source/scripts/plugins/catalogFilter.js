@@ -1,5 +1,5 @@
 import debounce from 'lodash/debounce'
-import { forEach, prependChildren } from '../helpers'
+import { prependChildren } from '../helpers'
 
 const PRODUCTS_PER_PAGE = 10
 
@@ -68,7 +68,7 @@ const updateProducts = (state, limit = PRODUCTS_PER_PAGE) => {
   const $limited = limit && limitItems($sorted, limit) || $sorted
 
   // Hide everything that was exluded by filter
-  Array.from($products).forEach(($product) =>
+  $products.forEach(($product) =>
     $limited.includes($product) ? showItem($product) : hideItem($product)
   )
 
@@ -144,7 +144,7 @@ if ($filtersContainer && $productsContainer) {
 
         $target.value === 'popular' && $filtersForm.reset()
 
-        $target.value === 'powerFromTo' && forEach($filters, ($f) => {
+        $target.value === 'powerFromTo' && $filters.forEach(($f) => {
           if ($f.name === 'powerFrom') { $f.value = presetData && presetData[0] || '' }
           if ($f.name === 'powerTo') { $f.value = presetData && presetData[1] || '' }
         })

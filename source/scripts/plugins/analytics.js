@@ -24,7 +24,7 @@ const $expandFilterBtns = document.querySelectorAll('.js-metrica-expand-filter')
 document.addEventListener('click', (e) => {
   const $target = e.target
 
-  const forEachTarget = ($elements, cb) => Array.from($elements).forEach(($element) => {
+  const forEachTarget = ($elements, cb) => $elements.forEach(($element) => {
     if ($element.contains($target)) { cb() }
   })
 
