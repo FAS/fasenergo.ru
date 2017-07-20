@@ -1,4 +1,4 @@
-/* global Element, DOMTokenList */
+/* global Element, DOMTokenList, NodeList */
 
 // This is sad file where tortured souls dwells
 
@@ -95,3 +95,8 @@ if (!Element.prototype.matches) {
     DOMTokenList.prototype.replace = ClassList.prototype.replace
   }
 })()
+
+// Polyfill not iterable NodeList in older browsers
+if (!NodeList.prototype.forEach) {
+  NodeList.prototype.forEach = Array.prototype.forEach
+}
