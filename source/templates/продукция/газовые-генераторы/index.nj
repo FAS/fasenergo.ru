@@ -444,7 +444,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       <ul class='{# g-list0 o-iconic-list #} h-childs-space-top+--'>
         {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li> #}
         <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/преимущества-наших-генераторов/'>Преимущества наших генераторов</a></li>
-        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/результаты-испытаний/'>Результаты испытаний нашей продукции</a></li>
+        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/результаты-испытаний/'>Результаты испытаний нашей продукции</a></li>
         <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/гарантия/'>Гарантия</a></li>
         {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}
           <p class='h-margin-bottom--'><a href='#'>Главное о газовых генераторах</a></p>
