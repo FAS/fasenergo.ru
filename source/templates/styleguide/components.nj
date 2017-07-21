@@ -92,7 +92,7 @@ applyWrapperContent: false
     src: 'https://placehold.it/1350x450',
     alt: 'Описание картинки'
   }],
-  caption = 'Проект каскада газовых генераторов'
+  caption = 'Проект синхронизации газовых генераторных установок'
 ) }}{% endraw %}
 {% endcall %}
 
