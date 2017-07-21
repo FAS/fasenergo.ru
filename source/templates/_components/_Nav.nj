@@ -58,7 +58,7 @@
 
       <li class='Nav__item Nav__item--h2'>Технические решения</li>
 
-      {% call(depth) Item('/решения/технические/каскадное-соединение', depth = depth) %}{% endcall %}
+      {% call(depth) Item('/решения/технические/синхронизация-генераторных-установок', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/технические/когенерационная-установка', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/технические/контейнеры-для-генераторов', depth = depth) %}{% endcall %}
       {% call(depth) Item('/решения/технические/авр', depth = depth) %}{% endcall %}
