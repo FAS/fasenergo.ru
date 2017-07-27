@@ -10,7 +10,7 @@ module.exports = () ->
     build:
       files: [
         cwd: '<%= path.build.root %>/'
-        src: ['{,**/}*.html', '!{403,404,500,503}.html']
+        src: ['{,**/}*.html', '!{403,404,500,503}.html', '!styleguide/**']
         dest: '<%= path.build.root %>/sitemap.xml'
       ]
 
