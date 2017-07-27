@@ -3,8 +3,6 @@
 User-agent: *
 Disallow: {{ '/' if env.staging }}
 Disallow: /styleguide/
-# @todo Disallow WIP section
-Disallow: /каталог-new/
 Host: {{ site.homepage }}
 Sitemap: {{ site.homepage }}/sitemap.xml
 # Yandex specific directives
