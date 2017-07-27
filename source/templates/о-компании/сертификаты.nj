@@ -46,10 +46,6 @@ applyWrapperContent: false
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат подлинности газовых двигателей MAN', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат подлинности газовых двигателей MAN.pdf') %}
-  {# @todo Add description #}
-{% endcall %}
-
 {% call Document(title = 'СРО', url = '/' + path.docs + '/certs/Фасэнергомаш - СРО.pdf') %}
   {# @todo Add description #}
 {% endcall %}
