@@ -234,7 +234,7 @@
           <tr><th class='h-text--'>Время ввода резерва</th><td>7 <span class='h-text--'>сек</span></td></tr>
           <tr><th class='h-text--'>Авто-контроль работы генератора</th><td>Есть</td></tr>
           {# @todo Hidden until information will be clarified #}
-          {# <tr><th class='h-text--'>Работа в синхронизации</th><td>До 20 генераторов</td></tr> #}
+          {# <tr><th class='h-text--'>Синхронизация</th><td>До 20 генераторов</td></tr> #}
         </table>
 
       </div>
