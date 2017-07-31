@@ -1,11 +1,11 @@
 ---
-generatorId:     газопоршневая-станция-фас-100-3-р-100-квт
+generatorId:     фас-100-3-р-100-квт
 
-title:           "{{ selectGenerator(data, 'газопоршневая-станция-фас-100-3-р-100-квт').meta.title }}"
-breadcrumbTitle: "{{ selectGenerator(data, 'газопоршневая-станция-фас-100-3-р-100-квт').title }}"
-contentTitle:    "{{ selectGenerator(data, 'газопоршневая-станция-фас-100-3-р-100-квт').title }}"
-navTitle:        "{{ selectGenerator(data, 'газопоршневая-станция-фас-100-3-р-100-квт').title }}"
-metaDesc:        "{{ selectGenerator(data, 'газопоршневая-станция-фас-100-3-р-100-квт').meta.desc }}"
+title:           "{{ selectGenerator(data, 'фас-100-3-р-100-квт').meta.title }}"
+breadcrumbTitle: "{{ selectGenerator(data, 'фас-100-3-р-100-квт').title }}"
+contentTitle:    "{{ selectGenerator(data, 'фас-100-3-р-100-квт').title }}"
+navTitle:        "{{ selectGenerator(data, 'фас-100-3-р-100-квт').title }}"
+metaDesc:        "{{ selectGenerator(data, 'фас-100-3-р-100-квт').meta.desc }}"
 ---
 
 {% extends './_generator.nj' %}
