@@ -33,9 +33,15 @@ showContentTitle:          false
   <div class='{{ pageContainerClass }}'>
     <div class='{{ pageContentClass }}'>
 
-      <h1 class='Shade__title h-h2 h-margin-bottom+--'>Ведущий российский производитель газовых&nbsp;генераторов</h1>
+      <h1 class='Shade__title h-h2 h-margin-bottom+--'>Немецко-российский производитель газового&nbsp;оборудования</h1>
 
-      <ul class='Shade__text o-grid h-flex-x--between h-3/4@lap g-list0 h-padding-bottom++--'>
+      {##
+       # @todo For now disabled, since numbers no longer relevant
+       # Should be something like: нужно или о количестве разработок, направлений,
+                                   построенныъ\реализованных объектов, произведенно столько
+                                   электроэнергии — нужно говорить о том, чего мы решили
+       #}
+      {# <ul class='Shade__text o-grid h-flex-x--between h-3/4@lap g-list0 h-padding-bottom++--'>
         <li class='o-grid__item h-flex'>
           <span class='h-h2 h-line-height1.3 h-padding-right--'>14</span>
           <span class='h-text+ h-margin-top--'>собственных<br> разработок</span>
@@ -48,9 +54,9 @@ showContentTitle:          false
           <span class='h-h2 h-line-height1.3 h-padding-right--'>582</span>
           <span class='h-text+ h-margin-top--'>поставки</span>
         </li>
-      </ul>
+      </ul> #}
 
-      <div class='o-grid h-childs-displace+ h-margin-top++ h-padding-bottom++'>
+      <div class='o-grid h-childs-displace+ h-margin-top+++ h-padding-bottom++'>
 
         {% macro Item(title, url, buttonLabel, buttonClass) %}
         <article class='o-grid__item h-1/2'>
@@ -67,21 +73,21 @@ showContentTitle:          false
         {% endmacro %}
 
         {% call Item(
-          title = 'Производство газовых станций',
+          title = 'Газовое оборудование',
           url = '/продукция/',
           buttonLabel = 'Каталог оборудования',
           buttonClass = 'Btn--primary'
         ) %}
-          <p>Промышленные станции, генераторы для частного жилья и малого/среднего бизнеса, синхронизированные генераторные группы и когенерационные установки, испарительно-смесительное оборудование.</p>
+          <p>Производство газовых генераторов, испарительного, насосно-компрессорного и топливораздаточного оборудования.</p>
         {% endcall %}
 
         {% call Item(
-          title = 'Профессиональные решения',
+          title = 'Решения',
           url = '/решения/',
           buttonLabel = 'Подробнее о решениях',
           buttonClass = 'Btn--solid'
         ) %}
-          <p>Технологические решения для разных отраслей, объектов и условий использования.</p>
+          <p>Технические и отраслевые решения для разных объектов и условий использования.</p>
         {% endcall %}
 
       </div>
