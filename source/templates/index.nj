@@ -35,12 +35,7 @@ showContentTitle:          false
 
       <h1 class='Shade__title h-h2 h-margin-bottom+--'>Немецко-российский производитель газового&nbsp;оборудования</h1>
 
-      {##
-       # @todo For now disabled, since numbers no longer relevant
-       # Should be something like: нужно или о количестве разработок, направлений,
-                                   построенныъ\реализованных объектов, произведенно столько
-                                   электроэнергии — нужно говорить о том, чего мы решили
-       #}
+      {# @todo https://www.meistertask.com/app/task/tuHtLJ86/novye-dannye-dlia-bloka-s-tsyframy-na-glavnoi #}
       {# <ul class='Shade__text o-grid h-flex-x--between h-3/4@lap g-list0 h-padding-bottom++--'>
         <li class='o-grid__item h-flex'>
           <span class='h-h2 h-line-height1.3 h-padding-right--'>14</span>
