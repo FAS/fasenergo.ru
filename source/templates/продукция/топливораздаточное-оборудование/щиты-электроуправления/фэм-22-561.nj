@@ -1,0 +1,27 @@
+---
+title:           Щит электроуправления ФЭМ 22.561
+breadcrumbTitle: ФЭМ 22.561
+contentTitle:    Щит электроуправления ФЭМ 22.561
+navTitle:        ФЭМ 22.561
+metaDesc:        Щит электроуправления ФЭМ 22.561
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>Щит электроуправления для монтажа в помещении и вне взрывоопасной зоны с аварийной кнопки «Стоп», cветовой сигнализацией аварии и кнопкой разблокировки.</p>
+<p>Вес: 19 кг.</p>
+
+<h2>Подготовлен для подключения</h2>
+
+<ul>
+  <li>Колонок тип FAS-120, FAS-220, FAS-230 или Wayne-Dresser;</li>
+  <li>Насосного агрегата со здездой/треугольник мощностью 5 кВт;</li>
+  <li>Двойного выключателя для самозаправки.</li>
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap h-margin-bottom+'>117 000 рублей.</p>
+  <p><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты/#order'>Запросить ТКП</a></p>
+</div>
+{% endblock %}
