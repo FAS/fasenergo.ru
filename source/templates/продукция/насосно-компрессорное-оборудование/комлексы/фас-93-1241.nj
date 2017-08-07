@@ -1,9 +1,9 @@
 ---
-title:           Блочный технологический комплекс ФАС&nbsp;№93.1241
+title:           Насосная установка&nbsp;№93.1241
 breadcrumbTitle: ФАС&nbsp;№93.1241
-contentTitle:    Блочный технологический комплекс ФАС&nbsp;№93.1241
+contentTitle:    Насосная установка&nbsp;№93.1241
 navTitle:        ФАС&nbsp;№93.1241
-metaDesc:        Блочный технологический комплекс ФАС&nbsp;№93.1241
+metaDesc:        Насосная установка&nbsp;№93.1241
 ---
 
 {% extends '_layouts/_main.nj' %}
