@@ -1,9 +1,9 @@
 ---
-title:           Щит электроуправления ФЭМ 22.561
-breadcrumbTitle: ФЭМ 22.561
-contentTitle:    Щит электроуправления ФЭМ 22.561
-navTitle:        ФЭМ 22.561
-metaDesc:        Щит электроуправления ФЭМ 22.561
+title:           Щит электроуправления ФАС 22.561
+breadcrumbTitle: ФАС 22.561
+contentTitle:    Щит электроуправления ФАС 22.561
+navTitle:        ФАС 22.561
+metaDesc:        Щит электроуправления ФАС 22.561
 ---
 
 {% extends '_layouts/_main.nj' %}

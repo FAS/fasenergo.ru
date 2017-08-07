@@ -1,9 +1,9 @@
 ---
-title:           Щит электроуправления ФЭМ 22.7112
-breadcrumbTitle: ФЭМ 22.7112
-contentTitle:    Щит электроуправления ФЭМ 22.7112
-navTitle:        ФЭМ 22.7112
-metaDesc:        Щит электроуправления ФЭМ 22.7112
+title:           Щит электроуправления ФАС 22.7112
+breadcrumbTitle: ФАС 22.7112
+contentTitle:    Щит электроуправления ФАС 22.7112
+navTitle:        ФАС 22.7112
+metaDesc:        Щит электроуправления ФАС 22.7112
 ---
 
 {% extends '_layouts/_main.nj' %}
