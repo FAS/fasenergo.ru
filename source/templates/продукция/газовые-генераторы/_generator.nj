@@ -67,7 +67,7 @@
             {% endif %}
             <li>
               <span class='h-float--left'>{{ components.Icon('delivery') }}</span>
-              <span class='h-block h-margin-left+--'><a href='/услуги/доставка/'>Доставка по всей России</a></span>
+              <span class='h-block h-margin-left+--'><a href='/услуги/доставка'>Доставка по всей России</a></span>
             </li>
           </ul>
         </div>
@@ -109,7 +109,7 @@
 
             {% if not isDiscontinued %}
             <a property='url' class='js-metrica-order Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='/контакты/#order'>Сделать заказ</a>
-            <p class='h-margin-top-- h-margin-bottom0'>или <a class='js-metrica-ask-question' href='/контакты/'>задать вопрос</a></p>
+            <p class='h-margin-top-- h-margin-bottom0'>или <a class='js-metrica-ask-question' href='/контакты'>задать вопрос</a></p>
             {% endif %}
 
           </div>
@@ -296,7 +296,7 @@
      #       Also, `url-joiner()` might fix that issue.
      #}
     {{ components.ProductCard(
-      url = '/продукция/газовые-генераторы/' + g.slug + '/',
+      url = '/продукция/газовые-генераторы/' + g.slug,
       image = '/' + path.images + '/' + getGeneratorMainPhoto(g).url,
       model = g.model,
       powers = getGeneratorMaxPowers(g),

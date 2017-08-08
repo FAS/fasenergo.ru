@@ -26,9 +26,9 @@
         <div class="inner">
           <nav>
             <ul class="rL w100 tb alCenter scroll">
-              <li><a href="/" target="_blank"><span>На сайт</span></a></li>
-              <li><a href="/продукция/газовые-генераторы/" target="_blank"><span>Каталог</span></a></li>
-              <li><a href="/контакты/" target="_blank"><span>Где купить?</span></a></li>
+              <li><a href="" target="_blank"><span>На сайт</span></a></li>
+              <li><a href="/продукция/газовые-генераторы" target="_blank"><span>Каталог</span></a></li>
+              <li><a href="/контакты" target="_blank"><span>Где купить?</span></a></li>
               <li><a class="b24-web-form-popup-btn-10"><span>Оформление предзаказа</span></a></li>
             </ul>
           </nav>
@@ -566,9 +566,9 @@
           </div>
           <nav>
             <ul class="scroll">
-              <li><a href="/" target="_blank"><span>На сайт</span></a></li>
-              <li><a href="/продукция/газовые-генераторы/" target="_blank"><span>Каталог</span></a></li>
-              <li><a href="/контакты/" target="_blank"><span>Где купить?</span></a></li>
+              <li><a href="" target="_blank"><span>На сайт</span></a></li>
+              <li><a href="/продукция/газовые-генераторы" target="_blank"><span>Каталог</span></a></li>
+              <li><a href="/контакты" target="_blank"><span>Где купить?</span></a></li>
               <li><a class="b24-web-form-popup-btn-10"><span>Оформление предзаказа</span></a></li>
             </ul>
           </nav>
