@@ -23,11 +23,6 @@ module.exports = () ->
           [breadcrumb..., prop] = path
           breadcrumbPath = breadcrumb.join('/')
 
-          # @todo This should prevent edge cases with `/test/page.html` resulting in `/test/page.html/`
-          #       However, it should be re-checked, since it seems like a fragile method
-          if not breadcrumbPath.includes('.')
-            breadcrumbPath += '/'
-
           composedData = merge {
             slug:       path.slice(-2)[0]
             url:        if breadcrumb.length == 1 and  breadcrumb[0] == 'index' then '/' else resolve('/', breadcrumbPath)
