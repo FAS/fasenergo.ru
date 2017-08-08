@@ -269,7 +269,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
 <div id='js-catalog' class='Box'>
   {% for g in generators %}
-  {% set url = page.props.url + g.slug %}
+  {% set url = page.props.url + '/' + g.slug %}
   {% set photoUrl = '/' + path.images + '/' + getGeneratorMainPhoto(g).url or '/' + path.images + '/no-photo.png' %}
   {% set maxPower = getGeneratorHighestPower(g) %}
   {% set engine = selectEngine(data, g.engine) %}
