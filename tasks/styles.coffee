@@ -1,6 +1,7 @@
 sass = require('node-sass')
 { castToSass } = require('node-sass-utils')(sass)
 { get } = require('lodash')
+onecolor = require('onecolor')
 
 module.exports = () ->
 
@@ -10,6 +11,8 @@ module.exports = () ->
   Compiles Sass with node-sass
   ###
 
+  data = @config.process @config('data')()
+
   @config 'sass',
     build:
       options:
@@ -18,28 +21,24 @@ module.exports = () ->
         functions:
 
           ###*
-           * Get specified path from shared Grunt `data.path`
+           * Get path from shared data
            * @todo Add proper handling of localized data
-           * @param  {array|string} query Query to property in `data.path`, which contains
+           * @param  {array|string} query Query to property in `data.PATH`, which contains
            *                              needed path, according to https://lodash.com/docs#get
            * @return {string}             Requested path
-           * @example `$images-path: '/' + kotsu-path(images);`
+           * @example $images-path: '/' + kotsu-path(images);
           ###
-          'kotsu-path($query)': (query) =>
-            query = query.getValue()
-            baseLocale = @config('baseLocale')
-            data = @config.process(@config('data')(baseLocale))
-            return castToSass(get(data.path, query))
+          'kotsu-path($query)': (query) => castToSass(get(data.PATH, query.getValue()))
+
+          ###*
+           * Get current theme color from `data.SITE.themeColor`, which used for `theme-color` meta
+           * @todo Add proper handling of localized data
+           * @return {string} Requested color as Sass rgba value
+           * @example $primary-color: kotsu-theme-color();
+          ###
           'kotsu-theme-color()': () =>
-            baseLocale = @config('baseLocale')
-            data = @config.process(@config('data')(baseLocale))
-            color = get(data, 'site.themeColor')
-
-            if color.indexOf('#') == -1
-              return throw new Error('[kotsu-theme-color] value should be a hex color')
-
-            color = color.replace('#', '0xff')
-            return sass.types.Color(parseInt(color, 16))
+            c = onecolor(data.SITE.themeColor)
+            return sass.types.Color(c.red() * 255, c.green() * 255, c.blue() * 255, c.alpha())
 
       files: [
         expand: true
@@ -59,7 +58,7 @@ module.exports = () ->
     autoprefix:
       options:
         processors: [
-          require('autoprefixer') browsers: [ '> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1' ]
+          require('autoprefixer')
         ]
         map: true
       files: [
@@ -67,14 +66,10 @@ module.exports = () ->
         cwd: '<%= path.build.styles %>'
         src: '{,**/}*.compiled.css'
         dest: '<%= path.build.styles %>'
-        # In production we have to name this file as final stylesheet would be named,
-        # because due to production mode this is what will be stated in HTML pages
+        # In build we have to name this file as final stylesheet would be named,
+        # because due to build mode this is what will be stated in HTML pages
         # and for what will look `uncss` task
-
-        # @todo Revert to this value when https://github.com/giakki/uncss/pull/280 will be merged
-        #       and `uncss` task will be enabled again
-        # ext: if @config('env.production') then '.min.css' else '.prefixed.css'
-        ext: '.prefixed.css'
+        ext: if @config('env.build') then '.min.css' else '.prefixed.css'
       ]
 
   ###
@@ -83,29 +78,34 @@ module.exports = () ->
   Remove unused CSS
   ###
 
-  # @todo Enable when https://github.com/giakki/uncss/pull/280 will be merged
-  # @config 'uncss',
-  #   build:
-  #     options:
-  #       htmlroot: '<%= path.build.root %>'
-  #       ignore: [
-  #         # Classes inside IE conditional blocks have to be ignored explicitly
-  #         # See https://github.com/giakki/uncss/issues/112
-  #         '.Outdated-browser'
-  #         '.Outdated-browser__link'
+  @config 'uncss',
+    build:
+      options:
+        htmlroot: '<%= path.build.root %>'
+        ignore: [
+          # Classes inside IE conditional blocks have to be ignored explicitly
+          # See https://github.com/giakki/uncss/issues/112
+          '.Outdated-browser'
+          '.Outdated-browser__link'
 
-  #         # This class usually not occurs in original templates, but you might want
-  #         # to use it occasionally on production
-  #         '.o-show-grid'
+          # @todo https://github.com/tmpvar/jsdom/issues/1750
+          'svg:not(:root)'
 
-  #         # Ignore state-related classes, like `is-active` and `menu-entry--is-active`
-  #         /[-\.#](is|has|not)-/
-  #       ]
-  #       ignoreSheets : [/fonts.googleapis/]
-  #     files: [
-  #       src: '<%= path.build.root %>/{,**/}*.html'
-  #       dest: '<%= file.build.style.tidy %>'
-  #     ]
+          # @todo https://github.com/giakki/uncss/pull/280#issuecomment-320507763
+          '::placeholder'
+
+          # This class usually not occurs in original templates, but you might want
+          # to use it occasionally on production
+          '.o-show-grid'
+
+          # Ignore state-related classes, like `is-active` and `menu-entry--is-active`
+          /[-\.#](is|has|not)-/
+        ]
+        ignoreSheets : [/fonts.googleapis/]
+      files: [
+        src: '<%= path.build.root %>/{,**/}*.html'
+        dest: '<%= file.build.style.tidy %>'
+      ]
 
   ###
   CSSO
@@ -120,10 +120,7 @@ module.exports = () ->
       files: [
         expand: true
         cwd: '<%= path.build.styles %>'
-        # @todo Revert to this value when https://github.com/giakki/uncss/pull/280 will be merged
-        #       and `uncss` task will be enabled again
-        # src: '{,**/}*.tidy.css'
-        src: '{,**/}*.prefixed.css'
+        src: '{,**/}*.tidy.css'
         dest: '<%= path.build.styles %>'
         ext: '.min.css'
       ]

@@ -1,7 +1,7 @@
 crumble = require('../modules/crumble')
 { merge } = require('lodash')
 { dirname, basename, extname } = require('path')
-{ resolve } = require('url')
+urljoin = require('../modules/urljoin')
 
 module.exports = () ->
 
@@ -10,6 +10,8 @@ module.exports = () ->
   https://www.npmjs.com/package/grunt-gray-matter
   Extract data from specified files with Gray Matter
   ###
+
+  { PAGE_DEFAULTS } = @config.process @config('data')()
 
   @config 'grayMatter',
     build:
@@ -21,18 +23,16 @@ module.exports = () ->
 
         preprocessMatterData: (data, path, src) ->
           [breadcrumb..., prop] = path
-          breadcrumbPath = breadcrumb.join('/')
+          url = urljoin('/', breadcrumb...)
 
-          composedData = merge {
+          return merge {}, PAGE_DEFAULTS, {
             slug:       path.slice(-2)[0]
-            url:        if breadcrumb.length == 1 and  breadcrumb[0] == 'index' then '/' else resolve('/', breadcrumbPath)
+            url:        if url == '/index' then '/' else url
             breadcrumb: breadcrumb
             depth:      breadcrumb.length
             dirname:    basename(dirname(src))
             basename:   basename(src, extname(src))
           }, data
-
-          return composedData
 
       files: [
         src: ['<%= path.source.templates %>/{,**/}*.{nj,html}', '!<%= path.source.templates %>/{,**/}_*.{nj,html}']
@@ -49,4 +49,4 @@ module.exports = () ->
     watch:
       data:
         files: ['<%= path.source.data %>/{,**/}*.{json,yml,js,coffee}']
-        tasks: ['nunjucks']
+        tasks: ['grayMatter', 'nunjucks']

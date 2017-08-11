@@ -28,9 +28,7 @@ module.exports = () ->
           baseDir: '<%= path.build.root %>'
           assets: ['{,**/}*.{css,js}']
         files: [
-          src: [
-            '<%= path.build.root %>/{,**/}*.{html,css,js}'
-          ]
+          src: ['<%= path.build.root %>/{,**/}*.{html,css,js}']
         ]
       images:
         options:
@@ -38,9 +36,7 @@ module.exports = () ->
           baseDir: '<%= path.build.root %>'
           assets: ['{,**/}*.{jpg,jpeg,gif,png,svg}']
         files: [
-          src: [
-            '<%= path.build.root %>/{,**/}*.{html,css,js}'
-          ]
+          src: ['<%= path.build.root %>/{,**/}*.{html,css,js}']
         ]
 
   ###
@@ -93,7 +89,8 @@ module.exports = () ->
             '/source/scripts': 'source/scripts'
       bsFiles:
         src: [
-          # @note For JS files changes watches `chockidar-socket-emitter` and emits directly to `systemjs-hot-reloader`
+          # @note In hot reloading mode for JS files changes watches `chockidar-socket-emitter` and emits directly to `systemjs-hot-reloader`
+          do () => if not @config('env.hotModuleRloading') then '<%= path.build.root %>/**/*.js'
           '<%= path.build.root %>/**/*.css'
           '<%= path.build.root %>/**/*.html'
           '<%= path.build.root %>/**/*.{png,jpg,jpeg,gif,svg,ico}'
