@@ -12,18 +12,16 @@ module.exports = (config) =>
         matter: {}
         humanReadableUrls: false
         humanReadableUrlsExclude: /^(index|\d{3})$/
-        baseLocaleAsRoot: true
     }, config
 
     files = config.files
-    { configureEnvironment, preprocessData, matter, humanReadableUrls, humanReadableUrlsExclude, currentLocale, locales, baseLocale, baseLocaleAsRoot, gettext } = config.options
+    { configureEnvironment, preprocessData, matter, humanReadableUrls, humanReadableUrlsExclude, currentLocale, locales, baseLocale, gettext } = config.options
     { getLocaleProps, getLocaleDir, getLangcode, getRegioncode, isoLocale } = i18nTools
+
+    currentLocale = currentLocale or baseLocale
 
     if typeof matter != 'function' and typeof matter != 'object'
       throw new Error('[nunjucks-task] matter should be a function, which returns matter object, or a plain matter object')
-
-    if not currentLocale and typeof currentLocale != 'string'
-      throw new Error('[nunjucks-task] current locale should be specified as `options.currentLocale` string')
 
     if not baseLocale and typeof baseLocale != 'string'
       throw new Error('[nunjucks-task] base locale should be specified as `options.baseLocale` string')
@@ -38,14 +36,14 @@ module.exports = (config) =>
       throw new Error('[nunjucks-task] `src` and `dest` should be provided as array of objects with `expand: true`')
 
     localeProps = getLocaleProps(locales, currentLocale)
-    localeDir = getLocaleDir(localeProps, baseLocale, baseLocaleAsRoot)
+    localeDir = getLocaleDir(locales, currentLocale)
 
     config = merge config,
       options:
         configureEnvironment : (env, nunjucks) ->
-          nunjucksExtensions(env, currentLocale, localeProps.numberFormat, localeProps.currencyFormat)
+          nunjucksExtensions(env)
           gettext.nunjucksExtensions(env, currentLocale)
-          i18nTools.nunjucksExtensions(env, locales, currentLocale, baseLocale, baseLocaleAsRoot)
+          i18nTools.nunjucksExtensions(env)
 
           if typeof configureEnvironment == 'function'
             configureEnvironment.call(@, env, nunjucks)
@@ -56,9 +54,9 @@ module.exports = (config) =>
           matter     = if typeof matter == 'function' then matter() else matter
           pageProps  = (get(matter, breadcrumb) or {}).props
 
-          set data, 'site.__matter__', matter
+          set data, 'SITE.__matter', matter
 
-          data.page = merge data.page,
+          data.PAGE = merge data.PAGE,
             props:
               locale    : currentLocale
               isoLocale : isoLocale(currentLocale)
@@ -77,11 +75,15 @@ module.exports = (config) =>
       if not file.expand
         throw new Error('[nunjucks-task] files mapping should use `expand: true`')
 
-      if file.rename
-        throw new Error('[nunjucks-task] it seems you are trying to use `rename` option for your files. `nunjucks-task` will override it to set properly localized `dest`.')
+      { rename } = file
 
       file.rename = (dest, src) =>
-        src = if humanReadableUrls then humanReadableUrl(src, humanReadableUrlsExclude) else src
-        join(dest, localeDir, src)
+        newSrc = if humanReadableUrls then humanReadableUrl(src, humanReadableUrlsExclude) else src
+        newDest = join(dest, localeDir)
+
+        if typeof rename == 'function'
+          return rename.call(@, newDest, newSrc)
+
+        return join(newDest, newSrc)
 
     return config

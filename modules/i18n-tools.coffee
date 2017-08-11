@@ -1,4 +1,5 @@
 urlify = require('./urlify')
+urljoin = require('./urljoin')
 
 ###*
  * Return list of locales names
@@ -16,17 +17,16 @@ getLocalesNames = (locales) => Object.keys(locales)
 getLocaleProps = (locales, locale) => locales[locale]
 
 ###*
- * Output or not locale's dirname based on whether it's base locale or not
- * @param  {object} localeProps        Locale props for which should be made resolving
- * @param  {string} localeProps.locale Locale name
- * @param  {string} [localeProps.url]  Locale url, if different from locale
- * @param  {string} baseLocale         Name of base locale
- * @param  {bool}   [baseLocaleAsRoot] Locale name for which should be made resolving
- * @return {string} Directory name, in which resides build for specified locale
+ * Resolve locale path
+ * @param  {object} locales Object with locales props
+ * @param  {string} locale  Locale name
+ * @return {string} Directory path, in which resides build for specified locale
 ###
-getLocaleDir = (localeProps, baseLocale, baseLocaleAsRoot) =>
-  locale = localeProps.locale
-  return if baseLocaleAsRoot and locale == baseLocale then '' else "/#{urlify(localeProps.url or locale)}"
+getLocaleDir = (locales, locale) =>
+  # Try to get url of locale, if it is known locale and if it has one
+  { url } = getLocaleProps(locales, locale) or {}
+
+  return url or urljoin('/', urlify(locale))
 
 ###*
  * Get language code from locale, without country
@@ -58,19 +58,17 @@ getRegioncode = (locale) =>
 ###
 isoLocale = (locale) => getLangcode(locale) + '_' + getRegioncode(locale).toUpperCase()
 
-nunjucksExtensions = (env, locales, currentLocale, currentBaseLocale, currentBaseLocaleAsRoot) ->
+nunjucksExtensions = (env) ->
   ###*
-   * Output or not locale's dir name based on whether it's base locale or not.
-   * Most useful for urls construction
+   * Resolve locale path. Most useful for urls
    * @return {string} Resolved dir name
    * @example <a href="{{ localeDir() }}/blog/">blog link</a>
   ###
-  env.addGlobal 'localeDir', (locale = currentLocale, baseLocale = currentBaseLocale, baseLocaleAsRoot = currentBaseLocaleAsRoot) =>
-    getLocaleDir(getLocaleProps(locales, locale), baseLocale, baseLocaleAsRoot)
+  env.addGlobal 'localeDir', (locale = @ctx.PAGE.locale) -> getLocaleDir(@ctx.SITE.locales, locale)
 
-  env.addFilter 'langcode', (locale = currentLocale) => getLangcode(locale)
-  env.addFilter 'regioncode', (locale = currentLocale) => getRegioncode(locale)
-  env.addFilter 'isoLocale', (locale = currentLocale) => isoLocale(locale)
+  env.addFilter 'langcode', (locale = @ctx.PAGE.locale) => getLangcode(locale)
+  env.addFilter 'regioncode', (locale = @ctx.PAGE.locale) => getRegioncode(locale)
+  env.addFilter 'isoLocale', (locale = @ctx.PAGE.locale) => isoLocale(locale)
 
   return
 

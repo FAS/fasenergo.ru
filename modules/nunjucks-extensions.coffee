@@ -9,20 +9,15 @@ numbro                    = require('numbro')
 moment                    = require('moment')
 smartPlurals              = require('smart-plurals')
 { join }                  = require('path')
-urljoin                   = require('url-join')
+URI                       = require('urijs')
+urljoin                   = require('./urljoin')
 { escape }                = require('nunjucks/src/lib')
 { file: { expand }, log } = require('grunt')
 
-module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
-  numbro.setCulture(currentLocale)
-  numbro.defaultFormat(numberFormat)
-  numbro.defaultCurrencyFormat(currencyFormat)
-
-  moment.locale(currentLocale)
-
-  # ==========
+module.exports = (env) ->
+  # ==============================================================================
   # Extensions
-  # ==========
+  # ==============================================================================
 
   ###*
    * Nunjucks extension for Markdown support
@@ -30,9 +25,9 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
   ###
   markdown.register(env, md.render.bind(md))
 
-  # =======
+  # ==============================================================================
   # Globals
-  # =======
+  # ==============================================================================
 
   ###*
    * Pass lodash inside Nunjucks
@@ -51,17 +46,17 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
    * @param {*} input Anything we want to log to console
    * @return {string} Logs to Grunt console
   ###
-  env.addGlobal 'warn', (input...) -> log.error(input..., '[' + @ctx.page.url + ']')
+  env.addGlobal 'warn', (input...) -> log.error(input..., "[#{@ctx.PAGE.props.url}]")
 
   ###*
    * Get list of files or directories inside specified directory
    * @param {string}               path    = ''                        Path where to look
    * @param {string|array[string]} pattern = '** /*'                   What should be matched
    * @param {string}               filter  = 'isFile'                  Type of entity which should be matched
-   * @param {string}               cwd     = @ctx.path.build.templates Root for lookup
+   * @param {string}               cwd     = @ctx.PATH.build.templates Root for lookup
    * @return {array} Array of found files or directories
   ###
-  env.addGlobal 'expand', (path = '', pattern = '**/*', filter = 'isFile', cwd = @ctx.path.build.templates) ->
+  env.addGlobal 'expand', (path = '', pattern = '**/*', filter = 'isFile', cwd = @ctx.PATH.build.templates) ->
     files = []
 
     expand({ cwd: join(cwd, path), filter: filter }, pattern).forEach (file) -> files.push(file)
@@ -73,30 +68,31 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
    * defined on parent, it will extend it, unless `merge` set to false.
    * If no `value` will be provided, it will return value of specified property.
    * Works similar to `grunt.config()`
-   * @param  {string|array} prop   Prop name or path on which should be set `value`
-   * @param  {*}      value        Value to be set on specified `prop`
-   * @param  {bool}   merge = true Should config extend already existing same prop or no
-   * @return {*}                   Value of `prop` if no `value` specified
+   * @param  {string|array} prop           Prop name or path on which should be set `value`
+   * @param  {*}            [value]        Value to be set on specified `prop`
+   * @param  {bool}         [merge] = true Should config extend already existing same prop or no
+   * @return {*}                           Value of `prop` if no `value` specified
   ###
   env.addGlobal 'config', (prop, value, merge = true) ->
-    ctx           = @ctx
-    ctxValue      = _.get(ctx, prop)
-    valueIsArray  = Array.isArray(value)
-    valueIsObject = typeof value == 'object' and value and not valueIsArray
+    ctxValue = _.get(@ctx, prop)
 
-    # Set if `value` provided
-    if value != undefined
+    # Get current contenxt value if no `value` provided
+    if value == undefined
+      return ctxValue
 
-      if not merge or not ctxValue
-        _.set(ctx, prop, value)
-      else
-        value = if valueIsObject then _.merge(value, ctxValue) else if valueIsArray then _.union(value, ctxValue) else ctxValue
-        _.set(ctx, prop, value)
-
+    if not merge or not ctxValue
+      _.set(@ctx, prop, value)
       return
 
-    # Get if no `value` provided
-    else return ctxValue
+    # If this isn't Object, nothing we can do here, exit without changes to context
+    if typeof value != 'object'
+      return
+
+    # Shallow cloning prevents leaking when merging
+    value = _.isArray(value) and _.union([], value, ctxValue) or _.merge({}, value, ctxValue)
+
+    _.set(@ctx, prop, value)
+    return
 
   ###*
    * Get properties of page and its childs from site Matter data
@@ -113,9 +109,9 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
   ###
   env.addGlobal 'getPage', (path, forceRender = true, cached = true, ctx = @getVariables()) ->
     path = path.includes('/') and crumble(path) or path
-    data = @ctx.site.__matter__
-    cachedData = () => @ctx.site.__matterCache__
-    setDataCache = (value) => @ctx.site.__matterCache__ = value
+    data = @ctx.SITE.__matter
+    cachedData = () => @ctx.SITE.__matterCache
+    setDataCache = (value) => @ctx.SITE.__matterCache = value
     renderData = (tmpl) => render(env, ctx, tmpl)
 
     # Render whole Matter data and store it as cache after first `forceRender` request
@@ -125,12 +121,64 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
     page = _.get(forceRender and cached and cachedData() or data, path)
 
     if not page
-      log.error("[getPage] can not find `#{path}` inside site Matter data [#{@ctx.page.props.url}]")
+      log.error("[getPage] can not find `#{path}` inside site Matter data [#{@ctx.PAGE.props.url}]")
       return
 
     page = Object.assign({}, forceRender and (cached and page or renderData(page)) or page)
     Object.defineProperty page, 'props', enumerable: false
     return page
+
+  ###*
+   * This slightly mysterious function loads current page data (Front Matter) into `PAGE` global variable,
+   * fully renders and format it and populates undefined with default values.
+   * It leverages `config` Nunjucks function to ensure, that loaded data never overrides specified
+   * within page or layout data when you use Front Matter or `config` on any specific page,
+   * If page have specified `PAGE.breadcrumb`, data will be retrieved from page, which is available
+   * following that breadcrumb, making one page at specific path to think and behave like it is another page.
+   * It also will set some l10n defaults
+   * @todo Add tests, ya know
+   * @todo Consider removing of breadcrumb overriding, think out of scenarios — is it useful or no
+   *       Seems to be useful for tests
+   * @todo Do not invoke `getPage` if there is no `@ctx.PAGE.breadcrumb`, since then all properties
+   *       already available under built `@ctx.PAGE.props`. For now we can't do this, since
+   *       it needs to be rendered, and rendering cache currently hardcoded into `getPage`
+   *       This will also allow to avoid merging of `@ctx.PAGE.props` into `PAGE`
+   * @todo There is some obscurity regarding `PAGE` and `PAGE.props`, sometimes it is unclear which to use.
+   *       `PAGE.props` contains unrendered, assembled during Nunjucks task data, with Front Matter,
+   *        while `PAGE` will contain prepared, merged and rendered by this function same data.
+   *        Note, that as of now we can not use for final data `PAGE.props` or for Nunjucks built data `PAGE`,
+   *        since that way `config` will broke — it will see, that `PAGE.props` or `PAGE` already defined,
+   *        and assume that there is no need to merge anything. Just to remind, this is caused by
+   *        how Nunjucks renders extends layouts and applies values (it happens in reverse order).
+   * @return {void}
+  ###
+  env.addGlobal 'initPage', () ->
+    { config, getPage, numbro, moment } = @.env.globals
+    { format } = @.env.filters
+
+    # Use specified on page breadcrumb if there is one.
+    # For now it can be done with `{{ config('PAGE', { breadcrumb: ['myPage'] }) }}`
+    # inside page or layout that page extends.
+    breadcrumb = @ctx.PAGE.breadcrumb or @ctx.PAGE.props.breadcrumb
+
+    # Retrieve page props following breadcrumb, render (as part of `getPage`) and format it
+    config.call(@, 'PAGE', format.call(@, getPage.call(@, breadcrumb).props, @ctx.PLACEHOLDERS))
+
+    # Fill page data with rest of only available through Nunjucks injection props
+    # It needed only when we used `getPage`, since retrieved props won't have injected by Nunjucks values,
+    # because they can be computed only during Nunjucks task runtime
+    config.call(@, 'PAGE', @ctx.PAGE.props)
+
+    # Set l10n defaults
+    locale = @ctx.PAGE.locale
+
+    numbro.setCulture(locale)
+    numbro.defaultFormat(@ctx.SITE.locales[locale].numberFormat)
+    numbro.defaultCurrencyFormat(@ctx.SITE.locales[locale].currencyFormat)
+
+    moment.locale(locale)
+
+    return
 
   ###*
    * Explodes string into array breadcrumb. See `crumble` helper for details
@@ -140,25 +188,23 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
 
   ###*
    * Determinate is current path active relatively to current page breadcrumb or no
-   * @param  {string} to                                     Absolute or relative path to page based
-   *                                                         based on `pages.yml`
-   * @param  {bool} onlyActiveOnIndex = false                Set anchor to be active only in case current link's
-   *                                                         and page's breadcrumbs completely matches
-   * @param  {array} pageBreadcrumb   = @ctx.page.breadcrumb Breadcrumb of current page for comparison
-   * @return {bool} Is current path active or no
+   * @param  {string} to                      Absolute or relative path to page
+   * @param  {bool}  [exact]          = false Return `true` only if path completely matches
+   *                                          current breadcrumb
+   * @param  {array} [pageBreadcrumb] = @ctx.PAGE.breadcrumb
+   *                                          Breadcrumb of current page for comparison
+   * @return {boolean} Is current path active or no
   ###
-  env.addGlobal 'isActive', (to, onlyActiveOnIndex = false, pageBreadcrumb = @ctx.page.breadcrumb) ->
-    isAbsolute = if _.startsWith(to, '/') then true else false
+  env.addGlobal 'isActive', (to, exact = false, pageBreadcrumb = @ctx.PAGE.breadcrumb) ->
+    if !to.startsWith('/')
+      throw new TypeError("[isActive] document-relative urls not supported yet, `#{to}` provided")
 
-    linkBreadcrumb = crumble(to)
+    pageUrl = urljoin('/', pageBreadcrumb...)
+    pageUrl = pageUrl == '/index' and '/' or pageUrl
+    # Make trailing slash optional
+    toRegex = to.replace(/(.)\/$/, '$1(\/)?')
 
-    # Slice only needed for comparison portion of whole page breadcrumb,
-    # unless `onlyActiveOnIndex` set to `true`
-    correspondingPageBreadcrumb = if onlyActiveOnIndex then pageBreadcrumb else _.take(pageBreadcrumb, linkBreadcrumb.length)
-
-    # Determine is link currently active. Relative urls will be always considered as non-active
-    isActive = if _.isEqual(correspondingPageBreadcrumb, linkBreadcrumb) and isAbsolute then true else false
-    return isActive
+    return new RegExp("^#{toRegex}#{exact and '$' or ''}").test(pageUrl)
 
   ###*
    * Expose `moment.js` to Nunjucks' for parsing, validation, manipulation and displaying dates
@@ -178,16 +224,45 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
   env.addGlobal 'numbro', numbro
 
   ###*
-   * Expose `url-join` to Nunjucks' for joining urls
-   * @docs https://github.com/jfromaniello/url-join
-   * @param {*} param... Url fragments, which should be joined
-   * @return {string} Joined url
+   * Join urls with `URI.joinPaths`
+   * @see /modules/urljoin.js
   ###
   env.addGlobal 'urljoin', urljoin
 
-  # =======
+  ###*
+   * Manipulate with urls with URI.js
+   * @see https://medialize.github.io/URI.js/
+  ###
+  env.addGlobal 'URI', URI
+
+  ###*
+   * Resolves relative urls to absolute url, with site homepage prepended,
+   * otherwise if url already absolute, returns as it is
+   * @param {string} url        Url to operate upon
+   * @param {string} [homepage] Homepage of website, like `https://test.com`
+   * @return {string} Absolute url
+   * @throws {TypeError} If `url` is not a string
+   * @example
+   *  absoluteurl('test') -> https://kotsu.2bad.me/test
+   *  absoluteurl('http://test.dev') -> http://test.dev
+  ###
+  env.addGlobal 'absoluteurl', (url, homepage = @ctx.SITE.homepage) ->
+    if typeof url != 'string'
+      throw new TypeError("[absoluteurl] url should be `string`, but `#{typeof url}` or undefined provided")
+
+    hasProtocol = /^\/\/|:\/\//.test(url)
+
+    if hasProtocol
+      return url
+
+    isDocumentRelative = /^[^\/]/.test(url)
+    rootRelativeUrl = if isDocumentRelative then urljoin(@ctx.PAGE.url, url) else url
+
+    return URI(rootRelativeUrl, homepage).valueOf()
+
+  # ==============================================================================
   # Filters
-  # =======
+  # ==============================================================================
 
   ###*
    * Replaces last array element with new value
@@ -216,22 +291,22 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
    * Force rendering of input via Nunjucks. Refer to `nunjucks-render` module for docs
    * @todo Related issue https://github.com/mozilla/nunjucks/issues/783
   ###
-  env.addFilter 'render', (input, isCaller = false) ->
-    render(env, @getVariables(), input, isCaller)
+  env.addFilter 'render', (input) ->
+    render(env, @getVariables(), input)
 
   ###*
    * Replace placeholders with provided values. Refer to `sprintf` module for docs
   ###
-  env.addFilter 'template', sprintf
+  env.addFilter 'format', sprintf
 
   ###*
    * Pluralize string based on count. For situations, where full i18n is too much
-   * @param {number} count                  Current count
-   * @param {array}  forms                  List of possible plural forms
-   * @param {string} locale = currentLocale Locale name
+   * @param {number} count                     Current count
+   * @param {array}  forms                     List of possible plural forms
+   * @param {string} locale = @ctx.PAGE.locale Locale name
    * @return {string} Correct plural form
   ###
-  env.addFilter 'plural', (count, forms, locale = currentLocale) ->
+  env.addFilter 'plural', (count, forms, locale = @ctx.PAGE.locale) ->
     smartPlurals.Plurals.getRule(locale)(count, forms)
 
   ###*
@@ -251,7 +326,7 @@ module.exports = (env, currentLocale, numberFormat, currencyFormat) ->
   ###
   env.addFilter 'spread', (input, delimiter = ' ') ->
     if typeof input != 'object'
-      log.error('[spread] input should be object, but `' + typeof input + '` has been specified', '[' + @ctx.page.url + ']')
+      log.error('[spread] input should be object, but `' + typeof input + '` has been specified', '[' + @ctx.PAGE.url + ']')
       return
 
     spreaded = ' '
