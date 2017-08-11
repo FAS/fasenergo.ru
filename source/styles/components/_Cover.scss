@@ -1,10 +1,11 @@
-// =======================================
+// =============================================================================
 // ^Cover
-// =======================================
+// =============================================================================
 
 .Cover {
   // Prevent display of page cover images on smaller desktops
   display: none;
+
   @include ekzo-breakpoint(desk) { display: block; }
 
   z-index: ekzo-z-index(deepdive);

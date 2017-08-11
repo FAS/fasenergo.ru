@@ -1,8 +1,8 @@
-// stylelint-disable no-descending-specificity, selector-max-specificity, scss/operator-no-unspaced
+// stylelint-disable no-descending-specificity, selector-max-specificity
 
-// =======================================
+// =============================================================================
 // ^Sorter
-// =======================================
+// =============================================================================
 
 .Sorter { cursor: pointer; }
 
@@ -24,6 +24,7 @@
 
   .Sorter__label {
     @extend %g-link;
+
     border-style: dashed;
   }
 

@@ -1,6 +1,6 @@
-// =======================================
+// =============================================================================
 // ^SIDEBAR
-// =======================================
+// =============================================================================
 
 // @note @todo This is kinda "magick" number and potentially should be avoided in future
 //             It defines how Drawer should be offsetted from top to match position of main Nav.
@@ -71,6 +71,7 @@ $padding: ekzo-space();
 
   .Drawer__bg {
     @include ekzo-theme() { background-color: ekzo-theme(drawer-bg); }
+
     z-index: -2;
   }
 

@@ -1,8 +1,8 @@
 // stylelint-disable no-descending-specificity
 
-// =======================================
+// =============================================================================
 // ^Field
-// =======================================
+// =============================================================================
 
 $field-padding: ekzo-space(.5);
 $small-field-padding: ekzo-space(.25);
@@ -71,14 +71,16 @@ $small-field-group-btn-width: ekzo-space(1.5);
 
       opacity: 0;
 
-      @include ekzo-theme() { color: ekzo-theme(forms-valid); }
       @include ekzo-font-size(22px);
+
+      @include ekzo-theme() { color: ekzo-theme(forms-valid); }
     }
 
     .Field__input {
       width: 100%;
 
       @include ekzo-theme() { border-color: ekzo-theme(forms-border); }
+
       border-width: 1px;
       border-radius: ekzo-border-radius('');
 
@@ -95,6 +97,7 @@ $small-field-group-btn-width: ekzo-space(1.5);
     display: none;
 
     @include ekzo-font-size('-');
+
     @include ekzo-theme() { color: ekzo-theme(forms-invalid); }
 
     margin-top: ekzo-space(.25);
@@ -128,6 +131,7 @@ $small-field-group-btn-width: ekzo-space(1.5);
     width: $field-group-btn-width;
 
     @include ekzo-theme() { color: ekzo-theme(forms-placeholder); }
+
     background-color: transparent;
 
     margin-left: - $field-group-btn-width;

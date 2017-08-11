@@ -1,7 +1,7 @@
 
-// =======================================
+// =============================================================================
 // ^LINKS
-// =======================================
+// =============================================================================
 
 a,
 .#{$ekzo-g-ns}link,
@@ -9,6 +9,7 @@ a,
   cursor: pointer;
 
   border-bottom-width: 1px;
+
   @include ekzo-theme() { border-color: ekzo-theme(links-border); }
 
   // For cases when we need to make `<button>` appear like a link
