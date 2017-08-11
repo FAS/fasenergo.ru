@@ -1,11 +1,12 @@
 t = require('tcomb')
+{ refinements, validate } = require('../../tests/utils/tcomb')
 { file: { readYAML } } = require('grunt')
 
-{ refinements: { False, equalKeysAndSlugs } } = require('../../tests/utils/tcomb')
+r = refinements
+GENERATORS = readYAML "#{__dirname}/generators.yml"
+ENGINES = readYAML "#{__dirname}/engines.yml"
 
-enginesData = readYAML(__dirname + '/engines.yml')
-
-Generators = t.dict t.union([t.String, t.Number]), t.struct({
+module.exports = Generators = r.EqualKeyAndProp('slug') t.dict t.String, t.struct({
   slug: t.union [t.String, t.Number]
   meta: t.struct
     title: t.maybe t.String
@@ -15,8 +16,8 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
   manufacturer: t.struct
     brand: t.String
     country: t.maybe t.String
-  series: t.maybe t.union [t.String, t.Number, False]
-  model: t.maybe t.union [t.String, t.Number, False]
+  series: t.maybe t.union [t.String, t.Number, r.False]
+  model: t.maybe t.union [t.String, t.Number, r.False]
   # patttern for outputing name of the paricular model with `sprintf()`, like "%(brand)s %(series)s %(model)s"
   title: t.String
   price: t.maybe t.Number
@@ -25,16 +26,16 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
   availability: t.enums.of ['available', 'preorder', 'discontinued']
   warranty: t.struct
     delivery: t.maybe t.Number
-    installation: t.maybe t.union [t.Number, False]
+    installation: t.maybe t.union [t.Number, r.False]
     # time spent in active use (e.g. working hours, motoresource)
-    serviceLife: t.maybe t.union [t.Number, False]
-  desc: t.maybe t.union [t.String, t.list(t.String), False]
-  features: t.maybe t.union [t.String, t.list(t.struct { title: t.String, desc: t.String }), False]
+    serviceLife: t.maybe t.union [t.Number, r.False]
+  desc: t.maybe t.union [t.String, t.list(t.String), r.False]
+  features: t.maybe t.union [t.String, t.list(t.struct { title: t.String, desc: t.String }), r.False]
   photos: t.maybe t.list(t.struct { url: t.String, alt: t.maybe(t.String), main: t.maybe(t.Boolean) })
   # List of Youtubee iframe srcs
-  videos: t.maybe t.union [t.list(t.String), False]
+  videos: t.maybe t.union [t.list(t.String), r.False]
   docs: t.maybe t.list(t.struct { url: t.String, title: t.String, desc: t.maybe(t.String) })
-  tags: t.maybe t.union [t.list(t.String), False]
+  tags: t.maybe t.union [t.list(t.String), r.False]
 
   specs: t.struct
     # мощность, kW
@@ -89,9 +90,9 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
     # Включен ли АВР
     ATS: t.maybe t.Boolean
     # Общий список включенного оборудования
-    list: t.maybe t.union [t.String, t.list(t.String), False]
+    list: t.maybe t.union [t.String, t.list(t.String), r.False]
 
-  engine: t.maybe t.enums.of(Object.keys(enginesData))
+  engine: t.maybe t.enums.of(Object.keys(ENGINES))
 
   enclosure: t.struct
     # исполнение
@@ -99,11 +100,11 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
     # материал
     material: t.maybe t.enums.of ['пластик', 'метал']
     # покрытие
-    coating: t.maybe t.union [t.String, False]
+    coating: t.maybe t.union [t.String, r.False]
     # теплоизоляция
     thermalInsulation: t.maybe t.Boolean
     # маркировка защиты (https://en.wikipedia.org/wiki/IP_Code)
-    protection: t.maybe t.union([t.enums.of(['IP64', 'IP52 сталь']), False])
+    protection: t.maybe t.union([t.enums.of(['IP64', 'IP52 сталь']), r.False])
     # вентиляция
     ventilation: t.maybe t.Boolean
     # замок
@@ -124,4 +125,7 @@ Generators = t.dict t.union([t.String, t.Number]), t.struct({
     weight: t.maybe t.Number
 }, { name: 'Generator', strict: true }), 'Generators'
 
-module.exports = equalKeysAndSlugs(Generators, 'Generators')
+if typeof describe == 'function'
+  describe 'Engines', () =>
+    it 'should match schema structure and types', () =>
+      expect(() => validate(GENERATORS, Generators)).not.toThrow()

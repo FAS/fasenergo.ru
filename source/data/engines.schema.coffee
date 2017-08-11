@@ -1,10 +1,14 @@
 t = require('tcomb')
-{ refinements: { False, equalKeysAndSlugs } } = require('../../tests/utils/tcomb')
+{ refinements, validate } = require('../../tests/utils/tcomb')
+{ file: { readYAML } } = require('grunt')
 
-Engines = t.dict t.union([t.String, t.Number]), t.struct({
+r = refinements
+ENGINES = readYAML("#{__dirname}/engines.yml")
+
+module.exports = Engines = r.EqualKeyAndProp('slug') t.dict t.String, t.struct({
   slug: t.union [t.String, t.Number]
   type: t.maybe t.String
-  model: t.maybe t.union [t.String, t.Number, False]
+  model: t.maybe t.union [t.String, t.Number, r.False]
   article: t.maybe t.Number
   manufacturer: t.struct
     brand: t.String
@@ -39,4 +43,7 @@ Engines = t.dict t.union([t.String, t.Number]), t.struct({
     lpg: t.maybe t.String
 }, { name: 'Engine', strict: true }), 'Engines'
 
-module.exports = equalKeysAndSlugs(Engines, 'Engines')
+if typeof describe == 'function'
+  describe 'Engines', () =>
+    it 'should match schema structure and types', () =>
+      expect(() => validate(ENGINES, Engines)).not.toThrow()
