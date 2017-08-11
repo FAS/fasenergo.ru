@@ -1,7 +1,7 @@
 { merge } = require('lodash')
 pkg = require('../../package.json')
 
-module.exports = ({ config }) ->
+module.exports = ({ config, file: { readYAML } }) ->
   sitename = config('env.sitename')
   buildRoot = config('path.build.root') + '/'
   imagesPath = config('path.build.images').replace(buildRoot, '')
@@ -23,12 +23,12 @@ module.exports = ({ config }) ->
       description: pkg.description
       homepage: if sitename then "https://#{sitename}" else pkg.homepage
       logo: "/#{imagesPath}/logo.svg"
-      viewport: 'width=1024, initial-scale=1'
+      viewport: 'width=960, initial-scale=1'
       themeColor: '#252f38'
       locales: config('locales')
       baseLocale: config('baseLocale')
       googleAnalyticsId: 'UA-35704990-1'
-      yandexMetrikaId: 20139793
+      yandexMetrikaId: '20139793'
     PLACEHOLDERS:
       company: pkg.name
     PAGE_DEFAULTS:
@@ -57,8 +57,8 @@ module.exports = ({ config }) ->
       build: config('env.build')
       hotModuleRloading: config('env.hotModuleRloading')
     CONTACTS: require('./contacts')
-    GENERATORS: grunt.file.readYAML "#{__dirname}/generators.yml"
-    ENGINES: grunt.file.readYAML "#{__dirname}/engines.yml"
+    GENERATORS: readYAML "#{__dirname}/generators.yml"
+    ENGINES: readYAML "#{__dirname}/engines.yml"
 
   return (locale) -> switch locale
     when 'ru-RU' then merge {}, data
