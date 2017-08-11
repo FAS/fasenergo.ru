@@ -65,7 +65,7 @@ const updateProducts = (state, limit = PRODUCTS_PER_PAGE) => {
 
   const $filtered = filterItems($products, state)
   const $sorted = sortItems($filtered, state)
-  const $limited = limit && limitItems($sorted, limit) || $sorted
+  const $limited = (limit && limitItems($sorted, limit)) || $sorted
 
   // Hide everything that was exluded by filter
   $products.forEach(($product) =>
@@ -145,8 +145,8 @@ if ($filtersContainer && $productsContainer) {
         $target.value === 'popular' && $filtersForm.reset()
 
         $target.value === 'powerFromTo' && $filters.forEach(($f) => {
-          if ($f.name === 'powerFrom') { $f.value = presetData && presetData[0] || '' }
-          if ($f.name === 'powerTo') { $f.value = presetData && presetData[1] || '' }
+          if ($f.name === 'powerFrom') { $f.value = (presetData && presetData[0]) || '' }
+          if ($f.name === 'powerTo') { $f.value = (presetData && presetData[1]) || '' }
         })
       }
 

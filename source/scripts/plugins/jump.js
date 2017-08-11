@@ -29,8 +29,5 @@ export default () => {
   jumpToHash()
 
   // Jump smoothly on click
-  $('.js-smooth-jump').on('click', function (e) {
-    e.preventDefault
-    jumpToHash($(this))
-  })
+  $('.js-smooth-jump').on('click', function (e) { jumpToHash($(this)) })
 }
