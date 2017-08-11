@@ -17,7 +17,8 @@ SystemJS.config({
   devConfig: {
     "map": {
       "plugin-babel": "npm:systemjs-plugin-babel@0.0.21",
-      "systemjs-hot-reloader": "npm:systemjs-hot-reloader@1.1.0"
+      "systemjs-hot-reloader": "npm:systemjs-hot-reloader@1.1.0",
+      "systemjs-plugin-json": "npm:systemjs-plugin-json@0.3.0"
     },
     "packages": {
       "npm:systemjs-hot-reloader@1.1.0": {
@@ -35,6 +36,9 @@ SystemJS.config({
       "meta": {
         "*.js": {
           "loader": "plugin-babel"
+        },
+        "*.json": {
+          "loader": "systemjs-plugin-json"
         }
       }
     }
@@ -62,8 +66,8 @@ SystemJS.config({
     "npm:babel-polyfill@6.23.0": {
       "map": {
         "babel-runtime": "npm:babel-runtime@6.23.0",
-        "regenerator-runtime": "npm:regenerator-runtime@0.10.5",
-        "core-js": "npm:core-js@2.4.1"
+        "core-js": "npm:core-js@2.4.1",
+        "regenerator-runtime": "npm:regenerator-runtime@0.10.5"
       }
     },
     "npm:babel-runtime@6.23.0": {

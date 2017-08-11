@@ -16,8 +16,10 @@ module.exports = (grunt) ->
     # Specify environment variables
     env:
       sitename: process.env.SITENAME
-      production: process.env.PRODUCTION or grunt.cli.tasks.includes('build')
-      staging: process.env.STAGING or grunt.option('staging')
+      production: process.env.PRODUCTION == 'true' or grunt.option('production')
+      staging: process.env.STAGING == 'true' or grunt.option('staging')
+      build: grunt.cli.tasks.includes('build')
+      hotModuleRloading: grunt.option('hmr')
       tinypng:
         api:
           key: process.env.TINYPNG_API_KEY
@@ -82,7 +84,7 @@ module.exports = (grunt) ->
     locales:
       'ru-RU':
         locale: 'ru-RU'
-        url: 'ru'
+        url: '/ru'
         rtl: false
         defaultForLanguage: true
         numberFormat: '0,0.[00]'
@@ -108,6 +110,7 @@ module.exports = (grunt) ->
     'sass'
     'postcss:autoprefix'
     'responsive_images:thumbnails'
+    'responsive_images_extender'
     'browserSync'
     'watch'
   ]
@@ -124,18 +127,18 @@ module.exports = (grunt) ->
     'webfont'
     'sass'
     'postcss:autoprefix'
-    # @todo Enable when https://github.com/giakki/uncss/pull/280 will be merged
-    # 'uncss'
-    'csso'
     'shell:jspm_build'
     'shell:jspm_build_loncin_promo'
     'uglify'
+    'uncss'
+    'csso'
     'responsive_images:thumbnails'
+    'responsive_images_extender'
+    'htmlmin'
     'tinypng'
     'clean:styles'
     'clean:scripts'
     'cacheBust'
-    'htmlmin'
     'sitemap_xml'
     'size_report'
   ]
