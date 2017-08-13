@@ -785,7 +785,7 @@
       lpg:
         max: 13
     current:
-      _legacy: 41,8
+      _legacy: null
       ng: null
       lpg: null
     voltage: 220
@@ -807,9 +807,9 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.42 м³/ч * 1 кВт
-      lpg: 0.38 кг/ч * 1 кВт
-    operatingSpeed: 3000
+      ng: null
+      lpg: null
+    operatingSpeed: null
     cooling: null
   engine: loncin-lc2v90f-1
   enclosure:
@@ -821,13 +821,13 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
-    _legacySize: 1058х705х620
+    noise: null
+    _legacySize: null
     size:
       length: null
       width: null
       height: null
-    weight: 125    
+    weight: null
 
 
 фас-13-1лм-13-квт:
@@ -879,7 +879,7 @@
       lpg:
         max: 13
     current:
-      _legacy: 41,8
+      _legacy: null
       ng: null
       lpg: null
     voltage: 220
@@ -901,9 +901,9 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.42 м³/ч * 1 кВт
-      lpg: 0.38 кг/ч * 1 кВт
-    operatingSpeed: 3000
+      ng: null
+      lpg: null
+    operatingSpeed: null
     cooling: null
   engine: loncin-lc2v90f-1
   enclosure:
@@ -915,13 +915,13 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
-    _legacySize: 1058х705х620
+    noise: null
+    _legacySize: null
     size:
       length: null
       width: null
       height: null
-    weight: 125
+    weight: null
 
 
 фас-15-1лп-15-квт:
@@ -970,7 +970,7 @@
       lpg:
         max: 15
     current:
-      _legacy: 41,8
+      _legacy: null
       ng: null
       lpg: null
     voltage: 220
@@ -992,9 +992,9 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.42 м³/ч * 1 кВт
-      lpg: 0.38 кг/ч * 1 кВт
-    operatingSpeed: 3000
+      ng: null
+      lpg: null
+    operatingSpeed: null
     cooling: null
   engine: loncin-lc2v90f-1
   enclosure:
@@ -1006,13 +1006,13 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
-    _legacySize: 1058х705х620
+    noise: null
+    _legacySize: null
     size:
       length: null
       width: null
       height: null
-    weight: 125    
+    weight: null
 
 
 фас-15-1лм-15-квт:
@@ -1064,7 +1064,7 @@
       lpg:
         max: 15
     current:
-      _legacy: 41,8
+      _legacy: null
       ng: null
       lpg: null
     voltage: 220
@@ -1086,9 +1086,9 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.42 м³/ч * 1 кВт
-      lpg: 0.38 кг/ч * 1 кВт
-    operatingSpeed: 3000
+      ng: null
+      lpg: null
+    operatingSpeed: null
     cooling: null
   engine: loncin-lc2v90f-1
   enclosure:
@@ -1100,13 +1100,13 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
-    _legacySize: 1058х705х620
+    noise: null
+    _legacySize: null
     size:
       length: null
       width: null
       height: null
-    weight: 125
+    weight: null
 
 
 фас-вп-8-квт:
