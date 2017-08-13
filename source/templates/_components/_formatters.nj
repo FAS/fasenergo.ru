@@ -6,7 +6,7 @@
  #
  # @return {string} Email inside anchor
  #
- # @example {{ components.Email(data.contacts.departments.sales.emails[0]) }}
+ # @example {{ Email(CONTACTS.departments.sales.emails[0]) }}
  #}
 {%- macro Email(data) -%}
   {% set macroEmail = data.value[0] + '@' + data.value[1] %}
@@ -23,12 +23,12 @@
  #
  # @return {string} Skype inside anchor
  #
- # @example {{ components.Skype(data.contacts.departments.sales.skypes[0]) }}
+ # @example {{ Skype(CONTACTS.departments.sales.skypes[0]) }}
  #}
 {%- macro Skype(data, class, showIcon) -%}
   {% set macroSkype = data.value %}
 
-  <a class='{{ class }} g-link--inherit' href='skype:{{ macroSkype }}?call'>{{ components.Icon('skype', class = 'Icon--left') if showIcon }} <span>{{ macroSkype }}</span></a>
+  <a class='{{ class }} g-link--inherit' href='skype:{{ macroSkype }}?call'>{{ Icon('skype', class = 'Icon--left') if showIcon }} <span>{{ macroSkype }}</span></a>
 {%- endmacro -%}
 
 {##
@@ -43,7 +43,7 @@
  #
  # @return {string} Phone number inside anchor
  #
- # @example {{ components.Phone(data.contacts.departments.sales.phones[0]) }}
+ # @example {{ Phone(CONTACTS.departments.sales.phones[0]) }}
  #}
 {%- macro Phone(data, class, addClass, showCountry = true, showAdd = true, plain) -%}
   {% set plainPhone = '+' + data.country + data.city + data.tel[0] + data.tel[1] + data.tel[2] %}
@@ -56,7 +56,7 @@
  # Output amount phases as a word
  # @param {number} phases Amount of phases
  # @return {string} Phases in a word
- # @example {{ components.PhasesToWord(1) }} -> 'однофазный'
+ # @example {{ PhasesToWord(1) }} -> 'однофазный'
  #}
 {%- macro PhasesToWord(phases) -%}
   {%- if phases == 1 -%}
@@ -72,7 +72,7 @@
  # Output fuel type as a word
  # @param {string} phases Fuel type id
  # @return {string} Fuel type in a word
- # @example {{ components.FuelTypeToWord('ng') }} -> 'метан'
+ # @example {{ FuelTypeToWord('ng') }} -> 'метан'
  #}
 {%- macro FuelTypeToWord(fuel) -%}
   {%- if fuel == 'ng' -%}
@@ -88,7 +88,7 @@
  # Output engine cooling type as a word
  # @param {string} coolingType Engine cooling type id
  # @return {string} Enclosure type in a word
- # @example {{ components.CoolingToWord('air') }} -> 'воздушное'
+ # @example {{ CoolingToWord('air') }} -> 'воздушное'
  #}
 {%- macro CoolingToWord(coolingType) -%}
   {%- if coolingType == 'air' -%}
@@ -104,7 +104,7 @@
  # Output powers of product as inline list
  # @param {number[]} powers Array of product powers (ng, lpg)
  # @return {string} Powers as a list
- # @example {{ components.PowersList([12, 15]) }} -> '12/15'
+ # @example {{ PowersList([12, 15]) }} -> '12/15'
  #}
 {%- macro PowersList(powers) -%}
   {%- for p in powers -%}

@@ -3,7 +3,7 @@
  # For now it displays very limited set of data, be ware
  #
  # @param {string} url             Url to product
- # @param {string} [image] = '/' + path.images + '/no-photo.png'
+ # @param {string} [image] = urljoin('/', PATH.images, '/no-photo.png')
  #                                 Product image
  # @param {string} model           Product model name
  # @param {array}  [powers]        List of product powers (ng, lpg)
@@ -13,7 +13,7 @@
  #
  # @example
  #   {% for g in randomGens %}
- #   {{ components.ProductCard(
+ #   {{ ProductCard(
  #     url = '/test',
  #     image = '/test.png',
  #     model = 'Best 2000',
@@ -24,7 +24,7 @@
  #}
 {% macro ProductCard(
   url,
-  image = '/' + path.images + '/no-photo.png',
+  image = urljoin('/', PATH.images, '/no-photo.png'),
   model,
   powers,
   engineCooling
@@ -41,13 +41,13 @@
     {% if engineCooling %}
       <tr>
         <th class='h-text--'>Охлаждение</th>
-        <td>{{ components.CoolingToWord(engineCooling)|capitalize }}</td>
+        <td>{{ CoolingToWord(engineCooling)|capitalize }}</td>
       </tr>
     {% endif %}
     {% if powers %}
       <tr>
         <th class='h-text--'>Мощность</th>
-        <td>{{ components.PowersList(powers) }} <span class='h-text--'>кВт</span></td>
+        <td>{{ PowersList(powers) }} <span class='h-text--'>кВт</span></td>
       </tr>
     {% endif %}
   </table>

@@ -1,10 +1,12 @@
 ---
 url:              /404.html
+
 title:            ={{ gettext('404 &mdash; страница не найдена') }}
-breadcrumbTitle:  '404'
 contentTitle:     ={{ gettext('404 &mdash; страница не найдена') }}
 navTitle:         '404'
-metaDesc:         ={{ gettext('404 &mdash; страница не найдена') }}
+breadcrumbTitle:  '404'
+
+description:      ={{ gettext('404 &mdash; страница не найдена') }}
 
 class:            p-404
 showContentTitle: false
@@ -15,5 +17,5 @@ showBreadcrumb:   false
 
 {% block main %}
 <h1 class='h-text++ h-margin-bottom+'><b>404</b> — страница не найдена</h1>
-<p class='h-margin-top+'><a class='Btn' href='{{ localeDir() }}/'>На главную</a></p>
+<p class='h-margin-top+'><a class='Btn' href='{{ localeDir() }}'>На главную</a></p>
 {% endblock %}

@@ -8,16 +8,16 @@
  #
  # @return {string} Active promos previews
  #
- # @example {{ components.Promos() }}
+ # @example {{ Promos() }}
  #}
 {% macro Promos(path = ['о-компании', 'новости'], limit, displayInactivePromos = false) %}
-{% set promos = selectPromos(getPage(path)|template(site.placeholders)) %}
+{% set promos = selectPromos(getPage(path)|format(PLACEHOLDERS)) %}
 {% set promos = not displayInactivePromos and filterActivePromos(promos) or promos %}
 {% set promos = sortPostsByDate(promos) %}
 {% set promos = limit and _.take(promos, limit) or promos %}
 
 {% for p in promos %}
-{{ components.PromoPreview(
+{{ PromoPreview(
   title = p.props.contentTitle,
   desc = p.props.desc,
   date = p.props.date,

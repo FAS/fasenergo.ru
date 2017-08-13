@@ -34,7 +34,7 @@ module.exports = ({ config, file: { readYAML } }) ->
     PAGE_DEFAULTS:
       image: ''
       class: '',
-      bodyClass: ''
+      bodyClass: 'Wrapper--site Wrapper--sidebar-shift'
       coverImage: false,
       applyWrapper: true,
       applyWrapperV: true,
@@ -51,6 +51,10 @@ module.exports = ({ config, file: { readYAML } }) ->
       facebook:
         image: "/#{imagesPath}/facebook.png"
         url: 'https://www.facebook.com/fasenergo'
+      twitter:
+        handle: '@fasenergo'
+        image: "/#{imagesPath}/twitter.png"
+        url: 'https://twitter.com/fasenergo'
     ENV:
       production: config('env.production')
       staging: config('env.staging')

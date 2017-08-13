@@ -9,7 +9,7 @@
  #
  # @return {string} List of urls in form of `<ul>`
  #
- # @example {{ components.SocialUrls(asIcons = true) }}
+ # @example {{ SocialUrls(asIcons = true) }}
  #}
 {% macro SocialUrls(asIcons = true, class, itemsClass, anchorsClass, iconsClass) %}
 <ul class='{{ class }} {{ 'g-list0 h-inline-block h-align--middle' if asIcons }}'>
@@ -21,7 +21,7 @@
         aria-label='{{ name }}'
         target='_blank'>
         {% if asIcon %}
-        <span aria-hidden='true'>{{ components.Icon(iconName, class = iconClass) }}</span>
+        <span aria-hidden='true'>{{ Icon(iconName, class = iconClass) }}</span>
         {% else %}
         {{ name }}
         {% endif %}
@@ -29,8 +29,9 @@
     </li>
   {% endmacro %}
 
-  {{ Item('Вконтакте', 'vk', data.socialUrls.vk) }}
-  {{ Item('Facebook', 'facebook', data.socialUrls.facebook) }}
+  {# @todo It should iterate upon SOCIAL data #}
+  {{ Item('Вконтакте', 'vk', SOCIAL.vk.url) }}
+  {{ Item('Facebook', 'facebook', SOCIAL.facebook.url) }}
 
 </ul>
 {% endmacro %}

@@ -4,7 +4,8 @@
  # @param {string} [class]                 = 'nav nav--spacing' Class of list
  # @param {string} [itemsClass]            = ''                 Class of list items
  # @param {string} [anchorsClass]          = ''                 Class of anchors inside list itmes
- # @param {bool}   [onlyActiveOnIndex]     = false              Set items to be active only in case current route matches link's route
+ # @param {bool}   [exact]                 = false              Set items to be active only if item
+ #                                                              path completely matches current breadcrumb
  # @param {string} [activeClass]           = 'is-active'        Class of active list item
  # @param {number} [startDepth]            = 1                  From which depth nav should start to print
  # @param {number} [maxDepth]              = 999999             Max amount of subnavs to print
@@ -13,125 +14,141 @@
  #
  # @return {string} Generated nav
  #
- # @example {{ components.Nav() }}
+ # @example {{ Nav() }}
  #}
 {% macro Nav(
   class                 = 'nav nav--spacing',
   itemsClass            = '',
   anchorsClass          = '',
-  onlyActiveOnIndex     = false,
+  exact                 = false,
   activeClass           = 'is-active',
   startDepth            = 1,
   maxDepth              = 999999,
   showInnerOnlyOnActive = false,
   enableDrawer          = false
 ) %}
-  <ul class='{{ class }}'>
+<ul class='{{ class }}'>
 
-    {% macro Item(to, label, depth = 1, class = itemsClass, anchorClass = anchorsClass, onlyActiveOnIndex = onlyActiveOnIndex) %}{% call(depth) components.NavItem(to = to, label = label, depth = depth, class = class, anchorClass = anchorClass, onlyActiveOnIndex = onlyActiveOnIndex, activeClass = activeClass, startDepth = startDepth, maxDepth = maxDepth, showInnerOnlyOnActive = showInnerOnlyOnActive, enableDrawer = enableDrawer) %}{{ caller(depth) }}{% endcall %}{% endmacro %}
+  {% macro Item(to, label, depth = 1, class = itemsClass, anchorClass = anchorsClass, exact = exact) %}
+  {% call(depth) NavItem(
+    to = to,
+    label = label,
+    depth = depth,
+    class = class,
+    anchorClass = anchorClass,
+    exact = exact,
+    activeClass = activeClass,
+    startDepth = startDepth,
+    maxDepth = maxDepth,
+    showInnerOnlyOnActive = showInnerOnlyOnActive,
+    enableDrawer = enableDrawer
+  ) %}
+  {{ caller(depth) }}
+  {% endcall %}
+  {% endmacro %}
 
-    {% call(depth) Item('/продукция/') %}
-      {% call(depth) Item('/продукция/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
+  {% call(depth) Item('/продукция') %}
+    {% call(depth) Item('/продукция', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
-      {% call(depth) Item('/продукция/газовые-генераторы/') %}{% endcall %}
-      {% call(depth) Item('/продукция/испарительное-оборудование', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/испарительно-смесительное-оборудование', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/насосно-компрессорное-оборудование', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/автономные-системы-газоснабжения', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/контрольно-регуляторное-оборудование', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/топливораздаточное-оборудование', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/контрольно-распределительные-пункты', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/фильтры-арматура-задвижки', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/газовые-генераторы') %}{% endcall %}
+    {% call(depth) Item('/продукция/испарительное-оборудование', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/испарительно-смесительное-оборудование', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/насосно-компрессорное-оборудование', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/автономные-системы-газоснабжения', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/контрольно-регуляторное-оборудование', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/топливораздаточное-оборудование', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/контрольно-распределительные-пункты', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/фильтры-арматура-задвижки', depth = depth) %}{% endcall %}
 
-      <li class='Nav__item Nav__item--h2'>Другое</li>
+    <li class='Nav__item Nav__item--h2'>Другое</li>
 
-      {% call(depth) Item('/продукция/преимущества-наших-генераторов/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/гарантия/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/продукция/результаты-испытаний/', depth = depth) %}{% endcall %}
-      {# @todo Enable for production when this section will be ready #}
-      {# {% if env.staging or not env.production %}
-      {% call(depth) Item('/продукция/сертификаты-на-оборудование/', depth = depth) %}{% endcall %}
-      {% endif %} #}
-    {% endcall %}
-    {% call(depth) Item('/решения/') %}
-      {% call(depth) Item('/решения/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
-
-      <li class='Nav__item Nav__item--h2'>Технические решения</li>
-
-      {% call(depth) Item('/решения/технические/синхронизация-генераторных-установок', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/технические/когенерационная-установка', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/технические/контейнеры-для-генераторов', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/технические/авр', depth = depth) %}{% endcall %}
-
-      <li class='Nav__item Nav__item--h2'>Отраслевые решения</li>
-
-      {% call(depth) Item('/решения/отраслевые/нефтегазовый-комплекс/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/отраслевые/энергетический-комплекс/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/отраслевые/городское-и-муниципальное-хозяйство/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/отраслевые/сельское-хозяйство/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/отраслевые/промышленность/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/отраслевые/автомобилестроение/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/отраслевые/лесной-комплекс/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/решения/отраслевые/экологические-программы/', depth = depth) %}{% endcall %}
-    {% endcall %}
-    {% call(depth) Item('/услуги/') %}
-      {% call(depth) Item('/услуги/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
-
-      {% call(depth) Item('/услуги/доставка/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/услуги/кредит/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/услуги/обслуживание-и-ремонт/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/услуги/проектирование-и-обоснование/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/услуги/проекты-под-ключ/') %}{% endcall %}
-      {% call(depth) Item('/услуги/установка-и-запуск/', depth = depth) %}{% endcall %}
-    {% endcall %}
-    {% call(depth) Item('/дилерам/') %}{% endcall %}
-
-    {#
-     # Secondary items. Have smaller font-size
-     # ---------------------------------------
-     # @todo This have to be changed when transfered to Craft CMS.
-     #       Kotsu for now doesn't have good way to support multiple
-     #       lists in Nav component. Additional Nav component for
-     #       secondary items isn't an options, since for now Nav is the
-     #       only source of navigational items for subnav of Breadcrumb. Sadly.
-     #}
-
-    {% set secondaryClass = anchorsClass + ' h-text-' %}
-
-    {% call(depth) Item('/о-компании/', anchorClass = secondaryClass) %}
-      {% call(depth) Item('/о-компании/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
-
-      {% call(depth) Item('/о-компании/фасэнергомаш/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/о-компании/производство/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/о-компании/сертификаты/', depth = depth) %}{% endcall %}
-      {# @todo Enable for production when this section will be ready #}
-      {# {% if env.staging or not env.production %}
-      {% call(depth) Item('/о-компании/партнеры/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/о-компании/видеоматериалы/', depth = depth) %}{% endcall %}
-      {% endif %} #}
-      {% call(depth) Item('/о-компании/новости/', depth = depth) %}{% endcall %}
-    {% endcall %}
-    {% call(depth) Item('/контакты/', anchorClass = secondaryClass) %}{% endcall %}
+    {% call(depth) Item('/продукция/преимущества-наших-генераторов', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/гарантия', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/результаты-испытаний', depth = depth) %}{% endcall %}
     {# @todo Enable for production when this section will be ready #}
-    {# {% if env.staging or not env.production %}
-    {% call(depth) Item('/преимущества-и-особенности-газовых-генераторов/', anchorClass = secondaryClass) %}{% endcall %}
+    {# {% if ENV.staging or not ENV.production %}
+    {% call(depth) Item('/продукция/сертификаты-на-оборудование', depth = depth) %}{% endcall %}
     {% endif %} #}
-    {% if env.staging or not env.production %}
-    {% call(depth) Item('/styleguide/', anchorClass = secondaryClass) %}
-      {% call(depth) Item('/styleguide/', depth = depth, onlyActiveOnIndex = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
+  {% endcall %}
+  {% call(depth) Item('/решения') %}
+    {% call(depth) Item('/решения', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
-      {% call(depth) Item('/styleguide/pallete/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/styleguide/typography/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/styleguide/elements/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/styleguide/icons/', depth = depth) %}{% endcall %}
-      {% call(depth) Item('/styleguide/components/', depth = depth) %}{% endcall %}
-    {% endcall %}
-    {% endif %}
+    <li class='Nav__item Nav__item--h2'>Технические решения</li>
 
-  </ul>
+    {% call(depth) Item('/решения/технические/синхронизация-генераторных-установок', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/технические/когенерационная-установка', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/технические/контейнеры-для-генераторов', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/технические/авр', depth = depth) %}{% endcall %}
 
-  {% if enableDrawer %}
-  <div class='Drawer__overlay js-drawer__overlay js-drawer__close'></div>
-  <div class='Drawer__bg js-drawer__bg'></div>
+    <li class='Nav__item Nav__item--h2'>Отраслевые решения</li>
+
+    {% call(depth) Item('/решения/отраслевые/нефтегазовый-комплекс', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/отраслевые/энергетический-комплекс', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/отраслевые/городское-и-муниципальное-хозяйство', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/отраслевые/сельское-хозяйство', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/отраслевые/промышленность', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/отраслевые/автомобилестроение', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/отраслевые/лесной-комплекс', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/отраслевые/экологические-программы', depth = depth) %}{% endcall %}
+  {% endcall %}
+  {% call(depth) Item('/услуги') %}
+    {% call(depth) Item('/услуги', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
+
+    {% call(depth) Item('/услуги/доставка', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/услуги/кредит', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/услуги/обслуживание-и-ремонт', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/услуги/проектирование-и-обоснование', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/услуги/проекты-под-ключ') %}{% endcall %}
+    {% call(depth) Item('/услуги/установка-и-запуск', depth = depth) %}{% endcall %}
+  {% endcall %}
+  {% call(depth) Item('/дилерам') %}{% endcall %}
+
+  {#
+   # Secondary items. Have smaller font-size
+   # ---------------------------------------
+   # @todo This have to be changed when transfered to Craft CMS.
+   #       Kotsu for now doesn't have good way to support multiple
+   #       lists in Nav component. Additional Nav component for
+   #       secondary items isn't an options, since for now Nav is the
+   #       only source of navigational items for subnav of Breadcrumb. Sadly.
+   #}
+
+  {% set secondaryClass = anchorsClass + ' h-text-' %}
+
+  {% call(depth) Item('/о-компании', anchorClass = secondaryClass) %}
+    {% call(depth) Item('/о-компании', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
+
+    {% call(depth) Item('/о-компании/фасэнергомаш', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/о-компании/производство', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/о-компании/сертификаты', depth = depth) %}{% endcall %}
+    {# @todo Enable for production when this section will be ready #}
+    {# {% if ENV.staging or not ENV.production %}
+    {% call(depth) Item('/о-компании/партнеры', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/о-компании/видеоматериалы', depth = depth) %}{% endcall %}
+    {% endif %} #}
+    {% call(depth) Item('/о-компании/новости', depth = depth) %}{% endcall %}
+  {% endcall %}
+  {% call(depth) Item('/контакты', anchorClass = secondaryClass) %}{% endcall %}
+  {# @todo Enable for production when this section will be ready #}
+  {# {% if ENV.staging or not ENV.production %}
+  {% call(depth) Item('/преимущества-и-особенности-газовых-генераторов', anchorClass = secondaryClass) %}{% endcall %}
+  {% endif %} #}
+  {% if ENV.staging or not ENV.production %}
+  {% call(depth) Item('/styleguide', anchorClass = secondaryClass) %}
+    {% call(depth) Item('/styleguide', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
+
+    {% call(depth) Item('/styleguide/pallete', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/styleguide/typography', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/styleguide/elements', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/styleguide/icons', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/styleguide/components', depth = depth) %}{% endcall %}
+  {% endcall %}
   {% endif %}
+
+</ul>
+
+{% if enableDrawer %}
+<div class='Drawer__overlay js-drawer__overlay js-drawer__close'></div>
+<div class='Drawer__bg js-drawer__bg'></div>
+{% endif %}
 {% endmacro %}

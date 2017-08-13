@@ -1,10 +1,12 @@
 ---
 url:              /
+
 title:            Газовое оборудование «Фасэнергомаш»
-breadcrumbTitle:  Главная
 contentTitle:     Главная
 navTitle:         Главная
-metaDesc:         Промышленные станции, генераторы для частного жилья и малого/среднего бизнеса, синхронизированные генераторные группы и когенерационные установки, испарительно-смесительное оборудование.
+breadcrumbTitle:  Главная
+
+description:      Промышленные станции, генераторы для частного жилья и малого/среднего бизнеса, синхронизированные генераторные группы и когенерационные установки, испарительно-смесительное оборудование.
 
 class:                     p-index
 applyWrapper:              false
@@ -20,7 +22,6 @@ showContentTitle:          false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-
 {% set pageContainerClass = 'Wrapper Wrapper--container' %}
 {% set pageContentClass = 'Wrapper--content h-margin-sides--auto' %}
 {% set pageSectionTopWrapper = 'h-padding-top++--' %}
@@ -28,7 +29,7 @@ showContentTitle:          false
 
 <header
   class='Shade t-quaternary h-padding-top+ h-bg--cover h-bg--center'
-  style='background-image: url(/{{ path.images + '/hero.jpg' }})'
+  style='background-image: url({{ urljoin('/', PATH.images, '/hero.jpg') }})'
 >
   <div class='{{ pageContainerClass }}'>
     <div class='{{ pageContentClass }}'>
@@ -96,8 +97,8 @@ showContentTitle:          false
 
     <h2 class='h-margin-bottom+ h-color--secondary'>Новости</h2>
 
-    {{ components.Promos() }}
-    {{ components.Posts(limit = 2, displayActivePromos = false) }}
+    {{ Promos() }}
+    {{ Posts(limit = 2, displayActivePromos = false) }}
 
     <p><a href='/о-компании/новости' class='Btn'>Посмотреть все</a></p>
 
@@ -195,5 +196,4 @@ showContentTitle:          false
     </div>
   </div>
 </section> #}
-
 {% endblock %}

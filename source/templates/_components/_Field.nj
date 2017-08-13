@@ -31,8 +31,8 @@
  # @return {string} html
  #
  # @example
- #  {{ components.Field(id = 'fieldName', label = 'label', disabled = true) }}
- #  {% call components.Field(name = 'field-name', label = 'Label', type = 'textarea') -%}
+ #  {{ Field(id = 'fieldName', label = 'label', disabled = true) }}
+ #  {% call Field(name = 'field-name', label = 'Label', type = 'textarea') -%}
  #    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
  #  {% endcall %}
  #}
@@ -108,7 +108,7 @@
 
     {% endif %}
 
-    <div class='Field__valid-mark'>{{ components.Icon('check') }}</div>
+    <div class='Field__valid-mark'>{{ Icon('check') }}</div>
 
   </div>
 

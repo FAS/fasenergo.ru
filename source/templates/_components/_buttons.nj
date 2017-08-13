@@ -9,7 +9,7 @@
  #}
 {% macro PDFButton(label, url, class) %}
 <a class='Btn h-text++ {{ class }}' href='{{ url }}' target='_blank'>
-  {{ components.Icon('pdf', 'h-margin-right-- h-align--middle h-top h-text--em+--') }}
+  {{ Icon('pdf', 'h-margin-right-- h-align--middle h-top h-text--em+--') }}
   <span class='h-text h-align--middle'>{{ label }}</span>
 </a>
 {% endmacro %}

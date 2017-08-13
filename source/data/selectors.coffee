@@ -5,8 +5,8 @@ moment = require('moment')
 # Generators selectors
 ######################
 
-selectGenerator = (data, id) -> data.generators[id]
-selectGeneratorsIds = (data) -> Object.keys(data.generators)
+selectGenerator = (data, id) -> data[id]
+selectGeneratorsIds = (data) -> Object.keys(data)
 selectGenerators = (data, discontinued) ->
   generators = selectGeneratorsIds(data).map (id) => selectGenerator(data, id)
   generators = if discontinued then generators else rejectDiscontinued(generators)
@@ -103,8 +103,8 @@ filterOutWithId = (entries, id) -> entries.filter (e) => e.slug != id
 # Engines selectors
 ######################
 
-selectEngine = (data, id) -> data.engines[id]
-selectEnginesIds = (data) -> Object.keys(data.engines)
+selectEngine = (data, id) -> data[id]
+selectEnginesIds = (data) -> Object.keys(data)
 selectEngines = (data) -> selectEnginesIds(data).map (id) => selectEngine(data, id)
 
 selectEnginesBrands = (data) -> selectEngines(data).reduce (brands, engine) =>

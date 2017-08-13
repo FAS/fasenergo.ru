@@ -16,7 +16,7 @@
  # @return {string} Figure
  #
  # @example
- #   {{ components.Images(
+ #   {{ Images(
  #     images = [{
  #       src: 'https://placehold.it/1350x700',
  #       alt: 'Описание картинки'

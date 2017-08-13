@@ -7,7 +7,7 @@
  # @return {string} HTML
  #
  # @example
- #   {% call components.DropShower(label = 'Комплектация') %}
+ #   {% call DropShower(label = 'Комплектация') %}
  #     <ul class='h-childs-space-top0'>
  #       {% for e in list %}<li>{{ e }}</li>{% endfor %}
  #     </ul>

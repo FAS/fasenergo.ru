@@ -1,12 +1,13 @@
 {##
- # Display nav item. Should be used in context of Nav component
+ # Display Nav item. Should be used in context of Nav component
  #
- # @param {string} to                                    Absolute or relative path passed to Link
+ # @param {string} to                                    Absolute path to page
  # @param {string} [label]                               Label of the anchor
  # @param {number} [depth]                 = 1           Depth of current nav item
  # @param {string} [itemsClass]            = ''          Class of list item
  # @param {string} [anchorsClass]          = ''          Class of anchor inside list itme
- # @param {bool}   [onlyActiveOnIndex]     = false       Set item to be active only in case current route matches link's route
+ # @param {bool}   [exact]                 = false       Set item to be active only if item
+ #                                                       path completely matches current breadcrumb
  # @param {string} [activeClass]           = 'is-active' Class of active list item
  # @param {number} [startDepth]            = 1           From which depth nav should start to print
  # @param {number} [maxDepth]              = 999999      Max amount of subnavs to print
@@ -23,58 +24,57 @@
   depth                 = 1,
   class                 = '',
   anchorClass           = '',
-  onlyActiveOnIndex     = false,
+  exact                 = false,
   activeClass           = 'is-active',
   startDepth            = 1,
   maxDepth              = 999999,
   showInnerOnlyOnActive = false,
   enableDrawer          = false
 ) %}
+{% set itemIsActive = isActive(to, exact) %}
+{% set itemProps    = getPage(to).props|format(PLACEHOLDERS) %}
 
-  {% set itemIsActive = isActive(to, onlyActiveOnIndex) %}
-  {% set itemProps    = getPage(crumble(to)).props|template(site.placeholders) %}
+{# For cases when you need to have sub navs #}
+{% set callerDepth = depth + 1 %}
+{% if (callerDepth <= maxDepth) and (itemIsActive if showInnerOnlyOnActive else true) %}
+  {% set subnav = caller(callerDepth) if caller %}
+  {% set subnavNotEmpty = true if subnav.val %}
+{% endif %}
 
-  {# For cases when you need to have sub navs #}
-  {% set callerDepth = depth + 1 %}
-  {% if (callerDepth <= maxDepth) and (itemIsActive if showInnerOnlyOnActive else true) %}
-    {% set subnav = caller(callerDepth) if caller %}
-    {% set subnavNotEmpty = true if subnav.val %}
-  {% endif %}
+{% if depth >= startDepth and itemProps.display != false %}
 
-  {% if depth >= startDepth and itemProps.display != false %}
+  <li class='{{ class }} {{ activeClass if itemIsActive }}'>
 
-    <li class='{{ class }} {{ activeClass if itemIsActive }}'>
+    {% call Link(
+      to = to,
+      class = anchorClass + (' has-subnav' if subnavNotEmpty) + (' js-drawer' if enableDrawer and subnavNotEmpty),
+      exact = exact,
+      activeClass = activeClass
+    ) %}
+    {{ label or itemProps.navTitle }}
+    {{ Icon('dir-right', class = 'Nav__subnav-icon Icon--right h-text--em-- h-top') if subnavNotEmpty }}
+    {% endcall %}
 
-      {% call components.Link(
-        to = to,
-        class = anchorClass + (' has-subnav' if subnavNotEmpty) + (' js-drawer' if enableDrawer and subnavNotEmpty),
-        onlyActiveOnIndex = onlyActiveOnIndex,
-        activeClass = activeClass
-      ) %}
-        {{ label if label else itemProps.navTitle }}
-        {{ components.Icon('dir-right', class = 'Nav__subnav-icon Icon--right h-text--em-- h-top') if subnavNotEmpty }}
-      {% endcall %}
+    {# @todo This code needs improvement, ifs are not ok #}
+    {% if subnavNotEmpty %}
+    {% if enableDrawer %}
+    <div class='Drawer js-drawer__nav h-text-'>
+      <button class='Drawer__close js-drawer__close' aria-label='Закрыть меню'>{{ Icon('x') }}</button>
+    {% endif %}
+      <ul class='{{ 'Drawer__content' if enableDrawer }} o-nav o-nav--stacked'>
+        {{ subnav }}
+      </ul>
+    {% if enableDrawer %}
+    </div>
+    {% endif %}
+    {% endif %}
 
-      {% if subnavNotEmpty %}
-      {% if enableDrawer %}
-      <div class='Drawer js-drawer__nav h-text-'>
-        <button class='Drawer__close js-drawer__close' aria-label='Закрыть меню'>{{ components.Icon('x') }}</button>
-      {% endif %}
-        <ul class='{{ 'Drawer__content' if enableDrawer }} o-nav o-nav--stacked'>
-          {{ subnav }}
-        </ul>
-      {% if enableDrawer %}
-      </div>
-      {% endif %}
-      {% endif %}
+  </li>
 
-    </li>
+{# Go on to loop over subnavs, untill we reach needed depth #}
+{% else %}
 
-  {# Go on to loop over subnavs, untill we reach needed depth #}
-  {% else %}
+  {{ subnav }}
 
-    {{ subnav }}
-
-  {% endif %}
-
+{% endif %}
 {% endmacro %}

@@ -22,7 +22,7 @@
  # @return {string} html
  #
  # @example
- #   {{ components.Checkbox(
+ #   {{ Checkbox(
  #     id = 'filterEngineBrandLoncin',
  #     name = 'engineBrand',
  #     value = 'LONCIN',
@@ -71,7 +71,7 @@
 
   <span class='{{ labelClass }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</span>
 
-  {% if icon %}{{ components.Icon(icon, class = iconClass) }}{% endif %}
+  {% if icon %}{{ Icon(icon, class = iconClass) }}{% endif %}
 
 </label>
 {% endmacro %}

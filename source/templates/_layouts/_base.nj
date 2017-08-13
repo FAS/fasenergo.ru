@@ -1,34 +1,45 @@
-{# Global placeholders values #}
-{{ config('site.placeholders', {
-  company: site.name
-}) }}
+{{ initPage() }}
 
-{# Default configs #}
-{{ config('page', { breadcrumb : page.props.breadcrumb }) }}
-{{ config('page', getPage(page.breadcrumb).props|template(site.placeholders)) }}
-{{ config('page', {
-  class                     : '',
-  coverImage                : false,
-  applyWrapper              : true,
-  applyWrapperV             : true,
-  applyWrapperMain          : true,
-  applyWrapperContainer     : true,
-  applyWrapperContent       : true,
-  forceFooterWrapperContent : false,
-  applyPreformat            : true,
-  showContentTitle          : true,
-  showBreadcrumb            : true
-}) }}
-{{ config('page', page.props) }}
+{% block imports %}
+{% from '_components/_Icon.nj' import Icon with context %}
 
-{# Global macros #}
-{% set components = {} %}
-{% for component in expand('/', '_components/{,**/}_*.nj', 'isFile', path.source.templates) %}
-  {% import component as temp with context %}{% set macro = _.assign(components, temp) %}
-{% endfor %}
+{% from '_components/_buttons.nj' import PDFButton with context %}
+{% from '_components/_formatters.nj' import Email, Skype, Phone, PhasesToWord, FuelTypeToWord, CoolingToWord, PowersList with context %}
+
+{% from '_components/_Blockquote.nj' import Blockquote with context %}
+{% from '_components/_Callback.nj' import Callback with context %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_Checkbox.nj' import Checkbox with context %}
+{% from '_components/_Contact.nj' import Contact with context %}
+{% from '_components/_DropShower.nj' import DropShower with context %}
+{% from '_components/_Field.nj' import Field with context %}
+{% from '_components/_Image.nj' import Image with context %}
+{% from '_components/_Images.nj' import Images with context %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_PostPreview.nj' import PostPreview with context %}
+{% from '_components/_Posts.nj' import Posts with context %}
+{% from '_components/_ProductCard.nj' import ProductCard with context %}
+{% from '_components/_PromoPreview.nj' import PromoPreview with context %}
+{% from '_components/_Promos.nj' import Promos with context %}
+{% from '_components/_SocialShare.nj' import SocialShare with context %}
+{% from '_components/_SocialUrls.nj' import SocialUrls with context %}
+{% from '_components/_SolutionPreview.nj' import SolutionPreview with context %}
+{% from '_components/_Sorter.nj' import Sorter with context %}
+
+{% from '_components/analytics/_GoogleAnalytics.nj' import GoogleAnalytics with context %}
+{% from '_components/analytics/_YandexMetrika.nj' import YandexMetrika with context %}
+{% from '_components/_AlternateUrls.nj' import AlternateUrls with context %}
+{% from '_components/_Breadcrumb.nj' import Breadcrumb with context %}
+{% from '_components/_Example.nj' import Example with context %}
+{% from '_components/_IE.nj' import IE with context %}
+{% from '_components/_Link.nj' import Link with context %}
+{% from '_components/_NavItem.nj' import NavItem with context %}
+{% from '_components/_Nav.nj' import Nav with context %}
+{% from '_components/_OutdatedBrowser.nj' import OutdatedBrowser with context %}
+{% endblock %}
 
 <!doctype html>
-<html class='{{ page.class }} t-base no-js' lang='{{ page.locale }}' {{ 'dir=\'rtl\'' if page.rtl }}>
+<html class='{{ PAGE.class }} t-base no-js' lang='{{ PAGE.locale }}' {{ 'dir=\'rtl\'' if PAGE.rtl }} vocab='https://schema.org/'>
 
 <head>
 
@@ -37,90 +48,112 @@
   <!-- IE compatibility -->
   <meta http-equiv='x-ua-compatible' content='ie=edge'>
 
-  <title>{{ page.title if page.title else site.name }}</title>
+  <!-- Meta -->
+  <title>{{ PAGE.title or SITE.name }}</title>
+  <meta name='description' content='{{ PAGE.description }}'>
 
-  <!-- Description -->
-  <meta name='description' content='{{ page.metaDesc }}'>
-
-  {# @todo Disabled due to https://trello.com/c/3xJdvoIp/125-- #}
-  {# <!-- Mobile devices -->
-  <meta name='viewport' content='width=device-width, initial-scale=1'> #}
+  <!-- Viewport -->
+  <meta name='viewport' content='{{ PAGE.viewport or SITE.viewport }}'>
 
   <!-- CSS -->
-  <link rel='stylesheet' href='/{{ path.styles }}/{{ 'style.min.css' if env.production else 'style.prefixed.css' }}'>
+  {% block css %}
+  <link rel='stylesheet' href='{{ urljoin('/', PATH.styles, 'style.min.css' if ENV.build else 'style.prefixed.css') }}'>
+  {% endblock %}
 
-  <!-- Theme -->
-  <meta name='theme-color' content='{{ page.themeColor if page.themeColor else site.themeColor }}'>
-
-  <!-- Favicon -->
-  <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png'>
-  <link rel='icon' type='image/png' href='/favicon-32x32.png' sizes='32x32'>
-  <link rel='icon' type='image/png' href='/favicon-16x16.png' sizes='16x16'>
+  <!-- Manifest -->
   <link rel='manifest' href='/manifest.json'>
-  <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#ef4324'> <meta name='theme-color' content='#ffffff'>
+
+  <!-- Icons -->
+  <link rel='apple-touch-icon' href='/apple-touch-icon.png'>
+  <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#ef4324'>
 
   {# <!-- RSS -->
   <link rel='alternate' type='application/rss+xml' title='RSS' href='/rss.xml'> #}
 
-  <!-- Facebook Open Graph -->
-  <meta property='og:type'        content='website'>
-  <meta property='og:site_name'   content='{{ site.name }}'>
-  <meta property='og:locale'      content='{{ page.isoLocale }}'>
-  <meta property='og:url'         content='{{ site.homepage }}{{ localeDir() }}{{ page.url }}'>
-  <meta property='og:title'       content='{{ page.title if page.title else site.name }}'>
-  <meta property='og:description' content='{{ page.metaDesc if page.metaDesc else site.desc }}'>
-  <meta property='og:image'       content='{{ site.homepage + (page.image or '/' + path.images + '/facebook.png') }}'>
+  <!-- Theme -->
+  <meta name='theme-color' content='{{ PAGE.themeColor or SITE.themeColor }}'>
+
+  <!-- RDFa -->
+  <meta typeof='WebSite' resource='#this-website'>
+  <meta about='#this-website' property='name' content='{{ SITE.name }}'>
+  <link about='#this-website' property='url' href='{{ SITE.homepage }}'>
+
+  <meta typeof='Organization' resource='#this'>
+  <meta about='#this' property='name' content='{{ SITE.name }}'>
+  <meta about='#this' property='logo' content='{{ absoluteurl(SITE.logo) }}'>
+  <link about='#this' property='url' href='{{ urljoin(SITE.homepage, localeDir()) }}'>
+  {% for service, props in SOCIAL %}
+  <link about='#this' property='sameAs' href='{{ props.url }}'>
+  {% endfor %}
+
+  <!-- Open Graph -->
+  <meta property='og:type'        content='{{ PAGE.og.type or 'website' }}'>
+  <meta property='og:site_name'   content='{{ PAGE.og.site_name or SITE.name }}'>
+  <meta property='og:url'         content='{{ absoluteurl(PAGE.og.url or (localeDir() if PAGE.url == '/' else urljoin(localeDir(), PAGE.url))) }}'>
+  <meta property='og:title'       content='{{ PAGE.og.title or PAGE.title or SITE.name }}'>
+  <meta property='og:description' content='{{ PAGE.og.description or PAGE.description or SITE.description }}'>
+  <meta property='og:image'       content='{{ absoluteurl(PAGE.og.image or PAGE.image or SOCIAL.facebook.image) }}'>
+  <meta property='og:locale'      content='{{ PAGE.og.locale or PAGE.isoLocale }}'>
+  {% for locale in _.union(_.keys(SITE.locales), PAGE.og['locale:alternate']) %}
+  <meta property='og:locale:alternate' content='{{ locale|isoLocale }}'>
+  {% endfor %}
 
   <!-- Twitter Card -->
-  <meta name='twitter:card'        content='summary'>
-  <meta name='twitter:site'        content='{{ site.twitter }}'>
-  <meta name='twitter:creator'     content='{{ site.twitter }}'>
-  <meta name='twitter:url'         content='{{ site.homepage }}{{ localeDir() }}{{ page.url }}'>
-  <meta name='twitter:title'       content='{{ page.title if page.title else site.name }}'>
-  <meta name='twitter:description' content='{{ page.metaDesc if page.metaDesc else site.desc }}'>
-  <meta name='twitter:image'       content='{{ site.homepage + (page.image or '/' + path.images + '/twitter.png') }}'>
-  <meta name='twitter:image:alt'   content='{{ page.title if page.title else site.name }}'>
+  <meta name='twitter:card'        content='{{ PAGE.twitter.card or 'summary' }}'>
+  <meta name='twitter:site'        content='{{ PAGE.twitter.site or SOCIAL.twitter.handle }}'>
+  <meta name='twitter:creator'     content='{{ PAGE.twitter.creator or SOCIAL.twitter.handle }}'>
+  <meta name='twitter:url'         content='{{ absoluteurl(PAGE.twitter.url or (localeDir() if PAGE.url == '/' else urljoin(localeDir(), PAGE.url))) }}'>
+  <meta name='twitter:title'       content='{{ PAGE.twitter.title or PAGE.title or SITE.name }}'>
+  <meta name='twitter:description' content='{{ PAGE.twitter.description or PAGE.description or SITE.description }}'>
+  <meta name='twitter:image'       content='{{ absoluteurl(PAGE.twitter.image or PAGE.image or SOCIAL.twitter.image) }}'>
+  <meta name='twitter:image:alt'   content='{{ PAGE.twitter['image:alt'] or PAGE.title or SITE.name }}'>
 
   <!-- Alternate urls -->
-  {% for locale, props in site.locales %}
-  <link rel='alternate' hreflang='{{ props.locale }}' href='{{ site.homepage }}{{ localeDir(props.locale) }}{{ page.url }}'>
-  {% if props.defaultForLanguage %}
-  <link rel='alternate' hreflang='{{ props.locale|langcode }}' href='{{ site.homepage }}{{ localeDir(props.locale) }}{{ page.url }}'>
-  {% endif %}
+  {% for locale, props in SITE.locales %}
+  {{ AlternateUrls(props.locale, defaultForLanguage = props.defaultForLanguage) }}
+  {% endfor %}
+  {% for props in PAGE.alternate %}
+  {{ AlternateUrls(props.locale, props.url, props.defaultForLanguage) }}
+  {% endfor %}
+
+  <!-- Canonical urls -->
+  {% for url in PAGE.canonical %}
+  <link rel='canonical' href='{{ absoluteurl(url) }}'>
   {% endfor %}
 
   <!-- Authors -->
   <link rel='author' href='/humans.txt'>
 
-  {{ components.IE(version = 'lte IE 9') }}
+  {{ IE(version = 'lte IE 9') }}
 
 </head>
 
-<body class='Wrapper--site Wrapper--sidebar-shift o-panel o-panel--max'>
+<body class='{{ PAGE.bodyClass }} o-panel o-panel--max'>
 
-  {{ components.OutdatedBrowser(version = 'lte IE 9') }}
+  {{ OutdatedBrowser(version = 'lte IE 9') }}
 
   {% block body %}{% endblock %}
 
   <!-- Scripts -->
   <!-- ======= -->
 
-  {% if env.production %}
-  <script src='/{{ path.scripts }}/main.min.js'></script>
-  {% else %}
-  <script src="/jspm_packages/system.js"></script>
-  <script src="/jspm.config.js"></script>
-
+  {% block js %}
+  {% if ENV.hotModuleRloading %}
+  <script src='/jspm_packages/system.js'></script>
+  <script src='/jspm.config.js'></script>
   <script>
     SystemJS.import('systemjs-hot-reloader').then((connect) => {
       connect()
       SystemJS.import('main.js')
     })
   </script>
+  {% else %}
+  <script src='{{ urljoin('/', PATH.scripts, 'main.min.js' if ENV.build else 'main.js') }}'></script>
   {% endif %}
+  {% endblock %}
 
-  {{ components.GoogleAnalytics(siteId = site.googleAnalyticsId) if site.googleAnalyticsId }}
-  {{ components.YandexMetrika(counterId = site.yandexMetrikaId) if site.yandexMetrikaId }}
+  {{ GoogleAnalytics(siteId = SITE.googleAnalyticsId) if SITE.googleAnalyticsId }}
+  {{ YandexMetrika(counterId = SITE.yandexMetrikaId) if SITE.yandexMetrikaId }}
 
 </body>
 

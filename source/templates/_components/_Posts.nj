@@ -11,16 +11,16 @@
  #
  # @return {string} News posts
  #
- # @example {{ components.Posts(limit = 2, displayActivePromos = false) }}
+ # @example {{ Posts(limit = 2, displayActivePromos = false) }}
  #}
 {% macro Posts(path = ['о-компании', 'новости'], limit, displayCurrent = true, displayActivePromos = true) %}
-{% set posts = sortPostsByDate(getPage(path)|template(site.placeholders)) %}
-{% set posts = not displayCurrent and rejectCurrentPosts(posts, page) or posts %}
+{% set posts = sortPostsByDate(getPage(path)|format(PLACEHOLDERS)) %}
+{% set posts = not displayCurrent and rejectCurrentPosts(posts, PAGE) or posts %}
 {% set posts = not displayActivePromos and rejectActivePromos(posts) or posts %}
 {% set posts = limit and _.take(posts, limit) or posts %}
 
 {% for p in posts %}
-{{ components.PostPreview(
+{{ PostPreview(
   title = p.props.contentTitle,
   desc = p.props.desc,
   date = p.props.date,

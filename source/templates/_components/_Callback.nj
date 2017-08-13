@@ -1,7 +1,7 @@
 {##
  # Display Order callback button with it's MangoOffice modal
  # @return {string} html
- # @example {{ components.Callback() }}
+ # @example {{ Callback() }}
  #}
 {% macro Callback() %}
 <div class='mango-callback h-margin-bottom--'
@@ -18,7 +18,7 @@
     '
   >
     {# @todo Battle with extremely invasive MangoOffice css styles #}
-    {{ components.Icon('phone', 'Icon--left', style = 'margin-right: 0.75em;') }}
+    {{ Icon('phone', 'Icon--left', style = 'margin-right: 0.75em;') }}
     Заказать звонок
   </button>
 </div>

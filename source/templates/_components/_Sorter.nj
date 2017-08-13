@@ -14,14 +14,14 @@
  # @return {string} html
  #
  # @example
- #   {{ components.Sorter(
+ #   {{ Sorter(
  #     id = 'sortByPower',
  #     name = 'sort',
  #     value = 'byPower',
  #     label = 'по мощности',
  #     checked = true
  #   ) }}
- #   {{ components.Sorter(
+ #   {{ Sorter(
  #     id = 'sortByPrice',
  #     name = 'sort',
  #     value = 'byPrice',
@@ -29,7 +29,7 @@
  #   ) }}
  #}
 {% macro Sorter(id, label, value, name, class, labelClass, inputClass, iconClass, checked) %}
-{{ components.Checkbox(
+{{ Checkbox(
   type = 'radio',
   id = id,
   name = name,

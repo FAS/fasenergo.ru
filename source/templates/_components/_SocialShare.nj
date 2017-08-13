@@ -10,7 +10,7 @@
  # @return {string} Locale-specific list of share urls in form of `<ul>`
  #
  # @example
- #  {{ components.SocialShare() }}
+ #  {{ SocialShare() }}
  #}
 {% macro SocialShare(class, listClass, itemsClass, anchorsClass, iconsClass) %}
 <footer class='{{ class }} Box h-padding-- h-inline-block h-text+'>
@@ -26,18 +26,18 @@
           data-tooltip='{{ tooltip }}'
           aria-label='{{ tooltip }}'
           target='_blank'>
-          <span aria-hidden='true'>{{ components.Icon(iconName, class = iconClass) }}</span>
+          <span aria-hidden='true'>{{ Icon(iconName, class = iconClass) }}</span>
         </a>
       </li>
     {% endmacro %}
 
-    {% set pageFullUrl = site.homepage + page.url %}
+    {% set pageFullUrl = urljoin(SITE.homepage, PAGE.url) %}
 
-    {{ Item('Поделиться Вконтакте', 'vk', 'https://vk.com/share.php?url=' + pageFullUrl + '&image=' + site.homepage + page.image) }}
+    {{ Item('Поделиться Вконтакте', 'vk', 'https://vk.com/share.php?url=' + pageFullUrl + ('&image=' + urljoin(SITE.homepage, PAGE.image))) if PAGE.image }}
     {{ Item('Поделиться в Facebook', 'facebook', 'https://www.facebook.com/sharer.php?u=' + pageFullUrl) }}
-    {{ Item('Поделиться в Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + pageFullUrl + '&text=' + page.contentTitle + '&via=' + _.trimStart(site.twitter, '@') + '&hashtags=fasenergo') }}
+    {{ Item('Поделиться в Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + pageFullUrl + '&text=' + PAGE.contentTitle + '&via=' + _.trimStart(SOCIAL.twitter.handle, '@') + '&hashtags=fasenergo') }}
     {{ Item('Поделиться в Google+', 'google-plus', 'https://plus.google.com/share?url=' + pageFullUrl) }}
-    {{ Item('Поделиться в LinkedIn', 'linkedin', 'https://www.linkedin.com/shareArticle?url=' + pageFullUrl + '&title=' + page.contentTitle) }}
+    {{ Item('Поделиться в LinkedIn', 'linkedin', 'https://www.linkedin.com/shareArticle?url=' + pageFullUrl + '&title=' + PAGE.contentTitle) }}
 
   </ul>
 

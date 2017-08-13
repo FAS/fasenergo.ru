@@ -7,7 +7,7 @@
  #
  # @return {string} Icon in span
  #
- # @example {{ components.Icon('phone', 'Icon--left') }}
+ # @example {{ Icon('phone', 'Icon--left') }}
  #}
 {%- macro Icon(name, class, style) -%}
 

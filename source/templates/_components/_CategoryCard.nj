@@ -2,7 +2,7 @@
  # Display catalog category card
  #
  # @param {string} title          Card title
- # @param {string} [image] = '/' + path.images + '/no-photo.png'
+ # @param {string} [image] = urljoin('/', PATH.images, '/no-photo.png')
  #                                Preview image for card
  # @param {string} url            Url to category
  # @param {'small'|null} [size]   Size of a block
@@ -18,10 +18,10 @@
  # @return {string} HTML
  #
  # @example
- #   {% call components.CategoryCard(
+ #   {% call CategoryCard(
  #     title = 'Test series',
  #     url = '/catalog/test',
- #     image = '/' + path.images + '/test.png',
+ #     image = urljoin('/', PATH.images, '/test.png'),
  #     power = { from: 10, to: 20, units: ' кВт' },
  #     discount = 15
  #   ) %}
@@ -30,7 +30,7 @@
  #}
 {% macro CategoryCard(
   title,
-  image = '/' + path.images + '/no-photo.png',
+  image = urljoin('/', PATH.images, '/no-photo.png'),
   url,
   power,
   size,

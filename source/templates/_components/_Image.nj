@@ -11,7 +11,7 @@
  # @return {string} Figure
  #
  # @example
- #   {{ components.Image(
+ #   {{ Image(
  #     src = 'https://placehold.it/1350x550',
  #     caption = 'Тестирование двигателей на производстве',
  #     alt = 'Описание картинки',

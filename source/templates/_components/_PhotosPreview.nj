@@ -5,20 +5,20 @@
  # @param {string}   photos.url      Photo url
  # @param {string}   photos.alt      Photo alt
  # @param {string}   [alt]           Alt to fallback in case no photo alt provided
- # @param {string}   [imagesPath] = '/' + path.images
+ # @param {string}   [imagesPath] = urljoin('/', PATH.images)
  #                                   Default path to images root
  # @param {string}   [class]         Class for main wrapper
  #
  # @return {string} HTML
  #
  # @example
- #   {{ components.PhotosPreview(gen.photos, gen.title|striptags) }}
+ #   {{ PhotosPreview(gen.photos, gen.title|striptags) }}
  #}
-{% macro PhotosPreview(photos, alt, imagesPath = '/' + path.images, class) %}
+{% macro PhotosPreview(photos, alt, imagesPath = urljoin('/', PATH.images), class) %}
 <div class='js-photos-block {{ class }} h-align--center'>
 
   <div class='js-photos-block__main'>
-    {% set photoUrl = imagesPath + '/' + photos[0].url %}
+    {% set photoUrl = urljoin(imagesPath, '/', photos[0].url) %}
 
     <a class='h-block h-border-bottom0' style='height: 600px' href='{{ photoUrl }}'>
       <img class='h-height-1/1' style='object-fit: contain' src='{{ photoUrl }}' alt='{{ photos[0].alt or alt }}'>
@@ -28,7 +28,7 @@
   {% if photos.length > 1 %}
   <div class='js-photos-block__thumbs'>
     {% for photo in photos %}
-    {% set photoUrl = imagesPath + '/' + photo.url %}
+    {% set photoUrl = urljoin(imagesPath, photo.url) %}
 
     <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}'>
       <img class='h-align--middle' src='{{ photoUrl }}' height='80' alt='{{ photo.alt or alt }}'>
