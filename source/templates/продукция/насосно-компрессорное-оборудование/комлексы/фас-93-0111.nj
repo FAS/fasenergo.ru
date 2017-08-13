@@ -69,6 +69,6 @@ metaDesc:        Насосная установка&nbsp;№93.0111
 
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap h-margin-bottom+'>503 600 рублей.</p>
-  <p><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты/#order'>Запросить ТКП</a></p>
+  <p><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты#order'>Запросить ТКП</a></p>
 </div>
 {% endblock %}

@@ -42,7 +42,7 @@ metaDesc:        Контрольные окошки
     {% for e in pageEq %}
     <tr>
       <td>{{ e.title }}</td>
-      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты/#order'>Запросить ТКП</a>
+      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}

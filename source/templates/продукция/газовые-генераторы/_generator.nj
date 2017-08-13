@@ -108,7 +108,7 @@
             {% endif %}
 
             {% if not isDiscontinued %}
-            <a property='url' class='js-metrica-order Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='/контакты/#order'>Сделать заказ</a>
+            <a property='url' class='js-metrica-order Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='/контакты#order'>Сделать заказ</a>
             <p class='h-margin-top-- h-margin-bottom0'>или <a class='js-metrica-ask-question' href='/контакты'>задать вопрос</a></p>
             {% endif %}
 

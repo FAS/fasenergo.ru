@@ -68,6 +68,6 @@ metaDesc:        Электронная топливораздаточная к�
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap'>19 570 €</p>
   <p class='h-margin-bottom+'>Срок поставки: 6-10 недель</p>
-  <p><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты/#order'>Запросить ТКП</a></p>
+  <p><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты#order'>Запросить ТКП</a></p>
 </div>
 {% endblock %}

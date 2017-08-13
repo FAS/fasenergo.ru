@@ -86,7 +86,7 @@ metaDesc:        Самовсасывающие установки
         {% endcall %}
         {% endif %}
       </td>
-      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты/#order'>Запросить ТКП</a>
+      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}

@@ -61,7 +61,7 @@ metaDesc:        Обратные и скоростные клапаны
       <td>{{ e.size }}</td>
       <td>{{ e.width }}&nbsp;мм</td>
       <td>{{ e.weight }}&nbsp;кг</td>
-      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты/#order'>Запросить ТКП</a>
+      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты#order'>Запросить ТКП</a>
       </td>
     </tr>
     {% endfor %}
