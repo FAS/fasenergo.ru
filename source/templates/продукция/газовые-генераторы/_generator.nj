@@ -206,12 +206,14 @@
           {% if enclosure.material %}<tr><th class='h-text--'>Материал исполнения</th><td>{{ enclosure.material|capitalize }}</td></tr>{% endif %}
         </table>
 
+        {% if size or enclosure.weight %}
         <h3 class='h-h5'>Габариты и масса:</h3>
 
         <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
           {% if size %}<tr><th class='h-text--'>Габариты</th><td>{{ size }} <span class='h-text--'>мм</span></td></tr>{% endif %}
           {% if enclosure.weight %}<tr><th class='h-text--'>Масса</th><td>{{ enclosure.weight }} <span class='h-text--'>кг</span></td></tr>{% endif %}
         </table>
+        {% endif %}
 
       </div>
 
