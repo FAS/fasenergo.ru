@@ -1,9 +1,10 @@
 ---
-title:            Отраслевые и технические решения
-breadcrumbTitle:  Решения
-contentTitle:     Отраслевые и технические решения
-navTitle:         Решения
-metaDesc:         Отраслевые и технические решения
+title:           Отраслевые и технические решения
+contentTitle:    Отраслевые и технические решения
+navTitle:        Решения
+breadcrumbTitle: Решения
+
+description: Отраслевые и технические решения
 ---
 
 {% extends '_layouts/_main.nj' %}

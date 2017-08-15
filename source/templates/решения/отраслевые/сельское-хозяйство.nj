@@ -1,9 +1,10 @@
 ---
-title:            Сельское хозяйство
-breadcrumbTitle:  Сельское хозяйство
-contentTitle:     Сельское хозяйство
-navTitle:         Сельское хозяйство
-metaDesc:         Сельское хозяйство
+title:           Сельское хозяйство
+contentTitle:    Сельское хозяйство
+navTitle:        Сельское хозяйство
+breadcrumbTitle: Сельское хозяйство
+
+description: Сельское хозяйство
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -1,9 +1,10 @@
 ---
-title:            Нефтегазовый комплекс
-breadcrumbTitle:  Нефтегазовый комплекс
-contentTitle:     Нефтегазовый комплекс
-navTitle:         Нефтегазовый комплекс
-metaDesc:         Нефтегазовый комплекс
+title:           Нефтегазовый комплекс
+contentTitle:    Нефтегазовый комплекс
+navTitle:        Нефтегазовый комплекс
+breadcrumbTitle: Нефтегазовый комплекс
+
+description: Нефтегазовый комплекс
 ---
 
 {% extends '_layouts/_main.nj' %}

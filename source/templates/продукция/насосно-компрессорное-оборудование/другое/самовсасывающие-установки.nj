@@ -1,9 +1,10 @@
 ---
 title:           Самовсасывающие установки
-breadcrumbTitle: Самовсасывающие установки
 contentTitle:    Самовсасывающие установки
 navTitle:        Самовсасывающие установки
-metaDesc:        Самовсасывающие установки
+breadcrumbTitle: Самовсасывающие установки
+
+description: Самовсасывающие установки
 ---
 
 {% extends '_layouts/_main.nj' %}

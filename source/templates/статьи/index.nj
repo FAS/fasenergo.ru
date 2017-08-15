@@ -1,9 +1,10 @@
 ---
-title:            Статьи
-breadcrumbTitle:  Статьи
-contentTitle:     Статьи
-navTitle:         Статьи
-metaDesc:         Статьи
+title:           Статьи
+contentTitle:    Статьи
+navTitle:        Статьи
+breadcrumbTitle: Статьи
+
+description: Статьи
 ---
 
 {% extends '_layouts/_main.nj' %}

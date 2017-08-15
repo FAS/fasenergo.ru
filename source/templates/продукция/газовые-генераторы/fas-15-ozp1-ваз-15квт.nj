@@ -2,10 +2,11 @@
 generatorId:     fas-15-ozp1-ваз-15квт
 
 title:           "{{ selectGenerator(GENERATORS, 'fas-15-ozp1-ваз-15квт').meta.title }}"
-breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'fas-15-ozp1-ваз-15квт').title }}"
 contentTitle:    "{{ selectGenerator(GENERATORS, 'fas-15-ozp1-ваз-15квт').title }}"
 navTitle:        "{{ selectGenerator(GENERATORS, 'fas-15-ozp1-ваз-15квт').title }}"
-metaDesc:        "{{ selectGenerator(GENERATORS, 'fas-15-ozp1-ваз-15квт').meta.desc }}"
+breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'fas-15-ozp1-ваз-15квт').title }}"
+
+description: "{{ selectGenerator(GENERATORS, 'fas-15-ozp1-ваз-15квт').meta.desc }}"
 ---
 
 {% extends './_generator.nj' %}

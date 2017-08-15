@@ -1,12 +1,15 @@
 ---
-title:            'Генераторы «ФАС» на YugBuild/WorldBuild Krasnodar'
-breadcrumbTitle:  'Генераторы «ФАС» на YugBuild/WorldBuild Krasnodar'
-contentTitle:     'Генераторы «ФАС» на YugBuild/WorldBuild Krasnodar'
-navTitle:         'Генераторы «ФАС» на YugBuild/WorldBuild Krasnodar'
-metaDesc:         'Гости и участники выставки смогли познакомиться с генераторами «ФАС».'
-desc:             'С 28 февраля по 3 марта 2017 года в Краснодаре, в выставочно-конгрессном комплексе «Экспоград Юг» прошла 27-я Международная выставка строительных и отделочных материалов, инженерного оборудования и архитектурных проектов.'
-date:             2017-03-09T12:35:00
-image:            false
+title:           'Генераторы «ФАС» на YugBuild/WorldBuild Krasnodar'
+contentTitle:    'Генераторы «ФАС» на YugBuild/WorldBuild Krasnodar'
+navTitle:        'Генераторы «ФАС» на YugBuild/WorldBuild Krasnodar'
+breadcrumbTitle: 'Генераторы «ФАС» на YugBuild/WorldBuild Krasnodar'
+
+description: 'Гости и участники выставки смогли познакомиться с генераторами «ФАС».'
+
+image: false
+
+excerpt: 'С 28 февраля по 3 марта 2017 года в Краснодаре, в выставочно-конгрессном комплексе «Экспоград Юг» прошла 27-я Международная выставка строительных и отделочных материалов, инженерного оборудования и архитектурных проектов.'
+date: 2017-03-09T12:35:00
 ---
 
 {% extends './_entry.nj' %}

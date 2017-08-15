@@ -1,9 +1,10 @@
 ---
-title:            Доставка
-breadcrumbTitle:  Доставка
-contentTitle:     Доставка
-navTitle:         Доставка
-metaDesc:         Доставка
+title:           Доставка
+contentTitle:    Доставка
+navTitle:        Доставка
+breadcrumbTitle: Доставка
+
+description: Доставка
 icon:             flash
 shortDesc:        Доставка с завода по всей России до объекта или распределительного пункта транспортной компании.
 ---

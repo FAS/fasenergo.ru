@@ -1,9 +1,10 @@
 ---
-title:            Видеоматериалы
-breadcrumbTitle:  Видеоматериалы
-contentTitle:     Видеоматериалы
-navTitle:         Видеоматериалы
-metaDesc:         Видеоматериалы
+title:           Видеоматериалы
+contentTitle:    Видеоматериалы
+navTitle:        Видеоматериалы
+breadcrumbTitle: Видеоматериалы
+
+description: Видеоматериалы
 ---
 
 {% extends '_layouts/_main.nj' %}

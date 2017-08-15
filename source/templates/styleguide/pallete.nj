@@ -1,9 +1,10 @@
 ---
 title:           Pallete
-breadcrumbTitle: Pallete
 contentTitle:    Pallete
 navTitle:        Pallete
-metaDesc:        Pallete
+breadcrumbTitle: Pallete
+
+description: Pallete
 
 applyWrapperMain:    false
 applyWrapperContent: false

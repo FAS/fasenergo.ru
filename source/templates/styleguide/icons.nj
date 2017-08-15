@@ -1,9 +1,10 @@
 ---
 title:           Icons
-breadcrumbTitle: Icons
 contentTitle:    Icons
 navTitle:        Icons
-metaDesc:        Icons
+breadcrumbTitle: Icons
+
+description: Icons
 
 applyWrapperMain:    false
 applyWrapperContent: false

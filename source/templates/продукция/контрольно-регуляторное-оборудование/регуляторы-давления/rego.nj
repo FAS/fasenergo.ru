@@ -1,9 +1,10 @@
 ---
 title:           Регуляторы давления RegO
-breadcrumbTitle: RegO
 contentTitle:    Регуляторы давления RegO
 navTitle:        RegO
-metaDesc:        Регуляторы давления RegO
+breadcrumbTitle: RegO
+
+description: Регуляторы давления RegO
 ---
 
 {% extends '_layouts/_main.nj' %}

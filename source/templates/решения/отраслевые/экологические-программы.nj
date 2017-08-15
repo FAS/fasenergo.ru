@@ -1,9 +1,10 @@
 ---
-title:            Экологические программы
-breadcrumbTitle:  Экологические программы
-contentTitle:     Экологические программы
-navTitle:         Экологические программы
-metaDesc:         Экологические программы
+title:           Экологические программы
+contentTitle:    Экологические программы
+navTitle:        Экологические программы
+breadcrumbTitle: Экологические программы
+
+description: Экологические программы
 ---
 
 {% extends '_layouts/_main.nj' %}

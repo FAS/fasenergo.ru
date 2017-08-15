@@ -1,9 +1,10 @@
 ---
 title:           Регуляторная группа
-breadcrumbTitle: Регуляторная группа
 contentTitle:    Регуляторная группа
 navTitle:        Регуляторная группа
-metaDesc:        Регуляторная группа
+breadcrumbTitle: Регуляторная группа
+
+description: Регуляторная группа
 ---
 
 {% extends '_layouts/_main.nj' %}

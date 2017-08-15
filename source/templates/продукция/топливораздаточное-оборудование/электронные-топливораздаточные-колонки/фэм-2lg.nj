@@ -1,9 +1,10 @@
 ---
 title:           Электронная топливораздаточная колонка ФЭМ 2LG
-breadcrumbTitle: ФЭМ 2LG
 contentTitle:    Электронная топливораздаточная колонка ФЭМ 2LG
 navTitle:        ФЭМ 2LG
-metaDesc:        Электронная топливораздаточная колонка ФЭМ 2LG
+breadcrumbTitle: ФЭМ 2LG
+
+description: Электронная топливораздаточная колонка ФЭМ 2LG
 ---
 
 {% extends '_layouts/_main.nj' %}

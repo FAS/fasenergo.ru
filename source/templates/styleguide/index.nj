@@ -1,9 +1,10 @@
 ---
 title:           Styleguide
-breadcrumbTitle: Styleguide
 contentTitle:    Styleguide
 navTitle:        Styleguide
-metaDesc:        Styleguide
+breadcrumbTitle: Styleguide
+
+description: Styleguide
 
 applyWrapperMain:    false
 applyWrapperContent: false

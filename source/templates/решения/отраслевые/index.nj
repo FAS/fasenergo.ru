@@ -1,9 +1,10 @@
 ---
-title:            Отраслевые решения
-breadcrumbTitle:  Отраслевые решения
-contentTitle:     Отраслевые решения
-navTitle:         Отраслевые решения
-metaDesc:         Отраслевые решения
+title:           Отраслевые решения
+contentTitle:    Отраслевые решения
+navTitle:        Отраслевые решения
+breadcrumbTitle: Отраслевые решения
+
+description: Отраслевые решения
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -1,9 +1,10 @@
 ---
-title:            Гарантия
-breadcrumbTitle:  Гарантия
-contentTitle:     Гарантия
-navTitle:         Гарантия
-metaDesc:         Гарантия
+title:           Гарантия
+contentTitle:    Гарантия
+navTitle:        Гарантия
+breadcrumbTitle: Гарантия
+
+description: Гарантия
 ---
 
 {% extends '_layouts/_main.nj' %}

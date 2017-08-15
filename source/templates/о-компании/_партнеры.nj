@@ -1,9 +1,10 @@
 ---
-title:            Партнеры
-breadcrumbTitle:  Партнеры
-contentTitle:     Партнеры
-navTitle:         Партнеры
-metaDesc:         Партнеры
+title:           Партнеры
+contentTitle:    Партнеры
+navTitle:        Партнеры
+breadcrumbTitle: Партнеры
+
+description: Партнеры
 ---
 
 {% extends '_layouts/_main.nj' %}

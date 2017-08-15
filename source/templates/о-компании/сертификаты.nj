@@ -1,9 +1,10 @@
 ---
-title:            Сертификаты
-breadcrumbTitle:  Сертификаты
-contentTitle:     Сертификаты
-navTitle:         Сертификаты
-metaDesc:         Сертификаты
+title:           Сертификаты
+contentTitle:    Сертификаты
+navTitle:        Сертификаты
+breadcrumbTitle: Сертификаты
+
+description: Сертификаты
 
 applyWrapperMain:    false
 applyWrapperContent: false

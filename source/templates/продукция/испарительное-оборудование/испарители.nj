@@ -1,9 +1,10 @@
 ---
 title:           Испарители
-breadcrumbTitle: Испарители
 contentTitle:    Испарители
 navTitle:        Испарители
-metaDesc:        Испарители
+breadcrumbTitle: Испарители
+
+description: Испарители
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -1,9 +1,10 @@
 ---
-title:            Компания «Фасэнергомаш»
-breadcrumbTitle:  Компания
-contentTitle:     Компания «Фасэнергомаш»
-navTitle:         Компания
-metaDesc:         Компания «Фасэнергомаш»
+title:           Компания «Фасэнергомаш»
+contentTitle:    Компания «Фасэнергомаш»
+navTitle:        Компания
+breadcrumbTitle: Компания
+
+description: Компания «Фасэнергомаш»
 ---
 
 {% extends '_layouts/_main.nj' %}

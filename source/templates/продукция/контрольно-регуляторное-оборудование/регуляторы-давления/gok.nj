@@ -1,9 +1,10 @@
 ---
 title:           Регуляторы давления GOK
-breadcrumbTitle: GOK
 contentTitle:    Регуляторы давления GOK
 navTitle:        GOK
-metaDesc:        Регуляторы давления GOK
+breadcrumbTitle: GOK
+
+description: Регуляторы давления GOK
 ---
 
 {% extends '_layouts/_main.nj' %}

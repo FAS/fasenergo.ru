@@ -1,9 +1,10 @@
 ---
 title:           Байпасный клапан
-breadcrumbTitle: Байпасный клапан
 contentTitle:    Байпасный клапан
 navTitle:        Байпасный клапан
-metaDesc:        Байпасный клапан
+breadcrumbTitle: Байпасный клапан
+
+description: Байпасный клапан
 ---
 
 {% extends '_layouts/_main.nj' %}

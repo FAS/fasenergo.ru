@@ -1,9 +1,10 @@
 ---
-title:            Контакты
-breadcrumbTitle:  Контакты
-contentTitle:     Контакты
-navTitle:         Контакты
-metaDesc:         Контакты
+title:           Контакты
+contentTitle:    Контакты
+navTitle:        Контакты
+breadcrumbTitle: Контакты
+
+description: Контакты
 ---
 
 {% extends '_layouts/_main.nj' %}

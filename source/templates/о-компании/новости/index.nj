@@ -1,9 +1,10 @@
 ---
-title:            Новости
-breadcrumbTitle:  Новости
-contentTitle:     Новости
-navTitle:         Новости
-metaDesc:         Новости
+title:           Новости
+contentTitle:    Новости
+navTitle:        Новости
+breadcrumbTitle: Новости
+
+description: Новости
 ---
 
 {% extends '_layouts/_main.nj' %}

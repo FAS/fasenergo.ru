@@ -1,9 +1,10 @@
 ---
-title:            Технические решения
-breadcrumbTitle:  Технические решения
-contentTitle:     Технические решения
-navTitle:         Технические решения
-metaDesc:         Технические решения
+title:           Технические решения
+contentTitle:    Технические решения
+navTitle:        Технические решения
+breadcrumbTitle: Технические решения
+
+description: Технические решения
 ---
 
 {% extends '_layouts/_main.nj' %}

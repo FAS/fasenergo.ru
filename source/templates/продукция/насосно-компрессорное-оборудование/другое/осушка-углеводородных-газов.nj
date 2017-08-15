@@ -1,9 +1,10 @@
 ---
 title:           Осушка углеводородных газов
-breadcrumbTitle: Осушка углеводородных газов
 contentTitle:    Осушка углеводородных газов
 navTitle:        Осушка углеводородных газов
-metaDesc:        Осушка углеводородных газов
+breadcrumbTitle: Осушка углеводородных газов
+
+description: Осушка углеводородных газов
 ---
 
 {% extends '_layouts/_main.nj' %}

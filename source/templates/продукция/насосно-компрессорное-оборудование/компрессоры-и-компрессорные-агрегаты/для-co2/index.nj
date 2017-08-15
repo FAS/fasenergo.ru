@@ -1,9 +1,10 @@
 ---
 title:           Компрессоры и компрессорные агрегаты для CO2
-breadcrumbTitle: Для CO2
 contentTitle:    Компрессоры и компрессорные агрегаты для CO2
 navTitle:        Компрессоры и компрессорные агрегаты для CO2
-metaDesc:        Компрессоры и компрессорные агрегаты для CO2
+breadcrumbTitle: Для CO2
+
+description: Компрессоры и компрессорные агрегаты для CO2
 ---
 
 {% extends '_layouts/_main.nj' %}

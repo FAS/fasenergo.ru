@@ -1,9 +1,10 @@
 ---
 title:           Фильтры
-breadcrumbTitle: Фильтры
 contentTitle:    Фильтры
 navTitle:        Фильтры
-metaDesc:        Фильтры
+breadcrumbTitle: Фильтры
+
+description: Фильтры
 ---
 
 {% extends '_layouts/_main.nj' %}

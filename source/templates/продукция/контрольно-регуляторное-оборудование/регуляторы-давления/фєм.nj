@@ -1,9 +1,10 @@
 ---
 title:           Регуляторы давления «Фасэнергомаш»
-breadcrumbTitle: ФЄМ
 contentTitle:    Регуляторы давления «Фасэнергомаш»
 navTitle:        ФЄМ
-metaDesc:        Регуляторы давления «Фасэнергомаш»
+breadcrumbTitle: ФЄМ
+
+description: Регуляторы давления «Фасэнергомаш»
 ---
 
 {% extends '_layouts/_main.nj' %}

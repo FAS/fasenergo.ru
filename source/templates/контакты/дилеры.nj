@@ -1,9 +1,10 @@
 ---
-title:            Дилеры
-breadcrumbTitle:  Дилеры
-contentTitle:     Дилеры
-navTitle:         Дилеры
-metaDesc:         Дилеры
+title:           Дилеры
+contentTitle:    Дилеры
+navTitle:        Дилеры
+breadcrumbTitle: Дилеры
+
+description: Дилеры
 ---
 
 {% extends '_layouts/_main.nj' %}

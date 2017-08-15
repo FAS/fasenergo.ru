@@ -2,7 +2,7 @@
  # Display news post preview
  #
  # @param {string}  title             Headline
- # @param {string}  desc              Short description of news
+ # @param {string}  excerpt           Short summary of news
  # @param {string}  date              Valid ISO date
  # @param {string}  url               Url to news page
  # @param {string}  [image]           Post image url
@@ -10,7 +10,7 @@
  #
  # @return {string} News post preview
  #}
-{% macro PostPreview(title, desc, date, url, image, imageCover = true) %}
+{% macro PostPreview(title, excerpt, date, url, image, imageCover = true) %}
 <article class='h-margin-bottom+'>
 
   <header class='h-margin-bottom'>
@@ -29,7 +29,7 @@
     {% endif %}
 
     <div class='o-media__content'>
-      <p>{{ desc }} <a href='{{ url }}' aria-label='Читать новость' title='Читать новость'><span aria-hidden='true'>&rarr;</span></a></p>
+      <p>{{ excerpt }} <a href='{{ url }}' aria-label='Читать новость' title='Читать новость'><span aria-hidden='true'>&rarr;</span></a></p>
     </div>
 
   </div>

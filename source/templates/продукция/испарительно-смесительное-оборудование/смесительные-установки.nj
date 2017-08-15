@@ -1,9 +1,10 @@
 ---
 title:           Смесительные установки
-breadcrumbTitle: Смесительные установки
 contentTitle:    Смесительные установки
 navTitle:        Смесительные установки
-metaDesc:        Смесительные установки
+breadcrumbTitle: Смесительные установки
+
+description: Смесительные установки
 ---
 
 {% extends '_layouts/_main.nj' %}

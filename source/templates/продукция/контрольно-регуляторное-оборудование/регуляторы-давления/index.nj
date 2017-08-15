@@ -1,9 +1,10 @@
 ---
 title:           Регуляторы давления
-breadcrumbTitle: Регуляторы давления
 contentTitle:    Регуляторы давления
 navTitle:        Регуляторы давления
-metaDesc:        Регуляторы давления
+breadcrumbTitle: Регуляторы давления
+
+description: Регуляторы давления
 ---
 
 {% extends '_layouts/_main.nj' %}

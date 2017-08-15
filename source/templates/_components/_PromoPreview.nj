@@ -1,8 +1,8 @@
 {##
- # Display news post preview
+ # Display promo post preview
  #
  # @param {string}  title             Headline
- # @param {string}  desc              Short description of news
+ # @param {string}  excerpt           Short summary of promo
  # @param {string}  date              Valid ISO date
  # @param {string}  url               Url to news page
  # @param {string}  [image]           Post image url
@@ -10,7 +10,7 @@
  #
  # @return {string} News post preview
  #}
-{% macro PromoPreview(title, desc, date, url, image, imageCover = true) %}
+{% macro PromoPreview(title, excerpt, date, url, image, imageCover = true) %}
 <article class='Box h-margin-bottom+'>
 
   <div class='o-media o-media0 h-flex-y--stretch'>
@@ -23,7 +23,7 @@
 
     <div class='o-media__content h-padding+'>
       <h3 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}' class='h-border-bottom0'>{{ title }}</a></h3>
-      <p>{{ desc }}</p>
+      <p>{{ excerpt }}</p>
       <p><a href='{{ url }}' class='Btn Btn--primary'>Подробнее об акции</a></p>
     </div>
 

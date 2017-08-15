@@ -1,9 +1,10 @@
 ---
 title:           Продукция «Фасэнергомаш»
-breadcrumbTitle: Продукция
 contentTitle:    Продукция «Фасэнергомаш»
 navTitle:        Продукция
-metaDesc:        Продукция «Фасэнергомаш»
+breadcrumbTitle: Продукция
+
+description: Продукция «Фасэнергомаш»
 ---
 
 {% extends '_layouts/_main.nj' %}

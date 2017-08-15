@@ -1,9 +1,10 @@
 ---
-title:            Дилерам
-breadcrumbTitle:  Дилерам
-contentTitle:     Дилерам
-navTitle:         Дилерам
-metaDesc:         Дилерам
+title:           Дилерам
+contentTitle:    Дилерам
+navTitle:        Дилерам
+breadcrumbTitle: Дилерам
+
+description: Дилерам
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -1,9 +1,10 @@
 ---
 title:           Typography
-breadcrumbTitle: Typography
 contentTitle:    Typography
 navTitle:        Typography
-metaDesc:        Typography
+breadcrumbTitle: Typography
+
+description: Typography
 
 applyWrapperMain:    false
 applyWrapperContent: false

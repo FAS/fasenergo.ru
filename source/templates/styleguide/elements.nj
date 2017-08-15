@@ -1,9 +1,10 @@
 ---
 title:           Elements
-breadcrumbTitle: Elements
 contentTitle:    Elements
 navTitle:        Elements
-metaDesc:        Elements
+breadcrumbTitle: Elements
+
+description: Elements
 
 applyWrapperMain:    false
 applyWrapperContent: false

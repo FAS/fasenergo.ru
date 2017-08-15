@@ -22,7 +22,7 @@
 {% for p in posts %}
 {{ PostPreview(
   title = p.props.contentTitle,
-  desc = p.props.desc,
+  excerpt = p.props.excerpt,
   date = p.props.date,
   url = p.props.url,
   image = p.props.image,

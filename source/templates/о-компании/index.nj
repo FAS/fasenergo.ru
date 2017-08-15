@@ -1,9 +1,10 @@
 ---
-title:            О компании
-breadcrumbTitle:  О компании
-contentTitle:     О компании
-navTitle:         О компании
-metaDesc:         О компании
+title:           О компании
+contentTitle:    О компании
+navTitle:        О компании
+breadcrumbTitle: О компании
+
+description: О компании
 ---
 
 {% extends '_layouts/_main.nj' %}

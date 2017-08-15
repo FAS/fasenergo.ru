@@ -1,9 +1,10 @@
 ---
-title:            Промышленность
-breadcrumbTitle:  Промышленность
-contentTitle:     Промышленность
-navTitle:         Промышленность
-metaDesc:         Промышленность
+title:           Промышленность
+contentTitle:    Промышленность
+navTitle:        Промышленность
+breadcrumbTitle: Промышленность
+
+description: Промышленность
 ---
 
 {% extends '_layouts/_main.nj' %}

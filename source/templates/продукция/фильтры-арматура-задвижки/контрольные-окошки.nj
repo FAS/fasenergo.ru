@@ -1,9 +1,10 @@
 ---
 title:           Контрольные окошки
-breadcrumbTitle: Контрольные окошки
 contentTitle:    Контрольные окошки
 navTitle:        Контрольные окошки
-metaDesc:        Контрольные окошки
+breadcrumbTitle: Контрольные окошки
+
+description: Контрольные окошки
 ---
 
 {% extends '_layouts/_main.nj' %}

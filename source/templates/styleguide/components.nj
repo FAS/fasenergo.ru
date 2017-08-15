@@ -1,9 +1,10 @@
 ---
 title:           Components
-breadcrumbTitle: Components
 contentTitle:    Components
 navTitle:        Components
-metaDesc:        Components
+breadcrumbTitle: Components
+
+description: Components
 
 applyWrapperMain:    false
 applyWrapperContent: false

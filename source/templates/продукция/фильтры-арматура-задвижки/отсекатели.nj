@@ -1,9 +1,10 @@
 ---
 title:           Отсекатели
-breadcrumbTitle: Отсекатели
 contentTitle:    Отсекатели
 navTitle:        Отсекатели
-metaDesc:        Отсекатели
+breadcrumbTitle: Отсекатели
+
+description: Отсекатели
 ---
 
 {% extends '_layouts/_main.nj' %}

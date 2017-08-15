@@ -1,9 +1,10 @@
 ---
 title:           Контрольно-распределительный пункт KRP/S
-breadcrumbTitle: KRP/S
 contentTitle:    Контрольно-распределительный пункт KRP/S
 navTitle:        KRP/S
-metaDesc:        Контрольно-распределительный пункт KRP/S
+breadcrumbTitle: KRP/S
+
+description: Контрольно-распределительный пункт KRP/S
 ---
 
 {% extends '_layouts/_main.nj' %}

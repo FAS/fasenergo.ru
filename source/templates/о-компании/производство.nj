@@ -1,9 +1,10 @@
 ---
-title:            Производство
-breadcrumbTitle:  Производство
-contentTitle:     Производство
-navTitle:         Производство
-metaDesc:         Производство
+title:           Производство
+contentTitle:    Производство
+navTitle:        Производство
+breadcrumbTitle: Производство
+
+description: Производство
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -2,10 +2,11 @@
 generatorId:     фас-5-1лп-5-квт
 
 title:           "{{ selectGenerator(GENERATORS, 'фас-5-1лп-5-квт').meta.title }}"
-breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-5-1лп-5-квт').title }}"
 contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-5-1лп-5-квт').title }}"
 navTitle:        "{{ selectGenerator(GENERATORS, 'фас-5-1лп-5-квт').title }}"
-metaDesc:        "{{ selectGenerator(GENERATORS, 'фас-5-1лп-5-квт').meta.desc }}"
+breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-5-1лп-5-квт').title }}"
+
+description: "{{ selectGenerator(GENERATORS, 'фас-5-1лп-5-квт').meta.desc }}"
 ---
 
 {% extends './_generator.nj' %}

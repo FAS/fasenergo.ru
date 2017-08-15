@@ -1,9 +1,10 @@
 ---
 title:           Массовый расходомер
-breadcrumbTitle: Массовый расходомер
 contentTitle:    Массовый расходомер
 navTitle:        Массовый расходомер
-metaDesc:        Массовый расходомер
+breadcrumbTitle: Массовый расходомер
+
+description: Массовый расходомер
 ---
 
 {% extends '_layouts/_main.nj' %}

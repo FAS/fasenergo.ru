@@ -1,9 +1,10 @@
 ---
-title:            Энергетический комплекс
-breadcrumbTitle:  Энергетический комплекс
-contentTitle:     Энергетический комплекс
-navTitle:         Энергетический комплекс
-metaDesc:         Энергетический комплекс
+title:           Энергетический комплекс
+contentTitle:    Энергетический комплекс
+navTitle:        Энергетический комплекс
+breadcrumbTitle: Энергетический комплекс
+
+description: Энергетический комплекс
 ---
 
 {% extends '_layouts/_main.nj' %}

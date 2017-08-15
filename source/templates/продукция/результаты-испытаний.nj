@@ -1,9 +1,10 @@
 ---
-title:            Результаты испытаний
-breadcrumbTitle:  Результаты испытаний
-contentTitle:     Результаты испытаний
-navTitle:         Результаты испытаний
-metaDesc:         Результаты испытаний
+title:           Результаты испытаний
+contentTitle:    Результаты испытаний
+navTitle:        Результаты испытаний
+breadcrumbTitle: Результаты испытаний
+
+description: Результаты испытаний
 ---
 
 {% extends '_layouts/_main.nj' %}

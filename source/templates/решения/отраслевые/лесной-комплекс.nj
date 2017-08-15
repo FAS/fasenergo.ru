@@ -1,9 +1,10 @@
 ---
-title:            Лесной комплекс
-breadcrumbTitle:  Лесной комплекс
-contentTitle:     Лесной комплекс
-navTitle:         Лесной комплекс
-metaDesc:         Лесной комплекс
+title:           Лесной комплекс
+contentTitle:    Лесной комплекс
+navTitle:        Лесной комплекс
+breadcrumbTitle: Лесной комплекс
+
+description: Лесной комплекс
 ---
 
 {% extends '_layouts/_main.nj' %}

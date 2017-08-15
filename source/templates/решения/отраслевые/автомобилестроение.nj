@@ -1,9 +1,10 @@
 ---
-title:            Автомобилестроение
-breadcrumbTitle:  Автомобилестроение
-contentTitle:     Автомобилестроение
-navTitle:         Автомобилестроение
-metaDesc:         Автомобилестроение
+title:           Автомобилестроение
+contentTitle:    Автомобилестроение
+navTitle:        Автомобилестроение
+breadcrumbTitle: Автомобилестроение
+
+description: Автомобилестроение
 ---
 
 {% extends '_layouts/_main.nj' %}
