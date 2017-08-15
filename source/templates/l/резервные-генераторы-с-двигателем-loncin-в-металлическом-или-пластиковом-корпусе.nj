@@ -8,7 +8,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
   <title>Резервные газовые генераторы от 5 кВт</title>
-  <link rel='stylesheet' href='/{{ PATH.styles }}/landings/loncin-promo.{{ 'min.css' if ENV.production else 'prefixed.css' }}'>
+  <link rel='stylesheet' href='/{{ PATH.styles }}/landings/loncin-promo.{{ 'min.css' if ENV.build else 'prefixed.css' }}'>
 </head>
 
 <body>
@@ -604,10 +604,10 @@
       b24form({"id":"10","lang":"ru","sec":"fk85mz","type":"button","click":""});
   </script>
 
-  <script src='//widget.mango-office.ru/js/c-t-w.min.js'></script>
+  <script src='https://widget.mango-office.ru/js/c-t-w.min.js'></script>
   <div class="m-call-tracking-widget" data-settings='{"id":9089}' style='display: none;'></div>
   <script>
-    !function(t,e){for(var i=document.getElementsByClassName(t),n=0;n<i.length;n++){var r=i[n];if("true"!=r.getAttribute("init")){var a=new MCTWidget({host:e,elem:r});a.initWidget(),r.setAttribute("init","true")}}}("m-call-tracking-widget", window.location.protocol + "//widget.mango-office.ru");
+    !function(t,e){for(var i=document.getElementsByClassName(t),n=0;n<i.length;n++){var r=i[n];if("true"!=r.getAttribute("init")){var a=new MCTWidget({host:e,elem:r});a.initWidget(),r.setAttribute("init","true")}}}("m-call-tracking-widget", "https://widget.mango-office.ru");
   </script>
 
 </body>
