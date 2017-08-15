@@ -1,14 +1,31 @@
 {% extends '_layouts/_main.nj' %}
 
+{{ config('PAGE', {
+  og: {
+    type: 'article'
+  }
+}) }}
+
 {% block main %}
+<div typeof='NewsArticle'>
+  <meta property='headline' content='{{ PAGE.contentTitle }}'>
+  <meta property='description' content='{{ PAGE.excerpt }}'>
+  {# @Todo this has to be improved, since Google asks for width and height properties #}
+  <meta property='image' content='{{ PAGE.image }}'>
+  <meta property='publisher' resource='#this'>
+  <meta property='mainEntityOfPage' typeof='WebPage' content='{{ urljoin(SITE.homepage, localeDir(), PAGE.url) }}'/>
+  <meta property='dateModified' content='{{ PAGE.date }}'>
+  <meta property='author' resource='#this'>
 
-<footer class='h-opacity--60 h-bleed-top h-margin-bottom+'>
-  <time datetime='{{ PAGE.date }}'>{{ moment(PAGE.date).format('DD.MM.YYYY') }}</time>
-</footer>
+  <footer class='h-opacity--60 h-bleed-top h-margin-bottom+'>
+    <time datetime='{{ PAGE.date }}' property='datePublished' content='{{ PAGE.date }}'>{{ moment(PAGE.date).format('DD.MM.YYYY') }}</time>
+  </footer>
 
-{% block post %}{% endblock %}
+  {% block post %}{% endblock %}
 
-{{ SocialShare() }}
+  {{ SocialShare() }}
+
+</div>
 
 <hr>
 
@@ -19,5 +36,4 @@
   {{ Posts(limit = 2, displayCurrent = false) }}
 
 </aside>
-
 {% endblock %}
