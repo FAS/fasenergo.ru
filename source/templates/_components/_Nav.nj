@@ -29,7 +29,7 @@
 ) %}
 <ul class='{{ class }}'>
 
-  {% macro Item(to, label, depth = 1, class = itemsClass, anchorClass = anchorsClass, exact = exact) %}
+  {%- macro Item(to, label, depth = 1, class = itemsClass, anchorClass = anchorsClass, exact = exact) %}
   {% call(depth) NavItem(
     to = to,
     label = label,
@@ -42,9 +42,7 @@
     maxDepth = maxDepth,
     showInnerOnlyOnActive = showInnerOnlyOnActive,
     enableDrawer = enableDrawer
-  ) %}
-  {{ caller(depth) }}
-  {% endcall %}
+  ) %}{{ caller(depth) }}{% endcall %}
   {% endmacro %}
 
   {% call(depth) Item('/продукция') %}
