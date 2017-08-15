@@ -19,7 +19,7 @@ metaDesc:        Электронная топливораздаточная к�
   { url: 'equipment/топливораздаточное-оборудование/FAS-220M/Газозаправочная-колонка-FAS-220M--3--sides.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Комплектация</h2>
 

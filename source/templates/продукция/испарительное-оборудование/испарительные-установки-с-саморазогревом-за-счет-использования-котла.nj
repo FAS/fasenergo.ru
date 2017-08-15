@@ -20,7 +20,7 @@ metaDesc:        Испарительные установки с самораз
   { url: 'equipment/испарительное-оборудование/ZH-A-K/Испарительная-установка-Фасэнергомаш-ZH-A-K--1--front.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqLiqPhotos, 'Испарительная установка Фасэнергомаш ZH/A/K') }}
+{{ PhotosPreview(pageEqLiqPhotos, 'Испарительная установка Фасэнергомаш ZH/A/K') }}
 
 <h2>Непрямой жидкостный подогрев</h2>
 

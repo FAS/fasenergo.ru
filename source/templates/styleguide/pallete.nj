@@ -13,7 +13,7 @@ applyWrapperContent: false
 
 {% block main %}
 
-{% call components.Example() -%}
+{% call Example() -%}
 <ul class='g-list0 h-childs-padding-- h-childs-margin0'>
   <li class='h-bg-color--primary'>primary</li>
   <li class='h-bg-color--secondary'>secondary</li>

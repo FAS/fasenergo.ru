@@ -42,7 +42,7 @@ metaDesc:        Испарители
   { url: 'equipment/испарительное-оборудование/SE-40-300/Испаритель-Фасэнергомаш-SE-40-300--6--front-top.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqElPhotos, 'Испаритель Фасэнергомаш SE 10-40') }}
+{{ PhotosPreview(pageEqElPhotos, 'Испаритель Фасэнергомаш SE 10-40') }}
 
 <h2>Непрямой электрический подогрев</h2>
 

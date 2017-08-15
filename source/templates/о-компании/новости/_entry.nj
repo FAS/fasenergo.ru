@@ -3,12 +3,12 @@
 {% block main %}
 
 <footer class='h-opacity--60 h-bleed-top h-margin-bottom+'>
-  <time datetime='{{ page.date }}'>{{ moment(page.date).format('DD.MM.YYYY') }}</time>
+  <time datetime='{{ PAGE.date }}'>{{ moment(PAGE.date).format('DD.MM.YYYY') }}</time>
 </footer>
 
 {% block post %}{% endblock %}
 
-{{ components.SocialShare() }}
+{{ SocialShare() }}
 
 <hr>
 
@@ -16,7 +16,7 @@
 
   <h2>Свежие новости</h2>
 
-  {{ components.Posts(limit = 2, displayCurrent = false) }}
+  {{ Posts(limit = 2, displayCurrent = false) }}
 
 </aside>
 

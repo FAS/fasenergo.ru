@@ -10,106 +10,106 @@ metaDesc:        Фильтры и запорно-предохранительн
 
 {% block main %}
 <div class='o-grid h-childs-displace h-bleed-bottom'>
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Контрольные окошки',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/контрольные-окошки.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/контрольные-окошки.jpg',
     url = '/продукция/фильтры-арматура-задвижки/контрольные-окошки',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Запорно-предохранительная арматура',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Фильтры',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/фильтры.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фильтры.jpg',
     url = '/продукция/фильтры-арматура-задвижки/фильтры',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Шаровой запорный клапан (межфланцевый)',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/шаровой-запорный-клапан-межфланцевый.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровой-запорный-клапан-межфланцевый.jpg',
     url = '/продукция/фильтры-арматура-задвижки/шаровой-запорный-клапан-межфланцевый',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Байпасный клапан',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/байпасный-клапан.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/байпасный-клапан.jpg',
     url = '/продукция/фильтры-арматура-задвижки/байпасный-клапан',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Обратные и скоростные клапаны',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/обратные-и-скоростные-клапаны.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/обратные-и-скоростные-клапаны.jpg',
     url = '/продукция/фильтры-арматура-задвижки/обратные-и-скоростные-клапаны',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Шаровой резьбовой клапан',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/шаровой-резьбовой-клапан.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровой-резьбовой-клапан.jpg',
     url = '/продукция/фильтры-арматура-задвижки/шаровой-резьбовой-клапан',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Предохранительный стравливающий клапан',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/предохранительный-стравливающий-клапан.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/предохранительный-стравливающий-клапан.jpg',
     url = '/продукция/фильтры-арматура-задвижки/предохранительный-стравливающий-клапан',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Предохранительный сбросной клапан',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/предохранительный-сбросной-клапан.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/предохранительный-сбросной-клапан.jpg',
     url = '/продукция/фильтры-арматура-задвижки/предохранительный-сбросной-клапан',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Обратный клапан для самовсасывающей установки',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/обратный-клапан-для-самовсасывающей-установки.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/обратный-клапан-для-самовсасывающей-установки.jpg',
     url = '/продукция/фильтры-арматура-задвижки/обратный-клапан-для-самовсасывающей-установки',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Изоляционные фланцы с искроотводом',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/изоляционные-фланцы-с-искроотводом.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/изоляционные-фланцы-с-искроотводом.jpg',
     url = '/продукция/фильтры-арматура-задвижки/изоляционные-фланцы-с-искроотводом',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Отсекатели',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/отсекатели.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/отсекатели.jpg',
     url = '/продукция/фильтры-арматура-задвижки/отсекатели',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
-  {% call components.CategoryCard(
+  {% call CategoryCard(
     title = 'Массовый расходомер',
     hLevel = 2,
-    image = '/' + path.images + '/categories/фильтры-арматура-задвижки/массовый-расходомер.jpg',
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/массовый-расходомер.jpg',
     url = '/продукция/фильтры-арматура-задвижки/массовый-расходомер',
     class = 'o-grid__item h-1/4',
     size = 'small'

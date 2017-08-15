@@ -15,7 +15,7 @@ metaDesc:        Регуляторная группа
     { url: 'equipment/контрольно-регуляторное-оборудование/Регуляторная-группа-5/Регуляторная-группа-Фасэнергомаш-5--1--front.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Регуляторная группа состоит из</h2>
 

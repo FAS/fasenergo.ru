@@ -15,66 +15,66 @@ applyWrapperContent: false
 {% macro Document(title, url) %}
 <article class='h-margin-bottom+'>
   <h2 class='h-h6 h-margin-top0 h-margin-bottom'>
-    {{ components.Icon('pdf') }}
+    {{ Icon('pdf') }}
     <a href='{{ url }}' target='_blank'>{{ title }}</a>
   </h2>
   {{ caller() }}
 </article>
 {% endmacro %}
 
-{% call Document(title = 'Сертификат CE', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат CE.pdf') %}
+{% call Document(title = 'Сертификат CE', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Сертификат CE.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат ISO', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат ISO.pdf') %}
+{% call Document(title = 'Сертификат ISO', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Сертификат ISO.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат соответствия ГазПромСерт', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат соответствия ГазПромСерт.pdf') %}
+{% call Document(title = 'Сертификат соответствия ГазПромСерт', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Сертификат соответствия ГазПромСерт.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат соответствия ГОСТ', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат соответствия ГОСТ.pdf') %}
+{% call Document(title = 'Сертификат соответствия ГОСТ', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Сертификат соответствия ГОСТ.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Декларация о соответствии ТР ТС', url = '/' + path.docs + '/certs/Фасэнергомаш - Декларация о соответствии ТР ТС.pdf') %}
+{% call Document(title = 'Декларация о соответствии ТР ТС', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Декларация о соответствии ТР ТС.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Отказное письмо по сертификату ТР ТС', url = '/' + path.docs + '/certs/Фасэнергомаш - Отказное письмо по сертификату ТР ТС.pdf') %}
+{% call Document(title = 'Отказное письмо по сертификату ТР ТС', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Отказное письмо по сертификату ТР ТС.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'СРО', url = '/' + path.docs + '/certs/Фасэнергомаш - СРО.pdf') %}
+{% call Document(title = 'СРО', url = '/' + PATH.docs + '/certs/Фасэнергомаш - СРО.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Приложение к СРО', url = '/' + path.docs + '/certs/Фасэнергомаш - Приложение к СРО.pdf') %}
+{% call Document(title = 'Приложение к СРО', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Приложение к СРО.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат соответствия ISO', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат соответствия ISO.pdf') %}
+{% call Document(title = 'Сертификат соответствия ISO', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Сертификат соответствия ISO.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Certificate of conformity ISO', url = '/' + path.docs + '/certs/Fasenergomash - Certificate of conformity ISO.pdf') %}
+{% call Document(title = 'Certificate of conformity ISO', url = '/' + PATH.docs + '/certs/Fasenergomash - Certificate of conformity ISO.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат соответствия аудитора', url = '/' + path.docs + '/certs/Фасэнергомаш - Сертификат соответствия аудитора.pdf') %}
+{% call Document(title = 'Сертификат соответствия аудитора', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Сертификат соответствия аудитора.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Auditors certificate of conformity', url = '/' + path.docs + '/certs/Fasenergomash - Auditors certificate of conformity.pdf') %}
+{% call Document(title = 'Auditors certificate of conformity', url = '/' + PATH.docs + '/certs/Fasenergomash - Auditors certificate of conformity.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Разрешение на использование знака соответствия', url = '/' + path.docs + '/certs/Фасэнергомаш - Разрешение на использование знака соответствия.pdf') %}
+{% call Document(title = 'Разрешение на использование знака соответствия', url = '/' + PATH.docs + '/certs/Фасэнергомаш - Разрешение на использование знака соответствия.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'License to use the certification system conformity mark', url = '/' + path.docs + '/certs/Fasenergomash - License to use the certification system conformity mark.pdf') %}
+{% call Document(title = 'License to use the certification system conformity mark', url = '/' + PATH.docs + '/certs/Fasenergomash - License to use the certification system conformity mark.pdf') %}
   {# @todo Add description #}
 {% endcall %}
 

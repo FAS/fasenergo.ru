@@ -12,11 +12,11 @@ metaDesc:        Насосная установка&nbsp;№93.0111
 {% set pageEqPhotos = [
   {
     url: 'equipment/насосно-компрессорное-оборудование/НУ-ФАС-№93.0111/Насосная-установка-для-наземных-емкостей-ФАС №93.0111--чертеж.svg',
-    alt: page.contentTitle + ', чертеж'
+    alt: PAGE.contentTitle + ', чертеж'
   }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle, class = 'h-margin-bottom+') }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
 
 <p>Блочный технологический комплекс типа ФАС для перекачки пропан/бутана на базе открытовихревого насосного агрегата ФАС NZ 36-8, для подключения к <strong>одному наземному резервуару</strong>.</p>
 

@@ -9,5 +9,5 @@ metaDesc:         Статьи
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{{ components.Posts(path = 'статьи') }}
+{{ Posts(path = 'статьи') }}
 {% endblock %}

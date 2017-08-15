@@ -1,11 +1,11 @@
 ---
 generatorId:     fas-32-ozp3-ваз-32квт
 
-title:           "{{ selectGenerator(data, 'fas-32-ozp3-ваз-32квт').meta.title }}"
-breadcrumbTitle: "{{ selectGenerator(data, 'fas-32-ozp3-ваз-32квт').title }}"
-contentTitle:    "{{ selectGenerator(data, 'fas-32-ozp3-ваз-32квт').title }}"
-navTitle:        "{{ selectGenerator(data, 'fas-32-ozp3-ваз-32квт').title }}"
-metaDesc:        "{{ selectGenerator(data, 'fas-32-ozp3-ваз-32квт').meta.desc }}"
+title:           "{{ selectGenerator(GENERATORS, 'fas-32-ozp3-ваз-32квт').meta.title }}"
+breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'fas-32-ozp3-ваз-32квт').title }}"
+contentTitle:    "{{ selectGenerator(GENERATORS, 'fas-32-ozp3-ваз-32квт').title }}"
+navTitle:        "{{ selectGenerator(GENERATORS, 'fas-32-ozp3-ваз-32квт').title }}"
+metaDesc:        "{{ selectGenerator(GENERATORS, 'fas-32-ozp3-ваз-32квт').meta.desc }}"
 ---
 
 {% extends './_generator.nj' %}

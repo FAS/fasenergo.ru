@@ -15,7 +15,7 @@ metaDesc:        Шаровой резьбовой клапан
   { url: 'equipment/фильтры-арматура-задвижки/Шаровой-резьбовой-клапан/Шаровой-резьбовой-клапан.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Технические данные</h2>
 

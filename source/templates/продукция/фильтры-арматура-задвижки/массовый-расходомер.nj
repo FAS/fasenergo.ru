@@ -16,7 +16,7 @@ metaDesc:        Массовый расходомер
   { url: 'equipment/фильтры-арматура-задвижки/Массовый-расходомер/Массовый-расходомер.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p class='h-align--center h-margin-ends++'><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты#order'>Запросить ТКП</a></p>
 

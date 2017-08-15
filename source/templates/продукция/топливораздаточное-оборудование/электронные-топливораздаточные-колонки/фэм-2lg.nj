@@ -15,7 +15,7 @@ metaDesc:        Электронная топливораздаточная к�
   { url: 'equipment/топливораздаточное-оборудование/ФЭМ-2LG/Заправочная-колонка-ФЭМ-2LG--1--front-right.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Табло</h2>
 

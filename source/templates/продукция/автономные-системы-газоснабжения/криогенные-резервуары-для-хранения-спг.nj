@@ -26,7 +26,7 @@ metaDesc:        Криогенные резервуары для хранени
   { url: 'equipment/автономные-системы-газоснабжения/криогенные-резервуары-для-хранения-спг/Криогенный-резервуар-Фасэнергомаш-3.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, 'Криогенный резервуар Фасэнергомаш для хранения СПГ', class = 'h-margin-bottom+') }}
+{{ PhotosPreview(pageEqPhotos, 'Криогенный резервуар Фасэнергомаш для хранения СПГ', class = 'h-margin-bottom+') }}
 
 {% set pageEq = [
   { title: 'ФЭМ 3', volume: '3 м³', length: 3422, width: 2114, height: 2159 },

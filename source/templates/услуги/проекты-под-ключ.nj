@@ -11,14 +11,14 @@ shortDesc:        'Полное оборудование объекта: про�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set pageE = data.contacts.departments.sales %}
+{% set pageE = CONTACTS.departments.sales %}
 
-{% set pagePhone1 = components.Phone(pageE.phones[0]) %}
-{% set pagePhone2 = components.Phone(pageE.phones[1]) %}
+{% set pagePhone1 = Phone(pageE.phones[0]) %}
+{% set pagePhone2 = Phone(pageE.phones[1]) %}
 
-{% set pageEmail = components.Email(pageE.emails[0]) %}
+{% set pageEmail = Email(pageE.emails[0]) %}
 
-{% set pageSkype = components.Skype(pageE.skypes[0]) %}
+{% set pageSkype = Skype(pageE.skypes[0]) %}
 
 <p>Проектом «под ключ» мы называем оборудование объекта от А до Я:</p>
 
@@ -34,9 +34,9 @@ shortDesc:        'Полное оборудование объекта: про�
 <p>У нас есть и опыт, и необходимые разрешительные документы на строительные, технологические и пусконаладочные работы:</p>
 
 <p>
-  {{ components.PDFButton(
+  {{ PDFButton(
     label = 'Разрешительные документы',
-    url = '/' + path.docs + '/Фасэнергомаш - Разрешительные документы.pdf'
+    url = '/' + PATH.docs + '/Фасэнергомаш - Разрешительные документы.pdf'
   ) }}
 </p>
 

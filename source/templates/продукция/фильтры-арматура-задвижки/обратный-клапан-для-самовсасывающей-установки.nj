@@ -18,7 +18,7 @@ metaDesc:        Обратный клапан для самовсасывающ
   { url: 'equipment/фильтры-арматура-задвижки/Обратный-клапан-для-самовсасывающей-установки/Обратный-клапан-для-самовсасывающей-установки--4--scheme-2.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Компоненты</h2>
 

@@ -9,7 +9,7 @@ metaDesc:         Производство
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set pagePhone = components.Phone(data.contacts.departments.sales.phones[0]) %}
+{% set pagePhone = Phone(CONTACTS.departments.sales.phones[0]) %}
 
 <h2>Структура производственного комплекса</h2>
 
@@ -17,8 +17,8 @@ metaDesc:         Производство
 <p><strong>Цех</strong> оснащён современным оборудованием для сборки, тестирования и отладки генераторов. На всё можно посмотреть во время экскурсии.</p>
 
 {# @todo фотографии цеха #}
-{% if env.staging or not env.production %}
-{{ components.Images(
+{% if ENV.staging or not ENV.production %}
+{{ Images(
   images = [{
       src: 'https://placehold.it/1350x700',
       alt: 'Описание картинки'
@@ -35,8 +35,8 @@ metaDesc:         Производство
 <p>На <strong>испытательных площадках</strong> отдельно тестируются маломощные генераторы до 32 кВт и газопоршневые установки большей мощности. Проверка перед сдачей и отгрузкой оборудования проходит именно здесь. Что очень важно, мы проверяем все режимы под максимально возможными нагрузками.</p>
 
 {# @todo фотографии площадок и испытаний #}
-{% if env.staging or not env.production %}
-{{ components.Images(
+{% if ENV.staging or not ENV.production %}
+{{ Images(
   images = [{
       src: 'https://placehold.it/1350x700',
       alt: 'Описание картинки'

@@ -18,7 +18,7 @@ metaDesc:        Смесительные установки
   { url: 'equipment/испарительно-смесительное-оборудование/SU/Смесительная-установка-Фасэнергомаш-SU--3--front-right.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, 'Смесительная установка Фасэнергомаш SU', class = 'h-margin-bottom++') }}
+{{ PhotosPreview(pageEqPhotos, 'Смесительная установка Фасэнергомаш SU', class = 'h-margin-bottom++') }}
 
 {% set pageEqLow = [
   { title: 'Смесительная установка ФЭМ 150 SU/ND', performance: '150 м³/ч' },

@@ -9,6 +9,6 @@ metaDesc:         Новости
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{{ components.Promos() }}
-{{ components.Posts(displayActivePromos = false) }}
+{{ Promos() }}
+{{ Posts(displayActivePromos = false) }}
 {% endblock %}

@@ -15,7 +15,7 @@ metaDesc:        Байпасный клапан
   { url: 'equipment/фильтры-арматура-задвижки/Байпасный-клапан/Байпасный-клапан.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Технические данные</h2>
 

@@ -10,7 +10,7 @@ metaDesc:        Щиты электроуправления «Фасэнерг�
 
 {% block main %}
 <ul>
-  {% for slug, item in getPage(page.breadcrumb) %}
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
   <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
   {% endfor %}
 </ul>

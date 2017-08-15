@@ -9,18 +9,18 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set generators = selectGenerators(data) %}
+{% set generators = selectGenerators(GENERATORS) %}
 {% set generators = filterWithBrands(generators, 'Фасэнергомаш') %}
 {% set generators = sortGeneratorsByPower(generators) %}
 
-{% set enginesBrands = selectEnginesBrands(data) %}
+{% set enginesBrands = selectEnginesBrands(ENGINES) %}
 
 {# @todo Emable anchors when relevant pages will be ready #}
 <p>В каталоге вы можете подобрать генератор, получить полную информацию о каждой модели — фотографии, технические характеристики, документацию, расходные материалы — отправить заявку или задать вопрос.</p>
 <p>Наши модели комплектуются {# <a href='#'> #}системой автоматического ввода (АВР){# </a> #} и собираются в {# <a href='#'> #}синхронизированные комплексы{# </a> #} до 30 генераторов повышенной мощности и надёжности.</p>
 
 <aside class='h-margin-top+'>
-  {{ components.Promos() }}
+  {{ Promos() }}
 </aside>
 
 <aside id='js-catalog-filters'>
@@ -29,7 +29,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
     {# @todo Enable, when they will be ready #}
     {# <form class='h-float--left'>
-      {{ components.Checkbox(
+      {{ Checkbox(
         type = 'radio',
         id = 'presetPopular',
         name = 'preset',
@@ -38,7 +38,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         inputClass = 'js-catalog-preset',
         checked = true
       ) }}
-      {{ components.Checkbox(
+      {{ Checkbox(
         type = 'radio',
         id = 'presetPower710',
         name = 'preset',
@@ -47,7 +47,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         attrs = { 'data-preset': [7, 10]|dump },
         label = '7-10 кВт'
       ) }}
-      {{ components.Checkbox(
+      {{ Checkbox(
         type = 'radio',
         id = 'presetPower1020',
         name = 'preset',
@@ -60,7 +60,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
     {# @todo Remove style in favor of helper #}
     {# @todo Enable when content will be available #}
-    {# <p class='h-float--right'>{{ components.Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p> #}
+    {# <p class='h-float--right'>{{ Icon('skype', class = 'o-iconic-list__icon') }} <a href='#' style='border-style: dashed'>Как выбрать генератор?</a></p> #}
 
   {# </div> #}
 
@@ -70,24 +70,24 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
       <div class='o-grid__item h-3/4 h-2/3@lap'>
         <b class='h-text- h-margin-right--'>Мощность:</b>
-        {{ components.Field(
+        {{ Field(
           type = 'number',
           id = 'filterPowerFrom',
           name = 'powerFrom',
           label = 'Мощность от',
           displayLabel = false,
-          placeholder = 'от ' + numbro(selectGeneratorsMinPower(data)).format(),
+          placeholder = 'от ' + numbro(selectGeneratorsMinPower(GENERATORS)).format(),
           class = 'Field- h-inline-block h-margin-right--',
           style = 'max-width: 120px'
         ) }}
         –
-        {{ components.Field(
+        {{ Field(
           type = 'number',
           id = 'filterPowerTo',
           name = 'powerTo',
           label = 'Мощность до',
           displayLabel = false,
-          placeholder = 'до ' + numbro(selectGeneratorsMaxPower(data)).format(),
+          placeholder = 'до ' + numbro(selectGeneratorsMaxPower(GENERATORS)).format(),
           class = 'Field- h-inline-block h-margin-sides--',
           style = 'max-width: 120px'
         ) }}
@@ -130,24 +130,24 @@ metaDesc:        Каталог генераторов «Фасэнергома�
             filterTdClass = 'h-text--nowrap',
             tip = 'Зависит, прежде всего, от мощности и двигателя'
           ) %}
-            {{ components.Field(
+            {{ Field(
               type = 'number',
               id = 'filterPriceFrom',
               name = 'priceFrom',
               label = 'Цена от',
               displayLabel = false,
-              placeholder = 'от ' + numbro(selectGeneratorsMinPrice(data)).format(),
+              placeholder = 'от ' + numbro(selectGeneratorsMinPrice(GENERATORS)).format(),
               class = 'Field- h-inline-block h-margin-right--',
               style = 'max-width: 120px'
             ) }}
             –
-            {{ components.Field(
+            {{ Field(
               type = 'number',
               id = 'filterPriceTo',
               name = 'priceTo',
               label = 'Цена до',
               displayLabel = false,
-              placeholder = 'до ' + numbro(selectGeneratorsMaxPrice(data)).format(),
+              placeholder = 'до ' + numbro(selectGeneratorsMaxPrice(GENERATORS)).format(),
               class = 'Field- h-inline-block h-margin-sides--',
               style = 'max-width: 120px'
             ) }}
@@ -161,7 +161,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
             tipContent = '#'
           ) %}
             {% for brand in enginesBrands %}
-            {{ components.Checkbox(
+            {{ Checkbox(
               id = 'filterEngineBrand' + brand|urlify({ toLower: false }),
               name = 'engineBrand',
               value = brand,
@@ -176,7 +176,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
             title = 'Режим работы',
             spaceChilds = true
           ) %}
-            {{ components.Checkbox(
+            {{ Checkbox(
               id = 'filterModeMain',
               name = 'mode',
               value = 'основной',
@@ -184,7 +184,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
               inputClass = 'h-margin-right---',
               label = 'Основной (круглосуточно)'
             ) }}
-            {{ components.Checkbox(
+            {{ Checkbox(
               id = 'filterModeStandby',
               name = 'mode',
               value = 'резервный',
@@ -200,7 +200,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
             tip = 'Как выбрать уровень шума?',
             tipContent = '#'
           ) %}
-            {{ components.Checkbox(
+            {{ Checkbox(
               id = 'filterNoiseLow',
               name = 'noise',
               value = 60,
@@ -214,7 +214,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
             title = 'Фазы/Напряжение',
             spaceChilds = true
           ) %}
-            {{ components.Checkbox(
+            {{ Checkbox(
               id = 'filterPhases1',
               name = 'phases',
               value = '1',
@@ -222,7 +222,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
               inputClass = 'h-margin-right---',
               label = 'Одна/220 V'
             ) }}
-            {{ components.Checkbox(
+            {{ Checkbox(
               id = 'filterPhases3',
               name = 'phases',
               value = '3',
@@ -237,7 +237,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         <hr class='h-margin-ends'>
 
         <button type='reset' class='h-margin-left-- g-link h-border-bottom0 h-text-'>
-          {{ components.Icon('x', class = 'Icon--left h-text--em-') }}
+          {{ Icon('x', class = 'Icon--left h-text--em-') }}
           <span class='g-link'>Очистить все фильтры</span>
         </button>
 
@@ -248,14 +248,14 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
   <form class='h-margin-top+-- h-margin-bottom-- h-margin-sides-- h-text- h-childs-space-left--'>
     <span>Сортировать:</span>
-    {{ components.Sorter(
+    {{ Sorter(
       id = 'sortByPower',
       name = 'sort',
       value = 'byPower',
       label = 'по мощности',
       checked = true
     ) }}
-    {{ components.Sorter(
+    {{ Sorter(
       id = 'sortByPrice',
       name = 'sort',
       value = 'byPrice',
@@ -269,10 +269,10 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
 <div id='js-catalog' class='Box'>
   {% for g in generators %}
-  {% set url = page.props.url + '/' + g.slug %}
-  {% set photoUrl = '/' + path.images + '/' + getGeneratorMainPhoto(g).url or '/' + path.images + '/no-photo.png' %}
+  {% set url = PAGE.props.url + '/' + g.slug %}
+  {% set photoUrl = '/' + PATH.images + '/' + getGeneratorMainPhoto(g).url or '/' + PATH.images + '/no-photo.png' %}
   {% set maxPower = getGeneratorHighestPower(g) %}
-  {% set engine = selectEngine(data, g.engine) %}
+  {% set engine = selectEngine(ENGINES, g.engine) %}
   {% set engineCooling = engine.cooling %}
   {% set phases = g.specs.phases %}
   {% set warrantyFromInstallation = g.warranty.installation  %}
@@ -300,7 +300,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         <p>
           Мощность: <strong>{{ maxPower }} кВт</strong><br>
           Фазы: {{ phases }}<br>
-          Охлаждение: {{ components.CoolingToWord(engineCooling) }}<br>
+          Охлаждение: {{ CoolingToWord(engineCooling) }}<br>
           Двигатель: {{ getEngineTitle(engine) }}
         </p>
       </div>
@@ -315,7 +315,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
         {% endif %}
 
         {% if g.equipment.list %}
-        {% call components.DropShower(label = 'Что входит в цену', class = 'h-margin-bottom h-text- h-opacity50') %}
+        {% call DropShower(label = 'Что входит в цену', class = 'h-margin-bottom h-text- h-opacity50') %}
           <ul class='h-childs-space-top0'>
             {{ g.equipment.list }}
           </ul>
@@ -359,7 +359,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
   {# @todo Enable when Bitrix integration will be ready #}
   {# <form class='h-margin-top+ h-childs-space-top Wrapper--readable h-margin-left0'>
-    {{ components.Field(
+    {{ Field(
       id = 'contactName',
       name = 'name',
       label = 'Имя',
@@ -368,7 +368,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       required = true,
       style = 'max-width: 300px'
     ) }}
-    {{ components.Field(
+    {{ Field(
       id = 'contactPhoneOrEmail',
       name = 'phoneOrEmail',
       label = 'Телефон или электронная почта',
@@ -377,7 +377,7 @@ metaDesc:        Каталог генераторов «Фасэнергома�
       required = true,
       style = 'max-width: 300px'
     ) }}
-    {{ components.Field(
+    {{ Field(
       id = 'contactMessage',
       name = 'message',
       type = 'textarea',
@@ -394,11 +394,11 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
 <aside>
 
-  {% call components.SolutionPreview(
+  {% call SolutionPreview(
     title = 'Синхронизация генераторных установок',
     linkLabel = 'Подробнее о синхронизации установок',
     url = '/решения/технические/синхронизация-генераторных-установок',
-    image = '/' + path.images + '/solutions/синхронизация-генераторных-установок/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right--inter.jpg'
+    image = '/' + PATH.images + '/solutions/синхронизация-генераторных-установок/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right--inter.jpg'
   ) %}
     <p>Система из параллельно работающих генераторов, позволяющая эффективно распределять нагрузку и расходовать моторесурс двигателя, отключать часть генераторов для обслуживания или ремонта без прекращения подачи электроэнергии. </p>
     <p>Отличное решение, если потребление энергии на объекте существенно меняется в течение дня, недели или даже сезона, или если вам нужна большая мощность по разумной цене. </p>
@@ -406,11 +406,11 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
   <hr>
 
-  {% call components.SolutionPreview(
+  {% call SolutionPreview(
     title = 'Когенерационная установка для генераторов',
     linkLabel = 'Подробнее о когенерации',
     url = '/решения/технические/когенерационная-установка',
-    image = '/' + path.images + '/solutions/когенерационная-установка/Газовая-когенерационная-установка-ФАС-50-70М--front.jpg'
+    image = '/' + PATH.images + '/solutions/когенерационная-установка/Газовая-когенерационная-установка-ФАС-50-70М--front.jpg'
   ) %}
     <p>Когенерационная установка берёт тепло от работы генератора, которое иначе выбрасывается в воздух, и превращает его в горячую воду. </p>
     <p>Нагретая вода идёт в систему отопления, горячего водоснабжения или используется в тригенерации, в результате чего суммарный КПД генератора увеличивается на 36-40%.</p>
@@ -418,11 +418,11 @@ metaDesc:        Каталог генераторов «Фасэнергома�
 
   <hr>
 
-  {% call components.SolutionPreview(
+  {% call SolutionPreview(
     title = 'Контейнеры для генераторов',
     linkLabel = 'Подробнее о контейнерах',
     url = '/решения/технические/контейнеры-для-генераторов',
-    image = '/' + path.images + '/solutions/контейнер/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right.jpg'
+    image = '/' + PATH.images + '/solutions/контейнер/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right.jpg'
   ) %}
     <p>Иногда генераторам приходится работать в сложных условиях — жару +40°С или такой же мороз, ливень или песчаную бурю. Это плохо для корпуса и механизмов. К тому же его нужно регулярно обслуживать.</p>
     <p>Наше решение — специальный контейнер, оснащённый вентиляцией, сигнализацией, освещением и другими системами. Правильная температура и влажность, никаких вредных воздействий.</p>
@@ -442,11 +442,11 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     {# @todo Enable links, when pages for them will be available #}
     <div class='o-grid__item h-1/2'>
       <ul class='{# g-list0 o-iconic-list #} h-childs-space-top+--'>
-        {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li> #}
-        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/преимущества-наших-генераторов'>Преимущества наших генераторов</a></li>
-        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/результаты-испытаний'>Результаты испытаний нашей продукции</a></li>
-        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/гарантия'>Гарантия</a></li>
-        {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}
+        {# <li>{{ Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li> #}
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/преимущества-наших-генераторов'>Преимущества наших генераторов</a></li>
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/результаты-испытаний'>Результаты испытаний нашей продукции</a></li>
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/продукция/гарантия'>Гарантия</a></li>
+        {# <li>{{ Icon('skype', class = 'o-iconic-list__icon') }}
           <p class='h-margin-bottom--'><a href='#'>Главное о газовых генераторах</a></p>
           <p class='h-text-'>Преимущества,&nbsp;особенности, сравнение&nbsp;с&nbsp;дизельными и бензиновыми</p>
         </li> #}
@@ -455,10 +455,10 @@ metaDesc:        Каталог генераторов «Фасэнергома�
     <div class='o-grid__item h-1/2'>
       <ul class='{# g-list0 o-iconic-list #} h-childs-space-top+--'>
         {# @todo Put back `href='/контакты/дилеры'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
-        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/контакты'>Где купить</a></li>
-        {# <li>{{ components.Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Как выбрать генератор?</a></li> #}
-        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/услуги'>Услуги</a></li>
-        <li>{# {{ components.Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/решения'>Решения</a></li>
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/контакты'>Где купить</a></li>
+        {# <li>{{ Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Как выбрать генератор?</a></li> #}
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/услуги'>Услуги</a></li>
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/решения'>Решения</a></li>
       </ul>
     </div>
   </div>

@@ -10,13 +10,13 @@ metaDesc:         Контакты
 
 {% block main %}
 
-  {{ components.Contact(data.contacts.main, lead = true) }}
+  {{ Contact(CONTACTS.main, lead = true) }}
 
   <h2 class='h-margin-bottom0'>Отделы</h2>
 
   <div class='o-grid h-childs-displace++ h-bleed-bottom'>
-    {% for depName, dep in data.contacts.departments %}
-    {{ components.Contact(dep, class = 'o-grid__item h-1/2') }}
+    {% for depName, dep in CONTACTS.departments %}
+    {{ Contact(dep, class = 'o-grid__item h-1/2') }}
     {% endfor %}
   </div>
 
@@ -24,8 +24,8 @@ metaDesc:         Контакты
 
   <h2>Представительства</h2>
 
-  {% for depName, dep in data.contacts.representatives %}
-  {{ components.Contact(dep, expandable = true) }}
+  {% for depName, dep in CONTACTS.representatives %}
+  {{ Contact(dep, expandable = true) }}
   {% endfor %}
 
 {% endblock %}

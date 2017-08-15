@@ -27,7 +27,7 @@ metaDesc:        Осушка углеводородных газов
   { url: 'equipment/насосно-компрессорное-оборудование/Осушка-углеводородных-газов/Осушка-углеводородных-газов-Фасэнергомаш--front-left.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle, class = 'h-margin-bottom+') }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
 
 <p class='h-align--center h-margin-ends++'><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты#order'>Запросить ТКП</a></p>
 

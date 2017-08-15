@@ -1,9 +1,9 @@
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% if not page.props.generatorId %}{{ warn('No generator id provided in `generatorId` of page Matter data') }}{% endif %}
-{% set gen = selectGenerator(data, page.props.generatorId) %}
-{% if not gen %}{{ warn('Not found generator with specified id `' + page.props.generatorId + '` in `generatorId` of page Matter data') }}{% endif %}
+{% if not PAGE.props.generatorId %}{{ warn('No generator id provided in `generatorId` of page Matter data') }}{% endif %}
+{% set gen = selectGenerator(GENERATORS, PAGE.props.generatorId) %}
+{% if not gen %}{{ warn('Not found generator with specified id `' + PAGE.props.generatorId + '` in `generatorId` of page Matter data') }}{% endif %}
 
 {% set specs = gen.specs %}
 {% set enclosure = gen.enclosure %}
@@ -15,9 +15,9 @@
 {% set isDiscontinued = generatorIsDiscontinued(gen) %}
 {% set isAvailable = generatorIsAvailable(gen) %}
 {% set powers = getGeneratorMaxPowers(gen) %}
-{% set powersList = components.PowersList(powers) %}
-{% set phasesWord = specs.phases and components.PhasesToWord(specs.phases) %}
-{% set engine = selectEngine(data, gen.engine) %}
+{% set powersList = PowersList(powers) %}
+{% set phasesWord = specs.phases and PhasesToWord(specs.phases) %}
+{% set engine = selectEngine(ENGINES, gen.engine) %}
 {% set engineTitle = getEngineTitle(engine) %}
 {% set size = getGeneratorSize(gen) %}
 {% set equipmentList = gen.equipment.list %}
@@ -28,7 +28,7 @@
   <meta property='manufacturer' content='{{ gen.manufacturer.brand }}'>
   <meta property='name' content='{{ gen.title|striptags }}'>
   {% if mainPhoto %}
-  <meta property='image' content='/{{ path.images }}/{{ mainPhoto }}'>
+  <meta property='image' content='/{{ PATH.images }}/{{ mainPhoto }}'>
   {% endif %}
 
   {% if gen.article %}
@@ -43,7 +43,7 @@
 
     <div class='o-grid__item h-5/9 h-1/3@lap h-align--center'>
       <a class='h-border-bottom0 js-smooth-jump' href='#photos'>
-        <img src='/{{ path.images }}/{{ mainPhoto or 'no-photo.png' }}' alt='{{ gen.title|striptags }}'>
+        <img src='/{{ PATH.images }}/{{ mainPhoto or 'no-photo.png' }}' alt='{{ gen.title|striptags }}'>
       </a>
     </div>
 
@@ -53,12 +53,12 @@
         <div class='o-grid__item h-1/1 h-1/2@lap h-order--last h-order--first@lap h-align--center h-margin-top+ h-margin-top0@lap'>
           <ul class='h-inline-block h-align--left g-list0 h-text-'>
             {# <li class='text-red'>
-              <span class='h-float--left'>{{ components.Icon('gift') }}</span>
+              <span class='h-float--left'>{{ Icon('gift') }}</span>
               <span class='h-block h-margin-left+--'>Комплект автоматики (АВР)<br> в подарок!</span>
             </li> #}
             {% if warrantyFromInstallation or warrantyServiceLife %}
             <li>
-              <span class='h-float--left'>{{ components.Icon('star') }}</span>
+              <span class='h-float--left'>{{ Icon('star') }}</span>
               <span class='h-block h-margin-left+--'>
                 Гарантия {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }}<br>
                 <small>Моторесурс: {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}</small>
@@ -66,7 +66,7 @@
             </li>
             {% endif %}
             <li>
-              <span class='h-float--left'>{{ components.Icon('delivery') }}</span>
+              <span class='h-float--left'>{{ Icon('delivery') }}</span>
               <span class='h-block h-margin-left+--'><a href='/услуги/доставка'>Доставка по всей России</a></span>
             </li>
           </ul>
@@ -93,17 +93,17 @@
             {% if isDiscontinued %}
             <p class='h-text+ h-marg1in-bottom-- h-text--nowrap'>
               <link property='availability' href='http://schema.org/Discontinued'/>
-              {{ components.Icon('x-o', class = 'text-red h-text h-align--middle Icon--left') }}<span class='h-align--middle'>снят с производства</span>
+              {{ Icon('x-o', class = 'text-red h-text h-align--middle Icon--left') }}<span class='h-align--middle'>снят с производства</span>
             </p>
             {% elif isAvailable %}
             <p class='h-text- h-margin1-bottom-- h-text--nowrap'>
               <link property='availability' href='http://schema.org/InStock'/>
-              {{ components.Icon('check-o', class = 'text-green h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>в наличии</span>
+              {{ Icon('check-o', class = 'text-green h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>в наличии</span>
             </p>
             {% else %}
             <p class='h-text- h-mar1gin-bottom-- h-text--nowrap'>
               <link property='availability' href='http://schema.org/PreOrder'/>
-              {{ components.Icon('clock', class = 'text-blue h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>под заказ</span>
+              {{ Icon('clock', class = 'text-blue h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>под заказ</span>
             </p>
             {% endif %}
 
@@ -161,7 +161,7 @@
 
         {% for fuel, fuelConsumption in specs.fuel %}
         {% if fuelConsumption %}
-        <li><div class='wrap-blue {{ class }}'><p>потребление ({{ components.FuelTypeToWord(fuel) }}):<br> <b>{{ fuelConsumption }}</b></p></div></li>
+        <li><div class='wrap-blue {{ class }}'><p>потребление ({{ FuelTypeToWord(fuel) }}):<br> <b>{{ fuelConsumption }}</b></p></div></li>
         {% endif %}
         {% endfor %}
       </ul>
@@ -223,7 +223,7 @@
 
         <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
           {% if engine %}<tr><th class='h-text--'>Модель</th><td>{{ engineTitle }}</td></tr>{% endif %}
-          {% if engine.cooling %}<tr><th class='h-text--'>Тип охлаждения</th><td>{{ components.CoolingToWord(engine.cooling)|capitalize }}</td></tr>{% endif %}
+          {% if engine.cooling %}<tr><th class='h-text--'>Тип охлаждения</th><td>{{ CoolingToWord(engine.cooling)|capitalize }}</td></tr>{% endif %}
           {% if specs.operatingSpeed %}<tr><th class='h-text--'>Рабочие обороты</th><td>{{ specs.operatingSpeed }}</td></tr>{% endif %}
         </table>
 
@@ -251,7 +251,7 @@
 
     <h2>Фото</h2>
 
-    {{ components.PhotosPreview(gen.photos, gen.title|striptags) }}
+    {{ PhotosPreview(gen.photos, gen.title|striptags) }}
 
   </section>
   {% endif %}
@@ -276,7 +276,7 @@
  # Other generators in this series
  ##################################}
 
-{% set gens = selectGenerators(data) %}
+{% set gens = selectGenerators(GENERATORS) %}
 {% set gens = filterWithBrands(gens, gen.manufacturer.brand) %}
 {% set gens = filterWithTags(gens, gen.tags) %}
 {% set gens = filterOutWithId(gens, gen.slug) %}
@@ -297,12 +297,12 @@
      #       However we have to account for situation when someone will forget to add trailing slash.
      #       Also, `url-joiner()` might fix that issue.
      #}
-    {{ components.ProductCard(
+    {{ ProductCard(
       url = '/продукция/газовые-генераторы/' + g.slug,
-      image = '/' + path.images + '/' + getGeneratorMainPhoto(g).url,
+      image = '/' + PATH.images + '/' + getGeneratorMainPhoto(g).url,
       model = g.model,
       powers = getGeneratorMaxPowers(g),
-      engineCooling = selectEngine(data, g.engine).cooling
+      engineCooling = selectEngine(ENGINES, g.engine).cooling
     ) }}
     {% endfor %}
 

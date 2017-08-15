@@ -10,21 +10,21 @@ metaDesc:        Автономные системы газоснабжения 
 
 {% block main %}
 {# @todo It's unclear so far, are those should be products or no #}
-{# {% call components.CategoryCard(
+{# {% call CategoryCard(
   title = 'Заводы по производству СПГ',
   hLevel = 2,
   url = '/продукция/автономные-системы-газоснабжения/заводы-по-производству-спг'
 ) %}{% endcall %}
-{% call components.CategoryCard(
+{% call CategoryCard(
   title = 'Регазификационные комплексы',
   hLevel = 2,
   url = '/продукция/автономные-системы-газоснабжения/регазификационные-комлексы'
 ) %}{% endcall %} #}
 
-{% call components.CategoryCard(
+{% call CategoryCard(
   title = 'Криогенные резервуары для хранения СПГ',
   hLevel = 2,
-  image = '/' + path.images + '/categories/автономные-системы-газоснабжения/криогенные-резервуары-для-хранения-спг.jpg',
+  image = '/' + PATH.images + '/categories/автономные-системы-газоснабжения/криогенные-резервуары-для-хранения-спг.jpg',
   url = '/продукция/автономные-системы-газоснабжения/криогенные-резервуары-для-хранения-спг'
 ) %}{% endcall %}
 

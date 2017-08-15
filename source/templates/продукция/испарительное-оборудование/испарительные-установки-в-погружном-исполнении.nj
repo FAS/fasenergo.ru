@@ -18,7 +18,7 @@ metaDesc:        Испарительные установки в погружн
   { url: 'equipment/испарительное-оборудование/SE-PG/Испарительная-установка-Фасэнергомаш-SE-PG--5--back-right-top.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqElPhotos, 'Испарительная установка Фасэнергомаш SE/PG') }}
+{{ PhotosPreview(pageEqElPhotos, 'Испарительная установка Фасэнергомаш SE/PG') }}
 
 <h2>Непрямой электрический подогрев</h2>
 

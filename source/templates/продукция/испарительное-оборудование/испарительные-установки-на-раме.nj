@@ -20,7 +20,7 @@ metaDesc:        Испарительные установки на раме
   { url: 'equipment/испарительное-оборудование/SE-R/Испарительная-установка-Фасэнергомаш-SE-R--3--front-right.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqElPhotos, 'Испарительная установка Фасэнергомаш SE/R') }}
+{{ PhotosPreview(pageEqElPhotos, 'Испарительная установка Фасэнергомаш SE/R') }}
 
 <h2>Непрямой электрический подогрев</h2>
 

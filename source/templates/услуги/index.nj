@@ -9,14 +9,14 @@ metaDesc:         Главное о наших услугах
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set pageE = data.contacts.departments.sales %}
+{% set pageE = CONTACTS.departments.sales %}
 
-{% set pagePhone1 = components.Phone(pageE.phones[0]) %}
-{% set pagePhone2 = components.Phone(pageE.phones[1]) %}
+{% set pagePhone1 = Phone(pageE.phones[0]) %}
+{% set pagePhone2 = Phone(pageE.phones[1]) %}
 
-{% set pageEmail = components.Email(pageE.emails[0]) %}
+{% set pageEmail = Email(pageE.emails[0]) %}
 
-{% set pageSkype = components.Skype(pageE.skypes[0]) %}
+{% set pageSkype = Skype(pageE.skypes[0]) %}
 
 <p>Мы делаем всё необходимое для оборудования и обслуживания объекта — проектирование, технико-экономическое обоснование и согласования, доставка, монтаж и строительные работы, пуско-наладка, обслуживание и ремонт.</p>
 {# @todo Put back `href='/контакты/дилеры'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
@@ -24,12 +24,12 @@ metaDesc:         Главное о наших услугах
 
 <div>
   <ul class='o-grid g-list0 h-childs-displace+ h-childs-margin-top+-- h-margin-top+'>
-    {% for slug, service in getPage(page.breadcrumb) %}
+    {% for slug, service in getPage(PAGE.breadcrumb) %}
     <li class='o-grid__item h-1/2'>
       <div class='o-media o-media+'>
         {# @todo Icons disabled on production because of https://trello.com/c/2WulTBD4/78-- #}
-        {% if env.staging or not env.production %}
-        <div class='o-media__aside h-text--em++ h-opacity--20'>{{ components.Icon(service.props.icon, class = 'o-svg-icon--fixed') }}</div>
+        {% if ENV.staging or not ENV.production %}
+        <div class='o-media__aside h-text--em++ h-opacity--20'>{{ Icon(service.props.icon, class = 'o-svg-icon--fixed') }}</div>
         {% endif %}
         <div class='o-media__content'>
           <h3 class='h-h4 h-h3@lap h-margin-top0 h-margin-bottom'><a href='{{ service.props.url }}'>{{ service.props.navTitle }}</a></h3>

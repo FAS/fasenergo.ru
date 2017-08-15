@@ -11,14 +11,14 @@ shortDesc:        Бесплатное гарантийное обслужива
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set pageE = data.contacts.departments.support %}
+{% set pageE = CONTACTS.departments.support %}
 
-{% set pagePhone1 = components.Phone(pageE.phones[0]) %}
-{% set pagePhone2 = components.Phone(pageE.phones[1]) %}
+{% set pagePhone1 = Phone(pageE.phones[0]) %}
+{% set pagePhone2 = Phone(pageE.phones[1]) %}
 
-{% set pageEmail = components.Email(pageE.emails[0]) %}
+{% set pageEmail = Email(pageE.emails[0]) %}
 
-{% set pageSkype = components.Skype(pageE.skypes[0]) %}
+{% set pageSkype = Skype(pageE.skypes[0]) %}
 
 <h2>Гарантийное обслуживание</h2>
 

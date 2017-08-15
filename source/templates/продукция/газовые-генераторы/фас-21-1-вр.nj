@@ -1,11 +1,11 @@
 ---
 generatorId:     фас-21-1-вр
 
-title:           "{{ selectGenerator(data, 'фас-21-1-вр').meta.title }}"
-breadcrumbTitle: "{{ selectGenerator(data, 'фас-21-1-вр').title }}"
-contentTitle:    "{{ selectGenerator(data, 'фас-21-1-вр').title }}"
-navTitle:        "{{ selectGenerator(data, 'фас-21-1-вр').title }}"
-metaDesc:        "{{ selectGenerator(data, 'фас-21-1-вр').meta.desc }}"
+title:           "{{ selectGenerator(GENERATORS, 'фас-21-1-вр').meta.title }}"
+breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-21-1-вр').title }}"
+contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-21-1-вр').title }}"
+navTitle:        "{{ selectGenerator(GENERATORS, 'фас-21-1-вр').title }}"
+metaDesc:        "{{ selectGenerator(GENERATORS, 'фас-21-1-вр').meta.desc }}"
 ---
 
 {% extends './_generator.nj' %}

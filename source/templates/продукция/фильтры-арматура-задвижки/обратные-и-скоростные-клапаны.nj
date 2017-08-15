@@ -15,7 +15,7 @@ metaDesc:        Обратные и скоростные клапаны
   { url: 'equipment/фильтры-арматура-задвижки/обратные-и-скоростные-клапаны/Обратный-клапан.jpg', alt: 'Обратный клапан' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Технические данные</h2>
 

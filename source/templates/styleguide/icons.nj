@@ -13,28 +13,28 @@ applyWrapperContent: false
 
 {% block main %}
 
-{% call components.Example() -%}
-{% raw %}{{ components.Icon('phone', 'Icon--left') }}
-{{ components.Icon('cart', 'Icon--left') }}
-{{ components.Icon('search', 'Icon--left') }}
-{{ components.Icon('check', 'Icon--left') }}
-{{ components.Icon('vent', 'Icon--left') }}
-{{ components.Icon('flash', 'Icon--left') }}
-{{ components.Icon('skype', 'Icon--left') }}
-{{ components.Icon('x', 'Icon--left') }}
-{{ components.Icon('dir-right', 'Icon--left') }}
-{{ components.Icon('pdf', 'Icon--left') }}
-{{ components.Icon('check-o', 'Icon--left') }}
-{{ components.Icon('clock', 'Icon--left') }}
-{{ components.Icon('delivery', 'Icon--left') }}
-{{ components.Icon('gift', 'Icon--left') }}
-{{ components.Icon('star', 'Icon--left') }}
-{{ components.Icon('x-o', 'Icon--left') }}
-{{ components.Icon('linkedin', 'Icon--left') }}
-{{ components.Icon('twitter', 'Icon--left') }}
-{{ components.Icon('vk', 'Icon--left') }}
-{{ components.Icon('facebook', 'Icon--left') }}
-{{ components.Icon('google-plus', 'Icon--left') }}{% endraw %}
+{% call Example() -%}
+{% raw %}{{ Icon('phone', 'Icon--left') }}
+{{ Icon('cart', 'Icon--left') }}
+{{ Icon('search', 'Icon--left') }}
+{{ Icon('check', 'Icon--left') }}
+{{ Icon('vent', 'Icon--left') }}
+{{ Icon('flash', 'Icon--left') }}
+{{ Icon('skype', 'Icon--left') }}
+{{ Icon('x', 'Icon--left') }}
+{{ Icon('dir-right', 'Icon--left') }}
+{{ Icon('pdf', 'Icon--left') }}
+{{ Icon('check-o', 'Icon--left') }}
+{{ Icon('clock', 'Icon--left') }}
+{{ Icon('delivery', 'Icon--left') }}
+{{ Icon('gift', 'Icon--left') }}
+{{ Icon('star', 'Icon--left') }}
+{{ Icon('x-o', 'Icon--left') }}
+{{ Icon('linkedin', 'Icon--left') }}
+{{ Icon('twitter', 'Icon--left') }}
+{{ Icon('vk', 'Icon--left') }}
+{{ Icon('facebook', 'Icon--left') }}
+{{ Icon('google-plus', 'Icon--left') }}{% endraw %}
 {% endcall %}
 
 {% endblock %}

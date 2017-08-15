@@ -20,7 +20,7 @@ metaDesc:        Блочный технологический комплекс 
   { url: 'equipment/насосно-компрессорное-оборудование/Блочный-технологический-комплекс-НСУ/Блочный-технологический-комплекс-насосно-счетной-установки-Фасэнергомаш--6--back-right.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Состав</h2>
 

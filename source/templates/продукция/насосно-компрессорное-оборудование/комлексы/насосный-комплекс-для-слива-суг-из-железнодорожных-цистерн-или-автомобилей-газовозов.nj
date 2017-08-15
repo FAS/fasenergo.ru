@@ -21,7 +21,7 @@ metaDesc:        Насосный комплекс для слива СУГ из
   { url: 'equipment/насосно-компрессорное-оборудование/НК-для-слива-СУГ-из-железнодорожных-цистерн-или-автомобилей-газовозов/Насосный-комплекс-Фасэнергомаш-для-слива-СУГ--6--back-right.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Технические характеристики</h2>
 

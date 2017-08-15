@@ -13,7 +13,7 @@ applyWrapperContent: false
 
 {% block main %}
 
-{% call components.Example(title = 'Список') -%}
+{% call Example(title = 'Список') -%}
 <ul>
   <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
   <li>Стоимость технического обслуживания в разы ниже аналогов импортного производства.</li>
@@ -21,7 +21,7 @@ applyWrapperContent: false
 </ul>
 {% endcall %}
 
-{% call components.Example(title = 'Нумерованный список') -%}
+{% call Example(title = 'Нумерованный список') -%}
 <ol>
   <li>Выдерживают единовременный наброс нагрузки в объеме 100% номинальной мощности агрегата без его остановки.</li>
   <li>Стоимость технического обслуживания в разы ниже аналогов импортного производства.</li>
@@ -29,7 +29,7 @@ applyWrapperContent: false
 </ol>
 {% endcall %}
 
-{% call components.Example(title = 'Таблица') -%}
+{% call Example(title = 'Таблица') -%}
 <table class='Table'>
   <thead>
     <tr>
@@ -56,7 +56,7 @@ applyWrapperContent: false
 </table>
 {% endcall %}
 
-{% call components.Example(title = 'Разделитель') -%}
+{% call Example(title = 'Разделитель') -%}
 <p>Текст.</p>
 
 <hr>

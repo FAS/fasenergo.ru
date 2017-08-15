@@ -18,7 +18,7 @@ metaDesc:        Насосно-счётная установка мобильн
   { url: 'equipment/насосно-компрессорное-оборудование/НСУ-мобильного-исполнения/Насосно-счетная-установка-Фасэнергомаш-мобильного-исполнения--3--front-right.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Особенности установки</h2>
 

@@ -9,11 +9,11 @@ metaDesc:         Дилерам
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% set pageE = data.contacts.departments.dealers %}
+{% set pageE = CONTACTS.departments.dealers %}
 
-{% set pagePhone1 = components.Phone(pageE.phones[0]) %}
-{% set pageEmail = components.Email(pageE.emails[0]) %}
-{% set pageSkype = components.Skype(pageE.skypes[0]) %}
+{% set pagePhone1 = Phone(pageE.phones[0]) %}
+{% set pageEmail = Email(pageE.emails[0]) %}
+{% set pageSkype = Skype(pageE.skypes[0]) %}
 
 <p>Дилер ФАС получает возможность продавать наше оборудование и оказывать сопутствующие услуги — монтаж и шеф-монтаж, пуско-наладка, обслуживание и ремонт.</p>
 <p>Сейчас мы сотрудничаем с десятками дилеров в регионах России и за границей. Как правило, это компании, занимающиеся поставками и обслуживанием генераторов и источников резервного/аварийного электроснабжения, газового оборудования, нефтесервисные и строительные организации из энергетической сферы.</p>

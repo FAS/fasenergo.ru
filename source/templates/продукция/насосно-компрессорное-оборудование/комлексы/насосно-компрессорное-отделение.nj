@@ -16,7 +16,7 @@ metaDesc:        Насосно-компрессорное отделение (�
   { url: 'equipment/насосно-компрессорное-оборудование/НКО/Насосно-компрессорное-отделение-Фасэнергомаш-2--2--front-right-top.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, page.contentTitle) }}
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Назначение</h2>
 

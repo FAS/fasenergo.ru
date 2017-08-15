@@ -15,7 +15,7 @@ metaDesc:        Самовсасывающие установки
   { url: 'equipment/насосно-компрессорное-оборудование/Самовсасывающая-установка/Самовсасывающая-установка-Фасэнергомаш--front-right.jpg' }
 ] %}
 
-{{ components.PhotosPreview(pageEqPhotos, 'Самовсасывающая установка Фасэнергомаш') }}
+{{ PhotosPreview(pageEqPhotos, 'Самовсасывающая установка Фасэнергомаш') }}
 
 <h2>Подключение</h2>
 
@@ -79,7 +79,7 @@ metaDesc:        Самовсасывающие установки
       <td class='h-align--right'>{{ e.maxPrimingDepth }}&nbsp;м</td>
       <td>
         {% if e.equipment %}
-        {% call components.DropShower(label = 'Комплектация', class = 'h-text-') %}
+        {% call DropShower(label = 'Комплектация', class = 'h-text-') %}
           <ul class='h-childs-space-top0'>
             {% for eq in e.equipment %}<li>{{ eq }}</li>{% endfor %}
           </ul>
