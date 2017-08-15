@@ -12,7 +12,8 @@ module.exports = (...urls) => {
   const hasProtocol = uri.protocol()
 
   if (hasProtocol) {
-    return URI.joinPaths(...restUrls).absoluteTo(uri).valueOf()
+    // @todo Something has to be done with the fact that URI.js force-encodes urls
+    return URI.decode(URI.joinPaths(...restUrls).absoluteTo(uri).valueOf())
   }
 
   let path = URI.joinPaths(...urls).valueOf()
@@ -22,5 +23,5 @@ module.exports = (...urls) => {
     path = `/${path}`
   }
 
-  return path
+  return URI.decode(path)
 }
