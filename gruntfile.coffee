@@ -84,7 +84,7 @@ module.exports = (grunt) ->
     locales:
       'ru-RU':
         locale: 'ru-RU'
-        url: '/ru'
+        url: '/'
         rtl: false
         defaultForLanguage: true
         numberFormat: '0,0.[00]'
