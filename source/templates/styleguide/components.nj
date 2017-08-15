@@ -146,13 +146,13 @@ applyWrapperContent: false
 {% call Example(title = 'Превью новости') -%}
 {% raw %}{{ PostPreview(
   title = 'Очень очень длинный и странный заголовок новости написан здесь',
-  desc = 'Описание новости',
+  excerpt = 'Описание новости',
   date = '2017-04-25T11:00:00',
   url = '#'
 ) }}
 {{ PostPreview(
   title = 'Очень очень длинный и странный заголовок новости написан здесь',
-  desc = 'Описание новости',
+  excerpt = 'Описание новости',
   date = '2017-04-25T11:00:00',
   url = '#',
   image = 'https://placehold.it/1350x550'
@@ -162,13 +162,13 @@ applyWrapperContent: false
 {% call Example(title = 'Превью акции') -%}
 {% raw %}{{ PromoPreview(
   title = 'Очень очень длинный и странный заголовок акции написан здесь',
-  desc = 'Описание акции',
+  excerpt = 'Описание акции',
   date = '2017-04-25T11:00:00',
   url = '#'
 ) }}
 {{ PromoPreview(
   title = 'Очень очень длинный и странный заголовок акции написан здесь',
-  desc = 'Описание акции',
+  excerpt = 'Описание акции',
   date = '2017-04-25T11:00:00',
   url = '#',
   image = 'https://placehold.it/1350x550'
