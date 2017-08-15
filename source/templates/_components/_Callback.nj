@@ -49,7 +49,7 @@
           if ("true" != e.getAttribute("init")) {
             options = JSON.parse(e.getAttribute("data-settings"));
             var o = new MangoWidget({
-              host: window.location.protocol + '//' + options.host,
+              host: 'https://' + options.host,
               id: options.id,
               elem: e,
               message: options.errorMessage
@@ -59,7 +59,7 @@
         }
       }
 
-      host = window.location.protocol + "//widgets.mango-office.ru/";
+      host = "https://widgets.mango-office.ru/";
       var i = document.getElementsByClassName(t);
 
       o("link", {
