@@ -131,7 +131,9 @@ module.exports = (grunt) ->
     'shell:jspm_build'
     'shell:jspm_build_loncin_promo'
     'uglify'
-    'uncss'
+    # @todo Disabled due to issues with lots of pages and scripts. See
+    #       `styles` task file for details
+    # 'uncss'
     'csso'
     'responsive_images:thumbnails'
     # @todo https://github.com/stephanmax/grunt-responsive-images-extender/issues/17

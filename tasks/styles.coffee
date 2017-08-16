@@ -66,10 +66,9 @@ module.exports = () ->
         cwd: '<%= path.build.styles %>'
         src: '{,**/}*.compiled.css'
         dest: '<%= path.build.styles %>'
-        # In build we have to name this file as final stylesheet would be named,
-        # because due to build mode this is what will be stated in HTML pages
-        # and for what will look `uncss` task
-        ext: if @config('env.build') then '.min.css' else '.prefixed.css'
+        # @todo Revert to this value when `uncss` task issue will be solved
+        # ext: if @config('env.production') then '.min.css' else '.prefixed.css'
+        ext: '.prefixed.css'
       ]
 
   ###
@@ -78,38 +77,45 @@ module.exports = () ->
   Remove unused CSS
   ###
 
-  @config 'uncss',
-    build:
-      options:
-        htmlroot: '<%= path.build.root %>'
-        ignore: [
-          # Classes inside IE conditional blocks have to be ignored explicitly
-          # See https://github.com/giakki/uncss/issues/112
-          '.Outdated-browser'
-          '.Outdated-browser__link'
+  # @todo Disabled because it doesn't play well with tons of pages and takes forever to process them
+  #       It seems that issue somehow coming from `main.js`. When removed, processing
+  #       still takes a lot, but usually around 6 minutes. But, unfortunately, I wasn't
+  #       able to pinpoint exact source of issue, since debugging is tricky.
+  #       It might become more usable when https://github.com/giakki/uncss/issues/321 will be implemented
+  #
 
-          # @todo https://github.com/tmpvar/jsdom/issues/1750
-          'svg:not(:root)'
+  # @config 'uncss',
+  #   build:
+  #     options:
+  #       htmlroot: '<%= path.build.root %>'
+  #       ignore: [
+  #         # Classes inside IE conditional blocks have to be ignored explicitly
+  #         # See https://github.com/giakki/uncss/issues/112
+  #         '.Outdated-browser'
+  #         '.Outdated-browser__link'
 
-          # @todo https://github.com/giakki/uncss/pull/280#issuecomment-320507763
-          '::placeholder'
+  #         # @todo https://github.com/tmpvar/jsdom/issues/1750
+  #         'svg:not(:root)'
 
-          # This class usually not occurs in original templates, but you might want
-          # to use it occasionally on production
-          '.o-show-grid'
+  #         # @todo https://github.com/giakki/uncss/pull/280#issuecomment-320507763
+  #         '::placeholder'
 
-          # Ignore state-related classes, like `is-active` and `menu-entry--is-active`
-          /[-\.#](is|has|not)-/
-        ]
-        ignoreSheets : [
-          /^https.*/
-          /^http.*/
-          /^\/\/.*/
-        ]
-      files: [
-        src: '<%= path.build.root %>/{,**/}*.html'
-        dest: '<%= file.build.style.tidy %>'
-      ]
+  #         # This class usually not occurs in original templates, but you might want
+  #         # to use it occasionally on production
+  #         '.o-show-grid'
+
+  #         # Ignore state-related classes, like `is-active` and `menu-entry--is-active`
+  #         /[-\.#](is|has|not)-/
+  #       ]
+  #       ignoreSheets : [
+  #         /^https.*/
+  #         /^http.*/
+  #         /^\/\/.*/
+  #       ]
+  #     files: [
+  #       src: '<%= path.build.root %>/{,**/}*.html'
+  #       dest: '<%= file.build.style.tidy %>'
+  #     ]
 
   ###
   CSSO
@@ -124,7 +130,9 @@ module.exports = () ->
       files: [
         expand: true
         cwd: '<%= path.build.styles %>'
-        src: '{,**/}*.tidy.css'
+        # @todo Revert to this value when issue with `uncss` task will be solved
+                # src: '{,**/}*.tidy.css'
+        src: '{,**/}*.prefixed.css'
         dest: '<%= path.build.styles %>'
         ext: '.min.css'
       ]
