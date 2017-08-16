@@ -9,7 +9,7 @@
 {% block main %}
 <div typeof='NewsArticle'>
   <meta property='headline' content='{{ PAGE.contentTitle }}'>
-  <meta property='description' content='{{ PAGE.excerpt }}'>
+  <meta property='description' content='{{ PAGE.excerpt|striptags }}'>
   {# @Todo this has to be improved, since Google asks for width and height properties #}
   <meta property='image' content='{{ PAGE.image }}'>
   <meta property='publisher' resource='#this'>
