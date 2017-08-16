@@ -110,7 +110,8 @@ module.exports = (grunt) ->
     'sass'
     'postcss:autoprefix'
     'responsive_images:thumbnails'
-    'responsive_images_extender'
+    # @todo https://github.com/stephanmax/grunt-responsive-images-extender/issues/17
+    # 'responsive_images_extender'
     'browserSync'
     'watch'
   ]
@@ -133,7 +134,8 @@ module.exports = (grunt) ->
     'uncss'
     'csso'
     'responsive_images:thumbnails'
-    'responsive_images_extender'
+    # @todo https://github.com/stephanmax/grunt-responsive-images-extender/issues/17
+    # 'responsive_images_extender'
     'htmlmin'
     'tinypng'
     'clean:styles'
