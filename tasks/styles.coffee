@@ -101,7 +101,11 @@ module.exports = () ->
           # Ignore state-related classes, like `is-active` and `menu-entry--is-active`
           /[-\.#](is|has|not)-/
         ]
-        ignoreSheets : [/fonts.googleapis/]
+        ignoreSheets : [
+          /^https.*/
+          /^http.*/
+          /^\/\/.*/
+        ]
       files: [
         src: '<%= path.build.root %>/{,**/}*.html'
         dest: '<%= file.build.style.tidy %>'
