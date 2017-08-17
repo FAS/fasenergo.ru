@@ -16,14 +16,24 @@ viewport: 'width=device-width, initial-scale=1.0'
 {% endblock %}
 
 {% block js %}
+{##
+ # @todo There is some kind of voodoo magick happens here, but nobody cares
+ #       Related to the fact, that JSPM can't watch for multple builds, and due to that
+ #       we rely on directl SystemJS loading
+ #}
 {% if not ENV.build %}
 <script src='/jspm_packages/system.js'></script>
 <script src='/jspm.config.js'></script>
 <script>
+   // Only load with hot reloading if chockidar is running
+  {% if not ENV.hotModuleRloading %}
   SystemJS.import('systemjs-hot-reloader').then((connect) => {
     connect()
+  {% endif %}
     SystemJS.import('landings/loncin-promo.js')
+  {% if not ENV.hotModuleRloading %}
   })
+  {% endif %}
 </script>
 {% else %}
 <script src='{{ urljoin('/', PATH.scripts, 'landings/loncin-promo.min.js') }}'></script>
