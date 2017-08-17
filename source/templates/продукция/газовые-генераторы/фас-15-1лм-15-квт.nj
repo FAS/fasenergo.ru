@@ -1,11 +1,12 @@
 ---
 generatorId:     фас-15-1лм-15-квт
 
-title:           "{{ selectGenerator(data, 'фас-15-1лм-15-квт').meta.title }}"
-breadcrumbTitle: "{{ selectGenerator(data, 'фас-15-1лм-15-квт').title }}"
-contentTitle:    "{{ selectGenerator(data, 'фас-15-1лм-15-квт').title }}"
-navTitle:        "{{ selectGenerator(data, 'фас-15-1лм-15-квт').title }}"
-metaDesc:        "{{ selectGenerator(data, 'фас-15-1лм-15-квт').meta.desc }}"
+title:           "{{ selectGenerator(GENERATORS, 'фас-15-1лм-15-квт').meta.title }}"
+contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-15-1лм-15-квт').title }}"
+navTitle:        "{{ selectGenerator(GENERATORS, 'фас-15-1лм-15-квт').title }}"
+breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-15-1лм-15-квт').title }}"
+
+description: "{{ selectGenerator(GENERATORS, 'фас-15-1лм-15-квт').meta.desc }}"
 ---
 
 {% extends './_generator.nj' %}
