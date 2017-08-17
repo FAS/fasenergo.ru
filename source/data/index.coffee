@@ -17,10 +17,10 @@ module.exports = ({ config, file: { readYAML } }) ->
       source: config('path.source')
       build: config('path.build')
     SITE:
-      name: pkg.name
-      shortName: pkg.name
+      name: 'Фасэнергомаш'
+      shortName: 'Фасэнергомаш'
       version: pkg.version
-      description: pkg.description
+      description: 'Немецко-российский производитель газового оборудования'
       homepage: if sitename then "https://#{sitename}" else pkg.homepage
       logo: "/#{imagesPath}/logo.svg"
       viewport: 'width=960, initial-scale=1'
@@ -30,7 +30,7 @@ module.exports = ({ config, file: { readYAML } }) ->
       googleAnalyticsId: 'UA-35704990-1'
       yandexMetrikaId: '20139793'
     PLACEHOLDERS:
-      company: pkg.name
+      company: 'Фасэнергомаш'
     PAGE_DEFAULTS:
       image: ''
       class: '',
