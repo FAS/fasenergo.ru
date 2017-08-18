@@ -103,46 +103,6 @@ module.exports = {
 
   representatives: {
 
-    fasEkaterinburg: {
-      title: 'Екатеринбург',
-      desc: null,
-      address: [
-        {
-          index: 620075,
-          city: 'Екатеринбург',
-          street: 'ул. Ленина д. 50 литер Д, оф. 128',
-          yandexMapSrc: null,
-          images: null
-        }
-      ],
-      worktime: null,
-      phones: [{ country: '7', city: '912', tel: ['05', '204', '04'], add: null, noParentheses: true }],
-      emails: [{ value: ['dya', 'fasenergo.ru'] }],
-      skypes: [{ value: 'live:dya_132' }]
-    },
-
-    fasKazan: {
-      title: 'Казань',
-      desc: null,
-      address: null,
-      worktime: null,
-      phones: [{ country: '7', city: '987', tel: ['40', '204', '04'], add: null, noParentheses: true }],
-      emails: [{ value: ['mtn', 'fasenergo.ru'] }],
-      skypes: [{ value: 'mtn@fasenergo' }]
-    },
-
-    fasNovosibirsk: {
-      title: 'Новосибирск',
-      desc: null,
-      address: null,
-      worktime: null,
-      phones: [
-        { country: '7', city: '913', tel: ['93', '204', '04'], add: null, noParentheses: true }
-      ],
-      emails: [{ value: ['vaa', 'fasenergo.ru'] }],
-      skypes: [{ value: 'vaa.fasenergo' }]
-    },
-
     fasKrasnodar: {
       title: 'Краснодар',
       desc: null,
