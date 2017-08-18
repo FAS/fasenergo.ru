@@ -16,7 +16,7 @@ import jump from 'jump.js'
  */
 export default () => {
   const jumpToHash = (link) => {
-    const hrefHash = link && link.attr('href').replace(/^.*?(#|$)/, '')
+    const hrefHash = link && link.getAttribute('href').replace(/^.*?(#|$)/, '')
     const hash = hrefHash || window.location.hash.substring(1)
     const target = document.getElementById(hash)
 
@@ -27,6 +27,11 @@ export default () => {
   // Note, that it won't work for page transitions :(
   jumpToHash()
 
-  // Jump smoothly on click
-  $('.js-smooth-jump').on('click', function (e) { jumpToHash($(this)) })
+  const $smoothLinks = document.querySelectorAll('.js-smooth-jump')
+
+  document.addEventListener('click', (e) => {
+    const $target = e.target
+
+    $smoothLinks.forEach(($l) => $l.contains($target) && jumpToHash($l))
+  })
 }
