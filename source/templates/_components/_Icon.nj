@@ -1,6 +1,11 @@
 {##
  # Display icon
  #
+ # @note It is recommended to NOT include `xmlns='http://www.w3.org/2000/svg'` for inlined SVG,
+ #       otherwise IE8 will choke on self-closing tags within SVG. It is allowed by specs.
+ #       Used through `<img>` or within XML space SVGs have to have `xmlns` attribute to work.
+ #       Alternatively, self-closing tags can be removed.
+ #
  # @param {string} name    Name of icon. Should match icon name from `/source/icons/` dir.
  # @param {string} [class] Class for icon wrapper.
  # @param {string} [style] Style for icon wrapper.
@@ -15,7 +20,7 @@
     {%- if name == iconName -%}
     <i class='o-svg-icon {{ class }}' style='{{ style }}'>
       <canvas class='o-svg-icon__canvas' width='{{ width }}' height='{{ height }}'></canvas>
-      <svg class='o-svg-icon__svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 {{ width }} {{ height }}' fill='currentColor' {{ evenodd and "fill-rule='evenodd'" }}>
+      <svg class='o-svg-icon__svg' viewBox='0 0 {{ width }} {{ height }}' fill='currentColor' {{ evenodd and "fill-rule='evenodd'" }}>
         {{ caller() }}
       </svg>
     </i>
