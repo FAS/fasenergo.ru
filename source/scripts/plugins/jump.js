@@ -15,13 +15,12 @@ import jump from 'jump.js'
  *   <div id='section'>Test</div>
  */
 export default () => {
-  const jumpToHash = (target) => {
-    const hrefHash = target && target.attr('href').replace(/^.*?(#|$)/, '')
+  const jumpToHash = (link) => {
+    const hrefHash = link && link.attr('href').replace(/^.*?(#|$)/, '')
     const hash = hrefHash || window.location.hash.substring(1)
+    const target = document.getElementById(hash)
 
-    if (hash) {
-      jump(`#${hash}`)
-    }
+    if (target) jump(target)
   }
 
   // Jump smoothly if on loaded page exists hash
