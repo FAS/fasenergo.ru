@@ -20,7 +20,7 @@
     {%- if name == iconName -%}
     <i class='o-svg-icon {{ class }}' style='{{ style }}'>
       <canvas class='o-svg-icon__canvas' width='{{ width }}' height='{{ height }}'></canvas>
-      <svg class='o-svg-icon__svg' viewBox='0 0 {{ width }} {{ height }}' fill='currentColor' {{ evenodd and "fill-rule='evenodd'" }}>
+      <svg class='o-svg-icon__svg' viewBox='0 0 {{ width }} {{ height }}' fill='currentColor' {{ "fill-rule='evenodd'" if evenodd }}>
         {{ caller() }}
       </svg>
     </i>
