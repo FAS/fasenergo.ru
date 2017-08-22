@@ -1,9 +1,3 @@
-// stylelint-disable
-
-/*------------------------------------*\
-		$PAGE-PRODUCT
-\*------------------------------------*/
-
 .page-product-menu {
 
   li + li:before {
@@ -28,11 +22,12 @@
 
 }
 
-.photo-slider__thumbs__link {
-	display: inline-block;
-
-	opacity: .5;
+.Thumb-link {
 	@extend .h-trans--all\+;
+
+  display: inline-block;
+
+  opacity: .5;
 
   border-width: 3px;
   border-color: transparent;

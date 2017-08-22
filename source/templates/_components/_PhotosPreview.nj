@@ -30,7 +30,7 @@
     {% for photo in photos %}
     {% set photoUrl = urljoin(imagesPath, photo.url) %}
 
-    <a class='photo-slider__thumbs__link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}'>
+    <a class='Thumb-link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}'>
       <img class='h-align--middle' src='{{ photoUrl }}' height='80' alt='{{ photo.alt or alt }}'>
     </a>
     {% endfor %}
