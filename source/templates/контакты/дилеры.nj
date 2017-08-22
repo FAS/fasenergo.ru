@@ -22,6 +22,12 @@ description: Дилеры
       <li>ООО «Артпром»</li>
       <li>Группа компаний «Атис»</li>
       <li>ООО «Техногазстрой»</li>
+      <li>
+        <p>ООО «АНЗБЕРК»</p>
+        <p class='h-bleed-top--'>+8 (812) 234-01-20</p>
+        <p class='h-bleed-top--'><a href='mailto:mail@anzberk.com'>mail@anzberk.com</a><br></p>
+        <p class='h-bleed-top--'>197136, г. Санкт-Петербург, ул. Всеволода Вишневского, д. 4</p>
+      </li>
     </ul>
   </article>
 
