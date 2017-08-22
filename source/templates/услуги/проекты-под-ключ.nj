@@ -13,13 +13,8 @@ shortDesc:        'Полное оборудование объекта: про�
 
 {% block main %}
 {% set pageE = CONTACTS.departments.sales %}
-
 {% set pagePhone1 = Phone(pageE.phones[0]) %}
-{% set pagePhone2 = Phone(pageE.phones[1]) %}
-
 {% set pageEmail = Email(pageE.emails[0]) %}
-
-{% set pageSkype = Skype(pageE.skypes[0]) %}
 
 <p>Проектом «под ключ» мы называем оборудование объекта от А до Я:</p>
 
@@ -46,9 +41,8 @@ shortDesc:        'Полное оборудование объекта: про�
   <p>Если вы хотите заказать проект «под ключ», пожалуйста, обращайтесь в отдел продаж:</p>
 
   <ul>
-    <li>{{ pagePhone1 }} или {{ pagePhone2 }}</li>
+    <li>{{ pagePhone1 }}</li>
     <li>{{ pageEmail }}</li>
-    <li>skype: {{ pageSkype }}</li>
   </ul>
 
 </aside>
