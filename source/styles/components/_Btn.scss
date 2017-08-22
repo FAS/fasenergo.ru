@@ -28,10 +28,8 @@
   &:focus {
     @include ekzo-theme() {
       color: ekzo-theme(btn-hover);
-      $bg: ekzo-theme(btn-hover-bg);
-
-      background-color: $bg;
-      border-color:     $bg;
+      background-color: ekzo-theme(btn-hover-bg);
+      border-color: transparent;
     }
   }
 
@@ -39,10 +37,8 @@
   &.is-active {
     @include ekzo-theme() {
       color: ekzo-theme(btn-hover);
-      $bg: ekzo-theme(btn-active-bg);
-
-      background-color: $bg;
-      border-color:     $bg;
+      background-color: ekzo-theme(btn-active-bg);
+      border-color: transparent;
     }
   }
 
@@ -67,30 +63,24 @@
 .Btn--solid {
   @include ekzo-theme() {
     color: ekzo-theme(btn-solid);
-    $bg: ekzo-theme(btn-solid-bg);
-
-    background-color: $bg;
-    border-color:     $bg;
+    background-color: ekzo-theme(btn-solid-bg);
+    border-color: transparent;
   }
 
   &:hover,
   &:focus {
     @include ekzo-theme() {
       color: ekzo-theme(btn-solid-hover);
-      $bg: ekzo-theme(btn-solid-hover-bg);
-
-      background-color: $bg;
-      border-color:     $bg;
+      background-color: ekzo-theme(btn-solid-hover-bg);
+      border-color: transparent;
     }
   }
 
   &:active {
     @include ekzo-theme() {
       color: ekzo-theme(btn-solid-hover);
-      $bg: ekzo-theme(btn-solid-active-bg);
-
-      background-color: $bg;
-      border-color:     $bg;
+      background-color: ekzo-theme(btn-solid-active-bg);
+      border-color: transparent;
     }
   }
 
@@ -101,10 +91,8 @@
     &:active {
       @include ekzo-theme() {
         color: ekzo-theme(btn-solid);
-        $bg: ekzo-theme(btn-solid-bg);
-
-        background-color: $bg;
-        border-color:     $bg;
+        background-color: ekzo-theme(btn-solid-bg);
+        border-color: transparent;
       }
     }
 
@@ -117,30 +105,24 @@
 
   @include ekzo-theme() {
     color: ekzo-theme(btn-primary);
-    $bg: ekzo-theme(btn-primary-bg);
-
-    background-color: $bg;
-    border-color:     $bg;
+    background-color: ekzo-theme(btn-primary-bg);
+    border-color: transparent;
   }
 
   &:hover,
   &:focus {
     @include ekzo-theme() {
       color: ekzo-theme(btn-primary-hover);
-      $bg: ekzo-theme(btn-primary-hover-bg);
-
-      background-color: $bg;
-      border-color:     $bg;
+      background-color: ekzo-theme(btn-primary-hover-bg);
+      border-color: transparent;
     }
   }
 
   &:active {
     @include ekzo-theme() {
       color: ekzo-theme(btn-primary-hover);
-      $bg: ekzo-theme(btn-primary-active-bg);
-
-      background-color: $bg;
-      border-color:     $bg;
+      background-color: ekzo-theme(btn-primary-active-bg);
+      border-color: transparent;
     }
   }
 
@@ -151,10 +133,8 @@
     &:active {
       @include ekzo-theme() {
         color: ekzo-theme(btn-primary);
-        $bg: ekzo-theme(btn-primary-bg);
-
-        background-color: $bg;
-        border-color:     $bg;
+        background-color: ekzo-theme(btn-primary-bg);
+        border-color: transparent;
       }
     }
 
