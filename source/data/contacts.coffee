@@ -69,7 +69,7 @@ module.exports = {
       phones: [
         { country: '7', city: '812', tel: ['318', '75', '75'] }
       ],
-      emails: false,
+      emails: [{ value: ['industrial', 'fasenergo.ru'] }],
       skypes: false
     },
 
@@ -79,23 +79,24 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'] }
+        { country: '7', city: '812', tel: ['318', '75', '75'], add: '511' }
       ],
       emails: [{ value: ['dealer', 'fasenergo.ru'] }],
       skypes: false
     }
 
-    export: {
-      title: 'Экспорт',
-      desc: 'Покупка, обслуживание, ремонт, запчасти.',
-      address: null,
-      worktime: null,
-      phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: '512' }
-      ],
-      emails: [{ value: ['snn', 'fasenergo.ru'] }],
-      skypes: [{ value: 'snn.fasenergo' }]
-    }
+    # @todo До определения что делать с этим отделом, зачем он и кто за него отвечает
+    # export: {
+    #   title: 'Экспорт',
+    #   desc: 'Покупка, обслуживание, ремонт, запчасти.',
+    #   address: null,
+    #   worktime: null,
+    #   phones: [
+    #     { country: '7', city: '812', tel: ['318', '75', '75'], add: '512' }
+    #   ],
+    #   emails: [{ value: ['snn', 'fasenergo.ru'] }],
+    #   skypes: [{ value: 'snn.fasenergo' }]
+    # }
 
   }
 
