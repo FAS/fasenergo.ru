@@ -24,38 +24,31 @@
     outline: 0;
   }
 
-  &:hover,
-  &:focus {
-    @include ekzo-theme() {
-      color: ekzo-theme(btn-hover);
-      background-color: ekzo-theme(btn-hover-bg);
-      border-color: transparent;
-    }
-  }
+  &:not(:disabled) {
 
-  &:active,
-  &.is-active {
-    @include ekzo-theme() {
-      color: ekzo-theme(btn-hover);
-      background-color: ekzo-theme(btn-active-bg);
-      border-color: transparent;
+    &:hover,
+    &:focus {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-hover);
+        background-color: ekzo-theme(btn-hover-bg);
+        border-color: transparent;
+      }
     }
+
+    &:active,
+    &.is-active {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-hover);
+        background-color: ekzo-theme(btn-active-bg);
+        border-color: transparent;
+      }
+    }
+
   }
 
   &:disabled {
     opacity: .5;
     cursor: default;
-
-    &:hover,
-    &:focus,
-    &:active {
-      @include ekzo-theme() {
-        color:            ekzo-theme(btn);
-        background-color: ekzo-theme(btn-bg);
-        border-color:     ekzo-theme(btn-border);
-      }
-    }
-
   }
 
 }
@@ -67,31 +60,21 @@
     border-color: transparent;
   }
 
-  &:hover,
-  &:focus {
-    @include ekzo-theme() {
-      color: ekzo-theme(btn-solid-hover);
-      background-color: ekzo-theme(btn-solid-hover-bg);
-      border-color: transparent;
-    }
-  }
-
-  &:active {
-    @include ekzo-theme() {
-      color: ekzo-theme(btn-solid-hover);
-      background-color: ekzo-theme(btn-solid-active-bg);
-      border-color: transparent;
-    }
-  }
-
-  &:disabled {
+  &:not(:disabled) {
 
     &:hover,
-    &:focus,
+    &:focus {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-solid-hover);
+        background-color: ekzo-theme(btn-solid-hover-bg);
+        border-color: transparent;
+      }
+    }
+
     &:active {
       @include ekzo-theme() {
-        color: ekzo-theme(btn-solid);
-        background-color: ekzo-theme(btn-solid-bg);
+        color: ekzo-theme(btn-solid-hover);
+        background-color: ekzo-theme(btn-solid-active-bg);
         border-color: transparent;
       }
     }
@@ -109,31 +92,21 @@
     border-color: transparent;
   }
 
-  &:hover,
-  &:focus {
-    @include ekzo-theme() {
-      color: ekzo-theme(btn-primary-hover);
-      background-color: ekzo-theme(btn-primary-hover-bg);
-      border-color: transparent;
-    }
-  }
-
-  &:active {
-    @include ekzo-theme() {
-      color: ekzo-theme(btn-primary-hover);
-      background-color: ekzo-theme(btn-primary-active-bg);
-      border-color: transparent;
-    }
-  }
-
-  &:disabled {
+  &:not(:disabled) {
 
     &:hover,
-    &:focus,
+    &:focus {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-primary-hover);
+        background-color: ekzo-theme(btn-primary-hover-bg);
+        border-color: transparent;
+      }
+    }
+
     &:active {
       @include ekzo-theme() {
-        color: ekzo-theme(btn-primary);
-        background-color: ekzo-theme(btn-primary-bg);
+        color: ekzo-theme(btn-primary-hover);
+        background-color: ekzo-theme(btn-primary-active-bg);
         border-color: transparent;
       }
     }
