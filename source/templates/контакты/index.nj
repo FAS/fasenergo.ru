@@ -29,4 +29,10 @@ description: Контакты
   {{ Contact(dep, expandable = true) }}
   {% endfor %}
 
+  <hr>
+
+  <h2>Официальные дилеры</h2>
+
+  <p><a href='/контакты/дилеры' class='Btn Btn+ Btn--wide'>Просмотреть список</a></p>
+
 {% endblock %}
