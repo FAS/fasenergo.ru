@@ -9,6 +9,10 @@
  # @example {{ Email(CONTACTS.departments.sales.emails[0]) }}
  #}
 {%- macro Email(data) -%}
+  {% if not data %}
+  {{ warn('[Email] undefined provided, while object with email expected') }}
+  {% endif %}
+
   {% set macroEmail = data.value[0] + '@' + data.value[1] %}
 
   <a class='{{ class }}' href='mailto:{{ macroEmail }}'>{{ macroEmail }}</a>
@@ -26,6 +30,10 @@
  # @example {{ Skype(CONTACTS.departments.sales.skypes[0]) }}
  #}
 {%- macro Skype(data, class, showIcon) -%}
+  {% if not data %}
+  {{ warn('[Skype] undefined provided, while object with skype expected') }}
+  {% endif %}
+
   {% set macroSkype = data.value %}
 
   <a class='{{ class }} g-link--inherit' href='skype:{{ macroSkype }}?call'>{{ Icon('skype', class = 'Icon--left') if showIcon }} <span>{{ macroSkype }}</span></a>
@@ -46,6 +54,10 @@
  # @example {{ Phone(CONTACTS.departments.sales.phones[0]) }}
  #}
 {%- macro Phone(data, class, addClass, showCountry = true, showAdd = true, plain) -%}
+  {% if not data %}
+  {{ warn('[Phone] undefined provided, while object with phone expected') }}
+  {% endif %}
+
   {% set plainPhone = '+' + data.country + data.city + data.tel[0] + data.tel[1] + data.tel[2] %}
   {% set macroCityCode = ('(' if not data.noParentheses) + data.city + (')' if not data.noParentheses) %}
 
