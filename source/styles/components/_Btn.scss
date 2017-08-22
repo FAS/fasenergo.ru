@@ -24,6 +24,11 @@
     outline: 0;
   }
 
+  &:disabled {
+    opacity: .5;
+    cursor: default;
+  }
+
   &:not(:disabled) {
 
     &:hover,
@@ -44,11 +49,6 @@
       }
     }
 
-  }
-
-  &:disabled {
-    opacity: .5;
-    cursor: default;
   }
 
 }
