@@ -19,7 +19,7 @@
   {%- macro IconItem(iconName, width, height, class = class, style = style, evenodd = false) -%}
     {%- if name == iconName -%}
     <i class='o-svg-icon {{ class }}' style='{{ style }}'>
-      <canvas class='o-svg-icon__canvas' width='{{ width }}' height='{{ height }}'></canvas>
+      <canvas class='o-svg-icon__canvas' width='{{ width|round(0, 'floor') }}' height='{{ height|round(0, 'floor') }}'></canvas>
       <svg class='o-svg-icon__svg' viewBox='0 0 {{ width }} {{ height }}' fill='currentColor' {{ "fill-rule='evenodd'" if evenodd }}>
         {{ caller() }}
       </svg>
