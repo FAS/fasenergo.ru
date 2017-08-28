@@ -2,7 +2,7 @@
 url: /
 
 title:           Производство газового оборудования «Фасэнергомаш»
-contentTitle:    Главная
+contentTitle:    Немецко-российский производитель газового&nbsp;оборудования
 navTitle:        Главная
 breadcrumbTitle: Главная
 
@@ -34,7 +34,7 @@ showContentTitle:          false
   <div class='{{ pageContainerClass }}'>
     <div class='{{ pageContentClass }}'>
 
-      <h1 class='Shade__title h-h2 h-margin-bottom+--'>Немецко-российский производитель газового&nbsp;оборудования</h1>
+      <h1 class='Shade__title h-h2 h-margin-bottom+--'>{{ PAGE.contentTitle }}</h1>
 
       {# @todo https://www.meistertask.com/app/task/tuHtLJ86/novye-dannye-dlia-bloka-s-tsyframy-na-glavnoi #}
       {# <ul class='Shade__text o-grid h-flex-x--between h-3/4@lap g-list0 h-padding-bottom++--'>
