@@ -154,8 +154,8 @@ description: Испарительные установки в кольцевом
 
 {% set pageEqLiqBasis = [
   { title: 'Испарительная установка ФЭМ&nbsp;100&nbsp;ZH/K', performance: '100 кг/ч' },
-  { title: 'Испарительная установка ФЭМ&nbsp;150&nbsp;SE/K', performance: '150 кг/ч' },
-  { title: 'Испарительная установка ФЭМ&nbsp;200&nbsp;SE/K', performance: '200 кг/ч' }
+  { title: 'Испарительная установка ФЭМ&nbsp;150&nbsp;ZH/K', performance: '150 кг/ч' },
+  { title: 'Испарительная установка ФЭМ&nbsp;200&nbsp;ZH/K', performance: '200 кг/ч' }
 ] %}
 {% set pageEqLiqMed = [
   { title: 'Испарительная установка ФЭМ&nbsp;100&nbsp;ZH/K/SD', performance: '100 кг/ч' },
