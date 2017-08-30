@@ -47,14 +47,14 @@ description: Насосно-компрессорное оборудование 
   ) %}{% endcall %}
 
   {% call CategoryCard(
-    title = 'Насосная установка ФАС&nbsp;№93.0101 <span class="h-block h-padding-top-- h-text-">Для наземных емкостей</span>',
+    title = 'Насосная установка ФАС&nbsp;№93.0101 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для наземных емкостей и ТРК</span>',
     hLevel = 3,
     url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-0101',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'Насосная установка ФАС&nbsp;№93.0111 <span class="h-block h-padding-top-- h-text-">Для наземных емкостей</span>',
+    title = 'Насосная установка ФАС&nbsp;№93.0111 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для наземных емкостей</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/НУ-ФАС-№93.0111/card.svg',
     url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-0111',
@@ -62,14 +62,14 @@ description: Насосно-компрессорное оборудование 
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'Насосная установка ФАС&nbsp;№93.0201 <span class="h-block h-padding-top-- h-text-">Для наземных емкостей</span>',
+    title = 'Насосная установка ФАС&nbsp;№93.0201 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для наземных емкостей и ТРК</span>',
     hLevel = 3,
     url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-0201',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'Насосная установка ФАС&nbsp;№93.0211 <span class="h-block h-padding-top-- h-text-">Для наземных емкостей</span>',
+    title = 'Насосная установка ФАС&nbsp;№93.0211 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для наземных емкостей</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/НУ-ФАС-№93.0211/card.svg',
     url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-0211',
@@ -77,7 +77,7 @@ description: Насосно-компрессорное оборудование 
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'Насосная установка ФАС&nbsp;№93.1241 <span class="h-block h-padding-top-- h-text-">Для подземных емкостей</span>',
+    title = 'Насосная установка ФАС&nbsp;№93.1241 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для подземных емкостей и ТРК</span>',
     hLevel = 3,
     image = '/' + PATH.images + 'equipment/насосно-компрессорное-оборудование/НУ-ФАС-№93.1241/card.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-1241',
