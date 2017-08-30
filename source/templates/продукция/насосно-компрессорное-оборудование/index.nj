@@ -79,7 +79,7 @@ description: Насосно-компрессорное оборудование 
   {% call CategoryCard(
     title = 'Насосная установка ФАС&nbsp;№93.1241 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для подземных емкостей и ТРК</span>',
     hLevel = 3,
-    image = '/' + PATH.images + 'equipment/насосно-компрессорное-оборудование/НУ-ФАС-№93.1241/card.jpg',
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/НУ-ФАС-№93.1241/card.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-1241',
     class = 'o-grid__item h-1/4',
     size = 'small'
