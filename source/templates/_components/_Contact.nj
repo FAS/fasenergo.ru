@@ -9,7 +9,7 @@
  # @param {bool}   [expandable]  Should it render expandable
  #}
 {% macro Contact(data, class, lead, expandable) %}
-<address class='h-text+ h-font-style--normal {{ 'h-margin-bottom+' if expandable }} {{ class }} js-expand__scope'>
+<article class='h-text+ h-font-style--normal {{ 'h-margin-bottom+' if expandable }} {{ class }} js-expand__scope'>
 
   {% if lead %}
   <h2 class='h-margin-top'>{{ data.title }}</h2>
@@ -25,7 +25,8 @@
   </h3>
   {% endif %}
 
-  <div class='{{ 'js-expand__target h-childs-margin-top h-childs-margin-bottom0 o-clearfix' if expandable }}' style='{{ 'display: none;' if expandable }}'>
+  <address class='{{ 'js-expand__target h-childs-margin-top h-childs-margin-bottom0 o-clearfix' if expandable }}' style='{{ 'display: none;' if expandable }}'>
+
     {% if data.desc %}
     <p>{{ data.desc }}</p>
     {% endif %}
@@ -75,6 +76,7 @@
 
     <div class='h-margin-top0 js-expand__map' style='display: none'>
       <div class='h-margin-top+'>
+
         <script async src='{{ e.yandexMapSrc }}'></script>
 
         {% if e.images %}
@@ -85,7 +87,8 @@
     </div>
     {% endif %}
     {% endfor %}
-  </div>
 
-</address>
+  </address>
+
+</article>
 {% endmacro %}

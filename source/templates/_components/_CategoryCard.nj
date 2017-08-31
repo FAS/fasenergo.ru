@@ -48,7 +48,7 @@
 {% endif %}
 {% endmacro %}
 
-<article href='{{ url }}' class='{{ class }} {{ 'o-media o-media+' if size != 'small' }} discount-badge discount-badge+ h-margin-bottom'>
+<article class='{{ class }} {{ 'o-media o-media+' if size != 'small' }} discount-badge discount-badge+ h-margin-bottom'>
 
   {% if discount %}
   <span class='discount-badge__badge'>
