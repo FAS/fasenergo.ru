@@ -1,0 +1,12 @@
+---
+generatorId:     фас-35-3-зр-35-квт
+
+title:           "{{ selectGenerator(GENERATORS, 'фас-35-3-зр-35-квт').meta.title }}"
+contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-35-3-зр-35-квт').title }}"
+navTitle:        "{{ selectGenerator(GENERATORS, 'фас-35-3-зр-35-квт').title }}"
+breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-35-3-зр-35-квт').title }}"
+
+description: "{{ selectGenerator(GENERATORS, 'фас-35-3-зр-35-квт').meta.desc }}"
+---
+
+{% extends './_generator.nj' %}
