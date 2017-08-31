@@ -9,7 +9,7 @@
  # @param {bool}   [expandable]  Should it render expandable
  #}
 {% macro Contact(data, class, lead, expandable) %}
-<article class='h-text+ h-font-style--normal {{ 'h-margin-bottom+' if expandable }} {{ class }} js-expand__scope'>
+<article class='{{ 'h-margin-bottom+' if expandable }} {{ class }} js-expand__scope'>
 
   {% if lead %}
   <h2 class='h-margin-top'>{{ data.title }}</h2>
@@ -25,7 +25,7 @@
   </h3>
   {% endif %}
 
-  <address class='{{ 'js-expand__target h-childs-margin-top h-childs-margin-bottom0 o-clearfix' if expandable }}' style='{{ 'display: none;' if expandable }}'>
+  <address class='h-text+ h-font-style--normal {{ 'js-expand__target h-childs-margin-top h-childs-margin-bottom0 o-clearfix' if expandable }}' style='{{ 'display: none;' if expandable }}'>
 
     {% if data.desc %}
     <p>{{ data.desc }}</p>
