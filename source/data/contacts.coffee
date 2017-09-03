@@ -116,8 +116,7 @@ module.exports = {
       ],
       worktime: null,
       phones: [{ country: '7', city: '988', tel: ['602', '47', '27'], add: null }],
-      emails: [{ value: ['gpu', 'kes-group.com'] }],
-      skypes: [{ value: 'dunkovs' }]
+      emails: [{ value: ['gpu', 'kes-group.com'] }]
     }
 
   }
