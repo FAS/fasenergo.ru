@@ -131,6 +131,16 @@ rejectActivePromos = (entries) => entries.filter (e) =>
   return not tags or not tags.includes('promo') or not promoEndDate or not moment().isBefore(promoEndDate)
 
 ######################
+# Magazines selectors
+######################
+
+sortMagazinesByDate = (entries) => orderBy(entries, 'props.date', 'desc')
+getFreshMagazineIssue = (entries) => sortMagazinesByDate(entries)[0]
+getArchivehMagazineIssues = (entries) =>
+  [freshIssue, rest...] = sortMagazinesByDate(entries)
+  return rest
+
+######################
 # Nunjucks extensions
 ######################
 
@@ -174,6 +184,10 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'filterActivePromos', filterActivePromos
   env.addGlobal 'rejectActivePromos', rejectActivePromos
 
+  env.addGlobal 'sortMagazinesByDate', sortMagazinesByDate
+  env.addGlobal 'getFreshMagazineIssue', getFreshMagazineIssue
+  env.addGlobal 'getArchivehMagazineIssues', getArchivehMagazineIssues
+
 module.exports = {
   selectGenerator
   selectGeneratorsIds
@@ -213,6 +227,10 @@ module.exports = {
   selectPromos
   filterActivePromos
   rejectActivePromos
+
+  sortMagazinesByDate
+  getFreshMagazineIssue
+  getArchivehMagazineIssues
 
   nunjucksExtensions
 }

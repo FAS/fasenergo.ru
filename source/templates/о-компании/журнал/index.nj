@@ -1,0 +1,38 @@
+---
+title:           Журнал «ЭнергоГаз-Инфо» — об энергетике и нефтегазовой отрасли
+contentTitle:    Журнал «ЭнергоГаз-Инфо»
+navTitle:        Журнал «ЭнергоГаз-Инфо»
+breadcrumbTitle: Журнал «ЭнергоГаз-Инфо»
+
+description: Специализированный журнал, посвященный энергетике и нефтегазовой отрасли. Мнения ведущих экспертов и аналитиков, прогнозы, статистика и фактами. О технологиях и современном оборудовании.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% set pageMagazines = sortMagazinesByDate(getPage('/о-компании/журнал')) %}
+{% set pageFreshIssue = getFreshMagazineIssue(pageMagazines).props %}
+{% set pageArchiveIssues = getArchivehMagazineIssues(pageMagazines) %}
+
+<p>«ЭнергоГаз-Инфо» – специализированный журнал, посвященный энергетике и нефтегазовой отрасли. В журнале представлены статьи, освещающие основные направления и тенденции. На страницах издания можно познакомиться с мнениями ведущих экспертов и аналитиков: анализом текущей ситуации, прогнозами, статистикой и фактами,  узнать о новейших технологиях и современном оборудовании.</p>
+<p>Главная цель издания - донести до читателей максимально качественную и актуальную информацию энергетической отрасли.</p>
+
+<h2>Свежый выпуск</h2>
+<a href='{{ pageFreshIssue.url }}' class='h-text++'>
+  <img src='{{ pageFreshIssue.image }}' alt='{{ pageFreshIssue.title }}' class='h-block h-margin-bottom--' style='max-height: 80vh;'>
+  {{ pageFreshIssue.navTitle }}
+</a>
+
+<h2>Архив</h2>
+
+<div class='o-grid h-childs-displace h-bleed-top'>
+  {% for e in pageArchiveIssues %}
+  <article class='o-grid__item h-1/3 h-margin-top'>
+    <a href='{{ e.props.url }}'>
+      <img src='{{ e.props.image }}' alt='{{ e.props.title }}' class='h-block h-margin-bottom--'>
+      {{ e.props.navTitle }}
+    </a>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}
