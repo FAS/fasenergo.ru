@@ -1,0 +1,24 @@
+{{ config('PAGE', {
+  og: {
+    type: 'article'
+  }
+}) }}
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo This should be Image component when support of anchors will be added #}
+<a href='{{ PAGE.pdf }}' class='h-border-bottom0'>
+  <img src='{{ PAGE.image }}' alt='{{ PAGE.title }}' class='h-margin-ends+' style='max-height: 80vh;'>
+</a>
+
+<p>
+  {{ PDFButton(
+    label = 'Читать онлайн',
+    url = PAGE.pdf,
+    class = 'Btn+ h-bleed-top'
+  ) }}
+</p>
+
+{% block content %}{% endblock %}
+{% endblock %}
