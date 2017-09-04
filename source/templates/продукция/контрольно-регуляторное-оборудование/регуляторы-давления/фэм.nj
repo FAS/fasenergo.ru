@@ -1,8 +1,8 @@
 ---
 title:           Регуляторы давления «Фасэнергомаш»
 contentTitle:    Регуляторы давления «Фасэнергомаш»
-navTitle:        ФЭМ
-breadcrumbTitle: ФЭМ
+navTitle:        ФАС
+breadcrumbTitle: ФАС
 
 description: Регуляторы давления «Фасэнергомаш»
 ---
@@ -11,16 +11,16 @@ description: Регуляторы давления «Фасэнергомаш»
 
 {% block main %}
 {% set pageEqPhotos = [
-  { url: 'equipment/контрольно-регуляторное-оборудование/регуляторы-ФЭМ/Регулятор-давления-Фасэнергомаш-1.jpg' },
-  { url: 'equipment/контрольно-регуляторное-оборудование/регуляторы-ФЭМ/Регулятор-давления-Фасэнергомаш-2.jpg' },
-  { url: 'equipment/контрольно-регуляторное-оборудование/регуляторы-ФЭМ/Регулятор-давления-Фасэнергомаш-3.jpg' }
+  { url: 'equipment/контрольно-регуляторное-оборудование/регуляторы-фэм/Регулятор-давления-Фасэнергомаш-1.jpg' },
+  { url: 'equipment/контрольно-регуляторное-оборудование/регуляторы-фэм/Регулятор-давления-Фасэнергомаш-2.jpg' },
+  { url: 'equipment/контрольно-регуляторное-оборудование/регуляторы-Фэм/Регулятор-давления-Фасэнергомаш-3.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqPhotos, 'Регулятор давления Фасэнергомаш') }}
 
 {% set pageEq = [
   {
-    title: 'Регулятор ФЭМ A10 BP',
+    title: 'Регулятор ФАС A10 BP',
     performance: 'до 250&nbsp;кг/ч',
     pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 16-110 мбар',
     connection: 'Вход 1“G<br> Выход 1“G',
@@ -28,7 +28,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '230&nbsp;мм',
     weight: '3&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A10 MP',
+    title: 'Регулятор&nbsp;ФАС A10 MP',
     performance: 'до 350&nbsp;кг/ч',
     pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 95-450 мбар',
     connection: 'Вход 1“G<br> Выход 1“G',
@@ -36,7 +36,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '230&nbsp;мм',
     weight: '3&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A10 АP',
+    title: 'Регулятор&nbsp;ФАС A10 АP',
     performance: 'до 800&nbsp;кг/ч',
     pressure: 'Рвх. 16 бар<br> Рвых. 290-2150 мбар',
     connection: 'Вход 1“G<br> Выход 1“G',
@@ -44,7 +44,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '230&nbsp;мм',
     weight: '3&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A20 BP',
+    title: 'Регулятор&nbsp;ФАС A20 BP',
     performance: 'до 450&nbsp;кг/ч',
     pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 16-110 мбар',
     connection: 'Вход 1“<br> Выход 1 ½“G',
@@ -52,7 +52,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '230&nbsp;мм',
     weight: '3&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A20 MP',
+    title: 'Регулятор&nbsp;ФАС A20 MP',
     performance: 'до 800&nbsp;кг/ч',
     pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 95-450 мбар',
     connection: 'Вход 1“<br> Выход 1 ½“G',
@@ -60,7 +60,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '230&nbsp;мм',
     weight: '3&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A20 АP',
+    title: 'Регулятор&nbsp;ФАС A20 АP',
     performance: 'до 1200&nbsp;кг/ч',
     pressure: 'Рвх. 16 бар<br> Рвых. 290-2150 мбар',
     connection: 'Вход 1“<br> Выход 1 ½“G',
@@ -68,7 +68,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '230&nbsp;мм',
     weight: '3&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A30 BP',
+    title: 'Регулятор&nbsp;ФАС A30 BP',
     performance: 'до 500&nbsp;кг/ч',
     pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 16-110 мбар',
     connection: 'Вход ДУ25<br> Выход ДУ40/ДУ50',
@@ -76,7 +76,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '256&nbsp;мм',
     weight: '6&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A30 MP',
+    title: 'Регулятор&nbsp;ФАС A30 MP',
     performance: 'до 900&nbsp;кг/ч',
     pressure: 'Рвх.&nbsp;5 бар<br> Рвых. 95-450 мбар',
     connection: 'Вход ДУ25<br> Выход ДУ40/ДУ50',
@@ -84,7 +84,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '256&nbsp;мм',
     weight: '6&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A30 АP',
+    title: 'Регулятор&nbsp;ФАС A30 АP',
     performance: 'до 1800&nbsp;кг/ч',
     pressure: 'Рвх. 16 бар<br> Рвых. 290-2150 мбар',
     connection: 'Вход ДУ25<br> Выход ДУ40/ДУ50',
@@ -92,7 +92,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '256&nbsp;мм',
     weight: '6&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A50 BP',
+    title: 'Регулятор&nbsp;ФАС A50 BP',
     performance: 'до 1400&nbsp;кг/ч',
     pressure: 'Рвх. 5 бар<br> Рвых. 16-120 мбар',
     connection: 'Вход ДУ50<br> Выход ДУ50',
@@ -100,7 +100,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '432&nbsp;мм',
     weight: '19&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A50 MP',
+    title: 'Регулятор&nbsp;ФАС A50 MP',
     performance: 'до 1900&nbsp;кг/ч',
     pressure: 'Рвх. 5 бар<br> Рвых. 110-320 мбар',
     connection: 'Вход ДУ50<br> Выход ДУ50',
@@ -108,7 +108,7 @@ description: Регуляторы давления «Фасэнергомаш»
     width: '432&nbsp;мм',
     weight: '19&nbsp;кг'
   }, {
-    title: 'Регулятор&nbsp;ФЭМ A50 АP',
+    title: 'Регулятор&nbsp;ФАС A50 АP',
     performance: 'до 3900&nbsp;кг/ч',
     pressure: 'Рвх. 16 бар<br> Рвых. 310-4000 мбар',
     connection: 'Вход ДУ50<br> Выход ДУ50',

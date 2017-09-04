@@ -22,24 +22,24 @@ description: Смесительные установки
 {{ PhotosPreview(pageEqPhotos, 'Смесительная установка Фасэнергомаш SU', class = 'h-margin-bottom++') }}
 
 {% set pageEqLow = [
-  { title: 'Смесительная установка ФЭМ 150 SU/ND', performance: '150 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 300 SU/ND', performance: '300 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 490 SU/ND', performance: '490 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 600 SU/ND', performance: '600 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 1200 SU/ND', performance: '1200 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 2400 SU/ND', performance: '2400 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 4800 SU/ND', performance: '4800 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 9600 SU/ND', performance: '9600 м³/ч' }
+  { title: 'Смесительная установка ФАС 150 SU/ND', performance: '150 м³/ч' },
+  { title: 'Смесительная установка ФАС 300 SU/ND', performance: '300 м³/ч' },
+  { title: 'Смесительная установка ФАС 490 SU/ND', performance: '490 м³/ч' },
+  { title: 'Смесительная установка ФАС 600 SU/ND', performance: '600 м³/ч' },
+  { title: 'Смесительная установка ФАС 1200 SU/ND', performance: '1200 м³/ч' },
+  { title: 'Смесительная установка ФАС 2400 SU/ND', performance: '2400 м³/ч' },
+  { title: 'Смесительная установка ФАС 4800 SU/ND', performance: '4800 м³/ч' },
+  { title: 'Смесительная установка ФАС 9600 SU/ND', performance: '9600 м³/ч' }
 ] %}
 {% set pageEqHigh = [
-  { title: 'Смесительная установка ФЭМ 150 SU/VD', performance: '150 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 300 SU/VD', performance: '300 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 490 SU/VD', performance: '490 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 600 SU/VD', performance: '600 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 1200 SU/VD', performance: '1200 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 2400 SU/VD', performance: '2400 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 4800 SU/VD', performance: '4800 м³/ч' },
-  { title: 'Смесительная установка ФЭМ 9600 SU/VD', performance: '9600 м³/ч' }
+  { title: 'Смесительная установка ФАС 150 SU/VD', performance: '150 м³/ч' },
+  { title: 'Смесительная установка ФАС 300 SU/VD', performance: '300 м³/ч' },
+  { title: 'Смесительная установка ФАС 490 SU/VD', performance: '490 м³/ч' },
+  { title: 'Смесительная установка ФАС 600 SU/VD', performance: '600 м³/ч' },
+  { title: 'Смесительная установка ФАС 1200 SU/VD', performance: '1200 м³/ч' },
+  { title: 'Смесительная установка ФАС 2400 SU/VD', performance: '2400 м³/ч' },
+  { title: 'Смесительная установка ФАС 4800 SU/VD', performance: '4800 м³/ч' },
+  { title: 'Смесительная установка ФАС 9600 SU/VD', performance: '9600 м³/ч' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>

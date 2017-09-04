@@ -30,10 +30,10 @@ description: Испарительные установки с саморазог
 </ul>
 
 {% set pageEqLiq = [
-  { title: 'Испарительная установка&nbsp;ФЭМ 250&nbsp;ZH/A/K', performance: '250 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФЭМ 500&nbsp;ZH/A/K', performance: '500 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФЭМ 800&nbsp;ZH/A/K', performance: '800 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФЭМ 2500&nbsp;ZH/A/K', performance: '2500 кг/ч' }
+  { title: 'Испарительная установка&nbsp;ФАС 250&nbsp;ZH/A/K', performance: '250 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФАС 500&nbsp;ZH/A/K', performance: '500 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФАС 800&nbsp;ZH/A/K', performance: '800 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФАС 2500&nbsp;ZH/A/K', performance: '2500 кг/ч' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>

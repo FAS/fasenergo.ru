@@ -31,9 +31,9 @@ description: Испарительные установки на раме
 </ul>
 
 {% set pageEqEl = [
-  { title: 'Испарительная установка&nbsp;ФЭМ 900&nbsp;SE/R', performance: '900 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФЭМ 1200&nbsp;SE/R', performance: '1200 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФЭМ 1400&nbsp;SE/R', performance: '1400 кг/ч' }
+  { title: 'Испарительная установка&nbsp;ФАС 900&nbsp;SE/R', performance: '900 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФАС 1200&nbsp;SE/R', performance: '1200 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФАС 1400&nbsp;SE/R', performance: '1400 кг/ч' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>

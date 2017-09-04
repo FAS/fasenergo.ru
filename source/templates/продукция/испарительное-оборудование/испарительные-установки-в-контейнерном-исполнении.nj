@@ -20,9 +20,9 @@ description: Испарительные установки в контейнер
 <h2>Непрямой жидкостный подогрев</h2>
 
 {% set pageEqLiq = [
-  { title: 'Испарительная установка&nbsp;ФЭМ 2500&nbsp;ZH/K', performance: '2500 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФЭМ 4000&nbsp;ZH/K', performance: '4000 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФЭМ 14000&nbsp;ZH/K', performance: '14000 кг/ч' }
+  { title: 'Испарительная установка&nbsp;ФАС 2500&nbsp;ZH/K', performance: '2500 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФАС 4000&nbsp;ZH/K', performance: '4000 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФАС 14000&nbsp;ZH/K', performance: '14000 кг/ч' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>

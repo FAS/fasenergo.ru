@@ -30,14 +30,14 @@ description: Криогенные резервуары для хранения �
 {{ PhotosPreview(pageEqPhotos, 'Криогенный резервуар Фасэнергомаш для хранения СПГ', class = 'h-margin-bottom+') }}
 
 {% set pageEq = [
-  { title: 'ФЭМ 3', volume: '3 м³', length: 3422, width: 2114, height: 2159 },
-  { title: 'ФЭМ 6', volume: '6 м³', length: 4470, width: 2327, height: 2502 },
-  { title: 'ФЭМ 10', volume: '10 м³', length: 6412, width: 2442, height: 2502 },
-  { title: 'ФЭМ 16', volume: '16 м³', length: 7135, width: 2690, height: 2793 },
-  { title: 'ФЭМ 22', volume: '22 м³', length: 6943, width: 2805, height: 3005 },
-  { title: 'ФЭМ 32', volume: '32 м³', length: 9443, width: 2805, height: 3005 },
-  { title: 'ФЭМ 53', volume: '53 м³', length: 14448, width: 2805, height: 3005 },
-  { title: 'ФЭМ 63', volume: '63 м³', length: 16470, width: 3141, height: 3104 }
+  { title: 'ФАС 3', volume: '3 м³', length: 3422, width: 2114, height: 2159 },
+  { title: 'ФАС 6', volume: '6 м³', length: 4470, width: 2327, height: 2502 },
+  { title: 'ФАС 10', volume: '10 м³', length: 6412, width: 2442, height: 2502 },
+  { title: 'ФАС 16', volume: '16 м³', length: 7135, width: 2690, height: 2793 },
+  { title: 'ФАС 22', volume: '22 м³', length: 6943, width: 2805, height: 3005 },
+  { title: 'ФАС 32', volume: '32 м³', length: 9443, width: 2805, height: 3005 },
+  { title: 'ФАС 53', volume: '53 м³', length: 14448, width: 2805, height: 3005 },
+  { title: 'ФАС 63', volume: '63 м³', length: 16470, width: 3141, height: 3104 }
 ] %}
 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
