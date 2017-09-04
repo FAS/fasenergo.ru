@@ -125,6 +125,7 @@
     {% call(depth) Item('/о-компании/видеоматериалы', depth = depth) %}{% endcall %}
     {% endif %} #}
     {% call(depth) Item('/о-компании/новости', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/о-компании/журнал', depth = depth) %}{% endcall %}
   {% endcall %}
   {% call(depth) Item('/контакты', anchorClass = secondaryClass) %}{% endcall %}
   {# @todo Enable for production when this section will be ready #}
