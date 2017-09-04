@@ -19,7 +19,7 @@ description: Поршневой компрессорный агрегат ФАС
 </ul>
 
 {% set pageEqPhotos = [
-  { url: 'equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-фэм-691/Компрессорный-агрегат-фэм-691--front-left-top.jpg' }
+  { url: 'equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-фас-691/Компрессорный-агрегат-фас-691--front-left-top.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
