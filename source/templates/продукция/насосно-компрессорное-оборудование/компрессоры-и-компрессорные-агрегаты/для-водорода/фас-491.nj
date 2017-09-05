@@ -19,7 +19,7 @@ description: Поршневой компрессорный агрегат ФАС
 </ul>
 
 {% set pageEqPhotos = [
-  { url: 'equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-фас-491/Компрессорный-агрегат-фас-491--front-right-top.jpg' }
+  { url: 'equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-491/Компрессорный-агрегат-ФАС-491--front-right-top.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
