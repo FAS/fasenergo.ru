@@ -12,10 +12,10 @@ description: Испарительные установки в контейнер
 {% block main %}
 
 {% set pageEqLiqPhotos = [
-  { url: 'equipment/испарительное-оборудование/ZH-K/Испарительная-установка-Фасэнергомаш-ZH-K--1--front.jpg' }
+  { url: 'equipment/испарительное-оборудование/ZH-K/Испарительная-установка-ФАС-ZH-K--1--front.jpg' }
 ] %}
 
-{{ PhotosPreview(pageEqLiqPhotos, 'Испарительная установка Фасэнергомаш ZH/K') }}
+{{ PhotosPreview(pageEqLiqPhotos, 'Испарительная установка ФАС ZH/K') }}
 
 <h2>Непрямой жидкостный подогрев</h2>
 
