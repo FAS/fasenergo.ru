@@ -46,7 +46,7 @@ const OfferSchema = t.struct({
   oldprice: t.maybe(t.Number), // @todo Should be higher than `OfferSchema.price`
   currencyId: CurrencyIdSchema,
   categoryId: r.Maxlength(18)(t.String),
-  picture: t.maybe(r.Maxlength(10)(t.list(r.Maxlength(512)(r.Absoluteurl(r.Filepath))))), // @todo JPEG or PNG only), mandatory for some categories
+  picture: t.maybe(r.Maxlength(10)(t.list(r.Maxlength(512)(t.refinement(r.Absoluteurl, (p) => r.Filepath(p)))))), // @todo JPEG or PNG only), mandatory for some categories
   store: t.maybe(t.Boolean),
   pickup: t.maybe(t.Boolean),
   delivery: t.maybe(t.Boolean),
