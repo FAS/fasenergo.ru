@@ -12,7 +12,7 @@ const DeliveryOptionsSchema = r.Maxlength(5)(t.list(t.struct({
   cost: t.Integer,
   days: t.union([t.enums.of(['']), t.Integer, t.tuple([t.Integer, t.Integer])]), // @todo maxvalue 31, output range as `"2-4"`, max interval 3 days
   'order-before': t.maybe(t.Integer) // @todo max 24
-}, { name: 'YML Delivery Options', strict: true })))
+}, { name: 'YML Delivery Options', strict: true }), 'YML Delivery Options'))
 
 const CurrencyIdSchema = t.enums.of(['RUB', 'RUR', 'UAH', 'BYN', 'KZT', 'USD', 'EUR'])
 
@@ -21,13 +21,13 @@ const CurrenciesSchema = t.list(t.struct({
   // @todo В качестве основной валюты (для которой установлено rate="1") могут быть использованы только рубль (RUR, RUB), белорусский рубль (BYN), гривна (UAH) или тенге (KZT).
   rate: t.maybe(t.union([t.Number, t.enums.of(['CBRF', 'NBU', 'NBK', 'СВ'])])),
   plus: t.maybe(t.Number)
-}, { name: 'YML Currency', strict: true }))
+}, { name: 'YML Currency', strict: true }), 'YML Currencies')
 
 const CategoriesSchema = t.list(t.struct({
   id: r.Maxlength(32)(t.String), // @todo can't be 0
   parentId: t.maybe(t.String), // @todo should exist in current list
   name: t.String
-}, { name: 'YML Category', strict: true }))
+}, { name: 'YML Category', strict: true }), 'YML Categories')
 
 const OfferSchema = t.struct({
   // attributes
