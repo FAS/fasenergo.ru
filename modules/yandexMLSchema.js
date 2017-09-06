@@ -117,7 +117,13 @@ const FreeOfferSchema = BaseOfferSchema.extend({
   vendorCode: t.maybe(t.String)
 }, { name: 'YML Free Offer', strict: true })
 
-const OfferSchema = t.union([SimplifiedOfferSchema, FreeOfferSchema])
+const OfferSchema = (o) => {
+  // @todo So far it assumes that it is Free form offer if following props exists
+  //       This might be not that reliable method for not implemented offer forms
+  if (o.type || o.typePrefix) return FreeOfferSchema(o)
+  return SimplifiedOfferSchema(o)
+}
+
 const OffersSchema = t.list(OfferSchema, 'YML Offers')
 
 const YandexMLSchema = t.struct({
