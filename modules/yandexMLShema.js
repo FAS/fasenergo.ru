@@ -86,7 +86,7 @@ const OfferSchema = t.struct({
   // @todo only ints and latin chars
   //       ids should be enlisted in that file
   rec: r.Maxlength(30)(t.list(r.Maxlength(20)(t.String))),
-  vat: t.maybe(t.enum.of([1, 'VAT_18', 3, 'VAT_18_118', 2, 'VAT_10', 4, 'VAT_10_110', 5, 'VAT_0', 6, 'NO_VAT']))
+  vat: t.maybe(t.enums.of([1, 'VAT_18', 3, 'VAT_18_118', 2, 'VAT_10', 4, 'VAT_10_110', 5, 'VAT_0', 6, 'NO_VAT']))
 }, { name: 'YML Offer', strict: true })
 
 // @todo Add support for special types:
@@ -97,14 +97,14 @@ const OfferSchema = t.struct({
 //       https://yandex.ru/support/partnermarket/export/event-tickets.html
 //       https://yandex.ru/support/partnermarket/export/tours.html
 
-const SimplifiedOfferSchema = OfferSchema.extends({
+const SimplifiedOfferSchema = OfferSchema.extend({
   name: r.Maxlength(120)(t.String),
   model: t.maybe(t.String),
   vendor: t.maybe(t.String),
   vendorCode: t.maybe(t.String)
 }, { name: 'YML Simplified Offer', strict: true })
 
-const FreeOfferSchema = OfferSchema.extends({
+const FreeOfferSchema = OfferSchema.extend({
   // attributes
   type: t.enums.of(['vendor.model']),
   // end attributes
@@ -114,7 +114,7 @@ const FreeOfferSchema = OfferSchema.extends({
   vendorCode: t.maybe(t.String)
 }, { name: 'YML Free Offer', strict: true })
 
-const OffersSchema = t.list(t.union(SimplifiedOfferSchema, FreeOfferSchema))
+const OffersSchema = t.list(t.union([SimplifiedOfferSchema, FreeOfferSchema]))
 
 const YandexMLSchema = t.struct({
   name: r.Maxlength(20)(t.String),
