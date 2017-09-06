@@ -5,16 +5,6 @@ const r = refinements
 
 // A validation schemas for Yandex Market Language (YML)
 
-// @todo Add support for special types:
-//       https://yandex.ru/support/partnermarket/export/books.html
-//       https://yandex.ru/support/partnermarket/export/audiobooks.html
-//       https://yandex.ru/support/partnermarket/export/music-video.html
-//       https://yandex.ru/support/partnermarket/export/medicine.html
-//       https://yandex.ru/support/partnermarket/export/event-tickets.html
-//       https://yandex.ru/support/partnermarket/export/tours.html
-const OFFER_SIMPLIFIED = 'yandexMLShema/OFFER_SIMPLIFIED'
-const OFFER_FREE = 'yandexMLShema/OFFER_FREE'
-
 const CpaSchema = t.enums.of([0, 1])
 const AdultSchema = t.Boolean
 
@@ -39,14 +29,8 @@ const CategoriesSchema = t.list(t.struct({
   name: t.String
 }, { name: 'YML Category', strict: true }))
 
-/**
- * @param  {OFFER_FREE|OFFER_SIMPLIFIED} = OFFER_FREE offerType Yandex Market offer type
- * @return {function} Tcomb type
- * @example OfferSchema(OFFER_SIMPLIFIED)({... object to validate ...})
- */
-const OfferSchema = (offerType = OFFER_FREE) => t.struct({
+const OfferSchema = t.struct({
   // attributes
-  type: offerType === OFFER_FREE ? t.enums.of(['vendor.model']) : t.Nil,
   id: r.Maxlength(20)(t.String), // @todo only number and latin chars, should be unique among other offers
   available: t.maybe(t.Boolean), // Seems to be not used, when delivery-options specified
   bid: t.maybe(t.Integer),
@@ -72,19 +56,6 @@ const OfferSchema = (offerType = OFFER_FREE) => t.struct({
     booking: t.maybe(t.Boolean)
   }, { name: 'YML Outlets', strict: true }))),
   'delivery-options': t.maybe(DeliveryOptionsSchema),
-  name: OFFER_SIMPLIFIED ? r.Maxlength(120)(t.String) : t.Null,
-  typePrefix: offerType === OFFER_FREE ? t.maybe(t.String) : t.Nil,
-  model: offerType === OFFER_FREE
-    ? t.String
-    : offerType === OFFER_SIMPLIFIED
-      ? t.maybe(t.String)
-      : t.Null,
-  vendor: OFFER_FREE
-    ? t.String
-    : offerType === OFFER_SIMPLIFIED
-      ? t.maybe(t.String)
-      : t.Null,
-  vendorCode: offerType === OFFER_FREE || offerType === OFFER_SIMPLIFIED ? t.maybe(t.String) : t.Null,
   // @todo dissalows words «скидка», «распродажа», «дешевый», «подарок» (кроме подарочных категорий), «бесплатно», «акция», «специальная цена», «только», «новинка», «new», «аналог», «заказ», «хит»;
   //       dissalows urls, emails;
   //       allows only tags <h3>...</h3>, <ul><li>...</li></ul>, <p>...</p>, <br/> encloused into `<![CDATA[Текст с использованием xhtml-разметки]]>``
@@ -118,19 +89,34 @@ const OfferSchema = (offerType = OFFER_FREE) => t.struct({
   vat: t.maybe(t.enum.of([1, 'VAT_18', 3, 'VAT_18_118', 2, 'VAT_10', 4, 'VAT_10_110', 5, 'VAT_0', 6, 'NO_VAT']))
 }, { name: 'YML Offer', strict: true })
 
-/**
- * @param  {OFFER_FREE|OFFER_SIMPLIFIED} = OFFER_FREE offerType Yandex Market offer type
- * @return {function} Tcomb type
- * @example OffersSchema(OFFER_SIMPLIFIED)([... object to validate ...])
- */
-const OffersSchema = (offerType = OFFER_FREE) => t.list(OfferSchema(offerType))
+// @todo Add support for special types:
+//       https://yandex.ru/support/partnermarket/export/books.html
+//       https://yandex.ru/support/partnermarket/export/audiobooks.html
+//       https://yandex.ru/support/partnermarket/export/music-video.html
+//       https://yandex.ru/support/partnermarket/export/medicine.html
+//       https://yandex.ru/support/partnermarket/export/event-tickets.html
+//       https://yandex.ru/support/partnermarket/export/tours.html
 
-/**
- * @param  {OFFER_FREE|OFFER_SIMPLIFIED} = OFFER_FREE offerType Yandex Market offer type
- * @return {function} Tcomb type
- * @example YandexMLSchema(OFFER_SIMPLIFIED)({... object to validate ...})
- */
-const YandexMLSchema = (offerType = OFFER_FREE) => t.struct({
+const SimplifiedOfferSchema = OfferSchema.extends({
+  name: r.Maxlength(120)(t.String),
+  model: t.maybe(t.String),
+  vendor: t.maybe(t.String),
+  vendorCode: t.maybe(t.String)
+}, { name: 'YML Simplified Offer', strict: true })
+
+const FreeOfferSchema = OfferSchema.extends({
+  // attributes
+  type: t.enums.of(['vendor.model']),
+  // end attributes
+  typePrefix: t.maybe(t.String),
+  model: t.String,
+  vendor: t.String,
+  vendorCode: t.maybe(t.String)
+}, { name: 'YML Free Offer', strict: true })
+
+const OffersSchema = t.list(t.union(SimplifiedOfferSchema, FreeOfferSchema))
+
+const YandexMLSchema = t.struct({
   name: r.Maxlength(20)(t.String),
   company: t.String,
   url: r.Maxlength(50)(r.Absoluteurl),
@@ -143,12 +129,10 @@ const YandexMLSchema = (offerType = OFFER_FREE) => t.struct({
   'delivery-options': DeliveryOptionsSchema,
   cpa: t.maybe(CpaSchema),
   adult: t.maybe(AdultSchema),
-  offers: OffersSchema(offerType)
+  offers: OffersSchema
 }, { name: 'YML', strict: true })
 
 module.exports = {
-  OFFER_SIMPLIFIED,
-  OFFER_FREE,
   CpaSchema,
   AdultSchema,
   DeliveryOptionsSchema,
