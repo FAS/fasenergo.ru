@@ -46,7 +46,10 @@ const OfferSchema = t.struct({
   oldprice: t.maybe(t.Number), // @todo Should be higher than `OfferSchema.price`
   currencyId: CurrencyIdSchema,
   categoryId: r.Maxlength(18)(t.String),
-  picture: t.maybe(r.Maxlength(10)(t.list(r.Maxlength(512)(t.refinement(r.Absoluteurl, (p) => r.Filepath(p)))))), // @todo JPEG or PNG only), mandatory for some categories
+  // @todo JPEG or PNG only), mandatory for some categories
+  picture: t.maybe(r.Maxlength(10)(t.list(r.Maxlength(512)(t.refinement(r.Absoluteurl, (p) =>
+    r.Imagepath.is(p), 'Absoluteurl with Imagepath'
+  ))))),
   store: t.maybe(t.Boolean),
   pickup: t.maybe(t.Boolean),
   delivery: t.maybe(t.Boolean),
@@ -81,7 +84,7 @@ const OfferSchema = t.struct({
   }, { name: 'YML Param', strict: true }))),
   expiry: t.maybe(t.String), // @todo should be in ISO8601
   weight: t.maybe(t.Number),
-  dimensions: t.tuple([t.Number, t.Number, t.Number]),
+  dimensions: t.maybe(t.tuple([t.Number, t.Number, t.Number])),
   downloadable: t.maybe(t.Boolean),
   // @todo only ints and latin chars
   //       ids should be enlisted in that file
