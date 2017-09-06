@@ -1,5 +1,5 @@
 const t = require('tcomb')
-const { refinements } = require('../../tests/utils/tcomb')
+const { refinements } = require('../tests/utils/tcomb')
 
 const r = refinements
 
