@@ -10,7 +10,7 @@ const AdultSchema = t.Boolean
 
 const DeliveryOptionsSchema = r.Maxlength(5)(t.list(t.struct({
   cost: t.Integer,
-  days: t.enums.of(['', t.Integer, t.tuple([t.Integer, t.Integer])]), // @todo maxvalue 31, output range as `"2-4"`, max interval 3 days
+  days: t.union([t.enums.of(['']), t.Integer, t.tuple([t.Integer, t.Integer])]), // @todo maxvalue 31, output range as `"2-4"`, max interval 3 days
   'order-before': t.maybe(t.Integer) // @todo max 24
 }, { name: 'YML Delivery Options', strict: true })))
 
@@ -19,7 +19,7 @@ const CurrencyIdSchema = t.enums.of(['RUB', 'RUR', 'UAH', 'BYN', 'KZT', 'USD', '
 const CurrenciesSchema = t.list(t.struct({
   id: CurrencyIdSchema,
   // @todo В качестве основной валюты (для которой установлено rate="1") могут быть использованы только рубль (RUR, RUB), белорусский рубль (BYN), гривна (UAH) или тенге (KZT).
-  rate: t.maybe(t.enums.of([t.Number, 'CBRF', 'NBU', 'NBK', 'СВ'])),
+  rate: t.maybe(t.union([t.Number, t.enums.of(['CBRF', 'NBU', 'NBK', 'СВ'])])),
   plus: t.maybe(t.Number)
 }, { name: 'YML Currency', strict: true }))
 
@@ -39,7 +39,7 @@ const OfferSchema = t.struct({
   group_id: t.maybe(r.Maxlength(9)(t.String)),
   // end attributes
   url: t.maybe(r.Maxlength(512)(r.Absoluteurl)), // @todo if contains non-latin chars, should be http, not https, or encoded
-  price: t.enums.of([t.Number, t.struct({
+  price: t.union([t.Number, t.struct({
     from: t.Boolean, // @todo Allowed only for specific categories
     value: t.Number
   }, { name: 'YML Price', strict: true })]),
@@ -77,7 +77,7 @@ const OfferSchema = t.struct({
   param: t.maybe(t.list(t.struct({
     name: t.String,
     unit: t.maybe(t.String), // @todo mandatory if value numeric
-    value: t.enums.of([t.String, t.Number])
+    value: t.union([t.String, t.Number])
   }, { name: 'YML Param', strict: true }))),
   expiry: t.maybe(t.String), // @todo should be in ISO8601
   weight: t.maybe(t.Number),
