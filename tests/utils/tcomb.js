@@ -37,7 +37,7 @@ const refinements = {
    * @example
    *  Maxlength(12)(t.String)('Hey, this is a long string!')
    */
-  Maxlength: (max) => (type) => t.refinement(t.Number(max) && t.Type(type), (t) => t.length <= max, `Maxlength ${max}`),
+  Maxlength: (max) => (type) => t.refinement(t.Number(max) && t.Type(type), (t) => t.length <= max, `${type.meta.name || type.name}, Maxlength ${max}`),
 
   /**
    * Check does target's keys are same as its specified property value
