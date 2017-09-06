@@ -29,7 +29,7 @@ const CategoriesSchema = t.list(t.struct({
   name: t.String
 }, { name: 'YML Category', strict: true }), 'YML Categories')
 
-const OfferSchema = t.struct({
+const BaseOfferSchema = t.struct({
   // attributes
   id: r.Maxlength(20)(t.String), // @todo only number and latin chars, should be unique among other offers
   available: t.maybe(t.Boolean), // Seems to be not used, when delivery-options specified
@@ -100,14 +100,14 @@ const OfferSchema = t.struct({
 //       https://yandex.ru/support/partnermarket/export/event-tickets.html
 //       https://yandex.ru/support/partnermarket/export/tours.html
 
-const SimplifiedOfferSchema = OfferSchema.extend({
+const SimplifiedOfferSchema = BaseOfferSchema.extend({
   name: r.Maxlength(120)(t.String),
   model: t.maybe(t.String),
   vendor: t.maybe(t.String),
   vendorCode: t.maybe(t.String)
 }, { name: 'YML Simplified Offer', strict: true })
 
-const FreeOfferSchema = OfferSchema.extend({
+const FreeOfferSchema = BaseOfferSchema.extend({
   // attributes
   type: t.enums.of(['vendor.model']),
   // end attributes
@@ -117,7 +117,8 @@ const FreeOfferSchema = OfferSchema.extend({
   vendorCode: t.maybe(t.String)
 }, { name: 'YML Free Offer', strict: true })
 
-const OffersSchema = t.list(t.union([SimplifiedOfferSchema, FreeOfferSchema]))
+const OfferSchema = t.union([SimplifiedOfferSchema, FreeOfferSchema])
+const OffersSchema = t.list(OfferSchema, 'YML Offers')
 
 const YandexMLSchema = t.struct({
   name: r.Maxlength(20)(t.String),
