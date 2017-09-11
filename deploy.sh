@@ -30,3 +30,5 @@ EOF
 sudo systemctl daemon-reload
 sudo systemctl enable $PROJECT_NAME.service
 sudo systemctl restart $PROJECT_NAME.service
+
+sudo docker rmi $(docker images -q)
