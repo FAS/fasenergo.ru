@@ -60,8 +60,11 @@
             <li>
               <span class='h-float--left'>{{ Icon('star') }}</span>
               <span class='h-block h-margin-left+--'>
-                Гарантия {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }}<br>
+                Гарантия {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }}
+                {% if warrantyServiceLife %}
+                <br>
                 <small>Моторесурс: {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}</small>
+                {% endif %}
               </span>
             </li>
             {% endif %}
