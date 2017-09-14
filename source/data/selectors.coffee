@@ -72,10 +72,7 @@ getLeastExpensiveGenerator = (entries) -> entries.reduce ((cur, pre) =>
   { price: Infinity }
 
 getGeneratorSize = (entry) ->
-  { _legacySize, size: { length, width, height } } = entry.enclosure
-
-  if _legacySize
-    return _legacySize
+  { length, width, height } = entry.enclosure.size
 
   return length and width and height and "#{length}x#{width}x#{height}"
 
