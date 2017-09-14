@@ -235,7 +235,7 @@
         <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
           <tr><th class='h-text--'>Блок управления</th><td>LCD-дисплей</td></tr>
           <tr><th class='h-text--'>Язык блока управления</th><td>Русский</td></tr>
-          <tr><th class='h-text--'>Автомат ввода резерва</th><td>Нет</td></tr>
+          <tr><th class='h-text--'>Автомат ввода резерва (АВР)</th><td>{{ 'Есть' if gen.equipment.AST else 'Нет' }}</td></tr>
           <tr><th class='h-text--'>Время ввода резерва</th><td>7 <span class='h-text--'>сек</span></td></tr>
           <tr><th class='h-text--'>Авто-контроль работы генератора</th><td>Есть</td></tr>
           {# @todo Hidden until information will be clarified #}
