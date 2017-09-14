@@ -5,6 +5,7 @@ const isNil = require('lodash/isNil')
 const smartPlurals = require('smart-plurals')
 
 const s = require('./selectors')
+const f = require('./formatters')
 const urljoin = require('../../modules/urljoin')
 
 /**
@@ -78,7 +79,7 @@ module.exports = (data) => {
       { name: 'Исполнение', value: capitalize(g.enclosure.type) },
       { name: 'Материал исполнения', value: capitalize(g.enclosure.material) },
       { name: 'Двигатель', value: s.getEngineTitle(ENGINE) },
-      // { name: 'Тип охлаждения', value: capitalize(CoolingToWord(engine.cooling)) },
+      { name: 'Охлаждение', value: capitalize(f.coolingToWord(ENGINE.cooling)) },
       { name: 'Рабочие обороты', value: g.specs.operatingSpeed },
       // @todo Iterate upon fuel types
       { name: 'Потребление (метан)', value: g.specs.fuel.ng },
