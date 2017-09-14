@@ -200,7 +200,7 @@
           {% if powers %}<tr><th class='h-text--'>Мощность метан/суг</th><td>{{ powersList }} <span class='h-text--'>кВт</span></td></tr>{% endif %}
           {% if specs.voltage %}<tr><th class='h-text--'>Напряжение</th><td>{{ specs.voltage }} <span class='h-text--'>V</span></td></tr>{% endif %}
           {% if specs.phases %}<tr><th class='h-text--'>Фазы</th><td>{{ phasesWord }}</td></tr>{% endif %}
-          {% if specs.current._legacy %}<tr><th class='h-text--'>Сила тока</th><td>{{ specs.current._legacy }} <span class='h-text--'>A</span></td></tr>{% endif %}
+          {% if specs.current._legacy %}<tr><th class='h-text--'>Сила тока</th><td>{{ numbro(specs.current._legacy).format() }} <span class='h-text--'>A</span></td></tr>{% endif %}
           {% if enclosure.noise %}<tr><th class='h-text--'>Шум</th><td>{{ enclosure.noise }} <span class='h-text--'>Дб</span></td></tr>{% endif %}
           <tr><th class='h-text--'>Стартер</th><td>Электростартер</td></tr>
           <tr><th class='h-text--'>Тип покдлючения</th><td>Прямое\к резервуару</td></tr>
