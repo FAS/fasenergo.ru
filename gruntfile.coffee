@@ -3,6 +3,8 @@ Gettext = require('./modules/gettext')
 module.exports = (grunt) ->
   'use strict'
 
+  require('./modules/grunt-yandex-market-language') grunt
+
   # Track execution time
   require('time-grunt') grunt
   # Load grunt tasks automatically
