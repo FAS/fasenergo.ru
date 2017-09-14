@@ -45,7 +45,9 @@ getLeastPowerfulGenerator = (entries) -> entries.reduce ((cur, pre) =>
   { specs: { power: { lpg: { max: Infinity }, ng: { max: Infinity } } } }
 
 getGeneratorMainPhoto = (entry) -> entry.photos and entry.photos.filter((p) => p.main == true)[0]
-getGeneratorPhotosUrls = (entry) -> entry.photos and entry.photos.map((p) => p.url)
+getGeneratorPhotosUrls = (entry) ->
+  # Ensure that main photo always comes first, but other order is unaffected
+  entry.photos && entry.photos.sort((a, b) => b.main ? -1 : 0).map((p) => p.url)
 
 getGeneratorsWithHighestDiscount = (entries) -> entries.reduce ((cur, pre) =>
   if cur.discount > pre.discount then cur else pre),
