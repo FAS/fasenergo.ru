@@ -1,5 +1,6 @@
 moment = require('moment')
 { orderBy } = require('lodash')
+urljoin = require('../../modules/urljoin')
 
 ######################
 # Generators selectors
@@ -44,6 +45,7 @@ getLeastPowerfulGenerator = (entries) -> entries.reduce ((cur, pre) =>
   { specs: { power: { lpg: { max: Infinity }, ng: { max: Infinity } } } }
 
 getGeneratorMainPhoto = (entry) -> entry.photos and entry.photos.filter((p) => p.main == true)[0]
+getGeneratorPhotosUrls = (entry) -> entry.photos and entry.photos.map((p) => p.url)
 
 getGeneratorsWithHighestDiscount = (entries) -> entries.reduce ((cur, pre) =>
   if cur.discount > pre.discount then cur else pre),
@@ -203,6 +205,7 @@ module.exports = {
   getMostPowerfulGenerator
   getLeastPowerfulGenerator
   getGeneratorMainPhoto
+  getGeneratorPhotosUrls
   getGeneratorsWithHighestDiscount
   getGeneratorCurrentPrice
   getGeneratorOriginalPrice
