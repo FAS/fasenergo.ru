@@ -82,11 +82,10 @@
     lock: null
     removablePanels: null
     noise: 70
-    _legacySize: 1058х705х620
     size:
-      length: null
-      width: null
-      height: null
+      length: 1058
+      width: 705
+      height: 620
     weight: 90
 
 
@@ -176,11 +175,10 @@
     lock: null
     removablePanels: null
     noise: 70
-    _legacySize: 1058х705х620
     size:
-      length: null
-      width: null
-      height: null
+      length: 1058
+      width: 705
+      height: 620
     weight: 90
 
 
@@ -267,11 +265,10 @@
     lock: null
     removablePanels: null
     noise: 70
-    _legacySize: 1058х705х620
     size:
-      length: null
-      width: null
-      height: null
+      length: 1058
+      width: 705
+      height: 620
     weight: 90
 
 
@@ -361,11 +358,10 @@
     lock: null
     removablePanels: null
     noise: 70
-    _legacySize: 1058х705х620
     size:
-      length: null
-      width: null
-      height: null
+      length: 1058
+      width: 705
+      height: 620
     weight: 90
 
 
@@ -452,11 +448,10 @@
     lock: null
     removablePanels: null
     noise: 70
-    _legacySize: 1058х705х620
     size:
-      length: null
-      width: null
-      height: null
+      length: 1058
+      width: 705
+      height: 620
     weight: 125
 
 
@@ -546,11 +541,10 @@
     lock: null
     removablePanels: null
     noise: 70
-    _legacySize: 1058х705х620
     size:
-      length: null
-      width: null
-      height: null
+      length: 1058
+      width: 705
+      height: 620
     weight: 125
 
 
@@ -637,11 +631,10 @@
     lock: null
     removablePanels: null
     noise: 70
-    _legacySize: 1058х705х620
     size:
-      length: null
-      width: null
-      height: null
+      length: 1058
+      width: 705
+      height: 620
     weight: 125
 
 
@@ -731,11 +724,10 @@
     lock: null
     removablePanels: null
     noise: 70
-    _legacySize: 1058х705х620
     size:
-      length: null
-      width: null
-      height: null
+      length: 1058
+      width: 705
+      height: 620
     weight: 125
 
 
@@ -822,7 +814,6 @@
     lock: null
     removablePanels: null
     noise: null
-    _legacySize: null
     size:
       length: null
       width: null
@@ -916,7 +907,6 @@
     lock: null
     removablePanels: null
     noise: null
-    _legacySize: null
     size:
       length: null
       width: null
@@ -1007,7 +997,6 @@
     lock: null
     removablePanels: null
     noise: null
-    _legacySize: null
     size:
       length: null
       width: null
@@ -1101,7 +1090,6 @@
     lock: null
     removablePanels: null
     noise: null
-    _legacySize: null
     size:
       length: null
       width: null
@@ -1223,11 +1211,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1320х780х965
     size:
-      length: null
-      width: null
-      height: null
+      length: 1320
+      width: 780
+      height: 965
     weight: 400
 
 
@@ -1346,11 +1333,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1320х780х965
     size:
-      length: null
-      width: null
-      height: null
+      length: 1320
+      width: 780
+      height: 965
     weight: 400
 
 
@@ -1469,11 +1455,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1320х780х965
     size:
-      length: null
-      width: null
-      height: null
+      length: 1320
+      width: 780
+      height: 965
     weight: 400
 
 
@@ -1592,11 +1577,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1320х780х965
     size:
-      length: null
-      width: null
-      height: null
+      length: 1320
+      width: 780
+      height: 965
     weight: 400
 
 
@@ -1709,11 +1693,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1300×820×990
     size:
-      length: null
-      width: null
-      height: null
+      length: 1300
+      width: 820
+      height: 990
     weight: 470
 
 
@@ -1826,11 +1809,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1300×820×990
     size:
-      length: null
-      width: null
-      height: null
+      length: 1300
+      width: 820
+      height: 990
     weight: 470
 
 
@@ -1943,11 +1925,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1700×830×1000
     size:
-      length: null
-      width: null
-      height: null
+      length: 1700
+      width: 830
+      height: 1000
     weight: 530
 
 
@@ -2060,11 +2041,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1300×820×990
     size:
-      length: null
-      width: null
-      height: null
+      length: 1300
+      width: 820
+      height: 990
     weight: 470
 
 
@@ -2182,11 +2162,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1700×830×1000
     size:
-      length: null
-      width: null
-      height: null
+      length: 1700
+      width: 830
+      height: 1000
     weight: 530
 
 
@@ -2299,11 +2278,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1300×820×990
     size:
-      length: null
-      width: null
-      height: null
+      length: 1300
+      width: 820
+      height: 990
     weight: 520
 
 
@@ -2415,11 +2393,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1300×820×990
     size:
-      length: null
-      width: null
-      height: null
+      length: 1300
+      width: 820
+      height: 990
     weight: 520
 
 
@@ -2532,11 +2509,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1700×830×1000
     size:
-      length: null
-      width: null
-      height: null
+      length: 1700
+      width: 830
+      height: 1000
     weight: 520
 
 
@@ -2654,11 +2630,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1720×870×1010
     size:
-      length: null
-      width: null
-      height: null
+      length: 1720
+      width: 870
+      height: 1010
     weight: 530
 
 
@@ -2776,11 +2751,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1720×870×1010
     size:
-      length: null
-      width: null
-      height: null
+      length: 1720
+      width: 870
+      height: 1010
     weight: 530
 
 
@@ -2890,11 +2864,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 2210х1200х1200
     size:
-      length: null
-      width: null
-      height: null
+      length: 2210
+      width: 1200
+      height: 1200
     weight: 1000
 
 
@@ -3004,11 +2977,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 2210х1200х1200
     size:
-      length: null
-      width: null
-      height: null
+      length: 2210
+      width: 1200
+      height: 1200
     weight: 1000
 
 
@@ -3110,11 +3082,10 @@
     lock: null
     removablePanels: null
     noise: 90
-    _legacySize: 2900 ×1420 ×1650 (на раме)
     size:
-      length: null
-      width: null
-      height: null
+      length: 2900
+      width: 1420
+      height: 1650
     weight: 2500
 
 
@@ -3216,11 +3187,10 @@
     lock: null
     removablePanels: null
     noise: 90
-    _legacySize: 2900 ×1420 ×1650 (на раме)
     size:
-      length: null
-      width: null
-      height: null
+      length: 2900
+      width: 1420
+      height: 1650
     weight: 2500
 
 
@@ -3325,11 +3295,10 @@
     lock: null
     removablePanels: null
     noise: 90
-    _legacySize: 3800×1200×2190 (на раме)
     size:
-      length: null
-      width: null
-      height: null
+      length: 3800
+      width: 1200
+      height: 2190
     weight: 3400
 
 
@@ -3434,11 +3403,10 @@
     lock: null
     removablePanels: null
     noise: 90
-    _legacySize: 4260×1210×2190 (на раме)
     size:
-      length: null
-      width: null
-      height: null
+      length: 4260
+      width: 1210
+      height: 2190
     weight: 3500
 
 
@@ -3543,11 +3511,10 @@
     lock: null
     removablePanels: null
     noise: 90
-    _legacySize: 4260×1360×2380 (на раме)
     size:
-      length: null
-      width: null
-      height: null
+      length: 4260
+      width: 1360
+      height: 2380
     weight: 4500
 
 
@@ -3647,11 +3614,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 2510×1205×2345
     size:
-      length: null
-      width: null
-      height: null
+      length: 2510
+      width: 1205
+      height: 2345
     weight: 1706
 
 
@@ -3758,11 +3724,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1550х900х1050
     size:
-      length: null
-      width: null
-      height: null
+      length: 1550
+      width: 900
+      height: 1050
     weight: 372
 
 
@@ -3869,11 +3834,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1550х900х1050
     size:
-      length: null
-      width: null
-      height: null
+      length: 1550
+      width: 900
+      height: 1050
     weight: 377
 
 
@@ -3983,11 +3947,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1550х900х1050
     size:
-      length: null
-      width: null
-      height: null
+      length: 1550
+      width: 900
+      height: 1050
     weight: 385
 
 
@@ -4097,11 +4060,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1550х900х1050
     size:
-      length: null
-      width: null
-      height: null
+      length: 1550
+      width: 900
+      height: 1050
     weight: 389
 
 
@@ -4211,11 +4173,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1550х900х1050
     size:
-      length: null
-      width: null
-      height: null
+      length: 1550
+      width: 900
+      height: 1050
     weight: null
 
 
@@ -4325,11 +4286,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1550х900х1050
     size:
-      length: null
-      width: null
-      height: null
+      length: 1550
+      width: 900
+      height: 1050
     weight: null
 
 
@@ -4439,11 +4399,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1550х900х1050
     size:
-      length: null
-      width: null
-      height: null
+      length: 1550
+      width: 900
+      height: 1050
     weight: null
 
 
@@ -4552,11 +4511,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1550х900х1050
     size:
-      length: null
-      width: null
-      height: null
+      length: 1550
+      width: 900
+      height: 1050
     weight: null
 
 
@@ -4666,11 +4624,10 @@
     lock: null
     removablePanels: null
     noise: 57
-    _legacySize: 1550х900х1050
     size:
-      length: null
-      width: null
-      height: null
+      length: 1550
+      width: 900
+      height: 1050
     weight: null
 
 
@@ -4781,11 +4738,10 @@
     lock: null
     removablePanels: null
     noise: 68
-    _legacySize: 1250×720×935
     size:
-      length: null
-      width: null
-      height: null
+      length: 1250
+      width: 720
+      height: 935
     weight: 345
 
 
@@ -4877,11 +4833,10 @@
     lock: null
     removablePanels: null
     noise: null
-    _legacySize: 1800×980×1153
     size:
-      length: null
-      width: null
-      height: null
+      length: 1800
+      width: 980
+      height: 1153
     weight: 834
 
 
@@ -4973,9 +4928,8 @@
     lock: null
     removablePanels: null
     noise: null
-    _legacySize: 1800×980×1153
     size:
-      length: null
-      width: null
-      height: null
+      length: 1800
+      width: 980
+      height: 1153
     weight: 83
