@@ -12,7 +12,10 @@
 <article class='{{ 'h-margin-bottom+' if expandable }} {{ class }} js-expand__scope'>
 
   {% if lead %}
-  <h2 class='h-margin-top'>{{ data.title }}</h2>
+  <h2 class='h-margin-top'>
+    <span class='h-inline-block h-align--middle'>{{ data.title }}</span>
+    <a class='h-text- h-inline-block h-margin-left--' href="/контакты/реквизиты">реквизиты</a>
+  </h2>
   {% else %}
   <h3 class='{{ 'h-h5 h-margin-ends0' if expandable }}'>
     {% if expandable %}
