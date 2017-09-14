@@ -86,7 +86,7 @@ module.exports = (data) => {
       { name: 'Потребление (СУГ)', value: g.specs.fuel.lpg },
       { name: 'Блок управления', value: 'LCD-дисплей' },
       { name: 'Язык блока управления', value: 'Русский' },
-      { name: 'Автомат ввода резерва', value: 'Нет' },
+      { name: 'Автомат ввода резерва (АВР)', value: g.equipment.AST ? 'Есть' : 'Нет' },
       { name: 'Время ввода резерва', unit: 'сек', value: 7 },
       { name: 'Авто-контроль работы генератора', value: 'Есть' }
       // @todo Hidden until information will be clarified
@@ -102,7 +102,7 @@ module.exports = (data) => {
         .split(/<\/li>\s?/)
         .filter((e) => e !== '')
 
-      parsedList.forEach((e) => params.push({ name: e, value: 'есть'} ))
+      parsedList.forEach((e) => params.push({ name: e, value: 'Есть'} ))
     }
 
     YML.offers.push(omitBy({
