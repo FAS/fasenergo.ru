@@ -48,9 +48,10 @@ module.exports = (data) => {
   const FASENERGO_GENERATORS = s.filterWithBrands(GENERATORS, 'Фасэнергомаш')
 
   FASENERGO_GENERATORS.forEach((g) => {
+    const ENGINE = s.selectEngine(data.ENGINES, g.engine)
+    const { weight, size: { length, width, height } } = g.enclosure
     const SAME_TAGGED_GENERATORS = s.filterWithTags(FASENERGO_GENERATORS, g.tags)
     const RECOMMENDED_GENERATORS = s.rejectWithId(SAME_TAGGED_GENERATORS, g.slug)
-    const { weight, size: { length, width, height } } = g.enclosure
 
     const maxPower = s.getGeneratorHighestPower(g)
 
@@ -91,20 +92,20 @@ module.exports = (data) => {
       // barcode: ['0156789012'], // @todo Unavailable data
       cpa: 0,
       param: [
-        // {
-        //   name: 'Гарантия',
-        //   unit: plural(warrantyFromInstallation, ['месяц', 'месяца', 'месяцев']),
-        //   value: warrantyFromInstallation
-        // }, {
-        //   name: 'Моторесурс',
-        //   unit: plural(warrantyServiceLife, ['моточас', 'моточаса', 'моточасов']),
-        //   value: warrantyServiceLife
-        // },
-        // { name: 'Мощность (метан)', unit: 'кВт', value: powersList },
-        // { name: 'Мощность (СУГ)', unit: 'кВт', value: powersList },
+        {
+          name: 'Гарантия',
+          unit: plural(g.warranty.installation, ['месяц', 'месяца', 'месяцев']),
+          value: g.warranty.installation
+        }, {
+          name: 'Моторесурс',
+          unit: plural(g.warranty.serviceLife, ['моточас', 'моточаса', 'моточасов']),
+          value: g.warranty.serviceLife
+        },
+        { name: 'Мощность (метан)', unit: 'кВт', value: g.specs.power.ng.max },
+        { name: 'Мощность (СУГ)', unit: 'кВт', value: g.specs.power.lpg.max },
         { name: 'Тепловая мощность', unit: 'кВт', value: g.specs._thermalPower },
         { name: 'Напряжение', unit: 'V', value: g.specs.voltage },
-        // { name: 'Количество фаз', value: phasesWord },
+        { name: 'Количество фаз', value: g.specs.phases },
         { name: 'Сила тока', unit: 'A', value: g.specs.current._legacy },
         { name: 'Шум', unit: 'Дб', value: g.enclosure.noise },
         { name: 'Стартер', value: 'Электростартер' },
@@ -112,12 +113,12 @@ module.exports = (data) => {
         { name: 'Время безостановочной работы', value: 'Круглосуточно' },
         { name: 'Исполнение', value: capitalize(g.enclosure.type) },
         { name: 'Материал исполнения', value: capitalize(g.enclosure.material) },
-        // { name: 'Двигатель', value: engineTitle },
+        { name: 'Двигатель', value: s.getEngineTitle(ENGINE) },
         // { name: 'Тип охлаждения', value: capitalize(CoolingToWord(engine.cooling)) },
         { name: 'Рабочие обороты', value: g.specs.operatingSpeed },
-        // {% for fuel, fuelConsumption in specs.fuel %}
-        // { name: 'Потребление ${FuelTypeToWord(fuel)}', value: fuelConsumption },
-        // {% endfor %}
+        // @todo Iterate upon fuel types
+        { name: 'Потребление (метан)', value: g.specs.fuel.ng },
+        { name: 'Потребление (СУГ)', value: g.specs.fuel.lpg },
         // {% for equipmentList %} // Комплектация
         // { name: eq, value: есть },
         // {% endif %}
