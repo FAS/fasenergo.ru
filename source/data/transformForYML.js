@@ -66,6 +66,7 @@ module.exports = (data) => {
         unit: plural(g.warranty.serviceLife, ['моточас', 'моточаса', 'моточасов']),
         value: g.warranty.serviceLife
       },
+      // @todo Iterate upon fuel types
       { name: 'Мощность (метан)', unit: 'кВт', value: g.specs.power.ng.max },
       { name: 'Мощность (СУГ)', unit: 'кВт', value: g.specs.power.lpg.max },
       { name: 'Тепловая мощность', unit: 'кВт', value: g.specs._thermalPower },
@@ -102,7 +103,7 @@ module.exports = (data) => {
         .split(/<\/li>\s?/)
         .filter((e) => e !== '')
 
-      parsedList.forEach((e) => params.push({ name: e, value: 'Есть'} ))
+      parsedList.forEach((e) => params.push({ name: e, value: 'Есть' }))
     }
 
     YML.offers.push(omitBy({
