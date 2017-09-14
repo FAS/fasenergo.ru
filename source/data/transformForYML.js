@@ -84,7 +84,7 @@ module.exports = (data) => {
         { cost: 5000, days: [1, 3], 'order-before': 16 }
       ],
       description: g.desc,
-      sales_notes: maxPower <= 50 ? 'Необходима 100% предоплата.' : null,
+      sales_notes: maxPower <= 50 ? 'Необходима 100% предоплата.' : 'Необходима предоплата.',
       manufacturer_warranty: true,
       country_of_origin: g.manufacturer.country,
       adult: false,
