@@ -301,7 +301,7 @@ description: Каталог генераторов «Фасэнергомаш»
         <p>
           Мощность: <strong>{{ maxPower }} кВт</strong><br>
           Фазы: {{ phases }}<br>
-          Охлаждение: {{ CoolingToWord(engineCooling) }}<br>
+          Охлаждение: {{ coolingToWord(engineCooling) }}<br>
           Двигатель: {{ getEngineTitle(engine) }}
         </p>
       </div>

@@ -4,7 +4,7 @@
 {% from '_components/_Icon.nj' import Icon with context %}
 
 {% from '_components/_buttons.nj' import PDFButton with context %}
-{% from '_components/_formatters.nj' import Email, Skype, Phone, PhasesToWord, FuelTypeToWord, CoolingToWord, PowersList with context %}
+{% from '_components/_formatters.nj' import Email, Skype, Phone, PowersList with context %}
 
 {% from '_components/_Blockquote.nj' import Blockquote with context %}
 {% from '_components/_Callback.nj' import Callback with context %}

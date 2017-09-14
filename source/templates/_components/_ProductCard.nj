@@ -41,7 +41,7 @@
     {% if engineCooling %}
       <tr>
         <th class='h-text--'>Охлаждение</th>
-        <td>{{ CoolingToWord(engineCooling)|capitalize }}</td>
+        <td>{{ coolingToWord(engineCooling)|capitalize }}</td>
       </tr>
     {% endif %}
     {% if powers %}

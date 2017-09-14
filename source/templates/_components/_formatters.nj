@@ -65,54 +65,6 @@
 {%- endmacro -%}
 
 {##
- # Output amount phases as a word
- # @param {number} phases Amount of phases
- # @return {string} Phases in a word
- # @example {{ PhasesToWord(1) }} -> 'однофазный'
- #}
-{%- macro PhasesToWord(phases) -%}
-  {%- if phases == 1 -%}
-    {{ 'однофазный' }}
-  {%- elseif phases == 3 -%}
-    {{ 'трехфазный' }}
-  {% else %}
-    {{ warn('[PhasesToWord] unknown number of phases: `' + phases + '`') }}
-  {% endif %}
-{%- endmacro -%}
-
-{##
- # Output fuel type as a word
- # @param {string} phases Fuel type id
- # @return {string} Fuel type in a word
- # @example {{ FuelTypeToWord('ng') }} -> 'метан'
- #}
-{%- macro FuelTypeToWord(fuel) -%}
-  {%- if fuel == 'ng' -%}
-    {{ 'метан' }}
-  {%- elseif fuel == 'lpg' -%}
-    {{ 'СУГ' }}
-  {% else %}
-    {{ warn('[FuelTypeToWord] unknown fuel type: `' + fuel + '`') }}
-  {% endif %}
-{%- endmacro -%}
-
-{##
- # Output engine cooling type as a word
- # @param {string} coolingType Engine cooling type id
- # @return {string} Enclosure type in a word
- # @example {{ CoolingToWord('air') }} -> 'воздушное'
- #}
-{%- macro CoolingToWord(coolingType) -%}
-  {%- if coolingType == 'air' -%}
-    {{ 'воздушное' }}
-  {%- elseif coolingType == 'liquid' -%}
-    {{ 'жидкостное' }}
-  {% else %}
-    {{ warn('[CoolingToWord] unknown cooling type: `' + phases + '`') }}
-  {% endif %}
-{%- endmacro -%}
-
-{##
  # Output powers of product as inline list
  # @param {number[]} powers Array of product powers (ng, lpg)
  # @return {string} Powers as a list

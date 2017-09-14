@@ -16,7 +16,7 @@
 {% set isAvailable = generatorIsAvailable(gen) %}
 {% set powers = getGeneratorMaxPowers(gen) %}
 {% set powersList = PowersList(powers) %}
-{% set phasesWord = specs.phases and PhasesToWord(specs.phases) %}
+{% set phasesWord = specs.phases and phasesToWord(specs.phases) %}
 {% set engine = selectEngine(ENGINES, gen.engine) %}
 {% set engineTitle = getEngineTitle(engine) %}
 {% set size = getGeneratorSize(gen) %}
@@ -164,7 +164,7 @@
 
         {% for fuel, fuelConsumption in specs.fuel %}
         {% if fuelConsumption %}
-        <li><div class='wrap-blue {{ class }}'><p>потребление ({{ FuelTypeToWord(fuel) }}):<br> <b>{{ fuelConsumption }}</b></p></div></li>
+        <li><div class='wrap-blue {{ class }}'><p>потребление ({{ fuelTypeToWord(fuel) }}):<br> <b>{{ fuelConsumption }}</b></p></div></li>
         {% endif %}
         {% endfor %}
       </ul>
@@ -226,7 +226,7 @@
 
         <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
           {% if engine %}<tr><th class='h-text--'>Модель</th><td>{{ engineTitle }}</td></tr>{% endif %}
-          {% if engine.cooling %}<tr><th class='h-text--'>Тип охлаждения</th><td>{{ CoolingToWord(engine.cooling)|capitalize }}</td></tr>{% endif %}
+          {% if engine.cooling %}<tr><th class='h-text--'>Тип охлаждения</th><td>{{ coolingToWord(engine.cooling)|capitalize }}</td></tr>{% endif %}
           {% if specs.operatingSpeed %}<tr><th class='h-text--'>Рабочие обороты</th><td>{{ specs.operatingSpeed }}</td></tr>{% endif %}
         </table>
 
