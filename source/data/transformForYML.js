@@ -48,7 +48,10 @@ module.exports = (data) => {
   const GENERATORS = s.selectGenerators(data.GENERATORS, false)
   const FASENERGO_GENERATORS = s.filterWithBrands(GENERATORS, 'Фасэнергомаш')
 
-  FASENERGO_GENERATORS.forEach((g) => {
+  // @todo This is bad. We filter out temporarily cogen station because it lacks article
+  const WITHOUT_COGEN_GENERATORS = FASENERGO_GENERATORS.filter((e) => e.slug !== 'когенерационная-установка-фас-50-70м')
+
+  WITHOUT_COGEN_GENERATORS.forEach((g) => {
     const ENGINE = s.selectEngine(data.ENGINES, g.engine)
     const { weight, size: { length, width, height } } = g.enclosure
     const SAME_TAGGED_GENERATORS = s.filterWithTags(FASENERGO_GENERATORS, g.tags)
