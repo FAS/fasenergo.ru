@@ -55,6 +55,55 @@ module.exports = (data) => {
 
     const maxPower = s.getGeneratorHighestPower(g)
 
+    const params = [
+      {
+        name: 'Гарантия',
+        unit: plural(g.warranty.installation, ['месяц', 'месяца', 'месяцев']),
+        value: g.warranty.installation
+      }, {
+        name: 'Моторесурс',
+        unit: plural(g.warranty.serviceLife, ['моточас', 'моточаса', 'моточасов']),
+        value: g.warranty.serviceLife
+      },
+      { name: 'Мощность (метан)', unit: 'кВт', value: g.specs.power.ng.max },
+      { name: 'Мощность (СУГ)', unit: 'кВт', value: g.specs.power.lpg.max },
+      { name: 'Тепловая мощность', unit: 'кВт', value: g.specs._thermalPower },
+      { name: 'Напряжение', unit: 'V', value: g.specs.voltage },
+      { name: 'Количество фаз', value: g.specs.phases },
+      { name: 'Сила тока', unit: 'A', value: g.specs.current._legacy },
+      { name: 'Шум', unit: 'Дб', value: g.enclosure.noise },
+      { name: 'Стартер', value: 'Электростартер' },
+      { name: 'Тип покдлючения', value: 'Прямое\\к резервуару' },
+      { name: 'Время безостановочной работы', value: 'Круглосуточно' },
+      { name: 'Исполнение', value: capitalize(g.enclosure.type) },
+      { name: 'Материал исполнения', value: capitalize(g.enclosure.material) },
+      { name: 'Двигатель', value: s.getEngineTitle(ENGINE) },
+      // { name: 'Тип охлаждения', value: capitalize(CoolingToWord(engine.cooling)) },
+      { name: 'Рабочие обороты', value: g.specs.operatingSpeed },
+      // @todo Iterate upon fuel types
+      { name: 'Потребление (метан)', value: g.specs.fuel.ng },
+      { name: 'Потребление (СУГ)', value: g.specs.fuel.lpg },
+      { name: 'Блок управления', value: 'LCD-дисплей' },
+      { name: 'Язык блока управления', value: 'Русский' },
+      { name: 'Автомат ввода резерва', value: 'Нет' },
+      { name: 'Время ввода резерва', unit: 'сек', value: 7 },
+      { name: 'Авто-контроль работы генератора', value: 'Есть' }
+      // @todo Hidden until information will be clarified
+      // { name: 'Синхронизация', value: 'До 20 генераторов' },
+      // @todo One more questionable measure to deal with null values
+    ].filter((e) => !isNil(e && e.value))
+
+    if (g.equipment.list) {
+      // @todo This is regretable way to work with our list, which is a single string with banch of tags
+      //       Should be removed when generators.yml will be updated
+      const parsedList = g.equipment.list
+        .replace(/<li>|\r?\n|/g, '')
+        .split(/<\/li>\s?/)
+        .filter((e) => e !== '')
+
+      parsedList.forEach((e) => params.push({ name: e, value: 'есть'} ))
+    }
+
     YML.offers.push(omitBy({
       type: 'vendor.model',
       typePrefix: 'Газовый генератор',
@@ -91,46 +140,7 @@ module.exports = (data) => {
       adult: false,
       // barcode: ['0156789012'], // @todo Unavailable data
       cpa: 0,
-      param: [
-        {
-          name: 'Гарантия',
-          unit: plural(g.warranty.installation, ['месяц', 'месяца', 'месяцев']),
-          value: g.warranty.installation
-        }, {
-          name: 'Моторесурс',
-          unit: plural(g.warranty.serviceLife, ['моточас', 'моточаса', 'моточасов']),
-          value: g.warranty.serviceLife
-        },
-        { name: 'Мощность (метан)', unit: 'кВт', value: g.specs.power.ng.max },
-        { name: 'Мощность (СУГ)', unit: 'кВт', value: g.specs.power.lpg.max },
-        { name: 'Тепловая мощность', unit: 'кВт', value: g.specs._thermalPower },
-        { name: 'Напряжение', unit: 'V', value: g.specs.voltage },
-        { name: 'Количество фаз', value: g.specs.phases },
-        { name: 'Сила тока', unit: 'A', value: g.specs.current._legacy },
-        { name: 'Шум', unit: 'Дб', value: g.enclosure.noise },
-        { name: 'Стартер', value: 'Электростартер' },
-        { name: 'Тип покдлючения', value: 'Прямое\\к резервуару' },
-        { name: 'Время безостановочной работы', value: 'Круглосуточно' },
-        { name: 'Исполнение', value: capitalize(g.enclosure.type) },
-        { name: 'Материал исполнения', value: capitalize(g.enclosure.material) },
-        { name: 'Двигатель', value: s.getEngineTitle(ENGINE) },
-        // { name: 'Тип охлаждения', value: capitalize(CoolingToWord(engine.cooling)) },
-        { name: 'Рабочие обороты', value: g.specs.operatingSpeed },
-        // @todo Iterate upon fuel types
-        { name: 'Потребление (метан)', value: g.specs.fuel.ng },
-        { name: 'Потребление (СУГ)', value: g.specs.fuel.lpg },
-        // {% for equipmentList %} // Комплектация
-        // { name: eq, value: есть },
-        // {% endif %}
-        { name: 'Блок управления', value: 'LCD-дисплей' },
-        { name: 'Язык блока управления', value: 'Русский' },
-        { name: 'Автомат ввода резерва', value: 'Нет' },
-        { name: 'Время ввода резерва', unit: 'сек', value: 7 },
-        { name: 'Авто-контроль работы генератора', value: 'Есть' }
-        // @todo Hidden until information will be clarified
-        // { name: 'Синхронизация', value: 'До 20 генераторов' },
-        // @todo One more questionable measure to deal with null values
-      ].filter((e) => !isNil(e.value)),
+      param: params,
       weight: weight,
       dimensions: (length && width && height && [length, width, height]
           .map((v) => v / 10) // To convert `mm` to required by Yandex `cm`
