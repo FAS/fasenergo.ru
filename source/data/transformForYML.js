@@ -131,7 +131,8 @@ module.exports = (data) => {
         // @todo One more questionable measure to deal with null values
       ].filter((e) => !isNil(e.value)),
       weight: weight,
-      dimensions: (length && width && height && [length, width, height]) || null,
+      // Dividing by 10 to convert `mm` to required by Yandex `cm`
+      dimensions: (length && width && height && [length / 10, width / 10, height / 10]) || null,
       rec: RECOMMENDED_GENERATORS.map((e) => e.article.toString()), // @todo Note that it might be slug!
       vat: 'VAT_18'
     }, isNil))
