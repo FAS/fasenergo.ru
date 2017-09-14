@@ -96,7 +96,7 @@ filterWithTags = (entries, tags) ->
 
   return entries.filter (e) => tags.some (t) => e.tags and e.tags.includes(t)
 
-filterOutWithId = (entries, id) -> entries.filter (e) => e.slug != id
+rejectWithId = (entries, id) -> entries.filter (e) => e.slug != id
 
 ######################
 # Engines selectors
@@ -168,7 +168,7 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'rejectDiscontinued', rejectDiscontinued
   env.addGlobal 'filterWithBrands', filterWithBrands
   env.addGlobal 'filterWithTags', filterWithTags
-  env.addGlobal 'filterOutWithId', filterOutWithId
+  env.addGlobal 'rejectWithId', rejectWithId
 
   env.addGlobal 'selectEngine', selectEngine
   env.addGlobal 'selectEnginesIds', selectEnginesIds
@@ -213,7 +213,7 @@ module.exports = {
   rejectDiscontinued
   filterWithBrands
   filterWithTags
-  filterOutWithId
+  rejectWithId
 
   selectEngine
   selectEnginesIds

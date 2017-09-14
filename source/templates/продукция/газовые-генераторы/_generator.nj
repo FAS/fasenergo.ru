@@ -282,7 +282,7 @@
 {% set gens = selectGenerators(GENERATORS) %}
 {% set gens = filterWithBrands(gens, gen.manufacturer.brand) %}
 {% set gens = filterWithTags(gens, gen.tags) %}
-{% set gens = filterOutWithId(gens, gen.slug) %}
+{% set gens = rejectWithId(gens, gen.slug) %}
 {% set randomGens = _.sampleSize(gens, 6) %}
 {% set randomGens = sortGeneratorsByPower(randomGens) %}
 
