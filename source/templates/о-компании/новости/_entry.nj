@@ -27,12 +27,13 @@
 
 </div>
 
-<hr>
+{# @todo Enable when list will be properly #}
+{# <hr>
 
 <aside>
   <h2>Будьте в курсе последних новостей</h2>
   {{ SubscribeForm() }}
-</aside>
+</aside> #}
 
 <hr>
 
