@@ -7,7 +7,7 @@
 }) }}
 
 {% block main %}
-<div typeof='NewsArticle'>
+<div typeof='NewsArticle' class='s-post'>
   <meta property='headline' content='{{ PAGE.contentTitle }}'>
   <meta property='description' content='{{ PAGE.excerpt|striptags }}'>
   {# @Todo this has to be improved, since Google asks for width and height properties #}
