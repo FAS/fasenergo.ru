@@ -12,7 +12,7 @@ description: Новости
 {% block main %}
 <aside>
   <h2>Будьте в курсе последних новостей</h2>
-  {{ SubscribeForm(list = 'testers') }}
+  {{ SubscribeForm() }}
 </aside>
 
 <hr>
