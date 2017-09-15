@@ -93,15 +93,33 @@ $small-field-group-btn-width: ekzo-space(1.5);
 
     }
 
+  .Field__notification,
   .Field__error {
-    display: none;
+    @extend .h-trans--all;
 
     @include ekzo-font-size('-');
 
-    @include ekzo-theme() { color: ekzo-theme(forms-invalid); }
+    display: none;
 
     margin-top: ekzo-space(.25);
   }
+
+  .Field__notification {
+    // @todo Temporarily required by Mailchimp script
+    display: block;
+
+    @include ekzo-theme() { color: ekzo-theme(text); }
+
+    // Mailchimp specific styling
+    // @tooo Not best practice way, but we have to work with what we have
+    &.error {
+      @extend .Field__error;
+
+      display: block;
+    }
+  }
+
+  .Field__error { @include ekzo-theme() { color: ekzo-theme(forms-invalid); } }
 
 .Field- {
 
