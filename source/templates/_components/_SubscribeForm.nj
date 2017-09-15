@@ -1,7 +1,7 @@
 {##
  # Display subscribe form. Works via mailchimp API
  #
- # @param {string} list                  List name specified in @link source/scripts/plugins/mailchimp.js
+ # @param {string} [list='testers']      List name specified in @link source/scripts/plugins/mailchimp.js
  # @param {string} [class]               Class of form
  # @param {string} [fieldClass]          Class of field (wrapper for input and label)
  # @param {string} [labelClass]          Class of label
@@ -14,7 +14,8 @@
  # @example
  #   {{ SubscribeForm(list = 'testers') }}
  #}
-{% macro SubscribeForm(list, class, fieldClass, inputClass, btnClass) %}
+{# @todo put in `list` proper list name #}
+{% macro SubscribeForm(list = 'testers', class, fieldClass, inputClass, btnClass) %}
 <form class='{{ class }} js-mc-subscribe-form h-margin-bottom' data-list='{{ list }}' style='max-width: 420px;'>
 
   <div class='{{ fieldClass }} Field h-margin-bottom'>

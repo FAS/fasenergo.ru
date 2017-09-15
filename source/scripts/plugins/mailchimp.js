@@ -7,6 +7,7 @@ const { account, baseUrl, uuid, lists } = {
   'baseUrl': 'us11.list-manage.com',
   'uuid': '2f53e4a700ea23c4785d076b2',
   'lists': {
+    // @todo put here proper list name and id, then change name in source/templates/components/_SubscriptionForm.nj
     testers: '0e5589489b'
   }
 }
