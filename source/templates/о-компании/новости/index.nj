@@ -10,6 +10,14 @@ description: Новости
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+<aside>
+  <h2>Будьте в курсе последних новостей</h2>
+  {{ SubscribeForm(list = 'testers') }}
+</aside>
+
+<hr>
+
 {{ Promos() }}
+
 {{ Posts(displayActivePromos = false) }}
 {% endblock %}

@@ -30,10 +30,14 @@
 <hr>
 
 <aside>
+  <h2>Будьте в курсе последних новостей</h2>
+  {{ SubscribeForm(list = 'testers') }}
+</aside>
 
+<hr>
+
+<aside>
   <h2>Свежие новости</h2>
-
   {{ Posts(limit = 2, displayCurrent = false) }}
-
 </aside>
 {% endblock %}
