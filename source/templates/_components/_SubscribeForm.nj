@@ -1,0 +1,38 @@
+{##
+ # Display subscribe form. Works via mailchimp API
+ #
+ # @param {string} list                  List name specified in @link source/scripts/plugins/mailchimp.js
+ # @param {string} [class]               Class of form
+ # @param {string} [fieldClass]          Class of field (wrapper for input and label)
+ # @param {string} [labelClass]          Class of label
+ # @param {string} [btnClass]            Class of button
+ # @param {string} [inputContainerClass] Class of input wrapper
+ # @param {string} [inputClass]          Class of input
+ #
+ # @return {string} HTML with form
+ #
+ # @example
+ #   {{ SubscribeForm(list = 'testers') }}
+ #}
+{% macro SubscribeForm(list, class, fieldClass, inputClass, btnClass) %}
+<form class='{{ class }} js-mc-subscribe-form h-margin-bottom' data-list='{{ list }}' style='max-width: 420px;'>
+
+  <div class='{{ fieldClass }} Field h-margin-bottom'>
+    <input class='{{ inputClass }} Field__input' type='email' id='mc-email' placeholder='Введите адрес электронной почты для подписки' aria-label='Введите адрес электронной почты, чтобы подписаться на новостную рассылку'>
+
+    <label class='Field__notification' for='mc-email'></label>
+
+    {# @todo What does it do? #}
+    <div style='position: absolute; left: -5000px;'><input type='text' name='b_de0f898d04e0bdfae7098cd48_98c8dde7cb' tabindex='-1' value=''></div>
+
+  </div>
+
+  <button class='{{ btnClass }} Btn Btn+ Btn--solid' type='submit'>Подписаться</button>
+
+  <div class='js-mc-subscribe-form__success h-margin-bottom' style='display: none'>
+    <p class='h-h3'>Спасибо за подписку!</p>
+    <p>На вашу почту отправлено письмо для подтверждения. Пожалуйста, <strong>перейдите по ссылке в письме, чтобы подтвержить подписку</strong>.</p>
+  </div>
+
+</form>
+{% endmacro %}

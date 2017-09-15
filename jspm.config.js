@@ -54,6 +54,7 @@ SystemJS.config({
     "npm:*.json"
   ],
   map: {
+    "ajaxchimp": "npm:ajaxchimp@1.3.0",
     "babel-polyfill": "npm:babel-polyfill@6.23.0",
     "fs": "npm:jspm-nodelibs-fs@0.2.1",
     "jquery": "npm:jquery@3.2.1",

@@ -8,6 +8,7 @@ import './plugins/scroll-on-click'
 import './plugins/expand'
 import './plugins/drawer'
 import './plugins/catalogFilter'
+import './plugins/mailchimp'
 import jump from './plugins/jump'
 
 $(() => {
