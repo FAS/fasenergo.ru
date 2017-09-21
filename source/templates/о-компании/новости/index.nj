@@ -10,13 +10,12 @@ description: Новости
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{# @todo Enable when list will be properly #}
-{# <aside>
+<aside>
   <h2>Будьте в курсе последних новостей</h2>
   {{ SubscribeForm() }}
 </aside>
 
-<hr> #}
+<hr>
 
 {{ Promos() }}
 
