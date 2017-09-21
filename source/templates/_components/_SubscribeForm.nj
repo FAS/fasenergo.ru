@@ -40,6 +40,9 @@
 
     <label class='Field__notification' for='mc-email'></label>
 
+    {# Add subscriber to Groups/Подписки/Новости #}
+    <input name='group[14545][1]' id='mce-group[14545]-14545-0' type='checkbox' value='1' class='h-none' checked>
+
     {##
      # This is for robots. Here is what Mailchimp says:
      # > Real people should not fill this in and expect good things - do not remove this or risk form bot signups
