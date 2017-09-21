@@ -74,9 +74,9 @@ module.exports = Data = t.struct({
       url: r.Absoluteurl
     }, { name: 'Social' })
   MAILCHIMP: t.struct({
-    account: t.String,
-    accountId: t.String,
-    listsIds: t.dict t.String, t.String, { name: 'MailchimpListId' })
+      account: t.String,
+      accountId: t.String,
+      listsIds: t.dict t.String, t.String
     }, { name: 'Mailchimp' })
   ENV: t.struct
     production: t.maybe t.Boolean
