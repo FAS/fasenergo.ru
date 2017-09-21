@@ -40,6 +40,9 @@
 
     <label class='Field__notification' for='mc-email'></label>
 
+    {# Post signup form location #}
+    <input name='SIGNUP' type='text' value='{{ urljoin(SITE.homepage, PAGE.url) }}' class='h-none'>
+
     {# Add subscriber to Groups/Подписки/Новости #}
     <input name='group[14545][1]' id='mce-group[14545]-14545-0' type='checkbox' value='1' class='h-none' checked>
 
