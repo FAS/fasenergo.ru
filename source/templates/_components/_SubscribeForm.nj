@@ -1,30 +1,50 @@
 {##
  # Display subscribe form. Works via mailchimp API
  #
- # @param {string} [list='testers']      List name specified in @link source/scripts/plugins/mailchimp.js
- # @param {string} [class]               Class of form
- # @param {string} [fieldClass]          Class of field (wrapper for input and label)
- # @param {string} [labelClass]          Class of label
- # @param {string} [btnClass]            Class of button
- # @param {string} [inputContainerClass] Class of input wrapper
- # @param {string} [inputClass]          Class of input
+ # @param {string} [listId=MAILCHIMP.lists.testers] List id to which should be made post. See in List settings
+ # @param {string} [account=MAILCHIMP.account]    Account name to which should be made post
+ #                                                  See first segment in Mailchimp url
+ # @param {string} [accountId=MAILCHIMP.accountId]  Accound id to which should be made post
+ #                                                  See in List -> Embedded  -> Embedded -> `action` attribute
+ # @param {string} [class]                          Class of form
+ # @param {string} [fieldClass]                     Class of field (wrapper for input and label)
+ # @param {string} [labelClass]                     Class of label
+ # @param {string} [btnClass]                       Class of button
+ # @param {string} [inputContainerClass]            Class of input wrapper
+ # @param {string} [inputClass]                     Class of input
  #
  # @return {string} HTML with form
  #
  # @example
- #   {{ SubscribeForm(list = 'testers') }}
+ #   {{ SubscribeForm(list = '0e5589489b') }}
  #}
 {# @todo put in `list` proper list name #}
-{% macro SubscribeForm(list = 'testers', class, fieldClass, inputClass, btnClass) %}
-<form class='{{ class }} js-mc-subscribe-form h-margin-bottom' data-list='{{ list }}' style='max-width: 420px;'>
+{% macro SubscribeForm(
+    listId = MAILCHIMP.listsIds.testers,
+    account = MAILCHIMP.account,
+    accountId = MAILCHIMP.accountId,
+    class,
+    fieldClass,
+    inputClass,
+    btnClass
+) %}
+<form
+  class='{{ class }} js-mc-subscribe-form h-margin-bottom'
+  style='max-width: 420px;'
+  action='https://{{account}}.us11.list-manage.com/subscribe/post?u={{accountId}}&amp;id={{listId}}'
+  method='post'
+>
 
   <div class='{{ fieldClass }} Field h-margin-bottom'>
-    <input class='{{ inputClass }} Field__input' type='email' id='mc-email' placeholder='Введите адрес электронной почты для подписки' aria-label='Введите адрес электронной почты, чтобы подписаться на новостную рассылку'>
+    <input name='EMAIL' class='{{ inputClass }} Field__input' type='email' id='mc-email' placeholder='Введите адрес электронной почты для подписки' aria-label='Введите адрес электронной почты, чтобы подписаться на новостную рассылку'>
 
     <label class='Field__notification' for='mc-email'></label>
 
-    {# @todo What does it do? #}
-    <div style='position: absolute; left: -5000px;'><input type='text' name='b_2f53e4a700ea23c4785d076b2_0e5589489b' tabindex='-1' value=''></div>
+    {##
+     # This is for robots. Here is what Mailchimp says:
+     # > Real people should not fill this in and expect good things - do not remove this or risk form bot signups
+     #}
+    <div style='position: absolute; left: -5000px;'><input type='text' name='b_{{accountId}}_{{listId}}' tabindex='-1' value=''></div>
 
   </div>
 

@@ -55,6 +55,11 @@ module.exports = ({ config, file: { readYAML } }) ->
         handle: '@fasenergo'
         image: "/#{imagesPath}/twitter.png"
         url: 'https://twitter.com/fasenergo'
+    MAILCHIMP:
+      account: 'fas',
+      accountId: '2f53e4a700ea23c4785d076b2',
+      listsIds:
+        testers: '0e5589489b'
     ENV:
       production: config('env.production')
       staging: config('env.staging')
