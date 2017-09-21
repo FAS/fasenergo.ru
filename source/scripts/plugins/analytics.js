@@ -20,6 +20,7 @@ const $askQuestionBtns = document.querySelectorAll('.js-metrica-ask-question')
 const $callbackBtns = document.querySelectorAll('.js-metrica-callback')
 const $whereToBuyBtns = document.querySelectorAll('.js-metrica-where-to-buy')
 const $expandFilterBtns = document.querySelectorAll('.js-metrica-expand-filter')
+const $subscribeNewsBtns = document.querySelectorAll('.js-metrica-subscribe-news')
 
 document.addEventListener('click', (e) => {
   const $target = e.target
@@ -35,4 +36,5 @@ document.addEventListener('click', (e) => {
   forEachTarget($callbackBtns, () => reachGoal('click-callback'))
   forEachTarget($whereToBuyBtns, () => reachGoal('click-where-to-buy'))
   forEachTarget($expandFilterBtns, () => reachGoal('click-expand-filter'))
+  forEachTarget($subscribeNewsBtns, () => reachGoal('click-subscribe-news'))
 })

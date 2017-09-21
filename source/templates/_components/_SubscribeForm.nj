@@ -48,7 +48,7 @@
 
   </div>
 
-  <button class='{{ btnClass }} Btn Btn+ Btn--solid' type='submit'>Подписаться</button>
+  <button class='js-metrica-subscribe-news {{ btnClass }} Btn Btn+ Btn--solid' type='submit'>Подписаться</button>
 
   <div class='js-mc-subscribe-form__success h-margin-bottom' style='display: none'>
     <p class='h-h3'>Спасибо за подписку!</p>
