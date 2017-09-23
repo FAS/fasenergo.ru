@@ -1,8 +1,10 @@
 {##
  # Display subscribe form. Works via mailchimp API
  #
+ # @param {string} [name]                           Form name which will be passed to Mailchimp.
+ #                                                  Useful for pages with few signup forms on single page
  # @param {string} [listId=MAILCHIMP.lists.testers] List id to which should be made post. See in List settings
- # @param {string} [account=MAILCHIMP.account]    Account name to which should be made post
+ # @param {string} [account=MAILCHIMP.account]      Account name to which should be made post
  #                                                  See first segment in Mailchimp url
  # @param {string} [accountId=MAILCHIMP.accountId]  Accound id to which should be made post
  #                                                  See in List -> Embedded  -> Embedded -> `action` attribute
@@ -20,6 +22,7 @@
  #}
 {# @todo put in `list` proper list name #}
 {% macro SubscribeForm(
+    name
     listId = MAILCHIMP.listsIds.subscribers,
     account = MAILCHIMP.account,
     accountId = MAILCHIMP.accountId,
@@ -49,6 +52,10 @@
 
   {# Post signup form location #}
   <input name='FORM_LOC' type='text' value='{{ urljoin(SITE.homepage, PAGE.url) }}' class='h-none'>
+
+  {% if name %}
+  <input name='FORM_NAME' type='text' value='{{ name }}' class='h-none'>
+  {% endif %}
 
   {# Add subscriber to Groups/Подписки/Новости #}
   <input name='group[14545][1]' id='mce-group[14545]-14545-0' type='checkbox' value='1' checked class='h-none'>
