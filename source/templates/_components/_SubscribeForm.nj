@@ -36,23 +36,29 @@
 >
 
   <div class='{{ fieldClass }} Field h-margin-bottom'>
-
-    <input name='EMAIL' class='{{ inputClass }} Field__input' type='email' id='mc-email' placeholder='Введите адрес электронной почты для подписки' aria-label='Введите адрес электронной почты, чтобы подписаться на новостную рассылку'>
-
+    <input
+      name='EMAIL'
+      type='email'
+      id='mc-email'
+      class='{{ inputClass }} Field__input'
+      placeholder='Введите адрес электронной почты для подписки'
+      aria-label='Введите адрес электронной почты, чтобы подписаться на новостную рассылку'
+    >
     <label class='Field__notification' for='mc-email'></label>
+  </div>
 
-    {# Post signup form location #}
-    <input name='FORM_LOC' type='text' value='{{ urljoin(SITE.homepage, PAGE.url) }}' class='h-none'>
+  {# Post signup form location #}
+  <input name='FORM_LOC' type='text' value='{{ urljoin(SITE.homepage, PAGE.url) }}' class='h-none'>
 
-    {# Add subscriber to Groups/Подписки/Новости #}
-    <input name='group[14545][1]' id='mce-group[14545]-14545-0' type='checkbox' value='1' class='h-none' checked>
+  {# Add subscriber to Groups/Подписки/Новости #}
+  <input name='group[14545][1]' id='mce-group[14545]-14545-0' type='checkbox' value='1' checked class='h-none'>
 
-    {##
-     # This is for robots. Here is what Mailchimp says:
-     # > Real people should not fill this in and expect good things - do not remove this or risk form bot signups
-     #}
-    <div style='position: absolute; left: -5000px;'><input type='text' name='b_{{accountId}}_{{listId}}' tabindex='-1' value=''></div>
-
+  {##
+   # This is for robots. Here is what Mailchimp says:
+   # > Real people should not fill this in and expect good things - do not remove this or risk form bot signups
+   #}
+  <div style='position: absolute; left: -5000px;'>
+    <input name='b_{{accountId}}_{{listId}}' type='text' tabindex='-1' value=''>
   </div>
 
   <button class='js-metrica-subscribe-news {{ btnClass }} Btn Btn+ Btn--solid' type='submit'>Подписаться</button>
