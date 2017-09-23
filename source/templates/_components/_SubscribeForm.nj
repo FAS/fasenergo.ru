@@ -57,9 +57,7 @@
    # This is for robots. Here is what Mailchimp says:
    # > Real people should not fill this in and expect good things - do not remove this or risk form bot signups
    #}
-  <div style='position: absolute; left: -5000px;'>
-    <input name='b_{{accountId}}_{{listId}}' type='text' tabindex='-1' value=''>
-  </div>
+  <input name='b_{{ accountId }}_{{ listId }}' type='text' tabindex='-1' value='' style='position: absolute; left: -5000px;'>
 
   <button class='js-metrica-subscribe-news {{ btnClass }} Btn Btn+ Btn--solid' type='submit'>Подписаться</button>
 
