@@ -22,7 +22,7 @@
  #}
 {# @todo put in `list` proper list name #}
 {% macro SubscribeForm(
-    name
+    name,
     listId = MAILCHIMP.listsIds.subscribers,
     account = MAILCHIMP.account,
     accountId = MAILCHIMP.accountId,
