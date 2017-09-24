@@ -1,8 +1,9 @@
 import 'babel-polyfill'
-
-import analytics from './plugins/analytics'
-import $ from 'jquery'
+import './plugins/analyticsOnerror'
 import './polyfill'
+
+import $ from 'jquery'
+import analytics from './plugins/analytics'
 import './plugins/mangoCallback'
 import './plugins/scroll-on-click'
 import './plugins/expand'
