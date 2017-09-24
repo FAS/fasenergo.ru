@@ -12,8 +12,6 @@ import jump from 'jump.js'
  *   <div id='section'>Test</div>
  */
 export default () => {
-  const $smoothLinks = document.querySelectorAll('.js-smooth-jump')
-
   /**
    * Wrapper around `jump.js` to ensure that jumping occurs only to existing elements
    * @param {Node|string} target Element to which jump should occur or valid query
@@ -49,6 +47,9 @@ export default () => {
 
   document.addEventListener('click', (e) => {
     const $target = e.target
-    $smoothLinks.forEach(($l) => $l.contains($target) && jumpFrom($l))
+
+    document.querySelectorAll('.js-smooth-jump').forEach(($l) =>
+      $l.contains($target) && jumpFrom($l)
+    )
   })
 }
