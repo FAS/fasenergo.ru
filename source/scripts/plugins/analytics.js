@@ -1,3 +1,5 @@
+/* eslint-env jquery */
+
 const YA_COUNTER_ID = 20139793
 
 /**
@@ -26,7 +28,7 @@ document.addEventListener('click', (e) => {
   const $target = e.target
 
   const forEachTarget = ($elements, cb) => $elements.forEach(($element) => {
-    if ($element.contains($target)) { cb() }
+    if ($element.contains($target)) cb()
   })
 
   forEachTarget($orderBtns, () => reachGoal('click-order'))
@@ -37,4 +39,12 @@ document.addEventListener('click', (e) => {
   forEachTarget($whereToBuyBtns, () => reachGoal('click-where-to-buy'))
   forEachTarget($expandFilterBtns, () => reachGoal('click-expand-filter'))
   forEachTarget($subscribeNewsBtns, () => reachGoal('click-subscribe-news'))
+})
+
+$(document).ajaxComplete((e, xhr, settings) => {
+  const { msg } = xhr.responseJSON
+  const { url } = settings
+
+  // Track when user tries to subscribe with already used email
+  if (url.includes('/subscribe') && msg.includes('уже подписаны')) reachGoal('already-subscribed')
 })
