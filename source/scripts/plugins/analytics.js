@@ -41,10 +41,12 @@ document.addEventListener('click', (e) => {
   forEachTarget($subscribeNewsBtns, () => reachGoal('click-subscribe-news'))
 })
 
-$(document).ajaxComplete((e, xhr, settings) => {
-  const { msg } = xhr.responseJSON
-  const { url } = settings
-
-  // Track when user tries to subscribe with already used email
-  if (url.includes('/subscribe') && msg.includes('уже подписаны')) reachGoal('already-subscribed')
-})
+/**
+ * Send Metrics when user tries to subscribe with already used email
+ * @param  {string} result Response state
+ * @param  {string} msg    Response message
+ * @return {void}
+ */
+export const alreadySubscribed = (result, msg) => {
+  if (result === 'error' && msg.includes('уже подписаны')) reachGoal('already-subscribed')
+}
