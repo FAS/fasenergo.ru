@@ -1,28 +1,23 @@
 /* eslint-env jquery */
+/* global Element */
 
 import jump from 'jump.js'
 
 /**
  * Wrapper around `jump.js` to ensure that jumping occurs only to existing elements
- * @param {Node|string} target Element to which jump should occur or valid query
+ * @param {Element|string} target Element to which jump should occur or valid query
  * @return {void}
  */
 const jumpSafely = (target) => {
   if (!target) return
+  if ((typeof target === 'string' && !document.querySelectorAll(target)[0]) || target instanceof Element) return
 
-  // We hit the query, let's ensure queried element exists on page
-  if (typeof target === 'string') {
-    if (document.querySelectorAll(target)[0]) jump(target)
-    return
-  }
-
-  // Otherwise we received node, jump to it
   jump(target)
 }
 
 /**
  * Smooth jumps from element, which has `href` with hash
- * @param {Node} $from Element node with `href` attribute containing hash of target
+ * @param {Element} $from Element node with `href` attribute containing hash of target
  * @return {void}
  */
 const jumpFrom = ($from) => {
