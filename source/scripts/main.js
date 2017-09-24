@@ -1,8 +1,8 @@
 import 'babel-polyfill'
-import './polyfill'
 
+import analytics from './plugins/analytics'
 import $ from 'jquery'
-import './plugins/analytics'
+import './polyfill'
 import './plugins/mangoCallback'
 import './plugins/scroll-on-click'
 import './plugins/expand'
@@ -15,15 +15,10 @@ $(() => {
   console.log('jQuery version is: ' + $().jquery)
 
   $('html').removeClass('no-js')
-
+  analytics()
   jump()
-
-  // Zoom target with scroll only on click
-  // Used primary for iframes
   $('.js-scroll-on-click').scrollOnClick()
-
   $('.js-expand').expand()
-
   $('.js-drawer').drawer()
 
   /**

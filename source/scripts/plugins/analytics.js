@@ -64,7 +64,7 @@ window.onerror = (messageOrEvent, source, lineno, colno, error) => {
   }
 }
 
-document.addEventListener('click', (e) => {
+export default () => document.addEventListener('click', (e) => {
   const $target = e.target
 
   const forEachTarget = ($elements, cb) => $elements.forEach(($element) => {
