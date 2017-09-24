@@ -8,15 +8,16 @@ const YA_COUNTER_ID = 20139793
  *                          Only for Google Analytics.
  * @param {string} action   Action name (e.g. `click-order`) or goal ID in case of Yandex.Metrica
  * @param {string} [label]  For categorizing events (e.g. `Fall Campaign`)
+ * @param {string} [value]  To denote potential value/price of the event
  * @return void
  */
-const event = (category, action, label) => {
+const event = (category, action, label, value) => {
   try {
-    window.ga('send', 'event', category, action, label)
+    window.ga('send', 'event', category, action, label, value)
   } catch (e) { console.error(e) }
 
   try {
-    window[`yaCounter${YA_COUNTER_ID}`].reachGoal(action, { label })
+    window[`yaCounter${YA_COUNTER_ID}`].reachGoal(action, { label, order_price: value })
   } catch (e) { console.error(e) }
 }
 
