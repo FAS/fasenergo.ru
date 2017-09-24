@@ -16,7 +16,7 @@ const event = (category, action, label) => {
   } catch (e) { console.error(e) }
 
   try {
-    window[`yaCounter${YA_COUNTER_ID}`].reachGoal(action)
+    window[`yaCounter${YA_COUNTER_ID}`].reachGoal(action, { label })
   } catch (e) { console.error(e) }
 }
 
