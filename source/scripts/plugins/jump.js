@@ -22,9 +22,7 @@ export default () => {
 
     // We hit the query, let's ensure queried element exists on page
     if (typeof target === 'string') {
-      const $target = document.querySelectorAll(target)[0]
-
-      if ($target) jump($target)
+      if (document.querySelectorAll(target)[0]) jump(target)
       return
     }
 
