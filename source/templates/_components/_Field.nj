@@ -36,29 +36,28 @@
  #    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
  #  {% endcall %}
  #}
- {% macro Field(
-   id,
-   label,
-   name,
-   placeholder,
-   type = 'text',
-   value,
-   cols,
-   rows,
-   class,
-   style,
-   labelClass,
-   inputContainerClass,
-   inputClass,
-   displayLabel = true,
-   displayRequiredMark = true,
-   disabled,
-   required,
-   touched,
-   invalid,
-   error
- ) %}
-
+{% macro Field(
+  id,
+  label,
+  name,
+  placeholder,
+  type = 'text',
+  value,
+  cols,
+  rows,
+  class,
+  style,
+  labelClass,
+  inputContainerClass,
+  inputClass,
+  displayLabel = true,
+  displayRequiredMark = true,
+  disabled,
+  required,
+  touched,
+  invalid,
+  error
+) %}
 {% set name = name or id %}
 {% set fieldId = id + 'Container' %}
 {% set errorId = id + 'Error' %}
@@ -67,7 +66,10 @@
 <div id='{{ fieldId }}' class='Field {{ class }}{{ stateClasses }}' style='{{ style }}'>
 
   {% if displayLabel %}
-  <label class='Field__label {{ labelClass }}' for='{{ id }}'>{{ label }}{{ ' <span class=\'Field__required-mark\'>*</span>' if required and displayRequiredMark }}</label>
+  <label class='Field__label {{ labelClass }}' for='{{ id }}'>
+    {{ label }}
+    {% if required and displayRequiredMark %}<span class='Field__required-mark'>*</span>{% endif %}
+  </label>
   {% endif %}
 
   <div class='Field__input-container {{ inputContainerClass }}'>
