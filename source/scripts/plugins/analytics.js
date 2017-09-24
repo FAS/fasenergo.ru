@@ -43,25 +43,14 @@ const event = (category, action, label, value) => {
   } catch (err) { exception(err) }
 }
 
-const originalOnerror = window.onerror
-
 /**
- * Log any script error to Google Analytics.
- * Third-party scripts without CORS will only provide "Script Error." as an error message.
- * Modified https://stackoverflow.com/a/29552301
- * @param  {string} [messageOrEvent] Error message.
- * @param  {string} [source]         Url where error was raised.
- * @param  {number} [lineno]         Line number where error was raised.
- * @param  {number} [colno]          Column number for the line where the error occurred.
- * @param  {Error}  [error]          Error Object.
- * @return {boolean} When the function returns true, this prevents the firing of the default event handler.
+ * Send Metrics when user tries to subscribe with already used email
+ * @param  {string} result Response state
+ * @param  {string} msg    Response message
+ * @return {void}
  */
-window.onerror = (messageOrEvent, source, lineno, colno, error) => {
-  exception(error || messageOrEvent, source, lineno, colno)
-
-  if (typeof originalOnerror === 'function') {
-    return originalOnerror(messageOrEvent, source, lineno, colno, error)
-  }
+export const alreadySubscribed = (result, msg) => {
+  if (result === 'error' && msg.includes('уже подписаны')) event('Subscribe form', 'already-subscribed', msg)
 }
 
 export default () => document.addEventListener('click', (e) => {
@@ -81,12 +70,23 @@ export default () => document.addEventListener('click', (e) => {
   forEachTarget(document.querySelectorAll('.js-metrica-subscribe-news'), () => event('Subscribe form', 'click-subscribe-news'))
 })
 
+const originalOnerror = window.onerror
+
 /**
- * Send Metrics when user tries to subscribe with already used email
- * @param  {string} result Response state
- * @param  {string} msg    Response message
- * @return {void}
+ * Log any script error to Google Analytics.
+ * Third-party scripts without CORS will only provide "Script Error." as an error message.
+ * Modified https://stackoverflow.com/a/29552301
+ * @param  {string} [messageOrEvent] Error message.
+ * @param  {string} [source]         Url where error was raised.
+ * @param  {number} [lineno]         Line number where error was raised.
+ * @param  {number} [colno]          Column number for the line where the error occurred.
+ * @param  {Error}  [error]          Error Object.
+ * @return {boolean} When the function returns true, this prevents the firing of the default event handler.
  */
-export const alreadySubscribed = (result, msg) => {
-  if (result === 'error' && msg.includes('уже подписаны')) event('Subscribe form', 'already-subscribed', msg)
+window.onerror = (messageOrEvent, source, lineno, colno, error) => {
+  exception(error || messageOrEvent, source, lineno, colno)
+
+  if (typeof originalOnerror === 'function') {
+    return originalOnerror(messageOrEvent, source, lineno, colno, error)
+  }
 }
