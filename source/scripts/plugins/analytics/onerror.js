@@ -1,11 +1,11 @@
-import { exception } from './analytics'
+import { exception } from './utils'
 
 const originalOnerror = window.onerror
 
 /**
- * Log any script error to Google Analytics.
+ * Log any script error to Google Analytics as fatal exception (crash).
  * Third-party scripts without CORS will only provide "Script Error." as an error message.
- * Modified https://stackoverflow.com/a/29552301
+ * Import before all other imports to track most errors
  * @param  {string} [messageOrEvent] Error message.
  * @param  {string} [source]         Url where error was raised.
  * @param  {number} [lineno]         Line number where error was raised.

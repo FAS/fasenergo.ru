@@ -1,7 +1,7 @@
 /* eslint-env jquery */
 
 import 'ajaxchimp'
-import * as track from './analytics'
+import * as track from './analytics/listners'
 
 $('.js-mc-subscribe-form').each((i, element) => {
   const $form = $(element)
