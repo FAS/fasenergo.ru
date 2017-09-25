@@ -32,9 +32,10 @@ export default () => {
 
   // @note We don't use `ajaxError` here, since it won't track JSONP requests
   $(document).ajaxComplete((event, request, settings) => {
-    const { result, msg } = request.responseJSON
+    const { readyState, status, responseJSON: { result, msg } } = request
     const { url } = settings
 
-    if (result !== 'success') exception(`Ajax ${result}: ${msg}`, url)
+    // @todo I'm not sure that it is reliable way to filter errors from xhr
+    if (readyState !== 4 || status !== 200 || result === 'error') exception(`Ajax error: ${msg}, status ${status}`, url)
   })
 }
