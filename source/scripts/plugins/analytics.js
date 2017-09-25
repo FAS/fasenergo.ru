@@ -69,3 +69,11 @@ export default () => document.addEventListener('click', (e) => {
   forEachTarget(document.querySelectorAll('.js-metrica-expand-filter'), () => event('Products filter', 'click-expand-filter'))
   forEachTarget(document.querySelectorAll('.js-metrica-subscribe-news'), () => event('Subscribe form', 'click-subscribe-news'))
 })
+
+// @note We don't use `ajaxError` here, since it won't track JSONP requests
+$(document).ajaxComplete((event, request, settings) => {
+  const { result, msg } = request.responseJSON
+  const { url } = settings
+
+  if (result !== 'success') exception(`Ajax ${result}: ${msg}`, url)
+})
