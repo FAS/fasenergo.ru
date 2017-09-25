@@ -14,7 +14,7 @@ const originalOnerror = window.onerror
  * @return {boolean} When the function returns true, this prevents the firing of the default event handler.
  */
 window.onerror = (messageOrEvent, source, lineno, colno, error) => {
-  exception(error || messageOrEvent, source, lineno, colno)
+  exception(error || messageOrEvent, source, lineno, colno, true)
 
   if (typeof originalOnerror === 'function') {
     return originalOnerror(messageOrEvent, source, lineno, colno, error)
