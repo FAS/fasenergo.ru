@@ -21,6 +21,10 @@ window.onerror = (messageOrEvent, source, lineno, colno, error) => {
   }
 }
 
+// @todo Tracking of failed resources loading requires something like
+//       window.addEventListener('error', (e) => { console.log(e) }, true)
+//       Note, that it does not bubble up, and thus doesn't trigger `window.onerror`
+
 // @todo It might be better to use addEventListner('error'), but it lacks older IE support
 // @todo Worth considering https://github.com/aleksandr-oleynikov/uncaught/blob/master/index.js
 
