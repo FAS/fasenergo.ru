@@ -2,10 +2,10 @@ const YA_COUNTER_ID = 20139793
 
 /**
  * Send exception to Google Analytics
- * @param  {Error|string} error    Exception object with stack or message properties, or error message
- * @param  {string}       [source] Url where error was raised.
- * @param  {number}       [lineno] Line number where error was raised.
- * @param  {number}       [colno]  Column number for the line where the error occurred.
+ * @param  {Error|string} error         Exception object with stack or message properties, or error message
+ * @param  {string}       [source]      Url where error was raised.
+ * @param  {number}       [lineno]      Line number where error was raised.
+ * @param  {number}       [colno]       Column number for the line where the error occurred.
  * @param  {boolean}      [fatal=false] Is exception was fatal
  * @return {void}
  */
@@ -19,7 +19,7 @@ export const exception = (error, source, lineno, colno, fatal = false) => {
       // 'appName': 'Application_Name',
       // 'appVersion': '1.0'
     })
-  } catch (err) {}
+  } catch (err) { console.error(err) }
 }
 
 /**
