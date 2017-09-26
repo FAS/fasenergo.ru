@@ -20,3 +20,9 @@ window.onerror = (messageOrEvent, source, lineno, colno, error) => {
     return originalOnerror(messageOrEvent, source, lineno, colno, error)
   }
 }
+
+// @todo It might be better to use addEventListner('error'), but it lacks older IE support
+// @todo Worth considering https://github.com/aleksandr-oleynikov/uncaught/blob/master/index.js
+
+// @todo Add listner for unhandled Promise
+//       rejections https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onunhandledrejection
