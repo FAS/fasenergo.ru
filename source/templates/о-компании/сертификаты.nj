@@ -27,10 +27,6 @@ applyWrapperContent: false
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат ISO', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат ISO.pdf') %}
-  {# @todo Add description #}
-{% endcall %}
-
 {% call Document(title = 'Сертификат соответствия ГазПромСерт', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат соответствия ГазПромСерт.pdf') %}
   {# @todo Add description #}
 {% endcall %}
