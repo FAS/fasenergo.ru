@@ -17,7 +17,7 @@ export const exception = (error, source, lineno, colno, fatal = false) => {
 
   try {
     window.ga('send', 'exception', {
-      exDescription: `${stack || message || error}\n    @ ${at}`,
+      exDescription: `${message || error}\nStack: ${stack}\n    @ ${at}`,
       exFatal: fatal
       // 'appName': 'Application_Name',
       // 'appVersion': '1.0'
