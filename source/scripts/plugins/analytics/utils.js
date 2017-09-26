@@ -10,11 +10,13 @@ const YA_COUNTER_ID = 20139793
  * @return {void}
  */
 export const exception = (error, source, lineno, colno, fatal = false) => {
+  const { message, stack } = error
+
   console.error(error)
 
   try {
     window.ga('send', 'exception', {
-      exDescription: `${(error && (error.stack || error.message)) || error}\n    @ ${source}:${lineno}:${colno}`,
+      exDescription: `${stack || message || error}\n    @ ${source}:${lineno}:${colno}`,
       exFatal: fatal
       // 'appName': 'Application_Name',
       // 'appVersion': '1.0'
