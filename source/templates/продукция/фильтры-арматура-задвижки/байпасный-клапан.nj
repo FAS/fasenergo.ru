@@ -1,10 +1,10 @@
 ---
-title:           Байпасный клапан
+title:           Купить байпасный клапан
 contentTitle:    Байпасный клапан
 navTitle:        Байпасный клапан
 breadcrumbTitle: Байпасный клапан
 
-description: Байпасный клапан
+description: Продажа байпасного клапана компании «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}

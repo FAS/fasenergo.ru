@@ -1,10 +1,10 @@
 ---
-title:           Регуляторы давления ФАС
-contentTitle:    Регуляторы давления ФАС
+title:           Купить регуляторы давления газа ФАС
+contentTitle:    Регуляторы давления газа ФАС
 navTitle:        ФАС
 breadcrumbTitle: ФАС
 
-description: Регуляторы давления ФАС
+description: Регуляторы давления газа ФАС производительностью 250-3900 кг/ч.
 ---
 
 {% extends '_layouts/_main.nj' %}

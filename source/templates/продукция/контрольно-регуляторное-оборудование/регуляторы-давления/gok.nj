@@ -1,10 +1,10 @@
 ---
-title:           Регуляторы давления GOK
-contentTitle:    Регуляторы давления GOK
+title:           Купить регуляторы давления газа GOK
+contentTitle:    Регуляторы давления газа GOK
 navTitle:        GOK
 breadcrumbTitle: GOK
 
-description: Регуляторы давления GOK
+description: Регуляторы давления газа GOK производительностью 10-100 кг/ч.
 ---
 
 {% extends '_layouts/_main.nj' %}

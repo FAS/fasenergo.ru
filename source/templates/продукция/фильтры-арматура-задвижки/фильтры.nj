@@ -1,10 +1,10 @@
 ---
-title:           Фильтры
-contentTitle:    Фильтры
+title:           Нефтегазовые фильтры-грязеуловители
+contentTitle:    Купить нефтегазовые фильтры-грязеуловители
 navTitle:        Фильтры
 breadcrumbTitle: Фильтры
 
-description: Фильтры
+description: Продажа нефтегазовых фильтров-грязеуловителей компании «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}
