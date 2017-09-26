@@ -11,13 +11,25 @@ const YA_COUNTER_ID = 20139793
  */
 export const exception = (error, source, lineno, colno, fatal = false) => {
   const { message, stack } = error
+  const at = `${source}:${lineno}:${colno}`
 
   console.error(error)
 
   try {
     window.ga('send', 'exception', {
-      exDescription: `${stack || message || error}\n    @ ${source}:${lineno}:${colno}`,
+      exDescription: `${stack || message || error}\n    @ ${at}`,
       exFatal: fatal
+      // 'appName': 'Application_Name',
+      // 'appVersion': '1.0'
+    })
+  } catch (err) { console.error(err) }
+
+  try {
+    window[`yaCounter${YA_COUNTER_ID}`].reachGoal('EXCEPTION', {
+      message: message || error,
+      stack,
+      at,
+      fatal
       // 'appName': 'Application_Name',
       // 'appVersion': '1.0'
     })
