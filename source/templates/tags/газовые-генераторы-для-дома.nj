@@ -5,6 +5,8 @@ navTitle:        Газовые генераторы для дома
 breadcrumbTitle: Газовые генераторы для дома
 
 description: Газовые электрогенераторы для дома (частного или загородного) компании «Фасэнергомаш»
+
+showBreadcrumb: false
 ---
 
 {% extends '_layouts/_main.nj' %}

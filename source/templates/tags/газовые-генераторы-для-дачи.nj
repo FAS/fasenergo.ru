@@ -5,6 +5,8 @@ navTitle:        Газовые генераторы для дачи
 breadcrumbTitle: Газовые генераторы для дачи
 
 description: Газовые генераторы для дачи компании «Фасэнергомаш»
+
+showBreadcrumb: false
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -5,6 +5,8 @@ navTitle:        Газопоршневые электростанции
 breadcrumbTitle: Газопоршневые электростанции
 
 description: Газопоршневые электростанции компании «Фасэнергомаш»
+
+showBreadcrumb: false
 ---
 
 {% extends '_layouts/_main.nj' %}

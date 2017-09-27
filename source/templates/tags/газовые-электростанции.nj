@@ -5,6 +5,8 @@ navTitle:        Газовые электростанции
 breadcrumbTitle: Газовые электростанции
 
 description: Стоимость газовых электростанций ФАС для дома и дачи от компании «Фасэнергомаш»
+
+showBreadcrumb: false
 ---
 
 {% extends '_layouts/_main.nj' %}

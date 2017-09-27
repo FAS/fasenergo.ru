@@ -5,6 +5,8 @@ navTitle:        Газовые генераторы с автозапуском
 breadcrumbTitle: Газовые генераторы с автозапуском для дома
 
 description: Газовые электрогенераторы с автозапуском компании «Фасэнергомаш»
+
+showBreadcrumb: false
 ---
 
 {% extends '_layouts/_main.nj' %}
