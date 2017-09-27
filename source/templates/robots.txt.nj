@@ -4,6 +4,10 @@ User-agent: *
 Disallow: {{ '/' if ENV.staging }}
 Disallow: /styleguide$
 Disallow: /styleguide/
+Disallow: /l$
+Disallow: /l/$
+Disallow: /tags$
+Disallow: /tags/$
 Host: {{ SITE.homepage }}
 Sitemap: {{ SITE.homepage }}/sitemap.xml
 # Yandex specific directives
