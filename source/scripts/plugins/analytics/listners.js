@@ -28,6 +28,8 @@ export default () => {
     forEachTarget(document.querySelectorAll('.js-metrica-where-to-buy'), () => event('Sidebar', 'click-where-to-buy'))
     forEachTarget(document.querySelectorAll('.js-metrica-expand-filter'), () => event('Products filter', 'click-expand-filter'))
     forEachTarget(document.querySelectorAll('.js-metrica-subscribe-news'), () => event('Subscribe form', 'click-subscribe-news'))
+    forEachTarget(document.querySelectorAll('.js-metrica-tag-click-to-catalog'), () => event('Tag page', 'TAG_CLICK_TO_CATALOG'))
+    forEachTarget(document.querySelectorAll('.js-metrica-tag-click-contact-us'), () => event('Tag page', 'TAG_CLICK_CONTACT_US'))
   })
 
   // @note We don't use `ajaxError` here, since it won't track JSONP requests

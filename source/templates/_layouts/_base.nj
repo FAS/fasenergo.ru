@@ -26,6 +26,7 @@
 {% from '_components/_SolutionPreview.nj' import SolutionPreview with context %}
 {% from '_components/_Sorter.nj' import Sorter with context %}
 {% from '_components/_SubscribeForm.nj' import SubscribeForm with context %}
+{% from '_components/_TagCTA.nj' import TagCTA with context %}
 
 {% from '_components/analytics/_GoogleAnalytics.nj' import GoogleAnalytics with context %}
 {% from '_components/analytics/_YandexMetrika.nj' import YandexMetrika with context %}
