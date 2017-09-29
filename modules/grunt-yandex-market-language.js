@@ -25,7 +25,7 @@ module.exports = ({ registerMultiTask, log, verbose, file: { write }, util: { pl
         return log.warn(err)
       }
 
-      count += 1
+      count++
       verbose.ok(`File ${cyan(dest)} created`)
     })
 
