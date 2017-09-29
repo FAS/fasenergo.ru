@@ -8,21 +8,22 @@
 .#{$ekzo-s-ns}post {
 
   hr {
-    text-align: center;
-
-    margin-top: ekzo-space(2);
-    margin-bottom: ekzo-space(2);
-    margin-left: 40%;
-    margin-right: 40%;
-
-    border: 0;
+    @include ekzo-font-size(h2, headings)
 
     @include ekzo-theme() { color: ekzo-theme(text); }
 
+    text-align: center;
+    letter-spacing: .5em;
+
+    margin-top: ekzo-space(2);
+    margin-bottom: ekzo-space(2);
+
+    border: 0;
+
     &:after {
-      content: '*' '\00A0' '\00A0' '\00A0' '\00A0' '*' '\00A0' '\00A0' '\00A0' '\00A0'  '*';
+      content: '...';
       position: relative;
-      top: - ekzo-space(.5);
+      top: - ekzo-space(1.5);
     }
 
   }
