@@ -16,7 +16,6 @@ const isSorter = ($el) => $el.matches('[data-order]')
 const isPreset = ($el) => $el.matches('.js-catalog-preset')
 const getPresetData = ($el) => JSON.parse($el.getAttribute('data-preset'))
 const getSortOrder = ($el) => $el.getAttribute('data-order')
-const setSortOrder = ($el, order) => $el.setAttribute('data-order', order)
 const getItemData = ($el) => JSON.parse($el.getAttribute('data-product'))
 const showItem = ($el) => {
   $el.style.display = ''
@@ -121,7 +120,6 @@ const sortItems = ($items, state) => [...$items].sort(($a, $b) => {
 if ($filtersContainer && $productsContainer) {
   let $lastPreset = [...$filters].filter(($f) => isPreset($f) && $f.matches(':checked')).shift()
   let isPresetActive
-  let $lastSorter = [...$filters].filter(($f) => isSorter($f) && $f.matches(':checked')).shift()
 
   // Init sorting
   updateProducts(getFilterState())
@@ -130,7 +128,7 @@ if ($filtersContainer && $productsContainer) {
     const $target = e.target
     let presetedState
 
-    // Ensure that we clicked into preset, filter or sorter's input
+    // Ensure that we clicked into preset or filter
     if (isFilter($target)) {
       if (isPreset($target)) {
         $lastPreset === $target
@@ -148,14 +146,6 @@ if ($filtersContainer && $productsContainer) {
           if ($f.name === 'powerFrom') { $f.value = (presetData && presetData[0]) || '' }
           if ($f.name === 'powerTo') { $f.value = (presetData && presetData[1]) || '' }
         })
-      }
-
-      if (isSorter($target)) {
-        $lastSorter === $target
-          ? getSortOrder($target) === 'asc' ? setSortOrder($target, 'desc') : setSortOrder($target, 'asc')
-          : setSortOrder($target, 'asc')
-
-        $lastSorter = $target
       }
 
       updateProducts(presetedState || getFilterState())

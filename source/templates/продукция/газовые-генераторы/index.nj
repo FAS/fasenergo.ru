@@ -247,7 +247,7 @@ description: Продажа газовых электрогенераторов 
 
   </form>
 
-  <form class='h-margin-top+-- h-margin-bottom-- h-margin-sides-- h-text- h-childs-space-left--'>
+  <form class='js-toggle-sorter h-margin-top+-- h-margin-bottom-- h-margin-sides-- h-text- h-childs-space-left--'>
     <span>Сортировать:</span>
     {{ Sorter(
       id = 'sortByPower',
