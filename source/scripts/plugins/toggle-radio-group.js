@@ -19,7 +19,7 @@
 const toggleRadioGroup = (event, $inputs, cb, uncheckedCb) => $inputs.forEach(($input) => {
   if (!$input.checked) {
     $input._secondClick = false
-    uncheckedCb($input)
+    if (typeof uncheckedCb === 'function') uncheckedCb($input)
     return
   }
 
