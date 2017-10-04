@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleSorters click listner should toggle inputs ordering 1`] = `
+"<form id=\\"GROUP\\" class=\\"js-toggle-sorter\\">
+        <label>First <input id=\\"INPUT_1\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\" checked=\\"\\"></label>
+        <label>Second <input id=\\"INPUT_2\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\"></label>
+      </form>"
+`;
+
+exports[`ToggleSorters click listner should toggle inputs ordering 2`] = `
+"<form id=\\"GROUP\\" class=\\"js-toggle-sorter\\">
+        <label>First <input id=\\"INPUT_1\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"desc\\" checked=\\"\\"></label>
+        <label>Second <input id=\\"INPUT_2\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\"></label>
+      </form>"
+`;
+
+exports[`ToggleSorters click listner should toggle inputs ordering 3`] = `
+"<form id=\\"GROUP\\" class=\\"js-toggle-sorter\\">
+        <label>First <input id=\\"INPUT_1\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\" checked=\\"\\"></label>
+        <label>Second <input id=\\"INPUT_2\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\"></label>
+      </form>"
+`;
+
+exports[`ToggleSorters click listner should toggle inputs ordering 4`] = `
+"<form id=\\"GROUP\\" class=\\"js-toggle-sorter\\">
+        <label>First <input id=\\"INPUT_1\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\" checked=\\"\\"></label>
+        <label>Second <input id=\\"INPUT_2\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"desc\\"></label>
+      </form>"
+`;
+
+exports[`ToggleSorters click listner should toggle inputs ordering 5`] = `
+"<form id=\\"GROUP\\" class=\\"js-toggle-sorter\\">
+        <label>First <input id=\\"INPUT_1\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\" checked=\\"\\"></label>
+        <label>Second <input id=\\"INPUT_2\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\"></label>
+      </form>"
+`;
+
+exports[`ToggleSorters click listner should toggle inputs ordering 6`] = `
+"<form id=\\"GROUP\\" class=\\"js-toggle-sorter\\">
+        <label>First <input id=\\"INPUT_1\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\" checked=\\"\\"></label>
+        <label>Second <input id=\\"INPUT_2\\" name=\\"sort\\" type=\\"radio\\" data-order=\\"asc\\"></label>
+      </form>"
+`;
