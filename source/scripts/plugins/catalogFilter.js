@@ -14,8 +14,6 @@ const $showAllBtnItems = document.getElementById('js-catalog-show-all-btn__items
 const isFilter = ($el) => [...$filters].includes($el)
 const isSorter = ($el) => $el.matches('[data-order]')
 const isPreset = ($el) => $el.matches('[data-preset]')
-const getPresetData = ($el) => JSON.parse($el.getAttribute('data-preset'))
-const getSortOrder = ($el) => $el.getAttribute('data-order')
 const getItemData = ($el) => JSON.parse($el.getAttribute('data-product'))
 const showItem = ($el) => {
   $el.style.display = ''
@@ -26,38 +24,35 @@ const hideItem = ($el) => {
   $el.classList.add('is-hidden')
 }
 
-const getFilterState = () => {
-  return Object.keys($filters).reduce((state, key) => {
-    const $filter = $filters[key]
-    const name = $filter.name
-    const value = isNaN(+$filter.value) ? $filter.value : +$filter.value
+const getFilterState = () => Object.keys($filters).reduce((state, key) => {
+  const $filter = $filters[key]
+  const name = $filter.name
+  const value = isNaN(+$filter.value) ? $filter.value : +$filter.value
 
-    switch ($filter.type) {
-      case 'radio':
-        if ($filter.checked) {
-          // Write sort order
-          isSorter($filter) && (state.sortOrder = getSortOrder($filter))
-          isPreset($filter) && (state.presetData = getPresetData($filter))
-          state[name] = value
-        }
-        return state
+  switch ($filter.type) {
+    case 'radio':
+      if ($filter.checked) {
+        if (isSorter($filter)) { state.sortOrder = $filter.getAttribute('data-order') }
+        if (isPreset($filter)) { state.presetData = JSON.parse($filter.getAttribute('data-preset')) }
+        state[name] = value
+      }
 
-      case 'checkbox':
-        if ($filter.checked) {
-          if (!Array.isArray(state[name])) {
-            state[name] = []
-          }
-          state[name].push(value)
-        }
-        return state
-    }
+      return state
 
-    // Assume everything else is just text input
-    state[name] = value
+    case 'checkbox':
+      if ($filter.checked) {
+        if (!Array.isArray(state[name])) { state[name] = [] }
+        state[name].push(value)
+      }
 
-    return state
-  }, {})
-}
+      return state
+  }
+
+  // Assume everything else is just text input
+  state[name] = value
+
+  return state
+}, {})
 
 const updateProducts = (state, limit = PRODUCTS_PER_PAGE) => {
   console.log(state)
