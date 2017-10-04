@@ -33,7 +33,7 @@ const toggleRadioGroup = (event, $inputs, cb, uncheckedCb) => $inputs.forEach(($
  * Toggle sorters inputs ordering
  * First click will enable default ordering ('asc'), second will
  * start to toggle between `asc` and `desc`
- * @param {Event}  event `addEventListener` event
+ * @param {Event} event `addEventListener` event
  * @return {void}
  * @example
  *   <form id='GROUP' class='js-toggle-sorter'>
@@ -61,8 +61,44 @@ const toggleSorters = (event) => {
   })
 }
 
+/**
+ * Toggle inputs on and off
+ * @param {Event} event `addEventListener` event
+ * @return {void}
+ * @example
+ *   <form id='GROUP' class='js-toggle-presets'>
+ *     <label id='LABEL_1'>
+ *       First <input id='INPUT_1' name='preset' type='radio' data-preset='' checked>
+ *     </label>
+ *     <label id='LABEL_2'>
+ *       Second <input id='INPUT_2'  name='preset' type='radio' data-preset='[7,10]'>
+ *     </label>
+ *   </form>
+ */
+const togglePresets = (event) => {
+  const SELECTOR = '.js-toggle-presets'
+  const PRESET = '[data-preset]'
+
+  const $groups = document.querySelectorAll(SELECTOR)
+
+  $groups.forEach(($group) => {
+    const $inputs = $group.querySelectorAll(PRESET)
+
+    toggleRadioGroup(
+      event,
+      $inputs,
+      ($input) => {
+        $input.checked = $input._toggle
+        $input._toggle = !$input._toggle
+      },
+      ($input) => { $input._toggle = undefined }
+    )
+  })
+}
+
 // @note We set `true` as last arg to enable capturing
 //       and ensure that event fires _before_ all regular listeners
 //       which usually collecting data and needs DOM to be changed first
 //       See https://www.quirksmode.org/js/events_order.html
 document.addEventListener('click', toggleSorters, true)
+document.addEventListener('click', togglePresets, true)

@@ -13,7 +13,7 @@ const $showAllBtnItems = document.getElementById('js-catalog-show-all-btn__items
 
 const isFilter = ($el) => [...$filters].includes($el)
 const isSorter = ($el) => $el.matches('[data-order]')
-const isPreset = ($el) => $el.matches('.js-catalog-preset')
+const isPreset = ($el) => $el.matches('[data-preset]')
 const getPresetData = ($el) => JSON.parse($el.getAttribute('data-preset'))
 const getSortOrder = ($el) => $el.getAttribute('data-order')
 const getItemData = ($el) => JSON.parse($el.getAttribute('data-product'))
@@ -118,9 +118,6 @@ const sortItems = ($items, state) => [...$items].sort(($a, $b) => {
 })
 
 if ($filtersContainer && $productsContainer) {
-  let $lastPreset = [...$filters].filter(($f) => isPreset($f) && $f.matches(':checked')).shift()
-  let isPresetActive
-
   // Init sorting
   updateProducts(getFilterState())
 
@@ -131,12 +128,6 @@ if ($filtersContainer && $productsContainer) {
     // Ensure that we clicked into preset or filter
     if (isFilter($target)) {
       if (isPreset($target)) {
-        $lastPreset === $target
-          ? (isPresetActive = !isPresetActive) && ($target.checked = false)
-          : (isPresetActive = false)
-
-        $lastPreset = $target
-
         presetedState = presetState(getFilterState())
         let { presetData } = presetedState
 
@@ -151,6 +142,7 @@ if ($filtersContainer && $productsContainer) {
       updateProducts(presetedState || getFilterState())
     }
   })
+
   $filtersContainer.addEventListener('input', debounce(() => updateProducts(getFilterState()), 700))
   // @todo Delaying here just to wait while DOM will update before grabbing new filters state
   //       Clearly, wrong way to handle it, should be improved

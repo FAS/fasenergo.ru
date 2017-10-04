@@ -29,14 +29,14 @@ description: Продажа газовых электрогенераторов 
   {# <div class='o-clearfix h-margin-bottom'> #}
 
     {# @todo Enable, when they will be ready #}
-    {# <form class='h-float--left'>
+    {# <form class='js-toggle-presets h-float--left'>
       {{ Checkbox(
         type = 'radio',
         id = 'presetPopular',
         name = 'preset',
         value = 'popular',
         label = 'Популярные',
-        inputClass = 'js-catalog-preset',
+        attrs = { 'data-preset': '{}' },
         checked = true
       ) }}
       {{ Checkbox(
@@ -44,7 +44,6 @@ description: Продажа газовых электрогенераторов 
         id = 'presetPower710',
         name = 'preset',
         value = 'powerFromTo',
-        inputClass = 'js-catalog-preset',
         attrs = { 'data-preset': [7, 10]|dump },
         label = '7-10 кВт'
       ) }}
@@ -53,7 +52,6 @@ description: Продажа газовых электрогенераторов 
         id = 'presetPower1020',
         name = 'preset',
         value = 'powerFromTo',
-        inputClass = 'js-catalog-preset',
         attrs = { 'data-preset': [10, 20]|dump },
         label = '10-20 кВт'
       ) }}
