@@ -6,7 +6,7 @@ contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').titl
 navTitle:        "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').title }}"
 breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').title }}"
 
-description: "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').meta.desc }}"
+description: "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').meta.description }}"
 ---
 
 {% extends './_generator.nj' %}

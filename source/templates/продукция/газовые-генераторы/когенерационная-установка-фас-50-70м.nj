@@ -6,7 +6,7 @@ contentTitle:    "{{ selectGenerator(GENERATORS, 'когенерационная
 navTitle:        "{{ selectGenerator(GENERATORS, 'когенерационная-установка-фас-50-70м').title }}"
 breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'когенерационная-установка-фас-50-70м').title }}"
 
-description: "{{ selectGenerator(GENERATORS, 'когенерационная-установка-фас-50-70м').meta.desc }}"
+description: "{{ selectGenerator(GENERATORS, 'когенерационная-установка-фас-50-70м').meta.description }}"
 ---
 
 {% extends './_generator.nj' %}
