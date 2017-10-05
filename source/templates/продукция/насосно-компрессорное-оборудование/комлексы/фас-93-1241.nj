@@ -4,7 +4,7 @@ contentTitle:    Насосная установка&nbsp;№93.1241
 navTitle:        ФАС&nbsp;№93.1241
 breadcrumbTitle: ФАС&nbsp;№93.1241
 
-description: Насосная установка&nbsp;№93.1241
+description: Насосная установка для монтажа в составе двух подземных емкостей, без заправочной колонки
 ---
 
 {% extends '_layouts/_main.nj' %}

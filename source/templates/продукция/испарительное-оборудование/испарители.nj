@@ -1,10 +1,10 @@
 ---
-title:           Испарители
+title:           Электрические испарители
 contentTitle:    Испарители
 navTitle:        Испарители
 breadcrumbTitle: Испарители
 
-description: Испарители
+description: Электрические испарители сжиженных углеводородных газов (СУГ) от «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}

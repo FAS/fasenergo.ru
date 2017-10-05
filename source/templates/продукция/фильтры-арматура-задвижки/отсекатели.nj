@@ -4,7 +4,7 @@ contentTitle:    Отсекатели
 navTitle:        Отсекатели
 breadcrumbTitle: Отсекатели
 
-description: Отсекатели
+description: Отсекатели компании «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}

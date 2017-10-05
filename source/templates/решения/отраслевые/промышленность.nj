@@ -4,7 +4,7 @@ contentTitle:    Промышленность
 navTitle:        Промышленность
 breadcrumbTitle: Промышленность
 
-description: Промышленность
+description: Применение в промышленности газового оборудования компании «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}

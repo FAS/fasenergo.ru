@@ -4,7 +4,7 @@ contentTitle:    Производство
 navTitle:        Производство
 breadcrumbTitle: Производство
 
-description: Производство
+description: Производство компании «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}

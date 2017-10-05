@@ -4,7 +4,7 @@ contentTitle:    Главное о наших услугах
 navTitle:        Услуги
 breadcrumbTitle: Услуги
 
-description: Главное о наших услугах
+description: Главное об услугах компании «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}

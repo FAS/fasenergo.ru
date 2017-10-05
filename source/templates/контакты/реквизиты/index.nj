@@ -4,7 +4,7 @@ contentTitle:    Реквизиты «Фасэнергомаш»
 navTitle:        Реквизиты
 breadcrumbTitle: Реквизиты
 
-description: Реквизиты «Фасэнергомаш»
+description: Реквизиты компании «Фасэнергомаш»
 ---
 
 {% extends '_layouts/_main.nj' %}

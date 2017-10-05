@@ -4,7 +4,7 @@ contentTitle:    О компании
 navTitle:        О компании
 breadcrumbTitle: О компании
 
-description: О компании
+description: Информация о компании «Фасэнергомаш» — немецко-российском производителе газового оборудования.
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -4,7 +4,7 @@ contentTitle:    Отраслевые решения
 navTitle:        Отраслевые решения
 breadcrumbTitle: Отраслевые решения
 
-description: Отраслевые решения
+description: Решения компании «Фасэнергомаш» в различных отраслях.
 ---
 
 {% extends '_layouts/_main.nj' %}

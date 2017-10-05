@@ -4,7 +4,7 @@ contentTitle:    Новости
 navTitle:        Новости
 breadcrumbTitle: Новости
 
-description: Новости
+description: Новости компании «Фасэнергомаш» — производителя газового оборудования.
 ---
 
 {% extends '_layouts/_main.nj' %}

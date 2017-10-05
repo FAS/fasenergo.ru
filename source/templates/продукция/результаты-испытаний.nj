@@ -4,7 +4,7 @@ contentTitle:    Результаты испытаний
 navTitle:        Результаты испытаний
 breadcrumbTitle: Результаты испытаний
 
-description: Результаты испытаний
+description: Результаты испытаний газового оборудования компании «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}

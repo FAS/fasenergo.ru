@@ -4,7 +4,7 @@ contentTitle:    Сельское хозяйство
 navTitle:        Сельское хозяйство
 breadcrumbTitle: Сельское хозяйство
 
-description: Сельское хозяйство
+description: Применение газового оборудования компании «Фасэнергомаш» в cельском хозяйстве.
 ---
 
 {% extends '_layouts/_main.nj' %}

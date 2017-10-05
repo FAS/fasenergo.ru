@@ -4,7 +4,7 @@ contentTitle:    Щит электроуправления ФАС 22.561
 navTitle:        ФАС 22.561
 breadcrumbTitle: ФАС 22.561
 
-description: Щит электроуправления ФАС 22.561
+description: Щит электроуправления ФАС 22.561 для топливораздаточного оборудования
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -4,7 +4,7 @@ contentTitle:    Контакты
 navTitle:        Контакты
 breadcrumbTitle: Контакты
 
-description: Контакты
+description: 'Контактные телефоны и email компании «Фасэнергомаш»: центральный офис, производство, сервис, отделы'
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -4,14 +4,14 @@ contentTitle:    Дилерам
 navTitle:        Дилерам
 breadcrumbTitle: Дилерам
 
-description: Дилерам
+description: Дилерам компании «Фасэнергомаш»
 ---
 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
 {% set pageE = CONTACTS.departments.dealers %}
-{% set pagePhone1 = Phone(pageE.phones[0]) %}
+{% set pagePhone = Phone(pageE.phones[0]) %}
 {% set pageEmail = Email(pageE.emails[0]) %}
 
 <p>Дилер ФАС получает возможность продавать наше оборудование и оказывать сопутствующие услуги — монтаж и шеф-монтаж, пуско-наладка, обслуживание и ремонт.</p>
@@ -46,7 +46,7 @@ description: Дилерам
   <li>Мы не устанавливаем минимальный объём продаж, но от объёма зависит размер вашей скидки.</li>
 </ol>
 
-<p>Подробно об условиях и вознаграждениях вы узнаете в дилерском отделе: {{ pagePhone1 }}, {{ pageEmail }}.</p>
+<p>Подробно об условиях и вознаграждениях вы узнаете в дилерском отделе: {{ pagePhone }}, {{ pageEmail }}.</p>
 
 <h2>Ценовая политика и защита контракта</h2>
 

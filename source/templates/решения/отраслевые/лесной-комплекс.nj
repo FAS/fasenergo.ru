@@ -4,7 +4,7 @@ contentTitle:    Лесной комплекс
 navTitle:        Лесной комплекс
 breadcrumbTitle: Лесной комплекс
 
-description: Лесной комплекс
+description: Решения компании «Фасэнергомаш» в лесном комплексе.
 ---
 
 {% extends '_layouts/_main.nj' %}

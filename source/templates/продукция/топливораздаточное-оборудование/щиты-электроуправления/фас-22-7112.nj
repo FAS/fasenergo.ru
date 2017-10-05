@@ -4,7 +4,7 @@ contentTitle:    Щит электроуправления ФАС 22.7112
 navTitle:        ФАС 22.7112
 breadcrumbTitle: ФАС 22.7112
 
-description: Щит электроуправления ФАС 22.7112
+description: Щит электроуправления ФАС 22.7112 для топливораздаточного оборудования
 ---
 
 {% extends '_layouts/_main.nj' %}

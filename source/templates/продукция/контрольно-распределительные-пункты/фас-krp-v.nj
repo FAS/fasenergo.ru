@@ -1,10 +1,10 @@
 ---
-title:           Контрольно-распределительный пункт KRP/V
-contentTitle:    Контрольно-распределительный пункт KRP/V
-navTitle:        KRP/V
-breadcrumbTitle: KRP/V
+title:           Контрольно-распределительный пункт ФАС KRP/V
+contentTitle:    Контрольно-распределительный пункт ФАС KRP/V
+navTitle:        ФАС KRP/V
+breadcrumbTitle: ФАС KRP/V
 
-description: Контрольно-распределительный пункт KRP/V
+description: Контрольно-распределительный пункт ФАС KRP/V от «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}

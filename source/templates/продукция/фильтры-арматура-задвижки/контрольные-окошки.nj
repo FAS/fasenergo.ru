@@ -4,7 +4,7 @@ contentTitle:    Контрольные окошки
 navTitle:        Контрольные окошки
 breadcrumbTitle: Контрольные окошки
 
-description: Контрольные окошки
+description: Контрольные окошки компании «Фасэнергомаш».
 ---
 
 {% extends '_layouts/_main.nj' %}
