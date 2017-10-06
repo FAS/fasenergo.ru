@@ -67,7 +67,7 @@
   {%- if plain -%}
   {{ macroPhone }}{{ macroAdd }}
   {%- else -%}
-  <a href='tel:{{ rawPhone }}' class='{{ class }} g-link--inherit h-text--nowrap'>{{ macroPhone }}<span class='{{ addClass }}'>{{ macroAdd }}</span></a>
+  <a href='tel:{{ rawPhone }}' class='{{ class }} js-track-call g-link--inherit h-text--nowrap'>{{ macroPhone }}<span class='{{ addClass }}'>{{ macroAdd }}</span></a>
   {%- endif -%}
 {%- endmacro -%}
 

@@ -1,0 +1,34 @@
+{##
+ # Invoke Mango call tracker
+ # Use selector `.js-track-call` on anchor with phone to track
+ # @return {string} `<script>` tag with Mango tracker code
+ # @example {{ MangoCalltracker(siteId = 'UA-XXXXX-X') }}
+ #}
+{% macro MangoCalltracker() %}
+<script>
+  (function (window, document, url, id, obj, script, parent) {
+    if (document.getElementById(id)) { return; }
+
+    window.MangoObject = obj;
+    window[obj] = window[obj] || function () {
+      (window[obj].q = window[obj].q || []).push(arguments)
+    };
+
+    window[obj].u = url;
+    window[obj].t = 1 * new Date();
+
+    script = document.createElement('script');
+    script.async = 1;
+    script.id = id;
+    script.src = url;
+
+    parent = document.getElementsByTagName('script')[0];
+    parent.parentNode.insertBefore(script, parent);
+  }(window, document, 'https://widgets.mango-office.ru/widgets/mango.js', 'mango-js', 'mgo'));
+
+  mgo({ calltracking: {
+    id: 1438,
+    elements: [ { selector: '.js-track-call' } ]
+  }});
+</script>
+{% endmacro %}
