@@ -34,6 +34,11 @@ export default () => {
 
   // @note We don't use `ajaxError` here, since it won't track JSONP requests
   $(document).ajaxComplete((event, request, settings) => {
+    // @todo This is temp workaround for cases when request ends up undefined
+    //       Seems to be happening when AJAX request originates not from jQuery
+    //       Caused by Mango calltracker code
+    if (!request) return
+
     const { readyState, status, responseJSON: { result, msg } } = request
     const { url } = settings
 
