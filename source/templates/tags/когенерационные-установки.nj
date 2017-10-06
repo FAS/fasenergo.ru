@@ -5,8 +5,6 @@ navTitle:        Когенерационные установки
 breadcrumbTitle: Когенерационные установки
 
 description: Газовые когенерационные установки компании «Фасэнергомаш»
-
-showBreadcrumb: false
 ---
 
 {% extends '_layouts/_main.nj' %}

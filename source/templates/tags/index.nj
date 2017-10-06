@@ -5,6 +5,8 @@ navTitle:        Tags
 breadcrumbTitle: Tags
 
 description: Tags
+
+excludeFromBreadcrumb: true
 ---
 
 {% extends '_layouts/_main.nj' %}
