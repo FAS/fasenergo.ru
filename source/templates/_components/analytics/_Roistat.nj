@@ -1,8 +1,7 @@
 {##
- # Invoke Mango call tracker
- # Use selector `.js-track-call` on anchor with phone to track
- # @return {string} `<script>` tag with Mango tracker code
- # @example {{ MangoCalltracker(siteId = 'UA-XXXXX-X') }}
+ # Invoke Roistat call tracker
+ # @return {string} `<script>` tag with Roistat code
+ # @example {{ MangoCalltracker() }}
  #}
 {% macro Roistat() %}
 <script>
