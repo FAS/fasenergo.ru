@@ -59,7 +59,7 @@
     {% if subnavNotEmpty %}
     {% if enableDrawer %}
     <div class='Drawer js-drawer__nav h-text-'>
-      <button class='Drawer__close js-drawer__close' aria-label='Çàêðûòü ìåíþ'>{{ Icon('x') }}</button>
+      <button class='Drawer__close js-drawer__close' aria-label='Ð—Ð°ÐºÑ€Ñ‹Ñ‚ÑŒ Ð¼ÐµÐ½ÑŽ'>{{ Icon('x') }}</button>
     {% endif %}
       <ul class='{{ 'Drawer__content' if enableDrawer }} o-nav o-nav--stacked'>
         {{ subnav }}
