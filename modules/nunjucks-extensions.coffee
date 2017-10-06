@@ -3,7 +3,7 @@ md                        = require('markdown-it')()
 markdown                  = require('nunjucks-markdown')
 crumble                   = require('./crumble')
 render                    = require('./nunjucks-render')
-sprintf                   = require('./sprintf')
+format                    = require('./format')
 urlify                    = require('./urlify')
 numbro                    = require('numbro')
 moment                    = require('moment')
@@ -288,16 +288,20 @@ module.exports = (env) ->
     array
 
   ###*
-   * Force rendering of input via Nunjucks. Refer to `nunjucks-render` module for docs
+   * Force rendering of input via Nunjucks
+   * @link modules/nunjucks-render
+   * @param {*}      input        Input to be rendered
+   * @param {object} [that=input] Value for `this`. Useful for self-referencing in data
    * @todo Related issue https://github.com/mozilla/nunjucks/issues/783
   ###
-  env.addFilter 'render', (input) ->
-    render(env, @getVariables(), input)
+  env.addFilter 'render', (input, that) ->
+    render(env, Object.assign({}, @getVariables(), { this: that or input }), input)
 
   ###*
-   * Replace placeholders with provided values. Refer to `sprintf` module for docs
+   * Replace placeholders with provided values.
+   * @link modules/format
   ###
-  env.addFilter 'format', sprintf
+  env.addFilter 'format', format
 
   ###*
    * Pluralize string based on count. For situations, where full i18n is too much

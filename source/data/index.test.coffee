@@ -1,6 +1,7 @@
-t = require('tcomb')
-{ refinements, validate } = require('../../tests/utils/tcomb')
 { grunt } = require('../../tests/utils/grunt')
+t = require('tcomb')
+r = require('../../modules/refinements')
+validate = require('../../modules/validate')
 data = require('./index')
 
 # Tests data index file against this schema to ensure that Kotsu receives all required data with valid values.
@@ -8,9 +9,8 @@ data = require('./index')
 # @docs https://github.com/gcanti/tcomb
 
 data = grunt.config.process(data(grunt)())
-r = refinements
 
-module.exports = Data = t.struct({
+Data = module.exports = t.struct({
   PATH: t.struct
     fonts: t.String
     images: t.String

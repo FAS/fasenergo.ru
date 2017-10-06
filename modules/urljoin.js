@@ -13,6 +13,7 @@ module.exports = (...urls) => {
 
   if (hasProtocol) {
     // @todo Something has to be done with the fact that URI.js force-encodes urls
+    //       https://github.com/LotusTM/Kotsu/issues/322
     return URI.decode(URI.joinPaths(...restUrls).absoluteTo(uri).valueOf())
   }
 

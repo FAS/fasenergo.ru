@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb 1`] = `
+"
+      
+      
+      
+<ol class='o-breadcrumb' typeof='BreadcrumbList'>
+
+  <li class='o-breadcrumb__item o-breadcrumb__item--root' property='itemListElement' typeof='ListItem'>
+    <a class=' ' href='/' property='item' typeof='WebPage'>
+      <span property='name'>Home</span>
+    </a>
+    <meta property='position' content='1'>
+  </li>
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+    
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  <li
+    class='o-breadcrumb__item  h-relative js-expand__scope'
+    
+    property='itemListElement' typeof='ListItem'
+  >
+    <meta property='position' content='2'>
+
+    <a
+      class=' Expand-link-alt has-subnav js-expand'
+      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
+      href='/section-url'
+      property='item' typeof='WebPage'
+    >
+      <span property='name'>Section title</span>
+      <i class='o-svg-icon Expand-link-alt__icon' style=''>
+      <canvas class='o-svg-icon__canvas' width='4' height='7'></canvas>
+      <svg class='o-svg-icon__svg' viewBox='0 0 4 7' fill='currentColor' >
+        <path d='M4.011 3.24l-.767.77L-.011.76l.767-.77zM.756 7.01l-.767-.77 3.255-3.25.767.77z'/>
+      </svg>
+    </i>
+    </a>
+
+    
+    
+    <div class='Dropdown js-expand__target' style='display: none'>
+      <ul class='o-nav o-nav--stacked h-childs-space-top---'>
+        
+        <li class='Nav__item '>
+          <a class='Nav__link h-inline' href='/section/inner-1-url'></a>
+        </li>
+        
+        <li class='Nav__item '>
+          <a class='Nav__link h-inline' href='/section/inner-2-url'></a>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+  </li>
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  <li
+    class='o-breadcrumb__item  h-relative js-expand__scope'
+    
+    property='itemListElement' typeof='ListItem'
+  >
+    <meta property='position' content='3'>
+
+    <a
+      class=' '
+      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
+      href='/section/inner-2-url'
+      property='item' typeof='WebPage'
+    >
+      <span property='name'>Inner 2 title</span>
+      
+    </a>
+
+    
+
+  </li>
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+
+  <li
+    class='o-breadcrumb__item  h-relative js-expand__scope'
+    
+    property='itemListElement' typeof='ListItem'
+  >
+    <meta property='position' content='4'>
+
+    <a
+      class=' '
+      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
+      href='/section/deep-inner-url'
+      property='item' typeof='WebPage'
+    >
+      <span property='name'>Deep inner title</span>
+      
+    </a>
+
+    
+
+  </li>
+
+  
+  
+
+</ol>
+
+    "
+`;
+
+exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb with excluded segment 1`] = `
+"
+      
+      
+      
+<ol class='o-breadcrumb' typeof='BreadcrumbList'>
+
+  <li class='o-breadcrumb__item o-breadcrumb__item--root' property='itemListElement' typeof='ListItem'>
+    <a class=' ' href='/' property='item' typeof='WebPage'>
+      <span property='name'>Home</span>
+    </a>
+    <meta property='position' content='1'>
+  </li>
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+    
+  
+    
+    
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  <li
+    class='o-breadcrumb__item  h-relative js-expand__scope'
+    
+    property='itemListElement' typeof='ListItem'
+  >
+    <meta property='position' content='2'>
+
+    <a
+      class=' '
+      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
+      href='/section/inner-2-url'
+      property='item' typeof='WebPage'
+    >
+      <span property='name'>Inner 2 title</span>
+      
+    </a>
+
+    
+
+  </li>
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+
+  <li
+    class='o-breadcrumb__item  h-relative js-expand__scope'
+    
+    property='itemListElement' typeof='ListItem'
+  >
+    <meta property='position' content='3'>
+
+    <a
+      class=' '
+      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
+      href='/section/deep-inner-url'
+      property='item' typeof='WebPage'
+    >
+      <span property='name'>Deep inner title</span>
+      
+    </a>
+
+    
+
+  </li>
+
+  
+  
+
+</ol>
+
+    "
+`;

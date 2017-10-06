@@ -116,10 +116,10 @@
 }
 
 // -----------------------------------------------------------------------------
-// Buttons size variants
+// Sizes
 // -----------------------------------------------------------------------------
 
-@mixin ekzo-buttons-sizes($postfix: '') {
+@mixin ekzo-buttons-sizes ($postfix: '') {
 
   .Btn-#{$postfix} {
     padding-top:    ekzo-em(ekzo-space(.5) / 3);
@@ -149,10 +149,6 @@
   }
 
 }
-
-// -----------------------------------------------------------------------------
-// Call modifiers
-// -----------------------------------------------------------------------------
 
 @include ekzo-for-each-breakpoint($matches: $ekzo-responsive-buttons-breakpoints, $include-self: true) {
   @include ekzo-buttons-sizes($postfix: ekzo-temp());

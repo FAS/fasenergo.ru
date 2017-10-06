@@ -1,8 +1,8 @@
 t = require('tcomb')
-{ refinements, validate } = require('../../tests/utils/tcomb')
+r = require('../../modules/refinements')
+validate = require('../../modules/validate')
 { file: { readYAML } } = require('grunt')
 
-r = refinements
 ENGINES = readYAML("#{__dirname}/engines.yml")
 
 module.exports = Engines = r.EqualKeyAndProp('slug') t.dict t.String, t.struct({

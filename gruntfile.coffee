@@ -67,9 +67,6 @@ module.exports = (grunt) ->
 
     # Specify files
     file:
-      source:
-        script: '<%= path.source.scripts %>/main.js'
-
       temp:
         data:
           matter: '<%= path.temp.data %>/matter.json'

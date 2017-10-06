@@ -1,8 +1,8 @@
 t = require('tcomb')
-{ refinements, validate } = require('../../tests/utils/tcomb')
+r = require('../../modules/refinements')
+validate = require('../../modules/validate')
 { file: { readYAML } } = require('grunt')
 
-r = refinements
 GENERATORS = readYAML "#{__dirname}/generators.yml"
 ENGINES = readYAML "#{__dirname}/engines.yml"
 

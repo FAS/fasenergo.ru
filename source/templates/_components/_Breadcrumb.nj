@@ -1,21 +1,22 @@
 {##
  # Display breadcrumb block based on provided data
  #
- # @param {string} [class]           = 'o-breadcrumb o-breadcrumb--rev'
- #                                          Class of list
- # @param {string} [itemsClass]      = 'o-breadcrumb__item'
- #                                          Class of list items
- # @param {string} [anchorsClass]    = ''   Class of anchors inside list itmes
- # @param {string} [rootItemClass]   = 'o-breadcrumb__item--root'
- #                                          Class of root (first) list item
- # @param {string} [rootAnchorClass] = ''   Class of anchor inside of root list item
- # @param {bool}   [displayLast]     = true Display last crumb or not
- # @param {array}  [breadcrumb]      = PAGE.breadcrumb
- #                                          Breadcrumb in form of array to iterate upon
- # @param {string} [rootTitle]       = getPage(['index']).props.breadcrumbTitle
- #                                          Title for root element
- # @param {object} [placeholders]    = PLACEHOLDERS
- #                                          Object with values for occuring in titles sprintf placeholders
+ # @param {string} [class='o-breadcrumb o-breadcrumb--rev']
+ #                                      Class of list
+ # @param {string} [itemsClass='o-breadcrumb__item']
+ #                                      Class of list items
+ # @param {string} [anchorsClass]       Class of anchors inside list itmes
+ # @param {string} [rootItemClass='o-breadcrumb__item--root']
+ #                                      Class of root (first) list item
+ # @param {string} [rootAnchorClass]    Class of anchor inside of root list item
+ # @param {string} [lastItemClass]      Class of last item
+ # @param {bool}   [displayLast=true]   Display last crumb or not
+ # @param {array}  [breadcrumb=PAGE.breadcrumb]
+ #                                      Breadcrumb in form of array to iterate upon
+ # @param {string} [rootTitle=getPage(['index']).props.breadcrumbTitle]
+ #                                      Title for root element
+ # @param {object} [placeholders=PLACEHOLDERS]
+ #                                      Object with values for occuring in titles sprintf placeholders
  #
  # @return {string} Generated `ul` with breadcrumb
  #
@@ -24,9 +25,10 @@
 {% macro Breadcrumb(
   class           = 'o-breadcrumb',
   itemsClass      = 'o-breadcrumb__item',
-  anchorsClass    = '',
+  anchorsClass,
   rootItemClass   = 'o-breadcrumb__item--root',
-  rootAnchorClass = '',
+  rootAnchorClass,
+  lastItemClass,
   displayLast     = true,
   breadcrumb      = PAGE.breadcrumb,
   rootTitle       = getPage(['index']).props.breadcrumbTitle,
@@ -41,61 +43,70 @@
     <meta property='position' content='1'>
   </li>
 
+  {% set depth = 1 %}
+  {% set currentCrumb = [] %}
+
   {% for crumb in breadcrumb %}
-    {% set currentCrumb = [crumb] if loop.index0 == 0 else currentCrumb|pushIn(crumb)  %}
-    {% set depth        = currentCrumb.length + 1 %}
-    {% set crumbPages   = getPage(currentCrumb) %}
-    {% set crumbProps   = crumbPages.props|format(placeholders) %}
-    {% set title        = crumbProps.breadcrumbTitle %}
-    {% set url          = crumbProps.url %}
+  {% set currentCrumb = currentCrumb|pushIn(crumb)  %}
+  {% set crumbPages   = getPage(currentCrumb) %}
+  {% set crumbProps   = crumbPages.props|format(placeholders) %}
+  {% set title        = crumbProps.breadcrumbTitle %}
+  {% set url          = crumbProps.url %}
 
-    {# @todo I think this can be done easier, maybe moved into page props on Kotsu level #}
-    {% set hasSubpages = false %}
-    {% set count = 0 %}
-    {% for slug, item in crumbPages %}
-      {% set count = count + 1 %}
-      {% set hasSubpages = true if item and count > 1 else false %}
-    {% endfor %}
+  {# @todo I think this can be done easier, maybe moved into page props on Kotsu level #}
+  {% set hasSubpages = false %}
+  {% set count = 0 %}
+  {% for slug, item in crumbPages %}
+    {% set count = count + 1 %}
+    {% set hasSubpages = true if item and count > 1 else false %}
+  {% endfor %}
 
-    {% if not loop.last %}
+  {% set showSubpages = (not loop.last or displayLast) and hasSubpages %}
 
-      <li class='{{ itemsClass }} h-relative js-expand__scope' property='itemListElement' typeof='ListItem'>
+  {% if not crumbProps.excludeFromBreadcrumb %}
+  {% set depth = depth + 1 %}
 
-        <a class='{{ anchorsClass }} {{ 'Expand-link-alt has-subnav js-expand' if hasSubpages }}' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true' href='{{ urljoin(localeDir(), url) }}' property='item' typeof='WebPage'>
-          <span property='name'>{{ title }}</span>
-          {{ Icon('dir-right', class = 'Expand-link-alt__icon') if hasSubpages }}
-        </a>
-        <meta property='position' content='{{ depth }}'>
+  <li
+    class='{{ itemsClass }} {{ lastItemClass if loop.last }} h-relative js-expand__scope'
+    {{ "style='display: none'" if loop.last and not displayLast }}
+    property='itemListElement' typeof='ListItem'
+  >
+    <meta property='position' content='{{ depth }}'>
 
-        {% if hasSubpages %}
-        {#
-         # @note Items will end up sorted differently from Nav components, since they
-         #       pulled directly from page matter, not Nav component. We can't
-         #       rely on Nav as source of this information, since it might not always
-         #       have internal items listed, while they might actually exist in site
-         #       structure. Also, Nav component can't provide information about whether
-         #       certain breadcrumb page actually have any pages, since it isn't an object,
-         #       but a generated HTML, and you can't check anything on it
-         #}
-        <div class='Dropdown js-expand__target' style='display: none'>
-          <ul class='o-nav o-nav--stacked h-childs-space-top---'>
-            {% for slug, item in crumbPages %}
-            <li class='Nav__item {{ 'is-active' if isActive(item.props.url) }}'>
-              <a class='Nav__link h-inline' href='{{ item.props.url }}'>{{ item.props.navTitle }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
+    <a
+      class='{{ anchorsClass }} {{ 'Expand-link-alt has-subnav js-expand' if showSubpages }}'
+      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
+      href='{{ urljoin(localeDir(), url) }}'
+      property='item' typeof='WebPage'
+    >
+      <span property='name'>{{ title }}</span>
+      {{ Icon('dir-right', class = 'Expand-link-alt__icon') if showSubpages }}
+    </a>
 
-      </li>
-
-    {% elif displayLast %}
-
-      <li class='{{ itemsClass }}'>{{ title }}</li>
-
+    {% if showSubpages %}
+    {#
+     # @note Items will end up sorted differently from Nav components, since they
+     #       pulled directly from page matter, not Nav component. We can't
+     #       rely on Nav as source of this information, since it might not always
+     #       have internal items listed, while they might actually exist in site
+     #       structure. Also, Nav component can't provide information about whether
+     #       certain breadcrumb page actually have any pages, since it isn't an object,
+     #       but a generated HTML, and you can't check anything on it
+     #}
+    <div class='Dropdown js-expand__target' style='display: none'>
+      <ul class='o-nav o-nav--stacked h-childs-space-top---'>
+        {% for slug, e in crumbPages %}
+        <li class='Nav__item {{ 'is-active' if isActive(e.props.url) }}'>
+          <a class='Nav__link h-inline' href='{{ e.props.url }}'>{{ e.props.navTitle }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
     {% endif %}
 
+  </li>
+
+  {% endif %}
   {% endfor %}
 
 </ol>

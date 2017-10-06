@@ -82,7 +82,6 @@ module.exports = () ->
   #       still takes a lot, but usually around 6 minutes. But, unfortunately, I wasn't
   #       able to pinpoint exact source of issue, since debugging is tricky.
   #       It might become more usable when https://github.com/giakki/uncss/issues/321 will be implemented
-  #
 
   # @config 'uncss',
   #   build:
@@ -108,9 +107,9 @@ module.exports = () ->
   #         /[-\.#](is|has|not)-/
   #       ]
   #       ignoreSheets : [
-  #         /^https.*/
-  #         /^http.*/
-  #         /^\/\/.*/
+  #         # Ignoring all remote CSS to avoid pulling into main styles unexpected CSS.
+  #         # It is recommended to whitelist needed external CSS explicitly instead.
+  #         /^(http(s)?|\/\/).*/
   #       ]
   #     files: [
   #       src: '<%= path.build.root %>/{,**/}*.html'
