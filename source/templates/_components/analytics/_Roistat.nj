@@ -1,0 +1,23 @@
+{##
+ # Invoke Mango call tracker
+ # Use selector `.js-track-call` on anchor with phone to track
+ # @return {string} `<script>` tag with Mango tracker code
+ # @example {{ MangoCalltracker(siteId = 'UA-XXXXX-X') }}
+ #}
+{% macro Roistat() %}
+<script>
+  (function(w, d, s, h, id) {
+    w.roistatProjectId = id;
+    w.roistatHost = h;
+
+    var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/" + id + "/init";
+
+    var js = d.createElement(s);
+    js.async = 1;
+    js.src = "https://" + h + u;
+
+    var js2 = d.getElementsByTagName(s)[0];
+    js2.parentNode.insertBefore(js, js2);
+  })(window, document, 'script', 'cloud.roistat.com', '573f52f7afc05309522d996ddeb6c37a');
+</script>
+{% endmacro %}
