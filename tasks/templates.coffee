@@ -71,6 +71,7 @@ module.exports = ({ config, file: { readJSON } }) ->
         removeEmptyAttributes: true
         removeScriptTypeAttributes: true
         removeStyleLinkTypeAttributes: true
+        minifyJS: true
       files: [
         expand: true
         cwd: '<%= path.build.root %>'
