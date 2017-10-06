@@ -58,16 +58,18 @@
   {{ warn('[Phone] undefined provided, while object with phone expected') }}
   {% endif %}
 
+  {% set showAdd = data.add and showAdd %}
+
   {% set rawPhone = '+' + data.country + data.city + data.tel[0] + data.tel[1] + data.tel[2] %}
   {% set macroCity = ('(' if not data.noParentheses) + data.city + (')' if not data.noParentheses) %}
   {% set macroCountry = '+' + data.country + '&nbsp;' if showCountry %}
   {% set macroPhone = macroCountry + macroCity + '&nbsp;' + data.tel[0] + '-' + data.tel[1] + '-' + data.tel[2] %}
-  {% set macroAdd = ('&nbsp;доб.&nbsp;' + data.add) if data.add and showAdd %}
+  {% set macroAdd = '&nbsp;доб.&nbsp;' + data.add%}
 
   {%- if plain -%}
-  {{ macroPhone }}{{ macroAdd }}
+  {{ macroPhone }}{{ macroAdd if showAdd }}
   {%- else -%}
-  <a href='tel:{{ rawPhone }}' class='{{ class }} js-track-call g-link--inherit h-text--nowrap'>{{ macroPhone }}<span class='{{ addClass }}'>{{ macroAdd }}</span></a>
+  <a href='tel:{{ rawPhone }}' class='{{ class }} js-track-call g-link--inherit h-text--nowrap'>{{ macroPhone }}</a>{% if showAdd %}<span class='{{ addClass }}'>{{ macroAdd }}</span>{% endif %}
   {%- endif -%}
 {%- endmacro -%}
 
