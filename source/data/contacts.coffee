@@ -27,7 +27,8 @@ module.exports = {
       { days: ['Сб' , 'Вс'], daysFull: ['суббота' , 'воскресенье'], nonWorking: true }
     ],
     phones: [
-      { country: '7', city: '800', tel: ['333', '79', '11'], add: null, noParentheses: true },
+      # @todo Remove `TEMP_hideInMainContact` whicn was added for Mango Calltracker later
+      { country: '7', city: '800', tel: ['333', '79', '11'], add: null, noParentheses: true, TEMP_hideInMainContact: true },
       { country: '7', city: '812', tel: ['318', '75', '75'], add: null }
     ],
     emails: [
