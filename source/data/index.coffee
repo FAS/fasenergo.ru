@@ -66,6 +66,8 @@ module.exports = ({ config, file: { readYAML } }) ->
         sec: 'tqrgxv'
         type: 'button'
         click: ''
+        # This can't be configurated, last number should always match id
+        selector: 'b24-web-form-popup-btn-12'
     ENV:
       production: config('env.production')
       staging: config('env.staging')

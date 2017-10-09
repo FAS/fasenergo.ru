@@ -83,6 +83,7 @@ Data = module.exports = t.struct({
       sec: t.String
       type: t.String
       click: t.maybe t.String
+      selector: t.String
     }, { name: 'Mailchimp' })
   ENV: t.struct
     production: t.maybe t.Boolean
