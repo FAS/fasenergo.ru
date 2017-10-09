@@ -58,7 +58,7 @@ description: Смесительные установки для производ
     <tr>
       <td>{{ e.title }}</td>
       <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты#order'>Запросить ТКП</a>
+      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
       </td>
     </tr>
     {% endfor %}
@@ -69,7 +69,7 @@ description: Смесительные установки для производ
     <tr>
       <td>{{ e.title }}</td>
       <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты#order'>Запросить ТКП</a>
+      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
       </td>
     </tr>
     {% endfor %}

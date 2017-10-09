@@ -122,7 +122,7 @@ description: Регуляторы давления газа GOK производ
       <td class='h-align--right'>{{ e.pressure }}</td>
       <td>{{ e.connection }}</td>
       <td class='h-align--right'>{{ e.weight }}</td>
-      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты#order'>Запросить ТКП</a>
+      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
       </td>
     </tr>
     {% endfor %}

@@ -141,7 +141,7 @@ description: Регуляторы давления газа ФАС произв�
       <td class='h-align--right'>{{ e.width }}</td>
       <td class='h-align--right'>{{ e.height }}</td>
       <td class='h-align--right'>{{ e.weight }}</td>
-      <td class='h-align--center'><a class='js-metrica-request-offer Btn' href='/контакты#order'>Запросить ТКП</a>
+      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
       </td>
     </tr>
     {% endfor %}

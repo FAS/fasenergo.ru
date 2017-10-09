@@ -65,6 +65,6 @@ description: Электронная топливораздаточная кол�
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap'>11 600 €</p>
   <p class='h-margin-bottom+'>Срок поставки: 4-8 недель</p>
-  <p><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты#order'>Запросить ТКП</a></p>
+  <p><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 </div>
 {% endblock %}

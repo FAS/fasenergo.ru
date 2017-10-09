@@ -63,6 +63,6 @@ description: Насосная установка для перекачки пр�
 
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap h-margin-bottom+'>392 000 рублей.</p>
-  <p><a class='js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++' href='/контакты#order'>Запросить ТКП</a></p>
+  <p><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 </div>
 {% endblock %}
