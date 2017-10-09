@@ -20,7 +20,13 @@
     lang: 'ru',
     sec: '{{ v.sec }}',
     type: '{{ v.type }}',
-    click: '{{ v.click }}'
+    click: '{{ v.click }}',
+    fields: {
+      values: {
+        // Custom Bitrix24 field `Источник запроса (ссылка)``
+        LEAD_UF_CRM_1507579850: '{{ urljoin(SITE.homepage, PAGE.url) }}'
+      }
+    }
   });
   {% endfor %}
 </script>
