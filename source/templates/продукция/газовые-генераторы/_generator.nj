@@ -111,7 +111,9 @@
             {% endif %}
 
             {% if not isDiscontinued %}
-            <a property='url' class='js-metrica-order Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps' href='/контакты#order'>Сделать заказ</a>
+            <link property='url' href='/контакты#order'>
+
+            <button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-order Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps'>Сделать заказ</button>
             <p class='h-margin-top-- h-margin-bottom0'>или <a class='js-metrica-ask-question' href='/контакты'>задать вопрос</a></p>
             {% endif %}
 
