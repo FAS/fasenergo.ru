@@ -6,6 +6,7 @@
 {% from '_components/_buttons.nj' import PDFButton with context %}
 {% from '_components/_formatters.nj' import Email, Skype, Phone, PowersList with context %}
 
+{% from '_components/_bitrixForms.nj' import BitrixFormsInit with context %}
 {% from '_components/_Blockquote.nj' import Blockquote with context %}
 {% from '_components/_Callback.nj' import Callback with context %}
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
@@ -157,6 +158,8 @@
   <script src='{{ urljoin('/', PATH.scripts, 'main.min.js' if ENV.build else 'main.js') }}'></script>
   {% endif %}
   {% endblock %}
+
+  {{ BitrixFormsInit() }}
 
   {{ GoogleAnalytics(siteId = SITE.googleAnalyticsId) if SITE.googleAnalyticsId }}
   {{ YandexMetrika(counterId = SITE.yandexMetrikaId) if SITE.yandexMetrikaId }}

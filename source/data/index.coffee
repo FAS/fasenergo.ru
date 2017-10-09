@@ -60,6 +60,12 @@ module.exports = ({ config, file: { readYAML } }) ->
       accountId: '61a2bb4e7123eaa6a8ead27d4',
       listsIds:
         subscribers: '0a6025db66'
+    BITRIX_FORMS:
+      orderBtn:
+        id: 12
+        sec: 'tqrgxv'
+        type: 'button'
+        click: ''
     ENV:
       production: config('env.production')
       staging: config('env.staging')
