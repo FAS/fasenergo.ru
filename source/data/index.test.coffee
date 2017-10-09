@@ -78,13 +78,13 @@ Data = module.exports = t.struct({
       accountId: t.String,
       listsIds: t.dict t.String, t.String
     }, { name: 'Mailchimp' })
-  MAILCHIMP: t.dict t.String t.struct({
+  BITRIX_FORMS: t.dict(t.String, t.struct({
       id: t.Number
       sec: t.String
       type: t.String
       click: t.maybe t.String
       selector: t.String
-    }, { name: 'Mailchimp' })
+    }, { name: 'Mailchimp' }))
   ENV: t.struct
     production: t.maybe t.Boolean
     staging: t.maybe t.Boolean
