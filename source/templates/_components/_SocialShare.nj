@@ -19,8 +19,8 @@
 
   <ul class='{{ listClass }} g-list0 h-inline-block h-childs-space-top0 h-text--em-'>
 
-    {% macro Item(tooltip, iconName, url, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
-      <li class='{{ itemClass }} Icon--right h-inline-block'>
+    {% macro Item(tooltip, iconName, url, class = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
+      <li class='{{ class }} Icon--right h-inline-block'>
         <a href='{{ url }}'
           class='{{ anchorClass }} h-border-bottom0 o-tooltip o-tooltip--top'
           data-tooltip='{{ tooltip }}'
@@ -33,11 +33,40 @@
 
     {% set pageFullUrl = urljoin(SITE.homepage, PAGE.url) %}
 
-    {{ Item('Поделиться Вконтакте', 'vk', 'https://vk.com/share.php?url=' + pageFullUrl + (('&image=' + urljoin(SITE.homepage, PAGE.image)) if PAGE.image)) }}
-    {{ Item('Поделиться в Facebook', 'facebook', 'https://www.facebook.com/sharer.php?u=' + pageFullUrl) }}
-    {{ Item('Поделиться в Twitter', 'twitter', 'https://twitter.com/intent/tweet?url=' + pageFullUrl + '&text=' + PAGE.contentTitle + '&via=' + _.trimStart(SOCIAL.twitter.handle, '@') + '&hashtags=fasenergo') }}
-    {{ Item('Поделиться в Google+', 'google-plus', 'https://plus.google.com/share?url=' + pageFullUrl) }}
-    {{ Item('Поделиться в LinkedIn', 'linkedin', 'https://www.linkedin.com/shareArticle?url=' + pageFullUrl + '&title=' + PAGE.contentTitle) }}
+    {{ Item(
+      tooltip = 'Поделиться Вконтакте',
+      iconName = 'vk',
+      url = 'https://vk.com/share.php?url=' + pageFullUrl + (('&image=' + urljoin(SITE.homepage, PAGE.image)) if PAGE.image),
+      class = 'js-metrica-share-vk'
+    ) }}
+
+    {{ Item(
+      tooltip = 'Поделиться в Facebook',
+      iconName = 'facebook',
+      url = 'https://www.facebook.com/sharer.php?u=' + pageFullUrl,
+      class = 'js-metrica-share-fb'
+    ) }}
+
+    {{ Item(
+      tooltip = 'Поделиться в Twitter',
+      iconName = 'twitter',
+      url = 'https://twitter.com/intent/tweet?url=' + pageFullUrl + '&text=' + PAGE.contentTitle + '&via=' + _.trimStart(SOCIAL.twitter.handle, '@') + '&hashtags=fasenergo',
+      class = 'js-metrica-share-tw'
+    ) }}
+
+    {{ Item(
+      tooltip = 'Поделиться в Google+',
+      iconName = 'google-plus',
+      url = 'https://plus.google.com/share?url=' + pageFullUrl,
+      class = 'js-metrica-share-g'
+    ) }}
+
+    {{ Item(
+      tooltip = 'Поделиться в LinkedIn',
+      iconName = 'linkedin',
+      url = 'https://www.linkedin.com/shareArticle?url=' + pageFullUrl + '&title=' + PAGE.contentTitle,
+      class = 'js-metrica-share-in'
+    ) }}
 
   </ul>
 
