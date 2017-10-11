@@ -37,35 +37,35 @@
       tooltip = 'Поделиться Вконтакте',
       iconName = 'vk',
       url = 'https://vk.com/share.php?url=' + pageFullUrl + (('&image=' + urljoin(SITE.homepage, PAGE.image)) if PAGE.image),
-      class = 'js-metrica-share-vk'
+      anchorClass = 'js-metrica-share-vk'
     ) }}
 
     {{ Item(
       tooltip = 'Поделиться в Facebook',
       iconName = 'facebook',
       url = 'https://www.facebook.com/sharer.php?u=' + pageFullUrl,
-      class = 'js-metrica-share-fb'
+      anchorClass = 'js-metrica-share-fb'
     ) }}
 
     {{ Item(
       tooltip = 'Поделиться в Twitter',
       iconName = 'twitter',
       url = 'https://twitter.com/intent/tweet?url=' + pageFullUrl + '&text=' + PAGE.contentTitle + '&via=' + _.trimStart(SOCIAL.twitter.handle, '@') + '&hashtags=fasenergo',
-      class = 'js-metrica-share-tw'
+      anchorClass = 'js-metrica-share-tw'
     ) }}
 
     {{ Item(
       tooltip = 'Поделиться в Google+',
       iconName = 'google-plus',
       url = 'https://plus.google.com/share?url=' + pageFullUrl,
-      class = 'js-metrica-share-g'
+      anchorClass = 'js-metrica-share-g'
     ) }}
 
     {{ Item(
       tooltip = 'Поделиться в LinkedIn',
       iconName = 'linkedin',
       url = 'https://www.linkedin.com/shareArticle?url=' + pageFullUrl + '&title=' + PAGE.contentTitle,
-      class = 'js-metrica-share-in'
+      anchorClass = 'js-metrica-share-in'
     ) }}
 
   </ul>
