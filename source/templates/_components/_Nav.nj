@@ -52,9 +52,8 @@
     {% call(depth) Item('/продукция/испарительно-смесительное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/насосно-компрессорное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/автономные-системы-газоснабжения', depth = depth) %}{% endcall %}
-    {% call(depth) Item('/продукция/контрольно-регуляторное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/топливораздаточное-оборудование', depth = depth) %}{% endcall %}
-    {% call(depth) Item('/продукция/контрольно-распределительные-пункты', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/газорегуляторное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/фильтры-арматура-задвижки', depth = depth) %}{% endcall %}
 
     <li class='Nav__item Nav__item--h2'>Другое</li>

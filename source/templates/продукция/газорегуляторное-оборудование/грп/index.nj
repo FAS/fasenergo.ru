@@ -1,0 +1,18 @@
+---
+title:           Газорегуляторные пункты
+contentTitle:    Газорегуляторные пункты
+navTitle:        Газорегуляторные пункты
+breadcrumbTitle: Газорегуляторные пункты
+
+description: Газорегуляторные пункты
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

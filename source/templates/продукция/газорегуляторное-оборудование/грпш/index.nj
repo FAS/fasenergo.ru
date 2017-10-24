@@ -1,0 +1,19 @@
+---
+title:           Газорегуляторные пункты шкафные (ГРПШ)
+contentTitle:    Газорегуляторные пункты шкафные (ГРПШ)
+navTitle:        Газорегуляторные пункты шкафные (ГРПШ)
+breadcrumbTitle: Газорегуляторные пункты шкафные (ГРПШ)
+
+description: Газорегуляторные пункты шкафные (шкафные пункты редуцирования газа, ГРПШ) производства «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

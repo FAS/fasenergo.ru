@@ -1,0 +1,135 @@
+---
+title:           Газорегуляторное оборудование
+contentTitle:    Газорегуляторное оборудование
+navTitle:        Газорегуляторное оборудование
+breadcrumbTitle: Газорегуляторное оборудование
+
+description: Газорегуляторное и редуцирующее оборудование «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<h2>Регуляторы давления</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'RegO',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/регуляторы-rego.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'GOK',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/регуляторы-gok.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/gok',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/регуляторы-фас.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/фас',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h2>Газорегуляторные пункты (ГРП)</h2>
+
+<p class='h-margin-bottom+'>Газорегуляторный пункт (или контрольно-распределительный пункт, КРП) применяется в системах автономного газоснабжения и предназначен для безопасной эксплуатации систем потребления сжижженного углеводородного газа (пропан/бутан и их смеси), отопительных систем.</p>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'ФАС ГРП',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грп.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грп/фас-грп',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС ГРП/N',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грп.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грп/фас-грп-n',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС ГРП/V',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грп.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грп/фас-грп-v',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС ГРП/S',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грп.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грп/фас-грп-s',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС ГРП/N/S',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грп.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грп/фас-грп-n-s',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h2>Газорегуляторные пункты шкафные (ГРПШ)</h2>
+
+<p>Шкафной пункт редуцирования газа предназначен для регуляции и понижения давления в магистрели.</p>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'ФАС ГРПШ/1',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грпш/фас-грпш-1.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грпш/фас-грпш-1',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС ГРПШ/2',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грпш/фас-грпш-2.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грпш/фас-грпш-2',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС ГРПШ/3',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грпш/фас-грпш-2.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грпш/фас-грпш-3',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС ГРПШ/4',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грпш/фас-грпш-2.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грпш/фас-грпш-4',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС ГРПШ/5',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/грпш/фас-грпш-2.jpg',
+    url = '/продукция/газорегуляторное-оборудование/грпш/фас-грпш-5',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+{% endblock %}
