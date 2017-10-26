@@ -31,6 +31,44 @@ showContentTitle:          false
   class='Shade t-quaternary h-padding-top+ h-bg--cover h-bg--center'
   style='background-image: url({{ urljoin('/', PATH.images, '/hero.jpg') }})'
 >
+
+  <form class='js-bitrix-form' method='POST' enctype='multipart/form-data' action='https://gastech.bitrix24.ru/pub/form/12/tqrgxv/?form_code=12&amp;sec=tqrgxv'>
+
+    <div>
+      <label for='LEAD_NAME' >Имя</label>
+      <input name='LEAD_NAME' type='text'>
+    </div>
+
+    <div>
+      <label for='LEAD_PHONE'>Телефон</label>
+      <input name='LEAD_PHONE' type='tel' placeholder='+7 (821) 111-11-11' required>
+    </div>
+
+    <div>
+      <label for='LEAD_EMAIL'>Адрес электронной почты</label>
+      <input name='LEAD_EMAIL' type='text' placeholder='my@example.com'>
+    </div>
+
+    <div>
+      <label for='LEAD_COMMENTS'>Комментарий</label>
+      <textarea name='LEAD_COMMENTS'></textarea>
+    </div>
+
+    <div>
+      <label>
+        <input type='checkbox' value='Y' checked required>
+        Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных».
+      </label>
+    </div>
+
+    <div>
+      <button type='submit'>Отправить</button>
+    </div>
+
+    <input name='LEAD_SOURCE_DESCRIPTION' type='hidden' value='{{ urljoin(SITE.homepage, PAGE.url) }}'>
+    <input name='from' type='hidden' value='https://gastech.bitrix24.ru/pub/form/12/tqrgxv/'>
+  </form>
+
   <div class='{{ pageContainerClass }}'>
     <div class='{{ pageContentClass }}'>
 

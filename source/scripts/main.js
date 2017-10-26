@@ -10,6 +10,7 @@ import './plugins/toggle-radio-group'
 import './plugins/expand'
 import './plugins/drawer'
 import './plugins/catalogFilter'
+import './plugins/bitrix-mail'
 import './plugins/mailchimp'
 import jump from './plugins/jump'
 
