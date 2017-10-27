@@ -42,12 +42,22 @@
 {##
  # Display phone number from contacts data
  #
- # @param {pbject} data                 Complex object with phone data. See source/data/contacts.coffee
- # @param {string} [class]              CSS class for anchor
- # @param {string} [addClass]           CSS class for span with 'доб. ' part
- # @param {bool}   [showCountry = true] Should + with country code be shown
- # @param {bool}   [showAdd = true]     Should 'доб. ' part be shown (if add info exists)
- # @param {bool}   [plain]              Should number be displayed in plain format
+ # @param {object}   data                 Complex object with phone data. @see source/data/contacts.coffee
+ # @param {string}   data.country         Country code
+ # @param {string}   data.city            City code
+ # @param {string[]} data.tel             Phone number in form of ['xxx', 'xx', 'xx']
+ # @param {string}   [data.add]           Add code
+ # @param {boolean}  [data.noParentheses] Should city code be wrapped in parentheses
+ # @param {boolean}  [data.track]         Should phone number be replaced and tracked with Mango Call Tracker
+ # @param {boolean}  [data.TEMP_hideInMainContact]
+ #                                        Should phone number be hidden in main Contact component
+ #                                        Created to avoid issue with two similar number when they both
+ #                                        replaced by Mango Call Tracker
+ # @param {string}   [class]              CSS class for anchor
+ # @param {string}   [addClass]           CSS class for span with 'доб. ' part
+ # @param {boolean}  [showCountry = true] Should + with country code be shown
+ # @param {boolean}  [showAdd = true]     Should 'доб. ' part be shown (if add info exists)
+ # @param {boolean}  [plain]              Should number be displayed in plain format
  #
  # @return {string} Phone number inside anchor
  #
@@ -69,7 +79,7 @@
   {%- if plain -%}
   {{ macroPhone }}{{ macroAdd if showAdd }}
   {%- else -%}
-  <a href='tel:{{ rawPhone }}' class='{{ class }} js-track-call g-link--inherit h-text--nowrap'>{{ macroPhone }}</a>{% if showAdd %}<span class='{{ addClass }}'>{{ macroAdd }}</span>{% endif %}
+  <a href='tel:{{ rawPhone }}' class='{{ class }} {{ 'js-track-call' if data.track }} g-link--inherit h-text--nowrap'>{{ macroPhone }}</a>{% if showAdd %}<span class='{{ addClass }}'>{{ macroAdd }}</span>{% endif %}
   {%- endif -%}
 {%- endmacro -%}
 
