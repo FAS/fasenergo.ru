@@ -28,8 +28,8 @@ module.exports = {
     ],
     phones: [
       # @todo Remove `TEMP_hideInMainContact` whicn was added for Mango Calltracker later
-      { country: '7', city: '800', tel: ['333', '79', '11'], add: null, noParentheses: true, TEMP_hideInMainContact: true },
-      { country: '7', city: '812', tel: ['318', '75', '75'], add: null }
+      { country: '7', city: '800', tel: ['333', '79', '11'], add: null, noParentheses: true, track: true, TEMP_hideInMainContact: true },
+      { country: '7', city: '812', tel: ['318', '75', '75'], add: null, track: true }
     ],
     emails: [
       { value: ['info', 'fasenergo.ru'] }
@@ -44,7 +44,7 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: '510' },
+        { country: '7', city: '812', tel: ['318', '75', '75'], add: '510', track: true },
       ],
       emails: [{ value: ['sale', 'fasenergo.ru'] }],
       skypes: null
@@ -56,7 +56,7 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: '540' },
+        { country: '7', city: '812', tel: ['318', '75', '75'], add: '540', track: true },
       ],
       emails: [{ value: ['support', 'fasenergo.ru'] }],
       skypes: false
@@ -68,7 +68,7 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'] }
+        { country: '7', city: '812', tel: ['318', '75', '75'], track: true }
       ],
       emails: [{ value: ['industrial', 'fasenergo.ru'] }],
       skypes: false
@@ -80,7 +80,7 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: '511' }
+        { country: '7', city: '812', tel: ['318', '75', '75'], add: '511', track: true }
       ],
       emails: [{ value: ['dealer', 'fasenergo.ru'] }],
       skypes: false
@@ -93,7 +93,7 @@ module.exports = {
     #   address: null,
     #   worktime: null,
     #   phones: [
-    #     { country: '7', city: '812', tel: ['318', '75', '75'], add: '512' }
+    #     { country: '7', city: '812', tel: ['318', '75', '75'], add: '512', track: true }
     #   ],
     #   emails: [{ value: ['snn', 'fasenergo.ru'] }],
     #   skypes: [{ value: 'snn.fasenergo' }]
@@ -116,7 +116,7 @@ module.exports = {
         }
       ],
       worktime: null,
-      phones: [{ country: '7', city: '988', tel: ['602', '47', '27'], add: null }],
+      phones: [{ country: '7', city: '988', tel: ['602', '47', '27'], add: null, track: false }],
       emails: [{ value: ['gpu', 'kes-group.com'] }]
     }
 
