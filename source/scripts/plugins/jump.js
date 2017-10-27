@@ -9,8 +9,11 @@ import jump from 'jump.js'
  * @return {void}
  */
 const jumpSafely = (target) => {
-  if (!target) return
-  if ((typeof target === 'string' && !document.querySelectorAll(target)[0]) || target instanceof Element) return
+  target = target && typeof target === 'string'
+    ? document.querySelector(target)
+    : target
+
+  if (!(target instanceof Element)) return
 
   jump(target)
 }
