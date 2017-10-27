@@ -66,6 +66,7 @@
     {% call(depth) Item('/продукция/сертификаты-на-оборудование', depth = depth) %}{% endcall %}
     {% endif %} #}
   {% endcall %}
+
   {% call(depth) Item('/решения') %}
     {% call(depth) Item('/решения', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
@@ -87,6 +88,7 @@
     {% call(depth) Item('/решения/отраслевые/лесной-комплекс', depth = depth) %}{% endcall %}
     {% call(depth) Item('/решения/отраслевые/экологические-программы', depth = depth) %}{% endcall %}
   {% endcall %}
+
   {% call(depth) Item('/услуги') %}
     {% call(depth) Item('/услуги', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
@@ -97,21 +99,10 @@
     {% call(depth) Item('/услуги/проекты-под-ключ') %}{% endcall %}
     {% call(depth) Item('/услуги/установка-и-запуск', depth = depth) %}{% endcall %}
   {% endcall %}
+
   {% call(depth) Item('/дилерам') %}{% endcall %}
 
-  {#
-   # Secondary items. Have smaller font-size
-   # ---------------------------------------
-   # @todo This have to be changed when transfered to Craft CMS.
-   #       Kotsu for now doesn't have good way to support multiple
-   #       lists in Nav component. Additional Nav component for
-   #       secondary items isn't an options, since for now Nav is the
-   #       only source of navigational items for subnav of Breadcrumb. Sadly.
-   #}
-
-  {% set secondaryClass = anchorsClass + ' h-text-' %}
-
-  {% call(depth) Item('/о-компании', anchorClass = secondaryClass) %}
+  {% call(depth) Item('/о-компании') %}
     {% call(depth) Item('/о-компании', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
     {% call(depth) Item('/о-компании/фасэнергомаш', depth = depth) %}{% endcall %}
@@ -125,13 +116,16 @@
     {% call(depth) Item('/о-компании/новости', depth = depth) %}{% endcall %}
     {% call(depth) Item('/о-компании/журнал', depth = depth) %}{% endcall %}
   {% endcall %}
-  {% call(depth) Item('/контакты', anchorClass = secondaryClass) %}{% endcall %}
+
+  {% call(depth) Item('/контакты') %}{% endcall %}
+
   {# @todo Enable for production when this section will be ready #}
   {# {% if ENV.staging or not ENV.production %}
-  {% call(depth) Item('/преимущества-и-особенности-газовых-генераторов', anchorClass = secondaryClass) %}{% endcall %}
+  {% call(depth) Item('/преимущества-и-особенности-газовых-генераторов') %}{% endcall %}
   {% endif %} #}
+
   {% if ENV.staging or not ENV.production %}
-  {% call(depth) Item('/styleguide', anchorClass = secondaryClass) %}
+  {% call(depth) Item('/styleguide') %}
     {% call(depth) Item('/styleguide', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
     {% call(depth) Item('/styleguide/pallete', depth = depth) %}{% endcall %}
