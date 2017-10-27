@@ -4,9 +4,9 @@
  # @param {object} data          Complex object with information about specific contact.
  # @param {string} [class]       Class for main wrapper
  #                               See contacts data for example
- # @param {bool}   [lead]        Is current component leading. Affects some sizes
+ # @param {boolean} [lead]       Is current component leading. Affects some sizes
  #                               and displayed elements
- # @param {bool}   [expandable]  Should it render expandable
+ # @param {boolean} [expandable] Should it render expandable
  #}
 {% macro Contact(data, class, lead, expandable) %}
 <article class='{{ 'h-margin-bottom+' if expandable }} {{ class }} js-expand__scope'>
