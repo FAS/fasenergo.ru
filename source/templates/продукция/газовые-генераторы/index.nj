@@ -26,76 +26,26 @@ description: Продажа газовых электрогенераторов 
 
 <div id='js-catalog' class='Box'>
   {% for g in generators %}
-  {% set url = PAGE.props.url + '/' + g.slug %}
-  {% set photoUrl = '/' + PATH.images + '/' + getGeneratorMainPhoto(g).url or '/' + PATH.images + '/no-photo.png' %}
-  {% set maxPower = getGeneratorHighestPower(g) %}
   {% set engine = selectEngine(ENGINES, g.engine) %}
   {% set engineCooling = engine.cooling %}
-  {% set phases = g.specs.phases %}
-  {% set warrantyFromInstallation = g.warranty.installation  %}
-  {% set warrantyServiceLife = g.warranty.serviceLife %}
-  {% set price = getGeneratorCurrentPrice(g) %}
 
-  {% set gData = {
-    power: maxPower,
-    price: price,
-    engineBrand: engine.manufacturer.brand,
-    mode: engineCooling == 'air' and 'резервный' or 'основной',
-    noise: g.enclosure.noise,
-    phases: phases
-  } %}
-
-  <article class='js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides' data-product='{{ gData|dump }}'>
-    <div class=' o-grid h-childs-displace+'>
-
-      <div class='o-grid__item h-2/7'>
-        <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photoUrl }}' alt='{{ g.title|striptags }}'></a>
-      </div>
-
-      <div class='o-grid__item h-3/7'>
-        <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ g.model }}</a></h2>
-        <p>
-          Мощность: <strong>{{ maxPower }} кВт</strong><br>
-          Фазы: {{ phases }}<br>
-          Охлаждение: {{ coolingToWord(engineCooling) }}<br>
-          Двигатель: {{ getEngineTitle(engine) }}
-        </p>
-      </div>
-
-      <div class='o-grid__item h-2/7'>
-
-        {% if price %}
-        {# @todo Temporary fix for numbro issue with lack of space before RUB #}
-        <p class='h-h5'>{{
-          _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей']))
-        }}</p>
-        {% endif %}
-
-        {% if g.equipment.list %}
-        {% call DropShower(label = 'Что входит в цену', class = 'h-margin-bottom h-text- h-opacity50') %}
-          <ul class='h-childs-space-top0'>
-            {{ g.equipment.list }}
-          </ul>
-        {% endcall %}
-        {% endif %}
-
-        {% if warrantyFromInstallation or warrantyServiceLife %}
-        <p class='h-text-'>
-          Гарантия:
-          {% if warrantyFromInstallation %}
-          {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }}
-          {%- if warrantyServiceLife %},<br>{% endif %}
-          {% endif %}
-          {% if warrantyServiceLife %}
-          {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}
-          {% endif %}
-        </p>
-        {% endif %}
-
-      </div>
-
-    </div>
-  </article>
+  {{ ProductCard(
+    url = urljoin(PAGE.url, '/', g.slug),
+    photo = urljoin('/', PATH.images, getGeneratorMainPhoto(g).url),
+    title = g.title,
+    model = g.model,
+    power = getGeneratorHighestPower(g),
+    price = getGeneratorCurrentPrice(g),
+    engineTitle = getEngineTitle(engine),
+    engineBrand = engine.manufacturer.brand,
+    engineCooling = coolingToWord(engineCooling),
+    mode = engineCooling == 'air' and 'резервный' or 'основной',
+    noise = g.enclosure.noise,
+    phases = g.specs.phases,
+    equipment = g.equipment.list,
+    warrantyFromInstallation = g.warranty.installation,
+    warrantyServiceLife = g.warranty.serviceLife
+  ) }}
   {% endfor %}
 </div>
 

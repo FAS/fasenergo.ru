@@ -1,58 +1,119 @@
 {##
  # Display product card
- # For now it displays very limited set of data, be ware
  #
- # @param {string} url             Url to product
- # @param {string} [image] = urljoin('/', PATH.images, '/no-photo.png')
- #                                 Product image
- # @param {string} model           Product model name
- # @param {array}  [powers]        List of product powers (ng, lpg)
- # @param {string} [engineCooling] Engine cooling type
+ # @param {string} url                        Root-relative URL to product
+ # @param {string} [photo]                    Root-relative URL to product image
+ # @param {string} title                      Product title
+ # @param {string} model                      Product model
+ # @param {number} power                      Product max power
+ # @param {number} [price]                    Product current price
+ # @param {string} engineTitle                Product's engine title
+ # @param {string} engineBrand                Product's engine brand
+ # @param {string} engineCooling              Product's engine cooling type
+ # @param {string} mode                       Product working mode
+ # @param {number} noise                      Product noise level
+ # @param {number} phases                     Product phases
+ # @param {string} [equipment]                Product's equipment
+ # @param {number} [warrantyFromInstallation] Product warranty from installation
+ # @param {number} [warrantyServiceLife]      Product warranty service life
  #
  # @return {string} HTML
  #
  # @example
- #   {% for g in randomGens %}
  #   {{ ProductCard(
- #     url = '/test',
- #     image = '/test.png',
- #     model = 'Best 2000',
- #     powers = [10, 12],
- #     engineCooling = 'liquid'
+ #     url = urljoin(PAGE.url, '/', g.slug),
+ #     photo = urljoin('/', PATH.images, getGeneratorMainPhoto(g).url),
+ #     title = g.title,
+ #     model = g.model,
+ #     power = getGeneratorHighestPower(g),
+ #     price = getGeneratorCurrentPrice(g),
+ #     engineTitle = getEngineTitle(engine),
+ #     engineBrand = engine.manufacturer.brand,
+ #     engineCooling = engineCooling,
+ #     mode = engineCooling == 'air' and 'резервный' or 'основной',
+ #     noise = g.enclosure.noise,
+ #     phases = g.specs.phases,
+ #     equipment = g.equipment.list,
+ #     warrantyFromInstallation = g.warranty.installation,
+ #     warrantyServiceLife = g.warranty.serviceLife
  #   ) }}
- #   {% endfor %}
  #}
 {% macro ProductCard(
   url,
-  image = urljoin('/', PATH.images, '/no-photo.png'),
+  photo = urljoin('/', PATH.images, '/no-photo.png'),
+  title,
   model,
-  powers,
-  engineCooling
+  power,
+  price,
+  engineTitle,
+  engineBrand,
+  engineCooling,
+  mode,
+  noise,
+  phases,
+  equipment,
+  warrantyFromInstallation,
+  warrantyServiceLife
 ) %}
-<article class='o-grid__item h-1/3 h-margin-bottom+'>
+<article
+  class='js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{{ {
+    power: power,
+    price: price,
+    engineBrand: engineBrand,
+    mode: mode,
+    noise: noise,
+    phases: phases
+  }|dump }}'
+>
+  <div class=' o-grid h-childs-displace+'>
 
-  <a class='h-block h-border-bottom0 h-align--center' href='{{ url }}'>
-    <img src='{{ image }}' alt='{{ model }}' width='190'>
-  </a>
+    <div class='o-grid__item h-2/7'>
+      <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photo }}' alt='{{ title|striptags }}'></a>
+    </div>
 
-  <p><a class='h-h5' href='{{ url }}'>{{ model }}</a></p>
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ model }}</a></h2>
+      <p>
+        Мощность: <strong>{{ power }} кВт</strong><br>
+        Фазы: {{ phases }}<br>
+        Охлаждение: {{ engineCooling }}<br>
+        Двигатель: {{ engineTitle }}
+      </p>
+    </div>
 
-  <table class='Table h-table--fixed h-cells-padding-- h-margin-bottom'>
-    {% if engineCooling %}
-      <tr>
-        <th class='h-text--'>Охлаждение</th>
-        <td>{{ coolingToWord(engineCooling)|capitalize }}</td>
-      </tr>
-    {% endif %}
-    {% if powers %}
-      <tr>
-        <th class='h-text--'>Мощность</th>
-        <td>{{ PowersList(powers) }} <span class='h-text--'>кВт</span></td>
-      </tr>
-    {% endif %}
-  </table>
+    <div class='o-grid__item h-2/7'>
 
-  <a href='{{ url }}' class='Btn Btn-'>Подробнее</a>
+      {% if price %}
+      {# @todo Temporary fix for numbro issue with lack of space before RUB #}
+      <p class='h-h5'>{{
+        _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей']))
+      }}</p>
+      {% endif %}
 
+      {% if equipment %}
+      {% call DropShower(label = 'Что входит в цену', class = 'h-margin-bottom h-text- h-opacity50') %}
+        <ul class='h-childs-space-top0'>
+          {{ equipment }}
+        </ul>
+      {% endcall %}
+      {% endif %}
+
+      {% if warrantyFromInstallation or warrantyServiceLife %}
+      <p class='h-text-'>
+        Гарантия:
+        {% if warrantyFromInstallation %}
+        {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }}
+        {%- if warrantyServiceLife %},<br>{% endif %}
+        {% endif %}
+        {% if warrantyServiceLife %}
+        {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}
+        {% endif %}
+      </p>
+      {% endif %}
+
+    </div>
+
+  </div>
 </article>
 {% endmacro %}
