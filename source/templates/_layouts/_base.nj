@@ -20,6 +20,7 @@
 {% from '_components/_PostPreview.nj' import PostPreview with context %}
 {% from '_components/_Posts.nj' import Posts with context %}
 {% from '_components/_ProductCard.nj' import ProductCard with context %}
+{% from '_components/_ProductCardVert.nj' import ProductCardVert with context %}
 {% from '_components/_PromoPreview.nj' import PromoPreview with context %}
 {% from '_components/_Promos.nj' import Promos with context %}
 {% from '_components/_SocialShare.nj' import SocialShare with context %}

@@ -302,7 +302,7 @@
      #       However we have to account for situation when someone will forget to add trailing slash.
      #       Also, `url-joiner()` might fix that issue.
      #}
-    {{ ProductCard(
+    {{ ProductCardVert(
       url = '/продукция/газовые-генераторы/' + g.slug,
       image = '/' + PATH.images + '/' + getGeneratorMainPhoto(g).url,
       model = g.model,

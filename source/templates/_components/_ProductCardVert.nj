@@ -1,0 +1,57 @@
+{##
+ # Display vertical product card with limited set of data
+ #
+ # @param {string} url             Url to product
+ # @param {string} [image] = urljoin('/', PATH.images, '/no-photo.png')
+ #                                 Product image
+ # @param {string} model           Product model name
+ # @param {array}  [powers]        List of product powers (ng, lpg)
+ # @param {string} [engineCooling] Engine cooling type
+ #
+ # @return {string} HTML
+ #
+ # @example
+ #   {% for g in randomGens %}
+ #   {{ ProductCardVert(
+ #     url = '/test',
+ #     image = '/test.png',
+ #     model = 'Best 2000',
+ #     powers = [10, 12],
+ #     engineCooling = 'liquid'
+ #   ) }}
+ #   {% endfor %}
+ #}
+{% macro ProductCardVert(
+  url,
+  image = urljoin('/', PATH.images, '/no-photo.png'),
+  model,
+  powers,
+  engineCooling
+) %}
+<article class='o-grid__item h-1/3 h-margin-bottom+'>
+
+  <a class='h-block h-border-bottom0 h-align--center' href='{{ url }}'>
+    <img src='{{ image }}' alt='{{ model }}' width='190'>
+  </a>
+
+  <p><a class='h-h5' href='{{ url }}'>{{ model }}</a></p>
+
+  <table class='Table h-table--fixed h-cells-padding-- h-margin-bottom'>
+    {% if engineCooling %}
+      <tr>
+        <th class='h-text--'>Охлаждение</th>
+        <td>{{ coolingToWord(engineCooling)|capitalize }}</td>
+      </tr>
+    {% endif %}
+    {% if powers %}
+      <tr>
+        <th class='h-text--'>Мощность</th>
+        <td>{{ PowersList(powers) }} <span class='h-text--'>кВт</span></td>
+      </tr>
+    {% endif %}
+  </table>
+
+  <a href='{{ url }}' class='Btn Btn-'>Подробнее</a>
+
+</article>
+{% endmacro %}
