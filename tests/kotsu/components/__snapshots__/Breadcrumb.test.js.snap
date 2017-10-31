@@ -4,7 +4,6 @@ exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb 1`] 
 "
       
       
-      
 <ol class='o-breadcrumb' typeof='BreadcrumbList'>
 
   <li class='o-breadcrumb__item o-breadcrumb__item--root' property='itemListElement' typeof='ListItem'>
@@ -172,7 +171,6 @@ exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb 1`] 
 
 exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb with excluded segment 1`] = `
 "
-      
       
       
 <ol class='o-breadcrumb' typeof='BreadcrumbList'>

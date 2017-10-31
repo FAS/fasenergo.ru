@@ -38,7 +38,6 @@ describe('Nunjucks component `Breadcrumb()`', () => {
     }
 
     expect(render(`
-      {% from '_components/_Icon.nj' import Icon with context %}
       {% from '_components/_Breadcrumb.nj' import Breadcrumb with context %}
       {{ Breadcrumb() }}
     `, testContext)).toMatchSnapshot()
@@ -65,7 +64,6 @@ describe('Nunjucks component `Breadcrumb()`', () => {
     }
 
     expect(render(`
-      {% from '_components/_Icon.nj' import Icon with context %}
       {% from '_components/_Breadcrumb.nj' import Breadcrumb with context %}
       {{ Breadcrumb() }}
     `, testContext)).toMatchSnapshot()
