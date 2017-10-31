@@ -10,6 +10,7 @@ description: Испарительно-смесительные установк�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
 {% set pageEqElPhotos = [
   { url: 'equipment/испарительно-смесительное-оборудование/ISU-SE-ND-K/Испартельно-смесительная-установка-ФАС-ISU-SE-ND-K--1--front.jpg' },

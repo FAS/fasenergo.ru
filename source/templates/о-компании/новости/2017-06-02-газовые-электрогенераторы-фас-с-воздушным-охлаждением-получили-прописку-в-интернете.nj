@@ -16,6 +16,8 @@ date: 2017-06-02T12:27:00
 {% extends './_entry.nj' %}
 
 {% block post %}
+{% from '_components/_Image.nj' import Image with context %}
+
 {{ Image(
   src = '/' + PATH.images + '/news/2017-06-02-газовые-электрогенераторы-фас-с-воздушным-охлаждением-получили-прописку-в-интернете/MacBook-demo-loncin-promo-1-0-0.png',
   alt = 'Обновленный сайт «Фасэнергомаш»'

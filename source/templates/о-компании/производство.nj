@@ -10,6 +10,8 @@ description: Производство компании «Фасэнергома�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Images.nj' import Images with context %}
+
 {% set pagePhone = Phone(CONTACTS.departments.sales.phones[0]) %}
 
 <h2>Структура производственного комплекса</h2>

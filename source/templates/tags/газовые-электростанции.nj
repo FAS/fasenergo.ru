@@ -10,6 +10,8 @@ description: Стоимость газовых электростанций ФА
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_TagCTA.nj' import TagCTA with context %}
+
 {% set pageE = CONTACTS.departments.sales %}
 {% set pagePhone = Phone(pageE.phones[0]) %}
 

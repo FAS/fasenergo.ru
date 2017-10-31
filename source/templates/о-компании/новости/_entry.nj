@@ -7,6 +7,11 @@
 }) }}
 
 {% block main %}
+{% from '_components/_Posts.nj' import Posts with context %}
+{% from '_components/_SocialShare.nj' import SocialShare with context %}
+{% from '_components/_Posts.nj' import Posts with context %}
+{% from '_components/_SubscribeForm.nj' import SubscribeForm with context %}
+
 <div typeof='NewsArticle' class='s-post'>
   <meta property='headline' content='{{ PAGE.contentTitle }}'>
   <meta property='description' content='{{ PAGE.excerpt|striptags }}'>

@@ -13,6 +13,7 @@ applyWrapperContent: false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Example.nj' import Example with context %}
 
 {% call Example(title = 'Кнопки') -%}
 <p>
@@ -47,14 +48,18 @@ applyWrapperContent: false
 {% endcall %}
 
 {% call Example(title = 'Цитата') -%}
-{% raw %}{% call Blockquote() %}
+{% raw %}{% from '_components/_Blockquote.nj' import Blockquote with context %}
+
+{% call Blockquote() %}
   <p>Содержимое цитаты, в том числе с <b>любыми</b> <i>html</i> тэгами.</p>
   <p><strong>Тщательный подбор и тестирование комплектующих</strong> российского и импортного производства позволил отказаться от зачастую неоправданно дорогих брендов в пользу более экономичных вариантов, обладающих сходными характеристиками. Это существенно снизило себестоимость производства без снижения качества.</p>
 {% endcall %}{% endraw %}
 {% endcall %}
 
 {% call Example(title = 'Иллюстрация') -%}
-{% raw %}{{ Image(
+{% raw %}{% from '_components/_Image.nj' import Image with context %}
+
+{{ Image(
   src = 'https://placehold.it/1350x550',
   caption = 'Тестирование двигателей на производстве',
   alt = 'Описание картинки',
@@ -63,7 +68,9 @@ applyWrapperContent: false
 {% endcall %}
 
 {% call Example(title = 'Расположение иллюстраций') -%}
-{% raw %}{{ Image(
+{% raw %}{% from '_components/_Image.nj' import Image with context %}
+
+{{ Image(
   src = 'https://placehold.it/250x150',
   caption = 'Подпись картинки',
   alt = 'Описание картинки',
@@ -72,7 +79,9 @@ applyWrapperContent: false
 
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
-{% raw %}{{ Image(
+{% raw %}{% from '_components/_Image.nj' import Image with context %}
+
+{{ Image(
   src = 'https://placehold.it/250x150',
   alt = 'Описание картинки',
   position = 'right'
@@ -82,7 +91,9 @@ applyWrapperContent: false
 {% endcall %}
 
 {% call Example(title = 'Набор иллюстраций') -%}
-{% raw %}{{ Images(
+{% raw %}{% from '_components/_Images.nj' import Images with context %}
+
+{{ Images(
   images = [{
     src: 'https://placehold.it/1350x700',
     alt: 'Описание картинки'
@@ -98,7 +109,9 @@ applyWrapperContent: false
 {% endcall %}
 
 {% call Example(title = 'Разворачиваемый блок') -%}
-{% raw %}<div class='js-expand__scope'>
+{% raw %}{% from '_components/_Icon.nj' import Icon with context %}
+
+<div class='js-expand__scope'>
   <button class='Btn js-expand' data-expand-scope='.js-expand__scope'>Нажми меня</button>
   <p class='js-expand__target' style='display: none'>Содержимое</p>
 </div>
@@ -134,17 +147,23 @@ applyWrapperContent: false
 {% endcall %}
 
 {% call Example(title = 'Социальные ссылки') -%}
-{% raw %}{{ SocialUrls() }}
+{% raw %}{% from '_components/_SocialUrls.nj' import SocialUrls with context %}
+
+{{ SocialUrls() }}
 <hr>
 {{ SocialUrls(asIcons = false) }}{% endraw %}
 {% endcall %}
 
 {% call Example(title = 'Социальный шеринг') -%}
-{% raw %}{{ SocialShare() }}{% endraw %}
+{% raw %}{% from '_components/_SocialShare.nj' import SocialShare with context %}
+
+{{ SocialShare() }}{% endraw %}
 {% endcall %}
 
 {% call Example(title = 'Превью новости') -%}
-{% raw %}{{ PostPreview(
+{% raw %}{% from '_components/_PostPreview.nj' import PostPreview with context %}
+
+{{ PostPreview(
   title = 'Очень очень длинный и странный заголовок новости написан здесь',
   excerpt = 'Описание новости',
   date = '2017-04-25T11:00:00',
@@ -160,7 +179,9 @@ applyWrapperContent: false
 {% endcall %}
 
 {% call Example(title = 'Превью акции') -%}
-{% raw %}{{ PromoPreview(
+{% raw %}{% from '_components/_PromoPreview.nj' import PromoPreview with context %}
+
+{{ PromoPreview(
   title = 'Очень очень длинный и странный заголовок акции написан здесь',
   excerpt = 'Описание акции',
   date = '2017-04-25T11:00:00',
@@ -176,15 +197,21 @@ applyWrapperContent: false
 {% endcall %}
 
 {% call Example(title = 'Новости') -%}
-{% raw %}{{ Posts() }}{% endraw %}
+{% raw %}{% from '_components/_Posts.nj' import Posts with context %}
+
+{{ Posts() }}{% endraw %}
 {% endcall %}
 
 {% call Example(title = 'Акции') -%}
-{% raw %}{{ Promos(displayInactivePromos = true) }}{% endraw %}
+{% raw %}{% from '_components/_Promos.nj' import Promos with context %}
+
+{{ Promos(displayInactivePromos = true) }}{% endraw %}
 {% endcall %}
 
 {% call Example(title = 'Чекбоксы') -%}
-{% raw %}<div class='h-childs-space-left--'>
+{% raw %}{% from '_components/_Checkbox.nj' import Checkbox with context %}
+
+<div class='h-childs-space-left--'>
   {{ Checkbox(
     id = 'filterEngineBrandLoncin',
     name = 'engineBrand',
@@ -206,6 +233,8 @@ applyWrapperContent: false
 {% call Example(title = 'Сортеры') -%}
 {% raw %}{# Note that order switch won't work without JavaScript #}
 
+{% from '_components/_Sorter.nj' import Sorter with context %}
+
 <div class='h-childs-space-left--'>
   {{ Sorter(
     id = 'sortByPower',
@@ -223,8 +252,12 @@ applyWrapperContent: false
 </div>{% endraw %}
 {% endcall %}
 
+
+
 {% call Example(title = 'Форма') -%}
-{% raw %}<form class='o-grid h-childs-displace'>
+{% raw %}{% from '_components/_Field.nj' import Field with context %}
+
+<form class='o-grid h-childs-displace'>
 
   <h4 class='o-grid__item h-1/1 h-margin-top0'>Input</h4>
 

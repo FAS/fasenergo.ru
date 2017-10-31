@@ -1,3 +1,5 @@
+{% from '_components/_PostPreview.nj' import PostPreview with context %}
+
 {##
  # Display news post preview based on content of '/о-компании/новости' directory
  #

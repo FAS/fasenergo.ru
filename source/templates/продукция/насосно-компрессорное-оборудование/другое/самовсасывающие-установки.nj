@@ -10,6 +10,9 @@ description: Самовсасывающие установки с насосом
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_DropShower.nj' import DropShower with context %}
+
 <p>Комплектная самовсасывающая установка с самовсасывающим насосом для подачи пропан/бутана из подземных емкостей к потребителю.</p>
 
 {% set pageEqPhotos = [

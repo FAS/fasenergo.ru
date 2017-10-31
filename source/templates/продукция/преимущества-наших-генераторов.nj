@@ -10,6 +10,9 @@ description: Преимущества газовых генераторов ко
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+{% from '_components/_Images.nj' import Images with context %}
+
 <p>При создании генераторов мы учитываем мировой опыт и современные технологии.</p>
 
 <h2>Адаптированы к российским условиям</h2>

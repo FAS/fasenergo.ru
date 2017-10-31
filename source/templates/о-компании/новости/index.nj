@@ -10,6 +10,10 @@ description: Новости компании «Фасэнергомаш» — п
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Posts.nj' import Posts with context %}
+{% from '_components/_Promos.nj' import Promos with context %}
+{% from '_components/_SubscribeForm.nj' import SubscribeForm with context %}
+
 <aside>
   <h2>Будьте в курсе последних новостей</h2>
   {{ SubscribeForm(name = 'Подписка на новости') }}

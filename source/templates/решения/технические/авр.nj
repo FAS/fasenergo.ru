@@ -10,6 +10,8 @@ description: Блок автоматического запуска генера
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
 <p>Все генераторы ФАС оснащаются блоками АВР (автоматического ввода резерва), которые позволяют использовать их в качестве резервного источника питания. </p>
 
 {# @todo This is, probably, not most accurate image, since it shows control shield #}

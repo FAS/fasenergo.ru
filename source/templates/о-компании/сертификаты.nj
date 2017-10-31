@@ -13,6 +13,8 @@ applyWrapperContent: false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Icon.nj' import Icon with context %}
+
 {% macro Document(title, url) %}
 <article class='h-margin-bottom+'>
   <h2 class='h-h6 h-margin-top0 h-margin-bottom'>

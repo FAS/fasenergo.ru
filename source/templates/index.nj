@@ -22,6 +22,9 @@ showContentTitle:          false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Posts.nj' import Posts with context %}
+{% from '_components/_Promos.nj' import Promos with context %}
+
 {% set pageContainerClass = 'Wrapper Wrapper--container' %}
 {% set pageContentClass = 'Wrapper--content h-margin-sides--auto' %}
 {% set pageSectionTopWrapper = 'h-padding-top++--' %}

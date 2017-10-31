@@ -10,6 +10,8 @@ description: Насосно-компрессорное оборудование 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
 <h2>Комлексы</h2>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>

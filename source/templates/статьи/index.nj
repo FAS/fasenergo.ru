@@ -10,5 +10,7 @@ description: Статьи
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Posts.nj' import Posts with context %}
+
 {{ Posts(path = 'статьи') }}
 {% endblock %}

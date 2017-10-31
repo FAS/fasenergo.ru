@@ -10,6 +10,7 @@ description: Смесительные установки для производ
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
 <p>Смесительные установки предназначены для производства смеси СУГ с воздухом для доведения колорийности газа до требуемой величины.</p>
 

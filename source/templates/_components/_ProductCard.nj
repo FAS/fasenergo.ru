@@ -1,3 +1,5 @@
+{% from '_components/_DropShower.nj' import DropShower with context %}
+
 {##
  # Display product card
  #

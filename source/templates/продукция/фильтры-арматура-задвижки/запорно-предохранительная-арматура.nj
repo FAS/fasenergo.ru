@@ -10,6 +10,8 @@ description: Запорно-предохранительная и регулир
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 {% set pageEqPhotos = [
   { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/Запорно-предохранительная-арматура.jpg' }
 ] %}

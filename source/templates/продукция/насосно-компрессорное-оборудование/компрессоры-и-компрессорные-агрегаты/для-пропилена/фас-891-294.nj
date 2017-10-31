@@ -10,6 +10,8 @@ description: Поршневой компрессорный агрегат ФАС
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 <p>Поршневой компрессорный агрегат ФАС 891 увеличенной производительности в полном комплекте для перегрузки пропилена из морских танкеров, ж/д цистерн и т. д.</p>
 
 {% set pageEqPhotos = [

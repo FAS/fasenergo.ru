@@ -10,6 +10,7 @@ description: Испарительные установки для сжиженн
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
 
 <p class='h-margin-bottom+'>Для пропан-бутана и их смесей. Применяются для принудительного испарения жидкой фазы сжиженного газа, когда естественного испарения в резервуарах (парки хранилища СУГ) недостаточно.</p>
 

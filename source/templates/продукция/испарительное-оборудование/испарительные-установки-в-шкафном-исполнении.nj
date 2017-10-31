@@ -10,6 +10,7 @@ description: Испарительные установки СУГ в шкафн�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
 {% set pageEqElPhotos = [
   { url: 'equipment/испарительное-оборудование/SE-SH-X1/Испарительная-установка-ФАС-SE-SH-X1--1--front.jpg' },

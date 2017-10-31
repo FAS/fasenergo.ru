@@ -10,6 +10,8 @@ description: Регуляторы давления газа GOK производ
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 {% set pageEqPhotos = [
   { url: 'equipment/газорегуляторное-оборудование/регуляторы-GOK/Регулятор-давления-GOK.jpg' },
   { url: 'equipment/газорегуляторное-оборудование/регуляторы-GOK/Регулятор-давления-GOK-052.jpg' },

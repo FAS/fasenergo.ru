@@ -7,6 +7,8 @@
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_buttons.nj' import PDFButton with context %}
+
 {# @todo This should be Image component when support of anchors will be added #}
 <a href='{{ PAGE.pdf }}' class='h-border-bottom0'>
   <img src='{{ PAGE.image }}' alt='{{ PAGE.title }}' class='h-margin-ends+' style='max-height: 80vh;'>

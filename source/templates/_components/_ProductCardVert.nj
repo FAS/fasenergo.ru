@@ -1,3 +1,5 @@
+{% from '_components/_formatters.nj' import PowersList with context %}
+
 {##
  # Display vertical product card with limited set of data
  #

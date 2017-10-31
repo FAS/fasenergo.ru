@@ -1,3 +1,8 @@
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_Field.nj' import Field with context %}
+{% from '_components/_Sorter.nj' import Sorter with context %}
+{% from '_components/_Checkbox.nj' import Checkbox with context %}
+
 {##
  # Display catalog filters and sorter
  #

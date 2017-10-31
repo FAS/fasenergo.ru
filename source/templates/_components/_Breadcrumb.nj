@@ -1,3 +1,5 @@
+{% from '_components/_Icon.nj' import Icon with context %}
+
 {##
  # Display breadcrumb block based on provided data
  #

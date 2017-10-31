@@ -10,6 +10,13 @@ description: Продажа газовых электрогенераторов 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_ProductCard.nj' import ProductCard with context %}
+{% from '_components/_Field.nj' import Field with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_SolutionPreview.nj' import SolutionPreview with context %}
+{% from '_components/_CatalogFilter.nj' import CatalogFilter with context %}
+{% from '_components/_Promos.nj' import Promos with context %}
+
 {% set generators = selectGenerators(GENERATORS) %}
 {% set generators = filterWithBrands(generators, 'Фасэнергомаш') %}
 {% set generators = sortGeneratorsByPower(generators) %}

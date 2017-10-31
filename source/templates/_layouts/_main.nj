@@ -1,6 +1,14 @@
 {% extends '_layouts/_base.nj' %}
 
 {% block body %}
+{% from '_components/_Nav.nj' import Nav with context %}
+{% from '_components/_Breadcrumb.nj' import Breadcrumb with context %}
+{% from '_components/_Callback.nj' import Callback with context %}
+{% from '_components/_Field.nj' import Field with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_SocialUrls.nj' import SocialUrls with context %}
+{% from '_components/_formatters.nj' import Email, Phone with context %}
+
 {% set mainLayoutE = CONTACTS.main %}
 {% set mainLayoutPhone = Phone(mainLayoutE.phones[0], showAdd = false) %}
 {% set mainLayoutEmail = Email(mainLayoutE.emails[0]) %}

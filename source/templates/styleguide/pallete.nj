@@ -13,6 +13,7 @@ applyWrapperContent: false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Example.nj' import Example with context %}
 
 {% call Example() -%}
 <ul class='g-list0 h-childs-padding-- h-childs-margin0'>

@@ -10,6 +10,8 @@ description: Насосная установка для монтажа в сос
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 {{ PhotosPreview([
   { url: 'equipment/насосно-компрессорное-оборудование/НУ-ФАС-№93.1241/Насосная-установка-для-подземных-емкостей-ФАС №93.1241--1--front-left-top.jpg' }
 ], PAGE.contentTitle, class = 'h-margin-bottom+') }}

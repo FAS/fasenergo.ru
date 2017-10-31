@@ -10,6 +10,8 @@ description: Насосно-счётная установка стационар
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 <p>Насосно-счётная установка стационарного исполнения, производительностью от 50 до 900 л/мин.</p>
 
 {% set pageEqPhotos = [

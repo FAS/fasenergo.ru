@@ -13,6 +13,9 @@ shortDesc:        'Полное оборудование объекта: про�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_formatters.nj' import Email, Phone with context %}
+{% from '_components/_buttons.nj' import PDFButton with context %}
+
 {% set pageE = CONTACTS.departments.sales %}
 {% set pagePhone1 = Phone(pageE.phones[0]) %}
 {% set pageEmail = Email(pageE.emails[0]) %}

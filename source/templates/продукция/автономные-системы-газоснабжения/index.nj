@@ -10,6 +10,8 @@ description: Автономные системы газоснабжения «Ф
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
 {# @todo It's unclear so far, are those should be products or no #}
 {# {% call CategoryCard(
   title = 'Заводы по производству СПГ',

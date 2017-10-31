@@ -10,6 +10,8 @@ description: Блочный технологический комплекс на
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 <p>Блочный технологический комплекс насосно-счетной установки, производительностью 490 литров/минуту производства ООО “Фасэнергомаш”</p>
 
 {% set pageEqPhotos = [

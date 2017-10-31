@@ -10,6 +10,7 @@ description: 'Контактные телефоны и email компании «
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Contact.nj' import Contact with context %}
 
   {{ Contact(CONTACTS.main, lead = true) }}
 

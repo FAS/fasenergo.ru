@@ -10,6 +10,8 @@ description: Продажа байпасного клапана компании
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 <p>Байпасные клапан предназначены для монтажа в нагнетательную линию насосных агрегатов с целью регулирования давления подачи жидкой фракции сжиженного газа потребителю.</p>
 
 {% set pageEqPhotos = [

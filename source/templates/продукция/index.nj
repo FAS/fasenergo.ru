@@ -10,6 +10,8 @@ description: Немецко-российские газовые генерато
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
 <div class='h-margin-top+'>
 
   {% call CategoryCard(

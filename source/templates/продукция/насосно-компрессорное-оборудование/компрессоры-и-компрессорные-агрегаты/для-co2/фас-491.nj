@@ -10,6 +10,8 @@ description: Поршневой компрессорный агрегат ФАС
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 <p>Компрессорный агрегат тип ФАС 491, вертикальный, двухцилиндровый, двухступенчатый. Рабочая среда — CO2.</p>
 
 <p>Максимальная производительность до 4-8 Nm³/час при следующих рабочих параметрах:</p>

@@ -1,49 +1,13 @@
 {{ initPage() }}
 
-{% block imports %}
-{% from '_components/_Icon.nj' import Icon with context %}
-
-{% from '_components/_buttons.nj' import PDFButton with context %}
-{% from '_components/_formatters.nj' import Email, Skype, Phone, PowersList with context %}
-
-{% from '_components/_bitrixForms.nj' import BitrixFormsInit with context %}
-{% from '_components/_Blockquote.nj' import Blockquote with context %}
-{% from '_components/_Callback.nj' import Callback with context %}
-{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
-{% from '_components/_Checkbox.nj' import Checkbox with context %}
-{% from '_components/_Contact.nj' import Contact with context %}
-{% from '_components/_DropShower.nj' import DropShower with context %}
-{% from '_components/_Field.nj' import Field with context %}
-{% from '_components/_Image.nj' import Image with context %}
-{% from '_components/_Images.nj' import Images with context %}
-{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
-{% from '_components/_PostPreview.nj' import PostPreview with context %}
-{% from '_components/_Posts.nj' import Posts with context %}
-{% from '_components/_ProductCard.nj' import ProductCard with context %}
-{% from '_components/_ProductCardVert.nj' import ProductCardVert with context %}
-{% from '_components/_PromoPreview.nj' import PromoPreview with context %}
-{% from '_components/_Promos.nj' import Promos with context %}
-{% from '_components/_SocialShare.nj' import SocialShare with context %}
-{% from '_components/_SocialUrls.nj' import SocialUrls with context %}
-{% from '_components/_SolutionPreview.nj' import SolutionPreview with context %}
-{% from '_components/_Sorter.nj' import Sorter with context %}
-{% from '_components/_CatalogFilter.nj' import CatalogFilter with context %}
-{% from '_components/_SubscribeForm.nj' import SubscribeForm with context %}
-{% from '_components/_TagCTA.nj' import TagCTA with context %}
-
 {% from '_components/analytics/_GoogleAnalytics.nj' import GoogleAnalytics with context %}
 {% from '_components/analytics/_YandexMetrika.nj' import YandexMetrika with context %}
 {% from '_components/analytics/_MangoCalltracker.nj' import MangoCalltracker with context %}
 {% from '_components/analytics/_Roistat.nj' import Roistat with context %}
+{% from '_components/_bitrixForms.nj' import BitrixFormsInit with context %}
 {% from '_components/_AlternateUrls.nj' import AlternateUrls with context %}
-{% from '_components/_Breadcrumb.nj' import Breadcrumb with context %}
-{% from '_components/_Example.nj' import Example with context %}
 {% from '_components/_IE.nj' import IE with context %}
-{% from '_components/_Link.nj' import Link with context %}
-{% from '_components/_NavItem.nj' import NavItem with context %}
-{% from '_components/_Nav.nj' import Nav with context %}
 {% from '_components/_OutdatedBrowser.nj' import OutdatedBrowser with context %}
-{% endblock %}
 
 <!doctype html>
 <html class='{{ PAGE.class }} t-base no-js' lang='{{ PAGE.locale }}' {{ 'dir=\'rtl\'' if PAGE.rtl }} vocab='https://schema.org/'>

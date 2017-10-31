@@ -10,6 +10,8 @@ description: Регуляторы давления газа RegO произво�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 {% set pageEqPhotos = [
   { url: 'equipment/газорегуляторное-оборудование/регуляторы-RegO/Регулятор-давления-RegO-158 .jpg' },
   { url: 'equipment/газорегуляторное-оборудование/регуляторы-RegO/Регулятор-давления-RegO-158 --scheme.jpg' },

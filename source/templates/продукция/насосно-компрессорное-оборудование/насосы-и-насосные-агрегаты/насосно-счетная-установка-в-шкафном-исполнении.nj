@@ -10,6 +10,8 @@ description: Насосно-счетная установка в шкафном 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 {% set pageEqPhotos = [
   { url: 'equipment/насосно-компрессорное-оборудование/НСУ-в-шкафном-исполнении/Насосно-счетная установка-ФАС-в-шкафном-исполнении--front-left.jpg' }
 ] %}

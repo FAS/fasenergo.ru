@@ -1,3 +1,5 @@
+{% from '_components/_Checkbox.nj' import Checkbox with context %}
+
 {##
  # Display prepared sorter element
  #

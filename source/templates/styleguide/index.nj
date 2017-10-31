@@ -13,6 +13,8 @@ applyWrapperContent: false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_Example.nj' import Example with context %}
+
 <ul>
   {% for slug, item in getPage(PAGE.breadcrumb) %}
   <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>

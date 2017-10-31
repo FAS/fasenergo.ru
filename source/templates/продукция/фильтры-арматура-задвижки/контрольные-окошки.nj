@@ -10,6 +10,8 @@ description: Контрольные окошки компании «Фасэне
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 <p>Контрольные окошки предназначены для осуществления визуального контроля за потоком жидкости.</p>
 
 {% set pageEqPhotos = [

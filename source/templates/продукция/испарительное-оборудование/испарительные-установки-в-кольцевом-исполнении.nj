@@ -10,6 +10,8 @@ description: Испарительные установки СУГ в кольц�
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
 {% macro TableEntry(title, performance) %}
 <tr>
   <td>{{ title }}</td>
