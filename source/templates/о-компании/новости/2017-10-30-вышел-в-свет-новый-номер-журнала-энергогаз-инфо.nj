@@ -11,9 +11,6 @@ imageCover: false
 
 excerpt: 'Выпуск №9-10•2017 — мировой опыт применения природного газа на транспорте, модные тенденции XXI века, топливораздаточные колонки: новые возможности.'
 date: 2017-10-30T12:00:00
-
-# @todo Specified due to text duplication. Should be fixed:
-canonical: /о-компании/журнал/энергогаз-инфо-9-10-2017
 ---
 
 {% extends './_entry.nj' %}
