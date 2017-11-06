@@ -134,6 +134,7 @@
     <ul class='page-product-menu o-nav h-childs-margin-top0 h-text--caps h-text-'>
       {% if gen.desc or equipmentList %}<li><a class='js-smooth-jump' href='#general'>Описание</a></li>{% endif %}
       {% if specs or enclosure %}<li><a class='js-smooth-jump' href='#details'>Технические характеристики</a></li>{% endif %}
+      <li><a class='js-smooth-jump' href='#options'>Опции</a></li>
       {% if gen.photos %}<li><a class='js-smooth-jump' href='#photos'>Фото</a></li>{% endif %}
       {% if gen.videos %}<li><a class='js-smooth-jump' href='#video'>Видео</a></li>{% endif %}
     </ul>
@@ -255,6 +256,58 @@
 
   </section>
   {% endif %}
+
+  <section id='options' class='o-clearfix'>
+
+    <h2>Опции</h2>
+
+    <div class='o-grid h-childs-displace+'>
+
+      {% macro _Solution(title, url, image, class, hLevel = 3) %}
+      <article class='o-grid__item h-1/4'>
+
+        {% if image %}
+        <p>
+          <a href='{{ url }}' class='g-link0 h-border-bottom0'>
+            <img src='{{ image }}' alt='{{ title }}' style='max-height: 95px;'>
+          </a>
+        </p>
+        {% endif %}
+
+        <p><a href='{{ url }}' class='h-h6'>{{ title }}</a></p>
+
+      </article>
+      {% endmacro %}
+
+      {{ _Solution(
+        title = 'Синхронизация',
+        url = '/решения/технические/синхронизация-генераторных-установок',
+        image = '/' + PATH.images + '/solutions/синхронизация-генераторных-установок/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right--inter.jpg'
+      ) }}
+
+      {{ _Solution(
+        title = 'Когенерация',
+        url = '/решения/технические/когенерационная-установка',
+        image = '/' + PATH.images + '/solutions/когенерационная-установка/Газовая-когенерационная-установка-ФАС-50-70М--front.jpg'
+      ) }}
+
+      {{ _Solution(
+        title = 'Контейнер',
+        url = '/решения/технические/контейнеры-для-генераторов',
+        image = '/' + PATH.images + '/solutions/контейнер/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right.jpg'
+      ) }}
+
+      {% if not gen.equipment.AST %}
+      {{ _Solution(
+        title = 'АВР',
+        url = '/решения/технические/авр',
+        image = '/' + PATH.images + '/solutions/авр/Щит-управления-Фасэнергомаш--front-right.jpg'
+      ) }}
+      {% endif %}
+
+    </div>
+
+  </section>
 
   {% if gen.photos %}
   <section id='photos' class='o-clearfix'>
