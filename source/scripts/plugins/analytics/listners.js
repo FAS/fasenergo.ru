@@ -35,6 +35,7 @@ export default () => {
     forEachTarget(document.querySelectorAll('.js-metrica-share-in'), () => event('Share', 'CLICK_SHARE_IN'))
     forEachTarget(document.querySelectorAll('.js-metrica-tag-click-to-catalog'), () => event('Tag page', 'TAG_CLICK_TO_CATALOG'))
     forEachTarget(document.querySelectorAll('.js-metrica-tag-click-contact-us'), () => event('Tag page', 'TAG_CLICK_CONTACT_US'))
+    forEachTarget(document.querySelectorAll('.js-metrica-product-click-solution'), () => event('Product', 'PRODUCT_CLICK_SOLUTION'))
   })
 
   // @note We don't use `ajaxError` here, since it won't track JSONP requests

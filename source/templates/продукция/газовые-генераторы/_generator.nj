@@ -268,13 +268,13 @@
 
         {% if image %}
         <p>
-          <a href='{{ url }}' class='g-link0 h-border-bottom0'>
+          <a href='{{ url }}' class='js-metrica-product-click-solution g-link0 h-border-bottom0'>
             <img src='{{ image }}' alt='{{ title }}' style='max-height: 95px;'>
           </a>
         </p>
         {% endif %}
 
-        <p><a href='{{ url }}' class='h-h6'>{{ title }}</a></p>
+        <p><a href='{{ url }}' class='js-metrica-product-click-solution h-h6'>{{ title }}</a></p>
 
       </article>
       {% endmacro %}
