@@ -28,6 +28,8 @@ const getImageSet = (src, imagesData, delimeter = DELIMETER) => {
  * @return {string} Formed `srcset` attribute
  */
 const printImageSet = (set) => {
+  if (set.length <= 1) return
+
   let srcset = ''
 
   set.forEach((s, i) => {
