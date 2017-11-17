@@ -9,19 +9,15 @@ module.exports = (config) =>
     config = merge {
       options:
         data: {}
-        matter: {}
         humanReadableUrls: false
         humanReadableUrlsExclude: /^(index|\d{3})$/
     }, config
 
     files = config.files
-    { configureEnvironment, preprocessData, matter, images, humanReadableUrls, humanReadableUrlsExclude, currentLocale, locales, baseLocale, gettext } = config.options
+    { configureEnvironment, preprocessData, humanReadableUrls, humanReadableUrlsExclude, currentLocale, locales, baseLocale, gettext } = config.options
     { getLocaleProps, getLocaleDir, getLangcode, getRegioncode, isoLocale } = i18nTools
 
     currentLocale = currentLocale or baseLocale
-
-    if typeof matter != 'function' and typeof matter != 'object'
-      throw new Error('[nunjucks-task] matter should be a function, which returns matter object, or a plain matter object')
 
     if not baseLocale and typeof baseLocale != 'string'
       throw new Error('[nunjucks-task] base locale should be specified as `options.baseLocale` string')
@@ -51,11 +47,7 @@ module.exports = (config) =>
         preprocessData: (data) ->
           pagepath   = humanReadableUrl(@src[0].replace((@orig.cwd or @orig.orig.cwd), ''), humanReadableUrlsExclude)
           breadcrumb = crumble(pagepath)
-          matter     = if typeof matter == 'function' then matter() else matter
-          pageProps  = (get(matter, breadcrumb) or {}).props
-
-          set data, 'SITE.__matter', matter
-          set data, 'SITE.__images', if typeof images == 'function' then images() else matter
+          pageProps  = (get(data.SITE.matter, breadcrumb) or {}).props
 
           data.PAGE = merge data.PAGE,
             props:

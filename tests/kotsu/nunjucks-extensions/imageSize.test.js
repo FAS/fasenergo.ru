@@ -11,7 +11,7 @@ const mockContext = {
     }
   },
   SITE: {
-    __images: [
+    images: [
       { 'name': 'build/assets/images/test.jpg', 'width': 100, 'height': 150 },
       { 'name': 'build/assets/images/test2.png', 'width': 120, 'height': 170 },
 

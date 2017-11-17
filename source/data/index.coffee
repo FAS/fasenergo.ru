@@ -1,7 +1,7 @@
 { merge } = require('lodash')
 pkg = require('../../package.json')
 
-module.exports = ({ config, file: { readYAML } }) ->
+module.exports = ({ config, file: { readYAML, readJSON } }) ->
   sitename = config('env.sitename')
   buildRoot = config('path.build.root') + '/'
   imagesPath = config('path.build.images').replace(buildRoot, '')
@@ -27,6 +27,8 @@ module.exports = ({ config, file: { readYAML } }) ->
       themeColor: '#252f38'
       locales: config('locales')
       baseLocale: config('baseLocale')
+      matter: readJSON(config('file.temp.data.matter'))
+      images: readJSON(config('file.temp.data.images'))
       googleAnalyticsId: 'UA-35704990-1'
       yandexMetrikaId: '20139793'
     PLACEHOLDERS:

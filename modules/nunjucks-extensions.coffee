@@ -110,9 +110,9 @@ module.exports = (env) ->
   ###
   env.addGlobal 'getPage', (path, forceRender = true, cached = true, ctx = @getVariables()) ->
     path = path.includes('/') and crumble(path) or path
-    data = @ctx.SITE.__matter
-    cachedData = () => @ctx.SITE.__matterCache
-    setDataCache = (value) => @ctx.SITE.__matterCache = value
+    data = @ctx.SITE.matter
+    cachedData = () => @ctx.SITE.matterCache
+    setDataCache = (value) => @ctx.SITE.matterCache = value
     renderData = (tmpl) => render(env, ctx, tmpl)
 
     # Render whole Matter data and store it as cache after first `forceRender` request
@@ -216,7 +216,7 @@ module.exports = (env) ->
 
 
   env.addGlobal 'imageSize', (src, baseDir = @ctx.PATH.build.root) ->
-    imageSize(src, @ctx.SITE.__images, baseDir)
+    imageSize(src, @ctx.SITE.images, baseDir)
 
   ###*
    * Expose `moment.js` to Nunjucks' for parsing, validation, manipulation and displaying dates
