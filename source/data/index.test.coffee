@@ -57,6 +57,8 @@ Data = module.exports = t.struct({
       currencyFormat: t.String
     }, { name: 'Locales' })
     baseLocale: t.String
+    matter: t.Function(t.Any)
+    images: t.Function(t.Any)
     googleAnalyticsId: t.union [t.String, r.False]
     yandexMetrikaId: t.union [t.String, r.False]
   PLACEHOLDERS: t.dict(t.String, t.Any)
