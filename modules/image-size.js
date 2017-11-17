@@ -73,7 +73,7 @@ const imageSize = (src, imagesData, baseDir) => {
   const fullSrc = join(baseDir, src)
   const image = imagesData.find((e) => fullSrc === normalize(e.name))
 
-  if (!image) throw new Error(`[imageSize] image \`${src}\` did not match any image data`)
+  if (!image) throw new Error(`[imageSize] image \`${fullSrc}\` did not match any image data`)
 
   const makeSet = () => stripBaseDir(getImageSet(fullSrc, imagesData), baseDir)
 
