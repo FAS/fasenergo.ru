@@ -110,20 +110,20 @@ module.exports = (env) ->
   ###
   env.addGlobal 'getPage', (path, forceRender = true, cached = true, ctx = @getVariables()) ->
     path = path.includes('/') and crumble(path) or path
-    data = @ctx.SITE.matter
 
-    if typeof data == 'function'
-      data = data()
+    getData = () =>
+      data = @ctx.SITE.matter
+      return if typeof data == 'function' then data() else data
 
-    cachedData = () => @ctx.SITE.matterCache
+    getCachedData = () => @ctx.SITE.matterCache
     setDataCache = (value) => @ctx.SITE.matterCache = value
     renderData = (tmpl) => render(env, ctx, tmpl)
 
     # Render whole Matter data and store it as cache after first `forceRender` request
-    if not cachedData() and forceRender
-      setDataCache(renderData(data))
+    if not getCachedData() and forceRender
+      setDataCache(renderData(getData()))
 
-    page = _.get(forceRender and cached and cachedData() or data, path)
+    page = _.get(forceRender and cached and getCachedData() or getData(), path)
 
     if not page
       log.error("[getPage] can not find `#{path}` inside site Matter data [#{@ctx.PAGE.props.url}]")
@@ -220,12 +220,17 @@ module.exports = (env) ->
 
 
   env.addGlobal 'imageSize', (src, baseDir = @ctx.PATH.build.root) ->
-    imagesData = @ctx.SITE.images
+    getImagesData = () =>
+      data = @ctx.SITE.images
+      return if typeof data == 'function' then data() else data
 
-    if typeof imagesData == 'function'
-      imagesData = imagesData()
+    getCachedImagesData = () => @ctx.SITE.imagesCache
+    setDataCache = (value) => @ctx.SITE.imagesCache = value
 
-    imageSize(src, @ctx.SITE.images, baseDir)
+    if not getCachedImagesData()
+      setDataCache(getImagesData())
+
+    imageSize(src, getCachedImagesData(), baseDir)
 
   ###*
    * Expose `moment.js` to Nunjucks' for parsing, validation, manipulation and displaying dates

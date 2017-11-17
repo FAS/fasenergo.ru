@@ -1,7 +1,9 @@
 { merge } = require('lodash')
+{ join } = require('path')
 pkg = require('../../package.json')
 
 module.exports = ({ config, file: { readYAML, readJSON } }) ->
+  cwd = process.cwd()
   sitename = config('env.sitename')
   buildRoot = config('path.build.root') + '/'
   imagesPath = config('path.build.images').replace(buildRoot, '')
@@ -27,8 +29,8 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       themeColor: '#252f38'
       locales: config('locales')
       baseLocale: config('baseLocale')
-      matter: () => readJSON(config('file.temp.data.matter'))
-      images: () => readJSON(config('file.temp.data.images'))
+      matter: () => require(join(cwd, config('file.temp.data.matter')))
+      images: () => require(join(cwd, config('file.temp.data.images')))
       googleAnalyticsId: 'UA-35704990-1'
       yandexMetrikaId: '20139793'
     PLACEHOLDERS:
@@ -76,8 +78,8 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       build: config('env.build')
       hotModuleRloading: config('env.hotModuleRloading')
     CONTACTS: require('./contacts')
-    GENERATORS: readYAML "#{__dirname}/generators.yml"
-    ENGINES: readYAML "#{__dirname}/engines.yml"
+    GENERATORS: readYAML join(__dirname, 'generators.yml')
+    ENGINES: readYAML join(__dirname, 'engines.yml')
 
   return (locale) -> switch locale
     when 'ru-RU' then merge {}, data
