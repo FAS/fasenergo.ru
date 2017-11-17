@@ -62,6 +62,10 @@ const imageSize = (src, imagesData, baseDir) => {
 
   if (src.startsWith('http') || src.startsWith('ftp')) return { src, srcset: () => null }
 
+  // @todo We have to exit in case of some formats, because of hardcoded extensions
+  //      in https://github.com/saperio/grunt-image-size/blob/master/tasks/image_size.js#L14
+  if (src.endsWith('.svg')) return { src, srcset: () => null }
+
   if (!src.startsWith('/')) throw new Error(`[imageSize] document-relative urls not supported yet, \`${src}\` provided`)
   if (typeof baseDir !== 'string') throw new Error(`[imageSize] \`baseDir\` must be a string, \`${typeof baseDir}\` provided`)
   if (!Array.isArray(imagesData)) throw new Error(`[imageSize] \`imagesData\` must be an array, \`${typeof imagesData}\` provided`)
