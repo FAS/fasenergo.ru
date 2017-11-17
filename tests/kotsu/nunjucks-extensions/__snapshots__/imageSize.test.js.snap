@@ -11,3 +11,17 @@ exports[`Nunjucks \`imageSize()\` should get image size 1`] = `
       <img src='/assets/images/test.jpg' width='100' height='150'>
     "
 `;
+
+exports[`Nunjucks \`imageSize()\` should print srcset 1`] = `
+"
+      
+      <img src='/assets/images/test.jpg'
+        srcset='/assets/images/test.jpg 100w'
+      >
+
+      
+      <img src='/assets/images/set.jpg'
+        srcset='/assets/images/set.jpg 2000w, /assets/images/set@500.jpg 500w, /assets/images/set@1000.jpg 1000w'
+      >
+    "
+`;
