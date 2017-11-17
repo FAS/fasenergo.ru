@@ -2,7 +2,7 @@
 
 import { renderString } from '../../utils/nunjucks'
 
-const render = (template, context = mockContext , parse) => renderString(template, context, parse)
+const render = (template, context = mockContext, parse) => renderString(template, context, parse)
 const mockContext = {
   PATH: {
     images: 'assets/images',
