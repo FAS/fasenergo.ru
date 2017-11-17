@@ -70,6 +70,7 @@ module.exports = (grunt) ->
       temp:
         data:
           matter: '<%= path.temp.data %>/matter.json'
+          images: '<%= path.temp.data %>/images.json'
 
       build:
         script:
@@ -102,13 +103,14 @@ module.exports = (grunt) ->
   grunt.registerTask 'default', [
     'clean:build'
     'copy'
+    'responsive_images:thumbnails'
+    'image_size'
     'grayMatter'
     'nunjucks'
     'sprite'
     'webfont'
     'sass'
     'postcss:autoprefix'
-    'responsive_images:thumbnails'
     # @todo https://github.com/stephanmax/grunt-responsive-images-extender/issues/17
     # 'responsive_images_extender'
     'browserSync'
@@ -121,6 +123,8 @@ module.exports = (grunt) ->
   grunt.registerTask 'build', [
     'clean'
     'copy'
+    'responsive_images:thumbnails'
+    'image_size'
     'grayMatter'
     'nunjucks'
     'sprite'
@@ -134,7 +138,6 @@ module.exports = (grunt) ->
     #       `styles` task file for details
     # 'uncss'
     'csso'
-    'responsive_images:thumbnails'
     # @todo https://github.com/stephanmax/grunt-responsive-images-extender/issues/17
     # 'responsive_images_extender'
     'htmlmin'

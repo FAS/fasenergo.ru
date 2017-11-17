@@ -15,7 +15,7 @@ module.exports = (config) =>
     }, config
 
     files = config.files
-    { configureEnvironment, preprocessData, matter, humanReadableUrls, humanReadableUrlsExclude, currentLocale, locales, baseLocale, gettext } = config.options
+    { configureEnvironment, preprocessData, matter, images, humanReadableUrls, humanReadableUrlsExclude, currentLocale, locales, baseLocale, gettext } = config.options
     { getLocaleProps, getLocaleDir, getLangcode, getRegioncode, isoLocale } = i18nTools
 
     currentLocale = currentLocale or baseLocale
@@ -55,6 +55,7 @@ module.exports = (config) =>
           pageProps  = (get(matter, breadcrumb) or {}).props
 
           set data, 'SITE.__matter', matter
+          set data, 'SITE.__images', if typeof images == 'function' then images() else matter
 
           data.PAGE = merge data.PAGE,
             props:

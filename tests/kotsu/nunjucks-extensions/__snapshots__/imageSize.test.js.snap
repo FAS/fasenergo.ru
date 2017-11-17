@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nunjucks \`imageSize()\` should error on unknown image 1`] = `
+"(unknown path)
+  Error: [imageSize] image \`/nope.jpg\` did not match any image data"
+`;
+
+exports[`Nunjucks \`imageSize()\` should get image size 1`] = `
+"
+      
+      <img src='/assets/images/test.jpg' width='100' height='150'>
+    "
+`;

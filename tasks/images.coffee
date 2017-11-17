@@ -62,6 +62,19 @@ module.exports = () ->
       ]
 
   ###
+  grunt-image-size
+  https://github.com/saperio/grunt-image-size
+  Retrieve image size information
+  ###
+
+  @config 'image_size',
+    build:
+      files: [
+        src: '<%= path.build.images %>/{,**/}*.{jpg,jpeg,gif,png,svg}'
+        dest: '<%= file.temp.data.images %>'
+      ]
+
+  ###
   Tiny PNG
   https://github.com/marrone/grunt-tinypng
   Image optimization via tinypng service
@@ -94,6 +107,8 @@ module.exports = () ->
         files: ['<%= path.source.images %>/{,**/}*']
         tasks: [
           'newer:copy:images'
+          'image_size'
+          'nunjucks'
           # @todo It would be preferable to use `newer:` here, but it wont work.
           #       See https://github.com/andismith/grunt-responsive-images/issues/57
           #       See https://github.com/LotusTM/Kotsu/issues/251
