@@ -1,6 +1,7 @@
-const { join, normalize, extname } = require('path')
+const { extname } = require('path')
 
 const DELIMETER = '@'
+let imagesDataCache
 
 /**
  * Get image size variations
@@ -14,11 +15,7 @@ const DELIMETER = '@'
 const getImageSet = (src, imagesData, delimeter = DELIMETER) => {
   const filepath = src.replace(new RegExp(`${extname(src)}$`), '')
 
-  return imagesData.filter((e) => {
-    const name = normalize(e.name)
-
-    return name.startsWith(`${filepath}${DELIMETER}`) || name === src
-  })
+  return imagesData.filter((e) => e.name.startsWith(`${filepath}${DELIMETER}`) || e.name === src)
 }
 
 /**
@@ -41,16 +38,6 @@ const printImageSet = (set) => {
 }
 
 /**
- * Strip `baseDir` from each image entry
- * @param {object[]} entries    Specific object with information about each image
- * @param {string}   baseDir    Root dir, where build files stored. Used for paths resolving
- * @return {object[]} Same entries, but with removed `baseDir` from filepath
- */
-const stripBaseDir = (entries, baseDir) =>
-  entries.map((e) => Object.assign({}, e, { name: e.name.replace(baseDir, '') })
-)
-
-/**
  * Get image size and its srcset
  * @param {string}   src        Path to image with filename
  * @param {object[]} imagesData Specific object with information about each image.
@@ -71,19 +58,23 @@ const imageSize = (src, imagesData, baseDir) => {
   if (typeof baseDir !== 'string') throw new Error(`[imageSize] \`baseDir\` must be a string, \`${typeof baseDir}\` provided`)
   if (!Array.isArray(imagesData)) throw new Error(`[imageSize] \`imagesData\` must be an array, \`${typeof imagesData}\` provided`)
 
-  const fullSrc = join(baseDir, src)
-  const image = imagesData.find((e) => fullSrc === normalize(e.name))
+  if (!imagesDataCache) {
+    imagesDataCache = imagesData.map((e) => {
+      e.name = e.name.replace(baseDir, '')
+      return e
+    })
+  }
 
-  if (!image) throw new Error(`[imageSize] image \`${fullSrc}\` did not match any image data`)
+  const image = imagesDataCache.find((e) => src === e.name)
 
-  const makeSet = () => stripBaseDir(getImageSet(fullSrc, imagesData), baseDir)
+  if (!image) throw new Error(`[imageSize] image \`${src}\` did not match any image data`)
 
   return {
     src,
     width: image.width,
     height: image.height,
-    set: makeSet,
-    srcset: () => printImageSet(makeSet())
+    set: () => getImageSet(src, imagesDataCache),
+    srcset: () => printImageSet(getImageSet(src, imagesDataCache))
   }
 }
 
