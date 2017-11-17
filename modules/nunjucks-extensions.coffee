@@ -112,7 +112,7 @@ module.exports = (env) ->
     path = path.includes('/') and crumble(path) or path
     data = @ctx.SITE.matter
 
-    if typeof matter == 'function'
+    if typeof data == 'function'
       data = data()
 
     cachedData = () => @ctx.SITE.matterCache
