@@ -33,7 +33,7 @@
 <article class='o-grid__item h-1/3 h-margin-bottom+'>
 
   <a class='h-block h-border-bottom0 h-align--center' href='{{ url }}'>
-    <img src='{{ image }}' alt='{{ model }}' width='190'>
+    <img src='{{ image }}' srcset='{{ imageSize(image).srcset() }}' alt='{{ model }}' width='190'>
   </a>
 
   <p><a class='h-h5' href='{{ url }}'>{{ model }}</a></p>

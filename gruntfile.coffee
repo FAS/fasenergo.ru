@@ -111,8 +111,6 @@ module.exports = (grunt) ->
     'webfont'
     'sass'
     'postcss:autoprefix'
-    # @todo https://github.com/stephanmax/grunt-responsive-images-extender/issues/17
-    # 'responsive_images_extender'
     'browserSync'
     'watch'
   ]
@@ -138,8 +136,6 @@ module.exports = (grunt) ->
     #       `styles` task file for details
     # 'uncss'
     'csso'
-    # @todo https://github.com/stephanmax/grunt-responsive-images-extender/issues/17
-    # 'responsive_images_extender'
     'htmlmin'
     'tinypng'
     'clean:styles'

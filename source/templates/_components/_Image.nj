@@ -25,7 +25,7 @@
 <figure class='{{ positionClass if positionClass else 'h-margin-ends+' }}' style='{{ 'max-width: ' + width if width }}'>
 
   <div class='{{ 'h-align--center' if center }}'>
-    <img class='h-margin-bottom--' src='{{ src }}' alt='{{ alt if alt }}' style='max-height: 80vh;'>
+    <img class='h-margin-bottom--' src='{{ src }}' srcset='{{ imageSize(src).srcset() }}' alt='{{ alt if alt }}' style='max-height: 80vh;'>
   </div>
 
   {% if caption %}

@@ -21,7 +21,7 @@
     {% set photoUrl = urljoin(imagesPath, '/', photos[0].url) %}
 
     <a class='h-block h-border-bottom0' style='height: 600px' href='{{ photoUrl }}'>
-      <img class='h-height-1/1' style='object-fit: contain' src='{{ photoUrl }}' alt='{{ photos[0].alt or alt }}'>
+      <img class='h-height-1/1' style='object-fit: contain' src='{{ photoUrl }}' srcset='{{ imageSize(photoUrl).srcset() }}' alt='{{ photos[0].alt or alt }}'>
     </a>
   </div>
 
@@ -31,7 +31,7 @@
     {% set photoUrl = urljoin(imagesPath, photo.url) %}
 
     <a class='Thumb-link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}'>
-      <img class='h-align--middle' src='{{ photoUrl }}' height='80' alt='{{ photo.alt or alt }}'>
+      <img class='h-align--middle' src='{{ photoUrl }}' srcset='{{ imageSize(photoUrl).srcset() }}' height='80' alt='{{ photo.alt or alt }}'>
     </a>
     {% endfor %}
   </div>

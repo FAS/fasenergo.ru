@@ -41,6 +41,7 @@
 ) %}
 
 {% set desc = caller() %}
+{% set img = imageSize(image) %}
 
 {% macro MacroPower() %}
 {% if power.from or power.to %}
@@ -61,7 +62,7 @@
 
   {% if size == 'small' %}
 
-  <a class='h-block h-flex h-flex-y--center h-border-bottom0' href='{{ url }}' style='min-height: 136px'><img class='h-block h-border-r' src='{{ image }}' style='max-height: 136px' alt='{{ title|striptags }}'></a>
+  <a class='h-block h-flex h-flex-y--center h-border-bottom0' href='{{ url }}' style='min-height: 136px'><img class='h-block h-border-r' src='{{ img.src }}' srcset='{{ img.srcset() }}' style='max-height: 136px' alt='{{ title|striptags }}'></a>
 
   <h{{ hLevel }} class='h-text+ h-margin-top-- h-margin-bottom0'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h{{ hLevel }}>
 
@@ -74,7 +75,7 @@
   {% else %}
 
   <div class='o-media__aside'>
-    <a class='h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ image }}' width='190' alt='{{ title|striptags }}'></a>
+    <a class='h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ img.src }}' srcset='{{ img.srcset() }}' width='190' alt='{{ title|striptags }}'></a>
   </div>
 
   <div class='o-media__content'>

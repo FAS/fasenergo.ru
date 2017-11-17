@@ -19,7 +19,7 @@ description: Специализированный журнал, посвящен
 
 <h2>Свежий выпуск</h2>
 <a href='{{ pageFreshIssue.url }}' class='h-text++'>
-  <img src='{{ pageFreshIssue.image }}' alt='{{ pageFreshIssue.title }}' class='h-block h-margin-bottom--' style='max-height: 80vh;'>
+  <img src='{{ pageFreshIssue.image }}' srcset='{{ imageSize(pageFreshIssue.image).srcset() }}' alt='{{ pageFreshIssue.title }}' class='h-block h-margin-bottom--' style='max-height: 80vh;'>
   {{ pageFreshIssue.navTitle }}
 </a>
 
@@ -29,7 +29,7 @@ description: Специализированный журнал, посвящен
   {% for e in pageArchiveIssues %}
   <article class='o-grid__item h-1/3 h-margin-top'>
     <a href='{{ e.props.url }}'>
-      <img src='{{ e.props.image }}' alt='{{ e.props.title }}' class='h-block h-margin-bottom--'>
+      <img src='{{ e.props.image }}' srcset='{{ imageSize(e.props.image).srcset() }}' alt='{{ e.props.title }}' class='h-block h-margin-bottom--'>
       {{ e.props.navTitle }}
     </a>
   </article>

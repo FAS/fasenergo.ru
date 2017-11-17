@@ -71,7 +71,7 @@
   <div class=' o-grid h-childs-displace+'>
 
     <div class='o-grid__item h-2/7'>
-      <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photo }}' alt='{{ title|striptags }}'></a>
+      <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photo }}' srcset='{{ imageSize(photo).srcset() }}' alt='{{ title|striptags }}'></a>
     </div>
 
     <div class='o-grid__item h-3/7'>

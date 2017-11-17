@@ -27,13 +27,14 @@
 {% set size = getGeneratorSize(gen) %}
 {% set equipmentList = gen.equipment.list %}
 {% set mainPhoto = getGeneratorMainPhoto(gen).url %}
+{% set mainPhotoUrl = urljoin('/', PATH.images, (mainPhoto or 'no-photo.png')) %}
 
 <div vocab='http://schema.org/' typeof='Product'>
   <meta property='brand' content='{{ gen.manufacturer.brand }}'>
   <meta property='manufacturer' content='{{ gen.manufacturer.brand }}'>
   <meta property='name' content='{{ gen.title|striptags }}'>
   {% if mainPhoto %}
-  <meta property='image' content='/{{ PATH.images }}/{{ mainPhoto }}'>
+  <meta property='image' content='{{ mainPhotoUrl }}'>
   {% endif %}
 
   {% if gen.article %}
@@ -48,7 +49,7 @@
 
     <div class='o-grid__item h-5/9 h-1/3@lap h-align--center'>
       <a class='h-border-bottom0 js-smooth-jump' href='#photos'>
-        <img src='/{{ PATH.images }}/{{ mainPhoto or 'no-photo.png' }}' alt='{{ gen.title|striptags }}'>
+        <img src='{{ mainPhotoUrl }}' srcset='{{ imageSize(mainPhotoUrl).srcset() }}' alt='{{ gen.title|striptags }}'>
       </a>
     </div>
 
@@ -269,7 +270,7 @@
         {% if image %}
         <p>
           <a href='{{ url }}' class='js-metrica-product-click-solution g-link0 h-border-bottom0'>
-            <img src='{{ image }}' alt='{{ title }}' style='max-height: 95px;'>
+            <img src='{{ image }}' srcset='{{ imageSize(image).srcset() }}' alt='{{ title }}' style='max-height: 95px;'>
           </a>
         </p>
         {% endif %}
