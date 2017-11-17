@@ -44,10 +44,9 @@ const printImageSet = (set) => {
  * @param {string}   baseDir    Root dir, where build files stored. Used for paths resolving
  * @return {object[]} Same entries, but with removed `baseDir` from filepath
  */
-const stripBaseDir = (entries, baseDir) => entries.map((e) => {
-  e.name = e.name.replace(baseDir, '')
-  return e
-})
+const stripBaseDir = (entries, baseDir) =>
+  entries.map((e) => Object.assign({}, e, { name: e.name.replace(baseDir, '') })
+)
 
 /**
  * Get image size and its srcset
