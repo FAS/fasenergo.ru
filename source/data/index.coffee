@@ -27,8 +27,8 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       themeColor: '#252f38'
       locales: config('locales')
       baseLocale: config('baseLocale')
-      matter: readJSON(config('file.temp.data.matter'))
-      images: readJSON(config('file.temp.data.images'))
+      matter: () => readJSON(config('file.temp.data.matter'))
+      images: () => readJSON(config('file.temp.data.images'))
       googleAnalyticsId: 'UA-35704990-1'
       yandexMetrikaId: '20139793'
     PLACEHOLDERS:

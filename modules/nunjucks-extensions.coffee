@@ -111,6 +111,10 @@ module.exports = (env) ->
   env.addGlobal 'getPage', (path, forceRender = true, cached = true, ctx = @getVariables()) ->
     path = path.includes('/') and crumble(path) or path
     data = @ctx.SITE.matter
+
+    if typeof matter == 'function'
+      data = data()
+
     cachedData = () => @ctx.SITE.matterCache
     setDataCache = (value) => @ctx.SITE.matterCache = value
     renderData = (tmpl) => render(env, ctx, tmpl)
@@ -216,6 +220,11 @@ module.exports = (env) ->
 
 
   env.addGlobal 'imageSize', (src, baseDir = @ctx.PATH.build.root) ->
+    imagesData = @ctx.SITE.images
+
+    if typeof imagesData == 'function'
+      imagesData = imagesData()
+
     imageSize(src, @ctx.SITE.images, baseDir)
 
   ###*

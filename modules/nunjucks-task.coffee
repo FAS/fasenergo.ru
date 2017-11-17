@@ -47,7 +47,7 @@ module.exports = (config) =>
         preprocessData: (data) ->
           pagepath   = humanReadableUrl(@src[0].replace((@orig.cwd or @orig.orig.cwd), ''), humanReadableUrlsExclude)
           breadcrumb = crumble(pagepath)
-          pageProps  = (get(data.SITE.matter, breadcrumb) or {}).props
+          pageProps  = (get(data.SITE.matter(), breadcrumb) or {}).props
 
           data.PAGE = merge data.PAGE,
             props:
