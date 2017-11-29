@@ -7,7 +7,7 @@ module.exports = {
       {
         index: 197229,
         city: 'Санкт-Петербург',
-        street: 'п. Лахта, ул. Красных Партизан, д. 10 литер А',
+        street: 'п. Лахта, ул. Красных Партизан, д. 10, к. 1, литер А',
         yandexMapSrc: 'https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=zz08rnmsLRzMg4-TBs3zRWGJbxgsTuuf&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor',
         # @todo Enable when will be real photos
         # images: [{
