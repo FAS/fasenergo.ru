@@ -25,7 +25,7 @@ module.exports = (data) => {
     platform: 'Kotsu',
     version: data.SITE.version,
     agency: 'LotusTM',
-    email: 'hello@example.com', // @todo Which one?
+    email: f.email(data.CONTACTS.departments.emails[0]),
     currencies: [
       { id: 'RUR', rate: 1 },
       { id: 'USD', rate: 'CBRF' },
@@ -115,12 +115,13 @@ module.exports = (data) => {
       model: g.model,
       vendor: g.manufacturer.brand,
       vendorCode: g.article.toString(),
-      id: g.article.toString(), // @todo CHECK THAT IT NEVER CHANGES! @todo We use article here instead of SLUG
+      // @note Ensure it never changes
+      id: g.article.toString(),
       available: false,
-      bid: 20, // @todo What to set?
-      cbid: 50, // @todo What to set?
+      bid: 1,
+      cbid: 1,
       // fee: 10, // Because cpa disabled
-      // group_id: '13', // doesn't work for our categories
+      // group_id: '13', // Doesn't work for our categories
       url: urljoin(data.SITE.homepage, 'продукция/газовые-генераторы', g.slug),
       price: s.getGeneratorCurrentPrice(g),
       oldprice: g.priceBeforeDiscount,
@@ -129,10 +130,11 @@ module.exports = (data) => {
       picture: s.getGeneratorPhotosUrls(g)
         .filter((_, i) => i < 10)
         .map((url, i) => urljoin(data.SITE.homepage, data.PATH.images, url)),
-      store: true, // @todo Sale point has to be added in account
+      store: true,
       pickup: true,
-      delivery: true, // @todo Said to be  Если вы используете элемент store или pickup со значением true, убедитесь, что в личном кабинете указаны точки продаж или подключена доставка партнерами Маркета. В противном случае при проверке прайс-листа будет выдана ошибка.
-      // outlets: [ // @todo Unavailable data
+      delivery: true,
+      // @todo Unavailable data
+      // outlets: [
       //   { id: '205', instock: 20, booking: true }
       // ],
       'delivery-options': [
@@ -143,14 +145,15 @@ module.exports = (data) => {
       manufacturer_warranty: true,
       country_of_origin: g.manufacturer.country,
       adult: false,
-      // barcode: ['0156789012'], // @todo Unavailable data
+      // @todo Unavailable data
+      // barcode: ['0156789012'],
       cpa: 0,
       param: params,
       weight: weight,
       dimensions: (length && width && height && [length, width, height]
           .map((v) => v / 10) // To convert `mm` to required by Yandex `cm`
         ) || null,
-      rec: RECOMMENDED_GENERATORS.map((e) => e.article.toString()), // @todo Note that it might be slug!
+      rec: RECOMMENDED_GENERATORS.map((e) => e.article.toString()),
       vat: 'VAT_18'
     }, isNil))
   })
