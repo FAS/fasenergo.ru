@@ -1,9 +1,9 @@
 {% from '_components/_Icon.nj' import Icon with context %}
 
 {##
- # Display email number from contacts data
+ # Display email anchor based on contacts data
  #
- # @param {pbject} data Complex object with email data. See source/data/contacts.coffee
+ # @param {pbject} data   Complex object with email data. See source/data/contacts.coffee
  # @param {string} [class] CSS class for anchor
  #
  # @return {string} Email inside anchor
