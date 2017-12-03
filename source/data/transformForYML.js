@@ -25,7 +25,7 @@ module.exports = (data) => {
     platform: 'Kotsu',
     version: data.SITE.version,
     agency: 'LotusTM',
-    email: f.email(data.CONTACTS.departments.emails[0]),
+    email: f.email(data.CONTACTS.departments.sales.emails[0]),
     currencies: [
       { id: 'RUR', rate: 1 },
       { id: 'USD', rate: 'CBRF' },
