@@ -3,12 +3,13 @@
 {##
  # Displays link which opens on click dropdown with some content
  #
- # @param {number} price               Current item price (with discount)
- # @param {number} priceBeforeDiscount Price, which was before discount
- # @param {number} discount            Discount amount in %
- # @param {string} [class]             Class for main wrapper
- # @param {string} [priceClass]        Class for price
- #
+ # @param {number}   price               Current item price (with discount)
+ # @param {number}   priceBeforeDiscount Price, which was before discount
+ # @param {number}   discount            Discount amount in %
+ # @param {string}   [class]             Class for main wrapper
+ # @param {string}   [priceClass]        Class for price
+ # @param {boolean}  [columnOptims]      Should media optimizations for smaller
+ #                                       columns be enabled
  # @return {string} HTML
  #
  # @example
@@ -25,22 +26,23 @@
   priceBeforeDiscount,
   discount,
   class,
-  priceClass
+  priceClass,
+  columnOptims
 ) %}
-<div class='{{ class }} h-inline-block h-align--right'>
+<div class='{{ class }} h-inline-flex h-flex--column h-align--right'>
   {% set price = Price(price) %}
   {% set priceBeforeDiscount = Price(priceBeforeDiscount) %}
 
   <del aria-label='Цена до скидки: {{ priceBeforeDiscount }}'
-    class='h-block h-text- h-opacity--70 h-text--nowrap'
+    class='h-text- h-opacity--70 h-text--nowrap {{ 'h-order--last h-order--first@lap' if columnOptims }}'
   >{{ priceBeforeDiscount }}</del>
 
-  <div class='h-text--nowrap'>
+  <div class='h-text--nowrap {{ 'h-flex@lap' if columnOptims else 'h-flex' }} h-flex-y--center'>
     <div aria-label='Скидка: –{{ discount }}%'
-      class='discount-box h-inline-block h-align--middle h-margin-right--'
+      class='discount-box {{ 'h-margin-right--@lap h-margin-bottom-- h-margin-bottom0@lap' if columnOptims else 'h-margin-right--' }} h-inline-block'
     >–{{ discount }}%</div>
     <div aria-label='Цена: {{ price }}'
-      class='{{ priceClass }} h-inline-block h-align--middle'
+      class='{{ priceClass }}'
     >{{ price }}</div>
   </div>
 
