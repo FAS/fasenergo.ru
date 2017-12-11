@@ -19,6 +19,8 @@ description: Немецко-российские газовые генерато
     hLevel = 2,
     image = '/' + PATH.images + '/categories/газовые-генераторы.jpg',
     url = '/продукция/газовые-генераторы',
+    discount = getGeneratorsWithHighestDiscount(selectGenerators(GENERATORS)).discount,
+    discountDate = getGeneratorsWithHighestDiscount(selectGenerators(GENERATORS)).discountDate,
     class = 'h-margin-top+'
   ) %}{% endcall %}
 
