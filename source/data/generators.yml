@@ -1617,7 +1617,7 @@
   price: 460000
   priceBeforeDiscount: null
   discount: 10
-  discountDate: 2017-12-29
+  discountDate: '2017-12-29'
   availability: available
   warranty:
     delivery: 24
@@ -1734,7 +1734,7 @@
   price: 460000
   priceBeforeDiscount: null
   discount: 10
-  discountDate: 2017-12-29
+  discountDate: '2017-12-29'
   availability: available
   warranty:
     delivery: 24
