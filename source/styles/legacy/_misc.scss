@@ -67,9 +67,9 @@ $discount-badge-animation-displace: ekzo-space();
 
     padding-left: $discount-badge-animation-displace;
 
-    @extend .h-trans--all;
+    @extend .h-trans--all\+;
 
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 ekzo-border-radius('') ekzo-border-radius('') 0;
 
     text-align: center;
 
