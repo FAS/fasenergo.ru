@@ -1,0 +1,48 @@
+{% from '_components/_formatters.nj' import Price with context %}
+
+{##
+ # Displays link which opens on click dropdown with some content
+ #
+ # @param {number} price               Current item price (with discount)
+ # @param {number} priceBeforeDiscount Price, which was before discount
+ # @param {number} discount            Discount amount in %
+ # @param {string} [class]             Class for main wrapper
+ # @param {string} [priceClass]        Class for price
+ #
+ # @return {string} HTML
+ #
+ # @example
+ #  {{ Discount(
+ #    price = currentPrice,
+ #    priceBeforeDiscount = getGeneratorOriginalPrice(gen),
+ #    discount = gen.discount,
+ #    class = 'h-margin-bottom--',
+ #    priceClass = 'text-green h-h2'
+ #  ) }}
+ #}
+{% macro Discount(
+  price,
+  priceBeforeDiscount,
+  discount,
+  class,
+  priceClass
+) %}
+<div class='{{ class }} h-inline-block h-align--right'>
+  {% set price = Price(price) %}
+  {% set priceBeforeDiscount = Price(priceBeforeDiscount) %}
+
+  <del aria-label='Цена до скидки: {{ priceBeforeDiscount }}'
+    class='h-block h-text- h-opacity--70 h-text--nowrap'
+  >{{ priceBeforeDiscount }}</del>
+
+  <div class='h-text--nowrap'>
+    <div aria-label='Скидка: –{{ discount }}%'
+      class='discount-box h-inline-block h-align--middle h-margin-right--'
+    >–{{ discount }}%</div>
+    <div aria-label='Цена: {{ price }}'
+      class='{{ priceClass }} h-inline-block h-align--middle'
+    >{{ price }}</div>
+  </div>
+
+</div>
+{% endmacro %}
