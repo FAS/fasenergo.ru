@@ -96,3 +96,13 @@
     {{ numbro(p).format() }}{{ '/' if not loop.last }}
   {%- endfor -%}
 {%- endmacro -%}
+
+{##
+ # Output price as shorthand value
+ # @param {number} price Price to be formatted
+ # @return {string} Formatted price
+ # @example {{ Price(126000) }} -> '126 тыс. рублей'
+ #}
+{%- macro Price(price) -%}
+{{ _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей'])) }}
+{%- endmacro -%}
