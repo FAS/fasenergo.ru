@@ -54,12 +54,24 @@ const getFilterState = () => Object.keys($filters).reduce((state, key) => {
   return state
 }, {})
 
-const updateProducts = (state, limit = PRODUCTS_PER_PAGE) => {
-  console.log(state)
+const getDiscounted = ($items) => $items.filter(($i) => getItemData($i).discount)
+const rejectDiscounted = ($items) => $items.filter(($i) => !getItemData($i).discount)
 
+const prepareList = (state, init) => {
   const $filtered = filterItems($products, state)
   const $sorted = sortItems($filtered, state)
-  const $limited = (limit && limitItems($sorted, limit)) || $sorted
+
+  if (init) {
+    const $prioritizeDiscounted = getDiscounted($sorted).concat(rejectDiscounted($sorted))
+    return $prioritizeDiscounted
+  }
+
+  return $sorted
+}
+
+const updateProducts = (state, limit = PRODUCTS_PER_PAGE, init) => {
+  const $list = prepareList(state, init)
+  const $limited = (limit && limitItems($list, limit)) || $list
 
   // Hide everything that was exluded by filter
   $products.forEach(($product) =>
@@ -67,11 +79,11 @@ const updateProducts = (state, limit = PRODUCTS_PER_PAGE) => {
   )
 
   // Show "Show more" button whenever needed
-  $showAllBtnItems.innerHTML = $sorted.length - $limited.length
-  $sorted.length > $limited.length ? showItem($showAllBtn) : hideItem($showAllBtn)
+  $showAllBtnItems.innerHTML = $list.length - $limited.length
+  $list.length > $limited.length ? showItem($showAllBtn) : hideItem($showAllBtn)
 
   // Rearrenge elements by appending sorted to the end of container
-  prependChildren($productsContainer, $sorted)
+  prependChildren($productsContainer, $list)
 }
 
 const presetState = (state) => {
@@ -114,7 +126,7 @@ const sortItems = ($items, state) => [...$items].sort(($a, $b) => {
 
 if ($filtersContainer && $productsContainer) {
   // Init sorting
-  updateProducts(getFilterState())
+  updateProducts(getFilterState(), undefined, true)
 
   $filtersContainer.addEventListener('click', (e) => {
     const $target = e.target

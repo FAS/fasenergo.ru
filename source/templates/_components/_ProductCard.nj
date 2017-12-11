@@ -70,6 +70,7 @@
   data-product='{{ {
     power: power,
     price: price,
+    discount: discount,
     engineBrand: engineBrand,
     mode: mode,
     noise: noise,
