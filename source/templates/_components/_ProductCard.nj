@@ -1,4 +1,5 @@
 {% from '_components/_DropShower.nj' import DropShower with context %}
+{% from '_components/_Discount.nj' import Discount with context %}
 {% from '_components/_formatters.nj' import Price with context %}
 
 {##
@@ -10,6 +11,8 @@
  # @param {string} model                      Product model
  # @param {number} power                      Product max power
  # @param {number} [price]                    Product current price
+ # @param {number} [priceBeforeDiscount]      Product price which were before discount
+ # @param {number} [discount]                 Product current discount
  # @param {string} engineTitle                Product's engine title
  # @param {string} engineBrand                Product's engine brand
  # @param {string} engineCooling              Product's engine cooling type
@@ -48,6 +51,8 @@
   model,
   power,
   price,
+  priceBeforeDiscount,
+  discount,
   engineTitle,
   engineBrand,
   engineCooling,
@@ -90,7 +95,18 @@
     <div class='o-grid__item h-2/7'>
 
       {% if price %}
+      {# @todo Temporary fix for numbro issue with lack of space before RUB #}
+      {% if discount %}
+      {{ Discount(
+        price = price,
+        priceBeforeDiscount = priceBeforeDiscount,
+        discount = discount,
+        class = 'h-margin-bottom',
+        priceClass = 'h-h5'
+      ) }}
+      {% else %}
       <p aria-label='Цена: {{ priceFormatted }}' class='h-h5'>{{ priceFormatted }}</p>
+      {% endif %}
       {% endif %}
 
       {% if equipment %}

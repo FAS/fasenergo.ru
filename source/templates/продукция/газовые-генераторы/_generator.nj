@@ -4,6 +4,7 @@
 {% from '_components/_ProductCardVert.nj' import ProductCardVert with context %}
 {% from '_components/_Icon.nj' import Icon with context %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_Discount.nj' import Discount with context %}
 {% from '_components/_formatters.nj' import PowersList, Price with context %}
 
 {% if not PAGE.props.generatorId %}{{ warn('No generator id provided in `generatorId` of page Matter data') }}{% endif %}
@@ -87,13 +88,13 @@
             {% if not isDiscontinued %}
             <meta property='price' content='{{ currentPrice }}'>
             {% if gen.discount %}
-            <div class='h-margin-bottom-- h-inline-block'>
-              <del class='h-block h-text- h-align--right h-opacity--70 h-text--nowrap'>{{ numbro(getGeneratorOriginalPrice(gen)).formatCurrency() }}</del>
-              <div>
-                <div class='discount-box h-inline-block h-align--middle h-align--right h-margin-right-- h-text--nowrap'>–{{ gen.discount }}%</div>
-                <div class='h-h2 h-inline-block h-align--middle h-align--right text-green h-text--nowrap'>{{ currentPriceFormatted }}</div>
-              </div>
-            </div>
+            {{ Discount(
+              price = currentPrice,
+              priceBeforeDiscount = getGeneratorOriginalPrice(gen),
+              discount = gen.discount,
+              class = 'h-margin-bottom--',
+              priceClass = 'text-green h-h3'
+            ) }}
             {% else %}
             <p aria-label='Цена: {{ currentPriceFormatted }}'
               class='h-margin-bottom-- h-h2 text-green h-text--nowrap'
