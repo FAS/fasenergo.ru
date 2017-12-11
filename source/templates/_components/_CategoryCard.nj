@@ -1,3 +1,5 @@
+{% from '_components/_formatters.nj' import DateEnd with context %}
+
 {##
  # Display catalog category card
  #
@@ -55,7 +57,7 @@
   <span class='discount-badge__badge'>
     <span class='discount-badge__text'>–{{ discount }}%</span>
     {% if discountDate %}
-    <span class='discount-badge__subtext'>До {{ moment(discountDate).format('DD MMM') }}</span>
+    <span class='discount-badge__subtext'>{{ DateEnd(discountDate) }}</span>
     {% endif %}
   </span>
   {% endif %}

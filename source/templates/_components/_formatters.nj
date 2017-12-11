@@ -106,3 +106,13 @@
 {%- macro Price(price) -%}
 {{ _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей'])) }}
 {%- endmacro -%}
+
+{##
+ # Output date in specific format
+ # @param {number} date Valid ISO date
+ # @return {string} Formatted date
+ # @example {{ DateEnd(2017-12-29) }} -> 'До 29 дек.'
+ #}
+{%- macro DateEnd(date, message = 'До ') -%}
+{{ message }}{{ moment(date).format('DD MMM') }}
+{%- endmacro -%}

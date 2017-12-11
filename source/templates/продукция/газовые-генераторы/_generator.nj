@@ -5,7 +5,7 @@
 {% from '_components/_Icon.nj' import Icon with context %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 {% from '_components/_Discount.nj' import Discount with context %}
-{% from '_components/_formatters.nj' import PowersList, Price with context %}
+{% from '_components/_formatters.nj' import PowersList, Price, DateEnd with context %}
 
 {% if not PAGE.props.generatorId %}{{ warn('No generator id provided in `generatorId` of page Matter data') }}{% endif %}
 {% set gen = selectGenerator(GENERATORS, PAGE.props.generatorId) %}
@@ -95,6 +95,9 @@
               class = 'h-margin-bottom--',
               priceClass = 'text-green h-h3'
             ) }}
+            {% if gen.discountDate %}
+            <p class='h-text- h-margin-bottom--'><i>{{ DateEnd(gen.discountDate, 'Акция до ') }}</i></p>
+            {% endif %}
             {% else %}
             <p aria-label='Цена: {{ currentPriceFormatted }}'
               class='h-margin-bottom-- h-h2 text-green h-text--nowrap'
