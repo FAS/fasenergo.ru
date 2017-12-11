@@ -15,6 +15,7 @@
   price: 126000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -105,6 +106,7 @@
   price: 116000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -198,6 +200,7 @@
   price: 163000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -288,6 +291,7 @@
   price: 147000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -381,6 +385,7 @@
   price: 208000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -471,6 +476,7 @@
   price: 180000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -564,6 +570,7 @@
   price: 257000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: discontinued
   warranty:
     delivery: 24
@@ -654,6 +661,7 @@
   price: 229000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: discontinued
   warranty:
     delivery: 24
@@ -747,6 +755,7 @@
   price: 320000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -837,6 +846,7 @@
   price: 290000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -930,6 +940,7 @@
   price: 390000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -1020,6 +1031,7 @@
   price: 360000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -1113,6 +1125,7 @@
   price: 360000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -1235,6 +1248,7 @@
   price: 385000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -1357,6 +1371,7 @@
   price: 400000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: available
   warranty:
     delivery: 24
@@ -1479,6 +1494,7 @@
   price: 400000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: available
   warranty:
     delivery: 24
@@ -1601,6 +1617,7 @@
   price: 460000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: available
   warranty:
     delivery: 24
@@ -1717,6 +1734,7 @@
   price: 460000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: available
   warranty:
     delivery: 24
@@ -1833,6 +1851,7 @@
   price: 500000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -1949,6 +1968,7 @@
   price: 500000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -2065,6 +2085,7 @@
   price: 510000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -2186,6 +2207,7 @@
   price: 510000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -2301,6 +2323,7 @@
   price: 510000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -2417,6 +2440,7 @@
   price: 550000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -2533,6 +2557,7 @@
   price: 580000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -2654,6 +2679,7 @@
   price: 600000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -2775,6 +2801,7 @@
   price: 1240000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -2888,6 +2915,7 @@
   price: 1290000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -3001,6 +3029,7 @@
   price: 2100000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -3106,6 +3135,7 @@
   price: 2300000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -3211,6 +3241,7 @@
   price: 3900000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -3319,6 +3350,7 @@
   price: 4000000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -3427,6 +3459,7 @@
   price: 6200000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -3534,6 +3567,7 @@
   price: 2450000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -3638,6 +3672,7 @@
   price: 440000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: discontinued
   warranty:
     delivery: 24
@@ -3748,6 +3783,7 @@
   price: 460000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: discontinued
   warranty:
     delivery: 24
@@ -3858,6 +3894,7 @@
   price: 495000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -3971,6 +4008,7 @@
   price: 495000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -4084,6 +4122,7 @@
   price: 530000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -4197,6 +4236,7 @@
   price: 530000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -4310,6 +4350,7 @@
   price: 560000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -4422,6 +4463,7 @@
   price: 590000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -4535,6 +4577,7 @@
   price: 620000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -4648,6 +4691,7 @@
   price: null
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: discontinued
   warranty:
     delivery: 24
@@ -4761,6 +4805,7 @@
   price: 915000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24
@@ -4856,6 +4901,7 @@
   price: 915000
   priceBeforeDiscount: null
   discount: null
+  discountDate: null
   availability: preorder
   warranty:
     delivery: 24

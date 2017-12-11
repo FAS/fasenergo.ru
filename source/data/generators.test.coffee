@@ -23,6 +23,7 @@ module.exports = Generators = r.EqualKeyAndProp('slug') t.dict t.String, t.struc
   price: t.maybe t.Number
   priceBeforeDiscount: t.maybe t.Number
   discount: t.maybe t.Number
+  discountDate: t.maybe r.Date
   availability: t.enums.of ['available', 'preorder', 'discontinued']
   warranty: t.struct
     delivery: t.maybe t.Number
