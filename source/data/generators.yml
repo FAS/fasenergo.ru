@@ -1616,8 +1616,8 @@
   title: Газовый генератор <span class='text-red'>ФАС-15-1/ВР</span> (15 кВт)
   price: 460000
   priceBeforeDiscount: null
-  discount: null
-  discountDate: null
+  discount: 10
+  discountDate: 2017-12-29
   availability: available
   warranty:
     delivery: 24
@@ -1733,8 +1733,8 @@
   title: Газовый генератор <span class='text-red'>ФАС-15-3/ВР</span> (15 кВт)
   price: 460000
   priceBeforeDiscount: null
-  discount: null
-  discountDate: null
+  discount: 10
+  discountDate: 2017-12-29
   availability: available
   warranty:
     delivery: 24
