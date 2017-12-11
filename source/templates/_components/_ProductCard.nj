@@ -1,4 +1,5 @@
 {% from '_components/_DropShower.nj' import DropShower with context %}
+{% from '_components/_formatters.nj' import Price with context %}
 
 {##
  # Display product card
@@ -57,6 +58,8 @@
   warrantyFromInstallation,
   warrantyServiceLife
 ) %}
+{% set priceFormatted = Price(price) %}
+
 <article
   class='js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
   data-product='{{ {
@@ -87,10 +90,7 @@
     <div class='o-grid__item h-2/7'>
 
       {% if price %}
-      {# @todo Temporary fix for numbro issue with lack of space before RUB #}
-      <p class='h-h5'>{{
-        _.replace(numbro(price).formatCurrency('0.[00] a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей']))
-      }}</p>
+      <p aria-label='Цена: {{ priceFormatted }}' class='h-h5'>{{ priceFormatted }}</p>
       {% endif %}
 
       {% if equipment %}

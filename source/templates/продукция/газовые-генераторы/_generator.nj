@@ -4,7 +4,7 @@
 {% from '_components/_ProductCardVert.nj' import ProductCardVert with context %}
 {% from '_components/_Icon.nj' import Icon with context %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
-{% from '_components/_formatters.nj' import PowersList with context %}
+{% from '_components/_formatters.nj' import PowersList, Price with context %}
 
 {% if not PAGE.props.generatorId %}{{ warn('No generator id provided in `generatorId` of page Matter data') }}{% endif %}
 {% set gen = selectGenerator(GENERATORS, PAGE.props.generatorId) %}
@@ -16,7 +16,7 @@
 {% set warrantyFromInstallation = gen.warranty.installation  %}
 {% set warrantyServiceLife = gen.warranty.serviceLife %}
 {% set currentPrice = getGeneratorCurrentPrice(gen) %}
-{% set currentPriceFormatted = numbro(currentPrice).formatCurrency() %}
+{% set currentPriceFormatted = Price(currentPrice) %}
 {% set isDiscontinued = generatorIsDiscontinued(gen) %}
 {% set isAvailable = generatorIsAvailable(gen) %}
 {% set powers = getGeneratorMaxPowers(gen) %}
@@ -95,7 +95,9 @@
               </div>
             </div>
             {% else %}
-            <p class='h-margin-bottom-- h-h1 text-green h-text--nowrap'>{{ currentPriceFormatted }}</p>
+            <p aria-label='Цена: {{ currentPriceFormatted }}'
+              class='h-margin-bottom-- h-h2 text-green h-text--nowrap'
+            >{{ currentPriceFormatted }}</p>
             {% endif %}
             {% endif %}
 
