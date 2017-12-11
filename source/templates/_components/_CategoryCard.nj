@@ -55,7 +55,7 @@
   <span class='discount-badge__badge'>
     <span class='discount-badge__text'>–{{ discount }}%</span>
     {% if discountDate %}
-    <span class='discount-badge__subtext'>{{ discountDate }}</span>
+    <span class='discount-badge__subtext'>До {{ moment(discountDate).format('DD MMM') }}</span>
     {% endif %}
   </span>
   {% endif %}
