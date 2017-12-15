@@ -197,7 +197,7 @@
   series: null
   model: ФАС-6/1ЛП
   title: Газовый генератор <span class='text-red'>ФАС-6/1ЛП</span> (6 кВт)
-  price: 163000
+  price: 206000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -288,7 +288,7 @@
   series: null
   model: ФАС-6/1ЛМ
   title: Газовый генератор <span class='text-red'>ФАС-6/1ЛМ</span> (6 кВт)
-  price: 147000
+  price: 178000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
