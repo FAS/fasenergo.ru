@@ -5,6 +5,8 @@ nunjucksTask = require('../modules/nunjucks-task')
 
 module.exports = ({ config, file: { readJSON } }) ->
   selectors = require(join('../', config('path.source.data'), 'selectors'))
+  generatorsSelectors = require(join('../', config('path.source.data'), 'generators.selectors'))
+  generatorsOptionsSelectors = require(join('../', config('path.source.data'), 'generators.options.selectors.js'))
   formatters = require(join('../', config('path.source.data'), 'formatters'))
 
   ###
@@ -25,6 +27,8 @@ module.exports = ({ config, file: { readJSON } }) ->
 
     configureEnvironment : (env) ->
       selectors.nunjucksExtensions(env)
+      generatorsSelectors.nunjucksExtensions(env)
+      generatorsOptionsSelectors.nunjucksExtensions(env)
       formatters.nunjucksExtensions(env)
 
   getLocalesNames(options.locales).forEach (currentLocale) =>
