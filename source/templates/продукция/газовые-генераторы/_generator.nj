@@ -29,6 +29,7 @@
 {% set equipmentList = gen.equipment.list %}
 {% set mainPhoto = getGeneratorMainPhoto(gen).url %}
 {% set mainPhotoUrl = urljoin('/', PATH.images, (mainPhoto or 'no-photo.png')) %}
+{% set options = getGeneratorOptions(gen, GENERATORS_OPTIONS) %}
 
 <div vocab='http://schema.org/' typeof='Product'>
   <meta property='brand' content='{{ gen.manufacturer.brand }}'>
@@ -312,6 +313,19 @@
       {% endif %}
 
     </div>
+
+    {% if options %}
+    <ul class='h-margin-top'>
+      {% for e in options %}
+      <li>
+        <p>{{ e.title }} — {{ Price(e.price) }}</p>
+        {% if e.description %}
+        <p class='h-text- h-bleed-top--'>{{ e.description }}</p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
 
   </section>
 
