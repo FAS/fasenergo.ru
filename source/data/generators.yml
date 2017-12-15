@@ -39,6 +39,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -133,6 +139,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -224,6 +236,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -318,6 +336,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -409,6 +433,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -503,6 +533,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -594,6 +630,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -688,6 +730,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -779,6 +827,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -873,6 +927,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -964,6 +1024,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -1058,6 +1124,12 @@
   equipment:
     AST: false
     list: null
+    optionsIds:
+      - 6030624
+      - 6080843
+      - 7000697
+      - 7000698
+      - 7000699
   specs:
     power:
       ng:
@@ -1180,6 +1252,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -1303,6 +1376,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -1426,6 +1500,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -1549,6 +1624,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -1666,6 +1742,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -1783,6 +1860,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -1900,6 +1978,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -2017,6 +2096,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -2139,6 +2219,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -2256,6 +2337,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -2372,6 +2454,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -2489,6 +2572,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -2611,6 +2695,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -2733,6 +2818,13 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds:
+      - 7000689
+      - 7000690
+      - 7000691
+      - 7000692
+      - 7000693
+      - 7000694
   specs:
     power:
       ng:
@@ -2847,6 +2939,9 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds:
+      - 96973
+      - heat-module-1
   specs:
     power:
       ng:
@@ -2961,6 +3056,14 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds:
+      - 7000683
+      - 7000684
+      - 7000685
+      - 7000686
+      - 7000687
+      - 7000688
+      - heat-module-1
   specs:
     power:
       ng:
@@ -3067,6 +3170,8 @@
       <li>Контроллер нештатной работы генераторной установки</li>
       <li>Комплект эксплуатационной документации</li>
       <li>Гарантийный талон</li>
+    optionsIds:
+      - heat-module-2
   specs:
     power:
       ng:
@@ -3173,6 +3278,8 @@
       <li>Контроллер нештатной работы генераторной установки</li>
       <li>Комплект эксплуатационной документации</li>
       <li>Гарантийный талон</li>
+    optionsIds:
+      - heat-module-2
   specs:
     power:
       ng:
@@ -3282,6 +3389,8 @@
       <li>Контроллер нештатной работы генераторной установки</li>
       <li>Комплект эксплуатационной документации</li>
       <li>Гарантийный талон</li>
+    optionsIds:
+      - heat-module-3
   specs:
     power:
       ng:
@@ -3391,6 +3500,8 @@
       <li>Контроллер нештатной работы генераторной установки</li>
       <li>Комплект эксплуатационной документации</li>
       <li>Гарантийный талон</li>
+    optionsIds:
+      - heat-module-3
   specs:
     power:
       ng:
@@ -3500,6 +3611,8 @@
       <li>Контроллер нештатной работы генераторной установки</li>
       <li>Комплект эксплуатационной документации</li>
       <li>Гарантийный талон</li>
+    optionsIds:
+      - heat-module-4
   specs:
     power:
       ng:
@@ -3603,6 +3716,7 @@
     list: >
       <li>Газопоршневая установка <a href='/продукция/газовые-генераторы/фас-50-3-м-50-квт'>ФАС-50-3/М</a></li>
       <li>Тепловой модуль ФАС-ТМ100</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -3715,6 +3829,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -3826,6 +3941,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -3940,6 +4056,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -4054,6 +4171,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -4168,6 +4286,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -4282,6 +4401,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -4396,6 +4516,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -4509,6 +4630,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -4623,6 +4745,13 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds:
+      - 7000689
+      - 7000690
+      - 7000691
+      - 7000692
+      - 7000693
+      - 7000694
   specs:
     power:
       ng:
@@ -4738,6 +4867,7 @@
       <li>Гарантийный талон</li>
       <li>Масло Shell SAE 5W-40</li>
       <li>Антифриз</li>
+    optionsIds: null
   specs:
     power:
       ng:
@@ -4834,6 +4964,7 @@
   equipment:
     AST: null
     list: null
+    optionsIds: null
   specs:
     power:
       ng:
@@ -4930,6 +5061,8 @@
   equipment:
     AST: true
     list: null
+    optionsIds:
+      - 7000696
   specs:
     power:
       ng:
