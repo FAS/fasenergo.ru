@@ -79,6 +79,7 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       hotModuleRloading: config('env.hotModuleRloading')
     CONTACTS: require('./contacts')
     GENERATORS: readYAML join(__dirname, 'generators.yml')
+    GENERATORS_OPTIONS: readYAML join(__dirname, 'generators.options.yml')
     ENGINES: readYAML join(__dirname, 'engines.yml')
 
   return (locale) -> switch locale
