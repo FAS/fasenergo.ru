@@ -92,6 +92,7 @@ module.exports = Generators = r.EqualKeyAndProp('slug') t.dict t.String, t.struc
     ATS: t.maybe t.Boolean
     # Общий список включенного оборудования
     list: t.maybe t.union [t.String, t.list(t.String), r.False]
+    optionsIds: t.maybe t.list(t.String)
 
   engine: t.maybe t.enums.of(Object.keys(ENGINES))
 
@@ -127,6 +128,6 @@ module.exports = Generators = r.EqualKeyAndProp('slug') t.dict t.String, t.struc
 }, { name: 'Generator', strict: true }), 'Generators'
 
 if typeof describe == 'function'
-  describe 'Engines', () =>
+  describe 'Generators', () =>
     it 'should match schema structure and types', () =>
       expect(() => validate(GENERATORS, Generators)).not.toThrow()
