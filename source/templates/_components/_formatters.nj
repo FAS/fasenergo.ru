@@ -104,7 +104,7 @@
  # @example {{ Price(126000) }} -> '126 тыс. рублей'
  #}
 {%- macro Price(price) -%}
-{{ _.replace(numbro(price).formatCurrency('0 a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей'])) }}
+{{ _.replace(numbro(price).formatCurrency('3 a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей'])) }}
 {%- endmacro -%}
 
 {##
