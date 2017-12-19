@@ -1,3 +1,5 @@
+{% from '_components/_Image.nj' import Image with context %}
+
 {##
  # Display photos previwer with thumbnails switcher
  #
@@ -20,9 +22,14 @@
   <div class='js-photos-block__main'>
     {% set photoUrl = urljoin(imagesPath, '/', photos[0].url) %}
 
-    <a class='h-block h-border-bottom0' style='height: 600px' href='{{ photoUrl }}'>
-      <img class='h-height-1/1' style='object-fit: contain' src='{{ photoUrl }}' srcset='{{ imageSize(photoUrl).srcset() }}' alt='{{ photos[0].alt or alt }}'>
-    </a>
+    {{ Image(
+      src = photoUrl,
+      alt = photos[0].alt or alt,
+      class = 'h-margin-ends0',
+      linkStyle = 'height: 600px',
+      imgClass = 'h-height-1/1 h-margin-bottom0',
+      imgStyle = 'object-fit: contain;'
+    ) }}
   </div>
 
   {% if photos.length > 1 %}
