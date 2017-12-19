@@ -18,7 +18,8 @@ SystemJS.config({
     "map": {
       "plugin-babel": "npm:systemjs-plugin-babel@0.0.21",
       "systemjs-hot-reloader": "npm:systemjs-hot-reloader@1.1.0",
-      "systemjs-plugin-json": "npm:systemjs-plugin-json@0.3.0"
+      "systemjs-plugin-json": "npm:systemjs-plugin-json@0.3.0",
+      "systemjs-plugin-css": "npm:systemjs-plugin-css@0.1.36"
     },
     "packages": {
       "npm:systemjs-hot-reloader@1.1.0": {
@@ -37,6 +38,9 @@ SystemJS.config({
         "*.js": {
           "loader": "plugin-babel"
         },
+        "*.css": {
+          "loader": "css"
+        },
         "*.json": {
           "loader": "systemjs-plugin-json"
         }
@@ -44,7 +48,8 @@ SystemJS.config({
     }
   },
   map: {
-    "@hot": "@empty"
+    "@hot": "@empty",
+    "css": "npm:systemjs-plugin-css@0.1.36"
   }
 });
 
@@ -61,6 +66,7 @@ SystemJS.config({
     "jump.js": "npm:jump.js@1.0.2",
     "lodash": "npm:lodash@4.17.4",
     "path": "npm:jspm-nodelibs-path@0.2.3",
+    "photoswipe": "npm:photoswipe@4.1.2",
     "process": "npm:jspm-nodelibs-process@0.2.1"
   },
   packages: {

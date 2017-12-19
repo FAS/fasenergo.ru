@@ -11,6 +11,7 @@ import './plugins/expand'
 import './plugins/drawer'
 import './plugins/catalogFilter'
 import './plugins/mailchimp'
+import photoSwiper from './plugins/photoswiper'
 import jump from './plugins/jump'
 
 $(() => {
@@ -22,6 +23,7 @@ $(() => {
   $('.js-scroll-on-click').scrollOnClick()
   $('.js-expand').expand()
   $('.js-drawer').drawer()
+  photoSwiper()
 
   /**
    * Switcher of photos on Product page

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoSwiper \`getImages()\` should get images data 1`] = `
+Array [
+  Object {
+    "$thumbnail": <img
+      alt="Thumbnail-1 alt"
+      src="/thumbnail-1.png"
+    />,
+    "h": 150,
+    "msrc": "/thumbnail-1.png",
+    "src": "/image-1.png",
+    "title": "Thumbnail-1 caption",
+    "w": 100,
+  },
+  Object {
+    "$thumbnail": <img
+      alt="Thumbnail-2 alt"
+      src="/thumbnail-2.png"
+    />,
+    "h": 250,
+    "msrc": "/thumbnail-2.png",
+    "src": "/image-2.png",
+    "title": "Thumbnail-2 caption",
+    "w": 200,
+  },
+]
+`;
+
+exports[`PhotoSwiper should work with galleries 1`] = `
+Object {
+  "index": 0,
+  "items": Array [
+    Object {
+      "$thumbnail": <img
+        alt="Thumbnail-1 alt"
+        src="/thumbnail-1.png"
+      />,
+      "h": 150,
+      "msrc": "/thumbnail-1.png",
+      "src": "/image-1.png",
+      "title": "Thumbnail-1 caption",
+      "w": 100,
+    },
+    Object {
+      "$thumbnail": <img
+        alt="Thumbnail-2 alt"
+        src="/thumbnail-2.png"
+      />,
+      "h": 250,
+      "msrc": "/thumbnail-2.png",
+      "src": "/image-2.png",
+      "title": "Thumbnail-2 caption",
+      "w": 200,
+    },
+  ],
+}
+`;
+
+exports[`PhotoSwiper should work with galleries 2`] = `
+Object {
+  "index": 1,
+  "items": Array [
+    Object {
+      "$thumbnail": <img
+        alt="Thumbnail-3 alt"
+        src="/thumbnail-3.png"
+      />,
+      "h": 350,
+      "msrc": "/thumbnail-3.png",
+      "src": "/image-3.png",
+      "title": "Thumbnail-3 caption",
+      "w": 300,
+    },
+    Object {
+      "$thumbnail": <img
+        alt="Thumbnail-4 alt"
+        src="/thumbnail-4.png"
+      />,
+      "h": 450,
+      "msrc": "/thumbnail-4.png",
+      "src": "/image-4.png",
+      "title": "Thumbnail-4 caption",
+      "w": 400,
+    },
+  ],
+}
+`;
