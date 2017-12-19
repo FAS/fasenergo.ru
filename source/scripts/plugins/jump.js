@@ -4,6 +4,13 @@
 import jump from 'jump.js'
 
 /**
+ * Get hash part from URL. Processes cases like `#&gid=1&pid=1`
+ * @param  {string} url URL to process
+ * @return {string} Hash, without leading `#`
+ */
+const getHash = (url) => url.match(/#(.*?)($|&)/)[1]
+
+/**
  * Wrapper around `jump.js` to ensure that jumping occurs only to existing elements
  * @param {Element|string} target Element to which jump should occur or valid query
  * @return {void}
@@ -24,8 +31,8 @@ const jumpSafely = (target) => {
  * @return {void}
  */
 const jumpFrom = ($from) => {
-  const hash = $from && $from.getAttribute('href').replace(/^.*?(#|$)/, '')
-  jumpSafely(`#${hash}`)
+  const href = $from && $from.getAttribute('href')
+  jumpSafely(`${getHash(href)}`)
 }
 
 /**
@@ -39,7 +46,7 @@ const jumpFrom = ($from) => {
 export default () => {
   // Jump smoothly if url has hash on page load
   // Note, that it won't work for page transitions :(
-  jumpSafely(window.location.hash)
+  jumpSafely(getHash(window.location.hash))
 
   document.addEventListener('click', (e) => {
     const $target = e.target
