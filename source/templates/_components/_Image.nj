@@ -8,6 +8,10 @@
  # @param {string}           [width]     Which `max-width` should be set on main container
  # @param {boolean}          [center]    Center or no image
  # @param {boolean}          [inGallery] Is image a part of gallery. If not, it will open standalone lightbox
+ # @param {string}           [class]     Main wrapper class
+ # @param {string}           [linkStyle] Link style
+ # @param {string}           [imgClass]  Image class
+ # @param {string}           [imgStyle]  Image style
  #
  # @return {string} Figure
  #
@@ -20,11 +24,11 @@
  #     center = true
  #   ) }}
  #}
-{% macro Image(src, caption, alt, position, width, center, inGallery) %}
+{% macro Image(src, caption, alt, position, width, center, inGallery, class, linkStyle, imgClass, imgStyle) %}
 {% set positionClass = 'g-image--left' if position == 'left' else ('g-image--right' if position == 'right') %}
 {% set image = imageSize(src) %}
 
-<figure class='{{ 'js-photoswiper' if not inGallery }} {{ positionClass if positionClass else 'h-margin-ends+' }}'
+<figure class='{{ 'js-photoswiper' if not inGallery }} {{ class }} {{ positionClass if positionClass else 'h-margin-ends+' }}'
   style='{{ 'max-width: ' + width if width }}'
 >
 
@@ -32,8 +36,14 @@
     href='{{ image.src }}'
     data-width='{{ image.width }}'
     data-height='{{ image.height }}'
+    style='{{ linkStyle }}'
   >
-    <img class='h-margin-bottom--' src='{{ image.src }}' srcset='{{ image.srcset() }}' alt='{{ alt if alt }}' style='max-height: 80vh;'>
+    <img class='{{ imgClass }} h-margin-bottom--'
+      src='{{ image.src }}'
+      srcset='{{ image.srcset() }}'
+      alt='{{ alt if alt }}'
+      style='{{ imgStyle }} max-height: 80vh;'
+    >
   </a>
 
   {% if caption %}
