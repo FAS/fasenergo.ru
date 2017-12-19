@@ -17,22 +17,19 @@ import 'photoswipe/dist/default-skin/default-skin.css!'
  * @param  {string}  selector Matching images selector
  * @return {object[]} Array with data about each image
  */
-export const getImages = ($parent, selector) => {
-  const $imagesLinks = $parent.querySelectorAll(selector)
+export const getImagesData = ($entries) => [...$entries].map(($link) => {
+  const $thumbnail = $link.querySelector('img')
+  const $figcaption = $link.parentNode.querySelector('figcaption')
 
-  return [...$imagesLinks].map(($link) => {
-    const $thumbnail = $link.querySelector('img')
-    const $figcaption = $link.parentNode.querySelector('figcaption')
-
-    return {
-      $thumbnail,
-      title: $figcaption && $figcaption.innerHTML,
-      src: $link.getAttribute('href'),
-      msrc: $thumbnail && $thumbnail.getAttribute('src'),
-      w: +$link.getAttribute('data-width'),
-      h: +$link.getAttribute('data-height')
-    }
-  })
+  return {
+    $thumbnail,
+    title: $figcaption && $figcaption.innerHTML,
+    src: $link.getAttribute('href'),
+    msrc: $thumbnail && $thumbnail.getAttribute('src'),
+    w: +$link.getAttribute('data-width'),
+    h: +$link.getAttribute('data-height')
+  }
+})
 }
 
 /**
@@ -111,7 +108,7 @@ const photoSwiper = (
       $links.forEach(($link, index) => {
         if ($link.contains(e.target)) {
           e.preventDefault()
-          openPhotoswipe(index, $gallery, getImages($gallery, imageSelector), lightboxSelector)
+          openPhotoswipe(index, $gallery, getImagesData($links), lightboxSelector)
         }
       })
     })

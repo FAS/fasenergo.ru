@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PhotoSwiper \`getImages()\` should get images data 1`] = `
+exports[`PhotoSwiper \`getImagesData()\` should get images data 1`] = `
 Array [
   Object {
     "$thumbnail": <img

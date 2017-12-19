@@ -5,7 +5,7 @@
 /* eslint-env jest */
 
 import '../../source/scripts/polyfill'
-import photoSwiper, { getImages } from '../../source/scripts/plugins/photoswiper'
+import photoSwiper, { getImagesData } from '../../source/scripts/plugins/photoswiper'
 
 let activePhotoswipe
 
@@ -37,7 +37,7 @@ const Image = (thumbnail, image, width, height, alt, caption) => `
 `
 
 describe('PhotoSwiper', () => {
-  describe('`getImages()`', () => {
+  describe('`getImagesData()`', () => {
     it('should get images data', () => {
       document.body.innerHTML = `
         ${Image('/thumbnail-1.png', '/image-1.png', 100, 150, 'Thumbnail-1 alt', 'Thumbnail-1 caption')}
