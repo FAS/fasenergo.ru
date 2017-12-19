@@ -19,6 +19,18 @@ if (window.Element && !Element.prototype.closest) {
   }
 }
 
+if (!Element.prototype.closest) {
+  Element.prototype.closest = function (s) {
+    var el = this
+    if (!document.documentElement.contains(el)) return null
+    do {
+      if (el.matches(s)) return el
+      el = el.parentElement || el.parentNode
+    } while (el !== null)
+    return null
+  }
+}
+
 // Polyfill `Element.matches` for older browsers, including IE11 and lower
 // @source https://developer.mozilla.org/en/docs/Web/API/Element/matches
 if (!Element.prototype.matches) {
