@@ -16,6 +16,15 @@ module.exports = () ->
           dest: '<%= path.build.docs %>/'
         ]
 
+      # @todo Terrible workaround to lack of file loader for CSS for JSPM/SystemJS
+      jspm_assets:
+        files: if @config('env.build') then [
+          expand: true
+          cwd: 'jspm_packages'
+          src: ['**/*.{jpg,png,gif,svg}']
+          dest: '<%= path.build.root %>/jspm_packages'
+        ] else []
+
   ###
   Watch
   https://github.com/gruntjs/grunt-contrib-watch
