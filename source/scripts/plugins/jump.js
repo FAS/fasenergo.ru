@@ -6,9 +6,12 @@ import jump from 'jump.js'
 /**
  * Get hash part from URL. Processes cases like `#&gid=1&pid=1`
  * @param  {string} url URL to process
- * @return {string} Hash, without leading `#`
+ * @return {string} Hash
  */
-const getHash = (url) => url.match(/#(.*?)($|&)/)[1]
+const getHash = (url) => {
+  const hash = url && url.match(/#(.*?)($|&)/)[1]
+  return hash ? `#${hash}` : false
+}
 
 /**
  * Wrapper around `jump.js` to ensure that jumping occurs only to existing elements
@@ -32,7 +35,7 @@ const jumpSafely = (target) => {
  */
 const jumpFrom = ($from) => {
   const href = $from && $from.getAttribute('href')
-  jumpSafely(`${getHash(href)}`)
+  jumpSafely(getHash(href))
 }
 
 /**
