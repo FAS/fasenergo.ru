@@ -30,6 +30,31 @@ export const getImagesData = ($entries) => [...$entries].map(($link) => {
     h: +$link.getAttribute('data-height')
   }
 })
+
+/**
+ * Find all galleries and orphan images — images, which are not grouped
+ * into any gallery.
+ * Orphan images represented as standalone gallery.
+ * @param  {string} selector      Galleries to be watched
+ * @param  {string} imageSelector Galleries images
+ * @return {Array[]|Element[]} Grouped galleries and orphans as standalone gallery
+ */
+export const getGalleries = (selector, imageSelector) => {
+  const $galleries = document.querySelectorAll(selector)
+  const $images = document.querySelectorAll(imageSelector)
+
+  const $orphans = [...$images].reduce(($orphans, $image) => {
+    const isOrphan = ![...$galleries].some(($gallery) => $gallery.contains($image))
+
+    if (isOrphan) $orphans.push($image)
+
+    return $orphans
+  }, [])
+
+  return [
+    $orphans,
+    ...$galleries
+  ]
 }
 
 /**
@@ -71,7 +96,7 @@ export const openPhotoswipe = (index, $gallery, items, lightboxSelector) => {
  *
  *    See Photoswipe docs for HTML code.
  *
- * 2. All images that should have lightbox should use specific structure and match `imageSelector`:
+ * 2. All images that should have use specific structure and match `imageSelector`:
  *
  *    ```html
  *    <figure>
@@ -82,12 +107,14 @@ export const openPhotoswipe = (index, $gallery, items, lightboxSelector) => {
  *     </figure>
  *    ````
  *
- * 3. Images should be grouped into galleries matching `selector`:
+ * 3. Optionally, images should be grouped into galleries matching `selector`:
  *
  *    ```html
  *    <article class='js-photoswiper'>...images</article>
  *    <article class='js-photoswiper'>...images</article>
  *    ````
+ *
+ *    Otherwise they will be considered orphans and grouped with other orphans.
  *
  * @param  {string} [selector]                   Galleries to be watched
  * @param  {string} [imageSelector]              Galleries images
@@ -100,10 +127,12 @@ const photoSwiper = (
   lightboxSelector = '.pswp'
 ) => {
   document.addEventListener('click', (e) => {
-    const $galleries = document.querySelectorAll(selector)
+    const $galleries = getGalleries(selector, imageSelector)
 
     $galleries.forEach(($gallery) => {
-      const $links = $gallery.querySelectorAll(imageSelector)
+      if (!$gallery) return
+
+      const $links = Array.isArray($gallery) ? $gallery : $gallery.querySelectorAll(imageSelector)
 
       $links.forEach(($link, index) => {
         if ($link.contains(e.target)) {

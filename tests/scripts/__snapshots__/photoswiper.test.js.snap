@@ -1,5 +1,174 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`PhotoSwiper \`getGalleries()\` should get galleries 1`] = `
+Array [
+  Array [
+    <a
+      class="js-photoswiper__image"
+      data-height="550"
+      data-width="500"
+      href="/orphan-image-1.png"
+    >
+      
+      
+      <img
+        alt="Orphan-thumbnail-1 alt"
+        src="/orphan-thumbnail-1.png"
+      />
+      
+    
+    </a>,
+    <a
+      class="js-photoswiper__image"
+      data-height="650"
+      data-width="600"
+      href="/orphan-image-2.png"
+    >
+      
+      
+      <img
+        alt="Orphan-thumbnail-2 alt"
+        src="/orphan-thumbnail-2.png"
+      />
+      
+    
+    </a>,
+  ],
+  <article
+    class="js-photoswiper"
+  >
+    
+          
+  
+    <figure>
+      
+    
+      <a
+        class="js-photoswiper__image"
+        data-height="150"
+        data-width="100"
+        href="/g-1-image-1.png"
+      >
+        
+      
+        <img
+          alt="G-l-thumbnail-1 alt"
+          src="/g-l-thumbnail-1.png"
+        />
+        
+    
+      </a>
+      
+    
+      <figcaption>
+        G-l-thumbnail-1 caption
+      </figcaption>
+      
+  
+    </figure>
+    
+
+          
+  
+    <figure>
+      
+    
+      <a
+        class="js-photoswiper__image"
+        data-height="250"
+        data-width="200"
+        href="/g-1-image-2.png"
+      >
+        
+      
+        <img
+          alt="G-l-thumbnail-2 alt"
+          src="/g-l-thumbnail-2.png"
+        />
+        
+    
+      </a>
+      
+    
+      <figcaption>
+        G-l-thumbnail-2 caption
+      </figcaption>
+      
+  
+    </figure>
+    
+
+        
+  </article>,
+  <article
+    class="js-photoswiper"
+  >
+    
+          
+  
+    <figure>
+      
+    
+      <a
+        class="js-photoswiper__image"
+        data-height="350"
+        data-width="300"
+        href="/g-2-image-1.png"
+      >
+        
+      
+        <img
+          alt="G-2-thumbnail-2 alt"
+          src="/g-2-thumbnail-1.png"
+        />
+        
+    
+      </a>
+      
+    
+      <figcaption>
+        G-2-thumbnail-2 caption
+      </figcaption>
+      
+  
+    </figure>
+    
+
+          
+  
+    <figure>
+      
+    
+      <a
+        class="js-photoswiper__image"
+        data-height="450"
+        data-width="400"
+        href="/g-2-image-2.png"
+      >
+        
+      
+        <img
+          alt="G-2-thumbnail-2 alt"
+          src="/g-2-thumbnail-2.png"
+        />
+        
+    
+      </a>
+      
+    
+      <figcaption>
+        G-2-thumbnail-2 caption
+      </figcaption>
+      
+  
+    </figure>
+    
+
+        
+  </article>,
+]
+`;
+
 exports[`PhotoSwiper \`getImagesData()\` should get images data 1`] = `
 Array [
   Object {
@@ -82,6 +251,36 @@ Object {
       "src": "/image-4.png",
       "title": "Thumbnail-4 caption",
       "w": 400,
+    },
+  ],
+}
+`;
+
+exports[`PhotoSwiper should work with galleries 3`] = `
+Object {
+  "index": 0,
+  "items": Array [
+    Object {
+      "$thumbnail": <img
+        alt="Orphan-thumbnail-1 alt"
+        src="/orphan-thumbnail-1.png"
+      />,
+      "h": 550,
+      "msrc": "/orphan-thumbnail-1.png",
+      "src": "/orphan-image-1.png",
+      "title": "Orphan-thumbnail-1 caption",
+      "w": 500,
+    },
+    Object {
+      "$thumbnail": <img
+        alt="Orphan-thumbnail-2 alt"
+        src="/orphan-thumbnail-2.png"
+      />,
+      "h": 650,
+      "msrc": "/orphan-thumbnail-2.png",
+      "src": "/orphan-image-2.png",
+      "title": "Orphan-thumbnail-2 caption",
+      "w": 600,
     },
   ],
 }
