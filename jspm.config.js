@@ -1,5 +1,6 @@
 SystemJS.config({
   baseURL: "/source/scripts",
+  rootURL: './', // used by plugin-css
   browserConfig: {
     "paths": {
       "npm:": "/jspm_packages/npm/",
