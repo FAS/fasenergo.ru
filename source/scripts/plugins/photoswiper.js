@@ -55,7 +55,11 @@ export const openPhotoswipe = (index, $gallery, items, lightboxSelector) => {
       const rect = $thumbnail.getBoundingClientRect()
 
       return { x: rect.left, y: rect.top + pageYScroll, w: rect.width }
-    }
+    },
+    bgOpacity: 0.9,
+    fullscreenEl: false,
+    zoomEl: false,
+    shareEl: false
   })
 
   gallery.init()
