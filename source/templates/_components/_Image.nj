@@ -7,7 +7,6 @@
  # @param {('left'|'right')} [position]  Should image flot to left or right
  # @param {string}           [width]     Which `max-width` should be set on main container
  # @param {boolean}          [center]    Center or no image
- # @param {boolean}          [inGallery] Is image a part of gallery. If not, it will open standalone lightbox
  # @param {string}           [class]     Main wrapper class
  # @param {string}           [linkStyle] Link style
  # @param {string}           [imgClass]  Image class
@@ -24,11 +23,11 @@
  #     center = true
  #   ) }}
  #}
-{% macro Image(src, caption, alt, position, width, center, inGallery, class, linkStyle, imgClass, imgStyle) %}
+{% macro Image(src, caption, alt, position, width, center, class, linkStyle, imgClass, imgStyle) %}
 {% set positionClass = 'g-image--left' if position == 'left' else ('g-image--right' if position == 'right') %}
 {% set image = imageSize(src) %}
 
-<figure class='{{ 'js-photoswiper' if not inGallery }} {{ class }} {{ positionClass if positionClass else 'h-margin-ends+' }}'
+<figure class='{{ class }} {{ positionClass if positionClass else 'h-margin-ends+' }}'
   style='{{ 'max-width: ' + width if width }}'
 >
 
