@@ -105,10 +105,9 @@
 <body class='{{ PAGE.bodyClass }} o-panel o-panel--max'>
 
   {{ OutdatedBrowser(version = 'lte IE 9') }}
+  {{ PhotoSwipe() }}
 
   {% block body %}{% endblock %}
-
-  {{ PhotoSwipe() }}
 
   <!-- Scripts -->
   <!-- ======= -->
