@@ -5,7 +5,7 @@
  # @return {string} HTML
  #}
 {% macro CTA(label = 'Смотреть каталог', url = '/продукция/газовые-генераторы') %}
-<div class='h-align--center h-margin-top++'>
+<div class='h-align--center h-margin-ends++'>
   <p>
     <a class='js-metrica-cta-click Btn Btn--primary Btn+ Btn--wide h-text++' href='{{ url }}'>
       {{ label }}
