@@ -1,0 +1,19 @@
+{##
+ # Display CTA with proposal to view some specific URL
+ # @param {string} label Lable for main action
+ # @param {string} url   URL for main action
+ # @return {string} HTML
+ #}
+{% macro CTA(label = 'Смотреть каталог', url = '/продукция/газовые-генераторы') %}
+<div class='h-align--center h-margin-top++'>
+  <p>
+    <a class='js-metrica-cta-click Btn Btn--primary Btn+ Btn--wide h-text++' href='{{ url }}'>
+      {{ label }}
+    </a>
+  </p>
+  <p class="h-margin-top--">
+    или
+    <a class="js-metrica-cta-click-contact-us" href="/контакты">связаться с нами</a>
+  </p>
+</div>
+{% endmacro %}

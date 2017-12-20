@@ -33,8 +33,8 @@ export default () => {
     forEachTarget(document.querySelectorAll('.js-metrica-share-tw'), () => event('Share', 'CLICK_SHARE_TW'))
     forEachTarget(document.querySelectorAll('.js-metrica-share-g'), () => event('Share', 'CLICK_SHARE_G'))
     forEachTarget(document.querySelectorAll('.js-metrica-share-in'), () => event('Share', 'CLICK_SHARE_IN'))
-    forEachTarget(document.querySelectorAll('.js-metrica-tag-click-to-catalog'), () => event('Tag page', 'TAG_CLICK_TO_CATALOG'))
-    forEachTarget(document.querySelectorAll('.js-metrica-tag-click-contact-us'), () => event('Tag page', 'TAG_CLICK_CONTACT_US'))
+    forEachTarget(document.querySelectorAll('.js-metrica-cta-click'), () => event('CTA', 'CTA_CLICK'))
+    forEachTarget(document.querySelectorAll('.js-metrica-cta-click-contact-us'), () => event('CTA', 'CTA_CLICK_CONTACT_US'))
     forEachTarget(document.querySelectorAll('.js-metrica-product-click-solution'), () => event('Product', 'PRODUCT_CLICK_SOLUTION'))
   })
 
