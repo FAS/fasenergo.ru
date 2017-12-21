@@ -84,6 +84,17 @@ export const openPhotoswipe = (index, $gallery, items, lightboxSelector) => {
     shareEl: false
   })
 
+  gallery.listen('close', () => {
+    const $current = gallery.currItem.$thumbnail
+    const isVisible = $current.getClientRects().length
+
+    // Do not animate on closing images, if its thumbnail is not visible
+    if (!isVisible) {
+      // @todo It would be better to fade out somehow instead of closing instantly
+      gallery.options.getThumbBoundsFn = undefined
+    }
+  })
+
   gallery.init()
 }
 

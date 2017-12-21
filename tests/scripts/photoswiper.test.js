@@ -98,4 +98,7 @@ describe('PhotoSwiper', () => {
     document.querySelector('[href="/orphan-image-1.png"]').click()
     expect(activePhotoswipe).toMatchSnapshot()
   })
+
+  // @todo Disabled because due to mocking right now we can not use listner and test this case
+  // it('should disable scaling if image is not visible', () => {})
 })
