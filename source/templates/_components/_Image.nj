@@ -29,24 +29,29 @@
 
 <figure class='{{ class }} {{ positionClass if positionClass else 'h-margin-ends+' }}'
   style='{{ 'max-width: ' + width if width }}'
+  typeof='ImageObject'
 >
+  <meta property='width' content='{{ image.width }}'>
+  <meta property='height' content='{{ image.height }}'>
 
   <a class='js-photoswiper__image h-block h-border-bottom0 {{ 'h-align--center' if center }}'
     href='{{ image.src }}'
     data-width='{{ image.width }}'
     data-height='{{ image.height }}'
     style='{{ linkStyle }}'
+    property='contentUrl'
   >
     <img class='{{ imgClass }} h-margin-bottom--'
       src='{{ image.src }}'
       srcset='{{ image.srcset() }}'
       alt='{{ alt if alt }}'
       style='{{ imgStyle }} max-height: 80vh;'
+      property='thumbnailUrl'
     >
   </a>
 
   {% if caption %}
-  <figcaption><i>{{ caption }}</i></figcaption>
+  <figcaption property='caption description'><i>{{ caption }}</i></figcaption>
   {% endif %}
 
 </figure>
