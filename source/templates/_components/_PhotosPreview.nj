@@ -34,13 +34,24 @@
 
   {% if photos.length > 1 %}
   <div class='js-photos-block__thumbs'>
+
     {% for photo in photos %}
     {% set photoUrl = urljoin(imagesPath, photo.url) %}
+    {% set alt = photo.alt or alt %}
+
+    {% if loop.index > 1 %}
+    {{ Image(
+      src = photoUrl,
+      alt = alt,
+      class = 'h-none'
+    ) }}
+    {% endif %}
 
     <a class='Thumb-link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}'>
-      <img class='h-align--middle' src='{{ photoUrl }}' srcset='{{ imageSize(photoUrl).srcset() }}' height='80' alt='{{ photo.alt or alt }}'>
+      <img class='h-align--middle' src='{{ photoUrl }}' srcset='{{ imageSize(photoUrl).srcset() }}' height='80' alt='{{ alt }}'>
     </a>
     {% endfor %}
+
   </div>
   {% endif %}
 
