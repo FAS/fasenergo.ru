@@ -21,6 +21,8 @@ jest.mock('photoswipe', () => class PhotoSwipe {
       items: this.items
     }
   }
+
+  listen () {}
 }, { virtual: true })
 
 jest.mock('photoswipe/dist/photoswipe-ui-default.min.js', () => {}, { virtual: true })
