@@ -48,14 +48,14 @@
   specs:
     power:
       ng:
-        max: 5
+        max: 4
       lpg:
         max: 5
     current:
-      _legacy: 27.3
+      _legacy: 21.74
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -74,8 +74,8 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.4 м³/ч * 1 кВт
-      lpg: 0.36 кг/ч * 1 кВт
+      ng: 0.5 м³/ч * 1 кВт
+      lpg: 0.45 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
   engine: loncin-g390f
@@ -88,7 +88,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
+    noise: 90
     size:
       length: 1058
       width: 705
@@ -148,14 +148,14 @@
   specs:
     power:
       ng:
-        max: 5
+        max: 4
       lpg:
         max: 5
     current:
-      _legacy: 27.3
+      _legacy: 21.74
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -174,8 +174,8 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.4 м³/ч * 1 кВт
-      lpg: 0.36 кг/ч * 1 кВт
+      ng: 0.5 м³/ч * 1 кВт
+      lpg: 0.45 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
   engine: loncin-g390f
@@ -188,7 +188,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
+    noise: 90
     size:
       length: 1058
       width: 705
@@ -245,14 +245,14 @@
   specs:
     power:
       ng:
-        max: 5.6
+        max: 6
       lpg:
         max: 6
     current:
-      _legacy: 34
+      _legacy: 26.09
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -271,8 +271,8 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.4 м³/ч * 1 кВт
-      lpg: 0.36 кг/ч * 1 кВт
+      ng: 0.5 м³/ч * 1 кВт
+      lpg: 0.45 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
   engine: loncin-g390f
@@ -285,7 +285,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
+    noise: 90
     size:
       length: 1058
       width: 705
@@ -345,14 +345,14 @@
   specs:
     power:
       ng:
-        max: 5.6
+        max: 6
       lpg:
         max: 6
     current:
-      _legacy: 34
+      _legacy: 26.09
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -371,8 +371,8 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.4 м³/ч * 1 кВт
-      lpg: 0.36 кг/ч * 1 кВт
+      ng: 0.5 м³/ч * 1 кВт
+      lpg: 0.45 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
   engine: loncin-g390f
@@ -385,7 +385,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
+    noise: 90
     size:
       length: 1058
       width: 705
@@ -446,10 +446,10 @@
       lpg:
         max: 8
     current:
-      _legacy: 41.8
+      _legacy: 34.78
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -468,8 +468,8 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.42 м³/ч * 1 кВт
-      lpg: 0.38 кг/ч * 1 кВт
+      ng: 0.45 м³/ч * 1 кВт
+      lpg: 0.4 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
   engine: loncin-lc2v78f-1
@@ -482,7 +482,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
+    noise: 90
     size:
       length: 1058
       width: 705
@@ -546,10 +546,10 @@
       lpg:
         max: 8
     current:
-      _legacy: 41.8
+      _legacy: 34.78
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -568,8 +568,8 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.42 м³/ч * 1 кВт
-      lpg: 0.38 кг/ч * 1 кВт
+      ng: 0.45 м³/ч * 1 кВт
+      lpg: 0.4 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
   engine: loncin-lc2v78f-1
@@ -582,7 +582,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 70
+    noise: 90
     size:
       length: 1058
       width: 705
@@ -843,7 +843,7 @@
       _legacy: null
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -862,9 +862,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: null
+      ng: 0.43 м³/ч * 1 кВт
+      lpg: 0.39 кг/ч * 1 кВт
+    operatingSpeed: 3000
     cooling: null
   engine: loncin-lc2v90f-1
   enclosure:
@@ -876,7 +876,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: null
+    noise: 90
     size:
       length: null
       width: null
@@ -943,7 +943,7 @@
       _legacy: null
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -962,9 +962,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: null
+      ng: 0.43 м³/ч * 1 кВт
+      lpg: 0.39 кг/ч * 1 кВт
+    operatingSpeed: 3000
     cooling: null
   engine: loncin-lc2v90f-1
   enclosure:
@@ -976,7 +976,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: null
+    noise: 90
     size:
       length: null
       width: null
@@ -1040,7 +1040,7 @@
       _legacy: null
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -1059,9 +1059,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: null
+      ng: 0.42 м³/ч * 1 кВт
+      lpg: 0.38 кг/ч * 1 кВт
+    operatingSpeed: 3000
     cooling: null
   engine: loncin-lc2v90f-1
   enclosure:
@@ -1073,7 +1073,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: null
+    noise: 90
     size:
       length: null
       width: null
@@ -1140,7 +1140,7 @@
       _legacy: null
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -1159,9 +1159,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: null
+      ng: 0.42 м³/ч * 1 кВт
+      lpg: 0.38 кг/ч * 1 кВт
+    operatingSpeed: 3000
     cooling: null
   engine: loncin-lc2v90f-1
   enclosure:
@@ -1173,7 +1173,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: null
+    noise: 90
     size:
       length: null
       width: null
@@ -1256,14 +1256,14 @@
   specs:
     power:
       ng:
-        max: 7.8
+        max: 8
       lpg:
         max: 8
     current:
       _legacy: 34.8
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -1282,8 +1282,8 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.43 м³/ч * 1 кВт
-      lpg: 0.370 кг/ч * 1 кВт
+      ng: 0.44 м³/ч * 1 кВт
+      lpg: 0.39 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
   engine: ваз-2106
@@ -1296,11 +1296,11 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 62
     size:
-      length: 1320
+      length: 1321
       width: 780
-      height: 965
+      height: 963
     weight: 400
 
 
@@ -1387,7 +1387,7 @@
       _legacy: 43.5
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -1406,8 +1406,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.41 м³/ч * 1 кВт
+      lpg: 0.35 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
   engine: ваз-2106
@@ -1420,11 +1420,11 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 62
     size:
-      length: 1320
+      length: 1321
       width: 780
-      height: 965
+      height: 963
     weight: 400
 
 
@@ -1508,10 +1508,10 @@
       lpg:
         max: 13
     current:
-      _legacy: 52.2
+      _legacy: 56.5
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -1530,8 +1530,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.39 м³/ч * 1 кВт
+      lpg: 0.31 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
   engine: ваз-21213
@@ -1544,12 +1544,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 63
     size:
-      length: 1320
+      length: 1321
       width: 780
-      height: 965
-    weight: 400
+      height: 963
+    weight: 410
 
 
 
@@ -1632,10 +1632,10 @@
       lpg:
         max: 13
     current:
-      _legacy: 19.7
+      _legacy: 23.6
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -1654,8 +1654,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.37 м³/ч * 1 кВт
+      lpg: 0.3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
   engine: ваз-21213
@@ -1668,12 +1668,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 63
     size:
-      length: 1320
+      length: 1321
       width: 780
-      height: 965
-    weight: 400
+      height: 963
+    weight: 410
 
 
 
@@ -1728,9 +1728,9 @@
     AST: true
     list: >
       <li>Газовый двигатель с жидкостным охлаждением</li>
-      <li>Радиатор охлаждения для работы в условиях температуры воздуха до +55С</li>
+      <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
       <li>Блок автоматического ввода резерва (АВР)</li>
-      <li>Подогрев двигателя для эксплуатации при температурах до -55С</li>
+      <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
       <li>Стальная сварная рама с антивибрационными подушками</li>
       <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li>
       <li>Двухопорный электрогенератор класса IP23</li>
@@ -1746,14 +1746,14 @@
   specs:
     power:
       ng:
-        max: 14.5
+        max: 14
       lpg:
         max: 15
     current:
-      _legacy: 64
+      _legacy: 65.2
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -1772,9 +1772,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: 1600
+      ng: 0.45 м³/ч * 1 кВт
+      lpg: 0.38 кг/ч * 1 кВт
+    operatingSpeed: 2500
     cooling: null
   engine: ваз-21083
   enclosure:
@@ -1786,12 +1786,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 68
+    noise: 67
     size:
-      length: 1300
-      width: 820
-      height: 990
-    weight: 470
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
 
 
 
@@ -1864,14 +1864,14 @@
   specs:
     power:
       ng:
-        max: 14.5
+        max: 14
       lpg:
         max: 15
     current:
-      _legacy: 21
+      _legacy: 27.2
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -1890,9 +1890,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: 1600
+      ng: 0.45 м³/ч * 1 кВт
+      lpg: 0.38 кг/ч * 1 кВт
+    operatingSpeed: 2500
     cooling: null
   engine: ваз-21083
   enclosure:
@@ -1904,12 +1904,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 68
+    noise: 67
     size:
-      length: 1300
-      width: 820
-      height: 990
-    weight: 470
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
 
 
 
@@ -1986,10 +1986,10 @@
       lpg:
         max: 18
     current:
-      _legacy: 82
+      _legacy: 78.3
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -2008,9 +2008,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: 2600
+      ng: 0.42 м³/ч * 1 кВт
+      lpg: 0.36 кг/ч * 1 кВт
+    operatingSpeed: 2500
     cooling: null
   engine: ваз-21083
   enclosure:
@@ -2024,9 +2024,9 @@
     removablePanels: null
     noise: 68
     size:
-      length: 1700
-      width: 830
-      height: 1000
+      length: 1486
+      width: 873
+      height: 1142
     weight: 530
 
 
@@ -2104,10 +2104,10 @@
       lpg:
         max: 18
     current:
-      _legacy: 22
+      _legacy: 32.6
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -2126,9 +2126,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: 2600
+      ng: 0.41 м³/ч * 1 кВт
+      lpg: 0.35 кг/ч * 1 кВт
+    operatingSpeed: 2500
     cooling: null
   engine: ваз-21083
   enclosure:
@@ -2142,10 +2142,10 @@
     removablePanels: null
     noise: 68
     size:
-      length: 1300
-      width: 820
-      height: 990
-    weight: 470
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
 
 
 
@@ -2227,10 +2227,10 @@
       lpg:
         max: 21
     current:
-      _legacy: 100
+      _legacy: 91.3
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -2249,9 +2249,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: 2600
+      ng: 0.4 м³/ч * 1 кВт
+      lpg: 0.34 кг/ч * 1 кВт
+    operatingSpeed: 3000
     cooling: null
   engine: ваз-21213
   enclosure:
@@ -2263,12 +2263,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 68
+    noise: 70
     size:
-      length: 1700
-      width: 830
-      height: 1000
-    weight: 530
+      length: 1699
+      width: 933
+      height: 1149
+    weight: 550
 
 
 
@@ -2462,10 +2462,10 @@
       lpg:
         max: 21
     current:
-      _legacy: 30
+      _legacy: 38
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -2484,9 +2484,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: 2600
+      ng: 0.39 м³/ч * 1 кВт
+      lpg: 0.33 кг/ч * 1 кВт
+    operatingSpeed: 2800
     cooling: null
   engine: ваз-21083
   enclosure:
@@ -2500,10 +2500,10 @@
     removablePanels: null
     noise: 68
     size:
-      length: 1300
-      width: 820
-      height: 990
-    weight: 520
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
 
 
 
@@ -2580,10 +2580,10 @@
       lpg:
         max: 24
     current:
-      _legacy: 36
+      _legacy: 43.5
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -2602,8 +2602,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.37 м³/ч * 1 кВт
+      lpg: 0.31 кг/ч * 1 кВт
     operatingSpeed: 2800
     cooling: null
   engine: ваз-21083
@@ -2616,12 +2616,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 68
+    noise: 69
     size:
-      length: 1700
-      width: 830
-      height: 1000
-    weight: 520
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
 
 
 
@@ -2703,10 +2703,10 @@
       lpg:
         max: 28
     current:
-      _legacy: 40
+      _legacy: 50.7
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -2725,8 +2725,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.34 м³/ч * 1 кВт
+      lpg: 0.29 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
   engine: ваз-2106
@@ -2739,12 +2739,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 68
+    noise: 70
     size:
-      length: 1720
-      width: 870
-      height: 1010
-    weight: 530
+      length: 1699
+      width: 933
+      height: 1149
+    weight: 540
 
 
 
@@ -2832,10 +2832,10 @@
       lpg:
         max: 32
     current:
-      _legacy: 49
+      _legacy: 58
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -2854,8 +2854,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.33 м³/ч * 1 кВт
+      lpg: 0.27 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
   engine: ваз-21213
@@ -2868,12 +2868,13 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 68
+    noise: 70
     size:
-      length: 1720
-      width: 870
-      height: 1010
-    weight: 530
+      length: 1699
+      width: 933
+      height: 1149
+    weight: 550
+
 
 
 
@@ -2949,10 +2950,10 @@
       lpg:
         max: 40
     current:
-      _legacy: 68.2
+      _legacy: 72.5
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -2971,8 +2972,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.34 м³/ч * 1 кВт
+      lpg: 0.3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
   engine: ммз-д-246-4
@@ -2985,12 +2986,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 68
+    noise: 65
     size:
-      length: 2210
-      width: 1200
-      height: 1200
-    weight: 1000
+      length: 2507
+      width: 1181
+      height: 1531
+    weight: 1210
 
 
 
@@ -3071,10 +3072,10 @@
       lpg:
         max: 50
     current:
-      _legacy: 83.3
+      _legacy: 90.6
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -3093,8 +3094,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.32 м³/ч * 1 кВт
+      lpg: 0.28 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
   engine: ммз-д-246-4
@@ -3107,12 +3108,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 68
+    noise: 65
     size:
-      length: 2210
-      width: 1200
-      height: 1200
-    weight: 1000
+      length: 2507
+      width: 1181
+      height: 1531
+    weight: 1310
 
 
 
@@ -3182,7 +3183,7 @@
       _legacy: 180
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -3290,7 +3291,7 @@
       _legacy: 270
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -3401,7 +3402,7 @@
       _legacy: 360
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -3436,10 +3437,10 @@
     removablePanels: null
     noise: 90
     size:
-      length: 3800
-      width: 1200
-      height: 2190
-    weight: 3400
+      length: 2900
+      width: 1420
+      height: 1650
+    weight: 2500
 
 
 
@@ -3512,7 +3513,7 @@
       _legacy: 452
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -3531,7 +3532,7 @@
         nominal: null
         max: null
     fuel:
-      ng: 0,3 м³/ч * 1 кВт
+      ng: 0,32 м³/ч * 1 кВт
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
@@ -3547,10 +3548,10 @@
     removablePanels: null
     noise: 90
     size:
-      length: 4260
-      width: 1210
-      height: 2190
-    weight: 3500
+      length: 3190
+      width: 1420
+      height: 1815
+    weight: 3100
 
 
 
@@ -3623,7 +3624,7 @@
       _legacy: 570
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -3642,7 +3643,7 @@
         nominal: null
         max: null
     fuel:
-      ng: 0,3 м³/ч * 1 кВт
+      ng: 0,32 м³/ч * 1 кВт
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
@@ -3658,10 +3659,10 @@
     removablePanels: null
     noise: 90
     size:
-      length: 4260
-      width: 1360
-      height: 2380
-    weight: 4500
+      length: 3190
+      width: 1420
+      height: 1815
+    weight: 3100
 
 
 когенерационная-установка-фас-50-70м:
@@ -4064,10 +4065,10 @@
       lpg:
         max: 13
     current:
-      _legacy: 52.2
+      _legacy: 56.5
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -4086,8 +4087,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0,39 м³/ч * 1 кВт
+      lpg: 0,31 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
   engine: ваз-21213
@@ -4100,12 +4101,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 63
     size:
-      length: 1550
-      width: 900
-      height: 1050
-    weight: 385
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 450
 
 
 
@@ -4179,10 +4180,10 @@
       lpg:
         max: 13
     current:
-      _legacy: 19.7
+      _legacy: 23.6
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -4201,8 +4202,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0,37 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
   engine: ваз-21213
@@ -4215,12 +4216,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 63
     size:
-      length: 1550
-      width: 900
-      height: 1050
-    weight: 389
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 450
 
 
 
@@ -4294,10 +4295,10 @@
       lpg:
         max: 21
     current:
-      _legacy: 100
+      _legacy: 91.3
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -4316,9 +4317,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: 2600
+      ng: 0,4 м³/ч * 1 кВт
+      lpg: 0,34 кг/ч * 1 кВт
+    operatingSpeed: 3000
     cooling: null
   engine: ваз-21213
   enclosure:
@@ -4330,12 +4331,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 68
     size:
-      length: 1550
-      width: 900
-      height: 1050
-    weight: null
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
 
 
 
@@ -4409,10 +4410,10 @@
       lpg:
         max: 21
     current:
-      _legacy: null
+      _legacy: 38
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -4431,9 +4432,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: null
+      ng: 0,39 м³/ч * 1 кВт
+      lpg: 0,33 кг/ч * 1 кВт
+    operatingSpeed: 3000
     cooling: null
   engine: ваз-2106
   enclosure:
@@ -4445,12 +4446,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 68
     size:
-      length: 1550
-      width: 900
-      height: 1050
-    weight: null
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
 
 
 
@@ -4524,10 +4525,10 @@
       lpg:
         max: 24
     current:
-      _legacy: null
+      _legacy: 43.5
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -4546,11 +4547,11 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: null
+      ng: 0,37 м³/ч * 1 кВт
+      lpg: 0,31 кг/ч * 1 кВт
+    operatingSpeed: 3000
     cooling: null
-  engine: ваз-21213
+  engine: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -4560,12 +4561,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 68
     size:
-      length: 1550
-      width: 900
-      height: 1050
-    weight: null
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
 
 
 фас-28-3-вт-турбо-28-квт:
@@ -4638,10 +4639,10 @@
       lpg:
         max: 28
     current:
-      _legacy: 40
+      _legacy: 50.7
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -4660,11 +4661,11 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0,34 м³/ч * 1 кВт
+      lpg: 0,29 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-21213
+  engine: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -4674,12 +4675,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 68
     size:
-      length: 1550
-      width: 900
-      height: 1050
-    weight: null
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
 
 
 
@@ -4759,10 +4760,10 @@
       lpg:
         max: 32
     current:
-      _legacy: 49
+      _legacy: 58
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -4781,8 +4782,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0,33 м³/ч * 1 кВт
+      lpg: 0,27 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
   engine: ваз-21213
@@ -4795,12 +4796,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 57
+    noise: 68
     size:
-      length: 1550
-      width: 900
-      height: 1050
-    weight: null
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
 
 
 
@@ -4962,21 +4963,21 @@
   tags:
     - двигатель-змз-409
   equipment:
-    AST: null
+    AST: true
     list: null
     optionsIds: null
   specs:
     power:
       ng:
-        max: 34
+        max: 33
       lpg:
         max: 35
     current:
-      _legacy: null
+      _legacy: 63.4
       ng: null
       lpg: null
-    voltage: 380
-    frequency: null
+    voltage: 400
+    frequency: 50
     phases: 3
     phi: null
     circuitBreaker: null
@@ -4994,9 +4995,9 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: 2500
+      ng: 0.35 м³/ч * 1 кВт
+      lpg: 0.3 кг/ч * 1 кВт
+    operatingSpeed: 2900
     cooling: liquid
   engine: змз-409
   enclosure:
@@ -5008,12 +5009,12 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: null
+    noise: 66
     size:
       length: 1800
-      width: 980
-      height: 1153
-    weight: 834
+      width: 1050
+      height: 1250
+    weight: 710
 
 
 фас-40-3-зр-40-квт:
@@ -5066,15 +5067,15 @@
   specs:
     power:
       ng:
-        max: 39
+        max: 36
       lpg:
         max: 40
     current:
-      _legacy: null
+      _legacy: 72.5
       ng: null
       lpg: null
-    voltage: 380
-    frequency: null
+    voltage: 400
+    frequency: 50
     phases: 3
     phi: null
     circuitBreaker: null
@@ -5092,8 +5093,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.35 м³/ч * 1 кВт
+      lpg: 0.3 кг/ч * 1 кВт
     operatingSpeed: 2900
     cooling: liquid
   engine: змз-409
@@ -5106,9 +5107,9 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: null
+    noise: 66
     size:
       length: 1800
-      width: 980
-      height: 1153
-    weight: 83
+      width: 1050
+      height: 1250
+    weight: 710
