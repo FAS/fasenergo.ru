@@ -167,10 +167,10 @@ loncin-lc2v90f-1:
     ng: null
     lpg: null
 
-ммз-д-246-4:
-  slug: ммз-д-246-4
+ммз-246-4:
+  slug: ммз-246-4
   type: null
-  model: Д-246.4
+  model: 246.4
   manufacturer:
     brand: ММЗ
     country: null
@@ -307,10 +307,10 @@ loncin-lc2v90f-1:
     ng: null
     lpg: null
 
-ямз-8503-10:
-  slug: ямз-8503-10
+ямз-8503:
+  slug: ямз-8503
   type: null
-  model: '8503.10'
+  model: '8503'
   manufacturer:
     brand: ЯМЗ
     country: null

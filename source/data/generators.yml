@@ -2976,7 +2976,7 @@
       lpg: 0.3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ммз-д-246-4
+  engine: ммз-246-4
   enclosure:
     type: закрытое
     material: null
@@ -3098,7 +3098,7 @@
       lpg: 0.28 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ммз-д-246-4
+  engine: ммз-246-4
   enclosure:
     type: закрытое
     material: null
@@ -3647,7 +3647,7 @@
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ямз-8503-10
+  engine: ямз-8503
   enclosure:
     type: открытое
     material: null
@@ -3752,7 +3752,7 @@
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine: ммз-д-246-4
+  engine: ммз-246-4
   enclosure:
     type: закрытое
     material: null
