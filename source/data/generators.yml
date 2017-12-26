@@ -3713,7 +3713,7 @@
     - когенерационная-установка
     # # @todo Replace `ФАС-ТМ100` with `<a href='/l/тепловой-модуль-фас-тм100'>ФАС-ТМ100</a>` when https://trello.com/c/EN6aCYtu/112-- will be ready
   equipment:
-    AST: null
+    AST: true
     list: >
       <li>Газопоршневая установка <a href='/продукция/газовые-генераторы/фас-50-3-м-50-квт'>ФАС-50-3/М</a></li>
       <li>Тепловой модуль ФАС-ТМ100</li>
@@ -3726,10 +3726,10 @@
         max: 50
     _thermalPower: 70
     current:
-      _legacy: 83.3
+      _legacy: 90.6
       ng: null
       lpg: null
-    voltage: 380
+    voltage: 400
     frequency: 50
     phases: 3
     phi: null
@@ -3748,8 +3748,8 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
+      ng: 0.32 м³/ч * 1 кВт
+      lpg: 0.28 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
   engine: ммз-246-4
@@ -3762,10 +3762,10 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 68
+    noise: 65
     size:
-      length: 2510
-      width: 1205
+      length: 2507
+      width: 1181
       height: 2345
     weight: 1706
 
