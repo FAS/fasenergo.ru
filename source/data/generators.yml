@@ -3647,7 +3647,7 @@
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ямз-8503
+  engine: ямз-8503-10
   enclosure:
     type: открытое
     material: null
