@@ -54,13 +54,13 @@ getGeneratorsWithHighestDiscount = (entries) -> entries.reduce ((cur, pre) =>
   { discount: -Infinity }
 
 getGeneratorCurrentPrice = (entry) ->
-  price = entry.price
-  discount = entry.discount
+  { price, priceBeforeDiscount, discount, discountDate } = entry
 
-  if entry.priceBeforeDiscount
-    return price
-  if discount
-    return (price - price * (discount / 100))
+  if isActiveEvent(discountDate)
+    if priceBeforeDiscount
+      return price
+    if discount
+      return (price - price * (discount / 100))
 
   return price
 
@@ -142,6 +142,19 @@ getArchivehMagazineIssues = (entries) =>
   return rest
 
 ######################
+# Misc selectors
+######################
+
+###*
+ * Check if event date is in past or not.
+ * If date is undefined, it considers that there is no end date and always
+ * passes the check
+ * @param  {string}  date Valid ISO string
+ * @return {boolean} Is date in past or not
+###
+isActiveEvent = (date) => not date or moment().isBefore(date)
+
+######################
 # Nunjucks extensions
 ######################
 
@@ -189,6 +202,8 @@ nunjucksExtensions = (env) ->
   env.addGlobal 'getFreshMagazineIssue', getFreshMagazineIssue
   env.addGlobal 'getArchivehMagazineIssues', getArchivehMagazineIssues
 
+  env.addGlobal 'isActiveEvent', isActiveEvent
+
 module.exports = {
   selectGenerator
   selectGeneratorsIds
@@ -233,6 +248,8 @@ module.exports = {
   sortMagazinesByDate
   getFreshMagazineIssue
   getArchivehMagazineIssues
+
+  isActiveEvent
 
   nunjucksExtensions
 }

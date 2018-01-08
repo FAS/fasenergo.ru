@@ -13,6 +13,7 @@
  # @param {number} [price]                    Product current price
  # @param {number} [priceBeforeDiscount]      Product price which were before discount
  # @param {number} [discount]                 Product current discount
+ # @param {number} [discountDate]             Product current discount end date
  # @param {string} engineTitle                Product's engine title
  # @param {string} engineBrand                Product's engine brand
  # @param {string} engineCooling              Product's engine cooling type
@@ -53,6 +54,7 @@
   price,
   priceBeforeDiscount,
   discount,
+  discountDate,
   engineTitle,
   engineBrand,
   engineCooling,
@@ -97,7 +99,7 @@
 
       {% if price %}
       {# @todo Temporary fix for numbro issue with lack of space before RUB #}
-      {% if discount %}
+      {% if discount and isActiveEvent(discountDate) %}
       {{ Discount(
         price = price,
         priceBeforeDiscount = priceBeforeDiscount,

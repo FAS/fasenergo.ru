@@ -45,6 +45,7 @@ description: Продажа газовых электрогенераторов 
     price = getGeneratorCurrentPrice(g),
     priceBeforeDiscount = getGeneratorOriginalPrice(g),
     discount = g.discount,
+    discountDate = g.discountDate,
     engineTitle = getEngineTitle(engine),
     engineBrand = engine.manufacturer.brand,
     engineCooling = coolingToWord(engineCooling),
