@@ -72,7 +72,7 @@
   data-product='{{ {
     power: power,
     price: price,
-    discount: discount,
+    discount: discount if isActiveEvent(discountDate),
     engineBrand: engineBrand,
     mode: mode,
     noise: noise,
