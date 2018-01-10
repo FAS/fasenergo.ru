@@ -220,17 +220,17 @@ module.exports = (env) ->
 
 
   env.addGlobal 'imageSize', (src) ->
-    getImagesData = () =>
+    getImages = () =>
       data = @ctx.SITE.images
       return if typeof data == 'function' then data() else data
 
-    getCachedImagesData = () => @ctx.SITE.imagesCache
-    setDataCache = (value) => @ctx.SITE.imagesCache = value
+    getCachedImages = () =>
+      if not @ctx.SITE.imagesCache
+        @ctx.SITE.imagesCache = getImages()
 
-    if not getCachedImagesData()
-      setDataCache(getImagesData())
+      return @ctx.SITE.imagesCache
 
-    return imageSize(src, getCachedImagesData())
+    return imageSize(src, getCachedImages())
 
   ###*
    * Expose `moment.js` to Nunjucks' for parsing, validation, manipulation and displaying dates
