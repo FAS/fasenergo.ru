@@ -67,8 +67,14 @@ module.exports = () ->
   Retrieve image size information
   ###
 
+  buildPath = new RegExp("^#{@config('path.build.root')}")
+
   @config 'image_size',
     build:
+      options:
+        processEntry: (e) => Object.assign(e, {
+          name: e.name.replace(buildPath, '')
+        })
       files: [
         src: '<%= path.build.images %>/{,**/}*.{jpg,jpeg,gif,png,svg}'
         dest: '<%= file.temp.data.images %>'

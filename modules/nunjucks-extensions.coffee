@@ -219,7 +219,7 @@ module.exports = (env) ->
     return new RegExp("^#{to}(/|$)").test(pageUrl)
 
 
-  env.addGlobal 'imageSize', (src, baseDir = @ctx.PATH.build.root) ->
+  env.addGlobal 'imageSize', (src) ->
     getImagesData = () =>
       data = @ctx.SITE.images
       return if typeof data == 'function' then data() else data
@@ -230,7 +230,7 @@ module.exports = (env) ->
     if not getCachedImagesData()
       setDataCache(getImagesData())
 
-    imageSize(src, getCachedImagesData(), baseDir)
+    return imageSize(src, getCachedImagesData())
 
   ###*
    * Expose `moment.js` to Nunjucks' for parsing, validation, manipulation and displaying dates
