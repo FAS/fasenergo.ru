@@ -26,14 +26,10 @@ const getImageSet = (src, images, delimeter = DELIMETER) => {
 const printImageSet = (set) => {
   if (set.length <= 1) return
 
-  let srcset = ''
-
-  set.forEach((s, i) => {
+  return set.reduce((srcset, { name, width }, i) => {
     const isLast = i + 1 === set.length
-    srcset += `${s.name} ${s.width}w${isLast ? '' : ', '}`
-  })
-
-  return srcset
+    return `${srcset}${name} ${width}w${isLast ? '' : ', '}`
+  }, '')
 }
 
 /**
