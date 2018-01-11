@@ -14,7 +14,9 @@ const DELIMETER = '@'
 const getImageSet = (src, images, delimeter = DELIMETER) => {
   const filepath = src.replace(new RegExp(`${extname(src)}$`), '')
 
-  return images.filter(({ name }) => name.startsWith(`${filepath}${DELIMETER}`) || name === src)
+  return images.filter(({ name }) =>
+    name.startsWith(`${filepath}${DELIMETER}`) || name === src
+  )
 }
 
 /**
