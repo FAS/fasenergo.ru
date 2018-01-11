@@ -72,9 +72,7 @@ module.exports = () ->
   @config 'image_size',
     build:
       options:
-        processEntry: (e) => Object.assign(e, {
-          name: e.name.replace(buildPath, '')
-        })
+        processName: (name) => name.replace(buildPath, '')
       files: [
         src: '<%= path.build.images %>/{,**/}*.{jpg,jpeg,gif,png,svg}'
         dest: '<%= file.temp.data.images %>'
