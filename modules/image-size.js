@@ -25,14 +25,12 @@ const getImageSet = (src, images, delimeter = DELIMETER) => {
  *                       in varius sizes
  * @return {string} Formed `srcset` attribute
  */
-const printImageSet = (set) => {
-  if (set.length <= 1) return
-
-  return set.reduce((srcset, { name, width }, i) => {
+const printImageSet = (set) =>
+  set.reduce((srcset, { name, width }, i) => {
     const isLast = i + 1 === set.length
+
     return `${srcset}${name} ${width}w${isLast ? '' : ', '}`
   }, '')
-}
 
 /**
  * Get image size and its srcset
