@@ -16,7 +16,7 @@ exports[`Nunjucks \`imageSize()\` should print srcset 1`] = `
 "
       
       <img src='/images/test.jpg'
-        srcset=''
+        srcset='/images/test.jpg 100w'
       >
 
       
