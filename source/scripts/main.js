@@ -38,12 +38,16 @@ $(() => {
 
     const $this = $(this)
     const photoUrl = this.href
+    const srcset = $this.data('srcset')
     const $scope = $this.closest('.js-photos-block')
     const $photoMain = $scope.find('.js-photos-block__main')
     const $photoThumbs = $scope.find('.js-photos-block__thumbs')
+    const $photoMainImg = $photoMain.find('img')
 
     $photoMain.find('a').attr('href', photoUrl)
-    $photoMain.find('img').attr('src', photoUrl)
+    $photoMainImg.attr('src', photoUrl)
+
+    $photoMainImg.attr('srcset', srcset || '')
     $photoThumbs.find('a.is-active').removeClass('is-active')
     $this.addClass('is-active')
   })
