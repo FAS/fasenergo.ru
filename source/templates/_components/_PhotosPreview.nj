@@ -38,6 +38,7 @@
     {% for photo in photos %}
     {% set photoUrl = urljoin(imagesPath, photo.url) %}
     {% set alt = photo.alt or alt %}
+    {% set srcset = imageSize(photoUrl).srcset() %}
 
     {% if loop.index > 1 %}
     {{ Image(
@@ -47,8 +48,8 @@
     ) }}
     {% endif %}
 
-    <a class='Thumb-link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}'>
-      <img class='h-align--middle' src='{{ photoUrl }}' srcset='{{ imageSize(photoUrl).srcset() }}' height='80' alt='{{ alt }}'>
+    <a class='Thumb-link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}' data-srcset='{{ srcset }}'>
+      <img class='h-align--middle' src='{{ photoUrl }}' srcset='{{ srcset }}' height='80' alt='{{ alt }}'>
     </a>
     {% endfor %}
 
