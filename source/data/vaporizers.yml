@@ -1,0 +1,426 @@
+---
+
+# performance: кг/ч
+
+# Испарители для автономного газоснабжения
+
+20.0010:
+  id: 20.0010
+  type: null
+  pressure: null
+  performance: 10
+  price: 800
+20.0015:
+  id: 20.0015
+  type: null
+  pressure: null
+  performance: 15
+  price: 950
+20.0020:
+  id: 20.0020
+  type: null
+  pressure: null
+  performance: 20
+  price: 1100
+20.0025:
+  id: 20.0025
+  type: null
+  pressure: null
+  performance: 25
+  price: 1200
+20.0030:
+  id: 20.0030
+  type: null
+  pressure: null
+  performance: 30
+  price: 1250
+20.0040:
+  id: 20.0040
+  type: null
+  pressure: null
+  performance: 40
+  price: 1300
+
+# Электрические испарители
+
+20.0060:
+  id: 20.0060
+  type: null
+  pressure: null
+  performance: 60
+  price: 4000
+20.0070:
+  id: 20.0070
+  type: null
+  pressure: null
+  performance: 70
+  price: 4800
+20.0080:
+  id: 20.0080
+  type: null
+  pressure: null
+  performance: 80
+  price: 5300
+20.0100:
+  id: 20.0100
+  type: null
+  pressure: null
+  performance: 100
+  price: 6300
+20.0120:
+  id: 20.0120
+  type: null
+  pressure: null
+  performance: 120
+  price: 6800
+20.0160:
+  id: 20.0160
+  type: null
+  pressure: null
+  performance: 160
+  price: 7900
+20.0180:
+  id: 20.0180
+  type: null
+  pressure: null
+  performance: 180
+  price: 8800
+20.0200:
+  id: 20.0200
+  type: null
+  pressure: null
+  performance: 200
+  price: 10500
+20.0240:
+  id: 20.0240
+  type: null
+  pressure: null
+  performance: 240
+  price: 11300
+20.0280:
+  id: 20.0280
+  type: null
+  pressure: null
+  performance: 280
+  price: 13000
+20.0300:
+  id: 20.0300
+  type: null
+  pressure: null
+  performance: 300
+  price: 14000
+
+# Испарительные установки с регуляторной группой низкого давления
+
+20.1020:
+  id: 20.1020
+  type: null
+  pressure: low
+  performance: 20
+  price: 3700
+20.1025:
+  id: 20.1025
+  type: null
+  pressure: low
+  performance: 25
+  price: 4000
+20.1030:
+  id: 20.1030
+  type: null
+  pressure: low
+  performance: 30
+  price: 4500
+20.1035:
+  id: 20.1035
+  type: null
+  pressure: low
+  performance: 35
+  price: 4800
+20.1040:
+  id: 20.1040
+  type: null
+  pressure: low
+  performance: 40
+  price: 5200
+20.1050:
+  id: 20.1050
+  type: null
+  pressure: low
+  performance: 50
+  price: 7000
+20.1060:
+  id: 20.1060
+  type: null
+  pressure: low
+  performance: 60
+  price: 7800
+20.1070:
+  id: 20.1070
+  type: null
+  pressure: low
+  performance: 70
+  price: 8000
+20.1080:
+  id: 20.1080
+  type: null
+  pressure: low
+  performance: 80
+  price: 8500
+20.1100:
+  id: 20.1100
+  type: null
+  pressure: low
+  performance: 100
+  price: 9500
+20.1120:
+  id: 20.1120
+  type: null
+  pressure: low
+  performance: 120
+  price: 10200
+20.1160:
+  id: 20.1160
+  type: null
+  pressure: low
+  performance: 160
+  price: 11500
+20.1180:
+  id: 20.1180
+  type: null
+  pressure: low
+  performance: 180
+  price: 13500
+20.1200:
+  id: 20.1200
+  type: null
+  pressure: low
+  performance: 200
+  price: 14100
+20.1240:
+  id: 20.1240
+  type: null
+  pressure: low
+  performance: 240
+  price: 14200
+20.1260:
+  id: 20.1260
+  type: null
+  pressure: low
+  performance: 260
+  price: 14300
+20.1280:
+  id: 20.1280
+  type: null
+  pressure: low
+  performance: 280
+  price: 15000
+20.1300:
+  id: 20.1300
+  type: null
+  pressure: low
+  performance: 300
+  price: 15100
+20.1320:
+  id: 20.1320
+  type: null
+  pressure: low
+  performance: 320
+  price: 15200
+20.1350:
+  id: 20.1350
+  type: null
+  pressure: low
+  performance: 350
+  price: 17000
+20.1400:
+  id: 20.1400
+  type: null
+  pressure: low
+  performance: 400
+  price: 19498
+20.1450:
+  id: 20.1450
+  type: null
+  pressure: low
+  performance: 450
+  price: 20000
+20.1500:
+  id: 20.1500
+  type: null
+  pressure: low
+  performance: 500
+  price: 20500
+20.1520:
+  id: 20.1520
+  type: null
+  pressure: low
+  performance: 520
+  price: 21000
+20.1560:
+  id: 20.1560
+  type: null
+  pressure: low
+  performance: 560
+  price: 23000
+20.1600:
+  id: 20.1600
+  type: null
+  pressure: low
+  performance: 600
+  price: 25000
+20.1640:
+  id: 20.1640
+  type: null
+  pressure: low
+  performance: 640
+  price: 28000
+20.1720:
+  id: 20.1720
+  type: null
+  pressure: low
+  performance: 720
+  price: 29000
+20.1780:
+  id: 20.1780
+  type: null
+  pressure: low
+  performance: 780
+  price: 39000
+20.1840:
+  id: 20.1840
+  type: null
+  pressure: low
+  performance: 840
+  price: 43000
+20.1960:
+  id: 20.1960
+  type: null
+  pressure: low
+  performance: 960
+  price: 45000
+20.11250:
+  id: 20.11250
+  type: null
+  pressure: low
+  performance: 1250
+  price: 49000
+
+# Кольцевые испарительные установки с крышкой ёмкостей и со всей необходимой арматурой, включая заправочный штуцер М60х4 для подключения автомобилей газовозов
+
+20.30100:
+  id: 20.30100
+  type: null
+  pressure: null
+  type: электрические
+  performance: 100
+  price:  8000
+20.30150:
+  id: 20.30150
+  type: жидкостные
+  pressure: null
+  performance: 150
+  price: 10000
+20.30200:
+  id: 20.30200
+  type: жидкостные
+  pressure: null
+  performance: 200
+  price: 12000
+
+# Жидкостные испарители в шкафном исполнении
+
+20.2200:
+  id: 20.2200
+  type: null
+  pressure: null
+  performance: 200
+  price: 17800
+20.2300:
+  id: 20.2300
+  type: null
+  pressure: null
+  performance: 300
+  price: 18500
+20.2400:
+  id: 20.2400
+  type: null
+  pressure: null
+  performance: 400
+  price: 23000
+20.2600:
+  id: 20.2600
+  type: null
+  pressure: null
+  performance: 600
+  price: 26000
+20.2800:
+  id: 20.2800
+  type: null
+  pressure: null
+  performance: 800
+  price: 34000
+20.21500:
+  id: 20.21500
+  type: null
+  pressure: null
+  performance: 1200
+  price: 42000
+20.21900:
+  id: 20.21900
+  type: null
+  pressure: null
+  performance: 1900
+  price: 45000
+20.22500:
+  id: 20.22500
+  type: null
+  pressure: null
+  performance: 2500
+  price: 54000
+20.23000:
+  id: 20.23000
+  type: null
+  pressure: null
+  performance: 3000
+  price: 58000
+20.23800:
+  id: 20.23800
+  type: null
+  pressure: null
+  performance: 3800
+  price: 60000
+
+# Комбинированные жидкостные испарительные установки с самоподогревом
+
+20.40250:
+  id: 20.40250
+  type: null
+  pressure: null
+  performance: 250
+  price: 45000
+20.40500:
+  id: 20.40500
+  type: null
+  pressure: null
+  performance: 500
+  price: 55000
+20.40800:
+  id: 20.40800
+  type: null
+  pressure: null
+  performance: 800
+  price: 95000
+20.42500:
+  id: 20.42500
+  type: null
+  pressure: null
+  performance: 2500
+  price: 180000
+
+# Смесительно-испарительные комбинированные установки
+
+# — Комплектная испарительно - смесительная установка 100 м3/час По запросу
+# — Комплектная испарительно - смесительная установка 300 м3/час По запросу
+# — Комплектная испарительно - смесительная установка 700 м3/час По запросу
+# — Комплектная испарительно - смесительная установка 700 м3/час По запросу
+# — Комплектная испарительно - смесительная установка 3200 м3/час По запросу
