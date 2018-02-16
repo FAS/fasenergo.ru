@@ -3564,7 +3564,7 @@
   series: null
   model: ФАС-315-3/Р
   title: Газовый генератор <span class='text-red'>ФАС-315-3/Р</span> (315 кВт)
-  price: 6200000
+  price: 6400000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3673,7 +3673,7 @@
   series: null
   model: ФАС-50/70М
   title: Когенерационная установка <span class='text-red'>ФАС-50/70М</span>
-  price: 2450000
+  price: 2750000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
