@@ -7,6 +7,7 @@ const VAPORIZERS = readYAML(`#{__dirname}/vaporizers.yml`)
 
 const Vaporizers = r.EqualKeyAndProp('id')(t.dict(t.String, t.struct({
   id: t.String,
+  article: t.maybe(t.String),
   type: t.enums.of(['испаритель']),
   title: t.String,
   price: t.maybe(t.Number),
