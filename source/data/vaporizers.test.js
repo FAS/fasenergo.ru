@@ -3,12 +3,12 @@ const r = require('../../modules/refinements')
 const validate = require('../../modules/validate')
 const { file: { readYAML } } = require('grunt')
 
-const VAPORIZERS = readYAML(`#{__dirname}/vaporizers.yml`)
+const VAPORIZERS = readYAML(`${__dirname}/vaporizers.yml`)
 
 const Vaporizers = r.EqualKeyAndProp('id')(t.dict(t.String, t.struct({
   id: t.String,
   article: t.maybe(t.String),
-  type: t.enums.of(['испаритель']),
+  type: t.enums.of(['испаритель', 'испарительная установка']),
   title: t.String,
   price: t.maybe(t.Number),
   specs: t.struct({
