@@ -7,6 +7,7 @@ module.exports = ({ config, file: { readJSON } }) ->
   selectors = require(join('../', config('path.source.data'), 'selectors'))
   generatorsSelectors = require(join('../', config('path.source.data'), 'generators.selectors'))
   generatorsOptionsSelectors = require(join('../', config('path.source.data'), 'generators.options.selectors.js'))
+  vaporizersSelectors = require(join('../', config('path.source.data'), 'vaporizers.selectors'))
   formatters = require(join('../', config('path.source.data'), 'formatters'))
 
   ###
@@ -29,6 +30,7 @@ module.exports = ({ config, file: { readJSON } }) ->
       selectors.nunjucksExtensions(env)
       generatorsSelectors.nunjucksExtensions(env)
       generatorsOptionsSelectors.nunjucksExtensions(env)
+      vaporizersSelectors.nunjucksExtensions(env)
       formatters.nunjucksExtensions(env)
 
   getLocalesNames(options.locales).forEach (currentLocale) =>
