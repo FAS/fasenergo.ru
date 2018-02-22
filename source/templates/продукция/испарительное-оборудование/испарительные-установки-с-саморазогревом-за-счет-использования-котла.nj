@@ -11,6 +11,7 @@ description: Испарительные установки с саморазог
 
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
 
 <p>Комбинированные испарительные установки для сжиженных углеводородных газов. Исполнение в стальном окрашенном контейнере. Установка разделена на две друг от друга изолированные секции. </p>
 <p>В первой секции расположен испаритель СУГ со всей соответствующей развязкой а также приборами контроля за работой испарителя. </p>
@@ -30,32 +31,7 @@ description: Испарительные установки с саморазог
   <li>Функция саморазогрева за счет использования котла.</li>
 </ul>
 
-{% set pageEqLiq = [
-  { title: 'Испарительная установка&nbsp;ФАС 250&nbsp;ZH/A/K', performance: '250 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 500&nbsp;ZH/A/K', performance: '500 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 800&nbsp;ZH/A/K', performance: '800 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 2500&nbsp;ZH/A/K', performance: '2500 кг/ч' }
-] %}
-
-<table class='Table h-cells-padding-ends--'>
-  <thead class='h-text- h-align--center'>
-    <tr>
-      <th>Наименование</th>
-      <th>Производительность</th>
-      <th>ТКП</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for e in pageEqLiq %}
-    <tr>
-      <td>{{ e.title }}</td>
-      <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{{ VaporizersTable(selectVaporizingStationsWithSelfHeating(VAPORIZERS)) }}
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

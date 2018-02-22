@@ -11,6 +11,11 @@ description: Испарительные установки СУГ в шкафн�
 
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+{% set vaporizers = selectVaporizingStationsInLocker(VAPORIZERS) %}
+{% set electrical = filterWithElectricalHeating(vaporizers) %}
+{% set liquid = filterWithLiquidHeating(vaporizers) %}
 
 {% set pageEqElPhotos = [
   { url: 'equipment/испарительное-оборудование/SE-SH-X1/Испарительная-установка-ФАС-SE-SH-X1--1--front.jpg' },
@@ -42,81 +47,13 @@ description: Испарительные установки СУГ в шкафн�
   <li>Все установки комплектно собраны и проверены давлением.</li>
 </ul>
 
-{% set pageEqEl = [
-  { title: 'Испарительная установка&nbsp;ФАС 25 SE/SH', performance: '25 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 35 SE/SH', performance: '35 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 40 SE/SH', performance: '40 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 60 SE/SH', performance: '60 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 80 SE/SH', performance: '80 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 100 SE/SH', performance: '100 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 120 SE/SH', performance: '120 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 160 SE/SH', performance: '160 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 240 SE/SH', performance: '240 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 300 SE/SH', performance: '300 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 400 SE/SH', performance: '400 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 500 SE/SH', performance: '500 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 600 SE/SH', performance: '600 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 720 SE/SH', performance: '720 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 850 SE/SH', performance: '840 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 960 SE/SH', performance: '940 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 1250 SE/SH', performance: '1200 кг/ч' }
-] %}
-
-<table class='Table h-cells-padding-ends--'>
-  <thead class='h-text- h-align--center'>
-    <tr>
-      <th>Наименование</th>
-      <th>Производительность</th>
-      <th>ТКП</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for e in pageEqEl %}
-    <tr>
-      <td>{{ e.title }}</td>
-      <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{{ VaporizersTable(electrical) }}
 
 <h2>Непрямой жидкостный подогрев</h2>
 
 {{ PhotosPreview(pageEqLiqPhotos, 'Испарительная установка ФАС ZH/SH', class = 'h-margin-bottom+') }}
 
-{% set pageEqLiq = [
-  { title: 'Испарительная установка&nbsp;ФАС 200&nbsp;ZH/SH', performance: '200 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 400&nbsp;ZH/SH', performance: '400 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 600&nbsp;ZH/SH', performance: '600 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 800&nbsp;ZH/SH', performance: '800 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 1500&nbsp;ZH/SH', performance: '1500 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 1900&nbsp;ZH/SH', performance: '1900 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 2500&nbsp;ZH/SH', performance: '2500 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 3000&nbsp;ZH/SH', performance: '3000 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 3800&nbsp;ZH/SH', performance: '3800 кг/ч' }
-] %}
-
-<table class='Table h-cells-padding-ends--'>
-  <thead class='h-text- h-align--center'>
-    <tr>
-      <th>Наименование</th>
-      <th>Производительность</th>
-      <th>ТКП</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for e in pageEqLiq %}
-    <tr>
-      <td>{{ e.title }}</td>
-      <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{{ VaporizersTable(liquid) }}
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

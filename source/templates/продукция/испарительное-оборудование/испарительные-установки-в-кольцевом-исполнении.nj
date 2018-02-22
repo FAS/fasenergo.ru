@@ -11,15 +11,11 @@ description: Испарительные установки СУГ в кольц�
 
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
 
-{% macro TableEntry(title, performance) %}
-<tr>
-  <td>{{ title }}</td>
-  <td class='h-align--right'>{{ performance }}</td>
-  <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
-  </td>
-</tr>
-{% endmacro %}
+{% set vaporizers = selectCircularVaporizingStations(VAPORIZERS) %}
+{% set electrical = filterWithElectricalHeating(vaporizers) %}
+{% set liquid = filterWithLiquidHeating(vaporizers) %}
 
 <h2>Непрямой электрический подогрев</h2>
 
@@ -68,51 +64,7 @@ description: Испарительные установки СУГ в кольц�
 
 <h3>Модели</h3>
 
-{% set pageEqElBasis = [
-  { title: 'Испарительная установка ФАС&nbsp;100&nbsp;SE/C', performance: '100 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;150&nbsp;SE/C', performance: '150 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;200&nbsp;SE/C', performance: '200 кг/ч' }
-] %}
-{% set pageEqElMed = [
-  { title: 'Испарительная установка ФАС&nbsp;100&nbsp;SE/C/SD', performance: '100 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;150&nbsp;SE/C/SD', performance: '150 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;200&nbsp;SE/C/SD', performance: '200 кг/ч' }
-] %}
-{% set pageEqElLow = [
-  { title: 'Испарительная установка ФАС&nbsp;100&nbsp;SE/C/ND', performance: '100 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;150&nbsp;SE/C/ND', performance: '150 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;200&nbsp;SE/C/ND', performance: '200 кг/ч' }
-] %}
-
-<table class='Table h-cells-padding-ends--'>
-  <thead class='h-text- h-align--center'>
-    <tr>
-      <th>Наименование</th>
-      <th>Производительность</th>
-      <th>ТКП</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class='h-text- h-align--center'>
-      <th colspan='3'><b>Базис</b><br>(без регуляторов среднего и низкого давления)</th>
-    </tr>
-    {% for e in pageEqElBasis %}
-    {{ TableEntry(e.title, e.performance) }}
-    {% endfor %}
-    <tr class='h-text- h-align--center'>
-      <th colspan='3'><b>Среднего давления</b><br>(с регулятор среднего давления)</th>
-    </tr>
-    {% for e in pageEqElMed %}
-    {{ TableEntry(e.title, e.performance) }}
-    {% endfor %}
-    <tr class='h-text- h-align--center'>
-      <th colspan='3'><b>Низкого давления</b><br>(с регуляторам среднего и низкого давления)</th>
-    </tr>
-    {% for e in pageEqElLow %}
-    {{ TableEntry(e.title, e.performance) }}
-    {% endfor %}
-  </tbody>
-</table>
+{{ VaporizersTable(electrical) }}
 
 <p>Все исполнения без защитного кожуха.</p>
 
@@ -165,51 +117,7 @@ description: Испарительные установки СУГ в кольц�
 
 <h3>Модели</h3>
 
-{% set pageEqLiqBasis = [
-  { title: 'Испарительная установка ФАС&nbsp;100&nbsp;ZH/C', performance: '100 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;150&nbsp;ZH/C', performance: '150 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;200&nbsp;ZH/C', performance: '200 кг/ч' }
-] %}
-{% set pageEqLiqMed = [
-  { title: 'Испарительная установка ФАС&nbsp;100&nbsp;ZH/C/SD', performance: '100 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;150&nbsp;ZH/C/SD', performance: '150 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;200&nbsp;ZH/C/SD', performance: '200 кг/ч' }
-] %}
-{% set pageEqLiqLow = [
-  { title: 'Испарительная установка ФАС&nbsp;100&nbsp;ZH/C/ND', performance: '100 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;150&nbsp;ZH/C/ND', performance: '150 кг/ч' },
-  { title: 'Испарительная установка ФАС&nbsp;200&nbsp;ZH/C/ND', performance: '200 кг/ч' }
-] %}
-
-<table class='Table h-cells-padding-ends--'>
-  <thead class='h-text- h-align--center'>
-    <tr>
-      <th>Наименование</th>
-      <th>Производительность</th>
-      <th>ТКП</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class='h-text- h-align--center'>
-      <th colspan='3'><b>Базис</b><br>(без регуляторов среднего и низкого давления)</th>
-    </tr>
-    {% for e in pageEqLiqBasis %}
-    {{ TableEntry(e.title, e.performance) }}
-    {% endfor %}
-    <tr class='h-text- h-align--center'>
-      <th colspan='3'><b>Среднего давления</b><br>(с регулятор среднего давления)</th>
-    </tr>
-    {% for e in pageEqLiqMed %}
-    {{ TableEntry(e.title, e.performance) }}
-    {% endfor %}
-    <tr class='h-text- h-align--center'>
-      <th colspan='3'><b>Низкого давления</b><br>(с регуляторам среднего и низкого давления)</th>
-    </tr>
-    {% for e in pageEqLiqLow %}
-    {{ TableEntry(e.title, e.performance) }}
-    {% endfor %}
-  </tbody>
-</table>
+{{ VaporizersTable(liquid) }}
 
 <p>Все исполнения без защитного кожуха.</p>
 
