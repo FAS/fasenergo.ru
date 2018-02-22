@@ -2,11 +2,11 @@
 
 # performance: кг/ч
 
-# Испарители для автономного газоснабжения
+# Испарители
 
 20.0010:
   id: 20.0010
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 10 SE
   price: 800
   specs:
@@ -14,10 +14,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0015:
   id: 20.0015
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 15 SE
   price: 950
   specs:
@@ -25,10 +24,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0020:
   id: 20.0020
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 20 SE
   price: 1100
   specs:
@@ -36,10 +34,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0025:
   id: 20.0025
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 25 SE
   price: 1200
   specs:
@@ -47,10 +44,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0030:
   id: 20.0030
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 30 SE
   price: 1250
   specs:
@@ -58,10 +54,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0040:
   id: 20.0040
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 40 SE
   price: 1300
   specs:
@@ -69,10 +64,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0060:
   id: 20.0060
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 60 SE
   price: 4000
   specs:
@@ -80,10 +74,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0070:
   id: 20.0070
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 70 SE
   price: 4800
   specs:
@@ -91,10 +84,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0080:
   id: 20.0080
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 80 SE
   price: 5300
   specs:
@@ -102,10 +94,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0100:
   id: 20.0100
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 100 SE
   price: 6300
   specs:
@@ -113,10 +104,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0120:
   id: 20.0120
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 120 SE
   price: 6800
   specs:
@@ -124,10 +114,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0160:
   id: 20.0160
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 160 SE
   price: 7900
   specs:
@@ -135,10 +124,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0180:
   id: 20.0180
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 180 SE
   price: 8800
   specs:
@@ -146,10 +134,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0200:
   id: 20.0200
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 200 SE
   price: 10500
   specs:
@@ -157,10 +144,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0240:
   id: 20.0240
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 240 SE
   price: 11300
   specs:
@@ -168,10 +154,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0280:
   id: 20.0280
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 280 SE
   price: 13000
   specs:
@@ -179,10 +164,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 20.0300:
   id: 20.0300
-  type: 'испаритель'
+  type: испаритель
   title: Испаритель ФАС 300 SE
   price: 14000
   specs:
@@ -190,362 +174,339 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
-    pressure: null
 
-# Испарительные установки с регуляторной группой низкого давления
+# Испарительные установки низкого давления в шкафном исполнении
 
 20.1020:
   id: 20.1020
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 20 SE/SH
   price: 3700
   specs:
     performance: 20
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1025:
   id: 20.1025
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 25 SE/SH
   price: 4000
   specs:
     performance: 25
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1030:
   id: 20.1030
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 30 SE/SH
   price: 4500
   specs:
     performance: 30
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1035:
   id: 20.1035
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 35 SE/SH
   price: 4800
   specs:
     performance: 35
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1040:
   id: 20.1040
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 40 SE/SH
   price: 5200
   specs:
     performance: 40
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1050:
   id: 20.1050
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 50 SE/SH
   price: 7000
   specs:
     performance: 50
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1060:
   id: 20.1060
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 60 SE/SH
   price: 7800
   specs:
     performance: 60
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1070:
   id: 20.1070
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 70 SE/SH
   price: 8000
   specs:
     performance: 70
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1080:
   id: 20.1080
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 80 SE/SH
   price: 8500
   specs:
     performance: 80
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1100:
   id: 20.1100
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 100 SE/SH
   price: 9500
   specs:
     performance: 100
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1120:
   id: 20.1120
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 120 SE/SH
   price: 10200
   specs:
     performance: 120
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1160:
   id: 20.1160
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 160 SE/SH
   price: 11500
   specs:
     performance: 160
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1180:
   id: 20.1180
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 180 SE/SH
   price: 13500
   specs:
     performance: 180
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1200:
   id: 20.1200
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 200 SE/SH
   price: 14100
   specs:
     performance: 200
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1240:
   id: 20.1240
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 240 SE/SH
   price: 14200
   specs:
     performance: 240
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1260:
   id: 20.1260
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 260 SE/SH
   price: 14300
   specs:
     performance: 260
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1280:
   id: 20.1280
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 280 SE/SH
   price: 15000
   specs:
     performance: 280
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1300:
   id: 20.1300
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 300 SE/SH
   price: 15100
   specs:
     performance: 300
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1320:
   id: 20.1320
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 320 SE/SH
   price: 15200
   specs:
     performance: 320
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1350:
   id: 20.1350
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 350 SE/SH
   price: 17000
   specs:
     performance: 350
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1400:
   id: 20.1400
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 400 SE/SH
   price: 19498
   specs:
     performance: 400
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1450:
   id: 20.1450
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 450 SE/SH
   price: 20000
   specs:
     performance: 450
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1500:
   id: 20.1500
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 500 SE/SH
   price: 20500
   specs:
     performance: 500
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1520:
   id: 20.1520
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 520 SE/SH
   price: 21000
   specs:
     performance: 520
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1560:
   id: 20.1560
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 560 SE/SH
   price: 23000
   specs:
     performance: 560
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1600:
   id: 20.1600
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 600 SE/SH
   price: 25000
   specs:
     performance: 600
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1640:
   id: 20.1640
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 640 SE/SH
   price: 28000
   specs:
     performance: 640
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1720:
   id: 20.1720
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 720 SE/SH
   price: 29000
   specs:
     performance: 720
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1780:
   id: 20.1780
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 780 SE/SH
   price: 39000
   specs:
     performance: 780
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1840:
   id: 20.1840
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 840 SE/SH
   price: 43000
   specs:
     performance: 840
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+no-id-850-se-sh:
+  id: no-id-850-se-sh
+  type: испарительная установка
+  title: Испарительная установка ФАС 850 SE/SH
+  price: null
+  specs:
+    performance: 850
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.1960:
   id: 20.1960
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 960 SE/SH
   price: 45000
   specs:
     performance: 960
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 20.11250:
   id: 20.11250
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 1250 SE/SH
   price: 49000
   specs:
     performance: 1250
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-    pressure: low
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
 
 # Кольцевые испарительные установки с крышкой ёмкостей и со всей необходимой арматурой, включая заправочный штуцер М60х4 для подключения автомобилей газовозов
 
@@ -559,7 +520,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
   price:  8000
 20.30150:
   id: 20.30150
@@ -571,7 +531,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.30200:
   id: 20.30200
   type: жидкостные
@@ -582,7 +541,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 
 # Жидкостные испарители в шкафном исполнении
 
@@ -596,7 +554,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.2300:
   id: 20.2300
   type: null
@@ -607,7 +564,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.2400:
   id: 20.2400
   type: null
@@ -618,7 +574,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.2600:
   id: 20.2600
   type: null
@@ -629,7 +584,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.2800:
   id: 20.2800
   type: null
@@ -640,7 +594,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.21500:
   id: 20.21500
   type: null
@@ -651,7 +604,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.21900:
   id: 20.21900
   type: null
@@ -662,7 +614,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.22500:
   id: 20.22500
   type: null
@@ -673,7 +624,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.23000:
   id: 20.23000
   type: null
@@ -684,7 +634,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.23800:
   id: 20.23800
   type: null
@@ -695,7 +644,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 
 # Комбинированные жидкостные испарительные установки с самоподогревом
 
@@ -709,7 +657,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.40500:
   id: 20.40500
   type: null
@@ -720,7 +667,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.40800:
   id: 20.40800
   type: null
@@ -731,7 +677,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 20.42500:
   id: 20.42500
   type: null
@@ -742,7 +687,6 @@
     heatType: null
     heatTransferType: null
     pressureType: null
-    pressure: null
 
 # Смесительно-испарительные комбинированные установки
 
