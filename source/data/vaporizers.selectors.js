@@ -10,12 +10,25 @@ const selectVaporizers = (data) => selectAllVaporizers(data)
 const selectVaporizingStations = (data) => selectAllVaporizers(data)
   .filter((v) => v.type === 'испарительная установка')
 
+const getWithLowPressure = (entries) => entries
+  .filter((v) => v.specs.pressureType === 'низкое')
+
+const getWithMedPressure = (entries) => entries
+  .filter((v) => v.specs.pressureType === 'среднее')
+
+const getWithBasicPressure = (entries) => entries
+  .filter((v) => !v.specs.pressureType)
+
 const exporting = {
   selectVaporizer,
   selectAllVaporizersIds,
   selectAllVaporizers,
   selectVaporizers,
-  selectVaporizingStations
+  selectVaporizingStations,
+
+  getWithLowPressure,
+  getWithMedPressure,
+  getWithBasicPressure
 }
 
 const nunjucksExtensions = (env) => {
