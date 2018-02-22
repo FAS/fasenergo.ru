@@ -9,13 +9,12 @@ const Vaporizers = r.EqualKeyAndProp('id')(t.dict(t.String, t.struct({
   id: t.String,
   type: t.enums.of(['испаритель']),
   title: t.String,
-  price: t.Number,
+  price: t.maybe(t.Number),
   specs: t.struct({
     performance: t.Number,
     heatType: t.enums.of(['жидкостный', 'электрический']),
     heatTransferType: t.enums.of(['прямой', 'непрямой']),
-    pressure: t.Number,
-    pressureType: t.union([t.enums.of(['низкое', 'среднее']), r.False])
+    pressureType: t.maybe(t.enums.of(['низкое', 'среднее']))
   }, { strict: true })
 }, { name: 'Vaporizers', strct: true })))
 
