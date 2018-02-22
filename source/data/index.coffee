@@ -81,6 +81,7 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
     GENERATORS: readYAML join(__dirname, 'generators.yml')
     GENERATORS_OPTIONS: readYAML join(__dirname, 'generators.options.yml')
     ENGINES: readYAML join(__dirname, 'engines.yml')
+    VAPORIZERS: readYAML join(__dirname, 'vaporizers.yml')
 
   return (locale) -> switch locale
     when 'ru-RU' then merge {}, data
