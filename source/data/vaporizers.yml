@@ -811,7 +811,7 @@
     pressureType: null
     selfHeating: false
   enclosure:
-    type: шкафl
+    type: шкаф
 '20.21900':
   id: '20.21900'
   article: '20.21900'
@@ -881,7 +881,6 @@
   price: 8000
   specs:
     performance: 100
-    type: электрические
     heatType: электрический
     heatTransferType: непрямой
     pressureType: null
