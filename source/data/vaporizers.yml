@@ -6,416 +6,743 @@
 
 20.0010:
   id: 20.0010
-  type: null
-  pressure: null
-  performance: 10
+  type: 'испаритель'
+  title: null
   price: 800
+  specs:
+    performance: 10
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0015:
   id: 20.0015
-  type: null
-  pressure: null
-  performance: 15
+  type: 'испаритель'
+  title: null
   price: 950
+  specs:
+    performance: 15
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0020:
   id: 20.0020
-  type: null
-  pressure: null
-  performance: 20
+  type: 'испаритель'
+  title: null
   price: 1100
+  specs:
+    performance: 20
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0025:
   id: 20.0025
-  type: null
-  pressure: null
-  performance: 25
+  type: 'испаритель'
+  title: null
   price: 1200
+  specs:
+    performance: 25
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0030:
   id: 20.0030
-  type: null
-  pressure: null
-  performance: 30
+  type: 'испаритель'
+  title: null
   price: 1250
+  specs:
+    performance: 30
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0040:
   id: 20.0040
-  type: null
-  pressure: null
-  performance: 40
+  type: 'испаритель'
+  title: null
   price: 1300
-
-# Электрические испарители
-
+  specs:
+    performance: 40
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0060:
   id: 20.0060
-  type: null
-  pressure: null
-  performance: 60
+  type: 'испаритель'
+  title: null
   price: 4000
+  specs:
+    performance: 60
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0070:
   id: 20.0070
-  type: null
-  pressure: null
-  performance: 70
+  type: 'испаритель'
+  title: null
   price: 4800
+  specs:
+    performance: 70
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0080:
   id: 20.0080
-  type: null
-  pressure: null
-  performance: 80
+  type: 'испаритель'
+  title: null
   price: 5300
+  specs:
+    performance: 80
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0100:
   id: 20.0100
-  type: null
-  pressure: null
-  performance: 100
+  type: 'испаритель'
+  title: null
   price: 6300
+  specs:
+    performance: 100
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0120:
   id: 20.0120
-  type: null
-  pressure: null
-  performance: 120
+  type: 'испаритель'
+  title: null
   price: 6800
+  specs:
+    performance: 120
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0160:
   id: 20.0160
-  type: null
-  pressure: null
-  performance: 160
+  type: 'испаритель'
+  title: null
   price: 7900
+  specs:
+    performance: 160
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0180:
   id: 20.0180
-  type: null
-  pressure: null
-  performance: 180
+  type: 'испаритель'
+  title: null
   price: 8800
+  specs:
+    performance: 180
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0200:
   id: 20.0200
-  type: null
-  pressure: null
-  performance: 200
+  type: 'испаритель'
+  title: null
   price: 10500
+  specs:
+    performance: 200
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0240:
   id: 20.0240
-  type: null
-  pressure: null
-  performance: 240
+  type: 'испаритель'
+  title: null
   price: 11300
+  specs:
+    performance: 240
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0280:
   id: 20.0280
-  type: null
-  pressure: null
-  performance: 280
+  type: 'испаритель'
+  title: null
   price: 13000
+  specs:
+    performance: 280
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.0300:
   id: 20.0300
-  type: null
-  pressure: null
-  performance: 300
+  type: 'испаритель'
+  title: null
   price: 14000
+  specs:
+    performance: 300
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 
 # Испарительные установки с регуляторной группой низкого давления
 
 20.1020:
   id: 20.1020
   type: null
-  pressure: low
-  performance: 20
+  title: null
   price: 3700
+  specs:
+    performance: 20
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1025:
   id: 20.1025
   type: null
-  pressure: low
-  performance: 25
+  title: null
   price: 4000
+  specs:
+    performance: 25
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1030:
   id: 20.1030
   type: null
-  pressure: low
-  performance: 30
+  title: null
   price: 4500
+  specs:
+    performance: 30
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1035:
   id: 20.1035
   type: null
-  pressure: low
-  performance: 35
+  title: null
   price: 4800
+  specs:
+    performance: 35
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1040:
   id: 20.1040
   type: null
-  pressure: low
-  performance: 40
+  title: null
   price: 5200
+  specs:
+    performance: 40
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1050:
   id: 20.1050
   type: null
-  pressure: low
-  performance: 50
+  title: null
   price: 7000
+  specs:
+    performance: 50
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1060:
   id: 20.1060
   type: null
-  pressure: low
-  performance: 60
+  title: null
   price: 7800
+  specs:
+    performance: 60
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1070:
   id: 20.1070
   type: null
-  pressure: low
-  performance: 70
+  title: null
   price: 8000
+  specs:
+    performance: 70
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1080:
   id: 20.1080
   type: null
-  pressure: low
-  performance: 80
+  title: null
   price: 8500
+  specs:
+    performance: 80
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1100:
   id: 20.1100
   type: null
-  pressure: low
-  performance: 100
+  title: null
   price: 9500
+  specs:
+    performance: 100
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1120:
   id: 20.1120
   type: null
-  pressure: low
-  performance: 120
+  title: null
   price: 10200
+  specs:
+    performance: 120
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1160:
   id: 20.1160
   type: null
-  pressure: low
-  performance: 160
+  title: null
   price: 11500
+  specs:
+    performance: 160
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1180:
   id: 20.1180
   type: null
-  pressure: low
-  performance: 180
+  title: null
   price: 13500
+  specs:
+    performance: 180
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1200:
   id: 20.1200
   type: null
-  pressure: low
-  performance: 200
+  title: null
   price: 14100
+  specs:
+    performance: 200
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1240:
   id: 20.1240
   type: null
-  pressure: low
-  performance: 240
+  title: null
   price: 14200
+  specs:
+    performance: 240
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1260:
   id: 20.1260
   type: null
-  pressure: low
-  performance: 260
+  title: null
   price: 14300
+  specs:
+    performance: 260
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1280:
   id: 20.1280
   type: null
-  pressure: low
-  performance: 280
+  title: null
   price: 15000
+  specs:
+    performance: 280
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1300:
   id: 20.1300
   type: null
-  pressure: low
-  performance: 300
+  title: null
   price: 15100
+  specs:
+    performance: 300
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1320:
   id: 20.1320
   type: null
-  pressure: low
-  performance: 320
+  title: null
   price: 15200
+  specs:
+    performance: 320
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1350:
   id: 20.1350
   type: null
-  pressure: low
-  performance: 350
+  title: null
   price: 17000
+  specs:
+    performance: 350
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1400:
   id: 20.1400
   type: null
-  pressure: low
-  performance: 400
+  title: null
   price: 19498
+  specs:
+    performance: 400
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1450:
   id: 20.1450
   type: null
-  pressure: low
-  performance: 450
+  title: null
   price: 20000
+  specs:
+    performance: 450
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1500:
   id: 20.1500
   type: null
-  pressure: low
-  performance: 500
+  title: null
   price: 20500
+  specs:
+    performance: 500
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1520:
   id: 20.1520
   type: null
-  pressure: low
-  performance: 520
+  title: null
   price: 21000
+  specs:
+    performance: 520
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1560:
   id: 20.1560
   type: null
-  pressure: low
-  performance: 560
+  title: null
   price: 23000
+  specs:
+    performance: 560
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1600:
   id: 20.1600
   type: null
-  pressure: low
-  performance: 600
+  title: null
   price: 25000
+  specs:
+    performance: 600
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1640:
   id: 20.1640
   type: null
-  pressure: low
-  performance: 640
+  title: null
   price: 28000
+  specs:
+    performance: 640
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1720:
   id: 20.1720
   type: null
-  pressure: low
-  performance: 720
+  title: null
   price: 29000
+  specs:
+    performance: 720
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1780:
   id: 20.1780
   type: null
-  pressure: low
-  performance: 780
+  title: null
   price: 39000
+  specs:
+    performance: 780
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1840:
   id: 20.1840
   type: null
-  pressure: low
-  performance: 840
+  title: null
   price: 43000
+  specs:
+    performance: 840
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.1960:
   id: 20.1960
   type: null
-  pressure: low
-  performance: 960
+  title: null
   price: 45000
+  specs:
+    performance: 960
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 20.11250:
   id: 20.11250
   type: null
-  pressure: low
-  performance: 1250
+  title: null
   price: 49000
+  specs:
+    performance: 1250
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: low
 
 # Кольцевые испарительные установки с крышкой ёмкостей и со всей необходимой арматурой, включая заправочный штуцер М60х4 для подключения автомобилей газовозов
 
 20.30100:
   id: 20.30100
   type: null
-  pressure: null
-  type: электрические
+  title: null
   performance: 100
+  specs:
+    type: электрические
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
   price:  8000
 20.30150:
   id: 20.30150
   type: жидкостные
-  pressure: null
-  performance: 150
+  title: null
   price: 10000
+  specs:
+    performance: 150
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.30200:
   id: 20.30200
   type: жидкостные
-  pressure: null
-  performance: 200
+  title: null
   price: 12000
+  specs:
+    performance: 200
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 
 # Жидкостные испарители в шкафном исполнении
 
 20.2200:
   id: 20.2200
   type: null
-  pressure: null
-  performance: 200
+  title: null
   price: 17800
+  specs:
+    performance: 200
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.2300:
   id: 20.2300
   type: null
-  pressure: null
-  performance: 300
+  title: null
   price: 18500
+  specs:
+    performance: 300
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.2400:
   id: 20.2400
   type: null
-  pressure: null
-  performance: 400
+  title: null
   price: 23000
+  specs:
+    performance: 400
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.2600:
   id: 20.2600
   type: null
-  pressure: null
-  performance: 600
+  title: null
   price: 26000
+  specs:
+    performance: 600
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.2800:
   id: 20.2800
   type: null
-  pressure: null
-  performance: 800
+  title: null
   price: 34000
+  specs:
+    performance: 800
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.21500:
   id: 20.21500
   type: null
-  pressure: null
-  performance: 1200
+  title: null
   price: 42000
+  specs:
+    performance: 1200
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.21900:
   id: 20.21900
   type: null
-  pressure: null
-  performance: 1900
+  title: null
   price: 45000
+  specs:
+    performance: 1900
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.22500:
   id: 20.22500
   type: null
-  pressure: null
-  performance: 2500
+  title: null
   price: 54000
+  specs:
+    performance: 2500
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.23000:
   id: 20.23000
   type: null
-  pressure: null
-  performance: 3000
+  title: null
   price: 58000
+  specs:
+    performance: 3000
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.23800:
   id: 20.23800
   type: null
-  pressure: null
-  performance: 3800
+  title: null
   price: 60000
+  specs:
+    performance: 3800
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 
 # Комбинированные жидкостные испарительные установки с самоподогревом
 
 20.40250:
   id: 20.40250
   type: null
-  pressure: null
-  performance: 250
+  title: null
   price: 45000
+  specs:
+    performance: 250
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.40500:
   id: 20.40500
   type: null
-  pressure: null
-  performance: 500
+  title: null
   price: 55000
+  specs:
+    performance: 500
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.40800:
   id: 20.40800
   type: null
-  pressure: null
-  performance: 800
+  title: null
   price: 95000
+  specs:
+    performance: 800
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 20.42500:
   id: 20.42500
   type: null
-  pressure: null
-  performance: 2500
+  title: null
   price: 180000
+  specs:
+    performance: 2500
+    heatType: null
+    heatTransferType: null
+    pressureType: null
+    pressure: null
 
 # Смесительно-испарительные комбинированные установки
 
