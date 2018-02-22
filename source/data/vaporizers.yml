@@ -4,8 +4,8 @@
 
 # Испарители
 
-20.0010:
-  id: 20.0010
+'20.0010':
+  id: '20.0010'
   type: испаритель
   title: Испаритель ФАС 10 SE
   price: 800
@@ -17,8 +17,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0015:
-  id: 20.0015
+'20.0015':
+  id: '20.0015'
   type: испаритель
   title: Испаритель ФАС 15 SE
   price: 950
@@ -30,8 +30,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0020:
-  id: 20.0020
+'20.0020':
+  id: '20.0020'
   type: испаритель
   title: Испаритель ФАС 20 SE
   price: 1100
@@ -43,8 +43,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0025:
-  id: 20.0025
+'20.0025':
+  id: '20.0025'
   type: испаритель
   title: Испаритель ФАС 25 SE
   price: 1200
@@ -56,8 +56,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0030:
-  id: 20.0030
+'20.0030':
+  id: '20.0030'
   type: испаритель
   title: Испаритель ФАС 30 SE
   price: 1250
@@ -69,8 +69,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0040:
-  id: 20.0040
+'20.0040':
+  id: '20.0040'
   type: испаритель
   title: Испаритель ФАС 40 SE
   price: 1300
@@ -82,8 +82,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0060:
-  id: 20.0060
+'20.0060':
+  id: '20.0060'
   type: испаритель
   title: Испаритель ФАС 60 SE
   price: 4000
@@ -95,8 +95,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0070:
-  id: 20.0070
+'20.0070':
+  id: '20.0070'
   type: испаритель
   title: Испаритель ФАС 70 SE
   price: 4800
@@ -108,8 +108,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0080:
-  id: 20.0080
+'20.0080':
+  id: '20.0080'
   type: испаритель
   title: Испаритель ФАС 80 SE
   price: 5300
@@ -121,8 +121,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0100:
-  id: 20.0100
+'20.0100':
+  id: '20.0100'
   type: испаритель
   title: Испаритель ФАС 100 SE
   price: 6300
@@ -134,8 +134,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0120:
-  id: 20.0120
+'20.0120':
+  id: '20.0120'
   type: испаритель
   title: Испаритель ФАС 120 SE
   price: 6800
@@ -147,8 +147,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0160:
-  id: 20.0160
+'20.0160':
+  id: '20.0160'
   type: испаритель
   title: Испаритель ФАС 160 SE
   price: 7900
@@ -160,8 +160,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0180:
-  id: 20.0180
+'20.0180':
+  id: '20.0180'
   type: испаритель
   title: Испаритель ФАС 180 SE
   price: 8800
@@ -173,8 +173,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0200:
-  id: 20.0200
+'20.0200':
+  id: '20.0200'
   type: испаритель
   title: Испаритель ФАС 200 SE
   price: 10500
@@ -186,8 +186,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0240:
-  id: 20.0240
+'20.0240':
+  id: '20.0240'
   type: испаритель
   title: Испаритель ФАС 240 SE
   price: 11300
@@ -199,8 +199,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0280:
-  id: 20.0280
+'20.0280':
+  id: '20.0280'
   type: испаритель
   title: Испаритель ФАС 280 SE
   price: 13000
@@ -212,8 +212,8 @@
     selfHeating: false
   enclosure:
     type: null
-20.0300:
-  id: 20.0300
+'20.0300':
+  id: '20.0300'
   type: испаритель
   title: Испаритель ФАС 300 SE
   price: 14000
@@ -230,8 +230,8 @@
 
 ## Электрический подогрев
 
-20.1020:
-  id: 20.1020
+'20.1020':
+  id: '20.1020'
   type: испарительная установка
   title: Испарительная установка ФАС 20 SE/SH
   price: 3700
@@ -243,8 +243,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1025:
-  id: 20.1025
+'20.1025':
+  id: '20.1025'
   type: испарительная установка
   title: Испарительная установка ФАС 25 SE/SH
   price: 4000
@@ -256,8 +256,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1030:
-  id: 20.1030
+'20.1030':
+  id: '20.1030'
   type: испарительная установка
   title: Испарительная установка ФАС 30 SE/SH
   price: 4500
@@ -269,8 +269,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1035:
-  id: 20.1035
+'20.1035':
+  id: '20.1035'
   type: испарительная установка
   title: Испарительная установка ФАС 35 SE/SH
   price: 4800
@@ -282,8 +282,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1040:
-  id: 20.1040
+'20.1040':
+  id: '20.1040'
   type: испарительная установка
   title: Испарительная установка ФАС 40 SE/SH
   price: 5200
@@ -295,8 +295,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1050:
-  id: 20.1050
+'20.1050':
+  id: '20.1050'
   type: испарительная установка
   title: Испарительная установка ФАС 50 SE/SH
   price: 7000
@@ -308,8 +308,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1060:
-  id: 20.1060
+'20.1060':
+  id: '20.1060'
   type: испарительная установка
   title: Испарительная установка ФАС 60 SE/SH
   price: 7800
@@ -321,8 +321,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1070:
-  id: 20.1070
+'20.1070':
+  id: '20.1070'
   type: испарительная установка
   title: Испарительная установка ФАС 70 SE/SH
   price: 8000
@@ -334,8 +334,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1080:
-  id: 20.1080
+'20.1080':
+  id: '20.1080'
   type: испарительная установка
   title: Испарительная установка ФАС 80 SE/SH
   price: 8500
@@ -347,8 +347,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1100:
-  id: 20.1100
+'20.1100':
+  id: '20.1100'
   type: испарительная установка
   title: Испарительная установка ФАС 100 SE/SH
   price: 9500
@@ -360,8 +360,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1120:
-  id: 20.1120
+'20.1120':
+  id: '20.1120'
   type: испарительная установка
   title: Испарительная установка ФАС 120 SE/SH
   price: 10200
@@ -373,8 +373,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1160:
-  id: 20.1160
+'20.1160':
+  id: '20.1160'
   type: испарительная установка
   title: Испарительная установка ФАС 160 SE/SH
   price: 11500
@@ -386,8 +386,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1180:
-  id: 20.1180
+'20.1180':
+  id: '20.1180'
   type: испарительная установка
   title: Испарительная установка ФАС 180 SE/SH
   price: 13500
@@ -399,8 +399,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1200:
-  id: 20.1200
+'20.1200':
+  id: '20.1200'
   type: испарительная установка
   title: Испарительная установка ФАС 200 SE/SH
   price: 14100
@@ -412,8 +412,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1240:
-  id: 20.1240
+'20.1240':
+  id: '20.1240'
   type: испарительная установка
   title: Испарительная установка ФАС 240 SE/SH
   price: 14200
@@ -425,8 +425,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1260:
-  id: 20.1260
+'20.1260':
+  id: '20.1260'
   type: испарительная установка
   title: Испарительная установка ФАС 260 SE/SH
   price: 14300
@@ -438,8 +438,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1280:
-  id: 20.1280
+'20.1280':
+  id: '20.1280'
   type: испарительная установка
   title: Испарительная установка ФАС 280 SE/SH
   price: 15000
@@ -451,8 +451,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1300:
-  id: 20.1300
+'20.1300':
+  id: '20.1300'
   type: испарительная установка
   title: Испарительная установка ФАС 300 SE/SH
   price: 15100
@@ -464,8 +464,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1320:
-  id: 20.1320
+'20.1320':
+  id: '20.1320'
   type: испарительная установка
   title: Испарительная установка ФАС 320 SE/SH
   price: 15200
@@ -477,8 +477,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1350:
-  id: 20.1350
+'20.1350':
+  id: '20.1350'
   type: испарительная установка
   title: Испарительная установка ФАС 350 SE/SH
   price: 17000
@@ -490,8 +490,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1400:
-  id: 20.1400
+'20.1400':
+  id: '20.1400'
   type: испарительная установка
   title: Испарительная установка ФАС 400 SE/SH
   price: 19498
@@ -503,8 +503,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1450:
-  id: 20.1450
+'20.1450':
+  id: '20.1450'
   type: испарительная установка
   title: Испарительная установка ФАС 450 SE/SH
   price: 20000
@@ -516,8 +516,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1500:
-  id: 20.1500
+'20.1500':
+  id: '20.1500'
   type: испарительная установка
   title: Испарительная установка ФАС 500 SE/SH
   price: 20500
@@ -529,8 +529,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1520:
-  id: 20.1520
+'20.1520':
+  id: '20.1520'
   type: испарительная установка
   title: Испарительная установка ФАС 520 SE/SH
   price: 21000
@@ -542,8 +542,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1560:
-  id: 20.1560
+'20.1560':
+  id: '20.1560'
   type: испарительная установка
   title: Испарительная установка ФАС 560 SE/SH
   price: 23000
@@ -555,8 +555,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1600:
-  id: 20.1600
+'20.1600':
+  id: '20.1600'
   type: испарительная установка
   title: Испарительная установка ФАС 600 SE/SH
   price: 25000
@@ -568,8 +568,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1640:
-  id: 20.1640
+'20.1640':
+  id: '20.1640'
   type: испарительная установка
   title: Испарительная установка ФАС 640 SE/SH
   price: 28000
@@ -581,8 +581,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1720:
-  id: 20.1720
+'20.1720':
+  id: '20.1720'
   type: испарительная установка
   title: Испарительная установка ФАС 720 SE/SH
   price: 29000
@@ -594,8 +594,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1780:
-  id: 20.1780
+'20.1780':
+  id: '20.1780'
   type: испарительная установка
   title: Испарительная установка ФАС 780 SE/SH
   price: 39000
@@ -607,8 +607,8 @@
     selfHeating: false
   enclosure:
     type: шкаф
-20.1840:
-  id: 20.1840
+'20.1840':
+  id: '20.1840'
   type: испарительная установка
   title: Испарительная установка ФАС 840 SE/SH
   price: 43000
@@ -621,8 +621,8 @@
   enclosure:
     type: шкаф
 # @todo This station is not preset in price
-no-id-850-se-sh:
-  id: no-id-850-se-sh
+'no-id-850-se-sh':
+  id: 'no-id-850-se-sh'
   type: испарительная установка
   title: Испарительная установка ФАС 850 SE/SH
   price: null
@@ -634,8 +634,8 @@ no-id-850-se-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.1960:
-  id: 20.1960
+'20.1960':
+  id: '20.1960'
   type: испарительная установка
   title: Испарительная установка ФАС 960 SE/SH
   price: 45000
@@ -647,8 +647,8 @@ no-id-850-se-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.11250:
-  id: 20.11250
+'20.11250':
+  id: '20.11250'
   type: испарительная установка
   title: Испарительная установка ФАС 1250 SE/SH
   price: 49000
@@ -663,8 +663,8 @@ no-id-850-se-sh:
 
 ## Жидкостный подогрев
 
-20.2200:
-  id: 20.2200
+'20.2200':
+  id: '20.2200'
   type: испарительная установка
   title: Испарительная установка ФАС 200 ZH/SH
   price: 17800
@@ -676,8 +676,8 @@ no-id-850-se-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.2300:
-  id: 20.2300
+'20.2300':
+  id: '20.2300'
   type: испарительная установка
   title: Испарительная установка ФАС 300 ZH/SH
   price: 18500
@@ -689,8 +689,8 @@ no-id-850-se-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.2400:
-  id: 20.2400
+'20.2400':
+  id: '20.2400'
   type: испарительная установка
   title: Испарительная установка ФАС 400 ZH/SH
   price: 23000
@@ -702,8 +702,8 @@ no-id-850-se-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.2600:
-  id: 20.2600
+'20.2600':
+  id: '20.2600'
   type: испарительная установка
   title: Испарительная установка ФАС 600 ZH/SH
   price: 26000
@@ -715,8 +715,8 @@ no-id-850-se-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.2800:
-  id: 20.2800
+'20.2800':
+  id: '20.2800'
   type: испарительная установка
   title: Испарительная установка ФАС 800 ZH/SH
   price: 34000
@@ -728,8 +728,8 @@ no-id-850-se-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.21500:
-  id: 20.21500
+'20.21500':
+  id: '20.21500'
   type: испарительная установка
   title: Испарительная установка ФАС 1200 ZH/SH
   price: 42000
@@ -742,8 +742,8 @@ no-id-850-se-sh:
   enclosure:
     type: шкаф
 # @todo This station is not preset in price
-no-id-1500-zh-sh:
-  id: no-id-1500-zh-sh
+'no-id-1500-zh-sh':
+  id: 'no-id-1500-zh-sh'
   type: испарительная установка
   title: Испарительная установка ФАС 1500 ZH/SH
   price: null
@@ -755,8 +755,8 @@ no-id-1500-zh-sh:
     selfHeating: false
   enclosure:
     type: шкафl
-20.21900:
-  id: 20.21900
+'20.21900':
+  id: '20.21900'
   type: испарительная установка
   title: Испарительная установка ФАС 1900 ZH/SH
   price: 45000
@@ -768,8 +768,8 @@ no-id-1500-zh-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.22500:
-  id: 20.22500
+'20.22500':
+  id: '20.22500'
   type: испарительная установка
   title: Испарительная установка ФАС 2500 ZH/SH
   price: 54000
@@ -781,8 +781,8 @@ no-id-1500-zh-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.23000:
-  id: 20.23000
+'20.23000':
+  id: '20.23000'
   type: испарительная установка
   title: Испарительная установка ФАС 3000 ZH/SH
   price: 58000
@@ -794,8 +794,8 @@ no-id-1500-zh-sh:
     selfHeating: false
   enclosure:
     type: шкаф
-20.23800:
-  id: 20.23800
+'20.23800':
+  id: '20.23800'
   type: испарительная установка
   title: Испарительная установка ФАС 3800 ZH/SH
   price: 60000
@@ -812,8 +812,8 @@ no-id-1500-zh-sh:
 
 ## Электрический подогрев
 
-20.30100:
-  id: 20.30100
+'20.30100':
+  id: '20.30100'
   type: испарительная установка
   title: Кольцевая испарительная установка ФАС 100 SE/C
   price: 8000
@@ -835,8 +835,8 @@ no-id-1500-zh-sh:
 # @todo Here in original site were more models, with different performance
 #       and different pressure types (basic, med and low)
 
-20.30150:
-  id: 20.30150
+'20.30150':
+  id: '20.30150'
   type: испарительная установка
   title: Кольцевая испарительная установка ФАС 150 ZH/C
   price: 10000
@@ -848,8 +848,8 @@ no-id-1500-zh-sh:
     selfHeating: false
   enclosure:
     type: кольцевое
-20.30200:
-  id: 20.30200
+'20.30200':
+  id: '20.30200'
   type: испарительная установка
   title: Кольцевая испарительная установка ФАС 200 ZH/C
   price: 12000
@@ -864,8 +864,8 @@ no-id-1500-zh-sh:
 
 # Испарительные установки с самоподогревом
 
-20.40250:
-  id: 20.40250
+'20.40250':
+  id: '20.40250'
   type: испарительная установка
   title: Испарительная установка ФАС 250 ZH/A/K
   price: 45000
@@ -877,8 +877,8 @@ no-id-1500-zh-sh:
     selfHeating: true
   enclosure:
     type: null
-20.40500:
-  id: 20.40500
+'20.40500':
+  id: '20.40500'
   type: испарительная установка
   title: Испарительная установка ФАС 500 ZH/A/K
   price: 55000
@@ -890,8 +890,8 @@ no-id-1500-zh-sh:
     selfHeating: true
   enclosure:
     type: null
-20.40800:
-  id: 20.40800
+'20.40800':
+  id: '20.40800'
   type: испарительная установка
   title: Испарительная установка ФАС 800 ZH/A/K
   price: 95000
@@ -903,8 +903,8 @@ no-id-1500-zh-sh:
     selfHeating: true
   enclosure:
     type: null
-20.42500:
-  id: 20.42500
+'20.42500':
+  id: '20.42500'
   type: испарительная установка
   title: Испарительная установка ФАС 2500 ZH/A/K
   price: 180000
