@@ -7,188 +7,188 @@
 20.0010:
   id: 20.0010
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 10 SE
   price: 800
   specs:
     performance: 10
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0015:
   id: 20.0015
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 15 SE
   price: 950
   specs:
     performance: 15
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0020:
   id: 20.0020
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 20 SE
   price: 1100
   specs:
     performance: 20
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0025:
   id: 20.0025
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 25 SE
   price: 1200
   specs:
     performance: 25
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0030:
   id: 20.0030
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 30 SE
   price: 1250
   specs:
     performance: 30
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0040:
   id: 20.0040
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 40 SE
   price: 1300
   specs:
     performance: 40
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0060:
   id: 20.0060
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 60 SE
   price: 4000
   specs:
     performance: 60
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0070:
   id: 20.0070
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 70 SE
   price: 4800
   specs:
     performance: 70
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0080:
   id: 20.0080
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 80 SE
   price: 5300
   specs:
     performance: 80
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0100:
   id: 20.0100
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 100 SE
   price: 6300
   specs:
     performance: 100
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0120:
   id: 20.0120
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 120 SE
   price: 6800
   specs:
     performance: 120
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0160:
   id: 20.0160
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 160 SE
   price: 7900
   specs:
     performance: 160
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0180:
   id: 20.0180
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 180 SE
   price: 8800
   specs:
     performance: 180
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0200:
   id: 20.0200
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 200 SE
   price: 10500
   specs:
     performance: 200
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0240:
   id: 20.0240
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 240 SE
   price: 11300
   specs:
     performance: 240
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0280:
   id: 20.0280
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 280 SE
   price: 13000
   specs:
     performance: 280
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 20.0300:
   id: 20.0300
   type: 'испаритель'
-  title: null
+  title: Испаритель ФАС 300 SE
   price: 14000
   specs:
     performance: 300
-    heatType: null
-    heatTransferType: null
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
     pressureType: null
     pressure: null
 
