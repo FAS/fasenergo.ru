@@ -14,6 +14,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0015:
   id: 20.0015
   type: испаритель
@@ -24,6 +27,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0020:
   id: 20.0020
   type: испаритель
@@ -34,6 +40,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0025:
   id: 20.0025
   type: испаритель
@@ -44,6 +53,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0030:
   id: 20.0030
   type: испаритель
@@ -54,6 +66,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0040:
   id: 20.0040
   type: испаритель
@@ -64,6 +79,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0060:
   id: 20.0060
   type: испаритель
@@ -74,6 +92,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0070:
   id: 20.0070
   type: испаритель
@@ -84,6 +105,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0080:
   id: 20.0080
   type: испаритель
@@ -94,6 +118,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0100:
   id: 20.0100
   type: испаритель
@@ -104,6 +131,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0120:
   id: 20.0120
   type: испаритель
@@ -114,6 +144,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0160:
   id: 20.0160
   type: испаритель
@@ -124,6 +157,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0180:
   id: 20.0180
   type: испаритель
@@ -134,6 +170,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0200:
   id: 20.0200
   type: испаритель
@@ -144,6 +183,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0240:
   id: 20.0240
   type: испаритель
@@ -154,6 +196,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0280:
   id: 20.0280
   type: испаритель
@@ -164,6 +209,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 20.0300:
   id: 20.0300
   type: испаритель
@@ -174,6 +222,9 @@
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
 
 # Испарительные установки низкого давления в шкафном исполнении
 
@@ -189,6 +240,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1025:
   id: 20.1025
   type: испарительная установка
@@ -199,6 +253,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1030:
   id: 20.1030
   type: испарительная установка
@@ -209,6 +266,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1035:
   id: 20.1035
   type: испарительная установка
@@ -219,6 +279,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1040:
   id: 20.1040
   type: испарительная установка
@@ -229,6 +292,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1050:
   id: 20.1050
   type: испарительная установка
@@ -239,6 +305,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1060:
   id: 20.1060
   type: испарительная установка
@@ -249,6 +318,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1070:
   id: 20.1070
   type: испарительная установка
@@ -259,6 +331,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1080:
   id: 20.1080
   type: испарительная установка
@@ -269,6 +344,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1100:
   id: 20.1100
   type: испарительная установка
@@ -279,6 +357,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1120:
   id: 20.1120
   type: испарительная установка
@@ -289,6 +370,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1160:
   id: 20.1160
   type: испарительная установка
@@ -299,6 +383,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1180:
   id: 20.1180
   type: испарительная установка
@@ -309,6 +396,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1200:
   id: 20.1200
   type: испарительная установка
@@ -319,6 +409,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1240:
   id: 20.1240
   type: испарительная установка
@@ -329,6 +422,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1260:
   id: 20.1260
   type: испарительная установка
@@ -339,6 +435,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1280:
   id: 20.1280
   type: испарительная установка
@@ -349,6 +448,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1300:
   id: 20.1300
   type: испарительная установка
@@ -359,6 +461,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1320:
   id: 20.1320
   type: испарительная установка
@@ -369,6 +474,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1350:
   id: 20.1350
   type: испарительная установка
@@ -379,6 +487,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1400:
   id: 20.1400
   type: испарительная установка
@@ -389,6 +500,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1450:
   id: 20.1450
   type: испарительная установка
@@ -399,6 +513,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1500:
   id: 20.1500
   type: испарительная установка
@@ -409,6 +526,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1520:
   id: 20.1520
   type: испарительная установка
@@ -419,6 +539,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1560:
   id: 20.1560
   type: испарительная установка
@@ -429,6 +552,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1600:
   id: 20.1600
   type: испарительная установка
@@ -439,6 +565,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1640:
   id: 20.1640
   type: испарительная установка
@@ -449,6 +578,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1720:
   id: 20.1720
   type: испарительная установка
@@ -459,6 +591,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1780:
   id: 20.1780
   type: испарительная установка
@@ -469,6 +604,9 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1840:
   id: 20.1840
   type: испарительная установка
@@ -479,6 +617,10 @@
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+# @todo This station is not preset in price
 no-id-850-se-sh:
   id: no-id-850-se-sh
   type: испарительная установка
@@ -489,6 +631,9 @@ no-id-850-se-sh:
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.1960:
   id: 20.1960
   type: испарительная установка
@@ -499,6 +644,9 @@ no-id-850-se-sh:
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.11250:
   id: 20.11250
   type: испарительная установка
@@ -509,6 +657,9 @@ no-id-850-se-sh:
     heatType: электрический
     heatTransferType: непрямой
     pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 
 ## Жидкостный подогрев
 
@@ -522,6 +673,9 @@ no-id-850-se-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.2300:
   id: 20.2300
   type: испарительная установка
@@ -532,6 +686,9 @@ no-id-850-se-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.2400:
   id: 20.2400
   type: испарительная установка
@@ -542,6 +699,9 @@ no-id-850-se-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.2600:
   id: 20.2600
   type: испарительная установка
@@ -552,6 +712,9 @@ no-id-850-se-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.2800:
   id: 20.2800
   type: испарительная установка
@@ -562,6 +725,9 @@ no-id-850-se-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.21500:
   id: 20.21500
   type: испарительная установка
@@ -572,6 +738,10 @@ no-id-850-se-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+# @todo This station is not preset in price
 no-id-1500-zh-sh:
   id: no-id-1500-zh-sh
   type: испарительная установка
@@ -582,6 +752,9 @@ no-id-1500-zh-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкафl
 20.21900:
   id: 20.21900
   type: испарительная установка
@@ -592,6 +765,9 @@ no-id-1500-zh-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.22500:
   id: 20.22500
   type: испарительная установка
@@ -602,6 +778,9 @@ no-id-1500-zh-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.23000:
   id: 20.23000
   type: испарительная установка
@@ -612,6 +791,9 @@ no-id-1500-zh-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
 20.23800:
   id: 20.23800
   type: испарительная установка
@@ -622,88 +804,115 @@ no-id-1500-zh-sh:
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
 
-# Кольцевые испарительные установки с крышкой ёмкостей и со всей необходимой арматурой, включая заправочный штуцер М60х4 для подключения автомобилей газовозов
+# Кольцевые испарительные установки
+
+## Электрический подогрев
 
 20.30100:
   id: 20.30100
-  type: null
-  title: null
-  performance: 100
+  type: испарительная установка
+  title: Кольцевая испарительная установка ФАС 100 SE/C
+  price: 8000
   specs:
+    performance: 100
     type: электрические
-    heatType: null
-    heatTransferType: null
+    heatType: электрический
+    heatTransferType: непрямой
     pressureType: null
-  price:  8000
+    selfHeating: false
+  enclosure:
+    type: кольцевое
+
+# @todo Here in original site were more models, with different performance
+#       and different pressure types (basic, med and low)
+
+## Жидкостный подогрев
+
+# @todo Here in original site were more models, with different performance
+#       and different pressure types (basic, med and low)
+
 20.30150:
   id: 20.30150
-  type: жидкостные
-  title: null
+  type: испарительная установка
+  title: Кольцевая испарительная установка ФАС 150 ZH/C
   price: 10000
   specs:
     performance: 150
-    heatType: null
-    heatTransferType: null
+    heatType: жидкостный
+    heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: кольцевое
 20.30200:
   id: 20.30200
-  type: жидкостные
-  title: null
+  type: испарительная установка
+  title: Кольцевая испарительная установка ФАС 200 ZH/C
   price: 12000
   specs:
     performance: 200
-    heatType: null
-    heatTransferType: null
+    heatType: жидкостный
+    heatTransferType: непрямой
     pressureType: null
+    selfHeating: false
+  enclosure:
+    type: кольцевое
 
-# Комбинированные жидкостные испарительные установки с самоподогревом
+# Испарительные установки с самоподогревом
 
 20.40250:
   id: 20.40250
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 250 ZH/A/K
   price: 45000
   specs:
     performance: 250
-    heatType: null
-    heatTransferType: null
+    heatType: жидкостный
+    heatTransferType: непрямой
     pressureType: null
+    selfHeating: true
+  enclosure:
+    type: null
 20.40500:
   id: 20.40500
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 500 ZH/A/K
   price: 55000
   specs:
     performance: 500
-    heatType: null
-    heatTransferType: null
+    heatType: жидкостный
+    heatTransferType: непрямой
     pressureType: null
+    selfHeating: true
+  enclosure:
+    type: null
 20.40800:
   id: 20.40800
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 800 ZH/A/K
   price: 95000
   specs:
     performance: 800
-    heatType: null
-    heatTransferType: null
+    heatType: жидкостный
+    heatTransferType: непрямой
     pressureType: null
+    selfHeating: true
+  enclosure:
+    type: null
 20.42500:
   id: 20.42500
-  type: null
-  title: null
+  type: испарительная установка
+  title: Испарительная установка ФАС 2500 ZH/A/K
   price: 180000
   specs:
     performance: 2500
-    heatType: null
-    heatTransferType: null
+    heatType: жидкостный
+    heatTransferType: непрямой
     pressureType: null
-
-# Смесительно-испарительные комбинированные установки
-
-# — Комплектная испарительно - смесительная установка 100 м3/час По запросу
-# — Комплектная испарительно - смесительная установка 300 м3/час По запросу
-# — Комплектная испарительно - смесительная установка 700 м3/час По запросу
-# — Комплектная испарительно - смесительная установка 700 м3/час По запросу
-# — Комплектная испарительно - смесительная установка 3200 м3/час По запросу
+    selfHeating: true
+  enclosure:
+    type: null
