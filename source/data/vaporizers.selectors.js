@@ -7,16 +7,28 @@ const selectAllVaporizers = (data) => selectAllVaporizersIds(data)
 const selectVaporizers = (data) => selectAllVaporizers(data)
   .filter((v) => v.type === 'испаритель')
 
-const selectVaporizingStations = (data) => selectAllVaporizers(data)
-  .filter((v) => v.type === 'испарительная установка')
+const selectVaporizingStationsInLocker = (data) => selectAllVaporizers(data)
+  .filter((v) => v.type === 'испарительная установка' && v.enclosure.type === 'шкаф')
 
-const getWithLowPressure = (entries) => entries
+const selectCircularVaporizingStations = (data) => selectAllVaporizers(data)
+  .filter((v) => v.type === 'испарительная установка' && v.enclosure.type === 'кольцевое')
+
+const selectVaporizingStationsWithSelfHeating = (data) => selectAllVaporizers(data)
+  .filter((v) => v.type === 'испарительная установка' && v.specs.selfHeating)
+
+const filterWithElectricalHeating = (entries) => entries
+  .filter((v) => v.specs.heatType === 'электрический')
+
+const filterWithLiquidHeating = (entries) => entries
+  .filter((v) => v.specs.heatType === 'жидкостный')
+
+const filterWithLowPressure = (entries) => entries
   .filter((v) => v.specs.pressureType === 'низкое')
 
-const getWithMedPressure = (entries) => entries
+const filterWithMedPressure = (entries) => entries
   .filter((v) => v.specs.pressureType === 'среднее')
 
-const getWithBasicPressure = (entries) => entries
+const filterWithBasicPressure = (entries) => entries
   .filter((v) => !v.specs.pressureType)
 
 const exporting = {
@@ -24,11 +36,15 @@ const exporting = {
   selectAllVaporizersIds,
   selectAllVaporizers,
   selectVaporizers,
-  selectVaporizingStations,
+  selectVaporizingStationsInLocker,
+  selectCircularVaporizingStations,
+  selectVaporizingStationsWithSelfHeating,
 
-  getWithLowPressure,
-  getWithMedPressure,
-  getWithBasicPressure
+  filterWithElectricalHeating,
+  filterWithLiquidHeating,
+  filterWithLowPressure,
+  filterWithMedPressure,
+  filterWithBasicPressure
 }
 
 const nunjucksExtensions = (env) => {
