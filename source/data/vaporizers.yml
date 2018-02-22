@@ -177,6 +177,8 @@
 
 # Испарительные установки низкого давления в шкафном исполнении
 
+## Электрический подогрев
+
 20.1020:
   id: 20.1020
   type: испарительная установка
@@ -508,6 +510,119 @@ no-id-850-se-sh:
     heatTransferType: непрямой
     pressureType: низкое
 
+## Жидкостный подогрев
+
+20.2200:
+  id: 20.2200
+  type: испарительная установка
+  title: Испарительная установка ФАС 200 ZH/SH
+  price: 17800
+  specs:
+    performance: 200
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+20.2300:
+  id: 20.2300
+  type: испарительная установка
+  title: Испарительная установка ФАС 300 ZH/SH
+  price: 18500
+  specs:
+    performance: 300
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+20.2400:
+  id: 20.2400
+  type: испарительная установка
+  title: Испарительная установка ФАС 400 ZH/SH
+  price: 23000
+  specs:
+    performance: 400
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+20.2600:
+  id: 20.2600
+  type: испарительная установка
+  title: Испарительная установка ФАС 600 ZH/SH
+  price: 26000
+  specs:
+    performance: 600
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+20.2800:
+  id: 20.2800
+  type: испарительная установка
+  title: Испарительная установка ФАС 800 ZH/SH
+  price: 34000
+  specs:
+    performance: 800
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+20.21500:
+  id: 20.21500
+  type: испарительная установка
+  title: Испарительная установка ФАС 1200 ZH/SH
+  price: 42000
+  specs:
+    performance: 1200
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+no-id-1500-zh-sh:
+  id: no-id-1500-zh-sh
+  type: испарительная установка
+  title: Испарительная установка ФАС 1500 ZH/SH
+  price: null
+  specs:
+    performance: 1500
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+20.21900:
+  id: 20.21900
+  type: испарительная установка
+  title: Испарительная установка ФАС 1900 ZH/SH
+  price: 45000
+  specs:
+    performance: 1900
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+20.22500:
+  id: 20.22500
+  type: испарительная установка
+  title: Испарительная установка ФАС 2500 ZH/SH
+  price: 54000
+  specs:
+    performance: 2500
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+20.23000:
+  id: 20.23000
+  type: испарительная установка
+  title: Испарительная установка ФАС 3000 ZH/SH
+  price: 58000
+  specs:
+    performance: 3000
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+20.23800:
+  id: 20.23800
+  type: испарительная установка
+  title: Испарительная установка ФАС 3800 ZH/SH
+  price: 60000
+  specs:
+    performance: 3800
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+
 # Кольцевые испарительные установки с крышкой ёмкостей и со всей необходимой арматурой, включая заправочный штуцер М60х4 для подключения автомобилей газовозов
 
 20.30100:
@@ -538,109 +653,6 @@ no-id-850-se-sh:
   price: 12000
   specs:
     performance: 200
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-
-# Жидкостные испарители в шкафном исполнении
-
-20.2200:
-  id: 20.2200
-  type: null
-  title: null
-  price: 17800
-  specs:
-    performance: 200
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-20.2300:
-  id: 20.2300
-  type: null
-  title: null
-  price: 18500
-  specs:
-    performance: 300
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-20.2400:
-  id: 20.2400
-  type: null
-  title: null
-  price: 23000
-  specs:
-    performance: 400
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-20.2600:
-  id: 20.2600
-  type: null
-  title: null
-  price: 26000
-  specs:
-    performance: 600
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-20.2800:
-  id: 20.2800
-  type: null
-  title: null
-  price: 34000
-  specs:
-    performance: 800
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-20.21500:
-  id: 20.21500
-  type: null
-  title: null
-  price: 42000
-  specs:
-    performance: 1200
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-20.21900:
-  id: 20.21900
-  type: null
-  title: null
-  price: 45000
-  specs:
-    performance: 1900
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-20.22500:
-  id: 20.22500
-  type: null
-  title: null
-  price: 54000
-  specs:
-    performance: 2500
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-20.23000:
-  id: 20.23000
-  type: null
-  title: null
-  price: 58000
-  specs:
-    performance: 3000
-    heatType: null
-    heatTransferType: null
-    pressureType: null
-20.23800:
-  id: 20.23800
-  type: null
-  title: null
-  price: 60000
-  specs:
-    performance: 3800
     heatType: null
     heatTransferType: null
     pressureType: null
