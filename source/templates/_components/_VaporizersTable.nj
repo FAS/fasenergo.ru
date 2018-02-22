@@ -1,0 +1,71 @@
+{% from '_components/_formatters.nj' import Price with context %}
+
+{##
+ # Display table with Vaporizers
+ #
+ # @param {object[]} entries Array of vaporizers to be displayed
+ # @param {string}   [class] Class of the root element
+ #
+ # @return {string} html
+ #
+ # @example
+ #   {{ VaporizersTable(Vaporizers) }}
+ #}
+{% macro VaporizersTable(entries, class) %}
+{% set lowPressure = filterWithLowPressure(entries) %}
+{% set medPressure = filterWithMedPressure(entries) %}
+{% set basicPressure = filterWithBasicPressure(entries) %}
+
+{% macro TableEntry(entry) %}
+<tr>
+  <td>{{ entry.article }}</td>
+  <td>{{ entry.title }}</td>
+  <td class='h-align--right'>{{ entry.specs.performance }}</td>
+  <td class='h-align--right'>{{ Price(entry.price) if entry.price }}</td>
+  <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+  </td>
+</tr>
+{% endmacro %}
+
+<table class='{{ class }} Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {% if lowPressure.length %}
+    <tr class='h-text- h-align--center'>
+      <th colspan='5'><b>Низкого давления</b><br>(с регуляторам среднего и низкого давления)</th>
+    </tr>
+    {% for e in lowPressure %}
+    {{ TableEntry(e) }}
+    {% endfor %}
+    {% endif %}
+
+    {% if medPressure.length %}
+    <tr class='h-text- h-align--center'>
+      <th colspan='5'><b>Среднего давления</b><br>(с регулятор среднего давления)</th>
+    </tr>
+    {% for e in medPressure %}
+    {{ TableEntry(e) }}
+    {% endfor %}
+    {% endif %}
+
+    {% if basicPressure.length %}
+    <tr class='h-text- h-align--center'>
+      <th colspan='5'><b>Базис</b><br>(без регуляторов среднего и низкого давления)</th>
+    </tr>
+    {% for e in basicPressure %}
+    {{ TableEntry(e) }}
+    {% endfor %}
+    {% endif %}
+
+  </tbody>
+</table>
+{% endmacro %}
