@@ -9,7 +9,7 @@ import jump from 'jump.js'
  * @return {string} Hash
  */
 const getHash = (url) => {
-  const hash = url && url.match(/#(.*?)($|&)/)[1]
+  const hash = url && url.match(/#(.*?)($|&|\?)/)[1]
   return hash ? `#${hash}` : false
 }
 
