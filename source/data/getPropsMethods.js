@@ -15,7 +15,9 @@ module.exports = ({ config }) => {
         navTitle: g.title,
         breadcrumbTitle: g.title,
 
-        description: g.meta.description
+        description: g.meta.description,
+
+        excludeFromBreadcrumb: s.generatorIsDiscontinued(g)
       }
     }
   }
