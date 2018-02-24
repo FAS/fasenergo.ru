@@ -98,9 +98,11 @@
     <div class='Dropdown js-expand__target' style='display: none'>
       <ul class='o-nav o-nav--stacked h-childs-space-top---'>
         {% for slug, e in crumbPages %}
+        {% if not e.props.excludeFromBreadcrumb %}
         <li class='Nav__item {{ 'is-active' if isActive(e.props.url) }}'>
           <a class='Nav__link h-inline' href='{{ e.props.url }}'>{{ e.props.navTitle }}</a>
         </li>
+        {% endif %}
         {% endfor %}
       </ul>
     </div>
