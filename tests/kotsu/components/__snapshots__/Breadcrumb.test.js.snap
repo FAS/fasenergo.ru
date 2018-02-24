@@ -46,33 +46,41 @@ exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb 1`] 
   >
     <meta property='position' content='2'>
 
-    <a
-      class=' Expand-link-alt has-subnav js-expand'
-      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
-      href='/section-url'
-      property='item' typeof='WebPage'
-    >
-      <span property='name'>Section title</span>
-      <i class='o-svg-icon Expand-link-alt__icon' style=''>
+    <span>
+      <a
+        class=''
+        href='/section-url'
+        property='item' typeof='WebPage'
+      ><span property='name'>Section title</span></a>
+      
+      <button
+        class='Expand-link-alt js-expand'
+        data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
+      ><i class='o-svg-icon Expand-link-alt__icon' style=''>
       <canvas class='o-svg-icon__canvas' width='4' height='7'></canvas>
       <svg class='o-svg-icon__svg' viewBox='0 0 4 7' fill='currentColor' >
         <path d='M4.011 3.24l-.767.77L-.011.76l.767-.77zM.756 7.01l-.767-.77 3.255-3.25.767.77z'/>
       </svg>
-    </i>
-    </a>
+    </i></button>
+      
+    </span>
 
     
     
     <div class='Dropdown js-expand__target' style='display: none'>
       <ul class='o-nav o-nav--stacked h-childs-space-top---'>
         
+        
         <li class='Nav__item '>
           <a class='Nav__link h-inline' href='/section/inner-1-url'></a>
         </li>
         
+        
+        
         <li class='Nav__item '>
           <a class='Nav__link h-inline' href='/section/inner-2-url'></a>
         </li>
+        
         
       </ul>
     </div>
@@ -108,15 +116,14 @@ exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb 1`] 
   >
     <meta property='position' content='3'>
 
-    <a
-      class=' '
-      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
-      href='/section/inner-2-url'
-      property='item' typeof='WebPage'
-    >
-      <span property='name'>Inner 2 title</span>
+    <span>
+      <a
+        class=''
+        href='/section/inner-2-url'
+        property='item' typeof='WebPage'
+      ><span property='name'>Inner 2 title</span></a>
       
-    </a>
+    </span>
 
     
 
@@ -147,15 +154,14 @@ exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb 1`] 
   >
     <meta property='position' content='4'>
 
-    <a
-      class=' '
-      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
-      href='/section/deep-inner-url'
-      property='item' typeof='WebPage'
-    >
-      <span property='name'>Deep inner title</span>
+    <span>
+      <a
+        class=''
+        href='/section/deep-inner-url'
+        property='item' typeof='WebPage'
+      ><span property='name'>Deep inner title</span></a>
       
-    </a>
+    </span>
 
     
 
@@ -233,15 +239,14 @@ exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb with
   >
     <meta property='position' content='2'>
 
-    <a
-      class=' '
-      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
-      href='/section/inner-2-url'
-      property='item' typeof='WebPage'
-    >
-      <span property='name'>Inner 2 title</span>
+    <span>
+      <a
+        class=''
+        href='/section/inner-2-url'
+        property='item' typeof='WebPage'
+      ><span property='name'>Inner 2 title</span></a>
       
-    </a>
+    </span>
 
     
 
@@ -272,15 +277,14 @@ exports[`Nunjucks component \`Breadcrumb()\` should print proper breadcrumb with
   >
     <meta property='position' content='3'>
 
-    <a
-      class=' '
-      data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'
-      href='/section/deep-inner-url'
-      property='item' typeof='WebPage'
-    >
-      <span property='name'>Deep inner title</span>
+    <span>
+      <a
+        class=''
+        href='/section/deep-inner-url'
+        property='item' typeof='WebPage'
+      ><span property='name'>Deep inner title</span></a>
       
-    </a>
+    </span>
 
     
 
