@@ -17,7 +17,7 @@ module.exports = ({ config }) => {
 
         description: g.meta.description,
 
-        excludeFromBreadcrumb: s.generatorIsDiscontinued(g)
+        excludeFromBreadcrumbSubmenu: s.generatorIsDiscontinued(g)
       }
     }
   }
