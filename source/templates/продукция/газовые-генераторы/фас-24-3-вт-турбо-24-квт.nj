@@ -1,12 +1,7 @@
 ---
-generatorId:     фас-24-3-вт-турбо-24-квт
-
-title:           "{{ selectGenerator(GENERATORS, 'фас-24-3-вт-турбо-24-квт').meta.title }}"
-contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-24-3-вт-турбо-24-квт').title }}"
-navTitle:        "{{ selectGenerator(GENERATORS, 'фас-24-3-вт-турбо-24-квт').title }}"
-breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-24-3-вт-турбо-24-квт').title }}"
-
-description: "{{ selectGenerator(GENERATORS, 'фас-24-3-вт-турбо-24-квт').meta.description }}"
+getPropsMethod: getGeneratorPageProps
+getPropsMethodArguments:
+  - фас-24-3-вт-турбо-24-квт
 ---
 
 {% extends './_generator.nj' %}

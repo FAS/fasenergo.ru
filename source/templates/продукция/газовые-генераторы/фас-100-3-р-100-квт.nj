@@ -1,12 +1,7 @@
 ---
-generatorId:     фас-100-3-р-100-квт
-
-title:           "{{ selectGenerator(GENERATORS, 'фас-100-3-р-100-квт').meta.title }}"
-contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-100-3-р-100-квт').title }}"
-navTitle:        "{{ selectGenerator(GENERATORS, 'фас-100-3-р-100-квт').title }}"
-breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-100-3-р-100-квт').title }}"
-
-description: "{{ selectGenerator(GENERATORS, 'фас-100-3-р-100-квт').meta.description }}"
+getPropsMethod: getGeneratorPageProps
+getPropsMethodArguments:
+  - фас-100-3-р-100-квт
 ---
 
 {% extends './_generator.nj' %}

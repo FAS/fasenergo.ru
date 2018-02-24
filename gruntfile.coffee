@@ -95,6 +95,9 @@ module.exports = (grunt) ->
     gettext: new Gettext({ cwd: grunt.config('path.source.locales') })
     data: require('./' + grunt.config('path.source.data'))(grunt)
 
+  grunt.config.merge
+    getPropsMethods: require('./' + grunt.config('path.source.data') + '/getPropsMethods')(grunt)
+
   grunt.loadTasks grunt.config('path.tasks.root')
 
   ###

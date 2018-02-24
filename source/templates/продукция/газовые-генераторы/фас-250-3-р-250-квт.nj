@@ -1,12 +1,7 @@
 ---
-generatorId:     фас-250-3-р-250-квт
-
-title:           "{{ selectGenerator(GENERATORS, 'фас-250-3-р-250-квт').meta.title }}"
-contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-250-3-р-250-квт').title }}"
-navTitle:        "{{ selectGenerator(GENERATORS, 'фас-250-3-р-250-квт').title }}"
-breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-250-3-р-250-квт').title }}"
-
-description: "{{ selectGenerator(GENERATORS, 'фас-250-3-р-250-квт').meta.description }}"
+getPropsMethod: getGeneratorPageProps
+getPropsMethodArguments:
+  - фас-250-3-р-250-квт
 ---
 
 {% extends './_generator.nj' %}

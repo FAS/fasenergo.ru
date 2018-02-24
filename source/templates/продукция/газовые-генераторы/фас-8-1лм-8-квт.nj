@@ -1,12 +1,7 @@
 ---
-generatorId:     фас-8-1лм-8-квт
-
-title:           "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').meta.title }}"
-contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').title }}"
-navTitle:        "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').title }}"
-breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').title }}"
-
-description: "{{ selectGenerator(GENERATORS, 'фас-8-1лм-8-квт').meta.description }}"
+getPropsMethod: getGeneratorPageProps
+getPropsMethodArguments:
+  - фас-8-1лм-8-квт
 ---
 
 {% extends './_generator.nj' %}

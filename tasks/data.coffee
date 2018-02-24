@@ -4,6 +4,7 @@ crumble = require('../modules/crumble')
 urljoin = require('../modules/urljoin')
 
 module.exports = () ->
+  getPropsMethods = @config('getPropsMethods')
   DATA = @config.process @config('data')()
 
   ###
@@ -26,6 +27,8 @@ module.exports = () ->
           [breadcrumb..., prop] = path
           url = urljoin('/', breadcrumb...)
 
+          receivedProps = if data.getPropsMethod then getPropsMethods[data.getPropsMethod].apply(data, data.getPropsMethodArguments) else {}
+
           return merge {}, PAGE_DEFAULTS, {
             slug:       path.slice(-2)[0]
             url:        if url == '/index' then '/' else url
@@ -33,7 +36,7 @@ module.exports = () ->
             depth:      breadcrumb.length
             dirname:    basename(dirname(src))
             basename:   basename(src, extname(src))
-          }, data
+          }, data, receivedProps
 
       files: [
         src: ['<%= path.source.templates %>/{,**/}*.{nj,html}', '!<%= path.source.templates %>/{,**/}_*.{nj,html}']

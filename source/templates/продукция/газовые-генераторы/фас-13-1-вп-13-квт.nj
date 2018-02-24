@@ -1,12 +1,7 @@
 ---
-generatorId:     фас-13-1-вп-13-квт
-
-title:           "{{ selectGenerator(GENERATORS, 'фас-13-1-вп-13-квт').meta.title }}"
-contentTitle:    "{{ selectGenerator(GENERATORS, 'фас-13-1-вп-13-квт').title }}"
-navTitle:        "{{ selectGenerator(GENERATORS, 'фас-13-1-вп-13-квт').title }}"
-breadcrumbTitle: "{{ selectGenerator(GENERATORS, 'фас-13-1-вп-13-квт').title }}"
-
-description: "{{ selectGenerator(GENERATORS, 'фас-13-1-вп-13-квт').meta.description }}"
+getPropsMethod: getGeneratorPageProps
+getPropsMethodArguments:
+  - фас-13-1-вп-13-квт
 ---
 
 {% extends './_generator.nj' %}
