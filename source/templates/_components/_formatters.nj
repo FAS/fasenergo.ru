@@ -99,14 +99,14 @@
 
 {##
  # Output price as shorthand value
- # @param {number} price Price to be formatted
- # @param {currency} currency code as per ISO 4217
+ # @param {number}   price    Price to be formatted
+ # @param {currency} currency Сode as per ISO 4217
  # @return {string} Formatted price
  # @example {{ Price(126000) }} -> '126 тыс. рублей'
  #}
 {%- macro Price(price, currency = 'RUB') -%}
-  {%- if currency = 'EUR' -%}
-    {{ _.replace(numbro(price).formatCurrency('3 a'), 'евро', ' ' + price|plural(['евро'])) }}
+  {%- if currency == 'EUR' -%}
+    {{ _.replace(numbro(price).formatCurrency('3 a'), 'руб.', ' евро') }}
   {%- else -%}
     {{ _.replace(numbro(price).formatCurrency('3 a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей'])) }}
   {%- endif -%}
