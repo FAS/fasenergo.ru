@@ -55,7 +55,7 @@ description: Продажа газовых электрогенераторов 
     equipment = g.equipment.list,
     warrantyFromInstallation = g.warranty.installation,
     warrantyServiceLife = g.warranty.serviceLife,
-    class = 'js-metrica-gensets-click-genset-card'
+    linksClass = 'js-metrica-gensets-click-genset-card'
   ) }}
   {% endfor %}
 </div>

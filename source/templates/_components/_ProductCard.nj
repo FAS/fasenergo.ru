@@ -24,6 +24,7 @@
  # @param {number} [warrantyFromInstallation] Product warranty from installation
  # @param {number} [warrantyServiceLife]      Product warranty service life
  # @param {string} [class]                    Class for main wrapper
+ # @param {string} [linksClass]               Links class
  #
  # @return {string} HTML
  #
@@ -65,7 +66,8 @@
   equipment,
   warrantyFromInstallation,
   warrantyServiceLife,
-  class
+  class,
+  linksClass
 ) %}
 {% set priceFormatted = Price(price) %}
 
@@ -84,11 +86,11 @@
   <div class=' o-grid h-childs-displace+'>
 
     <div class='o-grid__item h-2/7'>
-      <a href='{{ url }}' class='h-border-bottom0'><img src='{{ photo }}' srcset='{{ imageSize(photo).srcset() }}' alt='{{ title|striptags }}'></a>
+      <a href='{{ url }}' class='{{ linksClass }} h-border-bottom0'><img src='{{ photo }}' srcset='{{ imageSize(photo).srcset() }}' alt='{{ title|striptags }}'></a>
     </div>
 
     <div class='o-grid__item h-3/7'>
-      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}'>{{ model }}</a></h2>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}' class='{{ linksClass }}'>{{ model }}</a></h2>
       <p>
         Мощность: <strong>{{ power }} кВт</strong><br>
         Фазы: {{ phases }}<br>
