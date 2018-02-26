@@ -23,6 +23,7 @@
  # @param {string} [equipment]                Product's equipment
  # @param {number} [warrantyFromInstallation] Product warranty from installation
  # @param {number} [warrantyServiceLife]      Product warranty service life
+ # @param {string} [class]                    Class for main wrapper
  #
  # @return {string} HTML
  #
@@ -63,12 +64,13 @@
   phases,
   equipment,
   warrantyFromInstallation,
-  warrantyServiceLife
+  warrantyServiceLife,
+  class
 ) %}
 {% set priceFormatted = Price(price) %}
 
 <article
-  class='js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  class='{{ class }} js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
   data-product='{{ {
     power: power,
     price: price,

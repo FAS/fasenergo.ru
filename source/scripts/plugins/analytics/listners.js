@@ -36,6 +36,7 @@ export default () => {
     forEachTarget(document.querySelectorAll('.js-metrica-cta-click'), () => event('CTA', 'CTA_CLICK'))
     forEachTarget(document.querySelectorAll('.js-metrica-cta-click-contact-us'), () => event('CTA', 'CTA_CLICK_CONTACT_US'))
     forEachTarget(document.querySelectorAll('.js-metrica-product-click-solution'), () => event('Product', 'PRODUCT_CLICK_SOLUTION'))
+    forEachTarget(document.querySelectorAll('.js-metrica-gensets-click-genset-card'), () => event('Gensets', 'GENSETS_CLICK_GENSET_CARD'))
   })
 
   // @note We don't use `ajaxError` here, since it won't track JSONP requests
