@@ -131,8 +131,8 @@
 
   {{ GoogleAnalytics(siteId = SITE.googleAnalyticsId) if SITE.googleAnalyticsId }}
   {{ YandexMetrika(counterId = SITE.yandexMetrikaId) if SITE.yandexMetrikaId }}
-  {{ MangoCalltracker() }}
-  {{ Roistat() }}
+  {{ MangoCalltracker(id = SITE.mangoCallTrackerId ) if SITE.mangoCallTrackerId }}
+  {{ Roistat(id = SITE.roistatId ) if SITE.roistatId }}
 
 </body>
 

@@ -1,9 +1,10 @@
 {##
  # Invoke Roistat call tracker
+ # @param {number} id Roistat id
  # @return {string} `<script>` tag with Roistat code
  # @example {{ MangoCalltracker() }}
  #}
-{% macro Roistat() %}
+{% macro Roistat(id) %}
 <script>
   (function(w, d, s, h, id) {
     w.roistatProjectId = id;
@@ -17,6 +18,6 @@
 
     var js2 = d.getElementsByTagName(s)[0];
     js2.parentNode.insertBefore(js, js2);
-  })(window, document, 'script', 'cloud.roistat.com', '573f52f7afc05309522d996ddeb6c37a');
+  })(window, document, 'script', 'cloud.roistat.com', '{{ id }}');
 </script>
 {% endmacro %}
