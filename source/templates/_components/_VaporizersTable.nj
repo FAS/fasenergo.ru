@@ -21,7 +21,7 @@
   <td>{{ entry.article }}</td>
   <td>{{ entry.title }}</td>
   <td class='h-align--right'>{{ entry.specs.performance }}</td>
-  <td class='h-align--right'>{{ Price(entry.price) if entry.price }}</td>
+  <td class='h-align--right'>{{ Price(entry.price, 'EUR') if entry.price }}</td>
   <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
   </td>
 </tr>
