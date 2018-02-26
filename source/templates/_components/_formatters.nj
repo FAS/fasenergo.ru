@@ -106,7 +106,7 @@
  #}
 {%- macro Price(price, currency = 'RUB') -%}
   {%- if currency == 'EUR' -%}
-    {{ _.replace(numbro(price).formatCurrency('3 a'), 'руб.', ' евро') }}
+    {{ _.replace(numbro(price).formatCurrency('0,0.[00] $'), 'руб.', ' €') }}
   {%- else -%}
     {{ _.replace(numbro(price).formatCurrency('3 a'), 'руб.', ' ' + price|plural(['рубль', 'рубля', 'рублей'])) }}
   {%- endif -%}
