@@ -27,9 +27,11 @@
     parent.parentNode.insertBefore(script, parent);
   }(window, document, 'https://widgets.mango-office.ru/widgets/mango.js', 'mango-js', 'mgo'));
 
-  mgo({ calltracking: {
-    id: {{ id }},
-    elements: [{ selector: '.js-track-call' }]
-  }});
+  mgo({
+    calltracking: {
+      id: {{ id }},
+      elements: [{ selector: '.js-track-call' }]
+    }
+  });
 </script>
 {% endmacro %}
