@@ -63,6 +63,7 @@ Data = module.exports = t.struct({
     yandexMetrikaId: t.union [t.String, r.False]
     mangoCallTrackerId: t.union [t.Number, r.False]
     roistatId: t.union [t.String, r.False]
+    googleOptimizeId: t.union [t.String, r.False]
   PLACEHOLDERS: t.dict(t.String, t.Any)
   PAGE_DEFAULTS: t.struct
     image: t.maybe t.String

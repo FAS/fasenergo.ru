@@ -129,7 +129,13 @@
 
   {{ BitrixFormsInit() }}
 
-  {{ GoogleAnalytics(siteId = SITE.googleAnalyticsId) if SITE.googleAnalyticsId }}
+  {% if SITE.googleAnalyticsId %}
+  {{ GoogleAnalytics(
+    siteId = SITE.googleAnalyticsId,
+    googleOptimizeId = SITE.googleOptimizeId
+  ) }}
+  {% endif %}
+
   {{ YandexMetrika(counterId = SITE.yandexMetrikaId) if SITE.yandexMetrikaId }}
   {{ MangoCalltracker(id = SITE.mangoCallTrackerId ) if SITE.mangoCallTrackerId }}
   {{ Roistat(id = SITE.roistatId ) if SITE.roistatId }}

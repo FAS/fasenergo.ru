@@ -35,6 +35,7 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       yandexMetrikaId: '20139793'
       mangoCallTrackerId: 11927
       roistatId: '573f52f7afc05309522d996ddeb6c37a'
+      googleOptimizeId: 'GTM-WT37JN9'
     PLACEHOLDERS:
       company: 'Фасэнергомаш'
     PAGE_DEFAULTS:

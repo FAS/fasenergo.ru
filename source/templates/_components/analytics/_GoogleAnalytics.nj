@@ -1,13 +1,14 @@
 {##
  # Invoke Google Analytics script
  #
- # @param {string} siteId Your site ID
+ # @param {string} siteId           Your site ID
+ # @param {string} googleOptimizeId Google Optimize ID
  #
  # @return {string} `<script>` tag with Google Analytics code
  #
  # @example {{ GoogleAnalytics(siteId = 'UA-XXXXX-X') }}
  #}
-{% macro GoogleAnalytics(siteId) %}
+{% macro GoogleAnalytics(siteId, googleOptimizeId) %}
 <script>
   (function (b, o, i, l, e, r) {
     b.GoogleAnalyticsObject = l;
@@ -25,6 +26,9 @@
   }(window, document, 'script', 'ga'));
 
   ga('create', '{{ siteId }}');
+  {% if googleOptimizeId %}
+  ga('require', '{{ googleOptimizeId }}');
+  {% endif %}
   ga('send', 'pageview');
 </script>
 {% endmacro %}
