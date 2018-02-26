@@ -3241,7 +3241,7 @@
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: discontinued
+  availability: preorder
   warranty:
     delivery: 24
     installation: 24
@@ -3568,7 +3568,7 @@
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: discontinued
+  availability: preorder
   warranty:
     delivery: 24
     installation: 24
