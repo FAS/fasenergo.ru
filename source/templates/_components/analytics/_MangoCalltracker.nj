@@ -27,7 +27,7 @@
   }(window, document, 'https://widgets.mango-office.ru/widgets/mango.js', 'mango-js', 'mgo'));
 
   mgo({ calltracking: {
-    id: 1438,
+    id: 11927,
     elements: [ { selector: '.js-track-call' } ]
   }});
 </script>
