@@ -11,6 +11,7 @@ import './plugins/expand'
 import './plugins/drawer'
 import './plugins/catalogFilter'
 import './plugins/mailchimp'
+import './plugins/tooltip'
 import photoSwiper from './plugins/photoswiper'
 import jump from './plugins/jump'
 

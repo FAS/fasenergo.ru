@@ -25,9 +25,9 @@
       <li class='{{ class }} Icon--right h-inline-block'>
         <a href='{{ url }}'
           class='{{ anchorClass }} h-border-bottom0 o-tooltip o-tooltip--top'
-          data-tooltip='{{ tooltip }}'
-          aria-label='{{ tooltip }}'
-          target='_blank'>
+          title='{{ tooltip }}'
+          target='_blank'
+        >
           <span aria-hidden='true'>{{ Icon(iconName, class = iconClass) }}</span>
         </a>
       </li>
