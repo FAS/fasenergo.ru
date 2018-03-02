@@ -48,7 +48,7 @@
   specs:
     power:
       ng:
-        max: 4
+        max: 5
       lpg:
         max: 5
     current:
@@ -148,7 +148,7 @@
   specs:
     power:
       ng:
-        max: 4
+        max: 5
       lpg:
         max: 5
     current:
@@ -442,7 +442,7 @@
   specs:
     power:
       ng:
-        max: 7
+        max: 8
       lpg:
         max: 8
     current:
@@ -542,7 +542,7 @@
   specs:
     power:
       ng:
-        max: 7
+        max: 8
       lpg:
         max: 8
     current:
@@ -1233,7 +1233,7 @@
   specs:
     power:
       ng:
-        max: 14
+        max: 15
       lpg:
         max: 15
     current:
@@ -1259,9 +1259,9 @@
         nominal: null
         max: null
     fuel:
-      ng: 0.42 м³/ч * 1 кВт
-      lpg: 0.38 кг/ч * 1 кВт
-    operatingSpeed: 3000
+      ng: null
+      lpg: null
+    operatingSpeed: null
     cooling: null
   engine: loncin-lc2v90f-1
   enclosure:
@@ -1273,7 +1273,7 @@
     ventilation: null
     lock: null
     removablePanels: null
-    noise: 90
+    noise: null
     size:
       length: null
       width: null
