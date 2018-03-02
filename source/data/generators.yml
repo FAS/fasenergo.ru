@@ -1847,7 +1847,7 @@
   specs:
     power:
       ng:
-        max: 14
+        max: 14.5
       lpg:
         max: 15
     current:
@@ -1965,7 +1965,7 @@
   specs:
     power:
       ng:
-        max: 14
+        max: 14.5
       lpg:
         max: 15
     current:
@@ -5065,7 +5065,7 @@
   specs:
     power:
       ng:
-        max: 33
+        max: 35
       lpg:
         max: 35
     current:
@@ -5163,7 +5163,7 @@
   specs:
     power:
       ng:
-        max: 36
+        max: 40
       lpg:
         max: 40
     current:
