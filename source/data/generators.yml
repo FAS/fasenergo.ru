@@ -866,7 +866,7 @@
       lpg: 0.39 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v90f-1
+  engine: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: пластик
@@ -966,7 +966,7 @@
       lpg: 0.39 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v90f-1
+  engine: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: метал
@@ -1063,7 +1063,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v90f-1
+  engine: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: пластик
@@ -1163,7 +1163,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v90f-1
+  engine: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: метал
@@ -1263,7 +1263,7 @@
       lpg: null
     operatingSpeed: null
     cooling: null
-  engine: loncin-lc2v90f-1
+  engine: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: метал

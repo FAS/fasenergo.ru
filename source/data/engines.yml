@@ -55,10 +55,10 @@ loncin-lc2v78f-1:
     ng: null
     lpg: null
 
-loncin-lc2v90f-1:
-  slug: loncin-lc2v90f-1
+loncin-lc2v90f:
+  slug: loncin-lc2v90f
   type: null
-  model: LC2V90F-1
+  model: LC2V90F
   manufacturer:
     brand: LONCIN
     country: null
