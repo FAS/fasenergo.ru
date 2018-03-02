@@ -163,7 +163,7 @@
   article: '20.0160'
   type: испаритель
   title: Испаритель ФАС 160 SE
-  price: 7900
+  price: 6900
   specs:
     performance: 160
     heatType: 'электрический'
@@ -532,7 +532,7 @@
   article: '20.1400'
   type: испарительная установка
   title: Испарительная установка ФАС 400 SE/SH
-  price: 19498
+  price: 19500
   specs:
     performance: 400
     heatType: электрический
