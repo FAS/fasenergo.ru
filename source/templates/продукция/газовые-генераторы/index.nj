@@ -33,7 +33,7 @@ description: Продажа газовых электрогенераторов 
 
 <div id='js-catalog' class='Box'>
   {% for g in generators %}
-  {% set engine = selectEngine(ENGINES, g.engine) %}
+  {% set engine = selectEngine(ENGINES, g.engineId) %}
   {% set engineCooling = engine.cooling %}
 
   {{ ProductCard(

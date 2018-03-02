@@ -23,7 +23,7 @@
 {% set powers = getGeneratorMaxPowers(gen) %}
 {% set powersList = PowersList(powers) %}
 {% set phasesWord = specs.phases and phasesToWord(specs.phases) %}
-{% set engine = selectEngine(ENGINES, gen.engine) %}
+{% set engine = selectEngine(ENGINES, gen.engineId) %}
 {% set engineTitle = getEngineTitle(engine) %}
 {% set size = getGeneratorSize(gen) %}
 {% set equipmentList = gen.equipment.list %}
@@ -385,7 +385,7 @@
       image = '/' + PATH.images + '/' + getGeneratorMainPhoto(g).url,
       model = g.model,
       powers = getGeneratorMaxPowers(g),
-      engineCooling = selectEngine(ENGINES, g.engine).cooling
+      engineCooling = selectEngine(ENGINES, g.engineId).cooling
     ) }}
     {% endfor %}
 

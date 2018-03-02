@@ -52,7 +52,7 @@ module.exports = (data) => {
   const WITHOUT_COGEN_GENERATORS = FASENERGO_GENERATORS.filter((e) => e.slug !== 'когенерационная-установка-фас-50-70м')
 
   WITHOUT_COGEN_GENERATORS.forEach((g) => {
-    const ENGINE = s.selectEngine(data.ENGINES, g.engine)
+    const ENGINE = s.selectEngine(data.ENGINES, g.engineId)
     const { weight, size: { length, width, height } } = g.enclosure
     const SAME_TAGGED_GENERATORS = s.filterWithTags(FASENERGO_GENERATORS, g.tags)
     const RECOMMENDED_GENERATORS = s.rejectWithId(SAME_TAGGED_GENERATORS, g.slug)

@@ -94,7 +94,7 @@ module.exports = Generators = r.EqualKeyAndProp('slug') t.dict t.String, t.struc
     list: t.maybe t.union [t.String, t.list(t.String), r.False]
     optionsIds: t.maybe t.list(t.String)
 
-  engine: t.maybe t.enums.of(Object.keys(ENGINES))
+  engineId: t.maybe t.enums.of(Object.keys(ENGINES))
 
   enclosure: t.struct
     # исполнение

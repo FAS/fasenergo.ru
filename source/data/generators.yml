@@ -78,7 +78,7 @@
       lpg: 0.45 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-g390f
+  engineId: loncin-g390f
   enclosure:
     type: закрытое
     material: пластик
@@ -178,7 +178,7 @@
       lpg: 0.45 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-g390f
+  engineId: loncin-g390f
   enclosure:
     type: закрытое
     material: метал
@@ -275,7 +275,7 @@
       lpg: 0.45 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-g390f
+  engineId: loncin-g390f
   enclosure:
     type: закрытое
     material: пластик
@@ -375,7 +375,7 @@
       lpg: 0.45 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-g390f
+  engineId: loncin-g390f
   enclosure:
     type: закрытое
     material: метал
@@ -472,7 +472,7 @@
       lpg: 0.4 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v78f-1
+  engineId: loncin-lc2v78f-1
   enclosure:
     type: закрытое
     material: пластик
@@ -572,7 +572,7 @@
       lpg: 0.4 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v78f-1
+  engineId: loncin-lc2v78f-1
   enclosure:
     type: закрытое
     material: метал
@@ -669,7 +669,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v78f-1
+  engineId: loncin-lc2v78f-1
   enclosure:
     type: закрытое
     material: пластик
@@ -769,7 +769,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v78f-1
+  engineId: loncin-lc2v78f-1
   enclosure:
     type: закрытое
     material: метал
@@ -866,7 +866,7 @@
       lpg: 0.39 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v90f
+  engineId: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: пластик
@@ -966,7 +966,7 @@
       lpg: 0.39 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v90f
+  engineId: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: метал
@@ -1063,7 +1063,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v90f
+  engineId: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: пластик
@@ -1163,7 +1163,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: loncin-lc2v90f
+  engineId: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: метал
@@ -1263,7 +1263,7 @@
       lpg: null
     operatingSpeed: null
     cooling: null
-  engine: loncin-lc2v90f
+  engineId: loncin-lc2v90f
   enclosure:
     type: закрытое
     material: метал
@@ -1387,7 +1387,7 @@
       lpg: 0.39 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ваз-2106
+  engineId: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -1511,7 +1511,7 @@
       lpg: 0.35 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ваз-2106
+  engineId: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -1635,7 +1635,7 @@
       lpg: 0.31 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ваз-21213
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
@@ -1759,7 +1759,7 @@
       lpg: 0.3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ваз-21213
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
@@ -1877,7 +1877,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 2500
     cooling: null
-  engine: ваз-21083
+  engineId: ваз-21083
   enclosure:
     type: закрытое
     material: null
@@ -1995,7 +1995,7 @@
       lpg: 0.38 кг/ч * 1 кВт
     operatingSpeed: 2500
     cooling: null
-  engine: ваз-21083
+  engineId: ваз-21083
   enclosure:
     type: закрытое
     material: null
@@ -2113,7 +2113,7 @@
       lpg: 0.36 кг/ч * 1 кВт
     operatingSpeed: 2500
     cooling: null
-  engine: ваз-21083
+  engineId: ваз-21083
   enclosure:
     type: закрытое
     material: null
@@ -2231,7 +2231,7 @@
       lpg: 0.35 кг/ч * 1 кВт
     operatingSpeed: 2500
     cooling: null
-  engine: ваз-21083
+  engineId: ваз-21083
   enclosure:
     type: закрытое
     material: null
@@ -2354,7 +2354,7 @@
       lpg: 0.34 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-21213
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
@@ -2472,7 +2472,7 @@
       lpg: null
     operatingSpeed: 2600
     cooling: null
-  engine: ваз-21083
+  engineId: ваз-21083
   enclosure:
     type: закрытое
     material: null
@@ -2589,7 +2589,7 @@
       lpg: 0.33 кг/ч * 1 кВт
     operatingSpeed: 2800
     cooling: null
-  engine: ваз-21083
+  engineId: ваз-21083
   enclosure:
     type: закрытое
     material: null
@@ -2707,7 +2707,7 @@
       lpg: 0.31 кг/ч * 1 кВт
     operatingSpeed: 2800
     cooling: null
-  engine: ваз-21083
+  engineId: ваз-21083
   enclosure:
     type: закрытое
     material: null
@@ -2830,7 +2830,7 @@
       lpg: 0.29 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-2106
+  engineId: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -2959,7 +2959,7 @@
       lpg: 0.27 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-21213
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
@@ -3077,7 +3077,7 @@
       lpg: 0.3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ммз-246-4
+  engineId: ммз-246-4
   enclosure:
     type: закрытое
     material: null
@@ -3199,7 +3199,7 @@
       lpg: 0.28 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ммз-246-4
+  engineId: ммз-246-4
   enclosure:
     type: закрытое
     material: null
@@ -3306,7 +3306,7 @@
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ямз-238
+  engineId: ямз-238
   enclosure:
     type: открытое
     material: null
@@ -3413,7 +3413,7 @@
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ямз-238
+  engineId: ямз-238
   enclosure:
     type: открытое
     material: null
@@ -3523,7 +3523,7 @@
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ямз-240м
+  engineId: ямз-240м
   enclosure:
     type: открытое
     material: null
@@ -3633,7 +3633,7 @@
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ямз-240нм
+  engineId: ямз-240нм
   enclosure:
     type: открытое
     material: null
@@ -3743,7 +3743,7 @@
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ямз-8503-10
+  engineId: ямз-8503-10
   enclosure:
     type: открытое
     material: null
@@ -3848,7 +3848,7 @@
       lpg: 0.28 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ммз-246-4
+  engineId: ммз-246-4
   enclosure:
     type: закрытое
     material: null
@@ -3960,7 +3960,7 @@
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine: ваз-2106
+  engineId: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -4072,7 +4072,7 @@
       lpg: null
     operatingSpeed: 1500
     cooling: null
-  engine: ваз-2106
+  engineId: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -4187,7 +4187,7 @@
       lpg: 0,31 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ваз-21213
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
@@ -4302,7 +4302,7 @@
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engine: ваз-21213
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
@@ -4417,7 +4417,7 @@
       lpg: 0,34 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-21213
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
@@ -4532,7 +4532,7 @@
       lpg: 0,33 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-2106
+  engineId: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -4647,7 +4647,7 @@
       lpg: 0,31 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-2106
+  engineId: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -4761,7 +4761,7 @@
       lpg: 0,29 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-2106
+  engineId: ваз-2106
   enclosure:
     type: закрытое
     material: null
@@ -4882,7 +4882,7 @@
       lpg: 0,27 кг/ч * 1 кВт
     operatingSpeed: 3000
     cooling: null
-  engine: ваз-21213
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
@@ -4998,7 +4998,7 @@
       lpg: null
     operatingSpeed: null
     cooling: null
-  engine: kubota-df972
+  engineId: kubota-df972
   enclosure:
     type: закрытое
     material: null
@@ -5095,7 +5095,7 @@
       lpg: 0.3 кг/ч * 1 кВт
     operatingSpeed: 2900
     cooling: liquid
-  engine: змз-409
+  engineId: змз-409
   enclosure:
     type: закрытое
     material: null
@@ -5193,7 +5193,7 @@
       lpg: 0.3 кг/ч * 1 кВт
     operatingSpeed: 2900
     cooling: liquid
-  engine: змз-409
+  engineId: змз-409
   enclosure:
     type: закрытое
     material: null
