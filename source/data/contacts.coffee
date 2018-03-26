@@ -29,8 +29,7 @@ module.exports = {
     ],
     phones: [
       # @todo Remove `TEMP_hideInMainContact` whicn was added for Mango Calltracker later
-      { country: '7', city: '812', tel: ['407', '37', '73'], add: null, track: true, TEMP_hideInMainContact: true },
-      { country: '7', city: '812', tel: ['318', '75', '75'], add: null, track: true }
+      { country: '7', city: '812', tel: ['407', '37', '73'], add: null, track: true, TEMP_hideInMainContact: false },
     ],
     emails: [
       { value: ['info', 'fasenergo.ru'] }
