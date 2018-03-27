@@ -6,6 +6,15 @@
  # @example {{ PhotoSwipe() }}
  #}
 {% macro PhotoSwipe() %}
+{##
+ # To ensure that element not displayed while styles within script not loaded
+ # This isn't needed if PhotoSwipe styles loaded not via scripts
+ #}
+<style>
+  .pswp { display: none; }
+  .pswp--open { display: block; }
+</style>
+
 {# Root element of PhotoSwipe. Must have class pswp. #}
 <div class='pswp' tabindex='-1' role='dialog' aria-hidden='true'>
 
