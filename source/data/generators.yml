@@ -4564,7 +4564,7 @@
   series: null
   model: ФАС-24-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВТ ТУРБО</span> (24 кВт)
-  price: 560000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4678,7 +4678,7 @@
   series: null
   model: ФАС-28-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВТ ТУРБО</span> (28 кВт)
-  price: 590000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
