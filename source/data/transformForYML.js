@@ -50,8 +50,10 @@ module.exports = (data) => {
 
   // @todo This is bad. We filter out temporarily cogen station because it lacks article
   const WITHOUT_COGEN_GENERATORS = FASENERGO_GENERATORS.filter((e) => e.slug !== 'когенерационная-установка-фас-50-70м')
+  const WITH_PRICES = WITHOUT_COGEN_GENERATORS
+    .filter((e) => s.getGeneratorCurrentPrice(e))
 
-  WITHOUT_COGEN_GENERATORS.forEach((g) => {
+  WITH_PRICES.forEach((g) => {
     const ENGINE = s.selectEngine(data.ENGINES, g.engineId)
     const { weight, size: { length, width, height } } = g.enclosure
     const SAME_TAGGED_GENERATORS = s.filterWithTags(FASENERGO_GENERATORS, g.tags)
