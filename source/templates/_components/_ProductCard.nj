@@ -102,6 +102,7 @@
     <div class='o-grid__item h-2/7'>
 
       {% if price %}
+
       {# @todo Temporary fix for numbro issue with lack of space before RUB #}
       {% if discount and isActiveEvent(discountDate) %}
       {{ Discount(
@@ -113,8 +114,15 @@
         columnOptims = true
       ) }}
       {% else %}
-      <p aria-label='Цена: {{ priceFormatted }}' class='h-h5'>{{ priceFormatted }}</p>
+      <p aria-label='Цена: {{ priceFormatted }}' class='h-h5'>
+        {{ priceFormatted }}
+      </p>
       {% endif %}
+
+      {% else %}
+
+      <p class='h-h5'>цена по запросу</p>
+
       {% endif %}
 
       {% if equipment %}

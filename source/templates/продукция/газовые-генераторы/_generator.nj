@@ -100,9 +100,15 @@
             <p class='h-text- h-margin-bottom--'><i>{{ DateEnd(gen.discountDate, 'Акция до ') }}</i></p>
             {% endif %}
             {% else %}
-            <p aria-label='Цена: {{ currentPriceFormatted }}'
+            <p {% if currentPrice %}aria-label='Цена: {{ currentPriceFormatted }}'{% endif %}
               class='h-margin-bottom-- h-h2 text-green h-text--nowrap'
-            >{{ currentPriceFormatted }}</p>
+            >
+              {% if currentPrice %}
+              {{ currentPriceFormatted}}
+              {% else %}
+              цена по запросу
+              {% endif %}
+            </p>
             {% endif %}
             {% endif %}
 
