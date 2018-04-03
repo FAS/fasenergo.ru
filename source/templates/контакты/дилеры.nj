@@ -38,7 +38,9 @@ description: Дилеры компании «Фасэнергомаш»
 {% endif %}
 
 {% if url %}
-<p class='h-bleed-top--'><a href='{{ url }}'>{{ url.replace('http://', '').replace('https://', '') }}</a></p>
+<p class='h-bleed-top--'>
+  <a href='{{ url }}' target='_blank' rel='nofollow'>{{ url.replace('http://', '').replace('https://', '') }}</a>
+</p>
 {% endif %}
 {% endmacro %}
 
@@ -180,7 +182,7 @@ description: Дилеры компании «Фасэнергомаш»
             { country: '7', city: '831', tel: ['415', '87', '72'] }
           ],
           email = 'info@wattnn.ru',
-          url = 'http://wattnn.ru/'
+          url = 'http://wattnn.ru'
         ) }}
       </li>
     </ul>
