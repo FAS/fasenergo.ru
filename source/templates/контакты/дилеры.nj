@@ -160,7 +160,7 @@ description: Дилеры компании «Фасэнергомаш»
           address = 'г. Краснодар, ул. Бородинская, 150/11',
           phones = [{ country: '7', city: '988', tel: ['602', '47', '27'] }],
           email = 'gpu@kes-group.com',
-          url = 'http://www.fasenergo-kes.ru'
+          url = 'http://fasenergo-kes.ru'
         ) }}
       </li>
     </ul>
