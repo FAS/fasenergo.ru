@@ -9,6 +9,36 @@ description: Дилеры компании «Фасэнергомаш»
 
 {% extends '_layouts/_main.nj' %}
 
+{% macro Dealer(
+  name,
+  address,
+  phones,
+  email,
+  url
+) %}
+<p>{{ name }}</p>
+
+{% if address %}
+<p class='h-bleed-top--'>{{ address }}</p>
+{% endif %}
+
+{% if phones.length %}
+<ul class='g-list0 h-margin-bottom--'>
+  {% for phone in phones %}
+  <li>{{ phone }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if email %}
+<p><a href='mailto:{{ email }}'>{{ email }}</a><br></p>
+{% endif %}
+
+{% if url %}
+<p class='h-bleed-top--'><a href='{{ url }}'>{{ url.replace('http://', '').replace('https://', '') }}</a></p>
+{% endif %}
+{% endmacro %}
+
 {% block main %}
 <div class='o-grid h-childs-displace++'>
 
@@ -22,15 +52,19 @@ description: Дилеры компании «Фасэнергомаш»
       <li>Группа компаний «Атис»</li>
       <li>ООО «Техногазстрой»</li>
       <li>
-        <p>ООО «АНЗБЕРК»</p>
-        <p class='h-bleed-top--'>197136, г. Санкт-Петербург, ул. Всеволода Вишневского, д. 4</p>
-        <p class='h-bleed-top--'>+8 (812) 234-01-20</p>
-        <p class='h-bleed-top--'><a href='mailto:mail@anzberk.com'>mail@anzberk.com</a><br></p>
+        {{ Dealer(
+          name = 'ООО «АНЗБЕРК»',
+          address = '197136, г. Санкт-Петербург, ул. Всеволода Вишневского, д. 4',
+          phones = ['+8 (812) 234-01-20'],
+          email = 'mail@anzberk.com'
+        ) }}
       </li>
       <li>
-        <p>ООО «Одиссей Групп»</p>
-        <p class='h-bleed-top--'>197374, г. Санкт-Петербург, ул. Савушкина, д. 83, к. 3, оф. 301, «БЦ Антарес»</p>
-        <p class='h-bleed-top--'>+8 (812) 318-70-80</p>
+        {{ Dealer(
+          name = 'ООО «Одиссей Групп»',
+          address = '197374, г. Санкт-Петербург, ул. Савушкина, д. 83, к. 3, оф. 301, «БЦ Антарес»',
+          phones = ['+8 (812) 318-70-80']
+        ) }}
       </li>
     </ul>
   </article>
@@ -57,15 +91,17 @@ description: Дилеры компании «Фасэнергомаш»
     <h2>Екатеринбург</h2>
     <ul>
       <li>
-        <p>ООО «ГК «Эффективные технологии»</p>
-        <p class='h-bleed-top--'>г. Екатеринбург, ул. Щорса, 7</p>
-        <ul class='g-list0 h-margin-bottom--'>
-          <li>+8 804 333-96-00 доб. 504 (бесплатно по России)</li>
-          <li>+8 (343) 226-04-92</li>
-          <li>+8 (343) 311-01-93</li>
-        </ul>
-        <p><a href='mailto:office@eftechno.ru'>office@eftechno.ru</a><br></p>
-        <p class='h-bleed-top--'><a href='http://eftechno.ru'>eftechno.ru</a></p>
+        {{ Dealer(
+          name = 'ООО «ГК «Эффективные технологии»',
+          address = 'г. Екатеринбург, ул. Щорса, 7',
+          phones = [
+            '+8 804 333-96-00 доб. 504 (бесплатно по России)',
+            '+8 (343) 226-04-92',
+            '+8 (343) 311-01-93'
+          ],
+          email = 'office@eftechno.ru',
+          url = 'http://eftechno.ru'
+        ) }}
       </li>
     </ul>
   </article>
@@ -117,13 +153,13 @@ description: Дилеры компании «Фасэнергомаш»
     <h2>Краснодар</h2>
     <ul>
       <li>
-        <p>ГК «КлиматЭнергоСтрой»</p>
-        <p class='h-bleed-top--'>г. Краснодар, ул. Бородинская, 150/11</p>
-        <ul class='g-list0 h-margin-bottom--'>
-          <li>+7 988 602-47-27</li>
-        </ul>
-        <p><a href='mailto:gpu@kes-group.com'>gpu@kes-group.com</a><br></p>
-        <p class='h-bleed-top--'><a href='http://www.fasenergo-kes.ru'>fasenergo-kes.ru</a></p>
+        {{ Dealer(
+          name = 'ГК «КлиматЭнергоСтрой»',
+          address = 'г. Краснодар, ул. Бородинская, 150/11',
+          phones = ['+7 988 602-47-27'],
+          email = 'gpu@kes-group.com',
+          url = 'http://www.fasenergo-kes.ru'
+        ) }}
       </li>
     </ul>
   </article>
@@ -141,14 +177,16 @@ description: Дилеры компании «Фасэнергомаш»
     <ul>
       <li>ООО «Авангард ЭД»</li>
       <li>
-        <p>Компания «ТСК»</p>
-        <p class='h-bleed-top--'>г. Ростов-на-Дону, ул. 50-лет Ростсельмаша, 7-Б</p>
-        <ul class='g-list0 h-margin-bottom--'>
-          <li>+8 (863) 296-29-42</li>
-          <li>+8 (800) 222-29-42</li>
-        </ul>
-        <p><a href='mailto:zakaz@tsk-rostov.ru'>zakaz@tsk-rostov.ru</a><br></p>
-        <p class='h-bleed-top--'><a href='https://intes-pro.ru'>intes-pro.ru</a></p>
+        {{ Dealer(
+          name = 'Компания «ТСК»',
+          address = 'г. Ростов-на-Дону, ул. 50-лет Ростсельмаша, 7-Б',
+          phones = [
+            '+8 (863) 296-29-42',
+            '+8 (800) 222-29-42'
+          ],
+          email = 'zakaz@tsk-rostov.ru',
+          url = 'https://intes-pro.ru'
+        ) }}
       </li>
     </ul>
   </article>
