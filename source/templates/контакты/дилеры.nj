@@ -57,7 +57,7 @@ description: Дилеры компании «Фасэнергомаш»
         {{ Dealer(
           name = 'ООО «АНЗБЕРК»',
           address = '197136, г. Санкт-Петербург, ул. Всеволода Вишневского, д. 4',
-          phones = [{ country: '8', city: '812', tel: ['234', '01', '20'] }],
+          phones = [{ country: '7', city: '812', tel: ['234', '01', '20'] }],
           email = 'mail@anzberk.com'
         ) }}
       </li>
@@ -65,7 +65,7 @@ description: Дилеры компании «Фасэнергомаш»
         {{ Dealer(
           name = 'ООО «Одиссей Групп»',
           address = '197374, г. Санкт-Петербург, ул. Савушкина, д. 83, к. 3, оф. 301, «БЦ Антарес»',
-          phones = [{ country: '8', city: '812', tel: ['318', '70', '80'] }]
+          phones = [{ country: '7', city: '812', tel: ['318', '70', '80'] }]
         ) }}
       </li>
     </ul>
@@ -97,9 +97,9 @@ description: Дилеры компании «Фасэнергомаш»
           name = 'ООО «ГК «Эффективные технологии»',
           address = 'г. Екатеринбург, ул. Щорса, 7',
           phones = [
-            { country: '8', city: '804', tel: ['333', '96', '00'], add: '504', noParentheses: true },
-            { country: '8', city: '343', tel: ['226', '04', '92'] },
-            { country: '8', city: '343', tel: ['311', '01', '93'] }
+            { country: '7', city: '804', tel: ['333', '96', '00'], add: '504', noParentheses: true },
+            { country: '7', city: '343', tel: ['226', '04', '92'] },
+            { country: '7', city: '343', tel: ['311', '01', '93'] }
           ],
           email = 'office@eftechno.ru',
           url = 'http://eftechno.ru'
@@ -183,8 +183,8 @@ description: Дилеры компании «Фасэнергомаш»
           name = 'Компания «ТСК»',
           address = 'г. Ростов-на-Дону, ул. 50-лет Ростсельмаша, 7-Б',
           phones = [
-            { country: '8', city: '863', tel: ['296', '29', '42'] },
-            { country: '8', city: '800', tel: ['222', '29', '42'] }
+            { country: '7', city: '863', tel: ['296', '29', '42'] },
+            { country: '7', city: '800', tel: ['222', '29', '42'] }
           ],
           email = 'zakaz@tsk-rostov.ru',
           url = 'https://intes-pro.ru'
