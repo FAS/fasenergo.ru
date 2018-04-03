@@ -24,14 +24,14 @@ description: Дилеры компании «Фасэнергомаш»
       <li>ООО «Техногазстрой»</li>
       <li>
         <p>ООО «АНЗБЕРК»</p>
+        <p class='h-bleed-top--'>197136, г. Санкт-Петербург, ул. Всеволода Вишневского, д. 4</p>
         <p class='h-bleed-top--'>+8 (812) 234-01-20</p>
         <p class='h-bleed-top--'><a href='mailto:mail@anzberk.com'>mail@anzberk.com</a><br></p>
-        <p class='h-bleed-top--'>197136, г. Санкт-Петербург, ул. Всеволода Вишневского, д. 4</p>
       </li>
       <li>
         <p>ООО «Одиссей Групп»</p>
-        <p class='h-bleed-top--'>+8 (812) 318-70-80</p>
         <p class='h-bleed-top--'>197374, г. Санкт-Петербург, ул. Савушкина, д. 83, к. 3, оф. 301, «БЦ Антарес»</p>
+        <p class='h-bleed-top--'>+8 (812) 318-70-80</p>
       </li>
     </ul>
   </article>
@@ -59,13 +59,13 @@ description: Дилеры компании «Фасэнергомаш»
     <ul>
       <li>
         <p>ООО «ГК «Эффективные технологии»</p>
+        <p class='h-bleed-top--'>г. Екатеринбург, ул. Щорса, 7</p>
         <ul class='g-list0 h-margin-bottom--'>
           <li>+8 804 333-96-00 доб. 504 (бесплатно по России)</li>
           <li>+8 (343) 226-04-92</li>
           <li>+8 (343) 311-01-93</li>
         </ul>
         <p><a href='mailto:office@eftechno.ru'>office@eftechno.ru</a><br></p>
-        <p class='h-bleed-top--'>г. Екатеринбург, ул. Щорса, 7</p>
         <p class='h-bleed-top--'><a href='http://eftechno.ru'>eftechno.ru</a></p>
       </li>
     </ul>
@@ -119,11 +119,11 @@ description: Дилеры компании «Фасэнергомаш»
     <ul>
       <li>
         <p>ГК «КлиматЭнергоСтрой»</p>
+        <p class='h-bleed-top--'>г. Краснодар, ул. Бородинская, 150/11</p>
         <ul class='g-list0 h-margin-bottom--'>
           <li>+7 988 602-47-27</li>
         </ul>
         <p><a href='mailto:gpu@kes-group.com'>gpu@kes-group.com</a><br></p>
-        <p class='h-bleed-top--'>г. Краснодар, ул. Бородинская, 150/11</p>
         <p class='h-bleed-top--'><a href='http://www.fasenergo-kes.ru'>fasenergo-kes.ru</a></p>
       </li>
     </ul>
@@ -144,12 +144,12 @@ description: Дилеры компании «Фасэнергомаш»
       <li>ООО «ТСК Южная»</li>
       <li>
         <p>Компания «ТСК»</p>
+        <p class='h-bleed-top--'>г. Ростов-на-Дону, ул. 50-лет Ростсельмаша, 7-Б</p>
         <ul class='g-list0 h-margin-bottom--'>
           <li>+8 (863) 296-29-42</li>
           <li>+8 (800) 222-29-42</li>
         </ul>
         <p><a href='mailto:zakaz@tsk-rostov.ru'>zakaz@tsk-rostov.ru</a><br></p>
-        <p class='h-bleed-top--'>г. Ростов-на-Дону, ул. 50-лет Ростсельмаша, 7-Б</p>
         <p class='h-bleed-top--'><a href='https://intes-pro.ru'>intes-pro.ru</a></p>
       </li>
     </ul>
