@@ -80,7 +80,7 @@ module.exports = {
       address: null,
       worktime: null,
       phones: [
-        { country: '7', city: '812', tel: ['318', '75', '75'], add: '511', track: true }
+        { country: '7', city: '812', tel: ['318', '75', '75'], track: true }
       ],
       emails: [{ value: ['dealer', 'fasenergo.ru'] }],
       skypes: false
