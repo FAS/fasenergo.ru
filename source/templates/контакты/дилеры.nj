@@ -57,7 +57,17 @@ description: Дилеры компании «Фасэнергомаш»
   <article class='o-grid__item h-1/2'>
     <h2>Екатеринбург</h2>
     <ul>
-      <li>ООО «ГК Эффективные Технологии»</li>
+      <li>
+        <p>ООО «ГК «Эффективные технологии»</p>
+        <ul class='g-list0 h-margin-bottom--'>
+          <li>+8 804 333-96-00 доб. 504 (бесплатно по России)</li>
+          <li>+8 (343) 226-04-92</li>
+          <li>+8 (343) 311-01-93</li>
+        </ul>
+        <p><a href='mailto:office@eftechno.ru'>office@eftechno.ru</a><br></p>
+        <p class='h-bleed-top--'>г. Екатеринбург, ул. Щорса, 7</p>
+        <p class='h-bleed-top--'><a href='http://eftechno.ru'>eftechno.ru</a></p>
+      </li>
     </ul>
   </article>
 
@@ -107,7 +117,15 @@ description: Дилеры компании «Фасэнергомаш»
   <article class='o-grid__item h-1/2'>
     <h2>Краснодар</h2>
     <ul>
-      <li>ООО «КЭС ГРУПП»</li>
+      <li>
+        <p>ГК «КлиматЭнергоСтрой»</p>
+        <ul class='g-list0 h-margin-bottom--'>
+          <li>+7 988 602-47-27</li>
+        </ul>
+        <p><a href='mailto:gpu@kes-group.com'>gpu@kes-group.com</a><br></p>
+        <p class='h-bleed-top--'>г. Краснодар, ул. Бородинская, 150/11</p>
+        <p class='h-bleed-top--'><a href='http://www.fasenergo-kes.ru'>fasenergo-kes.ru</a></p>
+      </li>
     </ul>
   </article>
 
@@ -124,6 +142,16 @@ description: Дилеры компании «Фасэнергомаш»
     <ul>
       <li>ООО «Авангард ЭД»</li>
       <li>ООО «ТСК Южная»</li>
+      <li>
+        <p>Компания «ТСК»</p>
+        <ul class='g-list0 h-margin-bottom--'>
+          <li>+8 (863) 296-29-42</li>
+          <li>+8 (800) 222-29-42</li>
+        </ul>
+        <p><a href='mailto:zakaz@tsk-rostov.ru'>zakaz@tsk-rostov.ru</a><br></p>
+        <p class='h-bleed-top--'>г. Ростов-на-Дону, ул. 50-лет Ростсельмаша, 7-Б</p>
+        <p class='h-bleed-top--'><a href='https://intes-pro.ru'>intes-pro.ru</a></p>
+      </li>
     </ul>
   </article>
 
