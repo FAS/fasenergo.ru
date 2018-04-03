@@ -9,6 +9,9 @@ description: Дилеры компании «Фасэнергомаш»
 
 {% extends '_layouts/_main.nj' %}
 
+{% block main %}
+{% from '_components/_formatters.nj' import Phone with context %}
+
 {% macro Dealer(
   name,
   address,
@@ -25,7 +28,7 @@ description: Дилеры компании «Фасэнергомаш»
 {% if phones.length %}
 <ul class='g-list0 h-margin-bottom--'>
   {% for phone in phones %}
-  <li>{{ phone }}</li>
+  <li>{{ Phone(phone) }}</li>
   {% endfor %}
 </ul>
 {% endif %}
@@ -39,7 +42,6 @@ description: Дилеры компании «Фасэнергомаш»
 {% endif %}
 {% endmacro %}
 
-{% block main %}
 <div class='o-grid h-childs-displace++'>
 
   <article class='o-grid__item h-1/2'>
@@ -55,7 +57,7 @@ description: Дилеры компании «Фасэнергомаш»
         {{ Dealer(
           name = 'ООО «АНЗБЕРК»',
           address = '197136, г. Санкт-Петербург, ул. Всеволода Вишневского, д. 4',
-          phones = ['+8 (812) 234-01-20'],
+          phones = [{ country: '8', city: '812', tel: ['234', '01', '20'] }],
           email = 'mail@anzberk.com'
         ) }}
       </li>
@@ -63,7 +65,7 @@ description: Дилеры компании «Фасэнергомаш»
         {{ Dealer(
           name = 'ООО «Одиссей Групп»',
           address = '197374, г. Санкт-Петербург, ул. Савушкина, д. 83, к. 3, оф. 301, «БЦ Антарес»',
-          phones = ['+8 (812) 318-70-80']
+          phones = [{ country: '8', city: '812', tel: ['318', '70', '80'] }]
         ) }}
       </li>
     </ul>
@@ -95,9 +97,9 @@ description: Дилеры компании «Фасэнергомаш»
           name = 'ООО «ГК «Эффективные технологии»',
           address = 'г. Екатеринбург, ул. Щорса, 7',
           phones = [
-            '+8 804 333-96-00 доб. 504 (бесплатно по России)',
-            '+8 (343) 226-04-92',
-            '+8 (343) 311-01-93'
+            { country: '8', city: '804', tel: ['333', '96', '00'], add: '504', noParentheses: true },
+            { country: '8', city: '343', tel: ['226', '04', '92'] },
+            { country: '8', city: '343', tel: ['311', '01', '93'] }
           ],
           email = 'office@eftechno.ru',
           url = 'http://eftechno.ru'
@@ -156,7 +158,7 @@ description: Дилеры компании «Фасэнергомаш»
         {{ Dealer(
           name = 'ГК «КлиматЭнергоСтрой»',
           address = 'г. Краснодар, ул. Бородинская, 150/11',
-          phones = ['+7 988 602-47-27'],
+          phones = [{ country: '7', city: '988', tel: ['602', '47', '27'], noParentheses: true }],
           email = 'gpu@kes-group.com',
           url = 'http://www.fasenergo-kes.ru'
         ) }}
@@ -181,8 +183,8 @@ description: Дилеры компании «Фасэнергомаш»
           name = 'Компания «ТСК»',
           address = 'г. Ростов-на-Дону, ул. 50-лет Ростсельмаша, 7-Б',
           phones = [
-            '+8 (863) 296-29-42',
-            '+8 (800) 222-29-42'
+            { country: '8', city: '863', tel: ['296', '29', '42'] },
+            { country: '8', city: '800', tel: ['222', '29', '42'] }
           ],
           email = 'zakaz@tsk-rostov.ru',
           url = 'https://intes-pro.ru'
