@@ -158,7 +158,7 @@ description: Дилеры компании «Фасэнергомаш»
         {{ Dealer(
           name = 'ГК «КлиматЭнергоСтрой»',
           address = 'г. Краснодар, ул. Бородинская, 150/11',
-          phones = [{ country: '7', city: '988', tel: ['602', '47', '27']}],
+          phones = [{ country: '7', city: '988', tel: ['602', '47', '27'] }],
           email = 'gpu@kes-group.com',
           url = 'http://www.fasenergo-kes.ru'
         ) }}
@@ -176,8 +176,8 @@ description: Дилеры компании «Фасэнергомаш»
           name = 'ООО «Стройиндустрия»',
           address = 'г. Нижний Новгород, пр. Ленина, д.12а, пом.П3',
           phones = [
-            { country: '7', city: '831', tel: ['281', '78', '20']},
-            { country: '7', city: '831', tel: ['415', '87', '72']},
+            { country: '7', city: '831', tel: ['281', '78', '20'] },
+            { country: '7', city: '831', tel: ['415', '87', '72'] }
           ],
           email = 'info@wattnn.ru',
           url = 'http://wattnn.ru/'
