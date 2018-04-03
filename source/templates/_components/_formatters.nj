@@ -51,10 +51,6 @@
  # @param {string}   [data.add]           Add code
  # @param {boolean}  [data.noParentheses] Should city code be wrapped in parentheses
  # @param {boolean}  [data.track]         Should phone number be replaced and tracked with Mango Call Tracker
- # @param {boolean}  [data.TEMP_hideInMainContact]
- #                                        Should phone number be hidden in main Contact component
- #                                        Created to avoid issue with two similar number when they both
- #                                        replaced by Mango Call Tracker
  # @param {string}   [class]              CSS class for anchor
  # @param {string}   [addClass]           CSS class for span with 'доб. ' part
  # @param {boolean}  [showCountry = true] Should + with country code be shown
