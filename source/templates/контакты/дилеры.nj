@@ -16,7 +16,6 @@ description: Дилеры компании «Фасэнергомаш»
     <h2>Санкт-Петербург</h2>
     <ul>
       <li><strong>ООО «Фасэнергомаш»<br><span class='h-text-'>{{ SITE.description }}</span></strong></li>
-      <li>OOO «ГАЗКОМ»</li>
       <li>ООО «Газовоз-М»</li>
       <li>ООО «Компания Группа Юг»</li>
       <li>ООО «Артпром»</li>
