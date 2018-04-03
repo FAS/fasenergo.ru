@@ -171,6 +171,18 @@ description: Дилеры компании «Фасэнергомаш»
     <ul>
       <li>ООО «ФАСХИММАШ»</li>
       <li>ООО «Газэнерго-НН»</li>
+      <li>
+        {{ Dealer(
+          name = 'ООО «Стройиндустрия»',
+          address = 'г. Нижний Новгород, пр. Ленина, д.12а, пом.П3',
+          phones = [
+            { country: '7', city: '831', tel: ['281', '78', '20']},
+            { country: '7', city: '831', tel: ['415', '87', '72']},
+          ],
+          email = 'info@wattnn.ru',
+          url = 'http://wattnn.ru/'
+        ) }}
+      </li>
     </ul>
   </article>
 
