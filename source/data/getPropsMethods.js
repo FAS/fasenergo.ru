@@ -6,6 +6,9 @@ module.exports = ({ config }) => {
   return {
     getGeneratorPageProps (id) {
       const g = s.selectGenerator(GENERATORS, id)
+
+      if (!g) throw new Error(`[getPropsMethods] unable to find \`${id}\` in \`data.GENERATORS\``)
+
       const maxPower = s.getGeneratorHighestPower(g)
 
       return {
