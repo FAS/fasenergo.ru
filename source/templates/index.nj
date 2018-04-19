@@ -92,7 +92,7 @@ showContentTitle:          false
 
           {% call Item(
             title = 'Сервис',
-            url = '/услуги/сервис',
+            url = '/услуги',
             buttonLabel = 'Подробнее',
             buttonClass = 'Btn--solid'
           ) %}
