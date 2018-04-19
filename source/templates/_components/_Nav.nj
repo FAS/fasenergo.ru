@@ -100,6 +100,8 @@
     {% call(depth) Item('/услуги/проектирование-и-обоснование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/услуги/проекты-под-ключ') %}{% endcall %}
     {% call(depth) Item('/услуги/установка-и-запуск', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/услуги/проектирование-агзс-гнп-и-гнс', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/услуги/автоматизация-объектов', depth = depth) %}{% endcall %}
   {% endcall %}
 
   {% call(depth) Item('/дилерам') %}{% endcall %}
