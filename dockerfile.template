@@ -1,4 +1,4 @@
-FROM lotustm/nginx
+FROM lotustm/nginx:1.1.1
 
 ENV SITENAME $SITENAME
 
