@@ -7,12 +7,12 @@ checkout:
     - git submodule update --init --recursive
 
 dependencies:
+  override:
+    - npm ci
   pre:
     - npm install -g npm@latest
 
 test:
-  override:
-    - npm ci
   post:
     - npm run build
 
