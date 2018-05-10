@@ -78,7 +78,7 @@ module.exports = (data) => {
       { name: 'Напряжение', unit: 'V', value: g.specs.voltage },
       { name: 'Количество фаз', value: g.specs.phases },
       { name: 'Сила тока', unit: 'A', value: g.specs.current._legacy },
-      { name: 'Шум', unit: 'Дб', value: g.enclosure.noise },
+      { name: 'Шум', unit: 'дБ', value: g.enclosure.noise },
       { name: 'Стартер', value: 'Электростартер' },
       { name: 'Тип покдлючения', value: 'Прямое\\к резервуару' },
       { name: 'Время безостановочной работы', value: 'Круглосуточно' },
