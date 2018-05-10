@@ -11,6 +11,8 @@ dependencies:
     - npm install -g npm@latest
 
 test:
+  override:
+    - npm ci
   post:
     - npm run build
 
