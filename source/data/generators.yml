@@ -109,7 +109,7 @@
   series: null
   model: ФАС-5/1ЛМ
   title: Газовый генератор <span class='text-red'>ФАС-5/1ЛМ</span> (5 кВт)
-  price: 146000
+  price: 144000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1295,11 +1295,11 @@
   series: null
   model: ФАС-8-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-8-1/ВП</span> (8 кВт)
-  price: 360000
+  price: 390000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: discontinued
+  availability: preorder
   warranty:
     delivery: 24
     installation: 24
@@ -1419,7 +1419,7 @@
   series: null
   model: ФАС-10-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-1/ВП</span> (10 кВт)
-  price: 412000
+  price: 420000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1481,7 +1481,7 @@
   specs:
     power:
       ng:
-        max: 9.5
+        max: 10
       lpg:
         max: 10
     current:
@@ -1491,6 +1491,130 @@
     voltage: 230
     frequency: 50
     phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0.41 м³/ч * 1 кВт
+      lpg: 0.35 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ваз-2106
+  enclosure:
+    type: закрытое
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 62
+    size:
+      length: 1321
+      width: 780
+      height: 963
+    weight: 400
+
+
+
+фас-10-3-вп-10-квт:
+  slug: фас-10-3-вп-10-квт
+  meta:
+    title: Газовый генератор ФАС-10-3/ВП (10 кВт)
+    description: Трехфазный газовый генератор ФАС компании «Фасэнергомаш» на базе двигателя ВАЗ с прямым приводом и жидкостным охлаждением, мощностью 10 кВт, изготавливается во всепогодном шумозащитном корпусе.
+  type: Газовые генераторы
+  article: 491003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-10-3/ВП
+  title: Газовый генератор <span class='text-red'>ФАС-10-3/ВП</span> (10 кВт)
+  price: 420000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Генераторы ФАС серии ВП с прямым приводом оснащены двигателями ВАЗ 2106 и ВАЗ 21213 с жидкостным охлаждением. Этими двигателями комплектуются российские автомобили, поэтому с техническим обслуживанием генераторов ФАС не возникнет проблем, а запчасти к ним можно купить в любом автомагазине.</p>
+    <p>Двигатели адаптированы для работы на природном и сжиженном газе, а их моторесурс значительно увеличен по сравнению с бензиновыми аналогами.</p>
+    <p>Модельный ряд ФАС-ВП включает однофазные и трехфазные модели мощностью от 8 до 32 кВт.</p>
+    <p>Использование прямой передачи крутящего момента от двигателя к генератору повышает КПД, уменьшает износ валов и подшипников и снижает уровень шума на 10 дБ по сравнению с моделями с ременным приводом. При этом модели ФАС с прямым приводом имеют несколько большие габариты.</p>
+    <p>Надежность, большой моторесурс и возможность работать долгое время в непрерывном режиме позволяют использовать генераторы ФАС для резервного и основного электроснабжения частного дома или промышленного предприятия.</p>
+    <p>Влагозащищенный корпус не требует закрытого помещения для установки генератора, а системы подогрева и электронного управления дают возможность быстро производить запуск при низких температурах в автоматическом режиме.</p>
+  features: null
+  photos:
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--01.jpg
+      main: true
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front--closed--panel.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--gas-input.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-front--closed--doors--02.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--02.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--doors--01.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--oil-filter-n-drain.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--batcher--lpg-setting.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back-top--closed--throttle-actuator--2.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left-top--closed--coolant-heater.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--coolant-temperature-sensor.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--front-left--closed--inter.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--closed--zoom.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--metan-setting.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--throttle-actuator--1.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--back--closed--batcher--lpg-setting.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВП-мини/Газовый-генератор-ФАС-ВПМ--left--back--closed--gas-line.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Газовый двигатель с жидкостным охлаждением</li>
+      <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+      <li>Блок автоматического ввода резерва (АВР)</li>
+      <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+      <li>Стальная сварная рама с антивибрационными подушками</li>
+      <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li>
+      <li>Двухопорный электрогенератор класса IP23</li>
+      <li>Система экстренной остановки ГГУ</li>
+      <li>Автоматический регулятор напряжения и частоты</li>
+      <li>Контроллер нештатной работы генераторной установки</li>
+      <li>Электрический пульт ручного запуска с измерительными приборами</li>
+      <li>Комплект эксплуатационной документации</li>
+      <li>Гарантийный талон</li>
+      <li>Масло Shell SAE 5W-40</li>
+      <li>Антифриз</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 10
+      lpg:
+        max: 10
+    current:
+      _legacy: 43.5
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
     phi: null
     circuitBreaker: null
     consumption:
@@ -1543,7 +1667,7 @@
   series: null
   model: ФАС-13-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-1/ВП</span> (13 кВт)
-  price: 454000
+  price: 429000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1667,7 +1791,7 @@
   series: null
   model: ФАС-13-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВП</span> (13 кВт)
-  price: 454000
+  price: 429000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1791,7 +1915,7 @@
   series: null
   model: ФАС-15-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-1/ВР</span> (15 кВт)
-  price: 508000
+  price: 521000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -1909,7 +2033,7 @@
   series: null
   model: ФАС-15-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-3/ВР</span> (15 кВт)
-  price: 511000
+  price: 524000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -2027,7 +2151,7 @@
   series: null
   model: ФАС-18-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-1/ВР</span> (18 кВт)
-  price: 508000
+  price: 521000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2145,7 +2269,7 @@
   series: null
   model: ФАС-18-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-3/ВР</span> (18 кВт)
-  price: 511000
+  price: 524000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2263,7 +2387,7 @@
   series: null
   model: ФАС-21-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВП</span> (21 кВт)
-  price: 541000
+  price: 533000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2992,7 +3116,7 @@
   series: null
   model: ФАС-40-3/М
   title: Газовый генератор <span class='text-red'>ФАС-40-3/М</span> (40 кВт)
-  price: 1355000
+  price: 1410000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3109,7 +3233,7 @@
   series: null
   model: ФАС-50-3/М
   title: Газовый генератор <span class='text-red'>ФАС-50-3/М</span> (50 кВт)
-  price: 1400000
+  price: 1420000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3231,7 +3355,7 @@
   series: null
   model: ФАС-100-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-100-3/ЯП</span> (100 кВт)
-  price: 2100000
+  price: 2130000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3774,7 +3898,7 @@
   series: null
   model: ФАС-50/70М
   title: Когенерационная установка <span class='text-red'>ФАС-50/70М</span>
-  price: 2750000
+  price: 2360000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3809,7 +3933,7 @@
     - когенерационная-установка
     # # @todo Replace `ФАС-ТМ100` with `<a href='/l/тепловой-модуль-фас-тм100'>ФАС-ТМ100</a>` when https://trello.com/c/EN6aCYtu/112-- will be ready
   equipment:
-    AST: true
+    AST: null
     list: >
       <li>Газопоршневая установка <a href='/продукция/газовые-генераторы/фас-50-3-м-50-квт'>ФАС-50-3/М</a></li>
       <li>Тепловой модуль ФАС-ТМ100</li>
