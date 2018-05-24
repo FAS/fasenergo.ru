@@ -12,7 +12,7 @@ date: 2018-03-15T15:02:00
 pdf: /{{ PATH.docs }}/журнал/ЭнергоГаз-Инфо-1-2-2018.pdf
 ---
 
-{% extends './_entry.nj' %}
+{% extends '../_entry.nj' %}
 
 {% block content %}
 <h2>Содержание номера</h2>
