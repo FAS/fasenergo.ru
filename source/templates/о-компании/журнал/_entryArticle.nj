@@ -1,0 +1,27 @@
+{{ config('PAGE', {
+  og: {
+    type: 'article'
+  }
+}) }}
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_buttons.nj' import PDFButton with context %}
+
+{% set parentBreadcrumb = _.dropRight(PAGE.breadcrumb, 1) %}
+{% set parentProps = getPage(parentBreadcrumb).props %}
+
+<nav class='h-bleed-top'>
+  <a href='{{ parentProps.url }}'>{{ parentProps.contentTitle }}</a>
+  <span class='h-margin-left-- h-opacity--60'>{{ moment(parentProps.date).format('DD.MM.YYYY') }}</span>
+</nav>
+
+{% block content %}{% endblock %}
+
+<p class='h-margin-top+'>
+  <a href='{{ parentProps.url }}' class='Btn h-text++ Btn+ g-link--back'>
+    Содержимое номера
+  </a>
+</p>
+{% endblock %}
