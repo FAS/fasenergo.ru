@@ -1,0 +1,19 @@
+{##
+ # Display magazine article preview
+ # @param {string} title Title for the article
+ # @param {string} url   URL to the article
+ # @return {string} HTML
+ #}
+{% macro MagazineArticlePreview(title, url) %}
+<article>
+
+  <h3><a href='{{ url }}' class='g-link--inherit'>{{ title }}</a></h3>
+
+  {{ caller() }}
+
+  <div>
+    <a href='{{ url }}'>Читать<span aria-role='presentation'> &rarr;</span></a>
+  </div>
+
+</article>
+{% endmacro %}
