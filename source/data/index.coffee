@@ -34,7 +34,7 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       googleAnalyticsId: 'UA-35704990-1'
       yandexMetrikaId: '20139793'
       mangoCallTrackerId: 11927
-      roistatId: '573f52f7afc05309522d996ddeb6c37a'
+      roistatId: '87857cf3f1dc945c5daa3ef27bf87cfd'
       googleOptimizeId: 'GTM-WT37JN9'
     PLACEHOLDERS:
       company: 'Фасэнергомаш'

@@ -1,8 +1,8 @@
 {##
- # Invoke Roistat call tracker
- # @param {number} id Roistat id
+ # Invoke Roistat analytics tracker
+ # @param {string} id Roistat id
  # @return {string} `<script>` tag with Roistat code
- # @example {{ MangoCalltracker() }}
+ # @example {{ Roistat() }}
  #}
 {% macro Roistat(id) %}
 <script>
@@ -13,6 +13,7 @@
     var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/" + id + "/init";
 
     var js = d.createElement(s);
+    js.charset="UTF-8";
     js.async = 1;
     js.src = "https://" + h + u;
 
