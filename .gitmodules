@@ -2,5 +2,5 @@
   path = source/styles/ekzo
   url = https://github.com/ArmorDarks/ekzo.git
 [submodule "source/assets"]
-	path = source/assets
-	url = git@github.com:FAS/assets.fasenergo.ru.git
+  path = source/assets
+  url = https://github.com/FAS/assets.fasenergo.ru.git
