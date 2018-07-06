@@ -67,14 +67,17 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       accountId: '61a2bb4e7123eaa6a8ead27d4',
       listsIds:
         subscribers: '0a6025db66'
-    BITRIX_FORMS:
-      orderBtn:
-        id: 9
-        sec: '2j2s4m'
-        type: 'button'
-        click: ''
-        # This can't be configurated, last number should always match id
-        selector: 'b24-web-form-popup-btn-9'
+    BITRIX:
+      # domain qualified name of your bitrix portal
+      portalDomain: 'fasenergo.bitrix24.ru'
+      forms:
+        orderBtn:
+          id: 9
+          sec: '2j2s4m'
+          type: 'button'
+          click: ''
+          # This can't be configurated, last number should always match id
+          selector: 'b24-web-form-popup-btn-9'
     ENV:
       production: config('env.production')
       staging: config('env.staging')
