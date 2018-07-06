@@ -69,12 +69,12 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
         subscribers: '0a6025db66'
     BITRIX_FORMS:
       orderBtn:
-        id: 12
-        sec: 'tqrgxv'
+        id: 9
+        sec: '2j2s4m'
         type: 'button'
         click: ''
         # This can't be configurated, last number should always match id
-        selector: 'b24-web-form-popup-btn-12'
+        selector: 'b24-web-form-popup-btn-9'
     ENV:
       production: config('env.production')
       staging: config('env.staging')
