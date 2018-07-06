@@ -19,26 +19,183 @@ description: Оборудование для газовой заправки (А
   url = '/продукция/топливораздаточное-оборудование/агзс'
 ) %}{% endcall %}
 
-<h2>Электронные топливораздаточные колонки</h2>
+<h2>Электронные топливораздаточные колонки компании «Фасэнергомаш»</h2>
+
+<h3>Электронные топливораздаточные колонки серии 100</h3>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call CategoryCard(
-    title = 'ФАС 1LG',
+    title = 'ФАС S/111/K<span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-111-K/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-111-k',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  
+  {% call CategoryCard(
+    title = 'ФАС S/111/T<span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-111-T/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-111-t',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>  
+  
+<h3>Электронные топливораздаточные колонки серии 200</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>  
+  {% call CategoryCard(
+    title = 'ФАС S/223/K <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтально-противоположных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-223-K/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-223-k',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  
+  {% call CategoryCard(
+    title = 'ФАС S/223/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтально-противоположных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-223-T/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-223-t',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>  
+
+<h3>Электронные топливораздаточные колонки серии 300</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>  
+  {% call CategoryCard(
+    title = 'ФАС S/320/K <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
     hLevel = 3,
-    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-1LG/card.jpg',
-    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-1lg',
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-320/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-320-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'ФАС 2LG',
+    title = 'ФАС S/320/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
     hLevel = 3,
-    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-2LG/card.jpg',
-    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-2lg',
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-320/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-320-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
+  
+  {% call CategoryCard(
+    title = 'ФАС S/322/K <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на диагональных сторонах</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-322-K/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-322-k',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС S/322/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на диагональных сторонах</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-322-T/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-322-t',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>  
+  
+<h3>Электронные топливораздаточные колонки серии 400</h3>
 
+<div class='o-grid h-childs-displace h-bleed-bottom'>  
+  {% call CategoryCard(
+    title = 'ФАС S/420/K <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-400/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-420-k',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС S/420/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-400/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-420-t',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+{% call CategoryCard(
+    title = 'ФАС S/422/K <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на диагональных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-400/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-422-k',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС S/422/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на диагональных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-400/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-422-t',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+    {% call CategoryCard(
+    title = 'ФАС N/420/K <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-400/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-n-420-k',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС N/420/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-400/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-n-420-t',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+{% call CategoryCard(
+    title = 'ФАС N/422/K <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на диагональных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-400/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-n-422-k',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС N/422/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на диагональных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-400/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-n-422-t',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Электронные топливораздаточные колонки серии 500</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>  
+  {% call CategoryCard(
+    title = 'ФАС S/511/K <span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-500/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-511-k',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'ФАС S/511/T <span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-500/card.jpg',
+    url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-511-t',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h2>Электронные топливораздаточные колонки компании FAS</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call CategoryCard(
     title = 'FAS-120 SK №936931 (эконом) <span class="h-block h-padding-top-- h-text-">Однопистолетная</span>',
     hLevel = 3,
@@ -101,6 +258,7 @@ description: Оборудование для газовой заправки (А
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
+
   {% call CategoryCard(
     title = 'FAS-230 №35474 <span class="h-block h-padding-top-- h-text-">Двухпистолетная</span>',
     hLevel = 3,
@@ -125,14 +283,15 @@ description: Оборудование для газовой заправки (А
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call CategoryCard(
     title = 'ФАС 22.7112',
-    hLevel = 3,
+    hLevel = 4,
     url = '/продукция/топливораздаточное-оборудование/щиты-электроуправления/фас-22-7112',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
+  
   {% call CategoryCard(
     title = 'ФАС 22.561',
-    hLevel = 3,
+    hLevel = 4,
     url = '/продукция/топливораздаточное-оборудование/щиты-электроуправления/фас-22-561',
     class = 'o-grid__item h-1/4',
     size = 'small'
