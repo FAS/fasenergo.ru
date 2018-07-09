@@ -29,8 +29,8 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       themeColor: '#252f38'
       locales: config('locales')
       baseLocale: config('baseLocale')
-      matter: require(join(cwd, config('file.temp.data.matter')))
-      images: require(join(cwd, config('file.temp.data.images')))
+      matter: () => require(join(cwd, config('file.temp.data.matter')))
+      images: () => require(join(cwd, config('file.temp.data.images')))
       googleAnalyticsId: 'UA-35704990-1'
       yandexMetrikaId: '20139793'
       mangoCallTrackerId: 11927
