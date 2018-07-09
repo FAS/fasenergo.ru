@@ -23,8 +23,8 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       shortName: 'Фасэнергомаш'
       version: pkg.version
       description: 'Немецко-российский производитель газового оборудования'
-      homepage: if sitename then 'https://#{sitename}' else pkg.homepage
-      logo: '/#{imagesPath}/logo.svg'
+      homepage: if sitename then "https://#{sitename}" else pkg.homepage
+      logo: "/#{imagesPath}/logo.svg"
       viewport: 'width=1000'
       themeColor: '#252f38'
       locales: config('locales')
@@ -56,11 +56,11 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       vk:
         url: 'https://vk.com/fasenergo'
       facebook:
-        image: '/#{imagesPath}/facebook.png'
+        image: "/#{imagesPath}/facebook.png"
         url: 'https://www.facebook.com/fasenergo'
       twitter:
         handle: '@fasenergo'
-        image: '/#{imagesPath}/twitter.png'
+        image: "/#{imagesPath}/twitter.png"
         url: 'https://twitter.com/fasenergo'
     MAILCHIMP:
       account: 'fasenergo'
