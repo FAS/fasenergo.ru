@@ -71,7 +71,7 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       # domain qualified name of your bitrix portal
       portalDomain: 'fasenergo.bitrix24.ru'
       forms:
-        orderBtn:
+        requestOffer:
           id: 9
           sec: '2j2s4m'
           type: 'button'
