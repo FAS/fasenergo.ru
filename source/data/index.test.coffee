@@ -101,6 +101,6 @@ Data = module.exports = t.struct({
 }, { name: 'Data' })
 
 if typeof describe == 'function'
-  describe 'Data',
-    it 'should match schema structure and types',
-      expect(validate(data, Data)).not.toThrow()
+  describe 'Data', () =>
+    it 'should match schema structure and types', () =>
+      expect(() => validate(data, Data)).not.toThrow()
