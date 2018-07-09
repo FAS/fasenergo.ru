@@ -23,14 +23,14 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       shortName: 'Фасэнергомаш'
       version: pkg.version
       description: 'Немецко-российский производитель газового оборудования'
-      homepage: if sitename then "https://#{sitename}" else pkg.homepage
-      logo: "/#{imagesPath}/logo.svg"
+      homepage: if sitename then 'https://#{sitename}' else pkg.homepage
+      logo: '/#{imagesPath}/logo.svg'
       viewport: 'width=1000'
       themeColor: '#252f38'
       locales: config('locales')
       baseLocale: config('baseLocale')
-      matter: () => require(join(cwd, config('file.temp.data.matter')))
-      images: () => require(join(cwd, config('file.temp.data.images')))
+      matter: require(join(cwd, config('file.temp.data.matter')))
+      images: require(join(cwd, config('file.temp.data.images')))
       googleAnalyticsId: 'UA-35704990-1'
       yandexMetrikaId: '20139793'
       mangoCallTrackerId: 11927
@@ -40,31 +40,31 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       company: 'Фасэнергомаш'
     PAGE_DEFAULTS:
       image: ''
-      class: '',
+      class: ''
       bodyClass: 'Wrapper--site Wrapper--sidebar-shift'
-      coverImage: false,
-      applyWrapper: true,
-      applyWrapperV: true,
-      applyWrapperMain: true,
-      applyWrapperContainer: true,
-      applyWrapperContent: true,
-      forceFooterWrapperContent: false,
-      applyPreformat: true,
-      showContentTitle: true,
+      coverImage: false
+      applyWrapper: true
+      applyWrapperV: true
+      applyWrapperMain: true
+      applyWrapperContainer: true
+      applyWrapperContent: true
+      forceFooterWrapperContent: false
+      applyPreformat: true
+      showContentTitle: true
       showBreadcrumb: true
     SOCIAL:
       vk:
-        url: "https://vk.com/fasenergo"
+        url: 'https://vk.com/fasenergo'
       facebook:
-        image: "/#{imagesPath}/facebook.png"
+        image: '/#{imagesPath}/facebook.png'
         url: 'https://www.facebook.com/fasenergo'
       twitter:
         handle: '@fasenergo'
-        image: "/#{imagesPath}/twitter.png"
+        image: '/#{imagesPath}/twitter.png'
         url: 'https://twitter.com/fasenergo'
     MAILCHIMP:
-      account: 'fasenergo',
-      accountId: '61a2bb4e7123eaa6a8ead27d4',
+      account: 'fasenergo'
+      accountId: '61a2bb4e7123eaa6a8ead27d4'
       listsIds:
         subscribers: '0a6025db66'
     BITRIX:

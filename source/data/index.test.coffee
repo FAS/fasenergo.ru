@@ -79,8 +79,8 @@ Data = module.exports = t.struct({
     url: r.Absoluteurl
   }, { name: 'Social' })
   MAILCHIMP: t.struct({
-    account: t.String,
-    accountId: t.String,
+    account: t.String
+    accountId: t.String
     listsIds: t.dict t.String, t.String
   }, { name: 'Mailchimp' })
   BITRIX: t.dict(t.String, t.struct({
