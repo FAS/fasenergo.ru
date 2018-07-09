@@ -92,7 +92,7 @@ Data = module.exports = t.struct({
         type: t.String
         click: t.maybe t.String
         selector: t.String
-  }, { name: 'Bitrix' }))
+  }, { name: 'Bitrix' })
   ENV: t.struct
     production: t.maybe t.Boolean
     staging: t.maybe t.Boolean
@@ -101,6 +101,6 @@ Data = module.exports = t.struct({
 }, { name: 'Data' })
 
 if typeof describe == 'function'
-  describe 'Data', () =>
-    it 'should match schema structure and types', () =>
-      expect(() => validate(data, Data)).not.toThrow()
+  describe 'Data',
+    it 'should match schema structure and types',
+      expect(validate(data, Data)).not.toThrow()
