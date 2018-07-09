@@ -85,7 +85,7 @@ Data = module.exports = t.struct({
   }, { name: 'Mailchimp' })
   BITRIX: t.struct({
     portalDomain: t.String
-    forms: t.dict t.struct
+    forms: t.struct
       requestOffer: t.struct
         id: t.Number
         sec: t.String
