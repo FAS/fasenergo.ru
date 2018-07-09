@@ -26,7 +26,7 @@
     {% endif %}
   </td>
   <td class='h-align--right'>{{ Price(entry.price, 'EUR') if entry.price }}</td>
-  <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+  <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
   </td>
 </tr>
 {% endmacro %}

@@ -64,7 +64,7 @@ description: Обратные и скоростные клапаны компа�
       <td>{{ e.size }}</td>
       <td>{{ e.width }}&nbsp;мм</td>
       <td>{{ e.weight }}&nbsp;кг</td>
-      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
       </td>
     </tr>
     {% endfor %}

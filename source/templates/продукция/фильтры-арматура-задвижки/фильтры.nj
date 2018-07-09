@@ -63,7 +63,7 @@ description: Продажа нефтегазовых фильтров-грязе
     {% for e in pageEq %}
     <tr>
       <td>{{ e.title }}</td>
-      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
       </td>
     </tr>
     {% endfor %}

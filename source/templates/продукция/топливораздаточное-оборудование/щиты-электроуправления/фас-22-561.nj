@@ -23,6 +23,6 @@ description: Щит электроуправления ФАС 22.561 для то
 
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap h-margin-bottom+'>117 000 рублей.</p>
-  <p><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 </div>
 {% endblock %}

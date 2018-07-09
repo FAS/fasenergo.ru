@@ -151,7 +151,7 @@ description: Регуляторы давления газа RegO произво�
       <td class='h-align--right'>{{ e.pressure }}</td>
       <td>{{ e.connection }}</td>
       <td class='h-align--right'>{{ e.weight }}</td>
-      <td class='h-align--center'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
       </td>
     </tr>
     {% endfor %}

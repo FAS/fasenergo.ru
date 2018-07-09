@@ -49,7 +49,7 @@ description: Поршневой компрессорный агрегат ФАС
   <li>Скомпенсированная горизонтальная вибрация вследствие горизонтального расположения поршней движущихся в противофазе.</li>
 </ul>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

@@ -132,7 +132,7 @@
             {% if not isDiscontinued %}
             <link property='url' href='/контакты#order'>
 
-            <button class='{{ BITRIX_FORMS.orderBtn.selector }} js-metrica-order Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps'>Сделать заказ</button>
+            <button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-order Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps'>Сделать заказ</button>
             <p class='h-margin-top-- h-margin-bottom0'>или <a class='js-metrica-ask-question' href='/контакты'>задать вопрос</a></p>
             {% endif %}
 
