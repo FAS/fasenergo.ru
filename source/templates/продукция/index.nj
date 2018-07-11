@@ -74,7 +74,7 @@ description: Немецко-российские газовые генерато
   {% call CategoryCard(
     title = 'Топливороздаточные колонки оборудование',
     hLevel = 2,
-    image = '/' + PATH.images + '/categories/топливораздаточное-оборудование.jpg',
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-400/card.jpg',
     url = '/продукция/топливораздаточное-оборудование'
   ) %}{% endcall %}
 
