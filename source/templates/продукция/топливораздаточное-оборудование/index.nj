@@ -27,7 +27,7 @@ description: Оборудование для газовой заправки (А
   {% call CategoryCard(
     title = 'ФАС S/111/K<span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
     hLevel = 4,
-    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-111-K/card.jpg',
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/фас-s-111-k/card.jpg',
     url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-111-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -36,7 +36,7 @@ description: Оборудование для газовой заправки (А
   {% call CategoryCard(
     title = 'ФАС S/111/T<span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
     hLevel = 4,
-    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-111-T/card.jpg',
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/фас-s-111-t/card.jpg',
     url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-111-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -49,7 +49,7 @@ description: Оборудование для газовой заправки (А
   {% call CategoryCard(
     title = 'ФАС S/223/K <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтально-противоположных сторонах</span>',
     hLevel = 4,
-    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-223-K/card.jpg',
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/фас-s-223-k/card.jpg',
     url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-223-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -58,7 +58,7 @@ description: Оборудование для газовой заправки (А
   {% call CategoryCard(
     title = 'ФАС S/223/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтально-противоположных сторонах</span>',
     hLevel = 4,
-    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-223-T/card.jpg',
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/фас-s-223-t/card.jpg',
     url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-223-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -88,7 +88,7 @@ description: Оборудование для газовой заправки (А
   {% call CategoryCard(
     title = 'ФАС S/322/K <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на диагональных сторонах</span>',
     hLevel = 3,
-    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-322-K/card.jpg',
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/фас-s-322-k/card.jpg',
     url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-322-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
@@ -96,7 +96,7 @@ description: Оборудование для газовой заправки (А
   {% call CategoryCard(
     title = 'ФАС S/322/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на диагональных сторонах</span>',
     hLevel = 3,
-    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/ФАС-S-322-T/card.jpg',
+    image = '/' + PATH.images + '/equipment/топливораздаточное-оборудование/фас-s-322-t/card.jpg',
     url = '/продукция/топливораздаточное-оборудование/электронные-топливораздаточные-колонки/фас-s-322-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
