@@ -34,4 +34,6 @@ description: ООО «Фасэнергомаш» занимается разра
 </ul>
 
 <p>При необходимости наши дымоотводные конструкции могут быть укомплектованы дополнительным оборудованием: площадками техобслуживания, проблесковыми маяками, взрывными клапанами, лестницами, автоматическими клапанами слива жидкости и прочим.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 {% endblock %}

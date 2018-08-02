@@ -80,6 +80,15 @@ description: Немецко-российские газовые генерато
 
   <hr>
 
+    {% call CategoryCard(
+    title = 'Системы утилизации тепла',
+    hLevel = 2,
+    image = '/' + PATH.images + '/equipment/системы-утилизации-тепла/Тепловой-модуль-синий-ФАС--1---front.jpg',
+    url = '/продукция/cистемы-утилизации-тепла'
+  ) %}{% endcall %}
+
+  <hr>
+
   {% call CategoryCard(
     title = 'Газорегуляторное оборудование',
     hLevel = 2,
