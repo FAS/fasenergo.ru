@@ -179,18 +179,6 @@ description: Дилеры компании «Фасэнергомаш»
     <h2>Ростов-на-Дону</h2>
     <ul>
       <li>ООО «Авангард ЭД»</li>
-      <li>
-        {{ Dealer(
-          name = 'Компания «ТСК»',
-          address = 'г. Ростов-на-Дону, ул. 50-лет Ростсельмаша, 7-Б',
-          phones = [
-            { country: '7', city: '863', tel: ['296', '29', '42'] },
-            { country: '7', city: '800', tel: ['222', '29', '42'] }
-          ],
-          email = 'zakaz@tsk-rostov.ru',
-          url = 'https://intes-pro.ru'
-        ) }}
-      </li>
     </ul>
   </article>
 
@@ -198,13 +186,6 @@ description: Дилеры компании «Фасэнергомаш»
     <h2>Самара</h2>
     <ul>
       <li>ООО «ГТС-Автоном»</li>
-    </ul>
-  </article>
-
-  <article class='o-grid__item h-1/2'>
-    <h2>Симферополь</h2>
-    <ul>
-      <li>ООО «КрымТехноСтрой»</li>
     </ul>
   </article>
 
