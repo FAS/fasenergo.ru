@@ -61,14 +61,6 @@ applyWrapperContent: false
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат соответствия аудитора', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат соответствия аудитора.pdf')) %}
-  {# @todo Add description #}
-{% endcall %}
-
-{% call Document(title = 'Auditors certificate of conformity', url = urljoin('/', PATH.docs, '/certs/Fasenergomash - Auditors certificate of conformity.pdf')) %}
-  {# @todo Add description #}
-{% endcall %}
-
 {% call Document(title = 'Разрешение на использование знака соответствия', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Разрешение на использование знака соответствия.pdf')) %}
   {# @todo Add description #}
 {% endcall %}
