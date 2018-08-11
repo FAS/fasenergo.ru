@@ -55,6 +55,7 @@
     {% call(depth) Item('/продукция/насосно-компрессорное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/автономные-системы-газоснабжения', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/топливораздаточное-оборудование', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/cистемы-утилизации-тепла', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/газорегуляторное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/фильтры-арматура-задвижки', depth = depth) %}{% endcall %}
 
@@ -76,6 +77,7 @@
 
     {% call(depth) Item('/решения/технические/синхронизация-генераторных-установок', depth = depth) %}{% endcall %}
     {% call(depth) Item('/решения/технические/когенерационная-установка', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/решения/технические/системы-утилизации-тепла', depth = depth) %}{% endcall %}    
     {% call(depth) Item('/решения/технические/контейнеры-для-генераторов', depth = depth) %}{% endcall %}
     {% call(depth) Item('/решения/технические/авр', depth = depth) %}{% endcall %}
 
