@@ -4138,7 +4138,7 @@
   series: null
   model: ФАС-13-1/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-13-1/ВТ ТУРБО</span> (13 кВт)
-  price: 495000
+  price: 469000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4253,7 +4253,7 @@
   series: null
   model: ФАС-13-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВТ ТУРБО</span> (13 кВт)
-  price: 495000
+  price: 469000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4372,7 +4372,7 @@
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: preorder
+  availability: discontinued
   warranty:
     delivery: 24
     installation: 24
@@ -4483,7 +4483,7 @@
   series: null
   model: ФАС-21-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-21-3/ВТ ТУРБО</span> (21 кВт)
-  price: 530000
+  price: 551000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4598,7 +4598,7 @@
   series: null
   model: ФАС-24-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВТ ТУРБО</span> (24 кВт)
-  price: null
+  price: 627000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4712,7 +4712,7 @@
   series: null
   model: ФАС-28-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВТ ТУРБО</span> (28 кВт)
-  price: null
+  price: 633000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4827,7 +4827,7 @@
   series: null
   model: ФАС-32-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-32-3/ВТ ТУРБО</span> (32 кВт)
-  price: 620000
+  price: 633000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
