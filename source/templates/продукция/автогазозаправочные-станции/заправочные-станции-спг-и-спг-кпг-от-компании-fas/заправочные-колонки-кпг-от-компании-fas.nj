@@ -1,0 +1,93 @@
+---
+title:           Заправочные колонки КПГ от компании FAS
+contentTitle:    Заправочные колонки КПГ от компании FAS
+navTitle:        Заправочные колонки КПГ от компании FAS
+breadcrumbTitle: Заправочные колонки КПГ от компании FAS
+
+description: 'Заправочные КПГ-колонки предназначены для заправки легковых и грузовых автомобилей и автобусов и выпускаются в большом числе вариантов исполнения.'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [ 
+  { url: 'equipment/автогазозаправочные-станции/заправочные-станции-спг-и-спг-кпг-от-компании-fas/заправочные-станции-спг-и-спг-кпг-от-компании-fas--6.jpg' }  
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<p>Заправочные КПГ-колонки предназначены для заправки легковых и грузовых автомобилей и автобусов и выпускаются в большом числе вариантов исполнения: 1- и 2-шланговые системы, с разным количеством ступеней давления.</p>
+
+{% set pageEq = [
+  { title: 'FAS-E30-CNG-R-11-F', hose: '1', counter: 1, pressure: 1, display: 1 },
+  { title: 'FAS-E30-CNG-R-12-F', hose: '1', counter: 1, pressure: 2, display: 1 },
+  { title: 'FAS-E30-CNG-R-13-F', hose: '1', counter: 1, pressure: 3, display: 1 },
+  { title: 'FAS-E30-CNG-R-11', hose: '1', counter: 1, pressure: 1, display: 2 },
+  { title: 'FAS-E30-CNG-R-12', hose: '1', counter: 1, pressure: 2, display: 2 },
+  { title: 'FAS-E30-CNG-R-13', hose: '1', counter: 1, pressure: 3, display: 2 },
+  { title: 'FAS-E30-CNG-R-21', hose: '2', counter: 2, pressure: 1, display: 2 },
+  { title: 'FAS-E30-CNG-R-22', hose: '2', counter: 2, pressure: 2, display: 2 },
+  { title: 'FAS-E30-CNG-R-23', hose: '2', counter: 2, pressure: 3, display: 2 }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Модель</th>
+      <th>Шланги</th>
+      <th>Расходомер</th>
+      <th>Число ступеней давления</th>
+      <th>Дисплей</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.hose }}</td>
+      <td class='h-align--right'>{{ e.counter }}</td>
+      <td class='h-align--right'>{{ e.pressure }}</td>
+      <td class='h-align--right'>{{ e.display }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Особенности</h2>
+<ul>
+  <li>Эксплуатация с КПГ или биогазом;</li>
+  <li>Высокая скорость заправки (до 80 кг/мин);</li>
+  <li>Соответствует нормам OIML R319;</li>
+  <li>Выполнен в соответствии с ATEX PED;</li>
+  <li>Коммуникационный протокол IFSF-LON;</li>
+  <li>Управление SPS через Modbus;</li>
+  <li>Опционально: дистанционный мониторинг через дополнительный контроллер.</li>
+</ul>
+
+<h2>Электроника</h2>
+<ul>
+  <li>Эксплуатация с КПГ или биогазом;</li>
+  <li>Самодиагностика системы;</li>
+  <li>Протоколирование истории последних операций (150) и сбоев (250);</li>
+  <li>Простота обслуживания благодаря модульной конструкции;</li>
+  <li>Сумматор для количества поставок и поставок в килограммах или литрах;</li>
+  <li>Кнопка «Старт-стоп»;</li>
+  <li>Визуальный индикатор рабочего состояния;</li>
+  <li>Регулировка давления наполнения в зависимости от температуры.</li>
+</ul>
+
+<h2>Гидравлика</h2>
+<ul>
+  <li>Надежный массовый расходомер (до 80 кг/мин);</li>
+  <li>Фильтр газа, гарантирующий чистоту топлива;</li>
+  <li>Регулировка входного давления (до трех уровней);</li>
+  <li>Подключение NGVl (опционально – NGV 2) для заправки автомобилей и автобусов;</li>
+  <li>Шланги высокого давления с разрывными муфтами;</li>
+  <li>Манометры контроля давления в шланге;</li>
+  <li>Предохранительная арматура для обеспечения безопасной работы.</li>
+</ul>
+{% endblock %}
