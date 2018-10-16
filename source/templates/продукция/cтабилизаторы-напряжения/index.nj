@@ -13,17 +13,18 @@ description: Специально для эксплуатации на откр�
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
 {% set pageEqEl = [
-  { title: 'Стабилизатор напряжения ФАС (9 кВА)', performance: '13 А', price: 'По запросу' },
-  { title: 'Стабилизатор напряжения ФАС (15 кВА)', performance: '21,5 А', price: 'По запросу' },
-  { title: 'Стабилизатор напряжения ФАС (18 кВА)', performance: '26 А', price: 'По запросу' },
-  { title: 'Стабилизатор напряжения ФАС (22 кВА)', performance: '31 А', price: 'По запросу' },
-  { title: 'Стабилизатор напряжения ФАС (24 кВА)', performance: '34 А', price: 'По запросу' }
+  { title: 'Стабилизатор напряжения ФАС № ТСН 9', power: '9 кВт', phase: '3', performance: '13 А', price: '92 000 ₽' },
+  { title: 'Стабилизатор напряжения ФАС № ТСН 15', power: '15 кВт', phase: '3', performance: '21,5 А', price: '116 000 ₽' },
+  { title: 'Стабилизатор напряжения ФАС № ТСН 18', power: '18 кВт', phase: '3', performance: '26 А', price: '155 000 ₽' },
+  { title: 'Стабилизатор напряжения ФАС № ТСН 24', power: '24 кВт', phase: '3', performance: '34 А', price: '169 000 ₽' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
       <th>Наименование</th>
+      <th>Мощность</th>
+      <th>Фазы</th>
       <th>Номинальный ток</th>
       <th>Цена</th>
       <th>ТКП</th>
@@ -33,6 +34,38 @@ description: Специально для эксплуатации на откр�
     {% for e in pageEqEl %}
     <tr>
       <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.power }}</td>
+      <td class='h-align--center'>{{ e.phase }}</td>
+      <td class='h-align--center'>{{ e.performance }}</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% set pageEqEl = [
+  { title: 'Стабилизатор напряжения ФАС № РСН 22', power: '22 кВт', phase: '3', performance: '31 А', price: '101 000 ₽' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Мощность</th>
+      <th>Фазы</th>
+      <th>Номинальный ток</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.power }}</td>
+      <td class='h-align--center'>{{ e.phase }}</td>
       <td class='h-align--center'>{{ e.performance }}</td>
       <td class='h-align--center'>{{ e.price }}</td>
       <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
