@@ -57,6 +57,14 @@ description: Дилеры компании «Фасэнергомаш»
           phones = [{ country: '8', city: '800', tel: ['511', '63', '45'], noParentheses: true }]
         ) }}
       </li>
+      <li>
+        {{ Dealer(
+          name = 'ООО «Газовые Энергетические Системы»',
+          phones = [{ country: '8', city: '800', tel: ['707', '52', '58'] }],
+          email = 'info@gesystems.ru',
+          url = 'http://tgs.su'
+        ) }}
+      </li>      
       <li>ООО «Газовоз-М»</li>
       <li>ООО «Компания Группа Юг»</li>
       <li>ООО «Артпром»</li>
