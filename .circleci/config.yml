@@ -1,0 +1,124 @@
+aliases:
+  - &node
+    - image: circleci/node:10
+  - &aws-cli
+    - image: lotustm/aws-cli
+
+  - &checkout-submodules
+      name: Checkout submodules
+      command: git submodule update --init --recursive
+
+  - &save-repo-cache
+      key: repo-cache-{{ .Environment.CIRCLE_SHA1 }}
+      paths:
+        - ~/project
+
+  - &restore-repo-cache
+      key: repo-cache-{{ .Environment.CIRCLE_SHA1 }}
+
+  - &save-npm-cache
+      key: npm-cache-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+      paths:
+        - ./node_modules
+
+  - &save-jspm-cache
+      key: jspm-cache-{{ checksum "package.json" }}-{{ checksum "jspm.config.js" }}
+      paths:
+        - ./jspm_packages
+
+  - &restore-npm-cache
+      keys:
+        - npm-cache-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+
+  - &restore-jspm-cache
+      keys:
+        - jspm-cache-{{ checksum "package.json" }}-{{ checksum "jspm.config.js" }}
+
+  - &save-build-cache
+      key: build-cache-{{ .Environment.CIRCLE_SHA1 }}
+      paths:
+        - ./build
+
+  - &restore-build-cache
+      key: build-cache-{{ .Environment.CIRCLE_SHA1 }}
+
+  - &install-npm
+      name: Install latest version of npm
+      command: sudo npm install -g npm@latest
+
+  - &deploy-to-production
+      command: |
+        ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
+        cat dockerfile.template | envsubst > dockerfile
+        tar cvzf app.tgz dockerfile build/ docker/
+        ssh core@$SERVER_IP docker system prune -af
+        scp app.tgz core@$SERVER_IP:~/$CIRCLE_PROJECT_REPONAME.tgz
+        scp deploy.sh core@$SERVER_IP:~/deploy.sh
+        ssh core@$SERVER_IP chmod +x deploy.sh
+        ssh core@$SERVER_IP ./deploy.sh $CIRCLE_PROJECT_REPONAME $CIRCLE_SHA1
+
+version: 2
+jobs:
+  checkout:
+    machine: true
+    steps:
+      - checkout
+      - run: *checkout-submodules
+      - save_cache: *save-repo-cache
+
+  setup:
+    docker: *node
+    steps:
+      - run: *install-npm
+      - restore_cache: *restore-repo-cache
+      - restore_cache: *restore-jspm-cache
+      - run: npm ci
+      - save_cache: *save-npm-cache
+      - save_cache: *save-jspm-cache
+
+  test:
+    docker: *node
+    steps:
+      - restore_cache: *restore-repo-cache
+      - restore_cache: *restore-npm-cache
+      - restore_cache: *restore-jspm-cache
+      - run: npm run test
+
+  build:
+    docker: *node
+    environment:
+      PRODUCTION: true
+    steps:
+      - restore_cache: *restore-repo-cache
+      - restore_cache: *restore-npm-cache
+      - restore_cache: *restore-jspm-cache
+      - run: npm run build
+      - save_cache: *save-build-cache
+
+  deploy-to-production:
+    docker: *node
+    environment:
+      PRODUCTION: true
+    steps:
+      - restore_cache: *restore-repo-cache
+      - restore_cache: *restore-build-cache
+      - deploy: *deploy-to-production
+
+workflows:
+  version: 2
+  test-build-deploy:
+    jobs:
+      - checkout
+      - setup:
+          requires:
+            - checkout
+      - test:
+          requires:
+            - setup
+      - build:
+          requires:
+            - setup
+      - deploy-to-production:
+          requires:
+            - test
+            - build
