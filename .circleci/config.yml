@@ -96,7 +96,7 @@ jobs:
       - save_cache: *save-build-cache
 
   deploy-to-production:
-    docker: *node
+    machine: true
     environment:
       PRODUCTION: true
     steps:
