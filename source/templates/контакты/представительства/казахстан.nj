@@ -1,0 +1,32 @@
+---
+title:           Представительства в Казахстане
+contentTitle:    Представительства в Казахстане
+navTitle:        Казахстан
+breadcrumbTitle: Казахстан
+
+description: Представительства компании «Фасэнергомаш» в Республике Казахстан.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Phone with context %}
+
+<div class='o-grid h-childs-displace++'>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Казахстан, г. Алматы</h2>
+    <ul>
+      <li>ТОО «КазГерм-Сервис»</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Казахстан, г. Караганда</h2>
+    <ul>
+      <li>ТОО «ТеплоГазСтрой»</li>
+    </ul>
+  </article>
+
+</div>
+{% endblock %}

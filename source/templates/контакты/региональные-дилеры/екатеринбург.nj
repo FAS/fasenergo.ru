@@ -1,0 +1,69 @@
+---
+title:           Региональные дилеры в Екатеринбурге
+contentTitle:    Региональные дилеры в Екатеринбурге
+navTitle:        Екатеринбург
+breadcrumbTitle: Екатеринбург
+
+description: Дилеры компании «Фасэнергомаш» в Екатеринбурге.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Phone with context %}
+
+{% macro Dealer(
+  name,
+  address,
+  phones,
+  email,
+  url
+) %}
+<p>{{ name }}</p>
+
+{% if address %}
+<p class='h-bleed-top--'>{{ address }}</p>
+{% endif %}
+
+{% if phones.length %}
+<ul class='g-list0 h-margin-bottom--'>
+  {% for phone in phones %}
+  <li>{{ Phone(phone) }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if email %}
+<p><a href='mailto:{{ email }}'>{{ email }}</a><br></p>
+{% endif %}
+
+{% if url %}
+<p class='h-bleed-top--'>
+  <a href='{{ url }}' target='_blank' rel='nofollow'>{{ url.replace('http://', '').replace('https://', '') }}</a>
+</p>
+{% endif %}
+{% endmacro %}
+
+<div class='o-grid h-childs-displace++'>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Екатеринбург</h2>
+    <ul>
+      <li>
+        {{ Dealer(
+          name = 'ООО «ГК «Эффективные технологии»',
+          address = 'г. Екатеринбург, ул. Щорса, 7',
+          phones = [
+            { country: '7', city: '804', tel: ['333', '96', '00'], add: '504'},
+            { country: '7', city: '343', tel: ['226', '04', '92'] },
+            { country: '7', city: '343', tel: ['311', '01', '93'] }
+          ],
+          email = 'office@eftechno.ru',
+          url = 'http://eftechno.ru'
+        ) }}
+      </li>
+    </ul>
+  </article>
+
+</div>
+{% endblock %}
