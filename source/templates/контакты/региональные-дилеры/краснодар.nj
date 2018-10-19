@@ -51,13 +51,26 @@ description: Дилеры компании «Фасэнергомаш» в Кр�
     <ul>
       <li>
         {{ Dealer(
-          name = 'ГК «КлиматЭнергоСтрой»',
-          address = 'г. Краснодар, ул. Бородинская, 150/11',
-          phones = [{ country: '7', city: '988', tel: ['602', '47', '27'] }],
+          name = 'ООО «КЭС Групп»',
+          phones = [
+            { country: '7', city: '988', tel: ['602', '47', '27'] },
+            { country: '7', city: '861', tel: ['279', '00', '95'] }
+          ],          
           email = 'gpu@kes-group.com',
           url = 'http://fasenergo-kes.ru'
         ) }}
       </li>
+      <li>
+        {{ Dealer(
+          name = 'ООО «Хаустанд»',
+          phones = [
+            { country: '8', city: '800', tel: ['234', '37', '66'] },
+            { country: '8', city: '988', tel: ['840', '09', '00'] }
+          ],          
+          email = 'info@hausstand.ru',
+          url = 'http://hausstand.ru'
+        ) }}
+      </li>      
     </ul>
   </article>
 

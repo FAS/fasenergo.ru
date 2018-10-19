@@ -1,10 +1,10 @@
 ---
-title:           Региональные сервисные центры в Казани
-contentTitle:    Региональные сервисные центры в Казани
-navTitle:        Казань
-breadcrumbTitle: Казань
+title:           Региональные сервисные центры в Ставрополе
+contentTitle:    Региональные сервисные центры в Ставрополе
+navTitle:        Ставрополь
+breadcrumbTitle: Ставрополь
 
-description: Сервисные центры компании «Фасэнергомаш» в Казани.
+description: Сервисные центры компании «Фасэнергомаш» в Ставрополе.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -46,22 +46,21 @@ description: Сервисные центры компании «Фасэнерг
 
 <div class='o-grid h-childs-displace++'>
 
-  <article class='o-grid__item h-1/2'>
-    <h2>Казань</h2>
+   <article class='o-grid__item h-1/2'>
+    <h2>Ставрополь</h2>
     <ul>
-      <li>1VAT</li>
       <li>
         {{ Dealer(
-          name = 'ООО «Завод Криалэнергострой»',
+          name = 'ООО «Хаустанд»',
           phones = [
-            { country: '7', city: '843', tel: ['210', '07', '74'] },
-            { country: '8', city: '800', tel: ['555', '44', '01'] }
-          ],
-          url = 'http://krialenergo.ru'
+            { country: '8', city: '800', tel: ['234', '37', '66'] },
+            { country: '8', city: '988', tel: ['840', '09', '00'] }
+          ],          
+          email = 'info@hausstand.ru',
+          url = 'http://hausstand.ru'
         ) }}
-      </li>       
+      </li>
     </ul>
   </article>
-
 </div>
 {% endblock %}

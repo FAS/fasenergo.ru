@@ -1,10 +1,10 @@
 ---
-title:           Региональные сервисные центры в Уфе
-contentTitle:    Региональные сервисные центры в Уфе
-navTitle:        Уфа
-breadcrumbTitle: Уфа
+title:           Региональные дилеры в Перми
+contentTitle:    Региональные дилеры в Перми
+navTitle:        Пермь
+breadcrumbTitle: Пермь
 
-description: Сервисные центры компании «Фасэнергомаш» в Уфе.
+description: Дилеры компании «Фасэнергомаш» в Перми.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -46,11 +46,20 @@ description: Сервисные центры компании «Фасэнерг
 
 <div class='o-grid h-childs-displace++'>
 
-  <article class='o-grid__item h-1/2'>
-    <h2>Уфа</h2>
+   <article class='o-grid__item h-1/2'>
+    <h2>Пермь</h2>
     <ul>
-      <li>ООО «АВЕРС ТЕХНО»</li>
+      <li>
+        {{ Dealer(
+          name = 'ООО «Энергопланнер»',
+          phones = [
+            { country: '7', city: '342', tel: ['270', '00', '95'] }
+          ],
+          url = 'energoplanner.ru'
+        ) }}
+      </li>
     </ul>
   </article>
 
+</div>
 {% endblock %}

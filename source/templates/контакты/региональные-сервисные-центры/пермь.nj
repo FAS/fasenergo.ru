@@ -1,10 +1,10 @@
 ---
-title:           Региональные сервисные центры в Самаре
-contentTitle:    Региональные сервисные центры в Самаре
-navTitle:        Самара
-breadcrumbTitle: Самара
+title:           Региональные сервисные центры в Перми
+contentTitle:    Региональные сервисные центры в Перми
+navTitle:        Пермь
+breadcrumbTitle: Пермь
 
-description: Сервисные центры компании «Фасэнергомаш» в Самаре.
+description: Сервисные центры компании «Фасэнергомаш» в Перми.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -46,10 +46,18 @@ description: Сервисные центры компании «Фасэнерг
 
 <div class='o-grid h-childs-displace++'>
 
-  <article class='o-grid__item h-1/2'>
-    <h2>Самара</h2>
+   <article class='o-grid__item h-1/2'>
+    <h2>Пермь</h2>
     <ul>
-      <li>ООО «ГТС-Автоном»</li>
+      <li>
+        {{ Dealer(
+          name = 'ООО «Энергопланнер»',
+          phones = [
+            { country: '7', city: '342', tel: ['270', '00', '95'] }
+          ],
+          url = 'energoplanner.ru'
+        ) }}
+      </li>
     </ul>
   </article>
 

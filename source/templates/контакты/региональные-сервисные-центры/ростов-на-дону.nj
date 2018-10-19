@@ -49,7 +49,17 @@ description: Сервисные центры компании «Фасэнерг
    <article class='o-grid__item h-1/2'>
     <h2>Ростов-на-Дону</h2>
     <ul>
-      <li>ООО «Авангард ЭД»</li>
+      <li>
+        {{ Dealer(
+          name = 'ООО «Хаустанд»',
+          phones = [
+            { country: '8', city: '800', tel: ['234', '37', '66'] },
+            { country: '8', city: '988', tel: ['840', '09', '00'] }
+          ],          
+          email = 'info@hausstand.ru',
+          url = 'http://hausstand.ru'
+        ) }}
+      </li>
     </ul>
   </article>
 </div>

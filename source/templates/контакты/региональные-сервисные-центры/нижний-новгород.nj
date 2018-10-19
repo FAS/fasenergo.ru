@@ -49,17 +49,13 @@ description: Сервисные центры компании «Фасэнерг
    <article class='o-grid__item h-1/2'>
     <h2>Нижний Новгород</h2>
     <ul>
-      <li>ООО «ФАСХИММАШ»</li>
       <li>
         {{ Dealer(
-          name = 'ООО «Стройиндустрия»',
-          address = 'г. Нижний Новгород, пр. Ленина, д.12а, пом.П3',
+          name = 'ООО «ФАСХИММАШ»',
           phones = [
-            { country: '7', city: '831', tel: ['281', '78', '20'] },
-            { country: '7', city: '831', tel: ['415', '87', '72'] }
+            { country: '7', city: '831', tel: ['422', '24', '47'] }
           ],
-          email = 'info@wattnn.ru',
-          url = 'http://wattnn.ru'
+          url = 'http://fas-him.ru'
         ) }}
       </li>
     </ul>

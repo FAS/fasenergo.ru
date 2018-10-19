@@ -1,10 +1,10 @@
 ---
-title:           Региональные сервисные центры в Иркутске
-contentTitle:    Региональные сервисные центры в Иркутске
-navTitle:        Иркутск
-breadcrumbTitle: Иркутск
+title:           Региональные дилеры в Ставрополе
+contentTitle:    Региональные дилеры в Ставрополе
+navTitle:        Ставрополь
+breadcrumbTitle: Ставрополь
 
-description: Сервисные центры компании «Фасэнергомаш» в Иркутске.
+description: Дилеры компании «Фасэнергомаш» в Ставрополе.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -46,12 +46,20 @@ description: Сервисные центры компании «Фасэнерг
 
 <div class='o-grid h-childs-displace++'>
 
-  <article class='o-grid__item h-1/2'>
-    <h2>Иркутск</h2>
+   <article class='o-grid__item h-1/2'>
+    <h2>Ставрополь</h2>
     <ul>
-      <li>ООО «Технологии газоснабжения»</li>
-    </ul>
+      <li>
+        {{ Dealer(
+          name = 'ООО «Хаустанд»',
+          phones = [
+            { country: '8', city: '800', tel: ['234', '37', '66'] },
+            { country: '8', city: '988', tel: ['840', '09', '00'] }
+          ],          
+          email = 'info@hausstand.ru',
+          url = 'http://hausstand.ru'
+        ) }}
+      </li>    
   </article>
-
 </div>
 {% endblock %}

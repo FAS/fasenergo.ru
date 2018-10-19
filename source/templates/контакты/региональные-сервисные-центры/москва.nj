@@ -47,13 +47,23 @@ description: Сервисные центры компании «Фасэнерг
   <article class='o-grid__item h-1/2'>
     <h2>Москва</h2>
     <ul>
-      <li>ООО «ПромГазСтрой»<br><span class='h-text-'>Системы автономного газо- и электро- снабжения</span></li>
-      <li>ООО «ЭНЕРГОПРОФ»</li>
-      <li>VS-Электро</li>
-      <li>Профэнергорезерв</li>
-      <li>VSE GENERATORI</li>
-      <li>ООО «ЮТА-АвтоГаз»</li>
-      <li>ООО «Базис груп»</li>
+      <li>
+        {{ Dealer(
+          name = 'ООО «ЭНЕРГОПРОФ»',
+          phones = [{ country: '7', city: '495', tel: ['789', '47', '76'] }],
+          url = 'http://sklad-generator.ru'
+        ) }}
+      </li> 
+      <li>
+        {{ Dealer(
+          name = 'ООО «ПГС»',
+          phones = [
+            { country: '7', city: '495', tel: ['502', '56', '65'] },
+            { country: '7', city: '495', tel: ['518', '07', '75'] }
+          ],
+          url = 'http://promgasstroy.ru'
+        ) }}
+      </li> 
     </ul>
   </article>
 </div>

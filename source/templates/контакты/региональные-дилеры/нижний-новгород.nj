@@ -49,7 +49,15 @@ description: Дилеры компании «Фасэнергомаш» в Ни�
    <article class='o-grid__item h-1/2'>
     <h2>Нижний Новгород</h2>
     <ul>
-      <li>ООО «ФАСХИММАШ»</li>
+     <li>
+        {{ Dealer(
+          name = 'ООО «ФАСХИММАШ»',
+          phones = [
+            { country: '7', city: '831', tel: ['422', '24', '47'] }
+          ],
+          url = 'http://fas-him.ru'
+        ) }}
+      </li>
       <li>
         {{ Dealer(
           name = 'ООО «Стройиндустрия»',

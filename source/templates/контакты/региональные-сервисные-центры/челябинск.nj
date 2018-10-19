@@ -1,10 +1,10 @@
 ---
-title:           Региональные сервисные центры в Иваново
-contentTitle:    Региональные сервисные центры в Иваново
-navTitle:        Иваново
-breadcrumbTitle: Иваново
+title:           Региональные сервисные центры в Челябинске
+contentTitle:    Региональные сервисные центры в Челябинске
+navTitle:        Челябинск
+breadcrumbTitle: Челябинск
 
-description: Сервисные центры компании «Фасэнергомаш» в Иваново.
+description: Сервисные центры компании «Фасэнергомаш» в Челябинске.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -46,10 +46,19 @@ description: Сервисные центры компании «Фасэнерг
 
 <div class='o-grid h-childs-displace++'>
 
-  <article class='o-grid__item h-1/2'>
-    <h2>Иваново</h2>
+   <article class='o-grid__item h-1/2'>
+    <h2>Челябинск</h2>
     <ul>
-      <li>ООО «Голубое топливо»</li>
+      <li>
+        {{ Dealer(
+          name = 'ООО ПКФ «Автономные Энерготехнологии»',
+          phones = [
+            { country: '7', city: '351', tel: ['270', '33', '42'] },
+            { country: '7', city: '919', tel: ['333', '17', '23'] }
+          ],
+          url = 'mega-eds.ru'
+        ) }}
+      </li>
     </ul>
   </article>
 
