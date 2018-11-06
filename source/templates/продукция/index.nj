@@ -101,7 +101,7 @@ description: Немецко-российские газовые генерато
    {% call CategoryCard(
     title = 'Стабилизаторы напряжения для улицы',
     hLevel = 2,
-    image = '/' + PATH.images + '/categories/стабилизаторы-напряжения.jpg',
+    image = '/' + PATH.images + '/categories/стабилизаторы-напряжения-1.jpg',
     url = '/продукция/cтабилизаторы-напряжения/'
   ) %}{% endcall %}
 
