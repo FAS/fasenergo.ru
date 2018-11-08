@@ -41,6 +41,52 @@ description: Электрические испарители сжиженных 
 
 {{ VaporizersTable(selectVaporizers(VAPORIZERS)) }}
 
+<h3>Энергосберегающий и компактный испаритель </h3>
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--2--front-right.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--3--right.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--4--back-left.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--5--back.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--6--back-right.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--7--left.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--8--front-left.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Испаритель ФАС SE-A 13') }}
+
+<p></p>
+
+{% set pageEqEl = [
+  {  artitle: '20.0013', title: 'Испаритель ФАС 13 SE-A', performance: '13 кг/ч' , price: '49 500 руб.' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>Цена</th>      
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 
 <hr>
