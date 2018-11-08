@@ -19,7 +19,8 @@ description: Испарительные установки СУГ на раме 
 {% set pageEqElPhotos = [
   { url: 'equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--1--front.jpg' },
   { url: 'equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--2--front-left.jpg' },
-  { url: 'equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--3--front-right.jpg' }
+  { url: 'equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--3--front-right.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-R/испарительная-установка-фас-se-r--4--front-right--scheme.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqElPhotos, 'Испарительная установка ФАС SE/R') }}
