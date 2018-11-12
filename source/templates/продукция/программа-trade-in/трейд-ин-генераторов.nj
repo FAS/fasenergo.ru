@@ -1,0 +1,26 @@
+---
+title:           Трейд-ин генератора с пробегом в Санкт-Петербурге
+contentTitle:    Трейд-ин генератора с пробегом в Санкт-Петербурге
+navTitle:        Трейд-ин генератора с пробегом в Санкт-Петербурге
+breadcrumbTitle: Трейд-ин генератора с пробегом в Санкт-Петербурге
+
+description: Трейд-ин генератора с пробегом в Санкт-Петербурге.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/программа-trade-in/меняем-старый-генератор-на-новый.jpg',
+  alt = 'Меняем старый генератор на новый'
+) }}
+
+<h2>TRADE-IN газового генератора в компании «Фасэнергомаш»</h2>
+{{ Image(
+  src = '/' + PATH.images + '/equipment/программа-trade-in/trade-in-обмен-генератора-с-преимуществом.jpg',
+  alt = 'Trade-In обмен с преимуществом'
+) }}
+
+{% endblock %}

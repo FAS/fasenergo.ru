@@ -1,0 +1,35 @@
+---
+title:           Программа Trade-In
+contentTitle:    Программа Trade-In
+navTitle:        Программа Trade-In
+breadcrumbTitle: Программа Trade-In
+
+description: Трейд-ин генераторов и испарителей с пробегом в Санкт-Петербурге.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<h2>Оборудование по программе Трейд-ин</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Газовые генераторы',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/программа-trade-in/газовые-генераторы.jpg',
+    url = '/продукция/программа-trade-in/трейд-ин-генераторов',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Испарительное оборудование',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/программа-trade-in/испарительное-оборудование.jpg',
+    url = '/продукция/программа-trade-in/трейд-ин-испарителей',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+{% endblock %}
