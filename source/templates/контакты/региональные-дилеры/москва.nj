@@ -64,12 +64,42 @@ description: Дилеры компании «Фасэнергомаш» в Мо�
           url = 'http://promgasstroy.ru'
         ) }}
       </li> 
-      <li>VS-Электро</li>
-      <li>Профэнергорезерв</li>
-      <li>VSE GENERATORI</li>
-      <li>ООО «ЮТА-АвтоГаз»</li>
-      <li>ООО «Базис груп»</li>
-    </ul>
+     <li>
+        {{ Dealer(
+          name = 'ООО «Газ Регион Инвест»',
+          phones = [
+            { country: '7', city: '495', tel: ['646', '00', '90'] }
+          ],
+          url = 'http://gasregioninvest.ru'
+        ) }}
+      </li>
+     <li>
+        {{ Dealer(
+          name = 'ООО «НефтоГаз-Союз»',
+          phones = [
+            { country: '8', city: '800', tel: ['250', '44', '04'] }
+          ],
+          url = 'http://neftogaz.ru'
+        ) }}
+      </li>
+     <li>
+        {{ Dealer(
+          name = 'ООО «Добрый газ»',
+          phones = [
+            { country: '7', city: '495', tel: ['532', '59', '99'] }
+          ],
+          url = 'http://dobrogaz.ru'         
+        ) }}
+      </li>
+     <li>
+        {{ Dealer(
+          name = 'ООО «Русский газ»',
+          phones = [
+            { country: '7', city: '495', tel: ['150', '68', '00'] }
+          ],
+          url = 'http://rugas.ru'         
+        ) }}
+      </li>                           
   </article>
 </div>
 {% endblock %}

@@ -49,7 +49,6 @@ description: Дилеры компании «Фасэнергомаш» в Ка�
   <article class='o-grid__item h-1/2'>
     <h2>Казань</h2>
     <ul>
-      <li>1VAT</li>
       <li>
         {{ Dealer(
           name = 'ООО «Завод Криалэнергострой»',
