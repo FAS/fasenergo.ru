@@ -64,6 +64,7 @@
 
     <li class='Nav__item Nav__item--h2'>Другое</li>
 
+    {% call(depth) Item('/продукция/программа-trade-in', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/преимущества-наших-генераторов', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/гарантия', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/результаты-испытаний', depth = depth) %}{% endcall %}
