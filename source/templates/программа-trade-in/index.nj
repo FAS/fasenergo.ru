@@ -19,7 +19,7 @@ description: Трейд-ин генераторов и испарителей с
     title = 'Газовые генераторы',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/программа-trade-in/газовые-генераторы.jpg',
-    url = '/продукция/программа-trade-in/трейд-ин-генераторов',
+    url = '/программа-trade-in/трейд-ин-генераторов',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -27,7 +27,7 @@ description: Трейд-ин генераторов и испарителей с
     title = 'Испарительное оборудование',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/программа-trade-in/испарительное-оборудование.jpg',
-    url = '/продукция/программа-trade-in/трейд-ин-испарителей',
+    url = '/программа-trade-in/трейд-ин-испарителей',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}

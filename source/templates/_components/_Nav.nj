@@ -64,7 +64,6 @@
 
     <li class='Nav__item Nav__item--h2'>Другое</li>
 
-    {% call(depth) Item('/продукция/программа-trade-in', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/преимущества-наших-генераторов', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/гарантия', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/результаты-испытаний', depth = depth) %}{% endcall %}
@@ -126,8 +125,10 @@
     {% call(depth) Item('/о-компании/журнал', depth = depth) %}{% endcall %}
   {% endcall %}
 
-  {% call(depth) Item('/контакты') %}{% endcall %}
+  {% call(depth) Item('/программа-trade-in') %}{% endcall %}
 
+  {% call(depth) Item('/контакты') %}{% endcall %}
+  
   {# @todo Enable for production when this section will be ready #}
   {# {% if ENV.staging or not ENV.production %}
   {% call(depth) Item('/преимущества-и-особенности-газовых-генераторов') %}{% endcall %}
