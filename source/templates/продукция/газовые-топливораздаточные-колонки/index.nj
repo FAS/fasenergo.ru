@@ -51,6 +51,33 @@ description: Газовые топливораздаточные колонки 
 <div class='o-grid h-childs-displace h-bleed-bottom'>  
 
   {% call CategoryCard(
+    title = 'ФАС S/210/L <span class="h-block h-padding-top-- h-text-">Однопистолетная, на фронтальной стороне</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-210/card.jpg',
+    url = '/продукция/газовые-топливораздаточные-колонки/фас-s-210-l',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+
+  {% call CategoryCard(
+    title = 'ФАС S/210/K <span class="h-block h-padding-top-- h-text-">Однопистолетная, на фронтальной стороне</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-210/card.jpg',
+    url = '/продукция/газовые-топливораздаточные-колонки/фас-s-210-k',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  
+  {% call CategoryCard(
+    title = 'ФАС S/210/T <span class="h-block h-padding-top-- h-text-">Однопистолетная, на фронтальной стороне</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-210/card.jpg',
+    url = '/продукция/газовые-топливораздаточные-колонки/фас-s-210-t',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+
+  {% call CategoryCard(
     title = 'ФАС S/223/L <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтально-противоположных сторонах</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-223-t/card.jpg',
