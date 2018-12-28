@@ -1,4 +1,4 @@
-  // @todo This is temporary measure to deal with nulls in some properties
+// @todo This is temporary measure to deal with nulls in some properties
 const omitBy = require('lodash/omitBy')
 const isNil = require('lodash/isNil')
 
@@ -153,8 +153,8 @@ module.exports = (data) => {
       param: params,
       weight: weight,
       dimensions: (length && width && height && [length, width, height]
-          .map((v) => v / 10) // To convert `mm` to required by Yandex `cm`
-        ) || null,
+        .map((v) => v / 10) // To convert `mm` to required by Yandex `cm`
+      ) || null,
       rec: RECOMMENDED_GENERATORS.map((e) => e.article.toString()),
       vat: 'VAT_18'
     }, isNil))
