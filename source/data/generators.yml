@@ -32,6 +32,7 @@
       main: true
     - url: equipment/газовые-генераторы/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--2--front-left.jpg
     - url: equipment/газовые-генераторы/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--3--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛП/газовый-генератор-фас-5-1лп--4--front-left--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -132,6 +133,7 @@
     - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--4--back-left.jpg
     - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--5--back-right.jpg
     - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/газовый-генератор-фас-5-1лм--7--front-left--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -426,6 +428,7 @@
       main: true
     - url: equipment/газовые-генераторы/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--2--front-left.jpg
     - url: equipment/газовые-генераторы/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--3--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛП/газовый-генератор-фас-8-1лп--5--front-left--scheme.jpg   
   videos: null
   docs: null
   tags:
@@ -526,6 +529,7 @@
     - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--4--back-left.jpg
     - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--5--back-right.jpg
     - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/газовый-генератор-фас-8-1лм--8--front-left--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -1217,6 +1221,7 @@
     - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--4--back-left.jpg
     - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--5--back-right.jpg
     - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/газовый-генератор-фас-15-3лм--9--front-left--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -1323,6 +1328,7 @@
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back--closed--n-7.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back-right--closed--n-8.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--left--closed--n-9.jpg
+    - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front-left--closed--n-9--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -1439,6 +1445,7 @@
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back--closed--n-7.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back-right--closed--n-8.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--left--closed--n-9.jpg
+    - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front-left--closed--n-9--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -1555,6 +1562,7 @@
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back--closed--n-7.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back-right--closed--n-8.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--left--closed--n-9.jpg
+    - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front-left--closed--n-9--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -1671,6 +1679,7 @@
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back--closed--n-7.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back-right--closed--n-8.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--left--closed--n-9.jpg
+    - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front-left--closed--n-9--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -1787,6 +1796,7 @@
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back--closed--n-7.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--back-right--closed--n-8.jpg
     - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--left--closed--n-9.jpg
+    - url: equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front-left--closed--n-9--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -2357,6 +2367,7 @@
     - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--back--open--5.jpg
     - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--back-right--open--6.jpg
     - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--back-left--open--7.jpg
+    - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--front-left--closed--8--scheme.jpg  
     - url: equipment/газовые-генераторы/фас-21-вп/газовый-генератор-фас-21-1-вп--front--closed--1.jpg  
     - url: equipment/газовые-генераторы/фас-21-вп/газовый-генератор-фас-21-1-вп--front-left--closed--2.jpg
     - url: equipment/газовые-генераторы/фас-21-вп/газовый-генератор-фас-21-1-вп--front--open--3.jpg
@@ -2819,6 +2830,7 @@
     - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--back--open--5.jpg
     - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--back-right--open--6.jpg
     - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--back-left--open--7.jpg
+    - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--front-left--closed--8--scheme.jpg      
     - url: equipment/газовые-генераторы/фас-21-вп/газовый-генератор-фас-21-1-вп--front--closed--1.jpg  
     - url: equipment/газовые-генераторы/фас-21-вп/газовый-генератор-фас-21-1-вп--front-left--closed--2.jpg
     - url: equipment/газовые-генераторы/фас-21-вп/газовый-генератор-фас-21-1-вп--front--open--3.jpg
@@ -2941,6 +2953,7 @@
     - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--back--open--5.jpg
     - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--back-right--open--6.jpg
     - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--back-left--open--7.jpg
+    - url: equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--front-left--closed--8--scheme.jpg    
     - url: equipment/газовые-генераторы/фас-21-вп/газовый-генератор-фас-21-1-вп--front--closed--1.jpg  
     - url: equipment/газовые-генераторы/фас-21-вп/газовый-генератор-фас-21-1-вп--front-left--closed--2.jpg
     - url: equipment/газовые-генераторы/фас-21-вп/газовый-генератор-фас-21-1-вп--front--open--3.jpg
@@ -3298,6 +3311,7 @@
     - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--4--back.jpg
     - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--5--back-right.jpg
     - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/газовый-генератор-фас-100-3-яп--150-3-яп--7--back-right--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -3405,6 +3419,7 @@
     - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--4--back.jpg
     - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--5--back-right.jpg
     - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/газовый-генератор-фас-100-3-яп--150-3-яп--7--back-right--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -3732,6 +3747,7 @@
     - url: equipment/газовые-генераторы/ФАС-315-3-Р/Газовый-генератор-ФАС-315-3-Р--back.jpg
     - url: equipment/газовые-генераторы/ФАС-315-3-Р/Газовый-генератор-ФАС-315-3-Р--back-left.jpg
     - url: equipment/газовые-генераторы/ФАС-315-3-Р/Газовый-генератор-ФАС-315-3-Р--front-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-315-3-Р/газовый-генератор-фас-315-3-яп--back-right--scheme.jpg
     - url: equipment/газовые-генераторы/ФАС-315-3-Р/Газовый-генератор-ФАС-315-3-Р--front--container.jpg
     - url: equipment/газовые-генераторы/ФАС-315-3-Р/Газовый-генератор-ФАС-315-3-Р--front--container--open-1.jpg
     - url: equipment/газовые-генераторы/ФАС-315-3-Р/Газовый-генератор-ФАС-315-3-Р--front--container--open-2.jpg
@@ -3846,6 +3862,7 @@
     - url: equipment/газовые-генераторы/ФАС-50-70М/Газовая-когенерационная-установка-ФАС-50-70М--back-left.jpg
     - url: equipment/газовые-генераторы/ФАС-50-70М/Газовая-когенерационная-установка-ФАС-50-70М--back--open.jpg
     - url: equipment/газовые-генераторы/ФАС-50-70М/Газовая-когенерационная-установка-ФАС-50-70М--back-right--open.jpg
+    - url: equipment/газовые-генераторы/ФАС-50-70М/газовая-когенерационная-установка-фас-50-70м--front-left--open--scheme.jpg
   videos: null
   docs:
     - title: Схема FAS-TM100
@@ -3905,9 +3922,9 @@
     removablePanels: null
     noise: 65
     size:
-      length: 2507
+      length: 2511
       width: 1181
-      height: 2345
+      height: 2517
     weight: 1706
 
 
@@ -4176,6 +4193,7 @@
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВТ/газовый-генератор-фас-впт--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4291,6 +4309,7 @@
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВТ/газовый-генератор-фас-впт--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4406,6 +4425,7 @@
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВТ/газовый-генератор-фас-впт--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4521,6 +4541,7 @@
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВТ/газовый-генератор-фас-впт--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4636,6 +4657,7 @@
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВТ/газовый-генератор-фас-впт--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4750,6 +4772,7 @@
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВТ/газовый-генератор-фас-впт--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4865,6 +4888,7 @@
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--front-top.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--left--closed.jpg
     - url: equipment/газовые-генераторы/ФАС-ВТ/Газовый-генератор-ФАС-ВПТ--right--closed.jpg
+    - url: equipment/газовые-генераторы/ФАС-ВТ/газовый-генератор-фас-впт--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -5099,6 +5123,7 @@
     - url: equipment/газовые-генераторы/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-right-top--open.jpg
     - url: equipment/газовые-генераторы/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-left-top--open.jpg
     - url: equipment/газовые-генераторы/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-top--open.jpg
+    - url: equipment/газовые-генераторы/ФАС-35-3-ЗР/газовый-генератор-фас-35-3-зр--front-left-top--close--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -5196,6 +5221,7 @@
     - url: equipment/газовые-генераторы/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-right-top--open.jpg
     - url: equipment/газовые-генераторы/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-left-top--open.jpg
     - url: equipment/газовые-генераторы/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-top--open.jpg
+    - url: equipment/газовые-генераторы/ФАС-35-3-ЗР/газовый-генератор-фас-35-3-зр--front-left-top--close--scheme.jpg
   videos: null
   docs: null
   tags:
