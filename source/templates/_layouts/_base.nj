@@ -3,7 +3,7 @@
 {% from '_components/analytics/_GoogleAnalytics.nj' import GoogleAnalytics with context %}
 {% from '_components/analytics/_YandexMetrika.nj' import YandexMetrika with context %}
 {% from '_components/analytics/_MangoCalltracker.nj' import MangoCalltracker with context %}
-{% from '_components/analytics/_Roistat.nj' import Roistat with context %}
+{% from '_components/analytics/_BitrixWidget.nj' import BitrixWidget with context %}
 {% from '_components/_bitrixForms.nj' import BitrixFormsInit with context %}
 {% from '_components/_AlternateUrls.nj' import AlternateUrls with context %}
 {% from '_components/_IE.nj' import IE with context %}
