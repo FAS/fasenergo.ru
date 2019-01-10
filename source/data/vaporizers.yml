@@ -401,6 +401,20 @@
     selfHeating: false
   enclosure:
     type: шкаф
+'20.1140':
+  id: '20.1140'
+  article: '20.1140'
+  type: испарительная установка
+  title: Испарительная установка ФАС 140 SE/SH
+  price: 9900
+  specs:
+    performance: 140
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
 '20.1160':
   id: '20.1160'
   article: '20.1160'
