@@ -56,6 +56,7 @@
     {% call(depth) Item('/продукция/автономные-системы-газоснабжения', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/автогазозаправочные-станции', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/газовые-топливораздаточные-колонки', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/мобильные-газгольдеры', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/cистемы-утилизации-тепла', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/когенерационные-установки', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/cтабилизаторы-напряжения', depth = depth) %}{% endcall %}
