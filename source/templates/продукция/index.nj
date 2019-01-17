@@ -80,15 +80,6 @@ description: Немецко-российские газовые генерато
 
   <hr>
 
-  {% call CategoryCard(
-    title = 'Мобильные газгольдеры',
-    hLevel = 2,
-    image = '/' + PATH.images + '/categories/мобильный-газгольдер.jpg',
-    url = '/продукция/мобильные-газгольдеры'
-  ) %}{% endcall %}
-
-  <hr>
-
     {% call CategoryCard(
     title = 'Системы утилизации тепла',
     hLevel = 2,
