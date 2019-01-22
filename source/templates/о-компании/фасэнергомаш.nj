@@ -10,12 +10,8 @@ description: Компания «Фасэнергомаш» — немецко-р
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% from '_components/_Image.nj' import Image with context %}
 
-{{ Image(
-  src = urljoin('/', PATH.images, '/company/Офис-Фасэнергомаш--05.jpg'),
-  alt = 'Офис «Фасэнергомаш»'
-) }}
+<p><iframe width="895" height="503" src="https://www.youtube.com/embed/NrPGo-_VgLI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 
 <p>ООО «Фасэнергомаш» — немецко-российский производитель и лидер среди поставщиков газового оборудования для энергетической отрасли России.</p>
 <p>Наша компания работает на отечественном рынке с 2010 года, входит в группу компаний FAS-Россия.</p>
