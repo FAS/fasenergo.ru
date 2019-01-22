@@ -38,7 +38,9 @@ description: Электрические испарители сжиженных 
 <p></p>
 
 {% set pageEqEl = [
-  {  artitle: '20.0013', title: 'Испаритель ФАС 13 SE-A', performance: '13 кг/ч' , price: '49 500 руб.' }
+  {  artitle: '20.005', title: 'Испаритель ФАС 5 SE-A', performance: '5 кг/ч' , price: '600 €' },
+  {  artitle: '20.0010', title: 'Испаритель ФАС 10 SE-A', performance: '10 кг/ч' , price: '780 €' },
+  {  artitle: '20.0013', title: 'Испаритель ФАС 13 SE-A', performance: '13 кг/ч' , price: '800 €' }    
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
