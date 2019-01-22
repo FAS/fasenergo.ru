@@ -12,7 +12,7 @@
   series: null
   model: ФАС-5/1ЛП
   title: Газовый генератор <span class='text-red'>ФАС-5/1ЛП</span> (5 кВт)
-  price: 158000
+  price: 170000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -110,7 +110,7 @@
   series: null
   model: ФАС-5/1ЛМ
   title: Газовый генератор <span class='text-red'>ФАС-5/1ЛМ</span> (5 кВт)
-  price: 144000
+  price: 155000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -408,7 +408,7 @@
   series: null
   model: ФАС-8/1ЛП
   title: Газовый генератор <span class='text-red'>ФАС-8/1ЛП</span> (8 кВт)
-  price: 227000
+  price: 243000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -506,7 +506,7 @@
   series: null
   model: ФАС-8/1ЛМ
   title: Газовый генератор <span class='text-red'>ФАС-8/1ЛМ</span> (8 кВт)
-  price: 211000
+  price: 226000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1198,7 +1198,7 @@
   series: null
   model: ФАС-15/3ЛМ
   title: Газовый генератор <span class='text-red'>ФАС-15/3ЛМ</span> (15 кВт)
-  price: 365000
+  price: 391000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1300,7 +1300,7 @@
   series: null
   model: ФАС-8-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-8-1/ВП</span> (8 кВт)
-  price: 390000
+  price: 418000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1417,7 +1417,7 @@
   series: null
   model: ФАС-10-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-1/ВП</span> (10 кВт)
-  price: 420000
+  price: 450000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1534,7 +1534,7 @@
   series: null
   model: ФАС-10-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-3/ВП</span> (10 кВт)
-  price: 420000
+  price: 450000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1651,7 +1651,7 @@
   series: null
   model: ФАС-13-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-1/ВП</span> (13 кВт)
-  price: 429000
+  price: 460000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1768,7 +1768,7 @@
   series: null
   model: ФАС-13-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВП</span> (13 кВт)
-  price: 429000
+  price: 460000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1885,7 +1885,7 @@
   series: null
   model: ФАС-15-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-1/ВР</span> (15 кВт)
-  price: 521000
+  price: 558000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -1999,7 +1999,7 @@
   series: null
   model: ФАС-15-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-3/ВР</span> (15 кВт)
-  price: 524000
+  price: 561000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -2113,7 +2113,7 @@
   series: null
   model: ФАС-18-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-1/ВР</span> (18 кВт)
-  price: 521000
+  price: 558000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2227,7 +2227,7 @@
   series: null
   model: ФАС-18-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-3/ВР</span> (18 кВт)
-  price: 524000
+  price: 561000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2341,7 +2341,7 @@
   series: null
   model: ФАС-21-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВП</span> (21 кВт)
-  price: 533000
+  price: 571000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2577,7 +2577,7 @@
   series: null
   model: ФАС-21-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-3/ВР</span> (21 кВт)
-  price: 524000
+  price: 561000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2690,7 +2690,7 @@
   series: null
   model: ФАС-24-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВР</span> (24 кВт)
-  price: 587000
+  price: 629000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2804,7 +2804,7 @@
   series: null
   model: ФАС-28-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВП</span> (28 кВт)
-  price: 593000
+  price: 635000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2927,7 +2927,7 @@
   series: null
   model: ФАС-32-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-32-3/ВП</span> (32 кВт)
-  price: 593000
+  price: 635000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3057,7 +3057,7 @@
   series: null
   model: ФАС-40-3/М
   title: Газовый генератор <span class='text-red'>ФАС-40-3/М</span> (40 кВт)
-  price: 1410000
+  price: 1509000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3174,7 +3174,7 @@
   series: null
   model: ФАС-50-3/М
   title: Газовый генератор <span class='text-red'>ФАС-50-3/М</span> (50 кВт)
-  price: 1420000
+  price: 1520000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3289,7 +3289,7 @@
   series: null
   model: ФАС-100-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-100-3/ЯП</span> (100 кВт)
-  price: 2130000
+  price: 2280000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3397,7 +3397,7 @@
   series: null
   model: ФАС-150-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-150-3/ЯП</span> (150 кВт)
-  price: 2200000
+  price: 2354000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3725,7 +3725,7 @@
   series: null
   model: ФАС-315-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-315-3/ЯП</span> (315 кВт)
-  price: 6400000
+  price: 6848000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3835,7 +3835,7 @@
   series: null
   model: ФАС-50/70М
   title: Когенерационная установка <span class='text-red'>ФАС-50/70М</span>
-  price: 2360000
+  price: 2526000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4166,7 +4166,7 @@
   series: null
   model: ФАС-13-1/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-13-1/ВТ ТУРБО</span> (13 кВт)
-  price: 469000
+  price: 502000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4282,7 +4282,7 @@
   series: null
   model: ФАС-13-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВТ ТУРБО</span> (13 кВт)
-  price: 469000
+  price: 502000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4514,7 +4514,7 @@
   series: null
   model: ФАС-21-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-21-3/ВТ ТУРБО</span> (21 кВт)
-  price: 551000
+  price: 590000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4630,7 +4630,7 @@
   series: null
   model: ФАС-24-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВТ ТУРБО</span> (24 кВт)
-  price: 627000
+  price: 671000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4745,7 +4745,7 @@
   series: null
   model: ФАС-28-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВТ ТУРБО</span> (28 кВт)
-  price: 633000
+  price: 678000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4861,7 +4861,7 @@
   series: null
   model: ФАС-32-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-32-3/ВТ ТУРБО</span> (32 кВт)
-  price: 633000
+  price: 678000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -5098,7 +5098,7 @@
   series: null
   model: ФАС-35-3/ЗР
   title: Газовый генератор <span class='text-red'>ФАС-35-3/ЗР</span> (35 кВт)
-  price: 960000
+  price: 1028000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -5196,7 +5196,7 @@
   series: null
   model: ФАС-40-3/ЗР
   title: Газовый генератор <span class='text-red'>ФАС-40-3/ЗР</span> (40 кВт)
-  price: 960000
+  price: 1028000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
