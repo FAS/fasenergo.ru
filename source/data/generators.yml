@@ -1417,7 +1417,7 @@
   series: null
   model: ФАС-10-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-1/ВП</span> (10 кВт)
-  price: 462000
+  price: 460000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1534,7 +1534,7 @@
   series: null
   model: ФАС-10-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-3/ВП</span> (10 кВт)
-  price: 462000
+  price: 460000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1651,7 +1651,7 @@
   series: null
   model: ФАС-13-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-1/ВП</span> (13 кВт)
-  price: 472000
+  price: 470000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1768,7 +1768,7 @@
   series: null
   model: ФАС-13-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВП</span> (13 кВт)
-  price: 472000
+  price: 470000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1885,7 +1885,7 @@
   series: null
   model: ФАС-15-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-1/ВР</span> (15 кВт)
-  price: 573000
+  price: 570000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -1999,7 +1999,7 @@
   series: null
   model: ФАС-15-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-3/ВР</span> (15 кВт)
-  price: 577000
+  price: 580000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -2113,7 +2113,7 @@
   series: null
   model: ФАС-18-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-1/ВР</span> (18 кВт)
-  price: 573000
+  price: 570000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2227,7 +2227,7 @@
   series: null
   model: ФАС-18-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-3/ВР</span> (18 кВт)
-  price: 577000
+  price: 580000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2341,7 +2341,7 @@
   series: null
   model: ФАС-21-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВП</span> (21 кВт)
-  price: 587000
+  price: 590000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2577,7 +2577,7 @@
   series: null
   model: ФАС-21-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-3/ВР</span> (21 кВт)
-  price: 577000
+  price: 580000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2690,7 +2690,7 @@
   series: null
   model: ФАС-24-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВР</span> (24 кВт)
-  price: 646000
+  price: 629000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2804,7 +2804,7 @@
   series: null
   model: ФАС-28-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВП</span> (28 кВт)
-  price: 652000
+  price: 650000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2927,7 +2927,7 @@
   series: null
   model: ФАС-32-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-32-3/ВП</span> (32 кВт)
-  price: 652000
+  price: 650000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3044,10 +3044,10 @@
 
 
 
-фас-40-3-м-40-квт:
-  slug: фас-40-3-м-40-квт
+фас-40-3-мп-40-квт:
+  slug: фас-40-3-мп-40-квт
   meta:
-    title: Газовый генератор ФАС-40-3/М (40 кВт)
+    title: Газовый генератор ФАС-40-3/МП (40 кВт)
     description: Трехфазный газовый генератор ФАС компании «Фасэнергомаш» на базе двигателя ММЗ с жидкостным охлаждением, мощностью 40 кВт, изготавливается во всепогодном шумозащитном корпусе.
   type: Газовые генераторы
   article: 494003
@@ -3055,8 +3055,8 @@
     brand: Фасэнергомаш
     country: Россия
   series: null
-  model: ФАС-40-3/М
-  title: Газовый генератор <span class='text-red'>ФАС-40-3/М</span> (40 кВт)
+  model: ФАС-40-3/МП
+  title: Газовый генератор <span class='text-red'>ФАС-40-3/МП</span> (40 кВт)
   price: 1551000
   priceBeforeDiscount: null
   discount: null
@@ -3161,10 +3161,10 @@
 
 
 
-фас-50-3-м-50-квт:
-  slug: фас-50-3-м-50-квт
+фас-50-3-мп-50-квт:
+  slug: фас-50-3-мп-50-квт
   meta:
-    title: Газовый генератор ФАС-50-3/М (50 кВт)
+    title: Газовый генератор ФАС-50-3/МП (50 кВт)
     description: Трехфазный газовый генератор ФАС компании «Фасэнергомаш» на базе двигателя ММЗ с жидкостным охлаждением, мощностью 50 кВт, изготавливается во всепогодном шумозащитном корпусе.
   type: Газовые генераторы
   article: 495003
@@ -3172,8 +3172,8 @@
     brand: Фасэнергомаш
     country: Россия
   series: null
-  model: ФАС-50-3/М
-  title: Газовый генератор <span class='text-red'>ФАС-50-3/М</span> (50 кВт)
+  model: ФАС-50-3/МП
+  title: Газовый генератор <span class='text-red'>ФАС-50-3/МП</span> (50 кВт)
   price: 1562000
   priceBeforeDiscount: null
   discount: null
@@ -3835,7 +3835,7 @@
   series: null
   model: ФАС-50/70М
   title: Когенерационная установка <span class='text-red'>ФАС-50/70М</span>
-  price: 2596000
+  price: 2540000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4514,7 +4514,7 @@
   series: null
   model: ФАС-21-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-21-3/ВТ ТУРБО</span> (21 кВт)
-  price: 590000
+  price: 650000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4630,7 +4630,7 @@
   series: null
   model: ФАС-24-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВТ ТУРБО</span> (24 кВт)
-  price: 671000
+  price: 670000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4745,7 +4745,7 @@
   series: null
   model: ФАС-28-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВТ ТУРБО</span> (28 кВт)
-  price: 678000
+  price: 680000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4861,7 +4861,7 @@
   series: null
   model: ФАС-32-3/ВТ
   title: Газовый генератор <span class='text-red'>ФАС-32-3/ВТ ТУРБО</span> (32 кВт)
-  price: 678000
+  price: 680000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
