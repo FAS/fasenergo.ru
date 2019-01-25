@@ -165,7 +165,7 @@
   title: Испаритель ФАС 140 SE
   price: 6900
   specs:
-    performance: 120
+    performance: 140
     heatType: 'электрический'
     heatTransferType: 'непрямой'
     pressureType: null
