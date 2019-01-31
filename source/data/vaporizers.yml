@@ -233,7 +233,7 @@
   article: '20.0260'
   type: испаритель
   title: Испаритель ФАС 260 SE
-  price: 10750
+  price: 10500
   specs:
     performance: 260
     heatType: 'электрический'
@@ -247,7 +247,7 @@
   article: '20.0280'
   type: испаритель
   title: Испаритель ФАС 280 SE
-  price: 11550
+  price: 11000
   specs:
     performance: 280
     heatType: 'электрический'
@@ -261,7 +261,7 @@
   article: '20.0300'
   type: испаритель
   title: Испаритель ФАС 300 SE
-  price: 12350
+  price: 11200
   specs:
     performance: 300
     heatType: 'электрический'
@@ -275,7 +275,7 @@
   article: '20.0320'
   type: испаритель
   title: Испаритель ФАС 320 SE
-  price: 13150
+  price: 11500
   specs:
     performance: 320
     heatType: 'электрический'
