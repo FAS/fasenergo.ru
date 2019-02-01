@@ -4263,9 +4263,9 @@
   specs:
     power:
       ng:
-        max: 315
+        max: 300
       lpg:
-        max: 315
+        max: 300
     current:
       _legacy: 540
       ng: null
@@ -4293,7 +4293,7 @@
       lpg: 0,3 кг/ч * 1 кВт
     operatingSpeed: 1500
     cooling: null
-  engineId: ямз-8503-10
+  engineId: ямз-238
   enclosure:
     type: открытое
     material: null
