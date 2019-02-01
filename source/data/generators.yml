@@ -3371,106 +3371,6 @@
     weight: 1310
 
 
-фас-100-3-мс-100-квт:
-  slug: фас-100-3-мс-100-квт
-  meta:
-    title: Синхронизированная установка ФАС-100-3/МС (100 кВт)
-    description: Синхронизированные трёхфазные газовые генераторы ФАС от компании «Фасэнергомаш» на базе двигателя ММЗ с жидкостным охлаждением, мощностью 100 кВт, изготавливаются во всепогодном шумозащитном корпусе.
-  type: Газовые генераторы
-  article: null
-  manufacturer:
-    brand: Фасэнергомаш
-    country: Россия
-  series: null
-  model: ФАС-100-3/МС
-  title: Синхронизированная генераторная установка <span class='text-red'>ФАС-100-3/МС</span> (100 кВт)
-  price: 3450000
-  priceBeforeDiscount: null
-  discount: null
-  discountDate: null
-  availability: preorder
-  warranty:
-    delivery: 24
-    installation: 24
-    serviceLife: null
-  desc: |
-    <p>Синхронизированная газопоршневая установка ФАС-100-3/МC в составе 2-ух газовых генераторов ФАС-50-3/МП.</p>
-  features: null
-  photos:
-    - url: equipment/газовые-генераторы/фас-мс/синхронизированная-установка-фас-100-3-мс--front-left--closed.jpg
-      main: true
-    - url: equipment/газовые-генераторы/фас-50-3-м/газовый-генератор-фас-50-3-м--front--closed--1.jpg
-    - url: equipment/газовые-генераторы/фас-50-3-м/газовый-генератор-фас-50-3-м--back-left--closed--3.jpg
-    - url: equipment/газовые-генераторы/фас-50-3-м/газовый-генератор-фас-50-3-м--front--closed-electro--4.jpg      
-  videos: null
-  docs: null
-  tags:
-    - двигатель-ммз
-  equipment:
-    AST: true
-    list: >
-      <li>2*x Газопоршневая установка <a href='/продукция/газовые-генераторы/фас-50-3-мп-50-квт'>ФАС-50-3/МП</a></li>
-      <li>Щит распределения нагрузки</li>
-      <li>Контроллер для синхронизированной работы</li>
-    optionsIds:
-      - '7000683'
-      - '7000684'
-      - '7000685'
-      - '7000686'
-      - '7000687'
-      - '7000688'
-      - heat-module-1
-  specs:
-    power:
-      ng:
-        max: 100
-      lpg:
-        max: 100
-    current:
-      _legacy: 181.2
-      ng: null
-      lpg: null
-    voltage: 400
-    frequency: 50
-    phases: 3
-    phi: null
-    circuitBreaker: null
-    consumption:
-      ng:
-        idling: null
-        quarter: null
-        half: null
-        nominal: null
-        max: null
-      lpg:
-        idling: null
-        quarter: null
-        half: null
-        nominal: null
-        max: null
-    fuel:
-      ng: 0.32 м³/ч * 1 кВт
-      lpg: 0.28 кг/ч * 1 кВт
-    operatingSpeed: 1500
-    cooling: null
-  engineId: ммз-246-4
-  enclosure:
-    type: закрытое
-    material: null
-    coating: null
-    thermalInsulation: null
-    protection: null
-    ventilation: null
-    lock: null
-    removablePanels: null
-    noise: 65
-    size:
-      length: null
-      width: null
-      height: null
-    weight: null
-
-
 фас-100-3-яп-100-квт:
   slug: фас-100-3-яп-100-квт
   meta:
@@ -4015,6 +3915,7 @@
       width: 1420
       height: 1815
     weight: 3100
+
 
 когенерационная-установка-фас-50-70м:
   slug: когенерационная-установка-фас-50-70м
