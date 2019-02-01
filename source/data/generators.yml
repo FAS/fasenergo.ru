@@ -3041,20 +3041,22 @@
       height: 1149
     weight: 550
 
+
+
 фас-50-3-вс-50-квт:
   slug: фас-50-3-вс-50-квт
   meta:
     title: Синхронизированная установка ФАС-50-3/ВС (50 кВт)
     description: Синхронизированные трёхфазные газовые генераторы ФАС от компании «Фасэнергомаш» на базе двигателя ВАЗ с прямым приводом и жидкостным охлаждением, мощностью 50 кВт, изготавливаются во всепогодном шумозащитном корпусе.
   type: Газовые генераторы
-  article: 493203
+  article: 4928032
   manufacturer:
     brand: Фасэнергомаш
     country: Россия
   series: null
-  model: ФАС-50-3/ВС
-  title: Газовый генератор <span class='text-red'>ФАС-32-3/ВП</span> (50 кВт)
-  price: 652000
+  model: ФАС-50-3/ВC
+  title: Синхронизированная генераторная установка <span class='text-red'>ФАС-50-3/ВС</span> (50 кВт)
+  price: 1650000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3367,6 +3369,106 @@
       width: 1181
       height: 1531
     weight: 1310
+
+
+фас-100-3-мс-100-квт:
+  slug: фас-100-3-мс-100-квт
+  meta:
+    title: Синхронизированная установка ФАС-100-3/МС (100 кВт)
+    description: Синхронизированные трёхфазные газовые генераторы ФАС от компании «Фасэнергомаш» на базе двигателя ММЗ с жидкостным охлаждением, мощностью 100 кВт, изготавливаются во всепогодном шумозащитном корпусе.
+  type: Газовые генераторы
+  article: 4950032
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-100-3/МС
+  title: Синхронизированная генераторная установка <span class='text-red'>ФАС-100-3/МС</span> (100 кВт)
+  price: 3450000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Синхронизированная газопоршневая установка ФАС-100-3/МC в составе 2-ух газовых генераторов ФАС-50-3/МП.</p>
+  features: null
+  photos:
+    - url: equipment/газовые-генераторы/фас-мс/синхронизированная-установка-фас-100-3-мс--front-left--closed.jpg
+      main: true
+    - url: equipment/газовые-генераторы/фас-50-3-м/газовый-генератор-фас-50-3-м--front--closed--1.jpg
+    - url: equipment/газовые-генераторы/фас-50-3-м/газовый-генератор-фас-50-3-м--back-left--closed--3.jpg
+    - url: equipment/газовые-генераторы/фас-50-3-м/газовый-генератор-фас-50-3-м--front--closed-electro--4.jpg      
+  videos: null
+  docs: null
+  tags:
+    - двигатель-ммз
+  equipment:
+    AST: true
+    list: >
+      <li>2*x Газопоршневая установка <a href='/продукция/газовые-генераторы/фас-50-3-мп-50-квт'>ФАС-50-3/МП</a></li>
+      <li>Щит распределения нагрузки</li>
+      <li>Контроллер для синхронизированной работы</li>
+    optionsIds:
+      - '7000683'
+      - '7000684'
+      - '7000685'
+      - '7000686'
+      - '7000687'
+      - '7000688'
+      - heat-module-1
+  specs:
+    power:
+      ng:
+        max: 100
+      lpg:
+        max: 100
+    current:
+      _legacy: 181.2
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0.32 м³/ч * 1 кВт
+      lpg: 0.28 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ммз-246-4
+  enclosure:
+    type: закрытое
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 65
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
 
 
 фас-100-3-яп-100-квт:
@@ -3913,6 +4015,300 @@
       width: 1420
       height: 1815
     weight: 3100
+
+
+
+фас-200-3-яс-200-квт:
+  slug: фас-200-3-яс-200-квт
+  meta:
+    title: Синхронизированная установка ФАС-200-3/ЯС (200 кВт)
+    description: Синхронизированные трёхфазные газовые генераторы ФАС от компании «Фасэнергомаш» на базе двигателей ЯМЗ с жидкостным охлаждением, мощностью 200 кВт, смонтированы на стальных рамах.
+  type: Газовые генераторы
+  article: 49100032
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-200-3/ЯС
+  title: Синхронизированная генераторная установка <span class='text-red'>ФАС-200-3/ЯС</span> (200 кВт)
+  price: 5230000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Синхронизированная газопоршневая установка ФАС-200-3/ЯC в составе 2-ух газовых генераторов ФАС-100-3/ЯП.</p>
+  features: null
+  photos:
+    - url: equipment/газовые-генераторы/фас-яс/синхронизированная-установка-фас-яс--front-left--closed.jpg
+      main: true
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--1--front.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--2--front-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--3--back-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--4--back.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--5--back-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/газовый-генератор-фас-100-3-яп--150-3-яп--7--back-right--scheme.jpg     
+  videos: null
+  docs: null
+  tags:
+    - двигатель-ямз
+  equipment:
+    AST: null
+    list: >
+      <li>2*x Газопоршневая установка <a href='/продукция/газовые-генераторы/фас-100-3-яп-100-квт'>ФАС-100-3/ЯП</a></li>
+      <li>Щит распределения нагрузки</li>
+      <li>Контроллер для синхронизированной работы</li>
+    optionsIds:
+      - heat-module-2
+  specs:
+    power:
+      ng:
+        max: 200
+      lpg:
+        max: 200
+    current:
+      _legacy: 360
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ямз-238
+  enclosure:
+    type: открытое
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
+
+
+фас-250-3-яс-250-квт:
+  slug: фас-250-3-яс-250-квт
+  meta:
+    title: Синхронизированная установка ФАС-250-3/ЯС (250 кВт)
+    description: Синхронизированные трёхфазные газовые генераторы ФАС от компании «Фасэнергомаш» на базе двигателей ЯМЗ с жидкостным охлаждением, мощностью 250 кВт, смонтированы на стальных рамах.
+  type: Газовые генераторы
+  article: 49125032
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-250-3/ЯС
+  title: Синхронизированная генераторная установка <span class='text-red'>ФАС-250-3/ЯС</span> (250 кВт)
+  price: 5240000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Синхронизированная газопоршневая установка ФАС-250-3/ЯC в составе 2-ух газовых генераторов ФАС-125-3/ЯП.</p>
+  features: null
+  photos:
+    - url: equipment/газовые-генераторы/фас-яс/синхронизированная-установка-фас-яс--front-left--closed.jpg
+      main: true
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--1--front.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--2--front-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--3--back-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--4--back.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--5--back-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/газовый-генератор-фас-100-3-яп--150-3-яп--7--back-right--scheme.jpg          
+  videos: null
+  docs: null
+  tags:
+    - двигатель-ямз
+  equipment:
+    AST: null
+    list: >
+      <li>2*x Газопоршневая установка ФАС-125-3/ЯП</li>
+      <li>Щит распределения нагрузки</li>
+      <li>Контроллер для синхронизированной работы</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 300
+      lpg:
+        max: 300
+    current:
+      _legacy: null
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ямз-238
+  enclosure:
+    type: открытое
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
+
+
+фас-300-3-яс-300-квт:
+  slug: фас-300-3-яс-300-квт
+  meta:
+    title: Синхронизированная установка ФАС-300-3/ЯС (300 кВт)
+    description: Синхронизированные трёхфазные газовые генераторы ФАС от компании «Фасэнергомаш» на базе двигателей ЯМЗ с жидкостным охлаждением, мощностью 300 кВт, смонтированы на стальных рамах.
+  type: Газовые генераторы
+  article: 49150032
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-300-3/ЯС
+  title: Синхронизированная генераторная установка <span class='text-red'>ФАС-300-3/ЯС</span> (300 кВт)
+  price: 5390000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Синхронизированная газопоршневая установка ФАС-300-3/ЯC в составе 2-ух газовых генераторов ФАС-150-3/ЯП.</p>
+  features: null
+  photos:
+    - url: equipment/газовые-генераторы/фас-яс/синхронизированная-установка-фас-яс--front-left--closed.jpg
+      main: true
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--1--front.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--2--front-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--3--back-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--4--back.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--5--back-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/газовый-генератор-фас-100-3-яп--150-3-яп--7--back-right--scheme.jpg      
+  videos: null
+  docs: null
+  tags:
+    - двигатель-ямз
+  equipment:
+    AST: null
+    list: >
+      <li>2*x Газопоршневая установка <a href='/продукция/газовые-генераторы/фас-150-3-яп-150-квт'>ФАС-150-3/ЯП</a></li>
+      <li>Щит распределения нагрузки</li>
+      <li>Контроллер для синхронизированной работы</li>
+    optionsIds:
+      - heat-module-2
+  specs:
+    power:
+      ng:
+        max: 315
+      lpg:
+        max: 315
+    current:
+      _legacy: 540
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ямз-8503-10
+  enclosure:
+    type: открытое
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
 
 
 когенерационная-установка-фас-50-70м:
