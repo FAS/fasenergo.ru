@@ -3134,10 +3134,10 @@
     removablePanels: null
     noise: 70
     size:
-      length: null
-      width: null
-      height: null
-    weight: null
+      length: 1699
+      width: 933
+      height: 1149
+    weight: 550
 
 
 фас-40-3-мп-40-квт:
@@ -3465,10 +3465,10 @@
     removablePanels: null
     noise: 65
     size:
-      length: null
-      width: null
-      height: null
-    weight: null
+      length: 2507
+      width: 1181
+      height: 1531
+    weight: 1310
 
 
 фас-100-3-яп-100-квт:
@@ -4110,10 +4110,10 @@
     removablePanels: null
     noise: 90
     size:
-      length: null
-      width: null
-      height: null
-    weight: null
+      length: 2900
+      width: 1420
+      height: 1650
+    weight: 2500
 
 
 фас-250-3-яс-250-квт:
@@ -4207,10 +4207,10 @@
     removablePanels: null
     noise: 90
     size:
-      length: null
-      width: null
-      height: null
-    weight: null
+      length: 2900
+      width: 1420
+      height: 1650
+    weight: 2500
 
 
 фас-300-3-яс-300-квт:
@@ -4305,10 +4305,10 @@
     removablePanels: null
     noise: 90
     size:
-      length: null
-      width: null
-      height: null
-    weight: null
+      length: 2900
+      width: 1420
+      height: 1650
+    weight: 2500
 
 
 когенерационная-установка-фас-50-70м:
