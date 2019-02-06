@@ -69,7 +69,7 @@ description: Электронная топливораздаточная кол�
 <p>C аттестатом 2.1 EN 10 204.</p>
 
 <div class='h-align--center h-margin-top++'>
-  <p class='h-h2 text-green h-text--nowrap'>19 570 €</p>
+  <p class='h-h2 text-green h-text--nowrap'>21 500 €</p>
   <p class='h-margin-bottom+'>Срок поставки: 6-10 недель</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 </div>
