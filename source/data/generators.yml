@@ -3330,7 +3330,9 @@
       <li>Комплект эксплуатационной документации</li>
       <li>Гарантийный талон</li>
     optionsIds:
+      - '7000890'
       - heat-module-2
+      - container-ymz-100-150      
   specs:
     power:
       ng:
@@ -3438,7 +3440,10 @@
       <li>Комплект эксплуатационной документации</li>
       <li>Гарантийный талон</li>
     optionsIds:
+      - '7000890'
+      - '7000891'      
       - heat-module-2
+      - container-ymz-100-150
   specs:
     power:
       ng:
@@ -3770,6 +3775,7 @@
       <li>Гарантийный талон</li>
     optionsIds:
       - heat-module-4
+      - container-ymz-315   
   specs:
     power:
       ng:
