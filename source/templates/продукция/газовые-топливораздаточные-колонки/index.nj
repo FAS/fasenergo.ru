@@ -303,6 +303,7 @@ description: Газовые топливораздаточные колонки 
   {% call CategoryCard(
     title = 'FAS-120 E №936933 (эконом) <span class="h-block h-padding-top-- h-text-">Однопистолетная, с 4-х поршневым механическим счетчиком</span>',
     hLevel = 3,
+    image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-120-sk/card.jpg',    
     url = '/продукция/газовые-топливораздаточные-колонки/fas-120-e-936933',
     class = 'o-grid__item h-1/4',
     size = 'small'
