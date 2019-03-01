@@ -51,6 +51,7 @@
 
     {% call(depth) Item('/продукция/газовые-генераторы') %}{% endcall %}
     {% call(depth) Item('/продукция/испарительное-оборудование', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/испарительное-оборудование-для-аммиака', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/испарительно-смесительное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/насосно-компрессорное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/автономные-системы-газоснабжения', depth = depth) %}{% endcall %}
