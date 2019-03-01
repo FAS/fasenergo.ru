@@ -56,15 +56,6 @@ description: Испарительные установки для аммиака
 </ul>
 
 {% set pageEqEl = [
-  {  artitle: '20.1010', title: 'Испарительная установка ФАС 10 AE/SH', performance: '10 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1012', title: 'Испарительная установка ФАС 12.5 AE/SH', performance: '12,5 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1015', title: 'Испарительная установка ФАС 15 AE/SH', performance: '15 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1017', title: 'Испарительная установка ФАС 17.5 AE/SH', performance: '17,5 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1020', title: 'Испарительная установка ФАС 20 AE/SH', performance: '20 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1025', title: 'Испарительная установка ФАС 25 AE/SH', performance: '25 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1030', title: 'Испарительная установка ФАС 30 AE/SH', performance: '30 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1035', title: 'Испарительная установка ФАС 35 AE/SH', performance: '35 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1040', title: 'Испарительная установка ФАС 40 AE/SH', performance: '40 кг/ч', price: 'По запросу' },
   {  artitle: '20.1050', title: 'Испарительная установка ФАС 50 AE/SH', performance: '50 кг/ч', price: 'По запросу' },
   {  artitle: '20.1060', title: 'Испарительная установка ФАС 60 AE/SH', performance: '60 кг/ч', price: 'По запросу' },
   {  artitle: '20.1070', title: 'Испарительная установка ФАС 70 AE/SH', performance: '70 кг/ч', price: 'По запросу' },
