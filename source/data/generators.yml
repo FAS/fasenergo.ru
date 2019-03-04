@@ -4172,9 +4172,9 @@
   specs:
     power:
       ng:
-        max: 300
+        max: 250
       lpg:
-        max: 300
+        max: 250
     current:
       _legacy: null
       ng: null
