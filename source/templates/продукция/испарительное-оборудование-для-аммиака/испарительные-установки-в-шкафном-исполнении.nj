@@ -113,14 +113,14 @@ description: Испарительные установки для аммиака
 {% set pageEqEl = [
   {  artitle: '20.2100', title: 'Испарительная установка ФАС 100 AZH/SH', performance: '100 кг/ч', price: 'По запросу' },
   {  artitle: '20.2150', title: 'Испарительная установка ФАС 150 AZH/SH', performance: '150 кг/ч', price: 'По запросу' },
-  {  artitle: '20.2200', title: 'Испарительная установка ФАС 200 AZH/S', performance: '200 кг/ч', price: 'По запросу' },
-  {  artitle: '20.2300', title: 'Испарительная установка ФАС 300 AZH/S', performance: '300 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.2400', title: 'Испарительная установка ФАС 400 AZH/S', performance: '400 кг/ч', price: 'По запросу' },
-  {  artitle: '20.2600', title: 'Испарительная установка ФАС 600 AZH/S', performance: '600 кг/ч', price: 'По запросу' },
-  {  artitle: '20.2950', title: 'Испарительная установка ФАС 950 AZH/S', performance: '950 кг/ч', price: 'По запросу' },
-  {  artitle: '20.21250', title: 'Испарительная установка ФАС 1250 AZH/S', performance: '1250 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.21500', title: 'Испарительная установка ФАС 1500 AZH/S', performance: '1500 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.21900', title: 'Испарительная установка ФАС 1900 AZH/S', performance: '1900 кг/ч', price: 'По запросу' }    
+  {  artitle: '20.2200', title: 'Испарительная установка ФАС 200 AZH/SH', performance: '200 кг/ч', price: 'По запросу' },
+  {  artitle: '20.2300', title: 'Испарительная установка ФАС 300 AZH/SH', performance: '300 кг/ч', price: 'По запросу' }, 
+  {  artitle: '20.2400', title: 'Испарительная установка ФАС 400 AZH/SH', performance: '400 кг/ч', price: 'По запросу' },
+  {  artitle: '20.2600', title: 'Испарительная установка ФАС 600 AZH/SH', performance: '600 кг/ч', price: 'По запросу' },
+  {  artitle: '20.2950', title: 'Испарительная установка ФАС 950 AZH/SH', performance: '950 кг/ч', price: 'По запросу' },
+  {  artitle: '20.21250', title: 'Испарительная установка ФАС 1250 AZH/SH', performance: '1250 кг/ч', price: 'По запросу' }, 
+  {  artitle: '20.21500', title: 'Испарительная установка ФАС 1500 AZH/SH', performance: '1500 кг/ч', price: 'По запросу' }, 
+  {  artitle: '20.21900', title: 'Испарительная установка ФАС 1900 AZH/SH', performance: '1900 кг/ч', price: 'По запросу' }    
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
