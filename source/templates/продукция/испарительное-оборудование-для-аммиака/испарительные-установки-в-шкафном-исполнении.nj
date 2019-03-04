@@ -18,8 +18,6 @@ description: Испарительные установки для аммиака
 {% set liquid = filterWithLiquidHeating(vaporizers) %}
 
 {% set pageEqElPhotos = [
-  { url: 'equipment/испарительное-оборудование/SE-SH-X1/испарительная-установка-фас-20-40-se-sh-x1--1--front.jpg' },
-  { url: 'equipment/испарительное-оборудование/SE-SH-X1/испарительная-установка-фас-20-40-se-sh-x1--1--front--scheme.jpg' },
   { url: 'equipment/испарительное-оборудование/SE-SH-X1/Испарительная-установка-ФАС-SE-SH-X1--1--front.jpg' },
   { url: 'equipment/испарительное-оборудование/SE-SH-X1/испарительная-установка-фас-se-sh-x1--4--front--scheme.jpg' },  
   { url: 'equipment/испарительное-оборудование/SE-SH-X1/испарительная-установка-фас-se-sh-x1--2--left-n.jpg' },
