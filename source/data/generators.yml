@@ -1593,7 +1593,7 @@
       lpg:
         max: 10
     current:
-      _legacy: 43.5
+      _legacy: 18.1
       ng: null
       lpg: null
     voltage: 400
