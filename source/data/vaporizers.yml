@@ -880,21 +880,6 @@
     selfHeating: false
   enclosure:
     type: шкаф
-# @todo This station is not preset in price
-<!--'no-id-1500-zh-H':
-  id: 'no-id-1500-zh-H'
-  article: '20.21500'
-  type: испарительная установка
-  title: Испарительная установка ФАС 1500 ZH/H
-  price: null
-  specs:
-    performance: 1500
-    heatType: жидкостный
-    heatTransferType: непрямой
-    pressureType: null
-    selfHeating: false
-  enclosure:
-    type: шкаф -->
 '20.21900':
   id: '20.21900'
   article: 'ФАС№ 20.21900/ZH/H'
