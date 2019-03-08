@@ -964,14 +964,14 @@
 # @todo Here in original site were more models, with different performance
 #       and different pressure types (basic, med and low)
 
-'20.30100':
-  id: '20.30100'
+'20.301001':
+  id: '20.301001'
   article: 'ФАС№ 20.30100/ZH/C'
   type: испарительная установка
   title: Испарительная установка ФАС 100 ZH/C
   price: null
   specs:
-    performance: 150
+    performance: 100
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
