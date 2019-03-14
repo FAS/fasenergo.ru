@@ -955,6 +955,34 @@
     selfHeating: false
   enclosure:
     type: кольцевое
+'20.30150':
+  id: '20.30150'
+  article: 'ФАС№ 20.30150/SE/C'
+  type: испарительная установка
+  title: Испарительная установка ФАС 150 SE/C
+  price: null
+  specs:
+    performance: 150
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: кольцевое
+'20.30200':
+  id: '20.30200'
+  article: 'ФАС№ 20.30200/SE/C'
+  type: испарительная установка
+  title: Испарительная установка ФАС 200 SE/C
+  price: null
+  specs:
+    performance: 200
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: кольцевое        
 
 # @todo Here in original site were more models, with different performance
 #       and different pressure types (basic, med and low)
@@ -978,8 +1006,8 @@
     selfHeating: false
   enclosure:
     type: кольцевое
-'20.30200':
-  id: '20.30200'
+'20.302001':
+  id: '20.302001'
   article: 'ФАС№ 20.30200/ZH/C'
   type: испарительная установка
   title: Испарительная установка ФАС 200 ZH/C
