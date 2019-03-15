@@ -60,6 +60,7 @@ viewport: 'width=device-width, initial-scale=1.0'
 {% block body %}
 <div id="wrapper">
 
+<h1 style="font-size: 0 !important;">{{ title }}</h1>
   <header id="header">
           <div class="menu btn11 abs on_mobile">
             <div class="icon-left"></div>
@@ -512,19 +513,19 @@ viewport: 'width=device-width, initial-scale=1.0'
         <div class="row rL hid">
           <div class="item fleft rL box w33-3">
             <div>
-              <img src="/{{ PATH.images }}/landings/loncin-promo/why_us/1.png" alt="" class="rL db m0a">
+              <img src="/{{ PATH.images }}/landings/loncin-promo/why_us/1.png" alt="Компактность" class="rL db m0a">
               <p>компактность</p>
             </div>
           </div><!--end item-->
           <div class="item fleft rL box w33-3">
             <div>
-              <img src="/{{ PATH.images }}/landings/loncin-promo/why_us/2.png" alt="" class="rL db m0a">
+              <img src="/{{ PATH.images }}/landings/loncin-promo/why_us/2.png" alt="Малая материалоемкость" class="rL db m0a">
               <p>малая материалоемкость оборудования</p>
             </div>
           </div><!--end item-->
           <div class="item fleft rL box w33-3">
             <div>
-              <img src="/{{ PATH.images }}/landings/loncin-promo/why_us/3.png" alt="" class="rL db m0a">
+              <img src="/{{ PATH.images }}/landings/loncin-promo/why_us/3.png" alt="Низкая стоимость" class="rL db m0a">
               <p>низкая стоимость</p>
             </div>
           </div><!--end item-->
@@ -544,7 +545,7 @@ viewport: 'width=device-width, initial-scale=1.0'
         <div class="cont_items">
           <div class="item rL hid">
             <div class="image_block fleft rL">
-              <img src="/{{ PATH.images }}/landings/loncin-promo/contacts/1.png" alt="">
+              <img src="/{{ PATH.images }}/landings/loncin-promo/contacts/1.png" alt="Доставка">
             </div>
             <div class="text_block rL hid">
               <em>Доставка</em>
@@ -553,7 +554,7 @@ viewport: 'width=device-width, initial-scale=1.0'
           </div><!--end item-->
           <div class="item rL hid">
             <div class="image_block fleft rL">
-              <img src="/{{ PATH.images }}/landings/loncin-promo/contacts/2.png" alt="">
+              <img src="/{{ PATH.images }}/landings/loncin-promo/contacts/2.png" alt="Кредит">
             </div>
             <div class="text_block rL hid">
               <em>кредит</em>
@@ -562,7 +563,7 @@ viewport: 'width=device-width, initial-scale=1.0'
           </div><!--end item-->
           <div class="item rL hid">
             <div class="image_block fleft rL">
-              <img src="/{{ PATH.images }}/landings/loncin-promo/contacts/3.png" alt="">
+              <img src="/{{ PATH.images }}/landings/loncin-promo/contacts/3.png" alt="Обслуживание и ремонт">
             </div>
             <div class="text_block rL hid">
               <em>Обслуживание и ремонт</em>
@@ -571,7 +572,7 @@ viewport: 'width=device-width, initial-scale=1.0'
           </div><!--end item-->
           <div class="item rL hid">
             <div class="image_block fleft rL">
-              <img src="/{{ PATH.images }}/landings/loncin-promo/contacts/4.png" alt="">
+              <img src="/{{ PATH.images }}/landings/loncin-promo/contacts/4.png" alt="Установка и запуск">
             </div>
             <div class="text_block rL hid">
               <em>Установка и запуск</em>
