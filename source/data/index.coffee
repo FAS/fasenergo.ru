@@ -55,9 +55,11 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
     SOCIAL:
       vk:
         url: 'https://vk.com/fasenergo'
+        title: 'VK'
       facebook:
         image: "/#{imagesPath}/facebook.png"
         url: 'https://www.facebook.com/fasenergo'
+        title: 'Facebook'
       twitter:
         handle: '@fasenergo'
         image: "/#{imagesPath}/twitter.png"
