@@ -20,7 +20,7 @@
     <li class='{{ itemClass }} {{ 'Icon--right h-inline-block' if asIcons }}'>
       <a href='{{ url }}'
         class='{{ anchorClass }} h-border-bottom0'
-        aria-label='{{ name }}'
+        title='{{ name }}'
         target='_blank'>
         {% if asIcon %}
         <span aria-hidden='true'>{{ Icon(iconName, class = iconClass) }}</span>
