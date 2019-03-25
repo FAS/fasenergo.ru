@@ -1,0 +1,92 @@
+---
+title:           Электрические испарители для хлора
+contentTitle:    Испарители для хлора
+navTitle:        Испарители для хлора
+breadcrumbTitle: Испарители для хлора
+
+description: Электрические испарители хлора от «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+<p>Электрические испарители российской компании Фасэнергомаш типа&nbsp;«CLE» – испарители для хлора («CL») непрямого электрического подогрева («E»). Число, следующее в наименовании за аббревиатурой серии, означает номер модели по каталогу ФАС.</p>
+
+<h2>Непрямой электрический подогрев</h2>
+
+<ul>
+  <li>Автоматический контроль производительности для систем автономного и резервного газоснабжения.</li>
+  <li>Все установки комплектно собраны и проверены давлением.</li>
+</ul>
+
+{# @todo Missing Испарители 14-224 CLE renders #}
+{% set pageEqElPhotos = [
+  { url: 'equipment/испарительное-оборудование/SE-10-40/Испаритель-ФАС-SE-10-40--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-10-40/Испаритель-ФАС-SE-10-40--2--front-left.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-10-40/Испаритель-ФАС-SE-10-40--3--front-right.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-10-40/испаритель-фас-se-10-40--4--front-right--scheme.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-40-300/Испаритель-ФАС-SE-40-300--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-40-300/Испаритель-ФАС-SE-40-300--2--front-left.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-40-300/Испаритель-ФАС-SE-40-300--3--left.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-40-300/Испаритель-ФАС-SE-40-300--4--right.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-40-300/Испаритель-ФАС-SE-40-300--5--front-right.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-40-300/Испаритель-ФАС-SE-40-300--6--front-top.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-40-300/испаритель-фас-se-40-300--7--front-left--scheme.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Испаритель ФАС 14-224 CLE') }}
+
+<p></p>
+
+{% set pageEqEl = [
+  {  artitle: 'ФАС№ 20.0014/CLE', title: 'Испаритель ФАС 14 CLE', performance: '14 кг/ч', price: '2 140 €' },
+  {  artitle: 'ФАС№ 20.0017/CLE', title: 'Испаритель ФАС 17.5 CLE', performance: '17,5 кг/ч', price: '2 160 €' },
+  {  artitle: 'ФАС№ 20.0021/CLE', title: 'Испаритель ФАС 21 CLE', performance: '21 кг/ч', price: '2 180 €' }, 
+  {  artitle: 'ФАС№ 20.0024/CLE', title: 'Испаритель ФАС 24.5 CLE', performance: '24,5 кг/ч', price: '2 200 €' },
+  {  artitle: 'ФАС№ 20.0028/CLE', title: 'Испаритель ФАС 28 CLE', performance: '28 кг/ч', price: '2 300 €' },
+  {  artitle: 'ФАС№ 20.0035/CLE', title: 'Испаритель ФАС 35 CLE', performance: '35 кг/ч', price: '6 300 €' },
+  {  artitle: 'ФАС№ 20.0042/CLE', title: 'Испаритель ФАС 42 CLE', performance: '42 кг/ч', price: '7 700 €' }, 
+  {  artitle: 'ФАС№ 20.0049/CLE', title: 'Испаритель ФАС 49 CLE', performance: '49 кг/ч', price: '8 800 €' },  
+  {  artitle: 'ФАС№ 20.0056/CLE', title: 'Испаритель ФАС 56 CLE', performance: '56 кг/ч', price: '9 800 €' }, 
+  {  artitle: 'ФАС№ 20.0070/CLE', title: 'Испаритель ФАС 70 CLE', performance: '70 кг/ч', price: '11 700 €' },   
+  {  artitle: 'ФАС№ 20.0084/CLE', title: 'Испаритель ФАС 84 CLE', performance: '84 кг/ч', price: '12 700 €' }, 
+  {  artitle: 'ФАС№ 20.0098/CLE', title: 'Испаритель ФАС 98 CLE', performance: '98 кг/ч', price: '13 800 €' }, 
+  {  artitle: 'ФАС№ 20.0112/CLE', title: 'Испаритель ФАС 112 CLE', performance: '112 кг/ч', price: '14 700 €' }, 
+  {  artitle: 'ФАС№ 20.0126/CLE', title: 'Испаритель ФАС 126 CLE', performance: '126 кг/ч', price: '16 500 €' }, 
+  {  artitle: 'ФАС№ 20.0140/CLE', title: 'Испаритель ФАС 140 CLE', performance: '140 кг/ч', price: '19 600 €' }, 
+  {  artitle: 'ФАС№ 20.0168/CLE', title: 'Испаритель ФАС 168 CLE', performance: '168 кг/ч', price: '20 600 €' },
+  {  artitle: 'ФАС№ 20.0182/CLE', title: 'Испаритель ФАС 182 CLE', performance: '182 кг/ч', price: '21 000 €' }, 
+  {  artitle: 'ФАС№ 20.0196/CLE', title: 'Испаритель ФАС 196 CLE', performance: '196 кг/ч', price: '22 000 €' }, 
+  {  artitle: 'ФАС№ 20.0210/CLE', title: 'Испаритель ФАС 210 CLE', performance: '210 кг/ч', price: '22 400 €' },    
+  {  artitle: 'ФАС№ 20.0224/CLE', title: 'Испаритель ФАС 224 CLE', performance: '224 кг/ч', price: '23 000 €' }     
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>Цена</th>      
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

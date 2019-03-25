@@ -1,0 +1,42 @@
+---
+title:           Купить испаритель для хлора, цена от производителя
+contentTitle:    Испарительное оборудование для хлора
+navTitle:        Испарительное оборудование для хлора
+breadcrumbTitle: Испарительное оборудование для хлора
+
+description: Испарительные установки для хлора. Цена от производителя, доставка по России и СНГ.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+{% call CategoryCard(
+  title = 'Испарители',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/испарительное-оборудование/испарители.jpg',
+  url = '/продукция/испарительное-оборудование-для-хлора/испарители'
+) %}{% endcall %}
+
+<h2>Испарительные установки</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'В шкафном исполнении',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/испарительное-оборудование/испарительные-установки-в-шкафном-исполнении.jpg',
+    url = '/продукция/испарительное-оборудование-для-хлора/испарительные-установки-в-шкафном-исполнении',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'На раме',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/испарительное-оборудование/испарительные-установки-на-раме.jpg',
+    url = '/продукция/испарительное-оборудование-для-хлора/испарительные-установки-на-раме',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+{% endblock %}
