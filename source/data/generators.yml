@@ -3055,7 +3055,7 @@
   series: null
   model: ФАС-50-3/ВC
   title: Синхронизированная генераторная установка <span class='text-red'>ФАС-50-3/ВС</span> (50 кВт)
-  price: 1650000
+  price: 1452000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3383,7 +3383,7 @@
   series: null
   model: ФАС-100-3/МС
   title: Синхронизированная генераторная установка <span class='text-red'>ФАС-100-3/МС</span> (100 кВт)
-  price: 3450000
+  price: 3025000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4036,7 +4036,7 @@
   series: null
   model: ФАС-200-3/ЯС
   title: Синхронизированная генераторная установка <span class='text-red'>ФАС-200-3/ЯС</span> (200 кВт)
-  price: 5230000
+  price: 5720000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4136,7 +4136,7 @@
   series: null
   model: ФАС-250-3/ЯС
   title: Синхронизированная генераторная установка <span class='text-red'>ФАС-250-3/ЯС</span> (250 кВт)
-  price: 5240000
+  price: 5720000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4233,7 +4233,7 @@
   series: null
   model: ФАС-300-3/ЯС
   title: Синхронизированная генераторная установка <span class='text-red'>ФАС-300-3/ЯС</span> (300 кВт)
-  price: 5390000
+  price: 5720000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4334,7 +4334,7 @@
   series: null
   model: ФАС-50/70М
   title: Когенерационная установка <span class='text-red'>ФАС-50/70М</span>
-  price: 2540000
+  price: 2596000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
