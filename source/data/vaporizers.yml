@@ -946,7 +946,7 @@
   article: 'ФАС№ 20.30100/SE/C'
   type: испарительная установка
   title: Испарительная установка ФАС 100 SE/C
-  price: null
+  price: 11000
   specs:
     performance: 100
     heatType: электрический
@@ -960,7 +960,7 @@
   article: 'ФАС№ 20.30150/SE/C'
   type: испарительная установка
   title: Испарительная установка ФАС 150 SE/C
-  price: null
+  price: 13000
   specs:
     performance: 150
     heatType: электрический
@@ -974,7 +974,7 @@
   article: 'ФАС№ 20.30200/SE/C'
   type: испарительная установка
   title: Испарительная установка ФАС 200 SE/C
-  price: null
+  price: 15000
   specs:
     performance: 200
     heatType: электрический
