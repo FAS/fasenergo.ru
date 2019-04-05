@@ -35,19 +35,19 @@ description: Догреватели паровой фазы сжиженного
 <p></p>
 
 {% set pageEqEl = [
-  {  artitle: 'ФАС№ 20.0060/DE', title: 'Испаритель ФАС 60 DE', performance: '60 кг/ч', price: '963 €' },
-  {  artitle: 'ФАС№ 20.0070/DE', title: 'Испаритель ФАС 70 DE', performance: '70 кг/ч', price: '1 100 €' },
-  {  artitle: 'ФАС№ 20.0080/DE', title: 'Испаритель ФАС 80 DE', performance: '80 кг/ч', price: '1 225 €' }, 
-  {  artitle: 'ФАС№ 20.0100/DE', title: 'Испаритель ФАС 100 DE', performance: '100 кг/ч', price: '1 463 €' }, 
-  {  artitle: 'ФАС№ 20.0120/DE', title: 'Испаритель ФАС 120 DE', performance: '120 кг/ч', price: '1 588 €' }, 
-  {  artitle: 'ФАС№ 20.0140/DE', title: 'Испаритель ФАС 140 DE', performance: '140 кг/ч', price: '1 725 €' }, 
-  {  artitle: 'ФАС№ 20.0160/DE', title: 'Испаритель ФАС 160 DE', performance: '160 кг/ч', price: '1 838 €' },
-  {  artitle: 'ФАС№ 20.0180/DE', title: 'Испаритель ФАС 180 DE', performance: '180 кг/ч', price: '2 063 €' }, 
-  {  artitle: 'ФАС№ 20.0200/DE', title: 'Испаритель ФАС 200 DE', performance: '200 кг/ч', price: '2 450 €' }, 
-  {  artitle: 'ФАС№ 20.0240/DE', title: 'Испаритель ФАС 240 DE', performance: '240 кг/ч', price: '2 575 €' },    
-  {  artitle: 'ФАС№ 20.0260/DE', title: 'Испаритель ФАС 260 DE', performance: '260 кг/ч', price: '2 625 €' },
-  {  artitle: 'ФАС№ 20.0280/DE', title: 'Испаритель ФАС 280 DE', performance: '280 кг/ч', price: '2 750 €' },      
-  {  artitle: 'ФАС№ 20.0300/DE', title: 'Испаритель ФАС 300 DE', performance: '300 кг/ч', price: '2 800 €' }     
+  {  artitle: 'ФАС№ 20.0060/DE', title: 'Догреватель ФАС 60 DE', performance: '60 кг/ч', price: '963 €' },
+  {  artitle: 'ФАС№ 20.0070/DE', title: 'Догреватель ФАС 70 DE', performance: '70 кг/ч', price: '1 100 €' },
+  {  artitle: 'ФАС№ 20.0080/DE', title: 'Догреватель ФАС 80 DE', performance: '80 кг/ч', price: '1 225 €' }, 
+  {  artitle: 'ФАС№ 20.0100/DE', title: 'Догреватель ФАС 100 DE', performance: '100 кг/ч', price: '1 463 €' }, 
+  {  artitle: 'ФАС№ 20.0120/DE', title: 'Догреватель ФАС 120 DE', performance: '120 кг/ч', price: '1 588 €' }, 
+  {  artitle: 'ФАС№ 20.0140/DE', title: 'Догреватель ФАС 140 DE', performance: '140 кг/ч', price: '1 725 €' }, 
+  {  artitle: 'ФАС№ 20.0160/DE', title: 'Догреватель ФАС 160 DE', performance: '160 кг/ч', price: '1 838 €' },
+  {  artitle: 'ФАС№ 20.0180/DE', title: 'Догреватель ФАС 180 DE', performance: '180 кг/ч', price: '2 063 €' }, 
+  {  artitle: 'ФАС№ 20.0200/DE', title: 'Догреватель ФАС 200 DE', performance: '200 кг/ч', price: '2 450 €' }, 
+  {  artitle: 'ФАС№ 20.0240/DE', title: 'Догреватель ФАС 240 DE', performance: '240 кг/ч', price: '2 575 €' },    
+  {  artitle: 'ФАС№ 20.0260/DE', title: 'Догреватель ФАС 260 DE', performance: '260 кг/ч', price: '2 625 €' },
+  {  artitle: 'ФАС№ 20.0280/DE', title: 'Догреватель ФАС 280 DE', performance: '280 кг/ч', price: '2 750 €' },      
+  {  artitle: 'ФАС№ 20.0300/DE', title: 'Догреватель ФАС 300 DE', performance: '300 кг/ч', price: '2 800 €' }     
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
