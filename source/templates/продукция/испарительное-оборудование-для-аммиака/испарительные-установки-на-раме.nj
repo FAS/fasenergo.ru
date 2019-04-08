@@ -23,7 +23,7 @@ description: Испарительные установки для аммиака
   { url: 'equipment/испарительное-оборудование/SE-R/испарительная-установка-фас-se-r--4--front-right--scheme.jpg' }
 ] %}
 
-{{ PhotosPreview(pageEqElPhotos, 'Испарительная установка ФАС SE/R') }}
+{{ PhotosPreview(pageEqElPhotos, 'Испарительная установка ФАС AE/R') }}
 
 <h2>Непрямой электрический подогрев</h2>
 
@@ -33,9 +33,9 @@ description: Испарительные установки для аммиака
 </ul>
 
 {% set pageEqEl = [
-  { title: 'Испарительная установка&nbsp;ФАС 450&nbsp;AE/R', performance: '450 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 600&nbsp;AE/R', performance: '600 кг/ч' },
-  { title: 'Испарительная установка&nbsp;ФАС 700&nbsp;AE/R', performance: '700 кг/ч' }
+  { title: 'Испарительная установка&nbsp;ФАС 300&nbsp;AE/R', performance: '300 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФАС 400&nbsp;AE/R', performance: '400 кг/ч' },
+  { title: 'Испарительная установка&nbsp;ФАС 466&nbsp;AE/R', performance: '466 кг/ч' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>

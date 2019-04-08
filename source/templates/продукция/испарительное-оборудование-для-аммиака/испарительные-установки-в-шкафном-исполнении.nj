@@ -46,7 +46,7 @@ description: Испарительные установки для аммиака
 
 <h2>Непрямой электрический подогрев</h2>
 
-{{ PhotosPreview(pageEqElPhotos, 'Испарительная установка ФАС SE/SH', class = 'h-margin-bottom+') }}
+{{ PhotosPreview(pageEqElPhotos, 'Испарительная установка ФАС AE/H', class = 'h-margin-bottom+') }}
 
 <ul>
   <li>Автоматический контроль производительности для систем автономного и резервного газоснабжения.</li>
@@ -54,32 +54,29 @@ description: Испарительные установки для аммиака
 </ul>
 
 {% set pageEqEl = [
-  {  artitle: '20.1050', title: 'Испарительная установка ФАС 50 AE/SH', performance: '50 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1060', title: 'Испарительная установка ФАС 60 AE/SH', performance: '60 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1070', title: 'Испарительная установка ФАС 70 AE/SH', performance: '70 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1080', title: 'Испарительная установка ФАС 80 AE/SH', performance: '80 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1090', title: 'Испарительная установка ФАС 90 AE/SH', performance: '90 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1100', title: 'Испарительная установка ФАС 100 AE/SH', performance: '100 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1120', title: 'Испарительная установка ФАС 120 AE/SH', performance: '120 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1130', title: 'Испарительная установка ФАС 130 AE/SH', performance: '130 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1140', title: 'Испарительная установка ФАС 140 AE/SH', performance: '140 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1150', title: 'Испарительная установка ФАС 150 AE/SH', performance: '150 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1160', title: 'Испарительная установка ФАС 160 AE/SH', performance: '160 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1165', title: 'Испарительная установка ФАС 165 AE/SH', performance: '165 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1175', title: 'Испарительная установка ФАС 175 AE/SH', performance: '175 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1200', title: 'Испарительная установка ФАС 200 AE/SH', performance: '200 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1225', title: 'Испарительная установка ФАС 225 AE/SH', performance: '225 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1250', title: 'Испарительная установка ФАС 250 AE/SH', performance: '250 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1260', title: 'Испарительная установка ФАС 260 AE/SH', performance: '260 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1280', title: 'Испарительная установка ФАС 280 AE/SH', performance: '280 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1300', title: 'Испарительная установка ФАС 300 AE/SH', performance: '300 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1320', title: 'Испарительная установка ФАС 320 AE/SH', performance: '320 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1360', title: 'Испарительная установка ФАС 360 AE/SH', performance: '360 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1390', title: 'Испарительная установка ФАС 390 AE/SH', performance: '390 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1420', title: 'Испарительная установка ФАС 420 AE/SH', performance: '420 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1480', title: 'Испарительная установка ФАС 480 AE/SH', performance: '480 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1625', title: 'Испарительная установка ФАС 625 AE/SH', performance: '625 кг/ч', price: 'По запросу' },
-  {  artitle: '20.1725', title: 'Испарительная установка ФАС 725 AE/SH', performance: '725 кг/ч', price: 'По запросу' }
+  {  artitle: 'ФАС№ 20.1053/AE/H', title: 'Испарительная установка ФАС 53 AE/H', performance: '53 кг/ч', price: '11 760 €' },
+  {  artitle: 'ФАС№ 20.1060/AE/H', title: 'Испарительная установка ФАС 60 AE/H', performance: '60 кг/ч', price: '12 960 €' },
+  {  artitle: 'ФАС№ 20.1066/AE/H', title: 'Испарительная установка ФАС 66 AE/H', performance: '66 кг/ч', price: '13 200 €' },
+  {  artitle: 'ФАС№ 20.1080/AE/H', title: 'Испарительная установка ФАС 80 AE/H', performance: '80 кг/ч', price: '13 320 €' },
+  {  artitle: 'ФАС№ 20.1086/AE/H', title: 'Испарительная установка ФАС 86 AE/H', performance: '86 кг/ч', price: '13 620 €' },
+  {  artitle: 'ФАС№ 20.1093/AE/H', title: 'Испарительная установка ФАС 93 AE/H', performance: '93 кг/ч', price: '14 220 €' },
+  {  artitle: 'ФАС№ 20.1100/AE/H', title: 'Испарительная установка ФАС 100 AE/H', performance: '100 кг/ч', price: '14 400 €' },
+  {  artitle: 'ФАС№ 20.1106/AE/H', title: 'Испарительная установка ФАС 106 AE/H', performance: '106 кг/ч', price: '14 700 €' },
+  {  artitle: 'ФАС№ 20.1110/AE/H', title: 'Испарительная установка ФАС 110 AE/H', performance: '110 кг/ч', price: '15 480 €' },
+  {  artitle: 'ФАС№ 20.1116/AE/H', title: 'Испарительная установка ФАС 116 AE/H', performance: '116 кг/ч', price: '16 620 €' },
+  {  artitle: 'ФАС№ 20.1133/AE/H', title: 'Испарительная установка ФАС 133 AE/H', performance: '133 кг/ч', price: '19 620 €' },
+  {  artitle: 'ФАС№ 20.1150/AE/H', title: 'Испарительная установка ФАС 150 AE/H', performance: '150 кг/ч', price: '19 800 €' },
+  {  artitle: 'ФАС№ 20.1166/AE/H', title: 'Испарительная установка ФАС 166 AE/H', performance: '166 кг/ч', price: '20 040 €' },
+  {  artitle: 'ФАС№ 20.1173/AE/H', title: 'Испарительная установка ФАС 173 AE/H', performance: '173 кг/ч', price: '21 480 €' },
+  {  artitle: 'ФАС№ 20.1186/AE/H', title: 'Испарительная установка ФАС 186 AE/H', performance: '186 кг/ч', price: '25 080 €' },
+  {  artitle: 'ФАС№ 20.1200/AE/H', title: 'Испарительная установка ФАС 200 AE/H', performance: '200 кг/ч', price: '26 160 €' },
+  {  artitle: 'ФАС№ 20.1213/AE/H', title: 'Испарительная установка ФАС 213 AE/H', performance: '213 кг/ч', price: '26 580 €' },
+  {  artitle: 'ФАС№ 20.1240/AE/H', title: 'Испарительная установка ФАС 240 AE/H', performance: '240 кг/ч', price: '28 980 €' },
+  {  artitle: 'ФАС№ 20.1260/AE/H', title: 'Испарительная установка ФАС 260 AE/H', performance: '260 кг/ч', price: '41 460 €' },
+  {  artitle: 'ФАС№ 20.1280/AE/H', title: 'Испарительная установка ФАС 280 AE/H', performance: '280 кг/ч', price: '43 200 €' },
+  {  artitle: 'ФАС№ 20.1320/AE/H', title: 'Испарительная установка ФАС 320 AE/H', performance: '320 кг/ч', price: '44 400 €' },
+  {  artitle: 'ФАС№ 20.1416/AE/H', title: 'Испарительная установка ФАС 416 AE/H', performance: '416 кг/ч', price: '49 860 €' },
+  {  artitle: 'ФАС№ 20.1483/AE/H', title: 'Испарительная установка ФАС 483 AE/H', performance: '483 кг/ч', price: '55 440 €' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
@@ -108,19 +105,20 @@ description: Испарительные установки для аммиака
 
 <h2>Непрямой жидкостный подогрев</h2>
 
-{{ PhotosPreview(pageEqLiqPhotos, 'Испарительная установка ФАС ZH/SH', class = 'h-margin-bottom+') }}
+{{ PhotosPreview(pageEqLiqPhotos, 'Испарительная установка ФАС AZH/H', class = 'h-margin-bottom+') }}
 
 {% set pageEqEl = [
-  {  artitle: '20.2100', title: 'Испарительная установка ФАС 100 AZH/SH', performance: '100 кг/ч', price: 'По запросу' },
-  {  artitle: '20.2150', title: 'Испарительная установка ФАС 150 AZH/SH', performance: '150 кг/ч', price: 'По запросу' },
-  {  artitle: '20.2200', title: 'Испарительная установка ФАС 200 AZH/SH', performance: '200 кг/ч', price: 'По запросу' },
-  {  artitle: '20.2300', title: 'Испарительная установка ФАС 300 AZH/SH', performance: '300 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.2400', title: 'Испарительная установка ФАС 400 AZH/SH', performance: '400 кг/ч', price: 'По запросу' },
-  {  artitle: '20.2600', title: 'Испарительная установка ФАС 600 AZH/SH', performance: '600 кг/ч', price: 'По запросу' },
-  {  artitle: '20.2950', title: 'Испарительная установка ФАС 950 AZH/SH', performance: '950 кг/ч', price: 'По запросу' },
-  {  artitle: '20.21250', title: 'Испарительная установка ФАС 1250 AZH/SH', performance: '1250 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.21500', title: 'Испарительная установка ФАС 1500 AZH/SH', performance: '1500 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.21900', title: 'Испарительная установка ФАС 1900 AZH/SH', performance: '1900 кг/ч', price: 'По запросу' }    
+  {  artitle: 'ФАС№ 20.2066/AZH/H', title: 'Испарительная установка ФАС 66 AZH/H', performance: '66 кг/ч', price: '21 360 €' },
+  {  artitle: 'ФАС№ 20.2100/AZH/H', title: 'Испарительная установка ФАС 100 AZH/H', performance: '100 кг/ч', price: '22 200 €' },
+  {  artitle: 'ФАС№ 20.2133/AZH/H', title: 'Испарительная установка ФАС 133 AZH/H', performance: '133 кг/ч', price: '27 600 €' },
+  {  artitle: 'ФАС№ 20.2200/AZH/H', title: 'Испарительная установка ФАС 200 AZH/H', performance: '200 кг/ч', price: '31 200 €' }, 
+  {  artitle: 'ФАС№ 20.2266/AZH/H', title: 'Испарительная установка ФАС 266 AZH/H', performance: '266 кг/ч', price: '40 800 €' },
+  {  artitle: 'ФАС№ 20.2333/AZH/H', title: 'Испарительная установка ФАС 333 AZH/H', performance: '333 кг/ч', price: '46 800 €' },
+  {  artitle: 'ФАС№ 20.2400/AZH/H', title: 'Испарительная установка ФАС 400 AZH/H', performance: '400 кг/ч', price: '50 400 €' }, 
+  {  artitle: 'ФАС№ 20.2633/AZH/H', title: 'Испарительная установка ФАС 633 AZH/H', performance: '633 кг/ч', price: '54 000 €' }, 
+  {  artitle: 'ФАС№ 20.2833/AZH/H', title: 'Испарительная установка ФАС 833 AZH/H', performance: '833 кг/ч', price: '64 800 €' }, 
+  {  artitle: 'ФАС№ 20.21000/AZH/H', title: 'Испарительная установка ФАС 1000 AZH/H', performance: '1000 кг/ч', price: '69 600 €' }, 
+  {  artitle: 'ФАС№ 20.21266/AZH/H', title: 'Испарительная установка ФАС 1266 AZH/H', performance: '1266 кг/ч', price: '72 000 €' }    
 ] %}
 
 <table class='Table h-cells-padding-ends--'>

@@ -22,51 +22,6 @@ description: Электрические испарители аммиака от
   <li>Все установки комплектно собраны и проверены давлением.</li>
 </ul>
 
-{% set pageEqElPhotos = [
-  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--1--front.jpg' },
-  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--2--front-right.jpg' },
-  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--3--right.jpg' },
-  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--4--back-left.jpg' },
-  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--5--back.jpg' },
-  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--6--back-right.jpg' },
-  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--7--left.jpg' },
-  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--8--front-left.jpg' }
-] %}
-
-{{ PhotosPreview(pageEqElPhotos, 'Испаритель ФАС SE-A 13') }}
-
-<p></p>
-
-{% set pageEqEl = [
-  {  artitle: '20.002', title: 'Испаритель ФАС 2.5 AE-A', performance: '2,5 кг/ч' , price: 'По запросу' },
-  {  artitle: '20.005', title: 'Испаритель ФАС 5 AE-A', performance: '5 кг/ч' , price: 'По запросу' },
-  {  artitle: '20.006', title: 'Испаритель ФАС 6.5 AE-A', performance: '6,5 кг/ч' , price: 'По запросу' }  
-] %}
-
-<table class='Table h-cells-padding-ends--'>
-  <thead class='h-text- h-align--center'>
-    <tr>
-      <th>Артикул</th>
-      <th>Наименование</th>
-      <th>Производительность</th>
-      <th>Цена</th>      
-      <th>ТКП</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for e in pageEqEl %}
-    <tr>
-      <td>{{ e.artitle }}</td>
-      <td>{{ e.title }}</td>
-      <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--right'>{{ e.price }}</td>
-      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
 {# @todo Missing Испарители 40-300SE renders #}
 {% set pageEqElPhotos = [
   { url: 'equipment/испарительное-оборудование/SE-10-40/Испаритель-ФАС-SE-10-40--1--front.jpg' },
@@ -82,31 +37,19 @@ description: Электрические испарители аммиака от
   { url: 'equipment/испарительное-оборудование/SE-40-300/испаритель-фас-se-40-300--7--front-left--scheme.jpg' }
 ] %}
 
-{{ PhotosPreview(pageEqElPhotos, 'Испаритель ФАС SE 10-40') }}
+{{ PhotosPreview(pageEqElPhotos, 'Испаритель ФАС AE 53-106') }}
 
 <p></p>
 
-{% set pageEqEl = [
-  {  artitle: '20.0010', title: 'Испаритель ФАС 10 AE', performance: '10 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.0012', title: 'Испаритель ФАС 12.5 AE', performance: '12,5 кг/ч', price: 'По запросу' },
-  {  artitle: '20.0015', title: 'Испаритель ФАС 15 AE', performance: '15 кг/ч', price: 'По запросу' },
-  {  artitle: '20.0017', title: 'Испаритель ФАС 17.5 AE', performance: '17,5 кг/ч', price: 'По запросу' },
-  {  artitle: '20.0020', title: 'Испаритель ФАС 20 AE', performance: '20 кг/ч', price: 'По запросу' },
-  {  artitle: '20.0025', title: 'Испаритель ФАС 25 AE', performance: '25 кг/ч', price: 'По запросу' },  
-  {  artitle: '20.0030', title: 'Испаритель ФАС 30 AE', performance: '30 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.0035', title: 'Испаритель ФАС 35 AE', performance: '35 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.0040', title: 'Испаритель ФАС 40 AE', performance: '40 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.0050', title: 'Испаритель ФАС 50 AE', performance: '50 кг/ч', price: 'По запросу' },   
-  {  artitle: '20.0060', title: 'Испаритель ФАС 60 AE', performance: '60 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.0070', title: 'Испаритель ФАС 70 AE', performance: '70 кг/ч', price: 'По запросу' },   
-  {  artitle: '20.0080', title: 'Испаритель ФАС 80 AE', performance: '80 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.0090', title: 'Испаритель ФАС 90 AE', performance: '90 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.0100', title: 'Испаритель ФАС 100 AE', performance: '100 кг/ч', price: 'По запросу' },    
-  {  artitle: '20.0120', title: 'Испаритель ФАС 120 AE', performance: '120 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.0130', title: 'Испаритель ФАС 130 AE', performance: '130 кг/ч', price: 'По запросу' },
-  {  artitle: '20.0140', title: 'Испаритель ФАС 140 AE', performance: '140 кг/ч', price: 'По запросу' }, 
-  {  artitle: '20.0150', title: 'Испаритель ФАС 150 AE', performance: '150 кг/ч', price: 'По запросу' },   
-  {  artitle: '20.0160', title: 'Испаритель ФАС 160 AE', performance: '160 кг/ч', price: 'По запросу' }     
+{% set pageEqEl = [ 
+  {  artitle: 'ФАС№ 20.0053/AE', title: 'Испаритель ФАС 53 AE', performance: '53 кг/ч', price: '8 820 €' }, 
+  {  artitle: 'ФАС№ 20.0060/AE', title: 'Испаритель ФАС 60 AE', performance: '60 кг/ч', price: '9 900 €' }, 
+  {  artitle: 'ФАС№ 20.0066/AE', title: 'Испаритель ФАС 66 AE', performance: '66 кг/ч', price: '11 760 €' },    
+  {  artitle: 'ФАС№ 20.0080/AE', title: 'Испаритель ФАС 80 AE', performance: '80 кг/ч', price: '12 360 €' }, 
+  {  artitle: 'ФАС№ 20.0086/AE', title: 'Испаритель ФАС 86 AE', performance: '86 кг/ч', price: '12 600 €' },
+  {  artitle: 'ФАС№ 20.0093/AE', title: 'Испаритель ФАС 93 AE', performance: '93 кг/ч', price: '13 200 €' }, 
+  {  artitle: 'ФАС№ 20.0100/AE', title: 'Испаритель ФАС 100 AE', performance: '100 кг/ч', price: '13 440 €' },   
+  {  artitle: 'ФАС№ 20.0106/AE', title: 'Испаритель ФАС 106 AE', performance: '106 кг/ч', price: '13 800 €' }     
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
