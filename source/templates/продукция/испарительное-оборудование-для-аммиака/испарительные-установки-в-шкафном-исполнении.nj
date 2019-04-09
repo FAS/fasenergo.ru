@@ -108,17 +108,17 @@ description: Испарительные установки для аммиака
 {{ PhotosPreview(pageEqLiqPhotos, 'Испарительная установка ФАС AZH/H', class = 'h-margin-bottom+') }}
 
 {% set pageEqEl = [
-  {  artitle: 'ФАС№20.2066/AZH/H', title: 'Испарительная установка ФАС 66 AZH/H', performance: '66 кг/ч', price: '21 360 €' },
-  {  artitle: 'ФАС№20.2100/AZH/H', title: 'Испарительная установка ФАС 100 AZH/H', performance: '100 кг/ч', price: '22 200 €' },
-  {  artitle: 'ФАС№20.2133/AZH/H', title: 'Испарительная установка ФАС 133 AZH/H', performance: '133 кг/ч', price: '27 600 €' },
-  {  artitle: 'ФАС№20.2200/AZH/H', title: 'Испарительная установка ФАС 200 AZH/H', performance: '200 кг/ч', price: '31 200 €' }, 
-  {  artitle: 'ФАС№20.2266/AZH/H', title: 'Испарительная установка ФАС 266 AZH/H', performance: '266 кг/ч', price: '40 800 €' },
-  {  artitle: 'ФАС№20.2333/AZH/H', title: 'Испарительная установка ФАС 333 AZH/H', performance: '333 кг/ч', price: '46 800 €' },
-  {  artitle: 'ФАС№20.2400/AZH/H', title: 'Испарительная установка ФАС 400 AZH/H', performance: '400 кг/ч', price: '50 400 €' }, 
-  {  artitle: 'ФАС№20.2633/AZH/H', title: 'Испарительная установка ФАС 633 AZH/H', performance: '633 кг/ч', price: '54 000 €' }, 
-  {  artitle: 'ФАС№20.2833/AZH/H', title: 'Испарительная установка ФАС 833 AZH/H', performance: '833 кг/ч', price: '64 800 €' }, 
-  {  artitle: 'ФАС№20.21000/AZH/H', title: 'Испарительная установка ФАС 1000 AZH/H', performance: '1000 кг/ч', price: '69 600 €' }, 
-  {  artitle: 'ФАС№20.21266/AZH/H', title: 'Испарительная установка ФАС 1266 AZH/H', performance: '1266 кг/ч', price: '72 000 €' }    
+  {  artitle: 'ФАС№ 20.2066/AZH/H', title: 'Испарительная установка<br>ФАС 66 AZH/H', performance: '66 кг/ч', price: '21 360 €' },
+  {  artitle: 'ФАС№ 20.2100/AZH/H', title: 'Испарительная установка<br>ФАС 100 AZH/H', performance: '100 кг/ч', price: '22 200 €' },
+  {  artitle: 'ФАС№ 20.2133/AZH/H', title: 'Испарительная установка<br>ФАС 133 AZH/H', performance: '133 кг/ч', price: '27 600 €' },
+  {  artitle: 'ФАС№ 20.2200/AZH/H', title: 'Испарительная установка<br>ФАС 200 AZH/H', performance: '200 кг/ч', price: '31 200 €' }, 
+  {  artitle: 'ФАС№ 20.2266/AZH/H', title: 'Испарительная установка<br>ФАС 266 AZH/H', performance: '266 кг/ч', price: '40 800 €' },
+  {  artitle: 'ФАС№ 20.2333/AZH/H', title: 'Испарительная установка<br>ФАС 333 AZH/H', performance: '333 кг/ч', price: '46 800 €' },
+  {  artitle: 'ФАС№ 20.2400/AZH/H', title: 'Испарительная установка<br>ФАС 400 AZH/H', performance: '400 кг/ч', price: '50 400 €' }, 
+  {  artitle: 'ФАС№ 20.2633/AZH/H', title: 'Испарительная установка<br>ФАС 633 AZH/H', performance: '633 кг/ч', price: '54 000 €' }, 
+  {  artitle: 'ФАС№ 20.2833/AZH/H', title: 'Испарительная установка<br>ФАС 833 AZH/H', performance: '833 кг/ч', price: '64 800 €' }, 
+  {  artitle: 'ФАС№ 20.21000/AZH/H', title: 'Испарительная установка<br>ФАС 1000 AZH/H', performance: '1000 кг/ч', price: '69 600 €' }, 
+  {  artitle: 'ФАС№ 20.21266/AZH/H', title: 'Испарительная установка<br>ФАС 1266 AZH/H', performance: '1266 кг/ч', price: '72 000 €' }    
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
