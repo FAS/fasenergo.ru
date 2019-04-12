@@ -1,0 +1,42 @@
+---
+title:           Автономные системы газоснабжения на СПГ
+contentTitle:    Автономные системы газоснабжения на СПГ
+navTitle:        Автономные системы газоснабжения на СПГ
+breadcrumbTitle: Автономные системы газоснабжения на СПГ
+
+description: Автономные системы газоснабжения на СПГ от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+{# @todo It's unclear so far, are those should be products or no #}
+{# {% call CategoryCard(
+  title = 'Заводы по производству СПГ',
+  hLevel = 2,
+  url = '/продукция/автономные-системы-газоснабжения-на-спг/заводы-по-производству-спг'
+) %}{% endcall %}
+{% call CategoryCard(
+  title = 'Регазификационные комплексы',
+  hLevel = 2,
+  url = '/продукцияавтономные-системы-газоснабжения-на-спг/регазификационные-комлексы'
+) %}{% endcall %} #}
+
+{% call CategoryCard(
+  title = 'Криогенные резервуары для хранения СПГ',
+  hLevel = 2,
+  image = '/' + PATH.images + '/equipment/автономные-системы-газоснабжения-на-спг/криогенные-резервуары-для-хранения-спг/криогенные-резервуары-для-хранения-спг-2.jpg',
+  url = '/продукция/автономные-системы-газоснабжения-на-спг/криогенные-резервуары-для-хранения-спг'
+) %}{% endcall %}
+
+{% call CategoryCard(
+  title = 'Регазификационные установки СПГ',
+  hLevel = 2,
+  image = '/' + PATH.images + '/equipment/автономные-системы-газоснабжения-на-спг/регазификационные-установки-спг/регазификационные-установки-спг-2.jpg',
+  url = '/продукция/автономные-системы-газоснабжения-на-спг/регазификационные-установки-спг'
+) %}{% endcall %}
+
+{# @todo Original site http://test15.123y.ru/%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%B0%D0%B2%D1%82%D0%BE%D0%BD%D0%BE%D0%BC%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%B3%D0%B0%D0%B7%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-%D1%81%D0%B6%D0%B8%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC-%D0%B3%D0%B0%D0%B7%D0%B5-(%D1%81%D0%BF%D0%B3)/ had here some additional texts, add them #}
+{% endblock %}
