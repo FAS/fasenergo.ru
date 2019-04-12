@@ -57,6 +57,7 @@
     {% call(depth) Item('/продукция/испарительно-смесительное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/насосно-компрессорное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/автономные-системы-газоснабжения', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/автономные-системы-газоснабжения-на-спг', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/автогазозаправочные-станции', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/газовые-топливораздаточные-колонки', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/cистемы-утилизации-тепла', depth = depth) %}{% endcall %}
