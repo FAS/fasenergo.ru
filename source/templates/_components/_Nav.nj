@@ -132,6 +132,8 @@
 
   {% call(depth) Item('/программа-trade-in') %}{% endcall %}
 
+  {% call(depth) Item('/объявления') %}{% endcall %}
+  
   {% call(depth) Item('/контакты') %}{% endcall %}
   
   {# @todo Enable for production when this section will be ready #}

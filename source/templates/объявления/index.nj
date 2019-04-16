@@ -1,0 +1,30 @@
+---
+title:           Объявления
+contentTitle:    Объявления
+navTitle:        Объявления (new)
+breadcrumbTitle: Объявления
+
+description: В этом разделе ООО «Фасэнергомаш» продает новое и бывшее в употреблении оборудование.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p class='h-margin-bottom+'>В этом разделе ООО «Фасэнергомаш» продает новое и бывшее в употреблении оборудование.
+</p>
+
+<h2>Оборудование</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Испаритель Zimer Z40L<span class="h-block h-padding-top-- h-text-">Производительность до 40 кг/ч<br>Состояние - новый</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/bulletin-board/испаритель-zimer-40-кг-ч/испаритель-zimer-preview.jpg',
+    url = '/объявления/испаритель-zimer-40-кг-ч',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+{% endblock %}
