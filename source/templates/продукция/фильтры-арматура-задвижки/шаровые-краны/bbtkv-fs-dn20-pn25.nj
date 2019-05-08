@@ -1,0 +1,128 @@
+---
+title:           Кран шаровой межфланцевый Batu BBTKV-FS (DN20, PN25)
+contentTitle:    Кран шаровой межфланцевый Batu BBTKV-FS (DN20, PN25)
+navTitle:        Кран шаровой межфланцевый Batu BBTKV-FS (DN20, PN25)
+breadcrumbTitle: Кран шаровой межфланцевый Batu BBTKV-FS (DN20, PN25)
+
+description: Кран шаровой межфланцевый Batu BBTKV-FS (DN20, PN25) для СУГ, нефтепродуктов и других жидкостей от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Кран шаровой фланцевый Batu BBTKV-FS (DN20, PN25) предназначен для закрытия и открытия протока жидких материалов: сжиженный газ, темные и светлые нефтепродукты, масло и другие жидкости.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/шаровые-краны/batu-bbtkv-fs/краны-шаровые-фланцевые-batu-bbtkv-fs--1.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/шаровые-краны/batu-bbtkv-fs/краны-шаровые-фланцевые-batu-bbtkv-fs--схема.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Кран шаровой межфланцевый Batu') }}
+
+<p></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td rowspan="2">
+<p align="center"><span lang="ru-RU">Тип </span>BBTKV-FS</p>
+</td>
+<td colspan="10">
+<p align="center"><span lang="ru-RU">Габариты и </span>размеры соединений</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">L</p>
+</td>
+<td>
+<p lang="en-US" align="center">G</p>
+</td>
+<td>
+<p lang="en-US" align="center">H</p>
+</td>
+<td>
+<p lang="en-US" align="center">DN</p>
+</td>
+<td>
+<p align="center">f</p>
+</td>
+<td>
+<p align="center">D</p>
+</td>
+<td>
+<p align="center">k</p>
+</td>
+<td>
+<p align="center">Кол-во отв.</p>
+</td>
+<td>
+<p lang="en-US" align="center">M</p>
+</td>
+<td>
+<p align="center">F</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">DN 20</p>
+</td>
+<td>
+<p align="center">40</p>
+</td>
+<td>
+<p align="center">150</p>
+</td>
+<td>
+<p align="center">83</p>
+</td>
+<td>
+<p align="center">20</p>
+</td>
+<td>
+<p align="center">2</p>
+</td>
+<td>
+<p align="center">97</p>
+</td>
+<td>
+<p align="center">75</p>
+</td>
+<td>
+<p align="center">4</p>
+</td>
+<td>
+<p align="center">М 12</p>
+</td>
+<td>
+<p align="center">62</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Основные характеристики:</h2>
+
+<ul>
+  <li>Вид арматуры - КШМ;</li>
+  <li>Тип арматуры - запорная арматура;</li>
+  <li>Рабочая среда - суг, природный газ, Fuel-Oil, сжатый воздух;</li>
+  <li>Места установки - трубопровод;</li>
+  <li>Вид соединения - фланцевый;</li>
+  <li>Диаметр условного прохода (DN) в дюймах - 3/4";</li>
+  <li>Диаметр условного прохода (DN) в мм - 20 мм;</li>
+  <li>Условное давление (PN) - 25 Бар;</li>
+  <li>Класс герметичности - А;</li>
+  <li>Масса, не более - 2,0 кг;</li>
+  <li>Материал - сталь;</li>
+  <li>Рабочая температура - от -30 до + 180 С;</li>
+  <li>Страна производитель - Турция.</li>
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}

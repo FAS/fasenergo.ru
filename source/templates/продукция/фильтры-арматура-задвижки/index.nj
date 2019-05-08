@@ -48,6 +48,14 @@ description: Фильтры и запорно-предохранительная
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
+    title = 'Шаровые краны для СУГ и нефтепродуктов',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-01.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/шаровые-краны',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
     title = 'Шаровой запорный клапан (межфланцевый)',
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровой-запорный-клапан-межфланцевый.jpg',

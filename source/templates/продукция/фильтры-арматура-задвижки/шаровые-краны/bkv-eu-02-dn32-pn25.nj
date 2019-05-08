@@ -1,0 +1,178 @@
+---
+title:           Кран шаровой фланцевый Batu BKV-EU-02 (DN32, PN25)
+contentTitle:    Кран шаровой фланцевый Batu BKV-EU-02 (DN32, PN25)
+navTitle:        Кран шаровой фланцевый Batu BKV-EU-02 (DN32, PN25)
+breadcrumbTitle: Кран шаровой фланцевый Batu BKV-EU-02 (DN32, PN25)
+
+description: Кран шаровой фланцевый Batu BKV-EU-02 (DN32, PN25) для СУГ, нефтепродуктов и других жидкостей от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Кран шаровой фланцевый Batu BKV-EU-02 (DN32, PN25) предназначен для закрытия и открытия протока жидких материалов: сжиженный газ, темные и светлые нефтепродукты, масло и другие жидкости.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/шаровые-краны/batu-bkv-eu-02/краны-шаровые-фланцевые-batu-bkv-eu-02--1.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/шаровые-краны/batu-bkv-eu-02/краны-шаровые-фланцевые-batu-bkv-eu-02--схема.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Кран шаровой фланцевый Batu') }}
+
+<p></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td rowspan="3">
+<p align="center"><br /><span lang="ru-RU">Тип </span>BKV EU-00<span lang="ru-RU">2</span></p>
+</td>
+<td colspan="4">
+<p align="center">Размеры</p>
+</td>
+<td colspan="12">
+<p align="center">Размеры соединений</p>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<p align="center">PN 16-25-40</p>
+</td>
+<td colspan="6">
+<p align="center">PN 16</p>
+</td>
+<td colspan="6">
+<p align="center">PN 25-40</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">L</p>
+</td>
+<td>
+<p lang="en-US" align="center">G</p>
+</td>
+<td>
+<p lang="en-US" align="center">H</p>
+</td>
+<td>
+<p align="center">f</p>
+</td>
+<td>
+<p align="center">D</p>
+</td>
+<td>
+<p align="center">k</p>
+</td>
+<td>
+<p align="center">Кол-во отв.</p>
+</td>
+<td>
+<p align="center">I</p>
+</td>
+<td>
+<p align="center">F</p>
+</td>
+<td>
+<p align="center">b</p>
+</td>
+<td>
+<p align="center">D</p>
+</td>
+<td>
+<p align="center">k</p>
+</td>
+<td>
+<p align="center">Кол-во отв.</p>
+</td>
+<td>
+<p align="center">I</p>
+</td>
+<td>
+<p align="center">F</p>
+</td>
+<td>
+<p align="center">b</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">DN 32</p>
+</td>
+<td>
+<p align="center">104</p>
+</td>
+<td>
+<p align="center">230</p>
+</td>
+<td>
+<p align="center">95</p>
+</td>
+<td>
+<p align="center">2</p>
+</td>
+<td>
+<p align="center">140</p>
+</td>
+<td>
+<p align="center">100</p>
+</td>
+<td>
+<p align="center">4</p>
+</td>
+<td>
+<p align="center">18</p>
+</td>
+<td>
+<p align="center">78</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">140</p>
+</td>
+<td>
+<p align="center">100</p>
+</td>
+<td>
+<p align="center">4</p>
+</td>
+<td>
+<p align="center">18</p>
+</td>
+<td>
+<p align="center">78</p>
+</td>
+<td>
+<p align="center">18</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Основные характеристики:</h2>
+
+<ul>
+  <li>Вид арматуры - КШФ;</li>
+  <li>Тип арматуры - запорная арматура;</li>
+  <li>Рабочая среда - суг, природный газ, Fuel-Oil, сжатый воздух;</li>
+  <li>Места установки - трубопровод;</li>
+  <li>Вид соединения - фланцевый;</li>
+  <li>Диаметр условного прохода (DN) в дюймах - 1 1/4";</li>
+  <li>Диаметр условного прохода (DN) в мм - 32 мм;</li>
+  <li>Условное давление (PN) - 25 Бар;</li>
+  <li>Класс герметичности - А;</li>
+  <li>Масса, не более - 7 кг;</li>
+  <li>Материал - сталь;</li>
+  <li>Рабочая температура - от -30 до + 180 С;</li>
+  <li>Страна производитель - Турция.</li>
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}
