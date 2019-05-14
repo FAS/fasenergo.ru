@@ -16,6 +16,13 @@ description: Фильтры и запорно-предохранительная
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call CategoryCard(
+    title = 'Шаровые краны с электроприводом',
+    hLevel = 2,
+    url = '/продукция/фильтры-арматура-задвижки/шаровые-краны-с-электроприводом',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
     title = 'Контрольные окошки',
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/контрольные-окошки.jpg',
