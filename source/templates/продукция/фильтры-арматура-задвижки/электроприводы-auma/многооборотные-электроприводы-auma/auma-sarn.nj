@@ -1,0 +1,165 @@
+---
+title:           Многооборотные электроприводы AUMA SARN 07.1 - SARN 25.1
+contentTitle:    Многооборотные электроприводы AUMA SARN 07.1 - SARN 25.1
+navTitle:        Многооборотные электроприводы AUMA SARN 07.1 - SARN 25.1
+breadcrumbTitle: Многооборотные электроприводы AUMA SARN 07.1 - SARN 25.1
+
+description: Многооборотные электроприводы AUMA SARN от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>AUMA SARN – линейка многооборотных приводов, предназначенных для автоматизации запорной арматуры. Высокие стандарты качества подобной продукции требуют обеспечения высокой точности регулирования даже после значительного количества срабатываний.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/многооборотные-электроприводы-auma/многооборотные-электроприводы-auma-san--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Многооборотные электроприводы AUMA SARN') }}
+
+<p> </p>
+
+<p>Сложные условия работы при постоянно изменяющихся выходных параметрах, таких как давление и температура, создают необходимость частого изменения положения заслонок и другой арматуры. При особо высокой чувствительности к изменениям, срабатывание автоматики может происходить до нескольких раз в минуту.</p>
+ 
+<p>Режим работы электроприводов AUMA SARN предполагает цикличность операций запуска, работы и отдыха, где на рабочий режим приходится не более 25% времени цикла. Такая схема называется повторно-кратковременный режим работы S4 - 25 %.</p>
+
+
+<h2>Изображение в разрезе</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/многооборотные-электроприводы-auma/многооборотные-электроприводы-auma-san--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Многооборотные электроприводы AUMA SARN') }}
+
+<h2>Обзор функций/оборудования</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td align="center" valign="middle"> SARN 07.1, SARN 07.5, SARN 10.1, SARN 14.1,SARN 15.5, SARN 16.1, SARN 25.1,</td>
+<td align="center" valign="middle"> С - стандартная комплектация 
+<p>М - модификация</p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle"> Режим регулирования</td>
+<td align="center" valign="middle">С </td>
+</tr>
+<tr>
+<td align="center" valign="middle">Отключение по концевикам </td>
+<td align="center" valign="middle">С </td>
+</tr>
+<tr>
+<td align="center" valign="middle">Отключение по моментным выключателям </td>
+<td align="center" valign="middle">
+<p>С </p>
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle"> Защита от перегрузки при пиковых крутящих
+<p>моментах</p>
+</td>
+<td align="center" valign="middle">С </td>
+</tr>
+<tr>
+<td align="center" valign="middle">Моментные/ концевые выключатели </td>
+<td align="center" valign="middle">С </td>
+</tr>
+<tr>
+<td align="center" valign="middle"> сдвоенные выключатели </td>
+<td align="center" valign="middle">М </td>
+</tr>
+<tr>
+<td align="center" valign="middle">строенные выключатели</td>
+<td align="center" valign="middle">М </td>
+</tr>
+<tr>
+<td align="center" valign="middle">Промежуточные DUO выключатели </td>
+<td align="center" valign="middle">М </td>
+</tr>
+<tr>
+<td align="center" valign="middle"> Механический указатель положения</td>
+<td align="center" valign="middle">М </td>
+</tr>
+<tr>
+<td align="center" valign="middle"> Дистанционный указатель положения</td>
+<td align="center" valign="middle">М </td>
+</tr>
+<tr>
+<td align="center" valign="middle">Комбинации с редукторами AUMA </td>
+<td align="center" valign="middle">М </td>
+</tr>
+<tr>
+<td align="center" valign="middle"> 3-х фазные двигатели переменного тока</td>
+<td align="center" valign="middle"> С </td>
+</tr>
+<tr>
+<td align="center" valign="middle">Защита электродвигателя </td>
+<td align="center" valign="middle"> С </td>
+</tr>
+<tr>
+<td align="center" valign="middle">Ручное управление </td>
+<td align="center" valign="middle">С</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>Электрическое подключение с помощью штекерного</span><br /><span>разъема AUMA</span></td>
+<td align="center" valign="middle"><span>С</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>Присоединение к арматуре согласно ISO 5210/ DIN 3210</span></td>
+<td align="center" valign="middle"><span>С</span></td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="middle"><span>Типы выходных втулок:</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>B, B1</span></td>
+<td align="center" valign="middle"><span>С</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>A, AF, B2, B3, B4</span></td>
+<td align="center" valign="middle"><span>М</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>A, AF, B2, B3, B4</span></td>
+<td align="center" valign="middle"><span>М</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>Прямоходный модуль типа LE</span></td>
+<td align="center" valign="middle"><span>М</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>Степень защиты IP 68</span></td>
+<td align="center" valign="middle"><span>С</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>Защита от коррози</span></td>
+<td align="center" valign="middle"><span>С</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>Температурный диапазон</span></td>
+<td align="center" valign="middle"><span>- 20 °C – + 60 °C</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>Крутящие моменты</span></td>
+<td align="center" valign="middle"><span> до 1,600 Nm</span></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><span>Скорость вращения на выходе</span></td>
+<td align="center" valign="middle"><span>от 4 до 90 об/мин</span></td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="middle"><span>С<span>ертифицированы в соотвествии с IEEE 382-1996 и</span><br /><span>KTA 3504-1988, а также в системе сертификации ОИТ</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h3 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}

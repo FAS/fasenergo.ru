@@ -30,7 +30,15 @@ description: Фильтры и запорно-предохранительная
     url = '/продукция/фильтры-арматура-задвижки/шаровые-краны',
     class = 'o-grid__item h-1/4',
     size = 'small'
-  ) %}{% endcall %}     
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Электроприводы AUMA',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/электроприводы-auma/многооборотные-электроприводы-auma/многооборотные-электроприводы-auma--1.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/электроприводы-auma',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}      
   {% call CategoryCard(
     title = 'Контрольные окошки',
     hLevel = 2,

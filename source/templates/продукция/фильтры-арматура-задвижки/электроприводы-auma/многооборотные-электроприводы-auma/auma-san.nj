@@ -1,0 +1,160 @@
+---
+title:           Многооборотные электроприводы AUMA SAN 07.1 - SAN 25.1
+contentTitle:    Многооборотные электроприводы AUMA SAN 07.1 - SAN 25.1
+navTitle:        Многооборотные электроприводы AUMA SAN 07.1 - SAN 25.1
+breadcrumbTitle: Многооборотные электроприводы AUMA SAN 07.1 - SAN 25.1
+
+description: Многооборотные электроприводы AUMA SAN от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Компания AUMA производит две линейки многооборотных электроприводов SAN/SARN и SAI, имеющих сертификаты для применения на атомных электростанциях.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/многооборотные-электроприводы-auma/многооборотные-электроприводы-auma-san--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Многооборотные электроприводы AUMA SAN') }}
+
+<p> </p>
+
+<p>Приводы SAI предназначены для работы внутри оболочки атомного реактора, а приводы SAN/SARN – вне ее. Модели этих линеек используются в тех случаях, когда для полного закрытия арматура должна сделать более одного оборота.</p>
+
+<p>Все модели легко адаптируются к местным условиям работы и возможностям автоматизации, в чем помогают сертифицированные для применения на АЭС редукторы AUMA, с которыми можно комбинировать приводы. Это позволяет расширить диапазон углов вращения и даже превратить привод в прямоходный или неполнооборотный.</p>
+
+<h2>Изображение в разрезе</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/многооборотные-электроприводы-auma/многооборотные-электроприводы-auma-san--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Многооборотные электроприводы AUMA SAN') }}
+
+<h2>Обзор функций/оборудования</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td style="text-align: center;">
+<p>SAN 07.1, SAN 07.5, SAN 10.1, SAN 14.1,SAN 15.5, SAN 16.1, SAN 25.1, </p>
+</td>
+<td style="text-align: center;">
+<p>С - стандартная комплектация, М - модификация</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"> Режим управления "Открыть - закрыть"</td>
+<td style="text-align: center;">С </td>
+</tr>
+<tr>
+<td style="text-align: center;">Отключение по концевикам </td>
+<td style="text-align: center;">С </td>
+</tr>
+<tr>
+<td style="text-align: center;">Отключение по моментным выключателям </td>
+<td style="text-align: center;">
+<p>С </p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"> Защита от перегрузки при пиковых крутящих моментах</td>
+<td style="text-align: center;">С </td>
+</tr>
+<tr>
+<td style="text-align: center;">Моментные/ концевые выключатели </td>
+<td style="text-align: center;">С </td>
+</tr>
+<tr>
+<td style="text-align: center;"> сдвоенные выключатели </td>
+<td style="text-align: center;">М </td>
+</tr>
+<tr>
+<td style="text-align: center;">строенные выключатели</td>
+<td style="text-align: center;">М </td>
+</tr>
+<tr>
+<td style="text-align: center;">Промежуточные DUO выключатели </td>
+<td style="text-align: center;">М </td>
+</tr>
+<tr>
+<td style="text-align: center;"> Механический указатель положения</td>
+<td style="text-align: center;">М </td>
+</tr>
+<tr>
+<td style="text-align: center;"> Дистанционный указатель положения</td>
+<td style="text-align: center;">М </td>
+</tr>
+<tr>
+<td style="text-align: center;">Комбинации с редукторами AUMA </td>
+<td style="text-align: center;">М </td>
+</tr>
+<tr>
+<td style="text-align: center;"> 3-х фазные двигатели переменного тока</td>
+<td style="text-align: center;">С </td>
+</tr>
+<tr>
+<td style="text-align: center;">Защита электродвигателя </td>
+<td style="text-align: center;">С </td>
+</tr>
+<tr>
+<td style="text-align: center;">Ручное управление </td>
+<td style="text-align: center;">С</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>Электрическое подключение с помощью штекерного</span><br /><span>разъема AUMA</span></td>
+<td style="text-align: center;">C</td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>Присоединение к арматуре согласно ISO 5210/ DIN 3210</span></td>
+<td style="text-align: center;">C</td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="middle"><span>Типы выходных втулок:</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>B, B1</span></td>
+<td style="text-align: center;"><span>С</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>A, AF, B2, B3, B4</span></td>
+<td style="text-align: center;"><span>М</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>Прямоходный модуль типа LE</span></td>
+<td style="text-align: center;"><span>М</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>Степень защиты IP 68</span></td>
+<td style="text-align: center;"><span>С</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>Защита от коррози</span></td>
+<td style="text-align: center;"><span>С</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>Температурный диапазон</span></td>
+<td style="text-align: center;"><span>- 20 °C – + 80 °C</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>Крутящие моменты</span></td>
+<td style="text-align: center;"><span> до 1,600 Nm</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>Скорость вращения на выходе</span></td>
+<td style="text-align: center;"><span>от 4 до 90 об/мин</span></td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="middle"><span>Cертифицированы в соотвествии с IEEE 382-1996 и</span><br /><span>KTA 3504-1988, а также в системе сертификации ОИТ</span></td>
+</tr>
+</tbody>
+</table>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h3 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}

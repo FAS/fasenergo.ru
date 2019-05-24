@@ -1,0 +1,136 @@
+---
+title:           Многооборотные электроприводы AUMA SAREx 07.2 - SAREx 40.1
+contentTitle:    Многооборотные электроприводы AUMA SAREx 07.2 - SAREx 40.1
+navTitle:        Многооборотные электроприводы AUMA SAREx 07.2 - SAREx 40.1
+breadcrumbTitle: Многооборотные электроприводы AUMA SAREx 07.2 - SAREx 40.1
+
+description: Многооборотные электроприводы AUMA SAREx от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Модули управления и электроприводы AUMA SAREx обеспечивают непрерывность технологических процессов на предприятиях во всем мире. Надежные и долговечные, они пригодятся в большинстве отраслей промышленности.</p>
+
+<p>Модульное строение дает возможность адаптировать приводы AUMA SAREx к текущим рабочим условиям, комбинируя их модулями управления.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/многооборотные-электроприводы-auma/многооборотные-электроприводы-auma-saex--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Многооборотные электроприводы AUMA SAREx') }}
+
+<h2>Электроприводы AUMA отличают такие показатели</h2>
+
+<ul>
+  <li>Совместимость. Второе поколение приводов абсолютно совместимо с моделями более ранних сборок и способно эксплуатироваться совместно. Ознакомиться с текущей конфигурацией и настройками можно на удобном мониторе;</li>
+  <li>Удобство. Переход на ручное управление осуществляется очень легко благодаря усовершенствованному маховику. Вам не придется прилагать больших усилий;</li>
+  <li>Точность управления. Регулирующий привод обладает более высоким вращательным моментом благодаря совершенной механике изделий, что значительно увеличило точность управления;</li>
+  <li>Долговечность. Использование новых технологий, усовершенствований конструкции и современных материалов позволило значительно увеличить устойчивость к коррозии и срок эксплуатации;</li>
+  <li>Высокая степень адаптации. Строение универсального вала, которым оборудованы приводы 2 поколения позволяет им надежно соединяться с любым видом арматуры;</li>
+  <li>Безопасность. Электроприводы оснащены системой оповещения, поэтому о возможности внештатной ситуации оператор будет знать заранее. Если сбой уже возник. Аварийный режим работы позволит легко устранить неисправность;</li>
+  <li>Простота интеграции. Благодаря модулю управления AMExC, устройство легко интегрируется в РСУ и получает возможность обмена данными по любому из стандартных цифровых протоколов, включая Profibus DP-V2;</li>
+  <li>Работа при недостатке напряжения. До –30 %;</li>
+  <li>Рабочая температура. От –60°С до +70°.</li>
+</ul>
+
+<h2>Изображение в разрезе</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/многооборотные-электроприводы-auma/многооборотные-электроприводы-auma-saex--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Многооборотные электроприводы AUMA SAREx') }}
+
+<h2>Технические характеристики</h2>
+
+<table class="Table">
+<thead>
+<tr>
+<td style="text-align: center;" rowspan="2"><span>Тип</span>  </td>
+<td style="text-align: center;">Скорость <br /><span>вращения </span><br /><span>при 50 Гц</span> </td>
+<td style="text-align: center;">Диапазон настроек<br /><span>Момент отключения</span> </td>
+<td style="text-align: center;">Допустимое количество пусков</td>
+<td style="text-align: center;" colspan="2"> <span>Фланец к арматуре</span> </td>
+</tr>
+<tr>
+<td style="text-align: center;">об/мин</td>
+<td style="text-align: center;">Нм</td>
+<td style="text-align: center;"><span>1/ч</span></td>
+<td style="text-align: center;">EN ISO 5210</td>
+<td style="text-align: center;">DIN 3210 </td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>SAREx 07.2</span></td>
+<td style="text-align: center;"><span> 4 -90</span></td>
+<td style="text-align: center;"><span> 15 – 30</span></td>
+<td style="text-align: center;"><span>900</span></td>
+<td style="text-align: center;"><span>F07 или F10</span></td>
+<td style="text-align: center;"><span>GO</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span><span>SAREx 07.6</span></span></td>
+<td style="text-align: center;"><span> 4 -90</span></td>
+<td style="text-align: center;"><span>30 – 60</span></td>
+<td style="text-align: center;"><span>900</span></td>
+<td style="text-align: center;"><span>F07 или F10</span></td>
+<td style="text-align: center;"><span>GO</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span><span>SAREx 10.2</span></span></td>
+<td style="text-align: center;"><span> 4 -90</span></td>
+<td style="text-align: center;"><span> 60 – 120</span></td>
+<td style="text-align: center;"><span>900</span></td>
+<td style="text-align: center;"><span>F10</span></td>
+<td style="text-align: center;"><span>GO</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span><span>SAREx 14.2</span></span></td>
+<td style="text-align: center;"><span> 4 -90</span></td>
+<td style="text-align: center;"><span>120 – 250</span></td>
+<td style="text-align: center;"><span>900</span></td>
+<td style="text-align: center;"><span>F14</span></td>
+<td style="text-align: center;"><span>G1/2</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span><span>SAREx 14.6</span></span></td>
+<td style="text-align: center;"><span> 4 -90</span></td>
+<td style="text-align: center;"><span> 250 – 500</span></td>
+<td style="text-align: center;"><span>900</span></td>
+<td style="text-align: center;"><span>F14</span></td>
+<td style="text-align: center;"><span>G1/2</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span><span>SAREx 16.2</span></span></td>
+<td style="text-align: center;"><span> 4 -90</span></td>
+<td style="text-align: center;"><span>500 – 1 000</span></td>
+<td style="text-align: center;"><span>600</span></td>
+<td style="text-align: center;"><span>F16</span></td>
+<td style="text-align: center;"><span>G3</span></td>
+</tr>
+<tr>
+<td style="text-align: center;"><span>SAREx 25.1</span></td>
+<td style="text-align: center;"><span> 4- 11</span></td>
+<td style="text-align: center;"><span>1000 – 2 000</span></td>
+<td style="text-align: center;">300</td>
+<td style="text-align: center;"><span>F25</span></td>
+<td style="text-align: center;"><span>G4</span></td>
+</tr>
+<tr>
+<td style="text-align: center;">SAREx 30.1</td>
+<td style="text-align: center;"><span> 4- 11</span></td>
+<td style="text-align: center;"><span>2000 – 4 000</span></td>
+<td style="text-align: center;">300</td>
+<td style="text-align: center;"><span>F30</span></td>
+<td style="text-align: center;"><span>G5</span></td>
+</tr>
+</thead>
+</table>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h3 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}
