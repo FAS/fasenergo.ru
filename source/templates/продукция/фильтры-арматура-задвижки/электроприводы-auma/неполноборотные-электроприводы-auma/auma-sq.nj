@@ -1,0 +1,96 @@
+---
+title:           Неполнооборотные электроприводы AUMA SQ 05.2 - SQ 14.2
+contentTitle:    Неполнооборотные электроприводы AUMA SQ 05.2 - SQ 14.2
+navTitle:        Неполнооборотные электроприводы AUMA SQ 05.2 - SQ 14.2
+breadcrumbTitle: Неполнооборотные электроприводы AUMA SQ 05.2 - SQ 14.2
+
+description: Неполнооборотные электроприводы AUMA SQ от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Эта линейка приводов выпускается в модификациях для работы в режиме регулирования и в режиме "Открыто-закрыто". Для подключения подходит электропитание любого типа.</p>
+
+<p>Новый типоразмер позволяет расширить диапазон скорости вращения в обе стороны.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/неполноборотные-электроприводы-auma/неполнооборотные-электроприводы-auma-sq--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Неполнооборотные электроприводы AUMA SQ') }}
+
+<h2>Характеристики приводов</h2>
+
+<ul>
+<li>Высокоточное позиционирование. Конструкция муфты позволяет блокировать обратный ход, а параметры настройки выключателей повышают точность позиционирования и его повторяемость. Кроме того, повышена точность измерений скорости вращения.</li>
+<li>Гибкость и адаптация. При помощи стандартных пустотелых валов и втулок двигатель легко адаптируется к любому типу запорной арматуры.</li>
+<li>Безопасность. Конструкция исключает блокировку стопорных винтов, что повышает безопасность управления. Механизм переключения подпружинен, что улучшает надежность работы, а система оповещения (сигнализация) срабатывает при помощи микровыключателей.</li>
+<li>Надежность. Совокупность продуманного проектирования, надежных материалов и современных технологий производства существенно снизили затраты и повысили долговечность и устойчивость к коррозии приводов нового поколения.</li>
+<li>Интеллектуальная диагностика и система датчиков. Диагностика и контроль параметров осуществляются системой датчиков вибрации и температуры, что позволяет при необходимости своевременно принимать меры для ремонта и профилактики. Система сигнализирует о возникновении неполадок, техобслуживании, нормальной работе.</li>
+</ul>
+
+<h2>Изображение в разрезе</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/неполноборотные-электроприводы-auma/неполнооборотные-электроприводы-auma-sq--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Неполнооборотные электроприводы AUMA SQ') }}
+
+<h2>Технические характеристики</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td style="text-align: center;">Тип</td>
+<td style="text-align: center;">Крутящий<br />момент (Нм)</td>
+<td style="text-align: center;">Время пов.<br />на 90° (сек)</td>
+<td style="text-align: center;">Ручной<br />маховик (мм) </td>
+<td style="text-align: center;">Вес (кг)</td>
+</tr>
+<tr>
+<td style="text-align: center;">SQ 5.2</td>
+<td style="text-align: center;">50-150</td>
+<td style="text-align: center;">4-32</td>
+<td style="text-align: center;">160</td>
+<td style="text-align: center;">23.00</td>
+</tr>
+<tr>
+<td style="text-align: center;">SQ 7.2</td>
+<td style="text-align: center;">100-300 </td>
+<td style="text-align: center;">4-32</td>
+<td style="text-align: center;">160</td>
+<td style="text-align: center;">23.50 </td>
+</tr>
+<tr>
+<td style="text-align: center;">SQ 10.2</td>
+<td style="text-align: center;">200-600</td>
+<td style="text-align: center;">8-63</td>
+<td style="text-align: center;">200</td>
+<td style="text-align: center;">27.00</td>
+</tr>
+<tr>
+<td style="text-align: center;">SQ 12.2</td>
+<td style="text-align: center;">400-1200</td>
+<td style="text-align: center;">16-63 </td>
+<td style="text-align: center;">200</td>
+<td style="text-align: center;">32.00</td>
+</tr>
+<tr>
+<td style="text-align: center;">SQ 14.2</td>
+<td style="text-align: center;">800-2400</td>
+<td style="text-align: center;">24-100</td>
+<td style="text-align: center;">200</td>
+<td style="text-align: center;">43.00</td>
+</tr>
+</tbody>
+</table>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h3 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}

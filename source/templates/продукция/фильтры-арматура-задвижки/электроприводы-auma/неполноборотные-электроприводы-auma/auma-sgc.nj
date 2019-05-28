@@ -1,0 +1,182 @@
+---
+title:           Неполнооборотные электроприводы AUMA SGC 04.1 - SGC 10.1
+contentTitle:    Неполнооборотные электроприводы AUMA SGC 04.1 - SGC 10.1
+navTitle:        Неполнооборотные электроприводы AUMA SGC 04.1 - SGC 10.1
+breadcrumbTitle: Неполнооборотные электроприводы AUMA SGC 04.1 - SGC 10.1
+
+description: Неполнооборотные электроприводы AUMA SGC от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Приводы AUMA установлены на промышленных агрегатах, работающих в различных условиях, по всему миру. В связи со сложными условиями эксплуатации, они должны отвечать самым высоким критериям качества, надежности и долговечности.</p>
+
+<p>Линейка моделей AUMA SGC-SGCR проектировалась, как приводы с высоким крутящим моментом для условий, в которых это невозможно.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/неполноборотные-электроприводы-auma/неполнооборотные-электроприводы-auma-sgc--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Неполнооборотные электроприводы AUMA SGC') }}
+
+<p> </p>
+
+<p>Компактные размеры AUMA SGC не мешают этим приводам эффективно автоматизировать различные виды запорной арматуры. При этом они неприхотливы в обслуживании и имеют источник питания, обладающий рядом достоинств и преимуществ перед аналогами.</p>
+
+<p>Степень защиты приводов AUMA SGC повышена до категории IP 68 и соответствует требованиям регламента EN 60529. Это значит, что привод способен работать погруженным в воду 96 часов на глубине до 8 метров. За этот период нормой считается не более 10 срабатываний.</p>
+
+<h2>Линейка моделей</h2>
+
+<ul>
+  <li>AUMA SGC 04.1;</li>
+  <li>AUMA SGC 05.1;</li>
+  <li>AUMA SGC 07.1;</li>
+  <li>AUMA SGC 10.1;</li>
+  <li>AUMA SGCR 04.1;</li>
+  <li>AUMA SGCR 05.1;</li>
+  <li>AUMA SGCR 07.1;</li>
+  <li>AUMA SGCR 10.1.</li>
+</ul>
+
+<h2>Изображение в разрезе</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/неполноборотные-электроприводы-auma/неполнооборотные-электроприводы-auma-sgc--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Неполнооборотные электроприводы AUMA SGC') }}
+
+<h2>Технические характеристики</h2>
+
+<h3>Неполнооборотные приводы для режима "Открыто-закрыто":</h3>
+
+<table class='Table'>
+<thead>
+<tr>
+<td style="text-align: center;">Тип</td>
+<td style="text-align: center;">
+<p>Время работы при 90 ° </p>
+</td>
+<td style="text-align: center;">
+<p>Диапазон допустимых значений для момента отключения</p>
+</td>
+<td style="text-align: center;">Диапазон регулировки угла</td>
+<td style="text-align: center;">Фланец к арматуре</td>
+</tr>
+<tr>
+<td style="text-align: center;"> </td>
+<td style="text-align: center;">S</td>
+<td style="text-align: center;">Nm</td>
+<td style="text-align: center;">Стандарт в °</td>
+<td style="text-align: center;">EN ISO 5211</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p>SGC 04.1</p>
+</td>
+<td style="text-align: center;">
+<p>4 - 63</p>
+</td>
+<td style="text-align: center;">25 – 63</td>
+<td style="text-align: center;">82 - 98</td>
+<td style="text-align: center;">F05 or F07</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p>SGC 05.1</p>
+</td>
+<td style="text-align: center;">4 - 63</td>
+<td style="text-align: center;">50 – 125</td>
+<td style="text-align: center;">82 - 98</td>
+<td style="text-align: center;">F05 or F07</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p>SGC 07.1</p>
+</td>
+<td style="text-align: center;">4 - 63</td>
+<td style="text-align: center;">100 – 250</td>
+<td style="text-align: center;">82 - 98</td>
+<td style="text-align: center;">F07</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p>SGC 10.1</p>
+</td>
+<td style="text-align: center;">5.6 - 90</td>
+<td style="text-align: center;">200 – 500</td>
+<td style="text-align: center;">82 - 98</td>
+<td style="text-align: center;">F10</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Неполнооборотные приводы для режима регулирования:</h3>
+
+<table class='Table'>
+<thead>
+<tr>
+<td style="text-align: center;">Тип</td>
+<td style="text-align: center;">
+<p>Время работы при 90 °</p>
+</td>
+<td style="text-align: center;">Диапазон допустимых значений для момента отключения</td>
+<td style="text-align: center;">
+<p>Допустимое количество оборотов</p>
+</td>
+<td style="text-align: center;">Диапазон регулировки угла</td>
+<td style="text-align: center;">Фланец к арматуре</td>
+</tr>
+<tr>
+<td style="text-align: center;"> </td>
+<td style="text-align: center;">S</td>
+<td style="text-align: center;">Nm</td>
+<td style="text-align: center;"> </td>
+<td style="text-align: center;">Стандарт в °</td>
+<td style="text-align: center;">EN ISO 5211</td>
+</tr>
+<tr>
+<td style="text-align: center;">SGCR 04.1</td>
+<td style="text-align: center;">4 - 63</td>
+<td style="text-align: center;">25 – 63</td>
+<td style="text-align: center;">1.800</td>
+<td style="text-align: center;">82 - 98</td>
+<td style="text-align: center;">F05 or F07</td>
+</tr>
+<tr>
+<td style="text-align: center;">SGCR 05.1</td>
+<td style="text-align: center;">4 - 63</td>
+<td style="text-align: center;">50 – 125</td>
+<td style="text-align: center;">1.800</td>
+<td style="text-align: center;">82 - 98</td>
+<td style="text-align: center;">F05 or F07</td>
+</tr>
+<tr>
+<td style="text-align: center;">SGCR 07.1</td>
+<td style="text-align: center;">4 - 63</td>
+<td style="text-align: center;">100 – 250</td>
+<td style="text-align: center;">1.800</td>
+<td style="text-align: center;">82 - 98</td>
+<td style="text-align: center;">F07</td>
+</tr>
+<tr>
+<td style="text-align: center;">SGCR 10.1</td>
+<td style="text-align: center;">5.6 – 90</td>
+<td style="text-align: center;">200 – 500</td>
+<td style="text-align: center;">1.800</td>
+<td style="text-align: center;">82 - 98</td>
+<td style="text-align: center;">F10</td>
+</tr>
+</tbody>
+</table>
+
+<p>Крутящий момент: 25 Нм - 500 Нм.<br>Время поворота на 90°: 4 с - 90 с.</p>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h3 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}
