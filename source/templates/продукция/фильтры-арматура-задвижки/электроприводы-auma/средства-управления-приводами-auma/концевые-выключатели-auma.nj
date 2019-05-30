@@ -1,0 +1,109 @@
+---
+title:           Концевые выключатели AUMA
+contentTitle:    Концевые выключатели AUMA
+navTitle:        Концевые выключатели AUMA
+breadcrumbTitle: Концевые выключатели AUMA
+
+description: Концевые выключатели AUMA от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+
+<p>Текущее положение арматуры можно определить как на месте по индикации на приводе, так и получив сигнал в пункте управления. Даже если работа арматуры в автоматическом режиме не обязательна, все равно необходима информация о ее точном положении. </p>
+
+<p>Эта задача решается при помощи концевых выключателей WSH, завершающих движение запорной арматуры в конечных положениях. Для работы в потенциально взрывоопасных средах разработана серия WSHEx, имеющая более высокую степень защиты.</p>
+
+<p>Особенности строения концевых выключателей WSH и возможность их интеграции с различными редукторами, предоставляет прекрасные возможности для их установки на запорную арматуру любого типа. При установке учитывается величина крутящего момента всех элементов системы. Сборку облегчает стандартизация соединительных деталей, таких, как втулки или фланцы.</p>
+
+<h2>Концевые выключатели AUMA. Техническая характеристика</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td style="text-align: center;">Тип</td>
+<td style="text-align: center;">Крутящий. момент</td>
+<td rowspan="1" colspan="2" valign="middle">Присоединение к арматуре</td>
+<td rowspan="1" colspan="2" valign="middle">Ручной маховик</td>
+</tr>
+<tr>
+<td style="text-align: center;"> </td>
+<td style="text-align: center;">макс. Нм</td>
+<td style="text-align: center;">Стандарт
+<p>EN ISO 5210</p>
+</td>
+<td style="text-align: center;">
+<p>Опция<br />DIN 3210</p>
+</td>
+<td style="text-align: center;">Диаметр (мм) </td>
+<td style="text-align: center;">Передаточное отношение</td>
+</tr>
+<tr>
+<td style="text-align: center;">WSH/WSHEx 10.2</td>
+<td style="text-align: center;">170</td>
+<td style="text-align: center;">F10</td>
+<td style="text-align: center;">G0</td>
+<td style="text-align: center;">400</td>
+<td style="text-align: center;">1 : 1</td>
+</tr>
+<tr>
+<td style="text-align: center;">WSH/WSHEx 14.2</td>
+<td style="text-align: center;">400</td>
+<td style="text-align: center;">F14</td>
+<td style="text-align: center;">G1/2</td>
+<td style="text-align: center;">400/500</td>
+<td style="text-align: center;">1 : 1</td>
+</tr>
+<tr>
+<td style="text-align: center;">WSH/WSHEx 16.2</td>
+<td style="text-align: center;">800</td>
+<td style="text-align: center;">F16</td>
+<td style="text-align: center;">G3</td>
+<td style="text-align: center;">630</td>
+<td style="text-align: center;">1 : 1</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Концевые выключатели AUMA. Контакты</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td style="text-align: center;">Исполнение</td>
+<td style="text-align: center;">Применение/описание</td>
+<td style="text-align: center;">Тип контакта</td>
+</tr>
+<tr>
+<td style="text-align: center;">Одинарный выключатель</td>
+<td style="text-align: center;">Стандарт</td>
+<td style="text-align: center;">Один НЗ и один НО контакты</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p>Сдвоенный выключатель <br />(опция)</p>
+</td>
+<td style="text-align: center;">
+<p>Для подключения двух разных потенциалов. Выключатели находятся в двух разных отсеках и гальванически изолированы в общем корпусе. Один из выключателей является ведущим и применяется для сигнализации.</p>
+</td>
+<td style="text-align: center;">Два НЗ и два НО контакта</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<p>Тройные выключатели <br />(опция)</p>
+</td>
+<td style="text-align: center;">
+<p>Необходимы, если нужно подключить 3 разных потенциала. Такой выключатель состоит из одного одинарного и одного сдвоенного выключателя.</p>
+</td>
+<td style="text-align: center;">Три НЗ и три НО контакта<br /><br /></td>
+</tr>
+</tbody>
+</table>
+
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}
