@@ -1,0 +1,148 @@
+---
+title:           Цилиндрические редукторы AUMA GSTI 25.1 - GSTI 40.1
+contentTitle:    Цилиндрические редукторы AUMA GSTI 25.1 - GSTI 40.1
+navTitle:        Цилиндрические редукторы AUMA GSTI 25.1 - GSTI 40.1
+breadcrumbTitle: Цилиндрические редукторы AUMA GSTI 25.1 - GSTI 40.1
+
+description: Цилиндрические редукторы AUMA GSTI от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Для автоматизации запорной арматуры в условиях ядерной энергетики были разработаны многооборотные редукторы AUMA GSTI. Для этого их комбинируют с многооборотными электроприводами SAN или SAI, к которым адаптирован диапазон коробки передач редуктора. Все модели получили сертификаты безопасности класса CL EEE 382-1996.</p>
+
+<p>Способны расширять диапазон крутящего момента до 16,000 Нм.</p>
+
+<p>Благодаря модульному строению способны интегрироваться с разными моделями другого оборудования AUMA.</p>
+
+<p>Этот модельный ряд отличается эргономичным дизайном, высокой прочностью, надежностью конструкции и долговечностью.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/редукторы-auma/цилиндрические-редукторы-auma-gst--1.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/редукторы-auma/цилиндрические-редукторы-auma-gst--3.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Цилиндрические редукторы AUMA GSTI') }}
+
+<h2>Описание конструкции</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/редукторы-auma/цилиндрические-редукторы-auma-gsti--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Цилиндрические редукторы AUMA GSTI') }}
+
+<h3>1. Корпус</h3>
+
+<p>Корпус выполнен из чугуна с шаровидным графитом GJS-400-15. Этот материал устойчив к экстремальным воздействиям, например, землетрясениям или взрывам.</p>
+
+<h3>2. Свободный конец вала</h3>
+
+<p>В условиях ограниченного пространства, там где прямое подсоединение многооборотного привода невозможно, входной крутящий момент также может подаваться через вал с шарниром на свободном конце вала.</p>
+
+<h3>3. Прямозубая цилиндрическая передача</h3>
+
+<p>Этот тип передачи прост в установке и  имеет надежный и экономически эффективный дизайн. Значительно расширяет диапазон крутящего момента многооборотного привода.</p>
+
+<h3>4. Присоединение к арматуре</h3>
+
+<p>Монтажный фланец согласно EN ISO 5210 или DIN 3210. Адаптирован для различных комбинаций и типов клапанов.</p>
+
+<h3>5. Резьбовая пробка</h3>
+
+<p>Резьбовая пробка предотвращает попадание пыли и влаги</p>
+
+<h3>6. Фланец для монтажа многооборотного привода</h3>
+
+<p>Размеры фланца в соответствии с EN ISO 5210 (опционально DIN 3210). Сочетание между коробкой передач и многооборотным приводом дает преимущество при монтаже привода, обеспечивая решение ваших  требований по установке.</p>
+
+<h2>Технические характеристики</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td style="text-align: center;"> Тип</td>
+<td style="text-align: center;">
+<p>Выходной крутящий<br />момент </p>
+</td>
+<td style="text-align: center;">
+<p>Передаточное<br />отношение</p>
+</td>
+<td style="text-align: center;">Входной крутящий момент </td>
+<td rowspan="1" colspan="2" align="center" valign="middle">
+<p>Крепежный фланец<br />арматуры</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"> </td>
+<td style="text-align: center;">Номинальный крутящий<br>момент макс.[Нм]</td>
+<td style="text-align: center;"> </td>
+<td style="text-align: center;">
+<p> Номинальный крутящий<br>момент макс.[Нм]</p>
+</td>
+<td style="text-align: center;">
+<p>Стандарт<br />(EN ISO 5210)</p>
+</td>
+<td style="text-align: center;">
+<p>Опция<br />(DIN 3210)</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"> GSTI 25.1</td>
+<td style="text-align: center;">2,000 </td>
+<td style="text-align: center;">
+<p>4:1<br />5.6 : 1<br />8:1 </p>
+</td>
+<td style="text-align: center;">
+<p>556<br />397<br /> 278 </p>
+</td>
+<td style="text-align: center;">F25 </td>
+<td style="text-align: center;">G4</td>
+</tr>
+<tr>
+<td style="text-align: center;"> GSTI 30.1 </td>
+<td style="text-align: center;">4,000 </td>
+<td style="text-align: center;">
+<p>5.6 : 1<br />8:1<br />11 : 1 </p>
+</td>
+<td style="text-align: center;">
+<p>794<br />556<br /> 404 </p>
+</td>
+<td style="text-align: center;">F30</td>
+<td style="text-align: center;">G5 </td>
+</tr>
+<tr>
+<td style="text-align: center;">GSTI 35.1</td>
+<td style="text-align: center;">8,000 </td>
+<td style="text-align: center;">
+<p>8:1 </p>
+11 : 1<br />16 : 1</td>
+<td style="text-align: center;">
+<p>  1,111<br />808<br /> 556 </p>
+</td>
+<td style="text-align: center;">F35</td>
+<td style="text-align: center;">G6 </td>
+</tr>
+<tr>
+<td style="text-align: center;">GSTI 40.1</td>
+<td style="text-align: center;">16,000 </td>
+<td style="text-align: center;">11 : 1
+<p>16 : 1<br />22 : 1</p>
+</td>
+<td style="text-align: center;">
+<p> 1,616<br /> 1,111<br />808 </p>
+</td>
+<td style="text-align: center;">F40 </td>
+<td style="text-align: center;">G7 </td>
+</tr>
+</tbody>
+</table>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}

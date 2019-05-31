@@ -1,0 +1,394 @@
+---
+title:           Неполнооборотные редукторы AUMA GSI 63.3 - GSI 250.3
+contentTitle:    Неполнооборотные редукторы AUMA GSI 63.3 - GSI 250.3
+navTitle:        Неполнооборотные редукторы AUMA GSI 63.3 - GSI 250.3
+breadcrumbTitle: Неполнооборотные редукторы AUMA GSI 63.3 - GSI 250.3
+
+description: Неполнооборотные редукторы AUMA GSI от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Для автоматизации запорной арматуры в условиях ядерной энергетики были разработаны неполнооборотные редукторы AUMA GSI. Для этого их комбинируют с многооборотными электроприводами SAN или SAI. Все модели получили сертификаты безопасности класса CL EEE 382-1996.</p>
+
+<p>Благодаря модульному строению и широким выборов крутящих моментов от небольших до очень высоких, редукторы AUMA GSI способны интегрироваться с разными моделями многооборотных электроприводов.</p>
+
+<p>Этот модельный ряд отличается высокой прочностью, надежностью конструкции, долговечностью и экономичностью при относительно высоких нагрузках.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/редукторы-auma/неполнооборотные-редукторы-auma-gsi--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Неполнооборотные редукторы AUMA GSI') }}
+
+<h2>Типоряд представлен следующими редукторами</h2>
+
+<ul>
+  <li>AUMA GSI 63.3;</li>
+  <li>AUMA GSI 80.3;</li>
+  <li>AUMA GSI 100.3;</li>
+  <li>AUMA GSI 125.3;</li>
+  <li>AUMA GSI 160.3;</li>
+  <li>AUMA GSI 200.3;</li>
+  <li>AUMA GSI 250.3.</li>
+</ul>
+
+<h2>Описание конструкции</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/редукторы-auma/неполнооборотные-редукторы-auma-gsi--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Неполнооборотные редукторы AUMA GSI') }}
+
+<h3>1. Корпус</h3>
+
+<p>Корпус выполнен из чугуна с добавлением шаровидного графита GJS-400-15. Этот материал устойчив к экстремальным воздействиям, например к вибрациям, вызванным землетрясением или взрывом.</p>
+
+<h3>2. Зубчатая передача</h3>
+
+<p>Основные детали червячных передач позволяют получить высокое передаточное число в пределах одной стадии.</p>
+
+<h3>3. Концевые упоры</h3>
+
+<p>Встроенные механические упоры ограничивают угол поворота. Значительным преимуществом конструкции AUMA является то, что на механические упоры воздействует сравнительно низкий входной крутящий момент, а не высокий выходной момент. Таким образом обеспечивается высокая степень безопасности при возможной перегрузке. Даже когда механические упоры повреждены, редуктор выполняет свою основную функцию.</p>
+
+<h3>4. Муфта</h3>
+
+<p>Позволяет легче осуществить монтаж коробки передач с клапаном. По запросу Муфта поставляется с подходящим отверстием. Втулка с отверстием помещается на клапане вала и предотвращает их осевое смещение. Затем редуктор устанавливается на клапан фланца.</p>
+
+<h3>5. Присоединение к арматуре</h3>
+
+<p>Присоединение к арматуре разработано в соответствии с EN ISO 5211.</p>
+
+<h3>6. Передаточный механизм</h3>
+
+<p>Передаточный механизм использует планетарные передачи, для того чтобы сократить требуемый крутящий момент на входе.</p>
+
+<h3>7. Фланец для монтажа многооборотного силового привода</h3>
+
+<p>Этот фланец используется для механического соединения многооборотного привода с коробкой передач. Размеры фланца в соответствии с EN ISO 5210 (дополнительно DIN 3210).</p>
+
+<h3>8. Указательный диск</h3>
+
+<p>Крышка с указателем непрерывно показывает положение клапана, а также может быть использована в качестве индикации работы.</p>
+
+<h2>Технические характеристики</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td valign="middle">Тип</td>
+<td rowspan="1" colspan="2" valign="middle">Выходной <br />крутящий момент</td>
+<td rowspan="1" colspan="5" valign="middle">Входной крутящий момент</td>
+<td valign="middle">Поворот на 90°</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle"> </td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>Номинальный<br>крутящий момент макс.[Нм]</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>Крутящий<br />момент для<br />рег-я макс.[Нм]</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>При условиях 100 % Nm</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>При условиях 120 °C Nm</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>При условиях 185 °C Nm</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>Мод.<br>Крутящий момент Nm</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>Макс. знач Nm</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle"> </td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">GSI 63.3</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>500</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>250</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">24</td>
+<td rowspan="1" colspan="1" valign="middle">29</td>
+<td rowspan="1" colspan="1" valign="middle">33</td>
+<td rowspan="1" colspan="1" valign="middle">12</td>
+<td rowspan="1" colspan="1" valign="middle">315</td>
+<td rowspan="1" colspan="1" valign="middle">12.75</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">GSI 80.3</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>1000</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">
+<p>500</p>
+</td>
+<td rowspan="1" colspan="1" valign="middle">44</td>
+<td rowspan="1" colspan="1" valign="middle">52</td>
+<td rowspan="1" colspan="1" valign="middle">59</td>
+<td rowspan="1" colspan="1" valign="middle">22</td>
+<td rowspan="1" colspan="1" valign="middle">210</td>
+<td rowspan="1" colspan="1" valign="middle">13.25</td>
+</tr>
+<tr>
+<td rowspan="4" colspan="1" valign="middle">GSI 100.3</td>
+<td rowspan="4" colspan="1" valign="middle">2.000</td>
+<td rowspan="4" colspan="1" valign="middle">1.000</td>
+<td rowspan="1" colspan="1" valign="middle">85</td>
+<td rowspan="1" colspan="1" valign="middle">101</td>
+<td rowspan="1" colspan="1" valign="middle">113</td>
+<td rowspan="1" colspan="1" valign="middle">44</td>
+<td rowspan="1" colspan="1" valign="middle">480</td>
+<td rowspan="1" colspan="1" valign="middle">13</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">40</td>
+<td rowspan="1" colspan="1" valign="middle">47</td>
+<td rowspan="1" colspan="1" valign="middle">53</td>
+<td rowspan="1" colspan="1" valign="middle">20</td>
+<td rowspan="1" colspan="1" valign="middle">210</td>
+<td rowspan="1" colspan="1" valign="middle">31.5</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">31</td>
+<td rowspan="1" colspan="1" valign="middle">37</td>
+<td rowspan="1" colspan="1" valign="middle">42</td>
+<td rowspan="1" colspan="1" valign="middle">16</td>
+<td rowspan="1" colspan="1" valign="middle">190</td>
+<td rowspan="1" colspan="1" valign="middle">40</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">24</td>
+<td rowspan="1" colspan="1" valign="middle">28</td>
+<td rowspan="1" colspan="1" valign="middle">32</td>
+<td rowspan="1" colspan="1" valign="middle">12</td>
+<td rowspan="1" colspan="1" valign="middle">125</td>
+<td rowspan="1" colspan="1" valign="middle">52</td>
+</tr>
+<tr>
+<td rowspan="4" colspan="1" valign="middle">GSI 125.3</td>
+<td rowspan="4" colspan="1" valign="middle">4.000</td>
+<td rowspan="4" colspan="1" valign="middle">2.000</td>
+<td rowspan="1" colspan="1" valign="middle">167</td>
+<td rowspan="1" colspan="1" valign="middle">197</td>
+<td rowspan="1" colspan="1" valign="middle">220</td>
+<td rowspan="1" colspan="1" valign="middle">83</td>
+<td rowspan="1" colspan="1" valign="middle">550</td>
+<td rowspan="1" colspan="1" valign="middle">13</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">77</td>
+<td rowspan="1" colspan="1" valign="middle">91</td>
+<td rowspan="1" colspan="1" valign="middle">102</td>
+<td rowspan="1" colspan="1" valign="middle">39</td>
+<td rowspan="1" colspan="1" valign="middle">270</td>
+<td rowspan="1" colspan="1" valign="middle">31.5</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">61</td>
+<td rowspan="1" colspan="1" valign="middle">71</td>
+<td rowspan="1" colspan="1" valign="middle">81</td>
+<td rowspan="1" colspan="1" valign="middle">31</td>
+<td rowspan="1" colspan="1" valign="middle">210</td>
+<td rowspan="1" colspan="1" valign="middle">40</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">47</td>
+<td rowspan="1" colspan="1" valign="middle">55</td>
+<td rowspan="1" colspan="1" valign="middle">62</td>
+<td rowspan="1" colspan="1" valign="middle">24</td>
+<td rowspan="1" colspan="1" valign="middle">150</td>
+<td rowspan="1" colspan="1" valign="middle">52</td>
+</tr>
+<tr>
+<td rowspan="3" colspan="1" valign="middle">GSI 160.3</td>
+<td rowspan="3" colspan="1" valign="middle">8.000</td>
+<td rowspan="3" colspan="1" valign="middle">4.000</td>
+<td rowspan="1" colspan="1" valign="middle">309</td>
+<td rowspan="1" colspan="1" valign="middle">362</td>
+<td rowspan="1" colspan="1" valign="middle">400</td>
+<td rowspan="1" colspan="1" valign="middle">154</td>
+<td rowspan="1" colspan="1" valign="middle">1.400</td>
+<td rowspan="1" colspan="1" valign="middle">13.5</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">85</td>
+<td rowspan="1" colspan="1" valign="middle">99</td>
+<td rowspan="1" colspan="1" valign="middle">111</td>
+<td rowspan="1" colspan="1" valign="middle">43</td>
+<td rowspan="1" colspan="1" valign="middle">330</td>
+<td rowspan="1" colspan="1" valign="middle">54.5</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">42</td>
+<td rowspan="1" colspan="1" valign="middle">49</td>
+<td rowspan="1" colspan="1" valign="middle">55</td>
+<td rowspan="1" colspan="1" valign="middle">21</td>
+<td rowspan="1" colspan="1" valign="middle">160</td>
+<td rowspan="1" colspan="1" valign="middle">110.5</td>
+</tr>
+<tr>
+<td rowspan="3" colspan="1" valign="middle">GSI 200.3</td>
+<td rowspan="3" colspan="1" valign="middle">16.000</td>
+<td rowspan="3" colspan="1" valign="middle">-</td>
+<td rowspan="1" colspan="1" valign="middle">628</td>
+<td rowspan="1" colspan="1" valign="middle">737</td>
+<td rowspan="1" colspan="1" valign="middle">816</td>
+<td rowspan="1" colspan="1" valign="middle">-</td>
+<td rowspan="1" colspan="1" valign="middle">3.365</td>
+<td rowspan="1" colspan="1" valign="middle">13.25</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">174</td>
+<td rowspan="1" colspan="1" valign="middle">202</td>
+<td rowspan="1" colspan="1" valign="middle">227</td>
+<td rowspan="1" colspan="1" valign="middle">-</td>
+<td rowspan="1" colspan="1" valign="middle">925</td>
+<td rowspan="1" colspan="1" valign="middle">53.5</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">86</td>
+<td rowspan="1" colspan="1" valign="middle">100</td>
+<td rowspan="1" colspan="1" valign="middle">112</td>
+<td rowspan="1" colspan="1" valign="middle">-</td>
+<td rowspan="1" colspan="1" valign="middle">455</td>
+<td rowspan="1" colspan="1" valign="middle">108.5</td>
+</tr>
+<tr>
+<td rowspan="3" colspan="1" valign="middle">GSI 250.3</td>
+<td rowspan="3" colspan="1" valign="middle">24.000</td>
+<td rowspan="3" colspan="1" valign="middle">-</td>
+<td rowspan="1" colspan="1" valign="middle">962</td>
+<td rowspan="1" colspan="1" valign="middle">1,127</td>
+<td rowspan="1" colspan="1" valign="middle">1.244</td>
+<td rowspan="1" colspan="1" valign="middle">-</td>
+<td rowspan="1" colspan="1" valign="middle">3.580</td>
+<td rowspan="1" colspan="1" valign="middle">13</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="1" valign="middle">267</td>
+<td rowspan="1" colspan="1" valign="middle">309</td>
+<td rowspan="1" colspan="1" valign="middle">346</td>
+<td rowspan="1" colspan="1" valign="middle">-</td>
+<td rowspan="1" colspan="1" valign="middle">985</td>
+<td rowspan="1" colspan="1" valign="middle">52.5</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Соответствующие установочные фланцы</h3>
+
+<table class='Table'>
+<thead>
+<tr>
+<td rowspan="2">Редукторы  </td>
+<td rowspan="2">Передаточный механизм  </td>
+<td colspan="2">Фланец для соединения многооборотного привода  </td>
+</tr>
+<tr>
+<td> EN ISO 5210</td>
+<td>DIN 3210</td>
+</tr>
+<tr>
+<td>GSI 63.3</td>
+<td>-</td>
+<td>F10</td>
+<td>G0</td>
+</tr>
+<tr>
+<td>GSI 80.3</td>
+<td>-</td>
+<td>F10</td>
+<td>G0</td>
+</tr>
+<tr>
+<td>GSI 100.3</td>
+<td>-</td>
+<td>F10</td>
+<td>G0</td>
+</tr>
+<tr>
+<td>GSI 100.3</td>
+<td> VZI 2.3/3.3/4.3</td>
+<td>F10</td>
+<td>G0</td>
+</tr>
+<tr>
+<td>GSI 125.3</td>
+<td>-</td>
+<td>F14</td>
+<td>G1/2</td>
+</tr>
+<tr>
+<td>GSI 125.3</td>
+<td>VZI 2.3/3.3/4.3</td>
+<td>F10</td>
+<td>G0</td>
+</tr>
+<tr>
+<td>GSI 160.3</td>
+<td>-</td>
+<td>F14, F16</td>
+<td>G1/2, G3</td>
+</tr>
+<tr>
+<td>GSI 160.3</td>
+<td>GZI 160.3 (4:1)</td>
+<td>F10, F14</td>
+<td>G0, G1/2</td>
+</tr>
+<tr>
+<td>GSI 160.3</td>
+<td>GZI 160.3 (8:1</td>
+<td>F10</td>
+<td>G0</td>
+</tr>
+<tr>
+<td>GSI 200.3</td>
+<td>-</td>
+<td>F16, F25</td>
+<td>G3</td>
+</tr>
+<tr>
+<td>GSI 200.3</td>
+<td>GZI 200.3 (4:1)</td>
+<td>F14</td>
+<td>G1/2</td>
+</tr>
+<tr>
+<td>GSI 200.3</td>
+<td>GZI 200.3 (8:1)</td>
+<td>F10, F14</td>
+<td>G0, G1/2</td>
+</tr>
+<tr>
+<td>GSI 250.3</td>
+<td>-</td>
+<td>F25</td>
+<td>-</td>
+</tr>
+<tr>
+<td>GSI 250.3</td>
+<td>GZI 250.3 (4:1/8:1)</td>
+<td>F14</td>
+<td>G1/2</td>
+</tr>
+</tbody>
+</table>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}

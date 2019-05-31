@@ -1,0 +1,156 @@
+---
+title:           Рычажные редукторы AUMA GF 50.3 – GF 250.3
+contentTitle:    Рычажные редукторы AUMA GF 50.3 – GF 250.3
+navTitle:        Рычажные редукторы AUMA GF 50.3 – GF 250.3
+breadcrumbTitle: Рычажные редукторы AUMA GF 50.3 – GF 250.3
+
+description: Рычажные редукторы AUMA GF от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Этот тип редукторов монтируется в том случае, если сложности конструкции не позволяют использовать редукторы другого типа. Создан для работы в ограниченном пространстве на базе червячного редуктора GS.</p>
+
+<p>В связке с многооборотным электроприводом, рычажный редуктор образует систему, способную управляться дистанционно.
+</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/редукторы-auma/рычажные-редукторы-auma--3.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/редукторы-auma/рычажные-редукторы-auma--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Рычажные редукторы AUMA GF') }}
+
+<p></p>
+
+<p>Сборка редукторов АUMA GF 50.3 – GF 250.3 предполагает наличие дистанционных индикаторов положения. А при необходимости удаленного информирования, дополнительно оснащаются индикаторами положения WSG 90.1 или WGD 90.1.</p>
+
+<p>Редукторы серии GF рассчитаны на работу на глубине до 1 метра на протяжении получаса и имеют степень защиты IP 67.</p>
+
+<p>Надежное антикоррозийное покрытие позволяет работать с погружением в агрессивные среды небольшой интенсивности и на открытом воздухе.</p>
+
+<p>Если предполагается работа редуктора в среде более агрессивной, в этом случае используются модификации с повышенной степенью защиты в соответствии с ГОСТ Р 51330.0, 51330.1, 51330.8.</p>
+
+<h2>Типоряд представлен следующими редукторами</h2>
+
+<ul>
+  <li>AUMA GF 50.3;</li>
+  <li>AUMA GF 63.3;</li>
+  <li>AUMA GF 80.3;</li>
+  <li>AUMA GF 100.3;</li>
+  <li>AUMA GF 125.3;</li>
+  <li>AUMA GF 160.3;</li>
+  <li>AUMA GF 200.3;</li>
+  <li>AUMA GF 250.3.</li>
+</ul>
+
+<h2>Описание конструкции</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/электроприводы-auma/редукторы-auma/рычажные-редукторы-auma--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Рычажные редукторы AUMA GF') }}
+
+<p></p>
+
+<h3>1. Червячные редукторы GS</h3>
+
+<p>Червячные редукторы GS являются основой рычажного редуктора GF. Они предназначены для управления промышленной арматурой, заслонками и шаровыми кранами. При применении редукторов в других целях, необходимо проконсультироваться с заводом-изготовителем.</p>
+
+<h3>2. Фланец для присоединения многооборотного привода</h3>
+
+<p>Размеры фланцев в соответствии с EN ISO 5210 (DIN 3210 в качестве опции). Первичные редукторы монтируются на входной стороне редуктора для увеличения передаточного отношения.</p>
+
+<h3> 3. Рычаг</h3>
+
+<p>Отлит из высокопрочного чугуна, имеет два или три отверстия для крепления рычажного механизма. Рычаг может быть смонтирован на выходной вал в любом необходимом положении. По заказу, для соединения с рычажным механизмом могут поставляться два шаровых шарнира, укомплектованных стопорными гайками и свариваемыми краями.</p>
+
+<h3>4. Механические упоры</h3>
+
+<p>Встроенные механические упоры ограничивают угол поворота. Значительным преимуществом конструкции AUMA является то, что на механические упоры воздействует сравнительно низкий входной крутящий момент, а не высокий выходной момент. Таким образом обеспечивается высокая степень безопасности при возможной перегрузке. Даже когда механические упоры повреждены, редуктор выполняет свою основную функцию.</p>
+
+<h3>5. База</h3>
+
+<p>Изготовлена из высокопрочного чугуна. Имеет четыре отверстия для крепления привода.</p>
+
+<h2>Технические характеристики</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td style="text-align: center;">Типоразмер</td>
+<td style="text-align: center;">Срок службы </td>
+<td rowspan="1" colspan="2" align="center" valign="middle">
+<p>Макс. выходной крутящий<br />момент для входного<br />крутящего момента</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">GF</td>
+<td style="text-align: center;">
+<p>Рабочие циклы<br />(ОТКРЫТЬ-ЗАКРЫТЬ-ОТКРЫТЬ)</p>
+</td>
+<td style="text-align: center;">[Нм]</td>
+<td style="text-align: center;">
+<p>приблизит.<br />[Нм] </p>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">50.3</td>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">500</td>
+<td style="text-align: center;">30</td>
+</tr>
+<tr>
+<td style="text-align: center;">60.3</td>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">61</td>
+</tr>
+<tr>
+<td style="text-align: center;">80.3</td>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">2000</td>
+<td style="text-align: center;">110</td>
+</tr>
+<tr>
+<td style="text-align: center;">100.3</td>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">4000</td>
+<td style="text-align: center;">214</td>
+</tr>
+<tr>
+<td style="text-align: center;">125.3</td>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">8000</td>
+<td style="text-align: center;">417</td>
+</tr>
+<tr>
+<td style="text-align: center;">160.3</td>
+<td style="text-align: center;">5000</td>
+<td style="text-align: center;">11 250</td>
+<td style="text-align: center;">536</td>
+</tr>
+<tr>
+<td style="text-align: center;">200.3</td>
+<td style="text-align: center;">5000</td>
+<td style="text-align: center;">22 500</td>
+<td style="text-align: center;">1 087</td>
+</tr>
+<tr>
+<td style="text-align: center;">250.3</td>
+<td style="text-align: center;">3000</td>
+<td style="text-align: center;">45 000</td>
+<td style="text-align: center;">2 217</td>
+</tr>
+</tbody>
+</table>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}
