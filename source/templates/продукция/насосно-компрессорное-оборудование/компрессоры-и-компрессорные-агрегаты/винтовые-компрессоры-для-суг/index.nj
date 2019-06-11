@@ -1,0 +1,19 @@
+---
+title:           Винтовые компрессорные сборки для СУГ
+contentTitle:    Винтовые компрессорные сборки для СУГ
+navTitle:        Винтовые компрессорные сборки для СУГ
+breadcrumbTitle: Винтовые компрессорные сборки для СУГ
+
+description: Винтовые компрессорные сборки для СУГ компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

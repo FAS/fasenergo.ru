@@ -1,7 +1,7 @@
 ---
-title:           Насосно-компрессорное комлексы
-contentTitle:    Насосно-компрессорное комлексы
-navTitle:        Насосно-компрессорное комлексы
+title:           Насосно-компрессорные комлексы
+contentTitle:    Насосно-компрессорные комлексы
+navTitle:        Насосно-компрессорные комлексы
 breadcrumbTitle: Комлексы
 
 description: Насосно-компрессорное комлексы компании «Фасэнергомаш».
@@ -10,10 +10,72 @@ description: Насосно-компрессорное комлексы комп
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{# @todo Нет контента #}
-<ul>
-  {% for slug, item in getPage(PAGE.breadcrumb) %}
-  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
-  {% endfor %}
-</ul>
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Насосный комплекс для слива СУГ из железнодорожных цистерн или автомобилей-газовозов',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/комлексы/насосный-комплекс-для-слива-суг-из-железнодорожных-цистерн-или-автомобилей-газовозов.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/комлексы/насосный-комплекс-для-слива-суг-из-железнодорожных-цистерн-или-автомобилей-газовозов',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Компрессорная установка для перекачки СУГ',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/комлексы/компрессорная-установка-для-перекачки-суг.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/комлексы/компрессорная-установка-для-перекачки-суг',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Блочный технологический комплекс насосно-счетной установки',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/комлексы/блочный-технологический-комплекс-насосно-счетной-установки.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/комлексы/блочный-технологический-комплекс-насосно-счетной-установки',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Насосно-компрессорное отделение (НКО)',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/комлексы/насосно-компрессорное-отделение.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/комлексы/насосно-компрессорное-отделение',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+
+  {% call CategoryCard(
+    title = 'Насосная установка ФАС&nbsp;№93.0101 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для наземных емкостей и ТРК</span>',
+    hLevel = 3,
+    url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-0101',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Насосная установка ФАС&nbsp;№93.0111 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для наземных емкостей</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/НУ-ФАС-№93.0111/card.svg',
+    url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-0111',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Насосная установка ФАС&nbsp;№93.0201 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для наземных емкостей и ТРК</span>',
+    hLevel = 3,
+    url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-0201',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Насосная установка ФАС&nbsp;№93.0211 <span class="h-block h-padding-top-- h-text-">Для монтажа в составе АГЗС, для наземных емкостей</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/НУ-ФАС-№93.0211/card.svg',
+    url = '/продукция/насосно-компрессорное-оборудование/комлексы/фас-93-0211',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
 {% endblock %}

@@ -10,10 +10,33 @@ description: Другое насосно-компрессорное оборуд
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{# @todo Нет контента #}
-<ul>
-  {% for slug, item in getPage(PAGE.breadcrumb) %}
-  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
-  {% endfor %}
-</ul>
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Самовсасывающие установки',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/другое/самовсасывающие-установки.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/другое/самовсасывающие-установки',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Установки разделения воздуха',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/другое/установки-разделения-воздуха.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/другое/установки-разделения-воздуха',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Осушка углеводородных газов',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/другое/осушка-углеводородных-газов.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/другое/осушка-углеводородных-газов',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
 {% endblock %}
