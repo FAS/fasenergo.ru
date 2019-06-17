@@ -128,6 +128,7 @@
     {% endif %} #}
     {% call(depth) Item('/о-компании/новости', depth = depth) %}{% endcall %}
     {% call(depth) Item('/о-компании/журнал', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/о-компании/сводная-ведомость-и-перечень-мероприятий', depth = depth) %}{% endcall %}
   {% endcall %}
 
   {% call(depth) Item('/программа-trade-in') %}{% endcall %}

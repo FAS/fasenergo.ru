@@ -1,0 +1,32 @@
+---
+title:           Сводная ведомость и перечень мероприятий
+contentTitle:    Сводная ведомость и перечень мероприятий
+navTitle:        Сводная ведомость и перечень мероприятий
+breadcrumbTitle: Сводная ведомость и перечень мероприятий
+
+description: 'Сводная ведомость результатов проведения специальной оценкий условий труда'
+
+applyWrapperMain:    false
+applyWrapperContent: false
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Icon.nj' import Icon with context %}
+
+{% macro Document(title, url) %}
+<article class='h-margin-bottom+'>
+  <h2 class='h-h6 h-margin-top0 h-margin-bottom'>
+    {{ Icon('pdf') }}
+    <a href='{{ url }}' target='_blank'>{{ title }}</a>
+  </h2>
+  {{ caller() }}
+</article>
+{% endmacro %}
+
+{% call Document(title = 'Сводная ведомость результатов проведения специальной оценкий условий труда', url = urljoin('/', PATH.docs, '/сводная-ведомость-и-перечень-мероприятий.pdf')) %}
+
+{% endcall %}
+
+{% endblock %}
