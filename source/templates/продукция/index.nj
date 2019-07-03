@@ -117,6 +117,15 @@ description: Немецко-российские газовые генерато
   <hr>
 
   {% call CategoryCard(
+    title = 'Резервуары для СУГ',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/резервуары-для-суг/станционный-резервуар-наземный--1.jpg',
+    url = '/продукция/резервуары-для-суг'
+  ) %}{% endcall %}
+
+  <hr>  
+
+  {% call CategoryCard(
     title = 'Блочные комплексы для автомобилей-газовозов',
     hLevel = 2,
     image = '/' + PATH.images + '/categories/блочные-комплексы-для-автомобилей-газовозов.jpg',
