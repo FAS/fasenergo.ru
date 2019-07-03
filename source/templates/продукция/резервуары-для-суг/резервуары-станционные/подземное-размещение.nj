@@ -28,7 +28,7 @@ description: 'Станционные подземные резервуары д�
   { title: 'ФАС-20-ПС', volume: '20 м³', diam: '1600 мм', price: '939 000 руб.'  },
   { title: 'ФАС-10-ПС(Д)', volume: '10 м³', diam: 'Двустенный', price: '1 068 000 руб.'  }
 ] %}
-
+ 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
