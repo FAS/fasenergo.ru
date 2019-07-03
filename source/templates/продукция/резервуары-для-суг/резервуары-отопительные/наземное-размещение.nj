@@ -1,0 +1,57 @@
+---
+title:           Отопительные наземные резервуары для СУГ
+contentTitle:    Отопительные наземные резервуары для СУГ
+navTitle:        Отопительные наземные резервуары для СУГ
+breadcrumbTitle: Отопительные наземные резервуары для СУГ
+
+description: 'Отопительные наземные резервуары для СУГ от компании «Фасэнергомаш».'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/резервуары-для-суг/отопительный-резервуар-наземный--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<h2>Наземные резервуары с удлиненной горловиной</h2>
+
+<p>Использование наземных газгольдеров актуально в случаях, когда по каким-либо причинам подземное размещение резервуаров невозможно. Для заказа доступны резервуары емкостью от 4,6 до 20 м³.</p>
+
+{% set pageEq = [
+  { title: 'ФАС-4,6-НО', volume: '4,6 м³', diam: 1200, price: '265 500 руб.'  },
+  { title: 'ФАС-6,5-НО', volume: '6,5 м³', diam: 1200, price: '321 500 руб.'  },
+  { title: 'ФАС-8,5-НО', volume: '8,5 м³', diam: 1200, price: '426 500 руб.'  },
+  { title: 'ФАС-9,2-НО', volume: '9,2 м³', diam: 1200, price: '471 000 руб.'  },
+  { title: 'ФАС-20-НО', volume: '20 м³', diam: 1600, price: '941 000 руб.'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Объем</th>
+      <th>Диаметр резервуара</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.diam }} мм</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

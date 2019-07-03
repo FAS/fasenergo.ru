@@ -1,0 +1,61 @@
+---
+title:           Станционные наземные резервуары для СУГ
+contentTitle:    Станционные наземные резервуары для СУГ
+navTitle:        Станционные наземные резервуары для СУГ
+breadcrumbTitle: Станционные наземные резервуары для СУГ
+
+description: 'Станционные наземные резервуары для СУГ от компании «Фасэнергомаш».'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/резервуары-для-суг/станционный-резервуар-наземный--2.jpg' },
+  { url: 'equipment/резервуары-для-суг/станционный-резервуар-наземный--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<p>Наиболее традиционный вид резервуаров, применяемых на АГЗС. Наземные резервуары для газозаправочных станций представлены объемом от 4,6 м³ до 20 м³. Резервуары данного вида легко интегрируются в уже существующую АЗС, исключая необходимость земельных и общестроительных работ.</p>
+
+{% set pageEq = [
+  { title: 'ФАС-4,6-НС', volume: '4,6 м³', diam: '1200 мм', price: '283 000 руб.'  },
+  { title: 'ФАС-6,5-НС', volume: '6,5 м³', diam: '1200 мм', price: '338 000 руб.'  },
+  { title: 'ФАС-8,5-НС', volume: '8,5 м³', diam: '1200 мм', price: '428 500 руб.'  },
+  { title: 'ФАС-9,2-НС', volume: '9,2 м³', diam: '1200 мм', price: '503 500 руб.'  },
+  { title: 'ФАС-10-НС', volume: '10 м³', diam: '1200 мм', price: '545 000 руб.'  },
+  { title: 'ФАС-10-НС', volume: '10 м³', diam: '1600 мм', price: '773 000 руб.'  },
+  { title: 'ФАС-15-НС', volume: '15 м³', diam: '1600 мм', price: '864 500 руб.'  },
+  { title: 'ФАС-17-НС', volume: '17 м³', diam: '1600 мм', price: '915 500 руб.'  },
+  { title: 'ФАС-20-НС', volume: '20 м³', diam: '1600 мм', price: '951 000 руб.'  },
+  { title: 'ФАС-10-НС(Д)', volume: '10 м³', diam: 'Двустенный', price: '1 088 500 руб.'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Объем</th>
+      <th>Диаметр резервуара</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.diam }}</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

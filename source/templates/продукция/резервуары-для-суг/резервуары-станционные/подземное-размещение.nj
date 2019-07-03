@@ -1,0 +1,95 @@
+---
+title:           Станционные подземные резервуары для СУГ
+contentTitle:    Станционные подземные резервуары для СУГ
+navTitle:        Станционные подземные резервуары для СУГ
+breadcrumbTitle: Станционные подземные резервуары для СУГ
+
+description: 'Станционные подземные резервуары для СУГ от компании «Фасэнергомаш».'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/резервуары-для-суг/станционные-резервуары-и-агзс.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<p>Такой тип резервуаров в основном востребован при устройстве новой АГЗС, когда проведение земляных работ возможно и не сопряжено с большими трудностями. К заказу доступны газгольдеры емкостью от 4,6 до 20 м³.</p>
+
+{% set pageEq = [
+  { title: 'ФАС-4,6-ПС', volume: '4,6 м³', diam: '1200 мм', price: '315 500 руб.'  },
+  { title: 'ФАС-6,5-ПС', volume: '6,5 м³', diam: '1200 мм', price: '370 500 руб.'  },
+  { title: 'ФАС-8,5-ПС', volume: '8,5 м³', diam: '1200 мм', price: '461 000 руб.'  },
+  { title: 'ФАС-9,2-ПС', volume: '9,2 м³', diam: '1200 мм', price: '499 500 руб.'  },
+  { title: 'ФАС-20-ПС', volume: '20 м³', diam: '1600 мм', price: '939 000 руб.'  },
+  { title: 'ФАС-10-ПС(Д)', volume: '10 м³', diam: 'Двустенный', price: '1 068 000 руб.'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Объем</th>
+      <th>Диаметр резервуара</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.diam }}</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Резервуары подземного размещения станционные, в комплектации «Эконом АГЗС»</h2>
+
+{% set pageEq = [
+  { title: 'ФАС-4,6-ПС(Э)', volume: '4,6 м³', diam: '1200 мм', price: '413 000 руб.'  },
+  { title: 'ФАС-6,5-ПС(Э)', volume: '6,5 м³', diam: '1200 мм', price: '490 500 руб.'  },
+  { title: 'ФАС-8,5-ПС(Э)', volume: '8,5 м³', diam: '1200 мм', price: '589 000 руб.'  },
+  { title: 'ФАС-9,2-ПС(Э)', volume: '9,2 м³', diam: '1200 мм', price: '636 000 руб.'  },
+  { title: 'ФАС-20-ПС(Э)', volume: '20 м³', diam: '1600 мм', price: '1 150 500 руб.'  },
+  { title: 'ФАС-10-ПС(Д)', volume: '10 м³', diam: 'Двустенный', price: '1 369 000 руб.'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Объем</th>
+      <th>Диаметр резервуара</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.diam }}</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Вертикальные резервуары</h2>
+
+<p>Вертикальные газгольдеры устанавливаются на авто газозаправочных станциях в условиях недостатка свободного пространства. Поскольку большая площадь испарения в данном случае не нужна, то такой выбор можно назвать самым рациональным. Емкости оснащены полным комплектом запорной арматуры и дополнительным люком для удобства проведения профилактических работ.</p>
+
+{% endblock %}

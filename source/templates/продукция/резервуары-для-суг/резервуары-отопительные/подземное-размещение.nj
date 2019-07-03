@@ -1,0 +1,204 @@
+---
+title:           Отопительные подземные резервуары для СУГ
+contentTitle:    Отопительные подземные резервуары для СУГ
+navTitle:        Отопительные подземные резервуары для СУГ
+breadcrumbTitle: Отопительные подземные резервуары для СУГ
+
+description: 'Отопительные подземные резервуары для СУГ от компании «Фасэнергомаш».'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/резервуары-для-суг/отопительный-резервуар-подземный--3.jpg' },
+  { url: 'equipment/резервуары-для-суг/отопительный-резервуар-подземный--2.jpg' },
+  { url: 'equipment/резервуары-для-суг/отопительный-резервуар-подземный--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<h2>Подземные резервуары с удлиненной горловиной</h2>
+
+<p>Газгольдеры с высокой (500 и 800 мм) горловиной, которые производит и реализует компания «Фасэнергомаш», размещаются ниже уровня промерзания почвы, что позволяет сохранять плюсовую температуру на стенках емкости даже в зимний период. Для заказа доступны модели емкостью от 4,6 до 25 м³.</p>
+
+<h3>Резервуары с горловиной люка-лаза, высота горловины 500 мм</h3>
+
+{% set pageEq = [
+  { title: 'ФАС-4,6-ПО', volume: '4,6 м³', diam: 1200, price: '261 500 руб.'  },
+  { title: 'ФАС-6,5-ПО', volume: '6,5 м³', diam: 1200, price: '318 500 руб.'  },
+  { title: 'ФАС-8,5-ПО', volume: '8,5 м³', diam: 1200, price: '382 500 руб.'  },
+  { title: 'ФАС-9,2-ПО', volume: '9,2 м³', diam: 1200, price: '421 500 руб.'  },
+  { title: 'ФАС-10-ПО', volume: '10 м³', diam: 1600, price: '638 000 руб.'  },
+  { title: 'ФАС-12-ПО', volume: '12 м³', diam: 1600, price: '754 000 руб.'  },
+  { title: 'ФАС-15-ПО', volume: '15 м³', diam: 1600, price: '824 000 руб.'  },
+  { title: 'ФАС-17-ПО', volume: '17 м³', diam: 1600, price: '844 500 руб.'  },
+  { title: 'ФАС-20-ПО', volume: '20 м³', diam: 1600, price: '864 500 руб.'  },
+  { title: 'ФАС-25-ПО', volume: '25 м³', diam: 1600, price: '936 000 руб.'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Объем</th>
+      <th>Диаметр резервуара</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.diam }} мм</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3>Резервуары с горловиной люка-лаза, высота горловины 800 мм</h3>
+
+{% set pageEq = [
+  { title: 'ФАС-4,6-ПО', volume: '4,6 м³', diam: 1200, price: '268 500 руб.'  },
+  { title: 'ФАС-6,5-ПО', volume: '6,5 м³', diam: 1200, price: '325 500 руб.'  },
+  { title: 'ФАС-8,5-ПО', volume: '8,5 м³', diam: 1200, price: '389 500 руб.'  },
+  { title: 'ФАС-9,2-ПО', volume: '9,2 м³', diam: 1200, price: '428 500 руб.'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Объем</th>
+      <th>Диаметр резервуара</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.diam }} мм</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Подземные резервуары<br>(исполнение «с промышленной крышкой»)</h2>
+
+{% set pageEq = [
+  { title: 'ФАС-4,6-ПО', volume: '4,6 м³', diam: 1200, price: '282 000 руб.'  },
+  { title: 'ФАС-6,5-ПО', volume: '6,5 м³', diam: 1200, price: '339 000 руб.'  },
+  { title: 'ФАС-8,5-ПО', volume: '8,5 м³', diam: 1200, price: '405 000 руб.'  },
+  { title: 'ФАС-9,2-ПО', volume: '9,2 м³', diam: 1200, price: '443 500 руб.'  },
+  { title: 'ФАС-20-ПО', volume: '20 м³', diam: 1600, price: '887 000 руб.'  },
+  { title: 'ФАС-25-ПО', volume: '25 м³', diam: 1600, price: '958 000 руб.'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Объем</th>
+      <th>Диаметр резервуара</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.diam }} мм</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Подземные резервуары «Евростандарт+»</h2>
+
+<p>Конструкция этой линейки не предусматривает наличия горловины. Вместо нее установлены патрубки длиной 500 мм / 800 мм, оборудованные запорной арматурой. Для заказа доступны модели емкостью от 2,5 до 9,2 м³.</p>
+
+{% set pageEq = [
+  { title: 'ФАС-2,5-РУРГ-ПО(Е)', volume: '2,5 м³', diam: 1200, price: '193 500 руб.'  },
+  { title: 'ФАС-4,6-РУРГ-ПО(Е)', volume: '4,6 м³', diam: 1200, price: '213 000 руб.'  },
+  { title: 'ФАС-6,5-РУРГ-ПО(Е)', volume: '6,5 м³', diam: 1200, price: '278 000 руб.'  },
+  { title: 'ФАС-8,5-РУРГ-ПО(Е)', volume: '8,5 м³', diam: 1200, price: '346 000 руб.'  },
+  { title: 'ФАС-9,2-РУРГ-ПО(Е)', volume: '9,2 м³', diam: 1200, price: '389 500 руб.'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Объем</th>
+      <th>Диаметр резервуара</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.diam }} мм</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Вертикальные подземные резервуары</h2>
+
+<p>Вертикальные газгольдеры актуальны при недостатке свободного пространства для установки горизонтальных резервуаров.  Для заказа доступны газгольдеры емкостью от 2,5 до 6,5 м³.</p>
+
+{% set pageEq = [
+  { title: 'ФАС-2,5-РУРГ-В', volume: '2,5 м³', diam: 1200, price: '252 500 руб.'  },
+  { title: 'ФАС-4,5-РУРГ-В', volume: '4,5 м³', diam: 1200, price: '284 000 руб.'  },
+  { title: 'ФАС-6,5-РУРГ-В', volume: '6,5 м³', diam: 1200, price: '325 500 руб.'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Объем</th>
+      <th>Диаметр резервуара</th>
+      <th>Цена</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.diam }} мм</td>
+      <td class='h-align--center'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
