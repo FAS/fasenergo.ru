@@ -4,7 +4,7 @@ contentTitle:    Редукторы AUMA
 navTitle:        Редукторы AUMA
 breadcrumbTitle: Редукторы AUMA
 
-description: Редукторы AUMA от компании «Фасэнергомаш».
+description: Редукторы AUMA от компании «Фасэнергомаш». Разные типы редукторов. Подробная информация и преимущества. 
 ---
 
 {% extends '_layouts/_main.nj' %}

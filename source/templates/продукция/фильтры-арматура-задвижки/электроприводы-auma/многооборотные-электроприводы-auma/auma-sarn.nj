@@ -4,7 +4,7 @@ contentTitle:    Многооборотные электроприводы AUMA 
 navTitle:        Многооборотные электроприводы AUMA SARN 07.1 - SARN 25.1
 breadcrumbTitle: Многооборотные электроприводы AUMA SARN 07.1 - SARN 25.1
 
-description: Многооборотные электроприводы AUMA SARN от компании «Фасэнергомаш».
+description: Многооборотные электроприводы AUMA SARN от компании «Фасэнергомаш». Подробная информация и преимущества.
 ---
 
 {% extends '_layouts/_main.nj' %}

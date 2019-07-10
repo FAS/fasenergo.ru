@@ -4,7 +4,7 @@ contentTitle:    Концевые выключатели AUMA
 navTitle:        Концевые выключатели AUMA
 breadcrumbTitle: Концевые выключатели AUMA
 
-description: Концевые выключатели AUMA от компании «Фасэнергомаш».
+description: Концевые выключатели AUMA от компании «Фасэнергомаш». Подробная информация и преимущества.
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -4,7 +4,7 @@ contentTitle:    Блок управления AUMA MATIC
 navTitle:        Блок управления AUMA MATIC
 breadcrumbTitle: Блок управления AUMA MATIC
 
-description: Блок управления AUMA MATIC от компании «Фасэнергомаш».
+description: Блок управления AUMA MATIC от компании «Фасэнергомаш». Подробная информация и преимущества.
 ---
 
 {% extends '_layouts/_main.nj' %}

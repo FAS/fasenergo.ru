@@ -4,7 +4,7 @@ contentTitle:    Регуляторы давления газа RegO
 navTitle:        RegO
 breadcrumbTitle: RegO
 
-description: Регуляторы давления газа RegO производительностью 11-160 кг/ч.
+description: Компания ООО «Фасэнергомаш» предлагает регуляторы давления газа RegO производительностью 11-160 кг/ч.
 ---
 
 {% extends '_layouts/_main.nj' %}
