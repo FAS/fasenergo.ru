@@ -12,7 +12,7 @@ description: Компрессоры и компрессорные агрегат
 {% block main %}
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
 
-<h2>Винтовые компрессорные сборки для СУГ</h2>
+<h2>Винтовые компрессорные агрегаты для СУГ</h2>
 
 <h3>Компрессорные агрегаты для СУГ</h3>
 
