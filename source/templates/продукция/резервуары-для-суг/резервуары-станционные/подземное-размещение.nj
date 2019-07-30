@@ -13,8 +13,7 @@ description: 'Станционные подземные резервуары д�
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
 {% set pageEqPhotos = [
-  { url: 'equipment/резервуары-для-суг/станционные-резервуары-и-агзс.jpg' },
-  { url: 'equipment/резервуары-для-суг/схемы/10-пс-пмп-исправленный.jpg' }
+  { url: 'equipment/резервуары-для-суг/станционные-резервуары-и-агзс.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
