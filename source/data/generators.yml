@@ -2657,7 +2657,7 @@
       lpg: 0.33 кг/ч * 1 кВт
     operatingSpeed: 2800
     cooling: null
-  engineId: ваз-21083
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
