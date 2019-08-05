@@ -56,7 +56,7 @@
     {% call(depth) Item('/продукция/догреватели-паровой-фазы-суг', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/испарительно-смесительное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/насосно-компрессорное-оборудование', depth = depth) %}{% endcall %}
-    {% call(depth) Item('/продукция/автономные-системы-газоснабжения', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/автономная-газификация-на-суг', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/автономные-системы-газоснабжения-на-спг', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/автогазозаправочные-станции', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/газовые-топливораздаточные-колонки', depth = depth) %}{% endcall %}
