@@ -14,14 +14,6 @@ description: Другое насосно-компрессорное оборуд
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call CategoryCard(
-    title = 'Самовсасывающие установки',
-    hLevel = 3,
-    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/другое/самовсасывающие-установки.jpg',
-    url = '/продукция/насосно-компрессорное-оборудование/другое/самовсасывающие-установки',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-  {% call CategoryCard(
     title = 'Установки разделения воздуха',
     hLevel = 3,
     image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/другое/установки-разделения-воздуха.jpg',

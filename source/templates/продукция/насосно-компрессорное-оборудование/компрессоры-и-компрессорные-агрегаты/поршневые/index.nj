@@ -1,0 +1,206 @@
+---
+title:           Поршневые компрессоры и компрессорные агрегаты для СУГ и индустриальных газов
+contentTitle:    Поршневые компрессоры и компрессорные агрегаты для СУГ и индустриальных газов
+navTitle:        Поршневые компрессоры и компрессорные агрегаты для СУГ и индустриальных газов
+breadcrumbTitle: Поршневые компрессоры и компрессорные агрегаты для СУГ и индустриальных газов
+
+description: Поршневые компрессоры и компрессорные агрегаты для СУГ и индустриальных газов от компании ООО «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<h2>Компрессоры и компрессорные агрегаты для СУГ</h2>
+
+
+<h3>Вертикальные компрессоры для СУГ</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Компрессор<br>Corken 91<span class="h-block h-padding-top-- h-text-">Производительность<br>до 14 м³/час<br>Давление 24 бар</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/компрессоры/91/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессор-91',
+    class = 'o-grid__item h-1/5',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Компрессор<br>Corken 291<span class="h-block h-padding-top-- h-text-">Производительность<br>до 28 м³/час<br>Давление 24 бар</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/компрессоры/291/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессор-291',
+    class = 'o-grid__item h-1/5',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Компрессор<br>Corken 491<span class="h-block h-padding-top-- h-text-">Производительность<br>до 60 м³/час<br>Давление 24 бар</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/компрессоры/491/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессор-491',
+    class = 'o-grid__item h-1/5',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Компрессор<br>Corken 691<span class="h-block h-padding-top-- h-text-">Производительность<br>до 102 м³/час<br>Давление 24 бар</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/компрессоры/891/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессор-691',
+    class = 'o-grid__item h-1/5',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Компрессор<br>Corken 891<span class="h-block h-padding-top-- h-text-">Производительность<br>до 192 м³/час<br>Давление 32 бар</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/компрессоры/891/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессор-891',
+    class = 'o-grid__item h-1/5',
+    size = 'small'
+  ) %}{% endcall %}    
+</div>
+
+<h3>Компрессорные агрегаты для СУГ</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Компрессорный агрегат ФАС 91<span class="h-block h-padding-top-- h-text-">Производительность<br>до 12 м³/час<br>Мощность 3,6 кВт</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/компрессорный-агрегат-фас-291/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессорный-агрегат-фас-91',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Компрессорный агрегат ФАС 291<span class="h-block h-padding-top-- h-text-">Производительность<br>до 28 м³/час<br>Мощность 5 кВт</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/компрессорный-агрегат-фас-291/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессорный-агрегат-фас-291',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}  
+  {% call CategoryCard(
+    title = 'Компрессорный агрегат ФАС 491<span class="h-block h-padding-top-- h-text-">Производительность<br>до 58 м³/час<br>Мощность 10 кВт</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-491/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессорный-агрегат-фас-491',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Компрессорный агрегат ФАС 691<span class="h-block h-padding-top-- h-text-">Производительность<br>до 102 м³/час<br>Мощность 17,5 кВт</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-691/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессорный-агрегат-фас-691',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Компрессорный агрегат ФАС 891<span class="h-block h-padding-top-- h-text-">Производительность<br>до 180 м³/час<br>Мощность 30 кВт</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-891/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-суг/компрессорный-агрегат-фас-891',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h2>Компрессорные агрегаты для индустриальных газов</h2>
+
+<h3>Для водорода</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Поршневой компрессорный агрегат сухого хода ФАС 691<span class="h-block h-padding-top-- h-text-">Производительность<br>до 1710 Nm³/час</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-691/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-водорода/фас-691',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Поршневой компрессорный агрегат сухого хода ФАС 491<span class="h-block h-padding-top-- h-text-">Производительность<br>до 715 Nm³/час</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-491/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-водорода/фас-491',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Поршневой компрессорный агрегат сухого хода ФАС 891<span class="h-block h-padding-top-- h-text-">Производительность<br>до 300 Nm³/час</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-891/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-водорода/фас-891',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>  
+
+<h3>Для метана и попутного газа</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Поршневой компрессорный агрегат ФАС 491<span class="h-block h-padding-top-- h-text-">Производительность<br>до 60 м³/час<br>Мощность 10 кВт</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-491/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-метана-и-попутного-газа/фас-491',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Компрессорный агрегат ФАС 691 для метана<span class="h-block h-padding-top-- h-text-">Производительность<br>до 110 Nm³/час</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-691/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-метана-и-попутного-газа/фас-691',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Для пропилена</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Поршневой компрессорный агрегат сухого хода ФАС 891 <span class="h-block h-padding-top-- h-text-">Производительность<br>до 100 Nm³/час</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-891/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-пропилена/фас-891',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Поршневой компрессорный агрегат ФАС 891<span class="h-block h-padding-top-- h-text-">Производительность<br>до 294 Nm³/час</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-891/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-пропилена/фас-891-294',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Для CO2</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Компрессорный агрегат для CO2 ФАС 491<span class="h-block h-padding-top-- h-text-">Производительность<br>до 8 Nm³/час</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-491/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-co2/фас-491',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h3>Для этилена</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Компрессорный агрегат для перекачки этилена ФАС 891<span class="h-block h-padding-top-- h-text-">Производительность<br>до 100 Nm³/час</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/Компрессорный-агрегат-ФАС-891/card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/компрессоры-и-компрессорные-агрегаты/поршневые/для-этилена/фас-891',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>  
+{% endblock %}
