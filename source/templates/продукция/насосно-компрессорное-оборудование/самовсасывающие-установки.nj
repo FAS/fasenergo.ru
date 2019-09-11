@@ -23,7 +23,7 @@ description: Самовсасывающие установки с насосом
 
 {% set pageEq = [
   {
-    title: 'Самовсасывающая установка<br>ФАС 50',
+    title: 'Самовсасывающая установка ФАС 50',
     performance: 50,
     maxPrimingDepth: 3,
     equipment: [
@@ -35,7 +35,7 @@ description: Самовсасывающие установки с насосом
     ]
   },
   {
-    title: 'Самовсасывающая установка<br>ФАС 100',
+    title: 'Самовсасывающая установка ФАС 100',
     performance: 100,
     maxPrimingDepth: 5,
     equipment: [
