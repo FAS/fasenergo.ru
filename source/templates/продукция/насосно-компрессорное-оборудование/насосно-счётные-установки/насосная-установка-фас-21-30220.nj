@@ -1,0 +1,93 @@
+---
+title:           Насосная (сливная) установка ФАС № 21.30220 (до 220 л/мин)
+contentTitle:    Насосная (сливная) установка ФАС № 21.30220 (до 220 л/мин)
+navTitle:        Насосная (сливная) установка ФАС № 21.30220 (до 220 л/мин)
+breadcrumbTitle: Насосная (сливная) установка ФАС № 21.30220 (до 220 л/мин)
+
+description: Насосная (сливная) установка стационарного исполнения от компании ООО «Фасэнергомаш». Производительность до 220 л/мин.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Насосная установка на общей раме для слива в емкостной парк из автомобилей-газовозов.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/насосно-компрессорное-оборудование/сливная-установка/сливная-установка.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+{% set pageEq = [
+  { title: 'ФАС№ 21.30220', counter: 'Отсутствует', pump: 'ФАС Z2000', performance: 'до 220', price: '570&nbsp;000&nbsp;₽' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Счетчик</th>
+      <th>Насосный агрегат</th>
+      <th>Производительность</th>  
+      <th>Цена</th>            
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+     <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.counter}}</td>
+      <td class='h-align--center'>{{ e.pump}}</td>
+      <td class='h-align--center'>{{ e.performance }} л/мин</td>  
+      <td class='h-align--center'>{{ e.price }}</td>           
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Технические данные</h2>
+
+<ul>
+  <li>Класификация по давлению PN25;</li>
+  <li>Производительность макс. 220л/мин при диф. давлении 5 бар;</li>
+</ul>
+
+<h2>Комплектация</h2>
+
+<ul>
+  <li>Насосный агрегат ФАС Z2000 производительностью 220л/мин.<br>Температура используемого продукта от -50 °С до +125 °С;</li>
+  <li>Фильтр-грязеуловитель на линии подачи газа к насосу;</li>
+  <li>Cмотровое окно;</li>
+  <li>Обратный клапан;</li>
+  <li>Комплект запорно-предохранительной арматуры;</li>
+  <li>Манометр с запорным клапаном на всасывающей линии и на линии нагнетания.</li>
+</ul>
+
+<h3>Подключение</h3>
+
+<ul>
+  <li>Вход жидкая фаза - М60х4 левая с шаровым запорным клапаном;</li>
+  <li>Вход паровая фаза - М60х4 левая с шаровым запорным клапаном;</li>
+  <li>Выход жидкая фаза Фланец DN50 с шаровым запорным клапаном;</li>
+  <li>Выход паровая фаза Фланец DM25 с шаровым запорным клапаном;</li>
+  <li>Сбросной трубопровод RVS 15mm;</li>
+  <li>Обратная линия RVS 22mm.</li>
+</ul>
+
+
+<p>Все оборудование комплектно собрано, огрунтовано и окрашено.</p>
+
+
+<div class='Box h-padding'>
+<p><strong>Внимание! Насосный агрегат без байпасной линии!<br>Использование с закрытыми заслонками на линии нагнетания недопустимо!</strong></p>
+</div>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
