@@ -61,7 +61,19 @@ description: Дилеры компании «Фасэнергомаш» в Ек�
           email = 'office@eftechno.ru',
           url = 'http://eftechno.ru'
         ) }}
-      </li>
+      </li> 
+     <li>
+        {{ Dealer(
+          name = 'ООО «АМодуль»',
+          address = 'г. Екатеринбург, ул. Гаршина, 1а, оф. 304',
+          phones = [
+            { country: '7', city: '343', tel: ['361', '74', '31'] },
+            { country: '7', city: '950', tel: ['205', '24', '79'] }
+          ],
+          email = 'info@amodul-ural.ru',
+          url = 'http://amodul-ural.ru'
+        ) }}
+      </li> 
     </ul>
   </article>
 
