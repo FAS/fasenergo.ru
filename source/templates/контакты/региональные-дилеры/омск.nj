@@ -1,0 +1,67 @@
+---
+title:           Региональные дилеры в Омске
+contentTitle:    Региональные дилеры в Омске
+navTitle:        Омск
+breadcrumbTitle: Омск
+
+description: Дилеры компании «Фасэнергомаш» в Омске.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Phone with context %}
+
+{% macro Dealer(
+  name,
+  address,
+  phones,
+  email,
+  url
+) %}
+<p>{{ name }}</p>
+
+{% if address %}
+<p class='h-bleed-top--'>{{ address }}</p>
+{% endif %}
+
+{% if phones.length %}
+<ul class='g-list0 h-margin-bottom--'>
+  {% for phone in phones %}
+  <li>{{ Phone(phone) }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if email %}
+<p><a href='mailto:{{ email }}'>{{ email }}</a><br></p>
+{% endif %}
+
+{% if url %}
+<p class='h-bleed-top--'>
+  <a href='{{ url }}' target='_blank' rel='nofollow'>{{ url.replace('http://', '').replace('https://', '') }}</a>
+</p>
+{% endif %}
+{% endmacro %}
+
+<div class='o-grid h-childs-displace++'>
+
+   <article class='o-grid__item h-1/2'>
+    <h2>Омск</h2>
+    <ul>
+      <li>
+        {{ Dealer(
+          name = 'ИП Гавриленко Владимир Николаевич',
+          address = 'г. Омск  ул. 2-а Солнечная, д.49',
+          phones = [
+            { country: '7', city: '913', tel: ['977', '77', '73'] }
+          ],
+          email = 'o3450075@gmail.com',
+          url = 'http://89139777773.ru'
+        ) }}
+      </li>
+    </ul>
+  </article>
+
+</div>
+{% endblock %}
