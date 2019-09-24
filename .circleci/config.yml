@@ -46,16 +46,6 @@ aliases:
       name: Install latest version of npm
       command: sudo npm install -g npm@latest
 
-  - &deploy-to-production
-      command: ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
-      command: cat dockerfile.template | envsubst > dockerfile
-      command: tar cvzf app.tgz dockerfile build/ docker/
-      command: ssh core@$SERVER_IP docker system prune -af
-      command: scp app.tgz core@$SERVER_IP:~/$CIRCLE_PROJECT_REPONAME.tgz
-      command: scp deploy.sh core@$SERVER_IP:~/deploy.sh
-      command: ssh core@$SERVER_IP chmod +x deploy.sh
-      command: ssh core@$SERVER_IP ./deploy.sh $CIRCLE_PROJECT_REPONAME $CIRCLE_SHA1
-
 version: 2
 jobs:
   checkout:
@@ -101,7 +91,14 @@ jobs:
     steps:
       - restore_cache: *restore-repo-cache
       - restore_cache: *restore-build-cache
-      - deploy: *deploy-to-production
+      - run: ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
+      - run: cat dockerfile.template | envsubst > dockerfile
+      - run: tar cvzf app.tgz dockerfile build/ docker/
+      - run: ssh core@$SERVER_IP docker system prune -af
+      - run: scp app.tgz core@$SERVER_IP:~/$CIRCLE_PROJECT_REPONAME.tgz
+      - run: scp deploy.sh core@$SERVER_IP:~/deploy.sh
+      - run: ssh core@$SERVER_IP chmod +x deploy.sh
+      - run: ssh core@$SERVER_IP ./deploy.sh $CIRCLE_PROJECT_REPONAME $CIRCLE_SHA1
 
 workflows:
   version: 2
