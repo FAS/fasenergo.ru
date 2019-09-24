@@ -14,7 +14,7 @@ description: Дилеры компании «Фасэнергомаш» в Ом�
 
 {% macro Dealer(
   name,
-  address,
+  address, 
   phones,
   email,
   url
