@@ -47,15 +47,14 @@ aliases:
       command: sudo npm install -g npm@latest
 
   - &deploy-to-production
-      command: |
-        ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
-        cat dockerfile.template | envsubst > dockerfile
-        tar cvzf app.tgz dockerfile build/ docker/
-        ssh core@$SERVER_IP docker system prune -af
-        scp app.tgz core@$SERVER_IP:~/$CIRCLE_PROJECT_REPONAME.tgz
-        scp deploy.sh core@$SERVER_IP:~/deploy.sh
-        ssh core@$SERVER_IP chmod +x deploy.sh
-        ssh core@$SERVER_IP ./deploy.sh $CIRCLE_PROJECT_REPONAME $CIRCLE_SHA1
+      command: ssh-keyscan $SERVER_IP > ~/.ssh/known_hosts
+      command: cat dockerfile.template | envsubst > dockerfile
+      command: tar cvzf app.tgz dockerfile build/ docker/
+      command: ssh core@$SERVER_IP docker system prune -af
+      command: scp app.tgz core@$SERVER_IP:~/$CIRCLE_PROJECT_REPONAME.tgz
+      command: scp deploy.sh core@$SERVER_IP:~/deploy.sh
+      command: ssh core@$SERVER_IP chmod +x deploy.sh
+      command: ssh core@$SERVER_IP ./deploy.sh $CIRCLE_PROJECT_REPONAME $CIRCLE_SHA1
 
 version: 2
 jobs:
