@@ -1417,7 +1417,7 @@
   series: null
   model: ФАС-10-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-1/ВП</span> (10 кВт)
-  price: 471000
+  price: 462000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1768,7 +1768,7 @@
   series: null
   model: ФАС-13-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВП</span> (13 кВт)
-  price: 546000
+  price: 472000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1885,7 +1885,7 @@
   series: null
   model: ФАС-15-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-1/ВР</span> (15 кВт)
-  price: 602000
+  price: 573000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -1999,7 +1999,7 @@
   series: null
   model: ФАС-15-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-3/ВР</span> (15 кВт)
-  price: 600000
+  price: 577000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -2113,7 +2113,7 @@
   series: null
   model: ФАС-18-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-1/ВР</span> (18 кВт)
-  price: 602000
+  price: 573000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2227,7 +2227,7 @@
   series: null
   model: ФАС-18-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-3/ВР</span> (18 кВт)
-  price: 579000
+  price: 577000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2341,7 +2341,7 @@
   series: null
   model: ФАС-21-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВП</span> (21 кВт)
-  price: 606000
+  price: 587000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2576,7 +2576,7 @@
   series: null
   model: ФАС-21-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-3/ВР</span> (21 кВт)
-  price: 579000
+  price: 577000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2689,7 +2689,7 @@
   series: null
   model: ФАС-24-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВР</span> (24 кВт)
-  price: 662000
+  price: 646000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2803,7 +2803,7 @@
   series: null
   model: ФАС-28-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВП</span> (28 кВт)
-  price: 653000
+  price: 652000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3152,7 +3152,7 @@
   series: null
   model: ФАС-40-3/МП
   title: Газовый генератор <span class='text-red'>ФАС-40-3/МП</span> (40 кВт)
-  price: 1573000
+  price: 1551000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3269,7 +3269,7 @@
   series: null
   model: ФАС-50-3/МП
   title: Газовый генератор <span class='text-red'>ФАС-50-3/МП</span> (50 кВт)
-  price: 1572000
+  price: 1562000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3483,7 +3483,7 @@
   series: null
   model: ФАС-100-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-100-3/ЯП</span> (100 кВт)
-  price: 2576000
+  price: 2343000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3593,7 +3593,7 @@
   series: null
   model: ФАС-150-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-150-3/ЯП</span> (150 кВт)
-  price: 2715000
+  price: 2420000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3924,7 +3924,7 @@
   series: null
   model: ФАС-315-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-315-3/ЯП</span> (315 кВт)
-  price: 7132000
+  price: 7040000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -5597,7 +5597,7 @@
   series: null
   model: ФАС-35-3/ЗР
   title: Газовый генератор <span class='text-red'>ФАС-35-3/ЗР</span> (35 кВт)
-  price: 1058000
+  price: 1056000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -5695,7 +5695,7 @@
   series: null
   model: ФАС-40-3/ЗР
   title: Газовый генератор <span class='text-red'>ФАС-40-3/ЗР</span> (40 кВт)
-  price: 1058000
+  price: 1056000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
