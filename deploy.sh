@@ -6,11 +6,11 @@ PROJECT_VERSION=$2
 
 rm -rf $PROJECT_NAME
 mkdir $PROJECT_NAME
-tar xvzf $PROJECT_NAME.tgz --directory $PROJECT_NAME
+tar xzf $PROJECT_NAME.tgz --directory $PROJECT_NAME
 
 DOCKER_IMAGE_NAME=$(echo "$PROJECT_NAME" | tr '[:upper:]' '[:lower:]')
 
-docker build --quiet --pull=true -t "$DOCKER_IMAGE_NAME:$PROJECT_VERSION" $PROJECT_NAME
+docker build --pull=true -t "$DOCKER_IMAGE_NAME:$PROJECT_VERSION" $PROJECT_NAME
 
 sudo tee /etc/systemd/system/$PROJECT_NAME.service << EOF
 [Unit]
