@@ -30,3 +30,4 @@ EOF
 sudo systemctl daemon-reload
 sudo systemctl enable $PROJECT_NAME.service
 sudo systemctl restart $PROJECT_NAME.service
+sudo systemctl status $PROJECT_NAME.service
