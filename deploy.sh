@@ -27,6 +27,7 @@ ExecStart=/usr/bin/docker run --name $PROJECT_NAME -p 80:80 --mount type=bind,so
 WantedBy=multi-user.target
 EOF
 
+sudo mkdir -p /var/log/nginx
 sudo systemctl daemon-reload
 sudo systemctl enable $PROJECT_NAME.service
 sudo systemctl restart $PROJECT_NAME.service
