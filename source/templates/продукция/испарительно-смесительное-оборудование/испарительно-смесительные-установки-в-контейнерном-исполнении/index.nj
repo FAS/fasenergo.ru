@@ -1,0 +1,143 @@
+---
+title:           Испарительно-смесительные установки в контейнерном исполнении
+contentTitle:    Испарительно-смесительные установки в контейнерном исполнении
+navTitle:        Испарительно-смесительные установки в контейнерном исполнении
+breadcrumbTitle: Испарительно-смесительные установки в контейнерном исполнении
+
+description: Испарительно-смесительные установки от компании ООО «Фасэнергомаш» в контейнерном исполнении. Производительность до 9600 м³/ч.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/испарительно-смесительное-оборудование/ISU-SE-ND-K/Испартельно-смесительная-установка-ФАС-ISU-SE-ND-K--1--front.jpg' },
+  { url: 'equipment/испарительно-смесительное-оборудование/ISU-SE-ND-K/Испартельно-смесительная-установка-ФАС-ISU-SE-ND-K--2--front-left.jpg' },
+  { url: 'equipment/испарительно-смесительное-оборудование/ISU-SE-ND-K/Испартельно-смесительная-установка-ФАС-ISU-SE-ND-K--3--left.jpg' },
+  { url: 'equipment/испарительно-смесительное-оборудование/ISU-SE-ND-K/Испартельно-смесительная-установка-ФАС-ISU-SE-ND-K--4--right.jpg' },
+  { url: 'equipment/испарительно-смесительное-оборудование/ISU-SE-VD-K/Испартельно-смесительная-установка-ФАС-ISU-SE-VD-K--1--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Испарительно-смесительная установка ФАС ISU/SE/VD/K') }}
+
+<h2>Непрямой электрический подогрев</h2>
+
+<h3>Низкое давление</h3>
+
+{% set pageEqEl = [
+  { title: '<a href="/продукция/испарительно-смесительное-оборудование/испарительно-смесительные-установки-в-контейнерном-исполнении/фас-500-isu-se-nd-k/">Испарительно-смесительная установка ФАС 500 ISU/SE/ND/K </a>', performance: '500 м³/ч' },
+  { title: '<a href="/продукция/испарительно-смесительное-оборудование/испарительно-смесительные-установки-в-контейнерном-исполнении/фас-800-isu-se-nd-k/">Испарительно-смесительная установка ФАС 800 ISU/SE/ND/K </a>', performance: '800 м³/ч' },
+  { title: '<a href="/продукция/испарительно-смесительное-оборудование/испарительно-смесительные-установки-в-контейнерном-исполнении/фас-1200-isu-se-nd-k/">Испарительно-смесительная установка ФАС 1200 ISU/SE/ND/K </a>', performance: '1200 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3>Высокое давление</h3>
+
+{% set pageEqEl = [
+  { title: 'Испарительно-смесительная установка ФАС 500 ISU/SE/VD/K </a>', performance: '500 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФАС 800 ISU/SE/VD/K </a>', performance: '800 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФАС 1200 ISU/SE/VD/K </a>', performance: '1200 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Непрямой жидкостный подогрев</h2>
+
+<h3>Низкое давление</h3>
+
+{% set pageEqEl = [
+  { title: '<a href="/продукция/испарительно-смесительное-оборудование/испарительно-смесительные-установки-в-контейнерном-исполнении/фас-2000-isu-zh-nd-k/">Испарительно-смесительная установка ФАС 2000 ISU/ZH/ND/K </a>', performance: '2000 м³/ч' },
+  { title: '<a href="/продукция/испарительно-смесительное-оборудование/испарительно-смесительные-установки-в-контейнерном-исполнении/фас-2500-isu-zh-nd-k/">Испарительно-смесительная установка ФАС 2500 ISU/ZH/ND/K </a>', performance: '2500 м³/ч' },
+  { title: '<a href="/продукция/испарительно-смесительное-оборудование/испарительно-смесительные-установки-в-контейнерном-исполнении/фас-5000-isu-zh-nd-k/">Испарительно-смесительная установка ФАС 5000 ISU/ZH/ND/K </a>', performance: '5000 м³/ч' },
+    { title: '<a href="/продукция/испарительно-смесительное-оборудование/испарительно-смесительные-установки-в-контейнерном-исполнении/фас-10000-isu-zh-nd-k/">Испарительно-смесительная установка ФАС 10000 ISU/ZH/ND/K </a>', performance: '10000 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3>Высокое давление</h3>
+
+{% set pageEqEl = [
+  { title: 'Испарительно-смесительная установка ФАС 2000 ISU/ZH/VD/K </a>', performance: '2000 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФАС 2500 ISU/ZH/VD/K </a>', performance: '2500 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФАС 5000 ISU/ZH/VD/K </a>', performance: '5000 м³/ч' },
+  { title: 'Испарительно-смесительная установка ФАС 10000 ISU/ZH/VD/K </a>', performance: '10000 м³/ч' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
