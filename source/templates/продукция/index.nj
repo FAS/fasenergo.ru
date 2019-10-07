@@ -165,7 +165,7 @@ description: Немецко-российские газовые генерато
   {% call CategoryCard(
     title = 'Газорегуляторное оборудование',
     hLevel = 2,
-    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование.jpg',
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование--2.jpg',
     url = '/продукция/газорегуляторное-оборудование'
   ) %}{% endcall %}
 
