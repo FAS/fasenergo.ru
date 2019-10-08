@@ -49,13 +49,6 @@ description: Сервисные центры компании «Фасэнерг
     <ul>
       <li>
         {{ Dealer(
-          name = 'ООО «ЭНЕРГОПРОФ»',
-          phones = [{ country: '7', city: '495', tel: ['789', '47', '76'] }],
-          url = 'http://sklad-generator.ru'
-        ) }}
-      </li> 
-      <li>
-        {{ Dealer(
           name = 'ООО «ПГС»',
           phones = [
             { country: '7', city: '495', tel: ['502', '56', '65'] },

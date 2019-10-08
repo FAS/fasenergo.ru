@@ -47,13 +47,6 @@ description: Дилеры компании «Фасэнергомаш» в Мо�
   <article class='o-grid__item h-1/2'>
     <h2>Москва</h2>
     <ul>
-      <li>
-        {{ Dealer(
-          name = 'ООО «ЭНЕРГОПРОФ»',
-          phones = [{ country: '7', city: '495', tel: ['789', '47', '76'] }],
-          url = 'http://sklad-generator.ru'
-        ) }}
-      </li> 
      <li>
         {{ Dealer(
           name = 'ООО «ПГС»',
