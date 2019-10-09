@@ -3403,11 +3403,19 @@
     <p>Синхронизированная газопоршневая установка ФАС-100-3/МC в составе 2-ух газовых генераторов ФАС-50-3/МП.</p>
   features: null
   photos:
-    - url: equipment/газовые-генераторы/фас-мс/синхронизированная-установка-фас-100-3-мс--front-left--closed-n.jpg
+    - url: equipment/газовые-генераторы/фас-мс/синхронизированная-установка-фас-100-3-мс--front-left--closed-d.jpg
       main: true
-    - url: equipment/газовые-генераторы/фас-50-3-м/газовый-генератор-фас-50-3-м--front--closed--1.jpg
-    - url: equipment/газовые-генераторы/фас-50-3-м/газовый-генератор-фас-50-3-м--back-left--closed--3.jpg
-    - url: equipment/газовые-генераторы/фас-50-3-м/газовый-генератор-фас-50-3-м--front--closed-electro--4.jpg      
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--front--closed.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--front-left--closed.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--left--closed.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--back-left--closed.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--back--closed.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--back-right--closed.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--right--closed.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--front-right--closed.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--front--open.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--back--open.jpg
+    - url: equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--back-right--open.jpg    
   videos: null
   docs: null
   tags:
