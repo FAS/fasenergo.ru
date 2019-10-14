@@ -1,0 +1,225 @@
+---
+title:              Отсекатели
+contentTitle:       Отсекатели
+navTitle:           Отсекатели
+breadcrumbTitle:    Отсекатели
+
+description: Отсекатели компании от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<h2>Отсекатель PN 25 для монтажа после испарительной установки</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/отсекатели/отсекатель-для-монтажа-после-испарительной-установки.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Отсекатель') }}
+
+<h3>Характеристики</h3>
+
+<ul>
+  <li>Подключение контрольного сенсора (1“ NPT-IG);</li>
+  <li>Огрунтова и лакирован.</li>
+</ul>
+
+<h3>Комплектация</h3>
+
+<ul>
+  <li>Сетчатый фильтр (ячейка 1,0 мм);</li>
+  <li>Газоотвод;</li>
+  <li>Шаровый клапан для слива.</li>
+</ul>
+
+{% set pageEq = [
+  { artitle: '14 121', connection: 'Муфта ½" NPT', size: 160, weight: 6.0 },
+  { artitle: '14 122', connection: 'Муфта ¾" NPT', size: 160, weight: 6.9 },
+  { artitle: '14 123', connection: 'Муфта 1" NPT', size: 160, weight: 7.8 },
+  { artitle: '14 124', connection: 'Фланец DN 25', size: 220, weight: 8.7 },
+  { artitle: '14 125', connection: 'Фланец DN 32', size: 220, weight: 9.5 },
+  { artitle: '14 126', connection: 'Фланец DN 40', size: 225, weight: 10.1 },
+  { artitle: '14 127', connection: 'Фланец DN 50', size: 230, weight: 12.4 },
+  { artitle: '14 128', connection: 'Фланец DN 65', size: 330, weight: 26.8 },
+  { artitle: '14 129', connection: 'Фланец DN 80', size: 340, weight: 28.6 },
+  { artitle: '14 130', connection: 'Фланец DN 100', size: 350, weight: 31.7 }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Соединение</th>
+      <th>Объем</th>
+      <th>Размер</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.connection }}</td>
+      <td class='h-align--center'>{{ e.volume }}&nbsp;л</td>
+      <td class='h-align--center'>{{ e.size }}&nbsp;A</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p>Отсекатель предназначен для для отсечки жидкой фазы сжиженного газа на линии подачи к потребителю. Устанавливается между испарительной установкой и потребителем.</p>
+
+<p>На отсекатель может быть установлен контрольный сенсор уровня жидкой фазы СУГ в отсекателе. При достижении максимального значения контрольный сенсор производит отключение испарительной установки.</p>
+
+<h2>Водосборник PN 25 для слива воды из стационарных емкостей</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/отсекатели/водосборник--1.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/отсекатели/водосборник--схема.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Водосборник') }}
+
+<h3>Характеристики</h3>
+
+<ul>
+  <li>Объем – 4 л;</li>
+  <li>Вход – фланец DIN 2635;</li>
+  <li>Грунтован и лакирован.</li>
+</ul>
+
+<p><strong>Исполнения:</strong></p>
+<ul>
+  <li>A – угловой клапан – латунь, 3/4" NPT, заглушка и предохранительный клапан – латунь, типовой допуск 3/4" NPT, установочное давление – 25 бар;</li>
+  <li>B – шаровой клапан – сталь 1/2” NPT, заглушка и предохранительный клапан – нержавеющая сталь, типовой допуск 1/2” NPT, установочное давление – 25 бар.</li>
+</ul>
+
+<h3>Исполнения A</h3>
+
+{% set pageEq = [
+  { artitle: '14 151', connection: 'DN 15', size: 310, weight: 5.2 },
+  { artitle: '14 152', connection: 'DN 15', size: 310, weight: 5.5 },
+  { artitle: '14 153', connection: 'DN 20', size: 310, weight: 5.7 }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Соединение</th>
+      <th>Размер</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.connection }}</td>
+      <td class='h-align--center'>{{ e.size }}&nbsp;A</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3>Исполнения B</h3>
+
+{% set pageEq = [
+  { artitle: '14 156', connection: 'DN 15', size: 300, weight: 5.2 },
+  { artitle: '14 157', connection: 'DN 15', size: 300, weight: 5.5 },
+  { artitle: '14 158', connection: 'DN 20', size: 300, weight: 5.7 }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Соединение</th>
+      <th>Размер</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.connection }}</td>
+      <td class='h-align--center'>{{ e.size }}&nbsp;A</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Фильтр тонкой очистки PN 25 для стационарных систем</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/отсекатели/фильтр-тонкой-очистки--1.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/отсекатели/фильтр-тонкой-очистки--схема.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Отсекатель') }}
+
+<h3>Характеристики</h3>
+
+<ul>
+  <li>Огрунтован и окрашен;</li>
+  <li>Проходная форма;</li>
+  <li>Фланцы – в соответствии с DIN 2635;</li>
+  <li>Фильтрующий элемент – сетка из нержавеющей стали, ячейка – 0,125 мм;</li>
+  <li>Узел ½” NPT IG с заглушкой в запирающей крышке.</li>
+</ul>
+
+{% set pageEq = [
+  { artitle: '14 131', connection: 'DN 25', size: '250x205x133x285', weight: 11.0 },
+  { artitle: '14 132', connection: 'DN 32', size: '250x255x133x335', weight: 13.0 },
+  { artitle: '14 133', connection: 'DN 40', size: '285x250x152x335', weight: 16.0 },
+  { artitle: '14 134', connection: 'DN 50', size: '285x310x152x395', weight: 19.0 },
+  { artitle: '14 135', connection: 'DN 65', size: '350x350x194x465', weight: 29.0 },
+  { artitle: '14 136', connection: 'DN 80', size: '350x440x194x560', weight: 33.0 },
+  { artitle: '14 137', connection: 'DN 100', size: '460x585x273x720', weight: 42.0 },
+  { artitle: '14 138', connection: 'DN 125', size: '460x585x273x720', weight: 42.0 },
+  { artitle: '14 139', connection: 'DN 150', size: '648x714x406x899', weight: 192.0 },
+  { artitle: '14 169', connection: 'DN 200', size: '648x714x406x899', weight: 192.0 }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Типоразмер</th>
+      <th>Размеры AxBxDxL</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.connection }}</td>
+      <td class='h-align--center'>{{ e.size }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

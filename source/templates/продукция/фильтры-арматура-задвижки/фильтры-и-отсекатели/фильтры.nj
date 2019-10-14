@@ -1,0 +1,285 @@
+---
+title:           Купить нефтегазовый фильтр-грязеуловитель
+contentTitle:    Нефтегазовые фильтры-грязеуловители
+navTitle:        Фильтры
+breadcrumbTitle: Фильтры
+
+description: Продажа нефтегазовых фильтров-грязеуловителей от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Фильтр-грязеуловитель применяется в нефтегазовой промышленности и предназначен для защиты приборов и оборудования трубопроводов (нефтепроводов) путём очистки перекачиваемой жидкости от механических примесей и посторонних предметов.</p>
+
+<h2>Фильтры-грязеуловители PN 40</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/фильтры/Фильтр.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Фильтр') }}
+
+<h3>Характеристики</h3>
+
+<ul>
+  <li>Корпус – сталь (1.0619);</li>
+  <li>Y-форма;</li>
+  <li>Фланцевое соединение DIN 2635;</li>
+  <li>Фильтрующий элемент – нержавеющая сталь.</li>
+</ul>
+
+<p><strong>Исполнения:</strong></p>
+<ul>
+  <li>А – стандартное;</li>
+  <li>В – с фильтром тонкой очистки (ячейка – 0,25 мм).</li>
+</ul>
+
+<h3>Исполнения A</h3>
+
+{% set pageEq = [
+  { artitle: '14 001', size: 'DN 15', l: '130', cell: '0,60', weight: 2 },
+  { artitle: '14 002', size: 'DN 20', l: '150', cell: '0,60', weight: 3 },
+  { artitle: '14 003', size: 'DN 25', l: '160', cell: '0,60', weight: 4 },
+  { artitle: '14 004', size: 'DN 32', l: '180', cell: '0,60', weight: 6 },
+  { artitle: '14 005', size: 'DN 40', l: '200', cell: '0,60', weight: 8 },
+  { artitle: '14 006', size: 'DN 50', l: '230', cell: '0,60', weight: 11 },
+  { artitle: '14 007', size: 'DN 65', l: '290', cell: '0,60', weight: 15 },
+  { artitle: '14 008', size: 'DN 80', l: '310', cell: '1,20', weight: '24,2' },
+  { artitle: '14 009', size: 'DN 100', l: '350', cell: '1,20', weight: '28' },
+  { artitle: '14 010', size: 'DN 125', l: '400', cell: '1,20', weight: '44' },
+  { artitle: '14 000', size: 'DN 150', l: '480', cell: '1,20', weight: '62' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Типоразмер</th>
+      <th>Длина</th>
+      <th>Размер ячейки</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.size }}</td>
+      <td class='h-align--center'>{{ e.l }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.cell }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3>Исполнения B</h3>
+
+{% set pageEq = [
+  { artitle: '14 011', size: 'DN 15', l: '130', cell: '0,25', weight: 2 },
+  { artitle: '14 012', size: 'DN 20', l: '150', cell: '0,25', weight: 3 },
+  { artitle: '14 013', size: 'DN 25', l: '160', cell: '0,25', weight: 4 },
+  { artitle: '14 014', size: 'DN 32', l: '180', cell: '0,25', weight: 6 },
+  { artitle: '14 015', size: 'DN 40', l: '200', cell: '0,25', weight: 8 },
+  { artitle: '14 016', size: 'DN 50', l: '230', cell: '0,25', weight: 11 },
+  { artitle: '14 017', size: 'DN 65', l: '290', cell: '0,25', weight: 15 },
+  { artitle: '14 018', size: 'DN 80', l: '310', cell: '0,25', weight: '24,2' },
+  { artitle: '14 019', size: 'DN 100', l: '350', cell: '0,25', weight: '28' },
+  { artitle: '14 020', size: 'DN 125', l: '400', cell: '0,25', weight: '44' },
+  { artitle: '14 040', size: 'DN 150', l: '480', cell: '0,25', weight: '62' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Типоразмер</th>
+      <th>Длина</th>
+      <th>Размер ячейки</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.size }}</td>
+      <td class='h-align--center'>{{ e.l }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.cell }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p>Поставка с другими типоразмерами, PN 16, ANSI-фланцем – по запросу.</p>
+
+<hr>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/фильтры/фильтр--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Фильтр') }}
+
+<h3>Характеристики</h3>
+
+<ul>
+  <li>Корпус из стального сплава GSßC 25 /GP 240GH;</li>
+  <li>Y-форма с фланцами в соответствии с DIN 2635/EN 1092-1;</li>
+  <li>Внутренний фильтр из нержавеющей стали;</li>
+  <li>Размер ячейки – 0,6 мм.</li>
+</ul>
+
+{% set pageEq = [
+  { artitle: '14 411', size: 'DN 15', l: '130', cell: '0,6', weight: '2,4' },
+  { artitle: '14 412', size: 'DN 20', l: '150', cell: '0,6', weight: 4 },
+  { artitle: '14 413', size: 'DN 25', l: '160', cell: '0,6', weight: '5,2' },
+  { artitle: '14 414', size: 'DN 32', l: '180', cell: '0,6', weight: '7,2' },
+  { artitle: '14 415', size: 'DN 40', l: '200', cell: '0,6', weight: '8,5' },
+  { artitle: '14 416', size: 'DN 50', l: '230', cell: '0,6', weight: '12,2' },
+  { artitle: '14 417', size: 'DN 65', l: '290', cell: '0,6', weight: '19,0' },
+  { artitle: '14 418', size: 'DN 80', l: '310', cell: '0,6', weight: '27,2' },
+  { artitle: '14 419', size: 'DN 100', l: '350', cell: '0,6', weight: '44' },
+  { artitle: '14 420', size: 'DN 125', l: '400', cell: '0,6', weight: '65' },
+  { artitle: '14 421', size: 'DN 150', l: '480', cell: '0,6', weight: '80' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Типоразмер</th>
+      <th>Длина</th>
+      <th>Размер ячейки</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.size }}</td>
+      <td class='h-align--center'>{{ e.l }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.cell }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<hr>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/фильтры/фильтр--3.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Фильтр') }}
+
+<h3>Характеристики</h3>
+
+<ul>
+  <li>Y-форма;</li>
+  <li>Резьбовое соединение;</li>
+  <li>Размер ячейки – 0,25 мм из нержавеющей стали;</li>
+  <li>Материал корпуса – сталь GP240GH (1.0619).</li>
+</ul>
+
+{% set pageEq = [
+  { artitle: '14 0610', connection: '½', l: '80', weight: '0,3' },
+  { artitle: '14 0620', connection: '¾', l: '95', weight: '0,4' },
+  { artitle: '14 0630', connection: '1', l: '100', weight: '0,8' },
+  { artitle: '14 0640', connection: '1 ¼', l: '120', weight: '1,2' },
+  { artitle: '14 0650', connection: '1 ½', l: '140', weight: '1,5' },
+  { artitle: '14 0660', connection: '2', l: '180', weight: '2,4' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Соединение</th>
+      <th>Длина</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.connection }}&nbsp;NPT</td>
+      <td class='h-align--center'>{{ e.l }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<hr>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/фильтры/фильтр--4.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Фильтр') }}
+
+<h3>Характеристики</h3>
+
+<ul>
+  <li>Межфланцевое исполнение;</li>
+  <li>Компакт-форма (DIN 3202);</li>
+  <li>Цилиндрический корпус с двумя заглушками;</li>
+  <li>Материал корпуса – сталь GP240GH (1.0619);</li>
+  <li>Размер ячейки – 1,0 мм.</li>
+</ul>
+
+{% set pageEq = [
+  { artitle: '14 091', connection: 'DN 40', l: '40', weight: '1,1' },
+  { artitle: '14 092', connection: 'DN 50', l: '42', weight: '1,3' },
+  { artitle: '14 093', connection: 'DN 65', l: '46', weight: '1,5' },
+  { artitle: '14 094', connection: 'DN 80', l: '50', weight: '2,3' },
+  { artitle: '14 095', connection: 'DN 100', l: '60', weight: '2,8' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Типоразмер</th>
+      <th>Длина</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.connection }}</td>
+      <td class='h-align--center'>{{ e.l }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

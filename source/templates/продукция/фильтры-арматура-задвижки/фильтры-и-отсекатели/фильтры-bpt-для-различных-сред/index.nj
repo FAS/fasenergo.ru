@@ -1,0 +1,109 @@
+---
+title:           Купить фланцевые фильтры BPT для СУГ и индустриальных жидкостей
+contentTitle:    Фланцевые фильтры BPT для СУГ и индустриальных жидкостей
+navTitle:        Фильтры BPT 
+breadcrumbTitle: Фильтры BPT
+
+description: Продажа фланцевых фильтров BPT для СУГ и индустриальных жидкостей от компании «Фасэнергомаш». Подробные характеристики.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p>Фланцевые фильтры BPT от фирмы BATU (Турция) устанавливаются в газопроводах, на технологических линиях, перед газовыми насосами. Рабочая среда: минеральное и синтетическое масло, керосин, пропан-бутан (СУГ), этилен, дизельное топливо, смазочные масла, аммиак, тормозные и гидравлические жидкости, водяной пар, а также другие неагрессивные среды для углеродистой стали. Степень фильтрования 0,5 мм. Фильтры поставляются в типоразмерах от DN15 до DN150. Рабочая температура: PN16: от -10 °C до +300°C; PN40: от -40 °C до +400°C.</p>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN15, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 130X95X95 мм<br>Вес: 2.40 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn15-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN20, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 150X105X105 мм<br>Вес: 4.00 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn20-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN25, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 160X115X115 мм<br>Вес: 5.20 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn25-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN32, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 180X140X140 мм<br>Вес: 7.20 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn32-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN40, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 200X150X150 мм<br>Вес: 8.50 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn40-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN50, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 230X230X165 мм<br>Вес: 12.20 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn50-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN65, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 290X185X185 мм<br>Вес: 19.00 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn65-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN80, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 310X200X200 мм<br>Вес: 27.70 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn80-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN100, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 350X235X235 мм<br>Вес: 44.00 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn100-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN125, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 400X270X270 мм<br>Вес: 65.00 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn125-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Фильтр фланцевый BPT (DN150, PN40)<span class="h-block h-padding-top-- h-text-">Размеры: 480X300X300 мм<br>Вес: 80.00 кг</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/фланцевые-фильтры-bpt.jpg',    
+    url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели/фильтры-bpt-для-различных-сред/bpt-dn150-pn25',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}    
+</div>
+{% endblock %}
