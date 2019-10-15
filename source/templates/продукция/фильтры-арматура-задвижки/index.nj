@@ -30,17 +30,17 @@ description: Фильтры и запорно-предохранительная
   url = '/продукция/фильтры-арматура-задвижки/фильтры-и-отсекатели'
 ) %}{% endcall %}
 
+
+{% call CategoryCard(
+  title = 'Измерительные устройства',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/массовый-расходомер.jpg',
+  url = '/продукция/фильтры-арматура-задвижки/измерительные-устройства'
+) %}{% endcall %}
+
 <hr>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
-  {% call CategoryCard(
-    title = 'Контрольные окошки',
-    hLevel = 2,
-    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/контрольные-окошки.jpg',
-    url = '/продукция/фильтры-арматура-задвижки/контрольные-окошки',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
   {% call CategoryCard(
     title = 'Запорно-предохранительная арматура',
     hLevel = 2,
@@ -102,14 +102,6 @@ description: Фильтры и запорно-предохранительная
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/изоляционные-фланцы-с-искроотводом.jpg',
     url = '/продукция/фильтры-арматура-задвижки/изоляционные-фланцы-с-искроотводом',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-  {% call CategoryCard(
-    title = 'Массовый расходомер',
-    hLevel = 2,
-    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/массовый-расходомер.jpg',
-    url = '/продукция/фильтры-арматура-задвижки/массовый-расходомер',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}

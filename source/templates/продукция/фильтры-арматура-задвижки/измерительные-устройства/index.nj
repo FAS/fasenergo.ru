@@ -1,0 +1,32 @@
+---
+title:           Измерительные устройства
+contentTitle:    Измерительные устройства
+navTitle:        Измерительные устройства
+breadcrumbTitle: Измерительные устройства
+
+description: Измерительные устройства от компании ООО «Фасэнергомаш» — производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p> </p>
+
+
+  {% call CategoryCard(
+    title = 'Контрольные окошки',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/контрольные-окошки.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/измерительные-устройства/контрольные-окошки'
+  ) %}{% endcall %} 
+
+  {% call CategoryCard(
+    title = 'Счетчики и счетные установки',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/массовый-расходомер.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/измерительные-устройства/счетчики'
+  ) %}{% endcall %}
+
+{% endblock %}

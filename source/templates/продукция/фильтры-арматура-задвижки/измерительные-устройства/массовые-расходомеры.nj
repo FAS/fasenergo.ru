@@ -1,0 +1,79 @@
+---
+title:           Массовые кориолисовы расходомеры LPG MASS
+contentTitle:    Массовые кориолисовы расходомеры LPG MASS
+navTitle:        Массовые кориолисовы расходомеры LPG MASS
+breadcrumbTitle: Массовые кориолисовы расходомеры LPG MASS
+
+description: Продажа массового расходомера от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Принцип измерения основан на принципе контролируемого возбуждения сил Кориолиса. Эти силы всегда возникают в системе, в которой одновременно присутствуют поступательное (линейное) и вращательное движения.</p>
+<p>Измерительная система состоит из преобразователя и сенсора, составляющих единую механическую конструкцию.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/счетчики/расходомер-promass-40e.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/счетчики/расходомер-promass-83e.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/счетчики/расходомер-promass-раздельное-исполнение.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+{% set pageEq = [
+  { artitle: '98 8624', type: 'PROMASS 80E', connection: 'DN 15', measurement: '180 л/мин<br>(для СУГ)', commutation: 'HART, частотный выход,<br>аналоговый вход/выход' },
+  { artitle: '98 8625', type: 'PROMASS 83E', connection: 'DN 15', measurement: '180 л/мин<br>(для СУГ)', commutation: 'Modbus+RS485, частотный выход, аналоговый вход/выход' },
+  { artitle: '98 8612', type: 'PROMASS 80E', connection: 'DN 25', measurement: '500 л/мин<br>(для СУГ)', commutation: 'HART, частотный выход,<br>аналоговый вход/выход' },
+  { artitle: '98 8613', type: 'PROMASS 83E', connection: 'DN 25', measurement: '500 л/мин<br>(для СУГ)', commutation: 'Modbus+RS485, частотный выход, аналоговый вход/выход' },
+  { artitle: '98 8614', type: 'PROMASS 80E', connection: 'DN 40', measurement: '1268 л/мин<br>(для СУГ)', commutation: 'HART, частотный выход,<br>аналоговый вход/выход' },
+  { artitle: '98 8615', type: 'PROMASS 83E', connection: 'DN 40', measurement: '1268 л/мин<br>(для СУГ)', commutation: 'Modbus+RS485, частотный выход, аналоговый вход/выход' },
+  { artitle: '98 8616', type: 'PROMASS 80E', connection: 'DN 50', measurement: '1950 л/мин<br>(для СУГ)', commutation: 'HART, частотный выход,<br>аналоговый вход/выход' },
+  { artitle: '98 8617', type: 'PROMASS 83E', connection: 'DN 50', measurement: '1950 л/мин<br>(для СУГ)', commutation: 'Modbus+RS485, частотный выход, аналоговый вход/выход' },
+  { artitle: '98 8618', type: 'PROMASS 80E', connection: 'DN 80', measurement: '5075 л/мин<br>(для СУГ)', commutation: 'HART, частотный выход,<br>аналоговый вход/выход' },
+  { artitle: '98 8619', type: 'PROMASS 83E', connection: 'DN 80', measurement: '5075 л/мин<br>(для СУГ)', commutation: 'Modbus+RS485, частотный выход, аналоговый вход/выход' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Тип</th>
+      <th>Соединение</th>
+      <th>Область измерения, л/м</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.type }}</td>
+      <td class='h-align--center'>{{ e.connection }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.measurement }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.commutation }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Характеристики</h2>
+
+<ul>
+	<li>Измерения производятся в режиме реального времени, независимо от физических свойств жидкости (вязкости, плотности и т.д.);</li>
+	<li>Повышенная точность измерения расхода жидкостей и газов с учетом их массы, плотности и температуры;</li>
+	<li>Отсутствие внутренних механически изнашивающихся (трущихся или скользящих) деталей;</li>
+	<li>Работа со всеми общепринятыми протоколами передачи данных: HART, PROFIBUS DP/PA, MODBUS и др.;</li>
+	<li>Устойчивость к вибрации;</li>
+	<li>Адаптация для работы в России и странах СНГ.</li>
+</ul>
+
+<p>Для прочих продуктов – по специальному запросу</p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

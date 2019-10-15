@@ -1,0 +1,123 @@
+---
+title:           Контрольные окошки
+contentTitle:    Контрольные окошки
+navTitle:        Контрольные окошки
+breadcrumbTitle: Контрольные окошки
+
+description: Контрольные окошки от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Контрольные окошки предназначены для осуществления визуального контроля за потоком жидкости.</p>
+
+
+<h2>Контрольные окошки PN 25</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/контрольные-окошки/контрольное-окошко--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Контрольное окошко') }}
+
+<h3>Характеристики</h3>
+
+<ul>
+  <li>Соединительный элемент NPT-внутренняя резьба;</li>
+  <li>Материал – GS-C25;</li>
+  <li>Два противолежащих стекла.</li>
+</ul>
+
+{% set pageEq = [
+  { artitle: '18 503', connection: '½', l: '100', weight: '2,8' },
+  { artitle: '18 504', connection: '¾', l: '100', weight: '2,8' },
+  { artitle: '18 505', connection: '1', l: '130', weight: '5,6' },
+  { artitle: '18 506', connection: '1 ¼', l: '120', weight: '5,6' },
+  { artitle: '18 507', connection: '1 ½', l: '150', weight: '6,0' },
+  { artitle: '18 508', connection: '2', l: '180', weight: '9,5' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Соединение</th>
+      <th>Длина</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.connection }}&nbsp;NPT</td>
+      <td class='h-align--center'>{{ e.l }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<hr>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/контрольные-окошки/контрольное-окошко--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Контрольное окошко') }}
+
+<h3>Характеристики</h3>
+
+<ul>
+  <li>Фланцы – DIN 2635;</li>
+  <li>Корпус – чугун GS-C25;</li>
+  <li>Два противолежащих боросиликатных стекла (DIN 7080).</li>
+</ul>
+
+{% set pageEq = [
+  { artitle: '18 588', connection: 'DN 15', l: '150', weight: '3,5' },
+  { artitle: '18 589', connection: 'DN 20', l: '150', weight: '4,5' },
+  { artitle: '18 590', connection: 'DN 25', l: '160', weight: '5,5' },
+  { artitle: '18 591', connection: 'DN 32', l: '180', weight: '8,0' },
+  { artitle: '18 592', connection: 'DN 40', l: '200', weight: '9,0' },
+  { artitle: '18 593', connection: 'DN 50', l: '230', weight: '11,0' },
+  { artitle: '18 517', connection: 'DN 65', l: '290', weight: '16,0' },
+  { artitle: '18 518', connection: 'DN 80', l: '310', weight: '21,0' },
+  { artitle: '18 519', connection: 'DN 100', l: '350', weight: '27,0' },
+  { artitle: '18 509', connection: 'DN 125', l: '400', weight: '38,0' },
+  { artitle: '18 510', connection: 'DN 150', l: '480', weight: '50,0' },
+  { artitle: '92 662', connection: 'DN 200', l: '400', weight: '111,0' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Соединение</th>
+      <th>Длина</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.connection }}</td>
+      <td class='h-align--center'>{{ e.l }}&nbsp;мм</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

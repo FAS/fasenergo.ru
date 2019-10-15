@@ -1,0 +1,129 @@
+---
+title:           Счетные установки типа LC
+contentTitle:    Счетные установки типа LC
+navTitle:        Счетные установки типа LC
+breadcrumbTitle: Счетные установки типа LC
+
+description: Продажа счетной установки от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/счетчики/счетные-установки-lc--1.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/счетчики/счетные-установки-lc--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Исполнение для автомобилей-газовозов</h2>
+
+{% set pageEq = [
+  { artitle: '18 792', type: 'ФАС-LC&nbspMA&nbsp;5GX&nbsp;10', connection: '1½”', performance: ' 20...227', pressure: '25', material: 'Alu', execution: 'без температурной компенсации', weight: '37'  },
+  { artitle: '18 932', type: 'ФАС-LC&nbspMA&nbsp;5GY&nbsp;10', connection: '1½”', performance: '45...227', pressure: '25', material: 'Alu', execution: 'с&nbspтемпературной компенсацией', weight: '40'  },
+  { artitle: '18 7935', type: 'ФАС-LC&nbspMA&nbsp7GX&nbsp10', connection: '2”', performance: '75...380', pressure: '25', material: 'Alu', execution: 'без температурной компенсации', weight: '44'  },
+  { artitle: '18 7936', type: 'ФАС-LC&nbspMA&nbsp7GX&nbsp10', connection: '2”', performance: '75...380', pressure: '25', material: 'Alu', execution: 'с&nbspтемпературной компенсацией', weight: '43'  },
+  { artitle: '18 904', type: 'ФАС-LC&nbspMA&nbsp7GY&nbsp10', connection: '2”', performance: '75...380', pressure: '25', material: 'Alu', execution: 'с температурной компенсацией и Ex-датчиком', weight: '49'  },
+  { artitle: '18 903', type: 'ФАС-LC&nbspMA&nbsp7GY&nbsp10', connection: '2”', performance: '75...380', pressure: '25', material: 'Alu', execution: 'без температурной компенсациий', weight: '46'  },
+  { artitle: '18 794', type: 'ФАС-LC&nbspMA&nbsp15GX&nbsp10', connection: '3”', performance: '150...760', pressure: '25', material: 'Alu', execution: 'с&nbspтемпературной компенсацией', weight: '49'  },
+  { artitle: '18 933', type: 'ФАС-LC&nbspMA&nbsp15GY&nbsp10', connection: '3”', performance: ' 150...757', pressure: '25', material: 'Alu', execution: 'с&nbspтемпературной компенсацией', weight: '46'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Тип</th>
+      <th>Соединение</th>
+      <th>Производительность</th>
+      <th>Рабочее давление</th>
+      <th>Материал</th>
+      <th>Исполнение</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.type }}</td>
+      <td class='h-align--center'>{{ e.connection }}</td>
+      <td class='h-align--center'>{{ e.performance }}&nbsp;л/мин</td>
+      <td class='h-align--center'>{{ e.pressure }}&nbsp;бар</td>
+      <td class='h-align--center'>{{ e.material }}</td>
+      <td class='h-align--center'>{{ e.execution }}</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Исполнение для стационарных систем</h2>
+
+{% set pageEq = [
+  { artitle: '18 915', type: 'ФАС-LC&nbspMSA&nbsp;15GY&nbsp;10', connection: '3” ANSI', performance: '15...760', pressure: '21', material: 'Сталь', execution: 'без температурной компенсации', weight: '56'  },
+  { artitle: '18 914', type: 'ФАС-LC&nbspMSA&nbsp;15GY&nbsp;10', connection: '3” ANSI', performance: '15...760', pressure: '21', material: 'Сталь', execution: 'с&nbspтемпературной компенсацией', weight: '59'  },
+  { artitle: '18 795', type: 'ФАС-LC&nbspMSA&nbsp;15GY&nbsp;10', connection: '3” ANSI', performance: '265...1325', pressure: '21', material: 'Сталь', execution: 'без температурной компенсации', weight: '138'  },
+  { artitle: '18 909', type: 'ФАС-LC&nbspMSA&nbsp;15GY&nbsp;10', connection: '3” ANSI', performance: '265...1325', pressure: '21', material: 'Сталь', execution: 'с&nbspтемпературной компенсацией', weight: '141'  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Тип</th>
+      <th>Соединение</th>
+      <th>Производительность</th>
+      <th>Рабочее давление</th>
+      <th>Материал</th>
+      <th>Исполнение</th>
+      <th>Вес</th>
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.artitle }}</td>
+      <td class='h-align--center'>{{ e.type }}</td>
+      <td class='h-align--center'>{{ e.connection }}</td>
+      <td class='h-align--center'>{{ e.performance }}&nbsp;л/мин</td>
+      <td class='h-align--center'>{{ e.pressure }}&nbsp;бар</td>
+      <td class='h-align--center'>{{ e.material }}</td>
+      <td class='h-align--center'>{{ e.execution }}</td>
+      <td class='h-align--center'>{{ e.weight }}&nbsp;кг</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Характеристики</h2>
+
+<ul>
+<li>Направление потока – слева направо;</li>
+<li>Уплотнения Buna;</li>
+<li>Установка с опорной стойкой без рамы;</li>
+<li>Исполнение для газовозов: тип МА-4 до МА-15, корпус – алюминий;</li>
+<li>Исполнение для стационарных систем: тип MSA до MSA-120, корпус – сталь.</li>
+</ul>
+
+<h2>Комплектация</h2>
+
+<ul>
+<li>Обратный клапан (в стандартной поставке счетных установок MA-5 до MA-7);</li>
+<li>Газоотсекатель с фильтром тонкой очистки; LC-счетчик;</li>
+<li>Механическое счетное устройство тип VR (литер) с печатным устройством;</li>
+<li>Дифференциальный клапан;</li>
+<li>Измерительные камеры.</li>
+</ul>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

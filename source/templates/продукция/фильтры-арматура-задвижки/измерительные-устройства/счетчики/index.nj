@@ -1,0 +1,48 @@
+---
+title:           Счетчики и счетные установки
+contentTitle:    Счетчики и счетные установки
+navTitle:        Счетчики и счетные установки
+breadcrumbTitle: Счетчики и счетные установки
+
+description: Счетчики и счетные установки от компании ООО «Фасэнергомаш» — производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p> </p>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Массовые кориолисовы расходомеры LPG MASS',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/массовый-расходомер.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/измерительные-устройства/счетчики/массовые-расходомеры',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+
+  {% call CategoryCard(
+    title = 'Турбинные счетчики',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/измерительные-устройства/счетчики/турбинный-счетчик.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/измерительные-устройства/счетчики/турбинные-счетчики',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}  
+
+  {% call CategoryCard(
+    title = 'Счетные установки<br>типа LC',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/измерительные-устройства/счетчики/счетные-установки-lc.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/измерительные-устройства/счетчики/счетные-установки-lc',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}   
+
+</div>
+
+{% endblock %}
