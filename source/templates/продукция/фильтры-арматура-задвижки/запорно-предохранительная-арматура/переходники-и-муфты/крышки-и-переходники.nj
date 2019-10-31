@@ -1,0 +1,122 @@
+---
+title:           Крышки и переходники RegO
+contentTitle:    Крышки и переходники RegO
+navTitle:        Крышки и переходники RegO
+breadcrumbTitle: Крышки и переходники RegO
+
+description: Крышки и переходники RegO от компании ООО «Фасэнергомаш» — производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/крышки-и-переходники--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+ 
+
+<p>  </p>
+  
+<table class='Table'>
+<thead>
+<tr><th colspan="2"><span>Крышка с цепочкой на кольце</span></th><th rowspan="2"><span>№ изделия <br />(колпачок)</span></th><th rowspan="2">
+<p><span>Материал</span></p>
+</th><th rowspan="2"><span>Резьбовое <br />соединение</span></th></tr>
+<tr><th><span>№ изделия</span></th><th><span>Кольцо <br />к трубе <br />размерами до</span></th></tr>
+<tr>
+<td><span>3144-91</span></td>
+<td rowspan="2"><span>¾"</span></td>
+<td>
+<p><span>3144-9P</span></p>
+</td>
+<td rowspan="3">
+<p><span>циколак (полимер)</span></p>
+</td>
+<td>
+<p><span>1 ¼" F. ACME</span></p>
+</td>
+</tr>
+<tr>
+<td><span>3174-91</span></td>
+<td rowspan="2"><span>3174-9P</span></td>
+<td rowspan="3"><span>1 ¾" F. ACME</span></td>
+</tr>
+<tr>
+<td><span>3174-93</span></td>
+<td rowspan="2"><span>1 ¼"</span></td>
+</tr>
+<tr>
+<td><span>A8016-93</span></td>
+<td><span>A8016-9Р</span></td>
+<td><span>нейлон</span></td>
+</tr>
+<tr>
+<td><span>1708</span></td>
+<td><span>¾"</span></td>
+<td rowspan="4"><span>-</span></td>
+<td rowspan="6"><span>латунь</span></td>
+<td><span>F.POL (CGA 510)</span></td>
+</tr>
+<tr>
+<td><span>7141FP</span></td>
+<td rowspan="2"><span>1 ¼"</span></td>
+<td><span>1 ¼" F. ACME</span></td>
+</tr>
+<tr>
+<td><span>3175P</span></td>
+<td><span>1 ¾" F. ACME</span></td>
+</tr>
+<tr>
+<td><span>3184-90</span></td>
+<td><span>2"</span></td>
+<td><span>2 ¼" F. ACME</span></td>
+</tr>
+<tr>
+<td><span>3194-90</span></td>
+<td><span>3"</span></td>
+<td><span>3194-9</span></td>
+<td rowspan="2"><span>3 ¼" F. АСМЕ</span></td>
+</tr>
+<tr>
+<td><span>-</span></td>
+<td><span>-</span></td>
+<td><span>5776*</span></td>
+</tr>
+<tr>
+<td><span>A3184-90</span></td>
+<td><span>2"</span></td>
+<td rowspan="2"><span>-</span></td>
+<td rowspan="3"><span>сталь</span></td>
+<td><span>2 ¼" F. ACME</span></td>
+</tr>
+<tr>
+<td><span>A3194-90</span></td>
+<td><span>3"</span></td>
+<td rowspan="2"><span>3 ¼" F. АСМЕ</span></td>
+</tr>
+<tr>
+<td>-</td>
+<td><span>-</span></td>
+<td><span>A5776*</span></td>
+</tr>
+<tr>
+<td><span>907FP</span></td>
+<td><span>1"</span></td>
+<td>-</td>
+<td><span>латунь</span></td>
+<td>1 15/16" F. ACME</td>
+</tr>
+</tbody>
+</table>
+
+<p>* Переходит в 1 ¼" F. ACME</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
+

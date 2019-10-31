@@ -1,0 +1,43 @@
+---
+title:           Переходники типа Union для клапанов серии 7590U и 7591U
+contentTitle:    Переходники типа Union для клапанов серии 7590U и 7591U
+navTitle:        Переходники типа Union для клапанов серии 7590U и 7591U
+breadcrumbTitle: Переходники типа Union для клапанов серии 7590U и 7591U
+
+description: Переходники типа Union для клапанов серии 7590U и 7591U от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/cкоростные-запорные-и-другие-клапаны/переходник-типа-union--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p>  </p>
+  
+<table class='Table'>
+<thead>
+<tr><th>№ изделия</th><th>Вход</th><th>Выход</th><th>А, прилив под ключ, мм</th><th>В, длина корпуса (прибл.)</th></tr>
+<tr>
+<td>7590U-10</td>
+<td>1 5/8" UNF</td>
+<td>¾" F. NPT</td>
+<td>44 (1 ¾")</td>
+<td>46</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Применение</h2>
+
+<p>Переходник 7590U-10 должен использоваться для соединения с Chek-Lok 7590U и 7591U. Это обеспечивает надлежащее соединение для открытия запорного устройства. Встроенный нейлоновый сальник обеспечивает герметичное уплотнение.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

@@ -1,0 +1,151 @@
+---
+title:           Клапаны Multivalves для отбора газообразной фазы из баллонов DOT серий 6555R, 8555D и 8555R
+contentTitle:    Клапаны Multivalves для отбора газообразной фазы из баллонов DOT серий 6555R, 8555D и 8555R
+navTitle:        Клапаны Multivalves для отбора газообразной фазы из баллонов DOT серий 6555R, 8555D и 8555R
+breadcrumbTitle: Клапаны Multivalves для отбора газообразной фазы из баллонов DOT серий 6555R, 8555D и 8555R
+
+description: Клапаны Multivalves серий 6555R, 8555D и 8555R от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/узлы-multivalves/клапаны-серий-6555r-8555d-8555r--1.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/узлы-multivalves/клапаны-серий-6555r-8555d-8555r--схема.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p>  </p>
+  
+<table class='Table'>
+<thead>
+<tr><th rowspan="3">№ изделия</th><th rowspan="3">Тип разъема Bonnet</th><th rowspan="3">Где приме-<br />няется</th><th rowspan="3">Для баллонов емкостью до</th><th rowspan="3">Длина патрубка пробника с дефлект., мм</th><th rowspan="3">Вход</th><th rowspan="3">Выход</th><th rowspan="3">Разъем для напол-<br />нения баллона</th><th rowspan="3">Испол-<br />нение маховика</th><th colspan="3">Предохранительный клапан</th></tr>
+<tr><th rowspan="2">Заводская настройка</th><th colspan="2">Проп.способность</th></tr>
+<tr><th>По UL</th><th>ASME</th></tr>
+<tr>
+<td>6555R10.6</td>
+<td>MultiBonnet®</td>
+<td rowspan="3">Системы ASME</td>
+<td rowspan="3">2,3 кв. м или 227 л жидкости</td>
+<td>270</td>
+<td rowspan="7">¾" M.NGT</td>
+<td rowspan="7">F. POL (CGA 510)</td>
+<td rowspan="7">1 ¾" М.АСМЕ</td>
+<td rowspan="7">рубчатая насечка</td>
+<td rowspan="3">1723 кПа</td>
+<td rowspan="3">22,45 куб. м/мин по воздуху</td>
+<td rowspan="3">19,82 куб. м/мин по воздуху</td>
+</tr>
+<tr>
+<td>6555R11.6</td>
+<td>MultiBonnet®</td>
+<td>295</td>
+</tr>
+<tr>
+<td>6555R12.0</td>
+<td>MultiBonnet®</td>
+<td>305</td>
+</tr>
+<tr>
+<td>8555D10.6</td>
+<td>Standard</td>
+<td rowspan="4">Системы DOT</td>
+<td rowspan="4">91 кг пропана**</td>
+<td rowspan="2">270</td>
+<td rowspan="4">2585 кПа</td>
+<td rowspan="4">нет данных</td>
+<td rowspan="4">нет данных</td>
+</tr>
+<tr>
+<td>8555R10.6</td>
+<td>MultiBonnet®</td>
+</tr>
+<tr>
+<td>8555D11.6</td>
+<td>Standard</td>
+<td rowspan="2">295</td>
+</tr>
+<tr>
+<td>8555R11.6</td>
+<td>MultiBonnet®</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Применение</h2>
+
+<p>Эти клапаны Multivalve® применяются для отбора газообразной фазы СУГ. Они позволяют наполнение баллона без остановки в обслуживании потребителя. Серия 6555R предназначена для резервуаров ASME с площадью поверхности до 2,3 кв. или до 227 л объема жидкости. Серии 8555D и 8555R предназначены для газовых баллонов объемом до 91 кг пропана.</p>
+
+<h2>Характеристики</h2>
+
+<ul>
+  <li>Объединяет в одном узле клапан для отбора газообразной фазы, наполнительный клапан большой производительности, трубку для контроля уровня жидкой фазы и предохранительный клапан;</li>
+  <li>Наполнительный клапан;</li>
+  <li>Кольцевой усиленный уплотнитель штока обеспечивает надежное герметичное уплотнение;</li>
+  <li>Конический нейлоновый запорный диск в полностью закрытом седле обеспечивает простое, герметичное, надежное запирание;</li>
+  <li>Квадратный в сечении прилив 35 мм для ввинчивания клапана.</li>
+</ul>
+
+<h2>Пропускная способность по жидкости</h2>
+
+<table class='Table'>
+<thead>
+<tr><th rowspan="3">№ изделия</th><th colspan="4">Ср. пропускная способность для жидкой фазы, л/мин</th></tr>
+<tr><th colspan="4">Перепад давления на клапане</th></tr>
+<tr><th>70 кПа</th><th>172 кПа</th><th>345 кПа</th><th>698 кПа</th></tr>
+<tr>
+<td>8555D Series</td>
+<td rowspan="2">30</td>
+<td rowspan="2">87</td>
+<td rowspan="2">128</td>
+<td rowspan="2">159</td>
+</tr>
+<tr>
+<td>8555R Series</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Материалы</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td>Корпус:</td>
+<td><span>Прессованая латунь</span></td>
+</tr>
+<tr>
+<td>Маховик:</td>
+<td>Литой алюминий</td>
+</tr>
+<tr>
+<td>Стержень:</td>
+<td>Латунь</td>
+</tr>
+<tr>
+<td>Кольцевые прокладки:</td>
+<td>Эластичная резина</td>
+</tr>
+<tr>
+<td>Диск седла на запорном клапане:</td>
+<td>Нейлон</td>
+</tr>
+<tr>
+<td>Прочие диски седла:</td>
+<td>Эластичная резина</td>
+</tr>
+<tr>
+<td>Предохранительная пружина:</td>
+<td>Нержавеющая сталь</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

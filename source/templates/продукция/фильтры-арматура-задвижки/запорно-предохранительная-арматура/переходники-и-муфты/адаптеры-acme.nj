@@ -1,0 +1,322 @@
+---
+title:           Адаптеры RegO ACME
+contentTitle:    Адаптеры RegO ACME
+navTitle:        Адаптеры RegO ACME
+breadcrumbTitle: Адаптеры RegO ACME
+
+description: Адаптеры ACME от компании ООО «Фасэнергомаш» — производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+
+<h2>Уплотнитель в разъеме ACME x F. NPT</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/адаптеры-acme--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+  
+<p>  </p>
+
+<table class='Table'>
+<thead>
+<tr><th>№ изделия</th><th>Материал</th><th>A<br />резьба М. АСМЕ</th><th>В<br />резьба M. NPT</th><th>C<br />шестигр. под ключ, мм</th><th>D<br />полная длина, мм</th><th>Е<br />диам., мм</th><th>К сальнику №</th></tr>
+<tr>
+<td>5764A</td>
+<td rowspan="10">латунь</td>
+<td rowspan="5">1 ¾"</td>
+<td>¼"</td>
+<td rowspan="5">44(1 ¾")</td>
+<td>38</td>
+<td rowspan="5">19</td>
+<td rowspan="5">A2697-20R</td>
+</tr>
+<tr>
+<td>5764B</td>
+<td>3/8"</td>
+<td rowspan="4">48</td>
+</tr>
+<tr>
+<td>5764C</td>
+<td>½"</td>
+</tr>
+<tr>
+<td>5764D</td>
+<td>¾"</td>
+</tr>
+<tr>
+<td>5764E</td>
+<td>1"</td>
+</tr>
+<tr>
+<td>5766E</td>
+<td rowspan="2">2 ¼"</td>
+<td>1"</td>
+<td rowspan="2">57 (2 ¼")</td>
+<td rowspan="2">59</td>
+<td rowspan="2">35</td>
+<td rowspan="2">A3184-8R</td>
+</tr>
+<tr>
+<td>5766F</td>
+<td>1 ¼"</td>
+</tr>
+<tr>
+<td>5768G</td>
+<td rowspan="3">3 ¼"</td>
+<td>1 ½"</td>
+<td rowspan="3">89 (3 ½")</td>
+<td rowspan="3">92</td>
+<td rowspan="3">54</td>
+<td rowspan="3">A3194-8R</td>
+</tr>
+<tr>
+<td>5768H</td>
+<td>2"</td>
+</tr>
+<tr>
+<td>5768J</td>
+<td>2 ½"</td>
+</tr>
+<tr>
+<td>A5764D</td>
+<td rowspan="3">сталь</td>
+<td rowspan="2">1 ¾"</td>
+<td>¾"</td>
+<td rowspan="2">44(1 ¾")</td>
+<td rowspan="2">55,5</td>
+<td rowspan="2">19</td>
+<td rowspan="2">A2697-20R</td>
+</tr>
+<tr>
+<td>A5764E</td>
+<td>1"</td>
+</tr>
+<tr>
+<td>A5768H</td>
+<td>3 ¼"</td>
+<td>2"</td>
+<td>82 (3 ¼")</td>
+<td>82,5</td>
+<td>46</td>
+<td>A3194-8R</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Уплотнитель в разъеме ACME x M. NPT</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/адаптеры-acme--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+  
+<p>  </p>
+
+<table class='Table'>
+<thead>
+<tr><th>№ изделия</th><th>Материал</th><th>A<br />резьба М. АСМЕ</th><th>В<br />резьба M. NPT</th><th>C<br />шестигр. под ключ, мм</th><th>D<br />полная длина, мм</th><th>Е<br />диам., мм</th><th>К сальнику №</th></tr>
+<tr>
+<td>5763D</td>
+<td rowspan="10">латунь</td>
+<td>1 ¼"</td>
+<td>¾"</td>
+<td>32 (1 ¼")</td>
+<td>44,5</td>
+<td>11</td>
+<td>A2797-20R</td>
+</tr>
+<tr>
+<td>5765D</td>
+<td rowspan="3">1 ¾"</td>
+<td>¾"</td>
+<td rowspan="3">44(1 ¾")</td>
+<td>48</td>
+<td>17,5</td>
+<td rowspan="3">A2697-20R</td>
+</tr>
+<tr>
+<td>5765E</td>
+<td>1"</td>
+<td rowspan="2">54</td>
+<td rowspan="2">19</td>
+</tr>
+<tr>
+<td>5765F</td>
+<td>1 ¼"</td>
+</tr>
+<tr>
+<td>5767F</td>
+<td rowspan="3">2 ¼"</td>
+<td>1 ¼"</td>
+<td rowspan="2">57 (2 ¼")</td>
+<td rowspan="2">59</td>
+<td>30</td>
+<td rowspan="3">A3184-8R</td>
+</tr>
+<tr>
+<td>5767G</td>
+<td>1 ½"</td>
+<td>35</td>
+</tr>
+<tr>
+<td>5767H</td>
+<td>2"</td>
+<td>60 (2 3/8")</td>
+<td>62</td>
+<td>35</td>
+</tr>
+<tr>
+<td>5769H</td>
+<td rowspan="3">3 ¼"</td>
+<td>2"</td>
+<td>86 (3 3/8")</td>
+<td>73</td>
+<td>48</td>
+<td rowspan="3">A3194-8R</td>
+</tr>
+<tr>
+<td>5769J</td>
+<td>2 ½"</td>
+<td>82 (3 ¼")</td>
+<td>89</td>
+<td rowspan="2">54</td>
+</tr>
+<tr>
+<td>5769K</td>
+<td>3"</td>
+<td>89 (3 ½")</td>
+<td>92</td>
+</tr>
+<tr>
+<td>A5765C</td>
+<td rowspan="7">сталь</td>
+<td rowspan="4">1 ¾"</td>
+<td>½"</td>
+<td rowspan="4">44(1 ¾")</td>
+<td rowspan="4">55,5</td>
+<td>13,5</td>
+<td rowspan="4">A2697-20R</td>
+</tr>
+<tr>
+<td>A5765D</td>
+<td>¾"</td>
+<td>17,5</td>
+</tr>
+<tr>
+<td>A5765E</td>
+<td>1"</td>
+<td>22</td>
+</tr>
+<tr>
+<td>A5765F</td>
+<td>1 ¼"</td>
+<td>24</td>
+</tr>
+<tr>
+<td>A5767F</td>
+<td>2 ¼"</td>
+<td>1 ¼"</td>
+<td>57 (2 ¼")</td>
+<td>60</td>
+<td>30</td>
+<td>A3184-8R</td>
+</tr>
+<tr>
+<td>A5769H</td>
+<td rowspan="2">3 ¼"</td>
+<td>2"</td>
+<td rowspan="2">82 (3 ¼")</td>
+<td>73</td>
+<td>48</td>
+<td rowspan="2">A3194-8R</td>
+</tr>
+<tr>
+<td>A5769K</td>
+<td>3"</td>
+<td>97</td>
+<td>54</td>
+</tr>
+</tbody>
+</table>
+
+
+<h2>Уплотнитель в разъеме ACME x ACME</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/адаптеры-acme--3.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+  
+<p>  </p>
+
+<table class='Table'>
+<thead>
+<tr><th>№ изделия</th><th>Материал</th><th>A<br />резьба <br />М. АСМЕ</th><th>В<br />резьба <br />M. NPT</th><th>C<br />шестигр. <br />под ключ, мм</th><th>D<br />диаметр, мм</th><th>К сальнику №</th></tr>
+<tr>
+<td>5765M</td>
+<td rowspan="3">латунь</td>
+<td>1 ¾"</td>
+<td>1 ¾"</td>
+<td>52 (2 1/16")</td>
+<td>22</td>
+<td>A2697-20R</td>
+</tr>
+<tr>
+<td>5767M</td>
+<td>2 ¼"</td>
+<td>2 ¼"</td>
+<td>59 (2 5/16")</td>
+<td>35</td>
+<td>A3184-8R</td>
+</tr>
+<tr>
+<td>5769M</td>
+<td>3 ¼"</td>
+<td>3 ¼"</td>
+<td>70 (2 ¾")</td>
+<td>54</td>
+<td>A3194-8R</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Уплотнитель в разъеме ACME x различные типы для заглушки оконечников шлангов</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/адаптеры-acme--4.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+  
+<p>  </p>
+
+<table class='Table'>
+<thead>
+<tr><th>№ изделия</th><th>Материал</th><th>A<br />резьба М. АСМЕ</th><th>В<br />резьба M. NPT</th><th>C<br />шестигр. под ключ, мм</th><th>D<br />диаметр, мм</th><th>К сальнику №</th></tr>
+<tr>
+<td>A5764W</td>
+<td>сталь</td>
+<td>1 ¾"</td>
+<td>3/8"*</td>
+<td>32 (1 ¼")</td>
+<td>43</td>
+<td>2697-20</td>
+</tr>
+</tbody>
+</table>
+
+<p>*Резьба 3/8" - 16 UNC.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
+

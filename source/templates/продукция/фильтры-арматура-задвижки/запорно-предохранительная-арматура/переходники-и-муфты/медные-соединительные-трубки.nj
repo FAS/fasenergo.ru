@@ -1,0 +1,217 @@
+---
+title:           Медные соединительные трубки RegO
+contentTitle:    Медные соединительные трубки RegO
+navTitle:        Медные соединительные трубки RegO
+breadcrumbTitle: Медные соединительные трубки RegO
+
+description: Медные соединительные трубки RegO от компании ООО «Фасэнергомаш» — производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/медные-соединительные-трубки--1.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/медные-соединительные-трубки--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+ 
+<h2>Прямые трубки</h2>
+  
+<table class='Table'>
+<thead>
+<tr><th rowspan="3"><span>Разъем</span></th><th rowspan="3">Прибл. <br />длина, мм</th><th colspan="3">
+<p><span>№ изделия</span></p>
+</th></tr>
+<tr><th colspan="2"><span><span>Трубка ¼<span>”</span></span></span></th><th>
+<p><span>Трубка ⅜”</span></p>
+</th></tr>
+<tr><th>
+<p>⅞” шестигр.<br />короткий<br />ниппель</p>
+</th><th>
+<p>1⅛” шестигр.<br />длинный<br />ниппель</p>
+</th><th>⅞” шестигр.<br />короткий<br />ниппель</th></tr>
+<tr>
+<td rowspan="6"><span>M.POLx M.POL</span></td>
+<td>
+<p><span>127</span></p>
+</td>
+<td>
+<p><span>-</span></p>
+</td>
+<td><span>-</span></td>
+<td><span>913JS05</span></td>
+</tr>
+<tr>
+<td><span>305</span></td>
+<td>912PS12</td>
+<td>-</td>
+<td><span>913PS12</span></td>
+</tr>
+<tr>
+<td><span>508</span></td>
+<td>912PS20</td>
+<td>912PA20</td>
+<td><span>913PS20</span></td>
+</tr>
+<tr>
+<td><span>762</span></td>
+<td>912PS30</td>
+<td>-</td>
+<td>913PS30</td>
+</tr>
+<tr>
+<td><span>914</span></td>
+<td>912PS36</td>
+<td>912PA36</td>
+<td><span>913PS36</span></td>
+</tr>
+<tr>
+<td><span>1219</span></td>
+<td>912PS48</td>
+<td>912PA48</td>
+<td><span>913PS48</span></td>
+</tr>
+<tr>
+<td rowspan="4"><span>¼" обратный конус x M.POL</span></td>
+<td><span>305</span></td>
+<td>912FS12</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><span>508</span></td>
+<td>912FS20</td>
+<td>912FA20</td>
+<td>-</td>
+</tr>
+<tr>
+<td><span>762</span></td>
+<td>912FS30</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><span>914</span></td>
+<td>912FS36</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td rowspan="4"><span>¼<span>”</span> M.NPT x M.POL</span></td>
+<td><span>127</span></td>
+<td>-</td>
+<td>-</td>
+<td>913JS05</td>
+</tr>
+<tr>
+<td><span>305</span></td>
+<td>912JS12</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><span>508</span></td>
+<td>912JS20</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><span>914</span></td>
+<td>912JS36</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><span>½<span>”</span> M.NPT x M.POL</span></td>
+<td><span>305</span></td>
+<td>-</td>
+<td>-</td>
+<td>913LS12</td>
+</tr>
+<tr>
+<td><span>½<span>”</span> M.NPT x 3⁄8<span>”</span> M.POL</span></td>
+<td><span>305</span></td>
+<td>-</td>
+<td>-</td>
+<td>913KL12</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Изогнутые трубки</h2>
+  
+<table class='Table'>
+<thead>
+<tr><th rowspan="3"><span>Разъем</span></th><th rowspan="3"><span>Длина, <br />см приблиз.</span></th><th>
+<p><span>№ изделия</span></p>
+</th><th rowspan="3"> Тип/угол сгиба</th></tr>
+<tr><th>трубка ⅜”</th></tr>
+<tr><th>
+<p>⅞” шестигр. кор. ниппель</p>
+</th></tr>
+<tr>
+<td>
+<p>¼” M. NPT x M. POL</p>
+</td>
+<td rowspan="2">
+<p><span>12,5</span></p>
+</td>
+<td>
+<p><span>913JS05A</span></p>
+</td>
+<td rowspan="2">90°</td>
+</tr>
+<tr>
+<td rowspan="4">
+<p>M. POL x M. POL</p>
+</td>
+<td>913PS05A</td>
+</tr>
+<tr>
+<td rowspan="3">30,5</td>
+<td>913PS12G</td>
+<td>270° правостор.</td>
+</tr>
+<tr>
+<td>913PS12H</td>
+<td>270° левостор.</td>
+</tr>
+<tr>
+<td>913PS12S</td>
+<td>360°</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Характеристики</h2>
+
+<ul>
+  <li>Усиленное исполнение;</li>
+  <li>Соединения припаяны к медной трубке;</li>
+  <li>Каждая трубка тестируется до поставки.</li>
+</ul>
+
+<h2>Материалы</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td>Трубка:</td>
+<td>Медь</td>
+</tr>
+<tr>
+<td>Штуцер:</td>
+<td>Латунь</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
+

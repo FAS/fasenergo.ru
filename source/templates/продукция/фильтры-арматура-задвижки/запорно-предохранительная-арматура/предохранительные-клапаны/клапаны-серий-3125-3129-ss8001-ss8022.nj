@@ -1,0 +1,306 @@
+---
+title:           Наружные гидростатические предохранительные клапаны RegO серий 3125, 3127, 3129, SS8001, SS8002 и SS8022
+contentTitle:    Наружные гидростатические предохранительные клапаны RegO серий 3125, 3127, 3129, SS8001, SS8002 и SS8022
+navTitle:        Наружные гидростатические предохранительные клапаны RegO серий 3125, 3127, 3129, SS8001, SS8002 и SS8022
+breadcrumbTitle: Наружные гидростатические предохранительные клапаны RegO серий 3125, 3127, 3129, SS8001, SS8002 и SS8022
+
+description: Предохранительны клапаны RegO серий 3125, 3127, 3129, SS8001, SS8002 и SS8022 от компании ООО «Фасэнергомаш» — производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/предохранительные-клапаны/клапаны-серий-3125-3129-ss8001-ss8022--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p>  </p>
+ 
+<table class='Table'>
+<thead>
+<tr><th rowspan="3">№ изделия</th><th rowspan="3">Пороговое давление срабат., кПа</th><th rowspan="3">Материал корпуса</th><th rowspan="3">А, разъем для резервуара M.NPT</th><th rowspan="3">B, общая высота (прибл.), мм</th><th rowspan="3">D, ключ для установки</th><th colspan="2">Комплектующие</th></tr>
+<tr><th rowspan="2">Защитный колпачок</th><th>Переходник</th></tr>
+<tr><th>Резьба или переходник</th></tr>
+<tr>
+<td>SS8001G</td>
+<td rowspan="6">1723</td>
+<td rowspan="4">нерж. сталь</td>
+<td>¼"</td>
+<td rowspan="2">22</td>
+<td>11/16"</td>
+<td rowspan="4">-</td>
+<td rowspan="2">-</td>
+</tr>
+<tr>
+<td>SS8002G</td>
+<td>½"</td>
+<td>7/8"</td>
+</tr>
+<tr>
+<td>SS8021G</td>
+<td>¼"</td>
+<td rowspan="2">35</td>
+<td>11/16"</td>
+<td>¼" NPSM</td>
+</tr>
+<tr>
+<td>SS8022G</td>
+<td>½"</td>
+<td rowspan="2">7/8"</td>
+<td>3/8" NPT</td>
+</tr>
+<tr>
+<td>3127G</td>
+<td rowspan="6">латунь</td>
+<td>¼"</td>
+<td>50</td>
+<td rowspan="6">7545-40</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3129G</td>
+<td>½"</td>
+<td>65</td>
+<td>1 1/8"</td>
+<td>3129-10*</td>
+</tr>
+<tr>
+<td>3127H</td>
+<td rowspan="2">1896</td>
+<td>¼"</td>
+<td>50</td>
+<td>7/8"</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3129H</td>
+<td>½"</td>
+<td>65</td>
+<td>1 1/8"</td>
+<td>3129-10*</td>
+</tr>
+<tr>
+<td>3127P</td>
+<td rowspan="3">2068</td>
+<td>¼"</td>
+<td>50</td>
+<td>1 1/8"</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3129P</td>
+<td rowspan="2">½"</td>
+<td>65</td>
+<td>1 1/8"</td>
+<td>3129-10*</td>
+</tr>
+<tr>
+<td>SS8022P</td>
+<td>нерж. сталь</td>
+<td>35</td>
+<td>7/8"</td>
+<td>-</td>
+<td>3/8" NPT</td>
+</tr>
+<tr>
+<td>3127J</td>
+<td rowspan="6">2413</td>
+<td rowspan="2">латунь</td>
+<td>¼"</td>
+<td>50</td>
+<td>7/8"</td>
+<td rowspan="2">7545-40</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3129J</td>
+<td>½"</td>
+<td>65</td>
+<td>1 1/8"</td>
+<td>3129-10*</td>
+</tr>
+<tr>
+<td>SS8001J</td>
+<td rowspan="4">нерж. сталь</td>
+<td>¼"</td>
+<td rowspan="2">22</td>
+<td>11/16"</td>
+<td rowspan="4">-</td>
+<td rowspan="2">-</td>
+</tr>
+<tr>
+<td>SS8002J</td>
+<td>½"</td>
+<td>7/8"</td>
+</tr>
+<tr>
+<td>SS8021J</td>
+<td>¼"</td>
+<td rowspan="2">35</td>
+<td>11/16"</td>
+<td>¼" NPSM</td>
+</tr>
+<tr>
+<td>SS8022J</td>
+<td>½"</td>
+<td rowspan="2">7/8"</td>
+<td>3/8" NPT</td>
+</tr>
+<tr>
+<td>3127K</td>
+<td rowspan="2">2585</td>
+<td rowspan="5">латунь</td>
+<td>¼"</td>
+<td>50</td>
+<td rowspan="2">7545-40</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3129K</td>
+<td>½"</td>
+<td>65</td>
+<td>1 1/8"</td>
+<td>3129-10*</td>
+</tr>
+<tr>
+<td>3125L</td>
+<td rowspan="7">2758</td>
+<td rowspan="2">¼"</td>
+<td>40</td>
+<td>5/8"</td>
+<td>в компл.</td>
+<td rowspan="2">-</td>
+</tr>
+<tr>
+<td>3127L</td>
+<td>50</td>
+<td>7/8"</td>
+<td>7545-40</td>
+</tr>
+<tr>
+<td>3129L</td>
+<td>½"</td>
+<td>65</td>
+<td>1 1/8"</td>
+<td>3129-40P</td>
+<td>3129-10*</td>
+</tr>
+<tr>
+<td>SS8001L</td>
+<td rowspan="4">нерж. сталь</td>
+<td>¼"</td>
+<td rowspan="2">22</td>
+<td>11/16"</td>
+<td rowspan="4">-</td>
+<td rowspan="2">-</td>
+</tr>
+<tr>
+<td>SS8002L</td>
+<td>½"</td>
+<td>7/8"</td>
+</tr>
+<tr>
+<td>SS8021L</td>
+<td>¼"</td>
+<td rowspan="2">35</td>
+<td>11/16"</td>
+<td>¼" NPSM</td>
+</tr>
+<tr>
+<td>SS8022L</td>
+<td>½"</td>
+<td rowspan="2">7/8"</td>
+<td>3/8" NPT</td>
+</tr>
+<tr>
+<td>3127U</td>
+<td rowspan="6">3102</td>
+<td rowspan="2">латунь</td>
+<td>¼"</td>
+<td>50</td>
+<td rowspan="2">7545-40</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3129U</td>
+<td>½"</td>
+<td>65</td>
+<td>1 1/8"</td>
+<td>3129-10*</td>
+</tr>
+<tr>
+<td>SS8001U</td>
+<td rowspan="4">нерж. сталь</td>
+<td>¼"</td>
+<td rowspan="2">22</td>
+<td>11/16"</td>
+<td rowspan="4">-</td>
+<td rowspan="2">-</td>
+</tr>
+<tr>
+<td>SS8002U</td>
+<td>½"</td>
+<td>7/8"</td>
+</tr>
+<tr>
+<td>SS8021U</td>
+<td>¼"</td>
+<td rowspan="2">25</td>
+<td>11/16"</td>
+<td>¼" NPSM</td>
+</tr>
+<tr>
+<td>SS8022U</td>
+<td>½"</td>
+<td>7/8"</td>
+<td>3/8" NPT</td>
+</tr>
+</tbody>
+</table>
+
+<p>* Выходное соединение 1/2’’ F. NPT</p>
+
+<h2>Применение</h2>
+<p>Предназначены специально для защиты трубопровода и запорных клапанов на случай попадания жидкой фазы сжиженного газа или безводного аммиака.</p>
+<p>Могут устанавливаться в трубопроводах и шлангах, расположенных между запорными клапанами или в боковой втулке запорных клапанов RegO®.</p>
+
+<h2>Характеристики</h2>
+
+<ul>
+  <li>Предохранительный клапан сконструирован для автоматического жесткого переуплотнения после срабатывания;</li>
+  <li>Эластичный диск седла гарантирует «беспузырьковое» уплотнение;</li>
+  <li>Поставляются из латуни и нержавеющей стали;</li>
+  <li>Доступны в конфигурациях, позволяющих при надобности прямое подсоединение стравливающего трубопровода.</li>
+</ul>
+
+<h2>Материалы</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td>Корпус (3125, 3121, 3129):</td>
+<td>Латунь</td>
+</tr>
+<tr>
+<td><span>Корпус (SS8001, SS8002, SS8021, SS8022):</span></td>
+<td>Нержавеющая сталь</td>
+</tr>
+<tr>
+<td><span>Пружина:</span></td>
+<td>Нержавеющая сталь</td>
+</tr>
+<tr>
+<td><span>Седельный диск:</span></td>
+<td>Эластичная резина</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

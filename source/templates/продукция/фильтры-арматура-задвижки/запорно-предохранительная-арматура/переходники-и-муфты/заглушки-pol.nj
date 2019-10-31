@@ -1,0 +1,56 @@
+---
+title:           Заглушки RegO POL
+contentTitle:    Заглушки RegO POL
+navTitle:        Заглушки RegO POL
+breadcrumbTitle: Заглушки RegO POL
+
+description: Заглушки RegO POL от компании ООО «Фасэнергомаш» — производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/заглушки-pol--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+ 
+
+<p>  </p>
+  
+<table class='Table'>
+<thead>
+<tr><th><span>№ изделия</span></th><th><span>Материал</span></th><th>
+<p><span>Разъем</span></p>
+</th></tr>
+<tr>
+<td><span>N970P</span></td>
+<td>
+<p><span>циколак</span></p>
+</td>
+<td rowspan="3">
+<p>M. POL (CGA 510)</p>
+</td>
+</tr>
+<tr>
+<td><span>10538P</span></td>
+<td rowspan="2"><span>латунь</span></td>
+</tr>
+<tr>
+<td><span>3705RC<br /></span></td>
+</tr>
+</tbody>
+</table>
+
+<h2>Применение</h2>
+
+<p>Настоятельно рекомендуется для установки в выходы POL клапанов для емкостей со сжиженным газом в случае отсоединения рабочего трубопровода или при транспортировании емкости. При правильной установке заглушка POL предназначена для предотвращения загрязнения выходного отверстия клапана и защищает от утечек газа, если клапан для емкостей случайно открылся.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
+

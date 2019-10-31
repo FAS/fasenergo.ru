@@ -1,0 +1,48 @@
+---
+title:           Переходники для клапанов серии 7572FC и 7580FC
+contentTitle:    Переходники для клапанов серии 7572FC и 7580FC
+navTitle:        Переходники для клапанов серии 7572FC и 7580FC
+breadcrumbTitle: Переходники для клапанов серии 7572FC и 7580FC
+
+description: Переходники для клапанов серии 7572FC и 7580FC от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/cкоростные-запорные-и-другие-клапаны/переходники-для-клапанов-серии-7572fc-и-7580fc--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p>  </p>
+  
+<table class='Table'>
+<thead>
+<tr><th>№ изделия</th><th>Вход</th><th>Выход</th><th>А<br />прилив под ключ, мм</th><th>В<br />длина корпуса (прибл.)</th></tr>
+<tr>
+<td>7572C-14A</td>
+<td rowspan="2">¾" M. NPT</td>
+<td>¾" F. NPT</td>
+<td rowspan="2">35 (1 3/8")</td>
+<td>25</td>
+</tr>
+<tr>
+<td>7572C-15A</td>
+<td>¾" M. NPT</td>
+<td>6,5</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Применение</h2>
+
+<p>Эти переходники должны использоваться для соединения с Chek-Lok 7512FC и 7580FC для правильного открытия запорного устройства. Встроенный нейлоновый сальник обеспечивает герметичное уплотнение.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

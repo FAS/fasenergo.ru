@@ -1,0 +1,158 @@
+---
+title:           Короткие переходники для шлангов RegO серий 3171, 3175, 3181 и 3195 жидкой и газообразной фазы СУГ и безводного аммиака
+contentTitle:    Короткие переходники для шлангов RegO серий 3171, 3175, 3181 и 3195 жидкой и газообразной фазы СУГ и безводного аммиака
+navTitle:        Короткие переходники для шлангов RegO серий 3171, 3175, 3181 и 3195 жидкой и газообразной фазы СУГ и безводного аммиака
+breadcrumbTitle: Короткие переходники для шлангов RegO серий 3171, 3175, 3181 и 3195 жидкой и газообразной фазы СУГ и безводного аммиака
+
+description: Короткие переходники для шлангов RegO серий 3171, 3175, 3181 и 3195 жидкой и газообразной фазы СУГ и безводного аммиака от компании ООО «Фасэнергомаш» — производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/переходники-для-шлангов-серий-3171-3195--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+
+<p>  </p>
+  
+<table class='Table'>
+<thead>
+<tr><th><span>№ изделия</span></th><th><span>Материал</span></th><th>
+<p><span>Исполнение</span></p>
+</th><th>
+<p><span><span>A, </span><span>соединение <br />к шлангу M. NPT</span></span></p>
+</th><th>
+<p><span>B, </span><span>муфтовое <br />соединение <br />к клапану F. ACME</span></p>
+</th><th><span>С, </span><span>диаметр <br />наконечника</span></th><th><span><span>D, </span><span>длина <br />штуцера<br />с резьбой</span></span></th><th><span><span><span>E, </span><span>общая<br />длина</span></span></span></th></tr>
+<tr>
+<td><span>3175B</span></td>
+<td rowspan="4">
+<p>латунь</p>
+</td>
+<td rowspan="3">
+<p><span>A</span></p>
+</td>
+<td>½”</td>
+<td rowspan="3"><span>1¾”</span></td>
+<td><span>14</span></td>
+<td rowspan="3">51</td>
+<td rowspan="3">73</td>
+</tr>
+<tr>
+<td><span>3175</span></td>
+<td>¾”</td>
+<td rowspan="2">19</td>
+</tr>
+<tr>
+<td><span>3175A</span></td>
+<td>1”</td>
+</tr>
+<tr>
+<td><span>3185</span></td>
+<td rowspan="2">B</td>
+<td>1¼”</td>
+<td>2¼”</td>
+<td>30</td>
+<td>52</td>
+<td>79</td>
+</tr>
+<tr>
+<td><span>3195</span></td>
+<td>
+<p>латунная гайка<br />стальной ниппель</p>
+</td>
+<td>2”</td>
+<td>3¼”</td>
+<td>46</td>
+<td>54</td>
+<td>92</td>
+</tr>
+<tr>
+<td><span>A3175</span></td>
+<td rowspan="4">сталь</td>
+<td rowspan="2">A</td>
+<td>¾”</td>
+<td rowspan="2">1¾”</td>
+<td rowspan="2">19</td>
+<td rowspan="2">51</td>
+<td rowspan="2">73</td>
+</tr>
+<tr>
+<td><span>A3175A</span></td>
+<td>1”</td>
+</tr>
+<tr>
+<td><span>A3185</span></td>
+<td rowspan="2">B</td>
+<td>1¼”</td>
+<td>2¼”</td>
+<td>30</td>
+<td rowspan="2">54</td>
+<td>79</td>
+</tr>
+<tr>
+<td><span>A3195</span></td>
+<td>2”</td>
+<td>3¼”</td>
+<td>46</td>
+<td>92</td>
+</tr>
+<tr>
+<td><span>3171</span></td>
+<td rowspan="5">латунь</td>
+<td rowspan="4">C</td>
+<td>⅜”</td>
+<td rowspan="2">1¼”</td>
+<td>10</td>
+<td rowspan="2">30</td>
+<td rowspan="2">55,5</td>
+</tr>
+<tr>
+<td><span>3171A</span></td>
+<td>½”</td>
+<td>13,5</td>
+</tr>
+<tr>
+<td><span>3181</span></td>
+<td>¾”</td>
+<td rowspan="2">1¾”</td>
+<td>17,5</td>
+<td>51</td>
+<td>82,5</td>
+</tr>
+<tr>
+<td><span>3181A</span></td>
+<td>1”</td>
+<td>24</td>
+<td>48</td>
+<td>79</td>
+</tr>
+<tr>
+<td><span>3191</span></td>
+<td>D</td>
+<td>1¼”</td>
+<td>2¼”</td>
+<td>5</td>
+<td>54</td>
+<td>84</td>
+</tr>
+</tbody>
+</table>
+
+<p>Линейные размеры в мм, если не указано особо.</p>
+
+<h2>Применение</h2>
+
+<p>Короткие переходники для шлангов жидкой и газообразной фазы СУГ и безводного аммиака.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
+

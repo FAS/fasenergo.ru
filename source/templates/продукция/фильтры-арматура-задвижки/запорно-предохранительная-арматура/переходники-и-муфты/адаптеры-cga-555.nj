@@ -1,0 +1,46 @@
+---
+title:           Шарнирные адаптеры RegO CGA 555
+contentTitle:    Шарнирные адаптеры RegO CGA 555
+navTitle:        Шарнирные адаптеры RegO CGA 555
+breadcrumbTitle: Шарнирные адаптеры RegO CGA 555
+
+description: Шарнирные адаптеры RegO CGA 555 от компании ООО «Фасэнергомаш» — производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/адаптеры-cga-555--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+ 
+
+<p>  </p>
+  
+<table class='Table'>
+<thead>
+<tr><th>№ изделия</th><th>Материал</th><th>A, выходная резьба</th><th>B, шестигр. под ключ, мм</th><th>C, отверстие, мм</th><th>D, полная длина, мм</th></tr>
+<tr>
+<td>12982</td>
+<td rowspan="2">латунь</td>
+<td>¼" M. NPT</td>
+<td rowspan="2">32 (1 ¼")</td>
+<td rowspan="2">5</td>
+<td rowspan="2">49</td>
+</tr>
+<tr>
+<td>12982G</td>
+<td>9/16" - 18NF</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
+

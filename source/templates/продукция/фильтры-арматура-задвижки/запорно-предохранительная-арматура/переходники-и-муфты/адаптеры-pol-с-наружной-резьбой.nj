@@ -1,0 +1,104 @@
+---
+title:           Шарнирные адаптеры RegO POL с наружной резьбой
+contentTitle:    Шарнирные адаптеры RegO POL с наружной резьбой
+navTitle:        Шарнирные адаптеры RegO POL с наружной резьбой
+breadcrumbTitle: Шарнирные адаптеры RegO POL с наружной резьбой
+
+description: Шарнирные адаптеры RegO POL с наружной резьбой от компании ООО «Фасэнергомаш» — производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/адаптеры-pol-с-наружной-резьбой--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+ 
+
+<p>  </p>
+  
+<table class='Table'>
+<thead>
+<tr><th>№ изделия</th><th>Материал</th><th>A,<br />выход</th><th>В,<br />шестигр. под ключ, мм</th><th>C,<br />отверстие, мм</th><th>D,<br />полная длина, мм</th><th>Поток по газообр. фазе<br />при входном давлении <br />689 кПа, куб. м/ч</th><th>Поток <br />по жидк., л/мин</th></tr>
+<tr>
+<td>970</td>
+<td rowspan="11">латунь</td>
+<td rowspan="7">¼" M. NPT</td>
+<td rowspan="5">22 (7/8")</td>
+<td>8</td>
+<td>60</td>
+<td rowspan="2">-</td>
+<td rowspan="2">-</td>
+</tr>
+<tr>
+<td>970S</td>
+<td>5</td>
+<td>53</td>
+</tr>
+<tr>
+<td>970AX</td>
+<td rowspan="4">8</td>
+<td rowspan="2">53</td>
+<td rowspan="2">11,4</td>
+<td rowspan="2">4,2</td>
+</tr>
+<tr>
+<td>970AXS</td>
+</tr>
+<tr>
+<td>3199W</td>
+<td>62</td>
+<td>12,7</td>
+<td>3,6</td>
+</tr>
+<tr>
+<td>970AW</td>
+<td rowspan="2">35 (1 3/8")</td>
+<td rowspan="2">52</td>
+<td rowspan="3">-</td>
+<td rowspan="3">-</td>
+</tr>
+<tr>
+<td>970HT</td>
+<td>5</td>
+</tr>
+<tr>
+<td>970JR</td>
+<td>¼" Hose Barb</td>
+<td>22 (7/8")</td>
+<td>4</td>
+<td>67</td>
+</tr>
+<tr>
+<td>3188A</td>
+<td rowspan="3">½" M. NPT</td>
+<td rowspan="3">29 (1 1/8")</td>
+<td rowspan="3">8</td>
+<td rowspan="3">63,5</td>
+<td>9,9</td>
+<td>3,6</td>
+</tr>
+<tr>
+<td>3188B</td>
+<td>19,8</td>
+<td>7,2</td>
+</tr>
+<tr>
+<td>3188C</td>
+<td>946</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+
+<p>Примечание: все ниппели имеют шестигранный прилив под ключ.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
+
