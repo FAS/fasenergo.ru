@@ -1,0 +1,68 @@
+---
+title:           Указатель M6300 серии Magnetel
+contentTitle:    Указатель M6300 серии Magnetel
+navTitle:        Указатель M6300 серии Magnetel
+breadcrumbTitle: Указатель M6300 серии Magnetel
+
+description: Указатель M6300 серии Magnetel от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/указатели-уровня-жидкости/указатель-m6300-серии-magnetel.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Указатель M6300 серии Magnetel') }}
+
+<p> </p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td>Модель</td>
+<td>Монтаж</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6339 M11</td>
+<td>боковой, 45°</td>
+</tr>
+<tr class="zorro">
+<td>6342 M11</td>
+<td>боковой, 45°</td>
+</tr>
+<tr>
+<td>6339 M12</td>
+<td>боковой, 45°</td>
+</tr>
+<tr>
+<td>6342 M12</td>
+<td>боковой, 45°</td>
+</tr>
+<tr>
+<td>6339 M16</td>
+<td>боковой, 45°</td>
+</tr>
+<tr>
+<td>6342 M16</td>
+<td>боковой, 45°</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Характеристики</h2>
+
+<ul>
+<li>Специальное исполнение для мобильных емкостей (газовозы, прицепы, контейнеры).</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

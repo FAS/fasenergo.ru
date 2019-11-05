@@ -1,0 +1,109 @@
+---
+title:           Указатель уровня (уровнемер) PN 25, Тип Junior
+contentTitle:    Указатель уровня (уровнемер) PN 25, Тип Junior
+navTitle:        Указатель уровня (уровнемер) PN 25, Тип Junior
+breadcrumbTitle: Указатель уровня (уровнемер) PN 25, Тип Junior
+
+description: Указатель уровня (уровнемер) PN 25, Тип Junior от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/указатели-уровня-жидкости/указатель-уровня-уровнемер-pn-25-тип-junior.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Указатель уровня (уровнемер) PN 25, Тип Junior') }}
+
+<p> </p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td>Номер по каталогу</td>
+<td>Тип Junior</td>
+<td>Способ монтажа</td>
+<td>Диаметр емкости, мм</td>
+<td>Длина стержня, мм</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18 001</td>
+<td rowspan="3">6284</td>
+<td rowspan="3">горизонтальный</td>
+<td>до 800</td>
+<td rowspan="3">350</td>
+</tr>
+<tr class="zorro">
+<td>18 002</td>
+<td>до 1250</td>
+</tr>
+<tr>
+<td>18 003</td>
+<td>до 1600</td>
+</tr>
+<tr class="zorro">
+<td>18 006</td>
+<td colspan="4">Специальное исполнение для аммиака</td>
+</tr>
+<tr>
+<td>18 011</td>
+<td rowspan="7">6281</td>
+<td rowspan="7">вертикальный</td>
+<td>800</td>
+<td>630</td>
+</tr>
+<tr class="zorro">
+<td>18 012</td>
+<td>1000</td>
+<td>510</td>
+</tr>
+<tr>
+<td>18 013</td>
+<td>1250</td>
+<td>630</td>
+</tr>
+<tr class="zorro">
+<td>18 014</td>
+<td>1250</td>
+<td>755</td>
+</tr>
+<tr>
+<td>18 015</td>
+<td>1250</td>
+<td>785</td>
+</tr>
+<tr class="zorro">
+<td>18 016</td>
+<td>1250</td>
+<td>805</td>
+</tr>
+<tr>
+<td>18 017</td>
+<td>до 1600</td>
+<td>до 1200</td>
+</tr>
+<tr class="zorro">
+<td>18 019</td>
+<td colspan="4">Специальное исполнение для аммиака</td>
+</tr>
+</tbody>
+</table>
+
+<h2>Характеристики</h2>
+
+<ul>
+<li>Резиновая прокладка;</li>
+<li>Защитный колпачок;</li>
+<li>Соединительные болты M6×25.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

@@ -1,0 +1,71 @@
+---
+title:           Указатель уровня (уровнемер) PN 25, Тип Senior
+contentTitle:    Указатель уровня (уровнемер) PN 25, Тип Senior
+navTitle:        Указатель уровня (уровнемер) PN 25, Тип Senior
+breadcrumbTitle: Указатель уровня (уровнемер) PN 25, Тип Senior
+
+description: Указатель уровня (уровнемер) PN 25, Тип Senior от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/измерительные-устройства/указатели-уровня-жидкости/указатель-уровня-pn25-тип-senior.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Указатель уровня (уровнемер) PN 25, Тип Senior') }}
+
+<p> </p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td>Номер по каталогу</td>
+<td>Тип Senior</td>
+<td>Способ монтажа</td>
+<td>Диаметр емкости, мм</td>
+<td>Длина стержня, мм</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18 021</td>
+<td>6283</td>
+<td>горизонтальный</td>
+<td>до 1600</td>
+<td>200</td>
+</tr>
+<tr class="zorro">
+<td>18 031</td>
+<td>6280</td>
+<td>вертикальный</td>
+<td>до 1500</td>
+<td>ок. 825</td>
+</tr>
+<tr>
+<td>18 032</td>
+<td>6280</td>
+<td>вертикальный</td>
+<td>до 2000</td>
+<td>до 1200</td>
+</tr>
+</tbody>
+</table>
+
+
+<h2>Характеристики</h2>
+
+<ul>
+<li>Резиновая прокладка;</li>
+<li>Защитный колпачок;</li>
+<li>Соединительные болты М8х25.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
