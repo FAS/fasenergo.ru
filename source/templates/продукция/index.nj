@@ -25,6 +25,17 @@ description: Немецко-российские газовые генерато
   ) %}{% endcall %}
 
   <hr>
+  {% call CategoryCard(
+    title = 'Бензиновые генераторы',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/бензиновые-генераторы/генератор-фас-8-13-вп--front--closed--n-1.jpg',
+    url = '/продукция/бензиновые-генераторы',
+    discount = getGeneratorsWithHighestDiscount(selectGenerators(GENERATORS)).discount,
+    discountDate = getGeneratorsWithHighestDiscount(selectGenerators(GENERATORS)).discountDate,
+    class = 'h-margin-top+'
+  ) %}{% endcall %}
+
+  <hr> 
 
   {% call CategoryCard(
     title = 'Испарительное оборудование для СУГ',

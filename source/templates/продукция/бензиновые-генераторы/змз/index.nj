@@ -1,0 +1,202 @@
+---
+title:           Бензиновые генераторы на базе двигателя ЗМЗ (от 35 до 40 кВт)
+contentTitle:    Бензиновые генераторы на базе двигателя ЗМЗ (от 35 до 40 кВт)
+navTitle:        Бензиновые генераторы на базе двигателя ЗМЗ (от 35 до 40 кВт)
+breadcrumbTitle: Бензиновые генераторы на базе двигателя ЗМЗ (от 35 до 40 кВт)
+
+description: Продажа бензиновых электрогенераторов ФАС немецко-российского производства, мощностью от 35 до 40 кВт.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_ProductCard.nj' import ProductCard with context %}
+{% from '_components/_Field.nj' import Field with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_SolutionPreview.nj' import SolutionPreview with context %}
+{% from '_components/_CatalogFilter.nj' import CatalogFilter with context %}
+{% from '_components/_Promos.nj' import Promos with context %}
+
+<div id='js-catalog' class='Box'>
+  
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":35,"price":953000,"discount":null,"engineBrand":"ЗМЗ","mode":"основной","noise":66,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/змз/фас-35-3-зр-35-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-right.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-35-3-ЗР/Газовый-генератор-ФАС-35-3-ЗР--front-right.jpg 1200w' alt='Газовый генератор ФАС-35-3/ЗР (35 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/змз/фас-35-3-зр-35-квт' class='js-metrica-gensets-click-genset-card'>ФАС-35-3/ЗР</a></h2>
+      <p>
+        Мощность: <strong>35 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ЗМЗ 409
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+      
+      <p aria-label='953 тыс. рублейй' class='h-h5'>
+        953 тыс. рублей
+      </p>
+      
+
+
+      
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+  
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":40,"price":953000,"discount":null,"engineBrand":"ЗМЗ","mode":"основной","noise":66,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/змз/фас-40-3-зр-40-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-right.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-40-3-ЗР/Газовый-генератор-ФАС-40-3-ЗР--front-right.jpg 1200w' alt='Газовый генератор ФАС-40-3/ЗР (40 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/змз/фас-40-3-зр-40-квт' class='js-metrica-gensets-click-genset-card'>ФАС-40-3/ЗР</a></h2>
+      <p>
+        Мощность: <strong>40 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ЗМЗ 409
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+      <p aria-label='953 тыс. рублей' class='h-h5'>
+        953 тыс. рублей
+      </p>
+      
+      
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+
+</div>
+
+
+<aside>
+
+  <h2>
+    Нет подходящего генератора?<br>
+    Закажите индивидуальное решение
+  </h2>
+  <p>Мы можем собрать генератор по вашим техническим требованиям: с нужным двигателем, нужным оборудованием и нужной мощности.</p>
+  <p>Свяжитесь с нами. Приедем на объект, сделаем расчеты и предложение.</p>
+
+  <a href='/контакты' class='js-metrica-contact-us Btn Btn+ Btn--wide+'>Связаться с нами</a>
+
+  {# @todo Enable when Bitrix integration will be ready #}
+  {# <form class='h-margin-top+ h-childs-space-top Wrapper--readable h-margin-left0'>
+    {{ Field(
+      id = 'contactName',
+      name = 'name',
+      label = 'Имя',
+      displayLabel = false,
+      placeholder = 'Как вас зовут?',
+      required = true,
+      style = 'max-width: 300px'
+    ) }}
+    {{ Field(
+      id = 'contactPhoneOrEmail',
+      name = 'phoneOrEmail',
+      label = 'Телефон или электронная почта',
+      displayLabel = false,
+      placeholder = 'Телефон или электронная почта',
+      required = true,
+      style = 'max-width: 300px'
+    ) }}
+    {{ Field(
+      id = 'contactMessage',
+      name = 'message',
+      type = 'textarea',
+      label = 'Сообщение',
+      displayLabel = false,
+      placeholder = 'Сообщение'
+    ) }}
+    <button class='Btn Btn--primary Btn--wide'>Отправить</button>
+  </form> #}
+
+</aside>
+
+<hr>
+
+<aside>
+
+  {% call SolutionPreview(
+    title = 'Синхронизация генераторных установок',
+    linkLabel = 'Подробнее о синхронизации установок',
+    url = '/решения/технические/синхронизация-генераторных-установок',
+    image = '/' + PATH.images + '/solutions/синхронизация-генераторных-установок/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right--inter.jpg'
+  ) %}
+    <p>Система из параллельно работающих генераторов, позволяющая эффективно распределять нагрузку и расходовать моторесурс двигателя, отключать часть генераторов для обслуживания или ремонта без прекращения подачи электроэнергии. </p>
+    <p>Отличное решение, если потребление энергии на объекте существенно меняется в течение дня, недели или даже сезона, или если вам нужна большая мощность по разумной цене. </p>
+  {% endcall %}
+
+  <hr>
+
+  {% call SolutionPreview(
+    title = 'Когенерационная установка для генераторов',
+    linkLabel = 'Подробнее о когенерации',
+    url = '/продукция/когенерационные-установки',
+    image = '/' + PATH.images + '/solutions/когенерационная-установка/Газовая-когенерационная-установка-ФАС-50-70М--front.jpg'
+  ) %}
+    <p>Когенерационная установка берёт тепло от работы генератора, которое иначе выбрасывается в воздух, и превращает его в горячую воду. </p>
+    <p>Нагретая вода идёт в систему отопления, горячего водоснабжения или используется в тригенерации, в результате чего суммарный КПД генератора увеличивается на 36-40%.</p>
+  {% endcall %}
+
+  <hr>
+
+  {% call SolutionPreview(
+    title = 'Контейнеры для генераторов',
+    linkLabel = 'Подробнее о контейнерах',
+    url = '/решения/технические/контейнеры-для-генераторов',
+    image = '/' + PATH.images + '/solutions/контейнер/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right.jpg'
+  ) %}
+    <p>Иногда генераторам приходится работать в сложных условиях — жару +40°С или такой же мороз, ливень или песчаную бурю. Это плохо для корпуса и механизмов. К тому же его нужно регулярно обслуживать.</p>
+    <p>Наше решение — специальный контейнер, оснащённый вентиляцией, сигнализацией, освещением и другими системами. Правильная температура и влажность, никаких вредных воздействий.</p>
+    <p>Контейнер дешевле, чем подсобное помещение или здание с такими же коммуникациями. К тому же его можно перевозить с места на место.</p>
+  {% endcall %}
+
+</aside>
+
+{% endblock %}

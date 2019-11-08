@@ -50,6 +50,7 @@
     {% call(depth) Item('/продукция', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
     {% call(depth) Item('/продукция/газовые-генераторы') %}{% endcall %}
+    {% call(depth) Item('/продукция/бензиновые-генераторы') %}{% endcall %}
     {% call(depth) Item('/продукция/испарительное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/испарительное-оборудование-для-аммиака', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/испарительное-оборудование-для-хлора', depth = depth) %}{% endcall %}

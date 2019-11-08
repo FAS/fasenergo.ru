@@ -1,0 +1,925 @@
+---
+title:           Бензиновые генераторы на базе двигателя ВАЗ (от 10 до 32 кВт)
+contentTitle:    Бензиновые генераторы на базе двигателя ВАЗ (от 10 до 32 кВт)
+navTitle:        Бензиновые генераторы на базе двигателя ВАЗ (от 10 до 32 кВт)
+breadcrumbTitle: Бензиновые генераторы на базе двигателя ВАЗ (от 10 до 32 кВт)
+
+description: Продажа бензиновых электрогенераторов ФАС немецко-российского производства, мощностью от 10 до 32 кВт.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_ProductCard.nj' import ProductCard with context %}
+{% from '_components/_Field.nj' import Field with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_SolutionPreview.nj' import SolutionPreview with context %}
+{% from '_components/_CatalogFilter.nj' import CatalogFilter with context %}
+{% from '_components/_Promos.nj' import Promos with context %}
+
+<div id='js-catalog' class='Box'>
+  
+
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":10,"price":424000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":62,"phases":1}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-10-1-вп-10-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front--closed--n-1.jpg' srcset='/assets/images/equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front--closed--n-1.jpg 1200w' alt='Газовый генератор ФАС-10-1/ВП (10 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-10-1-вп-10-квт' class='js-metrica-gensets-click-genset-card'>ФАС-10-1/ВП</a></h2>
+      <p>
+        Мощность: <strong>10 кВт</strong><br>
+        Фазы: 1<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 2106
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      <p aria-label='Цена: 424 тыс. рублей' class='h-h5'>
+        424 тыс. рублей
+      </p>
+
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца      
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+  
+  
+  
+
+  
+
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":10,"price":416000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":62,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-10-3-вп-10-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front--closed--n-1.jpg' srcset='/assets/images/equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front--closed--n-1.jpg 1200w' alt='Газовый генератор ФАС-10-3/ВП (10 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-10-3-вп-10-квт' class='js-metrica-gensets-click-genset-card'>ФАС-10-3/ВП</a></h2>
+      <p>
+        Мощность: <strong>10 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 2106
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+      <p aria-label='Цена: 416 тыс. рублей' class='h-h5'>
+        416 тыс. рублей
+      </p>
+      
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+  
+  
+  
+
+  
+
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":13,"price":425000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":63,"phases":1}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-13-1-вп-13-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front--closed--n-1.jpg' srcset='/assets/images/equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front--closed--n-1.jpg 1200w' alt='Газовый генератор ФАС-13-1/ВП (13 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-13-1-вп-13-квт' class='js-metrica-gensets-click-genset-card'>ФАС-13-1/ВП</a></h2>
+      <p>
+        Мощность: <strong>13 кВт</strong><br>
+        Фазы: 1<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21213
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+      <p aria-label='Цена: 425 тыс. рублей' class='h-h5'>
+        425 тыс. рублей
+      </p>
+      
+
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":13,"price":492000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":63,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-13-3-вп-13-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front--closed--n-1.jpg' srcset='/assets/images/equipment/газовые-генераторы/фас-8-13-вп/газовый-генератор-фас-8-13-вп--front--closed--n-1.jpg 1200w' alt='Газовый генератор ФАС-13-3/ВП (13 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-13-3-вп-13-квт' class='js-metrica-gensets-click-genset-card'>ФАС-13-3/ВП</a></h2>
+      <p>
+        Мощность: <strong>13 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21213
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      <p aria-label='Цена: 492 тыс. рублей' class='h-h5'>
+        492 тыс. рублей
+      </p>
+      
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+      </p>
+      
+    </div>
+
+  </div>
+</article>
+
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":15,"price":542000,"discount":"","engineBrand":"ВАЗ","mode":"основной","noise":67,"phases":1}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-15-1-вр-15-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg 1200w' alt='Газовый генератор ФАС-15-1/ВР (15 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-15-1-вр-15-квт' class='js-metrica-gensets-click-genset-card'>ФАС-15-1/ВР</a></h2>
+      <p>
+        Мощность: <strong>15 кВт</strong><br>
+        Фазы: 1<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21083
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      <p aria-label='Цена: 542 тыс. рублей' class='h-h5'>
+        542 тыс. рублей
+      </p>
+    
+
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+         
+      </p>
+      
+    </div>
+
+  </div>
+</article>
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":15,"price":540000,"discount":"","engineBrand":"ВАЗ","mode":"основной","noise":67,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-15-3-вр-15-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg 1200w' alt='Газовый генератор ФАС-15-3/ВР (15 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-15-3-вр-15-квт' class='js-metrica-gensets-click-genset-card'>ФАС-15-3/ВР</a></h2>
+      <p>
+        Мощность: <strong>15 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21083
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+
+      
+      
+      <p aria-label='Цена: 540 тыс. рублей' class='h-h5'>
+        540 тыс. рублей
+      </p>
+      
+
+      
+
+      
+      
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Газовый двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      
+
+      
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":18,"price":542000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":68,"phases":1}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-18-1-вр-18-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg 1200w' alt='Газовый генератор ФАС-18-1/ВР (18 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-18-1-вр-18-квт' class='js-metrica-gensets-click-genset-card'>ФАС-18-1/ВР</a></h2>
+      <p>
+        Мощность: <strong>18 кВт</strong><br>
+        Фазы: 1<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21083
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      <p aria-label='Цена: 542 тыс. рублей' class='h-h5'>
+        542 тыс. рублей
+      </p>
+      
+      
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      
+      <p class='h-text-'>
+        Гарантия:
+
+        24 месяца
+        
+      </p>
+
+    </div>
+
+  </div>
+</article>
+
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":18,"price":521000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":68,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-18-3-вр-18-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg 1200w' alt='Газовый генератор ФАС-18-3/ВР (18 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-18-3-вр-18-квт' class='js-metrica-gensets-click-genset-card'>ФАС-18-3/ВР</a></h2>
+      <p>
+        Мощность: <strong>18 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21083
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+      <p aria-label='Цена: 521 тыс. рублей' class='h-h5'>
+        521 тыс. рублей
+      </p>
+      
+      
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+  
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":21,"price":546000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":70,"phases":1}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-21-1-вп-21-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--front-left--closed--1.jpg' srcset='/assets/images/equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--front-left--closed--1.jpg 1200w' alt='Газовый генератор ФАС-21-1/ВП (21 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-21-1-вп-21-квт' class='js-metrica-gensets-click-genset-card'>ФАС-21-1/ВП</a></h2>
+      <p>
+        Мощность: <strong>21 кВт</strong><br>
+        Фазы: 1<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21213
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+      <p aria-label='Цена: 546 тыс. рублей' class='h-h5'>
+        546 тыс. рублей
+      </p>
+      
+      
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":21,"price":522000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":68,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-21-3-вр-21-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg 1200w' alt='Газовый генератор ФАС-21-3/ВР (21 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-21-3-вр-21-квт' class='js-metrica-gensets-click-genset-card'>ФАС-21-3/ВР</a></h2>
+      <p>
+        Мощность: <strong>21 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21213
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+      <p aria-label='Цена: 522 тыс. рублей' class='h-h5'>
+        522 тыс. рублей
+      </p>
+      
+
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":24,"price":596000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":69,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-24-3-вр-24-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-ВР/газовый-генератор-фас-вр--front--closed--1.jpg 1200w' alt='Газовый генератор ФАС-24-3/ВР (24 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-24-3-вр-24-квт' class='js-metrica-gensets-click-genset-card'>ФАС-24-3/ВР</a></h2>
+      <p>
+        Мощность: <strong>24 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21083
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      <p aria-label='Цена: 596 тыс. рублей' class='h-h5'>
+        596 тыс. рублей
+      </p>
+ 
+      
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +55С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -55С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":28,"price":588000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":70,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-28-3-вп-28-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--front-left--closed--1.jpg' srcset='/assets/images/equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--front-left--closed--1.jpg 1200w' alt='Газовый генератор ФАС-28-3/ВП (28 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-28-3-вп-28-квт' class='js-metrica-gensets-click-genset-card'>ФАС-28-3/ВП</a></h2>
+      <p>
+        Мощность: <strong>28 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 2106
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+      <p aria-label='Цена: 588 тыс. рублей' class='h-h5'>
+        588 тыс. рублей
+      </p>
+      
+
+      
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li>
+          <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+          <li>Блок автоматического ввода резерва (АВР)</li> 
+          <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+          <li>Стальная сварная рама с антивибрационными подушками</li> 
+          <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> 
+          <li>Двухопорный электрогенератор класса IP23</li> 
+          <li>Система экстренной остановки ГГУ</li> 
+          <li>Автоматический регулятор напряжения и частоты</li> 
+          <li>Контроллер нештатной работы генераторной установки</li> 
+          <li>Электрический пульт ручного запуска с измерительными приборами</li> 
+          <li>Комплект эксплуатационной документации</li> 
+          <li>Гарантийный талон</li> 
+          <li>Масло Shell SAE 5W-40</li> 
+          <li>Антифриз</li>
+        </ul>
+      
+  </div>
+
+</div>
+
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+
+<article
+  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{"power":32,"price":587000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":70,"phases":3}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='/продукция/бензиновые-генераторы/ваз/фас-32-3-вп-32-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--front-left--closed--1.jpg' srcset='/assets/images/equipment/газовые-генераторы/фас-21-32-вп/газовый-генератор-фас-21-32-вп--front-left--closed--1.jpg 1200w' alt='Газовый генератор ФАС-32-3/ВП (32 кВт)'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ваз/фас-32-3-вп-32-квт' class='js-metrica-gensets-click-genset-card'>ФАС-32-3/ВП</a></h2>
+      <p>
+        Мощность: <strong>32 кВт</strong><br>
+        Фазы: 3<br>
+        Охлаждение: жидкостное<br>
+        Двигатель: ВАЗ 21213
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      
+      <p aria-label='Цена: 586 тыс. рублей' class='h-h5'>
+        587 тыс. рублей
+      </p>
+    
+      
+<div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
+
+  <button class='js-expand h-bg-color--transparent h-padding0' data-expand-scope='.js-expand__scope' data-expand-close-on-outside-click='true'>
+    <span class='g-link' style='border-style: dashed' >Что входит в цену</span>
+  </button>
+
+  <div class='Dropdown js-expand__target h-padding-left+ h-margin-left0 h-text-'
+    style='display: none; min-width: 400px; right: 0;'>
+    
+        <ul class='h-childs-space-top0'>
+          <li>Двигатель с жидкостным охлаждением</li> <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li> <li>Блок автоматического ввода резерва (АВР)</li> <li>Подогрев двигателя для эксплуатации при температурах до -40С</li> <li>Стальная сварная рама с антивибрационными подушками</li> <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li> <li>Двухопорный электрогенератор класса IP23</li> <li>Система экстренной остановки ГГУ</li> <li>Автоматический регулятор напряжения и частоты</li> <li>Контроллер нештатной работы генераторной установки</li> <li>Электрический пульт ручного запуска с измерительными приборами</li> <li>Комплект эксплуатационной документации</li> <li>Гарантийный талон</li> <li>Масло Shell SAE 5W-40</li> <li>Антифриз</li>
+
+        </ul>
+      
+  </div>
+
+</div>
+
+      <p class='h-text-'>
+        Гарантия:
+        
+        24 месяца
+        
+      </p>
+      
+
+    </div>
+
+  </div>
+</article>
+
+</div>
+
+
+<aside>
+
+  <h2>
+    Нет подходящего генератора?<br>
+    Закажите индивидуальное решение
+  </h2>
+  <p>Мы можем собрать генератор по вашим техническим требованиям: с нужным двигателем, нужным оборудованием и нужной мощности.</p>
+  <p>Свяжитесь с нами. Приедем на объект, сделаем расчеты и предложение.</p>
+
+  <a href='/контакты' class='js-metrica-contact-us Btn Btn+ Btn--wide+'>Связаться с нами</a>
+
+  {# @todo Enable when Bitrix integration will be ready #}
+  {# <form class='h-margin-top+ h-childs-space-top Wrapper--readable h-margin-left0'>
+    {{ Field(
+      id = 'contactName',
+      name = 'name',
+      label = 'Имя',
+      displayLabel = false,
+      placeholder = 'Как вас зовут?',
+      required = true,
+      style = 'max-width: 300px'
+    ) }}
+    {{ Field(
+      id = 'contactPhoneOrEmail',
+      name = 'phoneOrEmail',
+      label = 'Телефон или электронная почта',
+      displayLabel = false,
+      placeholder = 'Телефон или электронная почта',
+      required = true,
+      style = 'max-width: 300px'
+    ) }}
+    {{ Field(
+      id = 'contactMessage',
+      name = 'message',
+      type = 'textarea',
+      label = 'Сообщение',
+      displayLabel = false,
+      placeholder = 'Сообщение'
+    ) }}
+    <button class='Btn Btn--primary Btn--wide'>Отправить</button>
+  </form> #}
+
+</aside>
+
+<hr>
+
+<aside>
+
+  {% call SolutionPreview(
+    title = 'Синхронизация генераторных установок',
+    linkLabel = 'Подробнее о синхронизации установок',
+    url = '/решения/технические/синхронизация-генераторных-установок',
+    image = '/' + PATH.images + '/solutions/синхронизация-генераторных-установок/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right--inter.jpg'
+  ) %}
+    <p>Система из параллельно работающих генераторов, позволяющая эффективно распределять нагрузку и расходовать моторесурс двигателя, отключать часть генераторов для обслуживания или ремонта без прекращения подачи электроэнергии. </p>
+    <p>Отличное решение, если потребление энергии на объекте существенно меняется в течение дня, недели или даже сезона, или если вам нужна большая мощность по разумной цене. </p>
+  {% endcall %}
+
+  <hr>
+
+  {% call SolutionPreview(
+    title = 'Когенерационная установка для генераторов',
+    linkLabel = 'Подробнее о когенерации',
+    url = '/продукция/когенерационные-установки',
+    image = '/' + PATH.images + '/solutions/когенерационная-установка/Газовая-когенерационная-установка-ФАС-50-70М--front.jpg'
+  ) %}
+    <p>Когенерационная установка берёт тепло от работы генератора, которое иначе выбрасывается в воздух, и превращает его в горячую воду. </p>
+    <p>Нагретая вода идёт в систему отопления, горячего водоснабжения или используется в тригенерации, в результате чего суммарный КПД генератора увеличивается на 36-40%.</p>
+  {% endcall %}
+
+  <hr>
+
+  {% call SolutionPreview(
+    title = 'Контейнеры для генераторов',
+    linkLabel = 'Подробнее о контейнерах',
+    url = '/решения/технические/контейнеры-для-генераторов',
+    image = '/' + PATH.images + '/solutions/контейнер/Генераторны-ФАС-МП-в-контейнерном-исполнении--front-right.jpg'
+  ) %}
+    <p>Иногда генераторам приходится работать в сложных условиях — жару +40°С или такой же мороз, ливень или песчаную бурю. Это плохо для корпуса и механизмов. К тому же его нужно регулярно обслуживать.</p>
+    <p>Наше решение — специальный контейнер, оснащённый вентиляцией, сигнализацией, освещением и другими системами. Правильная температура и влажность, никаких вредных воздействий.</p>
+    <p>Контейнер дешевле, чем подсобное помещение или здание с такими же коммуникациями. К тому же его можно перевозить с места на место.</p>
+  {% endcall %}
+
+</aside>
+
+{% endblock %}
