@@ -1185,6 +1185,106 @@
     weight: null
 
 
+фас-13-3лм-13-квт:
+  slug: фас-13-3лм-13-квт
+  meta:
+    title: Газовый генератор ФАС-13-3/ЛМ (13 кВт)
+    description: Трехфазный газовый генератор ФАС компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью 13 кВт, изготавливается в закрытом металлическом корпусе.
+  type: Газовые генераторы
+  article: 431303
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-13-3/ЛМ
+  title: Газовый генератор <span class='text-red'>ФАС-13-3/ЛМ</span> (13 кВт)
+  price: 402000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Трехфазные генераторы ФАС с воздушным охлаждением мощностью 13 кВт оснащены двигателями Loncin.</p>
+    <p>Компания Loncin специализируется на производстве двигателей для генераторов, садовой техники и мотоциклов с 1993 года. С 2013 года двигателями Loncin комплектуют целый ряд моделей мотоциклов BMW, что говорит о высоком  качестве, надежности и соответствии европейским требованиям.</p>
+    <p>Для автономных газовых электрогенераторов компанией были разработаны специальные двухтопливные двигатели, работающие на сжиженном (пропан-бутане) или на природном газе (метане) без дополнительных затрат и переоборудования системы.</p>
+    <p>Генераторы ФАС с воздушным охлаждением дешевле и проще в эксплуатации, чем аналогичные модели с жидкостным охлаждением. Генераторы выпускаются в прочном металлическом / пластиковом корпусе, обеспечивающем повышенное шумопоглощение. Предназначено такое оборудование для аварийного электроснабжения.</p>
+  features: null
+  photos:
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--1--front.jpg
+      main: true
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--2--front-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--3--left.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--4--back-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--5--back-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-ЛМ/газовый-генератор-фас-15-3лм--9--front-left--scheme.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 13
+      lpg:
+        max: 13
+    current:
+      _legacy: null
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: null
+    cooling: null
+  engineId: loncin-lc2v90f
+  enclosure:
+    type: закрытое
+    material: метал
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: null
+    size:
+      length: 1162
+      width: 770
+      height: 841
+    weight: 145
+
 фас-15-3лм-15-квт:
   slug: фас-15-3лм-15-квт
   meta:
@@ -1202,7 +1302,7 @@
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: preorder
+  availability: discontinued
   warranty:
     delivery: 24
     installation: 18
@@ -1417,7 +1517,7 @@
   series: null
   model: ФАС-10-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-10-1/ВП</span> (10 кВт)
-  price: 471000
+  price: 472000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1768,7 +1868,7 @@
   series: null
   model: ФАС-13-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-13-3/ВП</span> (13 кВт)
-  price: 546000
+  price: 471000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1885,7 +1985,7 @@
   series: null
   model: ФАС-15-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-1/ВР</span> (15 кВт)
-  price: 602000
+  price: 607000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -1999,7 +2099,7 @@
   series: null
   model: ФАС-15-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-15-3/ВР</span> (15 кВт)
-  price: 600000
+  price: 602000
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -2113,7 +2213,7 @@
   series: null
   model: ФАС-18-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-1/ВР</span> (18 кВт)
-  price: 602000
+  price: 607000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2227,7 +2327,7 @@
   series: null
   model: ФАС-18-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-18-3/ВР</span> (18 кВт)
-  price: 579000
+  price: 604000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2341,7 +2441,7 @@
   series: null
   model: ФАС-21-1/ВП
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВП</span> (21 кВт)
-  price: 606000
+  price: 611000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2576,7 +2676,7 @@
   series: null
   model: ФАС-21-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-3/ВР</span> (21 кВт)
-  price: 579000
+  price: 616000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2689,7 +2789,7 @@
   series: null
   model: ФАС-24-3/ВР
   title: Газовый генератор <span class='text-red'>ФАС-24-3/ВР</span> (24 кВт)
-  price: 662000
+  price: 642000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2803,7 +2903,7 @@
   series: null
   model: ФАС-28-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-28-3/ВП</span> (28 кВт)
-  price: 653000
+  price: 652000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2926,7 +3026,7 @@
   series: null
   model: ФАС-32-3/ВП
   title: Газовый генератор <span class='text-red'>ФАС-32-3/ВП</span> (32 кВт)
-  price: 652000
+  price: 653000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3152,7 +3252,7 @@
   series: null
   model: ФАС-40-3/МП
   title: Газовый генератор <span class='text-red'>ФАС-40-3/МП</span> (40 кВт)
-  price: 1573000
+  price: 1563000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3269,7 +3369,7 @@
   series: null
   model: ФАС-50-3/МП
   title: Газовый генератор <span class='text-red'>ФАС-50-3/МП</span> (50 кВт)
-  price: 1572000
+  price: 1598000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3390,7 +3490,7 @@
   series: null
   model: ФАС-100-3/МС
   title: Синхронизированная генераторная установка <span class='text-red'>ФАС-100-3/МС</span> (100 кВт)
-  price: 3025000
+  price: 3216000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3498,7 +3598,7 @@
   series: null
   model: ФАС-100-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-100-3/ЯП</span> (100 кВт)
-  price: 2576000
+  price: 2700000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4051,7 +4151,7 @@
   series: null
   model: ФАС-200-3/ЯС
   title: Синхронизированная генераторная установка <span class='text-red'>ФАС-200-3/ЯС</span> (200 кВт)
-  price: 5720000
+  price: 5918000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4155,7 +4255,7 @@
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: preorder
+  availability: discontinued
   warranty:
     delivery: 24
     installation: 24
@@ -4248,7 +4348,7 @@
   series: null
   model: ФАС-300-3/ЯС
   title: Синхронизированная генераторная установка <span class='text-red'>ФАС-300-3/ЯС</span> (300 кВт)
-  price: 5720000
+  price: 5948000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -4335,6 +4435,107 @@
       height: null
     weight: null
 
+фас-450-3-яс-450-квт:
+  slug: фас-450-3-яс-450-квт
+  meta:
+    title: Синхронизированная установка ФАС-450-3/ЯС (450 кВт)
+    description: Синхронизированные трёхфазные газовые генераторы ФАС от компании «Фасэнергомаш» на базе двигателей ЯМЗ с жидкостным охлаждением, мощностью 450 кВт, смонтированы на стальных рамах.
+  type: Газовые генераторы
+  article: 4645003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-450-3/ЯС
+  title: Синхронизированная генераторная установка <span class='text-red'>ФАС-450-3/ЯС</span> (450 кВт)
+  price: 8820000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24 
+    serviceLife: null
+  desc: |
+    <p>Синхронизированная газопоршневая установка ФАС-450-3/ЯС в составе 3-х газовых генераторов ФАС-150-3/ЯП.</p>
+  features: null
+  photos:
+    - url: equipment/газовые-генераторы/фас-яс/синхронизированная-установка-фас-450-3-яс--front-left--closed.jpg
+      main: true
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--1--front.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--2--front-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--3--back-left.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--4--back.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--5--back-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/Газовый-генератор-ФАС-100-3-Р--150-3-Р--6--front-right.jpg
+    - url: equipment/газовые-генераторы/ФАС-100-3-Р--150-3-Р/газовый-генератор-фас-100-3-яп--150-3-яп--7--back-right--scheme.jpg      
+  videos: null
+  docs: null
+  tags:
+    - двигатель-ямз
+  equipment:
+    AST: null
+    list: >
+      <li>3*x Газопоршневая установка <a href='/продукция/газовые-генераторы/фас-150-3-яп-150-квт'>ФАС-150-3/ЯП</a></li>
+      <li>Щит распределения нагрузки</li>
+      <li>Контроллер для синхронизированной работы</li>
+    optionsIds:
+      - '7000890'
+      - '7000891'      
+      - heat-module-2
+      - container-ymz-100-150
+  specs:
+    power:
+      ng:
+        max: 450
+      lpg:
+        max: 450
+    current:
+      _legacy: 540
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 м³/ч * 1 кВт
+      lpg: 0,3 кг/ч * 1 кВт
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ямз-238
+  enclosure:
+    type: открытое
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
+
+
 
 когенерационная-установка-фас-50-70м:
   slug: когенерационная-установка-фас-50-70м
@@ -4349,7 +4550,7 @@
   series: null
   model: ФАС-50/70М
   title: Когенерационная установка <span class='text-red'>ФАС-50/70М</span>
-  price: 2596000
+  price: 2616000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
