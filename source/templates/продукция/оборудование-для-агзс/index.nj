@@ -1,0 +1,44 @@
+---
+title:           'Оборудование для газовой заправки (АГЗС)'
+contentTitle:    Оборудование для АГЗС
+navTitle:        Оборудование для АГЗС
+breadcrumbTitle: Оборудование для АГЗС
+
+description: Оборудование для газовой заправки (АГЗС) от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+  {% call CategoryCard(
+    title = 'Автогазозаправочные станции',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/автогазозаправочные-станции/насосный-агрегат-fas-nz-36-8-и-2-газгольдера--4.jpg',
+    url = '/продукция/автогазозаправочные-станции/'
+  ) %}{% endcall %}  
+
+  {% call CategoryCard(
+    title = 'Газовые топливораздаточные колонки',
+    hLevel = 2,
+    image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-322-t/card2.jpg',
+    url = '/продукция/газовые-топливораздаточные-колонки'
+  ) %}{% endcall %}   
+
+  {% call CategoryCard(
+    title = 'Резервуары для СУГ',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/резервуары-для-суг/станционный-резервуар-наземный--1.jpg',
+    url = '/продукция/резервуары-для-суг'
+  ) %}{% endcall %}  
+
+  {% call CategoryCard(
+    title = 'Насосно-компрессорное оборудование',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/компрессорные-агрегаты/винтовые-rомпрессорные-агрегаты/card-3-1.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование'
+  ) %}{% endcall %}  
+
+
+{% endblock %}

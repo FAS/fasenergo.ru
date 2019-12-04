@@ -1,0 +1,18 @@
+---
+title:           Запчасти для насосов Corken
+contentTitle:    Запчасти для насосов Corken
+navTitle:        Запчасти для насосов Corken
+breadcrumbTitle: Запчасти для насосов Corken
+
+description: Запчасти для насосов Corken от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

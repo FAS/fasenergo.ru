@@ -1,0 +1,147 @@
+---
+title:           Ремкомплекты для насоса FD-150
+contentTitle:    Ремкомплекты для насоса FD-150
+navTitle:        Ремкомплекты для насоса FD-150
+breadcrumbTitle: Ремкомплекты для насоса FD-150
+
+description: Ремкомплекты для насоса FD-150 от компании ООО «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<h2>Ремкомплект для насоса FD-150 ФАС №32.511</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/насосно-компрессорное-оборудование/запчасти-и-ремкомплекты/запчасти-для-насосов/ремкомплекты/fd-150-фас-32511--1.jpg' },
+  { url: 'equipment/насосно-компрессорное-оборудование/запчасти-и-ремкомплекты/запчасти-для-насосов/ремкомплекты/fd-150-фас-32511--схема.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h3>Комплектация</h3>
+
+<table class='Table'>
+<thead>
+<tbody>
+<tr align="center">
+<td><span>№</span></td>
+<td><span>№ Заказа</span></td>
+<td><span>Наименование</span></td>
+<td><span>Номер детали</span></td>
+<td><span>Кол-во</span></td>
+</tr>
+<tr align="center">
+<td>5</td>
+<td>32530</td>
+<td>O-Кольцо Buna</td>
+<td>2-133A</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>7</td>
+<td> </td>
+<td>Торцевое уплотнение вала *</td>
+<td>5242-1Х-6</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>8</td>
+<td>32529</td>
+<td>O-Кольцо Buna</td>
+<td>2-018A</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>9</td>
+<td> </td>
+<td>Гильза *</td>
+<td>5243-1Х</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>10</td>
+<td>32535</td>
+<td>Стопорное кольцо</td>
+<td>2760-88</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>12</td>
+<td>32308</td>
+<td>Шпонка вала</td>
+<td>4244</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>13</td>
+<td>32531</td>
+<td>O-Кольцо Buna</td>
+<td>2-260А</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p> * поставляется только в составе данного ремкомплекта</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<hr>
+
+<h2>Ремкомплект для насоса FD-150 ФАС №32.5111</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/насосно-компрессорное-оборудование/запчасти-и-ремкомплекты/запчасти-для-насосов/ремкомплекты/fd-150-фас-325111--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h3>Комплектация</h3>
+
+<table class='Table'>
+<thead>
+<tbody>
+<tr align="center">
+<td><span>№</span></td>
+<td><span>№ Заказа</span></td>
+<td><span>Наименование</span></td>
+<td><span>Номер детали</span></td>
+<td><span>Кол-во</span></td>
+</tr>
+<tr align="center">
+<td>1</td>
+<td>ФАС №7001088</td>
+<td>O-Кольцо</td>
+<td>2-018а</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>2</td>
+<td> ФАС №7001089</td>
+<td>O-Кольцо</td>
+<td>2-133a</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>3</td>
+<td>ФАС №7001090</td>
+<td>O-Кольцо</td>
+<td>2-260a</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>4</td>
+<td> ФАС № 032511*</td>
+<td>Торцевое уплотнение вала </td>
+<td> 5242-1X_6 </td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p> * поставляется только в составе данного ремкомплекта</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+{% endblock %}

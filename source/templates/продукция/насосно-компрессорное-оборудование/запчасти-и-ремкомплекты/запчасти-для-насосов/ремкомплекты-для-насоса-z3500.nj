@@ -1,0 +1,387 @@
+---
+title:           Ремкомплекты для насоса Z3500
+contentTitle:    Ремкомплекты для насоса Z3500
+navTitle:        Ремкомплекты для насоса Z3500
+breadcrumbTitle: Ремкомплекты для насоса Z3500
+
+description: Ремкомплекты для насоса Z3500 от компании ООО «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<h2>Ремкомплект для насоса Z-3500 ФАС №32.636</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/насосно-компрессорное-оборудование/запчасти-и-ремкомплекты/запчасти-для-насосов/ремкомплекты/z3500-фас-32636--1.jpg' },
+  { url: 'equipment/насосно-компрессорное-оборудование/запчасти-и-ремкомплекты/запчасти-для-насосов/ремкомплекты/z3500-схема.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h3>Комплектация</h3>
+
+<table class='Table'>
+<thead>
+<tbody>
+<tr align="center">
+<td><span>№</span></td>
+<td><span>Номер заказа</span></td>
+<td><span>Наименование</span></td>
+<td><span>Номер</span> <span>детали</span></td>
+<td><span>Кол-во</span></td>
+</tr>
+<tr align="center">
+<td>1</td>
+<td>32067</td>
+<td>Кольцевое уплотнение</td>
+<td>2-228а</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>14</td>
+<td>32334</td>
+<td>Шпонка вала</td>
+<td>2270</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>16</td>
+<td>32340</td>
+<td>Подшипник</td>
+<td>2754-х</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>21</td>
+<td>32503</td>
+<td>Шибер</td>
+<td>3936</td>
+<td>6</td>
+</tr>
+<tr align="center">
+<td>24</td>
+<td>32333</td>
+<td>Узел упорного подшипника</td>
+<td>4432</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>25</td>
+<td>32332</td>
+<td>Монтажное кольцо</td>
+<td>4435</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>27</td>
+<td>32323</td>
+<td>Регулировочная шайба 0,002</td>
+<td>4439</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>28</td>
+<td>32324</td>
+<td>Регулировочная шайба 0,010</td>
+<td>4439-1</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>29</td>
+<td>32339</td>
+<td>Регулировочная шайба 0,020</td>
+<td>4439-2</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>30</td>
+<td>32557</td>
+<td>Уплотнение консистентной смазки</td>
+<td>4441</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>31</td>
+<td>323060</td>
+<td>Набор уплотнения вала</td>
+<td>6660-XA2</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>44</td>
+<td>32094</td>
+<td>Толкатель шибера</td>
+<td>5554-х</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>Вес: 2,25 кг</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<hr>
+
+<h2>Ремкомплект для насоса Z-3500 REPAIR KIT (Partial)<br>ФАС №32.7490</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/насосно-компрессорное-оборудование/запчасти-и-ремкомплекты/запчасти-для-насосов/ремкомплекты/z3500-фас-327490--1.jpg' },
+  { url: 'equipment/насосно-компрессорное-оборудование/запчасти-и-ремкомплекты/запчасти-для-насосов/ремкомплекты/z3500-схема.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h3>Комплектация</h3>
+
+<table class='Table'>
+<thead>
+<tbody>
+<tr align="center">
+<td><span>№</span></td>
+<td><span>Номер заказа</span></td>
+<td><span>Наименование</span></td>
+<td><span>Номер</span> <span>детали</span></td>
+<td><span>Кол-во</span></td>
+</tr>
+<tr align="center">
+<td>1</td>
+<td>32067</td>
+<td>Кольцевое уплотнение</td>
+<td>2-228а</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>14</td>
+<td>32334</td>
+<td>Шпонка вала</td>
+<td>2270</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>16</td>
+<td>32340</td>
+<td>Подшипник</td>
+<td>2754-х</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>21</td>
+<td>32503</td>
+<td>Шибер</td>
+<td>3936</td>
+<td>6</td>
+</tr>
+<tr align="center">
+<td>24</td>
+<td>32333</td>
+<td>Узел упорного подшипника</td>
+<td>4432</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>25</td>
+<td>32332</td>
+<td>Монтажное кольцо</td>
+<td>4435</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>27</td>
+<td>32323</td>
+<td>Регулировочная шайба 0,002</td>
+<td>4439</td>
+<td>8</td>
+</tr>
+<tr align="center">
+<td>28</td>
+<td>32324</td>
+<td>Регулировочная шайба 0,010</td>
+<td>4439-1</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>29</td>
+<td>32339</td>
+<td>Регулировочная шайба 0,020</td>
+<td>4439-2</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>30</td>
+<td>32557</td>
+<td>Уплотнение консистентной смазки</td>
+<td>4441</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>31</td>
+<td>323060</td>
+<td>Набор уплотнения вала</td>
+<td>6660-XA2</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>44</td>
+<td>32094</td>
+<td>Толкатель шибера</td>
+<td>5554-х</td>
+<td>6</td>
+</tr>
+<tr align="center">
+<td> </td>
+<td>32092</td>
+<td>Цилиндр</td>
+<td>5539</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td> </td>
+<td>32087</td>
+<td>Боковой диск</td>
+<td>3935</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>Вес: 12,7 кг</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<hr>
+
+<h2>Ремкомплект для насоса Z-3500 REPAIR KIT (Full)<br>ФАС №32.7491</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/насосно-компрессорное-оборудование/запчасти-и-ремкомплекты/запчасти-для-насосов/ремкомплекты/z3500-фас-327491--1.jpg' },
+  { url: 'equipment/насосно-компрессорное-оборудование/запчасти-и-ремкомплекты/запчасти-для-насосов/ремкомплекты/z3500-схема.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h3>Комплектация</h3>
+
+<table class='Table'>
+<thead>
+<tbody>
+<tr align="center">
+<td><span>№</span></td>
+<td><span>Номер заказа</span></td>
+<td><span>Наименование</span></td>
+<td><span>Номер</span> <span>детали</span></td>
+<td><span>Кол-во</span></td>
+</tr>
+<tr align="center">
+<td>1</td>
+<td>32067</td>
+<td>Кольцевое уплотнение</td>
+<td>2-228а</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>14</td>
+<td>32334</td>
+<td>Шпонка вала</td>
+<td>2270</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>16</td>
+<td>32340</td>
+<td>Подшипник</td>
+<td>2754-х</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>21</td>
+<td>32503</td>
+<td>Шибер</td>
+<td>3936</td>
+<td>6</td>
+</tr>
+<tr align="center">
+<td>24</td>
+<td>32333</td>
+<td>Узел упорного подшипника</td>
+<td>4432</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>25</td>
+<td>32332</td>
+<td>Монтажное кольцо</td>
+<td>4435</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>27</td>
+<td>32323</td>
+<td>Регулировочная шайба 0,002</td>
+<td>4439</td>
+<td>8</td>
+</tr>
+<tr align="center">
+<td>28</td>
+<td>32324</td>
+<td>Регулировочная шайба 0,010</td>
+<td>4439-1</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>29</td>
+<td>32339</td>
+<td>Регулировочная шайба 0,020</td>
+<td>4439-2</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>30</td>
+<td>32557</td>
+<td>Уплотнение консистентной смазки</td>
+<td>4441</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>31</td>
+<td>323060</td>
+<td>Набор уплотнения вала</td>
+<td>6660-XA2</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td>44</td>
+<td>32094</td>
+<td>Толкатель шибера</td>
+<td>5554-х</td>
+<td>6</td>
+</tr>
+<tr align="center">
+<td> </td>
+<td>32092</td>
+<td>Цилиндр</td>
+<td>5539</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td> </td>
+<td>32087</td>
+<td>Боковой диск</td>
+<td>3935</td>
+<td>2</td>
+</tr>
+<tr align="center">
+<td> </td>
+<td>324320</td>
+<td>Комплектный вал</td>
+<td>1208-1Х6R</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Вес: 12-15 кг</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+{% endblock %}
