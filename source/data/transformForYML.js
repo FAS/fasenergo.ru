@@ -156,7 +156,7 @@ module.exports = (data) => {
         .map((v) => v / 10) // To convert `mm` to required by Yandex `cm`
       ) || null,
       rec: RECOMMENDED_GENERATORS.map((e) => e.article.toString()),
-      vat: 'VAT_18'
+      vat: 'VAT_20'
     }, isNil))
   })
 
