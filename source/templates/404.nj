@@ -19,3 +19,9 @@ showBreadcrumb:   false
 <h1 class='h-text++ h-margin-bottom+'><b>404</b> — страница не найдена</h1>
 <p class='h-margin-top+'><a class='Btn' href='{{ localeDir() }}'>На главную</a></p>
 {% endblock %}
+
+<script>
+window.onload = function (){
+yaCounter20139793.reachGoal('visit-page-404');
+}
+</script>
