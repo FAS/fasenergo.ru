@@ -1,0 +1,46 @@
+---
+title:           Узлы латунного выходного колпачка и цепи для клапанов в промышленном и криогенном оборудовании
+contentTitle:    Узлы латунного выходного колпачка и цепи для клапанов в промышленном и криогенном оборудовании
+navTitle:        Узлы латунного выходного колпачка и цепи
+breadcrumbTitle: Узлы латунного выходного колпачка и цепи
+
+description: Узлы латунного выходного колпачка и цепи для клапанов в промышленном и криогенном оборудовании от компании ООО «Фасэнергомаш» — немецко-российского производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/клапаны/узлы-колпачка-и-цепи.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p> </p>
+ 
+<table class='Table'>
+<thead>
+<tr class="h" align="center">
+<td scope="col" width="130">Номер детали по каталогу</td>
+<td scope="col">Резьбовое соединение</td>
+<td scope="col">Трубка установки торцевого кольца</td>
+</tr>
+<tr align="center">
+<td scope="row">10663</td>
+<td>7/8 - 14NF - правая"</td>
+<td>1/2"</td>
+</tr>
+<tr align="center">
+<td scope="row" width="160">10664</td>
+<td>7/8 - 14NF - левая"</td>
+<td>1/2"</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

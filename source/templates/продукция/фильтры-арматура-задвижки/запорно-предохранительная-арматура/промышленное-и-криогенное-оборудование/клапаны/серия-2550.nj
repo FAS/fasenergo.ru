@@ -1,0 +1,117 @@
+---
+title:           Шаровые вентили мембранного типа RegO серия 2550
+contentTitle:    Шаровые вентили мембранного типа RegO серия 2550
+navTitle:        Шаровые вентили мембранного типа RegO серия 2550
+breadcrumbTitle: Шаровые вентили мембранного типа RegO серия 2550
+
+description: Шаровые вентили мембранного типа RegO серия 2550 от компании ООО «Фасэнергомаш» — немецко-российского производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/клапаны/серия-2550.jpg' },
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/клапаны/серия-2550--схема-1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p>  </p>
+ 
+<table class='Table'>
+<thead>
+<tr><th>Артикул</th><th>Номер</th><th>Вход/выход<br />Резьба<br />(внутренняя NPT) A</th><th>Диаметр <br />порта B</th><th>Высота C</th><th>Длина D</th><th>CV фактор</th></tr>
+<tr>
+<td>94801</td>
+<td>2553АС</td>
+<td>¼"</td>
+<td rowspan="2">13/32"</td>
+<td rowspan="4">3 ⁵⁄₈"</td>
+<td rowspan="2">2 ½"</td>
+<td>1,4</td>
+</tr>
+<tr>
+<td>94802</td>
+<td>2553АAС</td>
+<td>³⁄₈"</td>
+<td>1,5</td>
+</tr>
+<tr>
+<td>94803</td>
+<td>2554AС</td>
+<td>½"</td>
+<td rowspan="2">11/16"</td>
+<td rowspan="2">3 ¹⁄₈"</td>
+<td>4,3</td>
+</tr>
+<tr>
+<td>94804</td>
+<td>2554АAС</td>
+<td>¾"</td>
+<td>4,3<br /><br /></td>
+</tr>
+</tbody>
+</table>
+
+<h2>Применение</h2>
+<p>Вентили серии 2550 предназначены для использования в больничных и промышленных трубопроводных системах, где газы подаются из централизованного источника к выходам разводки по всей системе.</p>
+
+<h2>Характеристики</h2>
+
+<ul>
+	<li>Сертификация по UL для использования с воздухом, ацетиленом, водородом, сжиженным нефтяным газом, азотом и кислородом.</li>
+	<li>Предотвращение утечек посредством надежного мембранного уплотнения штока.</li>
+	<li>Упругий диск седла обеспечивает самозапирание.</li>
+	<li>Резьба штока для тяжелого режима работы ACME обеспечивает легкую эксплуатацию и длительный срок службы.</li>
+	<li>Максимальное манометрическое рабочее давление равно 250 фунтов на кв. дюйм.</li>
+	<li>Диапазон рабочих температур от -40°F до +165°F. 100% прохождение заводских испытаний.</li>
+</ul>
+
+
+<h2>Материалы</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Номер детали по каталогу</td>
+<td scope="col">Резьба впускного / выпускного отверстия (Охватывающая NРТ) А</td>
+<td scope="col">Диаметр портаB</td>
+<td scope="col">ВысотаC</td>
+<td scope="col">ДлинаD</td>
+<td scope="col">Коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="row">2553AC</td>
+<td align="center">1/4"</td>
+<td rowspan="2" align="center">13/32"</td>
+<td rowspan="4">3 3/8"</td>
+<td rowspan="2">2 1/2"</td>
+<td align="center">1.4</td>
+</tr>
+<tr>
+<td scope="row">2553AAC</td>
+<td align="center">3/8"</td>
+<td align="center">1.5</td>
+</tr>
+<tr>
+<td scope="row">2554AC</td>
+<td align="center">1/2"</td>
+<td rowspan="2" align="center">11/16"</td>
+<td rowspan="2">3 1/8"</td>
+<td align="center">4.3</td>
+</tr>
+<tr>
+<td scope="row">2554AAC</td>
+<td align="center">3/4"</td>
+<td align="center">4.3</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

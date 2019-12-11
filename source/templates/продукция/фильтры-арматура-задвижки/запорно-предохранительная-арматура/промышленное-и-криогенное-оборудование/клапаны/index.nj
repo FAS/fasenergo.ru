@@ -1,0 +1,18 @@
+---
+title:           Клапаны (вентили) RegO
+contentTitle:    Клапаны (вентили) RegO
+navTitle:        Клапаны (вентили) RegO
+breadcrumbTitle: Клапаны (вентили) RegO
+
+description: Клапаны RegO от компании ООО «Фасэнергомаш» — производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

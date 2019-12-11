@@ -12,8 +12,17 @@ description: Запорно-предохранительная арматура 
 {% block main %}
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
 
-<p>  </p>
+<p>&nbsp;</p>
 
+{% call CategoryCard(
+  title = 'Промышленное и криогенное оборудование',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/клапаны/серия-2550-1.jpg',
+  url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование'
+) %}{% endcall %}
+
+<hr>
+ 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
 
   {% call CategoryCard(
