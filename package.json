@@ -55,7 +55,7 @@
     "time-grunt": "1.4.0",
     "urijs": "1.19.0",
     "urlify": "0.3.6",
-    "yandex-market-language": "0.3.0"
+    "yandex-market-language": "0.4.1"
   },
   "devDependencies": {
     "babel-eslint": "8.0.1",
