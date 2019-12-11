@@ -22,6 +22,6 @@ exec('git --version', (error) => {
       return process.exit(1)
     }
 
-    console.log(`[clean-workdir] no modified files detected outside of build folder. Live long and prosper`)
+    console.log('[clean-workdir] no modified files detected outside of build folder. Live long and prosper')
   })
 })

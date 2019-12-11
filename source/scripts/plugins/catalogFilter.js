@@ -136,7 +136,7 @@ if ($filtersContainer && $productsContainer) {
     if (isFilter($target)) {
       if (isPreset($target)) {
         presetedState = presetState(getFilterState())
-        let { presetData } = presetedState
+        const { presetData } = presetedState
 
         $target.value === 'popular' && $filtersForm.reset()
 
