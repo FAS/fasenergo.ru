@@ -1,0 +1,175 @@
+---
+title:           Автоматические переключающие регуляторы RegO серии М2523НР
+contentTitle:    Автоматические переключающие регуляторы RegO серии М2523НР
+navTitle:        Автоматические переключающие регуляторы RegO серии М2523НР
+breadcrumbTitle: Автоматические переключающие регуляторы RegO серии М2523НР
+
+description: Автоматические регуляторы RegO серии М2523НР от компании ООО «Фасэнергомаш» — немецко-российского производителя оборудования. Разработаны специально для использования в системах, где запасной цилиндр используется для обеспечения непрерывного бесперебойного снабжения газом.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/газорегуляторное-оборудование/регуляторы-RegO/rego-для-других-газов/серия-m2523hp--1.jpg' },
+  { url: 'equipment/газорегуляторное-оборудование/регуляторы-RegO/rego-для-других-газов/серия-m2523hp--схема.jpg' },
+   { url: 'equipment/газорегуляторное-оборудование/регуляторы-RegO/rego-для-других-газов/серия-m2523hp--график.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+ 
+<p>  </p>
+ 
+<table class='Table'>
+<thead>
+<tr class="h">
+<td style="text-align: center;" scope="col">Номер детали по каталогу</td>
+<td style="text-align: center;" scope="col">Газовая среда</td>
+<td style="text-align: center;" scope="col">Вход- ное соеди- нение CGA</td>
+<td style="text-align: center;" scope="col">Выход- ное соеди- нение</td>
+<td style="text-align: center;" scope="col" width="55">Ширина A</td>
+<td style="text-align: center;" scope="col" width="55">Высота B</td>
+<td style="text-align: center;" scope="col">Макси- мальное давление на входе (маном. давление, фунтов на кв.дюйм)</td>
+<td style="text-align: center;" scope="col">Диапазон давления нагнета- ния (маном. давление, фунтов на  кв. дюйм)</td>
+<td style="text-align: center;" scope="col">Вспомо- гательные регуля- торы*</td>
+</tr>
+<tr align="center">
+<td scope="row">М2523НР320</td>
+<td>Углекис- лый газ</td>
+<td>320</td>
+<td rowspan="6">1/4" охваты-вающая NPT</td>
+<td rowspan="6">7 3/4"</td>
+<td rowspan="6">5 1/8<sup>"</sup></td>
+<td rowspan="2">1800</td>
+<td rowspan="6">30-130</td>
+<td rowspan="2">Серии BR-1784E, 1784Е, С-1682М</td>
+</tr>
+<tr align="center">
+<td scope="row">М2523НР326</td>
+<td>Оксид азота</td>
+<td>326</td>
+</tr>
+<tr align="center">
+<td scope="row">М2523НР350</td>
+<td>Водород</td>
+<td>350</td>
+<td rowspan="4">3000</td>
+<td rowspan="4">Серия 1784 Серия 1682 М Серия BR 1784</td>
+</tr>
+<tr align="center">
+<td scope="row">М2523НР540</td>
+<td>Кислород</td>
+<td>540</td>
+</tr>
+<tr align="center">
+<td scope="row">М2523НР580</td>
+<td>Азот, Аргон, Гелий</td>
+<td>580</td>
+</tr>
+<tr align="center">
+<td style="text-align: center;" scope="row">М2523НР590</td>
+<td style="text-align: center;">Промыш- ленный воздух</td>
+<td style="text-align: center;">590<br /><br /></td>
+</tr>
+</tbody>
+</table>
+
+<p>* Могут использоваться после регуляторов М2523НР в качестве регулятора давления последней линии.</p>
+
+<h2>Применение</h2>
+<p>Автоматические переключающие регуляторы серии М2523НР разработаны специально для использования в системах, где запасной цилиндр используется для обеспечения непрерывного бесперебойного снабжения газом. Данные регуляторы предназначены для использования с углекислым газом, водородом, кислородом, промышленным воздухом, оксидом азота, азотом, гелием и аргоном.</p>
+
+<h2>Характеристики</h2>
+
+<ul>
+	<li>Автоматически выпускается из запасного цилиндра после откачки из «рабочего» цилиндра.</li>
+	<li>Манометры цилиндра позволяют узнать с одного взгляда, какой используется цилиндр. Нет необходимости отключать систему для замены пустых цилиндров.</li>
+	<li>Никелированный.</li>
+	<li>100% прохождение заводских испытаний.</li>
+	<li>Фильтры из пористой бронзы установлены в каждом впускном патрубке для сведения к минимуму попадание посторонних частиц.</li>
+	<li>Контрольные клапаны противодавления установлены в каждом впускном патрубке, чтобы помочь в обеспечении самозапирания при обратном потоке.</li>
+	<li>Каждый узел поступает оборудованным монтажным кронштейном и специальным регулировочным гаечным ключом давления нагнетания.</li>
+	<li>Заводская уставка сделана на манометрическое давление 50 фунтов на кв. дюйм на рабочей стороне. Регуляторы СО2 и N2О имеют заводскую уставку на манометрическое давление 100 фунтов на кв. дюйм на рабочей стороне.</li>
+</ul>
+
+
+<h2>Материалы</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td>Корпус:</td>
+<td>Латунь</td>
+</tr>
+<tr>
+<td>Крышка:</td>
+<td>Латунь</td>
+</tr>
+<tr>
+<td>Диск седла (все газы, кроме СО2):</td>
+<td>Витон</td>
+</tr>
+<tr>
+<td>Диск седла (только СО2):</td>
+<td><span>Буна N</span></td>
+</tr>
+<tr>
+<td>Ручка:</td>
+<td><span>Алюминий</span></td>
+</tr>
+<tr>
+<td><span>Пружина крышки:</span></td>
+<td><span>Сталь</span></td>
+</tr>
+<tr>
+<td><span>Пружина задней крышки:</span></td>
+<td><span>Нержавеющая сталь</span></td>
+</tr>
+</tbody>
+</table>
+
+<h2>Таблица конверсии</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td style="text-align: center;" scope="col">Источник</td>
+<td style="text-align: center;" scope="col" width="365">Множитель</td>
+</tr>
+<tr align="center">
+<td style="text-align: center;">Углекислый газ</td>
+<td style="text-align: center;">.81</td>
+</tr>
+<tr align="center">
+<td style="text-align: center;">Азот</td>
+<td style="text-align: center;">1.02</td>
+</tr>
+<tr align="center">
+<td style="text-align: center;">Оксид азота</td>
+<td style="text-align: center;">.81</td>
+</tr>
+<tr align="center">
+<td style="text-align: center;">Аргон</td>
+<td style="text-align: center;">.85</td>
+</tr>
+<tr align="center">
+<td style="text-align: center;">Кислород</td>
+<td style="text-align: center;">.95</td>
+</tr>
+<tr align="center">
+<td style="text-align: center;">Гелий</td>
+<td style="text-align: center;">2.69</td>
+</tr>
+<tr align="center">
+<td style="text-align: center;">Водород</td>
+<td style="text-align: center;">3.79</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

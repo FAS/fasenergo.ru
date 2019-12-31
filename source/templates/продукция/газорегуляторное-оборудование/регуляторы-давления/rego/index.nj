@@ -1,0 +1,29 @@
+---
+title:           'Регуляторы давления RegO'
+contentTitle:    Регуляторы давления RegO
+navTitle:        RegO
+breadcrumbTitle: RegO
+
+description: Регуляторы давления RegO.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+{% call CategoryCard(
+  title = 'Регуляторы давления RegO для СУГ',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/регуляторы-rego-n.jpg',
+  url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-суг'
+) %}{% endcall %}
+
+{% call CategoryCard(
+  title = 'Регуляторы давления RegO для криогенных и промышленных газов',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-rg-n.jpg',
+  url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/'
+) %}{% endcall %}
+
+{% endblock %}

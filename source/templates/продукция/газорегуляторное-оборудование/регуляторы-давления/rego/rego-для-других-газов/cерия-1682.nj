@@ -1,0 +1,128 @@
+---
+title:           Алюминиевые регуляторы давления RegO серии 1682М и С-1682М
+contentTitle:    Алюминиевые регуляторы давления RegO серии 1682М и С-1682М
+navTitle:        Алюминиевые регуляторы давления RegO серии 1682М и С-1682М
+breadcrumbTitle: Алюминиевые регуляторы давления RegO серии 1682М и С-1682М
+
+description: Алюминиевые регуляторы давления RegO серии 1682М и С-1682М от компании ООО «Фасэнергомаш» — немецко-российского производителя оборудования. Предназначены для второй ступени регулирования различных газов в трубопроводных системах, больничных трубопроводных системах и системах коллекторов. 
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/газорегуляторное-оборудование/регуляторы-RegO/rego-для-других-газов/серия-1682--1.jpg' },
+  { url: 'equipment/газорегуляторное-оборудование/регуляторы-RegO/rego-для-других-газов/серия-1682--схема.jpg' },
+  { url: 'equipment/газорегуляторное-оборудование/регуляторы-RegO/rego-для-других-газов/серия-1682--график.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+ 
+<p>  </p>
+ 
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2" colspan="2">Номер детали по каталогу</td>
+<td scope="col" rowspan="2">Диапазон давления нагнетания (футов на кв. дюйм)</td>
+<td scope="col" colspan="2">Манометр</td>
+<td scope="col" rowspan="2">Впускной патрубок и выпускной патрубок (охватывающая N.P.T.)</td>
+<td scope="col" rowspan="2" width="55">Ширина<br />A</td>
+<td scope="col" rowspan="2">Максимальная высота<br />B</td>
+</tr>
+<tr>
+<td scope="col">Диапазон (футов на кв. дюйм)</td>
+<td scope="col">Номер детали по каталогу</td>
+</tr>
+<tr align="center">
+<td scope="row">1682ML</td>
+<td scope="row" width="65">C-1682ML</td>
+<td rowspan="2">5-50</td>
+<td>*</td>
+<td>*</td>
+<td rowspan="6">1/4"</td>
+<td rowspan="6">2 3/16<sup>"</sup></td>
+<td rowspan="6">4 1/8<sup>"</sup></td>
+</tr>
+<tr align="center">
+<td scope="row">1682MLG</td>
+<td scope="row">C-1682MLG</td>
+<td>1-100</td>
+<td>1286</td>
+</tr>
+<tr align="center">
+<td scope="row">1682M</td>
+<td scope="row">C-1682M</td>
+<td rowspan="2">50-125</td>
+<td>*</td>
+<td>*</td>
+</tr>
+<tr align="center">
+<td scope="row">1682MG</td>
+<td scope="row">C-1682MG</td>
+<td>1-200</td>
+<td>S1679</td>
+</tr>
+<tr align="center">
+<td scope="row">1682MS</td>
+<td scope="row">C-1682MS</td>
+<td rowspan="2">100-250</td>
+<td>*</td>
+<td>*</td>
+</tr>
+<tr align="center">
+<td scope="row">1682MSG</td>
+<td scope="row">C-1682MSG</td>
+<td>1-400</td>
+<td>15578</td>
+</tr>
+</tbody>
+</table>
+
+<p>* Манометр не входит в объем поставки.</p>
+
+<h2>Применение</h2>
+<p>Регуляторы серии 1682М предназначены в первую очередь для второй ступени регулирования различных газов в промышленных трубопроводных системах, больничных трубопроводных системах и системах коллекторов.</p>
+<p>Серия С-1682М разработана специально для использования с углекислым газом.</p>
+
+<h2>Характеристики</h2>
+
+<ul>
+	<li>Максимальное манометрическое давление на входе составляет 400 фунтов на кв. дюйм.</li>
+	<li>Два отверстия манометра стороны нагнетания с 1/4" NPT охватывающей резьбой расположены под углом 180° по обе стороны для обеспечения монтажа манометров в наиболее удобном положении.</li>
+	<li>Каждый регулятор серии 1680М очищен и упакован для работы с кислородом согласно стандарту CGA G-4.1.</li>
+	<li>100% прохождение заводских испытаний.</li>
+	<li>Регулировочный винт с Т-образной рукояткой.</li>
+	<li>Имеется в наличии для трех диапазонов давления нагнетания.</li>
+	<li>Диапазон температур: -40° F до +165°F.</li>
+</ul>
+
+<h2>Материалы</h2>
+
+<table class='Table'>
+<thead>
+<tr>
+<td>Корпус:</td>
+<td>Алюминий</td>
+</tr>
+<tr>
+<td>Крышка:</td>
+<td>Литейный алюминий</td>
+</tr>
+<tr>
+<td><span>Диск седла:</span><br /><span>1682М<br /></span><span>С – 1682М</span></td>
+<td><span><br />Неопрен</span><br /><span>EPDM</span></td>
+</tr>
+<tr>
+<td><span>Диск седла:<br />1682М<br />С – 1682М</span></td>
+<td><span><span><br />Неопрен</span><br /><span>EPDM</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

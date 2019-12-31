@@ -1,0 +1,125 @@
+---
+title:           'Регуляторы давления RegO для криогенных и промышленных газов'
+contentTitle:    Регуляторы давления RegO для криогенных и промышленных газов
+navTitle:        Регуляторы давления RegO для криогенных и промышленных газов
+breadcrumbTitle: Регуляторы давления RegO для криогенных и промышленных газов
+
+description: Регуляторы давления RegO для криогенных и промышленных газов.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Криогенные регуляторы RegO серии RG',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-rg.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/cерия-rg',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Криогенные экономайзеры RegO серии ECL',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-ecl.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/cерия-ecl',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}  
+  {% call CategoryCard(
+    title = 'Комбинированные регуляторы подъема давления RegO серии CBC и CBH',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/cерия-cbh-cbc.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/cерия-cbh-cbc',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}    
+  {% call CategoryCard(
+    title = 'Криогенные регуляторы RegO серии LCR для баллона с жидкостью',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-lcr.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/cерия-lcr',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}  
+
+  {% call CategoryCard(
+    title = 'Регуляторы давления RegO серии BR-1780 последней линии повышенной прочности из латуни',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-br-1780.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/cерия-br-1780',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}   
+  {% call CategoryCard(
+    title = 'Линейные регуляторы газа RegO серии 1780 (повышенной прочности)',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-1780.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/cерия-1780',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}   
+  {% call CategoryCard(
+    title = 'Автоматические переключающие регуляторы RegO серии М2523НР',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-m2523hp.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/cерия-m2523hp',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}  
+  {% call CategoryCard(
+    title = 'Линейные регуляторы низкого давления RegO серии 4403',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-4403.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/cерия-4403',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  
+  {% call CategoryCard(
+    title = 'Алюминиевые регуляторы давления RegO серии 1682М и С-1682М',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-1682.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/cерия-1682',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %} 
+  {% call CategoryCard(
+    title = 'Регуляторы азота RegO серии 4286, 4289 и 4291 (Комплекты Inertrol)',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/inertrol.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/inertrol',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}    
+  {% call CategoryCard(
+    title = 'Регуляторы низкого давления RegO серии 4286-10 и 4289-10',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-4286-10.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/серия-4286-10',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %} 
+  {% call CategoryCard(
+    title = 'Аварийные манометры RegO серии 4285-9В',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/газорегуляторное-оборудование/регуляторы-давления/rego-для-других-газов/серия-4285.jpg',
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/серия-4285',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}      
+
+  {% call CategoryCard(
+    title = 'Наборы для ремонта',
+    hLevel = 3,
+    url = '/продукция/газорегуляторное-оборудование/регуляторы-давления/rego/rego-для-других-газов/ремкоплекты',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}                       
+</div>
+
+{% endblock %}
