@@ -390,3 +390,31 @@ kubota-df972:
   fuel:
     ng: null
     lpg: null
+
+man:
+  slug: man
+  type: null
+  model: (Германия)
+  manufacturer:
+    brand: MAN
+    country: null
+  power:
+    hp: null
+    value: null
+    rpm: null
+  torque:
+    value: null
+    rpm: null
+  valvetrain: null
+  cylinders: null
+  strokes: null
+  displacement: null
+  compressionRatio:
+    max: null
+    min: null
+  operatingSpeed: null
+  cooling: liquid
+  oilCapacity: null
+  fuel:
+    ng: null
+    lpg: null    
