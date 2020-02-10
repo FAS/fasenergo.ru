@@ -4,7 +4,7 @@ contentTitle:    Регуляторы давления RegO
 navTitle:        RegO
 breadcrumbTitle: RegO
 
-description: Регуляторы давления RegO.
+description: Регуляторы давления RegO для сжиженных, криогенных и промышленных газов, от компании ООО «Фасэнергомаш». Разные типы регуляторов. Монтаж, пуско-наладка, получение всех документов.
 ---
 
 {% extends '_layouts/_main.nj' %}
