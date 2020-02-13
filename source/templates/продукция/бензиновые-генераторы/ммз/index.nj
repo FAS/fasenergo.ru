@@ -25,7 +25,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":40,"price":1413000,"discount":null,"engineBrand":"ММЗ","mode":"основной","noise":65,"phases":3}'
+  data-product='{"power":40,"price":1600000,"discount":null,"engineBrand":"ММЗ","mode":"основной","noise":65,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -46,8 +46,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
     
-      <p aria-label='Цена: 1,413 млн рублей' class='h-h5'>
-        1,413 млн рублей
+      <p aria-label='Цена: 1,60 млн рублей' class='h-h5'>
+        1,60 млн рублей
       </p>
       
       
@@ -89,7 +89,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":50,"price":1415000,"discount":null,"engineBrand":"ММЗ","mode":"основной","noise":65,"phases":3}'
+  data-product='{"power":50,"price":1640000,"discount":null,"engineBrand":"ММЗ","mode":"основной","noise":65,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -110,8 +110,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
       
-      <p aria-label='Цена: 1,415 млн рублей' class='h-h5'>
-        1,415 млн рублей
+      <p aria-label='Цена: 1,640 млн рублей' class='h-h5'>
+        1,640 млн рублей
       </p>
       
       

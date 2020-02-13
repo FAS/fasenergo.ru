@@ -25,7 +25,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":35,"price":953000,"discount":null,"engineBrand":"ЗМЗ","mode":"основной","noise":66,"phases":3}'
+  data-product='{"power":35,"price":1100000,"discount":null,"engineBrand":"ЗМЗ","mode":"основной","noise":66,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -47,8 +47,8 @@ description: Продажа бензиновых электрогенерато�
 
       
       
-      <p aria-label='953 тыс. рублейй' class='h-h5'>
-        953 тыс. рублей
+      <p aria-label='1,10 млн рублей' class='h-h5'>
+        1,10 млн рублей
       </p>
       
 
@@ -71,7 +71,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":40,"price":953000,"discount":null,"engineBrand":"ЗМЗ","mode":"основной","noise":66,"phases":3}'
+  data-product='{"power":40,"price":1100000,"discount":null,"engineBrand":"ЗМЗ","mode":"основной","noise":66,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -92,8 +92,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
       
-      <p aria-label='953 тыс. рублей' class='h-h5'>
-        953 тыс. рублей
+      <p aria-label='1,10 млн рублей' class='h-h5'>
+        1,10 млн рублей
       </p>
       
       

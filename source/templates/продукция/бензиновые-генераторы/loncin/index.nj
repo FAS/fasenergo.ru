@@ -23,7 +23,7 @@ description: Продажа недорогих бензиновых электр
   
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":5,"price":174000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
+  data-product='{"power":5,"price":214000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -47,8 +47,8 @@ description: Продажа недорогих бензиновых электр
 
       
       
-      <p aria-label='Цена: 174 тыс. рублей' class='h-h5'>
-        174 тыс. рублей
+      <p aria-label='Цена: 214 тыс. рублей' class='h-h5'>
+        214 тыс. рублей
       </p>
       
 
@@ -78,7 +78,7 @@ description: Продажа недорогих бензиновых электр
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":5,"price":159000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
+  data-product='{"power":5,"price":199000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -102,8 +102,8 @@ description: Продажа недорогих бензиновых электр
 
       
       
-      <p aria-label='Цена: 159 тыс. рублей' class='h-h5'>
-        159 тыс. рублей
+      <p aria-label='Цена: 199 тыс. рублей' class='h-h5'>
+        199 тыс. рублей
       </p>
       
 
@@ -132,7 +132,7 @@ description: Продажа недорогих бензиновых электр
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":8,"price":232000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
+  data-product='{"power":8,"price":272000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -156,8 +156,8 @@ description: Продажа недорогих бензиновых электр
 
       
       
-      <p aria-label='Цена: 232 тыс. рублей' class='h-h5'>
-        232 тыс. рублей
+      <p aria-label='Цена: 272 тыс. рублей' class='h-h5'>
+        272 тыс. рублей
       </p>
       
 
@@ -186,7 +186,7 @@ description: Продажа недорогих бензиновых электр
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":8,"price":250000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
+  data-product='{"power":8,"price":290000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -210,8 +210,8 @@ description: Продажа недорогих бензиновых электр
 
       
       
-      <p aria-label='Цена: 250 тыс. рублей' class='h-h5'>
-        250 тыс. рублей
+      <p aria-label='Цена: 290 тыс. рублей' class='h-h5'>
+        290 тыс. рублей
       </p>
       
 
@@ -243,7 +243,7 @@ description: Продажа недорогих бензиновых электр
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":13,"price":402000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":null,"phases":3}'
+  data-product='{"power":13,"price":442000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":null,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -267,8 +267,8 @@ description: Продажа недорогих бензиновых электр
 
       
       
-      <p aria-label='Цена: 402 тыс. рублей' class='h-h5'>
-        402 тыс. рублей
+      <p aria-label='Цена: 442 тыс. рублей' class='h-h5'>
+        442 тыс. рублей
       </p>
       
 

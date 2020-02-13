@@ -26,7 +26,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":10,"price":424000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":62,"phases":1}'
+  data-product='{"power":10,"price":512000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":62,"phases":1}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -46,8 +46,8 @@ description: Продажа бензиновых электрогенерато�
 
     <div class='o-grid__item h-2/7'>
 
-      <p aria-label='Цена: 424 тыс. рублей' class='h-h5'>
-        424 тыс. рублей
+      <p aria-label='Цена: 512 тыс. рублей' class='h-h5'>
+        512 тыс. рублей
       </p>
 
 <div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
@@ -90,7 +90,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":10,"price":416000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":62,"phases":3}'
+  data-product='{"power":10,"price":502000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":62,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -111,8 +111,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
       
-      <p aria-label='Цена: 416 тыс. рублей' class='h-h5'>
-        416 тыс. рублей
+      <p aria-label='Цена: 502 тыс. рублей' class='h-h5'>
+        502 тыс. рублей
       </p>
       
 <div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
@@ -156,7 +156,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":13,"price":425000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":63,"phases":1}'
+  data-product='{"power":13,"price":512000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":63,"phases":1}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -177,8 +177,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
       
-      <p aria-label='Цена: 425 тыс. рублей' class='h-h5'>
-        425 тыс. рублей
+      <p aria-label='Цена: 512 тыс. рублей' class='h-h5'>
+        512 тыс. рублей
       </p>
       
 
@@ -217,7 +217,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":13,"price":492000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":63,"phases":3}'
+  data-product='{"power":13,"price":511000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":63,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -237,8 +237,8 @@ description: Продажа бензиновых электрогенерато�
 
     <div class='o-grid__item h-2/7'>
 
-      <p aria-label='Цена: 492 тыс. рублей' class='h-h5'>
-        492 тыс. рублей
+      <p aria-label='Цена: 511 тыс. рублей' class='h-h5'>
+        511 тыс. рублей
       </p>
       
 <div class='h-margin-bottom h-text- h-opacity50 h-relative js-expand__scope'>
@@ -274,7 +274,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":15,"price":542000,"discount":"","engineBrand":"ВАЗ","mode":"основной","noise":67,"phases":1}'
+  data-product='{"power":15,"price":647000,"discount":"","engineBrand":"ВАЗ","mode":"основной","noise":67,"phases":1}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -294,8 +294,8 @@ description: Продажа бензиновых электрогенерато�
 
     <div class='o-grid__item h-2/7'>
 
-      <p aria-label='Цена: 542 тыс. рублей' class='h-h5'>
-        542 тыс. рублей
+      <p aria-label='Цена: 647 тыс. рублей' class='h-h5'>
+        647 тыс. рублей
       </p>
     
 
@@ -332,7 +332,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":15,"price":540000,"discount":"","engineBrand":"ВАЗ","mode":"основной","noise":67,"phases":3}'
+  data-product='{"power":15,"price":642000,"discount":"","engineBrand":"ВАЗ","mode":"основной","noise":67,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -356,8 +356,8 @@ description: Продажа бензиновых электрогенерато�
 
       
       
-      <p aria-label='Цена: 540 тыс. рублей' class='h-h5'>
-        540 тыс. рублей
+      <p aria-label='Цена: 642 тыс. рублей' class='h-h5'>
+        642 тыс. рублей
       </p>
       
 
@@ -403,7 +403,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":18,"price":542000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":68,"phases":1}'
+  data-product='{"power":18,"price":647000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":68,"phases":1}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -423,8 +423,8 @@ description: Продажа бензиновых электрогенерато�
 
     <div class='o-grid__item h-2/7'>
 
-      <p aria-label='Цена: 542 тыс. рублей' class='h-h5'>
-        542 тыс. рублей
+      <p aria-label='Цена: 647 тыс. рублей' class='h-h5'>
+        647 тыс. рублей
       </p>
       
       
@@ -462,7 +462,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":18,"price":521000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":68,"phases":3}'
+  data-product='{"power":18,"price":644000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":68,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -483,8 +483,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
       
-      <p aria-label='Цена: 521 тыс. рублей' class='h-h5'>
-        521 тыс. рублей
+      <p aria-label='Цена: 644 тыс. рублей' class='h-h5'>
+        644 тыс. рублей
       </p>
       
       
@@ -523,7 +523,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":21,"price":546000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":70,"phases":1}'
+  data-product='{"power":21,"price":651000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":70,"phases":1}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -544,8 +544,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
       
-      <p aria-label='Цена: 546 тыс. рублей' class='h-h5'>
-        546 тыс. рублей
+      <p aria-label='Цена: 651 тыс. рублей' class='h-h5'>
+        651 тыс. рублей
       </p>
       
       
@@ -583,7 +583,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":21,"price":522000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":68,"phases":3}'
+  data-product='{"power":21,"price":656000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":68,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -604,8 +604,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
       
-      <p aria-label='Цена: 522 тыс. рублей' class='h-h5'>
-        522 тыс. рублей
+      <p aria-label='Цена: 656 тыс. рублей' class='h-h5'>
+        656 тыс. рублей
       </p>
       
 
@@ -644,7 +644,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":24,"price":596000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":69,"phases":3}'
+  data-product='{"power":24,"price":682000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":69,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -664,8 +664,8 @@ description: Продажа бензиновых электрогенерато�
 
     <div class='o-grid__item h-2/7'>
 
-      <p aria-label='Цена: 596 тыс. рублей' class='h-h5'>
-        596 тыс. рублей
+      <p aria-label='Цена: 682 тыс. рублей' class='h-h5'>
+        682 тыс. рублей
       </p>
  
       
@@ -703,7 +703,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":28,"price":588000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":70,"phases":3}'
+  data-product='{"power":28,"price":692000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":70,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -724,8 +724,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
       
-      <p aria-label='Цена: 588 тыс. рублей' class='h-h5'>
-        588 тыс. рублей
+      <p aria-label='Цена: 692 тыс. рублей' class='h-h5'>
+        692 тыс. рублей
       </p>
       
 
@@ -778,7 +778,7 @@ description: Продажа бензиновых электрогенерато�
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":32,"price":587000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":70,"phases":3}'
+  data-product='{"power":32,"price":693000,"discount":null,"engineBrand":"ВАЗ","mode":"основной","noise":70,"phases":3}'
 >
   <div class=' o-grid h-childs-displace+'>
 
@@ -799,8 +799,8 @@ description: Продажа бензиновых электрогенерато�
     <div class='o-grid__item h-2/7'>
 
       
-      <p aria-label='Цена: 586 тыс. рублей' class='h-h5'>
-        587 тыс. рублей
+      <p aria-label='Цена: 693 тыс. рублей' class='h-h5'>
+        693 тыс. рублей
       </p>
     
       
