@@ -1,0 +1,476 @@
+---
+title:           Обратный затвор Goddard Goddard 840, включая 846М из бронзы для криогенного использования
+contentTitle:    Обратный затвор Goddard Goddard 840, включая 846М из бронзы для криогенного использования
+navTitle:        Обратный затвор Goddard Goddard 840, включая 846М из бронзы для криогенного использования
+breadcrumbTitle: Обратный затвор Goddard Goddard 840, включая 846М из бронзы для криогенного использования
+
+description: Обратный затвор Goddard Goddard 840, включая 846М из бронзы для криогенного использования от компании ООО «Фасэнергомаш» — немецко-российского производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_Image.nj' import Image with context %}
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-840--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+
+<h2>Характеристики</h2>
+
+<ul>
+	<li>Верхний разъем: Этот затвор с муфтовой крышкой может быть постоянно установлен на линии и обслуживаться сверху.</li>
+	<li>Размеры: от ½" до 2" (от 15 мм до 50 мм).</li>
+	<li>Торцы: Резьбовое соединение (охватывающая NPT), или с паяной серебром трубкой (SBT)<br />Сортамент-10, резьбовые трубные ниппели, паяные с подложкой с приращением 1" до 6"<br />Сортамент-40, резьбовые трубные ниппели, паяные с подложкой с приращением 1" до 6"<br />Сортамент-80, резьбовые трубные ниппели, паяные с подложкой с приращением 1" до 6"</li>
+	<li>Температурный диапазон: от -325°F до +150°F (от -196°С до +65°С).</li>
+	<li>Диапазон давлений: (давление при температуре холодной обработки, давление гидравлического опробования)<br />Серия 840 400 фунтов на кв. дюйм, маном.<br />Серия 846М 600 фунтов на кв. дюйм, маном.<br />Размеры У/г до 2" утверждены PED согласно стандарту EN10204 3.1.</li>
+	<li>Примечание: Запрещается использование в газовой среде с поршневыми компрессорами.</li>
+</ul>
+
+<h2>Информация для заказа</h2>
+
+<h3>Серия 840</h3>
+
+<p>Обратные затворы из бронзы - с мягким седлом, резьбовое соединение, паяные серебром торцы, паяные с подложкой трубные ниппели 400 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</p>
+
+<p><strong>Резьбовые торцы</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер NPT</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-4Т</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Резьбовое соединение</td>
+<td>2.00</td>
+<td>0.91</td>
+<td>4.50</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-6Т</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Резьбовое соединение</td>
+<td>4.00</td>
+<td>1.81</td>
+<td>7.00</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-8Т</td>
+<td>1"</td>
+<td>25</td>
+<td>Резьбовое соединение</td>
+<td>4.50</td>
+<td>2.04</td>
+<td>10.00</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-12Т</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Резьбовое соединение</td>
+<td>8.50</td>
+<td>3.86</td>
+<td>40.00</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-16Т</td>
+<td>2"</td>
+<td>50</td>
+<td>Резьбовое соединение</td>
+<td>14.50</td>
+<td>6.58</td>
+<td>100.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p><strong>Паяные серебром - трубные ниппели</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер SBT</td>
+<td scope="col" rowspan="2" width="110">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы*</td>
+<td scope="col" width="65">мм*</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-4S</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Пайка серебром</td>
+<td>2.50</td>
+<td>1.13</td>
+<td>4.50</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-6S</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Пайка серебром</td>
+<td>4.50</td>
+<td>2.05</td>
+<td>7.00</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-8S</td>
+<td>1"</td>
+<td>25</td>
+<td>Пайка серебром</td>
+<td>5.25</td>
+<td>2.38</td>
+<td>10.00</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-12S</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Пайка серебром</td>
+<td>10.75</td>
+<td>4.88</td>
+<td>40.00</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000840-16S</td>
+<td>2"</td>
+<td>50</td>
+<td>Пайка серебром</td>
+<td>17.50</td>
+<td>7.94</td>
+<td>100.00</td>
+</tr>
+</tbody>
+</table>
+
+<p>* Номинальный размер</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+
+<h3>Серия 846М</h3>
+
+<p>Обратные затворы из бронзы - с металлическим седлом, резьбовое соединение, паяные серебром торцы, паяные с подложкой трубные ниппели 600 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</p>
+
+<p><strong>Резьбовые торцы</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер NPT</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000846М-4Т6</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Резьбовое соединение</td>
+<td>2.00</td>
+<td>0.91</td>
+<td>4.50</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000846М-8Т6</td>
+<td>1"</td>
+<td>25</td>
+<td>Резьбовое соединение</td>
+<td>4.50</td>
+<td>2.04</td>
+<td>10.00</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000846М-12Т6</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Резьбовое соединение</td>
+<td>8.50</td>
+<td>3.86</td>
+<td>40.00</td>
+</tr>
+<tr align="center">
+<td scope="row">В-000846М-16Т6</td>
+<td>2"</td>
+<td>50</td>
+<td>Резьбовое соединение</td>
+<td>14.50</td>
+<td>6.58</td>
+<td>100.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+<p><strong>Паяные серебром - трубные ниппели</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер SBT</td>
+<td scope="col" rowspan="2" width="110">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы*</td>
+<td scope="col" width="65">мм*</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr align="center">
+<td scope="row">B-000846M-4S6</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Пайка серебром</td>
+<td>2.50</td>
+<td>1.13</td>
+<td>4.50</td>
+</tr>
+<tr align="center">
+<td scope="row">B-000846M-6S6</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Пайка серебром</td>
+<td>4.50</td>
+<td>2.04</td>
+<td>7.00</td>
+</tr>
+<tr align="center">
+<td scope="row">B-000846M-8S6</td>
+<td>1"</td>
+<td>25</td>
+<td>Пайка серебром</td>
+<td>5.25</td>
+<td>2.38</td>
+<td>10.00</td>
+</tr>
+<tr align="center">
+<td scope="row">B-000846M-12S6</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Пайка серебром</td>
+<td>10.75</td>
+<td>4.88</td>
+<td>40.00</td>
+</tr>
+<tr align="center">
+<td scope="row">B-000846M-16S6</td>
+<td>2"</td>
+<td>50</td>
+<td>Пайка серебром</td>
+<td>17.50</td>
+<td>7.94</td>
+<td>100.00</td>
+</tr>
+</tbody>
+</table>
+
+<p>* Номинальный размер</p>
+<p>Необходимо связаться с компанией для получения информации о резьбовых, паяных с подложкой трубных ниппелях.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+<h2>Графики</h2>
+
+<h3>Серия 840</h3>
+
+<ul>
+	<li>Диапазон давлений MSS SP-80 Класс 200. Максимально допустимое рабочее давление 400 фунтов на кв. дюйм, маном. давление гидравлического опробования при температуре холодной обработки Температурный диапазон от +150°F до -325°F.</li>
+	<li>Размерные данные: все размерные данные приводятся в дюймах.</li>
+</ul>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-840--схема--1.jpg',
+  center = true  
+) }}
+
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col" width="80">"Т" NPT</td>
+<td scope="col">"E"</td>
+<td scope="col">"F"</td>
+<td scope="col">"G"</td>
+</tr>
+<tr align="center">
+<td>1/2"</td>
+<td>3.00"</td>
+<td>2.13"</td>
+<td>3/4"</td>
+<td>1/2"</td>
+<td>.38"</td>
+<td>2.94"</td>
+<td>.63"</td>
+</tr>
+<tr align="center">
+<td>3/4"</td>
+<td>3.69"</td>
+<td>2.81"</td>
+<td>1.12"</td>
+<td>3/4"</td>
+<td>.41"</td>
+<td>3.60"</td>
+<td>.88"</td>
+</tr>
+<tr align="center">
+<td>1"</td>
+<td>4.00"</td>
+<td>2.81"</td>
+<td>1.13"</td>
+<td>1"</td>
+<td>.45"</td>
+<td>4.00"</td>
+<td>1.13"</td>
+</tr>
+<tr align="center">
+<td>1 1/2"</td>
+<td>5.03"</td>
+<td>3.63"</td>
+<td>1.44"</td>
+<td>1 1/2"</td>
+<td>.63"</td>
+<td>5.03"</td>
+<td>1.63"</td>
+</tr>
+<tr align="center">
+<td>2"</td>
+<td>6.35"</td>
+<td>4.34"</td>
+<td>1.84"</td>
+<td>2"</td>
+<td>.66"</td>
+<td>6.35"</td>
+<td>2.13"</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<h3>Серия 846М</h3>
+
+<ul>
+	<li>Диапазон давлений MSS SP-80 Класс 300. Максимально допустимое рабочее давление 600 фунтов на кв. дюйм, маном. давление гидравлического опробования при температуре холодной обработки Температурный диапазон от +150°F до -325°F.</li>
+	<li>Размерные данные: все размерные данные приводятся в дюймах.</li>
+</ul>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-840--схема--2.jpg',
+  center = true  
+) }}
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col" width="80">"Т" NPT</td>
+<td scope="col">"E"</td>
+<td scope="col">"F"</td>
+<td scope="col">"G"</td>
+</tr>
+<tr align="center">
+<td>1/2"</td>
+<td>3.00"</td>
+<td>2.13"</td>
+<td>3/4"</td>
+<td>1/2"</td>
+<td>.38"</td>
+<td>2.94"</td>
+<td>.63"</td>
+</tr>
+<tr align="center">
+<td>3/4"</td>
+<td>3.69"</td>
+<td>2.81"</td>
+<td>1 1/8<sup>"</sup></td>
+<td>3/4"</td>
+<td>.41"</td>
+<td>3.60"</td>
+<td>.88"</td>
+</tr>
+<tr align="center">
+<td>1"</td>
+<td>4.00"</td>
+<td>2.81"</td>
+<td>1 1/8<sup>"</sup></td>
+<td>1"</td>
+<td>.45"</td>
+<td>4.00"</td>
+<td>1.13"</td>
+</tr>
+<tr align="center">
+<td>1 1/2"</td>
+<td>5.03"</td>
+<td>3.63"</td>
+<td>1 7/16<sup>"</sup></td>
+<td>1 1/2"</td>
+<td>.63"</td>
+<td>5.03"</td>
+<td>1.63"</td>
+</tr>
+<tr align="center">
+<td>2"</td>
+<td>6.35"</td>
+<td>4.34"</td>
+<td>1 27/32<sup>"</sup></td>
+<td>2"</td>
+<td>.66"</td>
+<td>6.35"</td>
+<td>2.13"</td>
+</tr>
+</tbody>
+</table>
+
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

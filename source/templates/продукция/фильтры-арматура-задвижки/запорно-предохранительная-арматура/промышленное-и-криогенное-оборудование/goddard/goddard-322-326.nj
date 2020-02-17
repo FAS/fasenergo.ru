@@ -1,0 +1,458 @@
+---
+title:           Задвижка Goddard 322 и 326 для криогенного использования с удлиненной крышкой из бронзы
+contentTitle:    Задвижка Goddard 322 и 326 для криогенного использования с удлиненной крышкой из бронзы
+navTitle:        Задвижка Goddard 322 и 326 для криогенного использования с удлиненной крышкой из бронзы
+breadcrumbTitle: Задвижка Goddard 322 и 326 для криогенного использования с удлиненной крышкой из бронзы
+
+description: Задвижка Goddard 322 и 326 для криогенного использования с удлиненной крышкой из бронзы от компании ООО «Фасэнергомаш» — немецко-российского производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_Image.nj' import Image with context %}
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-322-326--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Серия 322</h2>
+
+<p>Шиберные вентили из бронзы.</p>
+<p>400 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер NPT</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">В-000322-20Т4</td>
+<td>2 1/2"</td>
+<td>65</td>
+<td>Резьбовое соединение</td>
+<td>19.00</td>
+<td>8.64</td>
+<td>372.00</td>
+</tr>
+<tr>
+<td scope="row">В-000322-24Т4</td>
+<td>3"</td>
+<td>80</td>
+<td>Резьбовое соединение</td>
+<td>28.00</td>
+<td>121.73</td>
+<td>588.00</td>
+</tr>
+</tbody>
+</table>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер SBT</td>
+<td scope="col" rowspan="2" width="110">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">B-000322-4S4</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Пайка серебром</td>
+<td>1.75</td>
+<td>0.80</td>
+<td>19.80</td>
+</tr>
+<tr>
+<td scope="row">B-000322-6S4</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Пайка серебром</td>
+<td>2.25</td>
+<td>1.02</td>
+<td>36.00</td>
+</tr>
+<tr>
+<td scope="row">B-000322-8S4</td>
+<td>1"</td>
+<td>25</td>
+<td>Пайка серебром</td>
+<td>3.50</td>
+<td>1.59</td>
+<td>60.80</td>
+</tr>
+<tr>
+<td scope="row">B-000322-12S4</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Пайка серебром</td>
+<td>7.50</td>
+<td>3.41</td>
+<td>152.00</td>
+</tr>
+<tr>
+<td scope="row">B-000322-16S4</td>
+<td>2"</td>
+<td>50</td>
+<td>Пайка серебром</td>
+<td>11.25</td>
+<td>5.11</td>
+<td>245.00</td>
+</tr>
+<tr>
+<td scope="row">B-000322-20S4</td>
+<td>2 1/2"</td>
+<td>65</td>
+<td>Пайка серебром</td>
+<td>17.00</td>
+<td>7.73</td>
+<td>372.00</td>
+</tr>
+<tr>
+<td scope="row">B-000322-24S4</td>
+<td>3"</td>
+<td>80</td>
+<td>Пайка серебром</td>
+<td>24.00</td>
+<td>10.91</td>
+<td>588.00</td>
+</tr>
+</tbody>
+</table>
+<p>* Номинальный размер</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<h2>Серия 326</h2>
+
+<p>Шиберные вентили из бронзы.</p>
+<p>600 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер NPT</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">В-000326-4Т6</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Резьбовое соединение</td>
+<td>1.75</td>
+<td>0.80</td>
+<td>19.80</td>
+</tr>
+<tr>
+<td scope="row">В-000326-6Т6</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Резьбовое соединение</td>
+<td>2.25</td>
+<td>1.02</td>
+<td>36.00</td>
+</tr>
+<tr>
+<td scope="row">В-000326-8Т6</td>
+<td>1"</td>
+<td>25</td>
+<td>Резьбовое соединение</td>
+<td>4.00</td>
+<td>1.82</td>
+<td>60.80</td>
+</tr>
+<tr>
+<td scope="row">В-000326-12Т6</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Резьбовое соединение</td>
+<td>8.25</td>
+<td>3.75</td>
+<td>152.00</td>
+</tr>
+<tr>
+<td scope="row">В-000326-16Т6</td>
+<td>2"</td>
+<td>50</td>
+<td>Резьбовое соединение</td>
+<td>12.50</td>
+<td>5.68</td>
+<td>245.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<h2>Характеристики</h2>
+
+<ul>
+	<li>Верхний разъем: Этот вентиль с муфтовой крышкой может быть постоянно установлен на линии и обслуживаться сверху.</li>
+	<li>Исполнение:<br />Корпус и внутренние части из литой бронзы. <br />Прочное исполнение для длительного срока службы.<br />Прямоточная конструкция для обеспечения высокого коэффициента пропускной способности.<br />Разработана с уникальным KOLD-SEAL™. Стандартная конструкция с разъемным клином обеспечивает лучшее уплотнение и ресурс по числу срабатываний.</li>
+	<li>Размеры: 1/2"- 3" (15 мм - 80 мм).</li>
+	<li>Торцы: Резьбовое соединение (охватывающая NPT), Паяная серебром трубка (SBT), Паяная серебром труба (SBP) или с впаяными трубными ниппелями из нержавеющей стали.</li>
+	<li>Рабочая среда: Сжиженные и испаренные атмосферные газы, сжиженный природный газ.</li>
+	<li>Температурный диапазон: -325°F -150°F (-196°С + 65°С).</li>
+	<li>Диапазон давлений: (давление при температуре холодной обработки, давление гидравлического опробования)<br />322 Серия 400 фунтов на кв. дюйм, маном.<br />326 Серия 600 фунтов на кв. дюйм, маном.</li>
+</ul>
+
+<p>Разработан в соответствии с MSS SP-80 и ASME B31.3<br />Серия 1.5" до 3" утверждена PED согласно стандарту EN 10204, 3.1<br /><br />Идеально подходит для подачи криогенных жидкостей и обработки в хранилищах.<br />Прямоточная конструкция для обеспечения самого высокого коэффициента пропускной способности в отрасли.<br /><br />Также имеется в наличии с сальником GRAFOIL®.</p>
+
+
+
+
+<h2>Графики</h2>
+
+<h3>Серия 322</h3>
+
+<ul>
+<li>Максимально допустимое рабочее давление: 400 фунтов на кв. дюйм, маном. давление гидравлического опробования, давление при температуре холодной обработки.</li>
+<li>Температурный диапазон +150° F до -325° F.</li>
+<li>Размерные данные: все параметры приводятся в дюймах.</li>
+</ul>
+
+
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-322--схема--1.jpg',
+  alt = 'Резьбовой торец (NPT) и паяный серебром торец',
+  caption = 'Резьбовой торец (NPT) и паяный серебром торец',
+  center = true  
+) }}
+
+
+<strong><p>Резьбовой торец (NPT)</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"K"</td>
+</tr>
+<tr>
+<td>1/2"</td>
+<td>2.34"</td>
+<td>9.38"</td>
+<td>2.37"</td>
+<td>5.5"</td>
+</tr>
+<tr>
+<td>3/4"</td>
+<td>2.5"</td>
+<td>10.56"</td>
+<td>2.75"</td>
+<td>6.12"</td>
+</tr>
+<tr>
+<td>1"</td>
+<td>2.84"</td>
+<td>12.38"</td>
+<td>3"</td>
+<td>7.68"</td>
+</tr>
+<tr>
+<td>1 1/2"</td>
+<td>3.43"</td>
+<td>17"</td>
+<td>4"</td>
+<td>10.87"</td>
+</tr>
+<tr>
+<td>2"</td>
+<td>3.81"</td>
+<td>19.62"</td>
+<td>4.75"</td>
+<td>12.38"</td>
+</tr>
+<tr>
+<td>2 12"</td>
+<td>4.68"</td>
+<td>22.5"</td>
+<td>5.25"</td>
+<td>14.5"</td>
+</tr>
+<tr>
+<td>3"</td>
+<td>5.12"</td>
+<td>24.87"</td>
+<td>6.12"</td>
+<td>16.31"</td>
+</tr>
+</tbody>
+</table>
+
+<strong><p>Паяный серебром торец</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"K"</td>
+<td scope="col">"E"</td>
+</tr>
+<tr>
+<td>1/2"</td>
+<td>2.5"</td>
+<td>9.38"</td>
+<td>2.37"</td>
+<td>5.5"</td>
+<td>.38"</td>
+</tr>
+<tr>
+<td>3/4"</td>
+<td>3"</td>
+<td>10.56"</td>
+<td>2.75"</td>
+<td>6.12"</td>
+<td>.40"</td>
+</tr>
+<tr>
+<td>1"</td>
+<td>3.25"</td>
+<td>12.38"</td>
+<td>3"</td>
+<td>7.68"</td>
+<td>.43"</td>
+</tr>
+<tr>
+<td>1 1/2"</td>
+<td>4"</td>
+<td>17"</td>
+<td>4"</td>
+<td>10.87"</td>
+<td>.62"</td>
+</tr>
+<tr>
+<td>2"</td>
+<td>4.5"</td>
+<td>19.62"</td>
+<td>4.75"</td>
+<td>12.38"</td>
+<td>.65"</td>
+</tr>
+<tr>
+<td>2 1/2"</td>
+<td>5.25"</td>
+<td>22.5"</td>
+<td>5.25"</td>
+<td>14.5"</td>
+<td>.78"</td>
+</tr>
+<tr>
+<td>3"</td>
+<td>6"</td>
+<td>24.87"</td>
+<td>6.12"</td>
+<td>16.31"</td>
+<td>.82"<br /><br /></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+<h3>Серия 322</h3>
+
+<ul>
+<li>Максимально допустимое рабочее давление: 600 фунтов на кв. дюйм, маном. давление гидравлического опробования, давление при температуре холодной обработки.</li>
+<li>Температурный диапазон +150° F до -325° F.</li>
+<li>Размерные данные: все параметры приводятся в дюймах.</li>
+</ul>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-326--схема--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<strong><p>Резьбовой торец (NPT)</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"K"</td>
+</tr>
+<tr>
+<td>1/2"</td>
+<td>2.34"</td>
+<td>9.37"</td>
+<td>2 1/4"</td>
+<td>5.5"</td>
+</tr>
+<tr>
+<td>3/4"</td>
+<td>2.5"</td>
+<td>10.56"</td>
+<td>2 3/4"</td>
+<td>6.12"</td>
+</tr>
+<tr>
+<td>1"</td>
+<td>2.34"</td>
+<td>12.37"</td>
+<td>3"</td>
+<td>7.6"</td>
+</tr>
+<tr>
+<td>1 1/2"</td>
+<td>3.43"</td>
+<td>17"</td>
+<td>4"</td>
+<td>10.87"</td>
+</tr>
+<tr>
+<td>2"</td>
+<td>3.81"</td>
+<td>19.62"</td>
+<td>4 3/4"</td>
+<td>12.37"</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

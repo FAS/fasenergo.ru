@@ -1,0 +1,530 @@
+---
+title:           Задвижка серия Goddard 210 из нержавеющей стали для криогенного использования
+contentTitle:    Задвижка серия Goddard 210 из нержавеющей стали для криогенного использования
+navTitle:        Задвижка серия Goddard 210 из нержавеющей стали для криогенного использования
+breadcrumbTitle: Задвижка серия Goddard 210 из нержавеющей стали для криогенного использования
+
+description: Задвижка серия Goddard 210 из нержавеющей стали для криогенного использования от компании ООО «Фасэнергомаш» — немецко-российского производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-210--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Корпус из нержавеющей стали. Торцы - фланец RF</h2>
+ 
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">150#<br />Номер детали по каталогу</td>
+<td scope="col" rowspan="2">300#<br />Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер задвижки</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес 150#</td>
+<td scope="col" colspan="2">Вес 300#</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col">Фунты</td>
+<td scope="col">кг</td>
+<td scope="col">Фунты</td>
+<td scope="col">кг</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-8F</td>
+<td scope="row">GS-00210W-8F3</td>
+<td>1"</td>
+<td>25 мм</td>
+<td rowspan="4">Фланец</td>
+<td>15</td>
+<td>6.80</td>
+<td>20</td>
+<td>9.07</td>
+<td>11.50</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-16F</td>
+<td scope="row">GS-00210W-16F3</td>
+<td>2"</td>
+<td>50 мм</td>
+<td>35</td>
+<td>15.88</td>
+<td>40</td>
+<td>18.14</td>
+<td>40.00</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-24F</td>
+<td scope="row">GS-00210W-24F3</td>
+<td>3"</td>
+<td>80 мм</td>
+<td>65</td>
+<td>29.48</td>
+<td>70</td>
+<td>31.75</td>
+<td>60.00</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-32F</td>
+<td scope="row">GS-00210W-32F3</td>
+<td>4"</td>
+<td>100 мм</td>
+<td>90</td>
+<td>40.82</td>
+<td>95</td>
+<td>43.09</td>
+<td>175.00</td>
+</tr>
+</tbody>
+</table>
+
+<p>Класс ANSI 150# (275 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).<br>
+Класс ANSI 300# (720 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).</p>
+
+
+<h2>Корпус из нержавеющей стали. Стыковой сварной шов, сварной шов внахлест, резьбовые торцы</h2>
+ 
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2" width="100">150#<br />Номер детали по каталогу</td>
+<td scope="col" rowspan="2" width="100">300#<br />Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер задвижки</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col">Фунты</td>
+<td scope="col">кг</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-4S3</td>
+<td scope="row">GS-00210W-4S3</td>
+<td>1/2"</td>
+<td>15 мм</td>
+<td>Сварной шов внахлест</td>
+<td>15</td>
+<td>6.80</td>
+<td>3.90</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-4T3</td>
+<td scope="row">GS-00210W-4T3</td>
+<td>1/2"</td>
+<td>15 мм</td>
+<td>Резьбовое соединение</td>
+<td>15</td>
+<td>6.80</td>
+<td>3.90</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-6S3</td>
+<td scope="row">GS-00210W-6S3</td>
+<td>3/4"</td>
+<td>20 мм</td>
+<td>Сварной шов внахлест</td>
+<td>15</td>
+<td>6.80</td>
+<td>7.10</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-6T3</td>
+<td scope="row">GS-00210W-6T3</td>
+<td>3/4"</td>
+<td>20 мм</td>
+<td>Резьбовое соединение</td>
+<td>15</td>
+<td>6.80</td>
+<td>7.10</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-8S3</td>
+<td scope="row">GS-00210W-8S3</td>
+<td>1"</td>
+<td>25 мм</td>
+<td>Сварной шов внахлест</td>
+<td>15</td>
+<td>6.80</td>
+<td>11.50</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-8T3</td>
+<td scope="row">GS-00210W-8T3</td>
+<td>1"</td>
+<td>25 мм</td>
+<td>Резьбовое соединение</td>
+<td>15</td>
+<td>6.80</td>
+<td>11.50</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-12S3</td>
+<td scope="row">GS-00210W-12S3</td>
+<td>1 1/2"</td>
+<td>40 мм</td>
+<td>Сварной шов внахлест</td>
+<td>25</td>
+<td>11.34</td>
+<td>29.00</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-16W3A</td>
+<td scope="row">GS-00210W-16W3A</td>
+<td>2"</td>
+<td>50 мм</td>
+<td>Стыковой сварной шов сортамент 10</td>
+<td>35</td>
+<td>15.88</td>
+<td>40.00</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-16W3J</td>
+<td scope="row">GS-00210W-16W3J</td>
+<td>2"</td>
+<td>50 мм</td>
+<td>Стыковой сварной шов сортамент 40</td>
+<td>35</td>
+<td>15.88</td>
+<td>40.00</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-24W3A</td>
+<td scope="row">GS-00210W-24W3A</td>
+<td>3"</td>
+<td>80 мм</td>
+<td>Стыковой сварной шов сортамент 10</td>
+<td>55</td>
+<td>24.95</td>
+<td>60.00</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-24W3J</td>
+<td scope="row">GS-00210W-24W3J</td>
+<td>3"</td>
+<td>80 мм</td>
+<td>Стыковой сварной шов сортамент 40</td>
+<td>55</td>
+<td>24.95</td>
+<td>60.00</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-32W3A</td>
+<td scope="row">GS-00210W-32W3A</td>
+<td>4"</td>
+<td>100 мм</td>
+<td>Стыковой сварной шов сортамент 10</td>
+<td>80</td>
+<td>36.29</td>
+<td>175.00</td>
+</tr>
+<tr align="center">
+<td scope="row">GS-00210W-32W3J</td>
+<td scope="row">GS-00210W-32W3J</td>
+<td>4"</td>
+<td>100 мм</td>
+<td>Стыковой сварной шов сортамент 40</td>
+<td>80</td>
+<td>36.29</td>
+<td>175.00</td>
+</tr>
+</tbody>
+</table>
+
+<p>150# ANSI Класс (275 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).<br>
+300# ANSI Класс (720 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).</p>
+
+<p>* Вторая цифра обозначает вентиль для номера детали по каталогу 300#.
+Рабочая среда: 300#-720 футов на кв. дюйм давление гидравлического опробования при температуре холодной обработки. Рабочая среда: 150#-275 футов на кв. дюйм давление гидравлического опробования при температуре холодной обработки • Температурный диапазон от +150Т до -325Т.</p>
+
+<h2>Характеристики</h2>
+
+<ul>
+	<li>Верхний разъем: Данная задвижка может быть постоянно установлена на линии и обслуживаться сверху.</li>
+	<li>Мягкое седло: Седло из PCTFE обеспечивает газонепроницаемое уплотнение и является сменным.</li>
+	<li>Исполнение: Корпус и крышка из нержавеющей стали.</li>
+	<li>Размеры: 1/2" -4" (15 мм -150 мм).</li>
+	<li>Торцы: фланец RF, стыковой сварной шов, сварной шов внахлест, резьбовое соединение (охватывающая NPT).</li>
+	<li>Рабочая среда: Сжиженные и испаренные атмосферные газы, сжиженный природный газ.</li>
+	<li>Температурный диапазон: -325°F - 150°F (-196°C +65°C).</li>
+	<li>Диапазон давлений: (давление при температуре холодной обработки, давление гидравлического опробования).<br />Задвижка класса 150 - 275 фунтов на кв. дюйм, маном. (19 бар).<br />Задвижка класса 300 - 720 фунтов на кв. дюйм, маном. (50 бар).<br />1/2" - 4" Класс 150.<br />1/2" - 4" Класс 300.</li>
+</ul>
+
+<p>Наша литая в огнеупорную смесь нержавеющая сталь предназначается ведущими компаниями в сфере промышленного газа для резервуаров-хранилищ и сортировочного оборудования.</p>
+<p>Могут поставляться специальные удлинения крышек для применения в холодильных камерах. Могут поставляться вентили для использования с водородом.</p>
+
+<h2>Стыковые приварные торцы</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-210--схема--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p> </p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"K"</td>
+<td scope="col">"X"</td>
+<td scope="col">"Y"</td>
+</tr>
+<tr align="center">
+<td>2"</td>
+<td>10 1/2"</td>
+<td>22 1/4"</td>
+<td>7"</td>
+<td>15"</td>
+<td>12 3/4"</td>
+<td>13 1/16<sup>"</sup></td>
+</tr>
+<tr align="center">
+<td>3"</td>
+<td>?12"</td>
+<td>30 1/2"</td>
+<td>10"</td>
+<td>21 1/2"</td>
+<td>19 1/16<sup>"</sup></td>
+<td>19 3/8<sup>"</sup></td>
+</tr>
+<tr align="center">
+<td>4"</td>
+<td>?13 1/2"</td>
+<td>36 3/4"</td>
+<td>12"</td>
+<td>24 1/4"</td>
+<td>21 11/16<sup>"</sup></td>
+<td>22"</td>
+</tr>
+<tr align="center">
+<td>6"</td>
+<td>17 1/2"</td>
+<td>43 3/4"</td>
+<td>18"</td>
+<td>33 3/16"</td>
+<td>28 13/16<sup>"</sup></td>
+<td>29 3/16<sup>"</sup></td>
+</tr>
+</tbody>
+</table>
+
+<p>Для сортамента 40 А=12 1/2".<br />Для сортамента 40 А=14".<br />* Если не указано иное, поставляются приварные торцы сортамента 10.<br />Имеются в наличии специальные размеры В,К,Х и Y.</p>
+
+<h2>Фланцевые торцы с выступающей рабочей поверхностью*</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-210--схема--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p> </p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А" 150#</td>
+<td scope="col">"А" 300#</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"K"</td>
+<td scope="col">"X"</td>
+<td scope="col">"Y"</td>
+</tr>
+<tr align="center">
+<td>1"</td>
+<td>6 1/2"</td>
+<td>8"</td>
+<td>18 1/8<sup>"</sup></td>
+<td>5"</td>
+<td>12 3/4"</td>
+<td>11 1/16<sup>"</sup></td>
+<td>11 3/8<sup>"</sup></td>
+</tr>
+<tr align="center">
+<td>2"</td>
+<td>8"</td>
+<td>10 1/2"</td>
+<td>22 1/4"</td>
+<td>7"</td>
+<td>15"</td>
+<td>12 3/4"</td>
+<td>13 1/16</td>
+</tr>
+<tr align="center">
+<td>3"</td>
+<td>9 1/2"</td>
+<td>12 1/2"</td>
+<td>30 1/2"</td>
+<td>10"</td>
+<td>21 1/2"</td>
+<td>19 1/16<sup>"</sup></td>
+<td>19 3/8"</td>
+</tr>
+<tr align="center">
+<td>4"</td>
+<td>11 1/2"</td>
+<td>14"</td>
+<td>36 3/4"</td>
+<td>12"</td>
+<td>24 1/4"</td>
+<td>21 11/16<sup>"</sup></td>
+<td>22"</td>
+</tr>
+</tbody>
+</table>
+
+<p>Имеются в наличии специальные размеры В,К,Х и Y.</p>
+
+<h2>Торцы, приваренные внахлест</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-210--схема--3.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p> </p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"E"</td>
+<td scope="col">"F"</td>
+<td scope="col">"K"</td>
+<td scope="col">"X"</td>
+<td scope="col">"Y"</td>
+</tr>
+<tr align="center">
+<td>1/2"</td>
+<td>5"</td>
+<td>18 1/8<sup>"</sup></td>
+<td>5"</td>
+<td>.855</td>
+<td>3/8"</td>
+<td>12 3/4"</td>
+<td>11 1/16<sup>"</sup></td>
+<td>11 3/8<sup>"</sup></td>
+</tr>
+<tr align="center">
+<td>3/4"</td>
+<td>5"</td>
+<td>18 1/8<sup>"</sup></td>
+<td>5"</td>
+<td>1.065</td>
+<td>1/2"</td>
+<td>12 3/4"</td>
+<td>11 1/16<sup>"</sup></td>
+<td>11 3/8<sup>"</sup></td>
+</tr>
+<tr align="center">
+<td>1"</td>
+<td>5"</td>
+<td>18 1/8<sup>"</sup></td>
+<td>5"</td>
+<td>1.330</td>
+<td>1/2"</td>
+<td>12 3/4"</td>
+<td>11 1/16<sup>"</sup></td>
+<td>11 3/8<sup>"</sup></td>
+</tr>
+<tr align="center">
+<td>1 1/2"</td>
+<td>10 1/4"</td>
+<td>22 1/2"</td>
+<td>7"</td>
+<td>1.915</td>
+<td>1/2"</td>
+<td>15"</td>
+<td>12 3/4"</td>
+<td>13 1/16<sup>"</sup></td>
+</tr>
+</tbody>
+</table>
+
+<p>Имеются в наличии специальные размеры В,К,Х и Y.</p>
+
+
+
+<h2>Резьбовые торцы</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-210--схема--4.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p> </p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"Т" - NPT</td>
+<td scope="col">"A"</td>
+<td scope="col">"B"</td>
+<td scope="col">"D"</td>
+<td scope="col">"K"</td>
+<td scope="col">"X"</td>
+<td scope="col">"Y"</td>
+</tr>
+<tr align="center">
+<td>1/2"</td>
+<td>1/2"-14</td>
+<td>5"</td>
+<td>18 1/8<sup>"</sup></td>
+<td>5"</td>
+<td>12 3/4"</td>
+<td>11 1/16<sup>"</sup></td>
+<td>11 3/8<sup>"</sup></td>
+</tr>
+<tr align="center">
+<td>3/4"</td>
+<td>3/4"-14</td>
+<td>5"</td>
+<td>18 1/8<sup>"</sup></td>
+<td>5"</td>
+<td>12 3/4"</td>
+<td>11 1/16<sup>"</sup></td>
+<td>11 3/8<sup>"</sup></td>
+</tr>
+<tr align="center">
+<td>1"</td>
+<td>1"-11 1/2"</td>
+<td>5 3/4"</td>
+<td>18 1/8<sup>"</sup></td>
+<td>5"</td>
+<td>12 3/4"</td>
+<td>11 1/16<sup>"</sup></td>
+<td>11 3/8<sup>"</sup></td>
+</tr>
+</tbody>
+</table>
+<p>Имеются в наличии специальные размеры В,К,Х и Y.</p>
+
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

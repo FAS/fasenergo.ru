@@ -1,0 +1,846 @@
+---
+title:           Шаровой вентиль Goddard 222, включая 226LL, 226GF, 226ULL для криогенного использования из бронзы
+contentTitle:    Шаровой вентиль Goddard 222, включая 226LL, 226GF, 226ULL для криогенного использования из бронзы
+navTitle:        Шаровой вентиль Goddard 222, включая 226LL, 226GF, 226ULL для криогенного использования из бронзы
+breadcrumbTitle: Шаровой вентиль Goddard 222, включая 226LL, 226GF, 226ULL для криогенного использования из бронзы
+
+description: Шаровой вентиль Goddard 222, включая 226LL, 226GF, 226ULL для криогенного использования из бронзы от компании ООО «Фасэнергомаш» — немецко-российского производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_Image.nj' import Image with context %}
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-222-226--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+
+<h2>Характеристики</h2>
+
+<ul>
+	<li>Верхний разъем: Этот вентиль с муфтовой крышкой может быть постоянно установлен на линии и обслуживаться сверху. Трубка из нержавеющей стали предотвращает искажения штока. Также имеется в наличии конфигурация со сболченной крышкой.</li>
+	<li>Исполнение: Корпус и крышка из литой бронзы Прочное исполнение для длительного срока службы.</li>
+	<li>Разработана с уникальным KOLD-SEAL™ и высоким коэффициентом пропускной способности. Стандартная конструкция седла из PTFE обеспечивает газонепроницаемое уплотнение и большой ресурс по числу срабатываний.</li>
+	<li>Размеры: 1/4" до 3" (8 мм до 80 мм).</li>
+	<li>Торцы: Резьбовое соединение (охватывающая NPT), паяная серебром трубка (SBT), паяная серебром труба, резьбовые трубные ниппели, паяные с подложкой.</li>
+	<li>Рабочая среда: Сжиженные и испаренные атмосферные газы, сжиженный природный газ.</li>
+	<li>Температурный диапазон: от -325°F до 150°F (от -196°С до +65°С).</li>
+	<li>Диапазон давлений: (давление при температуре холодной обработки, давление гидравлического опробования) 400 и 600 фунтов на кв. дюйм, маном.<br />Размеры от 1 1/2" до 3" утверждены PED по согласно стандарту EN10204, 3.1</li>
+	<li>Kold-Seal™ Технология обеспечивает плотное уплотнение, предотвращающее потери криогенного газа.</li>
+	<li>Удлиненный шток подходит для применения при температуре холодной обработки в температурном кожухе, на транспортных средствах, в трубопроводах и рабочей среде заказчика.</li>
+	<li>Версия с динамическими нагрузками улучшает срок службы оборудования и сводит к минимуму затраты на обслуживание.</li>
+	<li>Сменная верхняя часть означает низкие затраты на техническое обслуживание.</li>
+</ul>
+
+<h2>Информация для заказа</h2>
+
+<h3>Серия 222X</h3>
+
+<p>Шаровые вентили из бронзы, удлиненный шток - коническое седло, 400 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</p>
+
+<p><strong>Резьбовой торец</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер NPT</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">В-00222Х-2Т4</td>
+<td>1/4"</td>
+<td>8</td>
+<td>Резьбовое соединение</td>
+<td>1.50</td>
+<td>0.70</td>
+<td>1.30</td>
+</tr>
+<tr>
+<td scope="row">В-00222Х-4Т4</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Резьбовое соединение</td>
+<td>1.50</td>
+<td>0.70</td>
+<td>3.25</td>
+</tr>
+<tr>
+<td scope="row">В-00222Х-6Т4</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Резьбовое соединение</td>
+<td>3.00</td>
+<td>1.40</td>
+<td>6.25</td>
+</tr>
+<tr>
+<td scope="row">В-00222Х-8Т4</td>
+<td>1"</td>
+<td>25</td>
+<td>Резьбовое соединение</td>
+<td>4.00</td>
+<td>1.80</td>
+<td>10.00</td>
+</tr>
+<tr>
+<td scope="row">В-00222Х-12Т4</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Резьбовое соединение</td>
+<td>7.75</td>
+<td>3.50</td>
+<td>26.00</td>
+</tr>
+<tr>
+<td scope="row">В-00222Х-16Т4</td>
+<td>2"</td>
+<td>50</td>
+<td>Резьбовое соединение</td>
+<td>12.50</td>
+<td>5.70</td>
+<td>45.00</td>
+</tr>
+<tr>
+<td scope="row">В-00222Х-20Т4</td>
+<td>2 1/2"</td>
+<td>63.5</td>
+<td>Резьбовое соединение</td>
+<td>61.00</td>
+<td>27.70</td>
+<td>50.00</td>
+</tr>
+<tr>
+<td scope="row">В-00222Х-24Т4</td>
+<td>3"</td>
+<td>80</td>
+<td>Резьбовое соединение</td>
+<td>61.00</td>
+<td>27.70</td>
+<td>100.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p><strong>Паяный серебром торец</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер SBT</td>
+<td scope="col" rowspan="2" width="110">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">B-00222X-4S4</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Пайка серебром</td>
+<td>2.00</td>
+<td>0.90</td>
+<td>3.25</td>
+</tr>
+<tr>
+<td scope="row">B-00222X-6S4</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Пайка серебром</td>
+<td>2.75</td>
+<td>1.30</td>
+<td>6.25</td>
+</tr>
+<tr>
+<td scope="row">B-00222X-8S4</td>
+<td>1"</td>
+<td>25</td>
+<td>Пайка серебром</td>
+<td>3.75</td>
+<td>1.70</td>
+<td>10.00</td>
+</tr>
+<tr>
+<td scope="row">B-00222X-12S4</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Пайка серебром</td>
+<td>7.25</td>
+<td>3.30</td>
+<td>26.00</td>
+</tr>
+<tr>
+<td scope="row">B-00222X-16S4</td>
+<td>2"</td>
+<td>50</td>
+<td>Пайка серебром</td>
+<td>11.50</td>
+<td>5.20</td>
+<td>45.00</td>
+</tr>
+<tr>
+<td scope="row">B-00222X-24S4</td>
+<td>3"</td>
+<td>80</td>
+<td>Пайка серебром</td>
+<td>58.00</td>
+<td>26.40</td>
+<td>100.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+
+
+
+
+<h3>Серия 226LL</h3>
+
+<p>Шаровые вентили из бронзы, сальник под динамической нагрузкой, удлиненный шток, 600 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</p>
+
+<p><strong>Резьбовой торец</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер NPT</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">B-0226LL-2T6</td>
+<td>1/4"</td>
+<td>8</td>
+<td>Резьбовое соединение</td>
+<td>1.50</td>
+<td>0.70</td>
+<td>1.30</td>
+</tr>
+<tr>
+<td scope="row">B-0226LL-3T6</td>
+<td><sup>3/8"</sup></td>
+<td>10</td>
+<td>Резьбовое соединение</td>
+<td>1.50</td>
+<td>0.70</td>
+<td>2.40</td>
+</tr>
+<tr>
+<td scope="row">B-0226LL-4T6</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Резьбовое соединение</td>
+<td>1.50</td>
+<td>0.70</td>
+<td>3.25</td>
+</tr>
+<tr>
+<td scope="row">B-0226LL-6T6</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Резьбовое соединение</td>
+<td>3.00</td>
+<td>1.40</td>
+<td>6.25</td>
+</tr>
+<tr>
+<td scope="row">B-0226LL-8T6</td>
+<td>1"</td>
+<td>25</td>
+<td>Резьбовое соединение</td>
+<td>4.00</td>
+<td>1.80</td>
+<td>10.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p><strong>Паяный серебром торец</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер SBT</td>
+<td scope="col" rowspan="2" width="110">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">B-0226LL-4S6</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Пайка серебром</td>
+<td>2.00</td>
+<td>0.90</td>
+<td>3.25</td>
+</tr>
+<tr>
+<td scope="row">B-0226LL-6S6</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Пайка серебром</td>
+<td>2.75</td>
+<td>1.30</td>
+<td>6.25</td>
+</tr>
+<tr>
+<td scope="row">B-0226LL-8S6</td>
+<td>1"</td>
+<td>25</td>
+<td>Пайка серебром</td>
+<td>3.75</td>
+<td>1.70</td>
+<td>10.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+
+
+
+<h3>Серия 226ULL</h3>
+
+<p>Шаровые вентили из бронзы, динамически нагружаемый сальник- муфтовая крышка, удлиненный шток, 600 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</p>
+
+<p><strong>Резьбовой торец</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер NPT</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">B-226ULL-12T6</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Резьбовое соединение</td>
+<td>7.75</td>
+<td>3.50</td>
+<td>26.00</td>
+</tr>
+<tr>
+<td scope="row">B-226ULL-16T6</td>
+<td>2"</td>
+<td>50</td>
+<td>Резьбовое соединение</td>
+<td>12.50</td>
+<td>5.70</td>
+<td>45.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+<p><strong>Паяные серебром торцы</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер SBT</td>
+<td scope="col" rowspan="2" width="110">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы*</td>
+<td scope="col" width="65">мм*</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">B-226ULL-12S6</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Пайка серебром</td>
+<td>7.25</td>
+<td>3.30</td>
+<td>26.00</td>
+</tr>
+<tr>
+<td scope="row">B-226ULL-16S6</td>
+<td>2"</td>
+<td>50</td>
+<td>Пайка серебром</td>
+<td>11.50</td>
+<td>5.20</td>
+<td>45.00</td>
+</tr>
+</tbody>
+</table>
+<p>* Номинальный размер</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+
+<h3>Серия 226XGF</h3>
+
+<p>Шаровые вентили из бронзы, удлиненный шток - сальник Grafoil® с коническим седлом, прокладка и седло из PFA 600 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</p>
+
+<p><strong>Резьбовой торец</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер NPT</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">VB-226XGF-4T6</td>
+<td>1/2"</td>
+<td>15</td>
+<td>Резьбовое соединение</td>
+<td>1.50</td>
+<td>0.70</td>
+<td>3.25</td>
+</tr>
+<tr>
+<td scope="row">VB-226XGF-6T6</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Резьбовое соединение</td>
+<td>3.00</td>
+<td>1.40</td>
+<td>6.25</td>
+</tr>
+<tr>
+<td scope="row">VB-226XGF-8T6</td>
+<td>1"</td>
+<td>25</td>
+<td>Резьбовое соединение</td>
+<td>4.00</td>
+<td>1.80</td>
+<td>10.00</td>
+</tr>
+<tr>
+<td scope="row">VB-226XGF-12T6</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Резьбовое соединение</td>
+<td>7.75</td>
+<td>3.50</td>
+<td>26.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+
+<h3>Серия 226BLL</h3>
+
+<p>Шаровые вентили из бронзы, динамически нагружаемый сальник - сболченная крышка, удлиненный шток, 600 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</p>
+
+<p><strong>Резьбовой торец</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер NPT</td>
+<td scope="col" rowspan="2">Торцы</td>
+<td scope="col" colspan="2">Вес</td>
+<td scope="col" rowspan="2">Приблизительный коэффициент пропускной способности</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+<td scope="col" width="80">Фунты</td>
+<td scope="col" width="70">кг</td>
+</tr>
+<tr>
+<td scope="row">B-226BLL-12T6</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Резьбовое соединение</td>
+<td>7.75</td>
+<td>3.50</td>
+<td>26.00</td>
+</tr>
+<tr>
+<td scope="row">B-226BLL-16T6</td>
+<td>2"</td>
+<td>50</td>
+<td>Резьбовое соединение</td>
+<td>12.50</td>
+<td>5.70</td>
+<td>45.00</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+
+
+
+
+<h2>Графики</h2>
+
+<h3>Серия 226ULL</h3>
+
+<ul>
+	<li>Диапазон давлений 600 фунтов на кв. дюйм, маном. Температурный диапазон от +150°F до -325°F.</li>
+	<li>Размерные данные: все размерные данные приводятся в дюймах.</li>
+</ul>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard--226ull--схема--1.jpg',
+  alt = 'Резьбовые торцы и паяные серебром торцы',
+  caption = 'Резьбовые торцы и паяные серебром торцы',
+  center = true  
+) }}
+
+
+<strong></p>Резьбовые торцы</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"Т" NPT</td>
+<td scope="col">"K"</td>
+</tr>
+<tr>
+<td>1 1/2"</td>
+<td>4  3/4"</td>
+<td>14 5/8"</td>
+<td>4"</td>
+<td>1 1/2"</td>
+<td>9 11/16"</td>
+</tr>
+<tr>
+<td>2"</td>
+<td>5 3/4"</td>
+<td>15 1/8"</td>
+<td>4 3/4"</td>
+<td>2"</td>
+<td>9 11/16"</td>
+</tr>
+</tbody>
+</table>
+
+<strong><p>Паяный серебром торец</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"E"</td>
+<td scope="col">"F"</td>
+<td scope="col">"G"</td>
+<td scope="col">"K"</td>
+</tr>
+<tr>
+<td>1 1/2"</td>
+<td>14 5/8"</td>
+<td>4"</td>
+<td><sup>5/8"</sup></td>
+<td>5 1/4"</td>
+<td>1.63"</td>
+<td>9 11/16"</td>
+</tr>
+<tr>
+<td>2"</td>
+<td>15 1/8"</td>
+<td>4 3/4"</td>
+<td>21/32"</td>
+<td>6 1/2"</td>
+<td>2.13"</td>
+<td>9 11/16"</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+<h3>Серия 226XGF</h3>
+
+<ul>
+	<li>Диапазон давлений 600 фунтов на кв. дюйм, маном. Температурный диапазон от +150°F до -325°F.</li>
+	<li>Размерные данные: все размерные данные приводятся в дюймах.</li>
+</ul>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-226xgf--схема--1.jpg',
+  alt = 'Резьбовые торцы',
+  center = true  
+) }}
+
+
+<strong></p>Резьбовые торцы</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"Т" NPT</td>
+<td scope="col">"K"</td>
+</tr>
+<tr>
+<td>1/2"</td>
+<td>2 5/8"</td>
+<td>8 1/4"</td>
+<td>2 3/8"</td>
+<td>1/2"</td>
+<td>4 7/8"</td>
+</tr>
+<tr>
+<td>3/4"</td>
+<td>3 3/16"</td>
+<td>8 5/8"</td>
+<td>2 3/4"</td>
+<td>3/4"</td>
+<td>4 13/16"</td>
+</tr>
+<tr>
+<td>1"</td>
+<td>3 3/4"</td>
+<td>10 1/2"</td>
+<td>3"</td>
+<td>1"</td>
+<td>6 1/2"</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+<h3>Серия 226LL</h3>
+
+<ul>
+	<li>Диапазон давлений 600 фунтов на кв. дюйм, маном.  Температурный диапазон от +150° F до -325° F.</li>
+	<li>Сальник под динамической нагрузкой - муфтовая крышка.</li>
+	<li>Размерные данные: все параметры приводятся в дюймах.</li>
+</ul>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-226lll--схема--1.jpg',
+  alt = '1. Резьбовые торцы 2. Паяные серебром торцы 3. Резьбовые торцы - Сболченная крышка',
+  caption = '1. Резьбовые торцы 2. Паяные серебром торцы 3. Резьбовые торцы - Сболченная крышка',
+  center = true  
+) }}
+
+
+<strong></p>Резьбовые торцы</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"Т" NPT</td>
+<td scope="col">"K"</td>
+</tr>
+<tr>
+<td>1/4"</td>
+<td>2 5/16"</td>
+<td>7 9/16"</td>
+<td>2"</td>
+<td>1/4"</td>
+<td>4 19/32"</td>
+</tr>
+<tr>
+<td><sup>3/8"</sup></td>
+<td>2 5/16"</td>
+<td>7 9/16"</td>
+<td>2"</td>
+<td><sup>3/8"</sup></td>
+<td>4 19/16"</td>
+</tr>
+<tr>
+<td>1/2"</td>
+<td>2 5/8"</td>
+<td>8 1/4"</td>
+<td>2 3/8"</td>
+<td>1/2"</td>
+<td>4 7/8"</td>
+</tr>
+<tr>
+<td>3/4"</td>
+<td>3 3/16"</td>
+<td>8 5/8"</td>
+<td>2 3/4"</td>
+<td>3/4"</td>
+<td>4 13/16"</td>
+</tr>
+<tr>
+<td>1"</td>
+<td>3 3/4"</td>
+<td>10 1/2"</td>
+<td>3"</td>
+<td>1"</td>
+<td>6 1/2"</td>
+</tr>
+</tbody>
+</table>
+
+</p>*Сболченная крышка</p>
+
+
+<strong><p>Паяные серебром торцы</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"E"</td>
+<td scope="col">"F"</td>
+<td scope="col">"G"</td>
+<td scope="col">"K"</td>
+</tr>
+<tr>
+<td>1/2"</td>
+<td>8 1/4"</td>
+<td>2 3/8"</td>
+<td><sup>3/8"</sup></td>
+<td>3 1/4"</td>
+<td>.63"</td>
+<td>4 7/8"</td>
+</tr>
+<tr>
+<td>3/4"</td>
+<td>8 5/8"</td>
+<td>2 3/4"</td>
+<td><sup>13/32"</sup></td>
+<td>3 3/4"</td>
+<td>.88"</td>
+<td>4 13/16"</td>
+</tr>
+<tr>
+<td>1"</td>
+<td>10 1/2"</td>
+<td>3"</td>
+<td><sup>7/16"</sup></td>
+<td>4 1/4"</td>
+<td>1.13"</td>
+<td>6 1/2"</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<strong></p>Резьбовые торцы - Сболченная крышка</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">"D"</td>
+<td scope="col">"Т" NPT</td>
+</tr>
+<tr align="center">
+<td>1 1/2"</td>
+<td>4 3/4"</td>
+<td>8 5/8<sup>"</sup></td>
+<td>4"</td>
+<td>1 1/2"</td>
+</tr>
+<tr align="center">
+<td>2"</td>
+<td>5 3/4"</td>
+<td>11 3/4"</td>
+<td>4 3/4"</td>
+<td>2"</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

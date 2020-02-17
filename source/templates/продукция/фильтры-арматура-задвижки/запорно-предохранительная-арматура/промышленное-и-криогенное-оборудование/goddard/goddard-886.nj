@@ -1,0 +1,573 @@
+---
+title:           Обратный затвор Goddard 886 из нержавеющей стали для криогенного использования
+contentTitle:    Обратный затвор Goddard 886 из нержавеющей стали для криогенного использования
+navTitle:        Обратный затвор Goddard 886 из нержавеющей стали для криогенного использования
+breadcrumbTitle: Обратный затвор Goddard 886 из нержавеющей стали для криогенного использования
+
+description: Обратный затвор Goddard 886 из нержавеющей стали для криогенного использования от компании ООО «Фасэнергомаш» — немецко-российского производителя оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_Image.nj' import Image with context %}
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-886--1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+
+<h2>Характеристики</h2>
+
+<ul>
+	<li>Верхний разъем: Этот затвор со сболченной крышкой может быть постоянно установлен на линии и обслуживаться сверху.</li>
+	<li>Исполнение: Разработан для предотвращения обратного потока в криогенных системах. Более высокая способность к пропусканию жидкости (коэффициент пропускной способности), чем у тарельчатого клапана или подъемного обратного клапана. Корпус колпачок и коромысло из нержавеющей стали 316L, отлитой в огнеупорную смесь.</li>
+	<li>Размеры: от 1/2" до 4" (от 15 мм до 100 мм).</li>
+	<li>Торцы: Сварной шов внахлест и стыковой сварной шов, сортамент 10 и 40.</li>
+	<li>Температурный диапазон: от -325°F до 150°F (от -196°С до +66°С).</li>
+	<li>Диапазон давлений: (давление при температуре холодной обработки, давление гидравлического опробования)<br />400 фунтов на кв. дюйм, маном. (27 бар) 1/2" - 2"<br />275 фунтов на кв. дюйм, маном. (19 бар) 150# ANSI класс 3" и 4"<br />720 фунтов на кв. дюйм, маном. (50 бар) 300# ANSI класс 3" и 4"<br />Утвержден по PED, утвержден для США и Канады.</li>
+	<li>Примечание: Запрещается использование в газовой среде с поршневыми компрессорами.</li>
+	<li>Наша литая в огнеупорную смесь нержавеющая сталь предназначается ведущими компаниями в сфере промышленного газа для резервуаров-хранилищ и сортировочного оборудования.</li>
+	<li>Идеально подходит для хранения и обработки сжиженных атмосферных газов и сжиженного природного газа.</li>
+	<li>Большой ресурс по числу срабатываний и великолепная герметизация.</li>
+	<li>Могут поставляться клапаны для работы с водородом (от -425°F до +350°F ).</li>
+</ul>
+
+<h2>Информация для заказа</h2>
+
+<h3>Серия 886</h3>
+
+<p>Обратные затворы из нержавеющей стали. Мягкое седло.</p>
+
+<p><strong>Прокладка GRAFOIL® - для работы с водородом - сварной шов внахлест</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер задвижки</td>
+<td scope="col" rowspan="2">Торцевое соединение</td>
+<td scope="col" rowspan="2">Седло</td>
+<td scope="col" rowspan="2" width="100">Номинальное давление</td>
+<td scope="col" rowspan="2">Приблизи- тельный коэффициент пропускной способности</td>
+<td scope="col" rowspan="2">Вес<br />Фунты</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+</tr>
+<tr align="center">
+<td scope="row">S-0886GF-4S</td>
+<td>1/2"</td>
+<td>15</td>
+<td rowspan="4">Сварной шов внахлест</td>
+<td>Мягкое</td>
+<td>400 (26 бар)</td>
+<td>4.50</td>
+<td>3</td>
+</tr>
+<tr align="center">
+<td scope="row">S-0886GF-6S</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Мягкое</td>
+<td>400 (26 бар)</td>
+<td>12.00</td>
+<td>6</td>
+</tr>
+<tr align="center">
+<td scope="row">S-0886GF-8S</td>
+<td>1"</td>
+<td>25</td>
+<td>Мягкое</td>
+<td>400 (26 бар)</td>
+<td>61.00</td>
+<td>11</td>
+</tr>
+<tr align="center">
+<td scope="row">S-0886GF-12S</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Мягкое</td>
+<td>400 (26 бар)</td>
+<td>99.00</td>
+<td>17<br /><br /></td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p><strong>Прокладка из PTFE - сварной шов внахлест</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер задвижки</td>
+<td scope="col" rowspan="2">Торцевое соединение</td>
+<td scope="col" rowspan="2">Седло</td>
+<td scope="col" rowspan="2" width="100">Номинальное давление</td>
+<td scope="col" rowspan="2">Приблизи- тельный коэффициент пропускной способности</td>
+<td scope="col" rowspan="2">Вес<br />Фунты</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+</tr>
+<tr align="center">
+<td scope="row">S-000886-4S</td>
+<td>1/2"</td>
+<td>15</td>
+<td rowspan="4">Сварной шов внахлест</td>
+<td>Мягкое</td>
+<td>400 (26 бар)</td>
+<td>4.50</td>
+<td>3</td>
+</tr>
+<tr align="center">
+<td scope="row">S-0886GF-6S</td>
+<td>3/4"</td>
+<td>20</td>
+<td>Мягкое</td>
+<td>400 (26 бар)</td>
+<td>12.00</td>
+<td>6</td>
+</tr>
+<tr align="center">
+<td scope="row">S-0886GF-8S</td>
+<td>1"</td>
+<td>25</td>
+<td>Мягкое</td>
+<td>400 (26 бар)</td>
+<td>61.00</td>
+<td>11</td>
+</tr>
+<tr align="center">
+<td scope="row">S-0886GF-12S</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>Мягкое</td>
+<td>400 (26 бар)</td>
+<td>99.00</td>
+<td>17</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+
+
+
+
+<p><strong>Прокладка из PTFE-1 стыковой сварной шов</p></strong>
+
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2" width="90">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер задвижки</td>
+<td scope="col" rowspan="2">Торцевое соединение</td>
+<td scope="col" rowspan="2">Седло</td>
+<td scope="col" rowspan="2">Сортамент стыкового сварного шва</td>
+<td scope="col" rowspan="2" width="100">Номинальное давление</td>
+<td scope="col" rowspan="2">Приблизи- тельный коэффициент пропускной способности</td>
+<td scope="col" rowspan="2">Вес<br />Фунты</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+</tr>
+<tr align="center">
+<td scope="row">S-000886-4WA</td>
+<td>1/2"</td>
+<td>15</td>
+<td rowspan="8">Стыковой сварной шов</td>
+<td rowspan="8">Мягкое</td>
+<td>10</td>
+<td>400 (26 бар)</td>
+<td>4.50</td>
+<td>3</td>
+</tr>
+<tr align="center">
+<td scope="row">S-000886-8WA</td>
+<td>1"</td>
+<td>25</td>
+<td>10</td>
+<td>400 (26 бар)</td>
+<td>18.00</td>
+<td>11</td>
+</tr>
+<tr align="center">
+<td scope="row">S-000886-12WA</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>10</td>
+<td>400 (26 бар)</td>
+<td>61.00</td>
+<td>17</td>
+</tr>
+<tr align="center">
+<td scope="row">S-000886-16W3A</td>
+<td>2"</td>
+<td>50</td>
+<td>10</td>
+<td>720 (50 бар)</td>
+<td>99.00</td>
+<td>17</td>
+</tr>
+<tr align="center">
+<td scope="row">S-000886-24WA</td>
+<td>3"</td>
+<td>80</td>
+<td>10</td>
+<td>275 (19 бар)</td>
+<td>255.00</td>
+<td>47</td>
+</tr>
+<tr align="center">
+<td scope="row">S-000886-24WJ</td>
+<td>3"</td>
+<td>80</td>
+<td>40</td>
+<td>275 (19 бар)</td>
+<td>255.00</td>
+<td>46</td>
+</tr>
+<tr align="center">
+<td scope="row">S-000886-32W3J</td>
+<td>4"</td>
+<td>100</td>
+<td>40</td>
+<td>720 (50 бар)</td>
+<td>475.00</td>
+<td>95</td>
+</tr>
+<tr align="center">
+<td scope="row">S-000886-32WA</td>
+<td>4"</td>
+<td>100</td>
+<td>10</td>
+<td>275 (19 бар)</td>
+<td>475.00</td>
+<td>95</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<h3>Серия 886M</h3>
+
+<p>Обратные затворы из нержавеющей стали - металлическое седло.</p>
+
+<p><strong>Прокладка GRAFOIL® - для работы с водородом</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер задвижки</td>
+<td scope="col" rowspan="2">Торцевое соединение</td>
+<td scope="col" rowspan="2">Седло</td>
+<td scope="col" rowspan="2" width="100">Номи- нальное давление</td>
+<td scope="col" rowspan="2">Приблизи- тельный коэффициент пропускной способности</td>
+<td scope="col" rowspan="2">Вес<br />Фунты</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+</tr>
+<tr align="center">
+<td scope="row">S-00886M-4S3</td>
+<td>1/2"</td>
+<td>15</td>
+<td rowspan="3">Сварной шов внахлест</td>
+<td rowspan="3">Метал- лическое</td>
+<td>720 (50 бар)</td>
+<td>4.50</td>
+<td>3</td>
+</tr>
+<tr align="center">
+<td scope="row">S-00886M-8S3</td>
+<td>1"</td>
+<td>25</td>
+<td>720 (50 бар)</td>
+<td>18.00</td>
+<td>11</td>
+</tr>
+<tr align="center">
+<td scope="row">S-00886M-12S3</td>
+<td>1 1/2"</td>
+<td>40</td>
+<td>720 (50 бар)</td>
+<td>61.00</td>
+<td>17<br /><br /></td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+<p><strong>Стыковые приварные торцы</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2" width="90">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер задвижки</td>
+<td scope="col" rowspan="2">Торцевое соединение</td>
+<td scope="col" rowspan="2">Седло</td>
+<td scope="col" rowspan="2">Сортамент стыкового сварного шва</td>
+<td scope="col" rowspan="2" width="100">Номи- нальное давление</td>
+<td scope="col" rowspan="2">Приблизи- тельный коэффициент пропускной способности</td>
+<td scope="col" rowspan="2">Вес<br />Фунты</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+</tr>
+<tr align="center">
+<td scope="row">S-0886M-16W3A</td>
+<td>2"</td>
+<td>50</td>
+<td rowspan="5">Стыковой сварной шов</td>
+<td rowspan="5">Метал- лическое</td>
+<td>10</td>
+<td>720 (50 бар)</td>
+<td>99.00</td>
+<td>17</td>
+</tr>
+<tr align="center">
+<td scope="row">S-00886M-24W3J</td>
+<td>3"</td>
+<td>80</td>
+<td>40</td>
+<td>720 (50 бар)</td>
+<td>225.00</td>
+<td>46</td>
+</tr>
+<tr align="center">
+<td scope="row">S-00886M-24W3A</td>
+<td>3"</td>
+<td>80</td>
+<td>10</td>
+<td>720 (50 бар)</td>
+<td>225.00</td>
+<td>46</td>
+</tr>
+<tr align="center">
+<td scope="row">S-00886M-32WA</td>
+<td>4"</td>
+<td>100</td>
+<td>10</td>
+<td>275 (19 бар)</td>
+<td>475.00</td>
+<td>95</td>
+</tr>
+<tr align="center">
+<td scope="row">S-00886M-32W3J</td>
+<td>4"</td>
+<td>100</td>
+<td>40</td>
+<td>720 (50 бар)</td>
+<td>475.00</td>
+<td>95</td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+<p><strong>Стыковые приварные торцы с прокладкой GRAFOIL® для работы с водородом</strong></p>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" rowspan="2" width="90">Номер детали по каталогу</td>
+<td scope="col" colspan="2">Размер задвижки</td>
+<td scope="col" rowspan="2">Торцевое соединение</td>
+<td scope="col" rowspan="2">Седло</td>
+<td scope="col" rowspan="2">Сортамент стыкового сварного шва</td>
+<td scope="col" rowspan="2" width="100">Номи- нальное давление</td>
+<td scope="col" rowspan="2">Приблизи- тельный коэффициент пропускной способности</td>
+<td scope="col" rowspan="2">Вес<br />Фунты</td>
+</tr>
+<tr>
+<td scope="col" width="50">Дюймы</td>
+<td scope="col" width="65">мм</td>
+</tr>
+<tr align="center">
+<td scope="row">S-886MGF-16W3A</td>
+<td>2"</td>
+<td>50</td>
+<td>Стыковой сварной шов</td>
+<td rowspan="2">Метал- лическое</td>
+<td>10</td>
+<td>720 (50 бар)</td>
+<td>99.00</td>
+<td>17</td>
+</tr>
+<tr align="center">
+<td scope="row">S-886MGF-24W3A</td>
+<td>3"</td>
+<td>80</td>
+<td>Стыковой сварной шов</td>
+<td>10</td>
+<td>720 (50 бар)</td>
+<td>225.00</td>
+<td>46<br /><br /></td>
+</tr>
+</tbody>
+</table>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+<h2>Графики</h2>
+
+<h3>Серия 886</h3>
+
+<ul>
+	<li>Диапазон давлений 300 фунтов на кв. дюйм, маном. давление гидравлического опробования, температурный диапазон при температуре холодной обработки от +150° F до - 325° F.</li>
+	<li>Размерные данные: все размерные данные приводятся в дюймах.</li>
+</ul>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-886--схема--1.jpg',
+  center = true  
+) }}
+
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" width="150">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+</tr>
+<tr align="center">
+<td>1/2"</td>
+<td>4 1/4"</td>
+<td>2 1/2"</td>
+</tr>
+<tr align="center">
+<td>3/4"</td>
+<td>5"</td>
+<td>3 1/4"</td>
+</tr>
+<tr align="center">
+<td>1"</td>
+<td>5"</td>
+<td>3 1/4"</td>
+</tr>
+<tr align="center">
+<td>1 1/2"</td>
+<td>6 1/2"</td>
+<td>4"</td>
+</tr>
+<tr align="center">
+<td>2"</td>
+<td>8"</td>
+<td>4 1/2"</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<h3>Серия 886M</h3>
+
+<ul>
+	<li>Рабочая среда 300 класс 720 футов на кв. дюйм давление гидравлического опробования, температурный диапазон при температуре холодной обработки от +150° F до - 325° F.</li>
+	<li>Размерные данные: все размерные данные приводятся в дюймах.</li>
+</ul>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-886--2.jpg',
+  center = true  
+) }}
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col">Размер</td>
+<td scope="col">"А"</td>
+<td scope="col">"В"</td>
+<td scope="col">Сортамент стыкового<br />сварного торца</td>
+</tr>
+<tr align="center">
+<td>1 1/2"</td>
+<td>6 1/2"</td>
+<td>4"</td>
+<td>10</td>
+</tr>
+<tr align="center">
+<td>2"</td>
+<td>8"</td>
+<td>4 1/2"</td>
+<td>10</td>
+</tr>
+<tr align="center">
+<td>3"</td>
+<td>9 1/2"</td>
+<td>5 3/4"</td>
+<td>10 и 40</td>
+</tr>
+<tr align="center">
+<td>4"</td>
+<td>11 1/2"</td>
+<td>8 3/8"</td>
+<td>10</td>
+</tr>
+<tr align="center">
+<td>4"</td>
+<td>14"</td>
+<td>8 3/8"</td>
+<td>40</td>
+</tr>
+</tbody>
+</table>
+
+<table class='Table'>
+<thead>
+<tr>
+<td scope="col" width="150">Размер</td>
+<td scope="col" width="70">"А"</td>
+<td scope="col" width="70">"В"</td>
+<td scope="col">Торец</td>
+<td scope="col">Размеры торца</td>
+</tr>
+<tr align="center">
+<td>1/2"</td>
+<td>2 7/16"</td>
+<td>4 1/4"</td>
+<td rowspan="2">Сварной шов внахлест</td>
+<td>Сортамент 10</td>
+</tr>
+<tr align="center">
+<td>1/2"</td>
+<td>2 7/16"</td>
+<td>4 1/4"</td>
+<td>Трубная муфта 1/2"</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

@@ -1,0 +1,119 @@
+---
+title:           Оборудование Goddard для промышленного и криогенного газа
+contentTitle:    Оборудование Goddard для промышленного и криогенного газа
+navTitle:        Оборудование Goddard для промышленного и криогенного газа
+breadcrumbTitle: Оборудование Goddard для промышленного и криогенного газа
+
+description: Оборудование Goddard для промышленного и криогенного газа от компании ООО «Фасэнергомаш» — производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Задвижка Goddard 110<span class="h-block h-padding-top-- h-text-">из нержавеющей стали для криогенного использования</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-110.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-110',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}   
+  {% call CategoryCard(
+    title = 'Задвижка Goddard 210<span class="h-block h-padding-top-- h-text-">из нержавеющей стали для криогенного использования</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-210.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-210',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %} 
+  {% call CategoryCard(
+    title = 'Задвижка Goddard 231<span class="h-block h-padding-top-- h-text-">из нержавеющей стали для криогенного использования</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-231.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-231',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Задвижка Goddard 232<span class="h-block h-padding-top-- h-text-">из нержавеющей стали для криогенного использования</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-232.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-232',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}  
+
+  {% call CategoryCard(
+    title = 'Задвижка Goddard SK<span class="h-block h-padding-top-- h-text-">из нержавеющей стали для криогенного использования</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-sk.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-sk',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %} 
+  {% call CategoryCard(
+    title = 'Шиберные вентили Goddard 302, 306, 310 и 310Х<span class="h-block h-padding-top-- h-text-">для криогенного использования из бронзы</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-302-310.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-302-310',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}   
+  {% call CategoryCard(
+    title = 'Задвижка Goddard 322 и 326<span class="h-block h-padding-top-- h-text-">для криогенного использования, с удлиненной крышкой из бронзы</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-322-326.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-322-326',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %} 
+  {% call CategoryCard(
+    title = 'Задвижка Goddard 202X, 206LL, 206GF, 206ULL, 206BLL<span class="h-block h-padding-top-- h-text-">для криогенного использования, из бронзы</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-202-206.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-202-206',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %} 
+
+
+  {% call CategoryCard(
+    title = 'Шаровой вентиль Goddard 222, 226LL, 226GF, 226ULL<span class="h-block h-padding-top-- h-text-">для криогенного использования,  из бронзы</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-222-226.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-222-226',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}  
+  {% call CategoryCard(
+    title = 'Обратный затвор Goddard 886<span class="h-block h-padding-top-- h-text-">для криогенного использования, из нержавеющей стали</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-886.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-886',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}  
+  {% call CategoryCard(
+    title = 'Обратный затвор Goddard 840<span class="h-block h-padding-top-- h-text-">для криогенного использования, из нержавеющей стали</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-840.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-840',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}       
+  {% call CategoryCard(
+    title = 'Вакуумные муфты Goddard Quikonnect<span class="h-block h-padding-top-- h-text-">из латуни, либо из нержавеющей стали</span>',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-муфта.jpg',
+    url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-муфты',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}     
+</div> 
+
+{% endblock %}
