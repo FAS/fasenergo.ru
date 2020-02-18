@@ -782,12 +782,40 @@
 
 ## Жидкостный подогрев
 
+'20.2100':
+  id: '20.2100'
+  article: 'ФАС№ 20.2100/ZH/H'
+  type: испарительная установка
+  title: Испарительная установка<br>ФАС 100 ZH/H
+  price: 9500
+  specs:
+    performance: 100
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.2150':
+  id: '20.2150'
+  article: 'ФАС№ 20.2150/ZH/H'
+  type: испарительная установка
+  title: Испарительная установка<br>ФАС 150 ZH/H
+  price: 10900
+  specs:
+    performance: 150
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф    
 '20.2200':
   id: '20.2200'
   article: 'ФАС№ 20.2200/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 200 ZH/H
-  price: 17800
+  title: Испарительная установка<br>ФАС 200 ZH/H
+  price: 12300
   specs:
     performance: 200
     heatType: жидкостный
@@ -800,8 +828,8 @@
   id: '20.2300'
   article: 'ФАС№ 20.2300/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 300 ZH/H
-  price: 18500
+  title: Испарительная установка<br>ФАС 300 ZH/H
+  price: 13200
   specs:
     performance: 300
     heatType: жидкостный
@@ -814,8 +842,8 @@
   id: '20.2400'
   article: 'ФАС№ 20.2400/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 400 ZH/H
-  price: 23000
+  title: Испарительная установка<br>ФАС 400 ZH/H
+  price: 14700
   specs:
     performance: 400
     heatType: жидкостный
@@ -824,12 +852,26 @@
     selfHeating: false
   enclosure:
     type: шкаф
+'20.2500':
+  id: '20.2500'
+  article: 'ФАС№ 20.2500/ZH/H'
+  type: испарительная установка
+  title: Испарительная установка<br>ФАС 500 ZH/H
+  price: 15600
+  specs:
+    performance: 500
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф    
 '20.2600':
   id: '20.2600'
   article: 'ФАС№ 20.2600/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 600 ZH/H
-  price: 26000
+  title: Испарительная установка<br>ФАС 600 ZH/H
+  price: 19000
   specs:
     performance: 600
     heatType: жидкостный
@@ -838,12 +880,26 @@
     selfHeating: false
   enclosure:
     type: шкаф
+'20.2700':
+  id: '20.2700'
+  article: 'ФАС№ 20.2700/ZH/H'
+  type: испарительная установка
+  title: Испарительная установка<br>ФАС 700 ZH/H
+  price: 19300
+  specs:
+    performance: 700
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф    
 '20.2800':
   id: '20.2800'
   article: 'ФАС№ 20.2800/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 800 ZH/H
-  price: 34000
+  title: Испарительная установка<br>ФАС 800 ZH/H
+  price: 19700
   specs:
     performance: 800
     heatType: жидкостный
@@ -852,12 +908,26 @@
     selfHeating: false
   enclosure:
     type: шкаф
+'20.2900':
+  id: '20.2900'
+  article: 'ФАС№ 20.2900/ZH/H'
+  type: испарительная установка
+  title: Испарительная установка<br>ФАС 900 ZH/H
+  price: 20400
+  specs:
+    performance: 900
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф    
 '20.21000':
   id: '20.21000'
   article: 'ФАС№ 20.21000/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 1000 ZH/H
-  price: 39000
+  title: Испарительная установка<br>ФАС 1000 ZH/H
+  price: 21600
   specs:
     performance: 1000
     heatType: жидкостный
@@ -866,28 +936,28 @@
     selfHeating: false
   enclosure:
     type: шкаф    
-'20.21200':
-  id: '20.21200'
-  article: 'ФАС№ 20.21200/ZH/H'
+'20.21500':
+  id: '20.21500'
+  article: 'ФАС№ 20.21500/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 1200 ZH/H
-  price: 42000
+  title: Испарительная установка<br>ФАС 1500 ZH/H
+  price: 27200
   specs:
-    performance: 1200
+    performance: 1500
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
     selfHeating: false
   enclosure:
     type: шкаф
-'20.21900':
-  id: '20.21900'
-  article: 'ФАС№ 20.21900/ZH/H'
+'20.22000':
+  id: '20.22000'
+  article: 'ФАС№ 20.22000/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 1900 ZH/H
-  price: 45000
+  title: Испарительная установка<br>ФАС 2000 ZH/H
+  price: 37900
   specs:
-    performance: 1900
+    performance: 2000
     heatType: жидкостный
     heatTransferType: непрямой
     pressureType: null
@@ -898,8 +968,8 @@
   id: '20.22500'
   article: 'ФАС№ 20.22500/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 2500 ZH/H
-  price: 54000
+  title: Испарительная установка<br>ФАС 2500 ZH/H
+  price: 44000
   specs:
     performance: 2500
     heatType: жидкостный
@@ -912,8 +982,8 @@
   id: '20.23000'
   article: 'ФАС№ 20.23000/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 3000 ZH/H
-  price: 58000
+  title: Испарительная установка<br>ФАС 3000 ZH/H
+  price: 49000
   specs:
     performance: 3000
     heatType: жидкостный
@@ -926,8 +996,8 @@
   id: '20.23800'
   article: 'ФАС№ 20.23800/ZH/H'
   type: испарительная установка
-  title: Испарительная установка ФАС 3800 ZH/H
-  price: 60000
+  title: Испарительная установка<br>ФАС 3800 ZH/H
+  price: null
   specs:
     performance: 3800
     heatType: жидкостный
