@@ -2563,11 +2563,11 @@
   series: null
   model: ФАС-21-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВР</span> (21 кВт)
-  price: 510000
+  price: 627000
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: discontinued
+  availability: preorder
   warranty:
     delivery: 24
     installation: 24
@@ -2622,7 +2622,7 @@
       _legacy: 30
       ng: null
       lpg: null
-    voltage: 220
+    voltage: 230
     frequency: 50
     phases: 1
     phi: null
@@ -2641,11 +2641,11 @@
         nominal: null
         max: null
     fuel:
-      ng: null
-      lpg: null
-    operatingSpeed: 2600
+      ng: 0.42 м³/ч * 1 кВт
+      lpg: 0.36 кг/ч * 1 кВт
+    operatingSpeed: 2800
     cooling: null
-  engineId: ваз-21083
+  engineId: ваз-21213
   enclosure:
     type: закрытое
     material: null
