@@ -205,7 +205,7 @@
   article: 'ФАС№ 20.0200/SE'
   type: испаритель
   title: Испаритель ФАС 200 SE
-  price: 9800
+  price: 8900
   specs:
     performance: 200
     heatType: 'электрический'
@@ -420,7 +420,7 @@
   article: 'ФАС№ 20.1100/SE/H'
   type: испарительная установка
   title: Испарительная установка ФАС 100 SE/H
-  price: 8000
+  price: 7500
   specs:
     performance: 100
     heatType: электрический
@@ -448,7 +448,7 @@
   article: 'ФАС№ 20.1140/SE/H'
   type: испарительная установка
   title: Испарительная установка ФАС 140 SE/H
-  price: 9300
+  price: 8800
   specs:
     performance: 140
     heatType: электрический
@@ -462,7 +462,7 @@
   article: 'ФАС№ 20.1160/SE/H'
   type: испарительная установка
   title: Испарительная установка ФАС 160 SE/H
-  price: 9800
+  price: 8900
   specs:
     performance: 160
     heatType: электрический
@@ -602,7 +602,7 @@
   article: 'ФАС№ 20.1400/SE/H'
   type: испарительная установка
   title: Испарительная установка ФАС 400 SE/H
-  price: 16350
+  price: 14800
   specs:
     performance: 400
     heatType: электрический
@@ -616,7 +616,7 @@
   article: 'ФАС№ 20.1450/SE/H'
   type: испарительная установка
   title: Испарительная установка ФАС 450 SE/H
-  price: 16500
+  price: 15700
   specs:
     performance: 450
     heatType: электрический
@@ -630,7 +630,7 @@
   article: 'ФАС№ 20.1500/SE/H'
   type: испарительная установка
   title: Испарительная установка ФАС 500 SE/H
-  price: 16700
+  price: 15800
   specs:
     performance: 500
     heatType: электрический
