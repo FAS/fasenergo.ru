@@ -46,7 +46,7 @@ module.exports = {
       phones: [
         { country: '7', city: '812', tel: ['407', '37', '73'], add: '510', track: true },
       ],
-      emails: [{ value: ['sale', 'fasenergo.ru'] }],
+      emails: [{ value: ['info', 'fasenergo.ru'] }],
       skypes: null
     },
 
