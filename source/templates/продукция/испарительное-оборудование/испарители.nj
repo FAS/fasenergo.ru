@@ -38,7 +38,7 @@ description: Электрические испарители сжиженных 
   { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--8--front-left.jpg' }
 ] %}
 
-{{ PhotosPreview(pageEqElPhotos, 'Испаритель ФАС SE-A 13') }}
+{{ PhotosPreview(pageEqElPhotos, 'Испаритель ФАС SE-A') }}
 
 <p></p>
 
