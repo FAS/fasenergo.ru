@@ -4,7 +4,7 @@ contentTitle:    Узлы Multivalves
 navTitle:        Узлы Multivalves
 breadcrumbTitle: Узлы Multivalves
 
-description: Узлы Multivalves от компании ООО «Фасэнергомаш» — производителя газового оборудования.
+description: Узлы Multivalves от компании ООО «Фасэнергомаш» — производителя газового оборудования. Соединив несколько функций клапанов в одном узле, клапаны Multivalve® сделали возможными новые и более практичные конструкции резервуаров.
 ---
 
 {% extends '_layouts/_main.nj' %}
