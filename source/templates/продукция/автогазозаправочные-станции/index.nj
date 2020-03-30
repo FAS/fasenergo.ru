@@ -13,7 +13,7 @@ description: Оборудование для газовой заправки (А
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
 
 {% call CategoryCard(
-  title = 'Автогазозаправочные станции',
+  title = 'Автогазозаправочные станции<br>наземного и подземного исполнения для СУГ',
   hLevel = 2,
   image = '/' + PATH.images + '/categories/автогазозаправочные-станции/насосный-агрегат-fas-nz-36-8-и-2-газгольдера--4.jpg',
   url = '/продукция/автогазозаправочные-станции/агзс'
