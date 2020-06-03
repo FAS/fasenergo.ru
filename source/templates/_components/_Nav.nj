@@ -122,6 +122,7 @@
     {% call(depth) Item('/о-компании', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
     {% call(depth) Item('/о-компании/фасэнергомаш', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/о-компании/безопасность', depth = depth) %}{% endcall %}
     {% call(depth) Item('/о-компании/производство', depth = depth) %}{% endcall %}
     {% call(depth) Item('/о-компании/сертификаты', depth = depth) %}{% endcall %}
     {# @todo Enable for production when this section will be ready #}
