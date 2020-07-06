@@ -75,16 +75,6 @@ description: Дилеры компании «Фасэнергомаш» в Са�
       </li>  
     <li>
         {{ Dealer(
-          name = 'ООО «РосБио»',
-          phones = [
-            { country: '7', city: '812', tel: ['565', '33', '65'] },
-            { country: '7', city: '812', tel: ['964', '64', '89'] }
-          ],
-          url = 'https://rosbiospb.ru'
-        ) }}
-      </li> 
-      <li>
-        {{ Dealer(
           name = 'ООО «Ленэкотрейд»',
           phones = [{ country: '7', city: '812', tel: ['677', '07', '21'] }],
           email = 'export.russia@gmail.com'
