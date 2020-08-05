@@ -21,7 +21,7 @@ description: Испарительные установки с трубчатым
 
 {{ PhotosPreview(pageEqElPhotos, 'Испарительная установка ФАС ZH/T/H') }}
 
-<h2>Непрямой жидкостный подогрев</h2>
+<p> </p>
 
 {% set pageEqEl = [
   {  artitle: 'ФАС№ 20.2200/ZH/T/H', title: 'Испарительная установка<br>ФАС 200 ZH/T/H', performance: '200 кг/ч', price: 'По запросу' },
