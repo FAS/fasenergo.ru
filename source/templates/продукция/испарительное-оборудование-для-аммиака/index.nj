@@ -11,34 +11,100 @@ description: Испарительные установки от компании
 
 {% block main %}
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_Image.nj' import Image with context %}
 
 <p class='h-margin-bottom+'>Применяются для принудительного преобразования жидкой фазы аммиака в паровую фазу, готовую к подаче потребителю.</p>
 
-{% call CategoryCard(
-  title = 'Испарители',
-  hLevel = 2,
-  image = '/' + PATH.images + '/categories/испарительное-оборудование/испарители.jpg',
-  url = '/продукция/испарительное-оборудование-для-аммиака/испарители'
-) %}{% endcall %}
 
-<h2>Испарительные установки</h2>
+<h2>Испарители аммиака с электроподогревом, серия «стандарт»</h2>
 
-<div class='o-grid h-childs-displace h-bleed-bottom'>
-  {% call CategoryCard(
-    title = 'В шкафном исполнении',
-    hLevel = 3,
-    image = '/' + PATH.images + '/categories/испарительное-оборудование/испарительные-установки-в-шкафном-исполнении.jpg',
-    url = '/продукция/испарительное-оборудование-для-аммиака/испарительные-установки-в-шкафном-исполнении',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-  {% call CategoryCard(
-    title = 'На раме',
-    hLevel = 3,
-    image = '/' + PATH.images + '/categories/испарительное-оборудование/испарительные-установки-на-раме.jpg',
-    url = '/продукция/испарительное-оборудование-для-аммиака/испарительные-установки-на-раме',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-</div>
+
+{% from '_components/_Images.nj' import Images with context %}
+
+{{ Images(
+  images = [{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--5--back.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-10-40/Испаритель-ФАС-SE-10-40--1--front.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-40-300/Испаритель-ФАС-SE-40-300--1--front.jpg',
+    alt: 'Испаритель'
+  }],
+  caption = 'Гарантия до 5 лет'
+) }}
+
+
+<p>
+  <a class='Btn o-btn--full' href='/продукция/испарительное-оборудование-для-аммиака/испарители'>Посмотреть модели</a>
+</p>
+ 
+
+<h2>Испарительные установки аммиака в шкафном исполнении с электроподогревом, серия «стандарт»</h2>
+
+
+{% from '_components/_Images.nj' import Images with context %}
+
+{{ Images(
+  images = [{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-SH-X1/Испарительная-установка-ФАС-SE-SH-X1--1--front.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-SH-X2/Испарительная-установка-ФАС-SE-SH-X2--1--front.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-SH-X3/Испарительная-установка-ФАС-SE-SH-X3--1--front.jpg',
+    alt: 'Испаритель'
+  }],
+  caption = 'Гарантия до 5 лет'
+) }}
+
+
+<p>
+  <a class='Btn o-btn--full' href='/продукция/испарительное-оборудование-для-аммиака/испарительные-установки-в-шкафном-исполнении'>Посмотреть модели</a>
+</p>
+
+
+<h2>Испарительные установки аммиака рамного исполнения, с электроподогревом, серия «стандарт»</h2>
+
+{% from '_components/_Images.nj' import Images with context %}
+
+{{ Images(
+  images = [{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--3--front-right.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--1--front.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--2--front-left.jpg',
+    alt: 'Испаритель'
+  }],
+  caption = 'Гарантия до 5 лет'
+) }}
+
+
+<p>
+  <a class='Btn o-btn--full' href='/продукция/испарительное-оборудование-для-аммиака/испарительные-установки-на-раме'>Посмотреть модели</a>
+</p>
+
+
+<h2>Испарительные установки аммиака в шкафном исполнении с жидкостным погревом, с испарителями пластинчатого типа</h2>
+
+
+{% from '_components/_Images.nj' import Images with context %}
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/испарительное-оборудование/ZH-SH/испарительная-установка-фас-zh-h.jpg',
+  alt = 'Испарительные установки аммиака в шкафном исполнении с жидкостным погревом, с испарителями пластинчатого типа',
+  center = true,
+  caption = 'Гарантия до 5 лет'
+) }}
+
+<p> </p>
+
+<p>
+  <a class='Btn o-btn--full' href='/продукция/испарительное-оборудование-для-аммиака/испарительные-установки-в-шкафном-исполнении-zh'>Посмотреть модели</a>
+</p>
 {% endblock %}

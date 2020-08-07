@@ -1,0 +1,89 @@
+---
+title:           Испарительные установки в шкафном исполнении с жидкостным подогревом для аммиака
+contentTitle:    Испарительные установки в шкафном исполнении с жидкостным подогревом для аммиака
+navTitle:        Испарительные установки в шкафном исполнении с жидкостным подогревом для аммиака
+breadcrumbTitle: Испарительные установки в шкафном исполнении с жидкостным подогревом для аммиака
+
+description: Испарительные установки для аммиака в шкафном исполнении от компании ООО «Фасэнергомаш». Производительность до 1266 кг/час. ;идкостный подогрев. Применяются для принудительного преобразования жидкой фазы аммиака в паровую, готовую к подаче потребителю.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+{% set vaporizers = selectVaporizingStationsInLocker(VAPORIZERS) %}
+{% set electrical = filterWithElectricalHeating(vaporizers) %}
+{% set liquid = filterWithLiquidHeating(vaporizers) %}
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/испарительное-оборудование/SE-SH-X1/Испарительная-установка-ФАС-SE-SH-X1--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X1/испарительная-установка-фас-se-sh-x1--4--front--scheme.jpg' },  
+  { url: 'equipment/испарительное-оборудование/SE-SH-X1/испарительная-установка-фас-se-sh-x1--2--left-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X1/испарительная-установка-фас-se-sh-x1--3--right-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X2/Испарительная-установка-ФАС-SE-SH-X2--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X2/испарительная-установка-фас-se-sh-x2--4--front--scheme.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X2/испарительная-установка-фас-se-sh-x2--2--left-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X2/испарительная-установка-фас-se-sh-x2--3--right-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X3/Испарительная-установка-ФАС-SE-SH-X3--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X3/испарительная-установка-фас-se-sh-x3--4--front--scheme.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X3/испарительная-установка-фас-se-sh-x3--2--left-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X3/испарительная-установка-фас-se-sh-x3--3--right-n.jpg' }, 
+  { url: 'equipment/испарительное-оборудование/SE-SH-X4/Испарительная-установка-ФАС-SE-SH-X4--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X4/испарительная-установка-фас-se-sh-x4--4--front--scheme.jpg' }, 
+  { url: 'equipment/испарительное-оборудование/SE-SH-X4/испарительная-установка-фас-se-sh-x4--2--left-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X4/испарительная-установка-фас-se-sh-x4--3--right-n.jpg' }
+] %}
+
+{% set pageEqLiqPhotos = [
+  { url: 'equipment/испарительное-оборудование/ZH-SH/испарительная-установка-фас-800-zh-sh--5--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/ZH-SH/Испарительная-установка-ФАС-ZH-SH--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/ZH-SH/Испарительная-установка-ФАС-ZH-SH--2--left.jpg' },
+  { url: 'equipment/испарительное-оборудование/ZH-SH/Испарительная-установка-ФАС-ZH-SH--3--right.jpg' },
+  { url: 'equipment/испарительное-оборудование/ZH-SH/испарительная-установка-фас-zh-zh--4--right--scheme.jpg' }
+] %}
+
+
+{{ PhotosPreview(pageEqLiqPhotos, 'Испарительная установка ФАС AZH/H', class = 'h-margin-bottom+') }}
+
+{% set pageEqEl = [
+  {  artitle: 'ФАС№ 20.2066/AZH/H', title: 'Испарительная установка<br>ФАС 66 AZH/H', performance: '66 кг/ч', price: '21 360 €' },
+  {  artitle: 'ФАС№ 20.2100/AZH/H', title: 'Испарительная установка<br>ФАС 100 AZH/H', performance: '100 кг/ч', price: '22 200 €' },
+  {  artitle: 'ФАС№ 20.2133/AZH/H', title: 'Испарительная установка<br>ФАС 133 AZH/H', performance: '133 кг/ч', price: '27 600 €' },
+  {  artitle: 'ФАС№ 20.2200/AZH/H', title: 'Испарительная установка<br>ФАС 200 AZH/H', performance: '200 кг/ч', price: '31 200 €' }, 
+  {  artitle: 'ФАС№ 20.2266/AZH/H', title: 'Испарительная установка<br>ФАС 266 AZH/H', performance: '266 кг/ч', price: '40 800 €' },
+  {  artitle: 'ФАС№ 20.2333/AZH/H', title: 'Испарительная установка<br>ФАС 333 AZH/H', performance: '333 кг/ч', price: '46 800 €' },
+  {  artitle: 'ФАС№ 20.2400/AZH/H', title: 'Испарительная установка<br>ФАС 400 AZH/H', performance: '400 кг/ч', price: '50 400 €' }, 
+  {  artitle: 'ФАС№ 20.2633/AZH/H', title: 'Испарительная установка<br>ФАС 633 AZH/H', performance: '633 кг/ч', price: '54 000 €' }, 
+  {  artitle: 'ФАС№ 20.2833/AZH/H', title: 'Испарительная установка<br>ФАС 833 AZH/H', performance: '833 кг/ч', price: '64 800 €' }, 
+  {  artitle: 'ФАС№ 20.21000/AZH/H', title: 'Испарительная установка<br>ФАС 1000 AZH/H', performance: '1000 кг/ч', price: '69 600 €' }, 
+  {  artitle: 'ФАС№ 20.21266/AZH/H', title: 'Испарительная установка<br>ФАС 1266 AZH/H', performance: '1266 кг/ч', price: '72 000 €' }    
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>Цена</th>      
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}

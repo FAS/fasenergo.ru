@@ -11,32 +11,97 @@ description: Испарительные установки от компании
 
 {% block main %}
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_Image.nj' import Image with context %}
 
-{% call CategoryCard(
-  title = 'Испарители',
-  hLevel = 2,
-  image = '/' + PATH.images + '/categories/испарительное-оборудование-для-хлора/испарители-cle.jpg',
-  url = '/продукция/испарительное-оборудование-для-хлора/испарители'
-) %}{% endcall %}
+<h2>Испарители хлора с электроподогревом, серия «стандарт»</h2>
 
-<h2>Испарительные установки</h2>
 
-<div class='o-grid h-childs-displace h-bleed-bottom'>
-  {% call CategoryCard(
-    title = 'В шкафном исполнении',
-    hLevel = 3,
-    image = '/' + PATH.images + '/categories/испарительное-оборудование-для-хлора/испарительные-установки-в-шкафном-исполнении-cle.jpg',
-    url = '/продукция/испарительное-оборудование-для-хлора/испарительные-установки-в-шкафном-исполнении',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-  {% call CategoryCard(
-    title = 'На раме',
-    hLevel = 3,
-    image = '/' + PATH.images + '/categories/испарительное-оборудование/испарительные-установки-на-раме.jpg',
-    url = '/продукция/испарительное-оборудование-для-хлора/испарительные-установки-на-раме',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-</div>
+{% from '_components/_Images.nj' import Images with context %}
+
+{{ Images(
+  images = [{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование-для-хлора/cle-a/испаритель-фас-cle-a-13--1--front.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование-для-хлора/cle/испаритель-фас-cle-mini--1--front.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование-для-хлора/cle/испаритель-фас-cle--1--front.jpg',
+    alt: 'Испаритель'
+  }],
+  caption = 'Гарантия до 5 лет'
+) }}
+
+
+<p>
+  <a class='Btn o-btn--full' href='/продукция/испарительное-оборудование-для-хлора/испарители'>Посмотреть модели</a>
+</p>
+ 
+
+<h2>Испарительные установки хлора в шкафном исполнении с электроподогревом, серия «стандарт»</h2>
+
+
+{% from '_components/_Images.nj' import Images with context %}
+
+{{ Images(
+  images = [{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование-для-хлора/cle-h-x1/испарительная-установка-фас-cle-h-x1--1--front.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование-для-хлора/cle-h-x2/испарительная-установка-фас-cle-h-x2--1--front.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование-для-хлора/cle-h-x3/испарительная-установка-фас-cle-h-x3--1--front.jpg',
+    alt: 'Испаритель'
+  }],
+  caption = 'Гарантия до 5 лет'
+) }}
+
+
+<p>
+  <a class='Btn o-btn--full' href='/продукция/испарительное-оборудование-для-хлора/испарительные-установки-в-шкафном-исполнении'>Посмотреть модели</a>
+</p>
+
+
+<h2>Испарительные установки хлора рамного исполнения, с электроподогревом, серия «стандарт»</h2>
+
+{% from '_components/_Images.nj' import Images with context %}
+
+{{ Images(
+  images = [{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--3--front-right.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--1--front.jpg',
+    alt: 'Испаритель'
+  },{
+    src: 'https://fasenergo.ru/assets/images/equipment/испарительное-оборудование/SE-R/Испарительная-установка-ФАС-SE-R--2--front-left.jpg',
+    alt: 'Испаритель'
+  }],
+  caption = 'Гарантия до 5 лет'
+) }}
+
+
+<p>
+  <a class='Btn o-btn--full' href='/продукция/испарительное-оборудование-для-хлора/испарительные-установки-на-раме'>Посмотреть модели</a>
+</p>
+
+
+<h2>Испарительные установки хлора в шкафном исполнении с жидкостным погревом, с испарителями пластинчатого типа</h2>
+
+
+{% from '_components/_Images.nj' import Images with context %}
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/испарительное-оборудование/ZH-SH/испарительная-установка-фас-zh-h.jpg',
+  alt = 'Испарительные установки хлора в шкафном исполнении с жидкостным погревом, с испарителями пластинчатого типа',
+  center = true,
+  caption = 'Гарантия до 5 лет'
+) }}
+
+<p> </p>
+
+<p>
+  <a class='Btn o-btn--full' href='/продукция/испарительное-оборудование-для-хлора/испарительные-установки-в-шкафном-исполнении-zh'>Посмотреть модели</a>
+</p>
 {% endblock %}

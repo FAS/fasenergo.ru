@@ -1,0 +1,85 @@
+---
+title:           Испарительные установки в шкафном исполнении с жидкостным подогревом для хлора
+contentTitle:    Испарительные установки в шкафном исполнении с жидкостным подогревом для хлора
+navTitle:        Испарительные установки в шкафном исполнении с жидкостным подогревом для хлора
+breadcrumbTitle: Испарительные установки в шкафном исполнении с жидкостным подогревом для хлора
+
+description: Испарительные установки хлора в шкафном исполнении от компании ООО «Фасэнергомаш». Производительность до 2660 кг/час. Испарители один из ключевых элементов автономного газоснабжения. Жидкостный подогрев. Стальной вентилируемый шкаф.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+{% set vaporizers = selectVaporizingStationsInLocker(VAPORIZERS) %}
+{% set electrical = filterWithElectricalHeating(vaporizers) %}
+{% set liquid = filterWithLiquidHeating(vaporizers) %}
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/испарительное-оборудование-для-хлора/cle-h-x1/испарительная-установка-фас-cle-h-x1--1--front.jpg' }, 
+  { url: 'equipment/испарительное-оборудование/SE-SH-X1/испарительная-установка-фас-se-sh-x1--2--left-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X1/испарительная-установка-фас-se-sh-x1--3--right-n.jpg' },
+  { url: 'equipment/испарительное-оборудование-для-хлора/cle-h-x2/испарительная-установка-фас-cle-h-x2--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X2/испарительная-установка-фас-se-sh-x2--2--left-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X2/испарительная-установка-фас-se-sh-x2--3--right-n.jpg' },
+  { url: 'equipment/испарительное-оборудование-для-хлора/cle-h-x3/испарительная-установка-фас-cle-h-x3--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X3/испарительная-установка-фас-se-sh-x3--2--left-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X3/испарительная-установка-фас-se-sh-x3--3--right-n.jpg' }, 
+  { url: 'equipment/испарительное-оборудование-для-хлора/cle-h-x4/испарительная-установка-фас-cle-h-x4--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X4/испарительная-установка-фас-se-sh-x4--2--left-n.jpg' },
+  { url: 'equipment/испарительное-оборудование/SE-SH-X4/испарительная-установка-фас-se-sh-x4--3--right-n.jpg' }
+] %}
+
+{% set pageEqLiqPhotos = [
+  { url: 'equipment/испарительное-оборудование/ZH-SH/испарительная-установка-фас-800-zh-sh--5--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/ZH-SH/Испарительная-установка-ФАС-ZH-SH--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/ZH-SH/Испарительная-установка-ФАС-ZH-SH--2--left.jpg' },
+  { url: 'equipment/испарительное-оборудование/ZH-SH/Испарительная-установка-ФАС-ZH-SH--3--right.jpg' },
+  { url: 'equipment/испарительное-оборудование/ZH-SH/испарительная-установка-фас-zh-zh--4--right--scheme.jpg' }
+] %}
+
+
+{{ PhotosPreview(pageEqLiqPhotos, 'Испарительная установка ФАС CLZH/H', class = 'h-margin-bottom+') }}
+
+{% set pageEqEl = [
+  {  artitle: 'ФАС№ 20.2140/CLZH/H', title: 'Испарительная установка<br>ФАС 140 CLZH/H', performance: '140 кг/ч', price: '35 600 €' },
+  {  artitle: 'ФАС№ 20.2210/CLZH/H', title: 'Испарительная установка<br>ФАС 210 CLZH/H', performance: '210 кг/ч', price: '37 000 €' },
+  {  artitle: 'ФАС№ 20.2280/CLZH/H', title: 'Испарительная установка<br>ФАС 280 CLZH/H', performance: '280 кг/ч', price: '46 000 €' },
+  {  artitle: 'ФАС№ 20.2420/CLZH/H', title: 'Испарительная установка<br>ФАС 420 CLZH/H', performance: '420 кг/ч', price: '52 000 €' }, 
+  {  artitle: 'ФАС№ 20.2560/CLZH/H', title: 'Испарительная установка<br>ФАС 560 CLZH/H', performance: '560 кг/ч', price: '68 000 €' },
+  {  artitle: 'ФАС№ 20.2700/CLZH/H', title: 'Испарительная установка<br>ФАС 700 CLZH/H', performance: '700 кг/ч', price: '78 000 €' },
+  {  artitle: 'ФАС№ 20.2840/CLZH/H', title: 'Испарительная установка<br>ФАС 840 CLZH/H', performance: '840 кг/ч', price: '84 000 €' },
+  {  artitle: 'ФАС№ 20.21330/CLZH/H', title: 'Испарительная установка<br>ФАС 1330 CLZH/H', performance: '1330 кг/ч', price: '90 000 €' }, 
+  {  artitle: 'ФАС№ 20.21750/CLZH/H', title: 'Испарительная установка<br>ФАС 1750 CLZH/H', performance: '1750 кг/ч', price: '108 000 €' }, 
+  {  artitle: 'ФАС№ 20.22100/CLZH/H', title: 'Испарительная установка<br>ФАС 2100 CLZH/H', performance: '2100 кг/ч', price: '116 000 €' },
+  {  artitle: 'ФАС№ 20.22660/CLZH/H', title: 'Испарительная установка<br>ФАС 2660 CLZH/H', performance: '2660 кг/ч', price: '120 000 €' }   
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Артикул</th>
+      <th>Наименование</th>
+      <th>Производительность</th>
+      <th>Цена</th>      
+      <th>ТКП</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
+{% endblock %}
