@@ -84,7 +84,7 @@ description: Испарительные установки хлора в шка�
   {  artitle: 'ФАС№ 20.1875/CLE/H', title: 'Испарительная установка ФАС 875 CLE/H', performance: '875 кг/ч', price: '83 100 €' },
   {  artitle: 'ФАС№ 20.11015/CLE/H', title: 'Испарительная установка ФАС 1015 CLE/H', performance: '1015 кг/ч', price: '92 400 €' }
 ] %}
-
+ 
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
