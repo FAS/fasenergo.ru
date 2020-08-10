@@ -41,9 +41,9 @@ description: Электрические испарители сжиженных 
 <p></p>
 
 {% set pageEqEl = [
-  {  artitle: 'ФАС№ 20.0005/SE-A', title: 'Испаритель ФАС 5 SE-A', performance: '5 кг/ч' , price: '600 €' },
-  {  artitle: 'ФАС№ 20.0010/SE-A', title: 'Испаритель ФАС 10 SE-A', performance: '10 кг/ч' , price: '780 €' },
-  {  artitle: 'ФАС№ 20.0013/SE-A', title: 'Испаритель ФАС 13 SE-A', performance: '13 кг/ч' , price: '800 €' }    
+  {  artitle: 'ФАС№ 20.0005/SE-A', title: '<a href="/продукция/испарительное-оборудование/испарители/фас-5-se-a/">Испаритель ФАС 5 SE-A </a>', performance: '5 кг/ч' , price: '600 €' },
+  {  artitle: 'ФАС№ 20.0010/SE-A', title: '<a href="/продукция/испарительное-оборудование/испарители/фас-10-se-a/">Испаритель ФАС 10 SE-A </a>', performance: '10 кг/ч' , price: '780 €' },
+  {  artitle: 'ФАС№ 20.0013/SE-A', title: '<a href="/продукция/испарительное-оборудование/испарители/фас-13-se-a/">Испаритель ФАС 13 SE-A </a>', performance: '13 кг/ч' , price: '800 €' }    
 ] %}
 
 <table class='Table h-cells-padding-ends--'>

@@ -1,0 +1,62 @@
+---
+title:           Испаритель ФАС 10 SE-A (производительность 10 кг/ч)
+contentTitle:    Испаритель ФАС 10 SE-A (производительность 10 кг/ч)
+navTitle:        ФАС 10 SE-A
+breadcrumbTitle: ФАС 10 SE-A
+
+description: Компактный испаритель для сжиженных углеводородных газов (пропан, бутан и их смеси) непрямого электрического подогрева тип ФАС 10 SE-A.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Компактный испаритель для сжиженных углеводородных газов (пропан, бутан и их смеси) непрямого электрического подогрева тип ФАС 10 SE-A.</p> 
+
+{% set pageEqPhotos = [
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--1--front.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--2--front-right.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--3--right.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--4--back-left.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--5--back.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--6--back-right.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--7--left.jpg' },
+  { url: 'equipment/испарительное-оборудование/se-a/испаритель-фас-se-a-13--8--front-left.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Основные технические характеристики и параметры</h2>
+
+<ul>
+	<li>Производительность 10 кг/час;</li>
+	<li>Напряжение питания 230В/50Гц.</li>
+</ul>
+
+<h2>Электропотребление</h2>
+
+<ul>
+  <li>Электропитание 230 B AC.</li>
+</ul>    
+ 
+<h2>В комплект поставки входит:</h2>   
+
+<ul>
+	<li>Испаритель в нержавеющем корпусе;</li>
+	<li>Электромагнитный клапан;</li>
+	<li>Контроль за рабочей температурой испарителя;</li>
+	<li>Сбросной предохранительный клапан (25,0 бар);</li>
+	<li>Фильтр-грязеуловитель;</li>
+	<li>Комплект документации на русском языке.</li>
+</ul>
+
+<p>Установка комплектно собрана и проверена давлением.</p>
+
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>780 €</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+
+{% endblock %}
