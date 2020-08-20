@@ -20,13 +20,14 @@
   Поделиться в
 
   <ul class='{{ listClass }} g-list0 h-inline-block h-childs-space-top0 h-text--em-'>
-
-    {% macro Item(tooltip, iconName, url, class = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
+    {% macro Item(tooltip, iconName, url, class = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass, rel=false, noindex=false) %}
       <li class='{{ class }} Icon--right h-inline-block'>
         <a href='{{ url }}'
           class='{{ anchorClass }} h-border-bottom0 o-tooltip o-tooltip--top'
           title='{{ tooltip }}'
           target='_blank'
+          {{ 'rel = "nofollow"' if rel else ''}}
+          {{ 'noindex' if noindex else ''}}
         >
           <span aria-hidden='true'>{{ Icon(iconName, class = iconClass) }}</span>
         </a>
@@ -67,7 +68,9 @@
       tooltip = 'Поделиться в LinkedIn',
       iconName = 'linkedin',
       url = 'https://www.linkedin.com/shareArticle?url=' + pageFullUrl + '&title=' + PAGE.contentTitle,
-      anchorClass = 'js-metrica-share-in'
+      anchorClass = 'js-metrica-share-in',
+      rel      = true,
+      noindex  = true
     ) }}
 
   </ul>
