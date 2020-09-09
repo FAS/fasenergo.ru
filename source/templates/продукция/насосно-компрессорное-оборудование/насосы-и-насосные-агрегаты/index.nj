@@ -13,13 +13,6 @@ description: Насосы и насосные агрегаты для СУГ и 
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
 
   {% call CategoryCard(
-    title = 'Винтовые насосы и насосные агрегаты<br>VDM Technik',
-    hLevel = 2,
-    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосный-агрегат-vdm.jpg',   
-    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/vdm'
-  ) %}{% endcall %} 
-
-  {% call CategoryCard(
     title = 'Насосы и насосные агрегаты Фас-Corken',
     hLevel = 2,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосные-агрегаты/fd-150/card4.jpg',   
