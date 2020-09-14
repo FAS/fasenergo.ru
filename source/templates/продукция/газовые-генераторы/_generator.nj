@@ -27,6 +27,7 @@
 {% set engineTitle = getEngineTitle(engine) %}
 {% set size = getGeneratorSize(gen) %}
 {% set equipmentList = gen.equipment.list %}
+{% set equipmentGu = gen.equipment.gu %}
 {% set mainPhoto = getGeneratorMainPhoto(gen).url %}
 {% set mainPhotoUrl = urljoin('/', PATH.images, (mainPhoto or 'no-photo.png')) %}
 {% set options = getGeneratorOptions(gen, GENERATORS_OPTIONS) %}
@@ -200,6 +201,11 @@
       {% if equipmentList %}
       <h2 class='h-h5 h-margin-ends'><b>Комплектация</b></h2>
       <ul>{{ equipmentList|safe }}</ul>
+      {% endif %}
+
+      {% if equipmentGu %}
+      <h2 class='h-h5 h-margin-ends'><b>Условия гарантии</b></h2>
+      {{ equipmentGu|safe }}
       {% endif %}
 
     </section>
