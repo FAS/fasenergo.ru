@@ -137,8 +137,7 @@
       <p class='h-text-'>
         Гарантия:
         {% if warrantyFromInstallation %}
-        {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев
-        ']) }}
+        {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['месяц', 'месяца', 'месяцев']) }}
         {%- if warrantyServiceLife %},<br>{% endif %}
         {% endif %}
         {% if warrantyServiceLife %}
