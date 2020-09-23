@@ -1,0 +1,55 @@
+---
+title:           Оборудование для бытовых газовых баллоннов
+contentTitle:    Оборудование для бытовых газовых баллоннов
+navTitle:        Баллонное оборудование 
+breadcrumbTitle: Баллонное оборудование 
+
+description: Баллонное оборудование от компании ООО «Фасэнергомаш» — производителя газового оборудования.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<h2>Установки для откачки неиспарившихся остатков из бытовых газовых баллонов и опорожнения переполненных баллонов</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+{% call CategoryCard(
+    title = 'Ручная установка для откачки остатков газовых баллонов<span class="h-block h-padding-top-- h-text-">1 баллон с ручным опрокидыванием баллона</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/баллонное-оборудование/установки-откчаки-остатков/установка-откачки-остатков-1x--3-1.jpg',
+    url = '/продукция/баллонное-оборудование/установка-откачки-остатков/установка-откачки-с-ручным-опрокидыванием',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %} 
+{% call CategoryCard(
+    title = 'Установка опорожнения газовых баллонов с электроприводом<span class="h-block h-padding-top-- h-text-">1-6 баллонов с автоматическим опрокидыванием баллонов </span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/баллонное-оборудование/установки-откчаки-остатков/установка-откачки-остатков-перевернутая-card.jpg',
+    url = '/продукция/баллонное-оборудование/установка-откачки-остатков/установка-опорожнения-с-электроприводом',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}   
+</div>
+
+<h2>Посты заправки бытовых газовых баллонов</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+{% call CategoryCard(
+    title = 'Универсальный заправочный пост заправки бытовых баллонов<span class="h-block h-padding-top-- h-text-">Любые типы баллонов</span>',
+    hLevel = 3,
+    url = '/продукция/баллонное-оборудование/посты-заправки/универсальный-заправочный-пост',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %} 
+{% call CategoryCard(
+    title = 'Шкафная универсальная установка для заправки баллонов<span class="h-block h-padding-top-- h-text-">Любые типы баллонов</span>',
+    hLevel = 3,
+    url = '/продукция/баллонное-оборудование/посты-заправки/шкафная-установка-заправки',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}   
+</div>
+
+{% endblock %}
