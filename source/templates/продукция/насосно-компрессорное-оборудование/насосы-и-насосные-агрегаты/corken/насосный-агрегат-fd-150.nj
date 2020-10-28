@@ -40,8 +40,8 @@ description: Насосный агрегат ФАС FD-150 для СУГ и ам
       <th>Мощность электродвигателя<br>при 2850 об/мин</th>
       <th>Макс. дифференц. давление</th>
       <th>Производительность<br>при макс.<br>дифференц. давлении</th>
-      <th>Макс. производительность</th>  
-      <th>Цена</th>            
+      <th>Макс. производительность</th>
+      <th>Цена</th>
       <th>ТКП</th>
     </tr>
   </thead>
@@ -51,9 +51,9 @@ description: Насосный агрегат ФАС FD-150 для СУГ и ам
      <td class='h-align--center'>{{ e.title }}</td>
       <td class='h-align--center'>{{ e.powerkwt }} кВт</td>
       <td class='h-align--center'>{{ e.pressuredif }} бар</td>
-      <td class='h-align--center'>{{ e.performancedif }} л/мин</td>   
-      <td class='h-align--center'>{{ e.performance }} л/мин</td>  
-      <td class='h-align--center'>{{ e.price }}</td>           
+      <td class='h-align--center'>{{ e.performancedif }} л/мин</td>
+      <td class='h-align--center'>{{ e.performance }} л/мин</td>
+      <td class='h-align--center'>{{ e.price }}</td>
       <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
       </td>
     </tr>
