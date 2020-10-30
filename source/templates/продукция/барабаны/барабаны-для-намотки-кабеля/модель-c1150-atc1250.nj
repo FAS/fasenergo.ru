@@ -1,0 +1,70 @@
+---
+title:           Барабан Hannay Reels модель C1150/ATC1250 для хранения кабеля
+contentTitle:    Барабан Hannay Reels модель C1150/ATC1250 для хранения кабеля
+navTitle:        Барабан Hannay Reels модель C1150/ATC1250 для хранения кабеля
+breadcrumbTitle: Барабан Hannay Reels модель C1150/ATC1250 для хранения кабеля
+
+description: Барабан Hannay Reels модель C1150/ATC1250 для намотки кабеля под напряжением от компании «Фасэнергомаш». Не подходит для изделий под напряжением.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_Image.nj' import Image with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/кабельные-барабаны/барабан-модель-c1150-atc1250.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Кабельные барабаны Hannay Reels', class = 'margin-bottom+') }}
+
+<h3>Не подходит для изделий под напряжением.</h3>
+
+<h2>Модель C1150</h2>
+
+<ul>
+  <li>Отверстие размером 7/8" x 1-3/4" (22 мм x 44 мм).</li>
+  <li>Регулируемый тормозной механизм с кулачковым замком.</li>
+</ul>
+
+<h2>Модель ATC1250</h2>
+
+<ul>
+  <li>Пневматические шины.</li>
+  <li>Отверстие размером 4" x 5-1/2" (102 мм x 140 мм).</li>
+  <li>Регулируемый тормозной механизм с кулачковым замком.</li>
+</ul>
+
+<h3>Дополнительно</h3>
+<p>Дополнительная складная ручка. Для компактного хранения.</p>
+
+<h2>Чертеж деталей</h2>
+
+<ul>
+  <li>Модель C1150 — ISO 48; </li>
+  <li>Модель ATC1250 — ISO 87. </li>
+</ul>
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/кабельные-барабаны/таблица-барабана-модель-c1150-atc1250.jpg' },
+  { url: 'equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/кабельные-барабаны/схема-барабана-модель-c1150-atc1250--1.jpg' },
+  { url: 'equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/кабельные-барабаны/схема-барабана-модель-c1150-atc1250--2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Кабельные барабаны Hannay Reels', class = 'margin-bottom+') }}
+
+<h3>Примечания</h3>
+
+<p>1. Возможно изменение технических характеристик.</p>
+<p>2. При заказе моделей C1150 и ATC1250 укажите номер модели, внешний вид, длину и вес кабеля, шланга и т.д.</p>
+<p>3. Эти барабаны для хранения кабеля не предназначены для эксплуатации под напряжением.</p>
+<p>4. Перед оформлением заказа обязательно проверьте размеры и вес.</p>
+
+<div class='h-align--center h-margin-top++'>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}
