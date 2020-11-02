@@ -1,0 +1,63 @@
+---
+title:           Барабан Hannay Reels модель SCR10-17-190 для намотки электрического кабеля под напряжением
+contentTitle:    Барабан Hannay Reels модель SCR10-17-190 для намотки электрического кабеля под напряжением
+navTitle:        Барабан Hannay Reels модель SCR10-17-190 для намотки электрического кабеля под напряжением
+breadcrumbTitle: Барабан Hannay Reels модель SCR10-17-190 для намотки электрического кабеля под напряжением
+
+description: Барабан Hannay Reels модель SCR10-17-190 для намотки электрического кабеля под напряжением от компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_Image.nj' import Image with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/кабельные-барабаны/барабан-модель-scr-10-17-19.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Кабельные барабаны Hannay Reels', class = 'margin-bottom+') }}
+
+
+<h2>Барбаны для намотки электрического кабеля под напряжением</h2>
+
+<ul>
+	<li>Пружинный двигатель для тяжелых условий эксплуатации.</li>
+	<li>Искробезопасный храповый механизм.</li>
+	<li>Расцепляющая муфта.</li>
+	<li>3-проводниковый кольцевой коллектор на 30 А.</li>
+	<li>Кабель питания длиной 6 футов с 3-контактной вилкой с прямым вводом на 15 ампер (доступен дополнительный поворотный замок).</li>
+	<li>Следует использовать ограничитель кабеля.</li>
+</ul>
+
+
+<h2>Дополнительно</h2>
+
+<ul>
+	<li>Дополнительные монтажные кронштейны для роликов. Деталь № 9939.0004.</li>
+</ul>
+
+<h2>Чертеж деталей — ISO 46</h2>
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/кабельные-барабаны/таблица-барабана-модель-scr-10-17-19.jpg' },
+  { url: 'equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/кабельные-барабаны/схема-барабана-модель-scr-10-17-19.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Кабельные барабаны Hannay Reels', class = 'margin-bottom+') }}
+
+<h3>Примечания</h3>
+
+<p>1. Возможно изменение технических характеристик.</p>
+<p>2. Перед оформлением заказа обязательно проверьте размеры и вес.</p>
+
+<p>***X, Y обозначают монтажные отверстия. См. страницу серии С.</p>
+
+<div class='h-align--center h-margin-top++'>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}
