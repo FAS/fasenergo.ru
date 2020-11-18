@@ -16,19 +16,35 @@ description: Винтовые насосы и насосные агрегаты 
 
 <p class='h-margin-bottom+'>Уважаемые коллеги, партнёры и просто друзья, мы рады сообщить Вам, что компания VDM Technik GmbH – Германия, после продолжительного тестирования, рада предложить Вам насосные агрегаты для сжиженных углеводородных газов (СУГ) винтового типа действия.</p>
 
-<h2>Винтовые насосные агрегаты для СУГ</h2>
+
+<h2>Винтовые насосные агрегаты VDM Technik серии NV</h2>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call CategoryCard(
-    title = 'Винтовой насосный агрегат VDM SLA-100<span class="h-block h-padding-top-- h-text-">Артикул: VDM № 660.170<br>Производительность<br>до 100 л/мин</span>',
+    title = 'Винтовой насосный агрегат VDM NV-60<span class="h-block h-padding-top-- h-text-">Производительность<br>до 60 л/мин</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосный-агрегат-vdm.jpg',
-    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/vdm/vdm-sla100',
-    class = 'o-grid__item h-1/4',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/vdm/vdm-nv-60',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Винтовой насосный агрегат VDM NV-120<span class="h-block h-padding-top-- h-text-">Производительность<br>до 120 л/мин</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосный-агрегат-vdm--v2--1.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/vdm/vdm-nv-120',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Винтовой насосный агрегат VDM NV-240<span class="h-block h-padding-top-- h-text-">Производительность<br>до 240 л/мин</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосный-агрегат-vdm--v2--2.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/vdm/vdm-nv-240',
+    class = 'o-grid__item h-1/3',
     size = 'small'
   ) %}{% endcall %}
 </div>
-
 <hr>
 
 <h2>Видео-презентация</h2>
