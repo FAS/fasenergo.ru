@@ -21,7 +21,7 @@ description: Все барабаны Hannay (СУГ) изготавливают 
   {% call CategoryCard(
     title = 'Шланговые барабаны серии PB/DPB',
     hLevel = 3,
-    image = '/' + PATH.images + '/equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/барабаны-для-суг/барабан-pb-dpb--card.jpg',
+    image = '/' + PATH.images + '/equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/барабаны-для-суг/барабан-dpb-pb--card-n.jpg',
     url = '/продукция/барабаны/шланговые-барабаны-для-суг/серия-pb-dpb',
     class = 'o-grid__item h-1/4',
     size = 'small'

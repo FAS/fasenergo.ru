@@ -139,7 +139,7 @@ description: Немецко-российские газовые генерато
   {% call CategoryCard(
     title = 'Шланговые барабаны',
     hLevel = 2,
-    image = '/' + PATH.images + '/equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/барабаны-для-суг/барабан-pb-dpb--card.jpg',
+    image = '/' + PATH.images + '/equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/барабаны-для-суг/барабан-dpb-pb--card-n.jpg',
     url = '/продукция/барабаны'
   ) %}{% endcall %}
 
