@@ -10,7 +10,7 @@
  #
  # @example {{ Email(CONTACTS.departments.sales.emails[0]) }}
  #}
-{%- macro Email(data) -%}
+{%- macro Email(data, showMeta=false, about = false) -%}
   {% if not data %}
   {{ warn('[Email] undefined provided, while object with email expected') }}
   {% endif %}
@@ -18,6 +18,9 @@
   {% set macroEmail = data.value[0] + '@' + data.value[1] %}
 
   <a class='{{ class }}' href='mailto:{{ macroEmail }}'>{{ macroEmail }}</a>
+  {%- if showMeta -%}
+    <meta property="email" content="{{ macroEmail }}" {% if about %}about="{{ about }}"{% endif %}/>
+  {%- endif -%}
 {%- endmacro -%}
 
 {##
@@ -61,7 +64,7 @@
  #
  # @example {{ Phone(CONTACTS.departments.sales.phones[0]) }}
  #}
-{%- macro Phone(data, class, addClass, showCountry = true, showAdd = true, plain) -%}
+{%- macro Phone(data, class, addClass, showCountry = true, showAdd = true, plain, showMeta = false, about = false) -%}
   {% if not data %}
   {{ warn('[Phone] undefined provided, while object with phone expected') }}
   {% endif %}
@@ -78,6 +81,9 @@
   {{ macroPhone }}{{ macroAdd if showAdd }}
   {%- else -%}
   <a href='tel:{{ rawPhone }}' class='{{ class }} {{ 'js-track-call' if data.track }} g-link--inherit h-text--nowrap'>{{ macroPhone }}</a>{% if showAdd %}<span class='{{ addClass }}'>{{ macroAdd }}</span>{% endif %}
+  {%- if showMeta -%}
+  <meta property="telephone" content="{{ rawPhone }}" {% if about %}about="{{ about }}"{% endif %}/>
+  {%- endif -%}
   {%- endif -%}
 {%- endmacro -%}
 

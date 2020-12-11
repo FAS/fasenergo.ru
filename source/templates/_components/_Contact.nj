@@ -12,8 +12,8 @@
  #                               and displayed elements
  # @param {boolean} [expandable] Should it render expandable
  #}
-{% macro Contact(data, class, lead, expandable) %}
-<article class='{{ 'h-margin-bottom+' if expandable }} {{ class }} js-expand__scope'>
+{% macro Contact(data, class, lead, expandable, isDepartment = false) %}
+<article class='{{ 'h-margin-bottom+' if expandable }} {{ class }} js-expand__scope' {{ 'property="department" typeof="Organization"' if isDepartment }}>
 
   {% if lead %}
   <h2 class='h-margin-top'>
@@ -21,7 +21,7 @@
     <a class='h-text- h-inline-block h-margin-left--' href="/контакты/реквизиты">реквизиты</a>
   </h2>
   {% else %}
-  <h3 class='{{ 'h-h5 h-margin-ends0' if expandable }}'>
+  <h3 class='{{ 'h-h5 h-margin-ends0' if expandable }}' {{ 'property="name"' if wrapperMetaData }} {{ 'property="name"' if isDepartment }}>
     {% if expandable %}
     <button class='Expand-link js-expand' data-expand-scope='.js-expand__scope'>
       {{ Icon('arrow-up', class = 'Expand-link__icon') }}{{ data.title }}
@@ -54,7 +54,11 @@
     {% if data.phones %}
     <p>
       {% for e in data.phones %}
-      <strong>{{ Phone(e, addClass = 'h-font-weight--lighter') }}</strong>{{ ',' if not loop.last }}
+      {% if isDepartment %}
+        <strong>{{ Phone(e, addClass = 'h-font-weight--lighter', showMeta = true) }}</strong>{{ ',' if not loop.last }}
+      {% else %}
+      <strong>{{ Phone(e, addClass = 'h-font-weight--lighter', showMeta = true, about='#this') }}</strong>{{ ',' if not loop.last }}
+      {% endif %}
       {%- endfor -%}
     </p>
     {% endif %}
@@ -62,7 +66,11 @@
     {% if data.emails %}
     <p>
       {% for e in data.emails %}
-      {{ Email(e) }}{{ ',' if not loop.last }}
+      {% if isDepartment %}
+        {{ Email(e, showMeta = true) }}{{ ',' if not loop.last }}
+      {% else %}
+      {{ Email(e, showMeta = true, about='#this') }}{{ ',' if not loop.last }}
+      {% endif %}
       {% endfor %}
     </p>
     {% endif %}
@@ -76,12 +84,12 @@
     {% endif %}
 
     {% for e in data.address %}
-    <p><strong>{{ e.index }}, {{ e.city }}, {{ e.street }}</strong></p>
+      <p><strong property="address" typeof="PostalAddress">
+          <span property="postalCode">{{ e.index }}</span>, <span property="addressLocality">{{ e.city }}</span>, <span property="streetAddress">{{ e.street }}</span>
+      </strong></p>
 
     {% if e.yandexMapSrc %}
-    <button class='Btn js-expand' data-expand='.js-expand__map' data-expand-scope='.js-expand__scope'>На карте</button>
-
-    <div class='h-margin-top0 js-expand__map' style='display: none'>
+    <div class='h-margin-top0 js-expand__map'>
       <div class='h-margin-top+'>
 
         <script async src='{{ e.yandexMapSrc }}'></script>
