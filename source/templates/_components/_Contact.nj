@@ -18,7 +18,7 @@
   {% if lead %}
   <h2 class='h-margin-top'>
     <span class='h-inline-block h-align--middle'>{{ data.title }}</span>
-    <a class='h-text- h-inline-block h-margin-left--' href="/контакты/реквизиты">реквизиты</a>
+    <a class='h-text- h-inline-block h-margin-left--' href="/о-компании/реквизиты/">реквизиты</a>
   </h2>
   {% else %}
   <h3 class='{{ 'h-h5 h-margin-ends0' if expandable }}' {{ 'property="name"' if wrapperMetaData }} {{ 'property="name"' if isDepartment }}>
