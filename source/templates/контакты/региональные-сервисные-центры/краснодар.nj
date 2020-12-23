@@ -64,8 +64,8 @@ description: Сервисные центры компании «Фасэнерг
         {{ Dealer(
           name = 'ООО «Хаустанд»',
           phones = [
-            { country: '8', city: '800', tel: ['234', '37', '66'] },
-            { country: '8', city: '988', tel: ['840', '09', '00'] }
+            { country: '7', city: '800', tel: ['234', '37', '66'] },
+            { country: '7', city: '988', tel: ['840', '09', '00'] }
           ],          
           email = 'info@hausstand.ru',
           url = 'http://hausstand.ru'
