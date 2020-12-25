@@ -61,9 +61,9 @@
     {% call(depth) Item('/продукция/автономные-системы-газоснабжения-на-спг', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/автогазозаправочные-станции', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/газовые-топливораздаточные-колонки', depth = depth) %}{% endcall %}
-    {% call(depth) Item('/продукция/резервуары-для-суг', depth = depth) %}{% endcall %}    
-    {% call(depth) Item('/продукция/баллонное-оборудование', depth = depth) %}{% endcall %}   
-    {% call(depth) Item('/продукция/барабаны', depth = depth) %}{% endcall %}     
+    {% call(depth) Item('/продукция/резервуары-для-суг', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/баллонное-оборудование', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/барабаны', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/блочные-комплексы-для-автомобилей-газовозов', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/cистемы-утилизации-тепла', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/когенерационные-установки', depth = depth) %}{% endcall %}
@@ -89,7 +89,7 @@
 
     {% call(depth) Item('/решения/технические/автономное-газоснабжение', depth = depth) %}{% endcall %}
     {% call(depth) Item('/решения/технические/синхронизация-генераторных-установок', depth = depth) %}{% endcall %}
-    {% call(depth) Item('/решения/технические/системы-утилизации-тепла', depth = depth) %}{% endcall %}    
+    {% call(depth) Item('/решения/технические/системы-утилизации-тепла', depth = depth) %}{% endcall %}
     {% call(depth) Item('/решения/технические/контейнеры-для-генераторов', depth = depth) %}{% endcall %}
     {% call(depth) Item('/решения/технические/авр', depth = depth) %}{% endcall %}
 
@@ -134,14 +134,15 @@
     {% endif %} #}
     {% call(depth) Item('/о-компании/новости', depth = depth) %}{% endcall %}
     {% call(depth) Item('/о-компании/журнал', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/о-компании/реквизиты', depth = depth) %}{% endcall %}
   {% endcall %}
 
   {% call(depth) Item('/программа-trade-in') %}{% endcall %}
- 
+
   {% call(depth) Item('/сервис') %}{% endcall %}
- 
+
   {% call(depth) Item('/контакты') %}{% endcall %}
-  
+
   {# @todo Enable for production when this section will be ready #}
   {# {% if ENV.staging or not ENV.production %}
   {% call(depth) Item('/преимущества-и-особенности-газовых-генераторов') %}{% endcall %}
