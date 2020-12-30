@@ -4,7 +4,7 @@ contentTitle:    Бензиновые генераторы на базе дви�
 navTitle:        Бензиновые генераторы на базе двигателя Loncin (от 5 до 13 кВт)
 breadcrumbTitle: Бензиновые генераторы на базе двигателя Loncin (от 5 до 13 кВт)
 
-description: Продажа недорогих бензиновых электрогенераторов ФАС от компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью от 5 до 13 кВт. Изготавливаются в пластиковых и металлических корпусах.
+description: Продажа недорогих бензиновых электрогенераторов ФАС от компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью от 5 до 13 кВт. Изготавливаются в металлических корпусах.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -21,60 +21,6 @@ description: Продажа недорогих бензиновых электр
 
 <div id='js-catalog' class='Box'>
   
-<article
-  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":5,"price":214000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
->
-  <div class=' o-grid h-childs-displace+'>
-
-    <div class='o-grid__item h-2/7'>
-      <a href='/продукция/бензиновые-генераторы/loncin/фас-5-1лп-5-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--1--front.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--1--front.jpg 1200w' alt='Газовый генератор ФАС-5-1/ЛП (5 кВт)'></a>
-    </div>
-
-    <div class='o-grid__item h-3/7'>
-      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/loncin/фас-5-1лп-5-квт' class='js-metrica-gensets-click-genset-card'>ФАС-5-1/ЛП</a></h2>
-      <p>
-        Мощность: <strong>5 кВт</strong><br>
-        Фазы: 1<br>
-        Охлаждение: воздушное<br>
-        Двигатель: LONCIN G390F
-      </p>
-    </div>
-
-    <div class='o-grid__item h-2/7'>
-
-      
-
-      
-      
-      <p aria-label='Цена: 214 тыс. рублей' class='h-h5'>
-        214 тыс. рублей
-      </p>
-      
-
-      
-
-      
-
-      
-      <p class='h-text-'>
-        Гарантия:
-        
-        18 месяцев
-        
-        
-      </p>
-      
-
-    </div>
-
-  </div>
-</article>
-
-  
-  
-
-
 
 <article
   class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
@@ -182,57 +128,6 @@ description: Продажа недорогих бензиновых электр
 
   
   
-
-
-<article
-  class=' js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
-  data-product='{"power":8,"price":290000,"discount":null,"engineBrand":"LONCIN","mode":"резервный","noise":90,"phases":1}'
->
-  <div class=' o-grid h-childs-displace+'>
-
-    <div class='o-grid__item h-2/7'>
-      <a href='/продукция/бензиновые-генераторы/loncin/фас-8-1лп-8-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--1--front.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-ЛП/Газовый-генератор-ФАС-ЛП--1--front.jpg 1200w' alt='Газовый генератор ФАС-8-1/ЛП (8 кВт)'></a>
-    </div>
-
-    <div class='o-grid__item h-3/7'>
-      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/loncin/фас-8-1лп-8-квт' class='js-metrica-gensets-click-genset-card'>ФАС-8-1/ЛП</a></h2>
-      <p>
-        Мощность: <strong>8 кВт</strong><br>
-        Фазы: 1<br>
-        Охлаждение: воздушное<br>
-        Двигатель: LONCIN LC2V78F-1
-      </p>
-    </div>
-
-    <div class='o-grid__item h-2/7'>
-
-      
-
-      
-      
-      <p aria-label='Цена: 290 тыс. рублей' class='h-h5'>
-        290 тыс. рублей
-      </p>
-      
-
-      
-
-      
-
-      
-      <p class='h-text-'>
-        Гарантия:
-        
-        18 месяцев
-        
-        
-      </p>
-      
-
-    </div>
-
-  </div>
-</article>
 
   
   
