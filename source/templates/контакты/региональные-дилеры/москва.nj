@@ -49,30 +49,11 @@ description: Дилеры компании «Фасэнергомаш» в Мо�
     <ul>
      <li>
         {{ Dealer(
-          name = 'ООО «ПГС»',
-          phones = [
-            { country: '7', city: '495', tel: ['502', '56', '65'] },
-            { country: '7', city: '495', tel: ['518', '07', '75'] }
-          ],
-          url = 'http://promgasstroy.ru'
-        ) }}
-      </li> 
-     <li>
-        {{ Dealer(
           name = 'ООО «Газ Регион Инвест»',
           phones = [
             { country: '7', city: '495', tel: ['646', '00', '90'] }
           ],
           url = 'http://gasregioninvest.ru'
-        ) }}
-      </li>
-     <li>
-        {{ Dealer(
-          name = 'ООО «НефтоГаз-Союз»',
-          phones = [
-            { country: '8', city: '800', tel: ['250', '44', '04'] }
-          ],
-          url = 'http://neftogaz.ru'
         ) }}
       </li>
      <li>
@@ -92,7 +73,18 @@ description: Дилеры компании «Фасэнергомаш» в Мо�
           ],
           url = 'http://rugas.ru'         
         ) }}
-      </li>                           
+      </li>
+     <li>
+        {{ Dealer(
+          name = 'ООО «ПГС»',
+          phones = [
+            { country: '7', city: '495', tel: ['502', '56', '65'] },
+            { country: '7', city: '495', tel: ['518', '07', '75'] }
+          ],
+          url = 'http://promgasstroy.ru'
+        ) }}
+      </li>
+    </ul>
   </article>
 </div>
 {% endblock %}
