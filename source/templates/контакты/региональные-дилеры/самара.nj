@@ -59,7 +59,18 @@ description: Дилеры компании «Фасэнергомаш» в Са�
           email = 'zakaz@gts-gk.ru',
           url = 'https://gts-gk.ru'
          ) }}
-      </li>    
+      </li> 
+      <li>
+        {{ Dealer(
+          name = 'ООО «ЭРА ГАЗ»',
+          address = 'г. Самара, ул. Чапаевская 232, офис 9',
+          phones = [
+            { country: '7', city: '846', tel: ['219', '21', '87'] }
+          ],
+          email = 'Gaz@eragrupp.ru',
+          url = 'https://эра-газ.рф'
+         ) }}
+      </li>       
   </article>
 </div>
 {% endblock %}
