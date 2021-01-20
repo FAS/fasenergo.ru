@@ -95,6 +95,7 @@
 
     <li class='Nav__item Nav__item--h2'>Отраслевые решения</li>
 
+    {% call(depth) Item('/решения/отраслевые/газификация-аэрозольного-производства', depth = depth) %}{% endcall %}
     {% call(depth) Item('/решения/отраслевые/нефтегазовый-комплекс', depth = depth) %}{% endcall %}
     {% call(depth) Item('/решения/отраслевые/энергетический-комплекс', depth = depth) %}{% endcall %}
     {% call(depth) Item('/решения/отраслевые/городское-и-муниципальное-хозяйство', depth = depth) %}{% endcall %}
