@@ -13,17 +13,7 @@ applyWrapperContent: false
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-{% from '_components/_Icon.nj' import Icon with context %}
-
-{% macro Document(title, url) %}
-<article class='h-margin-bottom+'>
-  <h2 class='h-h6 h-margin-top0 h-margin-bottom'>
-    {{ Icon('pdf') }}
-    <a href='{{ url }}' target='_blank'>{{ title }}</a>
-  </h2>
-  {{ caller() }}
-</article>
-{% endmacro %}
+{% from '_components/_Document.nj' import Document with context %}
 
 {% call Document(title = 'Сертификат CE', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат CE.pdf')) %}
   {# @todo Add description #}

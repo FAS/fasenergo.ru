@@ -1,0 +1,20 @@
+{##
+ # Display a link with pdf icon
+ # @param {string} title Title for the link
+ # @param {string} url   URL pointing to file location
+ # @return {string} HTML
+ #}
+
+{% from '_components/_Icon.nj' import Icon with context %}
+
+{% macro Document(title, url) %}
+
+<article class='h-margin-bottom+'>
+  <h2 class='h-h6 h-margin-top0 h-margin-bottom'>
+    {{ Icon('pdf') }}
+    <a href='{{ url }}' target='_blank'>{{ title }}</a>
+  </h2>
+  {{ caller() }}
+</article>
+
+{% endmacro %}
