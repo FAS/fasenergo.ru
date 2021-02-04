@@ -1,26 +1,41 @@
 ---
-title:           Доставка продукции компании «Фасэнергомаш»
-contentTitle:    Доставка
-navTitle:        Доставка
-breadcrumbTitle: Доставка
+title:           Доставка и оплата продукции компании «Фасэнергомаш»
+contentTitle:    Доставка и оплата
+navTitle:        Доставка и оплата
+breadcrumbTitle: Доставка и оплата
 
 description: Доставка газового оборудования компании «Фасэнергомаш» по всей России до объекта или распределительного пункта. По Санкт-Петербургу и Ленинградской области - бесплатно. До объекта в регионах России - посредством транспортной компании заказчика с отгрузкой со склада в СПБ.
 
 icon:             flash
 shortDesc:        Доставка с завода по всей России до объекта или распределительного пункта транспортной компании.
 ---
+{% from '_components/_Image.nj' import Image with context %}
 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
+{{ Image(src = '/' + PATH.images + '/services/delivering/illustration_delivering.png', alt='доставка по России', aLinkWrap=false) }}
 <p>Для розничных покупателей действуют следующие условия:</p>
+<ul>
+    <li>По Санкт-Петербургу и Ленинградской области - бесплатно.</li>
+    <li>Доставка по России, кроме СПб и ЛО - производится с помощью наших партнёров — Деловые Линии, ПЭК, Автотрейдинг, БалтТрейд. </li>
+</ul>
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+    {{ Image(src = '/' + PATH.images + '/services/delivering/logo_dellines.png', alt='Деловые линии', class='o-grid__item h-1/3', aLinkWrap=false) }}
+    {{ Image(src = '/' + PATH.images + '/services/delivering/logo_pek.png', alt='ПЭК', class='o-grid__item h-1/3', aLinkWrap=false) }}
+    {{ Image(src = '/' + PATH.images + '/services/delivering/logo_autotrading.png', alt='Автотрейдинг', class='o-grid__item h-1/3', imgClass='h-margin-top++', aLinkWrap=false) }}
+</div>
+<p>Можем отправить груз любой другой транспортной компанией по Вашему выбору.</p>
+<p>При наличии на складе отгрузка оборудования производится в течение трёх рабочих дней после оплаты. После отгрузки срок доставки зависит от расстояния.</p>
+<p>При покупке газового оборудования у дилера условия доставки уточняйте.</p>
 
-<ol>
-  <li>По Санкт-Петербургу и Ленинградской области - бесплатно.</li>
-  <li>До объекта в регионах России, кроме СПб и ЛО - посредством транспортной компании заказчика с отгрузкой со склада в СПБ.</li>
-</ol>
-
-<p>При доставке в регион вы можете выбрать одного из наших партнёров — Деловые Линии, ПЭК, Автотрейдинг, БалтТрейд — или предложить свою транспортную компанию.</p>
-<p>При наличии оборудования на складе отгрузка производится в течение 3 рабочих дней после оплаты. После отгрузки срок доставки зависит от расстояния. </p>
-<p>Условия доставки при покупке у дилера необходимо согласовывать с ним же.</p>
+<h2>Оплата</h2>
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+    {{ Image(src = '/' + PATH.images + '/services/delivering/icon_cashless.png', alt='Безналичный расчет', class='o-grid__item h-1/3', caption='<b>Безнал</b>', aLinkWrap=false) }}
+    {{ Image(src = '/' + PATH.images + '/services/delivering/icon_lizing.png', alt='Предоплата', class='o-grid__item h-1/3', caption='<b>Лизинг</b>', aLinkWrap=false) }}
+    {{ Image(src = '/' + PATH.images + '/services/delivering/icon_prepay.png', alt='Лизинг', class='o-grid__item h-1/3', caption='<b>100% Предоплата</b>', aLinkWrap=false) }}
+</div>
+<p>Собственное производство, расположенное в Санкт-Петербурге, гарантирует минимальные цены и специальные условия для дилеров.</p>
+<p>Для выставления счёта свяжитесь с нашим менеджером по телефону </p>
+<p><a href="tel:+78126147425">+7-812-614-74-25</a> или электронной почте<a href="mailto:info@fasenergo.ru"> info@fasenergo.ru</a></p>
 {% endblock %}
