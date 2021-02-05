@@ -10,6 +10,7 @@ icon:             flash
 shortDesc:        Доставка с завода по всей России до объекта или распределительного пункта транспортной компании.
 ---
 {% from '_components/_Image.nj' import Image with context %}
+{% from '_components/_formatters.nj' import Phone, Email with context %}
 
 {% extends '_layouts/_main.nj' %}
 
@@ -37,5 +38,5 @@ shortDesc:        Доставка с завода по всей России д
 </div>
 <p>Собственное производство, расположенное в Санкт-Петербурге, гарантирует минимальные цены и специальные условия для дилеров.</p>
 <p>Для выставления счёта свяжитесь с нашим менеджером по телефону </p>
-<p><a href="tel:+78126147425">+7-812-614-74-25</a> или электронной почте<a href="mailto:info@fasenergo.ru"> info@fasenergo.ru</a></p>
+<p>{{ Phone(CONTACTS.departments.sales.phones[0], showAdd = false) }} или электронной почте {{ Email(CONTACTS.departments.sales.emails[0]) }}</p>
 {% endblock %}
