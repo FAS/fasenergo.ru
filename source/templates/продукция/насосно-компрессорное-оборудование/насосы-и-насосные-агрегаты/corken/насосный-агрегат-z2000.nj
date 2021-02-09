@@ -23,8 +23,9 @@ description: Насосный агрегат ФАС Z2000 для СУГ и ам�
 <p> </p>
 
 {% set pageEq = [
-  { title: 'ФАС№ 21.2255', powerkwt: '5,5', pressuredif: '10,34', performancedif: '284', performance: '314', price: '293&nbsp;200&nbsp;₽' },
-  { title: 'ФАС№ 21.2257', powerkwt: '7,5', pressuredif: '10,34', performancedif: '284', performance: '314', price: '293&nbsp;300&nbsp;₽' }
+  { title: 'ФАС№ 21.2255 привод через редуктор', powerkwt: '5', pressuredif: '10,34', performancedif: '284', performance: '314', price: '4850€' },
+  { title: 'ФАС№ 21.22551 ременной привод', powerkwt: '5,5', pressuredif: '10,34', performancedif: '284', performance: '314', price: '4250€' },
+  { title: 'ФАС№ 21.2257', powerkwt: '7,5', pressuredif: '10,34', performancedif: '284', performance: '314', price: 'По запросу' }
 ] %}
 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>

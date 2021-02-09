@@ -80,7 +80,12 @@ description: Насос Corken Z4500 для СУГ и аммиака от ком
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>5 200 €</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+
+<p> </p>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

@@ -30,7 +30,7 @@ description: Насосный агрегат ФАС FD-150 для СУГ и ам
 <p> </p>
 
 {% set pageEq = [
-  { title: 'ФАС№ 91.501', powerkwt: '5,5', pressuredif: '10,5', performancedif: '90', performance: '195', price: '189&nbsp;400&nbsp;₽' }
+  { title: 'ФАС№ 91.5025 прямой привод', powerkwt: '5,5', pressuredif: '10,5', performancedif: '90', performance: '195', price: '2650€' }
 ] %}
 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
@@ -108,7 +108,6 @@ description: Насосный агрегат ФАС FD-150 для СУГ и ам
   <li>Рама.</li>
 </ol>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

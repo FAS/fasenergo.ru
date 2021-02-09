@@ -23,7 +23,8 @@ description: Насосный агрегат ФАС Z3500 для СУГ и ам�
 <p> </p>
 
 {% set pageEq = [
-  { title: 'ФАС№ 21.3160', powerkwt: '11,5', pressuredif: '8,5', performancedif: '580', performance: '710', price: '452&nbsp;200&nbsp;₽' }
+  { title: 'ФАС№ 21.3160 привод через редуктор', powerkwt: '10', pressuredif: '8,5', performancedif: '580', performance: '710', price: '7200€' },
+  { title: 'ФАС№ 21.8089 ременной привод', powerkwt: '11', pressuredif: '8,5', performancedif: '580', performance: '710', price: '6100€' }
 ] %}
 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>

@@ -293,7 +293,7 @@ description: Газовые топливораздаточные колонки 
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call CategoryCard(
-    title = 'FAS-120 E №936931 (эконом) <span class="h-block h-padding-top-- h-text-">Однопистолетная,<br> с кориолисовым счетчиком</span>',
+    title = 'FAS-120 E №936931G (эконом) <span class="h-block h-padding-top-- h-text-">Однопистолетная,<br> с кориолисовым счетчиком</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-120-sk/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/fas-120-e-936931',
@@ -301,7 +301,7 @@ description: Газовые топливораздаточные колонки 
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'FAS-120 E №936933 (эконом) <span class="h-block h-padding-top-- h-text-">Однопистолетная, с 4-х поршневым механическим счетчиком</span>',
+    title = 'FAS-120 E №936933G (эконом) <span class="h-block h-padding-top-- h-text-">Однопистолетная, с 4-х поршневым механическим счетчиком</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-120-sk/card.jpg',    
     url = '/продукция/газовые-топливораздаточные-колонки/fas-120-e-936933',
@@ -341,7 +341,7 @@ description: Газовые топливораздаточные колонки 
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'FAS-230 E (эконом) №936934 <span class="h-block h-padding-top-- h-text-">Двухпистолетная,<br> с 4-х поршневыми механическими счетчиками</span>',
+    title = 'FAS-230 E (эконом) №936934G <span class="h-block h-padding-top-- h-text-">Двухпистолетная,<br> с 4-х поршневыми механическими счетчиками</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-230-sm2/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/fas-230-e-936934',
