@@ -23,7 +23,7 @@
  #     center = true
  #   ) }}
  #}
-{% macro Image(src, caption, alt, position, width, center, class, linkStyle, imgClass, imgStyle, aLinkWrap = true) %}
+{% macro Image(src, caption, alt, position, width, center, class, linkStyle, imgClass, imgStyle, linkGrid = false, aLinkWrap = true, linkAddClasses) %}
 {% set positionClass = 'g-image--left' if position == 'left' else ('g-image--right' if position == 'right') %}
 {% set image = imageSize(src) %}
 
@@ -34,7 +34,8 @@
   <meta property='width' content='{{ image.width }}'>
   <meta property='height' content='{{ image.height }}'>
   {% if aLinkWrap %}
-  <a class='js-photoswiper__image h-block h-border-bottom0 {{ 'h-align--center' if center }}'
+
+  <a class='js-photoswiper__image  h-border-bottom0 {{ 'h-align--center' if center }} {{ 'o-grid ' if linkGrid else 'h-block' }} {{ linkAddClasses or ''}}'
     href='{{ image.src }}'
     data-width='{{ image.width }}'
     data-height='{{ image.height }}'
