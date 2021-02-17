@@ -16,7 +16,7 @@
  # @example
  #   {{ PhotosPreview(gen.photos, gen.title|striptags) }}
  #}
-{% macro PhotosPreview(photos, alt, imagesPath = urljoin('/', PATH.images), class) %}
+{% macro PhotosPreview(photos, alt, imagesPath = urljoin('/', PATH.images), class, link_style, grid_link = false, centerize = false) %}
 <div class='js-photos-block {{ class }} h-align--center'>
 
   <div class='js-photos-block__main'>
@@ -26,9 +26,11 @@
       src = photoUrl,
       alt = photos[0].alt or alt,
       class = 'h-margin-ends0',
-      linkStyle = 'height: 600px',
+      linkStyle = link_style or 'height: 600px',
       imgClass = 'h-height-1/1 h-margin-bottom0',
-      imgStyle = 'object-fit: contain;'
+      imgStyle = 'object-fit: contain;',
+      linkGrid = grid_link,
+      linkAddClasses = 'h-flex-y--center' if centerize else ''
     ) }}
   </div>
 
