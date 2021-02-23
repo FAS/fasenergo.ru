@@ -24,14 +24,34 @@
 // ----
 // Width of website
 
-.Wrapper--site          { min-width: $site-min-width; }
-.Wrapper--sidebar       { width: $sidebar-width; }
-.Wrapper--sidebar-shift { padding-left: $sidebar-width; }
+.Wrapper--site          {
+  min-width: 0;
+
+  @include ekzo-breakpoint(lap) {
+    min-width: $site-min-width;
+  }
+}
+.Wrapper--sidebar       { 
+  width: $sidebar-width; 
+  display: none;
+}
+.Wrapper--sidebar-shift {
+  padding-left: 0;
+  @include ekzo-breakpoint(phone) {
+    padding-left: $sidebar-width;
+  }
+}
+
 .Wrapper--main          { @include ekzo-breakpoint(desk) { max-width: $main-width; } }
 .Wrapper--container     { max-width: $main-width; }
 .Wrapper--content       { max-width: 900px; }
 .Wrapper--content-text  { max-width: 816px; }
 
+.Wrapper--sidebar {
+  @include ekzo-breakpoint(phone) {
+   display: block;
+  }
+}
 // ----
 // Limit to ~80 characters per line
 

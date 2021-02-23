@@ -13,6 +13,12 @@
 {% set mainLayoutPhone = Phone(mainLayoutE.phones[0], showAdd = false) %}
 {% set mainLayoutEmail = Email(mainLayoutE.emails[0]) %}
 
+<header class="Mobile-header">
+  <a class='Mobile-header__logo' href='{{ localeDir() }}'>
+    <img src='{{ SITE.logo }}' srcset='{{ imageSize(SITE.logo).srcset() }}' alt='{{ SITE.name }}' class='h-align--middle'>
+  </a>
+</header>
+
 <div class='Sidebar Wrapper--sidebar h-fixed h-left h-top h-bottom '>
   <div class='t-secondary h-overflow--auto h-padding h-padding-right+ h-height-1/1'>
 
@@ -25,7 +31,6 @@
       </a>
       <p class='h-text- h-font-weight--light h-margin-top-- h-line-height1.5'>{{ SITE.description }}</p>
     </header>
-
     <!--noindex-->
     <nav class='Nav h-margin-ends+'>
       {{ Nav(

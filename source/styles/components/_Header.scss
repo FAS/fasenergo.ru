@@ -3,3 +3,21 @@
 // =============================================================================
 
 .Header {}
+
+.Mobile-header {
+    background: ekzo-color(quaternary);
+    display: block;
+    padding: 20px $wrapper-padding-left;
+    
+    @include ekzo-breakpoint(phone) {
+    display: none;
+    }
+
+    &__logo {
+
+        img {
+            width: 280px;
+            height: auto;
+        }
+    }
+}

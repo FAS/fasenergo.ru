@@ -17,7 +17,7 @@ $main-width: $site-width - $sidebar-width;
 // Breakpoints
 // -----------------------------------------------------------------------------
 
-// $ekzo-bp-phone:     360px;
+$ekzo-bp-phone:     576px;
 // $ekzo-bp-phone-ls:  600px;
 // $ekzo-bp-tablet:    720px;
 // $ekzo-bp-tablet-ls: 960px;
@@ -29,7 +29,7 @@ $ekzo-breakpoints: (
   // ----
   // Sizes
 
-  // phone:      'screen and (min-width: #{$ekzo-bp-phone})',
+  phone:      'screen and (min-width: #{$ekzo-bp-phone})',
   // phone-ls:   'screen and (min-width: #{$ekzo-bp-phone-ls})',
   // tablet:     'screen and (min-width: #{$ekzo-bp-tablet})',
   // tablet-ls:  'screen and (min-width: #{$ekzo-bp-tablet-ls})',
