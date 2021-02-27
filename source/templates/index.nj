@@ -109,7 +109,7 @@ showContentTitle:          false
 <section class='{{ pageContainerClass }} {{ pageSectionTopWrapper }} {{ pageSectionBottomWrapper }}'>
   <div class='{{ pageContentClass }}'>
 
-    <h2 class='h-margin-bottom+ h-color--secondary'>Новости</h2>
+    <h2 class='h-margin-bottom+ h-color--secondary h-h3 h-h2@lap'>Новости</h2>
 
     {{ Promos() }}
     {{ Posts(limit = 2, displayActivePromos = false) }}
@@ -124,7 +124,7 @@ showContentTitle:          false
     <div class='{{ pageContentClass }} {{ pageSectionTopWrapper }} {{ pageSectionBottomWrapper }} h-text+'>
       <div class='Wrapper--content-text'>
 
-        <h2 class='h-margin-bottom+'>Дилерам</h2>
+        <h2 class='h-margin-bottom+ h-h3 h-h2@lap'>Дилерам</h2>
 
         <p>Дилер получает возможность продавать наше оборудование и оказывать сопутствующие услуги.</p>
 
@@ -152,7 +152,7 @@ showContentTitle:          false
     <h2 class='h-padding-bottom-- h-margin-bottom+ h-color--secondary'>Главное о наших генераторах</h2>
 
     {% set pageAboutGensGridClass = 'o-grid h-childs-displace+++' %}
-    {% set pageAboutGensItemClass = 'o-grid__item h-1/2' %}
+    {% set pageAboutGensItemClass = 'o-grid__item h-2/21 h-1/2@lap' %}
 
     <ul class='{{ pageAboutGensGridClass }} g-list0 h-childs-margin-bottom+--'>
       <li class='{{ pageAboutGensItemClass }}'>

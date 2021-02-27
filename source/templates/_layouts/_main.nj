@@ -102,14 +102,14 @@
     <div class='{{ 'Wrapper--content' if (PAGE.applyWrapperContent or PAGE.forceFooterWrapperContent) }} h-1/1'>
       <div class='o-grid h-childs-displace+'>
 
-        <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
+        <div class='o-grid__item h-3/3 h-2/3@lap h-text- h-childs-margin-bottom--'>
           <p>Вся представленная информация на данном сайте носит информационный характер, и ни при каких условиях не является публичной или иной офертой, определяемой положениями Гражданского кодекса РФ.</p>
           <p>Все материалы, размещённые на сайте, защищены авторским правом. Любое коммерческое использование, воспроизведение, распространение, изменение, передача или преобразование либо любой другой тип распространения информации или элементов, содержащихся на Веб-сайте, с помощью любых средств, прямо не разрешенных компанией ООО "Фасэнергомаш", строго запрещено.</p>
           <p><a href='https://fasenergo.com' target='_blank'>English version</a></p>
           <p>© 2006 – {{ moment().year() }} ООО «Фасэнергомаш»</p>
         </div>
 
-        <div class='o-grid__item h-1/3 h-align--right'>
+        <div class='o-grid__item h-3/3 h-1/3@lap h-align--center h-align--right@lap'>
 
           {# @todo Disabled due to https://trello.com/c/vUXuThbW/92-- #}
           {# <form class='Field-group Field-group- h-margin-bottom h-margin-left--auto' style='max-width: 230px'>
