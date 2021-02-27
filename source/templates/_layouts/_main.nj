@@ -79,7 +79,7 @@
         {% endif %}
 
         {% if PAGE.showContentTitle %}
-        <h1 class='Content-title h-margin-bottom+'>{{ PAGE.contentTitle }}</h1>
+        <h1 class='h-h2 h-h1@lap Content-title h-margin-bottom h-margin-bottom+@lap'>{{ PAGE.contentTitle }}</h1>
         {% endif %}
 
       </header>
