@@ -16,7 +16,7 @@ description: Догреватели паровой фазы сжиженного
 
 <p>Догреватели паровой фазы российской компании Фасэнергомаш типа&nbsp;«DE» – догреватель («D») непрямого электрического подогрева («E»). Число, следующее в наименовании за аббревиатурой серии, означает номер модели по каталогу ФАС.</p>
 
-<h2>Непрямой электрический подогрев</h2>
+<h2 class='h-h3 h-h2@lap'>Непрямой электрический подогрев</h2>
 
 <ul>
   <li>Автоматический контроль производительности для систем автономного и резервного газоснабжения.</li>
@@ -52,29 +52,31 @@ description: Догреватели паровой фазы сжиженного
   {  artitle: 'ФАС№ 20.0300/DE', title: 'Догреватель ФАС 300 DE', performance: '300 кг/ч', price: '2 800 €' }     
 ] %}
 
-<table class='Table h-cells-padding-ends--'>
-  <thead class='h-text- h-align--center'>
-    <tr>
-      <th>Артикул</th>
-      <th>Наименование</th>
-      <th>Производительность</th>
-      <th>Цена</th>      
-      <th>ТКП</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for e in pageEqEl %}
-    <tr>
-      <td>{{ e.artitle }}</td>
-      <td>{{ e.title }}</td>
-      <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--right'>{{ e.price }}</td>
-      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<div class="Table-responsive">
+  <table class='Table h-cells-padding-ends--'>
+    <thead class='h-text- h-align--center'>
+      <tr>
+        <th>Артикул</th>
+        <th>Наименование</th>
+        <th>Производительность</th>
+        <th>Цена</th>      
+        <th>ТКП</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for e in pageEqEl %}
+      <tr>
+        <td>{{ e.artitle }}</td>
+        <td>{{ e.title }}</td>
+        <td class='h-align--right'>{{ e.performance }}</td>
+        <td class='h-align--right' style='white-space:nowrap'>{{ e.price }}</td>
+        <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 

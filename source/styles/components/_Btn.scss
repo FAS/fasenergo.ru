@@ -17,6 +17,7 @@
 
   text-align: center;
   cursor: pointer;
+  white-space: nowrap;
 
   &:focus {
     // Remove browsers' focus styling. Focused state

@@ -18,6 +18,15 @@
 
   border-style: hidden;
 
+  &-responsive {
+    width: auto;
+    overflow-x: auto;
+
+    @include ekzo-breakpoint(lap) {
+      width: 100%;
+    }
+  }
+
   tr,
   th,
   td {
