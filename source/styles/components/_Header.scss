@@ -8,13 +8,13 @@
     background: ekzo-color(quaternary);
     display: block;
     padding: 20px $wrapper-padding-left / 3;
-    
+
     @include ekzo-breakpoint(lap) {
-    display: none;
+        display: none;
     }
 
     &__logo {
-
+        
         img {
             width: 180px;
             height: auto;
