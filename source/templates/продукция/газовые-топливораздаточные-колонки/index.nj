@@ -12,18 +12,18 @@ description: Газовые топливораздаточные колонки 
 {% block main %}
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
 
-<h2>Электронные топливораздаточные колонки компании «Фасэнергомаш»</h2>
+<h2 class='h-h3 h-h2@lap'>Электронные топливораздаточные колонки компании «Фасэнергомаш»</h2>
 
-<h3>Электронные топливораздаточные колонки серии ФАС 100</h3>
+<h3 class='h-h4 h-h3@lap'>Электронные топливораздаточные колонки серии ФАС 100</h3>
 
-<div class='o-grid h-childs-displace h-bleed-bottom'>
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>
 
   {% call CategoryCard(
     title = 'ФАС S/111/L<span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-111-t/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-111-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -32,7 +32,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-111-k/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-111-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   
@@ -41,21 +41,21 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-111-t/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-111-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>  
   
-<h3>Электронные топливораздаточные колонки серии ФАС 200</h3>
+<h3 class='h-h4 h-h3@lap'>Электронные топливораздаточные колонки серии ФАС 200</h3>
 
-<div class='o-grid h-childs-displace h-bleed-bottom'>  
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>  
 
   {% call CategoryCard(
     title = 'ФАС S/210/L <span class="h-block h-padding-top-- h-text-">Однопистолетная, на фронтальной стороне</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-210/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-210-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -64,7 +64,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-210/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-210-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   
@@ -73,7 +73,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-210/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-210-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -82,7 +82,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-223-t/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-223-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -91,7 +91,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-223-k/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-223-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   
@@ -100,20 +100,20 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-223-t/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-223-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>  
 
-<h3>Электронные топливораздаточные колонки серии ФАС 300</h3>
+<h3 class='h-h4 h-h3@lap'>Электронные топливораздаточные колонки серии ФАС 300</h3>
 
-<div class='o-grid h-childs-displace h-bleed-bottom'>  
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>  
   {% call CategoryCard(
     title = 'ФАС S/320/L <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-320/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-320-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -121,7 +121,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-320/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-320-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -129,7 +129,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-320/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-320-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   
@@ -138,7 +138,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-322-t/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-322-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -146,7 +146,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-322-k/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-322-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -154,20 +154,20 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-322-t/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-322-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>  
   
-<h3>Электронные топливораздаточные колонки серии ФАС 400</h3>
+<h3 class='h-h4 h-h3@lap'>Электронные топливораздаточные колонки серии ФАС 400</h3>
 
-<div class='o-grid h-childs-displace h-bleed-bottom'>  
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>  
   {% call CategoryCard(
     title = 'ФАС S/420/L <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-420-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -175,7 +175,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-420-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -183,7 +183,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-420-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 {% call CategoryCard(
@@ -191,7 +191,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-422-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 {% call CategoryCard(
@@ -199,7 +199,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-422-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -207,7 +207,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-422-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
     {% call CategoryCard(
@@ -215,7 +215,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-n-420-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
     {% call CategoryCard(
@@ -223,7 +223,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-n-420-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -231,7 +231,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-n-420-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 {% call CategoryCard(
@@ -239,7 +239,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-n-422-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 {% call CategoryCard(
@@ -247,7 +247,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-n-422-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -255,20 +255,20 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-n-422-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>
 
-<h3>Электронные топливораздаточные колонки серии ФАС 500</h3>
+<h3 class='h-h4 h-h3@lap'>Электронные топливораздаточные колонки серии ФАС 500</h3>
 
-<div class='o-grid h-childs-displace h-bleed-bottom'>  
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>  
   {% call CategoryCard(
     title = 'ФАС S/511/L <span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-500/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-511-l',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -276,7 +276,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-500/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-511-k',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -284,20 +284,20 @@ description: Газовые топливораздаточные колонки 
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-s-500/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/фас-s-511-t',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>
 
-<h2>Электронные топливораздаточные колонки компании FAS</h2>
+<h2 class='h-h3 h-h2@lap'>Электронные топливораздаточные колонки компании FAS</h2>
 
-<div class='o-grid h-childs-displace h-bleed-bottom'>
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>
   {% call CategoryCard(
     title = 'FAS-120 E №936931G (эконом) <span class="h-block h-padding-top-- h-text-">Однопистолетная,<br> с кориолисовым счетчиком</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-120-sk/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/fas-120-e-936931',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -305,7 +305,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-120-sk/card.jpg',    
     url = '/продукция/газовые-топливораздаточные-колонки/fas-120-e-936933',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -314,7 +314,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-120/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/fas-120-354733',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -322,7 +322,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-220/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/fas-220-hm-354732',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -330,14 +330,14 @@ description: Газовые топливораздаточные колонки 
     title = 'FAS-230 E (эконом) №936932 <span class="h-block h-padding-top-- h-text-">Двухпистолетная,<br> с кориолисовыми счетчиками</span>',
     hLevel = 3,
     url = '/продукция/газовые-топливораздаточные-колонки/fas-230-e-936932',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
     title = 'FAS-230 E (эконом) №936936 <span class="h-block h-padding-top-- h-text-">Двухпистолетная,<br> с кориолисовыми счетчиками</span>',
     hLevel = 3,
     url = '/продукция/газовые-топливораздаточные-колонки/fas-230-e-936936',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -345,14 +345,14 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-230-sm2/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/fas-230-e-936934',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
     title = 'FAS-230 E (эконом) №936937 <span class="h-block h-padding-top-- h-text-">Двухпистолетная,<br> с 4-х поршневыми механическими счетчиками</span>',
     hLevel = 3,
     url = '/продукция/газовые-топливораздаточные-колонки/fas-230-e-936937',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -361,7 +361,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-230/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/fas-230-hm-354731',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -370,7 +370,7 @@ description: Газовые топливораздаточные колонки 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-220m/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/fas-220-wm-354752',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>
