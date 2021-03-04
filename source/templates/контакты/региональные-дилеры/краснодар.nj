@@ -46,7 +46,7 @@ description: Дилеры компании «Фасэнергомаш» в Кр�
 
 <div class='o-grid h-childs-displace++'>
 
-  <article class='o-grid__item h-1/2'>
+  <article class='o-grid__item h-2/2 h-1/2@lap'>
     <h2>Краснодар</h2>
     <ul>
       <li>

@@ -16,13 +16,13 @@ description: 'Сервисное обслуживание оборудовани
 
 <h2>Сервисное обслуживание</h2>
 
-<div class='o-grid h-childs-displace h-bleed-bottom'>
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>
   {% call CategoryCard(
     title = 'Газовые генераторы',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/программа-trade-in/газовые-генераторы-n.jpg',
     url = '/сервис/сервис-генераторов',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -30,7 +30,7 @@ description: 'Сервисное обслуживание оборудовани
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/программа-trade-in/испарительное-оборудование.jpg',
     url = '/сервис/сервис-испарителей',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -38,7 +38,7 @@ description: 'Сервисное обслуживание оборудовани
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосные-агрегаты/fd-150/card3.jpg',
     url = '/сервис/сервис-насосов',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>
