@@ -162,6 +162,16 @@ description: Газовые топливораздаточные колонки 
 <h3>Электронные топливораздаточные колонки серии ФАС 400</h3>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>  
+
+  {% call CategoryCard(
+    title = 'ФАС 400/K/B <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400-k-b/заправочная-колонка-фас-400-k--b--card.jpg',
+    url = '/продукция/газовые-топливораздаточные-колонки/фас-400-k-b',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+
   {% call CategoryCard(
     title = 'ФАС S/420/L <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
     hLevel = 4,
