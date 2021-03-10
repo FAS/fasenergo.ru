@@ -21,6 +21,7 @@ description: Задвижка серия Goddard серии SK из нержав
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -90,6 +91,7 @@ description: Задвижка серия Goddard серии SK из нержав
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 
@@ -111,6 +113,7 @@ description: Задвижка серия Goddard серии SK из нержав
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -155,6 +158,7 @@ description: Задвижка серия Goddard серии SK из нержав
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

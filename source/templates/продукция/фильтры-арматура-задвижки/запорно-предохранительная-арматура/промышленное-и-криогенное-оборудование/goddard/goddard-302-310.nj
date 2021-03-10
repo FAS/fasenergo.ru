@@ -45,6 +45,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 <li>400 фунтов на кв. дюйм, маном. давление при температуре холодной обработки.</li>
 </ul>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -89,9 +90,11 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -172,6 +175,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Номинальный размер</p>
 
@@ -181,6 +185,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 
 <p>600 фунтов на кв. дюйм, маном. Корпус из бронзы, неудлиненная крышка, разъемный клин.</p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -234,6 +239,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
@@ -242,6 +248,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 
 <p>300 фунтов на кв. дюйм, маном. Корпус из бронзы, удлиненная крышка, цельный клин, мягкое седло.</p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -277,7 +284,9 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -304,6 +313,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 <p>* Номинальный размер</p>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
@@ -315,6 +325,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 <p>Короткая верхняя часть для работы с трейлером.
 300 фунтов на кв. дюйм, маном. Корпус из бронзы, удлиненная крышка, цельный клин, мягкое седло.</p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -350,7 +361,9 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -377,6 +390,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 <p>* Номинальный размер</p>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
@@ -407,6 +421,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 
 <h3>Резьбовой торец (NPT)</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -467,9 +482,11 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 <h3>Паяный серебром торец</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -530,6 +547,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
@@ -553,6 +571,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 
 <h3>Резьбовой торец (NPT)</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -592,6 +611,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
@@ -615,6 +635,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 
 <h3>Резьбовой торец (NPT)</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -636,9 +657,11 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 <h3>Паяный серебром торец</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -662,6 +685,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
@@ -686,6 +710,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 
 <h3>Резьбовой торец (NPT)</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -707,9 +732,11 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 <h3>Паяный серебром торец</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -733,6 +760,7 @@ description: Шиберные вентили Goddard 302, 306, 310 и 310Х дл
 </tr>
 </tbody>
 </table>
+</div>
 
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>

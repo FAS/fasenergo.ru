@@ -22,7 +22,8 @@ description: Клапаны RegO серий 901C, 9101H и 9101Y от компа
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Вход</th><th rowspan="3">Выход</th><th rowspan="3">Соединение <br />для контрольной<br />трубки</th><th colspan="3">Поток закрытия клапана (сжиженый газ)</th></tr>
@@ -67,6 +68,7 @@ description: Клапаны RegO серий 901C, 9101H и 9101Y от компа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Модели с усиленным исполнением.
 ** Измерено в гибком трубопроводе внешним диаметром 3/8" длиной 58 см или менее, подключенном к выходу клапану. При увеличении длины трубопровода диаметр
@@ -97,6 +99,7 @@ description: Клапаны RegO серий 901C, 9101H и 9101Y от компа
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -121,6 +124,7 @@ description: Клапаны RegO серий 901C, 9101H и 9101Y от компа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

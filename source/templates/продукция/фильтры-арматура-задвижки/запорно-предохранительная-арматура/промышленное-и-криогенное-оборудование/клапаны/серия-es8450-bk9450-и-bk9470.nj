@@ -21,71 +21,73 @@ description: Вентили с удлиненным штоком RegO серии
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <p>  </p>
- 
-<table class='Table'>
-<thead>
-<tr>
-<td scope="col">Номер детали по каталогу</td>
-<td scope="col">Входное / выходное соединения</td>
-<td scope="col" width="55">Высота "А"</td>
-<td scope="col" width="55">Ширина корпуса "В"</td>
-<td scope="col" width="55">Ширина с трубкой "С"</td>
-<td scope="col">Коэффициент пропускной способности</td>
-</tr>
-<tr align="center">
-<td scope="row">ES 8452</td>
-<td>1/4" охватывающая NPT</td>
-<td>4"</td>
-<td rowspan="8">2.5"</td>
-<td rowspan="6"> </td>
-<td>0.70</td>
-</tr>
-<tr align="center">
-<td scope="row">ES 8453</td>
-<td>3/8" охватывающая NPT</td>
-<td>4"</td>
-<td>1.10</td>
-</tr>
-<tr align="center">
-<td scope="row">ES 8454</td>
-<td>1/2" охватывающая NPT</td>
-<td>4"</td>
-<td>1.10</td>
-</tr>
-<tr align="center">
-<td scope="row">ВК 9452</td>
-<td>1/4" охватывающая NPT</td>
-<td>6.5"</td>
-<td>0.70</td>
-</tr>
-<tr align="center">
-<td scope="row">ВК 9453</td>
-<td>3/8" охватывающая NPT</td>
-<td>6.5"</td>
-<td>1.10</td>
-</tr>
-<tr align="center">
-<td scope="row">ВК 9454</td>
-<td>1/2" охватывающая NPT</td>
-<td>6.5"</td>
-<td>1.10</td>
-</tr>
-<tr align="center">
-<td scope="row">ВК 9453FA</td>
-<td>3/8" наружный диаметр трубки x3/8" FNPT</td>
-<td>6.5"</td>
-<td>4.0"</td>
-<td>1.10</td>
-</tr>
-<tr align="center">
-<td scope="row">ВК 9475A</td>
-<td>3/8" наружный диаметр трубки с обоих концов</td>
-<td>6.5"</td>
-<td>5.5"</td>
-<td>1.10</td>
-</tr>
-</tbody>
-</table>
+
+<div class="Table-responsive">
+	<table class='Table'>
+	<thead>
+	<tr>
+	<td scope="col">Номер детали по каталогу</td>
+	<td scope="col">Входное / выходное соединения</td>
+	<td scope="col" width="55">Высота "А"</td>
+	<td scope="col" width="55">Ширина корпуса "В"</td>
+	<td scope="col" width="55">Ширина с трубкой "С"</td>
+	<td scope="col">Коэффициент пропускной способности</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">ES 8452</td>
+	<td>1/4" охватывающая NPT</td>
+	<td>4"</td>
+	<td rowspan="8">2.5"</td>
+	<td rowspan="6"> </td>
+	<td>0.70</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">ES 8453</td>
+	<td>3/8" охватывающая NPT</td>
+	<td>4"</td>
+	<td>1.10</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">ES 8454</td>
+	<td>1/2" охватывающая NPT</td>
+	<td>4"</td>
+	<td>1.10</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">ВК 9452</td>
+	<td>1/4" охватывающая NPT</td>
+	<td>6.5"</td>
+	<td>0.70</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">ВК 9453</td>
+	<td>3/8" охватывающая NPT</td>
+	<td>6.5"</td>
+	<td>1.10</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">ВК 9454</td>
+	<td>1/2" охватывающая NPT</td>
+	<td>6.5"</td>
+	<td>1.10</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">ВК 9453FA</td>
+	<td>3/8" наружный диаметр трубки x3/8" FNPT</td>
+	<td>6.5"</td>
+	<td>4.0"</td>
+	<td>1.10</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">ВК 9475A</td>
+	<td>3/8" наружный диаметр трубки с обоих концов</td>
+	<td>6.5"</td>
+	<td>5.5"</td>
+	<td>1.10</td>
+	</tr>
+	</tbody>
+	</table>
+</div>
 
 <h2>Применение</h2>
 <p>Данные вентили предназначены для использования в качестве крана для забора проб или сливного крана шлангов на криогенных резервуарах. Другое применение в качестве вентиля заполнения жидкостью или вентиляционного вентиля на мини-наливных криогенных резервуарах. Эти вентили могут использоваться как для других применений с холодными газами, требующих вентилей с удлиненным штоком, так для заправки сжиженным природным газом.</p>
@@ -108,30 +110,32 @@ description: Вентили с удлиненным штоком RegO серии
 
 <h2>Материалы</h2>
 
-<table class='Table'>
-<thead>
-<tr>
-<td>Корпус и крышка:</td>
-<td>Латунь</td>
-</tr>
-<tr>
-<td>Шток:</td>
-<td>Нержавеющая сталь</td>
-</tr>
-<tr>
-<td>Диск седла:</td>
-<td>CTFE</td>
-</tr>
-<tr>
-<td>Маховик:</td>
-<td>Алюминий</td>
-</tr>
-<tr>
-<td>Прокладка сальника и крышки:</td>
-<td>PTFE</td>
-</tr>
-</tbody>
-</table>
+<div class="Table-responsive">
+	<table class='Table'>
+	<thead>
+	<tr>
+	<td>Корпус и крышка:</td>
+	<td>Латунь</td>
+	</tr>
+	<tr>
+	<td>Шток:</td>
+	<td>Нержавеющая сталь</td>
+	</tr>
+	<tr>
+	<td>Диск седла:</td>
+	<td>CTFE</td>
+	</tr>
+	<tr>
+	<td>Маховик:</td>
+	<td>Алюминий</td>
+	</tr>
+	<tr>
+	<td>Прокладка сальника и крышки:</td>
+	<td>PTFE</td>
+	</tr>
+	</tbody>
+	</table>
+</div>
 
 <h2>Комплект для переоборудования</h2>
 <p>Комплект ВК 9450 представляет собой набор узла крышки и штока для переоборудования серии ES 8450 и предыдущей серии ES 9450 в конструкцию ВК 9450.</p>

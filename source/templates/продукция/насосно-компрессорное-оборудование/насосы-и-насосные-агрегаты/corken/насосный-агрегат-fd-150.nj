@@ -33,6 +33,7 @@ description: Насосный агрегат ФАС FD-150 для СУГ и ам
   { title: 'ФАС№ 91.5025 прямой привод', powerkwt: '5,5', pressuredif: '10,5', performancedif: '90', performance: '195', price: '2650€' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -60,6 +61,7 @@ description: Насосный агрегат ФАС FD-150 для СУГ и ам
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Описание</h2>
 

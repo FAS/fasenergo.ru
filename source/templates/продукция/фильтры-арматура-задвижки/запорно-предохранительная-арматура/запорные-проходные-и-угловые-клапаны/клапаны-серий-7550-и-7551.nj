@@ -21,6 +21,7 @@ description:  Клапаны RegO cерий 7550 и 7551  от компании 
 
 <p>  </p>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Вход, (F.NPT)</th><th rowspan="2">Выход, (F. NPT)</th><th rowspan="2">Встроенный скоростной клапан</th><th rowspan="2">Поток при перепаде <br />давления 6,9 кПа (Cv) <br />по пропану*, л/мин</th><th rowspan="2">Закрытие скоростно<br />клапана при потоке,<br />пропану**, л/мин</th><th colspan="2">Комплектующие</th></tr>
@@ -69,6 +70,8 @@ description:  Клапаны RegO cерий 7550 и 7551  от компании 
 </tr>
 </tbody>
 </table>
+</div>
+
 <p>* Для получения приблизительного значения потока при перепаде давления, отличном от 6,9 кПа, умножьте поток в таблице на квадратный корень перепада давления. Пример для 7550P при 62 кПа: 50 x ?62 = 394 л/мин по пропану. Для потока NH3 умножьте поток пропана на 0,90.</p>
 
 <h2>Применение</h2>
@@ -89,6 +92,7 @@ description:  Клапаны RegO cерий 7550 и 7551  от компании 
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -125,6 +129,8 @@ description:  Клапаны RegO cерий 7550 и 7551  от компании 
 </tr>
 </tbody>
 </table>
+</div>
+
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

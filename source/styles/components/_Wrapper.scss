@@ -38,7 +38,7 @@
 }
 
 .Wrapper--sidebar {
-  width: $sidebar-width;
+  width: 76%;
   display: none;
 
   &-shift {
@@ -51,6 +51,7 @@
 
   @include ekzo-breakpoint(lap) {
     display: block;
+    width: $sidebar-width;
   }
 }
 

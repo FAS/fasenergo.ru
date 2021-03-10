@@ -19,7 +19,8 @@ description: Латунные заглушки для промышленного
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p> </p>
- 
+
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr class="h" align="center">
@@ -49,7 +50,7 @@ description: Латунные заглушки для промышленного
 </tr>
 </tbody>
 </table>
-
+</div>
 <p>(для значений манометрического давления до 3000 фунтов на кв. дюйм) Коэффициент безопасности = 5:1</p>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>

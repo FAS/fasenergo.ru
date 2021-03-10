@@ -20,7 +20,8 @@ description: Клапаны Multivalves серии 8555DL от компании 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Вход</th><th>Выход</th><th>Разъем для наполнения</th><th>Исполнение маховика</th><th>Длина патрубка пробника с дефлектором, мм</th><th>Длина контрольной трубки для отбора газа, мм</th><th>Заводская настройка</th><th>Для баллонов емкостью до, кг</th><th>Поток закрыти клапана <br />(по жидкой фазе), <br />л/мин**</th></tr>
@@ -42,6 +43,7 @@ description: Клапаны Multivalves серии 8555DL от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>*Для подключения трубки используется адаптер #12982.<br>
 ** Чтобы обеспечить правильное функционирование и максимальную защиту от встроенных скоростных клапанов, клапан для емкостей должен быть полностью открыт и уплотнен на время использования.</p>
@@ -62,6 +64,7 @@ description: Клапаны Multivalves серии 8555DL от компании 
 
 <h2>Пропускная способность по жидкости</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th colspan="4">Ср. пропускная способность для жидкости, л/мин</th></tr>
@@ -76,9 +79,11 @@ description: Клапаны Multivalves серии 8555DL от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -111,6 +116,7 @@ description: Клапаны Multivalves серии 8555DL от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

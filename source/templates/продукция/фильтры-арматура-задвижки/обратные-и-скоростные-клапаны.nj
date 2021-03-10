@@ -49,27 +49,29 @@ description: Обратные и скоростные клапаны от ком
   { size: 'ДУ 100', width: 60, weight: 3.63 }
 ] %}
 
-<table class='Table h-cells-padding-ends-- h-margin-top+'>
-  <thead class='h-text- h-align--center'>
-    <tr>
-      <th>Типоразмер ДУ</th>
-      <th>Длина</th>
-      <th>Вес</th>
-      <th>ТКП</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for e in pageEq %}
-    <tr>
-      <td>{{ e.size }}</td>
-      <td>{{ e.width }}&nbsp;мм</td>
-      <td>{{ e.weight }}&nbsp;кг</td>
-      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<div class="Table-responsive">
+  <table class='Table h-cells-padding-ends-- h-margin-top+'>
+    <thead class='h-text- h-align--center'>
+      <tr>
+        <th>Типоразмер ДУ</th>
+        <th>Длина</th>
+        <th>Вес</th>
+        <th>ТКП</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for e in pageEq %}
+      <tr>
+        <td>{{ e.size }}</td>
+        <td>{{ e.width }}&nbsp;мм</td>
+        <td>{{ e.weight }}&nbsp;кг</td>
+        <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

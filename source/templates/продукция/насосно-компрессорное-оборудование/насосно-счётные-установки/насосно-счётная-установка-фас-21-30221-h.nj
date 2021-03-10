@@ -25,6 +25,7 @@ description: Насосно-счетная установка ФАС № 21.3022
   { title: 'ФАС№<br>21.30221/Н', counter: 'LPGmass', measurement: 'В литрах<br>и кг', pump: 'ФАС Z2000', performance: 'до 220', price: '1&nbsp;467&nbsp;100&nbsp;₽' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -52,6 +53,7 @@ description: Насосно-счетная установка ФАС № 21.3022
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Технические данные</h2>
 

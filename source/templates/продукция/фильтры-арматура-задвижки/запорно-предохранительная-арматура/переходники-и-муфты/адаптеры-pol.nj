@@ -22,6 +22,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>А<br />М.АСМЕ</th><th>В</th><th>С<br />шестигр. под ключ, мм</th><th>D<br />диаметр</th></tr>
@@ -41,6 +42,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>M. POL x M. NPT и конус SAE</h2>
 
@@ -52,6 +54,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>А</th><th>В</th><th>С<br />шестигр. под ключ, мм</th><th>D<br />диаметр</th></tr>
@@ -76,6 +79,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>F. POL x F. NPT и F. POL</h2>
 
@@ -87,6 +91,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>А</th><th>В</th><th>С</th><th>D</th></tr>
@@ -128,6 +133,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>F. POL x M. NPT</h2>
 
@@ -139,6 +145,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>А</th><th>В</th><th>С</th><th>D<br />диаметр</th></tr>
@@ -166,6 +173,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>F. обратный конус x M. NPT</h2>
 
@@ -177,6 +185,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>А</th><th>В</th></tr>
@@ -188,6 +197,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Адаптер для шланга к горючим газам (пропан, ацетилен и т.п.)</h2>
 
@@ -199,6 +209,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>А</th><th>В</th></tr>
@@ -210,6 +221,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Адаптер манометра</h2>
 
@@ -221,6 +233,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>А</th><th>В</th><th>С</th></tr>
@@ -233,6 +246,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
 </tr>
 </tbody>
 </table>
+</div>
 
 {% set pageEqPhotos = [
   { url: 'equipment/фильтры-арматура-задвижки/запорно-предохранительная-арматура/переходники-и-муфты/адаптеры-pol--8.jpg' }
@@ -242,6 +256,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
 
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>А</th><th>В</th><th>С</th><th>D</th><th>E</th><th>F</th></tr>
@@ -272,6 +287,7 @@ description: Адаптеры RegO POL от компании ООО «Фасэн
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

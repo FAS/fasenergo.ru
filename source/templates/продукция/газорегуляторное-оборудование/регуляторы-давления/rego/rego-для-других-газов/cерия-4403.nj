@@ -21,7 +21,8 @@ description: Линейные регуляторы низкого давлени
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -80,6 +81,7 @@ description: Линейные регуляторы низкого давлени
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Основывается на впускном манометрическом давлении 50 фунтов на кв.дюйм. LV4403C2H42 основывается на впускном манометрическом давлении 100 фунтов на кв. дюйм.</p>
 
@@ -100,6 +102,7 @@ description: Линейные регуляторы низкого давлени
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -128,6 +131,7 @@ description: Линейные регуляторы низкого давлени
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

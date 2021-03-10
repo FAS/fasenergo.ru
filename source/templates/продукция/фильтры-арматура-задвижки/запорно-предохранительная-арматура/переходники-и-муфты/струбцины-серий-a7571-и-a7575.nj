@@ -21,7 +21,8 @@ description: Удлиненные струбцины для шлангов RegO 
 
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th><span>№ изделия</span></th><th><span>Назначение</span></th><th>
@@ -60,6 +61,7 @@ description: Удлиненные струбцины для шлангов RegO 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Включает переходник 7199-33, поставляется не в сборе.<br>
 ** Включает переходник A7575L5-1, поставляется не в сборе..</p>
@@ -78,6 +80,7 @@ description: Удлиненные струбцины для шлангов RegO 
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -94,6 +97,7 @@ description: Удлиненные струбцины для шлангов RegO 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

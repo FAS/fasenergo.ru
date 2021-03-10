@@ -23,6 +23,7 @@ description: Фильтр фланцевый BPT (DN125, PN40) для СУГ и 
 
 <p></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -76,6 +77,8 @@ description: Фильтр фланцевый BPT (DN125, PN40) для СУГ и 
 </tr>
 </tbody>
 </table>
+</div>
+
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>

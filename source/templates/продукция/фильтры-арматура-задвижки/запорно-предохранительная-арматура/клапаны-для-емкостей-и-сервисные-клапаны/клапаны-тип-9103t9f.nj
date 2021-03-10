@@ -21,6 +21,7 @@ description: Клапаны RegO тип 9103T9F от компании ООО «�
 
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Вход</th><th rowspan="3">Выход</th><th rowspan="3">Исполнение<br />маховика</th><th rowspan="3">Заводская<br />настройка</th><th rowspan="3">Для использования<br />с баллонами для<br />пропана</th><th colspan="4">Ср. пропускная способность для жидкости, л/мин</th></tr>
@@ -40,6 +41,7 @@ description: Клапаны RegO тип 9103T9F от компании ООО «�
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>ПРИМЕЧАНИЕ: Эти клапаны включают скоростной клапан.</p>
 
@@ -57,6 +59,7 @@ description: Клапаны RegO тип 9103T9F от компании ООО «�
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -89,6 +92,7 @@ description: Клапаны RegO тип 9103T9F от компании ООО «�
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

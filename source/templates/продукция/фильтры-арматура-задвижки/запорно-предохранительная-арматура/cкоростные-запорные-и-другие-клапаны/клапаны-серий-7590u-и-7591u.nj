@@ -19,7 +19,8 @@ description: Клапаны Chek-Lok серий 7590U и 7591U от компан
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th>№ изделия Chek-Lok®</th><th>Входной разъем</th><th>Выходной разъем</th><th>А<br />прилив под ключ на корпусе, мм</th><th>В<br />длина корпуса (прибл.)</th><th>С<br />прилив под ключ на крышке, мм</th><th>Закрытие скоростного клапана<br />при потоке(приблизительно, по жидкому пропану)*, л/мин</th></tr>
@@ -41,6 +42,7 @@ description: Клапаны Chek-Lok серий 7590U и 7591U от компан
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* При горизонтальной установке скоростных клапанов. Потоки чуть больше, когда клапаны установлены выпускным отверстием вверх и чуть ниже, когда установлены выпускным отверстием вниз.<br>
 ПРИМЕЧАНИЕ: Для жидкого бутана умножьте скорость потока на 0,94, для ангидрида аммиака - на 0,9.</p>
@@ -62,6 +64,7 @@ description: Клапаны Chek-Lok серий 7590U и 7591U от компан
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -90,6 +93,7 @@ description: Клапаны Chek-Lok серий 7590U и 7591U от компан
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

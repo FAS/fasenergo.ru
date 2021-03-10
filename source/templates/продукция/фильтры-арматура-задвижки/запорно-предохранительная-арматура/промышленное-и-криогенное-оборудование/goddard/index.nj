@@ -20,7 +20,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-110.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-110',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}   
   {% call CategoryCard(
@@ -28,7 +28,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-210.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-210',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %} 
   {% call CategoryCard(
@@ -36,7 +36,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-231.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-231',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -44,7 +44,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-232.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-232',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}  
 
@@ -53,7 +53,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-sk.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-sk',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %} 
   {% call CategoryCard(
@@ -61,7 +61,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-302-310.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-302-310',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}   
   {% call CategoryCard(
@@ -69,7 +69,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-322-326.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-322-326',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %} 
   {% call CategoryCard(
@@ -77,7 +77,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-202-206.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-202-206',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %} 
 
@@ -87,7 +87,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-222-226.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-222-226',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}  
   {% call CategoryCard(
@@ -95,7 +95,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-886.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-886',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}  
   {% call CategoryCard(
@@ -103,7 +103,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-840.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-840',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}       
   {% call CategoryCard(
@@ -111,7 +111,7 @@ description: Оборудование Goddard для промышленного 
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-муфта.jpg',
     url = '/продукция/фильтры-арматура-задвижки/запорно-предохранительная-арматура/промышленное-и-криогенное-оборудование/goddard/goddard-муфты',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}     
 </div> 

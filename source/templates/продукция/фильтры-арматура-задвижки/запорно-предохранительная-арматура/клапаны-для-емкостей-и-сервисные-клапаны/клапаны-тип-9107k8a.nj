@@ -21,6 +21,7 @@ description: Клапаны RegO тип 9107K8A от компании ООО «�
 
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Вход</th><th>Выход</th><th>Исполнение<br />маховика</th><th>Длина патрубка пробника<br>c дефлектором</th><th>Длина контрольной трубки</th></tr>
@@ -34,6 +35,7 @@ description: Клапаны RegO тип 9107K8A от компании ООО «�
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* площадью размещения до 2,2 кв. м.</p>
 
@@ -51,6 +53,7 @@ description: Клапаны RegO тип 9107K8A от компании ООО «�
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -79,6 +82,7 @@ description: Клапаны RegO тип 9107K8A от компании ООО «�
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

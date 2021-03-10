@@ -19,7 +19,8 @@ description: Предохранительны клапаны RegO серии 854
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Тип резервуара</th><th rowspan="3">Пороговое давление срабатывания, кПа</th><th rowspan="3">Соединение для резервуара M.NPT</th><th rowspan="2">Поток по воздуху, куб. м/мин**</th><th colspan="3">Принадлежности (заказываются отдельно)</th></tr>
@@ -37,6 +38,7 @@ description: Предохранительны клапаны RegO серии 854
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Классифицировано UL согласно документу Ассоциации по сжиженному газу S-1.1 «Стандарты предохранительных устройств для емкостей». Соответствует требованиям к использованию в резервуарах DOT с емкостью до 119 л или до 49 кгсжиженого газа.<br>
 ** Потоки представлены для предохранительных клапанов без принадлежностей. Переходники и сбросовыетрубопроводы уменьшают поток, как указано в основной информации.<br>
@@ -59,6 +61,7 @@ description: Предохранительны клапаны RegO серии 854
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -87,6 +90,7 @@ description: Предохранительны клапаны RegO серии 854
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

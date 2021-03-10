@@ -21,7 +21,8 @@ description: Клапаны RegO серий 901C1, 9101C, 9101D, 9101R от ко
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Тип <br />разъема <br />Bonnet</th><th rowspan="3">Вход</th><th rowspan="3">Выход</th><th rowspan="3">Маховик<br />клапана</th><th colspan="4">Ср. пропускная способность<br />для жидкости, л/мин</th></tr>
@@ -67,6 +68,7 @@ description: Клапаны RegO серий 901C1, 9101C, 9101D, 9101R от ко
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>ПРИМЕЧАНИЕ: Поскольку такие клапаны не имеют встроенного предохранительного клапана, они имеют право быть встроенными в любых резервуарах с независимым предохранительным устройством, достаточным для такого объема резервуара.</p>
 
@@ -83,6 +85,7 @@ description: Клапаны RegO серий 901C1, 9101C, 9101D, 9101R от ко
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -107,6 +110,7 @@ description: Клапаны RegO серий 901C1, 9101C, 9101D, 9101R от ко
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

@@ -21,7 +21,8 @@ description: Запорные клапаны RegO серии 7579S, 6587EC и 31
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">А<br />разъем ACME к шлангу</th><th rowspan="2">B<br />разъем к резервуару M. NPT</th><th rowspan="2">C<br />прилив под ключ</th><th rowspan="2">D<br />длина корпуса (приблиз.)</th><th colspan="5">Пропускная способность по пропану при давлении (л/мин)</th></tr>
@@ -64,6 +65,7 @@ description: Запорные клапаны RegO серии 7579S, 6587EC и 31
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Поворотная конструкция нижней части обратного клапана с уплотнителем для быстрого наполнения.<br>
 ПРИМЕЧАНИЕ: Умножьте скорость потока на 0,94 для определения объема жидкого бутана.</p>
@@ -84,6 +86,7 @@ description: Запорные клапаны RegO серии 7579S, 6587EC и 31
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -112,6 +115,7 @@ description: Запорные клапаны RegO серии 7579S, 6587EC и 31
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

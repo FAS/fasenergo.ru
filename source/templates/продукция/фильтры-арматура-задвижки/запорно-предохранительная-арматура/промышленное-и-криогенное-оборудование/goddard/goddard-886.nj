@@ -45,6 +45,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
 
 <p><strong>Прокладка GRAFOIL® - для работы с водородом - сварной шов внахлест</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -99,11 +100,13 @@ description: Обратный затвор Goddard 886 из нержавеюще
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 <p><strong>Прокладка из PTFE - сварной шов внахлест</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -158,6 +161,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
@@ -169,6 +173,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
 <p><strong>Прокладка из PTFE-1 стыковой сварной шов</p></strong>
 
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -261,6 +266,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
@@ -270,6 +276,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
 
 <p><strong>Прокладка GRAFOIL® - для работы с водородом</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -313,12 +320,14 @@ description: Обратный затвор Goddard 886 из нержавеюще
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 
 <p><strong>Стыковые приварные торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -384,12 +393,14 @@ description: Обратный затвор Goddard 886 из нержавеюще
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 
 <p><strong>Стыковые приварные торцы с прокладкой GRAFOIL® для работы с водородом</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -429,6 +440,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
@@ -448,6 +460,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
 ) }}
 
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -482,6 +495,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
@@ -497,6 +511,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
   center = true  
 ) }}
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -537,7 +552,9 @@ description: Обратный затвор Goddard 886 из нержавеюще
 </tr>
 </tbody>
 </table>
+</div>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -562,6 +579,7 @@ description: Обратный затвор Goddard 886 из нержавеюще
 </tr>
 </tbody>
 </table>
+</div>
 
 
 

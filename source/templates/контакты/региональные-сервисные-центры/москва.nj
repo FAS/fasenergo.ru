@@ -44,7 +44,7 @@ description: Сервисные центры компании «Фасэнерг
 {% endif %}
 {% endmacro %}
 
-  <article class='o-grid__item h-1/2'>
+  <article class='o-grid__item h-2/2 h-1/2@lap'>
     <h2>Москва</h2>
     <ul>
       <li>

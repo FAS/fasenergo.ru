@@ -20,7 +20,8 @@ description: Шарнирные адаптеры RegO CGA 555 от компан�
  
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>A, выходная резьба</th><th>B, шестигр. под ключ, мм</th><th>C, отверстие, мм</th><th>D, полная длина, мм</th></tr>
@@ -38,6 +39,7 @@ description: Шарнирные адаптеры RegO CGA 555 от компан�
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

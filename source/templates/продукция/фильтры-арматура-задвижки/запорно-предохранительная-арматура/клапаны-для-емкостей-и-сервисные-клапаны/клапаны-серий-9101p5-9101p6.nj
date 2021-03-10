@@ -20,7 +20,8 @@ description: Клапаны RegO серий 9101P5 и 9101P6 от компани
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Вход</th><th rowspan="3">Выход</th><th rowspan="3">Соединения<br />для<br />контрольной трубки</th><th colspan="3">Поток закрытия клапана (по сжиженому газу)</th><th colspan="4">Ср. пропускная способность для жидкости, л/мин</th><th colspan="3">Комплектация</th></tr>
@@ -67,6 +68,7 @@ description: Клапаны RegO серий 9101P5 и 9101P6 от компани
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Эти клапаны имеют скоростной клапан. Смотрите L-500/Раздел F для полной информации по выбору, работе и тестированию скоростных клапанов.</p>
 
@@ -91,6 +93,7 @@ description: Клапаны RegO серий 9101P5 и 9101P6 от компани
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -115,6 +118,7 @@ description: Клапаны RegO серий 9101P5 и 9101P6 от компани
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

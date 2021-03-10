@@ -43,6 +43,7 @@ description: Продажа электромагнитных клапанов о
   { size: '2 NPT', dn: '50', kv: '43' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -64,6 +65,7 @@ description: Продажа электромагнитных клапанов о
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p>1* - Cv-значение (США) ≈ kv-значение x 1,2</p>
 

@@ -19,7 +19,8 @@ description: Предохранительны клапаны RegO серий 312
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Для резер-<br />вуаров типа</th><th rowspan="3">Поро-<br />говое давление срабат., кПа</th><th rowspan="3">А, соеди-<br />нение для резер-<br />вуара M.NPT</th><th rowspan="3">B, общая высота (прибл.), мм</th><th rowspan="3">D, ключ для уста-<br />новки</th><th rowspan="2" colspan="2">Поток по воздуху, куб. м/мин</th><th rowspan="3">Для резер-<br />вуаров площадью поверх-<br />ности до, кв.м*</th><th colspan="3">Комплектующие</th></tr>
@@ -71,6 +72,7 @@ description: Предохранительны клапаны RegO серий 312
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Поток для предохранительных клапанов без принадлежностей. Переходники и стравливающие трубопроводы уменьшают поток, как указано в основной информации.<br>
 ** Не указано ни в UL, ни в ASME. Измерено ECII® при 3309 кПа.<br>
@@ -91,6 +93,7 @@ description: Предохранительны клапаны RegO серий 312
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -107,6 +110,7 @@ description: Предохранительны клапаны RegO серий 312
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

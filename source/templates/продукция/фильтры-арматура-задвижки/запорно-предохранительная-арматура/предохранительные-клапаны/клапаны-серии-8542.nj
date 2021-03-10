@@ -19,7 +19,8 @@ description: Предохранительны клапаны RegO Duoport сер
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Пороговое<br />давление<br />срабат., кПа</th><th rowspan="2" colspan="2">Для продукта</th><th rowspan="3">Соединение<br />для резервуара M.NPT</th><th colspan="4">Комплектация клапана Duoport<sup>®</sup></th><th colspan="2">Поток по воздуху, куб. м/мин</th></tr>
@@ -56,6 +57,7 @@ description: Предохранительны клапаны RegO Duoport сер
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Выходное соединение 1/2’’ F. NPT.<br>
 ** Производительность базируется на количестве предохранительных клапанов, указанных в скобках (...). Потоки представлены для предохранительных клапанов без принадлежностей.
@@ -79,6 +81,7 @@ description: Предохранительны клапаны RegO Duoport сер
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -107,9 +110,11 @@ description: Предохранительны клапаны RegO Duoport сер
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Материалы предохранительного клапана</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -130,6 +135,7 @@ description: Предохранительны клапаны RegO Duoport сер
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Резьба входного штуцера покрыта специальной защитой против электрохимич. реакций.</p>
 

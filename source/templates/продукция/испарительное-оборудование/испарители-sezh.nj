@@ -37,6 +37,7 @@ description: Испарители сжиженных углеводородны�
   { title: 'Испаритель&nbsp;ФАС 500&nbsp;SEZH', performance: '500 кг/ч' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -56,6 +57,7 @@ description: Испарители сжиженных углеводородны�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <hr>
 

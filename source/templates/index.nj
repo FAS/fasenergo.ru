@@ -55,8 +55,8 @@ showContentTitle:          false
         </li>
       </ul> #}
 
-      <div class='h-bleed-sides h-bleed-sides+@lap'>
-        <div class='o-grid h-childs-displace@lap h-margin-top+ h-margin-top+++@lap h-padding-bottom++ h-padding-sides h-padding-sides0@lap'>
+      <div class='h-bleed-sides0 h-bleed-sides+@lap'>
+        <div class='o-grid h-childs-displace@lap h-margin-top+ h-margin-top+++@lap h-padding-bottom++ h-padding-sides0 h-padding-sides0@lap'>
 
           {% macro Item(title, url, buttonLabel, buttonClass) %}
           <article class='o-grid__item  h-3/3 h-2/3@tablet h-1/3@lap h-margin-bottom h-margin-bottom0@lap'>

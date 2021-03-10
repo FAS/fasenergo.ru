@@ -20,209 +20,211 @@ description: Криогенные шаровые вентили RegO серии 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
-<table class='Table'>
-<thead>
-<tr><th>Артикул</th><th>Номер</th><th>Форма корпуса</th><th>Входные/ <br />Выходные соединения</th><th>Высота <br />открытия В</th><th>Длина C</th><th>D</th><th>CV фактор</th></tr>
-<tr>
-<td>94825</td>
-<td>ВК8404S</td>
-<td rowspan="26">прямой</td>
-<td>.631"-.634"</td>
-<td rowspan="3">9 5/32"</td>
-<td rowspan="3">3 11/16"</td>
-<td rowspan="3">1"</td>
-<td rowspan="3">4.7</td>
-</tr>
-<tr>
-<td>94826</td>
-<td>ВК8404Т</td>
-<td>½" F.NPT</td>
-</tr>
-<tr>
-<td>94827</td>
-<td>ВК8404SТ</td>
-<td>.631"-.634"х½" F.NPT</td>
-</tr>
-<tr>
-<td>94828</td>
-<td>ВК9404S</td>
-<td>.631"-.634"</td>
-<td rowspan="5">14½"</td>
-<td rowspan="2">3 11/16"</td>
-<td rowspan="5">1"</td>
-<td rowspan="5">4.7</td>
-</tr>
-<tr>
-<td>94829</td>
-<td>ВК9404Т</td>
-<td>½" F.NPT</td>
-</tr>
-<tr>
-<td>94830</td>
-<td>ВК9404АА</td>
-<td>½"Sch5 труба</td>
-<td>9 11/16"</td>
-</tr>
-<tr>
-<td>94831</td>
-<td>ВК9404РТ-F30</td>
-<td>½"Sch5 труба х ½" F.NPT</td>
-<td>6 11/16"</td>
-</tr>
-<tr>
-<td>94832</td>
-<td>ВК9404SТ</td>
-<td>.631"-.634"х½" F.NPT</td>
-<td>3 11/16"</td>
-</tr>
-<tr>
-<td>94833</td>
-<td>ВК8406S</td>
-<td>.881"-.884"</td>
-<td rowspan="2">9 5/32"</td>
-<td rowspan="2">3 11/16"</td>
-<td rowspan="2">1"</td>
-<td rowspan="2">6.7</td>
-</tr>
-<tr>
-<td>94834</td>
-<td>ВК8406Т</td>
-<td>¾" F.NPT</td>
-</tr>
-<tr>
-<td>94835</td>
-<td>ВК9406S</td>
-<td>.881"-.884"</td>
-<td rowspan="2">14 ½"</td>
-<td rowspan="2">3 11/16"</td>
-<td rowspan="2">1"</td>
-<td rowspan="2">6.7</td>
-</tr>
-<tr>
-<td>94836</td>
-<td>ВК9406Т</td>
-<td>¾" F.NPT</td>
-</tr>
-<tr>
-<td>94837</td>
-<td>ВК8408S</td>
-<td>1.131"-1.134"</td>
-<td rowspan="2">9 5/32"</td>
-<td rowspan="2">4 5/16"</td>
-<td rowspan="2">1 1/8"</td>
-<td rowspan="6">11.2</td>
-</tr>
-<tr>
-<td>94838</td>
-<td>ВК8408Т</td>
-<td>1" F.NPT</td>
-</tr>
-<tr>
-<td>94839</td>
-<td>ВК9408S</td>
-<td>1.131"-1.134"</td>
-<td rowspan="4">14 ½”</td>
-<td rowspan="2">4 5/16"</td>
-<td rowspan="2">1 1/6"</td>
-</tr>
-<tr>
-<td>94840</td>
-<td>ВК9408Т</td>
-<td>1" F.NPT</td>
-</tr>
-<tr>
-<td>94841</td>
-<td>ВК9408АА</td>
-<td>1"Sch5 труба</td>
-<td>10 5/16"</td>
-<td>1 1/6"</td>
-</tr>
-<tr>
-<td>94842</td>
-<td>ВК9408РТ-F30</td>
-<td>1"Sch5 труба х 1" F.NPT</td>
-<td>7 5/16"</td>
-<td>1 1/8"</td>
-</tr>
-<tr>
-<td>94843</td>
-<td>ВК9410S*</td>
-<td>1.378"-1.380"</td>
-<td>16 7/16"</td>
-<td rowspan="3">5 3/16"</td>
-<td rowspan="5">1 ½"</td>
-<td>17.5</td>
-</tr>
-<tr>
-<td>94844</td>
-<td>ВК9412S*</td>
-<td>1.631"-1.634"</td>
-<td rowspan="4">16 9/16"</td>
-<td rowspan="4">25.1</td>
-</tr>
-<tr>
-<td>94845</td>
-<td>ВК9412Т*</td>
-<td>½" F.NPT</td>
-</tr>
-<tr>
-<td>94846</td>
-<td>ВК9412АА</td>
-<td>1½" Sch5 труба</td>
-<td>11 3/16"</td>
-</tr>
-<tr>
-<td>94847</td>
-<td>ВК9412 РТ-F30</td>
-<td>1½" Sch5 труба х 1½" F.NPT</td>
-<td>8 3/16"</td>
-</tr>
-<tr>
-<td>94848</td>
-<td>ВК9416S*</td>
-<td>2.131"-2.134"</td>
-<td rowspan="3">16"</td>
-<td rowspan="2">6"</td>
-<td rowspan="3">1 5/8"</td>
-<td rowspan="3">41</td>
-</tr>
-<tr>
-<td>94849</td>
-<td>ВК9416Т*</td>
-<td>2" F.NPT</td>
-</tr>
-<tr>
-<td>94850</td>
-<td>ВК9416 РТ-F30</td>
-<td>2" Sch5 труба х 2" F.NPT</td>
-<td>9"</td>
-</tr>
-<tr>
-<td>94851</td>
-<td>ВКА8408S</td>
-<td rowspan="3">угловой</td>
-<td rowspan="2">1.131"-1.134" х 1.631"-1.634"</td>
-<td>11 ¼"</td>
-<td rowspan="2">3 ¼"</td>
-<td rowspan="3">1 ¾"</td>
-<td rowspan="2">14.5</td>
-</tr>
-<tr>
-<td>94852</td>
-<td>ВКА9408S</td>
-<td>14 5/8"</td>
-</tr>
-<tr>
-<td>94853</td>
-<td>ВКА8412S</td>
-<td>1.631"-1.634"</td>
-<td>13"</td>
-<td>4 ¼"</td>
-<td>30.0<br /><br /></td>
-</tr>
-</tbody>
-</table>
+
+<div class="Table-responsive">
+	<table class='Table'>
+	<thead>
+	<tr><th>Артикул</th><th>Номер</th><th>Форма корпуса</th><th>Входные/ <br />Выходные соединения</th><th>Высота <br />открытия В</th><th>Длина C</th><th>D</th><th>CV фактор</th></tr>
+	<tr>
+	<td>94825</td>
+	<td>ВК8404S</td>
+	<td rowspan="26">прямой</td>
+	<td>.631"-.634"</td>
+	<td rowspan="3">9 5/32"</td>
+	<td rowspan="3">3 11/16"</td>
+	<td rowspan="3">1"</td>
+	<td rowspan="3">4.7</td>
+	</tr>
+	<tr>
+	<td>94826</td>
+	<td>ВК8404Т</td>
+	<td>½" F.NPT</td>
+	</tr>
+	<tr>
+	<td>94827</td>
+	<td>ВК8404SТ</td>
+	<td>.631"-.634"х½" F.NPT</td>
+	</tr>
+	<tr>
+	<td>94828</td>
+	<td>ВК9404S</td>
+	<td>.631"-.634"</td>
+	<td rowspan="5">14½"</td>
+	<td rowspan="2">3 11/16"</td>
+	<td rowspan="5">1"</td>
+	<td rowspan="5">4.7</td>
+	</tr>
+	<tr>
+	<td>94829</td>
+	<td>ВК9404Т</td>
+	<td>½" F.NPT</td>
+	</tr>
+	<tr>
+	<td>94830</td>
+	<td>ВК9404АА</td>
+	<td>½"Sch5 труба</td>
+	<td>9 11/16"</td>
+	</tr>
+	<tr>
+	<td>94831</td>
+	<td>ВК9404РТ-F30</td>
+	<td>½"Sch5 труба х ½" F.NPT</td>
+	<td>6 11/16"</td>
+	</tr>
+	<tr>
+	<td>94832</td>
+	<td>ВК9404SТ</td>
+	<td>.631"-.634"х½" F.NPT</td>
+	<td>3 11/16"</td>
+	</tr>
+	<tr>
+	<td>94833</td>
+	<td>ВК8406S</td>
+	<td>.881"-.884"</td>
+	<td rowspan="2">9 5/32"</td>
+	<td rowspan="2">3 11/16"</td>
+	<td rowspan="2">1"</td>
+	<td rowspan="2">6.7</td>
+	</tr>
+	<tr>
+	<td>94834</td>
+	<td>ВК8406Т</td>
+	<td>¾" F.NPT</td>
+	</tr>
+	<tr>
+	<td>94835</td>
+	<td>ВК9406S</td>
+	<td>.881"-.884"</td>
+	<td rowspan="2">14 ½"</td>
+	<td rowspan="2">3 11/16"</td>
+	<td rowspan="2">1"</td>
+	<td rowspan="2">6.7</td>
+	</tr>
+	<tr>
+	<td>94836</td>
+	<td>ВК9406Т</td>
+	<td>¾" F.NPT</td>
+	</tr>
+	<tr>
+	<td>94837</td>
+	<td>ВК8408S</td>
+	<td>1.131"-1.134"</td>
+	<td rowspan="2">9 5/32"</td>
+	<td rowspan="2">4 5/16"</td>
+	<td rowspan="2">1 1/8"</td>
+	<td rowspan="6">11.2</td>
+	</tr>
+	<tr>
+	<td>94838</td>
+	<td>ВК8408Т</td>
+	<td>1" F.NPT</td>
+	</tr>
+	<tr>
+	<td>94839</td>
+	<td>ВК9408S</td>
+	<td>1.131"-1.134"</td>
+	<td rowspan="4">14 ½”</td>
+	<td rowspan="2">4 5/16"</td>
+	<td rowspan="2">1 1/6"</td>
+	</tr>
+	<tr>
+	<td>94840</td>
+	<td>ВК9408Т</td>
+	<td>1" F.NPT</td>
+	</tr>
+	<tr>
+	<td>94841</td>
+	<td>ВК9408АА</td>
+	<td>1"Sch5 труба</td>
+	<td>10 5/16"</td>
+	<td>1 1/6"</td>
+	</tr>
+	<tr>
+	<td>94842</td>
+	<td>ВК9408РТ-F30</td>
+	<td>1"Sch5 труба х 1" F.NPT</td>
+	<td>7 5/16"</td>
+	<td>1 1/8"</td>
+	</tr>
+	<tr>
+	<td>94843</td>
+	<td>ВК9410S*</td>
+	<td>1.378"-1.380"</td>
+	<td>16 7/16"</td>
+	<td rowspan="3">5 3/16"</td>
+	<td rowspan="5">1 ½"</td>
+	<td>17.5</td>
+	</tr>
+	<tr>
+	<td>94844</td>
+	<td>ВК9412S*</td>
+	<td>1.631"-1.634"</td>
+	<td rowspan="4">16 9/16"</td>
+	<td rowspan="4">25.1</td>
+	</tr>
+	<tr>
+	<td>94845</td>
+	<td>ВК9412Т*</td>
+	<td>½" F.NPT</td>
+	</tr>
+	<tr>
+	<td>94846</td>
+	<td>ВК9412АА</td>
+	<td>1½" Sch5 труба</td>
+	<td>11 3/16"</td>
+	</tr>
+	<tr>
+	<td>94847</td>
+	<td>ВК9412 РТ-F30</td>
+	<td>1½" Sch5 труба х 1½" F.NPT</td>
+	<td>8 3/16"</td>
+	</tr>
+	<tr>
+	<td>94848</td>
+	<td>ВК9416S*</td>
+	<td>2.131"-2.134"</td>
+	<td rowspan="3">16"</td>
+	<td rowspan="2">6"</td>
+	<td rowspan="3">1 5/8"</td>
+	<td rowspan="3">41</td>
+	</tr>
+	<tr>
+	<td>94849</td>
+	<td>ВК9416Т*</td>
+	<td>2" F.NPT</td>
+	</tr>
+	<tr>
+	<td>94850</td>
+	<td>ВК9416 РТ-F30</td>
+	<td>2" Sch5 труба х 2" F.NPT</td>
+	<td>9"</td>
+	</tr>
+	<tr>
+	<td>94851</td>
+	<td>ВКА8408S</td>
+	<td rowspan="3">угловой</td>
+	<td rowspan="2">1.131"-1.134" х 1.631"-1.634"</td>
+	<td>11 ¼"</td>
+	<td rowspan="2">3 ¼"</td>
+	<td rowspan="3">1 ¾"</td>
+	<td rowspan="2">14.5</td>
+	</tr>
+	<tr>
+	<td>94852</td>
+	<td>ВКА9408S</td>
+	<td>14 5/8"</td>
+	</tr>
+	<tr>
+	<td>94853</td>
+	<td>ВКА8412S</td>
+	<td>1.631"-1.634"</td>
+	<td>13"</td>
+	<td>4 ¼"</td>
+	<td>30.0<br /><br /></td>
+	</tr>
+	</tbody>
+	</table>
+</div>
 
 <p>*Вентили со сблоченной конструкцией крышки.</p>
 
@@ -244,46 +246,48 @@ description: Криогенные шаровые вентили RegO серии 
 
 <h2>Материалы</h2>
 
-<table class='Table'>
-<thead>
-<tr>
-<td><span>Корпус:</span></td>
-<td>Бронза</td>
-</tr>
-<tr>
-<td><span>Крышка:</span></td>
-<td><span>Медь</span></td>
-</tr>
-<tr>
-<td><span>Диск седла:</span></td>
-<td><span>CTFE</span></td>
-</tr>
-<tr>
-<td><span>Опорное седло</span></td>
-<td><span>Медь</span></td>
-</tr>
-<tr>
-<td><span>Удлинительный тубус стержня и крышки</span></td>
-<td><span>Нержавеющая сталь</span></td>
-</tr>
-<tr>
-<td><span>Пружина сальника, шайба:</span></td>
-<td><span>Нержавеющая сталь</span></td>
-</tr>
-<tr>
-<td><span>Зажимное кольцо и затворные кольца:</span></td>
-<td><span>РTFE</span></td>
-</tr>
-<tr>
-<td>Верхняя крышка, сальниковая коробка:</td>
-<td>Медь</td>
-</tr>
-<tr>
-<td>Маховик:</td>
-<td>Алюминий для клапана размером <br />до 1", для больших размеров – <br />железо с покрытием</td>
-</tr>
-</tbody>
-</table>
+<div class="Table-responsive"> 
+	<table class='Table'>
+	<thead>
+	<tr>
+	<td><span>Корпус:</span></td>
+	<td>Бронза</td>
+	</tr>
+	<tr>
+	<td><span>Крышка:</span></td>
+	<td><span>Медь</span></td>
+	</tr>
+	<tr>
+	<td><span>Диск седла:</span></td>
+	<td><span>CTFE</span></td>
+	</tr>
+	<tr>
+	<td><span>Опорное седло</span></td>
+	<td><span>Медь</span></td>
+	</tr>
+	<tr>
+	<td><span>Удлинительный тубус стержня и крышки</span></td>
+	<td><span>Нержавеющая сталь</span></td>
+	</tr>
+	<tr>
+	<td><span>Пружина сальника, шайба:</span></td>
+	<td><span>Нержавеющая сталь</span></td>
+	</tr>
+	<tr>
+	<td><span>Зажимное кольцо и затворные кольца:</span></td>
+	<td><span>РTFE</span></td>
+	</tr>
+	<tr>
+	<td>Верхняя крышка, сальниковая коробка:</td>
+	<td>Медь</td>
+	</tr>
+	<tr>
+	<td>Маховик:</td>
+	<td>Алюминий для клапана размером <br />до 1", для больших размеров – <br />железо с покрытием</td>
+	</tr>
+	</tbody>
+	</table>
+</div>
 
 <h2>Конструкция крышки</h2>
 

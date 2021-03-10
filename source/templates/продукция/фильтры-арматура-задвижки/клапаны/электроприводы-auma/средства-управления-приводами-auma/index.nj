@@ -25,7 +25,7 @@ description: Средства управления AUMA от компании «
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/электроприводы-auma/средства-управления-приводами-auma/cредства-управления-auma--1.jpg',
     url = '/продукция/фильтры-арматура-задвижки/клапаны/электроприводы-auma/средства-управления-приводами-auma/блок-управления-auma-matic',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -33,7 +33,7 @@ description: Средства управления AUMA от компании «
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/электроприводы-auma/средства-управления-приводами-auma/cредства-управления-auma--2.jpg', 
     url = '/продукция/фильтры-арматура-задвижки/клапаны/электроприводы-auma/средства-управления-приводами-auma/полевая-шина-auma',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -41,14 +41,14 @@ description: Средства управления AUMA от компании «
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/электроприводы-auma/средства-управления-приводами-auma/cредства-управления-auma--4.jpg', 
     url = '/продукция/фильтры-арматура-задвижки/клапаны/электроприводы-auma/средства-управления-приводами-auma/мастер-станция-sima',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %} 
   {% call CategoryCard(
     title = 'Концевые выключатели AUMA',
     hLevel = 2,
     url = '/продукция/фильтры-арматура-задвижки/клапаны/электроприводы-auma/средства-управления-приводами-auma/концевые-выключатели-auma',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>

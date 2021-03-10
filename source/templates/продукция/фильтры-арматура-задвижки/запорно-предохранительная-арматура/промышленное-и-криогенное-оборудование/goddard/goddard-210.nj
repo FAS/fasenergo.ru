@@ -19,7 +19,9 @@ description: Задвижка серия Goddard 210 из нержавеющей
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Корпус из нержавеющей стали. Торцы - фланец RF</h2>
- 
+
+<div class="Table-responsive">
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -86,13 +88,15 @@ description: Задвижка серия Goddard 210 из нержавеющей
 </tr>
 </tbody>
 </table>
-
+</div>
 <p>Класс ANSI 150# (275 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).<br>
 Класс ANSI 300# (720 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).</p>
 
 
 <h2>Корпус из нержавеющей стали. Стыковой сварной шов, сварной шов внахлест, резьбовые торцы</h2>
- 
+
+<div class="Table-responsive"> 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -241,6 +245,7 @@ description: Задвижка серия Goddard 210 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>150# ANSI Класс (275 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).<br>
 300# ANSI Класс (720 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).</p>
@@ -274,6 +279,7 @@ description: Задвижка серия Goddard 210 из нержавеющей
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -323,6 +329,7 @@ description: Задвижка серия Goddard 210 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Для сортамента 40 А=12 1/2".<br />Для сортамента 40 А=14".<br />* Если не указано иное, поставляются приварные торцы сортамента 10.<br />Имеются в наличии специальные размеры В,К,Х и Y.</p>
 
@@ -336,6 +343,7 @@ description: Задвижка серия Goddard 210 из нержавеющей
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -390,6 +398,7 @@ description: Задвижка серия Goddard 210 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Имеются в наличии специальные размеры В,К,Х и Y.</p>
 
@@ -403,6 +412,7 @@ description: Задвижка серия Goddard 210 из нержавеющей
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -462,6 +472,7 @@ description: Задвижка серия Goddard 210 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Имеются в наличии специальные размеры В,К,Х и Y.</p>
 
@@ -477,6 +488,7 @@ description: Задвижка серия Goddard 210 из нержавеющей
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -521,6 +533,8 @@ description: Задвижка серия Goddard 210 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
+
 <p>Имеются в наличии специальные размеры В,К,Х и Y.</p>
 
 

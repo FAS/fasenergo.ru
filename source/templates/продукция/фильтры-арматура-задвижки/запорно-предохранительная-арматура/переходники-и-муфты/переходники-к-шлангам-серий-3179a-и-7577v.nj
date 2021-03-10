@@ -20,7 +20,8 @@ description: Переходники к заправочным шлангам Reg
  
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th><span>№ изделия</span></th><th><span>Встроенный <br />дренаж. клапан</span></th><th>
@@ -44,6 +45,7 @@ description: Переходники к заправочным шлангам Reg
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 

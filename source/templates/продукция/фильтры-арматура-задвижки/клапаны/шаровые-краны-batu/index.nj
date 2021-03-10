@@ -22,7 +22,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-01.jpg',
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-01-dn15-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -30,7 +30,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-01.jpg',   
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-01-dn20-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -38,7 +38,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-01.jpg',  
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-01-dn25-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>
@@ -51,7 +51,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-02.jpg',
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-02-dn32-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -59,7 +59,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-02.jpg',   
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-02-dn40-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -67,7 +67,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-02.jpg',  
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-02-dn50-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -76,7 +76,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-02.jpg',
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-02-dn65-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -84,7 +84,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-02.jpg',   
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-02-dn80-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -92,7 +92,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-02.jpg',  
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-02-dn100-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}  
 
@@ -101,7 +101,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-02.jpg',   
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-02-dn125-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -109,7 +109,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bkv-eu-02.jpg',  
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bkv-eu-02-dn150-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}   
 </div>
@@ -122,7 +122,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bbtkv-fs.jpg',
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bbtkv-fs-dn15-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -130,7 +130,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bbtkv-fs.jpg',   
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bbtkv-fs-dn20-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -138,7 +138,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bbtkv-fs.jpg',  
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bbtkv-fs-dn25-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -147,7 +147,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bbtkv-fs.jpg',
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bbtkv-fs-dn32-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -155,7 +155,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bbtkv-fs.jpg',   
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bbtkv-fs-dn40-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -163,7 +163,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bbtkv-fs.jpg',  
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bbtkv-fs-dn50-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
 
@@ -172,7 +172,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bbtkv-fs.jpg',
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bbtkv-fs-dn65-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -180,7 +180,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bbtkv-fs.jpg',   
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bbtkv-fs-dn80-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -188,7 +188,7 @@ description: Продажа шаровых кранов BATU для СУГ, не
     hLevel = 2,
     image = '/' + PATH.images + '/categories/фильтры-арматура-задвижки/шаровые-краны/краны-шаровые-фланцевые-batu-bbtkv-fs.jpg',  
     url = '/продукция/фильтры-арматура-задвижки/клапаны/шаровые-краны-batu/bbtkv-fs-dn100-pn25',
-    class = 'o-grid__item h-1/3',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
     size = 'small'
   ) %}{% endcall %}      
 

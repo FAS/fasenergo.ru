@@ -43,6 +43,7 @@ description: Смесительные установки от компании �
   { title: 'Смесительная установка ФАС 9600 SU/VD', performance: '9600 м³/ч' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -76,5 +77,6 @@ description: Смесительные установки от компании �
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 {% endblock %}

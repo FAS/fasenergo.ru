@@ -26,6 +26,7 @@ description: Насосный агрегат ФАС Z4500 для СУГ и ам�
   { title: 'ФАС№ 21.8088 (ременной привод)', powerkwt: '15', pressuredif: '5,0', performancedif: '1435', performance: '1455', price: '8800€' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -53,6 +54,7 @@ description: Насосный агрегат ФАС Z4500 для СУГ и ам�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Описание</h2>
 

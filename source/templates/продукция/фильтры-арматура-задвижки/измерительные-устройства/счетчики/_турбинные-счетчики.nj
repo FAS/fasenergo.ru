@@ -27,6 +27,7 @@ description: Турбинные счетчики от компании ООО «
   { artitle: '18 388', connection: 'ISO G¾” ', tmeasurement: '±2', dmeasurement: '8...80', dtemp: '10...60', size: '110×50×70', weight: '1,1' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -56,6 +57,7 @@ description: Турбинные счетчики от компании ООО «
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Характеристики</h2>
 

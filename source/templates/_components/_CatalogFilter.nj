@@ -66,8 +66,8 @@
 
     <div class='o-grid h-childs-displace h-flex-y--center h-padding-sides-- h-margin-bottom--'>
 
-      <div class='o-grid__item h-4/4 h-2/3@lap'>
-        <b class='h-text- h-margin-right--'>Мощность:</b>
+      <div class='o-grid__item h-4/4 h-2/3@lap h-flex h-flex--wrap h-flex-y--center'>
+        <b class='o-grid__item h-4/4 h-text- h-margin-right--'>Мощность:</b>
         {{ Field(
           type = 'number',
           id = 'filterPowerFrom',

@@ -20,7 +20,8 @@ description: Клапаны Multivalves серии 8593AR от компании 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Вход</th><th rowspan="2">Выход</th><th rowspan="2">Разъем для наполнения емкости</th><th colspan="2">Разъем для уравнит. клапана</th><th rowspan="2">Исполнение маховика</th><th rowspan="2">Длина контрольной трубки, мм</th><th rowspan="2">Тип емкостей, <br />в которых применяются</th></tr>
@@ -40,6 +41,7 @@ description: Клапаны Multivalves серии 8593AR от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Длина патрубка устанавливается согласно требованиям заказчика.<br>
 ** Поскольку такие клапаны Multivalve® не имеют встроенных предохранительных клапанов, они имеют право использоваться в резервуарах ASME любого типа с независимым предохранительным клапаном, с достаточной пропускной способностью для такого объема резервуара.</p>
@@ -61,6 +63,7 @@ description: Клапаны Multivalves серии 8593AR от компании 
 
 <h2>Пропускная способность по жидкости</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th colspan="4">Ср. пропускная способность для жидкой фазы, л/мин</th></tr>
@@ -75,9 +78,11 @@ description: Клапаны Multivalves серии 8593AR от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -110,6 +115,7 @@ description: Клапаны Multivalves серии 8593AR от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

@@ -19,7 +19,8 @@ description: Элементы дистанционного управления 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Описание</th><th>Комплектация</th></tr>
@@ -35,6 +36,7 @@ description: Элементы дистанционного управления 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 <p>Набор тросов 3200C предназначен для работы с рабочим рычагом и донными клапанами из удаленного расположения. Внутренний клапан открывается смещением рычага, закрытие происходит при повороте рычага в исходное положение. Позволяет управлять закрытием клапана из разных удаленных точек.</p>
@@ -52,6 +54,7 @@ description: Элементы дистанционного управления 
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -64,6 +67,7 @@ description: Элементы дистанционного управления 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

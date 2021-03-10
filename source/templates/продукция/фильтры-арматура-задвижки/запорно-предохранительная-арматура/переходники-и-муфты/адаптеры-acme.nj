@@ -23,6 +23,7 @@ description: Адаптеры ACME от компании ООО «Фасэнер
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>A<br />резьба М. АСМЕ</th><th>В<br />резьба M. NPT</th><th>C<br />шестигр. под ключ, мм</th><th>D<br />полная длина, мм</th><th>Е<br />диам., мм</th><th>К сальнику №</th></tr>
@@ -108,6 +109,7 @@ description: Адаптеры ACME от компании ООО «Фасэнер
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Уплотнитель в разъеме ACME x M. NPT</h2>
 
@@ -119,6 +121,7 @@ description: Адаптеры ACME от компании ООО «Фасэнер
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>A<br />резьба М. АСМЕ</th><th>В<br />резьба M. NPT</th><th>C<br />шестигр. под ключ, мм</th><th>D<br />полная длина, мм</th><th>Е<br />диам., мм</th><th>К сальнику №</th></tr>
@@ -245,6 +248,7 @@ description: Адаптеры ACME от компании ООО «Фасэнер
 </tr>
 </tbody>
 </table>
+</div>
 
 
 <h2>Уплотнитель в разъеме ACME x ACME</h2>
@@ -257,6 +261,7 @@ description: Адаптеры ACME от компании ООО «Фасэнер
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>A<br />резьба <br />М. АСМЕ</th><th>В<br />резьба <br />M. NPT</th><th>C<br />шестигр. <br />под ключ, мм</th><th>D<br />диаметр, мм</th><th>К сальнику №</th></tr>
@@ -287,6 +292,7 @@ description: Адаптеры ACME от компании ООО «Фасэнер
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Уплотнитель в разъеме ACME x различные типы для заглушки оконечников шлангов</h2>
 
@@ -298,6 +304,7 @@ description: Адаптеры ACME от компании ООО «Фасэнер
   
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Материал</th><th>A<br />резьба М. АСМЕ</th><th>В<br />резьба M. NPT</th><th>C<br />шестигр. под ключ, мм</th><th>D<br />диаметр, мм</th><th>К сальнику №</th></tr>
@@ -312,6 +319,7 @@ description: Адаптеры ACME от компании ООО «Фасэнер
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>*Резьба 3/8" - 16 UNC.</p>
 

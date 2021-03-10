@@ -24,6 +24,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th><span>№ изделия</span></th><th><span>Для продукта</span></th><th><span>Для емкостей размером</span></th></tr>
@@ -43,6 +44,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Циферблат охватывает больший уровень наполнения, согласно NFPA 58, (1983) абз. 4-5.2.1, таблица 4-5.2.1</p>
 
@@ -61,6 +63,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 
 <h3>Материалы</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -89,6 +92,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 </tr>
 </tbody>
 </table>
+</div>
 
 <hr>
 
@@ -102,6 +106,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th colspan="2"><span>Для сжиженого газа</span></th><th colspan="2"><span>Для безводного аммиака</span></th><th colspan="2">Эллипсовидные торцевые стен</th><th colspan="2">Сферические стенки</th></tr>
@@ -158,6 +163,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Циферблат охватывает больший уровень наполнения, согласно NFPA 58, (1983) абз. 4-5.2.1, таблица 4-5.2.1</p>
 
@@ -175,6 +181,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th colspan="2">№ изделия</th><th rowspan="2">Для емкостей внутр. диаметром, мм</th><th rowspan="2">Разъем к резервуару</th><th rowspan="2">Седло клапана</th></tr>
@@ -192,6 +199,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>ПРИМЕЧАНИЕ: Погружная трубка должна обрезаться до длины: половина внутреннего диаметра резервуара минус 13 мм при монтаже по осевой линии резервуара.</p>
 
@@ -208,6 +216,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 
 <h3>Материалы</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -232,6 +241,7 @@ description: Уровнемеры СУГ Rotogages от компании ООО 
 </tr>
 </tbody>
 </table>
+</div>
 
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>

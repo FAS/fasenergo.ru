@@ -19,7 +19,8 @@ description: Донные клапаны FLOMATIC серии А7883FK и A7884FK
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Вход<br />фланец ANSI</th><th rowspan="2">Выход<br />фланец ANSI</th><th rowspan="2">Размер <br />фильтра, мм</th><th rowspan="2">Ширина <br />базы, мм</th><th rowspan="2">Полная <br />длина <br />(прибл.), мм</th><th rowspan="2">Высота <br />от индикатора<br />до базы, мм</th><th colspan="2">Дополнительные принадлежности</th></tr>
@@ -37,6 +38,7 @@ description: Донные клапаны FLOMATIC серии А7883FK и A7884FK
 </tr>
 </tbody>
 </table>
+</div>
 
 <p> </p>
 
@@ -93,6 +95,7 @@ description: Донные клапаны FLOMATIC серии А7883FK и A7884FK
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -125,6 +128,7 @@ description: Донные клапаны FLOMATIC серии А7883FK и A7884FK
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

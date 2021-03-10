@@ -3,10 +3,17 @@
 // =============================================================================
 
 .Dropdown {
-  position: absolute;
   z-index: ekzo-z-index(dropdown);
-
-  min-width: 235px;
+  min-width: 200px!important;
+  max-width: 360px;
+  margin-left: 0;
+  left: 20px;
+  right: 20px;
+  max-height: 70vh;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 20px;
 
   @include ekzo-theme() {
     background-color: ekzo-theme(dropdown-bg-color);
@@ -14,8 +21,20 @@
   }
 
   border-radius: ekzo-border-radius('');
-
-  margin-left: - ekzo-space();
   margin-top: ekzo-space(.25);
   padding: ekzo-space();
+
+  @include ekzo-breakpoint(lap) {
+    min-width: 235px;
+    margin-left: - ekzo-space();
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: auto;
+    max-width: 100%;
+  }
+
+  .Nav__item {
+    margin-bottom: ekzo-space(.5);
+  }
 }

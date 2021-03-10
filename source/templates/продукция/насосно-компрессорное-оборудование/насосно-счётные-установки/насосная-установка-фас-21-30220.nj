@@ -24,6 +24,7 @@ description: Насосная (сливная) установка стацион
   { title: 'ФАС№ 21.30220', counter: 'Отсутствует', pump: 'ФАС Z2000', performance: 'до 220', price: '570&nbsp;000&nbsp;₽' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -49,6 +50,7 @@ description: Насосная (сливная) установка стацион
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Технические данные</h2>
 

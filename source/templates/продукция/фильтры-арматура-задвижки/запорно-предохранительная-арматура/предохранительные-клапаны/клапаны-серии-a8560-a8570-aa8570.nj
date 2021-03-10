@@ -20,7 +20,8 @@ description: Предохранительны клапаны RegO Multiport се
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Поро-<br />говое давление срабат., кПа</th><th rowspan="2" colspan="2">Для продукта</th><th rowspan="3">Тип фланца к резер-<br />вуару</th><th colspan="4">Комплектация клапана</th><th rowspan="2" colspan="2">Поток по воздуху (при 120% от давления срабатыв.), куб. м/мин</th></tr>
@@ -81,6 +82,7 @@ description: Предохранительны клапаны RegO Multiport се
 </tr>
 </tbody>
 </table>
+</div>
  
 <p>* Для использования с модифицированным фланцем 300# ANSI с отверстием 101 мм.<br>
 ** Производительность базируется на количестве предохранительных клапанов, указанных в скобках (...). Скорости потоков представлены для предохранительных клапанов без принадлежностей.<br>
@@ -106,6 +108,7 @@ description: Предохранительны клапаны RegO Multiport се
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -126,9 +129,11 @@ description: Предохранительны клапаны RegO Multiport се
 </tr>
 </tbody>
 </table>
+</div>
 
-<h2>Материалы предохранительного клапана</h2>
-
+<h2>Материалы предохранительно
+го клапана</h2>
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>Описание</th><th>А8563, А8564, А8573, А8574</th></tr>
@@ -154,11 +159,13 @@ description: Предохранительны клапаны RegO Multiport се
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Резьба входного штуцера покрыта специальной защитой против электрохимич. реакций.</p>
 
 <h2>Крепежные комплекты</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Содержит</th><th>Для крепления</th><th>Для соединения</th><th>Необх. на 1 сборку</th></tr>
@@ -171,9 +178,11 @@ description: Предохранительны клапаны RegO Multiport се
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Типоразмеры фланцев</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ сборки</th><th>Размер фланца</th><th>Отверстия под крепеж</th><th>Размер отв.</th><th>Уплотнитель</th></tr>
@@ -193,6 +202,7 @@ description: Предохранительны клапаны RegO Multiport се
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

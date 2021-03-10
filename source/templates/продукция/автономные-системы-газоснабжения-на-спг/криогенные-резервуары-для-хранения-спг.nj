@@ -58,6 +58,7 @@ description: Криогенные резервуары для хранения �
   { title: 'FAS 63', volume: '63 м³', length: 16500, width: 3050, height: 3000 }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -83,6 +84,7 @@ description: Криогенные резервуары для хранения �
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h3>Технические данные:</h3>
 

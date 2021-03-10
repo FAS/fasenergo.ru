@@ -23,6 +23,7 @@ description: Ремкомплекты (запчасти) для насоса р�
 
 <h3>Комплектация</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tbody>
@@ -119,6 +120,7 @@ description: Ремкомплекты (запчасти) для насоса р�
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

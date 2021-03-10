@@ -35,6 +35,7 @@ description: Пневматические приводы RegO от компан�
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -75,6 +76,7 @@ description: Пневматические приводы RegO от компан�
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

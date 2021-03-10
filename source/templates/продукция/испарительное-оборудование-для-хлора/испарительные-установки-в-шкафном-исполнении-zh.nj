@@ -61,6 +61,7 @@ description: Испарительные установки хлора в шка�
   {  artitle: 'ФАС№ 20.22660/CLZH/H', title: 'Испарительная установка<br>ФАС 2660 CLZH/H', performance: '2660 кг/ч', price: '120 000 €' }   
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -84,6 +85,7 @@ description: Испарительные установки хлора в шка�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 
 <h2>Расчётные данные:</h2>

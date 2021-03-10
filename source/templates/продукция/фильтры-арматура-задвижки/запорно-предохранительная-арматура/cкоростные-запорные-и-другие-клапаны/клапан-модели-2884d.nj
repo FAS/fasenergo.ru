@@ -19,7 +19,8 @@ description: Клапаны RegO модели 2884D от компании ООО
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">А вход, M. NPT</th><th rowspan="3">В<br />выход F. NPT</th><th rowspan="3">С<br />Прилив под ключ, мм</th><th rowspan="3">D<br />длина клапана (прибл.)</th><th rowspan="3">Е<br />длина хвостовика с резьбой</th><th colspan="3">Закрытие скоростного клапана при потоке (прибл.)*</th></tr>
@@ -38,6 +39,7 @@ description: Клапаны RegO модели 2884D от компании ООО
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* На основе горизонтальной установки ограничительных клапанов. Потоки чуть больше, когда клапаны установлены выпуском вверх; чуть ниже, когда установлены выпуском вниз.<br>
 ПРИМЕЧАНИЕ: Умножьте скорость потока на 0,94 для определения потока жидкого бутана.</p>
@@ -55,6 +57,7 @@ description: Клапаны RegO модели 2884D от компании ООО
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -75,6 +78,7 @@ description: Клапаны RegO модели 2884D от компании ООО
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

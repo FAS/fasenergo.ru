@@ -19,7 +19,8 @@ description: Клапаны RegO серий 7573 и 3183АС от компани
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p> 
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th colspan="2">№ изделия</th><th rowspan="2">A<br />разъем ACME к шлангу</th><th rowspan="2">B<br />разъем к резервуару M. NPT</th><th rowspan="2">С<br />приливпод ключ, мм</th><th rowspan="2">D<br />длина корпуса (прибл.)</th><th rowspan="2">Закрытие скоростного клапана<br />при входном давлении 689 кПа и потоке<br />(прибл., по пропану), куб. м/ч</th></tr>
@@ -44,6 +45,7 @@ description: Клапаны RegO серий 7573 и 3183АС от компани
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 
@@ -60,6 +62,7 @@ description: Клапаны RegO серий 7573 и 3183АС от компани
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -88,6 +91,7 @@ description: Клапаны RegO серий 7573 и 3183АС от компани
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

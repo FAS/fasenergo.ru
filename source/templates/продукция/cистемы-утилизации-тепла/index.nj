@@ -22,7 +22,7 @@ description: ООО «Фасэнергомаш» производит коген
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/системы-утилизации-тепла/Тепловой-модуль-ФАС--1---front.jpg',
     url = '/продукция/cистемы-утилизации-тепла/тепловой-модуль-тм-полная-заводская-комплектация',
-    class = 'o-grid__item h-1/2 h-1/4@lap',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -30,7 +30,7 @@ description: ООО «Фасэнергомаш» производит коген
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/системы-утилизации-тепла/Тепловой-модуль-синий-ФАС--1---front.jpg',
     url = '/продукция/cистемы-утилизации-тепла/тепловой-модуль-водо-газовый-тмвг',
-    class = 'o-grid__item h-1/2 h-1/4@lap',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -38,7 +38,7 @@ description: ООО «Фасэнергомаш» производит коген
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/системы-утилизации-тепла/Тепловой-модуль-синий-ФАС--2---front.jpg',
     url = '/продукция/cистемы-утилизации-тепла/тепловой-модуль-водо-водяной-тмвв',
-    class = 'o-grid__item h-1/2 h-1/4@lap',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
 </div>
@@ -51,14 +51,14 @@ description: ООО «Фасэнергомаш» производит коген
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/системы-утилизации-тепла/Переключатель-потока-дымовых-газов-ФАС--1---front.jpg',
     url = '/продукция/cистемы-утилизации-тепла/переключатели-потока-дымовых-газов',
-    class = 'o-grid__item h-1/2 h-1/4@lap',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
     title = 'Рамные конструкции',
     hLevel = 3,
     url = '/продукция/cистемы-утилизации-тепла/рамное-основание',
-    class = 'o-grid__item h-1/2 h-1/4@lap',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -66,7 +66,7 @@ description: ООО «Фасэнергомаш» производит коген
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/системы-утилизации-тепла/АСУТП-Энергоцентров-ФАС--1---front-left.jpg',
     url = '/продукция/cистемы-утилизации-тепла/асутп-энергоцентров-системы-автоматического-управления-сау',
-    class = 'o-grid__item h-1/2 h-1/4@lap',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -74,14 +74,14 @@ description: ООО «Фасэнергомаш» производит коген
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/системы-утилизации-тепла/Глушители-для-ДГУ-ФАС--1---front.jpg',
     url = '/продукция/cистемы-утилизации-тепла/глушители-для-дгу-гпу-и-промышленных-двс',
-    class = 'o-grid__item h-1/2 h-1/4@lap',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}  
   {% call CategoryCard(
     title = 'Дымовые трубы',
     hLevel = 3,
     url = '/продукция/cистемы-утилизации-тепла/дымовые-трубы',
-    class = 'o-grid__item h-1/2 h-1/4@lap',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}  
 </div>

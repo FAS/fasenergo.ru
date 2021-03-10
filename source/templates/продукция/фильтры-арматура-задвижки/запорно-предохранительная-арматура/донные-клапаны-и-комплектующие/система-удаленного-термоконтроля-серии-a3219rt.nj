@@ -20,7 +20,8 @@ description: Система удаленного термоконтроля RegO
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ зделия</th><th rowspan="2">Для применения с</th><th rowspan="2">Температура<br />срабатывания</th><th colspan="2">Нагрузка на пружину</th><th rowspan="2">Мин. кол-во согласно <br />требованиям MC331</th></tr>
@@ -35,6 +36,7 @@ description: Система удаленного термоконтроля RegO
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 <p>Предназначено для работы с внутренними клапанами, установленными в резервуарах высокого давления. A3219RT обеспечивает удаленное механическое управление и термозащиту по DOT MC331. A3219RT соединены тросиком с донными клапанами в резервуаре.</p>
@@ -54,6 +56,7 @@ description: Система удаленного термоконтроля RegO
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -66,6 +69,7 @@ description: Система удаленного термоконтроля RegO
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

@@ -32,6 +32,7 @@ description: 'Заправочные КПГ-колонки FAS от компан
   { title: 'FAS-E30-CNG-R-23', hose: '2', counter: 2, pressure: 3, display: 2 }
 ] %}
 
+<div class="Table-responsive"> 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -56,6 +57,7 @@ description: 'Заправочные КПГ-колонки FAS от компан
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Особенности</h2>
 <ul>

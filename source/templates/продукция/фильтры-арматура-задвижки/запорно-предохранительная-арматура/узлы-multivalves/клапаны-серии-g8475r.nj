@@ -20,7 +20,8 @@ description: Клапаны Multivalves серии G8475R от компании 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Вход</th><th rowspan="3">Выход</th><th rowspan="3">Разъем для напол-<br />нения емкости</th><th colspan="2">Разъем для уравнит. клапана</th><th rowspan="3">Уровне-<br />мер</th><th rowspan="3">Испол-<br />нение маховика</th><th rowspan="3">Длина контро-<br />льной трубки для отбора газообр. фазы, мм</th><th colspan="4">Предохранительный клапан</th><th rowspan="3">Тип емкостей, в которых применяются</th></tr>
@@ -57,6 +58,7 @@ description: Клапаны Multivalves серии G8475R от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Длина патрубка устанавливается согласно требованиям заказчика.</p>
 
@@ -77,6 +79,7 @@ description: Клапаны Multivalves серии G8475R от компании 
 
 <h2>Пропускная способность по жидкости</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th colspan="4">Ср. пропускная способность для жидкости, л/мин</th></tr>
@@ -94,9 +97,11 @@ description: Клапаны Multivalves серии G8475R от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -129,6 +134,7 @@ description: Клапаны Multivalves серии G8475R от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

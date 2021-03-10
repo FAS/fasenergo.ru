@@ -20,7 +20,8 @@ description: Регуляторы RegO серии 4286, 4289 и 4291 (Компл
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -65,6 +66,7 @@ description: Регуляторы RegO серии 4286, 4289 и 4291 (Компл
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 <p>Комплекты Inertrol серии 4286, 4289 и 4291 представляют собой трехступенчатые регуляторы азота, специально предназначенные для поддержания среды маслонаполненных трансформаторов под манометрическим давлением 0,5 фунтов на кв. дюйм. Каждый комплект inertrol состоит из двухступенчатого регулятора, подключенного последовательно к высокочувствительному одноступенчатому регулятору, который поддерживает манометрическое давление 0,5 фунтов на кв. дюйм. Встроенный предохранительный клапан давления в третьей ступени регулятора обеспечивает защиту от избыточного давления в системе.</p>
@@ -82,6 +84,7 @@ description: Регуляторы RegO серии 4286, 4289 и 4291 (Компл
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -128,6 +131,7 @@ description: Регуляторы RegO серии 4286, 4289 и 4291 (Компл
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

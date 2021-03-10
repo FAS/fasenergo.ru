@@ -53,6 +53,7 @@ description: Нефтегазовые фильтры-грязеуловител�
   { artitle: '14 000', size: 'DN 150', l: '480', cell: '1,20', weight: '62' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -78,6 +79,7 @@ description: Нефтегазовые фильтры-грязеуловител�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h3>Исполнения B</h3>
 
@@ -95,6 +97,7 @@ description: Нефтегазовые фильтры-грязеуловител�
   { artitle: '14 040', size: 'DN 150', l: '480', cell: '0,25', weight: '62' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -120,6 +123,7 @@ description: Нефтегазовые фильтры-грязеуловител�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p>Поставка с другими типоразмерами, PN 16, ANSI-фланцем – по запросу.</p>
 
@@ -154,6 +158,7 @@ description: Нефтегазовые фильтры-грязеуловител�
   { artitle: '14 421', size: 'DN 150', l: '480', cell: '0,6', weight: '80' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -179,6 +184,7 @@ description: Нефтегазовые фильтры-грязеуловител�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <hr>
 
@@ -206,6 +212,7 @@ description: Нефтегазовые фильтры-грязеуловител�
   { artitle: '14 0660', connection: '2', l: '180', weight: '2,4' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -229,6 +236,7 @@ description: Нефтегазовые фильтры-грязеуловител�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <hr>
 
@@ -256,6 +264,7 @@ description: Нефтегазовые фильтры-грязеуловител�
   { artitle: '14 095', connection: 'DN 100', l: '60', weight: '2,8' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -279,6 +288,7 @@ description: Нефтегазовые фильтры-грязеуловител�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>

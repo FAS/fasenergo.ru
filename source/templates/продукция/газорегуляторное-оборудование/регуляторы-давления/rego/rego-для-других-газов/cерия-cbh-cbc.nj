@@ -20,7 +20,8 @@ description: Комбинированные регуляторы подъема 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th>Номер заказа</th><th>Cоединения</th><th>Диаметр</th><th>Высота</th><th>Установленное <br />заводом давление (PSIG)</th><th>Рабочее <br />давление (PSIG)</th></tr>
@@ -59,6 +60,7 @@ description: Комбинированные регуляторы подъема 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 <p>Сочетает в себе функции регулятора подъема давления RG и экономайзера ECL в одном компактном устройстве. Имеется в наличии в трубных конфигурациях Chart и Taylor-Wharton, а также в различных диапазонах давлений.</p>
@@ -81,6 +83,7 @@ description: Комбинированные регуляторы подъема 
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -105,6 +108,7 @@ description: Комбинированные регуляторы подъема 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

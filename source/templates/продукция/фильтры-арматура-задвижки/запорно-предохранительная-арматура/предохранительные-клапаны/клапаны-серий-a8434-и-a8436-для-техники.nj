@@ -19,7 +19,8 @@ description: Предохранительны клапаны RegO серий A84
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Пороговое давление срабат., кПа</th><th>А, соединение для резервуара</th><th>B, общая высота (прибл.), мм</th><th>С, выступает над резервуаром (прибл.), мм</th><th>UL, куб. м/мин (при 120% от давления срабатыв.)</th><th>ASME, куб. м/мин (при 120% от давления срабатыв.)</th><th>Для резервуаров<br />с площадью поверхности до*, кв.м</th><th>№ защитного колпачка (в компл.)</th></tr>
@@ -57,6 +58,7 @@ description: Предохранительны клапаны RegO серий A84
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 <p>Сконструированы специально для использования в качестве первичного предохранительного клапана в транспортах, доставочных тягачах с резервуарами ASME и газовозах с соединениями 2" и 3" NPT.</p>
@@ -74,6 +76,7 @@ description: Предохранительны клапаны RegO серий A84
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -98,6 +101,7 @@ description: Предохранительны клапаны RegO серий A84
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

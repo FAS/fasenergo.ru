@@ -19,7 +19,8 @@ description: Клапаны RegO серий 6586D и A6586D от компани�
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p> 
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th colspan="2">№ изделия</th><th rowspan="2">A<br />вход F. NPT</th><th rowspan="2">B<br />выход M. NPT</th><th rowspan="2">С<br />прилив под ключ, мм</th><th rowspan="2">D<br />прибл. длина корпуса, мм</th><th colspan="4">Пропускная способность по жид к. пропану при давлении (л/мин)</th></tr>
@@ -38,6 +39,7 @@ description: Клапаны RegO серий 6586D и A6586D от компани�
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>ПРИМЕЧАНИЕ: Умножьте скорость потока на 0,94 для определения объема жидкого бутана.</p>
 
@@ -56,6 +58,7 @@ description: Клапаны RegO серий 6586D и A6586D от компани�
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -88,6 +91,7 @@ description: Клапаны RegO серий 6586D и A6586D от компани�
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

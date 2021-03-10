@@ -78,6 +78,7 @@ description: Неполнооборотные редукторы AUMA GSI от �
 
 <h2>Технические характеристики</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -286,9 +287,11 @@ description: Неполнооборотные редукторы AUMA GSI от �
 </tr>
 </tbody>
 </table>
+</div>
 
 <h3>Соответствующие установочные фланцы</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -386,6 +389,7 @@ description: Неполнооборотные редукторы AUMA GSI от �
 </tr>
 </tbody>
 </table>
+</div>
 
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>

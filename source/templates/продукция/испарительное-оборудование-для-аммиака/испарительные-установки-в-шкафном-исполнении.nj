@@ -78,6 +78,7 @@ description: Испарительные установки для аммиака
   {  artitle: 'ФАС№ 20.1483/AE/H', title: 'Испарительная установка ФАС 483 AE/H', performance: '483 кг/ч', price: '55 440 €' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -101,6 +102,7 @@ description: Испарительные установки для аммиака
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

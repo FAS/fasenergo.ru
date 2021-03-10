@@ -38,6 +38,7 @@ description: 'Заправочные станции КПГ FAS от компан
   { title: 'FAS-55/55D', pressure1: '20,0-220,0 ', pressure2: '250', capacity: '815 (средняя)' }
 ] %}
 
+<div class="Table-responsive"> 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -61,6 +62,7 @@ description: 'Заправочные станции КПГ FAS от компан
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p>Совместно с нашими партнерами по всему миру мы предоставим индивидуальное решение «под ключ», максимально учитывающее потребности заказчика.</p>
 

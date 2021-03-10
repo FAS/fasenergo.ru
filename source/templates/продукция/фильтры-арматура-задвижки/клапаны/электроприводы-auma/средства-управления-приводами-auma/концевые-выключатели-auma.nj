@@ -19,6 +19,7 @@ description: Концевые выключатели AUMA от компании 
 
 <h2>Концевые выключатели AUMA. Техническая характеристика</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -65,9 +66,11 @@ description: Концевые выключатели AUMA от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Концевые выключатели AUMA. Контакты</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -100,6 +103,7 @@ description: Концевые выключатели AUMA от компании 
 </tr>
 </tbody>
 </table>
+</div>
 
 
 <div class='h-align--center h-margin-top++'>

@@ -21,6 +21,7 @@ description: Указатель уровня (уровнемер) PN 25, Тип 
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -94,6 +95,7 @@ description: Указатель уровня (уровнемер) PN 25, Тип 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Характеристики</h2>
 

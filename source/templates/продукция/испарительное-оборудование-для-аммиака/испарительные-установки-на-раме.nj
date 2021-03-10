@@ -38,6 +38,7 @@ description: Испарительные установки для аммиака
   { title: 'Испарительная установка&nbsp;ФАС 466&nbsp;AE/R', performance: '466 кг/ч' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -57,6 +58,7 @@ description: Испарительные установки для аммиака
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

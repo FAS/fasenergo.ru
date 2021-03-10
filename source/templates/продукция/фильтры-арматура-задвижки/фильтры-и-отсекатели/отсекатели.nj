@@ -48,6 +48,7 @@ description: Отсекатели компании от компании ООО 
   { artitle: '14 130', connection: 'Фланец DN 100', size: 350, weight: 31.7 }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -73,6 +74,7 @@ description: Отсекатели компании от компании ООО 
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p>Отсекатель предназначен для для отсечки жидкой фазы сжиженного газа на линии подачи к потребителю. Устанавливается между испарительной установкой и потребителем.</p>
 
@@ -109,6 +111,7 @@ description: Отсекатели компании от компании ООО 
   { artitle: '14 153', connection: 'DN 20', size: 310, weight: 5.7 }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -132,6 +135,7 @@ description: Отсекатели компании от компании ООО 
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h3>Исполнения B</h3>
 
@@ -141,6 +145,7 @@ description: Отсекатели компании от компании ООО 
   { artitle: '14 158', connection: 'DN 20', size: 300, weight: 5.7 }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -164,6 +169,7 @@ description: Отсекатели компании от компании ООО 
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Фильтр тонкой очистки PN 25 для стационарных систем</h2>
 
@@ -197,6 +203,7 @@ description: Отсекатели компании от компании ООО 
   { artitle: '14 169', connection: 'DN 200', size: '648x714x406x899', weight: 192.0 }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -220,6 +227,7 @@ description: Отсекатели компании от компании ООО 
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

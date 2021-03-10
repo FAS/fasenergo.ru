@@ -28,6 +28,7 @@ description: Насосно-счётная установка мобильног
   { title: 'ФАС№<br>98.1615', counter: 'LPGmass', measurement: 'В литрах<br>и кг', pump: 'ФАС Z2000<br>(с электродвигателем)', performance: 'до 290', price: '18&nbsp;000&nbsp;€' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -55,6 +56,7 @@ description: Насосно-счётная установка мобильног
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Технические данные</h2>
 

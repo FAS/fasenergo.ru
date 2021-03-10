@@ -19,7 +19,8 @@ description: Предохранительны клапаны RegO серий A84
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Для резервуаров типа</th><th rowspan="2">Пороговое давление срабат., кПа</th><th rowspan="2">А, соединение для резервуара</th><th rowspan="2">B, общая высота (прибл.), мм</th><th rowspan="2">С, выступает над резервуаром (прибл.), мм</th><th rowspan="2">D, ключ для установки</th><th colspan="2">Поток по воздуху, куб. м/мин****</th><th rowspan="2">№ защитного колпачка (в компл.)</th><th>Принадлежн.</th></tr>
@@ -78,6 +79,7 @@ description: Предохранительны клапаны RegO серий A84
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* 1" M. NPT выходное соединение.<br>
 ** 1 1/4" M. NPT выходное соединение.<br>
@@ -100,6 +102,7 @@ description: Предохранительны клапаны RegO серий A84
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -120,6 +123,7 @@ description: Предохранительны клапаны RegO серий A84
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

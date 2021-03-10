@@ -20,44 +20,46 @@ description: Вентили линейных узлов RegO серия 7160 о�
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
-<table class='Table'>
-<thead>
-<tr>
-<td scope="col">Номер детали по каталогу</td>
-<td scope="col">Работа с газом</td>
-<td scope="col">Резьба входногосоединения</td>
-<td scope="col">Резьба выходногосоединения</td>
-<td scope="col">Соединение CGA</td>
-<td scope="col">Коэффициент пропускной способности</td>
-<td scope="col">Защита на выпуске<sup>*</sup></td>
-</tr>
-<tr align="center">
-<td scope="row">7160V</td>
-<td rowspan="2">Кислород и инертные газы</td>
-<td rowspan="4">1/2" NGT</td>
-<td rowspan="2">7/8" - 14М. правая</td>
-<td rowspan="2">024</td>
-<td rowspan="4">.76</td>
-<td>10663 Латунный колпачок и цепь</td>
-</tr>
-<tr align="center">
-<td scope="row">7160VL</td>
-<td>Нет</td>
-</tr>
-<tr align="center">
-<td scope="row">7161V</td>
-<td rowspan="2">Топливные газы</td>
-<td rowspan="2">7/8" - 14М. левая</td>
-<td rowspan="2">025</td>
-<td>10664 Латунный колпачок и цепь</td>
-</tr>
-<tr align="center">
-<td scope="row">7161VL</td>
-<td>Нет</td>
-</tr>
-</tbody>
-</table>
+
+<div class="Table-responsive"> 
+	<table class='Table'>
+	<thead>
+	<tr>
+	<td scope="col">Номер детали по каталогу</td>
+	<td scope="col">Работа с газом</td>
+	<td scope="col">Резьба входногосоединения</td>
+	<td scope="col">Резьба выходногосоединения</td>
+	<td scope="col">Соединение CGA</td>
+	<td scope="col">Коэффициент пропускной способности</td>
+	<td scope="col">Защита на выпуске<sup>*</sup></td>
+	</tr>
+	<tr align="center">
+	<td scope="row">7160V</td>
+	<td rowspan="2">Кислород и инертные газы</td>
+	<td rowspan="4">1/2" NGT</td>
+	<td rowspan="2">7/8" - 14М. правая</td>
+	<td rowspan="2">024</td>
+	<td rowspan="4">.76</td>
+	<td>10663 Латунный колпачок и цепь</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">7160VL</td>
+	<td>Нет</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">7161V</td>
+	<td rowspan="2">Топливные газы</td>
+	<td rowspan="2">7/8" - 14М. левая</td>
+	<td rowspan="2">025</td>
+	<td>10664 Латунный колпачок и цепь</td>
+	</tr>
+	<tr align="center">
+	<td scope="row">7161VL</td>
+	<td>Нет</td>
+	</tr>
+	</tbody>
+	</table>
+</div>
 
 <p>*Рекомендуется защита на выпуске.</p>
 
@@ -77,30 +79,32 @@ description: Вентили линейных узлов RegO серия 7160 о�
 
 <h2>Материалы</h2>
 
-<table class='Table'>
-<thead>
-<tr>
-<td><span>Корпус:</span></td>
-<td><span>Латунь</span></td>
-</tr>
-<tr>
-<td><span>Шток и фиксатор седла:</span></td>
-<td><span>Латунь</span></td>
-</tr>
-<tr>
-<td><span>Кольцевое уплотнение</span></td>
-<td><span>Неопрен</span></td>
-</tr>
-<tr>
-<td><span>Диск седла:</span></td>
-<td><span>Нейлон</span></span></td>
-</tr>
-<tr>
-<td><span>Седло проверки обратного расхода:</span></td>
-<td><span>Неопрен</span></span></td>
-</tr>
-</tbody>
-</table>
+<div class="Table-responsive"> 
+	<table class='Table'>
+	<thead>
+	<tr>
+	<td><span>Корпус:</span></td>
+	<td><span>Латунь</span></td>
+	</tr>
+	<tr>
+	<td><span>Шток и фиксатор седла:</span></td>
+	<td><span>Латунь</span></td>
+	</tr>
+	<tr>
+	<td><span>Кольцевое уплотнение</span></td>
+	<td><span>Неопрен</span></td>
+	</tr>
+	<tr>
+	<td><span>Диск седла:</span></td>
+	<td><span>Нейлон</span></span></td>
+	</tr>
+	<tr>
+	<td><span>Седло проверки обратного расхода:</span></td>
+	<td><span>Неопрен</span></span></td>
+	</tr>
+	</tbody>
+	</table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

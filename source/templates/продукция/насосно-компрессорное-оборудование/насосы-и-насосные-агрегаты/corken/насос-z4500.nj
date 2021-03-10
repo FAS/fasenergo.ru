@@ -26,6 +26,7 @@ description: Насос Corken Z4500 для СУГ и аммиака от ком
 
 <h2>Технические характеристики</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -54,6 +55,7 @@ description: Насос Corken Z4500 для СУГ и аммиака от ком
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Описание и назначение</h2>
 
