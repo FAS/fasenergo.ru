@@ -35,7 +35,7 @@ description: Газовые топливораздаточные колонки 
     class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
-  
+
   {% call CategoryCard(
     title = 'ФАС S/111/T<span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
     hLevel = 4,
@@ -44,11 +44,11 @@ description: Газовые топливораздаточные колонки 
     class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
-</div>  
-  
+</div>
+
 <h3 class='h-h4 h-h3@lap'>Электронные топливораздаточные колонки серии ФАС 200</h3>
 
-<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>  
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>
 
   {% call CategoryCard(
     title = 'ФАС S/210/L <span class="h-block h-padding-top-- h-text-">Однопистолетная, на фронтальной стороне</span>',
@@ -67,7 +67,7 @@ description: Газовые топливораздаточные колонки 
     class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
-  
+
   {% call CategoryCard(
     title = 'ФАС S/210/T <span class="h-block h-padding-top-- h-text-">Однопистолетная, на фронтальной стороне</span>',
     hLevel = 4,
@@ -94,7 +94,7 @@ description: Газовые топливораздаточные колонки 
     class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
-  
+
   {% call CategoryCard(
     title = 'ФАС S/223/T <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтально-противоположных сторонах</span>',
     hLevel = 4,
@@ -103,11 +103,11 @@ description: Газовые топливораздаточные колонки 
     class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
-</div>  
+</div>
 
 <h3 class='h-h4 h-h3@lap'>Электронные топливораздаточные колонки серии ФАС 300</h3>
 
-<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>  
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>
   {% call CategoryCard(
     title = 'ФАС S/320/L <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
     hLevel = 3,
@@ -132,7 +132,7 @@ description: Газовые топливораздаточные колонки 
     class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
-  
+
   {% call CategoryCard(
     title = 'ФАС S/322/L <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на диагональных сторонах</span>',
     hLevel = 3,
@@ -157,11 +157,21 @@ description: Газовые топливораздаточные колонки 
     class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
-</div>  
-  
+</div>
+
 <h3 class='h-h4 h-h3@lap'>Электронные топливораздаточные колонки серии ФАС 400</h3>
 
-<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>  
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>
+
+  {% call CategoryCard(
+    title = 'ФАС 400/K/B <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/фас-400-k-b/заправочная-колонка-фас-400-k--b--card.jpg',
+    url = '/продукция/газовые-топливораздаточные-колонки/фас-400-k-b',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+
   {% call CategoryCard(
     title = 'ФАС S/420/L <span class="h-block h-padding-top-- h-text-">Двухпистолетная, на фронтальных сторонах</span>',
     hLevel = 4,
@@ -262,7 +272,7 @@ description: Газовые топливораздаточные колонки 
 
 <h3 class='h-h4 h-h3@lap'>Электронные топливораздаточные колонки серии ФАС 500</h3>
 
-<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>  
+<div class='o-grid h-childs-displace h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>
   {% call CategoryCard(
     title = 'ФАС S/511/L <span class="h-block h-padding-top-- h-text-">Однопистолетная, на боковой стороне</span>',
     hLevel = 4,
@@ -303,7 +313,7 @@ description: Газовые топливораздаточные колонки 
   {% call CategoryCard(
     title = 'FAS-120 E №936933G (эконом) <span class="h-block h-padding-top-- h-text-">Однопистолетная, с 4-х поршневым механическим счетчиком</span>',
     hLevel = 3,
-    image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-120-sk/card.jpg',    
+    image = '/' + PATH.images + '/equipment/газовые-топливораздаточные-колонки/fas-120-sk/card.jpg',
     url = '/продукция/газовые-топливораздаточные-колонки/fas-120-e-936933',
     class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
