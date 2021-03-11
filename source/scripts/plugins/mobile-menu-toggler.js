@@ -3,7 +3,7 @@
 // Show or hide mobile menu when clicked
 
 export default $.fn.mobileMenuToggler = function () {
-  const $target = this.find('.js-mobile-menu')
+  const $target = $(".js-mobile-menu").first()
 
   const toggle = () => $target.fadeToggle('fast')
 
