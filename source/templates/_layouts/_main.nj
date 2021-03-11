@@ -24,7 +24,7 @@
   </a>
 </header>
 
-<div class='Sidebar Wrapper--sidebar h-fixed h-left h-top h-bottom '>
+<div class='Sidebar Wrapper--sidebar js-mobile-menu h-fixed h-left h-top h-bottom '>
   <div class='t-secondary h-overflow--auto h-padding h-padding-right+ h-height-1/1'>
 
     <!-- Header -->
