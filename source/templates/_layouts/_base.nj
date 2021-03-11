@@ -25,8 +25,7 @@
   <meta name='description' content='{{ PAGE.description }}'>
 
   <!-- Viewport -->
-  <!-- <meta name='viewport' content='{{ PAGE.viewport or SITE.viewport }}'> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name='viewport' content='{{ PAGE.viewport or SITE.viewport }}'>
 
   <!-- CSS -->
   {% block css %}
