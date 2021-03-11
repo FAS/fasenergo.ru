@@ -1,0 +1,36 @@
+// =============================================================================
+// ^CatalogFilter
+// =============================================================================
+
+
+.CatalogFilter {
+
+    &__label {
+        display: block;
+        padding-bottom: 8px;
+
+        @include ekzo-breakpoint(lap) {
+            display: inline;
+            padding-bottom: 0;
+        }
+
+    }
+
+    &__input {
+        max-width: 40%;
+
+        @include ekzo-breakpoint(lap) {
+            max-width: 120px;
+        }
+    }
+
+    &__char-btn {
+        padding: 20px;
+
+        @include ekzo-breakpoint(lap) {
+            padding: 0;
+        }
+    }
+
+    
+}

@@ -37,4 +37,10 @@
   .Nav__item {
     margin-bottom: ekzo-space(.5);
   }
+
+  &__catalog-filter {
+    height: auto;
+    left: 0!important;
+    max-height: 10000px;
+  }
 }
