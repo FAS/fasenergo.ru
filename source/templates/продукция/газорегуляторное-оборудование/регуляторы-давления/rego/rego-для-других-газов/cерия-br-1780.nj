@@ -20,7 +20,8 @@ description: Регуляторы давления RegO серии BR-1780 от 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -125,6 +126,7 @@ description: Регуляторы давления RegO серии BR-1780 от 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Регулятор продается без манометра. Необходимо заказывать манометр отдельно.</p>
 
@@ -148,6 +150,7 @@ description: Регуляторы давления RegO серии BR-1780 от 
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -180,11 +183,13 @@ description: Регуляторы давления RegO серии BR-1780 от 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Для работы с углекислым газом и оксидом азота: указать материал EPDM для диска седла и кольцевых уплотнений, добавить "Е" в конец номера детали по каталогу.</p>
 
 <h2>Наборы для технического обслуживания и наборы дополнительных комплектующих</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -234,6 +239,7 @@ description: Регуляторы давления RegO серии BR-1780 от 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Параметры потока</h2>
 

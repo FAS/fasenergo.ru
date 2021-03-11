@@ -21,6 +21,7 @@ description:  Клапаны RegO серий A7554 от компании ООО 
 
 <p>  </p>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Вход и выход (F.NPT)</th><th>Фиксатор</th><th>Поток при перепаде давления 6,9 кПа (Cv) по пропану*, л/мин</th></tr>
@@ -46,6 +47,7 @@ description:  Клапаны RegO серий A7554 от компании ООО 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Для получения приблизительного значения потока при перепаде давления, отличном от 6,9 кПа, умножьте поток в таблице на квадратный корень перепада давления.
 Пример для 7554LV при 62 кПа: 43 x 62 = 339 л/мин по пропану.</p>
@@ -68,6 +70,7 @@ description:  Клапаны RegO серий A7554 от компании ООО 
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -100,6 +103,7 @@ description:  Клапаны RegO серий A7554 от компании ООО 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

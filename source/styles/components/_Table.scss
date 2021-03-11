@@ -18,6 +18,29 @@
 
   border-style: hidden;
 
+  &-responsive {
+    width: auto;
+    overflow-x: auto;
+    margin-bottom: ekzo-space(2);
+
+    @include ekzo-theme() {
+      $color: ekzo-theme(table-border);
+
+      @if $color { box-shadow: 0 0 0 1px $color; }
+    }
+
+    @include ekzo-breakpoint(lap) {
+      width: 100%;
+      overflow-x: unset;
+      margin-bottom: 0;
+    }
+
+    .Table {
+      margin-bottom: 0;
+    }
+
+  }
+
   tr,
   th,
   td {

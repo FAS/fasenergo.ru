@@ -105,6 +105,7 @@ description: Компания ООО «Фасэнергомаш» предлаг
   }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -130,6 +131,7 @@ description: Компания ООО «Фасэнергомаш» предлаг
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

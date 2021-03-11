@@ -37,7 +37,7 @@ showContentTitle:          false
   <div class='{{ pageContainerClass }}'>
     <div class='{{ pageContentClass }}'>
 
-      <h1 class='Shade__title h-h2 h-margin-bottom+--'>{{ PAGE.contentTitle }}</h1>
+      <h1 class='Shade__title h-h3 h-h2@lap h-margin-bottom+--'>{{ PAGE.contentTitle }}</h1>
 
       {# @todo https://www.meistertask.com/app/task/tuHtLJ86/novye-dannye-dlia-bloka-s-tsyframy-na-glavnoi #}
       {# <ul class='Shade__text o-grid h-flex-x--between h-3/4@lap g-list0 h-padding-bottom++--'>
@@ -55,11 +55,11 @@ showContentTitle:          false
         </li>
       </ul> #}
 
-      <div class='h-bleed-sides h-bleed-sides+@lap'>
-        <div class='o-grid h-childs-displace h-margin-top+++ h-padding-bottom++'>
+      <div class='h-bleed-sides0 h-bleed-sides+@lap'>
+        <div class='o-grid h-childs-displace@lap h-margin-top+ h-margin-top+++@lap h-padding-bottom++ h-padding-sides0 h-padding-sides0@lap'>
 
           {% macro Item(title, url, buttonLabel, buttonClass) %}
-          <article class='o-grid__item h-1/3'>
+          <article class='o-grid__item  h-3/3 h-2/3@tablet h-1/3@lap h-margin-bottom h-margin-bottom0@lap'>
             <div class='Shade__block o-panel o-panel--max t-secondary h-border-r h-padding+--'>
               <div class='h-text- o-panel__body'>
                 <h2 class='h-h4'>{{ title }}</h2>
@@ -109,7 +109,7 @@ showContentTitle:          false
 <section class='{{ pageContainerClass }} {{ pageSectionTopWrapper }} {{ pageSectionBottomWrapper }}'>
   <div class='{{ pageContentClass }}'>
 
-    <h2 class='h-margin-bottom+ h-color--secondary'>Новости</h2>
+    <h2 class='h-margin-bottom+ h-color--secondary h-h3 h-h2@lap'>Новости</h2>
 
     {{ Promos() }}
     {{ Posts(limit = 2, displayActivePromos = false) }}
@@ -124,7 +124,7 @@ showContentTitle:          false
     <div class='{{ pageContentClass }} {{ pageSectionTopWrapper }} {{ pageSectionBottomWrapper }} h-text+'>
       <div class='Wrapper--content-text'>
 
-        <h2 class='h-margin-bottom+'>Дилерам</h2>
+        <h2 class='h-margin-bottom+ h-h3 h-h2@lap'>Дилерам</h2>
 
         <p>Дилер получает возможность продавать наше оборудование и оказывать сопутствующие услуги.</p>
 
@@ -152,7 +152,7 @@ showContentTitle:          false
     <h2 class='h-padding-bottom-- h-margin-bottom+ h-color--secondary'>Главное о наших генераторах</h2>
 
     {% set pageAboutGensGridClass = 'o-grid h-childs-displace+++' %}
-    {% set pageAboutGensItemClass = 'o-grid__item h-1/2' %}
+    {% set pageAboutGensItemClass = 'o-grid__item h-2/21 h-1/2@lap' %}
 
     <ul class='{{ pageAboutGensGridClass }} g-list0 h-childs-margin-bottom+--'>
       <li class='{{ pageAboutGensItemClass }}'>

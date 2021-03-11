@@ -33,7 +33,11 @@
   border-color: transparent;
   border-radius: ekzo-border-radius('');
 
-	margin: ekzo-space(2) ekzo-space(.5) 0;
+	margin: ekzo-space(1) ekzo-space(.5) 0;
+
+  @include ekzo-breakpoint(lap) {
+    margin: ekzo-space(2) ekzo-space(.5) 0;
+  }
 
   &.is-active,
   &:hover,

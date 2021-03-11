@@ -173,7 +173,7 @@ description: Недорогой однофазный бензиновый ген
 
     <section class='o-grid h-childs-displace+'>
 
-      <div class='o-grid__item h-1/2'>
+      <div class='o-grid__item h-2/2 h-1/2@lap'>
 
         <h3 class='h-h5'>Установка:</h3>
 
@@ -200,7 +200,7 @@ description: Недорогой однофазный бензиновый ген
 
       </div>
 
-      <div class='o-grid__item h-1/2'>
+      <div class='o-grid__item h-2/2 h-1/2@lap'>
 
         <h3 class='h-h5'>Двигатель:</h3>
 
@@ -238,7 +238,7 @@ description: Недорогой однофазный бензиновый ген
       
 
       
-      <article class='o-grid__item h-1/4'>
+      <article class='o-grid__item h-2/4 h-1/4@lap h-margin-bottom+'>
 
         
         <p>
@@ -254,7 +254,7 @@ description: Недорогой однофазный бензиновый ген
       
 
       
-      <article class='o-grid__item h-1/4'>
+      <article class='o-grid__item h-2/4 h-1/4@lap h-margin-bottom+'>
 
         
         <p>
@@ -270,7 +270,7 @@ description: Недорогой однофазный бензиновый ген
       
 
       
-      <article class='o-grid__item h-1/4'>
+      <article class='o-grid__item h-2/4 h-1/4@lap h-margin-bottom+'>
 
         
         <p>
@@ -287,7 +287,7 @@ description: Недорогой однофазный бензиновый ген
 
       
       
-      <article class='o-grid__item h-1/4'>
+      <article class='o-grid__item h-2/4 h-1/4@lap h-margin-bottom+'>
 
         
         <p>

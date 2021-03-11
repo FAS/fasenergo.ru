@@ -46,6 +46,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 
 <p><strong>Резьбовой торец</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -135,11 +136,13 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 <p><strong>Паяный серебром торец</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -211,6 +214,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
@@ -225,6 +229,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 
 <p><strong>Резьбовой торец</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -287,11 +292,13 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 <p><strong>Паяный серебром торец</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -336,6 +343,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
@@ -349,6 +357,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 
 <p><strong>Резьбовой торец</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -384,12 +393,14 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 
 <p><strong>Паяные серебром торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -425,6 +436,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 <p>* Номинальный размер</p>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
@@ -437,6 +449,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 
 <p><strong>Резьбовой торец</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -490,6 +503,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
@@ -501,6 +515,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 
 <p><strong>Резьбовой торец</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -536,6 +551,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
@@ -563,6 +579,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 
 <strong></p>Резьбовые торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -591,9 +608,11 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 <strong><p>Паяный серебром торец</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -625,6 +644,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
@@ -645,6 +665,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 
 <strong></p>Резьбовые торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -681,6 +702,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
@@ -707,6 +729,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 
 <strong></p>Резьбовые торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -759,12 +782,14 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 </p>*Сболченная крышка</p>
 
 
 <strong><p>Паяные серебром торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -805,11 +830,13 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
 <strong></p>Резьбовые торцы - Сболченная крышка</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -835,6 +862,7 @@ description: Шаровой вентиль Goddard 222, включая 226LL, 22
 </tr>
 </tbody>
 </table>
+</div>
 
 
 

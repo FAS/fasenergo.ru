@@ -19,7 +19,8 @@ description: Переходники для клапанов серии 7572FC и
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Вход</th><th>Выход</th><th>А<br />прилив под ключ, мм</th><th>В<br />длина корпуса (прибл.)</th></tr>
@@ -37,6 +38,7 @@ description: Переходники для клапанов серии 7572FC и
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 

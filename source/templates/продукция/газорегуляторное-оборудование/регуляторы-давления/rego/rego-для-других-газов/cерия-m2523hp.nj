@@ -21,7 +21,8 @@ description: Автоматические регуляторы RegO серии �
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr class="h">
@@ -75,6 +76,7 @@ description: Автоматические регуляторы RegO серии �
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Могут использоваться после регуляторов М2523НР в качестве регулятора давления последней линии.</p>
 
@@ -97,6 +99,7 @@ description: Автоматические регуляторы RegO серии �
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -129,9 +132,11 @@ description: Автоматические регуляторы RegO серии �
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Таблица конверсии</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -168,6 +173,7 @@ description: Автоматические регуляторы RegO серии �
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

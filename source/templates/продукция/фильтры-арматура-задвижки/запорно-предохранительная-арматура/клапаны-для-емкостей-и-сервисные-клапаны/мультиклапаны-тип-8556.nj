@@ -21,6 +21,7 @@ description: Универсальные мультиклапаны RegO типа
 
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Вход</th><th colspan="2">Выход</th><th rowspan="2">Исполнение<br />маховика</th><th rowspan="2">Длина <br />контрольной<br />трубки</th></tr>
@@ -35,7 +36,9 @@ description: Универсальные мультиклапаны RegO типа
 </tr>
 </tbody>
 </table>
+</div>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">Заводская<br />настройка</th><th rowspan="3">Для использования<br />с газовыми баллонами</th><th colspan="4">Ср. пропускная способность для жидкости,<br>л/мин</th><th rowspan="3">Поток закрытия клапана*<br />л/мин (сжиженый газ)</th></tr>
@@ -52,6 +55,7 @@ description: Универсальные мультиклапаны RegO типа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Чтобы обеспечить правильное функционирование и максимальную безопасность при работе совместно со скоростными клапанами, клапан для емкостей должен быть
 полностью открыт и герметизирован во время использования.</p>
@@ -70,6 +74,7 @@ description: Универсальные мультиклапаны RegO типа
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -98,6 +103,7 @@ description: Универсальные мультиклапаны RegO типа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

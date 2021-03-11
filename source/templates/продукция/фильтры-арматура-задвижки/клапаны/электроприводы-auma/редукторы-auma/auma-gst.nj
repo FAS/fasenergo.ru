@@ -50,6 +50,7 @@ description: Цилиндрические редукторы AUMA GST от ко�
 
 <h2>Технические характеристики</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -211,6 +212,7 @@ description: Цилиндрические редукторы AUMA GST от ко�
 </tr>
 </tbody>
 </table>
+</div>
 
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>

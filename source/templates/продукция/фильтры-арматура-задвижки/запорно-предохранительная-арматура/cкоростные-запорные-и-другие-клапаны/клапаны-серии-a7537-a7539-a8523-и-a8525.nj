@@ -20,7 +20,8 @@ description: Клапаны RegO серий A7537, A7539, A8523 и A8525 от к
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Исполнение</th><th rowspan="3">А вход M.<br />NPT</th><th rowspan="3">В выход,<br />NPT</th><th rowspan="3">С прилив<br />под<br />ключ, мм</th><th rowspan="3">D длина<br />корпуса<br />(приблиз.)</th><th colspan="3">Закрытие скоростного клапана при потоке (прибл.)*</th></tr>
@@ -124,6 +125,7 @@ description: Клапаны RegO серий A7537, A7539, A8523 и A8525 от к
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* При горизонтальной установке скоростных клапанов. Потоки чуть больше, когда клапаны установлены выпускным отверстием вверх и чуть ниже, когда установлены выпускным отверстием вниз.</p>
 
@@ -142,6 +144,7 @@ description: Клапаны RegO серий A7537, A7539, A8523 и A8525 от к
 
 <h2>Материалы:</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -170,6 +173,7 @@ description: Клапаны RegO серий A7537, A7539, A8523 и A8525 от к
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

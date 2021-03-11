@@ -20,6 +20,7 @@ description:  Клапаны RegO серии A8016DBC от компании ОО
 
 <p>  </p>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Вход</th><th rowspan="2">Наполнительное соединение</th><th rowspan="2">Поток при перепаде давления <br />6,9 кПа по NH3, л/мин</th><th colspan="2">Комплектующие</th></tr>
@@ -34,6 +35,8 @@ description:  Клапаны RegO серии A8016DBC от компании ОО
 </tr>
 </tbody>
 </table>
+</div>
+
 <p>* Измерено при разнице давлений от 65,5 до 83 кПа.<br>
 ** Измерено при 689 кПа.</p>
 
@@ -53,6 +56,7 @@ description:  Клапаны RegO серии A8016DBC от компании ОО
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -85,6 +89,8 @@ description:  Клапаны RegO серии A8016DBC от компании ОО
 </tr>
 </tbody>
 </table>
+</div>
+
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

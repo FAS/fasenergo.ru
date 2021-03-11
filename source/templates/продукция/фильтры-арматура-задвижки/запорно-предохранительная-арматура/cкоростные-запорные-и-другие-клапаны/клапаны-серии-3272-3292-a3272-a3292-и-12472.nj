@@ -21,7 +21,8 @@ description: Клапаны RegO серий 3272, 3282, 3292, A3272, A3282, A329
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Материал<br />корпуса</th><th rowspan="3">А выход<br />М. NPT</th><th rowspan="3">В выход<br />F. NPT</th><th rowspan="3">С прилив<br />под ключ</th><th rowspan="3">D<br />длина<br />корпуса (приблиз.)</th><th colspan="3">Закрытие скоростного клапана при потоке (прибл.)*</th></tr>
@@ -137,6 +138,7 @@ description: Клапаны RegO серий 3272, 3282, 3292, A3272, A3282, A329
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* При горизонтальной установке скоростных клапанов. Потоки чуть больше, когда клапаны установлены выпускным отверстием вверх и чуть ниже, когда установлены выпускным отверстием вниз.</p>
 
@@ -153,6 +155,7 @@ description: Клапаны RegO серий 3272, 3282, 3292, A3272, A3282, A329
 
 <h2>Материалы Серии 3272, 3282, 3292, 7574, 12472:</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -176,6 +179,7 @@ description: Клапаны RegO серий 3272, 3282, 3292, A3272, A3282, A329
 
 <h2>Материалы Серия A3272, A3282, A3292:</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>

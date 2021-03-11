@@ -20,7 +20,8 @@ description: Линейные регуляторы газа RegO серии 1780
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -121,6 +122,7 @@ description: Линейные регуляторы газа RegO серии 1780
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Регулятор продается без манометра. Необходимо заказывать манометр отдельно.</p>
 
@@ -145,6 +147,7 @@ description: Линейные регуляторы газа RegO серии 1780
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -173,6 +176,7 @@ description: Линейные регуляторы газа RegO серии 1780
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Для работы с углекислым газом и оксидом азота: указать материал EPDM для диска седла и кольцевых уплотнений, добавить "Е" в конец номера детали по каталогу.</p>
 

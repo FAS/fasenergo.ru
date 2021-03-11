@@ -36,6 +36,7 @@ description: Многооборотные электроприводы AUMA SAN 
 
 <h2>Обзор функций/оборудования</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -152,6 +153,7 @@ description: Многооборотные электроприводы AUMA SAN 
 </tr>
 </tbody>
 </table>
+</div>
 
 <div class='h-align--center h-margin-top++'>
   <p class='h-h3 text-green h-text--nowrap'>Цена по запросу</p>

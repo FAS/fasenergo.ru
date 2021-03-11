@@ -21,6 +21,7 @@ description: Клапаны RegO тип 9106CO от компании ООО «Ф
 
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Вход</th><th>Выход</th><th>Исполнение<br />маховика</th><th>Заводская<br />настройка</th><th>Для использования<br />с баллонами для пропана</th><th>Производительность <br />л/мин (по воздуху)</th></tr>
@@ -35,6 +36,7 @@ description: Клапаны RegO тип 9106CO от компании ООО «Ф
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* площадью размещения до 2,2 кв. м.</p>
 
@@ -50,6 +52,7 @@ description: Клапаны RegO тип 9106CO от компании ООО «Ф
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -74,6 +77,7 @@ description: Клапаны RegO тип 9106CO от компании ООО «Ф
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

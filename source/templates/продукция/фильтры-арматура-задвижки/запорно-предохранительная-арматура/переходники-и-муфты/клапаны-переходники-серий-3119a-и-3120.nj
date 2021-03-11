@@ -20,7 +20,8 @@ description: Сливные клапаны-переходники RegO сери�
  
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th><span>№ изделия</span></th><th><span>Исполнение</span></th><th>
@@ -48,6 +49,7 @@ description: Сливные клапаны-переходники RegO сери�
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 
@@ -65,6 +67,7 @@ description: Сливные клапаны-переходники RegO сери�
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -77,6 +80,7 @@ description: Сливные клапаны-переходники RegO сери�
 </tr>
 </tbody>
 </table>
+</div>
 
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>

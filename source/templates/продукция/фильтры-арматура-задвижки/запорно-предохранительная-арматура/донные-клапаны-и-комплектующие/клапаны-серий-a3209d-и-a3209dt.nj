@@ -20,7 +20,8 @@ description: Донные клапаны RegO серий A3209D и A3209DT от 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Вход M.NPT</th><th rowspan="2">Выход F.NPT</th><th colspan="2">Закрытие клапана при потоке, л/мин</th><th colspan="2">Пропускная способность<br />паровой фазы при входном давлении, куб. м/ч</th><th colspan="2">Аксессуары</th></tr>
@@ -65,6 +66,7 @@ description: Донные клапаны RegO серий A3209D и A3209DT от 
 </tr>
 </tbody>
 </table>
+</div>
  
 <h2>Применение</h2>
 <p>Предназначены для работы со сжиженным газом и безводным аммиаком в качестве основного клапана на маломощных насосных системах, заправочных цистернах NH3 и в трубопроводах. Их также можно устанавливать в на газовозы для выравнивания давления при перекачке продукта. Установка простая и легкая, подходит для полной и полумуфты, как и установки в трубопровод. Клапан можно запускать вручную или с помощью троса.</p>
@@ -85,6 +87,7 @@ description: Донные клапаны RegO серий A3209D и A3209DT от 
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -113,6 +116,7 @@ description: Донные клапаны RegO серий A3209D и A3209DT от 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

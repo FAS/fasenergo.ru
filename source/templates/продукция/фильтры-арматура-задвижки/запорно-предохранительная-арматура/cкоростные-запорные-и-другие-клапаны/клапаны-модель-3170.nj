@@ -19,7 +19,8 @@ description: Клапаны RegO модель 3170 от компании ООО 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p> 
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th colspan="2">№ изделия</th><th rowspan="2">А <br />вход</th><th rowspan="2">B<br />выход</th><th rowspan="2">C<br />прилив под ключ, мм</th><th rowspan="2">D<br />длина корпуса (прибл.), мм</th><th rowspan="2">Приблизительный усредненный поток при 689 кПа на входе (по пропану, газ), куб. м/ч</th><th rowspan="2">Для применения с огранич.клапаном типа</th></tr>
@@ -46,6 +47,7 @@ description: Клапаны RegO модель 3170 от компании ООО 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 
@@ -62,6 +64,7 @@ description: Клапаны RegO модель 3170 от компании ООО 
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -86,6 +89,7 @@ description: Клапаны RegO модель 3170 от компании ООО 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

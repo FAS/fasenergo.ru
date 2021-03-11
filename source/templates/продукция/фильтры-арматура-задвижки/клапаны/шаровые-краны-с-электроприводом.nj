@@ -37,6 +37,7 @@ description: Шаровые краны с электроприводом (DN15-1
   { title: 'ФАС 100-140F', dn: 'DN100', length: '152', engine: 'ФАС 25.70A', price: '2950 €' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -62,6 +63,7 @@ description: Шаровые краны с электроприводом (DN15-1
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Технические характеристики</h2>
 

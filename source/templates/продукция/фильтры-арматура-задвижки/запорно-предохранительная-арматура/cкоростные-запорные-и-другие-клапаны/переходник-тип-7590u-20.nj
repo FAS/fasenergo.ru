@@ -19,7 +19,8 @@ description: Переходник Chek-Lok тип 7590U-20 от компании
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Входной разъем</th><th>Выходной разъем</th><th>А-прилив под ключ</th><th>В-длина корпуса (прибл.)</th></tr>
@@ -32,6 +33,7 @@ description: Переходник Chek-Lok тип 7590U-20 от компании
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 

@@ -20,7 +20,8 @@ description: Проверочные переходники RegO ACME серий 
 
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="2"><span>№ изделия</span></th><th rowspan="2"><span>Название</span></th><th rowspan="2">
@@ -55,6 +56,7 @@ description: Проверочные переходники RegO ACME серий 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Рекомендуется для предохранения от попадания чужеродных материалов в клапаны, что может привести к утечке.</p>
 

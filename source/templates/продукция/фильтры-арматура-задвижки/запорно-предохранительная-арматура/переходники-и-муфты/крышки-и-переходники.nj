@@ -20,7 +20,8 @@ description: Крышки и переходники RegO от компании �
  
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th colspan="2"><span>Крышка с цепочкой на кольце</span></th><th rowspan="2"><span>№ изделия <br />(колпачок)</span></th><th rowspan="2">
@@ -112,6 +113,7 @@ description: Крышки и переходники RegO от компании �
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Переходит в 1 ¼" F. ACME</p>
 

@@ -19,7 +19,8 @@ description: Переходники типа Union для клапанов се�
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th>№ изделия</th><th>Вход</th><th>Выход</th><th>А, прилив под ключ, мм</th><th>В, длина корпуса (прибл.)</th></tr>
@@ -32,6 +33,7 @@ description: Переходники типа Union для клапанов се�
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 

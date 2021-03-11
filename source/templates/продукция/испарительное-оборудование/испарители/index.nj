@@ -46,6 +46,7 @@ description: Электрические испарители сжиженных 
   {  artitle: 'ФАС№ 20.0013/SE-A', title: '<a href="/продукция/испарительное-оборудование/испарители/фас-13-se-a/">Испаритель ФАС 13 SE-A </a>', performance: '13 кг/ч' , price: '800 €' }    
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -69,6 +70,7 @@ description: Электрические испарители сжиженных 
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 {# @todo Missing Испарители 40-300SE renders #}
 {% set pageEqElPhotos = [

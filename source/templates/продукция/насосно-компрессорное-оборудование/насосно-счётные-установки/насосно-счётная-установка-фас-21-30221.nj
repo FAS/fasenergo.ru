@@ -24,6 +24,7 @@ description: Насосно-счётная установка стационар
   { title: 'ФАС№ 21.30221', counter: 'LPGmass', measurement: 'В литрах<br>и кг', pump: 'ФАС Z2000', performance: 'до 220', price: '925&nbsp;500&nbsp;₽' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -51,6 +52,7 @@ description: Насосно-счётная установка стационар
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Технические данные</h2>
 

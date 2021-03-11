@@ -29,11 +29,11 @@ description: Продажа бензиновых электрогенерато�
 >
   <div class=' o-grid h-childs-displace+'>
 
-    <div class='o-grid__item h-2/7'>
+    <div class='o-grid__item h-7/7 h-2/7@lap'>
       <a href='/продукция/бензиновые-генераторы/ммз/фас-40-3-мп-40-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--front--closed.jpg' srcset='/assets/images/equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--front--closed.jpg 1200w' alt='Газовый генератор ФАС-40-3/МП (40 кВт)'></a>
     </div>
 
-    <div class='o-grid__item h-3/7'>
+    <div class='o-grid__item h-7/7 h-3/7@lap'>
       <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ммз/фас-40-3-мп-40-квт' class='js-metrica-gensets-click-genset-card'>ФАС-40-3/МП</a></h2>
       <p>
         Мощность: <strong>40 кВт</strong><br>
@@ -43,7 +43,7 @@ description: Продажа бензиновых электрогенерато�
       </p>
     </div>
 
-    <div class='o-grid__item h-2/7'>
+    <div class='o-grid__item h-7/7 h-2/7@lap'>
 
     
       <p aria-label='Цена: 1,60 млн рублей' class='h-h5'>
@@ -93,11 +93,11 @@ description: Продажа бензиновых электрогенерато�
 >
   <div class=' o-grid h-childs-displace+'>
 
-    <div class='o-grid__item h-2/7'>
+    <div class='o-grid__item h-7/7 h-2/7@lap'>
       <a href='/продукция/бензиновые-генераторы/ммз/фас-50-3-мп-50-квт' class='js-metrica-gensets-click-genset-card h-border-bottom0'><img src='/assets/images/equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--front--closed.jpg' srcset='/assets/images/equipment/газовые-генераторы/фас-мп/газовый-генератор-фас-мп--front--closed.jpg 1200w' alt='Газовый генератор ФАС-50-3/МП (50 кВт)'></a>
     </div>
 
-    <div class='o-grid__item h-3/7'>
+    <div class='o-grid__item h-7/7 h-3/7@lap'>
       <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='/продукция/бензиновые-генераторы/ммз/фас-50-3-мп-50-квт' class='js-metrica-gensets-click-genset-card'>ФАС-50-3/МП</a></h2>
       <p>
         Мощность: <strong>50 кВт</strong><br>
@@ -107,7 +107,7 @@ description: Продажа бензиновых электрогенерато�
       </p>
     </div>
 
-    <div class='o-grid__item h-2/7'>
+    <div class='o-grid__item h-7/7 h-2/7@lap'>
 
       
       <p aria-label='Цена: 1,640 млн рублей' class='h-h5'>

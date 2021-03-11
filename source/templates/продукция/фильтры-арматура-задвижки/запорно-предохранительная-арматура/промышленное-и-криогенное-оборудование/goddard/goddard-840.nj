@@ -40,6 +40,7 @@ description: Обратный затвор Goddard Goddard 840, включая 8
 
 <p><strong>Резьбовые торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -102,11 +103,13 @@ description: Обратный затвор Goddard Goddard 840, включая 8
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 <p><strong>Паяные серебром - трубные ниппели</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -169,6 +172,7 @@ description: Обратный затвор Goddard Goddard 840, включая 8
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Номинальный размер</p>
 
@@ -182,6 +186,7 @@ description: Обратный затвор Goddard Goddard 840, включая 8
 
 <p><strong>Резьбовые торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -235,12 +240,14 @@ description: Обратный затвор Goddard Goddard 840, включая 8
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 
 <p><strong>Паяные серебром - трубные ниппели</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -303,6 +310,7 @@ description: Обратный затвор Goddard Goddard 840, включая 8
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Номинальный размер</p>
 <p>Необходимо связаться с компанией для получения информации о резьбовых, паяных с подложкой трубных ниппелях.</p>
@@ -325,6 +333,7 @@ description: Обратный затвор Goddard Goddard 840, включая 8
 ) }}
 
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -389,6 +398,7 @@ description: Обратный затвор Goddard Goddard 840, включая 8
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
@@ -404,6 +414,7 @@ description: Обратный затвор Goddard Goddard 840, включая 8
   center = true  
 ) }}
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -468,6 +479,7 @@ description: Обратный затвор Goddard Goddard 840, включая 8
 </tr>
 </tbody>
 </table>
+</div>
 
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>

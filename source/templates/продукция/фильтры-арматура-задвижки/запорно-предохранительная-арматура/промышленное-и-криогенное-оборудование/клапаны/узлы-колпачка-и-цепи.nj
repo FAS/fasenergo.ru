@@ -19,7 +19,8 @@ description: Узлы латунного выходного колпачка и 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p> </p>
- 
+
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr class="h" align="center">
@@ -39,6 +40,7 @@ description: Узлы латунного выходного колпачка и 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

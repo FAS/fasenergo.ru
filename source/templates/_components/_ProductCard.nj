@@ -85,11 +85,11 @@
 >
   <div class=' o-grid h-childs-displace+'>
 
-    <div class='o-grid__item h-2/7'>
+    <div class='o-grid__item h-7/7 h-2/7@lap'>
       <a href='{{ url }}' class='{{ linksClass }} h-border-bottom0'><img src='{{ photo }}' srcset='{{ imageSize(photo).srcset() }}' alt='{{ title|striptags }}'></a>
     </div>
 
-    <div class='o-grid__item h-3/7'>
+    <div class='o-grid__item h-7/7 h-3/7@lap'>
       <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}' class='{{ linksClass }}'>{{ model }}</a></h2>
       <p>
         Мощность: <strong>{{ power }} кВт</strong><br>
@@ -99,7 +99,7 @@
       </p>
     </div>
 
-    <div class='o-grid__item h-2/7'>
+    <div class='o-grid__item h-7/7 h-2/7@lap'>
 
       {% if price %}
 

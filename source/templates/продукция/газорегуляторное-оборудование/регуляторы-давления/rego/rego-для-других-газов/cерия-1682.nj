@@ -21,7 +21,8 @@ description: Алюминиевые регуляторы давления RegO �
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -80,6 +81,7 @@ description: Алюминиевые регуляторы давления RegO �
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Манометр не входит в объем поставки.</p>
 
@@ -101,6 +103,7 @@ description: Алюминиевые регуляторы давления RegO �
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -121,6 +124,7 @@ description: Алюминиевые регуляторы давления RegO �
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

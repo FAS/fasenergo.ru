@@ -13,7 +13,18 @@
 {% set mainLayoutPhone = Phone(mainLayoutE.phones[0], showAdd = false) %}
 {% set mainLayoutEmail = Email(mainLayoutE.emails[0]) %}
 
-<div class='Sidebar Wrapper--sidebar h-fixed h-left h-top h-bottom '>
+<header class="Mobile-header">
+  <a class='Mobile-header__logo' href='{{ localeDir() }}'>
+    <img class="Mobile-header__logo-img" src='{{ SITE.logo }}' srcset='{{ imageSize(SITE.logo).srcset() }}' alt='{{ SITE.name }}' class='h-align--middle'>
+  </a>
+  <a class="Mobile-header__menu-btn js-mobile-menu-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6ZM2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12ZM3 17C2.44772 17 2 17.4477 2 18C2 18.5523 2.44772 19 3 19H21C21.5523 19 22 18.5523 22 18C22 17.4477 21.5523 17 21 17H3Z" fill="white"/>
+    </svg>
+  </a>
+</header>
+
+<div class='Sidebar Wrapper--sidebar js-mobile-menu h-fixed h-left h-top h-bottom '>
   <div class='t-secondary h-overflow--auto h-padding h-padding-right+ h-height-1/1'>
 
     <!-- Header -->
@@ -25,7 +36,6 @@
       </a>
       <p class='h-text- h-font-weight--light h-margin-top-- h-line-height1.5'>{{ SITE.description }}</p>
     </header>
-
     <!--noindex-->
     <nav class='Nav h-margin-ends+'>
       {{ Nav(
@@ -74,7 +84,7 @@
         {% endif %}
 
         {% if PAGE.showContentTitle %}
-        <h1 class='Content-title h-margin-bottom+'>{{ PAGE.contentTitle }}</h1>
+        <h1 class='h-h2 h-h1@lap Content-title h-margin-bottom h-margin-bottom+@lap'>{{ PAGE.contentTitle }}</h1>
         {% endif %}
 
       </header>
@@ -97,14 +107,14 @@
     <div class='{{ 'Wrapper--content' if (PAGE.applyWrapperContent or PAGE.forceFooterWrapperContent) }} h-1/1'>
       <div class='o-grid h-childs-displace+'>
 
-        <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
+        <div class='o-grid__item h-3/3 h-2/3@lap h-text- h-childs-margin-bottom--'>
           <p>Вся представленная информация на данном сайте носит информационный характер, и ни при каких условиях не является публичной или иной офертой, определяемой положениями Гражданского кодекса РФ.</p>
           <p>Все материалы, размещённые на сайте, защищены авторским правом. Любое коммерческое использование, воспроизведение, распространение, изменение, передача или преобразование либо любой другой тип распространения информации или элементов, содержащихся на Веб-сайте, с помощью любых средств, прямо не разрешенных компанией ООО "Фасэнергомаш", строго запрещено.</p>
           <p><a href='https://fasenergo.com' target='_blank'>English version</a></p>
           <p>© 2006 – {{ moment().year() }} ООО «Фасэнергомаш»</p>
         </div>
 
-        <div class='o-grid__item h-1/3 h-align--right'>
+        <div class='o-grid__item h-3/3 h-1/3@lap h-align--center h-align--right@lap'>
 
           {# @todo Disabled due to https://trello.com/c/vUXuThbW/92-- #}
           {# <form class='Field-group Field-group- h-margin-bottom h-margin-left--auto' style='max-width: 230px'>

@@ -19,6 +19,7 @@ description: Система автоматизации АГЗС. Полная с
   { title: 'Источник бесперебойного питания', desc: '1000 VA', price: 'По запросу' }  
 ] %}
 
+<div class="Table-responsive"> 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -37,6 +38,7 @@ description: Система автоматизации АГЗС. Полная с
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 {% set pageEq = [
   { title: 'База данных «Сервер»', desc: 'Устанавливается на сервер, записывается, хранится и обрабатывается вся информация системы', price: 'По запросу' },
@@ -52,6 +54,7 @@ description: Система автоматизации АГЗС. Полная с
 </ul>', price: 'По запросу' }
 ] %}
 
+<div class="Table-responsive"> 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -70,6 +73,7 @@ description: Система автоматизации АГЗС. Полная с
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>На каждую АЗС</h2>
 
@@ -99,6 +103,7 @@ description: Система автоматизации АГЗС. Полная с
 </ul>', price: 'По запросу' }
 ] %}
 
+<div class="Table-responsive"> 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -117,6 +122,7 @@ description: Система автоматизации АГЗС. Полная с
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Инжиниринговые работы на одну АГЗС</h2>
 
@@ -125,6 +131,7 @@ description: Система автоматизации АГЗС. Полная с
   { title: 'Командировочные расходы в сутки', price: 'По запросу' }
 ] %}
 
+<div class="Table-responsive"> 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -141,6 +148,7 @@ description: Система автоматизации АГЗС. Полная с
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Примечания</h2>
 

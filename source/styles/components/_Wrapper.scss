@@ -3,8 +3,13 @@
 // =============================================================================
 
 .Wrapper {
-  padding-left:  $wrapper-padding-left;
-  padding-right: $wrapper-padding-right;
+  padding-left: $wrapper-padding-left / 3;
+  padding-right: $wrapper-padding-left / 3;
+
+  @include ekzo-breakpoint(phone) {
+    padding-left:  $wrapper-padding-left;
+    padding-right: $wrapper-padding-right;
+  }
 
   @include ekzo-breakpoint(lap) { padding-left: $wrapper-padding-left-lap; }
 }
@@ -16,7 +21,7 @@
   @include ekzo-breakpoint(lap) { margin-left: -$wrapper-padding-left-lap; }
 }
 
-.Wrapper-v    {
+.Wrapper-v {
   padding-top:    $wrapper-padding-top;
   padding-bottom: $wrapper-padding-bottom;
 }
@@ -24,9 +29,32 @@
 // ----
 // Width of website
 
-.Wrapper--site          { min-width: $site-min-width; }
-.Wrapper--sidebar       { width: $sidebar-width; }
-.Wrapper--sidebar-shift { padding-left: $sidebar-width; }
+.Wrapper--site {
+  min-width: 0;
+
+  @include ekzo-breakpoint(lap) {
+    min-width: $site-min-width;
+  }
+}
+
+.Wrapper--sidebar {
+  width: 76%;
+  display: none;
+
+  &-shift {
+    padding-left: 0;
+
+    @include ekzo-breakpoint(lap) {
+      padding-left: $sidebar-width;
+    }
+  }
+
+  @include ekzo-breakpoint(lap) {
+    display: block;
+    width: $sidebar-width;
+  }
+}
+
 .Wrapper--main          { @include ekzo-breakpoint(desk) { max-width: $main-width; } }
 .Wrapper--container     { max-width: $main-width; }
 .Wrapper--content       { max-width: 900px; }

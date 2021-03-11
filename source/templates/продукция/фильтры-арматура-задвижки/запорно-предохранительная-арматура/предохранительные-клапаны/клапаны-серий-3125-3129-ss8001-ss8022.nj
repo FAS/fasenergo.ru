@@ -19,7 +19,8 @@ description: Предохранительны клапаны RegO серий 312
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="3">№ изделия</th><th rowspan="3">Пороговое давление срабат., кПа</th><th rowspan="3">Материал корпуса</th><th rowspan="3">А, разъем для резервуара M.NPT</th><th rowspan="3">B, общая высота (прибл.), мм</th><th rowspan="3">D, ключ для установки</th><th colspan="2">Комплектующие</th></tr>
@@ -261,6 +262,7 @@ description: Предохранительны клапаны RegO серий 312
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Выходное соединение 1/2’’ F. NPT</p>
 
@@ -279,6 +281,7 @@ description: Предохранительны клапаны RegO серий 312
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -299,6 +302,7 @@ description: Предохранительны клапаны RegO серий 312
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

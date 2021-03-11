@@ -51,7 +51,7 @@
 {% endif %}
 {% endmacro %}
 
-<article class='{{ class }} {{ 'o-media o-media+' if size != 'small' }} discount-badge discount-badge+ h-margin-bottom'>
+<article class='{{ class }} {{ 'o-media o-media+' if size != 'small' }} discount-badge discount-badge+ h-margin-bottom h-flex--wrap h-flex--nowrap@lap'>
 
   {% if discount and isActiveEvent(discountDate) %}
   <span class='discount-badge__badge'>
@@ -82,7 +82,7 @@
 
   <div class='o-media__content'>
 
-    <h{{ hLevel }} class='h-margin-top0 h-margin-bottom0'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h{{ hLevel }}>
+    <h{{ hLevel }} class='h-h3 h-h2@lap h-margin-top h-margin-top0@lap h-margin-bottom0'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h{{ hLevel }}>
 
     {{ MacroPower() }}
 

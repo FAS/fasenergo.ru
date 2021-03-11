@@ -19,7 +19,8 @@ description: Предохранительны клапаны RegO серий 758
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">изделия</th><th rowspan="2">Пороговое давление срабат., кПа</th><th rowspan="2">А, соединение для резервуара M.NPT</th><th rowspan="2">B, общая высота (прибл.), мм</th><th rowspan="2">С, выступает над резервуаром (прибл.), мм</th><th rowspan="2">D, ключ для установки</th><th colspan="2">Поток по воздуху, куб. м/мин</th><th rowspan="2">Для резервуаров с площадью поверхности до*, кв.м</th><th rowspan="2">№ защитного колпачка (в компл.)</th></tr>
@@ -60,6 +61,7 @@ description: Предохранительны клапаны RegO серий 758
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 <p>Предназначены для использования в качестве первичных предохранительных клапанов в резервуарах ASME, например в резервуарах объемом 1137 л, 2273 л или 4546 л.</p>
@@ -75,6 +77,7 @@ description: Предохранительны клапаны RegO серий 758
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -95,6 +98,7 @@ description: Предохранительны клапаны RegO серий 758
 </tr>
 </tbody>
 </table>
+</div>
 
 <hr>
  
@@ -106,6 +110,7 @@ description: Предохранительны клапаны RegO серий 758
 
 <p>  </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Пороговое давление срабат., кПа</th><th rowspan="2">Cоединение для резервуара M. NPT</th><th colspan="2">Поток по воздуху*, куб.м/мин</th><th rowspan="2">Для резервуаров с площадью поверхности до*, кв.м</th><th colspan="2">Комплектующие</th></tr>
@@ -129,6 +134,7 @@ description: Предохранительны клапаны RegO серий 758
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Скорости потоков представлены для предохранительных клапанов без комплектации. Переходники и сбросовые трубопроводы уменьшают поток, как указано в осн. информации.<br>
 ** Согласно документу NFPA № 58, Приложение D. Площадь представлена по потоку UL или ASME - в зависимости от большего значения.<br>
@@ -148,6 +154,7 @@ description: Предохранительны клапаны RegO серий 758
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -168,6 +175,7 @@ description: Предохранительны клапаны RegO серий 758
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

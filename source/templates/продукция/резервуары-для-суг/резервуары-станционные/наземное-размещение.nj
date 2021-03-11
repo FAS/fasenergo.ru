@@ -34,6 +34,7 @@ description: 'Станционные (для АГЗС) наземные резе
   { title: 'ФАС-10-НС(Д)', volume: '10 м³', diam: 'Двустенный', price: '1 088 500 руб.' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -57,5 +58,6 @@ description: 'Станционные (для АГЗС) наземные резе
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 {% endblock %}

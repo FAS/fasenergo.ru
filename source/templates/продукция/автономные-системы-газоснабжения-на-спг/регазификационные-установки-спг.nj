@@ -51,6 +51,7 @@ description: Регазификационные установки сжижен�
   { title: 'FAS 40', volume: '41 м³', evaporator: '1+1', potok: 720 }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -74,6 +75,7 @@ description: Регазификационные установки сжижен�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p>Регазифиционные установки, как правило, поставляются для стационарного использования (вертикального или горизонтального исполнения). Однако для многих объектов удобными являются мобильные решения – танк-контейнер SKID в связке с мобильным испарителем (СПГ SAT BLOCK).</p>
 
@@ -111,6 +113,7 @@ description: Регазификационные установки сжижен�
   { rezervuar: 'ABC', volume: '41 м³', pressure: 11 }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -130,6 +133,7 @@ description: Регазификационные установки сжижен�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <strong>Технические характеристики испарительного блока</strong>
 
@@ -139,6 +143,7 @@ description: Регазификационные установки сжижен�
   { title: '40 FT', surface: '432', power: '15', time: '24', evaporator: '1+1' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -162,6 +167,7 @@ description: Регазификационные установки сжижен�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <strong>Мощность испарителя (длительность включения – 2 дня / 48 часов)</strong>
 
@@ -171,6 +177,7 @@ description: Регазификационные установки сжижен�
   { title: '40 FT', potok: '870' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -188,6 +195,7 @@ description: Регазификационные установки сжижен�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 
 <strong>Мощность испарителя (длительность включения – 4 дня / 96 часов)</strong>
@@ -198,6 +206,7 @@ description: Регазификационные установки сжижен�
   { title: '40 FT', potok: '720' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -215,6 +224,7 @@ description: Регазификационные установки сжижен�
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <strong>Мощность испарителя (длительность включения – 7 дней / 168 часов)</strong>
 
@@ -224,6 +234,7 @@ description: Регазификационные установки сжижен�
   { title: '40 FT', potok: '600' }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -241,4 +252,5 @@ description: Регазификационные установки сжижен�
     {% endfor %}
   </tbody>
 </table>
+</div>
 {% endblock %}

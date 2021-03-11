@@ -20,7 +20,7 @@ description: Короткие переходники для шлангов RegO 
 
 
 <p>  </p>
-  
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th><span>№ изделия</span></th><th><span>Материал</span></th><th>
@@ -144,6 +144,7 @@ description: Короткие переходники для шлангов RegO 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Линейные размеры в мм, если не указано особо.</p>
 

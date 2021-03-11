@@ -19,7 +19,8 @@ description: Предохранительны клапаны RegO серий AA3
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Поро-<br />говое давление срабат., кПа</th><th rowspan="2">А, соеди-<br />нение для резер-<br />вуара M.NPT</th><th rowspan="2">B, общая высота (прибл.), мм</th><th rowspan="2">D, ключ для уста-<br />новки</th><th colspan="2">Поток по воздуху, куб. м/мин (a)</th><th rowspan="2">Для резер-<br />вуаров площадью поверх-<br />ности до, кв.м (е)</th><th colspan="4">Комплектующие</th></tr>
@@ -214,6 +215,7 @@ description: Предохранительны клапаны RegO серий AA3
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>(a) Поток для предохранительных клапанов без комплектации. Переходники и стравливающие трубопроводы уменьшают поток, как указано в основной информации.<br>
 (b) Не указано ни в UL, ни в ASME. Действительная площадь 0,38 кв. см.<br>
@@ -241,6 +243,7 @@ description: Предохранительны клапаны RegO серий AA3
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -279,6 +282,7 @@ description: Предохранительны клапаны RegO серий AA3
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

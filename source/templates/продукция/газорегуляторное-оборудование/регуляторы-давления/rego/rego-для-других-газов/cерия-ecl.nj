@@ -19,7 +19,8 @@ description: Криогенные экономайзеры RegO серии ECL �
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -55,6 +56,7 @@ description: Криогенные экономайзеры RegO серии ECL �
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Обратиться на завод-изготовитель за дополнительными настройками.</p>
 
@@ -77,6 +79,7 @@ description: Криогенные экономайзеры RegO серии ECL �
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -105,6 +108,7 @@ description: Криогенные экономайзеры RegO серии ECL �
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

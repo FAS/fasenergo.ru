@@ -48,6 +48,7 @@ description: Самовсасывающие установки с насосом
   }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -79,6 +80,7 @@ description: Самовсасывающие установки с насосом
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Конструктивные особенности</h2>
 

@@ -21,7 +21,8 @@ description: Вакуумные муфты Goddard Quikonnect из латуни,
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p> </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -188,6 +189,7 @@ description: Вакуумные муфты Goddard Quikonnect из латуни,
 </tr>
 </tbody>
 </table>
+</div>
 
 
 <h2>Характеристики</h2>

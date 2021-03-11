@@ -19,7 +19,8 @@ description: Клапаны RegO серий A3400L4 и A3400L6 от компан
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p> 
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">A,<br />фланцевый разъем F.NPT</th><th rowspan="2">В<br />прилив под ключ</th><th rowspan="2">С<br />длина корпуса</th><th rowspan="2">D<br />длина хвостовика с резьбой</th><th colspan="4">Пропускная способность по жидк. пропану при давлении (л/мин)</th></tr>
@@ -47,6 +48,7 @@ description: Клапаны RegO серий A3400L4 и A3400L6 от компан
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>ПРИМЕЧАНИЕ: Для установки в соединениях фланцевого резервуара с внутренними резьбами, см. раздел «Фланцевая установка в резервуар» главы «Ограничительные клапаны». Умножьте скорость потока на 0,94 для определения объема жидкого бутана.</p>
 
@@ -64,6 +66,7 @@ description: Клапаны RegO серий A3400L4 и A3400L6 от компан
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -92,6 +95,7 @@ description: Клапаны RegO серий A3400L4 и A3400L6 от компан
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

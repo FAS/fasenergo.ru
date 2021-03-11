@@ -20,7 +20,8 @@ description: Медные соединительные трубки RegO от к
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
  
 <h2>Прямые трубки</h2>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="3"><span>Разъем</span></th><th rowspan="3">Прибл. <br />длина, мм</th><th colspan="3">
@@ -141,9 +142,11 @@ description: Медные соединительные трубки RegO от к
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Изогнутые трубки</h2>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="3"><span>Разъем</span></th><th rowspan="3"><span>Длина, <br />см приблиз.</span></th><th>
@@ -186,6 +189,7 @@ description: Медные соединительные трубки RegO от к
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Характеристики</h2>
 
@@ -197,6 +201,7 @@ description: Медные соединительные трубки RegO от к
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -209,6 +214,7 @@ description: Медные соединительные трубки RegO от к
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

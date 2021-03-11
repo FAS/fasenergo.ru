@@ -19,7 +19,8 @@ description: Донные клапаны RegO серии A3219 от компан
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия*</th><th rowspan="2">Вход</th><th rowspan="2">Выход</th><th colspan="2">Закрытие клапана <br />при потоке, л/мин</th><th colspan="2">Аксессуары</th></tr>
@@ -40,6 +41,7 @@ description: Донные клапаны RegO серии A3219 от компан
 </tr>
 </tbody>
 </table>
+</div>
  
 <p>* Клапан поставляется с 16 гайками и 8 вставками для монтажа. ** Измененное отверстие = диаметр 149 мм с уступом 203 мм.<p>
 
@@ -83,6 +85,7 @@ description: Донные клапаны RegO серии A3219 от компан
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -127,6 +130,7 @@ description: Донные клапаны RegO серии A3219 от компан
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

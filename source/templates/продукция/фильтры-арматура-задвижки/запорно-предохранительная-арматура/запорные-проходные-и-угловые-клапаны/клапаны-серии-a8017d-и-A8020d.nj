@@ -21,6 +21,7 @@ description:  Клапаны RegO серии А8017D и A8020D от компан
 
 <p>  </p>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Вход (M. NPT)</th><th rowspan="2">Выход (F. NPT)</th><th rowspan="2">Закрытие скоростного <br />клапана при потоке,<br />по пропану**, л/мин</th><th colspan="2">Комплектующие</th></tr>
@@ -53,6 +54,7 @@ description:  Клапаны RegO серии А8017D и A8020D от компан
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Встроенный автоматический обратный клапан в запорном клапане.<br>
 ** Измерено при разнице давлений от 79 до 93 кПа для выхода 3/4" и при разнице давлений от 62 до 83 кПа для выхода 1". Для рассчета по NH3 умножьте на 0,90.</p>
@@ -75,6 +77,7 @@ description:  Клапаны RegO серии А8017D и A8020D от компан
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -107,6 +110,7 @@ description:  Клапаны RegO серии А8017D и A8020D от компан
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

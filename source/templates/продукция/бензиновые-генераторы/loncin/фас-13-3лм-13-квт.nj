@@ -30,13 +30,13 @@ description: Недорогой трехфазный бензиновый ген
   <header property='offers' typeof='Offer' class='o-grid h-childs-displace h-flex-y--center h-margin-bottom'>
     <meta property='priceCurrency' content='RUB' />
 
-    <div class='o-grid__item h-5/9 h-1/3@lap h-align--center'>
+    <div class='o-grid__item h-9/9 h-1/3@lap h-align--center'>
       <a class='h-border-bottom0 js-smooth-jump' href='#photos'>
         <img src='/assets/images/equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--1--front.jpg' srcset='/assets/images/equipment/газовые-генераторы/ФАС-ЛМ/Газовый-генератор-ФАС-ЛМ--1--front.jpg 1200w' alt='Бензиновый генератор ФАС-13-3/ЛМ (13 кВт)'>
       </a>
     </div>
 
-    <div class='o-grid__item h-4/9 h-2/3@lap'>
+    <div class='o-grid__item h-9/9 h-2/3@lap'>
       <div class='o-grid h-flex-y--center h-childs-displace'>
 
         <div class='o-grid__item h-1/1 h-1/2@lap h-order--last h-order--first@lap h-align--center h-margin-top+ h-margin-top0@lap'>
@@ -178,7 +178,7 @@ description: Недорогой трехфазный бензиновый ген
 
     <section class='o-grid h-childs-displace+'>
 
-      <div class='o-grid__item h-1/2'>
+      <div class='o-grid__item h-2/2 h-1/2@lap'>
 
         <h3 class='h-h5'>Установка:</h3>
 
@@ -205,7 +205,7 @@ description: Недорогой трехфазный бензиновый ген
 
       </div>
 
-      <div class='o-grid__item h-1/2'>
+      <div class='o-grid__item h-2/2 h-1/2@lap'>
 
         <h3 class='h-h5'>Двигатель:</h3>
 
@@ -243,7 +243,7 @@ description: Недорогой трехфазный бензиновый ген
       
 
       
-      <article class='o-grid__item h-1/4'>
+      <article class='o-grid__item h-2/4 h-1/4@lap h-margin-bottom+'>
 
         
         <p>
@@ -259,7 +259,7 @@ description: Недорогой трехфазный бензиновый ген
       
 
       
-      <article class='o-grid__item h-1/4'>
+      <article class='o-grid__item h-2/4 h-1/4@lap h-margin-bottom+'>
 
         
         <p>
@@ -275,7 +275,7 @@ description: Недорогой трехфазный бензиновый ген
       
 
       
-      <article class='o-grid__item h-1/4'>
+      <article class='o-grid__item h-2/4 h-1/4@lap h-margin-bottom+'>
 
         
         <p>
@@ -292,7 +292,7 @@ description: Недорогой трехфазный бензиновый ген
 
       
       
-      <article class='o-grid__item h-1/4'>
+      <article class='o-grid__item h-2/4 h-1/4@lap h-margin-bottom+'>
 
         
         <p>

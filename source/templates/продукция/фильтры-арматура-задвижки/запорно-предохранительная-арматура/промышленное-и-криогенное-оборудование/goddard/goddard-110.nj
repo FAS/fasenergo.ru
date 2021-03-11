@@ -19,7 +19,8 @@ description: Задвижка серия Goddard 110 из нержавеющей
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <h2>Корпус из нержавеющей стали. Торцы - фланец RF</h2>
- 
+
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -108,13 +109,15 @@ description: Задвижка серия Goddard 110 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Класс 150# ANSI (275 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).<br>
 Класс 300# ANSI (720 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).</p>
 
 
 <h2>Корпус из нержавеющей стали. Торцы - стыковой сварной шов, сварной шов внахлест, резьбовое соединение</h2>
- 
+
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -323,6 +326,7 @@ description: Задвижка серия Goddard 110 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Класс 150# ANSI (275 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).<br>
 Класс 300# ANSI (720 фунтов на кв. дюйм, маном. давление при температуре холодной обработки).</p>
@@ -359,6 +363,7 @@ description: Задвижка серия Goddard 110 из нержавеющей
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -435,6 +440,7 @@ description: Задвижка серия Goddard 110 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Имеются в наличии специальные размеры В,К,Х и Y.</p>
 
@@ -448,6 +454,7 @@ description: Задвижка серия Goddard 110 из нержавеющей
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -522,6 +529,7 @@ description: Задвижка серия Goddard 110 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
 
 <ul>
 <li>* Присоединяемые размеры (А) приводятся по стандарту Goddard, а не по стандарту ANSI.</li>
@@ -538,6 +546,7 @@ description: Задвижка серия Goddard 110 из нержавеющей
 
 <p> </p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -632,6 +641,7 @@ description: Задвижка серия Goddard 110 из нержавеющей
 </tr>
 </tbody>
 </table>
+</div>
 
 <ul>
 <li>Имеются в наличии специальные размеры В,К,Х и Y.</li>

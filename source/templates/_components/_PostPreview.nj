@@ -18,7 +18,7 @@
     <time datetime='{{ date }}'>{{ moment(date).format('DD.MM.YYYY') }}</time>
   </header>
 
-  <div class='o-media o-media+'>
+  <div class='o-media o-media+ h-flex--wrap h-flex--nowrap@lap'>
 
     {% if image %}
     <div class='o-media__aside' style='width: 190px'>

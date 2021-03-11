@@ -53,6 +53,7 @@ description: Неполнооборотные электроприводы AUMA 
 
 <h3>Неполнооборотные приводы для режима "Открыто-закрыто":</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -113,9 +114,11 @@ description: Неполнооборотные электроприводы AUMA 
 </tr>
 </tbody>
 </table>
+</div>
 
 <h3>Неполнооборотные приводы для режима регулирования:</h3>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -172,6 +175,7 @@ description: Неполнооборотные электроприводы AUMA 
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>Крутящий момент: 25 Нм - 500 Нм.<br>Время поворота на 90°: 4 с - 90 с.</p>
 

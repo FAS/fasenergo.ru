@@ -19,7 +19,8 @@ description: Донные клапаны RegO серии А3213R от компа
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th rowspan="2">№ изделия</th><th rowspan="2">Вход<br />M.NPT</th><th rowspan="2">Выход<br />F.NPT</th><th colspan="2">Закрытие клапанов<br />в полумуфтах<br />при потоке, л/мин</th><th colspan="2">Закрытие клапанов<br />в муфтах при потоке, л/мин</th><th colspan="2">Производит.-сть<br />по газообр. фазе<br />при входном давлении, <br />куб. м/ч</th><th rowspan="2">A</th><th rowspan="2">B</th><th rowspan="2">C</th><th rowspan="2">D</th><th rowspan="2">E</th><th rowspan="2">F</th><th colspan="2">Дополнительные<br />принадлежности</th></tr>
@@ -114,6 +115,7 @@ description: Донные клапаны RegO серии А3213R от компа
 </tr>
 </tbody>
 </table>
+</div>
  
 <h2>Применение</h2>
 <p>Предназначены для работы со сжиженным газом и безводным аммиаком для отбора жидкой или газообразной фазы или выравнивания давления по газообразной фазе на газовозах, транспортных системах, в стационарных емкостях и трубопроводах. Клапаном можно управлять с помщью тросика механическим или пневматическим способом.</p>
@@ -134,6 +136,7 @@ description: Донные клапаны RegO серии А3213R от компа
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -162,6 +165,7 @@ description: Донные клапаны RegO серии А3213R от компа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

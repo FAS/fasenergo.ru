@@ -20,7 +20,8 @@ description: Заглушки RegO POL от компании ООО «Фасэн
  
 
 <p>  </p>
-  
+
+<div class="Table-responsive">  
 <table class='Table'>
 <thead>
 <tr><th><span>№ изделия</span></th><th><span>Материал</span></th><th>
@@ -44,6 +45,7 @@ description: Заглушки RegO POL от компании ООО «Фасэн
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Применение</h2>
 

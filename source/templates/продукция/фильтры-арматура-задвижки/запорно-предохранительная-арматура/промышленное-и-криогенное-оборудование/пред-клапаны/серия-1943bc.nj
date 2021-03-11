@@ -19,7 +19,8 @@ description: Предохранительные клапаны RegO серии �
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -92,6 +93,7 @@ description: Предохранительные клапаны RegO серии �
 </tr>
 </tbody>
 </table>
+</div>
 
 * Переходник откачки продается отдельно.
 ** Необходимо связаться с заводом-изготовителем для получения дополнительных уставок.
@@ -110,6 +112,7 @@ description: Предохранительные клапаны RegO серии �
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -138,6 +141,7 @@ description: Предохранительные клапаны RegO серии �
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

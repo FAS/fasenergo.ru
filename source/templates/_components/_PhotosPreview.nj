@@ -26,7 +26,7 @@
       src = photoUrl,
       alt = photos[0].alt or alt,
       class = 'h-margin-ends0',
-      linkStyle = link_style or 'height: 600px',
+      linkStyle = link_style or 'height: auto',
       imgClass = 'h-height-1/1 h-margin-bottom0',
       imgStyle = 'object-fit: contain;',
       linkGrid = grid_link,

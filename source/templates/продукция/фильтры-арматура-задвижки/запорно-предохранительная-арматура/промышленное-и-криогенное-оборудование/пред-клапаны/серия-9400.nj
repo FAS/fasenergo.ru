@@ -20,7 +20,8 @@ description: Предохранительные клапаны RegO серии 9
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
 
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -133,6 +134,9 @@ description: Предохранительные клапаны RegO серии 9
 </tr>
 </tbody>
 </table>
+</div>
+
+
 <h2>Применение</h2>
 <p>Эти предохранительные клапаны специально предназначены для теплового предохранения и криогенных емкостей с жидкостью.</p>
 
@@ -150,6 +154,7 @@ description: Предохранительные клапаны RegO серии 9
 
 <h2>Материалы</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -184,6 +189,7 @@ description: Предохранительные клапаны RegO серии 9
 </tr>
 </tbody>
 </table>
+</div>
 
 <h2>Параметры потока</h2>
 
@@ -215,6 +221,7 @@ description: Предохранительные клапаны RegO серии 9
 
 <h2>Цветовая идентификация</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -248,7 +255,7 @@ description: Предохранительные клапаны RegO серии 9
 </tr>
 </tbody>
 </table>
-
+</div>
 
 
 

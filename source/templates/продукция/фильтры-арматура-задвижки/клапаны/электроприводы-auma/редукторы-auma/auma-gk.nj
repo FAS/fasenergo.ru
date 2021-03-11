@@ -47,6 +47,7 @@ description: Конические редукторы AUMA GK от компани
 
 <h2>Технические характеристики</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -210,6 +211,7 @@ description: Конические редукторы AUMA GK от компани
 </tr>
 </tbody>
 </table>
+</div>
 
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>

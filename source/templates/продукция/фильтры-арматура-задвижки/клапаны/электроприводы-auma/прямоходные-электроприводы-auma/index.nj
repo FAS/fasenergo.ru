@@ -27,6 +27,7 @@ description: Прямоходные приводы AUMA ALS 25.1 - ALS 75.1 от
 
 <h2>Технические характеристики</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -100,6 +101,8 @@ description: Прямоходные приводы AUMA ALS 25.1 - ALS 75.1 от
 </tr>
 </tbody>
 </table>
+</div>
+
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>

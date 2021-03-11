@@ -32,6 +32,7 @@ description: Счетные установки от компании ООО «Ф
   { artitle: '18 933', type: 'ФАС-LC&nbspMA&nbsp15GY&nbsp10', connection: '3”', performance: ' 150...757', pressure: '25', material: 'Alu', execution: 'с&nbspтемпературной компенсацией', weight: '46'  }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -63,6 +64,7 @@ description: Счетные установки от компании ООО «Ф
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Исполнение для стационарных систем</h2>
 
@@ -73,6 +75,7 @@ description: Счетные установки от компании ООО «Ф
   { artitle: '18 909', type: 'ФАС-LC&nbspMSA&nbsp;15GY&nbsp;10', connection: '3” ANSI', performance: '265...1325', pressure: '21', material: 'Сталь', execution: 'с&nbspтемпературной компенсацией', weight: '141'  }
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -104,6 +107,7 @@ description: Счетные установки от компании ООО «Ф
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <h2>Характеристики</h2>
 

@@ -48,6 +48,7 @@ description: Шаровой вентиль Goddard серии 202X, включа
 
 <p><strong>Резьбовой торец</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -84,11 +85,13 @@ description: Шаровой вентиль Goddard серии 202X, включа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 <p><strong>Паяные серебром торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -143,6 +146,7 @@ description: Шаровой вентиль Goddard серии 202X, включа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p>* Номинальный размер</p>
 
@@ -163,6 +167,7 @@ description: Шаровой вентиль Goddard серии 202X, включа
 
 <p><strong>Резьбовые торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -235,7 +240,7 @@ description: Шаровой вентиль Goddard серии 202X, включа
 </tr>
 </tbody>
 </table>
-
+</div>
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 
@@ -251,6 +256,7 @@ description: Шаровой вентиль Goddard серии 202X, включа
 
 <p><strong>Резьбовые торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -314,12 +320,14 @@ description: Шаровой вентиль Goddard серии 202X, включа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 
 <p><strong>Паяные серебром торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -365,6 +373,8 @@ description: Шаровой вентиль Goddard серии 202X, включа
 </tr>
 </tbody>
 </table>
+</div>
+
 <p>* Номинальный размер</p>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
@@ -377,6 +387,7 @@ description: Шаровой вентиль Goddard серии 202X, включа
 
 <p><strong>Паяные серебром торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -413,6 +424,7 @@ description: Шаровой вентиль Goddard серии 202X, включа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
@@ -424,6 +436,7 @@ description: Шаровой вентиль Goddard серии 202X, включа
 
 <p><strong>Паяные серебром торцы</strong></p>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -451,6 +464,7 @@ description: Шаровой вентиль Goddard серии 202X, включа
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

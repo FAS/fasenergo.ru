@@ -52,6 +52,7 @@ description: Электрические испарители аммиака от
   {  artitle: 'ФАС№ 20.0106/AE', title: 'Испаритель ФАС 106 AE', performance: '106 кг/ч', price: '13 800 €' }     
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -75,6 +76,7 @@ description: Электрические испарители аммиака от
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

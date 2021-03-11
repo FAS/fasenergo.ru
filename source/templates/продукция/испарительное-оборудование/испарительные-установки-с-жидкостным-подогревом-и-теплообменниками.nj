@@ -38,6 +38,7 @@ description: Испарительные установки с трубчатым
   {  artitle: 'ФАС№ 20.23000/ZH/T/H', title: 'Испарительная установка<br>ФАС 3000 ZH/T/H', performance: '3000 кг/ч', price: 'По запросу' }    
 ] %}
 
+<div class="Table-responsive">
 <table class='Table h-cells-padding-ends--'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -61,6 +62,7 @@ description: Испарительные установки с трубчатым
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 {% endblock %}

@@ -90,6 +90,7 @@ description: Блок управления AUMA MATIC от компании «Ф
 
 <h2>AUMA MATIC. Технические характеристики</h2>
 
+<div class="Table-responsive">
 <table class='Table'>
 <thead>
 <tr>
@@ -136,6 +137,7 @@ description: Блок управления AUMA MATIC от компании «Ф
 </tr>
 </tbody>
 </table>
+</div>
 
 <div class='h-align--center h-margin-top++'>
   <p class='h-h2 text-green h-text--nowrap'>Цена по запросу</p>

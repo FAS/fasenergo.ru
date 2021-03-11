@@ -56,6 +56,7 @@ description: 'Заправочные СПГ-колонки FAS от компан
   { title: '1 литр СПГ', spgm: '0,00423', pgnm: '0,001', spglitr: '0,63', spgtonn: '' }
 ] %}
 
+<div class="Table-responsive"> 
 <table class='Table h-cells-padding-ends-- h-margin-top+'>
   <thead class='h-text- h-align--center'>
     <tr>
@@ -79,6 +80,7 @@ description: 'Заправочные СПГ-колонки FAS от компан
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <div class='h-align--center h-margin-top++'>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>

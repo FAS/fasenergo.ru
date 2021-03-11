@@ -13,7 +13,8 @@ description: Наборы для ремонта регуляторов RegO от
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
  
 <p>  </p>
- 
+
+<div class="Table-responsive"> 
 <table class='Table'>
 <thead>
 <tr>
@@ -166,6 +167,7 @@ description: Наборы для ремонта регуляторов RegO от
 </tr>
 </tbody>
 </table>
+</div>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 

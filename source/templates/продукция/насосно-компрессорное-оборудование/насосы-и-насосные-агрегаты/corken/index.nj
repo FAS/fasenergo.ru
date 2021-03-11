@@ -22,7 +22,7 @@ description: Насосы и насосные агрегаты для СУГ и 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы/fd-150/card.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/corken/насос-fd-150',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -30,7 +30,7 @@ description: Насосы и насосные агрегаты для СУГ и 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы/z2000/card.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/corken/насос-z2000',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -38,7 +38,7 @@ description: Насосы и насосные агрегаты для СУГ и 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы/z3500/card.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/corken/насос-z3500',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -46,7 +46,7 @@ description: Насосы и насосные агрегаты для СУГ и 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы/z4500/card.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/corken/насос-z4500',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}  
 </div>
@@ -59,7 +59,7 @@ description: Насосы и насосные агрегаты для СУГ и 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосные-агрегаты/fd-150/card3.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/corken/насосный-агрегат-fd-150',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -67,7 +67,7 @@ description: Насосы и насосные агрегаты для СУГ и 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосные-агрегаты/z2000/card-n-3.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/corken/насосный-агрегат-z2000',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -75,7 +75,7 @@ description: Насосы и насосные агрегаты для СУГ и 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосные-агрегаты/z3500/card-n-2.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/corken/насосный-агрегат-z3500',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -83,7 +83,7 @@ description: Насосы и насосные агрегаты для СУГ и 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосные-агрегаты/z4500/card.jpg',
     url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/corken/насосный-агрегат-z4500',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}  
 </div>

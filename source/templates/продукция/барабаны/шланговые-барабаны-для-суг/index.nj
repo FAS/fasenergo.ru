@@ -23,7 +23,7 @@ description: Все барабаны Hannay (СУГ) изготавливают 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/барабаны-для-суг/барабан-dpb-pb--card-n.jpg',
     url = '/продукция/барабаны/шланговые-барабаны-для-суг/серия-pb-dpb',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
@@ -31,7 +31,7 @@ description: Все барабаны Hannay (СУГ) изготавливают 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/барабаны-для-суг/барабан-pbgmb-pbgmt--card.jpg',
     url = '/продукция/барабаны/шланговые-барабаны-для-суг/серия-pbgmb-pbgmt',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %} 
   {% call CategoryCard(
@@ -39,7 +39,7 @@ description: Все барабаны Hannay (СУГ) изготавливают 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/барабаны-для-суг/барабан-pbm--card.jpg',
     url = '/продукция/барабаны/шланговые-барабаны-для-суг/серия-pbm',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %} 
   {% call CategoryCard(
@@ -47,7 +47,7 @@ description: Все барабаны Hannay (СУГ) изготавливают 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/барабаны-для-суг/spbn800-spb800--card.jpg',
     url = '/продукция/барабаны/шланговые-барабаны-для-суг/серия-spbn800-spb800',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}    
   {% call CategoryCard(
@@ -55,7 +55,7 @@ description: Все барабаны Hannay (СУГ) изготавливают 
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/блочные-комплексы-для-автомобилей-газовозов/hannay/барабаны-для-суг/вспомогательное-устройство--card.jpg',
     url = '/продукция/барабаны/шланговые-барабаны-для-суг/вспомогательные-устройства',
-    class = 'o-grid__item h-1/4',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
     size = 'small'
   ) %}{% endcall %}    
 </div>
