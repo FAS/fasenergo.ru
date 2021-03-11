@@ -25,7 +25,7 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       description: 'Немецко-российский производитель газового оборудования'
       homepage: if sitename then "https://#{sitename}" else pkg.homepage
       logo: "/#{imagesPath}/logo.svg"
-      viewport: 'width=1000'
+      viewport: 'width=device-width, initial-scale=1'
       themeColor: '#252f38'
       locales: config('locales')
       baseLocale: config('baseLocale')
