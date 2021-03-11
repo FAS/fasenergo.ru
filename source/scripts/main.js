@@ -12,6 +12,7 @@ import './plugins/drawer'
 import './plugins/catalogFilter'
 import './plugins/mailchimp'
 import './plugins/tooltip'
+import './plugins/mobile-menu-toggler'
 import photoSwiper from './plugins/photoswiper'
 import jump from './plugins/jump'
 
@@ -24,6 +25,7 @@ $(() => {
   $('.js-scroll-on-click').scrollOnClick()
   $('.js-expand').expand()
   $('.js-drawer').drawer()
+  $('.js-mobile-menu-btn').mobileMenuToggler()
   photoSwiper()
 
   /**
