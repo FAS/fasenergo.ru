@@ -52,10 +52,10 @@ $padding: ekzo-space();
   z-index: -1;
 
   @media screen and (max-width: $ekzo-bp-phone-ls) {
-
     @include ekzo-theme() {
       background-color: ekzo-theme(drawer-bg);
     }
+
     position: fixed;
     z-index: 1;
   }
