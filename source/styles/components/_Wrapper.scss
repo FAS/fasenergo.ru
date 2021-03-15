@@ -32,24 +32,25 @@
 .Wrapper--site {
   min-width: 0;
 
-  @include ekzo-breakpoint(lap) {
+  @include ekzo-breakpoint(tablet-ls) {
     min-width: $site-min-width;
   }
 }
 
 .Wrapper--sidebar {
   width: 76%;
+  max-width: $sidebar-width;
   display: none;
 
   &-shift {
     padding-left: 0;
 
-    @include ekzo-breakpoint(lap) {
+    @include ekzo-breakpoint(tablet-ls) {
       padding-left: $sidebar-width;
     }
   }
 
-  @include ekzo-breakpoint(lap) {
+  @include ekzo-breakpoint(tablet-ls) {
     display: block;
     width: $sidebar-width;
   }

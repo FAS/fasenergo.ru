@@ -42,7 +42,7 @@
   {% endif %}
 
   {% if gen.article %}
-  <p class='h-bleed-top+ h-padding-top-- h-text- h-margin-bottom+--'>
+  <p class='h-bleed-top+ h-padding-top h-padding-top--@lap h-text- h-margin-bottom+--'>
     <span class='text-green'>код товара:</span>
     <span property='mpn'>{{ gen.article }}</span>
   </p>

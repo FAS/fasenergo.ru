@@ -152,7 +152,7 @@ showContentTitle:          false
     <h2 class='h-padding-bottom-- h-margin-bottom+ h-color--secondary'>Главное о наших генераторах</h2>
 
     {% set pageAboutGensGridClass = 'o-grid h-childs-displace+++' %}
-    {% set pageAboutGensItemClass = 'o-grid__item h-2/21 h-1/2@lap' %}
+    {% set pageAboutGensItemClass = 'o-grid__item h-2/21 h-1/2@lap h-margin-top h-margin-top0@lap' %}
 
     <ul class='{{ pageAboutGensGridClass }} g-list0 h-childs-margin-bottom+--'>
       <li class='{{ pageAboutGensItemClass }}'>

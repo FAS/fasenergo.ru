@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
 
-    @include ekzo-breakpoint(lap) {
+    @include ekzo-breakpoint(tablet-ls) {
         display: none;
     }
 
@@ -20,8 +20,8 @@
         border: none;
 
         &-img {
-            width: 180px;
-            height: auto;
+            width: auto;
+            height: 48px;
         }
     }
 
