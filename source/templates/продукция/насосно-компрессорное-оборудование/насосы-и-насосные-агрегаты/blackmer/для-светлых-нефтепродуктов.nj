@@ -1,0 +1,184 @@
+---
+title:           Насосы Blackmer для светлых нефтепродуктов (197-1533 л/мин)
+contentTitle:    Насосы Blackmer для светлых нефтепродуктов (197-1533 л/мин)
+navTitle:        Насосы Blackmer для светлых нефтепродуктов (197-1533 л/мин)
+breadcrumbTitle: Насосы Blackmer для светлых нефтепродуктов (197-1533 л/мин)
+
+description: Насосы Blackmer для светлых нефтепродуктов (до 1533 л/мин). Установка на автоцистернах, заправка большого объема топлива (например в автопарках), заправка авиационной техники, перекачка нефтепродуктов и других жидкостей.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<h2>Насосы Blackmer серии TX, TXD и TXSD</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-blackmer/насосы-blackmer-для-светлых-нефтепродуктов.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<div class="Table-responsive"> 
+<table class='Table'>
+<thead>
+<tr valign="top">
+<td>Модель насоса</td>
+<td colspan="3">TX1,5</td>
+<td colspan="2">TX(S)D2</td>
+<td colspan="2">TX(S)D2,5</td>
+<td colspan="2">TX(S)D3</td>
+<td colspan="2">TX4</td>
+</tr>
+<tr valign="top">
+<td>Частота, об/мин</td>
+<td>780</td>
+<td>600</td>
+<td>400</td>
+<td>640</td>
+<td>520</td>
+<td>640</td>
+<td>520</td>
+<td>640</td>
+<td>520</td>
+<td>500</td>
+<td>400</td>
+</tr>
+<tr valign="top">
+<td>л/мин</td>
+<td>197</td>
+<td>151</td>
+<td>95</td>
+<td>273</td>
+<td>220</td>
+<td>454</td>
+<td>371</td>
+<td>995</td>
+<td>799</td>
+<td>1911</td>
+<td>1533</td>
+</tr>
+<tr valign="top">
+<td>кум.м/ч</td>
+<td>12</td>
+<td>9</td>
+<td>6</td>
+<td>16</td>
+<td>13</td>
+<td>27</td>
+<td>22</td>
+<td>60</td>
+<td>48</td>
+<td>115</td>
+<td>92</td>
+</tr>
+<tr valign="top">
+<td>кВт</td>
+<td>4,4</td>
+<td>3,4</td>
+<td>2,4</td>
+<td>2,2</td>
+<td>1,9</td>
+<td>3,7</td>
+<td>2,8</td>
+<td>7,1</td>
+<td>5,8</td>
+<td>13,0</td>
+<td>11,2</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p> </p>
+
+<div class="Table-responsive"> 
+<table class='Table'>
+<thead>
+<tr valign="top">
+<td rowspan="2">Модель насоса</td>
+<td>Номинальный проток</td>
+<td>Частота,</td>
+<td>Вязкость</td>
+<td>Диф. давление</td>
+<td>Рабочее давление</td>
+<td>Температура</td>
+</tr>
+<tr valign="top">
+<td>л/мин</td>
+<td>об/мин</td>
+<td>SSU/Cp</td>
+<td>бар</td>
+<td>бар</td>
+<td>град. С</td>
+</tr>
+<tr valign="top">
+<td>TX1,5</td>
+<td>212</td>
+<td>780</td>
+<td>20000/4250</td>
+<td>8,6</td>
+<td>12,1</td>
+<td>149</td>
+</tr>
+<tr valign="top">
+<td>TX(S)D2</td>
+<td>329</td>
+<td>780</td>
+<td>20000/4250</td>
+<td>8,6</td>
+<td>12,1</td>
+<td>149</td>
+</tr>
+<tr valign="top">
+<td>TX(S)D2,5</td>
+<td>594</td>
+<td>780</td>
+<td>20000/4250</td>
+<td>8,6</td>
+<td>12,1</td>
+<td>149</td>
+</tr>
+<tr valign="top">
+<td>TX(S)D3</td>
+<td>1022</td>
+<td>640</td>
+<td>20000/4250</td>
+<td>8,6</td>
+<td>12,1</td>
+<td>149</td>
+</tr>
+<tr valign="top">
+<td>TX4</td>
+<td>1911</td>
+<td>500</td>
+<td>20000/4250</td>
+<td>8,6</td>
+<td>12,1</td>
+<td>149</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>Надежность</h2>
+
+<p>Надежные насосы для быстрой и бесшумной работы. Шиберная конструкция обеспечивает гарантированную производительность и долгий срок службы.</p>
+
+<h3>Отличительные особенности</h2>
+
+<p>Регулируемый предохранительный клапан защищает насос от превышения давления. Устанавливаемый в качестве опции пневматический диафрагменный сбросной клапан облегчает работу с гибкими шлангами и заправочным пистолетом. Т-образный фильтр защищает насос от повреждений, вызванных шлаком или посторонними предметами в емкостях и трубопроводах.</p>  
+
+<h3>Типоразмеры</h2>
+
+<p>Насосы изготавливаются с 1,5, 2, 2,5, 3 и 4-х дюймовыми подводящими трубопроводами и с производительностью от 2 до 113 куб.м/ч при давлении до 8,6 бар.</p>  
+
+<h3>Применение</h2>
+
+<p>Установка на автоцистернах, заправка большого объема топлива (например в автопарках), заправка авиационной техники, перекачка нефтепродуктов, растворителей, масел и других жидкостей в том числе и агрессивных жидкостей.</p>  
+
+
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+{% endblock %}

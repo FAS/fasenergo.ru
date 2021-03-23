@@ -1,0 +1,278 @@
+---
+title:           Насосы Blackmer для густых и вязких веществ (38-954 л/мин)
+contentTitle:    Насосы Blackmer для густых и вязких веществ (38-954 л/мин)
+navTitle:        Насосы Blackmer для густых и вязких веществ (38-954 л/мин)
+breadcrumbTitle: Насосы Blackmer для густых и вязких веществ (38-954 л/мин)
+
+description: Насосы Blackmer для густых и вязких веществ (до 954 л/мин). Насосы серии NP – шиберные насосы, специально разработанные для перекачки широкого ряда чистых, не коррозионноактивных жидкостей.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<h2>Насосы NP1.5B, NP2F, NP2.5F, NP3F, NP4F</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-blackmer/насосы-blackmer-для-густых-и-вязких-веществ.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p>Насосы серии NP – шиберные насосы, специально разработанные для перекачки широкого ряда чистых, не коррозионноактивных жидкостей.</p>
+
+<div class="Table-responsive"> 
+<table class='Table'>
+<thead>
+<tr>
+<td valign="top">Модель насоса</td>
+<td colspan="4" valign="top">NP1.5</td>
+<td colspan="4" valign="top">NP2</td>
+<td colspan="4" valign="top">NP2.5</td>
+</tr>
+<tr>
+<td valign="top">SSU</td>
+<td valign="top">31</td>
+<td valign="top">1,000</td>
+<td valign="top">20,000</td>
+<td valign="top">50,000</td>
+<td valign="top">31</td>
+<td valign="top">1,000</td>
+<td valign="top">20,000</td>
+<td valign="top">50,000</td>
+<td valign="top">31</td>
+<td valign="top">1,000</td>
+<td valign="top">20,000</td>
+<td valign="top">50,000</td>
+</tr>
+<tr>
+<td valign="top">Cp</td>
+<td valign="top">1</td>
+<td valign="top">210</td>
+<td valign="top">4,200</td>
+<td valign="top">11,000</td>
+<td valign="top">1</td>
+<td valign="top">210</td>
+<td valign="top">4,200</td>
+<td valign="top">11,000</td>
+<td valign="top">1</td>
+<td valign="top">210</td>
+<td valign="top">4,200</td>
+<td valign="top">11,000</td>
+</tr>
+<tr>
+<td valign="top">л/м</td>
+<td valign="top">144</td>
+<td valign="top">170</td>
+<td valign="top">91</td>
+<td valign="top">38</td>
+<td valign="top">227</td>
+<td valign="top">265</td>
+<td valign="top">144</td>
+<td valign="top">61</td>
+<td valign="top">416</td>
+<td valign="top">462</td>
+<td valign="top">242</td>
+<td valign="top">106</td>
+</tr>
+<tr>
+<td valign="top">об/мин, макс.</td>
+<td valign="top">640</td>
+<td valign="top">640</td>
+<td valign="top">350</td>
+<td valign="top">155</td>
+<td valign="top">640</td>
+<td valign="top">640</td>
+<td valign="top">350</td>
+<td valign="top">155</td>
+<td valign="top">640</td>
+<td valign="top">640</td>
+<td valign="top">350</td>
+<td valign="top">155</td>
+</tr>
+<tr>
+<td valign="top">кВт</td>
+<td valign="top">1.3</td>
+<td valign="top">1.6</td>
+<td valign="top">1.6</td>
+<td valign="top">0.7</td>
+<td valign="top">2.1</td>
+<td valign="top">2.1</td>
+<td valign="top">1.9</td>
+<td valign="top">0.9</td>
+<td valign="top">3.5</td>
+<td valign="top">3.8</td>
+<td valign="top">3.2</td>
+<td valign="top">1.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p> </p>
+
+<div class="Table-responsive"> 
+<table class='Table'>
+<thead>
+<tr>
+<td valign="top">Модель насоса</td>
+<td colspan="4" valign="top">NP3</td>
+<td colspan="4" valign="top">NP4</td>
+</tr>
+<tr>
+<td valign="top">SSU</td>
+<td valign="top">31</td>
+<td valign="top">1,000</td>
+<td valign="top">20,000</td>
+<td valign="top">50,000</td>
+<td valign="top">31</td>
+<td valign="top">1,000</td>
+<td valign="top">20,000</td>
+<td valign="top">50,000</td>
+</tr>
+<tr>
+<td valign="top">Cp</td>
+<td valign="top">1</td>
+<td valign="top">210</td>
+<td valign="top">4,200</td>
+<td valign="top">11,000</td>
+<td valign="top">1</td>
+<td valign="top">210</td>
+<td valign="top">4,200</td>
+<td valign="top">11,000</td>
+</tr>
+<tr>
+<td valign="top">л/м</td>
+<td valign="top">954</td>
+<td valign="top">1,014</td>
+<td valign="top">511</td>
+<td valign="top">231</td>
+<td valign="top">1,938</td>
+<td valign="top">1,987</td>
+<td valign="top">1,344</td>
+<td valign="top">587</td>
+</tr>
+<tr>
+<td valign="top">об/мин, макс.</td>
+<td valign="top">640</td>
+<td valign="top">640</td>
+<td valign="top">350</td>
+<td valign="top">155</td>
+<td valign="top">640</td>
+<td valign="top">640</td>
+<td valign="top">350</td>
+<td valign="top">155</td>
+</tr>
+<tr>
+<td valign="top">кВт</td>
+<td valign="top">8.6</td>
+<td valign="top">9</td>
+<td valign="top">6.6</td>
+<td valign="top">2.8</td>
+<td valign="top">14.9</td>
+<td valign="top">20.1</td>
+<td valign="top">16.4</td>
+<td valign="top">6.7</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p> </p>
+
+<div class="Table-responsive"> 
+<table class='Table'>
+<thead>
+<tr>
+<td rowspan="2" valign="top">Модель насоса</td>
+<td valign="top">Номинальный проток</td>
+<td valign="top">Частота</td>
+<td colspan="2" valign="top">Вязкость</td>
+<td valign="top">Диф. давление</td>
+<td valign="top">Гидростатическое давление</td>
+<td valign="top">Температура</td>
+</tr>
+<tr>
+<td valign="top">л/мин</td>
+<td valign="top">об/мин</td>
+<td valign="top">SSU</td>
+<td valign="top">Cp</td>
+<td valign="top">бар</td>
+<td valign="top">бар</td>
+<td valign="top">°C</td>
+</tr>
+<tr>
+<td valign="top">NP1.5</td>
+<td>178</td>
+<td>640</td>
+<td>100,000</td>
+<td>22,000</td>
+<td>13.79</td>
+<td>20.68</td>
+<td>260</td>
+</tr>
+<tr>
+<td valign="top">NP2</td>
+<td>291</td>
+<td>640</td>
+<td>100,000</td>
+<td>22,000</td>
+<td>13.79</td>
+<td>20.68</td>
+<td>260</td>
+</tr>
+<tr>
+<td valign="top">NP2.5</td>
+<td>515</td>
+<td>640</td>
+<td>100,000</td>
+<td>22,000</td>
+<td>13.79</td>
+<td>20.68</td>
+<td>260</td>
+</tr>
+<tr>
+<td valign="top">NP3</td>
+<td>1,045</td>
+<td>640</td>
+<td>100,000</td>
+<td>22,000</td>
+<td>13.79</td>
+<td>20.68</td>
+<td>260</td>
+</tr>
+<tr>
+<td valign="top">NP4</td>
+<td>1,985</td>
+<td>500</td>
+<td>100,000</td>
+<td>22,000</td>
+<td>13.79</td>
+<td>20.68</td>
+<td>260 </td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p> </p>
+
+<p><strong>Эффективность – значит энергосбережение.</strong></p>
+
+<p>Высокая объемная эффективность и симметричное двухстороннее крепление подшипников насосов NP значит, что необходима меньшая мощность двигателя по сравнению с другими насосами и до 50 % меньшая мощность при перекачки вязких жидкостей. Таким образом средства экономятся и на стоимости электродвигателя и на электроэнергии.</p>
+
+<p><strong>Самовсасывание и возможность сухого хода.</strong></p>
+
+<p>Насосы NP являются самосвасывающими, чему способствуют самоустанавливающиеся пластины. Насосы NP некоторое время могут работать «всухую» для всасывания жидкости и опорожнения трубопроводов по окончании работы.</p>
+
+<p><strong>Долгий срок службы подшипников.</strong></p>
+
+<p>Оригинальная конструкция корпуса насоса и подшипников позволяет небольшому количеству жидкости протекать от выхода насоса через подшипники. Жидкость прокачивается  от выхода насоса через специальные каналы и подшипник ко входу насоса. Небольшой постоянный поток жидкости через подшипники создает гидродинамическую пленку, которая минимизирует рост температуры, обеспечивая длительный срок службы.</p>
+
+<p><strong>Применения:</strong></p>
+
+<p>Топливо, воск, смазки, клеи, растворители, шоколад, креозот, сироп, битум, патока, поверхностно - активные вещества, пищевые масла, сырая нефть, силикат натрия, жир.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+{% endblock %}

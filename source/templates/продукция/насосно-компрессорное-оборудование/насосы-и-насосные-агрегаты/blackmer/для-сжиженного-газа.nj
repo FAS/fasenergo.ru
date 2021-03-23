@@ -1,0 +1,686 @@
+---
+title:           Насосы Blackmer для сжиженного газа (22-1060 л/мин)
+contentTitle:    Насосы Blackmer для сжиженного газа (22-1060 л/мин)
+navTitle:        Насосы Blackmer для сжиженного газа (22-1060 л/мин)
+breadcrumbTitle: Насосы Blackmer для сжиженного газа (22-1060 л/мин)
+
+description: Насосы Blackmer для сжиженного газа (до 1060 л/мин). Оснащены кронштейном и соединением для непосредственного фланцевого крепления на двигателе. Страна производитель США.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+
+<h2> Насосы LGF 1, LGF 1P,LGВ 1, LGВ 1P</h2> 
+
+{% set pageEqPhotos = [
+  { url: 'equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-blackmer/насосы-blackmer-для-сжиженного-газа.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p>Модель LGF1 оснащена кронштейном и соединением для непосредственного фланцевого крепления на двигателе с С-образным фланцем NEMA. Этот кронштейн позволяет вращать насос для простоты подсоединения труб.Модель LGB1 оснащена соединением и кронштейном для монтажа на обычном основании. В число стандартных конструктивных материалов для этих моделей входят торцевые уплотнения «Buna-N» и лопатки «Dursvanes» для работы, как со сжиженным нефтяным газом, так и с безводным аммиаком. Все модели имеют 1 впускные отверстия с NPT, и на них используются оригинальные комбинированные клапаны, действующие и как перепускные клапаны обратно к емкости, и как внутренние предохранительные клапаны.</p> 
+
+<div class="Table-responsive"> 
+<table class='Table'>
+<thead>
+<tr>
+<td colspan="2">
+<p>Насосные установки</p>
+</td>
+<td>
+<p>Частота вращения насоса и двигателя</p>
+</td>
+<td colspan="2">
+<p>Примерная производительность по пропану при указанных диф. давлении и частоте вращения</p>
+</td>
+<td>
+<p>Макс. диф. давление</p>
+</td>
+<td>
+<p>Макс. рабочее давление</p>
+</td>
+<td colspan="2">
+<p>Обычное время заполнения баллонов с СУГ, мин</p>
+</td>
+<td>
+<p>Стандартный двигатель</p>
+</td>
+</tr>
+<tr>
+<td class="model" rowspan="2">
+<p>Модель</p>
+</td>
+<td rowspan="2">
+<p>Заводские установки предохр. клапана, кПа</p>
+</td>
+<td rowspan="2">
+<p>об/мин</p>
+</td>
+<td>
+<p>345 кПа</p>
+</td>
+<td>
+<p>689 кПа</p>
+</td>
+<td rowspan="2">
+<p>кПа</p>
+</td>
+<td rowspan="2">
+<p>кПа</p>
+</td>
+<td rowspan="2">
+<p>9 кг</p>
+</td>
+<td rowspan="2">
+<p>45 кг</p>
+</td>
+<td rowspan="2">
+<p>л/с</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>л/мин</p>
+</td>
+<td>
+<p>л/мин</p>
+</td>
+</tr>
+<tr>
+<td class="model">
+<p>LGF 1</p>
+</td>
+<td rowspan="2">
+<p>724</p>
+</td>
+<td rowspan="4">
+<p>1750</p>
+</td>
+<td rowspan="2">
+<p>30,3</p>
+</td>
+<td rowspan="2">
+<p>22,7</p>
+</td>
+<td rowspan="4">
+<p>862</p>
+</td>
+<td rowspan="4">
+<p>2413</p>
+</td>
+<td rowspan="2">
+<p>3/4</p>
+</td>
+<td rowspan="2">
+<p>3</p>
+</td>
+<td rowspan="2">
+<p>1</p>
+</td>
+</tr>
+<tr>
+<td class="model">
+<p>LGF 1-DM</p>
+</td>
+</tr>
+<tr>
+<td class="model">
+<p>LGF 1P</p>
+</td>
+<td rowspan="2">
+<p>827</p>
+</td>
+<td rowspan="2">
+<p>49,2</p>
+</td>
+<td rowspan="2">
+<p>37,9</p>
+</td>
+<td rowspan="2">
+<p>1/2</p>
+</td>
+<td rowspan="2">
+<p>2</p>
+</td>
+<td rowspan="2">
+<p>1,5</p>
+</td>
+</tr>
+<tr>
+<td class="model">
+<p>LGF 1P-DM</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<h2>Насосы LGRLF1.26, LGL(F) 1.25, LGL 1.5</h2> 
+
+<p>Модели LGL монтируются на лапах на обычной плите основания. Модели LGLF оснащены интегральным кронштейном и соединением для непосредственного фланцевого крепления на двигателе с С-образным фланцем NEMA. Этот кронштейн также позволяет вращать насос для простоты подсоединения труб. Поставляются насосы с 1,25 и 1.5 впускными отверстиями с резьбой NTP. Все модели оснащены внутренним предохранительным клапаном, сменной гильзой и боковыми дисками для простоты восстановления насосной камеры, если возникнет такая необходимость. Модель LGLRF c 1,25 впускным отверстием оснащены специальной гильзой предлагающей более низкую производительность, чем 1,25 насос LGL. Кроме того эти насосы отличаются простотой при эксплуатационной проверке и обслуживании благодаря их особой конструкции позволяющей собирать насос с такими же допусками как на заводе. В число стандартных конструкционных материалов этих моделей входят торцевые уплотнения «Buna-N» и лопатки «Duravanes»для работы как со сжиженным нефтяным газом так и с безводным аммиаком. Максимальное дифференциальное давление для всех моделей 1034 кПа.</p> 
+
+<div class="Table-responsive"> 
+<table class='Table'>
+<thead>
+<tr>
+<td colspan="2" valign="top">
+<p align="center">Насосные установки</p>
+</td>
+<td valign="top">
+<p align="center">Частота вращения насоса и двигателя</p>
+</td>
+<td colspan="2" valign="top">
+<p align="center">Примерная производительность по пропану при указанных диф. давлении и частоте вращения</p>
+</td>
+<td valign="top">
+<p align="center">Макс. Диф. давление</p>
+</td>
+<td valign="top">
+<p align="center">Макс. Раб. давление</p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" valign="top">
+<p>Модель</p>
+</td>
+<td rowspan="2" valign="top">
+<p align="center">Заводские установки предохр. Клапана кПа</p>
+</td>
+<td rowspan="2" valign="top">
+<p>об./мин.</p>
+</td>
+<td valign="top">
+<p align="center">345 кПа</p>
+</td>
+<td valign="top">
+<p align="center">689 кПа</p>
+</td>
+<td rowspan="2" valign="top">
+<p>кПа</p>
+</td>
+<td rowspan="2" valign="top">
+<p>кПа</p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p align="center">л/мин.</p>
+</td>
+<td valign="top">
+<p align="center">л/мин.</p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>LGRLF 1.25</p>
+</td>
+<td rowspan="4" valign="top">
+<p align="center"> </p>
+<p align="center"> </p>
+<p align="center">1034</p>
+</td>
+<td valign="top">
+<p align="center"> </p>
+<p align="center">1750</p>
+</td>
+<td valign="top">
+<p align="center"> </p>
+<p align="center">60.6</p>
+</td>
+<td valign="top">
+<p align="center"> </p>
+<p align="center">53.0</p>
+</td>
+<td rowspan="4" valign="top">
+<p align="center"> </p>
+<p align="center"> </p>
+<p align="center">1034</p>
+</td>
+<td rowspan="4" valign="top">
+<p align="center"> </p>
+<p align="center"> </p>
+<p align="center">2413</p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>LGLF 1.25</p>
+</td>
+<td rowspan="3" valign="top">
+<p align="center"> </p>
+<p align="center">1750<br />1150</p>
+</td>
+<td valign="top">
+<p align="center">79.5<br />49.2</p>
+</td>
+<td valign="top">
+<p align="center">68.1<br />37.9</p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>LGLF 1.25-DM</p>
+</td>
+<td valign="top">
+<p align="center">79.5<br />49.2</p>
+</td>
+<td valign="top">
+<p align="center">68.1<br />37.9</p>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<p>LGLF 1.5-DM</p>
+</td>
+<td valign="top">
+<p align="center">124.9<br />75.7</p>
+</td>
+<td valign="top">
+<p align="center">109.6<br />64.4</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+
+
+
+<h2>Насосы LGLD2, LGLD3, LGLD4</h2> 
+
+<p>Модели с одно- или двухсторонними ведущими валами поставляются с 2-, 3-, 4 отверстиями с производительностью 114-1135 л/мин. Модели LGLD2 и LGLD 3 уже давно широко используются для установки на автоцистерны благодаря их двухстороннему ведущему валу, что позволяет легко устанавливать насос для вращения, как по часовой так и против часовой стрелки. Все модели оснащены внутренним предохранительным клапаном, сменной гильзой и дисками для простоты ремонта насосной камеры. В число стандартных конструкционных материалов этих моделей входят торцевые уплотнения «Buna-N» и лопатки «Duravanes»для работы как со сжиженным нефтяным газом так и с безводным аммиаком.  Максимальное дифференциальное давление для 2-, 3 моделей 1034 и 862 кПа - для 4 . Входные отверстия с двойными фланцами с резьбой NTP или с приварными фланцами.</p> 
+
+<div class="Table-responsive"> 
+<table class='Table'>
+<thead>
+<tr>
+<td rowspan="2" colspan="2" valign="top" width="120">Насосные установки</td>
+<td rowspan="2" valign="top">Частота вращения насоса и двигателя</td>
+<td rowspan="2" colspan="2" valign="top">Примерная производительность по пропану при указанных диф. давлении и частоте вращения</td>
+<td colspan="2" valign="top">Макс. давление</td>
+<td rowspan="2" colspan="3" valign="top">Характеристики привода (макс. мощность передаваемая приводом), л.с.</td>
+</tr>
+<tr>
+<td valign="top"> Диф.</td>
+<td valign="top"> Раб.</td>
+</tr>
+<tr>
+<td rowspan="2" valign="top">Модель</td>
+<td rowspan="2" valign="top">Заводские установки предохр. Клапана кПа</td>
+<td rowspan="2" valign="top">об./мин.</td>
+<td valign="top">345 кПа</td>
+<td valign="top">689 кПа</td>
+<td rowspan="2" valign="top">кПа</td>
+<td rowspan="2" valign="top">кПа</td>
+<td colspan="3" valign="top">Раб. Цикл, Часов</td>
+</tr>
+<tr>
+<td valign="top">л/мин.</td>
+<td valign="top">л/мин.</td>
+<td valign="top">0 - 3</td>
+<td valign="top">3 - 8</td>
+<td valign="top">8 - 24</td>
+</tr>
+<tr>
+<td rowspan="4" valign="top"> LGLD2-VB</td>
+<td rowspan="27" valign="top">      1034</td>
+<td valign="top">660</td>
+<td valign="top">254</td>
+<td valign="top">216</td>
+<td rowspan="16" valign="top">    1034</td>
+<td rowspan="27" valign="top">      2413</td>
+<td valign="top">9.2</td>
+<td valign="top">9.2</td>
+<td valign="top">7.8</td>
+</tr>
+<tr>
+<td valign="top">520</td>
+<td valign="top">189</td>
+<td valign="top">155</td>
+<td valign="top">6.4</td>
+<td valign="top">6.4</td>
+<td valign="top">5.4</td>
+</tr>
+<tr>
+<td valign="top">420</td>
+<td valign="top">151</td>
+<td valign="top">114</td>
+<td valign="top">4.8</td>
+<td valign="top">4.8</td>
+<td valign="top">4.0</td>
+</tr>
+<tr>
+<td valign="top">330</td>
+<td valign="top">114</td>
+<td valign="top">87</td>
+<td valign="top">3.1</td>
+<td valign="top">3.1</td>
+<td valign="top">2.6</td>
+</tr>
+<tr>
+<td rowspan="4" valign="top"> LGLD2-HRDF</td>
+<td valign="top">640</td>
+<td valign="top">246</td>
+<td valign="top">208</td>
+<td valign="top">8.9</td>
+<td valign="top">7.1</td>
+<td valign="top">5.7</td>
+</tr>
+<tr>
+<td valign="top">520</td>
+<td valign="top">189</td>
+<td valign="top">155</td>
+<td valign="top">7.0</td>
+<td valign="top">5.6</td>
+<td valign="top">4.5</td>
+</tr>
+<tr>
+<td valign="top">420</td>
+<td valign="top">151</td>
+<td valign="top">114</td>
+<td valign="top">5.4</td>
+<td valign="top">4.3</td>
+<td valign="top">3.4</td>
+</tr>
+<tr>
+<td valign="top">350</td>
+<td valign="top">121</td>
+<td valign="top">91</td>
+<td valign="top">4.1</td>
+<td valign="top">3.3</td>
+<td valign="top">2.6</td>
+</tr>
+<tr>
+<td rowspan="4" valign="top"> LGLD3-VB</td>
+<td valign="top">640</td>
+<td valign="top">503</td>
+<td valign="top">424</td>
+<td valign="top">12.1</td>
+<td valign="top">12.1</td>
+<td valign="top">10.2</td>
+</tr>
+<tr>
+<td valign="top">520</td>
+<td valign="top">409</td>
+<td valign="top">318</td>
+<td valign="top">8.9</td>
+<td valign="top">8.9</td>
+<td valign="top">7.5</td>
+</tr>
+<tr>
+<td valign="top">420</td>
+<td valign="top">303</td>
+<td valign="top">227</td>
+<td valign="top">7.3</td>
+<td valign="top">7.2</td>
+<td valign="top">6.1</td>
+</tr>
+<tr>
+<td valign="top">330</td>
+<td valign="top">223</td>
+<td valign="top">159</td>
+<td valign="top">5.4</td>
+<td valign="top">5.4</td>
+<td valign="top">4.5</td>
+</tr>
+<tr>
+<td rowspan="4" valign="top"> LGLD3-HRA</td>
+<td valign="top">640</td>
+<td valign="top">503</td>
+<td valign="top">424</td>
+<td valign="top">25.0</td>
+<td valign="top">25.0</td>
+<td valign="top">20</td>
+</tr>
+<tr>
+<td valign="top">520</td>
+<td valign="top">409</td>
+<td valign="top">318</td>
+<td valign="top">24.3</td>
+<td valign="top">19.4</td>
+<td valign="top">15.5</td>
+</tr>
+<tr>
+<td valign="top">420</td>
+<td valign="top">303</td>
+<td valign="top">227</td>
+<td valign="top">17.8</td>
+<td valign="top">14.3</td>
+<td valign="top">11.4</td>
+</tr>
+<tr>
+<td valign="top">350</td>
+<td valign="top">238</td>
+<td valign="top">170</td>
+<td valign="top">14.4</td>
+<td valign="top">11.5</td>
+<td valign="top">9.2</td>
+</tr>
+<tr>
+<td rowspan="4" valign="top"> LGLD4-VB</td>
+<td valign="top">640</td>
+<td valign="top">1022</td>
+<td valign="top">833</td>
+<td rowspan="11" valign="top">   862</td>
+<td valign="top">26.9</td>
+<td valign="top">26.9</td>
+<td valign="top">22.8</td>
+</tr>
+<tr>
+<td valign="top">520</td>
+<td valign="top">833</td>
+<td valign="top">681</td>
+<td valign="top">19.6</td>
+<td valign="top">19.6</td>
+<td valign="top">16.6</td>
+</tr>
+<tr>
+<td valign="top">420</td>
+<td valign="top">644</td>
+<td valign="top">492</td>
+<td valign="top">15.8</td>
+<td valign="top">15.8</td>
+<td valign="top">13.4</td>
+</tr>
+<tr>
+<td valign="top">330</td>
+<td valign="top">492</td>
+<td valign="top">341</td>
+<td valign="top">11.4</td>
+<td valign="top">11.4</td>
+<td valign="top">9.8</td>
+</tr>
+<tr>
+<td rowspan="4" valign="top"> LGLD4-HRA</td>
+<td valign="top">640</td>
+<td valign="top">1022</td>
+<td valign="top">833</td>
+<td valign="top">25.0</td>
+<td valign="top">25.0</td>
+<td valign="top">20.0</td>
+</tr>
+<tr>
+<td valign="top">520</td>
+<td valign="top">833</td>
+<td valign="top">681</td>
+<td valign="top">24.3</td>
+<td valign="top">19.4</td>
+<td valign="top">15.6</td>
+</tr>
+<tr>
+<td valign="top">420</td>
+<td valign="top">644</td>
+<td valign="top">492</td>
+<td valign="top">17.8</td>
+<td valign="top">14.3</td>
+<td valign="top">11.4</td>
+</tr>
+<tr>
+<td valign="top">350</td>
+<td valign="top">522</td>
+<td valign="top">360</td>
+<td valign="top">14.4</td>
+<td valign="top">11.5</td>
+<td valign="top">9.2</td>
+</tr>
+<tr>
+<td rowspan="3" valign="top">LGLD4-HRB</td>
+<td valign="top">640</td>
+<td valign="top">1022</td>
+<td valign="top">833</td>
+<td rowspan="3" valign="top"> 30.0</td>
+<td rowspan="2" valign="top">30.0</td>
+<td valign="top">26.9</td>
+</tr>
+<tr>
+<td valign="top">500</td>
+<td valign="top">795</td>
+<td valign="top">644</td>
+<td valign="top">24.0</td>
+</tr>
+<tr>
+<td valign="top">400</td>
+<td valign="top">606</td>
+<td valign="top">454</td>
+<td valign="top">24.1</td>
+<td valign="top">19.3</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
+<h2>Насосы TLGLF3, TLGLF4</h2> 
+
+<p>Модель TLGLF3 широко используется для установки на автоцистерны благодаря компактной схеме монтажа, с 3-дюймовым входным фланцем ANSI и 2-дюймовыми дополнительными выходными и входными отверстиями. Производительность от 227 до 416 л/мин. Модель TLGLF4 отличается максимальной производительностью и скоростью обслуживания транспорта. Модель имеет 4-дюймовый входной фланец ANSI, 3-дюймовое дополнительное входное отверстие и пару 2-дюймовых выходных отверстий, что позволяет, при необходимости, использовать 2 шланга, для сокращения потери давления при разгрузке в принимающие системы с ограниченной вместимостью. Производительность от 757 до 1135л.мин. Максимальное дифференциальное давление для обеих моделей 862 кПа. В число стандартных конструкционных материалов этих моделей входят торцевые уплотнения «Buna-N» и лопатки «Duravanes»для работы как со сжиженным нефтяным газом так и с безводным аммиаком.</p> 
+
+<div class="Table-responsive"> 
+<table class='Table'>
+<thead>
+<tr>
+<td colspan="2" valign="top">Стандартный насос</td>
+<td rowspan="4" valign="top">Скорость работы насоса об/мин.</td>
+<td colspan="8" valign="top">Приблизительная производительность по пропану <br />при указанных диф. Давлении и частоты вращения насоса</td>
+</tr>
+<tr>
+<td rowspan="3" valign="top">Модель</td>
+<td rowspan="3" valign="top">Заводские установки предохр. клапана</td>
+<td colspan="4" valign="top">345 кПа</td>
+<td colspan="4" valign="top">689 кПа</td>
+</tr>
+<tr>
+<td rowspan="2" valign="top">л/мин.</td>
+<td rowspan="2" valign="top">Эфф. Мощн.</td>
+<td rowspan="2" valign="top">кВт</td>
+<td valign="top">Крут. момент</td>
+<td rowspan="2" valign="top">л/мин.</td>
+<td rowspan="2" valign="top">Эфф. Мощн.</td>
+<td rowspan="2" valign="top">кВт</td>
+<td valign="top">Крут. момент</td>
+</tr>
+<tr>
+<td valign="top">кг/м</td>
+<td valign="top">кг/м</td>
+</tr>
+<tr>
+<td rowspan="4" valign="top"> TLGLF3</td>
+<td rowspan="8" valign="top">  1034 кПа</td>
+<td valign="top">650</td>
+<td valign="top">352</td>
+<td valign="top">5.0</td>
+<td valign="top">3.7</td>
+<td valign="top">5.6</td>
+<td valign="top">307</td>
+<td valign="top">7.9</td>
+<td valign="top">5.9</td>
+<td valign="top">8.8</td>
+</tr>
+<tr>
+<td valign="top">600</td>
+<td valign="top">322</td>
+<td valign="top">4.5</td>
+<td valign="top">3.4</td>
+<td valign="top">5.4</td>
+<td valign="top">276</td>
+<td valign="top">7.0</td>
+<td valign="top">5.2</td>
+<td valign="top">8.5</td>
+</tr>
+<tr>
+<td valign="top">500</td>
+<td valign="top">265</td>
+<td valign="top">3.6</td>
+<td valign="top">2.7</td>
+<td valign="top">5.2</td>
+<td valign="top">223</td>
+<td valign="top">5.7</td>
+<td valign="top">4.3</td>
+<td valign="top">8.3</td>
+</tr>
+<tr>
+<td valign="top">400</td>
+<td valign="top">197</td>
+<td valign="top">2.8</td>
+<td valign="top">2.1</td>
+<td valign="top">5.1</td>
+<td valign="top">151</td>
+<td valign="top">4.5</td>
+<td valign="top">3.4</td>
+<td valign="top">8.2</td>
+</tr>
+<tr>
+<td rowspan="4" valign="top"> TLGLF4</td>
+<td valign="top">650</td>
+<td valign="top">1060</td>
+<td valign="top">15.5</td>
+<td valign="top">11.6</td>
+<td rowspan="3" valign="top"> 17.3</td>
+<td valign="top">927</td>
+<td valign="top">25.0</td>
+<td valign="top">18.6</td>
+<td valign="top">27.9</td>
+</tr>
+<tr>
+<td valign="top">600</td>
+<td valign="top">984</td>
+<td valign="top">14.3</td>
+<td valign="top">10.7</td>
+<td valign="top">833</td>
+<td valign="top">23.0</td>
+<td valign="top">17.2</td>
+<td valign="top">27.8</td>
+</tr>
+<tr>
+<td valign="top">500</td>
+<td valign="top">795</td>
+<td valign="top">11.9</td>
+<td valign="top">8.9</td>
+<td valign="top">644</td>
+<td valign="top">19.0</td>
+<td valign="top">14.2</td>
+<td rowspan="2" valign="top">27.6</td>
+</tr>
+<tr>
+<td valign="top">400</td>
+<td valign="top">606</td>
+<td valign="top">9.5</td>
+<td valign="top">7.1</td>
+<td valign="top">17.2</td>
+<td valign="top">454</td>
+<td valign="top">15.2</td>
+<td valign="top">11.3</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+{% endblock %}
