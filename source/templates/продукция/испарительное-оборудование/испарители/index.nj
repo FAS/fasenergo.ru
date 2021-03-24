@@ -91,7 +91,9 @@ description: Электрические испарители сжиженных 
 
 <p></p>
 
-{{ VaporizersTable(selectVaporizers(VAPORIZERS)) }}
+<div class="Table-responsive">
+  {{ VaporizersTable(selectVaporizers(VAPORIZERS)) }}
+</div>
 
 <p class='h-text-'><i>* Расположение элементов может отличаться от представленных на рисунках, компания Фасэнергомаш оставляет за собой право внесения технических изменений.</i></p>
 

@@ -16,7 +16,7 @@ description: 'Контактные телефоны и email компании «
 
   <h2 class='h-margin-bottom0'>Отделы</h2>
 
-  <div class='o-grid h-childs-displace++ h-bleed-bottom h-flex--wrap h-flex--nowrap@lap'>
+  <div class='o-grid h-childs-displace++ h-bleed-bottom h-flex--wrap'>
     {% for depName, dep in CONTACTS.departments %}
     {{ Contact(dep, class = 'o-grid__item h-2/2 h-1/2@lap', isDepartment=true) }}
     {% endfor %}
