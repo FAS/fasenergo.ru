@@ -1,0 +1,378 @@
+---
+title:           Жидкостные насосы от компании Sterling SIHI
+contentTitle:    Жидкостные насосы от компании Sterling SIHI
+navTitle:        Жидкостные насосы от компании Sterling SIHI
+breadcrumbTitle: Жидкостные насосы от компании Sterling SIHI
+
+description: Жидкостные насосы от американской компании Sterling SIHI. В течение более 80 лет компания SIHI является одним из ведущих производителей инновационных технологий для насосной и вакуумной техникию
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<h2>Стандартные химические насосы</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Насосы серии<br>SIHIISOchem CBS, CBE, CBM<span class="h-block h-padding-top-- h-text-">Производительность<br>до 650 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-sihiIsochem-cbs-cbe-cbm--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-cbs-cbe-cbm',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы серии CBT<span class="h-block h-padding-top-- h-text-">Производительность<br>до 2200 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-cbt--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-cbt',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Насосы серии DBS<span class="h-block h-padding-top-- h-text-">Производительность<br>до 1200 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-dbs--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-dbs',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  
+</div>
+
+<h2>Стандартные промышленные и водяные насосы</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Насосы со свободным концом вала серии SIHISuperNova ZLN<span class="h-block h-padding-top-- h-text-">Производительность<br>до 1800 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-sihisupernova-zln--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-zln',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы со свободным концом вала серии SPL<span class="h-block h-padding-top-- h-text-">Производительность<br>до 3500 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-spl--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-spl',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Насосы со свободным концом вала серии<br>ULN<span class="h-block h-padding-top-- h-text-">Производительность<br>до 300 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-uln--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-uln',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+        {% call CategoryCard(
+    title = 'Насосы блочной конструкции серии ZLK<span class="h-block h-padding-top-- h-text-">Производительность<br>до 740 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-zlk--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-zlk',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+          {% call CategoryCard(
+    title = 'Насосы прямоточного исполнения inline серии ZLI<span class="h-block h-padding-top-- h-text-">Производительность<br>до 280 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-zli--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-zli',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  </div>
+
+<h2>Стандартные тепловые насосы</h2>
+
+<h3>Насосы для горячей воды</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы открытого типа серии SIHISuperNova ZHN<span class="h-block h-padding-top-- h-text-">Производительность<br>до 600 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-zhn--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-zhn',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+  {% call CategoryCard(
+    title = 'Насосы открытого типа серии SIHISuperNova ZDN<span class="h-block h-padding-top-- h-text-">Производительность<br>до 600 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-zdn--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-zdn',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}  
+
+    {% call CategoryCard(
+    title = 'Насосы открытого типа серии SIHISuperNova ZEN<span class="h-block h-padding-top-- h-text-">Производительность<br>до 600 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-zen-ztn--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-zen',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %} 
+
+      {% call CategoryCard(
+    title = 'Насосы прямоточного исполнения inline, конструктивного ряда ZDI<span class="h-block h-padding-top-- h-text-">Производительность<br>до 140 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-zdi--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-zdi',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %} 
+
+  </div>
+
+  <h3>Насосы для горячих масел</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы со свободным концом вала серии ZTN<span class="h-block h-padding-top-- h-text-">Производительность<br>до 1000 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-zen-ztn--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-ztn',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы блочной конструкци серии ZTK<span class="h-block h-padding-top-- h-text-">Производительность<br>до 200 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-ztk--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-ztk',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Насосы прямоточного исполнения inline, конструктивного ряда ZTI<span class="h-block h-padding-top-- h-text-">Производительность<br>до 200 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-zti--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-zti',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+  </div>
+
+<h2>Открыто-вихревые насосы</h2>
+
+<h3>Насосы открытого типа</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы открытого типа серии CEH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 35 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-ceh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-ceh',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы открытого типа серии AEH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 35 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-aeh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-aeh',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Насосы открытого типа серии AKH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 35 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-akh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-akh',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Насосы конструктивного ряда AOH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 7.5 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-aoh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-aoh',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}  
+
+        {% call CategoryCard(
+    title = 'Насосы конструктивного ряда ASH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 12 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-ash--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-ash',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %} 
+
+          {% call CategoryCard(
+    title = 'Насосы конструктивного ряда ADH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 7.2 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-adh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-adh',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %} 
+  </div>
+
+<h3>Насосы блочной конструкции</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы блочной конструкции серии CEH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 35 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-ceh-n--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-ceh-блочный',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы блочной конструкции серии AEH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 35 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-aeh-n--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-aeh-блочный',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Насосы блочной конструкции серии SC<span class="h-block h-padding-top-- h-text-">Производительность<br>до 65 л/мин</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-sc--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-sc-блочный',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+        {% call CategoryCard(
+    title = 'Насосы блочной конструкции серии CEB<span class="h-block h-padding-top-- h-text-">Производительность<br>до 65 л/мин</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-ceb--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-ceb-блочный',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+          {% call CategoryCard(
+    title = 'Насосы блочной конструкции серии DRV<span class="h-block h-padding-top-- h-text-">Производительность<br>до 2 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-drv--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-drv-блочный',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+  </div>
+
+  <h3>Насосы прямоточное исполнение inline</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы прямоточное исполнение inline, серии AKL и AKV<span class="h-block h-padding-top-- h-text-">Производительность<br>до 12 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-akl-akv--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-akl-akv-блочный',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  </div>
+
+<h2>Насосы высокого давления</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы серии SIHImulti MSL и MSM<span class="h-block h-padding-top-- h-text-">Производительность<br>до 450 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-msh-msl--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-msl-и-msm',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы серии SIHImulti MSH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 250 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-msh-msl--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-msh',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Насосы серии UEA<span class="h-block h-padding-top-- h-text-">Производительность<br>до 220 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-uea--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-uea',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+        {% call CategoryCard(
+    title = 'Насосы серии TKH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 350 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-tkh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-tkh',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  </div>
+
+ <h2>Гигиенические жидкостные насосы</h2>
+
+ <div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы серии NHK<span class="h-block h-padding-top-- h-text-">Производительность<br>до 200 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-nhk--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-nhk',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+   {% call CategoryCard(
+    title = 'Насосы серии SHK<span class="h-block h-padding-top-- h-text-">Производительность<br>до 45 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-shk--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-shk',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %} 
+  </div>
+
+<h2>Мешалки</h2>
+
+ <div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Мешалки MFS<span class="h-block h-padding-top-- h-text-">Производительность<br>до 6200 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/мешалки--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/жидкостные/серия-mfs',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  </div>
+
+{% endblock %}
