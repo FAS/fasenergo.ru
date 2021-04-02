@@ -1,0 +1,283 @@
+---
+title:           Вакуумные насосы от компании Sterling SIHI
+contentTitle:    Вакуумные насосы от компании Sterling SIHI
+navTitle:        Вакуумные насосы от компании Sterling SIHI
+breadcrumbTitle: Вакуумные насосы от компании Sterling SIHI
+
+description: Вакуумные насосы от американской компании Sterling SIHI. В течение более 80 лет компания SIHI является одним из ведущих производителей инновационных технологий для насосной и вакуумной техники.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<h2>Жидкостно-кольцевые вакуумные насосы</h2>
+
+<h3>Насосы блочной конструкции</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы конструктивного ряда LEM и LEL<span class="h-block h-padding-top-- h-text-">Производительность до 470 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-lem-lel--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-lem-lel',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы конструктивного ряда SIHIextruvac LEME<span class="h-block h-padding-top-- h-text-">Производительность до 170 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-leme--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-leme',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Насосы конструктивного ряда SIHIsterivac LEMS<span class="h-block h-padding-top-- h-text-">Производительность до 57 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-lems--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-lems',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  
+</div>
+
+<h3>Насосы со свободным концом вала</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы конструктивного ряда LOH<span class="h-block h-padding-top-- h-text-">Производительность до 58 м³/ч<br>Диапазон давлений 150-1013 мбар</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-loh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-loh-150-mbar',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы конструктивного ряда LPHX и LPH<span class="h-block h-padding-top-- h-text-">Производительность до 10700 м³/ч<br>Диапазон давлений 120-1013 мбар</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-lphx-lph--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-lphx-lph-120-mbar',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Насосы конструктивного ряда SL<span class="h-block h-padding-top-- h-text-">Производительность до 3080 м³/ч<br>Диапазон давлений 120-1013 мбар</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-sl--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-sl-120-mbar',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы конструктивного ряда LOH<span class="h-block h-padding-top-- h-text-">Производительность до 60 м³/ч<br>Диапазон давлений 33-1013 мбар</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-loh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-loh-33-mbar',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  
+      {% call CategoryCard(
+    title = 'Насосы конструктивного ряда LPHX и LPH<span class="h-block h-padding-top-- h-text-">Производительность до 10350 м³/ч<br>Диапазон давлений 33-1013 мбар</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-lphx-lph--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-lphx-lph-33-mbar',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+        {% call CategoryCard(
+    title = 'Насосы конструктивного ряда LEH<span class="h-block h-padding-top-- h-text-">Производительность до 5150 м³/ч<br>Диапазон давлений 33-1013 мбар</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-leh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-leh',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+
+
+
+<h2>Жидкостно-кольцевые компрессоры</h2>
+
+<h3>Одноступенчатые компрессоры</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Компрессоры конструктивного ряда LOH<span class="h-block h-padding-top-- h-text-">Производительность до 51 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-loh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/компрессоры-серия-loh',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Компрессоры конструктивного ряда LPHX и LPH<span class="h-block h-padding-top-- h-text-">Производительность до 1850 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-lphx-lph--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/компрессоры-серия-lphx-lph',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Компрессоры конструктивного ряда KPH<span class="h-block h-padding-top-- h-text-">Производительность до 10500 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-kph--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/компрессоры-серия-kph',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  
+</div>
+
+<h3>Многоступенчатые компрессоры</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Компрессоры конструктивного ряда LOH<span class="h-block h-padding-top-- h-text-">Производительность<br> до 58 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-loh-n--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/многоступенчатые-компрессоры-серия-loh',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Компрессоры конструктивного ряда LPHX<span class="h-block h-padding-top-- h-text-">Производительность<br> до 175 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-lphx-lph--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/многоступенчатые-компрессоры-серия-lphx',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Компрессоры конструктивного ряда KLH<span class="h-block h-padding-top-- h-text-">Производительность<br> до 65 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-klh--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/многоступенчатые-компрессоры-серия-klh',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Компрессоры конструктивного ряда KPH<span class="h-block h-padding-top-- h-text-">Производительность<br>до 3400 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-kph--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/многоступенчатые-компрессоры-серия-kph',
+    class = 'o-grid__item h-2/4 h-1/4@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  
+</div>
+
+<h2>Вакуумные насосы сухого хода</h2>
+
+<h3>Насосы для химического применения</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Компрессоры конструктивного ряда SIHIdry М<span class="h-block h-padding-top-- h-text-">Производительность до 240 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-m--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-m',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Компрессоры конструктивного ряда SIHIdry H<span class="h-block h-padding-top-- h-text-">Производительность до 1000 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-h--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-h',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Двухступенчатая ротационная система SIHIdry<span class="h-block h-padding-top-- h-text-">Производительность до 4000 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/система-серии-sihidry--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/ротационная-система-sihidry',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  
+</div>
+
+<h3>Насосы для индустриального применения</h3>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Насосы конструктивного ряда SIHIdry V<span class="h-block h-padding-top-- h-text-">Производительность до 400 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-v-s--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-v',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Насосы конструктивного ряда SIHIdry S<span class="h-block h-padding-top-- h-text-">Производительность до 1000 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-v-s--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-s',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+      {% call CategoryCard(
+    title = 'Двухступенчатая роторная система SIHIdry<span class="h-block h-padding-top-- h-text-">Производительность до 4000 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/система-серии-sihidry-n--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/роторная-система-sihidry',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  
+</div>
+
+<h2>Газоструйные аппараты</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'Аппарат конструктивного ряда GEV<span class="h-block h-padding-top-- h-text-">Для одноступенчатых жидкостно-кольцевых вакуумных насосов<br>Производительность до 1050 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-gev-gov-gpv--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-gev',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+
+    {% call CategoryCard(
+    title = 'Аппарат конструктивного ряда GOV и GPV<span class="h-block h-padding-top-- h-text-">Для двухступенчатых жидкостно-кольцевых вакуумных насосов<br>Производительность до 400 м³/ч</span>',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/насосы-sterling/серия-gev-gov-gpv--card.jpg',
+    url = '/продукция/насосно-компрессорное-оборудование/насосы-и-насосные-агрегаты/sterling/вакуумные/серия-gov-gpv',
+    class = 'o-grid__item h-2/4 h-1/3@lap',
+    size = 'small'
+  ) %}{% endcall %}
+  
+</div>
+
+{% endblock %}
+
