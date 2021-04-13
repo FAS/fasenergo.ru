@@ -97,5 +97,6 @@ description: 'Контейнер-цистерна от компании «Фас
 </ul>
 
 
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
 
 {% endblock %}
