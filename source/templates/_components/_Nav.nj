@@ -68,6 +68,7 @@
     {% call(depth) Item('/продукция/cистемы-утилизации-тепла', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/когенерационные-установки', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/стабилизаторы-напряжения', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/воздухосборники', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/газорегуляторное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/фильтры-арматура-задвижки', depth = depth) %}{% endcall %}
 

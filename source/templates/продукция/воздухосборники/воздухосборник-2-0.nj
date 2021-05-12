@@ -1,0 +1,409 @@
+---
+title:           Воздухосборник 2,0-1200-0,8
+contentTitle:    Воздухосборник 2,0-1200-0,8
+navTitle:        Воздухосборник 2,0-1200-0,8
+breadcrumbTitle: Воздухосборник 2,0-1200-0,8
+
+description: Воздухосборник 2,0-1200-0,8 от компании «Фасэнергомаш».Воздухосборник (ресивер) — это вертикальный или горизонтальный сосуд, выполненный из металла и предназначенный для сглаживания колебаний давления пара или газа.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<div class="Table-responsive">  
+<table class='Table'>
+<thead>
+<tr>
+<td rowspan="2"><strong>Обозначение </strong></td>
+<td rowspan="2"><strong>Назначение</strong></td>
+<td rowspan="2"><strong>Кол</strong></td>
+<td rowspan="2"><strong>Ду, мм</strong></td>
+<td colspan="2"><strong>Ру</strong></td>
+<td rowspan="2"><strong>Стандарт на фланцы</strong></td>
+</tr>
+<tr>
+<td><strong>Мпа</strong></td>
+<td><strong>кг/см2</strong></td>
+</tr>
+<tr>
+<td>А</td>
+<td>
+<p align="left">Вход воздуха</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">100</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>Б</td>
+<td>
+<p align="left">Выход воздуха</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">100</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>Г</td>
+<td>
+<p align="left">Для дренажа и конденсатоотводчика</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">50</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+</tr>
+<tr>
+<td>Д</td>
+<td>
+<p align="left">Для слива конденсата (резервный)</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">G1´</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+</tr>
+<tr>
+<td>Е</td>
+<td>
+<p align="left">К регулятору производительности</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">15</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>Ж</td>
+<td>
+<p align="left">Для манометра машинного отделения</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">М20х1,5</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">Резьба внутр.</p>
+</td>
+</tr>
+<tr>
+<td>И</td>
+<td>
+<p align="left">Для предохранительного клапана</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">50</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>К</td>
+<td>
+<p align="left">К манометру</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">M20x1,5</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">Резьба внутр.</p>
+</td>
+</tr>
+<tr>
+<td>Л</td>
+<td>
+<p align="left">Люк</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">475</p>
+</td>
+<td>
+<p align="center">1,0</p>
+</td>
+<td>
+<p align="center">10</p>
+</td>
+<td> </td>
+</tr>
+</thead>
+</table>
+</div>
+
+<p> </p>
+
+<div class="Table-responsive">  
+<table class='Table'>
+<thead>
+<tr>
+<td colspan="2"><strong>Наименование параметров</strong></td>
+<td><strong>Значение параметров</strong></td>
+</tr>
+<tr>
+<td colspan="2">Назначение сосуда</td>
+<td>Для сглаживания пульсаций в воздухопроводах</td>
+</tr>
+<tr>
+<td colspan="2">Группа сосуда</td>
+<td>3</td>
+</tr>
+<tr>
+<td colspan="2">Номинальная вместимость, м³</td>
+<td>2</td>
+</tr>
+<tr>
+<td rowspan="2">Давление</td>
+<td>Рабочее, МПа(кг/см²)</td>
+<td rowspan="2">1,3 (13)1,95 (19,5)</td>
+</tr>
+<tr>
+<td>Пробное, МПа(кг/см²)</td>
+</tr>
+<tr>
+<td rowspan="2">Допустимая рабочая температура стенки аппарата</td>
+<td>Максимальная, °С</td>
+<td rowspan="2">+100-40</td>
+</tr>
+<tr>
+<td>Минимальная, °С</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Минимальная допустимая температура стенки, находящейся под давлением, °С</p>
+</td>
+<td>
+<p>-40</p>
+</td>
+</tr>
+<tr>
+<td rowspan="5">
+<p>Характеристика рабочей среды</p>
+</td>
+<td>
+<p>Класс опасности по ГОСТ 121007-76</p>
+</td>
+<td>
+<p>да, 4 кл</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Пожароопасность по ГОСТ 121004-91</p>
+</td>
+<td>
+<p>нет</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Категория и группа взрывоопасности по ГОСТ 121011-78</p>
+</td>
+<td>
+<p>нет</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Коррозийность</p>
+</td>
+<td>
+<p>нет</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Наименование рабочей среды</p>
+</td>
+<td>
+<p>воздух</p>
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="2">
+<p>Скорость коррозии, мм/год</p>
+</td>
+<td>
+<p>0,1</p>
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="2">
+<p>Прибавка на коррозию, мм</p>
+</td>
+<td>
+<p>2</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Установленный срок службы, лет</p>
+</td>
+<td>
+<p>20</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Основной материал</p>
+</td>
+<td>
+<p>09Г2С</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Число циклов нагружения за весь срок службы</p>
+</td>
+<td>
+<p>&lt;1000</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Форма аппарата</p>
+</td>
+<td>
+<p>цилиндрическая</p>
+</td>
+</tr>
+<tr>
+<td rowspan="4">
+<p>Габаритные размеры сосуда, не более</p>
+</td>
+<td>
+<p>диаметр максимальный, мм</p>
+</td>
+<td rowspan="4">
+<p>1216</p>
+<p>2940</p>
+<p>1530</p>
+<p>2370</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>длина, мм</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ширина, мм</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>высота, мм</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Масса, кг</p>
+</td>
+<td>
+<p>1017</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Габаритность аппарата</p>
+</td>
+<td>
+<p>габаритный</p>
+</td>
+</tr>
+</thead>
+</table>
+</div>
+
+<div class='h-align--center h-margin-top++'>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}

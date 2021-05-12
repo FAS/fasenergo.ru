@@ -1,0 +1,450 @@
+---
+title:           Воздухосборник 16-2000-0,8
+contentTitle:    Воздухосборник 16-2000-0,8
+navTitle:        Воздухосборник 16-2000-0,8
+breadcrumbTitle: Воздухосборник 16-2000-0,8
+
+description: Воздухосборник 16-2000-0,8 от компании «Фасэнергомаш».Воздухосборник (ресивер) — это вертикальный или горизонтальный сосуд, выполненный из металла и предназначенный для сглаживания колебаний давления пара или газа.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<div class="Table-responsive">  
+<table class='Table'>
+<thead>
+<tr>
+<td rowspan="2">
+<div align="center"><strong><strong><span>Обозначение</span></strong></strong></div>
+</td>
+<td rowspan="2">
+<div align="left"><strong>Назначение</strong></div>
+</td>
+<td rowspan="2">
+<div align="center"><strong>Кол</strong></div>
+</td>
+<td rowspan="2">
+<div align="center"><strong>Ду, мм</strong></div>
+</td>
+<td colspan="2">
+<div align="center"><strong>Ру</strong></div>
+</td>
+<td rowspan="2">
+<div align="center"><strong>Стандарт на фланцы</strong></div>
+</td>
+</tr>
+<tr>
+<td>
+<div align="center"><strong>МПа</strong></div>
+</td>
+<td>
+<div align="center"><strong>кг/см2</strong></div>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong><strong>А</strong></strong></p>
+</td>
+<td>
+<p align="left">Вход воздуха</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center"><span>200</span></p>
+</td>
+<td>
+<p align="center"><span>1,6</span></p>
+</td>
+<td>
+<p align="center"><span>16</span></p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>Б</strong></p>
+</td>
+<td>
+<p align="left">Выход воздуха</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">200</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>В</strong></p>
+</td>
+<td>
+<p align="left">Резервный</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">50</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>В</strong><strong>¹</strong></p>
+</td>
+<td>
+<p align="left">Резервный</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">50</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>Г</strong></p>
+</td>
+<td>
+<p align="left">Для дренажа</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">50</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>Д</strong></p>
+</td>
+<td>
+<p align="left">Для слива конденсата</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">25</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>Е</strong></p>
+</td>
+<td>
+<p align="left">К регулятору производительности</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">15</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>Ж</strong></p>
+</td>
+<td>
+<p align="left">Для манометра в машинное отделение</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">М20х1,5</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">Резьба внутр.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>И</strong></p>
+</td>
+<td>
+<p align="left">Для предохранительного клапана</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">150</p>
+</td>
+<td>
+<p align="center">1,6</p>
+</td>
+<td>
+<p align="center">16</p>
+</td>
+<td>
+<p align="center">ГОСТ 12820-80</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>К</strong></p>
+</td>
+<td>
+<p align="left">К манометру</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">G1/7</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+<td>
+<p align="center">Резьба</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center"><strong>Л</strong></p>
+</td>
+<td>
+<p align="left">Люк</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">475</p>
+</td>
+<td>
+<p align="center">1,0</p>
+</td>
+<td>
+<p align="center">10</p>
+</td>
+<td>
+<p align="center">-</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p> </p>
+
+<div class="Table-responsive">  
+<table class='Table'>
+<thead>
+<tr>
+<td colspan="2">
+<div><strong>Наименование параметров</strong></div>
+</td>
+<td>
+<div align="center"><strong>Значение параметров</strong></div>
+</td>
+</tr>
+<tr>
+<td colspan="2">Назначение сосуда</td>
+<td>Для сглаживания пульсаций в воздухопроводах</td>
+</tr>
+<tr>
+<td colspan="2">Группа сосуда</td>
+<td>3</td>
+</tr>
+<tr>
+<td colspan="2">Номинальная вместимость, м³</td>
+<td>16</td>
+</tr>
+<tr>
+<td rowspan="2">Давление</td>
+<td>Рабочее, МПа(кг/см²)</td>
+<td rowspan="2">0,8(8)1,11 (11,1)</td>
+</tr>
+<tr>
+<td>Пробное, МПа(кг/см²)</td>
+</tr>
+<tr>
+<td rowspan="2">Допустимая рабочая температура стенки аппарата</td>
+<td>Максимальная, °С</td>
+<td rowspan="2">+100-40</td>
+</tr>
+<tr>
+<td>Минимальная, °С</td>
+</tr>
+<tr>
+<td colspan="2">Минимальная допустимая температура стенки, находящейся под давлением, °С</td>
+<td>
+<p>-40</p>
+</td>
+</tr>
+<tr>
+<td rowspan="5">Характеристика рабочей среды</td>
+<td>Класс опасности по ГОСТ 121007-76</td>
+<td>
+<p>да, 4 кл</p>
+</td>
+</tr>
+<tr>
+<td>Пожароопасность по ГОСТ 121004-91</td>
+<td>
+<p>нет</p>
+</td>
+</tr>
+<tr>
+<td>Категория и группа взрывоопасности по ГОСТ 121011-78</td>
+<td>
+<p>нет</p>
+</td>
+</tr>
+<tr>
+<td>Коррозийность</td>
+<td>
+<p>нет</p>
+</td>
+</tr>
+<tr>
+<td>Наименование рабочей среды</td>
+<td>
+<p>воздух</p>
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="2">Скорость коррозии, мм/год</td>
+<td>
+<p>0,05</p>
+</td>
+</tr>
+<tr>
+<td rowspan="1" colspan="2">Прибавка на коррозию, мм</td>
+<td>
+<p>2</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">Установленный срок службы, лет</td>
+<td>
+<p>20</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">Основной материал</td>
+<td>
+<p>09Г2С</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">Число циклов нагружения за весь срок службы</td>
+<td>
+<p>&lt;1000</p>
+</td>
+</tr>
+<tr>
+<td colspan="2">Форма аппарата</td>
+<td>
+<p>цилиндрическая</p>
+</td>
+</tr>
+<tr>
+<td rowspan="4">Габаритные размеры сосуда, не более</td>
+<td>диаметр максимальный, мм</td>
+<td rowspan="4">
+<p>2016</p>
+<p> </p>
+<p> </p>
+<p>2580</p>
+<p>5630</p>
+</td>
+</tr>
+<tr>
+<td>длина, мм</td>
+</tr>
+<tr>
+<td>ширина, мм</td>
+</tr>
+<tr>
+<td>высота, мм</td>
+</tr>
+<tr>
+<td colspan="2">Габаритность аппарата</td>
+<td>
+<p>габаритный</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class='h-align--center h-margin-top++'>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}
