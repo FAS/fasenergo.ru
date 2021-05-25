@@ -39,11 +39,11 @@ applyWrapperContent: false
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Сертификат соответствия ISO', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат соответствия ISO.pdf')) %}
+{% call Document(title = 'Сертификат соответствия ISO', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат соответствия ISO 21.pdf')) %}
   {# @todo Add description #}
 {% endcall %}
 
-{% call Document(title = 'Certificate of conformity ISO', url = urljoin('/', PATH.docs, '/certs/Fasenergomash - Certificate of conformity ISO.pdf')) %}
+{% call Document(title = 'Certificate of conformity ISO', url = urljoin('/', PATH.docs, '/certs/Fasenergomash - Certificate of conformity ISO 21.pdf')) %}
   {# @todo Add description #}
 {% endcall %}
 
