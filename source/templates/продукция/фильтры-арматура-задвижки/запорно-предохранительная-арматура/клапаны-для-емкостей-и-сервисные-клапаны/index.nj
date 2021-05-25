@@ -90,6 +90,10 @@ description: Клапаны для емкостей и сервисные кла
 
 <hr>
 
+<h3 style="text-align: left;">Скачайте презентацию:</h3>
+<p class='h-margin-ends++ h-align--left'><a class='Btn Btn--primary Btn+ h-text+' href='/{{ PATH.docs }}/catalog/арматура-rego-для-резервуаров-газгольдеров.pdf'target="_blank">Арматура RegO для резервуаров (газгольдеров) (pdf)</a></p>
+
+
 <h2>Конструкционные особенности баллонных клапанов</h2> 
 
 {% set pageEqPhotos = [
