@@ -68,10 +68,10 @@
     {% call(depth) Item('/продукция/cистемы-утилизации-тепла', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/когенерационные-установки', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/стабилизаторы-напряжения', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/продукция/электрозаправочные-станции', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/воздухосборники', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/газорегуляторное-оборудование', depth = depth) %}{% endcall %}
     {% call(depth) Item('/продукция/фильтры-арматура-задвижки', depth = depth) %}{% endcall %}
-
     <li class='Nav__item Nav__item--h2'>Другое</li>
 
     {% call(depth) Item('/продукция/преимущества-наших-генераторов', depth = depth) %}{% endcall %}

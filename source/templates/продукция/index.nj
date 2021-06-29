@@ -188,6 +188,15 @@ description: Немецко-российские газовые генерато
     url = '/продукция/стабилизаторы-напряжения/'
   ) %}{% endcall %}
 
+  <hr>
+
+   {% call CategoryCard(
+    title = 'Электрозаправочные станции',
+    hLevel = 2,
+    image = '/' + PATH.images + '/equipment/электрозаправочные-станции/заправка-фас--card.jpg',
+    url = '/продукция/электрозаправочные-станции/'
+  ) %}{% endcall %}
+
     <hr>
 
    {% call CategoryCard(
